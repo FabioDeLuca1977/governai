@@ -93,7 +93,19 @@
       <div class="md" style="margin-top:18px">${md(p.scheda.replace(/^## .*\n/, "### Scheda pronta\n"))}</div>`);
   }
 
-  const linkAnalisi = () => D.repo ? `${D.repo}/issues/new?template=analisi.yml` : "#analisi";
+  // Le richieste sono file in analisi/richieste/: GitHub apre l'editor con il modello già compilato
+  const MODELLO_RICHIESTA = [
+    "# Titolo del problema", "",
+    "### Problema", "Che cosa non funziona? Se puoi, indica dati o esempi concreti.", "",
+    "### Obiettivo", "Che cosa vorresti ottenere, e in quanto tempo?", "",
+    "### Area principale", "",
+    "### Vincoli o attenzioni", "",
+  ].join(String.fromCharCode(10));
+  const linkAnalisi = () => {
+    if (!D.repo) return "#analisi";
+    const nome = new Date().toISOString().slice(0, 10) + "-nuova-richiesta.md";
+    return `${D.repo}/new/main/analisi/richieste?filename=${encodeURIComponent(nome)}&value=${encodeURIComponent(MODELLO_RICHIESTA)}`;
+  };
 
   // ---------- viste ----------
   const viste = {
@@ -138,7 +150,7 @@
           </div>
         </section>
         <section class="sezione"><h2>Partecipa</h2>
-          <div class="scheda-box"><p>Hai un problema da porre? <a href="${esc(linkAnalisi())}" target="_blank" rel="noopener">Apri una richiesta di analisi</a>: in pochi minuti GovernAI risponde con una diagnosi e tre opzioni. Sono valutate sui valori della Carta, con costi e coperture. Le analisi pubblicate sono nella sezione <a href="#analisi">Analisi</a>.</p></div>
+          <div class="scheda-box"><p>Hai un problema da porre? <a href="${esc(linkAnalisi())}" target="_blank" rel="noopener">Scrivi una richiesta di analisi</a>: entro un giorno GovernAI risponde con una diagnosi e tre opzioni. Sono valutate sui valori della Carta, con costi e coperture. Le analisi pubblicate sono nella sezione <a href="#analisi">Analisi</a>.</p></div>
         </section>`;
     },
 
@@ -166,7 +178,7 @@
       const sel = a.find((x) => x.id === stato.analisi) || a[0];
       return `
         <h1>Analisi su richiesta</h1>
-        <p class="intro">Chiunque nel team può porre un problema aprendo una richiesta su GitHub. GovernAI risponde con una diagnosi e tre opzioni. Le opzioni sono valutate da un panel indipendente sui valori della Carta, con costi, coperture e robustezza.</p>
+        <p class="intro">Chiunque nel team può porre un problema scrivendo una richiesta: il pulsante apre su GitHub un modello già pronto da compilare. Ogni giorno GovernAI, attraverso l'abbonamento Claude e senza costi aggiuntivi, risponde con una diagnosi e tre opzioni. Le opzioni sono valutate da un panel indipendente sui valori della Carta, con costi, coperture e robustezza.</p>
         <p><a class="bottone primario" href="${esc(linkAnalisi())}" target="_blank" rel="noopener">Avvia un'analisi</a></p>
         ${a.length ? `<div class="doppia">
           <ul class="elenco">${a.map((x) => `<li><button data-analisi="${esc(x.id)}" class="${x === sel ? "attivo" : ""}">${esc(x.titolo)}<br><small>${esc(x.id.slice(0, 10))}${x.issue ? " · #" + x.issue : ""}</small></button></li>`).join("")}</ul>
