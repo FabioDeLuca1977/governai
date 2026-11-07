@@ -72,3 +72,11 @@ GovernAI è un prototipo:
 - i punteggi del panel sono giudizi esperti strutturati, non misure.
 
 Prima di qualunque uso pubblico serve una revisione critica da prospettive politiche diverse (red team).
+
+## Licenza
+
+- **Codice:** MIT (vedi [`LICENSE`](LICENSE)).
+- **Contenuti:** Carta dei valori, dossier, schede, analisi e bollettini sono distribuiti con [CC BY 4.0](LICENSE-CONTENUTI.md): si possono riusare liberamente citando GovernAI.
+- **Dati:** restano soggetti alle condizioni delle fonti ufficiali.
+
+GovernAI è un prototipo a scopo sociale. Contributi, critiche e richieste di analisi sono benvenuti.
