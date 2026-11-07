@@ -88,7 +88,22 @@ python revisione_ai.py
 
 ## Esecuzione automatica
 
-L'attività di Windows **"GovernAI - pipeline giornaliera"** lancia `avvia_pipeline.cmd` ogni giorno alle 7:00. Il registro delle esecuzioni è in `stato/pipeline.log`.
+I compiti sono divisi così, per non pagare due volte l'API e non creare conflitti:
+
+| Dove | Quando | Cosa fa | Costo |
+|---|---|---|---|
+| **GitHub Actions** (`.github/workflows/aggiorna.yml`) | Ogni giorno alle 6:00 UTC | Pipeline completa: dati, programma, livello AI, interfaccia, salvataggio nel repository | Gratuito entro i 2.000 minuti al mese dei repository privati (circa 5–10 minuti al giorno); l'API di Claude si paga una sola volta |
+| **Computer locale** (attività Windows "GovernAI - pipeline giornaliera") | Ogni giorno alle 9:00 | `avvia_pipeline.cmd` → `sincronizza.py`: scarica da GitHub i risultati, così la copia locale è sempre aggiornata | Nullo |
+
+**Prima di scaricare.** Se in locale ci sono output generati, la sincronizzazione li accantona con `git stash` e li tiene recuperabili, conservando gli ultimi 7. Le modifiche ai file sorgente restano al loro posto.
+
+**Pipeline completa in locale.** Per rieseguirla a mano, ad esempio per riscaricare un documento da un sito che blocca GitHub:
+
+```bash
+python pipeline.py --completo
+```
+
+Il registro delle esecuzioni locali è in `stato/pipeline.log`.
 
 ## File
 

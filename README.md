@@ -23,7 +23,7 @@ L'interfaccia web pubblicata in `docs/` contiene:
 | `motore/` | Panel di 3 valutatori indipendenti e analisi di robustezza ai valori (SMAA) |
 | `programma/` | 152 varianti, 59 misure di copertura, ottimizzatore senza deficit, schede pronte (articolato normativo, cronoprogramma, indicatori) |
 | `20_programma_governai.md` | Il programma 1.0 in due versioni: base (8,7 mld) e completo (15 mld) |
-| `sistema/` | Sistema dinamico: sentinella delle fonti ufficiali, cruscotto, allerte, programma del momento, livello AI, bollettini |
+| `sistema/` | Sistema dinamico: sentinella delle fonti ufficiali, cruscotto, allerte, programma del momento, livello AI, bollettini; `sincronizza.py` allinea la copia locale a GitHub |
 | `docs/` | Interfaccia web statica, pronta per GitHub Pages |
 
 ## Avvio rapido
