@@ -1,5 +1,5 @@
 {
- "data": "2026-11-07T17:43:51",
+ "data": "2026-11-07T16:45:21",
  "prima_esecuzione": false,
  "eurostat_aggiornati": [],
  "file_aggiornati": [
@@ -7,7 +7,9 @@
  ],
  "documenti_nuovi": [],
  "errori": [],
- "script": {},
+ "script": {
+  "03_ambiente.py": "ok"
+ },
  "serie_cambiate": [],
  "modalita": "mirato"
 }
