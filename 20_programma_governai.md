@@ -2,6 +2,26 @@
 
 *7 novembre 2026. Un programma di governo né di destra né di sinistra: ogni misura è giudicata sui valori dichiarati nella Carta, è finanziata senza deficit e ha una scheda pronta per l'attuazione.*
 
+> **Aggiornamento del 7 novembre 2026: Carta dei valori 2.0, con 10 valori.**
+>
+> **Cosa cambia nella Carta.**
+> - Nuovi valori: **Equità**, **Sicurezza senza controllo assoluto** e **Cittadinanza responsabile**.
+> - Trasparenza e rispetto per le diversità sono ora esplicite dentro Fiducia e Rispetto.
+> - Il panel indipendente ha rivalutato tutte le 52 proposte (alfa di Krippendorff 0,85).
+> - Si applicano le **linee rosse automatiche**. Sono escluse la Difesa nelle versioni a debito e due coperture regressive senza compensazione: l'aumento ulteriore delle accise sul tabacco (AS05) e la soppressione del bonus lavoratrici madri (RB05).
+>
+> **Nuovi totali**, tutti senza deficit:
+> - **programma base: 7,94 mld**, con 13 misure su 14 del nucleo robusto;
+> - **programma completo: 13,74 mld**, con 14 su 14.
+>
+> **Nuovo nucleo robusto.** Con l'equità e la cittadinanza tra i valori, salgono:
+> - inclusione e comunità: squadre contro la dispersione, scuole aperte, progetto di vita per le persone con disabilità, beni confiscati;
+> - giustizia: pena utile, flussi migratori governati dai dati.
+>
+> **Escono dal nucleo** personale sanitario, treni per i pendolari, Case della Comunità, ricerca, casa e acqua. Restano utili e finanziate nel programma completo, ma ora la loro priorità **dipende dai valori**.
+>
+> Le tabelle qui sotto si riferiscono alla versione 1 (7 valori). I dati aggiornati ogni giorno sono nel sito (`docs/`) e in `programma/selezione_*.md`.
+
 ## 1. In sintesi
 
 - **Due versioni, entrambe finanziate senza deficit** nello scenario prudente, cioè con il gettito minimo delle coperture, senza risparmi non certificati e senza recupero di evasione non certificato:

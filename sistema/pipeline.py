@@ -188,6 +188,12 @@ def main() -> int:
     (STATO / "allerte.json").write_text(json.dumps([r["id"] for r in allerte]), encoding="utf-8")
     nuove_allerte = [r for r in allerte if r["id"] not in prec_allerte]
 
+    # 3b. apprendimento: obiettivi raggiunti o mancati, calibrazione delle previsioni
+    if (RADICE / "apprendimento" / "obiettivi.yaml").exists():
+        esegui(["aggiorna_obi.py"], RADICE / "apprendimento")  # serie degli obiettivi derivate dai dati del giorno
+        ok, msg = esegui(["valuta.py"], RADICE / "apprendimento")
+        log.append(msg if ok else f"ERRORE apprendimento: {msg}")
+
     # 4. ricalcolo
     dati_nuovi = bool(sent.get("serie_cambiate")) or bool(nuove_allerte)
     priorita = sorted({p for r in allerte for p in r.get("priorita", [])})
@@ -314,9 +320,14 @@ def main() -> int:
             ok, msg = esegui(["revisione_ai.py"], QUI, timeout=3600)
             print(f"livello AI: {msg}" if ok else f"ERRORE livello AI: {msg}")
 
-    # 8. dati per l'interfaccia web (docs/)
+    # 8. registro di integrità: un anello della catena di impronte per questa esecuzione
+    ok, msg = esegui(["catena.py", "--aggiungi", "aggiornamento", "--nota", f"allerte {len(allerte)}"], RADICE / "integrita")
+    print(f"integrità: {msg}" if ok else f"ERRORE integrità: {msg}")
+
+    # 9. dati per l'interfaccia web (docs/)
     ok, msg = esegui(["esporta_web.py"], QUI)
     print(f"interfaccia web: {msg}" if ok else f"ERRORE interfaccia web: {msg}")
+
     return 0
 
 

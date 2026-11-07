@@ -1,14 +1,10 @@
 # Bollettino GovernAI — 2026-11-07
 
-*Generato automaticamente da `sistema/pipeline.py` alle 16:46. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 18:07. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
-- Modalità di aggiornamento: **mirato**
-- Dataset Eurostat aggiornati: nessuno
-- File ufficiali aggiornati: 1
-- Serie cambiate e archiviate in `dati/storico/`: nessuna
-- Documenti nuovi sulle pagine osservate: 0
+- Download non eseguito in questa esecuzione.
 
 ## 2. Cruscotto
 
@@ -48,7 +44,37 @@
 
 ## 4. Programma del momento
 
-Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
+Il programma di riferimento (tutte le coperture, nucleo robusto prima) costa **13,74 mld/anno**; il programma adattato al momento costa **13,73 mld/anno**. Entrambi sono finanziati senza deficit.
+
+**Differenze rispetto al riferimento** (effetto delle allerte):
+
+- 01-P5: ESSENZIALE → PIENA
+- 04-P1: ESSENZIALE → PILOTA
+- 04-P2: esclusa → ESSENZIALE
+- 05-C4: PIENA → ESSENZIALE
+- 06-C6: ZERO → PIENA
+- 08-P6: PIENA → esclusa
+
+**Cambiamenti rispetto al bollettino precedente:**
+
+- 02-C5: ZERO → ESSENZIALE
+- 03-P3: ESSENZIALE → esclusa
+- 03-P5: ESSENZIALE → PIENA
+- 04-P1: esclusa → PILOTA
+- 04-P3: ESSENZIALE → esclusa
+- 04-P6: ESSENZIALE → PIENA
+- 05-C2: esclusa → ESSENZIALE
+- 05-C3: ESSENZIALE → ZERO
+- 05-C6: ESSENZIALE → PIENA
+- 06-C2: ESSENZIALE → esclusa
+- 06-C6: ZERO → PIENA
+- 07-C1: ESSENZIALE → PIENA
+- 07-C3: ESSENZIALE → PIENA
+- 08-P6: PILOTA → esclusa
+- 09-C2: ESSENZIALE → PIENA
+- 09-C5: ZERO → PIENA
+
+Dettaglio: `programma/selezione_momento.md`.
 
 ## 5. Revisione AI richiesta
 
@@ -56,5 +82,8 @@ Nessuna revisione necessaria.
 
 ## Registro tecnico
 
-- sentinella: sentinella: mirato; Eurostat aggiornati 0, file 1, documenti nuovi 0, serie cambiate 0, errori 0
-- modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
+- apprendimento: 158 KPI, stati {'manuale': 114, 'in osservazione': 44}, aree calibrate 0
+- controlla.py: avvisi: 0  ->  bilancio.md
+- decidi.py: -> esito.md, esito_proposte.csv
+- ottimizza.py (riferimento): spesa 13.74  coperture 11.77  proposte 44/52  -> selezione_riferimento.md
+- ottimizza.py (momento): spesa 13.73  coperture 11.77  proposte 44/52  -> selezione_momento.md

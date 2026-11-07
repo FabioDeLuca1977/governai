@@ -141,3 +141,45 @@ Per il livello 2 **non propongo**:
 - SF13, RA06 e RA05 richiedono di ridurre i trasferimenti a Comuni o SSN per liberare risorse statali.
 
 Ricerche web usate in tutto: 19.
+
+## Aggiornamento valori (Carta 2.0)
+
+*Agente "coperture", 7 novembre 2026. `coperture_menu.csv` ha ora le colonne EQU, SIC e CIT subito dopo FUT (orizzonte medio, effetto della sola misura di copertura). Le altre colonne e l'ordine delle righe sono invariati, salvo le revisioni di RIS, BEN e FID elencate sotto.*
+
+**Criteri.**
+- **EQU**: positivo se il prelievo è progressivo o colpisce rendite e privilegi; negativo se regressivo o se pesa su territori svantaggiati; compensazioni per i più vulnerabili attenuano il segno.
+- **SIC**: 0 per tutte le misure, salvo RA09 (+1: dismissione dei CED residui e delle licenze obsolete riduce il rischio informatico della PA).
+- **CIT**: +1 dove la misura rafforza reciprocità e lealtà fiscale (PE01, PE02, PE03: corrispondenza tra contributi e prestazioni; SF02: meno incentivo a restare sotto soglia; SF13: imposta locale legata ai servizi); −1 per RB04 (vincolo paternalistico sull'uso della Carta del docente). 0 altrove.
+
+**Revisioni per non contare due volte (regola 1 della rubrica).**
+- Effetto distributivo spostato da RIS a EQU (RIS a 0): SAD01, SAD02, SAD06, SAD08, SAD10, SF02, AS01, AS02, AS03, PE03, AS05 (−2), SAD13 (−2), SF11, SF14.
+- Da RIS e BEN a EQU: SAD12 (RIS −2→0, BEN −2→−1), SF15 (RIS −1→0, BEN −2→−1), RB05 (RIS −2→−1, resta l'effetto di genere; BEN −2→−1).
+- SF13: RIS −1→0 (distributivo, ora EQU +2); FID 1→2 (estimi trasparenti e uguali per tutti).
+- RA14: RIS −1→0 (perdita delle imprese beneficiarie compensata dall'eliminazione di rendite, EQU 0); FID 1→2 (addizionalità dimostrata e pubblica).
+- RB04: RIS −1→0, l'effetto sulla libertà di scelta è ora in CIT −1.
+- Restano in RIS gli effetti non distributivi: affidamento dei pensionati (PE01, PE02, PE04), effetto di genere (RB03, RB05), libertà di circolazione (TS02).
+- Dove la compensazione prevista neutralizza l'effetto, EQU vale 0 anche se RIS era −1: SAD06 (salvaguardia under 36), SAD08 (perdita dei gestori contro privilegio dei grandi consumatori).
+
+**Le 5 misure più regressive (EQU).** A parità di punteggio, ordine per gettito massimo.
+
+| Misura | EQU | Perché |
+|---|---|---|
+| RB05, soppressione del bonus madri residuo | −2 | colpisce madri lavoratrici con reddito fino a 32.000 €; accettabile solo con i nidi |
+| AS05, tabacchi al livello UE più alto | −2 | prelievo concentrato sui fumatori a basso reddito, trinciato incluso |
+| SAD12, IVA sul gas domestico al 22% | −2 | bene essenziale; il bonus sociale copre solo ISEE ≤15.000 € |
+| SF15, IVA ridotta dal 10% al 12% | −1 | IVA regressiva, attenuata da esclusioni e maggiorazione di AUU e ADI |
+| SAD13, uscita completa dai SAD del gasolio | −1 | pesa su aziende agricole, aree rurali e prezzi; sostegni ai redditi agricoli |
+
+Seguono con −1: AS01, SAD01, AS02, AS03, SAD02, SAD10, PE03.
+
+**Le 5 misure più progressive (EQU).**
+
+| Misura | EQU | Perché |
+|---|---|---|
+| SF13, catasto a valori di mercato e IMU sulle prime case di pregio | +2 | franchigia di valore, detrazione piena per ISEE ≤25.000 € |
+| SF14, imposta di successione | +2 | colpisce patrimoni ereditati oltre 500.000 € per erede |
+| SF06, detrazione sanitaria decrescente tra 50.000 e 120.000 € | +2 | salve disabilità, cronicità e non autosufficienza |
+| SF07, deducibilità dei fondi sanitari oltre 75.000 € | +2 | beneficio concentrato sui redditi più alti |
+| PE01, contributo sulle pensioni oltre 100.000 € | +2 | aliquote progressive, solo sulla quota retributiva |
+
+Seguono con +1: SF11, SF12, SAD14, SAD05, SAD03, SAD11, SF01, SF02, SF03, SF08, SF09, PE02, PE04, RB01, RB02, RA10.

@@ -1,0 +1,159 @@
+id,proposta,nome,unita,direzione,base,periodo_base,obiettivo,valori,ultimo,periodo,progresso,atteso,stato
+01-P1-a,01-P1,Quota di atti sopra soglia con valutazione generazionale,% atti,su,0.0,2026,100.0,"FUT,FID",,,,,manuale
+01-P1-b,01-P1,"Giudizi ""non sostenibile"" con risposta scritta del Governo",% giudizi,su,,,100.0,"FID,FUT",,,,,manuale
+01-P1-c,01-P1,Scostamento tra costo stimato e costo effettivo delle misure valutate,% scostamento,giu,,,,"FID,FUT",,,,,manuale
+01-P2-a,01-P2,Numero di spese fiscali erariali,numero,giu,573.0,2026,400.0,"FID,EQU",,,,,manuale
+01-P2-b,01-P2,Riordino conseguito rispetto all'obiettivo del Piano,"% di 7,37 mld",su,0.0,,100.0,"FUT,FID",,,,,manuale
+01-P2-c,01-P2,Quota di misure con scheda di valutazione pubblica,% misure,su,0.0,2026,100.0,FID,,,,,manuale
+01-P3-a,01-P3,Gap IVA,mld €,giu,34.4,2023,28.5,"FID,CIT,EQU",,,,,manuale
+01-P3-b,01-P3,Tempo medio dei rimborsi IVA ai contribuenti affidabili,giorni,giu,,,60.0,"FID,INN",,,,,manuale
+01-P3-c,01-P3,Nuovi condoni o definizioni agevolate,numero,giu,,,0.0,"FID,CIT,EQU",,,,,manuale
+01-P4-a,01-P4,Quota di occupati in imprese con meno di 50 addetti,%,giu,60.0,2024,58.5,INN,60.0,2024,-0.0,,in osservazione
+01-P4-b,01-P4,Valore aggiunto per addetto dei beneficiari rispetto al gruppo di controllo,% vs controllo,su,0.0,2026,5.0,INN,,,,,manuale
+01-P4-c,01-P4,"PIL per ora lavorata, indicatore di contesto",indice 2015=100,su,100.4,2025,104.0,"INN,BEN",100.374,2025,-0.007,,in osservazione
+01-P5-a,01-P5,Nuova capacità rinnovabile contrattualizzata con PPA aggregati di PMI,GW,su,0.0,2026,1.5,"FUT,INN",,,,,manuale
+01-P5-b,01-P5,PMI aderenti,imprese,su,0.0,2026,4000.0,INN,,,,,manuale
+01-P5-c,01-P5,Prezzo medio pagato dalle aderenti rispetto al PUN,% rispetto al PUN,giu,,2025,-15.0,"BEN,INN",,,,,manuale
+01-P6-a,01-P6,Quota di presenze in luglio e agosto,%,giu,34.5,2024,32.0,"BPA,BEN",34.27,2025,0.092,,in osservazione
+01-P6-b,01-P6,Quota del gettito dell'imposta destinata ai servizi per i residenti,% gettito,su,,,50.0,"BPA,BEN",,,,,manuale
+01-P6-c,01-P6,Comuni ad alta intensità con tariffa modulata,comuni,su,0.0,2026,150.0,BPA,,,,,manuale
+02-C1-a,02-C1,Occupati 18+ a rischio di povertà,%,giu,10.2,2025,8.5,"EQU,BEN",10.2,2025,-0.0,,in osservazione
+02-C1-b,02-C1,Retribuzioni contrattuali orarie reali rispetto a gen. 2021,% vs gen. 2021,su,-10.2,2026-09,-3.0,"BEN,EQU",-10.2,2026-09,0.0,,in osservazione
+02-C1-c,02-C1,Dipendenti pagati sotto il contratto di riferimento o la soglia,% dipendenti,giu,,,2.0,"EQU,RIS",,,,,manuale
+02-C2-a,02-C2,Posti nido ogni 100 bambini 0-2 al Sud,posti per 100 bambini,su,19.0,2023/24,33.0,"EQU,FUT",,,,,manuale
+02-C2-b,02-C2,"Posti nido ogni 100 bambini 0-2, Italia",posti per 100 bambini,su,31.6,2023/24,40.0,"EQU,FUT,BEN",,,,,manuale
+02-C2-c,02-C2,Tasso di occupazione femminile 20-64,%,su,58.0,2025,62.5,"EQU,BEN",58.0,2025,0.0,,in osservazione
+02-C2-d,02-C2,Padri che fruiscono del congedo di paternità,%,su,,,75.0,"EQU,RIS",,,,,manuale
+02-C3-a,02-C3,Spesa pensionistica / PIL rispetto allo scenario RGS,% PIL,giu,15.2,2025,,FUT,,,,,manuale
+02-C3-b,02-C3,Leggi previdenziali con relazione UPB sul costo per generazione,% leggi,su,0.0,2026,100.0,"FUT,FID",,,,,manuale
+02-C3-c,02-C3,Neoassunti iscritti alla previdenza complementare,punti %,su,,,,"FUT,BEN",,,,,manuale
+02-C4-a,02-C4,"Incidenza della povertà assoluta, individui",%,giu,9.3,2025,8.0,"EQU,RIS",,,,,manuale
+02-C4-b,02-C4,"Incidenza della povertà assoluta, minori",%,giu,12.5,2025,10.5,"EQU,FUT",,,,,manuale
+02-C4-c,02-C4,Nuclei beneficiari con reddito da lavoro 12 mesi dopo l'ingresso,punti %,su,,,,"CIT,EQU",,,,,manuale
+02-C5-a,02-C5,Divario occupazionale per limitazioni gravi,punti %,giu,43.4,2025,37.0,"RIS,EQU",43.4,2025,-0.0,,in osservazione
+02-C5-b,02-C5,Occupazione 15-64 delle persone con limitazioni gravi,%,su,32.5,2021,38.0,"RIS,EQU",,,,,manuale
+02-C5-c,02-C5,Progetti di vita attivi,migliaia di progetti,su,,,300.0,RIS,,,,,manuale
+02-C6-a,02-C6,"Leggi oltre 0,5 mld con valutazione generazionale",% leggi,su,0.0,2026,100.0,"FUT,FID",,,,,manuale
+02-C6-b,02-C6,Tasso di occupazione 20-64,%,su,67.6,2025,70.5,"BEN,FUT",67.6,2025,0.0,,in osservazione
+02-C6-c,02-C6,NEET 15-29,%,giu,13.3,2025,11.0,"APC,EQU,FUT",13.3,2025,-0.0,,in osservazione
+03-P1-a,03-P1,SAD alle fonti fossili,mld €,giu,20.63,2025,15.5,FUT,20.632099999999998,2025,-0.0,,in osservazione
+03-P1-b,03-P1,Emissioni dei trasporti,Mt CO2eq,giu,113.3,2024,103.0,FUT,113.28184,2024,0.002,,in osservazione
+03-P1-c,03-P1,"Reddito disponibile reale dei primi due decili, effetto della riforma",variazione %,su,,,0.0,EQU,,,,,manuale
+03-P2-a,03-P2,Quota rinnovabili sulla domanda elettrica,%,su,41.1,2025,62.0,"FUT,INN",,,,,manuale
+03-P2-b,03-P2,Nuova capacità rinnovabile installata,GW/anno,su,7.19,2025,10.0,"FUT,INN",,,,,manuale
+03-P2-c,03-P2,Tempo medio di autorizzazione degli impianti in area idonea,giorni,giu,,,,"INN,FID",,,,,manuale
+03-P3-a,03-P3,Perdite idriche totali in distribuzione,%,giu,42.4,2022,33.0,"FUT,BEN",42.35002822987733,2022,0.005,,in osservazione
+03-P3-b,03-P3,Regioni con perdite oltre il 50%,regioni,giu,5.0,2022,0.0,"EQU,FUT",5.0,2022,-0.0,,in osservazione
+03-P3-c,03-P3,Acqua reflua riutilizzata in agricoltura,mln m3,su,,,,FUT,,,,,manuale
+03-P4-a,03-P4,Imprese con polizza catastrofale,% imprese,su,16.0,2026-04,80.0,"SIC,FUT",,,,,manuale
+03-P4-b,03-P4,Consumo di suolo netto annuo,km²/anno,giu,102.0,2025,35.0,"BPA,FUT",,,,,manuale
+03-P4-c,03-P4,Rapporto tra spesa per la prevenzione e spesa per le emergenze,rapporto,su,,,2.0,"SIC,FUT",,,,,manuale
+03-P5-a,03-P5,Emissioni agricole,Mt CO2eq,giu,28.0,2024,26.0,FUT,28.00899,2024,-0.004,,in osservazione
+03-P5-b,03-P5,SAU sotto contratti a risultato,% SAU,su,0.0,2026,15.0,"FUT,BPA",,,,,manuale
+03-P5-c,03-P5,"Aziende sotto i 20 ha aderenti, sul totale degli aderenti",% aderenti,su,,,50.0,EQU,,,,,manuale
+04-P1-a,04-P1,Opere PNRR locali censite con servizio in esercizio,% opere,su,,,90.0,"FUT,FID",,,,,manuale
+04-P1-b,04-P1,Spesa PNRR prevista oltre il 2026 effettivamente sostenuta,"% di 24,2 mld",su,0.0,2026,100.0,FUT,,,,,manuale
+04-P1-c,04-P1,Quota dei costi di gestione a carico ordinario degli enti,%,su,20.0,,100.0,"FUT,CIT",,,,,manuale
+04-P2-a,04-P2,Inquilini a prezzo di mercato con costo abitativo oltre il 40% del reddito,%,giu,22.3,2025,17.5,"BEN,EQU",22.3,2025,-0.0,,in osservazione
+04-P2-b,04-P2,Alloggi ERP non assegnabili recuperati e riassegnati,alloggi,su,0.0,2026,60000.0,"BEN,EQU",,,,,manuale
+04-P2-c,04-P2,Contratti ASA attivi,contratti,su,0.0,2026,100000.0,"BEN,EQU",,,,,manuale
+04-P3-a,04-P3,Passeggeri giornalieri su treni regionali,mln passeggeri/giorno,su,2.54,2024,3.2,"BEN,FUT",,,,,manuale
+04-P3-b,04-P3,Emissioni del trasporto stradale,Mt CO2eq,giu,105.0,2024,97.0,FUT,105.00425,2024,-0.001,,in osservazione
+04-P3-c,04-P3,Auto ogni 1.000 abitanti,auto per 1.000 ab.,giu,709.0,2025,700.0,"FUT,BEN",709.0,2025,-0.0,,in osservazione
+04-P4-a,04-P4,Nuove opere oltre 500 mln con valutazione indipendente pubblica,% opere,su,0.0,2026,100.0,"FID,FUT",,,,,manuale
+04-P4-b,04-P4,Scostamento medio dei costi finali dalle previsioni,% scostamento,giu,,,,"FID,FUT",,,,,manuale
+04-P4-c,04-P4,Decisioni del CdM motivate pubblicamente dopo una valutazione negativa,% decisioni,su,,,100.0,FID,,,,,manuale
+04-P5-a,04-P5,Materie LEP con costo quantificato e pubblicato,% materie,su,0.0,2026,100.0,"EQU,FID",,,,,manuale
+04-P5-b,04-P5,Intese con relazione tecnica per materia e clausola di rientro,% intese,su,0.0,2026-02-18,100.0,"EQU,FID",,,,,manuale
+04-P5-c,04-P5,Quota del fabbisogno LEP aggiuntivo finanziata,% fabbisogno,su,0.0,,,EQU,,,,,manuale
+04-P6-a,04-P6,Presidi multiservizio attivi,presidi,su,0.0,2026,1000.0,"EQU,BPA",,,,,manuale
+04-P6-b,04-P6,Tempo medio di accesso al pronto soccorso e alla scuola secondaria nei comuni periferici e ultraperiferici,% tempo,giu,,,,EQU,,,,,manuale
+04-P6-c,04-P6,Popolazione delle aree interne del Mezzogiorno rispetto alla previsione ISTAT,mln abitanti vs previsione,su,,,,"EQU,BPA,FUT",,,,,manuale
+05-C1-a,05-C1,ELET 18-24 Isole,%,giu,13.7,2025,9.5,"APC,EQU",13.7,2025,-0.0,,in osservazione
+05-C1-b,05-C1,ELET 18-24 maschi,%,giu,10.1,2025,7.5,"APC,EQU",10.1,2025,-0.0,,in osservazione
+05-C1-c,05-C1,Alunni di V primaria almeno al livello base in matematica,%,su,63.0,2026,68.0,"APC,EQU",,,,,manuale
+05-C2-a,05-C2,Adulti 25-64 in formazione,%,su,10.8,2025,16.0,APC,10.8,2025,0.0,,in osservazione
+05-C2-b,05-C2,"Idem, aree rurali",%,su,9.4,2025,14.0,"APC,EQU",9.4,2025,0.0,,in osservazione
+05-C2-c,05-C2,Quota di titolari della dote maggiorata tra gli utilizzatori,%,su,,,45.0,"EQU,APC",,,,,manuale
+05-C3-a,05-C3,"R&S finanziata dalla PA, % PIL",% PIL,su,0.54,2024,0.61,"INN,APC",0.54,2024,0.0,,in osservazione
+05-C3-b,05-C3,"Spesa totale in R&S, % PIL",% PIL,su,1.41,2024,1.6,INN,1.37,2025,-0.211,,in osservazione
+05-C3-c,05-C3,Saldo migratorio dei laureati italiani 25-34,laureati/anno,su,-13000.0,2019-2024 (media annua),-6000.0,"APC,FUT",,,,,manuale
+05-C4-a,05-C4,Laureati e diplomati terziari 25-34,%,su,31.1,2025,35.0,APC,31.1,2025,0.0,,in osservazione
+05-C4-b,05-C4,Iscritti ITS Academy,iscritti,su,33400.0,2026-02-01,85000.0,"APC,INN",,,,,manuale
+05-C4-c,05-C4,Idonei non beneficiari,studenti,giu,,2024/25,0.0,"EQU,APC",,,,,manuale
+05-C5-a,05-C5,Sedentarietà,%,giu,30.8,2025,27.5,BEN,,,,,manuale
+05-C5-b,05-C5,NEET 15-29,%,giu,13.3,2025,11.0,"APC,EQU",13.3,2025,-0.0,,in osservazione
+05-C5-c,05-C5,Ore di apertura extra-curricolare per plesso e partecipanti under 18 con ISEE basso,ore/anno per plesso,su,,,400.0,"APC,CIT,EQU",,,,,manuale
+05-C6-a,05-C6,Docenti con formazione AI certificata,% docenti,su,,,100.0,"APC,INN",,,,,manuale
+05-C6-b,05-C6,PISA matematica,punti PISA,su,468.0,2025,468.0,APC,,,,,manuale
+05-C6-c,05-C6,Alunni di V primaria almeno al livello base in matematica,%,su,63.0,2026,68.0,APC,,,,,manuale
+06-C1-a,06-C1,"Persone con bisogni di cure non soddisfatti per costo, distanza o attesa",%,giu,2.5,2025,1.5,"BEN,EQU",2.5,2025,-0.0,,in osservazione
+06-C1-b,06-C1,Bisogni non soddisfatti per sola attesa,%,giu,0.9,2025,0.4,"BEN,FID",0.9,2025,-0.0,,in osservazione
+06-C1-c,06-C1,Prestazioni B e D erogate nei tempi,% prestazioni,su,,2026-H1,90.0,"BEN,FID",,,,,manuale
+06-C2-a,06-C2,Infermieri praticanti per 1.000 abitanti,per 1.000 ab.,su,6.92,2024,7.7,BEN,6.916,2024,-0.005,,in osservazione
+06-C2-b,06-C2,Rapporto infermieri/medici,rapporto,su,1.2,2024,1.4,BEN,1.202,2024,0.01,,in osservazione
+06-C2-c,06-C2,Posti di medicina generale scoperti,posti,giu,5500.0,2025,,"BEN,EQU",,,,,manuale
+06-C3-a,06-C3,CdC pienamente operative,% CdC,su,3.9,2025-H2,80.0,"BEN,EQU",,,,,manuale
+06-C3-b,06-C3,OdC con almeno un servizio,% OdC,su,27.4,2025-H2,85.0,BEN,,,,,manuale
+06-C3-c,06-C3,Over 65 in ADI,%,su,,,10.0,"BEN,EQU",,,,,manuale
+06-C4-a,06-C4,Nuovi beneficiari con valutazione multidimensionale unica,% nuovi beneficiari,su,0.0,2026,100.0,"BEN,RIS",,,,,manuale
+06-C4-b,06-C4,Quota del budget usata per lavoro regolare o servizi accreditati,% budget,su,,,60.0,"BEN,FID",,,,,manuale
+06-C4-c,06-C4,Persone in lista d'attesa per RSA,persone,giu,243000.0,2026,,"BEN,RIS",,,,,manuale
+06-C5-a,06-C5,Quota del FSN destinata alla salute mentale,% FSN,su,,,,BEN,,,,,manuale
+06-C5-b,06-C5,Personale dei DSM,unità,su,30101.0,2022,,BEN,,,,,manuale
+06-C5-c,06-C5,Accessi in PS per crisi psichiatriche di under 25,accessi,giu,,,,BEN,,,,,manuale
+06-C6-a,06-C6,Spesa per prevenzione sulla spesa sanitaria corrente,% spesa corrente,su,4.5,2025,5.5,"BEN,FUT",4.5,2025,0.0,,in osservazione
+06-C6-b,06-C6,Scostamento della spesa farmaceutica dal tetto,mld €,giu,4.77,2025,0.5,"FUT,FID",,,,,manuale
+06-C6-c,06-C6,Prevalenza di fumatori adulti,punti %,giu,,,,BEN,,,,,manuale
+07-C1-a,07-C1,"Disposition time civile, tre gradi",giorni,giu,1789.0,2025,1400.0,"FID,RIS",1789.0,2025,-0.0,,in osservazione
+07-C1-b,07-C1,Disposition time civile in tribunale,giorni,giu,435.0,2025,360.0,"FID,RIS",,,,,manuale
+07-C1-c,07-C1,"Disposition time penale, tre gradi",giorni,giu,958.0,2025,830.0,"FID,RIS",958.0,2025,-0.0,,in osservazione
+07-C2-a,07-C2,Affollamento sui posti regolamentari,%,giu,128.8,2026-09-30,105.0,"RIS,SIC",128.7903304415635,2026-09-30,0.0,,in osservazione
+07-C2-b,07-C2,Detenuti presenti,detenuti,giu,66063.0,2026-09-30,56000.0,"RIS,SIC",66063.0,2026-09-30,-0.0,,in osservazione
+07-C2-c,07-C2,"Recidiva a 3 anni, misure alternative vs carcere",% recidiva,giu,,,,"SIC,RIS",,,,,manuale
+07-C3-a,07-C3,Rimpatri eseguiti / ordini di allontanamento,%,su,22.0,2025,35.0,"SIC,FID",22.45,2025,0.035,,in osservazione
+07-C3-b,07-C3,Durata media della procedura d'asilo in prima istanza,mesi,giu,,,6.0,"RIS,FID",,,,,manuale
+07-C3-c,07-C3,Conversione dei nulla osta in contratti,%,su,,,75.0,"FID,BEN",,,,,manuale
+07-C4-a,07-C4,Immobili ancora in gestione ANBSC,immobili,giu,19414.0,2025-12-31,11000.0,"SIC,CIT",,,,,manuale
+07-C4-b,07-C4,Beni opzionati / beni proposti agli enti,%,su,44.8,2025,70.0,"CIT,SIC",,,,,manuale
+07-C4-c,07-C4,Immobili destinati nell'anno,immobili/anno,su,3639.0,2025,5000.0,"CIT,SIC",,,,,manuale
+07-C5-a,07-C5,"Spesa difesa core, % del PIL",% PIL,su,2.1,2026,,SIC,2.1,2026,,,in osservazione
+07-C5-b,07-C5,Quota degli investimenti in acquisti congiunti UE,% investimenti,su,,,40.0,"SIC,FUT",,,,,manuale
+07-C5-c,07-C5,Debito/PIL rispetto al percorso UE,% PIL,giu,136.7,2025,,FUT,136.7,2025,,,in osservazione
+07-C6-a,07-C6,Comuni sotto 50k e aziende sanitarie coperti da un SOC,% enti,su,0.0,2026,100.0,SIC,,,,,manuale
+07-C6-b,07-C6,Incidenti con impatto in enti locali e sanità,incidenti,giu,,,,SIC,,,,,manuale
+07-C6-c,07-C6,Tempo medio di ripristino dopo un ransomware,giorni,giu,,,,SIC,,,,,manuale
+08-P1-a,08-P1,Quota di atti obbligati con VIP-AI pubblicata nei termini,% atti,su,0.0,2026,95.0,"FID,INN",,,,,manuale
+08-P1-b,08-P1,Quota di scostamenti rilevanti con relazione motivata,% scostamenti,su,0.0,2026,95.0,FID,,,,,manuale
+08-P1-c,08-P1,Inviti al sorteggio accettati,% inviti,su,,,15.0,CIT,,,,,manuale
+08-P1-d,08-P1,Affluenza alle politiche,%,su,63.9,2022,,"CIT,FID",,,,,manuale
+08-P2-a,08-P2,Questioni di fiducia al mese,questioni/mese,giu,2.85,XIX legislatura,1.0,"FID,CIT",,,,,manuale
+08-P2-b,08-P2,Quota di leggi sopra 100 mln con clausola valutativa attuata,% leggi,su,,,90.0,FID,,,,,manuale
+08-P2-c,08-P2,Decreti attuativi pendenti oltre 12 mesi,decreti,giu,,,,FID,,,,,manuale
+08-P3-a,08-P3,Affluenza alle politiche,%,su,63.9,2022,66.0,"CIT,FID",,,,,manuale
+08-P3-b,08-P3,Elettori fuorisede che votano nel comune di domicilio,elettori,su,,,500000.0,"CIT,RIS",,,,,manuale
+08-P3-c,08-P3,Modifiche agli elementi fondamentali nei 12 mesi prima del voto,modifiche,giu,1.0,2026,0.0,"FID,CIT",,,,,manuale
+08-P4-a,08-P4,Saldo netto Italia sul solo QFP,mld €,su,-4.1,2025,-3.0,"FUT,EQU",-4.1377670665579975,2025,-0.034,,in osservazione
+08-P4-b,08-P4,Quota del QFP 2028–34 finanziata da nuove risorse proprie,% rimborso NGEU,su,0.0,2026,,"FUT,EQU",,,,,manuale
+08-P4-c,08-P4,Quota del prestito SAFE italiano trasformata in programmi comuni,% prestito SAFE,su,0.0,2026-10,50.0,"SIC,FUT",,,,,manuale
+08-P5-a,08-P5,APS/RNL,% RNL,su,0.3,2025,,"EQU,FUT",0.3,2025,,,in osservazione
+08-P5-b,08-P5,Quota APS spesa per rifugiati in Italia,% APS netto,giu,18.5,2025,12.0,"EQU,FID",18.48,2025,0.003,,in osservazione
+08-P5-c,08-P5,Programmi con valutazione controfattuale pubblicata,% programmi,su,,,10.0,FID,,,,,manuale
+08-P6-a,08-P6,Quota dell'export verso mercati extra UE diversi dagli USA,%,su,37.8,2025,40.0,"INN,SIC",37.84,2025,0.018,,in osservazione
+08-P6-b,08-P6,Quota dei primi tre mercati,%,giu,32.2,2025,30.0,"SIC,INN",32.16,2025,0.018,,in osservazione
+08-P6-c,08-P6,Esportazioni aggiuntive delle PMI con voucher rispetto al gruppo di controllo,€ export per € pubblico,su,,,2.0,"INN,FID",,,,,manuale
+09-C1-a,09-C1,Quota di atti VIP-AI con dati e codice pubblicati,% atti,su,0.0,2026,90.0,"FID,INN",,,,,manuale
+09-C1-b,09-C1,Quota di analisi del campione riprodotte dall'Ufficio 08-P1,% analisi,su,,,80.0,FID,,,,,manuale
+09-C1-c,09-C1,Modelli pubblici di microsimulazione con licenza aperta,modelli,su,0.0,2026,6.0,"FID,INN",,,,,manuale
+09-C2-a,09-C2,16-74enni che hanno interagito online con la PA,%,su,43.5,2025,60.0,"INN,CIT",43.51,2025,0.001,,in osservazione
+09-C2-b,09-C2,Procedimenti dell'elenco con acquisizione esclusiva via PDND,procedimenti su 100,su,,,100.0,"INN,FID",,,,,manuale
+09-C2-c,09-C2,Indennizzi pagati per 10.000 pratiche,indennizzi per 10.000 pratiche,giu,0.0,2026,,"FID,INN",,,,,manuale
+09-C3-a,09-C3,Comuni sotto i 5.000 abitanti serviti da un pool qualificato,comuni,su,0.0,2026,4000.0,"EQU,INN",,,,,manuale
+09-C3-b,09-C3,"Amministrazioni qualificate per progettazione e affidamento, pool inclusi, con copertura dei comuni aderenti",amministrazioni,su,3919.0,2026-03-31,,"FID,EQU",,,,,manuale
+09-C3-c,09-C3,Tempo medio ponderato di pagamento delle fatture negli enti aderenti,giorni,giu,30.0,2024,25.0,"FID,INN",,,,,manuale
+09-C4-a,09-C4,PA su infrastrutture cloud qualificate,% amministrazioni,su,75.0,2026-07,95.0,"INN,SIC",,,,,manuale
+09-C4-b,09-C4,Incidenti cyber gravi noti in Italia,incidenti,giu,245.0,2026-H1,,SIC,,,,,manuale
+09-C4-c,09-C4,Risparmi certificati sui canoni,% canoni,su,0.0,2026,50.0,"FUT,FID",,,,,manuale
+09-C5-a,09-C5,16-74enni con competenze digitali almeno di base,%,su,54.27,2025,72.0,"INN,APC,CIT",54.27,2025,0.0,,in osservazione
+09-C5-b,09-C5,Sistemi IA che incidono su provvedimenti iscritti nell'albo con valutazione d'impatto pubblica,% sistemi,su,0.0,2026,100.0,"FID,RIS,SIC",,,,,manuale
+09-C5-c,09-C5,Dipendenti che hanno completato 24 ore su IA e dati,% dipendenti,su,,,100.0,"INN,APC",,,,,manuale

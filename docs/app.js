@@ -11,7 +11,7 @@
   const NOME_CLASSE = { "robusta": "Nucleo robusto", "dipendente dai valori": "Dipende dai valori", "in coda": "In coda", "sfavorevole": "Sfavorevole" };
   const CSS_CLASSE = { "robusta": "robusta", "dipendente dai valori": "valori", "in coda": "coda", "sfavorevole": "sfavorevole" };
   const ORIZZ = ["breve", "medio", "lungo"];
-  const stato = { scenario: "momento", area: "", classe: "", cerca: "", soloIncluse: false, bollettino: null, documento: "programma" };
+  const stato = { scenario: "momento", area: "", classe: "", cerca: "", soloIncluse: false, bollettino: null, documento: "programma", analisi: null };
 
   if (!D) {
     main.innerHTML = '<p class="vuoto">Dati non trovati: esegui <code>python sistema/esporta_web.py</code> per generare <code>docs/data.js</code>.</p>';
@@ -93,8 +93,105 @@
       <div class="md" style="margin-top:18px">${md(p.scheda.replace(/^## .*\n/, "### Scheda pronta\n"))}</div>`);
   }
 
+  const linkAnalisi = () => D.repo ? `${D.repo}/issues/new?template=analisi.yml` : "#analisi";
+
   // ---------- viste ----------
   const viste = {
+    racconto() {
+      const n = D.numeri || {};
+      const s = scenario("momento");
+      const integra = D.integrita && !D.integrita.errori.length;
+      const passi = [
+        ["Dati ufficiali, ogni giorno", "Una sentinella controlla Eurostat, ISTAT, MEF, Banca d'Italia, UPB e altre fonti. Scarica solo ciò che è cambiato e ne conserva la storia."],
+        ["Valori dichiarati", `Una Carta di ${n.valori || 10} valori, dal rispetto delle diversità alla responsabilità verso il futuro. Nessuna etichetta di destra o di sinistra.`],
+        ["Panel indipendente", "Tre valutatori, che non hanno scritto le proposte, danno il punteggio a ogni misura su ogni valore. Il loro disaccordo diventa incertezza dichiarata."],
+        ["Robustezza, non un peso unico", "Il motore prova migliaia di combinazioni di pesi e separa ciò che conviene a tutti da ciò che è una scelta politica."],
+        ["Senza deficit", "Ogni misura preleva da coperture concrete e verificate: un registro unico impedisce di contare due volte gli stessi soldi."],
+        ["Impara dai risultati", "Ogni misura ha obiettivi misurabili. Il sistema ne segue gli indicatori e, quando le misure rendono meno o più del previsto, ricalibra le scelte."],
+        ["Verificabile come una blockchain", "Ogni esecuzione aggiunge un anello a una catena di impronte crittografiche: una modifica nascosta a dati, regole o risultati si vede subito."],
+      ];
+      return `
+        <section class="hero">
+          <p class="sopratitolo">Un modello decisionale aperto, basato su competenze e dati</p>
+          <h1>Governare con i dati,<br>scegliere con i valori.</h1>
+          <p class="lead">GovernAI è un prototipo: agenti di intelligenza artificiale analizzano i problemi del Paese, propongono opzioni con costi e coperture e rendono espliciti i compromessi. <strong>Le decisioni restano alle persone.</strong></p>
+          <div class="azioni">
+            <a class="bottone primario" href="${esc(linkAnalisi())}" target="_blank" rel="noopener">Avvia un'analisi</a>
+            <a class="bottone" href="#programma">Esplora il programma</a>
+            <a class="bottone" href="#valori">Prova i tuoi valori</a>
+          </div>
+        </section>
+        <div class="griglia g4 numeri">
+          <div class="scheda-box kpi"><div class="numero">${n.proposte ?? "—"}</div><div class="nota">proposte in 9 aree di governo</div></div>
+          <div class="scheda-box kpi"><div class="numero">${n.cifre_verificate ?? "—"}</div><div class="nota">cifre verificate su fonte ufficiale</div></div>
+          <div class="scheda-box kpi"><div class="numero">${nf(s.spesa, 1)} mld</div><div class="nota">programma del momento, senza deficit</div></div>
+          <div class="scheda-box kpi"><div class="numero">${n.serie ?? "—"}</div><div class="nota">serie di dati aggiornate ogni giorno</div></div>
+        </div>
+        <section class="sezione"><h2>Come funziona</h2>
+          <ol class="passi">${passi.map(([t, d]) => `<li><strong>${esc(t)}</strong><span>${esc(d)}</span></li>`).join("")}</ol>
+        </section>
+        <section class="sezione"><h2>Fiducia verificabile</h2>
+          <div class="griglia g3">
+            <div class="scheda-box"><h3>Linee rosse automatiche</h3><p>Le proposte che violano diritti fondamentali o scaricano i costi sui più deboli senza compensazione vengono escluse da regole fisse, che nessun prompt può aggirare.</p></div>
+            <div class="scheda-box"><h3>Catena di integrità</h3><p>${D.integrita ? `${D.integrita.anelli} anelli registrati, catena <strong style="color:var(${integra ? "--buono" : "--cattivo"})">${integra ? "integra" : "da verificare"}</strong>.` : "In avvio."} <a href="#integrita">Vedi il registro</a></p></div>
+            <div class="scheda-box"><h3>Tutto è riproducibile</h3><p>Codice, dati, punteggi e regole sono nel repository: chiunque abbia accesso può rieseguire il calcolo e ottenere lo stesso risultato.</p></div>
+          </div>
+        </section>
+        <section class="sezione"><h2>Partecipa</h2>
+          <div class="scheda-box"><p>Hai un problema da porre? <a href="${esc(linkAnalisi())}" target="_blank" rel="noopener">Apri una richiesta di analisi</a>: in pochi minuti GovernAI risponde con una diagnosi e tre opzioni. Sono valutate sui valori della Carta, con costi e coperture. Le analisi pubblicate sono nella sezione <a href="#analisi">Analisi</a>.</p></div>
+        </section>`;
+    },
+
+    obiettivi() {
+      const o = D.obiettivi || [];
+      if (!o.length) return '<h1>Obiettivi</h1><p class="vuoto">Il registro degli obiettivi è in preparazione.</p>';
+      const STATO = { "raggiunto": "robusta", "in linea": "valori", "in ritardo": "var-PILOTA", "peggiorato": "sfavorevole", "in osservazione": "coda", "manuale": "coda" };
+      const conta = o.reduce((a, x) => (a[x.stato] = (a[x.stato] || 0) + 1, a), {});
+      return `
+        <h1>Obiettivi</h1>
+        <p class="intro">Ogni misura ha obiettivi misurabili, con valore di partenza e traguardo a 3 e 5 anni. Il sistema li segue sulle serie ufficiali. Quando una misura viene adottata, confronta il risultato con quanto previsto e ricalibra le scelte future: è così che il modello impara da successi e insuccessi.</p>
+        <div class="griglia g4">${Object.entries(conta).map(([k, v]) => `<div class="scheda-box kpi"><div class="etichetta">${esc(k)}</div><div class="numero">${v}</div></div>`).join("")}</div>
+        ${D.lezioni ? `<section class="sezione"><h2>Lezioni apprese</h2><div class="scheda-box md">${md(D.lezioni)}</div></section>` : ""}
+        <section class="sezione"><h2>Indicatori</h2>
+        <div class="tabella-box"><table><thead><tr><th>Misura</th><th>Obiettivo</th><th class="num">Base</th><th class="num">Ultimo</th><th class="num">Traguardo</th><th>Progresso</th><th>Stato</th></tr></thead><tbody>
+          ${o.map((x) => `<tr class="cliccabile" data-proposta="${esc(x.proposta)}"><td>${esc(x.proposta)}</td><td>${esc(x.nome)} <small style="color:var(--tenue)">${esc(x.unita || "")}</small></td>
+            <td class="num">${nf(x.base)}<br><small>${esc(x.periodo_base || "")}</small></td><td class="num">${nf(x.ultimo)}<br><small>${esc(x.periodo || "")}</small></td><td class="num">${nf(x.obiettivo)}</td>
+            <td>${x.progresso == null ? "—" : `<div class="barra" title="${pct(x.progresso)}"><span style="width:${Math.max(0, Math.min(1, x.progresso)) * 100}%;${x.progresso < 0 ? "background:var(--cattivo)" : ""}"></span></div>`}</td>
+            <td><span class="chip ${STATO[x.stato] || ""}">${esc(x.stato)}</span></td></tr>`).join("")}
+        </tbody></table></div></section>`;
+    },
+
+    analisi() {
+      const a = D.analisi || [];
+      const sel = a.find((x) => x.id === stato.analisi) || a[0];
+      return `
+        <h1>Analisi su richiesta</h1>
+        <p class="intro">Chiunque nel team può porre un problema aprendo una richiesta su GitHub. GovernAI risponde con una diagnosi e tre opzioni. Le opzioni sono valutate da un panel indipendente sui valori della Carta, con costi, coperture e robustezza.</p>
+        <p><a class="bottone primario" href="${esc(linkAnalisi())}" target="_blank" rel="noopener">Avvia un'analisi</a></p>
+        ${a.length ? `<div class="doppia">
+          <ul class="elenco">${a.map((x) => `<li><button data-analisi="${esc(x.id)}" class="${x === sel ? "attivo" : ""}">${esc(x.titolo)}<br><small>${esc(x.id.slice(0, 10))}${x.issue ? " · #" + x.issue : ""}</small></button></li>`).join("")}</ul>
+          <div class="scheda-box md">${md(sel.testo)}</div></div>` : '<p class="vuoto">Nessuna analisi ancora: la prima la avvii tu.</p>'}`;
+    },
+
+    integrita() {
+      const g = D.integrita || { anelli: 0, errori: [], ultimi: [] };
+      const ok = !g.errori.length;
+      return `
+        <h1>Integrità</h1>
+        <p class="intro">Un'AI non è incorruttibile per natura: lo diventa se ogni suo passo è registrato e verificabile. Ogni esecuzione aggiunge un anello a una catena di impronte crittografiche (SHA-256), come in una blockchain. Le impronte coprono regole (Carta, rubrica, codice), dati in ingresso e risultati, e ogni anello contiene l'impronta del precedente. Cambiare di nascosto qualcosa nel passato spezza la catena. Le regole che cambiano sono sempre dichiarate.</p>
+        <div class="griglia g3">
+          <div class="scheda-box kpi"><div class="etichetta">Stato della catena</div><div class="numero" style="color:var(${ok ? "--buono" : "--cattivo"})">${ok ? "Integra" : "Problemi"}</div><div class="nota">${ok ? "nessuna manomissione rilevata" : esc(g.errori.join("; "))}</div></div>
+          <div class="scheda-box kpi"><div class="etichetta">Anelli registrati</div><div class="numero">${g.anelli}</div></div>
+          <div class="scheda-box kpi"><div class="etichetta">Verifica indipendente</div><div class="nota">Chiunque può ricontrollare la catena con <code>python integrita/catena.py --verifica</code>. Git aggiunge una seconda catena, con autore e data di ogni modifica.</div></div>
+        </div>
+        <section class="sezione"><h2>Ultimi anelli</h2>
+        <div class="tabella-box"><table><thead><tr><th>#</th><th>Data (UTC)</th><th>Evento</th><th>Impronta</th><th>Precedente</th><th>Regole cambiate</th></tr></thead><tbody>
+          ${g.ultimi.map((x) => `<tr><td>${x.n}</td><td>${esc((x.data || "").replace("T", " ").slice(0, 16))}</td><td>${esc(x.evento)} <small style="color:var(--tenue)">${esc(x.nota || "")}</small></td>
+            <td><code title="${esc(x.hash)}">${esc((x.hash || "").slice(0, 12))}</code></td><td><code>${esc((x.precedente || "").slice(0, 12))}</code></td>
+            <td>${x.n === 0 ? "<small>genesi</small>" : (x.regole_cambiate || []).map((r) => `<span class="chip var-PILOTA">${esc(r)}</span>`).join(" ") || "—"}</td></tr>`).join("")}
+        </tbody></table></div></section>`;
+    },
+
     cruscotto() {
       const s = scenario("momento");
       const nucleo = D.proposte.filter((p) => p.classe === "robusta");
@@ -262,11 +359,11 @@
 
   // ---------- navigazione ----------
   function mostra() {
-    const vista = (location.hash || "#cruscotto").slice(1);
-    const nome = viste[vista] ? vista : "cruscotto";
+    const vista = (location.hash || "#racconto").slice(1);
+    const nome = viste[vista] ? vista : "racconto";
     document.querySelectorAll(".menu a").forEach((a) => a.classList.toggle("attivo", a.dataset.vista === nome));
     main.innerHTML = viste[nome]();
-    document.title = "GovernAI · " + nome.charAt(0).toUpperCase() + nome.slice(1);
+    document.title = "GovernAI · " + (document.querySelector(`.menu a[data-vista="${nome}"]`)?.textContent || nome);
     if (nome === "valori") {
       main.querySelectorAll("input[type=range]").forEach((el) => el.addEventListener("input", aggiornaClassifica));
       aggiornaClassifica();
@@ -295,12 +392,13 @@
   }
 
   main.addEventListener("click", (e) => {
-    const t = e.target.closest("[data-proposta],[data-scenario],[data-bollettino],[data-documento],[data-preset]");
+    const t = e.target.closest("[data-proposta],[data-scenario],[data-bollettino],[data-documento],[data-preset],[data-analisi]");
     if (!t) return;
     if (t.dataset.proposta) mostraProposta(t.dataset.proposta);
     else if (t.dataset.scenario) { stato.scenario = t.dataset.scenario; ridisegna(); }
     else if (t.dataset.bollettino) { stato.bollettino = t.dataset.bollettino; ridisegna(); }
     else if (t.dataset.documento) { stato.documento = t.dataset.documento; ridisegna(); }
+    else if (t.dataset.analisi) { stato.analisi = t.dataset.analisi; ridisegna(); }
     else if (t.dataset.preset) {
       D.valori.forEach((v) => { $("#w-" + v.id).value = t.dataset.preset === "uguali" ? 50 : v.id === t.dataset.preset ? 100 : 35; });
       aggiornaClassifica();

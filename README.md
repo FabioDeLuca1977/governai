@@ -16,13 +16,16 @@ L'interfaccia web pubblicata in `docs/` contiene:
 | Cartella / file | Contenuto |
 |---|---|
 | `00_metodo.md` | Metodo comune degli agenti ministeriali |
-| `01_carta_valori.md` | Carta dei 7 valori: Rispetto, Fiducia, Innovazione, Benessere, Apprendimento e cultura, Bellezza patrimonio e accoglienza, Responsabilità verso il futuro |
+| `01_carta_valori.md` | Carta dei 10 valori: Rispetto e diversità, Fiducia e trasparenza, Innovazione, Benessere, Apprendimento e cultura, Bellezza patrimonio e accoglienza, Responsabilità verso il futuro, Equità, Sicurezza senza controllo assoluto, Cittadinanza responsabile |
 | `ministeri/` | 9 dossier ministeriali e 52 proposte |
 | `dati/` | Base dati ufficiale: script di download (Eurostat, ISTAT, MEF, …), serie, verifiche di 334 cifre su fonte primaria, storico |
 | `registro/` | Registro unico delle coperture e vincolo di bilancio |
 | `motore/` | Panel di 3 valutatori indipendenti e analisi di robustezza ai valori (SMAA) |
 | `programma/` | 152 varianti, 59 misure di copertura, ottimizzatore senza deficit, schede pronte (articolato normativo, cronoprogramma, indicatori) |
-| `20_programma_governai.md` | Il programma 1.0 in due versioni: base (8,7 mld) e completo (15 mld) |
+| `20_programma_governai.md` | Il programma in due versioni senza deficit: base (7,9 mld) e completo (13,7 mld) |
+| `apprendimento/` | Obiettivi misurabili, registro delle decisioni, esiti e calibrazione: il modello impara da successi e insuccessi |
+| `integrita/` | Catena di impronte crittografiche (stile blockchain) che rende visibile ogni manomissione |
+| `analisi/` | Analisi su richiesta, avviate da una issue GitHub con l'etichetta "analisi" |
 | `sistema/` | Sistema dinamico: sentinella delle fonti ufficiali, cruscotto, allerte, programma del momento, livello AI, bollettini; `sincronizza.py` allinea la copia locale a GitHub |
 | `docs/` | Interfaccia web statica, pronta per GitHub Pages |
 

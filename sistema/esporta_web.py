@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -21,6 +22,8 @@ QUI = Path(__file__).resolve().parent
 RADICE = QUI.parent
 sys.path.insert(0, str(RADICE / "motore"))
 sys.path.insert(0, str(QUI))
+sys.path.insert(0, str(RADICE / "integrita"))
+import catena  # noqa: E402
 import decidi  # noqa: E402
 import pipeline  # noqa: E402
 
@@ -71,7 +74,7 @@ def schede() -> dict[str, str]:
 def valori_carta() -> list[dict]:
     t = leggi(RADICE / "01_carta_valori.md")
     out = []
-    for m in re.finditer(r"### \d\. (.+?) \((\w{3})\)\n\*\*Definizione\.\*\* (.+?)\n", t):
+    for m in re.finditer(r"### \d+\. (.+?) \((\w{3})\)\n\*\*Definizione\.\*\* (.+?)\n", t):
         out.append({"id": m.group(2), "nome": m.group(1), "definizione": m.group(3).strip()})
     return out
 
@@ -87,6 +90,36 @@ def scenario(file: Path) -> dict | None:
             "coperture": sorted(c.chiave.tolist()),
             "spesa": round(float(v.costo_regime.sum()), 2),
             "gettito": round(float(c.gettito_min.sum()), 2)}
+
+
+def repo_url() -> str:
+    try:
+        u = subprocess.run(["git", "remote", "get-url", "origin"], cwd=RADICE, capture_output=True, text=True).stdout.strip()
+    except OSError:
+        return ""
+    return u[:-4] if u.endswith(".git") else u
+
+
+def analisi() -> list[dict]:
+    out = []
+    for f in sorted((RADICE / "analisi").glob("*.json"), reverse=True)[:100]:
+        d = json.loads(leggi(f))
+        out.append({"id": f.stem, "titolo": d["dossier"]["titolo"], "richiesta": d["richiesta"]["titolo"],
+                    "issue": d["richiesta"].get("numero"), "testo": leggi(f.with_suffix(".md"))})
+    return out
+
+
+def obiettivi() -> list[dict]:
+    f = RADICE / "apprendimento" / "esiti.csv"
+    return records(pd.read_csv(f)) if f.exists() else []
+
+
+def integrita() -> dict:
+    anelli = catena.leggi_catena()
+    campi = ("n", "data", "evento", "nota", "hash", "precedente", "radice_regole", "radice_input", "radice_output",
+             "regole_cambiate")
+    return {"anelli": len(anelli), "errori": catena.verifica(),
+            "ultimi": [{k: a.get(k) for k in campi} for a in anelli[-30:]][::-1]}
 
 
 def main() -> int:
@@ -156,6 +189,15 @@ def main() -> int:
         "regole": regole,
         "allerte_attive": sorted(attive),
         "bollettini": [{"data": f.stem, "testo": leggi(f)} for f in boll],
+        "repo": repo_url(),
+        "analisi": analisi(),
+        "obiettivi": obiettivi(),
+        "lezioni": leggi(RADICE / "apprendimento" / "lezioni.md"),
+        "integrita": integrita(),
+        "numeri": {"cifre_verificate": 334, "proposte": len(proposte),
+                   "varianti": int(var.drop_duplicates(["proposta_id", "variante"]).shape[0]),
+                   "coperture": len(menu), "valori": len(valori_carta()),
+                   "serie": len([f for f in (RADICE / "dati" / "serie").glob("*.csv") if not f.name.startswith("_")])},
         "documenti": {"carta": leggi(RADICE / "01_carta_valori.md"),
                       "programma": leggi(RADICE / "20_programma_governai.md"),
                       "metodo": leggi(RADICE / "00_metodo.md"),

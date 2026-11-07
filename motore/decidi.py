@@ -16,6 +16,7 @@ Scrive esito.md e esito_proposte.csv accanto a questo file.
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from pathlib import Path
 
@@ -23,10 +24,16 @@ import numpy as np
 import pandas as pd
 
 QUI = Path(__file__).resolve().parent
-VALORI = ["RIS", "FID", "INN", "BEN", "APC", "BPA", "FUT"]
-NOMI = {"RIS": "Rispetto", "FID": "Fiducia", "INN": "Innovazione", "BEN": "Benessere",
-        "APC": "Apprendimento e cultura", "BPA": "Bellezza, patrimonio e accoglienza",
-        "FUT": "Responsabilità verso il futuro"}
+
+
+def _valori_dalla_carta() -> dict[str, str]:
+    """La Carta dei valori è l'unica fonte dell'elenco dei valori (codice -> nome)."""
+    testo = (QUI.parent / "01_carta_valori.md").read_text(encoding="utf-8")
+    return {m.group(2): m.group(1) for m in re.finditer(r"^### \d+\. (.+?) \((\w{3})\)$", testo, re.M)}
+
+
+NOMI = _valori_dalla_carta()
+VALORI = list(NOMI)
 ORIZZ = ["breve", "medio", "lungo"]
 CONF = {"A": 1.0, "M": 0.75, "B": 0.5}
 PASSO = 0.05  # granularità del budget nel problema dello zaino (mld)
@@ -85,7 +92,14 @@ def pesi_orizzonte(rng: np.random.Generator, n: int) -> np.ndarray:
     return out[:n]
 
 
-def simula(S: np.ndarray, n: int, rng: np.random.Generator) -> dict:
+def calibrazione(ids: list[str]) -> np.ndarray:
+    """Fattori per proposta dall'apprendimento (apprendimento/calibrazione.csv, per area): 1 se non ci sono esiti."""
+    f = QUI.parent / "apprendimento" / "calibrazione.csv"
+    per_area = dict(pd.read_csv(f, dtype={"area": str})[["area", "fattore"]].values) if f.exists() else {}
+    return np.array([float(per_area.get(p[:2], 1.0)) for p in ids])
+
+
+def simula(S: np.ndarray, n: int, rng: np.random.Generator, fattori: np.ndarray | None = None) -> dict:
     R, P, V, H = S.shape
     W = rng.dirichlet(np.ones(V), size=n)          # pesi tra i valori
     Hw = pesi_orizzonte(rng, n)                    # pesi tra gli orizzonti
@@ -98,6 +112,9 @@ def simula(S: np.ndarray, n: int, rng: np.random.Generator) -> dict:
                                   scelta[..., None], axis=-1)[..., 0].astype(np.float32)  # k,P,V,H
         per_valore = np.einsum("kpvh,kh->kpv", cell, Hw[a:b])
         U[a:b] = np.einsum("kpv,kv->kp", per_valore, W[a:b])
+    if fattori is not None:
+        # l'esperienza ridimensiona (o rafforza) i benefici attesi delle aree che rendono meno (o più) del previsto
+        U = np.where(U > 0, U * fattori[None, :].astype(np.float32), U)
     rango = (-U).argsort(1).argsort(1) + 1
     return {"W": W, "H": Hw, "U": U, "rango": rango}
 
@@ -188,7 +205,7 @@ def main() -> int:
     rosse = lunga[lunga.linea_rossa.astype(str).str.lower().eq("si")]
 
     # SMAA
-    sim = simula(S, a.n, rng)
+    sim = simula(S, a.n, rng, fattori=calibrazione(ids))
     U, rango, W = sim["U"], sim["rango"], sim["W"]
     P = len(ids)
     quartile = int(np.ceil(P / 4))

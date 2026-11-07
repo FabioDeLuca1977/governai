@@ -1,0 +1,3264 @@
+# GovernAI - Registro degli obiettivi misurabili (agente "obiettivi", 7 novembre 2026)
+# Fonte: programma/schede/*.md, sezione "Indicatori" di ciascuna delle 52 misure (un elemento per KPI).
+# Basi e obiettivi sono copiati dalle schede; null = la scheda non li da' in forma numerica.
+#   scheda:                 testo originale delle tre celle (base, 3 anni, 5 anni), per verifica.
+#   obiettivo_relativo:     obiettivo espresso come variazione rispetto a una base (spesso ancora da rilevare).
+#   obiettivi_per_variante: obiettivi che dipendono dalla variante (PIENA/ESSENZIALE/ZERO) scelta.
+# serie: KPI misurato automaticamente da dati/serie/<file>.csv
+#   filtro:  colonna -> valore; restituisce una sola serie temporale
+#   tempo:   colonna del periodo (default "time");  colonna: colonna del valore (default "valore")
+#   scala:   moltiplicatore per riportare il valore all'unita' del KPI (es. 0.001 da mln a mld)
+# Le serie obi_* si rigenerano con: python -I apprendimento/aggiorna_obi.py
+# Verifica del file: python -I apprendimento/verifica_obiettivi.py
+# direzione: su = un aumento e' un miglioramento; giu = una diminuzione e' un miglioramento.
+# valori: codici della Carta (01_carta_valori.md): RIS FID INN BEN APC BPA FUT EQU SIC CIT
+obiettivi:
+- id: 01-P1-a
+  proposta: 01-P1
+  nome: Quota di atti sopra soglia con valutazione generazionale
+  unita: '% atti'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: scheda (nessun obbligo vigente)
+  obiettivo_3a: 100.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - FUT
+  - FID
+  scheda:
+    base: 0%, 2026 (nessun obbligo)
+    obiettivo_3a: 100%
+    obiettivo_5a: 100%, con revisione esterna
+- id: 01-P1-b
+  proposta: 01-P1
+  nome: Giudizi "non sostenibile" con risposta scritta del Governo
+  unita: '% giudizi'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: null
+  obiettivo_3a: 100.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - FID
+  - FUT
+  scheda:
+    base: non applicabile, 2026
+    obiettivo_3a: 100%
+    obiettivo_5a: 100%
+- id: 01-P1-c
+  proposta: 01-P1
+  nome: Scostamento tra costo stimato e costo effettivo delle misure valutate
+  unita: '% scostamento'
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: null
+  obiettivo_3a: null
+  obiettivo_5a: null
+  misurazione: manuale
+  valori:
+  - FID
+  - FUT
+  nota: 'obiettivo qualitativo (3a: rilevato per tutte; 5a: entro ±20% per l''80% delle misure)'
+  scheda:
+    base: non rilevato, 2026
+    obiettivo_3a: rilevato per tutte
+    obiettivo_5a: entro ±20% per l'80% delle misure
+- id: 01-P2-a
+  proposta: 01-P2
+  nome: Numero di spese fiscali erariali
+  unita: numero
+  direzione: giu
+  base:
+    valore: 573.0
+    periodo: '2026'
+    fonte: MEF, Rapporto spese fiscali 2025
+  obiettivo_3a: 490.0
+  obiettivo_5a: 400.0
+  misurazione: manuale
+  valori:
+  - FID
+  - EQU
+  scheda:
+    base: 573, 2026 (MEF, RSF 2025)
+    obiettivo_3a: ≤ 490 (-15%)
+    obiettivo_5a: ≤ 400 (-30%)
+- id: 01-P2-b
+  proposta: 01-P2
+  nome: Riordino conseguito rispetto all'obiettivo del Piano
+  unita: '% di 7,37 mld'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: null
+    fonte: MEF, Rapporto spese fiscali 2025
+  obiettivo_3a: 50.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - FUT
+  - FID
+  scheda:
+    base: 0 su 7,37 mld (MEF, RSF 2025)
+    obiettivo_3a: ≥ 50%
+    obiettivo_5a: 100%
+- id: 01-P2-c
+  proposta: 01-P2
+  nome: Quota di misure con scheda di valutazione pubblica
+  unita: '% misure'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 60.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - FID
+  scheda:
+    base: ~0%, 2026
+    obiettivo_3a: 60%
+    obiettivo_5a: 100%
+- id: 01-P3-a
+  proposta: 01-P3
+  nome: Gap IVA
+  unita: mld €
+  direzione: giu
+  base:
+    valore: 34.4
+    periodo: '2023'
+    fonte: MEF, Relazione evasione 2026
+  obiettivo_3a: 32.0
+  obiettivo_5a: 28.5
+  misurazione: manuale
+  valori:
+  - FID
+  - CIT
+  - EQU
+  scheda:
+    base: 34,4 mld, 2023 (MEF, Relazione evasione 2026)
+    obiettivo_3a: ≤ 32 mld (-7%)
+    obiettivo_5a: ≤ 28,5 mld (-15/-20% = 5,2-6,9 mld recuperati)
+- id: 01-P3-b
+  proposta: 01-P3
+  nome: Tempo medio dei rimborsi IVA ai contribuenti affidabili
+  unita: giorni
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: Agenzia delle entrate, 2026
+  obiettivo_3a: 90.0
+  obiettivo_5a: 60.0
+  misurazione: manuale
+  valori:
+  - FID
+  - INN
+  scheda:
+    base: da rilevare (Agenzia delle entrate, 2026)
+    obiettivo_3a: ≤ 90 giorni
+    obiettivo_5a: ≤ 60 giorni
+- id: 01-P3-c
+  proposta: 01-P3
+  nome: Nuovi condoni o definizioni agevolate
+  unita: numero
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: null
+  obiettivo_3a: 0.0
+  obiettivo_5a: 0.0
+  misurazione: manuale
+  valori:
+  - FID
+  - CIT
+  - EQU
+  nota: base non indicata nella scheda
+  scheda:
+    base: —
+    obiettivo_3a: '0'
+    obiettivo_5a: '0'
+- id: 01-P4-a
+  proposta: 01-P4
+  nome: Quota di occupati in imprese con meno di 50 addetti
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 60.0
+    periodo: '2024'
+    fonte: Eurostat sbs_sc_ovw
+  obiettivo_3a: 59.3
+  obiettivo_5a: 58.5
+  serie:
+    file: 01_quota_occupati_micro_piccole
+    filtro:
+      geo: IT
+    colonna: quota_0_49
+  valori:
+  - INN
+  scheda:
+    base: 60,0%, 2024 (Eurostat sbs_sc_ovw)
+    obiettivo_3a: ≤ 59,3%
+    obiettivo_5a: ≤ 58,5%
+- id: 01-P4-b
+  proposta: 01-P4
+  nome: Valore aggiunto per addetto dei beneficiari rispetto al gruppo di controllo
+  unita: '% vs controllo'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 3.0
+  obiettivo_5a: 5.0
+  misurazione: manuale
+  valori:
+  - INN
+  scheda:
+    base: 0, 2026 (avvio)
+    obiettivo_3a: +3%
+    obiettivo_5a: +5%, significativo
+- id: 01-P4-c
+  proposta: 01-P4
+  nome: PIL per ora lavorata, indicatore di contesto
+  unita: indice 2015=100
+  direzione: su
+  base:
+    valore: 100.4
+    periodo: '2025'
+    fonte: Eurostat nama_10_lp_ulc
+  obiettivo_3a: 102.0
+  obiettivo_5a: 104.0
+  serie:
+    file: 01_produttivita_ora_i15
+    filtro:
+      geo: IT
+  valori:
+  - INN
+  - BEN
+  scheda:
+    base: 100,4, 2025 (Eurostat nama_10_lp_ulc)
+    obiettivo_3a: ≥ 102
+    obiettivo_5a: ≥ 104
+- id: 01-P5-a
+  proposta: 01-P5
+  nome: Nuova capacità rinnovabile contrattualizzata con PPA aggregati di PMI
+  unita: GW
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: scheda (nessun programma)
+  obiettivo_3a: 0.5
+  obiettivo_5a: 1.5
+  misurazione: manuale
+  valori:
+  - FUT
+  - INN
+  scheda:
+    base: 0 GW, 2026 (nessun programma)
+    obiettivo_3a: 0,5 GW
+    obiettivo_5a: 1,5 GW
+- id: 01-P5-b
+  proposta: 01-P5
+  nome: PMI aderenti
+  unita: imprese
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 1000.0
+  obiettivo_5a: 4000.0
+  misurazione: manuale
+  valori:
+  - INN
+  scheda:
+    base: 0, 2026
+    obiettivo_3a: '1.000'
+    obiettivo_5a: '4.000'
+- id: 01-P5-c
+  proposta: 01-P5
+  nome: Prezzo medio pagato dalle aderenti rispetto al PUN
+  unita: '% rispetto al PUN'
+  direzione: giu
+  base:
+    valore: null
+    periodo: '2025'
+    fonte: 'GME (PUN 115,32 €/MWh: riferimento, non valore del KPI)'
+  obiettivo_3a: -10.0
+  obiettivo_5a: -15.0
+  misurazione: manuale
+  valori:
+  - BEN
+  - INN
+  nota: '5a anche: volatilità dimezzata'
+  scheda:
+    base: PUN 115,32 €/MWh, 2025 (GME)
+    obiettivo_3a: ≤ PUN -10%
+    obiettivo_5a: ≤ PUN -15%, volatilità dimezzata
+- id: 01-P6-a
+  proposta: 01-P6
+  nome: Quota di presenze in luglio e agosto
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 34.5
+    periodo: '2024'
+    fonte: Eurostat tour_occ_nim
+  obiettivo_3a: 33.5
+  obiettivo_5a: 32.0
+  serie:
+    file: obi_presenze_quota_lug_ago
+    filtro:
+      geo: IT
+  valori:
+  - BPA
+  - BEN
+  scheda:
+    base: 34,5%, 2024 (Eurostat tour_occ_nim)
+    obiettivo_3a: ≤ 33,5%
+    obiettivo_5a: ≤ 32,0%
+- id: 01-P6-b
+  proposta: 01-P6
+  nome: Quota del gettito dell'imposta destinata ai servizi per i residenti
+  unita: '% gettito'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: stime JFC-IRPET, non ufficiali (gettito circa 1,0 mld, 2024)
+  obiettivo_3a: 50.0
+  obiettivo_5a: 50.0
+  misurazione: manuale
+  valori:
+  - BPA
+  - BEN
+  scheda:
+    base: non rilevata; gettito circa 1,0 mld, 2024 (stime JFC-IRPET, non ufficiali)
+    obiettivo_3a: ≥ 50% nei Comuni aderenti, rendicontata
+    obiettivo_5a: ≥ 50% in tutti i Comuni
+- id: 01-P6-c
+  proposta: 01-P6
+  nome: Comuni ad alta intensità con tariffa modulata
+  unita: comuni
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 50.0
+  obiettivo_5a: 150.0
+  misurazione: manuale
+  valori:
+  - BPA
+  scheda:
+    base: 0, 2026
+    obiettivo_3a: '50'
+    obiettivo_5a: '150'
+- id: 02-C1-a
+  proposta: 02-C1
+  nome: Occupati 18+ a rischio di povertà
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 10.2
+    periodo: '2025'
+    fonte: Eurostat ilc_iw01
+  obiettivo_3a: 9.5
+  obiettivo_5a: 8.5
+  serie:
+    file: 02_working_poor
+    filtro:
+      geo: IT
+      wstatus: EMP
+  valori:
+  - EQU
+  - BEN
+  scheda:
+    base: 10,2%, 2025 (Eurostat `ilc_iw01`)
+    obiettivo_3a: 9,5%
+    obiettivo_5a: '8,5% (media UE 2025: 8,3%)'
+- id: 02-C1-b
+  proposta: 02-C1
+  nome: Retribuzioni contrattuali orarie reali rispetto a gen. 2021
+  unita: '% vs gen. 2021'
+  direzione: su
+  base:
+    valore: -10.2
+    periodo: 2026-09
+    fonte: ISTAT + HICP, elaborazione GovernAI
+  obiettivo_3a: -6.0
+  obiettivo_5a: -3.0
+  serie:
+    file: 02_retribuzioni_contrattuali_reali
+    filtro: {}
+    colonna: reale_vs_gen2021_pct
+  valori:
+  - BEN
+  - EQU
+  scheda:
+    base: −10,2%, set. 2026 (ISTAT + HICP, elaborazione GovernAI)
+    obiettivo_3a: −6%
+    obiettivo_5a: −3%
+- id: 02-C1-c
+  proposta: 02-C1
+  nome: Dipendenti pagati sotto il contratto di riferimento o la soglia
+  unita: '% dipendenti'
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: INPS-CNEL (base da costruire entro il 2027)
+  obiettivo_3a: null
+  obiettivo_5a: 2.0
+  obiettivo_relativo:
+    3a: -50% rispetto alla base
+  misurazione: manuale
+  valori:
+  - EQU
+  - RIS
+  scheda:
+    base: base da costruire con INPS-CNEL entro il 2027
+    obiettivo_3a: −50% rispetto alla base
+    obiettivo_5a: sotto il 2%
+- id: 02-C2-a
+  proposta: 02-C2
+  nome: Posti nido ogni 100 bambini 0-2 al Sud
+  unita: posti per 100 bambini
+  direzione: su
+  base:
+    valore: 19.0
+    periodo: 2023/24
+    fonte: ISTAT
+  obiettivo_3a: 27.0
+  obiettivo_5a: 33.0
+  misurazione: manuale
+  valori:
+  - EQU
+  - FUT
+  scheda:
+    base: 19,0, a.e. 2023/24 (ISTAT)
+    obiettivo_3a: '27'
+    obiettivo_5a: '33'
+- id: 02-C2-b
+  proposta: 02-C2
+  nome: Posti nido ogni 100 bambini 0-2, Italia
+  unita: posti per 100 bambini
+  direzione: su
+  base:
+    valore: 31.6
+    periodo: 2023/24
+    fonte: ISTAT
+  obiettivo_3a: 36.0
+  obiettivo_5a: 40.0
+  misurazione: manuale
+  valori:
+  - EQU
+  - FUT
+  - BEN
+  scheda:
+    base: 31,6, a.e. 2023/24 (ISTAT)
+    obiettivo_3a: '36'
+    obiettivo_5a: '40'
+- id: 02-C2-c
+  proposta: 02-C2
+  nome: Tasso di occupazione femminile 20-64
+  unita: '%'
+  direzione: su
+  base:
+    valore: 58.0
+    periodo: '2025'
+    fonte: Eurostat lfsi_emp_a
+  obiettivo_3a: 60.5
+  obiettivo_5a: 62.5
+  serie:
+    file: 02_tasso_occupazione
+    filtro:
+      geo: IT
+      sex: F
+      age: Y20-64
+  valori:
+  - EQU
+  - BEN
+  scheda:
+    base: 58,0%, 2025 (Eurostat `lfsi_emp_a`)
+    obiettivo_3a: 60,5%
+    obiettivo_5a: 62,5%
+- id: 02-C2-d
+  proposta: 02-C2
+  nome: Padri che fruiscono del congedo di paternità
+  unita: '%'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: INPS, Osservatorio prestazioni a sostegno della famiglia (da acquisire)
+  obiettivo_3a: 60.0
+  obiettivo_5a: 75.0
+  misurazione: manuale
+  valori:
+  - EQU
+  - RIS
+  scheda:
+    base: base INPS da acquisire (Osservatorio prestazioni a sostegno della famiglia)
+    obiettivo_3a: 60%
+    obiettivo_5a: 75%
+- id: 02-C3-a
+  proposta: 02-C3
+  nome: Spesa pensionistica / PIL rispetto allo scenario RGS
+  unita: '% PIL'
+  direzione: giu
+  base:
+    valore: 15.2
+    periodo: '2025'
+    fonte: RGS, aggiornamento 2026
+  obiettivo_3a: null
+  obiettivo_5a: null
+  misurazione: manuale
+  valori:
+  - FUT
+  nota: 'obiettivo: non oltre lo scenario RGS base; picco 2041-44 ≤ 17,1%'
+  scheda:
+    base: 15,2%, 2025 (RGS agg. 2026)
+    obiettivo_3a: non oltre lo scenario RGS base
+    obiettivo_5a: non oltre lo scenario RGS base, con picco 2041-44 ≤ 17,1%
+- id: 02-C3-b
+  proposta: 02-C3
+  nome: Leggi previdenziali con relazione UPB sul costo per generazione
+  unita: '% leggi'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 100.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - FUT
+  - FID
+  scheda:
+    base: 0%, 2026
+    obiettivo_3a: 100%
+    obiettivo_5a: 100%
+- id: 02-C3-c
+  proposta: 02-C3
+  nome: Neoassunti iscritti alla previdenza complementare
+  unita: punti %
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: COVIP (da acquisire)
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: +20 punti
+    5a: +30 punti
+  misurazione: manuale
+  valori:
+  - FUT
+  - BEN
+  scheda:
+    base: base COVIP da acquisire
+    obiettivo_3a: +20 punti
+    obiettivo_5a: +30 punti
+- id: 02-C4-a
+  proposta: 02-C4
+  nome: Incidenza della povertà assoluta, individui
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 9.3
+    periodo: '2025'
+    fonte: ISTAT
+  obiettivo_3a: 8.6
+  obiettivo_5a: 8.0
+  misurazione: manuale
+  valori:
+  - EQU
+  - RIS
+  scheda:
+    base: 9,3%, 2025 (ISTAT)
+    obiettivo_3a: 8,6%
+    obiettivo_5a: 8,0%
+- id: 02-C4-b
+  proposta: 02-C4
+  nome: Incidenza della povertà assoluta, minori
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 12.5
+    periodo: '2025'
+    fonte: ISTAT
+  obiettivo_3a: 11.5
+  obiettivo_5a: 10.5
+  misurazione: manuale
+  valori:
+  - EQU
+  - FUT
+  scheda:
+    base: 12,5%, 2025 (ISTAT)
+    obiettivo_3a: 11,5%
+    obiettivo_5a: 10,5%
+- id: 02-C4-c
+  proposta: 02-C4
+  nome: Nuclei beneficiari con reddito da lavoro 12 mesi dopo l'ingresso
+  unita: punti %
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: INPS-SIISL (da acquisire nel 2027)
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: +10 punti
+    5a: +15 punti
+  misurazione: manuale
+  valori:
+  - CIT
+  - EQU
+  scheda:
+    base: base INPS-SIISL da acquisire nel 2027
+    obiettivo_3a: +10 punti
+    obiettivo_5a: +15 punti
+- id: 02-C5-a
+  proposta: 02-C5
+  nome: Divario occupazionale per limitazioni gravi
+  unita: punti %
+  direzione: giu
+  base:
+    valore: 43.4
+    periodo: '2025'
+    fonte: Eurostat tepsr_sp200
+  obiettivo_3a: 40.0
+  obiettivo_5a: 37.0
+  serie:
+    file: 02_divario_occupazione_disabilita
+    filtro:
+      geo: IT
+      sex: T
+      lev_limit: SEV
+  valori:
+  - RIS
+  - EQU
+  scheda:
+    base: 43,4, 2025 (Eurostat `tepsr_sp200`)
+    obiettivo_3a: '40'
+    obiettivo_5a: '37'
+- id: 02-C5-b
+  proposta: 02-C5
+  nome: Occupazione 15-64 delle persone con limitazioni gravi
+  unita: '%'
+  direzione: su
+  base:
+    valore: 32.5
+    periodo: '2021'
+    fonte: ISTAT
+  obiettivo_3a: 36.0
+  obiettivo_5a: 38.0
+  misurazione: manuale
+  valori:
+  - RIS
+  - EQU
+  nota: '5a: 40% al 2032; nessuna serie Eurostat equivalente (hlth_dlm200 dà solo il divario)'
+  scheda:
+    base: 32,5%, 2021 (ISTAT)
+    obiettivo_3a: 36%
+    obiettivo_5a: 38% (40% al 2032)
+- id: 02-C5-c
+  proposta: 02-C5
+  nome: Progetti di vita attivi
+  unita: migliaia di progetti
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: INPS-Osservatorio (da acquisire)
+  obiettivo_3a: 150.0
+  obiettivo_5a: 300.0
+  misurazione: manuale
+  valori:
+  - RIS
+  scheda:
+    base: base INPS-Osservatorio da acquisire (sperimentazione 2025-26)
+    obiettivo_3a: 150 mila
+    obiettivo_5a: 300 mila
+- id: 02-C6-a
+  proposta: 02-C6
+  nome: Leggi oltre 0,5 mld con valutazione generazionale
+  unita: '% leggi'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 100.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - FUT
+  - FID
+  scheda:
+    base: 0%, 2026
+    obiettivo_3a: 100%
+    obiettivo_5a: 100%
+- id: 02-C6-b
+  proposta: 02-C6
+  nome: Tasso di occupazione 20-64
+  unita: '%'
+  direzione: su
+  base:
+    valore: 67.6
+    periodo: '2025'
+    fonte: Eurostat lfsi_emp_a
+  obiettivo_3a: 69.0
+  obiettivo_5a: 70.5
+  serie:
+    file: 02_tasso_occupazione
+    filtro:
+      geo: IT
+      sex: T
+      age: Y20-64
+  valori:
+  - BEN
+  - FUT
+  scheda:
+    base: 67,6%, 2025 (Eurostat `lfsi_emp_a`)
+    obiettivo_3a: 69,0%
+    obiettivo_5a: 70,5%
+- id: 02-C6-c
+  proposta: 02-C6
+  nome: NEET 15-29
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 13.3
+    periodo: '2025'
+    fonte: Eurostat edat_lfse_20
+  obiettivo_3a: 12.0
+  obiettivo_5a: 11.0
+  serie:
+    file: 02_neet_15_29
+    filtro:
+      geo: IT
+  valori:
+  - APC
+  - EQU
+  - FUT
+  scheda:
+    base: 13,3%, 2025 (Eurostat `edat_lfse_20`; UE 11,0%)
+    obiettivo_3a: 12,0%
+    obiettivo_5a: 11,0%
+- id: 03-P1-a
+  proposta: 03-P1
+  nome: SAD alle fonti fossili
+  unita: mld €
+  direzione: giu
+  base:
+    valore: 20.63
+    periodo: '2025'
+    fonte: MASE, Catalogo SAD
+  obiettivo_3a: 18.0
+  obiettivo_5a: 15.5
+  serie:
+    file: 03_sad_catalogo_mase
+    filtro: {}
+    tempo: anno
+    colonna: FFS_fossili_mln
+    scala: 0.001
+  valori:
+  - FUT
+  scheda:
+    base: 20,63 mld € (2025, MASE Catalogo)
+    obiettivo_3a: ≤ 18 mld
+    obiettivo_5a: ≤ 15,5 mld
+- id: 03-P1-b
+  proposta: 03-P1
+  nome: Emissioni dei trasporti
+  unita: Mt CO2eq
+  direzione: giu
+  base:
+    valore: 113.3
+    periodo: '2024'
+    fonte: Eurostat env_air_gge (CRF1A3, trasporti)
+  obiettivo_3a: 109.0
+  obiettivo_5a: 103.0
+  serie:
+    file: 04_emissioni_gas_serra_trasporti
+    filtro:
+      geo: IT
+      src_crf: CRF1A3
+  valori:
+  - FUT
+  scheda:
+    base: 113,3 Mt CO₂eq (2024, Eurostat env_air_gge)
+    obiettivo_3a: ≤ 109 Mt
+    obiettivo_5a: ≤ 103 Mt (sotto il 1990)
+- id: 03-P1-c
+  proposta: 03-P1
+  nome: Reddito disponibile reale dei primi due decili, effetto della riforma
+  unita: variazione %
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: micro-simulazione UPB (da costruire)
+  obiettivo_3a: 0.0
+  obiettivo_5a: 0.0
+  misurazione: manuale
+  valori:
+  - EQU
+  nota: 'obiettivo: variazione ≥ 0'
+  scheda:
+    base: da costruire con la micro-simulazione UPB entro 100 giorni
+    obiettivo_3a: variazione ≥ 0
+    obiettivo_5a: variazione ≥ 0
+- id: 03-P2-a
+  proposta: 03-P2
+  nome: Quota rinnovabili sulla domanda elettrica
+  unita: '%'
+  direzione: su
+  base:
+    valore: 41.1
+    periodo: '2025'
+    fonte: Terna
+  obiettivo_3a: 52.0
+  obiettivo_5a: 62.0
+  misurazione: manuale
+  valori:
+  - FUT
+  - INN
+  nota: dato puntuale in dati/serie/03_terna_2025 (voce quota_FER_domanda_pct), senza serie storica; 03_quota_rinnovabili_red (REN_ELC) usa metodo RED e non coincide
+  scheda:
+    base: 41,1% (2025, Terna)
+    obiettivo_3a: ≥ 52%
+    obiettivo_5a: ≥ 62% (traiettoria PNIEC al 2030, da verificare sul testo)
+- id: 03-P2-b
+  proposta: 03-P2
+  nome: Nuova capacità rinnovabile installata
+  unita: GW/anno
+  direzione: su
+  base:
+    valore: 7.19
+    periodo: '2025'
+    fonte: Terna
+  obiettivo_3a: 9.0
+  obiettivo_5a: 10.0
+  misurazione: manuale
+  valori:
+  - FUT
+  - INN
+  nota: dato puntuale in dati/serie/03_terna_2025 (voce nuova_capacita_FER_MW)
+  scheda:
+    base: 7,19 GW (2025, Terna)
+    obiettivo_3a: ≥ 9 GW/anno
+    obiettivo_5a: ≥ 10 GW/anno
+- id: 03-P2-c
+  proposta: 03-P2
+  nome: Tempo medio di autorizzazione degli impianti in area idonea
+  unita: giorni
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: GSE/MASE (da rilevare)
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: -40%
+    5a: -60%
+  misurazione: manuale
+  valori:
+  - INN
+  - FID
+  scheda:
+    base: da rilevare entro 100 giorni (GSE/MASE)
+    obiettivo_3a: −40%
+    obiettivo_5a: −60%
+- id: 03-P3-a
+  proposta: 03-P3
+  nome: Perdite idriche totali in distribuzione
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 42.4
+    periodo: '2022'
+    fonte: ISTAT; misura annuale ARERA-RQTI M1
+  obiettivo_3a: 38.0
+  obiettivo_5a: 33.0
+  serie:
+    file: 03_acqua_perdite
+    filtro:
+      REF_AREA: IT
+    tempo: TIME_PERIOD
+    colonna: perdite_pct
+  valori:
+  - FUT
+  - BEN
+  scheda:
+    base: 42,4% (2022, ISTAT; misura annuale ARERA-RQTI M1)
+    obiettivo_3a: ≤ 38%
+    obiettivo_5a: ≤ 33%
+- id: 03-P3-b
+  proposta: 03-P3
+  nome: Regioni con perdite oltre il 50%
+  unita: regioni
+  direzione: giu
+  base:
+    valore: 5.0
+    periodo: '2022'
+    fonte: ISTAT
+  obiettivo_3a: 3.0
+  obiettivo_5a: 0.0
+  serie:
+    file: obi_regioni_perdite_oltre_50
+    filtro:
+      geo: IT
+  valori:
+  - EQU
+  - FUT
+  scheda:
+    base: '5: Basilicata, Abruzzo, Molise, Sardegna, Sicilia (2022, ISTAT)'
+    obiettivo_3a: ≤ 3
+    obiettivo_5a: '0'
+- id: 03-P3-c
+  proposta: 03-P3
+  nome: Acqua reflua riutilizzata in agricoltura
+  unita: mln m3
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: ISPRA/ISTAT (da rilevare)
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: base × 2
+    5a: base × 4
+  misurazione: manuale
+  valori:
+  - FUT
+  scheda:
+    base: da rilevare entro 100 giorni (ISPRA/ISTAT)
+    obiettivo_3a: base × 2
+    obiettivo_5a: base × 4
+- id: 03-P4-a
+  proposta: 03-P4
+  nome: Imprese con polizza catastrofale
+  unita: '% imprese'
+  direzione: su
+  base:
+    valore: 16.0
+    periodo: 2026-04
+    fonte: IVASS
+  obiettivo_3a: 50.0
+  obiettivo_5a: 80.0
+  misurazione: manuale
+  valori:
+  - SIC
+  - FUT
+  scheda:
+    base: 16% (aprile 2026, IVASS)
+    obiettivo_3a: ≥ 50%
+    obiettivo_5a: ≥ 80%
+- id: 03-P4-b
+  proposta: 03-P4
+  nome: Consumo di suolo netto annuo
+  unita: km²/anno
+  direzione: giu
+  base:
+    valore: 102.0
+    periodo: '2025'
+    fonte: ISPRA-SNPA
+  obiettivo_3a: 60.0
+  obiettivo_5a: 35.0
+  misurazione: manuale
+  valori:
+  - BPA
+  - FUT
+  scheda:
+    base: +102 km² (2025, ISPRA-SNPA)
+    obiettivo_3a: ≤ 60 km²
+    obiettivo_5a: ≤ 35 km²
+- id: 03-P4-c
+  proposta: 03-P4
+  nome: Rapporto tra spesa per la prevenzione e spesa per le emergenze
+  unita: rapporto
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: RGS (da costruire)
+  obiettivo_3a: 1.0
+  obiettivo_5a: 2.0
+  misurazione: manuale
+  valori:
+  - SIC
+  - FUT
+  scheda:
+    base: 'dato pubblico consolidato assente: da costruire con RGS entro 100 giorni'
+    obiettivo_3a: ≥ 1:1
+    obiettivo_5a: ≥ 2:1
+- id: 03-P5-a
+  proposta: 03-P5
+  nome: Emissioni agricole
+  unita: Mt CO2eq
+  direzione: giu
+  base:
+    valore: 28.0
+    periodo: '2024'
+    fonte: Eurostat env_air_gge (CRF3, agricoltura)
+  obiettivo_3a: 27.0
+  obiettivo_5a: 26.0
+  serie:
+    file: 03_ghg_settori
+    filtro:
+      geo: IT
+      src_crf: CRF3
+  valori:
+  - FUT
+  scheda:
+    base: 28,0 Mt CO₂eq (2024, Eurostat env_air_gge)
+    obiettivo_3a: ≤ 27,0 Mt
+    obiettivo_5a: ≤ 26,0 Mt
+- id: 03-P5-b
+  proposta: 03-P5
+  nome: SAU sotto contratti a risultato
+  unita: '% SAU'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 5.0
+  obiettivo_5a: 15.0
+  misurazione: manuale
+  valori:
+  - FUT
+  - BPA
+  scheda:
+    base: 0% (2026)
+    obiettivo_3a: ≥ 5%
+    obiettivo_5a: ≥ 15%
+- id: 03-P5-c
+  proposta: 03-P5
+  nome: Aziende sotto i 20 ha aderenti, sul totale degli aderenti
+  unita: '% aderenti'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: AGEA (da rilevare)
+  obiettivo_3a: 40.0
+  obiettivo_5a: 50.0
+  misurazione: manuale
+  valori:
+  - EQU
+  scheda:
+    base: da rilevare (AGEA)
+    obiettivo_3a: ≥ 40%
+    obiettivo_5a: ≥ 50%
+- id: 04-P1-a
+  proposta: 04-P1
+  nome: Opere PNRR locali censite con servizio in esercizio
+  unita: '% opere'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: censimento al mese 6
+  obiettivo_3a: 85.0
+  obiettivo_5a: 90.0
+  misurazione: manuale
+  valori:
+  - FUT
+  - FID
+  scheda:
+    base: da censimento (mese 6); oggi non misurato
+    obiettivo_3a: ≥ 85%
+    obiettivo_5a: ≥ 90%
+- id: 04-P1-b
+  proposta: 04-P1
+  nome: Spesa PNRR prevista oltre il 2026 effettivamente sostenuta
+  unita: '% di 24,2 mld'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: Corte dei conti
+  obiettivo_3a: 70.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - FUT
+  scheda:
+    base: 0 su 24,2 mld (Corte dei conti, 2026)
+    obiettivo_3a: ≥ 70%
+    obiettivo_5a: 100%
+- id: 04-P1-c
+  proposta: 04-P1
+  nome: Quota dei costi di gestione a carico ordinario degli enti
+  unita: '%'
+  direzione: su
+  base:
+    valore: 20.0
+    periodo: null
+    fonte: da norma (primo anno)
+  obiettivo_3a: 80.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - FUT
+  - CIT
+  scheda:
+    base: 20% nel primo anno (da norma)
+    obiettivo_3a: 80%
+    obiettivo_5a: 100%
+- id: 04-P2-a
+  proposta: 04-P2
+  nome: Inquilini a prezzo di mercato con costo abitativo oltre il 40% del reddito
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 22.3
+    periodo: '2025'
+    fonte: Eurostat ilc_lvho07c
+  obiettivo_3a: 19.5
+  obiettivo_5a: 17.5
+  serie:
+    file: 04_sovraccarico_costo_abitativo_per_titolo
+    filtro:
+      geo: IT
+      tenure: RENT_MKT
+  valori:
+  - BEN
+  - EQU
+  scheda:
+    base: 22,3% (2025, Eurostat `ilc_lvho07c`)
+    obiettivo_3a: ≤ 19,5%
+    obiettivo_5a: ≤ 17,5% (sotto la media UE)
+- id: 04-P2-b
+  proposta: 04-P2
+  nome: Alloggi ERP non assegnabili recuperati e riassegnati
+  unita: alloggi
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: Federcasa (su circa 60.000 non assegnabili)
+  obiettivo_3a: 35000.0
+  obiettivo_5a: 60000.0
+  misurazione: manuale
+  valori:
+  - BEN
+  - EQU
+  scheda:
+    base: 0 su circa 60.000 (Federcasa, 2026)
+    obiettivo_3a: '35.000'
+    obiettivo_5a: '60.000'
+- id: 04-P2-c
+  proposta: 04-P2
+  nome: Contratti ASA attivi
+  unita: contratti
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 60000.0
+  obiettivo_5a: 100000.0
+  misurazione: manuale
+  valori:
+  - BEN
+  - EQU
+  scheda:
+    base: 0 (2026)
+    obiettivo_3a: '60.000'
+    obiettivo_5a: '100.000'
+- id: 04-P3-a
+  proposta: 04-P3
+  nome: Passeggeri giornalieri su treni regionali
+  unita: mln passeggeri/giorno
+  direzione: su
+  base:
+    valore: 2.54
+    periodo: '2024'
+    fonte: Legambiente Pendolaria 2025 (fonte di settore)
+  obiettivo_3a: 2.9
+  obiettivo_5a: 3.2
+  misurazione: manuale
+  valori:
+  - BEN
+  - FUT
+  nota: '5a: 3,5 mln entro il 2032'
+  scheda:
+    base: '2,54 mln (2024, Legambiente Pendolaria 2025: fonte di settore)'
+    obiettivo_3a: 2,9 mln
+    obiettivo_5a: 3,2 mln (3,5 entro il 2032)
+- id: 04-P3-b
+  proposta: 04-P3
+  nome: Emissioni del trasporto stradale
+  unita: Mt CO2eq
+  direzione: giu
+  base:
+    valore: 105.0
+    periodo: '2024'
+    fonte: Eurostat env_air_gge (CRF1A3B, trasporto stradale)
+  obiettivo_3a: 102.0
+  obiettivo_5a: 97.0
+  serie:
+    file: 04_emissioni_gas_serra_trasporti
+    filtro:
+      geo: IT
+      src_crf: CRF1A3B
+  valori:
+  - FUT
+  scheda:
+    base: 105,0 Mt CO2eq (2024, Eurostat `env_air_gge`)
+    obiettivo_3a: ≤ 102 Mt
+    obiettivo_5a: ≤ 97 Mt
+- id: 04-P3-c
+  proposta: 04-P3
+  nome: Auto ogni 1.000 abitanti
+  unita: auto per 1.000 ab.
+  direzione: giu
+  base:
+    valore: 709.0
+    periodo: '2025'
+    fonte: Eurostat road_eqs_carhab
+  obiettivo_3a: 712.0
+  obiettivo_5a: 700.0
+  serie:
+    file: 04_auto_per_1000_abitanti
+    filtro:
+      geo: IT
+  valori:
+  - FUT
+  - BEN
+  scheda:
+    base: 709 (2025, Eurostat `road_eqs_carhab`)
+    obiettivo_3a: ≤ 712 (crescita fermata)
+    obiettivo_5a: ≤ 700
+- id: 04-P4-a
+  proposta: 04-P4
+  nome: Nuove opere oltre 500 mln con valutazione indipendente pubblica
+  unita: '% opere'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 100.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - FID
+  - FUT
+  scheda:
+    base: 0% (nessun obbligo, 2026)
+    obiettivo_3a: 100%
+    obiettivo_5a: 100%
+- id: 04-P4-b
+  proposta: 04-P4
+  nome: Scostamento medio dei costi finali dalle previsioni
+  unita: '% scostamento'
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: banca dati ANAC/BDAP (primo rapporto a 12 mesi)
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: -20% rispetto alla base
+    5a: -33%
+  misurazione: manuale
+  valori:
+  - FID
+  - FUT
+  scheda:
+    base: da misurare (banca dati ANAC/BDAP, primo rapporto a 12 mesi)
+    obiettivo_3a: −20% rispetto alla base
+    obiettivo_5a: −33%
+- id: 04-P4-c
+  proposta: 04-P4
+  nome: Decisioni del CdM motivate pubblicamente dopo una valutazione negativa
+  unita: '% decisioni'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: null
+  obiettivo_3a: 100.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - FID
+  scheda:
+    base: non applicabile
+    obiettivo_3a: 100%
+    obiettivo_5a: 100%
+- id: 04-P5-a
+  proposta: 04-P5
+  nome: Materie LEP con costo quantificato e pubblicato
+  unita: '% materie'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 100.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - EQU
+  - FID
+  scheda:
+    base: 0 (nessuna quantificazione ufficiale, 2026)
+    obiettivo_3a: 100% delle materie
+    obiettivo_5a: 100%, aggiornate
+- id: 04-P5-b
+  proposta: 04-P5
+  nome: Intese con relazione tecnica per materia e clausola di rientro
+  unita: '% intese'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026-02-18'
+    fonte: CdM 18.2.2026 (0 su 4 schemi)
+  obiettivo_3a: 100.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - EQU
+  - FID
+  scheda:
+    base: 0 su 4 schemi (CdM 18.2.2026)
+    obiettivo_3a: 100%
+    obiettivo_5a: 100%
+- id: 04-P5-c
+  proposta: 04-P5
+  nome: Quota del fabbisogno LEP aggiuntivo finanziata
+  unita: '% fabbisogno'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: null
+    fonte: null
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivi_per_variante:
+    3a: 15-30% dei LEP non sanitari (PIENA)
+    5a: 30-40%
+  misurazione: manuale
+  valori:
+  - EQU
+  scheda:
+    base: 0%
+    obiettivo_3a: 15-30% dei LEP non sanitari (PIENA)
+    obiettivo_5a: 30-40%
+- id: 04-P6-a
+  proposta: 04-P6
+  nome: Presidi multiservizio attivi
+  unita: presidi
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 600.0
+  obiettivo_5a: 1000.0
+  misurazione: manuale
+  valori:
+  - EQU
+  - BPA
+  scheda:
+    base: 0 (2026)
+    obiettivo_3a: '600'
+    obiettivo_5a: '1.000'
+- id: 04-P6-b
+  proposta: 04-P6
+  nome: Tempo medio di accesso al pronto soccorso e alla scuola secondaria nei comuni periferici e ultraperiferici
+  unita: '% tempo'
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: ISTAT/SNAI (rilevazione entro 100 giorni)
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: -15%
+    5a: -25%
+  misurazione: manuale
+  valori:
+  - EQU
+  scheda:
+    base: rilevazione di base ISTAT/SNAI entro 100 giorni
+    obiettivo_3a: −15%
+    obiettivo_5a: −25%
+- id: 04-P6-c
+  proposta: 04-P6
+  nome: Popolazione delle aree interne del Mezzogiorno rispetto alla previsione ISTAT
+  unita: mln abitanti vs previsione
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: ISTAT, previsione mediana (7,1 mln 2025 → 6,0 mln 2050)
+  obiettivo_3a: null
+  obiettivo_5a: null
+  misurazione: manuale
+  valori:
+  - EQU
+  - BPA
+  - FUT
+  nota: riferimento in dati/serie/04_istat_previsioni_aree_interne (previsione, non osservato)
+  scheda:
+    base: 'previsione mediana: da 7,1 mln (2025) a 6,0 mln (2050)'
+    obiettivo_3a: sopra la traiettoria mediana
+    obiettivo_5a: sopra la traiettoria mediana di almeno 0,5 punti
+- id: 05-C1-a
+  proposta: 05-C1
+  nome: ELET 18-24 Isole
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 13.7
+    periodo: '2025'
+    fonte: Eurostat edat_lfse_16
+  obiettivo_3a: 11.5
+  obiettivo_5a: 9.5
+  serie:
+    file: 05_elet_18_24_nuts1
+    filtro:
+      geo: ITG
+  valori:
+  - APC
+  - EQU
+  scheda:
+    base: 13,7% (2025, Eurostat edat_lfse_16)
+    obiettivo_3a: 11,5%
+    obiettivo_5a: 9,5%
+- id: 05-C1-b
+  proposta: 05-C1
+  nome: ELET 18-24 maschi
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 10.1
+    periodo: '2025'
+    fonte: Eurostat edat_lfse_14
+  obiettivo_3a: 8.8
+  obiettivo_5a: 7.5
+  serie:
+    file: 05_elet_18_24_sesso
+    filtro:
+      geo: IT
+      sex: M
+  valori:
+  - APC
+  - EQU
+  scheda:
+    base: 10,1% (2025, Eurostat edat_lfse_14)
+    obiettivo_3a: 8,8%
+    obiettivo_5a: 7,5%
+- id: 05-C1-c
+  proposta: 05-C1
+  nome: Alunni di V primaria almeno al livello base in matematica
+  unita: '%'
+  direzione: su
+  base:
+    valore: 63.0
+    periodo: '2026'
+    fonte: INVALSI
+  obiettivo_3a: 66.0
+  obiettivo_5a: 68.0
+  misurazione: manuale
+  valori:
+  - APC
+  - EQU
+  scheda:
+    base: 63% (2026, INVALSI)
+    obiettivo_3a: 66% (divario scuole target/media dimezzato)
+    obiettivo_5a: 68%
+- id: 05-C2-a
+  proposta: 05-C2
+  nome: Adulti 25-64 in formazione
+  unita: '%'
+  direzione: su
+  base:
+    valore: 10.8
+    periodo: '2025'
+    fonte: Eurostat trng_lfse_01
+  obiettivo_3a: 13.7
+  obiettivo_5a: 16.0
+  serie:
+    file: 05_formazione_adulti_25_64
+    filtro:
+      geo: IT
+  valori:
+  - APC
+  scheda:
+    base: 10,8% (2025, Eurostat trng_lfse_01)
+    obiettivo_3a: 13,7% (media UE 2025)
+    obiettivo_5a: 16% (verso il 18% nel 2032)
+- id: 05-C2-b
+  proposta: 05-C2
+  nome: Idem, aree rurali
+  unita: '%'
+  direzione: su
+  base:
+    valore: 9.4
+    periodo: '2025'
+    fonte: Eurostat trng_lfs_14
+  obiettivo_3a: 12.0
+  obiettivo_5a: 14.0
+  serie:
+    file: 05_formazione_adulti_degurba
+    filtro:
+      geo: IT
+      deg_urb: DEG3
+  valori:
+  - APC
+  - EQU
+  scheda:
+    base: 9,4% (2025, Eurostat trng_lfs_14)
+    obiettivo_3a: 12%
+    obiettivo_5a: 14%
+- id: 05-C2-c
+  proposta: 05-C2
+  nome: Quota di titolari della dote maggiorata tra gli utilizzatori
+  unita: '%'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: null
+  obiettivo_3a: 40.0
+  obiettivo_5a: 45.0
+  misurazione: manuale
+  valori:
+  - EQU
+  - APC
+  scheda:
+    base: n.d. (rilevata dal primo anno)
+    obiettivo_3a: ≥40%
+    obiettivo_5a: ≥45%
+- id: 05-C3-a
+  proposta: 05-C3
+  nome: R&S finanziata dalla PA, % PIL
+  unita: '% PIL'
+  direzione: su
+  base:
+    valore: 0.54
+    periodo: '2024'
+    fonte: Eurostat rd_e_gerdfund
+  obiettivo_3a: 0.58
+  obiettivo_5a: 0.61
+  serie:
+    file: 05_rs_gerd_finanziata_pa
+    filtro:
+      geo: IT
+  valori:
+  - INN
+  - APC
+  scheda:
+    base: 0,54% (2024, Eurostat rd_e_gerdfund)
+    obiettivo_3a: 0,58%
+    obiettivo_5a: 0,61%
+- id: 05-C3-b
+  proposta: 05-C3
+  nome: Spesa totale in R&S, % PIL
+  unita: '% PIL'
+  direzione: su
+  base:
+    valore: 1.41
+    periodo: '2024'
+    fonte: Eurostat rd_e_gerdtot (1,37% nel 2025, preliminare)
+  obiettivo_3a: 1.5
+  obiettivo_5a: 1.6
+  serie:
+    file: 05_rs_gerd_settore
+    filtro:
+      geo: IT
+      sectperf: TOTAL
+      unit: PC_GDP
+  valori:
+  - INN
+  scheda:
+    base: 1,41% (2024; 1,37% nel 2025, preliminare; Eurostat rd_e_gerdtot)
+    obiettivo_3a: 1,50%
+    obiettivo_5a: 1,60%
+- id: 05-C3-c
+  proposta: 05-C3
+  nome: Saldo migratorio dei laureati italiani 25-34
+  unita: laureati/anno
+  direzione: su
+  base:
+    valore: -13000.0
+    periodo: 2019-2024 (media annua)
+    fonte: ISTAT, ago. 2026 (-78.000 nel periodo)
+  obiettivo_3a: -9000.0
+  obiettivo_5a: -6000.0
+  misurazione: manuale
+  valori:
+  - APC
+  - FUT
+  scheda:
+    base: -78.000 nel 2019-2024, cioè -13.000/anno (ISTAT, ago. 2026)
+    obiettivo_3a: -9.000/anno
+    obiettivo_5a: -6.000/anno
+- id: 05-C4-a
+  proposta: 05-C4
+  nome: Laureati e diplomati terziari 25-34
+  unita: '%'
+  direzione: su
+  base:
+    valore: 31.1
+    periodo: '2025'
+    fonte: Eurostat edat_lfse_03
+  obiettivo_3a: 33.0
+  obiettivo_5a: 35.0
+  serie:
+    file: 05_laureati_25_34
+    filtro:
+      geo: IT
+  valori:
+  - APC
+  scheda:
+    base: 31,1% (2025, Eurostat edat_lfse_03)
+    obiettivo_3a: 33%
+    obiettivo_5a: 35% (verso il 40% nel 2035)
+- id: 05-C4-b
+  proposta: 05-C4
+  nome: Iscritti ITS Academy
+  unita: iscritti
+  direzione: su
+  base:
+    valore: 33400.0
+    periodo: '2026-02-01'
+    fonte: stampa, da confermare con MIM/INDIRE
+  obiettivo_3a: 55000.0
+  obiettivo_5a: 85000.0
+  misurazione: manuale
+  valori:
+  - APC
+  - INN
+  scheda:
+    base: ~33.400 (1/2/2026, stampa, da confermare con MIM/INDIRE)
+    obiettivo_3a: '55.000'
+    obiettivo_5a: '85.000'
+- id: 05-C4-c
+  proposta: 05-C4
+  nome: Idonei non beneficiari
+  unita: studenti
+  direzione: giu
+  base:
+    valore: null
+    periodo: 2024/25
+    fonte: Avvenire, da verificare (copertura 99,8%, con fondi PNRR)
+  obiettivo_3a: 0.0
+  obiettivo_5a: 0.0
+  misurazione: manuale
+  valori:
+  - EQU
+  - APC
+  scheda:
+    base: copertura 99,8% nel 2024/25, con fondi PNRR (Avvenire, da verificare)
+    obiettivo_3a: '0'
+    obiettivo_5a: '0'
+- id: 05-C5-a
+  proposta: 05-C5
+  nome: Sedentarietà
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 30.8
+    periodo: '2025'
+    fonte: ISTAT
+  obiettivo_3a: 29.0
+  obiettivo_5a: 27.5
+  misurazione: manuale
+  valori:
+  - BEN
+  scheda:
+    base: 30,8% (2025, ISTAT)
+    obiettivo_3a: 29%
+    obiettivo_5a: 27,5% (con obiettivo specifico per 6-17 anni da fissare sulla rilevazione ISTAT per età)
+- id: 05-C5-b
+  proposta: 05-C5
+  nome: NEET 15-29
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 13.3
+    periodo: '2025'
+    fonte: Eurostat edat_lfse_20
+  obiettivo_3a: 12.0
+  obiettivo_5a: 11.0
+  serie:
+    file: 02_neet_15_29
+    filtro:
+      geo: IT
+  valori:
+  - APC
+  - EQU
+  scheda:
+    base: 13,3% (2025, Eurostat edat_lfse_20)
+    obiettivo_3a: 12,0% (insieme a 05-C1, C2 e C4)
+    obiettivo_5a: 11,0% (media UE 2025)
+- id: 05-C5-c
+  proposta: 05-C5
+  nome: Ore di apertura extra-curricolare per plesso e partecipanti under 18 con ISEE basso
+  unita: ore/anno per plesso
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: null
+  obiettivo_3a: 300.0
+  obiettivo_5a: 400.0
+  misurazione: manuale
+  valori:
+  - APC
+  - CIT
+  - EQU
+  scheda:
+    base: n.d. (rilevazione dal primo anno)
+    obiettivo_3a: ≥300 ore/anno nei plessi aderenti
+    obiettivo_5a: ≥400 ore/anno
+- id: 05-C6-a
+  proposta: 05-C6
+  nome: Docenti con formazione AI certificata
+  unita: '% docenti'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: INDIRE (rilevazione dal primo anno)
+  obiettivo_3a: 60.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - APC
+  - INN
+  scheda:
+    base: n.d. (2026; rilevazione INDIRE dal primo anno)
+    obiettivo_3a: 60%
+    obiettivo_5a: 100%
+- id: 05-C6-b
+  proposta: 05-C6
+  nome: PISA matematica
+  unita: punti PISA
+  direzione: su
+  base:
+    valore: 468.0
+    periodo: '2025'
+    fonte: OCSE, da ricontrollare
+  obiettivo_3a: 468.0
+  obiettivo_5a: null
+  misurazione: manuale
+  valori:
+  - APC
+  nota: '3a: non inferiore a 468 (PISA 2029); 5a: ≥ media OCSE'
+  scheda:
+    base: 468 (2025, OCSE, da ricontrollare sulla nota OCSE)
+    obiettivo_3a: non inferiore a 468 (PISA 2029)
+    obiettivo_5a: ≥ media OCSE
+- id: 05-C6-c
+  proposta: 05-C6
+  nome: Alunni di V primaria almeno al livello base in matematica
+  unita: '%'
+  direzione: su
+  base:
+    valore: 63.0
+    periodo: '2026'
+    fonte: INVALSI
+  obiettivo_3a: 66.0
+  obiettivo_5a: 68.0
+  misurazione: manuale
+  valori:
+  - APC
+  nota: vincolo di non danno
+  scheda:
+    base: 63% (2026, INVALSI)
+    obiettivo_3a: ≥66%
+    obiettivo_5a: ≥68%
+- id: 06-C1-a
+  proposta: 06-C1
+  nome: Persone con bisogni di cure non soddisfatti per costo, distanza o attesa
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 2.5
+    periodo: '2025'
+    fonte: Eurostat hlth_silc_08
+  obiettivo_3a: 1.9
+  obiettivo_5a: 1.5
+  serie:
+    file: 06_bisogni_non_soddisfatti
+    filtro:
+      geo: IT
+      reason: TXP_TFAR_WLIST
+  valori:
+  - BEN
+  - EQU
+  scheda:
+    base: 2,5% (2025, Eurostat hlth_silc_08)
+    obiettivo_3a: ≤ 1,9%
+    obiettivo_5a: ≤ 1,5%
+- id: 06-C1-b
+  proposta: 06-C1
+  nome: Bisogni non soddisfatti per sola attesa
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 0.9
+    periodo: '2025'
+    fonte: Eurostat hlth_silc_08
+  obiettivo_3a: 0.6
+  obiettivo_5a: 0.4
+  serie:
+    file: 06_bisogni_non_soddisfatti
+    filtro:
+      geo: IT
+      reason: WLIST
+  valori:
+  - BEN
+  - FID
+  scheda:
+    base: 0,9% (2025, Eurostat hlth_silc_08)
+    obiettivo_3a: ≤ 0,6%
+    obiettivo_5a: ≤ 0,4%
+- id: 06-C1-c
+  proposta: 06-C1
+  nome: Prestazioni B e D erogate nei tempi
+  unita: '% prestazioni'
+  direzione: su
+  base:
+    valore: null
+    periodo: 2026-H1
+    fonte: 'Agenas via stampa: circa 2,8 mln prestazioni fuori soglia (unità diversa dal KPI)'
+  obiettivo_3a: 80.0
+  obiettivo_5a: 90.0
+  misurazione: manuale
+  valori:
+  - BEN
+  - FID
+  scheda:
+    base: circa 2,8 mln prestazioni fuori soglia nel I semestre 2026 (Agenas via stampa, da verificare sul bollettino)
+    obiettivo_3a: 80% nei tempi
+    obiettivo_5a: ≥ 90% nei tempi
+- id: 06-C2-a
+  proposta: 06-C2
+  nome: Infermieri praticanti per 1.000 abitanti
+  unita: per 1.000 ab.
+  direzione: su
+  base:
+    valore: 6.92
+    periodo: '2024'
+    fonte: Eurostat hlth_rs_prs2
+  obiettivo_3a: 7.3
+  obiettivo_5a: 7.7
+  serie:
+    file: 06_personale_sanitario
+    filtro:
+      med_spec: NRS
+      wstatus: PRACT
+      unit: P_HTHAB
+    scala: 0.01
+  valori:
+  - BEN
+  nota: '5a: 8 entro il 2035'
+  scheda:
+    base: 6,92 (2024, Eurostat hlth_rs_prs2)
+    obiettivo_3a: 7,3
+    obiettivo_5a: 7,7 (8 entro il 2035)
+- id: 06-C2-b
+  proposta: 06-C2
+  nome: Rapporto infermieri/medici
+  unita: rapporto
+  direzione: su
+  base:
+    valore: 1.2
+    periodo: '2024'
+    fonte: Eurostat hlth_rs_prs2
+  obiettivo_3a: 1.3
+  obiettivo_5a: 1.4
+  serie:
+    file: obi_rapporto_infermieri_medici
+    filtro:
+      geo: IT
+  valori:
+  - BEN
+  scheda:
+    base: 1,2 (2024, Eurostat hlth_rs_prs2)
+    obiettivo_3a: 1,3
+    obiettivo_5a: 1,4
+- id: 06-C2-c
+  proposta: 06-C2
+  nome: Posti di medicina generale scoperti
+  unita: posti
+  direzione: giu
+  base:
+    valore: 5500.0
+    periodo: '2025'
+    fonte: Gimbe 2025, da verificare su dati SISAC (oltre 5.500)
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: -25%
+    5a: -50%
+  misurazione: manuale
+  valori:
+  - BEN
+  - EQU
+  scheda:
+    base: oltre 5.500 (Gimbe 2025, da verificare su dati SISAC)
+    obiettivo_3a: -25%
+    obiettivo_5a: -50%
+- id: 06-C3-a
+  proposta: 06-C3
+  nome: CdC pienamente operative
+  unita: '% CdC'
+  direzione: su
+  base:
+    valore: 3.9
+    periodo: 2025-H2
+    fonte: Agenas (66 su 1.715)
+  obiettivo_3a: 50.0
+  obiettivo_5a: 80.0
+  obiettivi_per_variante:
+    3a: 50% delle hub (ESSENZIALE)
+    5a: 80% delle hub; 60% di tutte (PIENA)
+  misurazione: manuale
+  valori:
+  - BEN
+  - EQU
+  nota: base su tutte le CdC, obiettivi sulle hub
+  scheda:
+    base: 66 su 1.715, 3,9% (II sem. 2025, Agenas)
+    obiettivo_3a: 50% delle hub (ESSENZIALE)
+    obiettivo_5a: 80% delle hub; 60% di tutte (PIENA)
+- id: 06-C3-b
+  proposta: 06-C3
+  nome: OdC con almeno un servizio
+  unita: '% OdC'
+  direzione: su
+  base:
+    valore: 27.4
+    periodo: 2025-H2
+    fonte: Agenas (163 su 594)
+  obiettivo_3a: 60.0
+  obiettivo_5a: 85.0
+  misurazione: manuale
+  valori:
+  - BEN
+  scheda:
+    base: 163 su 594, 27,4% (II sem. 2025, Agenas)
+    obiettivo_3a: 60%
+    obiettivo_5a: 85%
+- id: 06-C3-c
+  proposta: 06-C3
+  nome: Over 65 in ADI
+  unita: '%'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: target PNRR M6C1 10% (livello attuale da verificare)
+  obiettivo_3a: 10.0
+  obiettivo_5a: 10.0
+  misurazione: manuale
+  valori:
+  - BEN
+  - EQU
+  scheda:
+    base: livello attuale da verificare; target PNRR 10% (M6C1)
+    obiettivo_3a: 10%
+    obiettivo_5a: 10% mantenuto, con intensità minima
+- id: 06-C4-a
+  proposta: 06-C4
+  nome: Nuovi beneficiari con valutazione multidimensionale unica
+  unita: '% nuovi beneficiari'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 50.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - BEN
+  - RIS
+  scheda:
+    base: 0 (nessuna valutazione unica nel 2026)
+    obiettivo_3a: 50%
+    obiettivo_5a: 100%
+- id: 06-C4-b
+  proposta: 06-C4
+  nome: Quota del budget usata per lavoro regolare o servizi accreditati
+  unita: '% budget'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: null
+  obiettivo_3a: 40.0
+  obiettivo_5a: 60.0
+  misurazione: manuale
+  valori:
+  - BEN
+  - FID
+  scheda:
+    base: da rilevare (non esiste oggi)
+    obiettivo_3a: 40%
+    obiettivo_5a: 60%
+- id: 06-C4-c
+  proposta: 06-C4
+  nome: Persone in lista d'attesa per RSA
+  unita: persone
+  direzione: giu
+  base:
+    valore: 243000.0
+    periodo: '2026'
+    fonte: Quotidiano Sanità 2026, da verificare
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: -10%
+    5a: -25%
+  misurazione: manuale
+  valori:
+  - BEN
+  - RIS
+  scheda:
+    base: circa 243.000 (Quotidiano Sanità 2026, da verificare)
+    obiettivo_3a: -10%
+    obiettivo_5a: -25%
+- id: 06-C5-a
+  proposta: 06-C5
+  nome: Quota del FSN destinata alla salute mentale
+  unita: '% FSN'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: Ministero della Salute, da verificare su SISM (2,7–3%)
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivi_per_variante:
+    ESSENZIALE:
+      3a: 3.6
+      5a: 4.0
+    PIENA:
+      3a: 4.1
+      5a: 5.0
+  misurazione: manuale
+  valori:
+  - BEN
+  scheda:
+    base: 2,7–3% (2024, Ministero della Salute, da verificare su SISM)
+    obiettivo_3a: 3,6% (ESSENZIALE) / 4,1% (PIENA)
+    obiettivo_5a: 4% / 5%
+- id: 06-C5-b
+  proposta: 06-C5
+  nome: Personale dei DSM
+  unita: unità
+  direzione: su
+  base:
+    valore: 30101.0
+    periodo: '2022'
+    fonte: Ministero della Salute, da verificare
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: '+4.000'
+    5a: '+8.000 (PIENA: +14.000)'
+  misurazione: manuale
+  valori:
+  - BEN
+  scheda:
+    base: 30.101 unità (2022, Ministero della Salute, da verificare)
+    obiettivo_3a: '+4.000'
+    obiettivo_5a: '+8.000 (PIENA: +14.000)'
+- id: 06-C5-c
+  proposta: 06-C5
+  nome: Accessi in PS per crisi psichiatriche di under 25
+  unita: accessi
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: flusso EMUR (base 2026 da rilevare)
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: -10%
+    5a: -20%
+  misurazione: manuale
+  valori:
+  - BEN
+  scheda:
+    base: da rilevare su flusso EMUR (base 2026)
+    obiettivo_3a: -10%
+    obiettivo_5a: -20%
+- id: 06-C6-a
+  proposta: 06-C6
+  nome: Spesa per prevenzione sulla spesa sanitaria corrente
+  unita: '% spesa corrente'
+  direzione: su
+  base:
+    valore: 4.5
+    periodo: '2025'
+    fonte: ISTAT-SHA via Eurostat hlth_sha11_hc (8,56 mld)
+  obiettivo_3a: 5.0
+  obiettivo_5a: 5.5
+  serie:
+    file: 06_spesa_sanitaria_funzioni
+    filtro:
+      icha11_hc: HC6
+      unit: PC_CHE
+  valori:
+  - BEN
+  - FUT
+  scheda:
+    base: 4,5%, 8,56 mld (2025, ISTAT-SHA via Eurostat hlth_sha11_hc)
+    obiettivo_3a: 5,0%
+    obiettivo_5a: 5,5%
+- id: 06-C6-b
+  proposta: 06-C6
+  nome: Scostamento della spesa farmaceutica dal tetto
+  unita: mld €
+  direzione: giu
+  base:
+    valore: 4.77
+    periodo: '2025'
+    fonte: AIFA (acquisti diretti)
+  obiettivo_3a: 1.0
+  obiettivo_5a: 0.5
+  misurazione: manuale
+  valori:
+  - FUT
+  - FID
+  nota: '3a: scostamento dal tetto unico; 5a: anche contenzioso dimezzato'
+  scheda:
+    base: +4,77 mld sugli acquisti diretti (2025, AIFA)
+    obiettivo_3a: scostamento dal tetto unico ≤ 1 mld
+    obiettivo_5a: ≤ 0,5 mld, contenzioso dimezzato
+- id: 06-C6-c
+  proposta: 06-C6
+  nome: Prevalenza di fumatori adulti
+  unita: punti %
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: PASSI (ISS), da verificare
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: -2 punti
+    5a: -4 punti
+  misurazione: manuale
+  valori:
+  - BEN
+  scheda:
+    base: da PASSI (ISS), ultimo anno disponibile, da verificare
+    obiettivo_3a: -2 punti
+    obiettivo_5a: -4 punti
+- id: 07-C1-a
+  proposta: 07-C1
+  nome: Disposition time civile, tre gradi
+  unita: giorni
+  direzione: giu
+  base:
+    valore: 1789.0
+    periodo: '2025'
+    fonte: Min. Giustizia
+  obiettivo_3a: 1550.0
+  obiettivo_5a: 1400.0
+  serie:
+    file: obi_disposition_time_annuale
+    filtro:
+      geo: IT
+      indicatore: civile_tre_gradi
+  valori:
+  - FID
+  - RIS
+  scheda:
+    base: 1.789 giorni, 2025 (Min. Giustizia)
+    obiettivo_3a: ≤ 1.550
+    obiettivo_5a: ≤ 1.400
+- id: 07-C1-b
+  proposta: 07-C1
+  nome: Disposition time civile in tribunale
+  unita: giorni
+  direzione: giu
+  base:
+    valore: 435.0
+    periodo: '2025'
+    fonte: Min. Giustizia
+  obiettivo_3a: 390.0
+  obiettivo_5a: 360.0
+  misurazione: manuale
+  valori:
+  - FID
+  - RIS
+  scheda:
+    base: 435 giorni, 2025 (Min. Giustizia)
+    obiettivo_3a: ≤ 390
+    obiettivo_5a: ≤ 360
+- id: 07-C1-c
+  proposta: 07-C1
+  nome: Disposition time penale, tre gradi
+  unita: giorni
+  direzione: giu
+  base:
+    valore: 958.0
+    periodo: '2025'
+    fonte: Min. Giustizia
+  obiettivo_3a: 880.0
+  obiettivo_5a: 830.0
+  serie:
+    file: obi_disposition_time_annuale
+    filtro:
+      geo: IT
+      indicatore: penale_tre_gradi
+  valori:
+  - FID
+  - RIS
+  scheda:
+    base: 958 giorni, 2025 (Min. Giustizia)
+    obiettivo_3a: ≤ 880
+    obiettivo_5a: ≤ 830
+- id: 07-C2-a
+  proposta: 07-C2
+  nome: Affollamento sui posti regolamentari
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 128.8
+    periodo: '2026-09-30'
+    fonte: DAP
+  obiettivo_3a: 115.0
+  obiettivo_5a: 105.0
+  serie:
+    file: 07_detenuti_dap
+    filtro: {}
+    tempo: data
+    colonna: affollamento_regolamentare_pct
+  valori:
+  - RIS
+  - SIC
+  scheda:
+    base: 128,8%, 30/9/2026 (DAP)
+    obiettivo_3a: ≤ 115%
+    obiettivo_5a: ≤ 105%
+- id: 07-C2-b
+  proposta: 07-C2
+  nome: Detenuti presenti
+  unita: detenuti
+  direzione: giu
+  base:
+    valore: 66063.0
+    periodo: '2026-09-30'
+    fonte: DAP
+  obiettivo_3a: 60000.0
+  obiettivo_5a: 56000.0
+  serie:
+    file: 07_detenuti_dap
+    filtro: {}
+    tempo: data
+    colonna: presenti
+  valori:
+  - RIS
+  - SIC
+  scheda:
+    base: 66.063, 30/9/2026 (DAP)
+    obiettivo_3a: ≤ 60.000
+    obiettivo_5a: ≤ 56.000
+- id: 07-C2-c
+  proposta: 07-C2
+  nome: Recidiva a 3 anni, misure alternative vs carcere
+  unita: '% recidiva'
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: ISTAT-DAP (prima rilevazione 2028)
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: base pubblicata
+    5a: -10% rispetto alla base
+  misurazione: manuale
+  valori:
+  - SIC
+  - RIS
+  scheda:
+    base: assente; prima rilevazione ISTAT-DAP 2028
+    obiettivo_3a: base pubblicata
+    obiettivo_5a: −10% rispetto alla base
+- id: 07-C3-a
+  proposta: 07-C3
+  nome: Rimpatri eseguiti / ordini di allontanamento
+  unita: '%'
+  direzione: su
+  base:
+    valore: 22.0
+    periodo: '2025'
+    fonte: Eurostat migr_eirtn / migr_eiord (4.780/21.295)
+  obiettivo_3a: 30.0
+  obiettivo_5a: 35.0
+  serie:
+    file: obi_rimpatri_su_ordini
+    filtro:
+      geo: IT
+  valori:
+  - SIC
+  - FID
+  scheda:
+    base: 22% (4.780/21.295), 2025, Eurostat
+    obiettivo_3a: ≥ 30%
+    obiettivo_5a: ≥ 35%
+- id: 07-C3-b
+  proposta: 07-C3
+  nome: Durata media della procedura d'asilo in prima istanza
+  unita: mesi
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: non pubblicata (da rilevare nel 2027)
+  obiettivo_3a: 9.0
+  obiettivo_5a: 6.0
+  misurazione: manuale
+  valori:
+  - RIS
+  - FID
+  scheda:
+    base: non pubblicata; da rilevare nel 2027
+    obiettivo_3a: ≤ 9 mesi
+    obiettivo_5a: ≤ 6 mesi
+- id: 07-C3-c
+  proposta: 07-C3
+  nome: Conversione dei nulla osta in contratti
+  unita: '%'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: non pubblicata (da rilevare nel 2027)
+  obiettivo_3a: 60.0
+  obiettivo_5a: 75.0
+  misurazione: manuale
+  valori:
+  - FID
+  - BEN
+  scheda:
+    base: non pubblicata; da rilevare nel 2027
+    obiettivo_3a: ≥ 60%
+    obiettivo_5a: ≥ 75%
+- id: 07-C4-a
+  proposta: 07-C4
+  nome: Immobili ancora in gestione ANBSC
+  unita: immobili
+  direzione: giu
+  base:
+    valore: 19414.0
+    periodo: '2025-12-31'
+    fonte: ANBSC
+  obiettivo_3a: 15000.0
+  obiettivo_5a: 11000.0
+  misurazione: manuale
+  valori:
+  - SIC
+  - CIT
+  nota: dato puntuale in dati/serie/07_anbsc_beni_confiscati (senza serie storica)
+  scheda:
+    base: 19.414, 31/12/2025 (ANBSC)
+    obiettivo_3a: ≤ 15.000
+    obiettivo_5a: ≤ 11.000
+- id: 07-C4-b
+  proposta: 07-C4
+  nome: Beni opzionati / beni proposti agli enti
+  unita: '%'
+  direzione: su
+  base:
+    valore: 44.8
+    periodo: '2025'
+    fonte: ANBSC
+  obiettivo_3a: 60.0
+  obiettivo_5a: 70.0
+  misurazione: manuale
+  valori:
+  - CIT
+  - SIC
+  nota: dato puntuale in dati/serie/07_anbsc_beni_confiscati
+  scheda:
+    base: 44,8%, 2025 (ANBSC)
+    obiettivo_3a: ≥ 60%
+    obiettivo_5a: ≥ 70%
+- id: 07-C4-c
+  proposta: 07-C4
+  nome: Immobili destinati nell'anno
+  unita: immobili/anno
+  direzione: su
+  base:
+    valore: 3639.0
+    periodo: '2025'
+    fonte: ANBSC
+  obiettivo_3a: 4500.0
+  obiettivo_5a: 5000.0
+  misurazione: manuale
+  valori:
+  - CIT
+  - SIC
+  nota: dato puntuale in dati/serie/07_anbsc_beni_confiscati
+  scheda:
+    base: 3.639, 2025 (ANBSC)
+    obiettivo_3a: ≥ 4.500
+    obiettivo_5a: ≥ 5.000
+- id: 07-C5-a
+  proposta: 07-C5
+  nome: Spesa difesa core, % del PIL
+  unita: '% PIL'
+  direzione: su
+  base:
+    valore: 2.1
+    periodo: '2026'
+    fonte: NATO
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivi_per_variante:
+    PIENA:
+      3a: 2.57
+      5a: 2.88
+    ESSENZIALE:
+      3a: 2.2
+      5a: 2.3
+    ZERO:
+      3a: 2.1
+      5a: 2.1
+  serie:
+    file: 07_nato_spesa_difesa_italia
+    filtro:
+      rapporto: NATO 2014-2026 (lug 2026)
+      variabile: pct_pil
+    tempo: anno
+  valori:
+  - SIC
+  nota: direzione = verso la variante scelta (scelta politica, la scheda non raccomanda); il filtro 'rapporto' va aggiornato a ogni nuovo rapporto NATO
+  scheda:
+    base: 2,10%, 2026 (NATO)
+    obiettivo_3a: PIENA 2,57% · ESSENZIALE 2,2% · ZERO 2,1%
+    obiettivo_5a: PIENA 2,88% · ESSENZIALE 2,3% · ZERO 2,1%
+- id: 07-C5-b
+  proposta: 07-C5
+  nome: Quota degli investimenti in acquisti congiunti UE
+  unita: '% investimenti'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: prima relazione 2027
+  obiettivo_3a: 25.0
+  obiettivo_5a: 40.0
+  misurazione: manuale
+  valori:
+  - SIC
+  - FUT
+  scheda:
+    base: non pubblicata; prima relazione 2027
+    obiettivo_3a: ≥ 25%
+    obiettivo_5a: ≥ 40%
+- id: 07-C5-c
+  proposta: 07-C5
+  nome: Debito/PIL rispetto al percorso UE
+  unita: '% PIL'
+  direzione: giu
+  base:
+    valore: 136.7
+    periodo: '2025'
+    fonte: Eurostat; 136,6% programmatico 2029 (DPB 2027)
+  obiettivo_3a: null
+  obiettivo_5a: null
+  serie:
+    file: debito_pil
+    filtro:
+      geo: IT
+  valori:
+  - FUT
+  nota: '3a: ≤ percorso programmatico (136,6% nel 2029); 5a: in calo'
+  scheda:
+    base: 136,7%, 2025 (Eurostat); 136,6% programmatico 2029 (DPB 2027)
+    obiettivo_3a: ≤ percorso programmatico
+    obiettivo_5a: in calo
+- id: 07-C6-a
+  proposta: 07-C6
+  nome: Comuni sotto 50k e aziende sanitarie coperti da un SOC
+  unita: '% enti'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 60.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - SIC
+  scheda:
+    base: 0%, 2026 (nessuna rete)
+    obiettivo_3a: ≥ 60%
+    obiettivo_5a: 100%
+- id: 07-C6-b
+  proposta: 07-C6
+  nome: Incidenti con impatto in enti locali e sanità
+  unita: incidenti
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: ACN (sottoinsieme dei 615 del 2025, da rilevare)
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: -20%
+    5a: -35%
+  misurazione: manuale
+  valori:
+  - SIC
+  scheda:
+    base: sottoinsieme dei 615 del 2025 (ACN), da rilevare
+    obiettivo_3a: −20%
+    obiettivo_5a: −35%
+- id: 07-C6-c
+  proposta: 07-C6
+  nome: Tempo medio di ripristino dopo un ransomware
+  unita: giorni
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: ACN (da rilevare, 2027)
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: -30%
+    5a: -50%
+  misurazione: manuale
+  valori:
+  - SIC
+  scheda:
+    base: da rilevare (ACN, 2027)
+    obiettivo_3a: −30%
+    obiettivo_5a: −50%
+- id: 08-P1-a
+  proposta: 08-P1
+  nome: Quota di atti obbligati con VIP-AI pubblicata nei termini
+  unita: '% atti'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 80.0
+  obiettivo_5a: 95.0
+  misurazione: manuale
+  valori:
+  - FID
+  - INN
+  scheda:
+    base: 0% (2026, nessuna norma)
+    obiettivo_3a: ≥ 80%
+    obiettivo_5a: ≥ 95%
+- id: 08-P1-b
+  proposta: 08-P1
+  nome: Quota di scostamenti rilevanti con relazione motivata
+  unita: '% scostamenti'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 70.0
+  obiettivo_5a: 95.0
+  misurazione: manuale
+  valori:
+  - FID
+  scheda:
+    base: 0% (2026)
+    obiettivo_3a: ≥ 70%
+    obiettivo_5a: ≥ 95%
+- id: 08-P1-c
+  proposta: 08-P1
+  nome: Inviti al sorteggio accettati
+  unita: '% inviti'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: riferimento Ostbelgien e Irlanda, valore non verificato
+  obiettivo_3a: 10.0
+  obiettivo_5a: 15.0
+  misurazione: manuale
+  valori:
+  - CIT
+  scheda:
+    base: n.d. (Ostbelgien e Irlanda come riferimento, valore non verificato)
+    obiettivo_3a: ≥ 10%
+    obiettivo_5a: ≥ 15%
+- id: 08-P1-d
+  proposta: 08-P1
+  nome: Affluenza alle politiche
+  unita: '%'
+  direzione: su
+  base:
+    valore: 63.9
+    periodo: '2022'
+    fonte: Eligendo
+  obiettivo_3a: null
+  obiettivo_5a: null
+  misurazione: manuale
+  valori:
+  - CIT
+  - FID
+  nota: 'indicatore di contesto; 5a: inversione del calo alle elezioni successive'
+  scheda:
+    base: 63,9% (2022, Eligendo)
+    obiettivo_3a: — (elezioni 2027)
+    obiettivo_5a: inversione del calo alle elezioni successive
+- id: 08-P2-a
+  proposta: 08-P2
+  nome: Questioni di fiducia al mese
+  unita: questioni/mese
+  direzione: giu
+  base:
+    valore: 2.85
+    periodo: XIX legislatura
+    fonte: Openpolis via stampa, non verificato
+  obiettivo_3a: 2.0
+  obiettivo_5a: 1.0
+  misurazione: manuale
+  valori:
+  - FID
+  - CIT
+  scheda:
+    base: 2,85 (XIX leg., Openpolis via stampa, **non verificato**)
+    obiettivo_3a: ≤ 2
+    obiettivo_5a: ≤ 1
+- id: 08-P2-b
+  proposta: 08-P2
+  nome: Quota di leggi sopra 100 mln con clausola valutativa attuata
+  unita: '% leggi'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: prima relazione 2027
+  obiettivo_3a: 60.0
+  obiettivo_5a: 90.0
+  misurazione: manuale
+  valori:
+  - FID
+  scheda:
+    base: n.d. (da misurare nella prima relazione, 2027)
+    obiettivo_3a: ≥ 60%
+    obiettivo_5a: ≥ 90%
+- id: 08-P2-c
+  proposta: 08-P2
+  nome: Decreti attuativi pendenti oltre 12 mesi
+  unita: decreti
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: prima relazione
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: -30%
+    5a: -50%
+  misurazione: manuale
+  valori:
+  - FID
+  scheda:
+    base: n.d. (prima relazione)
+    obiettivo_3a: −30%
+    obiettivo_5a: −50%
+- id: 08-P3-a
+  proposta: 08-P3
+  nome: Affluenza alle politiche
+  unita: '%'
+  direzione: su
+  base:
+    valore: 63.9
+    periodo: '2022'
+    fonte: Eligendo
+  obiettivo_3a: 64.0
+  obiettivo_5a: 66.0
+  misurazione: manuale
+  valori:
+  - CIT
+  - FID
+  nota: '3a: elezioni 2027; 5a: elezioni successive'
+  scheda:
+    base: 63,9% (2022, Eligendo)
+    obiettivo_3a: ≥ 64% (2027)
+    obiettivo_5a: ≥ 66% (elezioni successive)
+- id: 08-P3-b
+  proposta: 08-P3
+  nome: Elettori fuorisede che votano nel comune di domicilio
+  unita: elettori
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: sperimentazioni 2024–25, dato non verificato
+  obiettivo_3a: 300000.0
+  obiettivo_5a: 500000.0
+  misurazione: manuale
+  valori:
+  - CIT
+  - RIS
+  nota: 'obiettivi: stima GovernAI'
+  scheda:
+    base: n.d. (sperimentazioni 2024–25, dato non verificato)
+    obiettivo_3a: ≥ 300.000 (stima GovernAI)
+    obiettivo_5a: ≥ 500.000
+- id: 08-P3-c
+  proposta: 08-P3
+  nome: Modifiche agli elementi fondamentali nei 12 mesi prima del voto
+  unita: modifiche
+  direzione: giu
+  base:
+    valore: 1.0
+    periodo: '2026'
+    fonte: l. 180/2026
+  obiettivo_3a: 0.0
+  obiettivo_5a: 0.0
+  misurazione: manuale
+  valori:
+  - FID
+  - CIT
+  scheda:
+    base: 1 (l. 180/2026)
+    obiettivo_3a: '0'
+    obiettivo_5a: '0'
+- id: 08-P4-a
+  proposta: 08-P4
+  nome: Saldo netto Italia sul solo QFP
+  unita: mld €
+  direzione: su
+  base:
+    valore: -4.1
+    periodo: '2025'
+    fonte: Commissione UE, calcolo GovernAI
+  obiettivo_3a: -4.0
+  obiettivo_5a: -3.0
+  serie:
+    file: 08_saldo_it_bilancio_ue
+    filtro: {}
+    tempo: anno
+    colonna: saldo_netto_qfp
+    scala: 0.001
+  valori:
+  - FUT
+  - EQU
+  nota: '3a: non peggiore di -4 mld'
+  scheda:
+    base: −4,1 mld (2025, Commissione UE, calcolo GovernAI)
+    obiettivo_3a: non peggiore di −4 mld
+    obiettivo_5a: ≥ −3 mld
+- id: 08-P4-b
+  proposta: 08-P4
+  nome: Quota del QFP 2028–34 finanziata da nuove risorse proprie
+  unita: '% rimborso NGEU'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: null
+  obiettivo_5a: null
+  misurazione: manuale
+  valori:
+  - FUT
+  - EQU
+  nota: 'obiettivi qualitativi: 3a accordo su almeno 2 nuove risorse proprie; 5a risorse in riscossione'
+  scheda:
+    base: 0% del rimborso NGEU coperto da nuove risorse concordate (2026)
+    obiettivo_3a: accordo su almeno 2 nuove risorse proprie
+    obiettivo_5a: risorse in riscossione
+- id: 08-P4-c
+  proposta: 08-P4
+  nome: Quota del prestito SAFE italiano trasformata in programmi comuni
+  unita: '% prestito SAFE'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: 2026-10
+    fonte: richiesta italiana di poco più di 8 mld
+  obiettivo_3a: 25.0
+  obiettivo_5a: 50.0
+  misurazione: manuale
+  valori:
+  - SIC
+  - FUT
+  scheda:
+    base: 0 su "poco più di 8 mld" richiesti (ott. 2026)
+    obiettivo_3a: ≥ 25%
+    obiettivo_5a: ≥ 50%
+- id: 08-P5-a
+  proposta: 08-P5
+  nome: APS/RNL
+  unita: '% RNL'
+  direzione: su
+  base:
+    valore: 0.3
+    periodo: '2025'
+    fonte: OCSE DAC1, preliminare
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivi_per_variante:
+    ESSENZIALE:
+      3a: 0.33
+      5a: 0.35
+    PIENA:
+      3a: 0.36
+      5a: 0.4
+  serie:
+    file: 08_aps_ocse_dac
+    filtro:
+      DONOR: ITA
+      MEASURE: '11002'
+    tempo: TIME_PERIOD
+    colonna: OBS_VALUE
+  valori:
+  - EQU
+  - FUT
+  scheda:
+    base: 0,30% (2025, OCSE DAC1, prelim.)
+    obiettivo_3a: 0,33% (ESS.) / 0,36% (PIENA)
+    obiettivo_5a: 0,35% (ESS.) / 0,40% (PIENA)
+- id: 08-P5-b
+  proposta: 08-P5
+  nome: Quota APS spesa per rifugiati in Italia
+  unita: '% APS netto'
+  direzione: giu
+  base:
+    valore: 18.5
+    periodo: '2025'
+    fonte: OCSE DAC1
+  obiettivo_3a: 15.0
+  obiettivo_5a: 12.0
+  serie:
+    file: obi_aps_quota_rifugiati
+    filtro:
+      geo: IT
+  valori:
+  - EQU
+  - FID
+  nota: '3a: riportata a parte e ≤ 15%'
+  scheda:
+    base: 18,5% dell'APS netto (2025, OCSE DAC1)
+    obiettivo_3a: riportata a parte; ≤ 15%
+    obiettivo_5a: ≤ 12%
+- id: 08-P5-c
+  proposta: 08-P5
+  nome: Programmi con valutazione controfattuale pubblicata
+  unita: '% programmi'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: null
+  obiettivo_3a: 5.0
+  obiettivo_5a: 10.0
+  misurazione: manuale
+  valori:
+  - FID
+  scheda:
+    base: 'n.d. (valutazione qualitativa: poche e non sistematiche)'
+    obiettivo_3a: 5%
+    obiettivo_5a: 10%
+- id: 08-P6-a
+  proposta: 08-P6
+  nome: Quota dell'export verso mercati extra UE diversi dagli USA
+  unita: '%'
+  direzione: su
+  base:
+    valore: 37.8
+    periodo: '2025'
+    fonte: Eurostat Comext
+  obiettivo_3a: 39.0
+  obiettivo_5a: 40.0
+  serie:
+    file: obi_export_quote_mercati
+    filtro:
+      geo: IT
+      indicatore: extra_ue_no_usa
+  valori:
+  - INN
+  - SIC
+  scheda:
+    base: 37,8% (2025, Eurostat Comext)
+    obiettivo_3a: 39%
+    obiettivo_5a: 40%
+- id: 08-P6-b
+  proposta: 08-P6
+  nome: Quota dei primi tre mercati
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 32.2
+    periodo: '2025'
+    fonte: Eurostat Comext
+  obiettivo_3a: 31.0
+  obiettivo_5a: 30.0
+  serie:
+    file: obi_export_quote_mercati
+    filtro:
+      geo: IT
+      indicatore: top3_de_us_fr
+  valori:
+  - SIC
+  - INN
+  scheda:
+    base: 32,2% (2025, Eurostat Comext)
+    obiettivo_3a: ≤ 31%
+    obiettivo_5a: ≤ 30%
+- id: 08-P6-c
+  proposta: 08-P6
+  nome: Esportazioni aggiuntive delle PMI con voucher rispetto al gruppo di controllo
+  unita: € export per € pubblico
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: null
+  obiettivo_3a: null
+  obiettivo_5a: 2.0
+  misurazione: manuale
+  valori:
+  - INN
+  - FID
+  nota: '3a: effetto stimato e pubblicato; 5a: ≥ 2 € per 1 € pubblico, altrimenti chiusura'
+  scheda:
+    base: n.d. (nessuna valutazione controfattuale esistente)
+    obiettivo_3a: effetto stimato e pubblicato
+    obiettivo_5a: effetto ≥ 2 € di export per 1 € pubblico, altrimenti chiusura
+- id: 09-C1-a
+  proposta: 09-C1
+  nome: Quota di atti VIP-AI con dati e codice pubblicati
+  unita: '% atti'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: dossier 09
+  obiettivo_3a: 60.0
+  obiettivo_5a: 90.0
+  misurazione: manuale
+  valori:
+  - FID
+  - INN
+  scheda:
+    base: '0% (2026: nessun obbligo vigente; dossier 09)'
+    obiettivo_3a: 60%
+    obiettivo_5a: 90%
+- id: 09-C1-b
+  proposta: 09-C1
+  nome: Quota di analisi del campione riprodotte dall'Ufficio 08-P1
+  unita: '% analisi'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: null
+  obiettivo_3a: 50.0
+  obiettivo_5a: 80.0
+  misurazione: manuale
+  valori:
+  - FID
+  scheda:
+    base: non misurata (2026)
+    obiettivo_3a: ≥ 50% (sotto questa soglia si riprogetta)
+    obiettivo_5a: ≥ 80%
+- id: 09-C1-c
+  proposta: 09-C1
+  nome: Modelli pubblici di microsimulazione con licenza aperta
+  unita: modelli
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: dossier 09 (RGS, Finanze, INPS)
+  obiettivo_3a: 3.0
+  obiettivo_5a: 6.0
+  misurazione: manuale
+  valori:
+  - FID
+  - INN
+  scheda:
+    base: 0 tra quelli di RGS, Finanze e INPS (2026, dossier 09)
+    obiettivo_3a: '3'
+    obiettivo_5a: '6'
+- id: 09-C2-a
+  proposta: 09-C2
+  nome: 16-74enni che hanno interagito online con la PA
+  unita: '%'
+  direzione: su
+  base:
+    valore: 43.5
+    periodo: '2025'
+    fonte: Eurostat isoc_ciegi_ac
+  obiettivo_3a: 52.0
+  obiettivo_5a: 60.0
+  serie:
+    file: 09_egov_uso_cittadini
+    filtro:
+      geo: IT
+      indic_is: I_IUGOV1
+  valori:
+  - INN
+  - CIT
+  scheda:
+    base: 43,5% (2025, Eurostat isoc_ciegi_ac)
+    obiettivo_3a: 52%
+    obiettivo_5a: '60% (media UE 2025: 57,7%)'
+- id: 09-C2-b
+  proposta: 09-C2
+  nome: Procedimenti dell'elenco con acquisizione esclusiva via PDND
+  unita: procedimenti su 100
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: DTD (pubblica solo le adesioni)
+  obiettivo_3a: 50.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - INN
+  - FID
+  scheda:
+    base: non misurato (2026; DTD pubblica solo le adesioni)
+    obiettivo_3a: 50 su 100
+    obiettivo_5a: 100 su 100
+- id: 09-C2-c
+  proposta: 09-C2
+  nome: Indennizzi pagati per 10.000 pratiche
+  unita: indennizzi per 10.000 pratiche
+  direzione: giu
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: null
+  obiettivo_5a: null
+  misurazione: manuale
+  valori:
+  - FID
+  - INN
+  nota: 'obiettivi qualitativi: 3a in calo per 4 trimestri; 5a meno della metà del primo anno'
+  scheda:
+    base: 0 (diritto non vigente, 2026)
+    obiettivo_3a: in calo per 4 trimestri consecutivi
+    obiettivo_5a: meno della metà del primo anno di applicazione
+- id: 09-C3-a
+  proposta: 09-C3
+  nome: Comuni sotto i 5.000 abitanti serviti da un pool qualificato
+  unita: comuni
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: ISTAT 2026, ANAC I trim. 2026 (su 5.522)
+  obiettivo_3a: 2000.0
+  obiettivo_5a: 4000.0
+  misurazione: manuale
+  valori:
+  - EQU
+  - INN
+  scheda:
+    base: 0 su 5.522 (2026; ISTAT 2026, ANAC I trim. 2026)
+    obiettivo_3a: '2.000'
+    obiettivo_5a: '4.000'
+- id: 09-C3-b
+  proposta: 09-C3
+  nome: Amministrazioni qualificate per progettazione e affidamento, pool inclusi, con copertura dei comuni aderenti
+  unita: amministrazioni
+  direzione: su
+  base:
+    valore: 3919.0
+    periodo: '2026-03-31'
+    fonte: ANAC
+  obiettivo_3a: null
+  obiettivo_5a: null
+  misurazione: manuale
+  valori:
+  - FID
+  - EQU
+  nota: 'obiettivo: copertura di tutti i comuni aderenti (5a con tempi -20%); dato in dati/serie/09_anac_qualificazione_sa'
+  scheda:
+    base: 3.919 qualificate (31.3.2026, ANAC)
+    obiettivo_3a: tutti i comuni aderenti coperti
+    obiettivo_5a: tutti i comuni aderenti coperti, con tempi di aggiudicazione -20% rispetto ai non aderenti
+- id: 09-C3-c
+  proposta: 09-C3
+  nome: Tempo medio ponderato di pagamento delle fatture negli enti aderenti
+  unita: giorni
+  direzione: giu
+  base:
+    valore: 30.0
+    periodo: '2024'
+    fonte: MEF-RGS (OCPI segnala sottostima)
+  obiettivo_3a: 27.0
+  obiettivo_5a: 25.0
+  misurazione: manuale
+  valori:
+  - FID
+  - INN
+  scheda:
+    base: 30 giorni nel 2024, media nazionale (MEF-RGS; OCPI segnala sottostima)
+    obiettivo_3a: ≤ 27 giorni, con misura dei tempi effettivi
+    obiettivo_5a: ≤ 25 giorni
+- id: 09-C4-a
+  proposta: 09-C4
+  nome: PA su infrastrutture cloud qualificate
+  unita: '% amministrazioni'
+  direzione: su
+  base:
+    valore: 75.0
+    periodo: 2026-07
+    fonte: DTD (circa 13.000 PA, oltre il 75%)
+  obiettivo_3a: 85.0
+  obiettivo_5a: 95.0
+  misurazione: manuale
+  valori:
+  - INN
+  - SIC
+  nota: '3a: anche nessun ritorno a server locali'
+  scheda:
+    base: circa 13.000, oltre il 75% delle amministrazioni (DTD, luglio 2026)
+    obiettivo_3a: nessun ritorno a server locali; ≥ 85%
+    obiettivo_5a: ≥ 95%
+- id: 09-C4-b
+  proposta: 09-C4
+  nome: Incidenti cyber gravi noti in Italia
+  unita: incidenti
+  direzione: giu
+  base:
+    valore: 245.0
+    periodo: 2026-H1
+    fonte: Clusit
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: quota del settore pubblico in calo
+    5a: -30% sugli enti beneficiari rispetto al 2026
+  misurazione: manuale
+  valori:
+  - SIC
+  scheda:
+    base: 245 nel I semestre 2026 (Clusit)
+    obiettivo_3a: quota del settore pubblico in calo
+    obiettivo_5a: -30% sugli enti beneficiari rispetto al 2026
+- id: 09-C4-c
+  proposta: 09-C4
+  nome: Risparmi certificati sui canoni
+  unita: '% canoni'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 25.0
+  obiettivo_5a: 50.0
+  misurazione: manuale
+  valori:
+  - FUT
+  - FID
+  scheda:
+    base: 0 (nessuna certificazione, 2026)
+    obiettivo_3a: ≥ 25% dei canoni
+    obiettivo_5a: ≥ 50% dei canoni
+- id: 09-C5-a
+  proposta: 09-C5
+  nome: 16-74enni con competenze digitali almeno di base
+  unita: '%'
+  direzione: su
+  base:
+    valore: 54.27
+    periodo: '2025'
+    fonte: Eurostat (competenze digitali di base)
+  obiettivo_3a: 64.0
+  obiettivo_5a: 72.0
+  serie:
+    file: 09_competenze_digitali_base
+    filtro:
+      geo: IT
+  valori:
+  - INN
+  - APC
+  - CIT
+  scheda:
+    base: 54,27% (2025, Eurostat; UE 60,4%)
+    obiettivo_3a: 64% (rilevazione 2029)
+    obiettivo_5a: 72% (verso il 70% al 2030 e l'80% al 2032 del dossier)
+- id: 09-C5-b
+  proposta: 09-C5
+  nome: Sistemi IA che incidono su provvedimenti iscritti nell'albo con valutazione d'impatto pubblica
+  unita: '% sistemi'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: null
+  obiettivo_3a: 100.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - FID
+  - RIS
+  - SIC
+  scheda:
+    base: 0 (albo inesistente, 2026)
+    obiettivo_3a: 100% dei sistemi censiti
+    obiettivo_5a: 100%, con verifica a campione dell'Ufficio 08-P1
+- id: 09-C5-c
+  proposta: 09-C5
+  nome: Dipendenti che hanno completato 24 ore su IA e dati
+  unita: '% dipendenti'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: null
+  obiettivo_3a: 60.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - INN
+  - APC
+  scheda:
+    base: non misurato (2026)
+    obiettivo_3a: 60%
+    obiettivo_5a: 100%

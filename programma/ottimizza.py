@@ -23,6 +23,7 @@ Scrive selezione[_etichetta].md e selezione[_etichetta].csv.
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from pathlib import Path
 
@@ -116,6 +117,29 @@ def costruisci(var: pd.DataFrame, menu: pd.DataFrame, cap: dict[str, float]):
     return chiavi, np.array(righe_A), np.array(lb), np.array(ub), nomi
 
 
+RE_COMPENSAZIONE = re.compile(r"compens|salvaguard|ISEE|esclus|esent|franchigia", re.I)
+
+
+def linee_rosse(chiavi: pd.DataFrame, menu: pd.DataFrame) -> list[tuple[str, str, int]]:
+    """Esclusioni automatiche: (motivo, chiave, indice nella matrice del problema)."""
+    out = []
+    # 1. proposta segnalata come linea rossa dalla maggioranza del panel indipendente
+    file = sorted((RADICE / "motore").glob("punteggi_?.csv"))
+    panel = pd.concat([pd.read_csv(f).assign(valutatore=f.stem[-1]) for f in file])
+    voti = panel[panel.linea_rossa.astype(str).str.lower() == "si"].groupby("proposta_id").valutatore.nunique()
+    maggioranza = {p for p, v in voti.items() if v > len(file) / 2}
+    for i, r in chiavi.iterrows():
+        if r.proposta_id in maggioranza and r.costo_regime > 0:
+            out.append(("linea rossa segnalata dalla maggioranza del panel", r.chiave, int(i)))
+    # 2. copertura che sposta costi rilevanti sui più deboli senza compensazione (Carta, Equità)
+    J = len(chiavi)
+    if "EQU" in menu.columns:
+        for j, r in menu.iterrows():
+            if r.EQU <= -2 and not RE_COMPENSAZIONE.search(str(r.descrizione)):
+                out.append(("copertura regressiva senza compensazione (Equità ≤ −2)", r.misura_id, J + int(j)))
+    return out
+
+
 def risolvi(obj: np.ndarray, A, lb, ub, fissa: dict[int, int]) -> np.ndarray | None:
     n = len(obj)
     lo, hi = np.zeros(n), np.ones(n)
@@ -152,7 +176,7 @@ def main() -> int:
 
     # Utilità delle proposte dal panel (SMAA), riallineate alle varianti
     S, _, _, ids = decidi.carica_panel()
-    sim = decidi.simula(S, max(a.n, 2000), rng)
+    sim = decidi.simula(S, max(a.n, 2000), rng, fattori=decidi.calibrazione(ids))
     U, W = sim["U"], sim["W"]
     pos = {p: i for i, p in enumerate(ids)}
     mancanti = sorted(set(chiavi.proposta_id) - set(pos))
@@ -184,6 +208,14 @@ def main() -> int:
     for p in a.escludi:
         for i in chiavi.index[chiavi.proposta_id == p]:
             fissa[int(i)] = 0
+
+    # Linee rosse automatiche (Carta: i vincoli vengono prima dei valori). Regole deterministiche,
+    # non aggirabili da un prompt; si possono superare solo con --forza, che resta scritto nel risultato.
+    escluse_lr = linee_rosse(chiavi, menu)
+    forzate = {k.split(":")[0] for k in a.forza}
+    for motivo, chiave, idx in escluse_lr:
+        if chiave.split(":")[0] not in forzate:
+            fissa[idx] = 0
 
     # Soluzione centrale: utilità attesa (media su pesi e valutatori)
     centrale = risolvi(obiettivo(U.mean(0), W.mean(0)), A, lb, ub, fissa)
@@ -220,6 +252,12 @@ def main() -> int:
                 f"prioritarie per il momento {a.priorita or '—'}, "
                 f"coperture fino al livello {a.livello or 'tutti'}.", ""]
     out += [f"Priorità al nucleo robusto (Carta, regola 8): **{'attiva' if a.nucleo_prima else 'disattivata'}**.", ""]
+    if escluse_lr:
+        out += ["**Escluse dalle linee rosse automatiche** (regole deterministiche, superabili solo con una scelta esplicita):", ""]
+        for motivo, chiave, idx in escluse_lr:
+            superata = " — *superata con --forza*" if chiave.split(":")[0] in forzate else ""
+            out.append(f"- {chiave}: {motivo}{superata}")
+        out.append("")
     gen_spesa = lav[lav.fondo_id.isin(GENERALI)].prelievo_regime.sum()
     gen_gettito = attive[attive.fondo_id.isin(GENERALI)].gettito_min.sum()
     out += ["## Saldo", "",

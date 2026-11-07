@@ -73,6 +73,22 @@ main { max-width: 1240px; margin: 0 auto; padding: 24px 16px 40px; outline: none
 .kpi .numero { font-size: 1.9rem; font-weight: 650; margin: 2px 0; font-variant-numeric: tabular-nums; }
 .kpi .nota { color: var(--tenue); font-size: .85rem; }
 
+/* Racconto */
+.hero { padding: 36px 0 26px; max-width: 860px; }
+.hero h1 { font-size: clamp(2rem, 5vw, 3.1rem); letter-spacing: -.02em; line-height: 1.1; margin: 6px 0 14px; }
+.sopratitolo { color: var(--accento); font-weight: 600; text-transform: uppercase; letter-spacing: .06em; font-size: .8rem; margin: 0; }
+.lead { font-size: 1.12rem; color: var(--tenue); max-width: 720px; }
+.azioni { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.bottone { display: inline-block; text-decoration: none; color: var(--testo); padding: 9px 16px; font-weight: 600; }
+.bottone.primario { background: var(--accento); color: #fff; border-color: var(--accento); }
+.bottone.primario:hover { color: #fff; filter: brightness(1.08); }
+.numeri .numero { color: var(--accento); }
+.passi { list-style: none; counter-reset: passo; padding: 0; margin: 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.passi li { counter-increment: passo; background: var(--carta); border: 1px solid var(--linea); border-radius: var(--raggio); padding: 14px 16px 14px 54px; position: relative; box-shadow: var(--ombra); }
+.passi li::before { content: counter(passo); position: absolute; left: 14px; top: 14px; width: 28px; height: 28px; border-radius: 50%; background: var(--accento-tenue); color: var(--accento); display: grid; place-items: center; font-weight: 700; font-size: .85rem; }
+.passi strong { display: block; margin-bottom: 2px; }
+.passi span { color: var(--tenue); font-size: .9rem; }
+
 /* Indicatori */
 .ind { display: flex; flex-direction: column; gap: 4px; }
 .ind-testa { display: flex; justify-content: space-between; gap: 8px; color: var(--tenue); font-size: .82rem; }

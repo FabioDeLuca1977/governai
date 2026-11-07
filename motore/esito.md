@@ -3,8 +3,8 @@
 *Generato da `motore/decidi.py`. Metodo: analisi di accettabilità multicriterio stocastica (SMAA) sui 7 valori della Carta, con il panel indipendente come fonte dei punteggi.*
 
 - Valutatori: **A, B, C**. Estrazioni: **20.000** combinazioni di pesi tra valori e orizzonti (lungo periodo ≥ breve).
-- Accordo del panel (alfa di Krippendorff, intervalli): **0,84**. Sopra 0,67 l'accordo è accettabile per conclusioni provvisorie; sopra 0,80 è buono.
-- Celle con disaccordo forte (escursione ≥ 3 punti): **0** su 1092.
+- Accordo del panel (alfa di Krippendorff, intervalli): **0,85**. Sopra 0,67 l'accordo è accettabile per conclusioni provvisorie; sopra 0,80 è buono.
+- Celle con disaccordo forte (escursione ≥ 3 punti): **0** su 1560.
 - Proposte utili (effetto netto positivo) con almeno il 95% delle combinazioni di pesi: **51 su 52**. Quasi tutto è utile in sé: con risorse scarse conta la **priorità relativa**.
 - Classi per priorità, in base alla probabilità di stare nella prima metà della classifica, P(1ª metà): **nucleo robusto** ≥ 75%; **dipendente dai valori** tra 25% e 75%; **in coda** ≤ 25%; **sfavorevole** se è utile in meno della metà delle combinazioni.
 
@@ -14,71 +14,71 @@ In cima alla classifica qualunque sia il peso dato ai valori: il **nucleo condiv
 
 | Proposta | Titolo | Utilità attesa | P(1ª metà) | P(top 25%) | Rango 5–95% | Costo | Valore/mld | Disacc. | Pacchetto 4 mld | Pacchetto 10 mld | Pacchetto 18 mld |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 03-P4 | Prevenire costa meno: fondo prevenzione e assicurazione catastrofale | 0,98 | 86% | 67% | 1–35 | 1,2 | 0,79 | 0,4 | 1% | 44% | 92% |
-| 06-C2 | Patto per infermieri e medicina generale | 0,90 | 95% | 67% | 2–27 | 2,0 | 0,45 | 0,3 | 0% | 0% | 52% |
-| 05-C4 | Piu' laureati e diplomati terziari: ITS, lauree professionalizzanti, residenze | 0,89 | 84% | 57% | 1–37 | 0,7 | 1,36 | 0,3 | 27% | 94% | 100% |
-| 02-C2 | Nido esigibile + congedo paterno | 0,88 | 82% | 60% | 1–38 | 3,8 | 0,23 | 0,2 | 0% | 0% | 0% |
-| 05-C3 | Carriere della ricerca | 0,87 | 75% | 53% | 1–40 | 3,1 | 0,28 | 0,3 | 0% | 0% | 9% |
-| 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | 0,86 | 82% | 54% | 1–37 | 0,3 | 2,88 | 0,2 | 94% | 99% | 100% |
-| 04-P3 | Prima il treno dei pendolari: fondo TPL e abbonamento unico | 0,84 | 86% | 54% | 2–35 | 2,2 | 0,37 | 0,4 | 0% | 0% | 18% |
-| 09-C3 | Tecnici della Repubblica: pool di competenze per i piccoli enti | 0,83 | 82% | 50% | 2–36 | 0,6 | 1,51 | 0,3 | 42% | 97% | 100% |
-| 04-P2 | Casa a canone giusto | 0,83 | 77% | 50% | 2–40 | 1,1 | 0,72 | 0,4 | 0% | 41% | 92% |
-| 06-C3 | Case della Comunita' vive | 0,82 | 85% | 46% | 3–33 | 1,5 | 0,55 | 0,3 | 0% | 2% | 87% |
-| 04-P6 | Restare e' possibile: servizi essenziali aree interne | 0,81 | 77% | 45% | 2–41 | 0,8 | 1,08 | 0,3 | 5% | 90% | 100% |
-| 04-P4 | Nessuna grande opera senza prova dei numeri | 0,81 | 77% | 48% | 2–37 | 0,0 | — | 0,1 | 100% | 100% | 100% |
-| 07-C1 | Giustizia a regime: Ufficio per il processo e triage digitale | 0,81 | 84% | 42% | 3–32 | 0,6 | 1,47 | 0,0 | 40% | 95% | 100% |
-| 03-P3 | Ogni goccia conta: reti idriche e riuso | 0,77 | 75% | 36% | 4–37 | 0,8 | 1,03 | 0,3 | 1% | 88% | 98% |
+| 03-P4 | Prevenire costa meno: fondo prevenzione e assicurazione catastrofale | 1,08 | 90% | 69% | 1–32 | 1,2 | 0,87 | 0,4 | 0% | 41% | 98% |
+| 05-C1 | Nessuno escluso: squadre di prossimita' contro la dispersione | 1,02 | 88% | 68% | 1–36 | 0,2 | 4,08 | 0,3 | 97% | 100% | 100% |
+| 04-P6 | Restare e' possibile: servizi essenziali aree interne | 0,98 | 94% | 66% | 2–28 | 0,8 | 1,30 | 0,3 | 2% | 98% | 100% |
+| 09-C5 | AI nella PA con le mani sul volante | 0,97 | 91% | 63% | 1–30 | 0,2 | 4,32 | 0,4 | 99% | 100% | 100% |
+| 09-C3 | Tecnici della Repubblica: pool di competenze per i piccoli enti | 0,96 | 90% | 62% | 1–31 | 0,6 | 1,75 | 0,5 | 44% | 98% | 100% |
+| 02-C2 | Nido esigibile + congedo paterno | 0,95 | 85% | 59% | 2–37 | 3,8 | 0,25 | 0,2 | 0% | 0% | 0% |
+| 05-C4 | Piu' laureati e diplomati terziari: ITS, lauree professionalizzanti, residenze | 0,94 | 86% | 53% | 2–34 | 0,7 | 1,45 | 0,4 | 19% | 91% | 100% |
+| 02-C5 | Progetto di vita esigibile e lavoro per le persone con disabilita' | 0,93 | 77% | 52% | 1–41 | 1,2 | 0,74 | 0,1 | 0% | 17% | 96% |
+| 07-C2 | Pena utile: misure di comunita' contro il sovraffollamento | 0,92 | 83% | 49% | 2–34 | 0,4 | 2,31 | 0,2 | 82% | 100% | 100% |
+| 05-C5 | Scuole aperte come presidi di comunita' | 0,91 | 83% | 54% | 3–38 | 0,4 | 2,29 | 0,2 | 76% | 100% | 100% |
+| 07-C4 | Dal bene confiscato al bene comune | 0,89 | 77% | 46% | 2–39 | 0,2 | 5,95 | 0,2 | 100% | 100% | 100% |
+| 07-C3 | Governance dei flussi migratori fondata sui dati | 0,88 | 84% | 42% | 4–33 | 0,4 | 1,96 | 0,2 | 57% | 100% | 100% |
+| 05-C2 | Conto personale di competenze | 0,86 | 78% | 37% | 4–37 | 1,2 | 0,69 | 0,3 | 0% | 12% | 98% |
+| 07-C1 | Giustizia a regime: Ufficio per il processo e triage digitale | 0,84 | 77% | 33% | 5–35 | 0,6 | 1,53 | 0,3 | 21% | 96% | 100% |
 
-## Priorità dipendente dai valori (29)
+## Priorità dipendente dai valori (26)
 
 La posizione in classifica cambia molto con i pesi: **qui la scelta è politica**. La colonna finale indica quali valori la fanno salire.
 
 | Proposta | Titolo | Utilità attesa | P(1ª metà) | P(top 25%) | Rango 5–95% | Costo | Valore/mld | Disacc. | Dipende soprattutto da | Pacchetto 4 mld | Pacchetto 10 mld | Pacchetto 18 mld |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 05-C1 | Nessuno escluso: squadre di prossimita' contro la dispersione | 0,85 | 75% | 51% | 1–43 | 0,2 | 3,40 | 0,3 | Apprendimento e cultura, Rispetto | 97% | 100% | 100% |
-| 01-P3 | IVA in tempo reale | 0,74 | 63% | 37% | 2–42 | 0,0 | — | 0,2 | Fiducia, Responsabilità verso il futuro | 100% | 100% | 100% |
-| 09-C1 | Stato a vetro: infrastruttura aperta per l'analisi delle politiche | 0,74 | 64% | 34% | 3–44 | 0,1 | 9,81 | 0,4 | Fiducia, Innovazione | 100% | 100% | 100% |
-| 09-C5 | AI nella PA con le mani sul volante | 0,73 | 63% | 29% | 4–42 | 0,2 | 3,24 | 0,3 | Innovazione, Apprendimento e cultura | 96% | 99% | 100% |
-| 07-C2 | Pena utile: misure di comunita' contro il sovraffollamento | 0,72 | 59% | 27% | 4–42 | 0,4 | 1,80 | 0,1 | Rispetto, Apprendimento e cultura | 63% | 99% | 100% |
-| 07-C6 | Scudo cyber territoriale | 0,71 | 71% | 13% | 10–34 | 0,3 | 2,37 | 0,1 | Innovazione, Apprendimento e cultura | 95% | 100% | 100% |
-| 02-C5 | Progetto di vita esigibile e lavoro per le persone con disabilita' | 0,70 | 53% | 30% | 2–46 | 1,2 | 0,56 | 0,1 | Rispetto, Benessere | 0% | 10% | 72% |
-| 04-P1 | Patto di continuita' post-PNRR | 0,69 | 61% | 20% | 8–44 | 1,5 | 0,46 | 0,6 | Apprendimento e cultura, Bellezza, patrimonio e accoglienza | 0% | 2% | 71% |
-| 05-C5 | Scuole aperte come presidi di comunita' | 0,68 | 57% | 21% | 7–45 | 0,4 | 1,70 | 0,1 | Apprendimento e cultura, Bellezza, patrimonio e accoglienza | 62% | 98% | 99% |
-| 07-C3 | Governance dei flussi migratori fondata sui dati | 0,68 | 58% | 13% | 10–41 | 0,4 | 1,51 | 0,2 | Apprendimento e cultura, Rispetto | 30% | 98% | 100% |
-| 06-C5 | Salute mentale al 5% | 0,67 | 51% | 26% | 5–48 | 3,1 | 0,21 | 0,2 | Benessere, Rispetto | 0% | 0% | 0% |
-| 05-C2 | Conto personale di competenze | 0,67 | 51% | 20% | 5–46 | 1,2 | 0,54 | 0,2 | Apprendimento e cultura, Innovazione | 0% | 11% | 78% |
-| 03-P1 | Dividendo climatico: riforma SAD restituita ai cittadini | 0,67 | 48% | 17% | 6–43 | 5,0 | 0,13 | 0,2 | Responsabilità verso il futuro, Innovazione | 0% | 0% | 0% |
-| 02-C1 | Salario minimo contrattuale garantito | 0,65 | 46% | 18% | 6–46 | 0,4 | 1,63 | 0,3 | Rispetto, Benessere | 50% | 96% | 98% |
-| 07-C4 | Dal bene confiscato al bene comune | 0,65 | 46% | 18% | 6–46 | 0,2 | 4,32 | 0,1 | Fiducia, Bellezza, patrimonio e accoglienza | 98% | 99% | 100% |
-| 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | 0,64 | 40% | 18% | 4–47 | 0,2 | 4,24 | 0,2 | Bellezza, patrimonio e accoglienza | 97% | 99% | 100% |
-| 02-C6 | Bilancio generazionale e strategia demografica | 0,63 | 42% | 9% | 11–45 | 0,3 | 1,79 | 0,3 | Responsabilità verso il futuro, Apprendimento e cultura | 67% | 96% | 99% |
-| 01-P2 | Spese fiscali a scadenza (sunset 5 anni) | 0,62 | 39% | 13% | 9–45 | 0,0 | — | 0,3 | Responsabilità verso il futuro, Fiducia | 100% | 100% | 100% |
-| 02-C3 | Patto previdenziale tra generazioni | 0,62 | 38% | 20% | 3–49 | 0,0 | — | 0,0 | Responsabilità verso il futuro, Fiducia | 100% | 100% | 100% |
-| 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | 0,62 | 40% | 19% | 6–48 | 0,0 | — | 0,0 | Fiducia, Responsabilità verso il futuro | 99% | 100% | 100% |
-| 01-P4 | Crescere conviene: eliminare i gradini dimensionali | 0,61 | 37% | 13% | 8–46 | 2,5 | 0,24 | 0,3 | Innovazione, Apprendimento e cultura | 0% | 0% | 2% |
-| 06-C1 | Tempo garantito o rimborso | 0,61 | 41% | 16% | 6–48 | 0,8 | 0,81 | 0,5 | Rispetto, Benessere | 0% | 59% | 86% |
-| 06-C6 | Dividendo della prevenzione e budget unico del farmaco | 0,60 | 38% | 8% | 12–47 | 0,0 | — | 0,0 | Responsabilità verso il futuro, Benessere | 100% | 100% | 100% |
-| 03-P5 | Contratto agro-climatico | 0,60 | 35% | 10% | 9–47 | 0,4 | 1,49 | 0,2 | Bellezza, patrimonio e accoglienza, Innovazione | 43% | 94% | 99% |
-| 03-P2 | Elettricita' rinnovabile a prezzo rinnovabile (CfD) | 0,59 | 39% | 19% | 5–51 | 0,2 | 3,91 | 0,3 | Responsabilità verso il futuro, Innovazione | 88% | 93% | 96% |
-| 08-P1 | Legge sulla consulenza algoritmica pubblica | 0,57 | 30% | 5% | 13–48 | 0,0 | — | 0,3 | Innovazione, Responsabilità verso il futuro | 100% | 100% | 100% |
-| 02-C4 | Reddito di inclusione universale | 0,56 | 36% | 18% | 5–51 | 2,5 | 0,23 | 0,1 | Rispetto, Benessere | 0% | 0% | 3% |
-| 06-C4 | Budget di cura per la non autosufficienza | 0,56 | 30% | 10% | 10–50 | 2,0 | 0,28 | 0,1 | Benessere, Rispetto | 0% | 0% | 6% |
-| 04-P5 | LEP prima: autonomia differenziata reversibile | 0,53 | 26% | 8% | 11–50 | 0,0 | — | 0,4 | Rispetto, Fiducia | 100% | 100% | 100% |
+| 01-P3 | IVA in tempo reale | 0,86 | 74% | 41% | 2–38 | 0,0 | — | 0,2 | Responsabilità verso il futuro, Cittadinanza responsabile | 100% | 100% | 100% |
+| 03-P3 | Ogni goccia conta: reti idriche e riuso | 0,85 | 72% | 37% | 3–39 | 0,8 | 1,13 | 0,4 | Sicurezza senza controllo assoluto, Responsabilità verso il futuro | 0% | 84% | 100% |
+| 07-C6 | Scudo cyber territoriale | 0,83 | 63% | 31% | 2–39 | 0,3 | 2,76 | 0,2 | Sicurezza senza controllo assoluto, Innovazione | 88% | 100% | 100% |
+| 06-C3 | Case della Comunita' vive | 0,83 | 74% | 26% | 6–36 | 1,5 | 0,55 | 0,3 | Benessere, Equità | 0% | 0% | 97% |
+| 04-P2 | Casa a canone giusto | 0,81 | 65% | 31% | 5–43 | 1,1 | 0,71 | 0,3 | Benessere, Rispetto e diversità | 0% | 19% | 97% |
+| 04-P3 | Prima il treno dei pendolari: fondo TPL e abbonamento unico | 0,81 | 67% | 28% | 5–40 | 2,2 | 0,36 | 0,3 | Benessere, Equità | 0% | 0% | 11% |
+| 04-P4 | Nessuna grande opera senza prova dei numeri | 0,80 | 62% | 32% | 3–40 | 0,0 | — | 0,2 | Fiducia e trasparenza, Responsabilità verso il futuro | 100% | 100% | 100% |
+| 03-P2 | Elettricita' rinnovabile a prezzo rinnovabile (CfD) | 0,80 | 61% | 31% | 3–43 | 0,2 | 5,32 | 0,3 | Sicurezza senza controllo assoluto, Responsabilità verso il futuro | 97% | 99% | 100% |
+| 02-C4 | Reddito di inclusione universale | 0,79 | 58% | 31% | 3–50 | 2,5 | 0,32 | 0,1 | Equità, Rispetto e diversità | 0% | 0% | 4% |
+| 09-C1 | Stato a vetro: infrastruttura aperta per l'analisi delle politiche | 0,79 | 57% | 31% | 2–44 | 0,1 | 10,55 | 0,4 | Fiducia e trasparenza, Cittadinanza responsabile | 100% | 100% | 100% |
+| 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | 0,78 | 58% | 23% | 4–43 | 0,3 | 2,59 | 0,2 | Innovazione, Fiducia e trasparenza | 80% | 99% | 100% |
+| 03-P5 | Contratto agro-climatico | 0,75 | 55% | 14% | 8–41 | 0,4 | 1,89 | 0,3 | Bellezza, patrimonio e accoglienza, Sicurezza senza controllo assoluto | 48% | 99% | 100% |
+| 02-C1 | Salario minimo contrattuale garantito | 0,75 | 52% | 15% | 9–44 | 0,4 | 1,88 | 0,2 | Rispetto e diversità, Equità | 49% | 99% | 100% |
+| 06-C2 | Patto per infermieri e medicina generale | 0,75 | 54% | 17% | 8–44 | 2,0 | 0,37 | 0,3 | Benessere, Apprendimento e cultura | 0% | 0% | 9% |
+| 05-C6 | AI a scuola | 0,74 | 50% | 15% | 8–45 | 0,2 | 3,28 | 0,2 | Cittadinanza responsabile, Innovazione | 92% | 99% | 100% |
+| 06-C5 | Salute mentale al 5% | 0,74 | 48% | 19% | 6–48 | 3,1 | 0,23 | 0,3 | Rispetto e diversità, Benessere | 0% | 0% | 0% |
+| 06-C4 | Budget di cura per la non autosufficienza | 0,73 | 47% | 15% | 8–47 | 2,0 | 0,37 | 0,3 | Benessere, Rispetto e diversità | 0% | 0% | 17% |
+| 08-P1 | Legge sulla consulenza algoritmica pubblica | 0,73 | 46% | 19% | 5–45 | 0,0 | — | 0,3 | Cittadinanza responsabile, Fiducia e trasparenza | 100% | 100% | 100% |
+| 06-C1 | Tempo garantito o rimborso | 0,71 | 43% | 11% | 10–47 | 0,8 | 0,95 | 0,3 | Equità, Fiducia e trasparenza | 0% | 63% | 96% |
+| 01-P2 | Spese fiscali a scadenza (sunset 5 anni) | 0,68 | 35% | 9% | 10–45 | 0,0 | — | 0,3 | Responsabilità verso il futuro, Fiducia e trasparenza | 100% | 100% | 100% |
+| 02-C3 | Patto previdenziale tra generazioni | 0,67 | 35% | 13% | 6–48 | 0,0 | — | 0,1 | Responsabilità verso il futuro, Cittadinanza responsabile | 100% | 100% | 100% |
+| 04-P5 | LEP prima: autonomia differenziata reversibile | 0,65 | 30% | 7% | 12–49 | 0,0 | — | 0,3 | Equità, Fiducia e trasparenza | 100% | 100% | 100% |
+| 05-C3 | Carriere della ricerca | 0,64 | 36% | 18% | 4–50 | 3,1 | 0,21 | 0,4 | Innovazione, Apprendimento e cultura | 0% | 0% | 2% |
+| 03-P1 | Dividendo climatico: riforma SAD restituita ai cittadini | 0,64 | 26% | 6% | 12–45 | 5,0 | 0,13 | 0,3 | Responsabilità verso il futuro, Innovazione | 0% | 0% | 0% |
+| 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | 0,64 | 26% | 8% | 10–48 | 0,2 | 4,28 | 0,2 | Bellezza, patrimonio e accoglienza | 95% | 100% | 100% |
+| 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | 0,63 | 27% | 6% | 12–49 | 0,0 | — | 0,0 | Cittadinanza responsabile, Fiducia e trasparenza | 99% | 100% | 100% |
 
-## In coda (8)
+## In coda (11)
 
 Utili, ma stabilmente in fondo alla classifica: **da migliorare o rinviare**.
 
 | Proposta | Titolo | Utilità attesa | P(1ª metà) | P(top 25%) | Rango 5–95% | Costo | Valore/mld | Disacc. | Dipende soprattutto da | Pacchetto 4 mld | Pacchetto 10 mld | Pacchetto 18 mld |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 08-P4 | Beni pubblici europei: capacita' fiscale UE | 0,47 | 15% | 2% | 18–50 | 0,0 | — | 0,3 | Innovazione, Responsabilità verso il futuro | 100% | 99% | 100% |
-| 05-C6 | AI a scuola | 0,47 | 17% | 3% | 16–51 | 0,2 | 2,07 | 0,3 | Innovazione, Apprendimento e cultura | 60% | 89% | 98% |
-| 08-P2 | Patto per la buona legge | 0,47 | 17% | 5% | 14–51 | 0,0 | — | 0,2 | Fiducia, Responsabilità verso il futuro | 97% | 99% | 100% |
-| 09-C4 | Cloud pubblico sostenibile e Patto per la manutenzione digitale | 0,43 | 3% | 0% | 28–50 | 0,4 | 1,07 | 0,1 | Innovazione, Responsabilità verso il futuro | 7% | 65% | 91% |
-| 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | 0,42 | 9% | 1% | 22–51 | 0,0 | — | 0,0 | Fiducia, Rispetto | 96% | 99% | 100% |
-| 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | 0,38 | 6% | 1% | 25–51 | 0,8 | 0,51 | 0,2 | Responsabilità verso il futuro, Innovazione | 0% | 27% | 57% |
-| 08-P5 | Cooperazione che si misura: traiettoria APS | 0,36 | 1% | 0% | 33–51 | 4,5 | 0,08 | 0,2 | Rispetto, Fiducia | 0% | 0% | 0% |
-| 08-P6 | Export resiliente | 0,34 | 6% | 1% | 25–51 | 0,3 | 1,14 | 0,2 | Bellezza, patrimonio e accoglienza, Innovazione | 20% | 79% | 96% |
+| 04-P1 | Patto di continuita' post-PNRR | 0,56 | 13% | 1% | 20–50 | 1,5 | 0,37 | 0,4 | Apprendimento e cultura, Bellezza, patrimonio e accoglienza | 0% | 0% | 66% |
+| 02-C6 | Bilancio generazionale e strategia demografica | 0,54 | 11% | 1% | 21–50 | 0,3 | 1,53 | 0,3 | Responsabilità verso il futuro, Apprendimento e cultura | 30% | 92% | 99% |
+| 06-C6 | Dividendo della prevenzione e budget unico del farmaco | 0,53 | 11% | 1% | 21–50 | 0,0 | — | 0,3 | Responsabilità verso il futuro, Benessere | 100% | 100% | 100% |
+| 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | 0,53 | 15% | 5% | 14–51 | 0,0 | — | 0,1 | Fiducia e trasparenza, Responsabilità verso il futuro | 99% | 99% | 100% |
+| 09-C4 | Cloud pubblico sostenibile e Patto per la manutenzione digitale | 0,51 | 10% | 3% | 18–50 | 0,4 | 1,26 | 0,2 | Sicurezza senza controllo assoluto, Innovazione | 8% | 76% | 89% |
+| 08-P5 | Cooperazione che si misura: traiettoria APS | 0,49 | 5% | 0% | 27–51 | 4,5 | 0,11 | 0,3 | Rispetto e diversità, Sicurezza senza controllo assoluto | 0% | 0% | 0% |
+| 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | 0,48 | 7% | 1% | 24–51 | 0,8 | 0,64 | 0,3 | Sicurezza senza controllo assoluto, Responsabilità verso il futuro | 0% | 34% | 79% |
+| 08-P4 | Beni pubblici europei: capacita' fiscale UE | 0,45 | 7% | 1% | 24–51 | 0,0 | — | 0,3 | Sicurezza senza controllo assoluto, Innovazione | 100% | 100% | 100% |
+| 01-P4 | Crescere conviene: eliminare i gradini dimensionali | 0,43 | 6% | 1% | 24–51 | 2,5 | 0,17 | 0,4 | Innovazione, Apprendimento e cultura | 0% | 0% | 0% |
+| 08-P6 | Export resiliente | 0,42 | 4% | 0% | 28–51 | 0,3 | 1,39 | 0,2 | Bellezza, patrimonio e accoglienza, Sicurezza senza controllo assoluto | 19% | 85% | 98% |
+| 08-P2 | Patto per la buona legge | 0,40 | 4% | 0% | 28–51 | 0,0 | — | 0,2 | Fiducia e trasparenza, Responsabilità verso il futuro | 93% | 98% | 100% |
 
 ## Sfavorevoli (1)
 
@@ -86,7 +86,7 @@ Effetto netto negativo con la maggior parte delle combinazioni di pesi: **da rip
 
 | Proposta | Titolo | Utilità attesa | P(1ª metà) | P(top 25%) | Rango 5–95% | Costo | Valore/mld | Disacc. | Dipende soprattutto da | Pacchetto 4 mld | Pacchetto 10 mld | Pacchetto 18 mld |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 07-C5 | Difesa: percorso NATO 3,5% vincolato a efficienza europea | -0,33 | 0% | 0% | 51–52 | 32,0 | -0,01 | 0,1 | Innovazione | 0% | 0% | 0% |
+| 07-C5 | Difesa: percorso NATO 3,5% vincolato a efficienza europea | -0,20 | 1% | 0% | 47–52 | 32,0 | -0,01 | 0,2 | Sicurezza senza controllo assoluto | 0% | 0% | 0% |
 
 ## Pacchetti per livello di budget
 
@@ -96,25 +96,24 @@ Il dividendo climatico (03-P1) ha un costo opportunità di 5 mld, cioè il getti
 
 ### Budget 4 mld/anno
 
-- **Entrano quasi sempre (≥80%)** — costo 1,7 mld: 09-C2 Chiedilo una volta sola: once-only con rimborso automatico, 05-C1 Nessuno escluso: squadre di prossimita' contro la dispersione, 04-P4 Nessuna grande opera senza prova dei numeri, 01-P3 IVA in tempo reale, 09-C1 Stato a vetro: infrastruttura aperta per l'analisi delle politiche, 09-C5 AI nella PA con le mani sul volante, 07-C6 Scudo cyber territoriale, 07-C4 Dal bene confiscato al bene comune, 01-P6 Turismo che ripaga i territori: tassa di soggiorno intelligente, 01-P2 Spese fiscali a scadenza (sunset 5 anni), 02-C3 Patto previdenziale tra generazioni, 01-P1 Bilancio generazionale: ogni legge dichiara chi paga e quando, 06-C6 Dividendo della prevenzione e budget unico del farmaco, 03-P2 Elettricita' rinnovabile a prezzo rinnovabile (CfD), 08-P1 Legge sulla consulenza algoritmica pubblica, 04-P5 LEP prima: autonomia differenziata reversibile, 08-P4 Beni pubblici europei: capacita' fiscale UE, 08-P2 Patto per la buona legge, 08-P3 Regole del gioco stabili (legge elettorale, voto fuorisede)
-- **Entrano a seconda dei valori (20–80%)**: 02-C6 (67%), 07-C2 (63%), 05-C5 (62%), 05-C6 (60%), 02-C1 (50%), 03-P5 (43%), 09-C3 (42%), 07-C1 (40%), 07-C3 (30%), 05-C4 (27%), 08-P6 (20%)
+- **Entrano quasi sempre (≥80%)** — costo 2,3 mld: 05-C1 Nessuno escluso: squadre di prossimita' contro la dispersione, 09-C5 AI nella PA con le mani sul volante, 07-C2 Pena utile: misure di comunita' contro il sovraffollamento, 07-C4 Dal bene confiscato al bene comune, 01-P3 IVA in tempo reale, 07-C6 Scudo cyber territoriale, 04-P4 Nessuna grande opera senza prova dei numeri, 03-P2 Elettricita' rinnovabile a prezzo rinnovabile (CfD), 09-C1 Stato a vetro: infrastruttura aperta per l'analisi delle politiche, 09-C2 Chiedilo una volta sola: once-only con rimborso automatico, 05-C6 AI a scuola, 08-P1 Legge sulla consulenza algoritmica pubblica, 01-P2 Spese fiscali a scadenza (sunset 5 anni), 02-C3 Patto previdenziale tra generazioni, 04-P5 LEP prima: autonomia differenziata reversibile, 01-P6 Turismo che ripaga i territori: tassa di soggiorno intelligente, 08-P3 Regole del gioco stabili (legge elettorale, voto fuorisede), 06-C6 Dividendo della prevenzione e budget unico del farmaco, 01-P1 Bilancio generazionale: ogni legge dichiara chi paga e quando, 08-P4 Beni pubblici europei: capacita' fiscale UE, 08-P2 Patto per la buona legge
+- **Entrano a seconda dei valori (20–80%)**: 05-C5 (76%), 07-C3 (57%), 02-C1 (49%), 03-P5 (48%), 09-C3 (44%), 02-C6 (30%), 07-C1 (21%)
 
 ### Budget 10 mld/anno
 
-- **Entrano quasi sempre (≥80%)** — costo 7,6 mld: 05-C4 Piu' laureati e diplomati terziari: ITS, lauree professionalizzanti, residenze, 09-C2 Chiedilo una volta sola: once-only con rimborso automatico, 05-C1 Nessuno escluso: squadre di prossimita' contro la dispersione, 09-C3 Tecnici della Repubblica: pool di competenze per i piccoli enti, 04-P6 Restare e' possibile: servizi essenziali aree interne, 04-P4 Nessuna grande opera senza prova dei numeri, 07-C1 Giustizia a regime: Ufficio per il processo e triage digitale, 03-P3 Ogni goccia conta: reti idriche e riuso, 01-P3 IVA in tempo reale, 09-C1 Stato a vetro: infrastruttura aperta per l'analisi delle politiche, 09-C5 AI nella PA con le mani sul volante, 07-C2 Pena utile: misure di comunita' contro il sovraffollamento, 07-C6 Scudo cyber territoriale, 05-C5 Scuole aperte come presidi di comunita', 07-C3 Governance dei flussi migratori fondata sui dati, 02-C1 Salario minimo contrattuale garantito, 07-C4 Dal bene confiscato al bene comune, 01-P6 Turismo che ripaga i territori: tassa di soggiorno intelligente, 02-C6 Bilancio generazionale e strategia demografica, 01-P2 Spese fiscali a scadenza (sunset 5 anni), 02-C3 Patto previdenziale tra generazioni, 01-P1 Bilancio generazionale: ogni legge dichiara chi paga e quando, 06-C6 Dividendo della prevenzione e budget unico del farmaco, 03-P5 Contratto agro-climatico, 03-P2 Elettricita' rinnovabile a prezzo rinnovabile (CfD), 08-P1 Legge sulla consulenza algoritmica pubblica, 04-P5 LEP prima: autonomia differenziata reversibile, 08-P4 Beni pubblici europei: capacita' fiscale UE, 05-C6 AI a scuola, 08-P2 Patto per la buona legge, 08-P3 Regole del gioco stabili (legge elettorale, voto fuorisede)
-- **Entrano a seconda dei valori (20–80%)**: 08-P6 (79%), 09-C4 (65%), 06-C1 (59%), 03-P4 (44%), 04-P2 (41%), 01-P5 (27%)
+- **Entrano quasi sempre (≥80%)** — costo 7,9 mld: 05-C1 Nessuno escluso: squadre di prossimita' contro la dispersione, 04-P6 Restare e' possibile: servizi essenziali aree interne, 09-C5 AI nella PA con le mani sul volante, 09-C3 Tecnici della Repubblica: pool di competenze per i piccoli enti, 05-C4 Piu' laureati e diplomati terziari: ITS, lauree professionalizzanti, residenze, 07-C2 Pena utile: misure di comunita' contro il sovraffollamento, 05-C5 Scuole aperte come presidi di comunita', 07-C4 Dal bene confiscato al bene comune, 07-C3 Governance dei flussi migratori fondata sui dati, 01-P3 IVA in tempo reale, 03-P3 Ogni goccia conta: reti idriche e riuso, 07-C1 Giustizia a regime: Ufficio per il processo e triage digitale, 07-C6 Scudo cyber territoriale, 04-P4 Nessuna grande opera senza prova dei numeri, 03-P2 Elettricita' rinnovabile a prezzo rinnovabile (CfD), 09-C1 Stato a vetro: infrastruttura aperta per l'analisi delle politiche, 09-C2 Chiedilo una volta sola: once-only con rimborso automatico, 03-P5 Contratto agro-climatico, 02-C1 Salario minimo contrattuale garantito, 05-C6 AI a scuola, 08-P1 Legge sulla consulenza algoritmica pubblica, 01-P2 Spese fiscali a scadenza (sunset 5 anni), 02-C3 Patto previdenziale tra generazioni, 04-P5 LEP prima: autonomia differenziata reversibile, 01-P6 Turismo che ripaga i territori: tassa di soggiorno intelligente, 08-P3 Regole del gioco stabili (legge elettorale, voto fuorisede), 02-C6 Bilancio generazionale e strategia demografica, 06-C6 Dividendo della prevenzione e budget unico del farmaco, 01-P1 Bilancio generazionale: ogni legge dichiara chi paga e quando, 08-P4 Beni pubblici europei: capacita' fiscale UE, 08-P6 Export resiliente, 08-P2 Patto per la buona legge
+- **Entrano a seconda dei valori (20–80%)**: 09-C4 (76%), 06-C1 (63%), 03-P4 (41%), 01-P5 (34%)
 
 ### Budget 18 mld/anno
 
-- **Entrano quasi sempre (≥80%)** — costo 12,9 mld: 03-P4 Prevenire costa meno: fondo prevenzione e assicurazione catastrofale, 05-C4 Piu' laureati e diplomati terziari: ITS, lauree professionalizzanti, residenze, 09-C2 Chiedilo una volta sola: once-only con rimborso automatico, 05-C1 Nessuno escluso: squadre di prossimita' contro la dispersione, 09-C3 Tecnici della Repubblica: pool di competenze per i piccoli enti, 04-P2 Casa a canone giusto, 06-C3 Case della Comunita' vive, 04-P6 Restare e' possibile: servizi essenziali aree interne, 04-P4 Nessuna grande opera senza prova dei numeri, 07-C1 Giustizia a regime: Ufficio per il processo e triage digitale, 03-P3 Ogni goccia conta: reti idriche e riuso, 01-P3 IVA in tempo reale, 09-C1 Stato a vetro: infrastruttura aperta per l'analisi delle politiche, 09-C5 AI nella PA con le mani sul volante, 07-C2 Pena utile: misure di comunita' contro il sovraffollamento, 07-C6 Scudo cyber territoriale, 05-C5 Scuole aperte come presidi di comunita', 07-C3 Governance dei flussi migratori fondata sui dati, 02-C1 Salario minimo contrattuale garantito, 07-C4 Dal bene confiscato al bene comune, 01-P6 Turismo che ripaga i territori: tassa di soggiorno intelligente, 02-C6 Bilancio generazionale e strategia demografica, 01-P2 Spese fiscali a scadenza (sunset 5 anni), 02-C3 Patto previdenziale tra generazioni, 01-P1 Bilancio generazionale: ogni legge dichiara chi paga e quando, 06-C1 Tempo garantito o rimborso, 06-C6 Dividendo della prevenzione e budget unico del farmaco, 03-P5 Contratto agro-climatico, 03-P2 Elettricita' rinnovabile a prezzo rinnovabile (CfD), 08-P1 Legge sulla consulenza algoritmica pubblica, 04-P5 LEP prima: autonomia differenziata reversibile, 08-P4 Beni pubblici europei: capacita' fiscale UE, 05-C6 AI a scuola, 08-P2 Patto per la buona legge, 09-C4 Cloud pubblico sostenibile e Patto per la manutenzione digitale, 08-P3 Regole del gioco stabili (legge elettorale, voto fuorisede), 08-P6 Export resiliente
-- **Entrano a seconda dei valori (20–80%)**: 05-C2 (78%), 02-C5 (72%), 04-P1 (71%), 01-P5 (57%), 06-C2 (52%)
+- **Entrano quasi sempre (≥80%)** — costo 15,4 mld: 03-P4 Prevenire costa meno: fondo prevenzione e assicurazione catastrofale, 05-C1 Nessuno escluso: squadre di prossimita' contro la dispersione, 04-P6 Restare e' possibile: servizi essenziali aree interne, 09-C5 AI nella PA con le mani sul volante, 09-C3 Tecnici della Repubblica: pool di competenze per i piccoli enti, 05-C4 Piu' laureati e diplomati terziari: ITS, lauree professionalizzanti, residenze, 02-C5 Progetto di vita esigibile e lavoro per le persone con disabilita', 07-C2 Pena utile: misure di comunita' contro il sovraffollamento, 05-C5 Scuole aperte come presidi di comunita', 07-C4 Dal bene confiscato al bene comune, 07-C3 Governance dei flussi migratori fondata sui dati, 05-C2 Conto personale di competenze, 01-P3 IVA in tempo reale, 03-P3 Ogni goccia conta: reti idriche e riuso, 07-C1 Giustizia a regime: Ufficio per il processo e triage digitale, 07-C6 Scudo cyber territoriale, 06-C3 Case della Comunita' vive, 04-P2 Casa a canone giusto, 04-P4 Nessuna grande opera senza prova dei numeri, 03-P2 Elettricita' rinnovabile a prezzo rinnovabile (CfD), 09-C1 Stato a vetro: infrastruttura aperta per l'analisi delle politiche, 09-C2 Chiedilo una volta sola: once-only con rimborso automatico, 03-P5 Contratto agro-climatico, 02-C1 Salario minimo contrattuale garantito, 05-C6 AI a scuola, 08-P1 Legge sulla consulenza algoritmica pubblica, 06-C1 Tempo garantito o rimborso, 01-P2 Spese fiscali a scadenza (sunset 5 anni), 02-C3 Patto previdenziale tra generazioni, 04-P5 LEP prima: autonomia differenziata reversibile, 01-P6 Turismo che ripaga i territori: tassa di soggiorno intelligente, 08-P3 Regole del gioco stabili (legge elettorale, voto fuorisede), 02-C6 Bilancio generazionale e strategia demografica, 06-C6 Dividendo della prevenzione e budget unico del farmaco, 01-P1 Bilancio generazionale: ogni legge dichiara chi paga e quando, 09-C4 Cloud pubblico sostenibile e Patto per la manutenzione digitale, 08-P4 Beni pubblici europei: capacita' fiscale UE, 08-P6 Export resiliente, 08-P2 Patto per la buona legge
+- **Entrano a seconda dei valori (20–80%)**: 01-P5 (79%), 04-P1 (66%)
 
 ## Linee rosse segnalate dal panel
 
 | Proposta | Valore | Valutatore | Motivazione |
 |---|---|---|---|
 | 07-C5 | FUT | B | Fino a 32 mld annui con margine nullo e parte dichiarata a debito: rischio art. 81 ed emissioni |
-| 02-C3 | RIS | C | Contributo di equità decennale sulle pensioni: rischio di incostituzionalità (sent. 234/2020 ne limitò la durata); tutela però i discontinui |
 | 07-C5 | FUT | C | Circa 32 mld annui al 2035 in parte a debito senza margini di bilancio: rischio per art. 81 e generazioni future |
 
 ## Limiti
