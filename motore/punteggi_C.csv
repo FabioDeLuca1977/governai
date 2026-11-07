@@ -1,0 +1,365 @@
+proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
+01-P1,RIS,0,0,1,B,no,Rende visibili gli interessi delle generazioni future; effetto sui diritti solo indiretto
+01-P2,RIS,0,0,0,M,no,"Esenta sanità, disabilità e famiglia dalla scadenza; nessun effetto rilevante su diritti e dignità"
+01-P3,RIS,-1,0,0,M,no,"Profilazione fiscale con rischio privacy e falsi positivi, mitigata da revisione umana e contraddittorio"
+01-P4,RIS,0,0,0,M,no,Rinvia obblighi amministrativi ma mantiene diritti di sicurezza e sindacali; effetto neutro
+01-P5,RIS,0,0,0,A,no,Strumento di mercato energetico senza effetti su diritti o dignità
+01-P6,RIS,0,1,1,M,no,"Tutela il diritto all'abitare dei residenti e l'autonomia comunale, con limiti proporzionati agli affitti brevi"
+02-C1,RIS,1,2,2,M,no,Garantisce un pavimento salariale dignitoso ai più deboli; rischio sommerso al Sud nel breve
+02-C2,RIS,1,2,2,M,no,"Più libertà di scelta e parità per madri e padri; diritto esigibile, ma offerta lenta a crescere"
+02-C3,RIS,-1,0,1,M,si,Contributo di equità decennale sulle pensioni: rischio di incostituzionalità (sent. 234/2020 ne limitò la durata); tutela però i discontinui
+02-C4,RIS,2,2,2,M,no,Sostegno universale contro la povertà assoluta e requisito di residenza conforme al diritto UE
+02-C5,RIS,1,2,3,M,no,Progetto di vita e budget personale rafforzano autonomia e diritti delle persone con disabilità
+02-C6,RIS,0,1,1,B,no,Canali regolari e riconoscimento titoli migliorano la condizione dei migranti; effetto limitato
+03-P1,RIS,0,1,1,M,no,Restituzione progressiva protegge redditi bassi; costi transitori per autotrasporto e aree interne compensati
+03-P2,RIS,0,0,0,M,no,"Silenzio-assenso riduce la voce locale, compensato da ristori ai comuni e dibattito pubblico"
+03-P3,RIS,0,1,1,M,no,Servizio idrico continuo e bonus sociale; i commissariamenti comprimono l'autonomia dei comuni
+03-P4,RIS,0,1,1,M,no,Protegge chi vive in aree a rischio; delocalizzazioni volontarie e indennizzate
+03-P5,RIS,0,0,0,M,no,Pagamenti agricoli per risultati: nessun effetto rilevante su diritti
+04-P1,RIS,0,1,1,M,no,"Evita che servizi per famiglie e anziani restino chiusi, soprattutto al Sud"
+04-P2,RIS,1,2,2,M,no,Diritto alla casa per famiglie a basso reddito; protocolli casa-a-casa per i fragili
+04-P3,RIS,1,1,1,M,no,"Accesso alla mobilità per chi non ha l'auto, studenti e redditi bassi"
+04-P4,RIS,0,0,1,B,no,Dà voce ai territori con progetti piccoli; effetto sui diritti marginale
+04-P5,RIS,1,2,2,M,no,Garantisce uguali diritti di base in tutte le regioni (artt. 3 e 117 Cost.) con autonomie reversibili
+04-P6,RIS,1,1,1,M,no,Accesso ai servizi essenziali nelle aree interne; la gestione associata limita l'autonomia comunale
+05-C1,RIS,1,2,2,M,no,Presa in carico dei ragazzi più fragili; rischi di stigma e profilazione mitigati
+05-C2,RIS,0,1,1,M,no,"Diritto individuale e portabile alla formazione, maggiorato per i meno istruiti"
+05-C3,RIS,0,0,0,M,no,Riforma delle carriere accademiche senza effetti rilevanti su diritti e dignità
+05-C4,RIS,1,2,2,M,no,Borse garantite a tutti gli idonei attuano il diritto allo studio (art. 34 Cost.)
+05-C5,RIS,1,1,1,M,no,Offerta gratuita a ragazzi di periferie e aree interne; inclusione senza stigma
+05-C6,RIS,0,1,1,M,no,Vieta all'AI di decidere su voti e sanzioni; tutela la privacy degli studenti
+06-C1,RIS,2,2,2,M,no,Rende esigibile il diritto ai tempi massimi per chi oggi rinuncia o paga di tasca propria
+06-C2,RIS,0,1,1,M,no,Migliore distribuzione del personale nelle aree carenti; effetto indiretto sui diritti
+06-C3,RIS,1,1,2,M,no,"Cura di prossimità e domiciliare per anziani e cronici, rispettosa della scelta di restare a casa"
+06-C4,RIS,1,1,2,M,no,Sostegno proporzionato al bisogno con libertà di scelta; i nuovi casi lievi ricevono meno
+06-C5,RIS,1,2,2,M,no,Più servizi per la salute mentale e superamento delle contenzioni
+06-C6,RIS,-1,0,0,M,no,Accise regressive e paternalistiche sui consumi dei redditi bassi; compensazioni previste ma generiche
+07-C1,RIS,1,1,2,M,no,Diritto a un processo in tempi ragionevoli (art. 111 Cost.); IA solo organizzativa
+07-C2,RIS,2,2,2,M,no,"Riduce il sovraffollamento e attua la funzione rieducativa della pena (art. 27 Cost., art. 3 CEDU)"
+07-C3,RIS,1,1,1,B,no,"Asilo rapido, accoglienza diffusa, tutela dei minori e monitoraggio dei centri; intensità rimessa al decisore"
+07-C4,RIS,0,1,1,M,no,Restituisce i beni confiscati alla comunità; effetto modesto sui diritti
+07-C5,RIS,0,0,0,B,no,"Sicurezza collettiva da un lato, possibile spiazzamento della spesa sociale dall'altro"
+07-C6,RIS,0,1,1,M,no,Protegge dati sanitari e anagrafici dei cittadini dagli attacchi
+08-P1,RIS,0,1,1,B,no,"L'assemblea sorteggiata dà voce ai cittadini; parere non vincolante, nessuna decisione algoritmica sui diritti"
+08-P2,RIS,0,0,0,M,no,Qualità della legislazione senza effetti diretti su dignità e diritti
+08-P3,RIS,1,1,1,M,no,Il voto fuorisede strutturale rende effettivo il diritto di voto di studenti e lavoratori mobili
+08-P4,RIS,0,0,0,B,no,Negoziato fiscale europeo senza effetti diretti sui diritti
+08-P5,RIS,0,1,1,M,no,Condizionalità sui diritti umani e aiuto ai più vulnerabili nei paesi partner
+08-P6,RIS,0,0,0,M,no,Sostegno all'export senza effetti rilevanti sui diritti
+09-C1,RIS,0,1,1,M,no,Diritto di sapere perché si decide; microdati protetti in ambienti sicuri
+09-C2,RIS,1,2,2,M,no,"Tratta le persone come cittadini e non come pratiche, con indennizzo e controllo sui propri dati"
+09-C3,RIS,0,0,1,B,no,L'adesione volontaria degli enti rispetta le autonomie; effetto indiretto sui servizi
+09-C4,RIS,0,0,0,M,no,Manutenzione delle infrastrutture digitali senza effetti sui diritti
+09-C5,RIS,0,1,1,M,no,Revisione umana obbligatoria e diritto al canale umano; resta il rischio di errori algoritmici
+01-P1,FID,1,2,2,M,no,Rende espliciti i costi differiti e obbliga il governo a rispondere al semaforo UPB; rischio di adempimento formale
+01-P2,FID,1,1,2,M,no,Riduce privilegi fiscali opachi con voto esplicito misura per misura; rischio di rinnovi di massa
+01-P3,FID,1,2,3,M,no,"Riduce l'evasione IVA, impegna a nessun condono e premia i contribuenti affidabili"
+01-P4,FID,0,1,1,M,no,Regole stabili per cinque anni e sportello unico; rischio di elusione con frazionamenti
+01-P5,FID,0,0,0,M,no,Strumento tecnico energetico senza effetti rilevanti su fiducia e legalità
+01-P6,FID,0,1,1,M,no,Vincolo di destinazione e rendicontazione pubblica del gettito per Comune
+02-C1,FID,1,1,1,M,no,Più ispezioni e rappresentatività certificata contrastano contratti pirata e sommerso
+02-C2,FID,0,0,1,B,no,Un diritto esigibile rafforza la fiducia solo se l'offerta di nidi arriva davvero
+02-C3,FID,0,1,2,M,no,Regole pensionistiche stabili e trasparenza sul costo generazionale; contenzioso iniziale sul contributo
+02-C4,FID,0,0,0,M,no,Controlli incrociati contro le frodi bilanciati dal rischio di percezione assistenzialista
+02-C5,FID,0,1,1,M,no,Prestazioni esigibili e sanzioni effettive sul collocamento mirato
+02-C6,FID,1,1,2,M,no,Valutazione generazionale pubblica e dati aperti sui flussi demografici
+03-P1,FID,0,1,1,M,no,Calendario pubblico e dividendo visibile; rischio di proteste di categoria nel breve
+03-P2,FID,0,1,1,M,no,Autorizzazioni in tempi certi e aree idonee definite rendono le regole prevedibili
+03-P3,FID,0,1,1,M,no,Premi e penalità ARERA e dati pubblici per gestore aumentano la responsabilità
+03-P4,FID,1,1,2,M,no,Niente indennizzi per edifici abusivi e condonati: premia la legalità
+03-P5,FID,0,0,1,B,no,Pagamenti legati a risultati misurati; effetto modesto sulla fiducia
+04-P1,FID,0,1,1,M,no,Evita opere vuote che minano la credibilità dello Stato; indicatori da fonti amministrative
+04-P2,FID,0,1,1,M,no,"Garanzia pubblica affidabile ai proprietari, se le agenzie rispettano gli standard"
+04-P3,FID,0,1,1,M,no,Riparto per qualità e non per spesa storica rende il sistema più responsabile
+04-P4,FID,1,2,2,M,no,Valutazioni indipendenti pubbliche e obbligo di motivare le scelte (comply or explain)
+04-P5,FID,1,2,2,M,no,"Regole chiare, voto vincolante del Parlamento e clausola di rientro sulle intese"
+04-P6,FID,0,1,1,M,no,Contratti di area con obiettivi di servizio verificabili
+05-C1,FID,0,0,1,B,no,Effetto indiretto: una scuola che non abbandona rafforza la fiducia nelle istituzioni
+05-C2,FID,0,0,1,B,no,"Accreditamento stretto, ma il caso francese mostra rischi di frode"
+05-C3,FID,0,1,2,M,no,Agenzia indipendente e bandi a calendario fisso rendono stabili le regole della ricerca
+05-C4,FID,0,1,1,M,no,Elimina gli idonei non beneficiari: lo Stato mantiene la promessa
+05-C5,FID,0,1,1,B,no,Patti di comunità con bandi trasparenti rafforzano la coesione locale
+05-C6,FID,0,0,1,B,no,Regole chiare sull'AI a scuola; effetto modesto sulla fiducia
+06-C1,FID,1,2,2,M,no,Diritto esigibile e automatico ai tempi massimi ricostruisce fiducia nel SSN
+06-C2,FID,0,1,1,M,no,Chiarisce ruoli e responsabilità; conflitti con gli ordini professionali
+06-C3,FID,0,1,1,M,no,Finanziamento legato ai risultati e poteri sostitutivi verso Regioni inadempienti
+06-C4,FID,0,1,1,M,no,Valutazione unica nazionale; rischio di percezione di taglio all'accompagnamento
+06-C5,FID,0,0,1,M,no,Vincolo di spesa verificato nei LEA; effetto modesto sulla fiducia
+06-C6,FID,0,1,1,M,no,Regole del farmaco prevedibili riducono il contenzioso sul payback
+07-C1,FID,1,2,2,A,no,Processi più rapidi e cruscotto pubblico per tribunale consolidano i risultati PNRR
+07-C2,FID,0,1,1,B,no,"Meno recidiva rafforza la legalità, ma un evento grave può erodere la fiducia"
+07-C3,FID,0,1,1,B,no,Osservatorio indipendente e dati pubblici riducono la polarizzazione
+07-C4,FID,1,2,2,M,no,Beni confiscati riutilizzati e open data affermano la presenza dello Stato contro le mafie
+07-C5,FID,1,0,0,B,no,"Credibilità verso gli alleati e relazione pubblica, ma consenso interno basso"
+07-C6,FID,1,1,1,M,no,Servizi pubblici più affidabili contro gli attacchi ransomware
+08-P1,FID,0,1,2,B,no,Trasparenza e obbligo di motivazione; diffidenza verso l'AI e rischio di tecnocrazia
+08-P2,FID,1,2,2,M,no,"Meno decreti omnibus, clausole valutative e leggi più stabili"
+08-P3,FID,0,2,2,M,no,Regole elettorali stabili oltre la maggioranza di turno; non applicabile al prossimo voto
+08-P4,FID,0,0,1,B,no,Controlli rafforzati sulla spesa UE; effetto incerto sulla fiducia interna
+08-P5,FID,0,1,1,M,no,Contabilità separata e valutazione controfattuale rendono l'aiuto trasparente
+08-P6,FID,0,0,0,M,no,Sportello unico per l'export; effetto marginale sulla fiducia
+09-C1,FID,1,2,2,M,no,"Dati, codice e ipotesi pubblici rendono verificabili le decisioni"
+09-C2,FID,1,2,2,M,no,Lo Stato rispetta un impegno esigibile e risponde con un indennizzo
+09-C3,FID,0,1,2,M,no,Stazioni appaltanti qualificate riducono arbitrio e rischi corruttivi
+09-C4,FID,0,1,1,M,no,Continuità dei servizi e contabilità certificata dei risparmi
+09-C5,FID,0,1,1,M,no,Albo pubblico dei sistemi IA e valutazioni d'impatto; rischio di errori algoritmici
+01-P1,INN,0,0,0,M,no,Strumento di bilancio senza effetti rilevanti su produttività o innovazione
+01-P2,INN,0,1,1,B,no,Libera risorse da incentivi inefficaci; rischio di colpire anche crediti utili a R&S
+01-P3,INN,1,1,1,M,no,Uso avanzato dei dati di fatturazione e meno adempimenti per i contribuenti affidabili
+01-P4,INN,1,2,2,M,no,"Riduce i disincentivi a crescere e premia investimenti in software, R&S e aggregazioni"
+01-P5,INN,0,1,1,M,no,Nuovi impianti rinnovabili e prezzi stabili favoriscono investimenti delle PMI
+01-P6,INN,0,0,0,M,no,Leva fiscale turistica senza effetti rilevanti sull'innovazione
+02-C1,INN,0,0,1,B,no,Spinge fuori dal mercato chi compete solo sul costo del lavoro; effetto incerto
+02-C2,INN,0,0,0,M,no,Politica familiare senza effetti diretti sull'innovazione
+02-C3,INN,0,0,0,M,no,Riforma previdenziale senza effetti diretti sull'innovazione
+02-C4,INN,0,0,0,M,no,Misura di contrasto alla povertà senza effetti diretti sull'innovazione
+02-C5,INN,0,0,0,M,no,Nessun effetto rilevante su produttività o tecnologia
+02-C6,INN,0,0,1,B,no,Rientro di giovani qualificati può rafforzare il capitale umano innovativo
+03-P1,INN,0,1,1,M,no,Prezzi relativi favorevoli all'elettrificazione stimolano tecnologie pulite
+03-P2,INN,1,1,2,M,no,"Aste CfD, accumuli e reti accelerano la filiera delle rinnovabili"
+03-P3,INN,0,1,1,M,no,Misuratori e riuso delle acque reflue modernizzano il settore idrico
+03-P4,INN,0,0,0,M,no,Prevenzione e assicurazione senza effetti rilevanti sull'innovazione
+03-P5,INN,0,1,1,M,no,"Monitoraggio satellitare, biometano e agricoltura di precisione"
+04-P1,INN,0,1,1,B,no,Servizio tecnico condiviso migliora la capacità amministrativa degli enti
+04-P2,INN,0,0,0,M,no,Politica abitativa senza effetti rilevanti sull'innovazione
+04-P3,INN,0,0,1,B,no,Flotte a zero emissioni e acquisti centralizzati; effetto modesto
+04-P4,INN,0,1,1,M,no,Investimenti selezionati con analisi costi-benefici migliorano la qualità della spesa
+04-P5,INN,0,0,0,B,no,Riforma istituzionale senza effetti rilevanti sull'innovazione
+04-P6,INN,0,0,1,B,no,Servizi organizzati in modo nuovo e connettività nelle aree interne
+05-C1,INN,0,0,1,B,no,Effetto indiretto di lungo periodo sul capitale umano
+05-C2,INN,0,1,2,M,no,Riqualificazione degli adulti su competenze di base e AI sostiene la produttività
+05-C3,INN,0,2,3,M,no,Più ricerca pubblica stabile e attrazione di talenti: leva diretta sulla R&S
+05-C4,INN,0,1,2,M,no,Più tecnici ITS e laureati per le imprese
+05-C5,INN,0,0,0,M,no,Attività sociali e culturali senza effetti rilevanti sull'innovazione
+05-C6,INN,0,1,1,M,no,"Alfabetizzazione AI e strumenti per i docenti, con rischio di dipendenza dai fornitori"
+06-C1,INN,0,0,0,M,no,Agenda unica CUP: innovazione organizzativa modesta
+06-C2,INN,0,1,1,M,no,Nuovi ruoli infermieristici e task shifting innovano l'organizzazione delle cure
+06-C3,INN,0,1,1,M,no,Teleassistenza e modelli hub-spoke migliorano la qualità del servizio
+06-C4,INN,0,0,0,M,no,Riforma dei sostegni senza effetti rilevanti sull'innovazione
+06-C5,INN,0,0,0,M,no,"Più personale nei servizi, senza effetti rilevanti sull'innovazione"
+06-C6,INN,0,1,1,M,no,HTA europea e contratti basati sugli esiti premiano l'innovazione utile
+07-C1,INN,1,1,1,M,no,Triage digitale e Ufficio per il processo migliorano la produttività della giustizia
+07-C2,INN,0,0,0,M,no,Nessun effetto rilevante sull'innovazione
+07-C3,INN,0,0,0,B,no,Nessun effetto rilevante sull'innovazione
+07-C4,INN,0,0,0,M,no,Nessun effetto rilevante sull'innovazione
+07-C5,INN,0,1,1,B,no,"Possibili ricadute dual-use, ma spiazzamento di altra spesa per ricerca"
+07-C6,INN,1,1,1,M,no,Servizi di sicurezza condivisi e competenze cyber nella PA
+08-P1,INN,0,1,1,B,no,Uso pubblico dell'AI trasparente e verificabile nelle valutazioni
+08-P2,INN,0,0,0,M,no,Qualità normativa senza effetti diretti sull'innovazione
+08-P3,INN,0,0,0,M,no,Regole elettorali senza effetti sull'innovazione
+08-P4,INN,0,1,1,B,no,Finanziamento europeo di ricerca di frontiera e reti
+08-P5,INN,0,0,0,M,no,Nessun effetto rilevante sull'innovazione nazionale
+08-P6,INN,0,1,1,M,no,Accesso a nuovi mercati e adeguamento agli standard di sostenibilità
+09-C1,INN,0,1,2,M,no,Dati e modelli aperti abilitano ricerca e analisi delle politiche
+09-C2,INN,1,2,2,M,no,Interoperabilità effettiva via PDND semplifica la PA per cittadini e imprese
+09-C3,INN,0,1,2,M,no,Competenze tecniche giovani nei piccoli enti accelerano la digitalizzazione
+09-C4,INN,1,1,1,M,no,Evita il deperimento delle infrastrutture cloud già realizzate
+09-C5,INN,1,1,2,M,no,AI nella PA con regole chiare e formazione diffusa dei dipendenti
+01-P1,BEN,0,0,1,B,no,Nessun beneficio diretto; nel lungo meno spesa per interessi lascia più spazio ai servizi
+01-P2,BEN,0,1,1,M,no,"Taglio del cuneo per redditi medio-bassi, ma rischio di doppio conteggio con il Piano; perdono beneficiari di nicchia"
+01-P3,BEN,0,0,1,B,no,Parte del costo emerso si trasferisce sui prezzi; benefici solo se il recupero riduce poi le aliquote
+01-P4,BEN,0,1,1,M,no,Imprese più grandi pagano salari più alti; effetto graduale e incerto
+01-P5,BEN,0,1,1,M,no,Prezzi energetici stabili sostengono occupazione nelle PMI manifatturiere
+01-P6,BEN,0,1,1,B,no,Gettito destinato a casa e trasporti per i residenti; costo modesto per i turisti di alta stagione
+02-C1,BEN,1,2,2,M,no,Aumenta i salari dei lavoratori poveri; rischio di posti persi nelle micro-imprese del Sud
+02-C2,BEN,1,2,2,M,no,Più occupazione femminile e servizi per la prima infanzia; nidi lenti a crescere
+02-C3,BEN,-1,0,1,M,no,Perdono lavoratori vicini alla pensione e pensioni alte; guadagnano i giovani discontinui nel lungo
+02-C4,BEN,2,2,2,M,no,"Riduce la povertà assoluta, anche dei minori, e rende conveniente lavorare"
+02-C5,BEN,1,2,2,M,no,Lavoro e autonomia per le persone con disabilità e sollievo per i caregiver
+02-C6,BEN,0,0,1,B,no,Effetti indiretti e lontani su lavoro e sostenibilità del welfare
+03-P1,BEN,0,1,1,M,no,Le famiglie a basso reddito ricevono più di quanto perdono; costi transitori per alcune categorie
+03-P2,BEN,0,1,2,M,no,Bollette più basse e stabili per famiglie e imprese
+03-P3,BEN,0,1,1,M,no,Servizio idrico continuo; aumento tariffario moderato mitigato dal bonus sociale
+03-P4,BEN,0,1,2,M,no,Meno danni da alluvioni e case assicurate; premi e vincoli pesano sui proprietari in aree a rischio
+03-P5,BEN,0,1,1,M,no,Migliore qualità dell'aria e dell'acqua; protezione dei redditi agricoli dai rischi climatici
+04-P1,BEN,1,1,1,M,no,Nidi e case di comunità funzionanti per famiglie e anziani
+04-P2,BEN,1,2,2,M,no,Riduce il disagio abitativo degli inquilini a basso e medio reddito
+04-P3,BEN,1,2,2,M,no,"Mobilità più economica e frequente per pendolari, studenti e famiglie senza auto"
+04-P4,BEN,0,0,1,B,no,Benefici indiretti se le risorse vanno a opere più utili
+04-P5,BEN,0,1,1,B,no,"Servizi migliori nelle regioni sotto standard, se i LEP vengono finanziati"
+04-P6,BEN,0,1,1,M,no,"Accesso a medico, scuola e trasporti per i residenti delle aree interne"
+05-C1,BEN,0,1,2,M,no,Meno abbandono significa più lavoro e reddito futuri per i ragazzi fragili
+05-C2,BEN,0,1,1,M,no,Migliori prospettive di lavoro per adulti a bassa qualifica
+05-C3,BEN,0,0,1,B,no,Benefici diffusi e lontani tramite innovazione e crescita
+05-C4,BEN,0,1,1,M,no,Meno costi abitativi per gli studenti e migliori prospettive di reddito
+05-C5,BEN,1,1,1,M,no,Sport e attività gratuite fanno bene alla salute e alla socialità dei ragazzi
+05-C6,BEN,0,0,0,M,no,Nessun effetto rilevante sul benessere materiale o sulla salute
+06-C1,BEN,1,2,2,M,no,Meno rinunce alle cure e meno spesa di tasca propria per i redditi medio-bassi
+06-C2,BEN,0,1,2,M,no,"Più infermieri e medicina di gruppo, con effetti dopo 3-5 anni"
+06-C3,BEN,0,1,2,M,no,Assistenza domiciliare e cure di prossimità per anziani e cronici
+06-C4,BEN,1,2,2,M,no,"Più sostegno ai casi gravi e alle famiglie caregiver, emersione del lavoro di cura"
+06-C5,BEN,1,2,2,M,no,Salute mentale dei giovani e delle famiglie con pazienti gravi; copertura finanziaria fragile
+06-C6,BEN,0,1,2,M,no,"Accise regressive nel breve, compensate da benefici sanitari e più prevenzione"
+07-C1,BEN,0,1,1,M,no,"Tempi più brevi per crediti, sfratti e cause di lavoro di famiglie e PMI"
+07-C2,BEN,0,1,1,M,no,Meno recidiva e migliori condizioni per detenuti e personale
+07-C3,BEN,0,0,1,B,no,Integrazione lavorativa più rapida; pressione sui servizi locali se mal gestita
+07-C4,BEN,0,1,1,M,no,Lavoro nelle aziende confiscate e servizi sociali nei territori
+07-C5,BEN,0,-1,-1,B,no,"Spiazzamento di sanità, scuola e welfare se la spesa cresce senza coperture nuove"
+07-C6,BEN,0,1,1,M,no,Continuità di ospedali e servizi anagrafici in caso di attacco
+08-P1,BEN,0,0,0,B,no,Nessun effetto diretto sul benessere materiale
+08-P2,BEN,0,0,0,M,no,Nessun effetto diretto sul benessere materiale
+08-P3,BEN,0,0,0,M,no,Nessun effetto diretto sul benessere materiale
+08-P4,BEN,0,0,1,B,no,Minori costi di finanziamento possono liberare risorse per i servizi
+08-P5,BEN,0,0,1,B,no,Benefici per le popolazioni partner; costo per altre voci di spesa interne
+08-P6,BEN,0,1,1,M,no,Più export sostiene occupazione nelle PMI; compensazioni per filiere esposte
+09-C1,BEN,0,0,0,M,no,Nessun effetto diretto sul benessere materiale
+09-C2,BEN,1,1,1,M,no,Tempo risparmiato per cittadini e PMI nelle pratiche amministrative
+09-C3,BEN,0,0,1,B,no,"Servizi locali migliori nei piccoli comuni, effetto indiretto"
+09-C4,BEN,0,0,0,M,no,Continuità dei servizi digitali senza effetti rilevanti sul benessere
+09-C5,BEN,0,1,1,B,no,Risposte più rapide e facilitazione per anziani; rischio di esclusione digitale
+01-P1,APC,0,0,0,A,no,"Nessun effetto su istruzione, formazione o cultura"
+01-P2,APC,0,0,0,M,no,Nessun effetto rilevante su istruzione o cultura
+01-P3,APC,0,0,0,A,no,"Nessun effetto su istruzione, formazione o cultura"
+01-P4,APC,0,0,1,B,no,Incentivi a formazione e ricerca con università nelle imprese che crescono
+01-P5,APC,0,0,0,A,no,"Nessun effetto su istruzione, formazione o cultura"
+01-P6,APC,0,0,0,M,no,Nessun effetto rilevante su istruzione o cultura
+02-C1,APC,0,0,0,M,no,Nessun effetto rilevante su istruzione o cultura
+02-C2,APC,0,1,2,M,no,Il nido ha effetti cognitivi documentati sui bambini dei ceti bassi
+02-C3,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+02-C4,APC,0,0,1,B,no,Meno povertà minorile migliora nel tempo i risultati scolastici
+02-C5,APC,0,0,0,M,no,Nessun effetto rilevante su istruzione o cultura
+02-C6,APC,0,0,1,B,no,Incentivi al rientro dei giovani laureati emigrati
+03-P1,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+03-P2,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+03-P3,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+03-P4,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+03-P5,APC,0,0,0,M,no,Consulenza tecnica agli agricoltori: effetto marginale sulle competenze
+04-P1,APC,1,1,1,M,no,Mantiene aperti i nidi realizzati con il PNRR
+04-P2,APC,0,1,1,B,no,Alloggi accessibili per studenti e lavoratori fuori sede
+04-P3,APC,0,0,0,M,no,"Facilita il tragitto degli studenti, effetto marginale sull'apprendimento"
+04-P4,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+04-P5,APC,0,0,1,B,no,LEP che includono l'istruzione possono ridurre i divari territoriali
+04-P6,APC,0,1,1,M,no,Scuole raggiungibili e personale stabile nelle aree interne
+05-C1,APC,1,2,3,M,no,"Contrasto mirato alla dispersione con tutoraggio, dove le evidenze sono più solide"
+05-C2,APC,0,1,2,M,no,Formazione degli adulti a bassa qualifica; rischio di corsi di scarsa qualità
+05-C3,APC,0,1,2,M,no,"Trattiene e attrae ricercatori, riducendo la fuga dei talenti"
+05-C4,APC,1,2,2,M,no,"Più titoli terziari grazie a borse garantite, ITS e residenze"
+05-C5,APC,1,1,1,M,no,"Lettura, sport e cultura accessibili nel pomeriggio a chi oggi non ha offerta"
+05-C6,APC,0,1,1,B,no,"Alfabetizzazione critica all'AI, con rischio di delega che erode le competenze di base"
+06-C1,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+06-C2,APC,0,1,1,M,no,Lauree magistrali cliniche e borse per infermieri ampliano la formazione sanitaria
+06-C3,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+06-C4,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+06-C5,APC,0,0,1,B,no,Programmi di prevenzione nelle scuole e nelle università
+06-C6,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+07-C1,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+07-C2,APC,0,0,1,B,no,Lavoro e formazione dei detenuti favoriscono il reinserimento
+07-C3,APC,0,1,1,M,no,Corsi di italiano garantiti e riconoscimento delle qualifiche
+07-C4,APC,0,0,0,M,no,Nessun effetto rilevante su istruzione o cultura
+07-C5,APC,0,0,0,M,no,Nessun effetto rilevante su istruzione o cultura
+07-C6,APC,0,1,1,M,no,Formazione cyber dei dipendenti pubblici e riserva di professionisti
+08-P1,APC,0,0,0,B,no,Assemblea deliberativa con effetto marginale sulle competenze civiche
+08-P2,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+08-P3,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+08-P4,APC,0,0,1,B,no,Più ricerca di frontiera finanziata a livello europeo
+08-P5,APC,0,0,0,M,no,Nessun effetto rilevante su istruzione o cultura in Italia
+08-P6,APC,0,0,0,M,no,Nessun effetto rilevante su istruzione o cultura
+09-C1,APC,0,1,1,B,no,Dati e modelli aperti per ricercatori e università
+09-C2,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+09-C3,APC,0,0,1,B,no,Assunzione di giovani laureati STEM con carriera tecnica
+09-C4,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+09-C5,APC,1,1,1,M,no,Formazione obbligatoria in AI per i dipendenti e facilitazione digitale per gli anziani
+01-P1,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+01-P2,BPA,0,0,0,M,no,Nessun effetto rilevante su patrimonio o turismo
+01-P3,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+01-P4,BPA,0,0,1,B,no,Filiere del made in Italy più solide; effetto indiretto
+01-P5,BPA,0,0,0,M,no,Impianti in aree dismesse; possibili conflitti paesaggistici bilanciati
+01-P6,BPA,1,1,2,B,no,Distribuisce flussi turistici e benefici sui territori e protegge i residenti; dati di concentrazione non verificati
+02-C1,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+02-C2,BPA,0,0,0,M,no,Nessun effetto rilevante su patrimonio o territori
+02-C3,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+02-C4,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+02-C5,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+02-C6,BPA,0,0,0,M,no,Nessun effetto rilevante su patrimonio o territori
+03-P1,BPA,0,0,0,M,no,Nessun effetto rilevante su patrimonio o paesaggio
+03-P2,BPA,-1,-1,0,M,no,Silenzio-assenso e nuovi impianti possono ridurre la tutela del paesaggio; compensazioni e superfici compromesse attenuano
+03-P3,BPA,0,0,1,B,no,Tutela delle falde e dei territori siccitosi
+03-P4,BPA,1,2,3,M,no,"Consumo di suolo netto zero, stop a edificazioni in aree a rischio e tutela delle coste"
+03-P5,BPA,0,1,1,M,no,"Siepi, biodiversità e paesaggio agrario curato nelle aree collinari e interne"
+04-P1,BPA,0,0,0,M,no,Nessun effetto rilevante su patrimonio o paesaggio
+04-P2,BPA,0,0,0,M,no,Nessun effetto rilevante su patrimonio o paesaggio
+04-P3,BPA,0,0,1,B,no,Trasporto pubblico rende accessibili luoghi senza auto; effetto modesto sul turismo
+04-P4,BPA,0,0,1,B,no,Valutazione delle grandi opere può evitare impatti paesaggistici ingiustificati
+04-P5,BPA,0,0,0,B,no,Nessun effetto rilevante su patrimonio o paesaggio
+04-P6,BPA,1,1,2,M,no,Servizi essenziali contrastano lo spopolamento delle aree interne
+05-C1,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+05-C2,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+05-C3,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+05-C4,BPA,0,0,0,M,no,"Riuso di immobili pubblici dismessi, effetto marginale sul patrimonio"
+05-C5,BPA,0,1,1,B,no,Integrazione con biblioteche e luoghi della cultura statali
+05-C6,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+06-C1,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+06-C2,BPA,0,0,0,M,no,Nessun effetto rilevante su patrimonio o territori
+06-C3,BPA,0,0,0,M,no,Nessun effetto rilevante su patrimonio o territori
+06-C4,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+06-C5,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+06-C6,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+07-C1,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+07-C2,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+07-C3,BPA,0,0,0,B,no,"Accoglienza diffusa può sostenere piccoli comuni, ma con pressione sui territori di sbarco"
+07-C4,BPA,0,1,1,M,no,Rigenerazione di immobili confiscati senza nuovo consumo di suolo
+07-C5,BPA,0,0,0,M,no,Nessun effetto rilevante su patrimonio o paesaggio
+07-C6,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+08-P1,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+08-P2,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+08-P3,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+08-P4,BPA,0,0,0,M,no,Nessun effetto rilevante su patrimonio o paesaggio
+08-P5,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+08-P6,BPA,0,1,1,M,no,Valorizza il made in Italy su nuovi mercati
+09-C1,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+09-C2,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+09-C3,BPA,0,0,1,B,no,Più capacità tecnica nei piccoli comuni delle aree interne
+09-C4,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+09-C5,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+01-P1,FUT,1,2,2,M,no,"Rende visibili i costi a 30 anni su debito, clima e coorti; rischio di adempimento formale"
+01-P2,FUT,1,2,2,M,no,Metà dei risparmi riduce il deficit; va coordinata con il riordino già previsto nel Piano
+01-P3,FUT,1,2,2,M,no,"Recupero IVA destinato prima al deficit, secondo prudenza"
+01-P4,FUT,0,0,1,B,no,"Copertura legata ai risparmi della Proposta 2, a rischio di doppio conteggio"
+01-P5,FUT,0,1,1,M,no,Meno emissioni con nuove rinnovabili; passività potenziale del fondo di garanzia
+01-P6,FUT,0,0,0,M,no,"Nessun effetto rilevante su debito, clima o demografia"
+02-C1,FUT,0,0,0,B,no,"Più contributi da un lato, rischio sommerso dall'altro; effetto netto incerto"
+02-C2,FUT,0,1,1,B,no,Aiuta occupazione femminile e scelte di fecondità; copertura CUAF non dimostrata
+02-C3,FUT,1,2,3,M,no,Uscite flessibili attuarialmente neutre e aggancio all'aspettativa di vita sostengono le pensioni
+02-C4,FUT,-1,0,0,M,no,"Spesa permanente coperta in parte con recupero d'evasione, non ammesso dal vincolo di spesa netta"
+02-C5,FUT,0,0,0,M,no,Copertura da riordino di fondi esistenti; effetto neutro sui conti futuri
+02-C6,FUT,0,1,2,M,no,Valutazione generazionale e strategia demografica con canali regolari di lavoro
+03-P1,FUT,1,2,3,M,no,Riduce le emissioni a saldo neutro restituendo il gettito
+03-P2,FUT,1,2,2,M,no,Accelera la decarbonizzazione elettrica senza oneri netti per il bilancio
+03-P3,FUT,0,1,2,M,no,Adattamento alla siccità e falde preservate; investimenti in gran parte a tariffa
+03-P4,FUT,1,2,3,M,no,Prevenzione e consumo di suolo zero riducono costi futuri da catastrofi; passività da contabilizzare
+03-P5,FUT,0,1,1,M,no,"Meno emissioni agricole e più carbonio nel suolo, in larga parte con fondi PAC"
+04-P1,FUT,0,1,1,M,no,Evita di sprecare investimenti già fatti; copertura FSC credibile solo fino al 2029
+04-P2,FUT,0,1,1,B,no,Casa accessibile per i giovani; copertura da riorientare agevolazioni edilizie
+04-P3,FUT,0,1,1,M,no,Meno emissioni dai trasporti; copertura dai SAD contesa con altre proposte
+04-P4,FUT,1,2,2,M,no,Evita opere a basso rendimento che lascerebbero debito alle generazioni future
+04-P5,FUT,0,0,0,B,no,"Equità territoriale, ma finanziamento LEP di diversi miliardi non quantificato"
+04-P6,FUT,0,0,1,B,no,Rallenta lo spopolamento senza invertirlo; fondi coesione temporanei
+05-C1,FUT,0,1,2,M,no,Meno abbandono significa più gettito e meno sussidi in futuro
+05-C2,FUT,0,0,1,B,no,Effetti indiretti sulla produttività futura
+05-C3,FUT,-1,1,2,M,no,"Investimento con rendimento lungo, ma 3 mld annui coperti in parte con gettito da crescita incerto"
+05-C4,FUT,0,1,1,M,no,Più capitale umano per una popolazione attiva in calo
+05-C5,FUT,0,0,0,M,no,"Nessun effetto rilevante su debito, clima o demografia"
+05-C6,FUT,0,0,1,B,no,Effetto indiretto sulle competenze delle generazioni future
+06-C1,FUT,0,0,0,M,no,Nessun effetto rilevante sull'orizzonte lungo
+06-C2,FUT,0,1,1,B,no,Risponde all'invecchiamento del personale; copertura dall'incremento FSN fragile dal 2028
+06-C3,FUT,0,0,1,B,no,Meno ricoveri evitabili per una popolazione che invecchia; risparmi non documentati
+06-C4,FUT,-1,0,0,B,no,1-3 mld annui coperti soprattutto da un'emersione incerta del lavoro di cura
+06-C5,FUT,-1,0,1,B,no,"Benefici sui giovani, ma 3 mld annui assorbirebbero gran parte dell'incremento FSN"
+06-C6,FUT,1,1,2,M,no,Saldo positivo per la finanza pubblica e prevenzione che riduce costi futuri
+07-C1,FUT,0,1,1,M,no,Riduce l'arretrato che altrimenti si trasferisce al futuro
+07-C2,FUT,0,1,1,M,no,Meno detenuti e meno recidiva riducono costi futuri
+07-C3,FUT,0,1,1,B,no,Canali regolari di lavoro sostengono demografia e pensioni
+07-C4,FUT,0,0,0,M,no,Fondo rotativo autofinanziato; nessun effetto rilevante sul lungo periodo
+07-C5,FUT,-1,-2,-2,B,si,Circa 32 mld annui al 2035 in parte a debito senza margini di bilancio: rischio per art. 81 e generazioni future
+07-C6,FUT,0,1,1,M,no,Riduce rischi sistemici sui servizi essenziali
+08-P1,FUT,0,1,2,B,no,Rende visibile e pesabile il lungo periodo nelle decisioni legislative
+08-P2,FUT,0,1,1,M,no,Clausole di scadenza e valutazione ex post riducono spese inefficaci
+08-P3,FUT,0,0,1,B,no,Voto dei giovani fuorisede rafforza la loro voce; effetto modesto
+08-P4,FUT,0,1,2,B,no,Beni pubblici europei finanziati con risorse proprie invece di debito nazionale; negoziato incerto
+08-P5,FUT,-1,0,1,B,no,"Costo crescente fino a 4,5 mld con coperture contese; benefici climatici e di stabilità nel lungo"
+08-P6,FUT,0,0,0,M,no,"Nessun effetto rilevante su debito, clima o demografia"
+09-C1,FUT,0,1,1,M,no,Analisi pubbliche e verificabili migliorano le scelte di lungo periodo
+09-C2,FUT,0,0,1,B,no,Risparmi amministrativi futuri; effetto modesto
+09-C3,FUT,0,1,1,M,no,Ricambio generazionale nella PA a invarianza di spesa per personale
+09-C4,FUT,0,1,1,M,no,Evita la perdita degli investimenti digitali PNRR
+09-C5,FUT,0,0,1,B,no,Effetto indiretto sull'efficienza futura della PA

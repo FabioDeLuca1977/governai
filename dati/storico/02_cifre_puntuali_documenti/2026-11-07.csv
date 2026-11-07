@@ -1,0 +1,27 @@
+dato,valore,unita,periodo,fonte,url
+nati_2025,355772.0,n.,2025,"ISTAT Natalità e fecondità 2025 (21/10/2026), p.1",https://www.istat.it/wp-content/uploads/2026/10/Natalita-e-fecondita-popolazione-residente-2025.pdf
+fecondita_2025,1.14,figli per donna,2025,"ISTAT Natalità e fecondità 2025, p.1",https://www.istat.it/wp-content/uploads/2026/10/Natalita-e-fecondita-popolazione-residente-2025.pdf
+tasso_occupazione_15_64,63.0,%,set-2026 (provv.),ISTAT Occupati e disoccupati set. 2026 (29/10/2026),https://www.istat.it/wp-content/uploads/2026/10/CS_Occupati-e-disoccupati_SETTEMBRE_2026.pdf
+tasso_occupazione_femminile_15_64,54.4,%,set-2026 (provv.),"ISTAT Occupati e disoccupati set. 2026, prospetto 2",https://www.istat.it/wp-content/uploads/2026/10/CS_Occupati-e-disoccupati_SETTEMBRE_2026.pdf
+individui_poverta_assoluta,5.4,mln,2025,ISTAT La povertà in Italia 2025 (15/10/2026),https://www.istat.it/comunicato-stampa/la-poverta-in-italia-anno-2025/
+incidenza_poverta_assoluta_individui,9.3,%,2025,ISTAT La povertà in Italia 2025,https://www.istat.it/comunicato-stampa/la-poverta-in-italia-anno-2025/
+famiglie_poverta_assoluta,2.1,mln,2025,ISTAT La povertà in Italia 2025,https://www.istat.it/comunicato-stampa/la-poverta-in-italia-anno-2025/
+incidenza_poverta_assoluta_famiglie,8.0,%,2025,ISTAT La povertà in Italia 2025,https://www.istat.it/comunicato-stampa/la-poverta-in-italia-anno-2025/
+minori_poverta_assoluta,1.136,mln,2025,ISTAT La povertà in Italia 2025,https://www.istat.it/comunicato-stampa/la-poverta-in-italia-anno-2025/
+incidenza_poverta_minori,12.5,%,2025,ISTAT La povertà in Italia 2025,https://www.istat.it/comunicato-stampa/la-poverta-in-italia-anno-2025/
+incidenza_poverta_famiglie_operaie,14.3,%,2025,ISTAT La povertà in Italia 2025,https://www.istat.it/comunicato-stampa/la-poverta-in-italia-anno-2025/
+incidenza_poverta_famiglie_soli_stranieri,29.4,%,2025,ISTAT La povertà in Italia 2025,https://www.istat.it/comunicato-stampa/la-poverta-in-italia-anno-2025/
+incidenza_poverta_famiglie_soli_italiani,5.9,%,2025,ISTAT La povertà in Italia 2025,https://www.istat.it/comunicato-stampa/la-poverta-in-italia-anno-2025/
+nidi_posti_per_100_bambini,31.6,%,2023/24,"ISTAT Offerta di nidi (2/2/2026), p.1",https://www.istat.it/wp-content/uploads/2026/02/REPORT_OFFERTA-DI-NIDI-E-SERVIZI-INTEGRATIVI-PER-LA-PRIMA-INFANZIA.pdf
+nidi_copertura_sud,19.0,%,2023/24,"ISTAT Offerta di nidi, p.1 (Isole 19,5%)",https://www.istat.it/wp-content/uploads/2026/02/REPORT_OFFERTA-DI-NIDI-E-SERVIZI-INTEGRATIVI-PER-LA-PRIMA-INFANZIA.pdf
+nidi_quota_con_lista_attesa,59.5,%,2023/24,"ISTAT Offerta di nidi, p.1",https://www.istat.it/wp-content/uploads/2026/02/REPORT_OFFERTA-DI-NIDI-E-SERVIZI-INTEGRATIVI-PER-LA-PRIMA-INFANZIA.pdf
+quota_65piu_2050,34.5,%,2050,"ISTAT Previsioni base 1/1/2025 (31/8/2026), scenario mediano",https://www.istat.it/wp-content/uploads/2026/08/Previsioni-popolazione-residente-famiglie-forze-lavoro.pdf
+quota_15_64_2050,55.3,%,2050,"ISTAT Previsioni base 1/1/2025, scenario mediano",https://www.istat.it/wp-content/uploads/2026/08/Previsioni-popolazione-residente-famiglie-forze-lavoro.pdf
+popolazione_2050,55.0,mln,2050,"ISTAT Previsioni base 1/1/2025, scenario mediano",https://www.istat.it/wp-content/uploads/2026/08/Previsioni-popolazione-residente-famiglie-forze-lavoro.pdf
+spesa_pensioni_pil_2025,15.2,% PIL,2025,"RGS Tendenze medio-lungo periodo, agg. 2026 (lug. 2026), Tab. D",https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/Attivit--i/Spesa-soci/Attivita_di_previsione_RGS/2026/Ltdmlpdspess-2026.pdf
+spesa_pensioni_pil_picco,17.1,% PIL,2041-2044,"RGS agg. 2026, scenario nazionale base",https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/Attivit--i/Spesa-soci/Attivita_di_previsione_RGS/2026/Ltdmlpdspess-2026.pdf
+spesa_pensioni_pil_2050,16.2,% PIL,2050,"RGS agg. 2026, scenario nazionale base",https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/Attivit--i/Spesa-soci/Attivita_di_previsione_RGS/2026/Ltdmlpdspess-2026.pdf
+spesa_pensioni_pil_2070,14.0,% PIL,2070,"RGS agg. 2026, scenario nazionale base",https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/Attivit--i/Spesa-soci/Attivita_di_previsione_RGS/2026/Ltdmlpdspess-2026.pdf
+adi_nuclei_almeno_una_mensilita,1018611.0,n.,gen-2024/giu-2026,"INPS Osservatorio ADI-SFL, infografica lug. 2026",https://www.inps.it/content/dam/inps-site/pdf/dati-analisi-bilanci/osservatori-statistici/osservatorio-adi-sfl/Infografiche_ADI_SFL_2026_07.pdf
+adi_nuclei_giugno_2026,690000.0,n.,giu-2026,INPS Osservatorio ADI-SFL via Min. Lavoro (4/8/2026),https://lavoro.gov.it/adi/comunicazione/news/osservatorio-adi-e-sfl-i-dati-aggiornati-giugno-2026
+adi_importo_medio_giugno_2026,672.0,EUR/mese,giu-2026,INPS Osservatorio ADI-SFL via Min. Lavoro (4/8/2026),https://lavoro.gov.it/adi/comunicazione/news/osservatorio-adi-e-sfl-i-dati-aggiornati-giugno-2026

@@ -1,0 +1,53 @@
+proposta_id,titolo,costo_min,costo_max,costo_opportunita
+01-P1,Bilancio generazionale: ogni legge dichiara chi paga e quando,0.01,0.02,0.0
+01-P2,Spese fiscali a scadenza (sunset 5 anni),0.0,0.0,0.0
+01-P3,IVA in tempo reale,0.0,0.0,0.0
+01-P4,Crescere conviene: eliminare i gradini dimensionali,2.0,3.0,0.0
+01-P5,Energia a prezzo stabile per le PMI (PPA rinnovabili),0.5,1.0,0.0
+01-P6,Turismo che ripaga i territori: tassa di soggiorno intelligente,0.1,0.2,0.0
+02-C1,Salario minimo contrattuale garantito,0.3,0.5,0.0
+02-C2,Nido esigibile + congedo paterno,3.0,4.5,0.0
+02-C3,Patto previdenziale tra generazioni,0.0,0.0,0.0
+02-C4,Reddito di inclusione universale,2.0,3.0,0.0
+02-C5,Progetto di vita esigibile e lavoro per le persone con disabilita',1.0,1.5,0.0
+02-C6,Bilancio generazionale e strategia demografica,0.2,0.5,0.0
+03-P1,Dividendo climatico: riforma SAD restituita ai cittadini,0.0,0.0,5.0
+03-P2,Elettricita' rinnovabile a prezzo rinnovabile (CfD),0.1,0.2,0.0
+03-P3,Ogni goccia conta: reti idriche e riuso,0.5,1.0,0.0
+03-P4,Prevenire costa meno: fondo prevenzione e assicurazione catastrofale,1.0,1.5,0.0
+03-P5,Contratto agro-climatico,0.3,0.5,0.0
+04-P1,Patto di continuita' post-PNRR,1.0,2.0,0.0
+04-P2,Casa a canone giusto,0.8,1.5,0.0
+04-P3,Prima il treno dei pendolari: fondo TPL e abbonamento unico,1.5,3.0,0.0
+04-P4,Nessuna grande opera senza prova dei numeri,0.01,0.05,0.0
+04-P5,LEP prima: autonomia differenziata reversibile,0.0,0.0,0.0
+04-P6,Restare e' possibile: servizi essenziali aree interne,0.5,1.0,0.0
+05-C1,Nessuno escluso: squadre di prossimita' contro la dispersione,0.2,0.3,0.0
+05-C2,Conto personale di competenze,1.0,1.5,0.0
+05-C3,Carriere della ricerca,3.0,3.2,0.0
+05-C4,"Piu' laureati e diplomati terziari: ITS, lauree professionalizzanti, residenze",0.5,0.8,0.0
+05-C5,Scuole aperte come presidi di comunita',0.3,0.5,0.0
+05-C6,AI a scuola,0.15,0.3,0.0
+06-C1,Tempo garantito o rimborso,0.5,1.0,0.0
+06-C2,Patto per infermieri e medicina generale,1.5,2.5,0.0
+06-C3,Case della Comunita' vive,1.0,2.0,0.0
+06-C4,Budget di cura per la non autosufficienza,1.0,3.0,0.0
+06-C5,Salute mentale al 5%,2.9,3.4,0.0
+06-C6,Dividendo della prevenzione e budget unico del farmaco,0.0,0.0,0.0
+07-C1,Giustizia a regime: Ufficio per il processo e triage digitale,0.4,0.7,0.0
+07-C2,Pena utile: misure di comunita' contro il sovraffollamento,0.3,0.5,0.0
+07-C3,Governance dei flussi migratori fondata sui dati,0.3,0.6,0.0
+07-C4,Dal bene confiscato al bene comune,0.1,0.2,0.0
+07-C5,"Difesa: percorso NATO 3,5% vincolato a efficienza europea",32.0,32.0,0.0
+07-C6,Scudo cyber territoriale,0.2,0.4,0.0
+08-P1,Legge sulla consulenza algoritmica pubblica,0.03,0.06,0.0
+08-P2,Patto per la buona legge,0.005,0.01,0.0
+08-P3,"Regole del gioco stabili (legge elettorale, voto fuorisede)",0.01,0.03,0.0
+08-P4,Beni pubblici europei: capacita' fiscale UE,0.0,0.0,0.0
+08-P5,Cooperazione che si misura: traiettoria APS,4.5,4.5,0.0
+08-P6,Export resiliente,0.2,0.4,0.0
+09-C1,Stato a vetro: infrastruttura aperta per l'analisi delle politiche,0.05,0.1,0.0
+09-C2,Chiedilo una volta sola: once-only con rimborso automatico,0.2,0.4,0.0
+09-C3,Tecnici della Repubblica: pool di competenze per i piccoli enti,0.4,0.7,0.0
+09-C4,Cloud pubblico sostenibile e Patto per la manutenzione digitale,0.3,0.5,0.0
+09-C5,AI nella PA con le mani sul volante,0.15,0.3,0.0

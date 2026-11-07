@@ -1,0 +1,18 @@
+# Documenti grezzi scaricati (PDF, XLSX): oltre 100 MB, li riscaricano gli script in dati/script/
+dati/raw/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Log locali e impostazioni dell'editor
+sistema/stato/pipeline.log
+.claude/
+.vscode/
+.idea/
+
+# Segreti: la chiave dell'API di Claude va nei Secrets di GitHub o nelle variabili d'ambiente, mai nel repository
+.env
+*.key

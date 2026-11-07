@@ -1,0 +1,69 @@
+# Verifica dati — Area 07 (Giustizia, Interno/immigrazione, Difesa)
+
+*Agente verificatore dati GovernAI, 7 novembre 2026. Dossier: `ministeri/07_giustizia_interno_difesa.md`. Script riproducibile: `dati/script/07_giustizia.py` (serie in `dati/serie/07_*.csv`, registro `dati/serie/_registro_07.csv`, documenti grezzi in `dati/raw/07_*`).*
+
+Legenda: ✅ confermato · ✏️ corretto · ❓ non verificabile su fonte primaria.
+
+## Tabella di verifica
+
+| # | Dato | Valore nel dossier | Valore verificato | Fonte primaria (ente, documento/serie, anno, URL) | Esito |
+|---|---|---|---|---|---|
+| 1 | Spesa difesa NATO 2025, % PIL | 2,01% (45,3 mld €) | **2,09% (47,18 mld €)**, stima aggiornata a luglio 2026; 2,01% / 45,3 mld era la stima NATO di marzo 2026 (ripresa nel DPP Difesa 2025-27) | NATO, *Defence Investment of NATO Countries (2014-2026)*, tab. 1 e 3, cut-off 3/7/2026 — https://www.nato.int/content/dam/nato/webready/documents/finance/def-exp-2026-en.pdf ; marzo 2026: https://www.nato.int/content/dam/nato/webready/documents/finance/def-exp-2025-en.pdf | ✏️ |
+| 2 | Spesa difesa NATO 2026, % PIL | assente | **2,10% (48,31 mld €)**, crescita reale circa 1% | NATO, come sopra (stima 2026e) | ✏️ (aggiunto) |
+| 3 | Spesa difesa 2024, % PIL | assente | 1,52% (33,4 mld €) | NATO, come sopra | ✏️ (aggiunto) |
+| 4 | Traiettoria programmata della spesa per la difesa | assente (solo obiettivo NATO al 2035) | Clausola nazionale: **fino a +0,3 punti di PIL l'anno nel 2027 e 2028** per la difesa (circa +0,2 punti oltre il tendenziale nel 2027); più fino a 0,3 per l'energia; massimo 0,6% PIL l'anno contro un limite UE dell'1,5%; limite cumulato difesa 0,9% PIL fissato dalle risoluzioni del 5/8/2026 | MEF, DPFP 2026, p. 67; Governo, Relazione al Parlamento ex art. 6 L. 243/2012, 2/10/2026 (copia: https://www.qualenergia.it/wp-content/uploads/2026/10/Relazione-P.pdf); Camera, IV Commissione, parere sul DPFP, 8/10/2026 | ✏️ (aggiunto) |
+| 5 | Clausola di salvaguardia: parere favorevole della Commissione, ottobre 2026 | "parere favorevole Commissione, ottobre 2026" | Richiesta inviata alla Commissione il 10/9/2026; l'esito della valutazione UE non è stato trovato su fonte primaria | Relazione al Parlamento 2/10/2026 | ❓ |
+| 6 | Costo cumulato del 3,5% "core" al 2035 | +100 mld € (Avvenire, OCPI) | **≈160 mld € cumulati 2026-2035**; ≈ +0,16 pp PIL/anno; ≈ +32 mld €/anno nel 2035 rispetto al 2025 | Elaborazione GovernAI: traiettoria lineare dal 2,10% (2026, NATO) al 3,5% (2035), PIL 2025 = 2.265 mld (Eurostat nama_10_gdp) costante | ✏️ |
+| 7 | Debito pubblico | ~135% del PIL | **136,7%** (2025) | Eurostat gov_10dd_edpt1 (`dati/serie/debito_pil.csv`) | ✏️ |
+| 8 | SAFE, importo assegnato | 14,9 mld € | 14,9 mld € prenotati dall'Italia, con piano approvato da Commissione e Consiglio (luglio 2026) | Commissione UE / Consiglio (via ANSA 28/7/2026); decisione di esecuzione non consultata | ✅ |
+| 9 | SAFE, importo approvato/richiesto | ~8 mld | Solo fonti di stampa (Money.it, Milano Finanza, Defense Post) | — | ❓ |
+| 10 | Budget Giustizia e Interno | 10–12 mld € ciascuno (stima) | Per funzione (COFOG 2024): ordine pubblico e sicurezza 39,1 mld € (1,8% PIL): polizia 22,5, tribunali 7,8, carceri 4,0; difesa COFOG 28,3 mld (1,3% PIL). Stanziamenti per ministero (bilancio RGS) non verificati | Eurostat gov_10a_exp (COFOG GF02, GF03, GF0301, GF0303, GF0304) | ✏️ (sostituita con dato COFOG) |
+| 11 | Target PNRR "−90% arretrato rispetto al 2019" | −90% rispetto al 2019 | Il target finale è **−90% delle pendenze civili iscritte fino al 2022** (baseline 31/12/2022) in tribunale e corte d'appello; raggiunto: −91,3% / −93,5% al I semestre 2026 | Ministero della Giustizia, Relazione attuazione PNRR, agosto 2026 — https://www.giustizia.it/cmsresources/cms/documents/pnrr_relazione_su_attuazione_interventi_ago2026.pdf | ✏️ |
+| 12 | Disposition time civile 2025 vs 2019 | −28,8% (attribuito a ISTAT) | −28,8% (1.789 gg contro 2.512): fonte primaria Ministero della Giustizia, DG Statistica | Ministero della Giustizia, *Continuous Monitoring PNRR 2025*, tab. 5 — https://datiestatistiche.giustizia.it/cmsresources/cms/documents/2025_Continuous_Monitoring_PNRR.pdf | ✅ (fonte corretta) |
+| 13 | DT tribunale civile 2025 | 435 giorni, −21,8% | 435 giorni, −21,8% | idem | ✅ |
+| 14 | DT civile al 30/6/2026 | −50,2% (ItaliaOggi), "metodologie diverse" | **1.251 giorni, −50,2%** (I semestre 2026); **stessa metodologia** del −28,8%: differenza dovuta a periodo semestrale (stagionalità) e accelerazione finale | Ministero della Giustizia, Relazione attuazione PNRR, agosto 2026 | ✅ valore / ✏️ interpretazione |
+| 15 | DT penale | −31,2% al 31/12/2025 | −31,2% nel 2025 (958 gg); **−38,8% nel I sem. 2026** (856 gg contro 1.392) | Ministero della Giustizia, Continuous Monitoring 2025 (tab. 13) e Relazione agosto 2026 | ✅ (+ aggiornamento) |
+| 16 | Addetti UPP finanziati dal PNRR | "10.000+" | 10.000 unità di personale PNRR (UPP e tecnici); linea "UPP e capitale umano" 2,268 mld €; il d.l. 19/2024 (art. 22) consente la stabilizzazione dal 1/7/2026 | Ministero della Giustizia, Relazione agosto 2026 | ✅ (+ contesto) |
+| 17 | Detenuti e affollamento | 64.741 detenuti / 46.343 posti effettivi, 139,7% (Antigone, 28/7/2026) | DAP al 30/9/2026: **66.063 presenti / 51.295 posti regolamentari = 128,8%**, 20.856 stranieri. Il 139,7% di Antigone usa i posti effettivamente disponibili, un dato non pubblicato dal DAP in forma aggregata | Ministero della Giustizia – DAP, *Detenuti presenti al 30 settembre 2026* — https://www.giustizia.it/giustizia/en/mg_1_14_1.page?contentId=SST1522518 | ✏️ (aggiornato; Antigone mantenuto come stima di parte) |
+| 18 | Suicidi in carcere (38 al 2/8/2026), autolesionismo, 6.539 ristori ex art. 35-ter | come nel dossier | Non riscontrati su fonte DAP o Garante | Antigone (fonte non governativa) | ❓ |
+| 19 | Recidiva 68% contro 19–28% | Leonardi 2007 | Nessuna statistica ufficiale aggiornata (il dossier lo segnala già) | — | ❓ |
+| 20 | Costo giornaliero di un detenuto | ~150 €/giorno (stima, DAP) | **≈178 €/giorno nel 2024** (spesa COFOG carceri 3.960 mln € / presenze medie DAP ≈61.000) | Eurostat gov_10a_exp GF0304; DAP presenze al 31/12/2023 e 31/12/2024 (elaborazione GovernAI) | ✏️ |
+| 21 | Sbarchi 2025 | 66.316 (stampa, da verificare) | **66.316** consolidato (somma mensile nel cruscotto del 30/9/2026); 66.296 nel cruscotto provvisorio del 31/12/2025 | Ministero dell'Interno – Dip. PS, cruscotto statistico giornaliero 31/12/2025 e 30/9/2026 (copie: https://www.immigrazione.it/docs/2026/cruscotto-statistico-giornaliero-30-settembre-2026.pdf) | ✅ |
+| 22 | Sbarchi 2026 | 16.666 al 3/8/2026 (Euronews) | Coerente: 16.479 al 31/7/2026. Aggiornato a **22.786 al 30/9/2026, −55%** sullo stesso periodo 2025 (51.008) | Cruscotto Viminale 31/7/2026 e 30/9/2026 | ✅ (aggiornato) |
+| 23 | Rimpatri Eurostat 2025 | 4.780 | 4.780 | Eurostat migr_eirtn (2025) | ✅ |
+| 24 | Rimpatri Viminale 2025 / 2026 | 6.772; 5.081 (gen-lug 2026) | Non trovati su pubblicazione primaria del Viminale | Pagella Politica, Euronews | ❓ |
+| 25 | Tasso di esecuzione degli ordini di allontanamento | "in UE circa 1 su 5" | **Italia 22% (4.780/21.295, circa 1 su 4–5); UE 32% (156.000/486.705, circa 1 su 3)** | Eurostat migr_eirtn / migr_eiord, 2025 | ✏️ |
+| 26 | Residenti stranieri | ~5,42 mln, 9,2% (ISTAT provvisorio 1/1/2025) | **5,37 mln, 9,1%** (dato definitivo) | Eurostat migr_pop1ctz (TOTAL − NAT), 1/1/2025 | ✏️ |
+| 27 | Occupati stranieri | ~2,6 mln, 10,7% | 2,584 mln, 10,7% (15-74 anni, 2025) | Eurostat lfsa_egan (RCFL ISTAT) | ✅ |
+| 28 | Valore aggiunto degli stranieri 197 mld € (9,7% PIL); 30% contro 8% non qualificati | come nel dossier | Stima di un think-tank, non ufficiale | Fondazione Leone Moressa, Rapporto 2026 | ❓ |
+| 29 | MSNA sbarcati 2025 | 12.142 | 12.142 (al 29/12/2025) | Cruscotto Viminale 31/12/2025 | ✅ |
+| 30 | Prime domande d'asilo | assente | 128.655 nel 2025 (151.120 nel 2024) | Eurostat migr_asyappctza | ✏️ (aggiunto) |
+| 31 | Immobili confiscati totali | 43.326 (Eurispes, nov 2025) | **47.261** al 31/12/2025 (destinati + in gestione ANBSC) | ANBSC, *Relazione sulla performance 2025*, giugno 2026 — https://benisequestraticonfiscati.it/wp-content/uploads/2026/06/ANBSC-2026-0053431-Allegato-Relazione-performance-anno-2025-uv-226_Firmato.pdf | ✏️ |
+| 32 | Immobili destinati | 21.664 ("circa metà") | **27.847 (59%)**, di cui 10.469 terreni; in gestione 19.414 (41%) | idem | ✏️ |
+| 33 | Aziende confiscate | 4.836 | 3.629 realtà aziendali nel portafoglio ANBSC (2025). Il perimetro è diverso: il dato Eurispes non è stato riscontrato | idem | ❓ |
+| 34 | Interesse degli enti sui beni proposti | ~45% | 44,82% nel 2025 (67,18% nel 2023, 58,46% nel 2024) | idem | ✅ |
+| 35 | Fallimento delle aziende confiscate | qualitativo | Nessuna quota ufficiale trovata | — | ❓ |
+| 36 | ACN: 2.729 eventi, 615 incidenti, 103 ransomware (2025); 1.979 / 573 nel 2024 | come nel dossier | Confermati | ACN, Relazione annuale al Parlamento 2025, Camera DOC CCXVIII n. 5 — https://documenti.camera.it/_dati/leg19/lavori/documentiparlamentari/indiceetesti/218/005_RS/INTERO_COM.pdf | ✅ |
+| 37 | Comuni con referente cyber "bassa quota" | stima, da verificare | Nessun dato ufficiale trovato | — | ❓ |
+| 38 | Edilizia penitenziaria 150–200 mila €/posto | stima, da verificare | Nessuna fonte ufficiale consultata | — | ❓ (etichettata "stima GovernAI") |
+| 39 | Tasso di conversione dei nulla osta (decreti flussi) | "basso", da verificare | Non verificato | — | ❓ |
+| 40 | Contrarietà nei sondaggi all'aumento della spesa militare | da verificare | Non verificato | — | ❓ |
+
+**Riepilogo**: 40 dati controllati: **13 ✅ confermati, 15 ✏️ corretti o aggiornati** (di cui 4 aggiunti: nn. 2, 3, 4, 30), **12 ❓ non verificabili** su fonte primaria. Al n. 14 il valore è confermato e l'interpretazione corretta: nel conteggio è tra i ✅. Nessuna fonte ha richiesto login.
+
+## Note tecniche
+
+- Il rapporto NATO di luglio 2026 è un PDF stampato senza livello di testo. I valori dell'Italia (tab. 1 e 3) sono stati letti dall'immagine renderizzata e trascritti nello script (`NATO_2026`). Il rapporto di marzo 2026 è invece estratto automaticamente.
+- I cruscotti del Viminale sono scaricati dalle copie integrali su immigrazione.it, perché le URL ufficiali del sito libertaciviliimmigrazione.dlci.interno.gov.it non sono stabili (404). La Relazione al Parlamento del 2/10/2026 è scaricata da una copia (qualenergia.it); la stessa cifra è nel DPFP 2026 del MEF (p. 67).
+- fonti.py: nessun bug bloccante. `scarica()` usa uno User-Agent non da browser e non controlla che un ".pdf" sia davvero un PDF. Lo script usa un wrapper `scarica_robusto()` che ritenta con UA da browser e controlla l'header `%PDF`; per la pagina DAP (HTML) usa direttamente `requests`.
+- Lo script ricalcola le variazioni del DT penale dai giorni: −38,5% contro il −38,8% pubblicato, per arrotondamenti nella fonte. Nel dossier è riportato il valore pubblicato.
+
+## Impatto sulle proposte
+
+- **C5 Difesa — costo corretto al rialzo, punteggi invariati.** Con la stima NATO di luglio 2026, la spesa "core" è ferma al 2,09–2,10% nel 2025-26. Per arrivare al 3,5% nel 2035 servono circa +0,16 punti di PIL l'anno (≈3,5 mld €/anno), non +0,10–0,15 (2–3 mld). Il costo cumulato è di circa 160 mld € nel 2026-2035, non 100. Nel dossier il costo è passato da "+2–3 mld/anno, fino a ~30 mld nel 2035" a "~+3,5 mld/anno, fino a ~32 mld nel 2035, ~160 mld cumulati". La correzione **rafforza** il profilo ⚠️ (breve +1, medio 0, lungo −1) senza cambiarne il segno: i punteggi restano invariati, la confidenza resta "Bassa" su medio e lungo. La traiettoria del Governo per il 2027-28 (fino a +0,3 pp l'anno) è coerente con il percorso solo se prosegue dopo il 2028: va segnalato all'agente Economia e Finanze. Il debito è al 136,7%, non al 135%: nessun effetto sui punteggi.
+- **C1 Giustizia a regime — nessun cambio di punteggio.** Il target civile PNRR è stato **raggiunto** (−50,2% al I semestre 2026), quindi il problema B1 diventa consolidare un risultato, non recuperare un mancato target. Il dato annuale 2025 (−28,8%) e l'avvertenza OCPI sul "rush finale" confermano il rischio di risalita che motiva la proposta. Il d.l. 19/2024 permette già la stabilizzazione dal 1/7/2026: la proposta resta valida come finanziamento e completamento. Il costo 0,4–0,7 mld/anno resta una stima GovernAI, coerente con circa 0,5 mld/anno di spesa PNRR per 10.000 unità.
+- **C2 Pena utile — risparmio unitario leggermente più alto.** Il costo per detenuto è di circa 180 €/giorno (prima ~150): il risparmio per ogni detenuto spostato su misure alternative è circa +20% rispetto a quanto stimato, a favore dell'autofinanziamento parziale. Punteggi invariati. L'affollamento ufficiale DAP (128,8% regolamentare) è più basso del dato Antigone (139,7% sui posti effettivi), ma l'indicatore obiettivo "<115% in 3 anni" resta sfidante da entrambi i punti di partenza.
+- **C3 Flussi — nessun cambio.** Il calo degli sbarchi nel 2026 (−55% a settembre) e il basso tasso di rimpatrio italiano (22% contro 32% UE) rafforzano gli indicatori proposti (rimpatri eseguiti/ordini emessi).
+- **C4 Beni confiscati — problema ridimensionato ma più "qualitativo", punteggi invariati.** Gli immobili ancora in gestione sono circa il 41% (non "circa metà"), ma la quota di beni opzionati dagli enti scende (67% → 45% in due anni) e le destinazioni alla vendita crescono. Il collo di bottiglia è l'appetibilità dei beni (abusi, mancanza di fondi per ristrutturarli), cioè proprio ciò su cui agisce il fondo rotativo. Il costo resta una stima GovernAI.
+- **C6 Cyber — nessun cambio** (dati ACN confermati).
+- **Coperture**: nessuna copertura cambia. Le stime di costo delle proposte sono ora tutte etichettate "stima GovernAI"; non sono state trovate quantificazioni ufficiali (RGS/UPB) equivalenti.

@@ -1,0 +1,89 @@
+DONOR,MEASURE,Measure,FLOW_TYPE,UNIT_MEASURE,TIME_PERIOD,OBS_VALUE
+DAC,1010,Official Development Assistance (ODA),1140,USD,2018,150440.75
+DAC,1010,Official Development Assistance (ODA),1140,USD,2019,146880.22
+DAC,1010,Official Development Assistance (ODA),1140,USD,2020,163026.67
+DAC,1010,Official Development Assistance (ODA),1140,USD,2021,185415.34
+DAC,1010,Official Development Assistance (ODA),1140,USD,2022,213909.57
+DAC,1010,Official Development Assistance (ODA),1140,USD,2023,226734.74
+DAC,1010,Official Development Assistance (ODA),1140,USD,2024,212462.16
+DAC,1010,Official Development Assistance (ODA),1140,USD,2025,171570.85
+DAC,1820,Refugees in donor countries,1140,USD,2018,10774.27
+DAC,1820,Refugees in donor countries,1140,USD,2019,9637.86
+DAC,1820,Refugees in donor countries,1140,USD,2020,8749.23
+DAC,1820,Refugees in donor countries,1140,USD,2021,12841.88
+DAC,1820,Refugees in donor countries,1140,USD,2022,31091.15
+DAC,1820,Refugees in donor countries,1140,USD,2023,32700.31
+DAC,1820,Refugees in donor countries,1140,USD,2024,27976.42
+DAC,1820,Refugees in donor countries,1140,USD,2025,22971.65
+ITA,1820,Refugees in donor countries,1140,USD,2018,1124.71
+ITA,1820,Refugees in donor countries,1140,USD,2019,444.83
+ITA,1820,Refugees in donor countries,1140,USD,2020,228.95
+ITA,1820,Refugees in donor countries,1140,USD,2021,556.1
+ITA,1820,Refugees in donor countries,1140,USD,2022,1479.83
+ITA,1820,Refugees in donor countries,1140,USD,2023,1660.04
+ITA,1820,Refugees in donor countries,1140,USD,2024,1823.92
+ITA,1820,Refugees in donor countries,1140,USD,2025,1501.2
+ITA,1010,Official Development Assistance (ODA),1140,USD,2018,5098.34
+ITA,1010,Official Development Assistance (ODA),1140,USD,2019,4297.63
+ITA,1010,Official Development Assistance (ODA),1140,USD,2020,4393.19
+ITA,1010,Official Development Assistance (ODA),1140,USD,2021,6270.83
+ITA,1010,Official Development Assistance (ODA),1140,USD,2022,6692.3
+ITA,1010,Official Development Assistance (ODA),1140,USD,2023,6016.12
+ITA,1010,Official Development Assistance (ODA),1140,USD,2024,6878.26
+ITA,1010,Official Development Assistance (ODA),1140,USD,2025,8124.81
+ITA,11010,"Official Development Assistance (ODA), grant equivalent",1160,USD,2025,7282.68
+DAC,11010,"Official Development Assistance (ODA), grant equivalent",1160,USD,2025,174301.55
+ITA,11010,"Official Development Assistance (ODA), grant equivalent",1160,USD,2018,5189.59
+DAC,11010,"Official Development Assistance (ODA), grant equivalent",1160,USD,2018,153878.49
+ITA,11010,"Official Development Assistance (ODA), grant equivalent",1160,USD,2021,6084.2
+DAC,11010,"Official Development Assistance (ODA), grant equivalent",1160,USD,2021,186550.51
+ITA,11010,"Official Development Assistance (ODA), grant equivalent",1160,USD,2020,4245.7
+DAC,11010,"Official Development Assistance (ODA), grant equivalent",1160,USD,2020,162669.99
+ITA,11010,"Official Development Assistance (ODA), grant equivalent",1160,USD,2019,4409.33
+DAC,11010,"Official Development Assistance (ODA), grant equivalent",1160,USD,2019,152124.31
+ITA,11010,"Official Development Assistance (ODA), grant equivalent",1160,USD,2024,6840.92
+DAC,11010,"Official Development Assistance (ODA), grant equivalent",1160,USD,2024,215141.78
+ITA,11010,"Official Development Assistance (ODA), grant equivalent",1160,USD,2022,6632.23
+DAC,11010,"Official Development Assistance (ODA), grant equivalent",1160,USD,2022,211214.63
+ITA,11010,"Official Development Assistance (ODA), grant equivalent",1160,USD,2023,6121.17
+DAC,11010,"Official Development Assistance (ODA), grant equivalent",1160,USD,2023,223921.17
+ITA,11010,"Official Development Assistance (ODA), grant equivalent",1160,XDC,2025,6456.82
+ITA,11010,"Official Development Assistance (ODA), grant equivalent",1160,XDC,2022,6306.59
+ITA,11010,"Official Development Assistance (ODA), grant equivalent",1160,XDC,2024,6325.11
+ITA,11010,"Official Development Assistance (ODA), grant equivalent",1160,XDC,2021,5144.8
+ITA,11010,"Official Development Assistance (ODA), grant equivalent",1160,XDC,2018,4397.14
+ITA,11010,"Official Development Assistance (ODA), grant equivalent",1160,XDC,2020,3725.6
+ITA,11010,"Official Development Assistance (ODA), grant equivalent",1160,XDC,2019,3938.85
+ITA,11010,"Official Development Assistance (ODA), grant equivalent",1160,XDC,2023,5660.86
+ITA,1010,Official Development Assistance (ODA),1140,XDC,2018,4319.82
+ITA,1010,Official Development Assistance (ODA),1140,XDC,2019,3839.07
+ITA,1010,Official Development Assistance (ODA),1140,XDC,2020,3855.02
+ITA,1010,Official Development Assistance (ODA),1140,XDC,2021,5302.61
+ITA,1010,Official Development Assistance (ODA),1140,XDC,2022,6363.71
+ITA,1010,Official Development Assistance (ODA),1140,XDC,2023,5563.71
+ITA,1010,Official Development Assistance (ODA),1140,XDC,2024,6359.64
+ITA,1010,Official Development Assistance (ODA),1140,XDC,2025,7203.46
+ITA,1820,Refugees in donor countries,1140,XDC,2018,952.97
+ITA,1820,Refugees in donor countries,1140,XDC,2019,397.37
+ITA,1820,Refugees in donor countries,1140,XDC,2020,200.9
+ITA,1820,Refugees in donor countries,1140,XDC,2021,470.24
+ITA,1820,Refugees in donor countries,1140,XDC,2022,1407.17
+ITA,1820,Refugees in donor countries,1140,XDC,2023,1535.2
+ITA,1820,Refugees in donor countries,1140,XDC,2024,1686.4
+ITA,1820,Refugees in donor countries,1140,XDC,2025,1330.96
+ITA,11002,"ODA as percent of GNI, grant equivalent",1160,PT_B5G,2018,0.25
+ITA,11002,"ODA as percent of GNI, grant equivalent",1160,PT_B5G,2019,0.22
+ITA,11002,"ODA as percent of GNI, grant equivalent",1160,PT_B5G,2020,0.22
+ITA,11002,"ODA as percent of GNI, grant equivalent",1160,PT_B5G,2021,0.29
+ITA,11002,"ODA as percent of GNI, grant equivalent",1160,PT_B5G,2022,0.33
+ITA,11002,"ODA as percent of GNI, grant equivalent",1160,PT_B5G,2023,0.27
+ITA,11002,"ODA as percent of GNI, grant equivalent",1160,PT_B5G,2024,0.29
+ITA,11002,"ODA as percent of GNI, grant equivalent",1160,PT_B5G,2025,0.3
+DAC,11002,"ODA as percent of GNI, grant equivalent",1160,PT_B5G,2018,0.3
+DAC,11002,"ODA as percent of GNI, grant equivalent",1160,PT_B5G,2019,0.3
+DAC,11002,"ODA as percent of GNI, grant equivalent",1160,PT_B5G,2020,0.32
+DAC,11002,"ODA as percent of GNI, grant equivalent",1160,PT_B5G,2021,0.33
+DAC,11002,"ODA as percent of GNI, grant equivalent",1160,PT_B5G,2022,0.37
+DAC,11002,"ODA as percent of GNI, grant equivalent",1160,PT_B5G,2023,0.37
+DAC,11002,"ODA as percent of GNI, grant equivalent",1160,PT_B5G,2024,0.34
+DAC,11002,"ODA as percent of GNI, grant equivalent",1160,PT_B5G,2025,0.26

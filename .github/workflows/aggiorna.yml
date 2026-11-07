@@ -1,0 +1,45 @@
+# Aggiornamento quotidiano di GovernAI su GitHub:
+# scarica i dati ufficiali cambiati, ricalcola il programma, esegue il livello AI (se è impostato il secret
+# ANTHROPIC_API_KEY), rigenera l'interfaccia in docs/ e salva i risultati nel repository.
+name: Aggiornamento quotidiano
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # ogni giorno alle 6:00 UTC (7:00 o 8:00 in Italia)
+  workflow_dispatch:       # avvio manuale dalla scheda Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aggiornamento
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Dipendenze
+        run: pip install -r requirements.txt
+
+      - name: Pipeline (dati, programma, livello AI, interfaccia)
+        working-directory: sistema
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python pipeline.py
+
+      - name: Salva i risultati
+        run: |
+          git config user.name "governai-bot"
+          git config user.email "governai-bot@users.noreply.github.com"
+          git add -A dati/serie dati/storico sistema/stato sistema/bollettini docs registro motore programma
+          git diff --cached --quiet || git commit -m "Aggiornamento dati e bollettino $(date -u +%F)"
+          git push

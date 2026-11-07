@@ -1,0 +1,109 @@
+# GovernAI — Configurazione del sistema dinamico
+# Modificare questo file per aggiungere indicatori, regole di allerta o pagine da osservare.
+
+# --- Indicatori chiave ---------------------------------------------------------
+# serie: file in dati/serie/ (senza .csv); filtro: colonne=valore; valore: colonna numerica
+# meglio: "su" se un aumento è positivo, "giu" se è negativo
+# valori: valori della Carta che l'indicatore informa
+indicatori:
+  - {id: inflazione, nome: "Inflazione (HICP, % annua)", serie: 00c_inflazione_annua, filtro: {geo: IT}, unita: "%", meglio: giu, valori: [BEN, FUT]}
+  - {id: disoccupazione, nome: "Disoccupazione (%)", serie: 00c_disoccupazione_mensile, filtro: {geo: IT, age: TOTAL}, unita: "%", meglio: giu, valori: [BEN, RIS]}
+  - {id: disoccupazione_giovani, nome: "Disoccupazione under 25 (%)", serie: 00c_disoccupazione_mensile, filtro: {geo: IT, age: Y_LT25}, unita: "%", meglio: giu, valori: [APC, FUT]}
+  - {id: rendimento_btp, nome: "Rendimento titoli decennali IT (%)", serie: 00c_rendimenti_decennali, filtro: {geo: IT}, unita: "%", meglio: giu, valori: [FUT]}
+  - {id: spread, nome: "Spread IT-DE (punti base)", calcolo: spread, unita: "pb", meglio: giu, valori: [FUT, FID]}
+  - {id: pil_trimestrale, nome: "PIL reale (% sul trimestre prec.)", serie: 00c_pil_trimestrale, filtro: {geo: IT}, unita: "%", meglio: su, valori: [BEN, INN]}
+  - {id: debito_trimestrale, nome: "Debito pubblico (% PIL, trimestrale)", serie: 00c_debito_trimestrale, filtro: {geo: IT}, unita: "% PIL", meglio: giu, valori: [FUT]}
+  - {id: produzione_industriale, nome: "Produzione industriale (2021=100)", serie: 00c_produzione_industriale, filtro: {geo: IT}, unita: "indice", meglio: su, valori: [INN, BEN]}
+  - {id: fiducia_consumatori, nome: "Fiducia dei consumatori (saldo)", serie: 00c_fiducia_consumatori, filtro: {geo: IT}, unita: "saldo", meglio: su, valori: [FID, BEN]}
+  - {id: debito_annuo, nome: "Debito pubblico (% PIL, annuo)", serie: debito_pil, filtro: {geo: IT}, unita: "% PIL", meglio: giu, valori: [FUT]}
+  - {id: deficit_annuo, nome: "Saldo di bilancio (% PIL)", serie: deficit_pil, filtro: {geo: IT}, unita: "% PIL", meglio: su, valori: [FUT]}
+  - {id: interessi, nome: "Spesa per interessi (% PIL)", serie: spesa_interessi_pil, filtro: {geo: IT}, unita: "% PIL", meglio: giu, valori: [FUT]}
+  - {id: neet, nome: "NEET 15-29 (%)", serie: 02_neet_15_29, filtro: {geo: IT, sex: T}, unita: "%", meglio: giu, valori: [APC, FUT]}
+  - {id: fecondita, nome: "Fecondità (figli per donna)", serie: 02_fecondita_tft, filtro: {geo: IT}, unita: "", meglio: su, valori: [FUT]}
+
+# --- Regole di allerta -----------------------------------------------------------
+# condizione su: valore (ultimo dato), delta (variazione sull'osservazione precedente),
+# delta12 (variazione su 12 osservazioni prima, cioè un anno per i mensili).
+# priorita: misure da privilegiare nel programma del momento; sospendi: misure da escludere finché dura l'allerta;
+# azione: cosa fa il sistema.
+regole:
+  - id: inflazione_alta
+    indicatore: inflazione
+    condizione: "valore > 3"
+    messaggio: "Inflazione sopra il 3%: i redditi reali scendono e i costi delle misure in euro nominali salgono."
+    priorita: [02-C1, 02-C4, 04-P2, 04-P3]   # proposte da privilegiare
+    sospendi: []   # proposte da sospendere finché dura l'allerta
+    azione: "Rivalutare le varianti a sostegno dei redditi (salario minimo, inclusione, casa, trasporti) e indicizzare i costi del programma."
+  - id: inflazione_in_salita
+    indicatore: inflazione
+    condizione: "delta12 > 1.5"
+    messaggio: "Inflazione in forte aumento sull'anno precedente."
+    priorita: [02-C1, 03-P2, 01-P5]   # proposte da privilegiare
+    sospendi: []   # proposte da sospendere finché dura l'allerta
+    azione: "Verificare l'origine (energia, alimentari) e le misure su prezzo dell'energia."
+  - id: spread_alto
+    indicatore: spread
+    condizione: "valore > 200"
+    messaggio: "Spread sopra 200 punti base: il costo del debito sale e lo spazio di bilancio si riduce."
+    priorita: []   # proposte da privilegiare
+    sospendi: [07-C5, 08-P5]   # proposte da sospendere finché dura l'allerta
+    azione: "Ricalcolare la capienza dei fondi in scenario prudente e privilegiare le misure a costo zero."
+  - id: spread_in_salita
+    indicatore: spread
+    condizione: "delta > 30"
+    messaggio: "Spread in aumento di oltre 30 punti base in un mese."
+    priorita: []   # proposte da privilegiare
+    sospendi: []   # proposte da sospendere finché dura l'allerta
+    azione: "Monitoraggio rafforzato; nessuna nuova spesa permanente finché non rientra."
+  - id: debito_in_salita
+    indicatore: debito_trimestrale
+    condizione: "delta > 1"
+    messaggio: "Debito/PIL in aumento di oltre 1 punto in un trimestre."
+    priorita: []   # proposte da privilegiare
+    sospendi: [07-C5]   # proposte da sospendere finché dura l'allerta
+    azione: "Applicare la regola FUT: nessuna variante finanziata a debito; rivedere la traiettoria della Difesa."
+  - id: recessione
+    indicatore: pil_trimestrale
+    condizione: "valore < 0"
+    messaggio: "PIL in calo nell'ultimo trimestre."
+    priorita: [04-P1, 03-P3, 03-P4, 04-P3]   # proposte da privilegiare
+    sospendi: []   # proposte da sospendere finché dura l'allerta
+    azione: "Anticipare gli investimenti una tantum già finanziati (coesione) che sostengono la domanda."
+  - id: disoccupazione_giovani_alta
+    indicatore: disoccupazione_giovani
+    condizione: "valore > 20"
+    messaggio: "Disoccupazione giovanile sopra il 20%."
+    priorita: [05-C4, 05-C2, 05-C1]   # proposte da privilegiare
+    sospendi: []   # proposte da sospendere finché dura l'allerta
+    azione: "Dare priorità alle varianti piene su ITS, competenze e dispersione."
+  - id: fiducia_in_calo
+    indicatore: fiducia_consumatori
+    condizione: "delta12 < -5"
+    messaggio: "Fiducia dei consumatori in netto calo sull'anno."
+    priorita: []   # proposte da privilegiare
+    sospendi: []   # proposte da sospendere finché dura l'allerta
+    azione: "Segnale di rischio per i consumi; valutare la tempistica delle coperture che pesano sui consumatori (IVA, accise)."
+
+# --- Pagine ufficiali osservate ----------------------------------------------------
+# Il sistema confronta i link a documenti (PDF, XLSX, pagine di pubblicazione) e segnala quelli nuovi.
+# Un documento nuovo richiede una revisione da parte del livello AI.
+pagine:
+  - {nome: "MEF - Documenti di finanza pubblica", url: "https://www.mef.gov.it/documenti-pubblicazioni/doc-finanza-pubblica/index.html", aree: ["00", "01"]}
+  - {nome: "RGS - Bilancio di previsione", url: "https://www.rgs.mef.gov.it/VERSIONE-I/attivita_istituzionali/formazione_e_gestione_del_bilancio/bilancio_di_previsione/", aree: ["00", "01"]}
+  - {nome: "UPB - Ufficio parlamentare di bilancio", url: "https://www.upbilancio.it/", aree: ["00", "01", "02", "06"]}
+  - {nome: "Banca d'Italia - Finanza pubblica", url: "https://www.bancaditalia.it/pubblicazioni/finanza-pubblica/index.html", aree: ["00", "01"]}
+  - {nome: "ISTAT - Home e comunicati", url: "https://www.istat.it/", aree: ["02", "05", "06"]}
+  - {nome: "Corte dei conti", url: "https://www.corteconti.it/", aree: ["00", "04"]}
+  - {nome: "MASE - Ministero dell'Ambiente", url: "https://www.mase.gov.it/", aree: ["03"]}
+  - {nome: "AGENAS", url: "https://www.agenas.gov.it/", aree: ["06"]}
+  - {nome: "NATO - Spesa per la difesa", url: "https://www.nato.int/cps/en/natohq/topics_49198.htm", aree: ["07"]}
+
+# --- Parametri ---------------------------------------------------------------------
+parametri:
+  rieseguire_tutto_ogni_giorni: 7   # rilancio completo degli script anche senza segnali di aggiornamento
+  soglia_variazione_rilevante: 0.05  # variazione relativa di un indicatore annuo che richiede revisione AI
+  # Livello AI (revisione_ai.py, API di Claude: serve la variabile d'ambiente ANTHROPIC_API_KEY)
+  ai_attivo: true                       # false per usare solo il livello automatico
+  ai_giorno_nota_settimanale: 0         # 0 = lunedì: nota del momento anche senza novità
+  ai_modifiche: applica                 # "applica" (entro la soglia) oppure "proponi" (tutto in attesa di approvazione)
+  ai_soglia_modifica_automatica: 0.25   # variazioni relative oltre questa soglia restano in attesa di approvazione

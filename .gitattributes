@@ -1,0 +1,5 @@
+# Fine riga uniforme tra Windows e GitHub Actions (Linux)
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.pdf binary
+*.xlsx binary

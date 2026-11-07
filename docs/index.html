@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GovernAI</title>
+  <meta name="description" content="GovernAI: un programma di governo né di destra né di sinistra, guidato da valori dichiarati, dati ufficiali e finanziato senza deficit.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f5c6e'/%3E%3Cpath d='M9 22V10h6.5a4 4 0 0 1 0 8H9m7 0 4.5 4' stroke='white' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="testata">
+    <div class="testata-in">
+      <a class="marchio" href="#cruscotto" aria-label="GovernAI, home">
+        <span class="logo" aria-hidden="true">G</span>
+        <span><strong>GovernAI</strong><small>Programma di governo guidato da valori e dati</small></span>
+      </a>
+      <nav class="menu" aria-label="Sezioni">
+        <a href="#cruscotto" data-vista="cruscotto">Cruscotto</a>
+        <a href="#programma" data-vista="programma">Programma</a>
+        <a href="#valori" data-vista="valori">Valori</a>
+        <a href="#coperture" data-vista="coperture">Coperture</a>
+        <a href="#bollettini" data-vista="bollettini">Bollettini</a>
+        <a href="#metodo" data-vista="metodo">Metodo</a>
+      </nav>
+      <span class="aggiornato" id="aggiornato"></span>
+    </div>
+  </header>
+
+  <main id="contenuto" tabindex="-1">
+    <p class="vuoto">Caricamento…</p>
+  </main>
+
+  <aside class="cassetto" id="cassetto" aria-hidden="true">
+    <div class="cassetto-sfondo" data-chiudi></div>
+    <div class="cassetto-pannello" role="dialog" aria-modal="true" aria-labelledby="cassetto-titolo">
+      <button class="chiudi" data-chiudi aria-label="Chiudi">×</button>
+      <div id="cassetto-corpo"></div>
+    </div>
+  </aside>
+
+  <footer class="piede">
+    <p>GovernAI è un prototipo di ricerca: l'AI consiglia, le persone decidono. Dati: Eurostat, ISTAT, MEF/RGS, Banca d'Italia, UPB e documenti ufficiali.
+      Le stime di costo sono "stime GovernAI", non certificate dalla Ragioneria.</p>
+  </footer>
+</body>
+</html>

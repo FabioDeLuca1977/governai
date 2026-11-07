@@ -1,0 +1,77 @@
+# Verifica dati — Area 02 Lavoro, Welfare, Famiglia, Disabilità
+
+*Agente verificatore dati GovernAI — 7 novembre 2026. Dossier: `ministeri/02_lavoro_welfare_famiglia.md`. Script: `dati/script/02_lavoro.py` (serie in `dati/serie/02_*.csv`, registro `dati/serie/_registro_02.csv`, documenti in `dati/raw/02_*`).*
+
+**Sintesi**: 46 cifre o affermazioni verificate → **✅ 26 confermate**, **✏️ 12 corrette o aggiornate**, **❓ 8 non verificabili**. Nessun punteggio cambiato. Cambiano il costo di C2 (congedi) e la solidità della copertura CUAF.
+
+Legenda: ✅ confermato · ✏️ corretto/aggiornato · ❓ non verificabile (resta "stima" o "da verificare").
+
+## Tabella di verifica
+
+| # | Dato | Valore nel dossier | Valore verificato | Fonte primaria (ente, documento/serie, anno, URL) | Esito |
+|---|---|---|---|---|---|
+| A1 | Spesa pensionistica/PIL 2025 | 15,2–15,3% (RGS n. 26, via OCPI) | **15,2%** nel 2025 (15,3% a fine biennio 2023-24) | RGS, *Le tendenze di medio-lungo periodo del sistema pensionistico e socio-sanitario – aggiornamento 2026*, lug. 2026, Tab. D — https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/Attivit--i/Spesa-soci/Attivita_di_previsione_RGS/2026/Ltdmlpdspess-2026.pdf | ✅ (fonte aggiornata al rapporto 2026) |
+| A2 | Spesa AUU 2025 | ~19,7 mld | 19,7 mld nel 2025 (18,1 mld gen-nov; 6,28 mln nuclei, 9,94 mln figli) | INPS, Osservatorio AUU, dati dic. 2025 (notizia 21/1/2026) — https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.01.assegno-unico-e-universale-l-osservatorio-con-i-dati-di-dicembre-2025.html | ✅ |
+| A3 | Nuclei ADI al mese | "oltre 600–690 mila" (giu. 2026) | **690 mila** nuclei a giugno 2026; 1.018.611 nuclei con almeno una mensilità gen. 2024–giu. 2026 | INPS, Osservatorio ADI-SFL, dati giu. 2026 (Min. Lavoro, 4/8/2026) — https://lavoro.gov.it/adi/comunicazione/news/osservatorio-adi-e-sfl-i-dati-aggiornati-giugno-2026 ; infografica INPS lug. 2026 (raw/02_inps_adi_sfl_infografica_2026_07.pdf) | ✅ (range eliminato) |
+| A4 | Spesa sociale in denaro gestita | "oltre 300 mld/anno (stima, da verificare)" | **458,8 mld** nel 2025 (20,3% PIL): prestazioni sociali in denaro della PA (D62); spesa COFOG protezione sociale 468,1 mld nel 2024 (21,3% PIL) | Eurostat `gov_10a_main` (D62PAY, S13) e `gov_10a_exp` (GF10), agg. 21/10/2026 → serie `02_prestazioni_sociali_denaro`, `02_spesa_protezione_sociale_cofog` | ✏️ |
+| A5 | Debito pubblico (prompt agente, sez. E) | ~135% PIL | **136,7%** PIL nel 2025 | Eurostat `gov_10dd_edpt1` → serie `debito_pil` (area 00) | ✏️ |
+| B1.1 | Nascite 2025 | ~355.800 | **355.772** | ISTAT, *Natalità e fecondità della popolazione residente – Anno 2025*, 21/10/2026, p. 1 — https://www.istat.it/wp-content/uploads/2026/10/Natalita-e-fecondita-popolazione-residente-2025.pdf | ✅ |
+| B1.2 | Variazione nascite | –3,8% | –3,8% (–14 mila) | ISTAT, idem | ✅ |
+| B1.3 | Decessi 2025 | ~652 mila | 651.830 | Eurostat `demo_gind` (DEATH), agg. 27/10/2026 → `02_demografia_nati_decessi_pop` | ✅ |
+| B1.4 | Fecondità | 1,14 (1,18 nel 2024) | 1,14 nel 2025; 1,18 nel 2024 (gen-lug 2026 provvisorio: 1,13) | ISTAT, *Natalità e fecondità 2025*; Eurostat `demo_find` per il 2024 | ✅ |
+| B1.5 | Popolazione al 1/1/2026 | 58,94 mln | 58.942.828 | Eurostat `demo_gind` (JAN) | ✅ |
+| B1.6 | Rapporto anziani/attivi a metà secolo | "si avvicina a 1 a 1" (stima, da verificare) | 65+/15-64 sale dal **39% (2025) al 62% (2050)**: ~3 anziani ogni 5 persone in età lavorativa. La quota 15-64 scende dal 63,4% al 55,3% (–7 mln). Il rapporto "1 a 1" valeva nelle previsioni base 2023 per persone in età lavorativa vs non in età lavorativa (0-14 + 65+), non per anziani/attivi | ISTAT, *Previsioni della popolazione residente, delle famiglie e delle forze lavoro – base 1/1/2025*, 31/8/2026 — https://www.istat.it/wp-content/uploads/2026/08/Previsioni-popolazione-residente-famiglie-forze-lavoro.pdf ; Eurostat `proj_25ndbi` (EUROPOP2025: OLDDEP1 63,1% nel 2050) | ✏️ |
+| B1.7 | Coorti dei potenziali genitori | nati negli anni '90–2000 | Donne di 30-40 anni (oltre il 65% delle nascite) nate tra il 1985 e il 1995, quando la fecondità scende da 1,45 a 1,19 | ISTAT, *Natalità e fecondità 2025*, p. 2 | ✏️ |
+| B2.1 | Salari reali (OCSE) | –7,5% vs inizio 2021 (*Employment Outlook 2025*) | **–6,1%** nel I trim. 2026 vs I trim. 2021, ancora il divario più ampio tra le grandi economie OCSE; previsto –0,9% nel 2026 | OCSE, *Employment Outlook 2026 – Country note Italy*, 7/7/2026 — https://www.oecd.org/en/publications/2026/07/oecd-employment-outlook-2026-country-notes_5aa6f0be/italy_fd32ef4f.html | ✏️ (aggiornato) |
+| B2.2 | Retribuzioni contrattuali orarie reali (ISTAT) | –8,8% a set. 2025 vs gen. 2021 | –8,8% a set. 2025 (confermato); **–10,2% a set. 2026** (elaborazione GovernAI: indice ISTAT +2,5% annuo, inflazione HICP più alta) | ISTAT, *Retribuzioni contrattuali luglio-settembre 2026*, 30/10/2026, serie storiche Tab. 1 — https://www.istat.it/wp-content/uploads/2026/10/Serie-storiche-SETTEMBRE-retribuzioni-2026.xlsx ; Eurostat `prc_hicp_minr` → `02_retribuzioni_contrattuali_reali` | ✅ (+ aggiornamento) |
+| B2.3 | Povertà assoluta famiglie operaie | 14,3% | 14,3% | ISTAT, *La povertà in Italia – Anno 2025*, 15/10/2026 — https://www.istat.it/comunicato-stampa/la-poverta-in-italia-anno-2025/ | ✅ |
+| B2.4 | Working poor | 10–11% (stima, da verificare) | **10,2%** nel 2025 (occupati 18+; UE 8,3%) | Eurostat EU-SILC `ilc_iw01`, agg. 20/10/2026 → `02_working_poor` | ✅ |
+| B3.1 | Tasso di occupazione 15-64 | 63,0% (set. 2026) | 63,0% | ISTAT, *Occupati e disoccupati – settembre 2026* (provv.), 29/10/2026 — https://www.istat.it/wp-content/uploads/2026/10/CS_Occupati-e-disoccupati_SETTEMBRE_2026.pdf | ✅ |
+| B3.2 | Occupazione 20-64 vs target UE 78% | "lontano dal target" | 67,6% nel 2025 (donne 58,0% vs 71,3% UE) | Eurostat `lfsi_emp_a`, agg. 6/11/2026 → `02_tasso_occupazione` | ✅ (valore aggiunto) |
+| B3.3 | Occupazione femminile 15-64 | 54,4% | 54,4% | ISTAT, *Occupati e disoccupati – settembre 2026*, prospetto 2 | ✅ |
+| B3.4 | NEET 15-29 | 13,3% vs 11,0% UE (2025) | 13,3% vs 11,0% | Eurostat `edat_lfse_20` → `02_neet_15_29` | ✅ |
+| B3.5 | NEET Sicilia | 22,8% (Assolombarda) | 22,8% (2025) | Eurostat `edat_lfse_22` (ITG1) → `02_neet_15_29_regioni` | ✅ (fonte primaria al posto di Assolombarda) |
+| B4.1 | Individui in povertà assoluta | 5,4 mln (9,3%) | 5,4 mln (9,3%) | ISTAT, *La povertà in Italia 2025* | ✅ |
+| B4.2 | Famiglie in povertà assoluta | 2,1 mln (8,0%) | 2,1 mln (8,0%) | idem | ✅ |
+| B4.3 | Minori in povertà assoluta | 1,136 mln (12,5%) | 1,136 mln (12,5%) | idem | ✅ |
+| B4.4 | Famiglie di soli stranieri vs soli italiani | 29,4% vs 5,9% | 29,4% vs 5,9% | idem | ✅ |
+| B4.5 | Importo medio ADI | ~672 €/mese | 672 € (giugno 2026); 683 € medio sull'intero periodo gen. 2024–giu. 2026 | INPS, Osservatorio ADI-SFL (vedi A3) | ✅ |
+| B5.1 | Traiettoria spesa pensionistica | picco ~17% intorno al 2040, ~14% al 2070 (RGS n. 26) | **17,1% nel 2041, stabile fino al 2044**; 16,2% nel 2050; 14,0% nel 2070. Con requisiti congelati il picco sarebbe 18,0% nel 2043 | RGS, aggiornamento 2026 (lug. 2026), Sintesi e cap. 2 (vedi A1) | ✏️ (anno del picco e fonte) |
+| B5.2 | Spesa pensionistica OCSE | 15,5% PIL 2023; media OCSE 8,8% | Italia e Grecia le più alte dell'OCSE, **circa 16% del PIL**; media OCSE **8,1%** | OCSE, *Pensions at a Glance 2025*, cap. "Public expenditure on pensions" — https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/public-expenditure-on-pensions_ddc9a2dd.html (pagina 403 al download diretto: decimale non verificato) | ✏️ |
+| B5.3 | Povertà futura dei "contributivi puri" | stima, da verificare | Nessuna simulazione INPS/UPB pubblica trovata per carriere discontinue; la RGS (cap. 6) calcola tassi di sostituzione solo per carriere tipo continue | — | ❓ |
+| B5.4 | Fondo flessibilità in uscita, ddl bilancio 2027 | ~850 mln (stampa) | 850 mln/anno (2,55 mld nel 2027-29) secondo più fonti di stampa concordi; requisiti rinviati a decreto; Ape sociale prorogata (+180 mln 2027) | Testo bollinato e relazione tecnica non reperiti sui siti di Camera/RGS al 7/11/2026 | ❓ |
+| B6.1 | Posti nido ogni 100 bambini 0-2 | 31,6 (2023/24) | 31,6 | ISTAT, *Offerta di nidi e servizi integrativi per la prima infanzia – a.e. 2023/2024*, 2/2/2026 — https://www.istat.it/wp-content/uploads/2026/02/REPORT_OFFERTA-DI-NIDI-E-SERVIZI-INTEGRATIVI-PER-LA-PRIMA-INFANZIA.pdf | ✅ |
+| B6.2 | Copertura nidi al Sud | "intorno al 15%" | **19,0% Sud, 19,5% Isole** (Centro 40,4%) | ISTAT, idem, p. 1 | ✏️ |
+| B6.3 | Nidi con liste d'attesa | quasi 60% | 59,5% | ISTAT, idem, p. 1 | ✅ |
+| B6.4 | Target UE nidi / LEP | target 45% al 2030 | Confermato; inoltre il LEP del 33% per comune o bacino è già previsto per legge **entro il 2027** (L. 234/2021) | ISTAT, idem, p. 2 | ✅ |
+| B6.5 | Persone con limitazioni gravi | 3,1 mln (5,2%), "dati 2023" | **2,9 mln** nel 2023 (3,1 mln / 5,2% era il dato del report ISTAT 2019) | ISTAT, *Giornata internazionale delle persone con disabilità*, 3/12/2025 — https://www.istat.it/?p=111893 | ✏️ |
+| B6.6 | Occupazione 15-64 con limitazioni gravi | 32,5% vs 57,8% (2023) | 32,5% vs **58,9%** delle persone senza limitazioni, **dato 2021** (57,8% era il confronto del report 2019). Eurostat: divario occupazionale per limitazioni gravi 43,4 punti nel 2025 (UE 46,1) | ISTAT 2021 (ripreso da Fondazione Studi Consulenti del lavoro); Eurostat `tepsr_sp200` → `02_divario_occupazione_disabilita` | ✏️ |
+| B6.7 | Senza assistenza domiciliare sanitaria | ~70% | Fonte primaria non trovata | — | ❓ |
+| B6.8 | Attuazione d.lgs. 62/2024 | "da verificare" | Sperimentazione estesa dal 1/3/2026 a ulteriori 40 province (art. 7 DL 19/2026); avvio su tutto il territorio previsto dal 1/1/2027 (DL 202/2024, conv. L. 15/2025) | INPS, messaggio n. 635 del 23/2/2026 | ✏️ |
+| C1 | Costo soglia salariale | 0,3–0,5 mld/anno | Nessuna stima ufficiale (UPB/RGS) sul modello proposto | — | ❓ → "stima GovernAI" |
+| C2.1 | Costo congedo paterno a 3 mesi all'80% | +1–1,5 mld | La relazione tecnica RGS sulla pdl "congedo paritario" (4-5 mesi ai padri, fino al 100%) stima ~3,2 mld/anno dal 2026 e ~3,9 mld dal 2035. Riproporzionata a 3 mesi all'80%: **~1,5–2 mld** | RGS, relazione tecnica (citata da stampa: QuiFinanza, Lentepubblica, mar. 2026); testo non scaricato | ✏️ (stima GovernAI rivista) |
+| C2.2 | Avanzo strutturale CUAF | "secondo varie analisi: da verificare" | Dato CUAF specifico non trovato. La Gestione prestazioni temporanee INPS (che include la CUAF) chiude il 2024 con un risultato positivo di 12,9 mld e un patrimonio di oltre 240 mld (Relazione al rendiconto 2024, copia non INPS) | — | ❓ |
+| C2.3 | Status quo congedi | 10 giorni ai padri; congedo parentale con alcuni mesi all'80% | Confermato; il ddl bilancio 2027 aggiunge un 4° mese all'80% di congedo parentale, di cui almeno uno usato dal padre (stampa, RT del ddl) | Open, 3/11/2026, su relazione tecnica ddl bilancio 2027 | ✅ (da ricontrollare sul testo finale) |
+| C3 | Gettito contributo di equità, risparmi delle quote, costo della pensione di garanzia | 0,5–1 / 1–3 / 0,5–1,5 mld | Nessuna stima ufficiale sul disegno proposto | — | ❓ → "stima GovernAI" |
+| C4.1 | Costo reddito di inclusione universale | +2–3 mld | Nessuna stima ufficiale. Ordine di grandezza: ADI annualizzata ~5,6 mld (690 mila × 672 € × 12, elaborazione su dati INPS) | — | ❓ → "stima GovernAI" |
+| C4.2 | Requisito di residenza e CGUE | oggi 5 anni; sentenza CGUE 2024 sul requisito decennale RdC "da verificare" | Confermato: CGUE, sentenza 29/7/2024, cause riunite C-112/22 e C-223/22 (requisito decennale del RdC incompatibile con la direttiva 2003/109 per i soggiornanti di lungo periodo); ADI: 5 anni, di cui gli ultimi 2 continuativi (art. 2 DL 48/2023) | CGUE — https://curia.europa.eu/juris/liste.jsf?num=C-112/22 | ✅ |
+| C5 / C6 | Costi progetto di vita (1–1,5 mld) e strategia demografica (0,2–0,5 mld) | stime | Nessuna stima ufficiale | — | ❓ → "stima GovernAI" (non conteggiate a parte) |
+
+*Conteggio* (46 righe): ✅ 26, ✏️ 12, ❓ 8. I ❓ sono 4 dati di diagnosi o contesto (B5.3, B5.4, B6.7, C2.2) e 4 righe di costo delle proposte (C1, C3, C4.1, C5/C6), che restano "stima GovernAI". Non riverificate in questa sessione e lasciate come nel dossier, perché sono evidenze qualitative: auto-enrolment UK (55% → oltre 85%, statistiche DWP), valutazioni "Dopo di noi", sentenze Corte cost. 173/2016 e 234/2020. Un'agenzia riporta "609 mila" nuclei ADI a giugno 2026: è un refuso, perché Ministero e INPS danno 690 mila.
+
+## Impatto sulle proposte
+
+1. **C2, costo**: il congedo paterno di 3 mesi all'80% costa più di quanto stimato. Riproporzionata dalla relazione tecnica RGS sul congedo paritario, la stima passa da 1–1,5 a **1,5–2 mld/anno**. Il costo a regime di C2 sale da 2,5–4 a **3–4,5 mld/anno** (stima GovernAI). **La copertura si indebolisce**: l'avanzo "strutturale" della CUAF non è documentato (❓), quindi l'aumento contributivo dello 0,1–0,2% sulla CUAF va considerato copertura da dimostrare, non acquisita. **Punteggi invariati**: l'effetto atteso non cambia e la confidenza era già Media.
+2. **C2, calendario LEP**: il LEP del 33% è già legge entro il 2027 (L. 234/2021). Il traguardo "33% entro il 2029" della proposta è quindi *più lento* della norma vigente. Non cambio la sostanza della proposta, ma lo segnalo al coordinatore. Nel dossier ho aggiunto la nota.
+3. **Sezione D.1, totale C2+C4+C5**: con C2 a 3–4,5 mld il totale resta **6–9 mld/anno** (3+2+1 = 6; 4,5+3+1,5 = 9). Invariato.
+4. **B1, demografia**: il rapporto "anziani/attivi 1 a 1" era sbagliato. Il valore corretto (65+/15-64 al 62% nel 2050) resta un deterioramento forte (da 39%), quindi le motivazioni di C3 e C6 restano valide. Nessun punteggio cambia.
+5. **B2, salari**: il quadro peggiora. Le retribuzioni contrattuali reali sono a –10,2% a settembre 2026 contro il –8,8% di un anno prima. Il dato OCSE (–6,1%) usa una misura diversa e arriva al I trimestre 2026. Rafforza la diagnosi alla base di C1, senza cambiare i punteggi.
+6. **B5 / C3**: la RGS 2026 conferma che congelare i requisiti (cioè sganciarli dall'aspettativa di vita) porterebbe il picco al 18,0% del PIL nel 2043, contro il 17,1%. È un'evidenza ufficiale a favore del punto (b) di C3, aggiunta alle Evidenze. Punteggi invariati.
+7. **C5, indicatore**: la base "32,5%" è un dato 2021, ora etichettato. L'obiettivo del 40% resta, con la stessa definizione (15-64, limitazioni gravi, ISTAT). Per il monitoraggio annuale si suggerisce anche il divario Eurostat (43,4 punti nel 2025).
+8. **Stime di costo**: per C1, C3, C4, C5 e C6 non esistono stime UPB, RGS o INPS sul disegno proposto. Restano etichettate "stima GovernAI".
+
+## Note tecniche
+
+- `fonti.py`: nessun bug bloccante. Ho aggirato un limite di dati: Eurostat ha congelato `prc_hicp_midx` a dicembre 2025, quindi lo script usa `prc_hicp_minr`, che ha la dimensione `coicop18` invece di `coicop`. Va segnalato agli altri agenti che usano l'HICP.
+- Le serie ISTAT SDMX non sono state usate perché sono lente. Le cifre ISTAT puntuali (povertà, nidi, natalità, occupazione mensile, previsioni) sono lette dai comunicati ufficiali salvati in `dati/raw/02_*`. Sono riepilogate con fonte in `dati/serie/02_cifre_puntuali_documenti.csv`.
+- Il calcolo delle retribuzioni reali riproduce esattamente il –8,8% ISTAT di settembre 2025: questo convalida il metodo usato per settembre 2026.

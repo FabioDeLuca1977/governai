@@ -1,0 +1,220 @@
+[
+ {
+  "id": "inflazione",
+  "nome": "Inflazione (HICP, % annua)",
+  "unita": "%",
+  "meglio": "giu",
+  "valori": [
+   "BEN",
+   "FUT"
+  ],
+  "periodo": "2026-10",
+  "valore": 5.6,
+  "delta": 1.4,
+  "delta12": 4.3,
+  "provvisorio": true,
+  "stato": "ok"
+ },
+ {
+  "id": "disoccupazione",
+  "nome": "Disoccupazione (%)",
+  "unita": "%",
+  "meglio": "giu",
+  "valori": [
+   "BEN",
+   "RIS"
+  ],
+  "periodo": "2026-09",
+  "valore": 6.3,
+  "delta": 0.1,
+  "delta12": 0.4,
+  "provvisorio": false,
+  "stato": "ok"
+ },
+ {
+  "id": "disoccupazione_giovani",
+  "nome": "Disoccupazione under 25 (%)",
+  "unita": "%",
+  "meglio": "giu",
+  "valori": [
+   "APC",
+   "FUT"
+  ],
+  "periodo": "2026-09",
+  "valore": 19.9,
+  "delta": -0.4,
+  "delta12": -0.6,
+  "provvisorio": false,
+  "stato": "ok"
+ },
+ {
+  "id": "rendimento_btp",
+  "nome": "Rendimento titoli decennali IT (%)",
+  "unita": "%",
+  "meglio": "giu",
+  "valori": [
+   "FUT"
+  ],
+  "periodo": "2026-09",
+  "valore": 4.362,
+  "delta": 0.376,
+  "delta12": 0.802,
+  "provvisorio": false,
+  "stato": "ok"
+ },
+ {
+  "id": "spread",
+  "nome": "Spread IT-DE (punti base)",
+  "unita": "pb",
+  "meglio": "giu",
+  "valori": [
+   "FUT",
+   "FID"
+  ],
+  "periodo": "2026-09",
+  "valore": 88.9,
+  "delta": 8.8,
+  "delta12": 1.9,
+  "provvisorio": false,
+  "stato": "ok"
+ },
+ {
+  "id": "pil_trimestrale",
+  "nome": "PIL reale (% sul trimestre prec.)",
+  "unita": "%",
+  "meglio": "su",
+  "valori": [
+   "BEN",
+   "INN"
+  ],
+  "periodo": "2026-Q3",
+  "valore": 0.0,
+  "delta": -0.2,
+  "delta12": -0.2,
+  "provvisorio": false,
+  "stato": "ok"
+ },
+ {
+  "id": "debito_trimestrale",
+  "nome": "Debito pubblico (% PIL, trimestrale)",
+  "unita": "% PIL",
+  "meglio": "giu",
+  "valori": [
+   "FUT"
+  ],
+  "periodo": "2026-Q2",
+  "valore": 139.9,
+  "delta": 1.3,
+  "delta12": 2.3,
+  "provvisorio": true,
+  "stato": "ok"
+ },
+ {
+  "id": "produzione_industriale",
+  "nome": "Produzione industriale (2021=100)",
+  "unita": "indice",
+  "meglio": "su",
+  "valori": [
+   "INN",
+   "BEN"
+  ],
+  "periodo": "2026-08",
+  "valore": 92.8,
+  "delta": -1.2,
+  "delta12": 0.2,
+  "provvisorio": false,
+  "stato": "ok"
+ },
+ {
+  "id": "fiducia_consumatori",
+  "nome": "Fiducia dei consumatori (saldo)",
+  "unita": "saldo",
+  "meglio": "su",
+  "valori": [
+   "FID",
+   "BEN"
+  ],
+  "periodo": "2026-10",
+  "valore": -23.3,
+  "delta": -0.1,
+  "delta12": -7.8,
+  "provvisorio": false,
+  "stato": "ok"
+ },
+ {
+  "id": "debito_annuo",
+  "nome": "Debito pubblico (% PIL, annuo)",
+  "unita": "% PIL",
+  "meglio": "giu",
+  "valori": [
+   "FUT"
+  ],
+  "periodo": "2025",
+  "valore": 136.7,
+  "delta": 2.4,
+  "delta12": null,
+  "provvisorio": false,
+  "stato": "ok"
+ },
+ {
+  "id": "deficit_annuo",
+  "nome": "Saldo di bilancio (% PIL)",
+  "unita": "% PIL",
+  "meglio": "su",
+  "valori": [
+   "FUT"
+  ],
+  "periodo": "2025",
+  "valore": -3.1,
+  "delta": 0.3,
+  "delta12": null,
+  "provvisorio": false,
+  "stato": "ok"
+ },
+ {
+  "id": "interessi",
+  "nome": "Spesa per interessi (% PIL)",
+  "unita": "% PIL",
+  "meglio": "giu",
+  "valori": [
+   "FUT"
+  ],
+  "periodo": "2025",
+  "valore": 3.8,
+  "delta": -0.1,
+  "delta12": null,
+  "provvisorio": false,
+  "stato": "ok"
+ },
+ {
+  "id": "neet",
+  "nome": "NEET 15-29 (%)",
+  "unita": "%",
+  "meglio": "giu",
+  "valori": [
+   "APC",
+   "FUT"
+  ],
+  "periodo": "2025",
+  "valore": 13.3,
+  "delta": -1.9,
+  "delta12": null,
+  "provvisorio": false,
+  "stato": "ok"
+ },
+ {
+  "id": "fecondita",
+  "nome": "Fecondità (figli per donna)",
+  "unita": "",
+  "meglio": "su",
+  "valori": [
+   "FUT"
+  ],
+  "periodo": "2024",
+  "valore": 1.18,
+  "delta": -0.03,
+  "delta12": null,
+  "provvisorio": false,
+  "stato": "ok"
+ }
+]
