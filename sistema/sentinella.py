@@ -52,7 +52,8 @@ def leggi_json(p: Path, default):
 
 
 def impronta(p: Path) -> str:
-    return hashlib.sha256(p.read_bytes()).hexdigest()
+    # i fine riga cambiano tra Windows (CRLF) e GitHub Actions (LF): non sono una modifica dei dati
+    return hashlib.sha256(p.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
 
 
 def fonti_registrate() -> list[dict]:

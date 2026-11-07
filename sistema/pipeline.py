@@ -37,7 +37,8 @@ STORICO_IND = RADICE / "dati" / "storico" / "_indicatori.csv"
 def esegui(cmd: list[str], cwd: Path, timeout: int = 1800) -> tuple[bool, str]:
     r = subprocess.run([sys.executable, *cmd], cwd=cwd, capture_output=True, text=True,
                        encoding="utf-8", errors="replace", timeout=timeout)
-    righe = (r.stdout if r.returncode == 0 else r.stderr).strip().splitlines()
+    # il risolutore HiGHS a volte stampa messaggi diagnostici dopo il riepilogo: non sono il nostro esito
+    righe = [x for x in (r.stdout if r.returncode == 0 else r.stderr).strip().splitlines() if not x.startswith("Highs")]
     return r.returncode == 0, (righe[-1] if righe else "")[:300]
 
 

@@ -105,10 +105,16 @@ def datigov_cerca(q: str, righe: int = 10) -> pd.DataFrame:
 # --- File generici (CSV, XLSX, PDF) -----------------------------------------
 
 def scarica(url: str, nome: str) -> Path:
-    """Salva un file grezzo in dati/raw/ e restituisce il percorso."""
+    """Salva un file grezzo in dati/raw/ e restituisce il percorso.
+    Se il sito rifiuta il download (es. blocca i server di GitHub) e c'è già una copia, usa quella."""
     RAW.mkdir(parents=True, exist_ok=True)
     dest = RAW / nome
-    dest.write_bytes(_get(url).content)
+    try:
+        dest.write_bytes(_get(url).content)
+    except requests.RequestException as e:
+        if not dest.exists():
+            raise
+        print(f"attenzione: {nome} non riscaricato ({e.__class__.__name__}), uso la copia del {date.fromtimestamp(dest.stat().st_mtime)}")
     return dest
 
 

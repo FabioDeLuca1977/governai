@@ -1,5 +1,7 @@
 # Documenti grezzi scaricati (PDF, XLSX): oltre 100 MB, li riscaricano gli script in dati/script/
-dati/raw/
+dati/raw/*
+# eccezione: documenti di siti che bloccano i server di GitHub (lo script usa questa copia se il download fallisce)
+!dati/raw/03_gse_aste_co2_2025.pdf
 
 # Python
 __pycache__/
