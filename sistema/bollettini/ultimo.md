@@ -1,10 +1,15 @@
 # Bollettino GovernAI — 2026-11-07
 
-*Generato automaticamente da `sistema/pipeline.py` alle 16:57. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 16:42. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
-- Download non eseguito in questa esecuzione.
+- Modalità di aggiornamento: **mirato**
+- Dataset Eurostat aggiornati: nessuno
+- File ufficiali aggiornati: 2
+- Serie cambiate e archiviate in `dati/storico/`: 00b_coesione_2127_attuazione, 00b_quadro_programmatico, 00b_residui_ministeri_2025, 00b_spesa_netta_percorso, 00c_debito_trimestrale, 00c_disoccupazione_mensile, 00c_fiducia_consumatori, 00c_inflazione_annua, 00c_pil_trimestrale, 00c_produzione_industriale, 00c_rendimenti_decennali, 01_debito_mio_eur, 01_estratti_documenti, 01_interessi_mio_eur, 01_occupati_classe_addetti, 01_presenze_sardegna, 01_presenze_turistiche, 01_pressione_fiscale_pil, 01_produttivita_ora_i15, 01_quota_occupati_micro_piccole, 02_cifre_puntuali_documenti, 02_demografia_nati_decessi_pop, 02_dipendenza_proiezioni, 02_divario_occupazione_disabilita, 02_fecondita_tft, 02_hicp_it, 02_neet_15_29, 02_neet_15_29_regioni, 02_prestazioni_sociali_denaro, 02_retribuzioni_contrattuali_reali, 02_spesa_protezione_sociale_cofog, 02_tasso_occupazione, 02_working_poor, 03_acqua_perdite, 03_circolarita_materiali, 03_ets_proventi, 03_ghg_settori, 03_pun_gme, 03_quota_rinnovabili_red, 03_sad_catalogo_mase, 03_terna_2025, 04_affitti_hicp_indice, 04_auto_per_1000_abitanti, 04_coesione_attuazione_2021_2027, 04_coesione_dotazioni_2021_2027, 04_emissioni_gas_serra_trasporti, 04_istat_previsioni_aree_interne, 04_parco_auto_per_alimentazione, 04_pnrr_corte_conti_mag2026, 04_pnrr_decima_rata, 04_prezzi_abitazioni_indice, 04_sovraccarico_costo_abitativo_per_titolo, 05_cofog_istruzione_cultura, 05_controllo_documenti, 05_elet_18_24_nuts1, 05_elet_18_24_sesso, 05_formazione_adulti_25_64, 05_formazione_adulti_degurba, 05_imprese_ai, 05_laureati_25_34, 05_neet_15_29, 05_pop_15_29_it, 05_riepilogo_verifiche, 05_rs_gbard, 05_rs_gerd_finanziata_pa, 05_rs_gerd_settore, 06_aifa_spesa_farmaceutica_2025, 06_bisogni_non_soddisfatti, 06_ddl_bilancio_2027_sanita, 06_dpfp2026_spesa_sanitaria, 06_fsn_pil, 06_personale_sanitario, 06_spesa_sanitaria_finanziamento, 06_spesa_sanitaria_funzioni, 07_anbsc_beni_confiscati, 07_asilo_prime_domande, 07_cofog_difesa_ordine_pubblico, 07_detenuti_dap, 07_difesa_traiettoria_programmata, 07_disposition_time_pnrr, 07_nato_spesa_difesa_italia, 07_occupati_per_cittadinanza, 07_ordini_allontanamento_eurostat, 07_residenti_per_cittadinanza, 07_rimpatri_eurostat, 07_sbarchi_mensili, 08_aps_ocse_dac, 08_commercio_it_partner, 08_rnl_it_ue, 08_saldo_it_bilancio_ue, 09_anac_qualificazione_sa, 09_competenze_digitali_base, 09_comuni_classi_ampiezza, 09_digital_decade_2026, 09_dtd_pdnd_psn_cloud, 09_egov_uso_cittadini, 09_identita_digitali, 09_redditi_lavoro_dipendente_pa, 09_specialisti_ict_occupati, debito_pil, deficit_pil, pil_mld_eur, popolazione, spesa_interessi_pil
+- Documenti nuovi sulle pagine osservate: 0
+- Problemi: 03_ambiente.py ERRORE: requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://www.gse.it/documenti_site/Documenti%20GSE/Rapporti%20ASTE%20CO2/Rapporto%20Aste%20CO2_%20Annuale_%202025.pdf; 08_esteri.py ERRORE: ImportError: `Import openpyxl` failed.  Use pip, conda, or your preferred package management tool to install the openpyxl package.
 
 ## 2. Cruscotto
 
@@ -44,7 +49,21 @@
 
 ## 4. Programma del momento
 
-Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
+Il programma di riferimento (tutte le coperture, nucleo robusto prima) costa **15,04 mld/anno**; il programma adattato al momento costa **15,06 mld/anno**. Entrambi sono finanziati senza deficit.
+
+**Differenze rispetto al riferimento** (effetto delle allerte):
+
+- 01-P5: esclusa → PIENA
+- 04-P1: PILOTA → esclusa
+- 05-C6: PIENA → ESSENZIALE
+- 09-C4: ZERO → ESSENZIALE
+- 09-C5: PIENA → ZERO
+
+**Cambiamenti rispetto al bollettino precedente:**
+
+- nessuno
+
+Dettaglio: `programma/selezione_momento.md`.
 
 ## 5. Revisione AI richiesta
 
@@ -52,8 +71,8 @@ Nessuna revisione necessaria.
 
 ## Registro tecnico
 
-- modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
-
-## 6. Nota del livello AI
-
-Livello AI non eseguito: credenziali dell'API di Claude assenti (impostare la variabile d'ambiente ANTHROPIC_API_KEY).
+- sentinella: sentinella: mirato; Eurostat aggiornati 0, file 2, documenti nuovi 0, serie cambiate 104, errori 0
+- controlla.py: avvisi: 0  ->  bilancio.md
+- decidi.py: -> esito.md, esito_proposte.csv
+- ottimizza.py (riferimento): HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();
+- ottimizza.py (momento): HighsMipSolverData::transformNewIntegerFeasibleSolution tmpSolver.run();

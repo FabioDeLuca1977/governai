@@ -59,13 +59,13 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 09-C3 | Tecnici della Repubblica: pool di competenze per i piccoli enti | PIENA | 1,0 | 0,55 | 67% |
 | 04-P1 | Patto di continuita' post-PNRR | PILOTA | 0,2 | 0,09 | 63% |
 | 02-C1 | Salario minimo contrattuale garantito | PIENA | 1,0 | 0,35 | 61% |
-| 07-C1 | Giustizia a regime: Ufficio per il processo e triage digitale | ESSENZIALE | 0,7 | 0,32 | 59% |
+| 07-C1 | Giustizia a regime: Ufficio per il processo e triage digitale | ESSENZIALE | 0,7 | 0,32 | 60% |
 | 05-C6 | AI a scuola | PIENA | 1,0 | 0,22 | 59% |
 | 09-C4 | Cloud pubblico sostenibile e Patto per la manutenzione digitale | ZERO | 0,1 | 0,00 | 59% |
 | 02-C6 | Bilancio generazionale e strategia demografica | PIENA | 1,0 | 0,40 | 41% |
 | 07-C3 | Governance dei flussi migratori fondata sui dati | ESSENZIALE | 0,6 | 0,25 | 34% |
 | 08-P6 | Export resiliente | PILOTA | 0,1 | 0,03 | 33% |
-| 03-P5 | Contratto agro-climatico | ESSENZIALE | 0,6 | 0,25 | 15% |
+| 03-P5 | Contratto agro-climatico | ESSENZIALE | 0,6 | 0,25 | 16% |
 
 ## Coperture attivate
 

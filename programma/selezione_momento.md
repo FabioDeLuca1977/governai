@@ -48,14 +48,14 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | PIENA | 1,0 | 0,02 | 99% |
 | 01-P4 | Crescere conviene: eliminare i gradini dimensionali | ZERO | 0,2 | 0,01 | 99% |
 | 08-P2 | Patto per la buona legge | PIENA | 1,0 | 0,01 | 99% |
+| 06-C6 | Dividendo della prevenzione e budget unico del farmaco | ZERO | 0,7 | 0,00 | 99% |
 | 08-P4 | Beni pubblici europei: capacita' fiscale UE | PIENA | 1,0 | 0,00 | 99% |
-| 06-C6 | Dividendo della prevenzione e budget unico del farmaco | ZERO | 0,7 | 0,00 | 98% |
 | 01-P3 | IVA in tempo reale | PIENA | 1,0 | 0,15 | 97% |
 | 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | PIENA | 1,0 | 0,15 | 97% |
 | 07-C4 | Dal bene confiscato al bene comune | PIENA | 1,0 | 0,15 | 97% |
 | 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | PIENA | 1,0 | 0,35 | 93% |
 | 05-C5 | Scuole aperte come presidi di comunita' | PIENA | 1,0 | 0,40 | 91% |
-| 09-C5 | AI nella PA con le mani sul volante | ZERO | 0,3 | 0,00 | 90% |
+| 09-C5 | AI nella PA con le mani sul volante | ZERO | 0,3 | 0,00 | 91% |
 | 07-C6 | Scudo cyber territoriale | PIENA | 1,0 | 0,35 | 88% |
 | 07-C2 | Pena utile: misure di comunita' contro il sovraffollamento | PIENA | 1,0 | 0,45 | 82% |
 | 02-C3 | Patto previdenziale tra generazioni | ESSENZIALE | 0,8 | 0,35 | 73% |
@@ -64,8 +64,8 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 07-C1 | Giustizia a regime: Ufficio per il processo e triage digitale | ESSENZIALE | 0,7 | 0,32 | 64% |
 | 08-P6 | Export resiliente | PILOTA | 0,1 | 0,03 | 49% |
 | 09-C4 | Cloud pubblico sostenibile e Patto per la manutenzione digitale | ESSENZIALE | 0,5 | 0,12 | 43% |
-| 07-C3 | Governance dei flussi migratori fondata sui dati | ESSENZIALE | 0,6 | 0,25 | 40% |
 | 02-C6 | Bilancio generazionale e strategia demografica | PIENA | 1,0 | 0,40 | 39% |
+| 07-C3 | Governance dei flussi migratori fondata sui dati | ESSENZIALE | 0,6 | 0,25 | 39% |
 | 05-C6 | AI a scuola | ESSENZIALE | 0,5 | 0,08 | 37% |
 | 03-P5 | Contratto agro-climatico | ESSENZIALE | 0,6 | 0,25 | 19% |
 
@@ -88,7 +88,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | SAD11 | Contributo di solidarietà sui biglietti aerei in partenza (modello francese TSBA): circa 2 € nazionali, 4 € UE, 10 € extra-UE in economy, multipli per premium; esenti voli OSP, transiti e minori di 2 anni (proposta area 08) | SAD | 0,30 | Passeggeri in partenza dagli aeroporti italiani; compagnie aeree | 94% |
 | SAD01 | Rimborso accise gasolio autotrasporto (EN.SI.19): esclusione Euro 5 dal 2028 e riduzione graduale di un terzo del rimborso per gli Euro 6; 25% del gettito a rinnovo flotte e intermodalità (Ferrobonus/Marebonus) | SAD | 0,30 | Imprese di autotrasporto merci (veicoli da 7,5 t) e passeggeri; in parte consumatori finali tramite prezzi del trasporto | 100% |
 | PE04 | Perequazione differenziata dal 2030: rivalutazione al 50% (invece del 75%) sulla sola quota di pensione oltre 6 volte il minimo (proposta area 02) | PENSIONI | 0,30 | Pensionati con trattamento oltre circa 3.700 €/mese lordi | 73% |
-| SAD12 | IVA sul gas domestico (IVA.11): dal 10% al 22% sui primi 480 m³, con bonus sociale gas rafforzato per ISEE ≤15.000 € | SAD | 0,25 | Famiglie che usano gas per cucina, acqua calda e riscaldamento | 62% |
+| SAD12 | IVA sul gas domestico (IVA.11): dal 10% al 22% sui primi 480 m³, con bonus sociale gas rafforzato per ISEE ≤15.000 € | SAD | 0,25 | Famiglie che usano gas per cucina, acqua calda e riscaldamento | 63% |
 | SF10 | Iperammortamento (L. 199/2025 c. 427-436): riduzione della maggiorazione base per investimenti non qualificati, mantenuta per 4.0, immateriali e transizione (proposta area 01) | SPESE_FISCALI | 0,20 | Imprese che investono in beni strumentali ordinari | 93% |
 | RA06 | SSN: tetto di legge alla spesa per beni e servizi non sanitari degli enti, con gare centralizzate, e riduzione corrispondente del FSN (R-SAN2, area 06) | RIALLOCAZIONE | 0,20 | Fornitori non sanitari del SSN | 100% |
 | SF02 | Regime forfetario: aliquota sostitutiva 20% (invece di 15%) sul reddito corrispondente ai ricavi tra 50.000 e 85.000 €; nessun cambio sotto 50.000 € né alla soglia IVA | SPESE_FISCALI | 0,20 | Lavoratori autonomi e piccole imprese forfetarie con ricavi tra 50.000 e 85.000 € | 91% |
