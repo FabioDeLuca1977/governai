@@ -93,7 +93,9 @@ def controlla_file(urls: set[str], stato: dict) -> tuple[set[str], dict]:
     for u in sorted(urls):
         try:
             h = requests.head(u, headers=HEADERS, timeout=30, allow_redirects=True)
-            firma = "|".join(h.headers.get(k, "") for k in ("ETag", "Last-Modified", "Content-Length"))
+            # un rifiuto (es. 403 dai server di GitHub) non dice nulla sul file: non è un aggiornamento
+            firma = "" if h.status_code >= 400 else \
+                "|".join(h.headers.get(k, "") for k in ("ETag", "Last-Modified", "Content-Length"))
         except requests.RequestException:
             firma = ""
         if not firma.strip("|"):
