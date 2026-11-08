@@ -93,7 +93,7 @@ I compiti sono divisi così, per non pagare due volte l'API e non creare conflit
 | Dove | Quando | Cosa fa | Costo |
 |---|---|---|---|
 | **GitHub Actions** (`.github/workflows/aggiorna.yml`) | Ogni giorno alle 6:00 UTC | Pipeline completa: dati, programma, livello AI, interfaccia, salvataggio nel repository | Gratuito entro i 2.000 minuti al mese dei repository privati (circa 5–10 minuti al giorno); l'API di Claude si paga una sola volta |
-| **Computer locale** (attività Windows "GovernAI - pipeline giornaliera") | Ogni giorno alle 9:00 | `avvia_pipeline.cmd` → `sincronizza.py`: scarica da GitHub i risultati, così la copia locale è sempre aggiornata | Nullo |
+| **Computer locale** (attività Windows "GovernAI - pipeline giornaliera") | Ogni giorno alle 9:00 | `avvia_pipeline.cmd` → `sincronizza.py --ripiego`: scarica da GitHub i risultati. **Ripiego:** GitHub non garantisce l'orario delle esecuzioni programmate e a volte le salta; se manca il bollettino del giorno, la pipeline gira in locale e carica i risultati su GitHub | Nullo |
 
 **Prima di scaricare.** Se in locale ci sono output generati, la sincronizzazione li accantona con `git stash` e li tiene recuperabili, conservando gli ultimi 7. Le modifiche ai file sorgente restano al loro posto.
 

@@ -45,6 +45,22 @@ def main() -> int:
         git("rebase", "--abort")
         return 0
     print("sincronizza: copia locale allineata a GitHub")
+
+    # Ripiego: GitHub non garantisce l'orario delle esecuzioni programmate e a volte le salta.
+    # Se il bollettino di oggi manca, l'aggiornamento lo fa questo computer e lo carica su GitHub.
+    if "--ripiego" in sys.argv and not (RADICE / "sistema" / "bollettini" / f"{date.today()}.md").exists():
+        print("sincronizza: bollettino di oggi assente su GitHub, eseguo la pipeline in locale")
+        p = subprocess.run([sys.executable, "-I", "pipeline.py", "--senza-ai"], cwd=RADICE / "sistema",
+                           capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=3600)
+        print((p.stdout or p.stderr).strip()[-300:])
+        esistenti = [x for x in GENERATI if any(RADICE.glob(x))]
+        git("add", "-A", "--", *esistenti)
+        if git("diff", "--cached", "--quiet").returncode != 0:
+            git("commit", "-m", f"Aggiornamento dati e bollettino {date.today()} (ripiego locale)")
+            git("pull", "--rebase", "origin", "main")
+            r = git("push", "origin", "main")
+            print("sincronizza: risultati caricati su GitHub" if r.returncode == 0
+                  else f"sincronizza: caricamento non riuscito ({r.stderr.strip()[:200]})")
     # tiene solo gli ultimi accantonamenti della pipeline (gli output si rigenerano comunque)
     nostri = [riga.split(":", 1)[0] for riga in git("stash", "list").stdout.splitlines() if ETICHETTA in riga]
     for ref in reversed(nostri[CONSERVA:]):
