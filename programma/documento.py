@@ -77,6 +77,14 @@ def blocchi() -> dict[str, str]:
         "Usa solo coperture a basso costo sociale.",
         f"- **Programma completo: {num(vc.costo_regime.sum())} mld l'anno**, {vc.proposta_id.nunique()} misure, "
         f"nucleo robusto {nucleo_coperto(vc)} su {len(nucleo)}. Aggiunge coperture strutturali più impegnative.",
+        *([f"- **Programma intermedio: {num(selezione('intermedio')[0].costo_regime.sum())} mld l'anno**, "
+            f"{selezione('intermedio')[0].proposta_id.nunique()} misure, nucleo robusto "
+            f"{nucleo_coperto(selezione('intermedio')[0])} su {len(nucleo)}. Nessun aumento di tasse su casa, eredità, affitti "
+            "e IVA, nessun contributo sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale "
+            "nei ministeri. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni "
+            "fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni "
+            "(`programma/selezione_intermedio.md`)."]
+          if (QUI / "selezione_intermedio.csv").exists() else []),
         f"- **Programma adottato dal governo ombra** (simulazione, `governo/`): {num(vg.costo_regime.sum())} mld l'anno, "
         f"{vg.proposta_id.nunique()} misure, coperture al minimo per {num(cg.gettito_min.sum())} mld più i fondi vincolati.",
     ])

@@ -57,10 +57,15 @@ def carica_varianti() -> pd.DataFrame:
     return v
 
 
-def carica_menu(livello_max: int | None = None) -> pd.DataFrame:
+def carica_menu(livello_max: int | None = None, solo: list[str] | None = None,
+                senza: list[str] | None = None) -> pd.DataFrame:
     m = pd.read_csv(QUI / "coperture_menu.csv")
+    if senza:
+        m = m[~m.misura_id.isin(senza)].reset_index(drop=True)
     if livello_max is not None and "livello" in m:
         m = m[pd.to_numeric(m.livello, errors="coerce").fillna(1) <= livello_max].reset_index(drop=True)
+    if solo:
+        m = m[m.misura_id.str.startswith(tuple(solo))].reset_index(drop=True)
     m["fondo_id"] = m.fondo_id.str.upper().str.strip()
     for c in ["gettito_min", "gettito_max", *VALORI]:
         m[c] = pd.to_numeric(m[c], errors="coerce").fillna(0.0)
@@ -182,12 +187,16 @@ def main() -> int:
                     help="disattiva la priorità al nucleo robusto (regola 7 della Carta)")
     ap.add_argument("--riserva", type=float, default=0.0,
                     help="mld/anno di coperture generali riservati alla riduzione del deficit (non spendibili)")
+    ap.add_argument("--solo-coperture", dest="solo", nargs="*", default=[],
+                    help="usa solo le coperture con questi prefissi, es. RA RB (scenario senza nuove tasse)")
+    ap.add_argument("--escludi-coperture", dest="senza", nargs="*", default=[],
+                    help="coperture escluse per scelta di scenario, es. RA11")
     ap.add_argument("--etichetta", default="")
     ap.add_argument("--seed", type=int, default=7)
     a = ap.parse_args()
     rng = np.random.default_rng(a.seed)
 
-    var, menu = carica_varianti(), carica_menu(a.livello)
+    var, menu = carica_varianti(), carica_menu(a.livello, a.solo, a.senza)
     cap = capienze_base(menu)
     chiavi, A, lb, ub, nomi = costruisci(var, menu, cap)
     # Riserva per il risanamento: un programma in pareggio non riduce il debito. Con --riserva una parte delle
@@ -268,10 +277,12 @@ def main() -> int:
     out = [f"# GovernAI — Programma selezionato{(' — scenario ' + a.etichetta) if a.etichetta else ''}", "",
            "*Generato da `programma/ottimizza.py`. Tutto finanziato nello scenario prudente: niente deficit, "
            "niente risparmi non certificati, gettito minimo delle coperture.*", ""]
-    if a.forza or a.escludi or a.livello or a.priorita:
+    if a.forza or a.escludi or a.livello or a.priorita or a.solo or a.senza:
         out += [f"Vincoli di scenario: forzate {a.forza or '—'}, escluse {a.escludi or '—'}, "
                 f"prioritarie per il momento {a.priorita or '—'}, "
-                f"coperture fino al livello {a.livello or 'tutti'}.", ""]
+                f"coperture fino al livello {a.livello or 'tutti'}"
+                + (f", solo coperture {' '.join(a.solo)}" if a.solo else "")
+                + (f", coperture escluse {' '.join(a.senza)}" if a.senza else "") + ".", ""]
     out += [f"Priorità al nucleo robusto (Carta, regola 7): **{'attiva' if a.nucleo_prima else 'disattivata'}**.", ""]
     if escluse_lr:
         out += ["**Escluse dalle linee rosse automatiche** (regole deterministiche, superabili solo con una scelta esplicita):", ""]

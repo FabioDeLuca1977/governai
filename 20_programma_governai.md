@@ -11,6 +11,7 @@ Due versioni del programma, entrambe finanziate senza deficit nello scenario pru
 <!-- auto:totali -->
 - **Programma base: 7,90 mld l'anno**, 50 misure su 62, con 17 su 18 del nucleo robusto almeno in versione essenziale. Usa solo coperture a basso costo sociale.
 - **Programma completo: 12,99 mld l'anno**, 53 misure, nucleo robusto 18 su 18. Aggiunge coperture strutturali più impegnative.
+- **Programma intermedio: 9,15 mld l'anno**, 52 misure, nucleo robusto 18 su 18. Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
 - **Programma adottato dal governo ombra** (simulazione, `governo/`): 11,63 mld l'anno, 55 misure, coperture al minimo per 11,12 mld più i fondi vincolati.
 <!-- /auto:totali -->
 

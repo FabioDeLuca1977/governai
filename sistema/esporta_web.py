@@ -33,6 +33,7 @@ AREE = {"01": "Economia, Imprese, Turismo", "02": "Lavoro, Welfare, Famiglia", "
 SCENARI = [
     ("base", "Programma base", "Solo coperture a basso costo sociale", "selezione_livello1.csv"),
     ("completo", "Programma completo", "Con le coperture strutturali", "selezione_livello2.csv"),
+    ("intermedio", "Programma intermedio", "Nessun aumento di tasse su casa, eredità, affitti e IVA; più istruzione e servizi sociali; restano accise su tabacco e alcol e il riordino di agevolazioni e sussidi dannosi", "selezione_intermedio.csv"),
     ("momento", "Programma del momento", "Completo, adattato alle allerte attive", "selezione_momento.csv"),
     ("dividendo", "Completo + dividendo climatico", "Restituzione compensativa di 1,2 mld del gettito SAD", "selezione_dividendo.csv"),
     ("difesa", "Completo + Difesa al 2,5%", "Traiettoria graduale della spesa militare (+9,1 mld)", "selezione_difesa.csv"),
