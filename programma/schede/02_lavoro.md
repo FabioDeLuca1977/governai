@@ -8,14 +8,14 @@ Importi in mld €/anno. Tutti i costi sono **stime GovernAI**: non esistono sti
 
 ## Quadro delle varianti
 
-| Proposta | Giudizio del panel | PIENA | ESSENZIALE | PILOTA / ZERO | Raccomandazione dell'agente |
+| Proposta | Giudizio del panel (Carta 2.0) | PIENA | ESSENZIALE | PILOTA / ZERO | Raccomandazione dell'agente |
 |---|---|---|---|---|---|
 | 02-C1 Soglia di dignità | dipende dai valori | 0,35 (i=1) | 0,20 (i=0,65) | ZERO 0 (i=0,35) | ESSENZIALE |
 | 02-C2 Nido + congedo paterno | **nucleo robusto** | 4,50 (i=1) | **2,00 (i=0,6)** | PILOTA 0,40 (i=0,2) | ESSENZIALE |
 | 02-C3 Patto previdenziale | dipende dai valori; **linea rossa** | 0,60 dal 2036 (i=1) | 0,35 dal 2036 (i=0,75) | ZERO 0 (i=0,45) | PIENA riformata o ESSENZIALE |
 | 02-C4 Reddito di inclusione | dipende dai valori | 3,00 (i=1) | 1,50 (i=0,55) | PILOTA 0,10 (i=0,05) | ESSENZIALE |
-| 02-C5 Progetto di vita | dipende dai valori | 1,50 (i=1) | 0,80 (i=0,6) | ZERO 0 (i=0,25) | ESSENZIALE |
-| 02-C6 Bilancio generazionale | dipende dai valori | 0,40 (i=1) | 0,10 (i=0,5) | ZERO 0 (i=0,3) | ESSENZIALE |
+| 02-C5 Progetto di vita | **nucleo robusto** | 1,50 (i=1) | 0,80 (i=0,6) | ZERO 0 (i=0,25) | ESSENZIALE |
+| 02-C6 Bilancio generazionale | in coda | 0,40 (i=1) | 0,10 (i=0,5) | ZERO 0 (i=0,3) | ESSENZIALE |
 
 Il pacchetto con tutte le ESSENZIALI costa **4,6 mld/anno a regime** (2030), contro i 10,4 mld delle versioni piene. A questi si aggiungono 0,35 mld dal 2036 per la pensione di garanzia.
 

@@ -87,7 +87,7 @@ def blocchi() -> dict[str, str]:
         righe.append(f"| **{nome}** | [schede](programma/schede/{SCHEDE[area]}.md) | | | | |")
         for r in sorted(prop[prop.proposta_id.str.startswith(area)].itertuples(), key=lambda x: chiave(x.proposta_id)):
             e = esito.loc[r.proposta_id]
-            cl = CLASSE.get(e.classe, e.classe) + (" · linea rossa" if bool(e.linea_rossa) else "")
+            cl = CLASSE.get(e.classe, e.classe) + (" · linea rossa in alcune versioni" if bool(e.linea_rossa) else "")
             righe.append(f"| {r.proposta_id} | {tit(r.titolo)} | {cl} | {variante(vb, r.proposta_id)} | "
                          f"{variante(vc, r.proposta_id)} | {variante(vg, r.proposta_id)} |")
     for k in tot:
@@ -125,6 +125,25 @@ def blocchi() -> dict[str, str]:
     return out
 
 
+FRASI_CLASSE = {"nucleo robusto": "robusta", "dipende dai valori": "dipendente dai valori",
+                "dipendente dai valori": "dipendente dai valori", "in coda": "in coda", "sfavorevole": "sfavorevole"}
+
+
+def controlla_schede() -> list[str]:
+    """Righe delle schede (tabelle e titoli) che attribuiscono a una proposta una classe diversa da quella del motore."""
+    classe = pd.read_csv(RADICE / "motore" / "esito_proposte.csv").set_index("proposta_id").classe
+    avvisi = []
+    for f in sorted((QUI / "schede").glob("*.md")):
+        for i, riga in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
+            if not riga.startswith(("|", "## ")):
+                continue
+            ids = [x for x in re.findall(r"\b\d{2}-[PC]\d{1,2}\b", riga) if x in classe.index]
+            dette = {v for k, v in FRASI_CLASSE.items() if k in riga.lower()}
+            if len(ids) == 1 and dette and classe[ids[0]] not in dette and "carta 1" not in riga.lower():
+                avvisi.append(f"schede/{f.name}:{i}: {ids[0]} è «{classe[ids[0]]}» per il motore")
+    return avvisi
+
+
 def applica(testo: str, b: dict[str, str]) -> str:
     for nome, corpo in b.items():
         testo, n = re.subn(rf"(<!-- auto:{nome} -->\r?\n)(?:.*?\r?\n)?(<!-- /auto:{nome} -->)",
@@ -141,9 +160,12 @@ def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     vecchio = DOC.read_text(encoding="utf-8")
     nuovo = applica(vecchio, blocchi())
+    avvisi = controlla_schede()
+    for x in avvisi:
+        print("AVVISO classe superata:", x)
     if a.controlla:
         print("aggiornato" if nuovo == vecchio else "da aggiornare")
-        return 0 if nuovo == vecchio else 1
+        return 0 if nuovo == vecchio and not avvisi else 1
     if nuovo != vecchio:
         DOC.write_text(nuovo, encoding="utf-8")
     print(f"{DOC.name}: {'aggiornato' if nuovo != vecchio else 'già aggiornato'}")

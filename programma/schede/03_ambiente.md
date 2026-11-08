@@ -153,7 +153,7 @@ Il costo per il bilancio riguarda solo la squadra tecnica. I CfD sono finanziati
 
 ---
 
-## 03-P3 — Ogni goccia conta: reti idriche e riuso *(nucleo robusto)*
+## 03-P3 — Ogni goccia conta: reti idriche e riuso *(dipende dai valori; nel nucleo robusto con la Carta 1)*
 
 **Problema in un dato.** Nel 2022 si è perso il **42,4% dell'acqua immessa nelle reti comunali**, cioè **3,39 mld m³** (era il 42,2% nel 2020). Basilicata è al 65,5%, Abruzzo al 62,5%, Molise al 53,9%, Sardegna al 52,8%, Sicilia al 51,6% e Campania al 49,9%. Fonte: ISTAT, Censimento delle acque per uso civile, serie `03_acqua_perdite`.
 

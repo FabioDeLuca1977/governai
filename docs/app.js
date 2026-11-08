@@ -152,7 +152,7 @@
     return `<a class="card card-proposta" href="${linkP(p.id)}">
       <div class="testa-card"><p class="etichetta">${esc(D.aree[p.area])} · ${esc(p.id)}</p></div>
       <h3 class="titolo-card">${esc(tit(p.titolo))}</h3>
-      <div class="chips">${chipClasse(p.classe)}${p.linea_rossa ? chip(["critico", "octagon-x", "Linea rossa"]) : ""}</div>
+      <div class="chips">${chipClasse(p.classe)}${p.linea_rossa ? chip(["critico", "octagon-x", "Linea rossa in alcune versioni"]) : ""}</div>
       <div class="riga-dati">${misuratore(m && m.variante)}${m ? `<span>${nf(m.costo)} mld/anno</span>` : ""}${motivo ? `<span>${esc(motivo)}</span>` : ""}</div>
     </a>`;
   }
@@ -334,7 +334,7 @@
       const m = sc.misure[p.id];
       const g = (p.giuridico || []).filter((r) => r.tipo === "proposta" || (m && r.id === `${p.id}:${m.variante}`));
       const peggiore = g.reduce((a, r) => (GRAVITA_GIUR[r.esito] ?? 0) > (GRAVITA_GIUR[a] ?? -1) ? r.esito : a, null);
-      html += `<tr class="${m ? "" : "esclusa"}"><td class="principale"><a class="riga" href="${linkP(p.id)}">${esc(tit(p.titolo))}</a> <span class="nota mono">${esc(p.id)}</span>${p.linea_rossa ? " " + chip(["critico", "octagon-x", "Linea rossa"]) : ""}</td>
+      html += `<tr class="${m ? "" : "esclusa"}"><td class="principale"><a class="riga" href="${linkP(p.id)}">${esc(tit(p.titolo))}</a> <span class="nota mono">${esc(p.id)}</span>${p.linea_rossa ? " " + chip(["critico", "octagon-x", "Linea rossa in alcune versioni"]) : ""}</td>
         <td data-etichetta="Classe">${chipClasse(p.classe)}</td><td data-etichetta="Variante">${misuratore(m && m.variante)}</td>
         <td class="num" data-etichetta="mld/anno">${m ? nf(m.costo) : "—"}</td>
         <td data-etichetta="Robustezza">${m ? `<span class="robustezza" aria-hidden="true"><span style="width:${Math.round(m.robustezza * 100)}%"></span></span>${Math.round(m.robustezza * 100)}%` : "—"}</td>
@@ -383,11 +383,11 @@
           <header class="intestazione">
             <p class="etichetta">${esc(D.aree[p.area])} · ${esc(p.id)}</p>
             <h1>${esc(tit(p.titolo))}</h1>
-            <div class="chips">${chipClasse(p.classe)}${p.linea_rossa ? chip(["critico", "octagon-x", "Linea rossa"]) : ""}${peggiore ? chip(ESITO_GIUR[peggiore]) : ""}</div>
+            <div class="chips">${chipClasse(p.classe)}${p.linea_rossa ? chip(["critico", "octagon-x", "Linea rossa in alcune versioni"]) : ""}${peggiore ? chip(ESITO_GIUR[peggiore]) : ""}</div>
             <div class="stato">Nel programma del momento: ${misuratore(m && m.variante)}${m ? `<span>· ${nf(m.costo)} mld/anno · robustezza ${Math.round(m.robustezza * 100)}%</span>` : `<span>· non inclusa</span>`}</div>
             ${indiceMobile(voci)}
           </header>
-          ${p.linea_rossa ? `<div class="avviso critico" role="alert"><div class="avviso-titolo">${icona("octagon-x")}Linea rossa segnalata</div><p>Questa proposta viola almeno una linea rossa della Carta dei valori ed è esclusa automaticamente dal programma.</p></div>` : ""}
+          ${p.linea_rossa ? `<div class="avviso critico" role="alert"><div class="avviso-titolo">${icona("octagon-x")}Linea rossa in alcune versioni</div><p>Almeno una versione di questa proposta supera una linea rossa della Carta dei valori ed è esclusa in automatico. Le altre versioni restano possibili: vedi le varianti e il programma.</p></div>` : ""}
 
           <section class="card in-breve blocco" id="in-breve" aria-labelledby="h-breve" style="margin-top:0">
             <h2 id="h-breve" class="vh">In breve</h2>

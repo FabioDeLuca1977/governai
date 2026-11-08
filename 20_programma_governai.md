@@ -15,6 +15,7 @@ Due versioni del programma, entrambe finanziate senza deficit nello scenario pru
 <!-- /auto:totali -->
 
 - **Il nucleo robusto viene prima.** Sono le 18 misure prioritarie con quasi ogni combinazione di pesi tra i valori: si finanziano almeno in versione essenziale prima di ottimizzare il resto.
+- **L'eccezione del programma base è il nido (02-C2).** È l'unica misura del nucleo che il base non finanzia. La sua versione essenziale costa 2,0 mld l'anno e si paga con il riordino dei bonus familiari e delle spese fiscali. Nel base queste risorse non bastano, anche perché la linea rossa sull'equità esclude la soppressione del bonus lavoratrici madri (RB05). Entra nel programma completo e nella decisione del governo ombra.
 - **L'impianto istituzionale costa poco**: legge sulla consulenza algoritmica pubblica (08-P1), "Stato a vetro" (09-C1), bilancio generazionale (01-P1), spese fiscali a scadenza (01-P2), valutazione indipendente delle grandi opere (04-P4).
 - **Restano decisioni politiche**, presentate con il loro prezzo (§6): la traiettoria della Difesa, il dividendo climatico, l'adozione delle coperture strutturali.
 
@@ -40,6 +41,8 @@ Due versioni del programma, entrambe finanziate senza deficit nello scenario pru
 - **Valori**: la priorità dipende dai valori;
 - **Coda**: utile ma in fondo alla classifica;
 - **Sfav.**: sfavorevole.
+
+**Linea rossa in alcune versioni**: almeno una versione della proposta supera una linea rossa della Carta ed è esclusa in automatico; le altre versioni restano possibili. Per la Difesa (07-C5) sono escluse le versioni finanziate in deficit.
 
 Costi in mld €/anno a regime. "—" = non inclusa. L'ultima colonna è la decisione del governo ombra, che può discostarsi dall'ottimizzatore dichiarando la deroga nel verbale.
 
@@ -98,7 +101,7 @@ Costi in mld €/anno a regime. "—" = non inclusa. L'ultima colonna è la deci
 | 07-C2 | Pena utile: misure di comunità contro il sovraffollamento | **Nucleo** | Essenziale 0,25 | Piena 0,45 | Essenziale 0,25 |
 | 07-C3 | Governance dei flussi migratori fondata sui dati | **Nucleo** | Essenziale 0,25 | Piena 0,55 | Essenziale 0,25 |
 | 07-C4 | Dal bene confiscato al bene comune | **Nucleo** | Piena 0,15 | Piena 0,15 | Essenziale 0,07 |
-| 07-C5 | Difesa: percorso NATO 3,5% vincolato a efficienza europea | Sfav. · linea rossa | — | — | — |
+| 07-C5 | Difesa: percorso NATO 3,5% vincolato a efficienza europea | Sfav. · linea rossa in alcune versioni | — | — | — |
 | 07-C6 | Scudo cyber territoriale | Valori | Pilota 0,03 | Piena 0,35 | Essenziale 0,18 |
 | **Esteri, Europa, Istituzioni** | [schede](programma/schede/08_esteri.md) | | | | |
 | 08-P1 | Legge sulla consulenza algoritmica pubblica | Valori | Piena 0,04 | Piena 0,04 | Essenziale 0,01 |
