@@ -203,7 +203,7 @@ def main() -> int:
     # Coperture
     menu = pd.read_csv(RADICE / "programma" / "coperture_menu.csv")
     col = [c for c in ["misura_id", "descrizione", "fondo_id", "gettito_min", "gettito_max", "anno_regime", "chi_paga",
-                       "soggetti_coinvolti", "RIS", "FID", "INN", "BEN", "APC", "BPA", "FUT", "strumento", "fonte_dato",
+                       "soggetti_coinvolti", "RIS", "FID", "INN", "BEN", "APC", "BPA", "FUT", "EQU", "SIC", "CIT", "strumento", "fonte_dato",
                        "livello"] if c in menu.columns]
 
     # Cruscotto con serie per i grafici

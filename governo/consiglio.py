@@ -600,6 +600,21 @@ def nomi_esperti() -> dict[str, str]:
 NOMI_ESPERTI = nomi_esperti()
 
 
+def risposta_obiezione(o: dict, risposte: dict[str, str]) -> str:
+    """La risposta del capo a un'obiezione; per le obiezioni trasversali (un fondo, più proposte)
+    la cerca nelle decisioni sulle proposte citate."""
+    pid = id_proposta(o.get("proposta"))
+    if risposte.get(pid):
+        return risposte[pid]
+    citate = [x for x in dict.fromkeys(re.findall(r"\b\d{2}-[PC]\d+\b", str(o.get("proposta", "")))) if risposte.get(x)]
+    if not citate:  # obiezione su una copertura (es. RA06): la risposta cita lo stesso codice
+        codici = set(re.findall(r"\b[A-Z]{2,3}\d{2}\b", str(o.get("proposta", ""))))
+        citate = [x for x, t in risposte.items() if t and codici & set(re.findall(r"\b[A-Z]{2,3}\d{2}\b", t))]
+    if citate:
+        return "obiezione trasversale; risposte nelle decisioni collegate: " + " · ".join(f"**{x}**: {risposte[x]}" for x in citate)
+    return "non registrata"
+
+
 def verbale_md(v: dict, proposte: dict) -> str:
     tit = lambda p: proposte.get(p, {}).get("titolo", p)
     r = [f"# Verbale del Consiglio dei ministri — {v['seduta']}", "",
@@ -653,12 +668,12 @@ def verbale_md(v: dict, proposte: dict) -> str:
                 r.append(f"- {g['proposta']}: **{g['giudizio']}**. {g.get('motivo', '')}{cond}{risp}")
             r.append("")
     r += ["## Obiezioni dell'opposizione e risposte", ""]
-    risposte = {d["proposta"]: d.get("risposta_opposizione", "") for d in v["decisioni"]}
+    risposte = {id_proposta(d["proposta"]): d.get("risposta_opposizione", "") for d in v["decisioni"]}
     for o in v["opposizione"].get("obiezioni", []) or []:
         r += [f"- **{o.get('proposta')}** — {o.get('punto_debole', '')}",
               f"  - Prova: {o.get('prova', '')}",
               f"  - Cosa le farebbe cambiare idea: {o.get('cosa_cambierebbe_idea', '')}",
-              f"  - Risposta del capo: {risposte.get(o.get('proposta')) or '—'}"]
+              f"  - Risposta del capo: {risposta_obiezione(o, risposte)}"]
     if v["opposizione"].get("alternative"):
         r += ["", f"**Alternative dell'opposizione.** {v['opposizione']['alternative']}"]
     r += ["", "## Posizioni dei ministri", ""]

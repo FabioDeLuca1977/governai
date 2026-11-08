@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>GovernAI · prototipo del design</title>
+  <meta name="description" content="Prototipo statico del design system di GovernAI: home, scheda della proposta, verbale di seduta. Dati reali da docs/data.js.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23F7F6F2'/%3E%3Cg stroke='%2312506B' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M16 4v4M23.1 6.3l-2.4 3.3M27.4 12.3l-3.8 1.2M27.4 19.7l-3.8-1.2M23.1 25.7l-2.4-3.3M16 28v-4M8.9 25.7l2.4-3.3M4.6 19.7l3.8-1.2M4.6 12.3l3.8 1.2M8.9 6.3l2.4 3.3'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stile.css">
+  <script>try{var t=localStorage.getItem("governai-tema");if(t)document.documentElement.dataset.tema=t;}catch(e){}</script>
+  <script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js" defer></script>
+  <script src="../../docs/data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="salta" href="#contenuto">Salta al contenuto</a>
+  <header class="testata">
+    <div class="testata-in">
+      <a class="marchio" href="#/" aria-label="GovernAI, vai a Oggi">
+        <svg viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M16 4v4M23.1 6.3l-2.4 3.3M27.4 12.3l-3.8 1.2M27.4 19.7l-3.8-1.2M23.1 25.7l-2.4-3.3M16 28v-4M8.9 25.7l2.4-3.3M4.6 19.7l3.8-1.2M4.6 12.3l3.8 1.2M8.9 6.3l2.4 3.3"/></svg>
+        GovernAI
+      </a>
+      <nav class="nav-princ" aria-label="Navigazione principale">
+        <a href="#/" data-voce="oggi"><i data-lucide="sunrise"></i>Oggi</a>
+        <a href="#/programma" data-voce="programma"><i data-lucide="list-checks"></i>Programma</a>
+        <a href="#/governo" data-voce="governo"><i data-lucide="users-round"></i>Governo</a>
+        <a href="#/dati" data-voce="dati"><i data-lucide="chart-line"></i>Dati</a>
+        <a href="#/controlli" data-voce="controlli"><i data-lucide="shield-check"></i>Controlli</a>
+      </nav>
+      <div class="servizi">
+        <button class="cerca" type="button" aria-label="Cerca" data-azione="cerca"><i data-lucide="search"></i><span class="etichetta-cerca">Cerca…</span><kbd>/</kbd></button>
+        <a class="link-servizio" href="#/metodo">Metodo</a>
+        <a class="btn primario s" href="#/partecipa">Partecipa</a>
+        <button class="tema" type="button" data-azione="tema" aria-label="Cambia tema chiaro o scuro"><i data-lucide="sun-moon"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenuto" tabindex="-1">
+    <div class="scheletro" style="height:200px" aria-hidden="true"></div>
+    <p class="vh" role="status">Caricamento dei dati…</p>
+  </main>
+
+  <footer class="piede">
+    <nav aria-label="Piè di pagina">
+      <a href="#/metodo">Metodo</a><a href="#/controlli">Integrità</a><a href="#/metodo">Glossario</a>
+      <a href="https://github.com/FabioDeLuca1977/governai" target="_blank" rel="noopener">Repository<span class="vh"> (si apre in una nuova scheda)</span></a>
+      <a href="#/partecipa">Segnala un errore</a>
+      <a href="#" data-azione="tema">Tema chiaro/scuro</a>
+    </nav>
+    <p>Prototipo di design, non il sito definitivo. GovernAI è un prototipo di ricerca: <strong>l'AI propone e verifica, le persone decidono.</strong> Le stime di costo sono stime GovernAI, non certificate dalla Ragioneria generale dello Stato. <span id="aggiornato"></span></p>
+  </footer>
+
+  <nav class="nav-basso" aria-label="Navigazione principale">
+    <a href="#/" data-voce="oggi"><i data-lucide="sunrise"></i>Oggi</a>
+    <a href="#/programma" data-voce="programma"><i data-lucide="list-checks"></i>Programma</a>
+    <a href="#/governo" data-voce="governo"><i data-lucide="users-round"></i>Governo</a>
+    <a href="#/dati" data-voce="dati"><i data-lucide="chart-line"></i>Dati</a>
+    <a href="#/controlli" data-voce="controlli"><i data-lucide="shield-check"></i>Controlli</a>
+  </nav>
+</body>
+</html>

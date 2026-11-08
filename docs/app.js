@@ -343,7 +343,7 @@
       const punti = (c) => `<span class="punti" title="${D.valori.map((v) => v.nome + " " + (c[v.id] > 0 ? "+" : "") + c[v.id]).join(", ")}">${D.valori.map((v) => `<span class="${c[v.id] > 0 ? "p" : c[v.id] < 0 ? "n" : ""}"></span>`).join("")}</span>`;
       return `
         <h1>Coperture</h1>
-        <p class="intro">Le misure concrete con cui si finanzia il programma, voce per voce: gettito minimo e massimo a regime, chi paga, effetto sui sette valori (verde positivo, rosso negativo). Livello 1 = basso costo sociale, livello 2 = strutturali.</p>
+        <p class="intro">Le misure concrete con cui si finanzia il programma, voce per voce: gettito minimo e massimo a regime, chi paga, effetto sui dieci valori (verde positivo, rosso negativo). Livello 1 = basso costo sociale, livello 2 = strutturali.</p>
         <div class="griglia g3">
           <div class="scheda-box kpi"><div class="etichetta">Misure nel menu</div><div class="numero">${D.coperture.length}</div></div>
           <div class="scheda-box kpi"><div class="etichetta">Gettito minimo · programma base</div><div class="numero">${nf(tot(base), 2)} mld</div></div>
@@ -426,7 +426,7 @@
     const sw = Object.values(w).reduce((a, b) => a + b, 0) || 1, sh = Object.values(h).reduce((a, b) => a + b, 0) || 1;
     const punteggio = (p, pesi, oriz) => D.valori.reduce((acc, v, j) =>
       acc + pesi[v.id] * ORIZZ.reduce((a, o, k) => a + oriz[o] * p.punteggi[j][k], 0), 0);
-    const uguali = Object.fromEntries(D.valori.map((v) => [v.id, 1 / 7])), oUguali = { breve: 1 / 3, medio: 1 / 3, lungo: 1 / 3 };
+    const uguali = Object.fromEntries(D.valori.map((v) => [v.id, 1 / D.valori.length])), oUguali = { breve: 1 / 3, medio: 1 / 3, lungo: 1 / 3 };
     const pw = Object.fromEntries(Object.entries(w).map(([k, x]) => [k, x / sw])), ph = Object.fromEntries(Object.entries(h).map(([k, x]) => [k, x / sh]));
     const conPunti = D.proposte.filter((p) => p.punteggi);
     const base = conPunti.map((p) => [p.id, punteggio(p, uguali, oUguali)]).sort((a, b) => b[1] - a[1]).map((x) => x[0]);
