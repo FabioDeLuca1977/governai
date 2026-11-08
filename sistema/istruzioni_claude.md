@@ -12,6 +12,12 @@ python -I sistema/sincronizza.py
 
 ## 2. Richieste di analisi
 
+Prima importa i suggerimenti pubblici approvati. Sono le issue con l'etichetta `analisi-approvata`, applicata da un membro del progetto dopo averle lette:
+
+```bash
+python -I sistema/analizza_richiesta.py --importa-issue
+```
+
 Le richieste sono i file `analisi/richieste/*.md`. Escludi `README.md` e `_modello.md` e salta quelle già spostate in `fatte/`. Per ogni richiesta nuova, chiamiamo `<nome>` il nome del file senza estensione e `L` la cartella di lavoro `sistema/stato/lavoro/<nome>`.
 
 1. Prepara le istruzioni per il dossier:

@@ -17,6 +17,7 @@ import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 from datetime import date
 from pathlib import Path
@@ -214,6 +215,31 @@ def componi(rich: dict, dossier: dict, panel: list[dict]) -> str:
     return nome
 
 
+def importa_issue_approvate() -> list[str]:
+    """Copia in analisi/richieste/ i suggerimenti pubblici approvati (etichetta "analisi-approvata").
+    Usa l'API pubblica di GitHub in sola lettura: nessuna credenziale."""
+    remoto = subprocess.run(["git", "remote", "get-url", "origin"], cwd=RADICE, capture_output=True, text=True).stdout
+    m = re.search(r"github\.com[/:]([^/]+/[^/.]+)", remoto)
+    if not m:
+        return []
+    r = requests.get(f"https://api.github.com/repos/{m.group(1)}/issues", timeout=30,
+                     params={"labels": "analisi-approvata", "state": "open", "per_page": 50},
+                     headers={"Accept": "application/vnd.github+json"})
+    r.raise_for_status()
+    nuove, cartella = [], OUT / "richieste"
+    for iss in r.json():
+        nome = f"issue-{iss['number']}"
+        gia = list(OUT.glob(f"*-{nome}.json")) + [cartella / f"{nome}.md", cartella / "fatte" / f"{nome}.md"]
+        if any(p.exists() for p in gia):
+            continue
+        cartella.mkdir(parents=True, exist_ok=True)
+        testo = (f"# {iss['title'].removeprefix('[Suggerimento]').strip()}\n\n{iss.get('body') or ''}\n\n"
+                 f"*Suggerimento pubblico: issue #{iss['number']} di @{iss['user']['login']}.*\n")
+        (cartella / f"{nome}.md").write_text(testo, encoding="utf-8")
+        nuove.append(nome)
+    return nuove
+
+
 def richiesta_da_file(f: str) -> dict:
     t = Path(f).read_text(encoding="utf-8").strip()
     return {"id": Path(f).stem, "numero": None, "titolo": t.splitlines()[0].lstrip("# "), "testo": t}
@@ -229,7 +255,14 @@ def main() -> int:
                    help="senza API, passo 1: scrive in CARTELLA la richiesta e le istruzioni per il dossier")
     g.add_argument("--panel", metavar="CARTELLA", help="senza API, passo 2: scrive le istruzioni per i 3 valutatori")
     g.add_argument("--componi", metavar="CARTELLA", help="senza API, passo 3: calcola la robustezza e scrive l'analisi")
+    g.add_argument("--importa-issue", action="store_true",
+                   help="copia in analisi/richieste/ i suggerimenti pubblici approvati (etichetta analisi-approvata)")
     a = ap.parse_args()
+
+    if a.importa_issue:
+        nuove = importa_issue_approvate()
+        print(f"suggerimenti approvati importati: {', '.join(nuove) or 'nessuno'}")
+        return 0
 
     # Modalità senza API: il ragionamento lo fa Claude nell'app (abbonamento), Python fa il resto
     if a.prepara:

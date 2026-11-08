@@ -101,11 +101,14 @@
     "### Area principale", "",
     "### Vincoli o attenzioni", "",
   ].join(String.fromCharCode(10));
-  const linkAnalisi = () => {
+  // Chiunque può suggerire con una issue; i membri del progetto possono anche scrivere direttamente un file di richiesta
+  const linkAnalisi = () => D.repo ? `${D.repo}/issues/new?template=analisi.yml` : "#analisi";
+  const linkRichiestaFile = () => {
     if (!D.repo) return "#analisi";
     const nome = new Date().toISOString().slice(0, 10) + "-nuova-richiesta.md";
     return `${D.repo}/new/main/analisi/richieste?filename=${encodeURIComponent(nome)}&value=${encodeURIComponent(MODELLO_RICHIESTA)}`;
   };
+
 
   // ---------- viste ----------
   const viste = {
@@ -128,7 +131,7 @@
           <h1>Governare con i dati,<br>scegliere con i valori.</h1>
           <p class="lead">GovernAI è un prototipo: agenti di intelligenza artificiale analizzano i problemi del Paese, propongono opzioni con costi e coperture e rendono espliciti i compromessi. <strong>Le decisioni restano alle persone.</strong></p>
           <div class="azioni">
-            <a class="bottone primario" href="${esc(linkAnalisi())}" target="_blank" rel="noopener">Avvia un'analisi</a>
+            <a class="bottone primario" href="${esc(linkAnalisi())}" target="_blank" rel="noopener">Proponi un'idea</a>
             <a class="bottone" href="#programma">Esplora il programma</a>
             <a class="bottone" href="#valori">Prova i tuoi valori</a>
           </div>
@@ -150,7 +153,7 @@
           </div>
         </section>
         <section class="sezione"><h2>Partecipa</h2>
-          <div class="scheda-box"><p>Hai un problema da porre? <a href="${esc(linkAnalisi())}" target="_blank" rel="noopener">Scrivi una richiesta di analisi</a>: entro un giorno GovernAI risponde con una diagnosi e tre opzioni. Sono valutate sui valori della Carta, con costi e coperture. Le analisi pubblicate sono nella sezione <a href="#analisi">Analisi</a>.</p></div>
+          <div class="scheda-box"><p>GovernAI è un progetto aperto a scopo sociale: <strong>chiunque può dare suggerimenti</strong>. <a href="${esc(linkAnalisi())}" target="_blank" rel="noopener">Proponi un problema o un'idea</a>, serve solo un account GitHub gratuito. Dopo una revisione umana, GovernAI risponde con una diagnosi e tre opzioni. Sono valutate sui valori della Carta, con costi e coperture. Le analisi pubblicate sono nella sezione <a href="#analisi">Analisi</a>.</p></div>
         </section>`;
     },
 
@@ -178,8 +181,8 @@
       const sel = a.find((x) => x.id === stato.analisi) || a[0];
       return `
         <h1>Analisi su richiesta</h1>
-        <p class="intro">Chiunque nel team può porre un problema scrivendo una richiesta: il pulsante apre su GitHub un modello già pronto da compilare. Ogni giorno GovernAI, attraverso l'abbonamento Claude e senza costi aggiuntivi, risponde con una diagnosi e tre opzioni. Le opzioni sono valutate da un panel indipendente sui valori della Carta, con costi, coperture e robustezza.</p>
-        <p><a class="bottone primario" href="${esc(linkAnalisi())}" target="_blank" rel="noopener">Avvia un'analisi</a></p>
+        <p class="intro">Chiunque può proporre un problema o un'idea con il pulsante qui sotto (serve un account GitHub gratuito). Un membro del progetto legge la proposta e, se la approva, la mette in coda. Ogni giorno GovernAI la analizza senza costi aggiuntivi e risponde con una diagnosi e tre opzioni. Le opzioni sono valutate da un panel indipendente sui valori della Carta, con costi, coperture e robustezza.</p>
+        <p><a class="bottone primario" href="${esc(linkAnalisi())}" target="_blank" rel="noopener">Proponi un'idea</a> <a class="bottone" href="${esc(linkRichiestaFile())}" target="_blank" rel="noopener">Richiesta diretta (membri del progetto)</a></p>
         ${a.length ? `<div class="doppia">
           <ul class="elenco">${a.map((x) => `<li><button data-analisi="${esc(x.id)}" class="${x === sel ? "attivo" : ""}">${esc(x.titolo)}<br><small>${esc(x.id.slice(0, 10))}${x.issue ? " · #" + x.issue : ""}</small></button></li>`).join("")}</ul>
           <div class="scheda-box md">${md(sel.testo)}</div></div>` : '<p class="vuoto">Nessuna analisi ancora: la prima la avvii tu.</p>'}`;

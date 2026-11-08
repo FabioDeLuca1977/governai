@@ -1,23 +1,29 @@
-name: Richiesta di analisi
-description: "Poni un problema: GovernAI prepara diagnosi e tre opzioni valutate sui valori della Carta, senza deficit."
-title: "[Analisi] "
-labels: ["analisi"]
+name: Suggerimento o richiesta di analisi
+description: "Chiunque può proporre un problema o un'idea: dopo una revisione umana, GovernAI prepara diagnosi e tre opzioni valutate sui valori della Carta."
+title: "[Suggerimento] "
+labels: ["suggerimento"]
 body:
   - type: markdown
     attributes:
       value: |
-        GovernAI analizzerà il problema con lo stesso metodo del programma:
-        - **dati ufficiali**;
-        - **tre opzioni** con costo e coperture;
-        - **un panel di tre valutatori indipendenti**;
-        - **un'analisi di robustezza ai valori**.
+        Grazie per il contributo! GovernAI è un prototipo a scopo sociale e **ogni suggerimento è ben accetto**.
 
-        Il risultato arriva come commento a questa richiesta, in pochi minuti. Le decisioni restano alle persone.
+        **Come funziona.**
+        1. Un membro del progetto legge la proposta.
+        2. Se la approva, le applica l'etichetta `analisi-approvata`.
+        3. Il livello AI la analizza con lo stesso metodo del programma:
+           - dati ufficiali;
+           - tre opzioni con costi e coperture;
+           - un panel di tre valutatori indipendenti;
+           - un'analisi di robustezza ai valori.
+        4. Il risultato compare nella sezione "Analisi" del sito, di solito entro un giorno dall'approvazione.
+
+        Le decisioni restano alle persone. Scrivi in modo rispettoso: i contenuti offensivi o fuori tema verranno chiusi.
   - type: textarea
     id: problema
     attributes:
-      label: Problema
-      description: Che cosa non funziona? Se puoi, indica dati o esempi concreti.
+      label: Problema o idea
+      description: Che cosa non funziona, o che cosa proponi? Se puoi, indica dati o esempi concreti.
       placeholder: "Es. Nei piccoli comuni delle aree interne chiudono gli sportelli e i servizi di base…"
     validations:
       required: true
@@ -43,6 +49,7 @@ body:
         - Esteri, Europa, Istituzioni
         - PA e Digitale
         - Più aree
+        - Metodo di GovernAI (valori, dati, sito)
   - type: textarea
     id: vincoli
     attributes:

@@ -1,11 +1,12 @@
-# Analisi su richiesta: una issue con l'etichetta "analisi" avvia GovernAI sul problema descritto.
-# Solo il proprietario, i membri e i collaboratori del repository possono avviarla:
-# protegge dai costi dell'API e da richieste malevole se il repository diventa pubblico.
+# Analisi su richiesta con la chiave API (facoltativa): parte quando un membro del progetto applica
+# l'etichetta "analisi-approvata" a un suggerimento. Chiunque può proporre, ma solo il proprietario,
+# i membri o i collaboratori possono approvare: protegge dai costi e dalle richieste malevole.
+# Senza chiave API, le richieste approvate le elabora l'attività quotidiana di Claude (sistema/istruzioni_claude.md).
 name: Analisi su richiesta
 
 on:
   issues:
-    types: [opened, labeled]
+    types: [labeled]
 
 permissions:
   contents: write
@@ -18,8 +19,8 @@ concurrency:
 jobs:
   analizza:
     if: >-
-      contains(github.event.issue.labels.*.name, 'analisi') &&
-      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
+      github.event.label.name == 'analisi-approvata' &&
+      github.event.sender.login == github.repository_owner
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -40,7 +41,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ -z "$ANTHROPIC_API_KEY" ]; then
-            gh issue comment ${{ github.event.issue.number }} --body "Analisi non avviata: manca il secret ANTHROPIC_API_KEY nelle impostazioni del repository."
+            echo "Nessuna chiave API: la richiesta sarà elaborata dall'attività quotidiana di Claude."
             exit 0
           fi
           python analizza_richiesta.py --issue-evento "$GITHUB_EVENT_PATH"
