@@ -207,6 +207,10 @@ def main() -> int:
     if (RADICE / "governo" / "previsioni.csv").exists():
         ok, msg = esegui(["consiglio.py", "--valuta"], RADICE / "governo")
         log.append(msg if ok else f"ERRORE consiglio: {msg}")
+    # 3f. stato dell'arte: le decisioni in vigore reggono ancora? Se no, accoda il riesame della seduta
+    if list((RADICE / "governo" / "verbali").glob("*.json")):
+        ok, msg = esegui(["consiglio.py", "--verifica", "--accoda"], RADICE / "governo")
+        log.append(msg if ok else f"ERRORE verifica consiglio: {msg}")
 
     # 4. ricalcolo
     dati_nuovi = bool(sent.get("serie_cambiate")) or bool(nuove_allerte)

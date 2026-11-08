@@ -21,7 +21,8 @@ GENERATI = ["dati/serie", "dati/storico", "sistema/stato", "sistema/bollettini",
             "registro/bilancio.md", "motore/esito.md", "motore/esito_proposte.csv",
             "programma/selezione_*", "apprendimento/esiti.csv", "apprendimento/calibrazione.csv",
             "apprendimento/lezioni.md", "integrita/catena.jsonl", "giuridico/conformita.csv", "giuridico/quadro.md",
-            "legislazione/archivio", "governo/previsioni.csv", "governo/credibilita.csv"]
+            "legislazione/archivio", "governo/previsioni.csv", "governo/credibilita.csv",
+            "governo/verifiche", "governo/richieste/*-riesame-*.md"]
 # Solo output generati: mai cartelle che contengono codice o dati scritti a mano (es. programma/ottimizza.py)
 ETICHETTA = "governai-locale"
 CONSERVA = 7

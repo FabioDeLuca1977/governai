@@ -72,6 +72,8 @@ python -I governo/consiglio.py --prepara --richiesta governo/richieste/<nome>.md
 ```
 I ministri da convocare si leggono dalla riga `Ministri:` o dal campo del modulo; se mancano, il Consiglio è al completo. A seduta chiusa, sposta il file in `governo/richieste/fatte/`.
 
+**Riesami.** Le richieste `*-riesame-<seduta>.md` sono scritte dalla verifica quotidiana quando una seduta non regge più sui dati di oggi, o da un membro del progetto. Si trattano come le altre domande: `--prepara --richiesta` riprende da solo la domanda originale, i ministri e gli esperti della seduta riesaminata, e `--componi` aggiunge al verbale il confronto. Se l'utente in chat chiede di riverificare una seduta: `python -I governo/consiglio.py --riesamina <seduta>`, poi procedi come per le altre domande.
+
 Se l'utente in chat chiede di convocare il Consiglio, scrivi la sua domanda in `governo/richieste/AAAA-MM-GG-<tema>.md` (partendo da `_modello.md`) e procedi allo stesso modo.
 
 **D'ufficio.** Quando il bollettino di oggi riporta un'allerta nuova, quando un suggerimento approvato riguarda più ministeri, e in ogni caso il lunedì:

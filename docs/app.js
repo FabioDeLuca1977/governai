@@ -131,6 +131,12 @@
     const nome = new Date().toISOString().slice(0, 10) + "-domanda.md";
     return `${D.repo}/new/main/governo/richieste?filename=${encodeURIComponent(nome)}&value=${encodeURIComponent(MODELLO_CONSIGLIO)}`;
   };
+  const linkRiesame = (seduta, titolo) => {
+    if (!D.repo) return "#governo";
+    const oggi = new Date().toISOString().slice(0, 10);
+    const testo = `# Riesame: ${titolo}\n\nRiesame della seduta: ${seduta}\n\nMotivi del riesame:\n- verifica dello stato dell'arte richiesta da un membro del progetto\n`;
+    return `${D.repo}/new/main/governo/richieste?filename=${encodeURIComponent(oggi + "-riesame-" + seduta + ".md")}&value=${encodeURIComponent(testo)}`;
+  };
   const linkRichiestaFile = () => {
     if (!D.repo) return "#analisi";
     const nome = new Date().toISOString().slice(0, 10) + "-nuova-richiesta.md";
@@ -384,6 +390,13 @@
         <p class="intro">Un governo ombra che decide con regole verificabili. Un collegio di esperti di ogni materia, nove ministri, un'opposizione leale e un capo di governo sono agenti distinti: gli esperti danno pareri con le fonti, chi propone non valuta, chi valuta non decide. Linee rosse, coperture senza deficit e conformità giuridica sono controlli automatici che nessun ruolo può scavalcare. Ogni decisione è una previsione scritta, confrontata alla scadenza con i dati ufficiali: così si misura chi legge meglio la realtà.</p>
         <p><a class="bottone primario" href="${esc(linkConsiglio())}" target="_blank" rel="noopener">Fai una domanda al Consiglio</a> <a class="bottone" href="${esc(linkConsiglioFile())}" target="_blank" rel="noopener">Convoca il Consiglio (membri del progetto)</a></p>
         <p class="nota">Le domande pubbliche vengono esaminate dopo l'approvazione di un membro del progetto. Il Consiglio si riunisce anche da solo: ogni lunedì e quando scatta un'allerta nuova.</p>
+        <h2>Stato delle decisioni</h2>
+        <p class="nota">Ogni giorno il sistema riverifica, con un controllo deterministico e ripetibile, se le decisioni ancora valide reggono sui dati di oggi. Se una non regge, il riesame si accoda da solo; si può anche chiedere in qualsiasi momento.</p>
+        ${(G.verifiche || []).length ? `<div class="tabella-box"><table><thead><tr><th>Seduta</th><th>Esito</th><th>Motivi e note</th><th></th></tr></thead><tbody>${G.verifiche.map((v) => `<tr>
+          <td><strong>${esc(v.titolo)}</strong><br><small>${esc(v.seduta)} · ${esc(v.eta_giorni)} giorni · verificata il ${esc(v.verificata)}</small></td>
+          <td><span class="chip ${v.esito === "confermata" ? "robusta" : ""}">${esc(v.esito)}</span>${v.riesame_accodato ? "<br><small>riesame in coda</small>" : ""}</td>
+          <td>${[...v.motivi, ...v.note].map(esc).join("<br>") || "—"}</td>
+          <td><a class="bottone" href="${esc(linkRiesame(v.seduta, v.titolo))}" target="_blank" rel="noopener">Riesamina</a></td></tr>`).join("")}</tbody></table></div>` : '<p class="vuoto">Nessuna verifica ancora.</p>'}
         <h2>Credibilità</h2>
         <p class="nota">Punteggio di Brier sulle previsioni scadute: 0 = perfetta, 0,25 = come tirare a caso, 1 = sempre sbagliata.</p>
         ${cred}

@@ -105,6 +105,8 @@ pagine:
 parametri:
   rieseguire_tutto_ogni_giorni: 7   # rilancio completo degli script anche senza segnali di aggiornamento
   soglia_variazione_rilevante: 0.05  # variazione relativa di un indicatore annuo che richiede revisione AI
+  governo_riesame_giorni: 90         # oltre questa età una seduta del Consiglio si riesamina comunque
+  governo_soglia_riesame: 0.15       # variazione relativa di un indicatore che fa riesaminare una seduta
   # Livello AI (revisione_ai.py, API di Claude: serve la variabile d'ambiente ANTHROPIC_API_KEY)
   ai_attivo: true                       # false per usare solo il livello automatico
   ai_giorno_nota_settimanale: 0         # 0 = lunedì: nota del momento anche senza novità

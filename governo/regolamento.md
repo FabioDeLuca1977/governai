@@ -51,6 +51,21 @@ In ogni seduta partecipano sempre l'economista di finanza pubblica e il giurista
 - Quando un suggerimento approvato riguarda più ministeri.
 - In ogni caso il lunedì, per la seduta ordinaria.
 
+## Verifica continua e riesame
+
+Le decisioni non valgono per sempre: ogni giorno il sistema verifica, con un controllo **deterministico e ripetibile** (`consiglio.py --verifica`), che ogni seduta ancora valida regga sui dati di oggi:
+- gli indicatori sono cambiati oltre la soglia fissata (`governo_soglia_riesame` in `sistema/config.yaml`, oggi il 15%)?
+- ci sono allerte nuove o rientrate?
+- sono cambiate le regole (Carta, rubrica, motore, regolamento, ruoli), secondo la catena di integrità?
+- il programma in vigore viola una linea rossa o non è più finanziabile senza deficit?
+- la seduta ha superato l'età massima (`governo_riesame_giorni`, oggi 90 giorni)?
+
+Se una risposta è sì, la seduta è **da riesaminare** e il sistema scrive da solo la richiesta di riesame, una alla volta. Si può anche chiedere un riesame in qualsiasi momento: dal sito, con un file in `governo/richieste/`, o in chat.
+
+Il **riesame** rifà la stessa seduta: stessa domanda, stessi ministri ed esperti, stesse regole, dati di oggi. Ogni ruolo parte dalla propria posizione di allora e dichiara cosa cambia e perché. Il verbale del riesame contiene il **confronto** con la seduta precedente: decisioni confermate, decisioni cambiate, riserva al deficit, e se nel frattempo sono cambiate le regole.
+
+La parte deterministica (Ragioneria, linee rosse, conformità, verifica) dà sempre lo stesso risultato sugli stessi dati. Il giudizio degli agenti può variare: per questo ogni cambiamento va motivato e resta scritto nel confronto.
+
 ## Cosa resta umano
 
 Il Consiglio consiglia. Le scelte politiche vere, cioè i pesi dei valori, l'approvazione dei suggerimenti e ogni pubblicazione verso l'esterno, restano alle persone.
