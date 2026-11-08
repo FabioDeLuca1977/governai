@@ -1,0 +1,289 @@
+{
+ "origine": "legislazione/archivio/testi/2026/26G00203.txt",
+ "data_riferimento": "2026-10-31",
+ "articoli": 16,
+ "alto": [],
+ "medio": [
+  "1",
+  "2",
+  "3",
+  "5",
+  "6",
+  "7",
+  "8",
+  "13",
+  "15"
+ ],
+ "rilievi": [
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega",
+   "livello": "medio",
+   "comma": "9",
+   "nota": "delega: oggetto, principi e criteri, termine"
+  },
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "dpcm_regolamento_delegificazione",
+   "livello": "medio",
+   "comma": "9",
+   "nota": "delegificazione: norme generali regolatrici e abrogazione indicata dalla legge"
+  },
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "9",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "9",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "2",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "2",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "3",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "4-bis",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "5",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "6",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "6",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "2",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "6",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "5",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "6",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "5-ter",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "6",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "7-bis",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "6",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "8",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "7",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "7",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "2",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "7",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "3",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "7",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "3-quater",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "7",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "4-ter",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "7",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "4-quater",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "7",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "5",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "7",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "5-bis",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "8",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "8",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "2",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "8",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "4",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "13",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "medio",
+   "comma": "2-bis",
+   "nota": "decorrenza 2020-07-01 anteriore alla data di riferimento 2026-10-31"
+  },
+  {
+   "art": "13",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "medio",
+   "comma": "6-bis",
+   "nota": "decorrenza 2011-04-01 anteriore alla data di riferimento 2026-10-31"
+  },
+  {
+   "art": "13",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "medio",
+   "comma": "6-ter",
+   "nota": "decorrenza 2020-07-01 anteriore alla data di riferimento 2026-10-31"
+  },
+  {
+   "art": "15",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "15",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "2-bis",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  }
+ ]
+}

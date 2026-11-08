@@ -1,0 +1,30 @@
+{
+ "origine": "programma/schede/10_fisco_semplice.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 5,
+ "alto": [],
+ "medio": [
+  "1",
+  "5"
+ ],
+ "rilievi": [
+  {
+   "art": "1",
+   "rubrica": "Conto fiscale annuale",
+   "parametro": "ue_internazionale",
+   "segnale": "vantaggio_selettivo",
+   "livello": "medio",
+   "comma": "3",
+   "nota": "possibile vantaggio selettivo (artt. 107-108 TFUE); nessun richiamo a GBER, de minimis o autorizzazione della Commissione nell'articolo"
+  },
+  {
+   "art": "5",
+   "rubrica": "Copertura",
+   "parametro": "bilancio",
+   "segnale": "copertura_fondi_generici",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "mezzo di copertura fragile"
+  }
+ ]
+}

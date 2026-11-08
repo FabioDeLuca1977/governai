@@ -1,0 +1,30 @@
+{
+ "origine": "programma/schede/07_giustizia.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 6,
+ "alto": [],
+ "medio": [
+  "1",
+  "6"
+ ],
+ "rilievi": [
+  {
+   "art": "1",
+   "rubrica": "Finalità",
+   "parametro": "pubblica_amministrazione",
+   "segnale": "deroga_concorso",
+   "livello": "medio",
+   "comma": "",
+   "nota": "deroghe al concorso pubblico"
+  },
+  {
+   "art": "6",
+   "rubrica": "Copertura finanziaria",
+   "parametro": "regioni",
+   "segnale": "fondo_soppresso_ridotto",
+   "livello": "medio",
+   "comma": "",
+   "nota": "definanziamento: corrispondenza funzioni-risorse (art. 119, quarto comma)"
+  }
+ ]
+}

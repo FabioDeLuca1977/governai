@@ -1,0 +1,50 @@
+{
+ "origine": "programma/schede/07_giustizia.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 6,
+ "alto": [
+  "2"
+ ],
+ "medio": [
+  "4",
+  "6"
+ ],
+ "rilievi": [
+  {
+   "art": "2",
+   "rubrica": "Valutazione d'ufficio per le misure alternative",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega_senza_criteri",
+   "livello": "alto",
+   "comma": "1",
+   "nota": "delega senza principi e criteri direttivi espressi nell'articolo"
+  },
+  {
+   "art": "2",
+   "rubrica": "Valutazione d'ufficio per le misure alternative",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "delega: oggetto, principi e criteri, termine"
+  },
+  {
+   "art": "4",
+   "rubrica": "Lavoro",
+   "parametro": "ue_internazionale",
+   "segnale": "vantaggio_selettivo",
+   "livello": "medio",
+   "comma": "",
+   "nota": "possibile vantaggio selettivo (artt. 107-108 TFUE); nessun richiamo a GBER, de minimis o autorizzazione della Commissione nell'articolo"
+  },
+  {
+   "art": "6",
+   "rubrica": "Copertura finanziaria",
+   "parametro": "bilancio",
+   "segnale": "copertura_fondi_generici",
+   "livello": "medio",
+   "comma": "",
+   "nota": "mezzo di copertura fragile"
+  }
+ ]
+}

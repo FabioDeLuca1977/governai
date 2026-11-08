@@ -1,0 +1,105 @@
+{
+ "origine": "legislazione/archivio/testi/2026/26G00204.txt",
+ "data_riferimento": "2026-11-03",
+ "articoli": 8,
+ "alto": [],
+ "medio": [
+  "1",
+  "2",
+  "3",
+  "5",
+  "6"
+ ],
+ "rilievi": [
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega",
+   "livello": "medio",
+   "comma": "",
+   "nota": "delega: oggetto, principi e criteri, termine"
+  },
+  {
+   "art": "2",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1-bis",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "2",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1-ter",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "2",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1-quater",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "2",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "3-bis",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "3",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "5",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "5",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "norma_ordinamentale_bilancio",
+   "livello": "basso",
+   "comma": "1",
+   "nota": "norma organizzatoria: estranea alla legge di bilancio se senza effetti finanziari"
+  },
+  {
+   "art": "6",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "vincolo_camere",
+   "livello": "medio",
+   "comma": "3",
+   "nota": "vincolo a procedimenti o bilanci delle Camere (art. 64, 72)"
+  },
+  {
+   "art": "6",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "vincolo_camere",
+   "livello": "medio",
+   "comma": "5",
+   "nota": "vincolo a procedimenti o bilanci delle Camere (art. 64, 72)"
+  }
+ ]
+}

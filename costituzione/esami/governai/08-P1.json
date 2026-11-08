@@ -1,0 +1,39 @@
+{
+ "origine": "programma/schede/08_esteri.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 10,
+ "alto": [],
+ "medio": [
+  "3",
+  "10"
+ ],
+ "rilievi": [
+  {
+   "art": "3",
+   "rubrica": "Ufficio indipendente di valutazione algoritmica",
+   "parametro": "bilancio",
+   "segnale": "modifica_243",
+   "livello": "medio",
+   "comma": "4",
+   "nota": "legge rinforzata: modifica espressa e maggioranza assoluta"
+  },
+  {
+   "art": "3",
+   "rubrica": "Ufficio indipendente di valutazione algoritmica",
+   "parametro": "procedimento_deleghe",
+   "segnale": "norma_ordinamentale_bilancio",
+   "livello": "basso",
+   "comma": "1",
+   "nota": "norma organizzatoria: estranea alla legge di bilancio se senza effetti finanziari"
+  },
+  {
+   "art": "10",
+   "rubrica": "Sperimentazione, revisione e copertura finanziaria",
+   "parametro": "procedimento_deleghe",
+   "segnale": "vincolo_camere",
+   "livello": "medio",
+   "comma": "3",
+   "nota": "vincolo a procedimenti o bilanci delle Camere (art. 64, 72)"
+  }
+ ]
+}

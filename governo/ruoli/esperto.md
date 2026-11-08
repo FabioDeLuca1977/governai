@@ -22,7 +22,7 @@ Leggi anche i dossier dei ministeri e le schede delle proposte, in `ministeri/` 
    - `cosa_non_sappiamo`: i limiti delle evidenze. È obbligatorio.
 3. **Giudizi sulle proposte.** Esprimiti solo sulle proposte della tua materia su cui hai qualcosa di tecnico da dire. Per ognuna indica:
    - `proposta`;
-   - `giudizio`: `favorevole`, `contrario` o `condizionato`;
+   - `giudizio`: `favorevole`, `contrario` o `condizionato`. Il giurista e il costituzionalista possono usare anche `illegittimità probabile`: la misura viene sospesa finché il capo di governo non la riformula (regola 12). Usalo solo quando la giurisprudenza costituzionale è chiara, e indica la sentenza verificata;
    - `motivo`;
    - `condizione`, se il giudizio è condizionato.
 

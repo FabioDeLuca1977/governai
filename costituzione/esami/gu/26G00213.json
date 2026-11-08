@@ -1,0 +1,244 @@
+{
+ "origine": "legislazione/archivio/testi/2026/26G00213.txt",
+ "data_riferimento": "2026-11-12",
+ "articoli": 48,
+ "alto": [],
+ "medio": [
+  "1",
+  "15",
+  "17",
+  "20",
+  "21",
+  "29-septies",
+  "27",
+  "32",
+  "43"
+ ],
+ "rilievi": [
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "parere_conferenza",
+   "livello": "medio",
+   "comma": "4",
+   "nota": "solo parere: per fondi vincolati o LEP la Corte chiede l'intesa (sent. 251/2016, 182/2026)"
+  },
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega",
+   "livello": "medio",
+   "comma": "4",
+   "nota": "delega: oggetto, principi e criteri, termine"
+  },
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "pubblica_amministrazione",
+   "segnale": "deroga_concorso",
+   "livello": "medio",
+   "comma": "4",
+   "nota": "deroghe al concorso pubblico"
+  },
+  {
+   "art": "15",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "statale_senza_intesa",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "atto statale in materia regionale senza intesa"
+  },
+  {
+   "art": "15",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "5",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "17",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "7",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "20",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "20",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "4-bis",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "21",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "21",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "2",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "21",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "3",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "21",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "4",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "21",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "9",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "21",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "14",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "21",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "2",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "21",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "7",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "21",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "8",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "21",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "10",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "29-septies",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "statale_senza_intesa",
+   "livello": "medio",
+   "comma": "",
+   "nota": "atto statale in materia regionale senza intesa"
+  },
+  {
+   "art": "27",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "parere_conferenza",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "solo parere: per fondi vincolati o LEP la Corte chiede l'intesa (sent. 251/2016, 182/2026)"
+  },
+  {
+   "art": "27",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "parere_conferenza",
+   "livello": "medio",
+   "comma": "9",
+   "nota": "solo parere: per fondi vincolati o LEP la Corte chiede l'intesa (sent. 251/2016, 182/2026)"
+  },
+  {
+   "art": "32",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "medio",
+   "comma": "3",
+   "nota": "decorrenza 2016-01-01 anteriore alla data di riferimento 2026-11-12"
+  },
+  {
+   "art": "32",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "medio",
+   "comma": "3-ter",
+   "nota": "decorrenza 2016-01-01 anteriore alla data di riferimento 2026-11-12"
+  },
+  {
+   "art": "32",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "medio",
+   "comma": "4",
+   "nota": "decorrenza 2016-01-01 anteriore alla data di riferimento 2026-11-12"
+  },
+  {
+   "art": "43",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "parere_conferenza",
+   "livello": "medio",
+   "comma": "14",
+   "nota": "solo parere: per fondi vincolati o LEP la Corte chiede l'intesa (sent. 251/2016, 182/2026)"
+  }
+ ]
+}

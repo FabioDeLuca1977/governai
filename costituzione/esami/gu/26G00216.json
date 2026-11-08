@@ -1,0 +1,20 @@
+{
+ "origine": "legislazione/archivio/testi/2026/26G00216.txt",
+ "data_riferimento": "2026-10-24",
+ "articoli": 11,
+ "alto": [],
+ "medio": [
+  "1"
+ ],
+ "rilievi": [
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "ue_internazionale",
+   "segnale": "vantaggio_selettivo",
+   "livello": "medio",
+   "comma": "2",
+   "nota": "possibile vantaggio selettivo (artt. 107-108 TFUE); nessun richiamo a GBER, de minimis o autorizzazione della Commissione nell'articolo"
+  }
+ ]
+}

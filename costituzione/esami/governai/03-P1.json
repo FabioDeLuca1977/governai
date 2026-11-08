@@ -1,0 +1,40 @@
+{
+ "origine": "programma/schede/03_ambiente.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 6,
+ "alto": [
+  "3"
+ ],
+ "medio": [
+  "2"
+ ],
+ "rilievi": [
+  {
+   "art": "2",
+   "rubrica": "Delega al Governo",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "delega: oggetto, principi e criteri, termine"
+  },
+  {
+   "art": "3",
+   "rubrica": "Fondo per il dividendo climatico",
+   "parametro": "regioni",
+   "segnale": "fondo_regionale_ridotto",
+   "livello": "alto",
+   "comma": "2",
+   "nota": "fondo o risorse in materia regionale soppressi o ridotti: corrispondenza funzioni-risorse"
+  },
+  {
+   "art": "3",
+   "rubrica": "Fondo per il dividendo climatico",
+   "parametro": "regioni",
+   "segnale": "fondo_soppresso_ridotto",
+   "livello": "medio",
+   "comma": "2",
+   "nota": "definanziamento: corrispondenza funzioni-risorse (art. 119, quarto comma)"
+  }
+ ]
+}

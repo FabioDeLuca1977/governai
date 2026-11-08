@@ -1,0 +1,18 @@
+{
+ "origine": "programma/schede/04_infrastrutture.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 6,
+ "alto": [],
+ "medio": [],
+ "rilievi": [
+  {
+   "art": "1",
+   "rubrica": "Finalità",
+   "parametro": "procedimento_deleghe",
+   "segnale": "norma_ordinamentale_bilancio",
+   "livello": "basso",
+   "comma": "",
+   "nota": "norma organizzatoria: estranea alla legge di bilancio se senza effetti finanziari"
+  }
+ ]
+}

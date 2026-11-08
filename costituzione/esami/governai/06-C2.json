@@ -1,0 +1,40 @@
+{
+ "origine": "programma/schede/06_salute.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 6,
+ "alto": [
+  "4"
+ ],
+ "medio": [
+  "6"
+ ],
+ "rilievi": [
+  {
+   "art": "4",
+   "rubrica": "Infermiere di pratica avanzata",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega_senza_criteri",
+   "livello": "alto",
+   "comma": "",
+   "nota": "delega senza principi e criteri direttivi espressi nell'articolo"
+  },
+  {
+   "art": "4",
+   "rubrica": "Infermiere di pratica avanzata",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega",
+   "livello": "medio",
+   "comma": "",
+   "nota": "delega: oggetto, principi e criteri, termine"
+  },
+  {
+   "art": "6",
+   "rubrica": "Copertura finanziaria",
+   "parametro": "bilancio",
+   "segnale": "copertura_fondi_generici",
+   "livello": "medio",
+   "comma": "",
+   "nota": "mezzo di copertura fragile"
+  }
+ ]
+}

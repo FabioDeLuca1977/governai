@@ -1,0 +1,614 @@
+{
+ "origine": "costituzione/testi/AC3174_articolato.txt",
+ "data_riferimento": "2027-01-01",
+ "articoli": 137,
+ "alto": [
+  "6",
+  "18",
+  "21",
+  "32",
+  "68",
+  "73",
+  "76",
+  "77",
+  "91",
+  "113",
+  "119",
+  "121",
+  "131"
+ ],
+ "medio": [
+  "3",
+  "12",
+  "16",
+  "19",
+  "33",
+  "41",
+  "42",
+  "50",
+  "55",
+  "66",
+  "69",
+  "71",
+  "80",
+  "83",
+  "88",
+  "102",
+  "109",
+  "110",
+  "123",
+  "125",
+  "128",
+  "129",
+  "132"
+ ],
+ "rilievi": [
+  {
+   "art": "3",
+   "rubrica": "Esenzione dalla tassa automobilistica e dalla tassa di circolazione per specifiche tipologie di veicoli, motocicli e ciclomotori",
+   "parametro": "regioni",
+   "segnale": "parere_conferenza",
+   "livello": "medio",
+   "comma": "8",
+   "nota": "solo parere: per fondi vincolati o LEP la Corte chiede l'intesa (sent. 251/2016, 182/2026)"
+  },
+  {
+   "art": "6",
+   "rubrica": "Disposizioni in materia di imposta sostitutiva sugli incrementi retributivi disposti in attuazione dei rinnovi contrattuali",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "alto",
+   "comma": "1",
+   "nota": "decorrenza 2024-01-01 anteriore alla data di riferimento 2027-01-01"
+  },
+  {
+   "art": "12",
+   "rubrica": "Contributo, sotto forma di credito d'imposta, per canoni di abbonamento a servizi e soluzioni di cloud computing relativi all'utilizzo di beni strumentali immateriali",
+   "parametro": "ue_internazionale",
+   "segnale": "vantaggio_selettivo",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "possibile vantaggio selettivo (artt. 107-108 TFUE); nessun richiamo a GBER, de minimis o autorizzazione della Commissione nell'articolo"
+  },
+  {
+   "art": "12",
+   "rubrica": "Contributo, sotto forma di credito d'imposta, per canoni di abbonamento a servizi e soluzioni di cloud computing relativi all'utilizzo di beni strumentali immateriali",
+   "parametro": "ue_internazionale",
+   "segnale": "vantaggio_selettivo",
+   "livello": "medio",
+   "comma": "3",
+   "nota": "possibile vantaggio selettivo (artt. 107-108 TFUE); nessun richiamo a GBER, de minimis o autorizzazione della Commissione nell'articolo"
+  },
+  {
+   "art": "16",
+   "rubrica": "Disciplina fiscale degli utili percepiti da enti non commerciali",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "periodo_imposta_in_corso",
+   "livello": "medio",
+   "comma": "2",
+   "nota": "la modifica tributaria incide sul periodo d'imposta in corso o gia' chiuso (art. 3 L. 212/2000)"
+  },
+  {
+   "art": "18",
+   "rubrica": "Incremento dell'addizionale IRES per il settore finanziario e modifiche all'imposta sulle riserve matematiche dei rami vita",
+   "parametro": "tributi",
+   "segnale": "prelievo_settoriale",
+   "livello": "alto",
+   "comma": "1",
+   "nota": "aumento del prelievo su un solo settore: serve un nesso coerente tra base imponibile, durata e finalita' (Robin tax)"
+  },
+  {
+   "art": "18",
+   "rubrica": "Incremento dell'addizionale IRES per il settore finanziario e modifiche all'imposta sulle riserve matematiche dei rami vita",
+   "parametro": "tributi",
+   "segnale": "prelievo_settoriale",
+   "livello": "alto",
+   "comma": "2",
+   "nota": "aumento del prelievo su un solo settore: serve un nesso coerente tra base imponibile, durata e finalita' (Robin tax)"
+  },
+  {
+   "art": "19",
+   "rubrica": "Modifiche al regime delle deduzioni delle spese amministrative, di pubblicità e degli interessi passivi per il settore finanziario ed energetico",
+   "parametro": "tributi",
+   "segnale": "regime_settoriale",
+   "livello": "medio",
+   "comma": "3",
+   "nota": "regime di deducibilita' o di base imponibile differenziato per settore: giustificazione e coerenza (art. 3, 53)"
+  },
+  {
+   "art": "19",
+   "rubrica": "Modifiche al regime delle deduzioni delle spese amministrative, di pubblicità e degli interessi passivi per il settore finanziario ed energetico",
+   "parametro": "tributi",
+   "segnale": "indeducibilita",
+   "livello": "basso",
+   "comma": "3",
+   "nota": "deroga alla tassazione del reddito netto"
+  },
+  {
+   "art": "21",
+   "rubrica": "Disposizioni in materia di aliquota IRAP per le imprese del comparto energetico",
+   "parametro": "tributi",
+   "segnale": "divieto_traslazione",
+   "livello": "alto",
+   "comma": "4",
+   "nota": "divieto di traslazione: in sent. 10/2015 la sua inverificabilita' e' stata uno dei vizi"
+  },
+  {
+   "art": "21",
+   "rubrica": "Disposizioni in materia di aliquota IRAP per le imprese del comparto energetico",
+   "parametro": "tributi",
+   "segnale": "prelievo_settoriale",
+   "livello": "alto",
+   "comma": "1",
+   "nota": "aumento del prelievo su un solo settore: serve un nesso coerente tra base imponibile, durata e finalita' (Robin tax)"
+  },
+  {
+   "art": "24",
+   "rubrica": "Disposizioni in materia di apparecchi e congegni da intrattenimento senza vincita in denaro",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "3",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "32",
+   "rubrica": "Definizione delle pendenze del versamento una tantum ai sensi dell'articolo 1, comma 649, della legge 23 dicembre 2014, n. 190",
+   "parametro": "giustizia",
+   "segnale": "giudizi_in_corso",
+   "livello": "alto",
+   "comma": "2",
+   "nota": "incidenza su giudizi pendenti (art. 24, 111, 117 c.1 / art. 6 CEDU)"
+  },
+  {
+   "art": "32",
+   "rubrica": "Definizione delle pendenze del versamento una tantum ai sensi dell'articolo 1, comma 649, della legge 23 dicembre 2014, n. 190",
+   "parametro": "giustizia",
+   "segnale": "giudizi_in_corso",
+   "livello": "alto",
+   "comma": "4",
+   "nota": "incidenza su giudizi pendenti (art. 24, 111, 117 c.1 / art. 6 CEDU)"
+  },
+  {
+   "art": "33",
+   "rubrica": "Disposizioni in materia di accisa sui tabacchi lavorati e di imposta di consumo sui prodotti succedanei dei prodotti da fumo",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "33",
+   "rubrica": "Disposizioni in materia di accisa sui tabacchi lavorati e di imposta di consumo sui prodotti succedanei dei prodotti da fumo",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "1",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "41",
+   "rubrica": "Armonizzazione dei termini per le agevolazioni fiscali relative all'acquisto della prima casa",
+   "parametro": "ue_internazionale",
+   "segnale": "vantaggio_selettivo",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "possibile vantaggio selettivo (artt. 107-108 TFUE); nessun richiamo a GBER, de minimis o autorizzazione della Commissione nell'articolo"
+  },
+  {
+   "art": "42",
+   "rubrica": "Misure in materia di assunzioni a tempo indeterminato",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "medio",
+   "comma": "3",
+   "nota": "decorrenza 2026-05-01 anteriore alla data di riferimento 2027-01-01"
+  },
+  {
+   "art": "50",
+   "rubrica": "Modifiche alla disciplina in materia di riconoscimento del trattamento di fine servizio",
+   "parametro": "diritti_sociali",
+   "segnale": "prestazione_ridotta",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "riduzione di prestazioni sociali"
+  },
+  {
+   "art": "55",
+   "rubrica": "Modifiche alla disciplina in materia di rivalutazione automatica dei trattamenti pensionistici",
+   "parametro": "diritti_sociali",
+   "segnale": "rivalutazione_ridotta",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "taglio della rivalutazione delle pensioni"
+  },
+  {
+   "art": "66",
+   "rubrica": "Disposizioni in materia di assunzioni e di trattamento del pubblico impiego",
+   "parametro": "diritti_sociali",
+   "segnale": "organico_ridotto",
+   "livello": "medio",
+   "comma": "5",
+   "nota": "riduzione di organico in servizi essenziali (scuola, sanita')"
+  },
+  {
+   "art": "66",
+   "rubrica": "Disposizioni in materia di assunzioni e di trattamento del pubblico impiego",
+   "parametro": "procedimento_deleghe",
+   "segnale": "norma_ordinamentale_bilancio",
+   "livello": "basso",
+   "comma": "8",
+   "nota": "norma organizzatoria: estranea alla legge di bilancio se senza effetti finanziari"
+  },
+  {
+   "art": "68",
+   "rubrica": "Interpretazione autentica in materia di imputazione degli oneri previdenziali e assistenziali e dell'imposta regionale sulle attività produttive sui compensi per incentivi tecnici e sugli onorari",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "interpretazione_autentica",
+   "livello": "alto",
+   "comma": "1",
+   "nota": "legge interpretativa: significato gia' nel testo? giudizi in corso?"
+  },
+  {
+   "art": "68",
+   "rubrica": "Interpretazione autentica in materia di imputazione degli oneri previdenziali e assistenziali e dell'imposta regionale sulle attività produttive sui compensi per incentivi tecnici e sugli onorari",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "interpretazione_autentica",
+   "livello": "alto",
+   "comma": "2",
+   "nota": "legge interpretativa: significato gia' nel testo? giudizi in corso?"
+  },
+  {
+   "art": "69",
+   "rubrica": "Rifinanziamento del Servizio sanitario nazionale e ulteriori disposizioni in materia sanitaria",
+   "parametro": "pubblica_amministrazione",
+   "segnale": "deroga_concorso",
+   "livello": "medio",
+   "comma": "4",
+   "nota": "deroghe al concorso pubblico"
+  },
+  {
+   "art": "70",
+   "rubrica": "Modifiche alla disciplina della compartecipazione dei lavoratori frontalieri al Servizio sanitario nazionale",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "1",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "71",
+   "rubrica": "Modifica del tetto di spesa e premialità per investimenti delle aziende farmaceutiche",
+   "parametro": "tributi",
+   "segnale": "payback",
+   "livello": "medio",
+   "comma": "2",
+   "nota": "prestazione patrimoniale imposta alle imprese (art. 23, 41, 3)"
+  },
+  {
+   "art": "71",
+   "rubrica": "Modifica del tetto di spesa e premialità per investimenti delle aziende farmaceutiche",
+   "parametro": "tributi",
+   "segnale": "payback",
+   "livello": "medio",
+   "comma": "4",
+   "nota": "prestazione patrimoniale imposta alle imprese (art. 23, 41, 3)"
+  },
+  {
+   "art": "71",
+   "rubrica": "Modifica del tetto di spesa e premialità per investimenti delle aziende farmaceutiche",
+   "parametro": "tributi",
+   "segnale": "payback",
+   "livello": "medio",
+   "comma": "5",
+   "nota": "prestazione patrimoniale imposta alle imprese (art. 23, 41, 3)"
+  },
+  {
+   "art": "71",
+   "rubrica": "Modifica del tetto di spesa e premialità per investimenti delle aziende farmaceutiche",
+   "parametro": "tributi",
+   "segnale": "payback",
+   "livello": "medio",
+   "comma": "6",
+   "nota": "prestazione patrimoniale imposta alle imprese (art. 23, 41, 3)"
+  },
+  {
+   "art": "71",
+   "rubrica": "Modifica del tetto di spesa e premialità per investimenti delle aziende farmaceutiche",
+   "parametro": "tributi",
+   "segnale": "payback",
+   "livello": "medio",
+   "comma": "7",
+   "nota": "prestazione patrimoniale imposta alle imprese (art. 23, 41, 3)"
+  },
+  {
+   "art": "73",
+   "rubrica": "Ripiano degli oneri per l'acquisto di dispositivi medici per gli anni dal 2019 al 2023 e modifica dei tetti di spesa",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "obblighi_anni_passati",
+   "livello": "alto",
+   "comma": "4",
+   "nota": "obblighi o tetti riferiti ad annualita' passate (2019-2023)"
+  },
+  {
+   "art": "76",
+   "rubrica": "Interventi normativi in materia di energia",
+   "parametro": "bilancio",
+   "segnale": "indebitamento_clausola_ue",
+   "livello": "alto",
+   "comma": "1",
+   "nota": "spesa in deficit: serve l'autorizzazione ex art. 81, secondo comma, e art. 6 L. 243/2012"
+  },
+  {
+   "art": "77",
+   "rubrica": "Interventi in materia di infrastrutture ferroviarie e per il miglioramento della sicurezza e lo sviluppo tecnologico della rete ferroviaria",
+   "parametro": "bilancio",
+   "segnale": "indebitamento_clausola_ue",
+   "livello": "alto",
+   "comma": "4",
+   "nota": "spesa in deficit: serve l'autorizzazione ex art. 81, secondo comma, e art. 6 L. 243/2012"
+  },
+  {
+   "art": "77",
+   "rubrica": "Interventi in materia di infrastrutture ferroviarie e per il miglioramento della sicurezza e lo sviluppo tecnologico della rete ferroviaria",
+   "parametro": "bilancio",
+   "segnale": "indebitamento_clausola_ue",
+   "livello": "alto",
+   "comma": "5",
+   "nota": "spesa in deficit: serve l'autorizzazione ex art. 81, secondo comma, e art. 6 L. 243/2012"
+  },
+  {
+   "art": "80",
+   "rubrica": "Misure a sostegno della produzione di energia termica da fonti rinnovabili e per l'efficienza energetica",
+   "parametro": "diritti_sociali",
+   "segnale": "prestazione_ridotta",
+   "livello": "medio",
+   "comma": "2",
+   "nota": "riduzione di prestazioni sociali"
+  },
+  {
+   "art": "83",
+   "rubrica": "Sostegno temporaneo al costo dell'energia elettrica e agli investimenti verdi delle piccole e medie imprese non energivore",
+   "parametro": "regioni",
+   "segnale": "statale_senza_intesa",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "atto statale in materia regionale senza intesa"
+  },
+  {
+   "art": "88",
+   "rubrica": "Misure in materia di investimenti nei settori dell'agricoltura, della pesca e dell'acquacoltura e per l'efficientamento energetico della flotta da pesca",
+   "parametro": "ue_internazionale",
+   "segnale": "vantaggio_selettivo",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "possibile vantaggio selettivo (artt. 107-108 TFUE)"
+  },
+  {
+   "art": "88",
+   "rubrica": "Misure in materia di investimenti nei settori dell'agricoltura, della pesca e dell'acquacoltura e per l'efficientamento energetico della flotta da pesca",
+   "parametro": "regioni",
+   "segnale": "statale_senza_intesa",
+   "livello": "medio",
+   "comma": "3",
+   "nota": "atto statale in materia regionale senza intesa"
+  },
+  {
+   "art": "91",
+   "rubrica": "Attivazione della clausola di salvaguardia nazionale in materia di difesa",
+   "parametro": "bilancio",
+   "segnale": "indebitamento_clausola_ue",
+   "livello": "alto",
+   "comma": "1",
+   "nota": "spesa in deficit: serve l'autorizzazione ex art. 81, secondo comma, e art. 6 L. 243/2012"
+  },
+  {
+   "art": "101",
+   "rubrica": "Assunzioni straordinarie di personale delle Forze di polizia per il contrasto della criminalità organizzata",
+   "parametro": "procedimento_deleghe",
+   "segnale": "norma_ordinamentale_bilancio",
+   "livello": "basso",
+   "comma": "1",
+   "nota": "norma organizzatoria: estranea alla legge di bilancio se senza effetti finanziari"
+  },
+  {
+   "art": "102",
+   "rubrica": "Assunzioni di personale per la polizia locale",
+   "parametro": "regioni",
+   "segnale": "parere_conferenza",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "solo parere: per fondi vincolati o LEP la Corte chiede l'intesa (sent. 251/2016, 182/2026)"
+  },
+  {
+   "art": "109",
+   "rubrica": "Ampliamento dell'ambito di applicazione del credito di imposta per favorire le erogazioni liberali a sostegno della cultura",
+   "parametro": "ue_internazionale",
+   "segnale": "vantaggio_selettivo",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "possibile vantaggio selettivo (artt. 107-108 TFUE); nessun richiamo a GBER, de minimis o autorizzazione della Commissione nell'articolo"
+  },
+  {
+   "art": "109",
+   "rubrica": "Ampliamento dell'ambito di applicazione del credito di imposta per favorire le erogazioni liberali a sostegno della cultura",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "periodo_imposta_in_corso",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "la modifica tributaria incide sul periodo d'imposta in corso o gia' chiuso (art. 3 L. 212/2000)"
+  },
+  {
+   "art": "110",
+   "rubrica": "Misure in favore dell'editoria",
+   "parametro": "ue_internazionale",
+   "segnale": "vantaggio_selettivo",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "possibile vantaggio selettivo (artt. 107-108 TFUE); nessun richiamo a GBER, de minimis o autorizzazione della Commissione nell'articolo"
+  },
+  {
+   "art": "110",
+   "rubrica": "Misure in favore dell'editoria",
+   "parametro": "ue_internazionale",
+   "segnale": "vantaggio_selettivo",
+   "livello": "medio",
+   "comma": "4",
+   "nota": "possibile vantaggio selettivo (artt. 107-108 TFUE); nessun richiamo a GBER, de minimis o autorizzazione della Commissione nell'articolo"
+  },
+  {
+   "art": "113",
+   "rubrica": "Strutture commissariali sisma e alluvioni",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "interpretazione_autentica",
+   "livello": "alto",
+   "comma": "23",
+   "nota": "legge interpretativa: significato gia' nel testo? giudizi in corso?"
+  },
+  {
+   "art": "113",
+   "rubrica": "Strutture commissariali sisma e alluvioni",
+   "parametro": "regioni",
+   "segnale": "parere_conferenza",
+   "livello": "medio",
+   "comma": "17",
+   "nota": "solo parere: per fondi vincolati o LEP la Corte chiede l'intesa (sent. 251/2016, 182/2026)"
+  },
+  {
+   "art": "119",
+   "rubrica": "Disposizioni varie in favore delle regioni",
+   "parametro": "regioni",
+   "segnale": "riparto_senza_intesa",
+   "livello": "alto",
+   "comma": "1",
+   "nota": "atto statale in materia regionale senza intesa per il riparto di risorse"
+  },
+  {
+   "art": "121",
+   "rubrica": "Asili nido",
+   "parametro": "regioni",
+   "segnale": "riparto_senza_intesa",
+   "livello": "alto",
+   "comma": "1",
+   "nota": "atto statale in materia regionale senza intesa per il riparto di risorse"
+  },
+  {
+   "art": "121",
+   "rubrica": "Asili nido",
+   "parametro": "regioni",
+   "segnale": "parere_conferenza",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "solo parere: per fondi vincolati o LEP la Corte chiede l'intesa (sent. 251/2016, 182/2026)"
+  },
+  {
+   "art": "123",
+   "rubrica": "Contributo agli enti locali in difficoltà finanziaria",
+   "parametro": "tributi",
+   "segnale": "payback",
+   "livello": "medio",
+   "comma": "2",
+   "nota": "prestazione patrimoniale imposta alle imprese (art. 23, 41, 3)"
+  },
+  {
+   "art": "125",
+   "rubrica": "Utilizzo delle risorse eccedenti il ripiano annuale del disavanzo",
+   "parametro": "tributi",
+   "segnale": "payback",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "prestazione patrimoniale imposta alle imprese (art. 23, 41, 3)"
+  },
+  {
+   "art": "128",
+   "rubrica": "Alleggerimento delle modalità di applicazione del contributo alla finanza pubblica",
+   "parametro": "bilancio",
+   "segnale": "contributo_finanza_pubblica",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "concorso degli enti territoriali: proporzionalita', transitorieta', esclusione dei fondi per i diritti sociali (sent. 195/2024)"
+  },
+  {
+   "art": "129",
+   "rubrica": "Misure volte alla tutela del conseguimento degli obiettivi di finanza pubblica",
+   "parametro": "regioni",
+   "segnale": "indebitamento_enti",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "definizione statale di indebitamento (art. 119, sesto comma)"
+  },
+  {
+   "art": "129",
+   "rubrica": "Misure volte alla tutela del conseguimento degli obiettivi di finanza pubblica",
+   "parametro": "regioni",
+   "segnale": "indebitamento_enti",
+   "livello": "medio",
+   "comma": "3",
+   "nota": "definizione statale di indebitamento (art. 119, sesto comma)"
+  },
+  {
+   "art": "129",
+   "rubrica": "Misure volte alla tutela del conseguimento degli obiettivi di finanza pubblica",
+   "parametro": "regioni",
+   "segnale": "indebitamento_enti",
+   "livello": "medio",
+   "comma": "5",
+   "nota": "definizione statale di indebitamento (art. 119, sesto comma)"
+  },
+  {
+   "art": "131",
+   "rubrica": "Interventi in materia di livelli essenziali delle prestazioni",
+   "parametro": "regioni",
+   "segnale": "risorse_bilanci_enti",
+   "livello": "alto",
+   "comma": "1",
+   "nota": "onere (anche LEP) scaricato sui bilanci regionali e locali senza risorse dedicate"
+  },
+  {
+   "art": "131",
+   "rubrica": "Interventi in materia di livelli essenziali delle prestazioni",
+   "parametro": "regioni",
+   "segnale": "poteri_sostitutivi",
+   "livello": "basso",
+   "comma": "1",
+   "nota": "verificare diffida, proporzionalita' e art. 8 L. 131/2003"
+  },
+  {
+   "art": "132",
+   "rubrica": "Ipotesi tecniche di supporto alla determinazione dei livelli essenziali delle prestazioni",
+   "parametro": "pubblica_amministrazione",
+   "segnale": "incarichi_deroga",
+   "livello": "medio",
+   "comma": "4",
+   "nota": "incarichi dirigenziali a esterni oltre i limiti"
+  },
+  {
+   "art": "132",
+   "rubrica": "Ipotesi tecniche di supporto alla determinazione dei livelli essenziali delle prestazioni",
+   "parametro": "procedimento_deleghe",
+   "segnale": "norma_ordinamentale_bilancio",
+   "livello": "basso",
+   "comma": "4",
+   "nota": "norma organizzatoria: estranea alla legge di bilancio se senza effetti finanziari"
+  },
+  {
+   "art": "134",
+   "rubrica": "Misure correttive e poteri sostitutivi",
+   "parametro": "regioni",
+   "segnale": "poteri_sostitutivi",
+   "livello": "basso",
+   "comma": "3",
+   "nota": "verificare diffida, proporzionalita' e art. 8 L. 131/2003"
+  },
+  {
+   "art": "134",
+   "rubrica": "Misure correttive e poteri sostitutivi",
+   "parametro": "regioni",
+   "segnale": "poteri_sostitutivi",
+   "livello": "basso",
+   "comma": "4",
+   "nota": "verificare diffida, proporzionalita' e art. 8 L. 131/2003"
+  }
+ ]
+}

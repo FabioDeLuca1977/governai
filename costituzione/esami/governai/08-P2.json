@@ -1,0 +1,30 @@
+{
+ "origine": "programma/schede/08_esteri.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 6,
+ "alto": [],
+ "medio": [
+  "2",
+  "6"
+ ],
+ "rilievi": [
+  {
+   "art": "2",
+   "rubrica": "Omogeneità dei decreti-legge",
+   "parametro": "procedimento_deleghe",
+   "segnale": "vincolo_camere",
+   "livello": "medio",
+   "comma": "3",
+   "nota": "vincolo a procedimenti o bilanci delle Camere (art. 64, 72)"
+  },
+  {
+   "art": "6",
+   "rubrica": "Copertura finanziaria",
+   "parametro": "procedimento_deleghe",
+   "segnale": "vincolo_camere",
+   "livello": "medio",
+   "comma": "",
+   "nota": "vincolo a procedimenti o bilanci delle Camere (art. 64, 72)"
+  }
+ ]
+}

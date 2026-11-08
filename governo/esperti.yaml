@@ -124,3 +124,10 @@ esperti:
     competenze: Valutazione d'impatto controfattuale, sperimentazioni e piloti, indicatori, analisi costi-benefici, evidenze da altri Paesi.
     fonti: [UPB, Banca d'Italia, OCSE, J-PAL, What Works Centres, letteratura scientifica peer-reviewed]
     parole: [valutazione, impatto, pilota, sperimentazione, evidenze, indicatori, efficacia]
+
+  - id: costituzionalista
+    nome: Costituzionalista
+    sempre: true
+    competenze: Legittimità costituzionale di leggi, emendamenti e manovre; copertura ed equilibrio di bilancio (artt. 81, 97), capacità contributiva (art. 53), riparto Stato-Regioni e LEP (artt. 117-120), diritti sociali, decreti-legge e deleghe (artt. 72, 76, 77), vincoli UE, affidamento e retroattività. Applica costituzione/istruzioni_costituzionalista.md e lo screening di costituzione/controllo.py; classifica ogni rilievo come illegittimità probabile, dubbio serio o rischio basso e propone la riformulazione. Non esprime preferenze politiche.
+    fonti: [Corte costituzionale (dati aperti), Normattiva, Camera dei deputati, Senato della Repubblica, EUR-Lex]
+    parole: [costituzione, costituzionale, incostituzionale, legittimità, corte, sentenza, manovra, legge di bilancio, delega, decreto-legge, emendamento, regioni, lep, retroattività, copertura, intesa]

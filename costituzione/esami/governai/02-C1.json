@@ -1,0 +1,27 @@
+{
+ "origine": "programma/schede/02_lavoro.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 6,
+ "alto": [],
+ "medio": [],
+ "rilievi": [
+  {
+   "art": "4",
+   "rubrica": "Commissione per la soglia di garanzia",
+   "parametro": "procedimento_deleghe",
+   "segnale": "norma_ordinamentale_bilancio",
+   "livello": "basso",
+   "comma": "1",
+   "nota": "norma organizzatoria: estranea alla legge di bilancio se senza effetti finanziari"
+  },
+  {
+   "art": "5",
+   "rubrica": "Controlli",
+   "parametro": "procedimento_deleghe",
+   "segnale": "norma_ordinamentale_bilancio",
+   "livello": "basso",
+   "comma": "1",
+   "nota": "norma organizzatoria: estranea alla legge di bilancio se senza effetti finanziari"
+  }
+ ]
+}

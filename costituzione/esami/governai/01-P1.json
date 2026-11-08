@@ -1,0 +1,20 @@
+{
+ "origine": "programma/schede/01_economia.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 5,
+ "alto": [],
+ "medio": [
+  "3"
+ ],
+ "rilievi": [
+  {
+   "art": "3",
+   "rubrica": "Giudizio dell'Ufficio parlamentare di bilancio",
+   "parametro": "bilancio",
+   "segnale": "modifica_243",
+   "livello": "medio",
+   "comma": "3",
+   "nota": "legge rinforzata: modifica espressa e maggioranza assoluta"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "origine": "programma/schede/06_salute.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 6,
+ "alto": [],
+ "medio": [
+  "5",
+  "6"
+ ],
+ "rilievi": [
+  {
+   "art": "4",
+   "rubrica": "Sanzioni organizzative",
+   "parametro": "regioni",
+   "segnale": "poteri_sostitutivi",
+   "livello": "basso",
+   "comma": "",
+   "nota": "verificare diffida, proporzionalita' e art. 8 L. 131/2003"
+  },
+  {
+   "art": "5",
+   "rubrica": "Monitoraggio e revisione",
+   "parametro": "diritti_sociali",
+   "segnale": "prestazione_ridotta",
+   "livello": "medio",
+   "comma": "",
+   "nota": "riduzione di prestazioni sociali"
+  },
+  {
+   "art": "6",
+   "rubrica": "Copertura finanziaria",
+   "parametro": "bilancio",
+   "segnale": "copertura_fondi_generici",
+   "livello": "medio",
+   "comma": "",
+   "nota": "mezzo di copertura fragile"
+  }
+ ]
+}

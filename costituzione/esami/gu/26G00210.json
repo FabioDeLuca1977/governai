@@ -1,0 +1,47 @@
+{
+ "origine": "legislazione/archivio/testi/2026/26G00210.txt",
+ "data_riferimento": "2026-11-08",
+ "articoli": 18,
+ "alto": [],
+ "medio": [
+  "1"
+ ],
+ "rilievi": [
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega",
+   "livello": "medio",
+   "comma": "9",
+   "nota": "delega: oggetto, principi e criteri, termine"
+  },
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "dpcm_regolamento_delegificazione",
+   "livello": "medio",
+   "comma": "9",
+   "nota": "delegificazione: norme generali regolatrici e abrogazione indicata dalla legge"
+  },
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "9",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "9",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  }
+ ]
+}

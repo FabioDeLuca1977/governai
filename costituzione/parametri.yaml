@@ -1,0 +1,540 @@
+# Parametri costituzionali per il controllo di leggi, emendamenti e manovre di bilancio.
+#
+# Ogni parametro ha:
+#   articoli        articoli della Costituzione (e norme interposte) coinvolti
+#   principio       il principio, in sintesi (parole nostre, non massime ufficiali)
+#   giurisprudenza  pronunce essenziali della Corte costituzionale. Ogni numero e' verificato sui dati aperti
+#                   ufficiali della Corte (dati.cortecostituzionale.it) con `python giurisprudenza.py --verifica-parametri`:
+#                   esistenza, tipo (sentenza/ordinanza) e presenza nel testo delle `verifica_parole`.
+#                   L'esito e' in giurisprudenza_verificata.json. Le sintesi sono nostre: prima di citarle in un parere,
+#                   rileggere la motivazione (link `url` nel file di verifica).
+#   segnali         espressioni regolari che fanno scattare il parametro nello screening (controllo.py).
+#                   livello = livello di partenza del segnale (alto | medio | basso); controllo.py lo puo' alzare o
+#                   abbassare con le regole combinate descritte in README.md.
+#   domande         domande di controllo per l'esame approfondito (istruzioni_costituzionalista.md)
+#
+# Aggiornato all'8 novembre 2026 (ultima pronuncia consultata: sent. 182/2026, depositata il 3/11/2026).
+
+versione: 1
+aggiornato: "2026-11-08"
+
+parametri:
+
+  bilancio:
+    titolo: "Copertura finanziaria ed equilibrio di bilancio"
+    articoli: ["art. 81 Cost. (commi 1, 2, 3, 6)", "art. 97, primo comma, Cost.", "art. 119, primo e sesto comma, Cost.",
+               "L. cost. 1/2012", "L. 243/2012 (legge rinforzata: artt. 3, 6, 14-15)", "L. 196/2009, artt. 17 e 21"]
+    principio: >
+      Ogni legge che comporta nuovi o maggiori oneri indica i mezzi per farvi fronte (art. 81, terzo comma), per ciascun anno
+      e anche per gli effetti pluriennali; la copertura deve essere credibile, sufficientemente sicura, non arbitraria e
+      contestuale alla spesa. Il ricorso all'indebitamento e' consentito solo per gli effetti del ciclo economico o, previa
+      autorizzazione delle Camere a maggioranza assoluta, al verificarsi di eventi eccezionali (art. 81, secondo comma;
+      art. 6 L. 243/2012). La L. 243/2012 si modifica solo in modo espresso e a maggioranza assoluta (art. 81, sesto comma).
+      Il bilancio e' un "bene pubblico": i saldi devono essere leggibili e non devono scaricare oneri sulle generazioni future
+      oltre il ciclo di mandato.
+    giurisprudenza:
+      - sentenza: "1/1966"
+        sintesi: "Capostipite sulla copertura: anche gli oneri degli esercizi futuri richiedono una copertura credibile, non arbitraria e in equilibrato rapporto con la spesa."
+        verifica_parole: ["copertura"]
+      - sentenza: "70/2012"
+        sintesi: "Illegittima la copertura con un avanzo di amministrazione solo presunto: la copertura deve essere certa e documentata."
+        verifica_parole: ["copertura", "avanzo"]
+      - sentenza: "26/2013"
+        sintesi: "Spese continuative senza copertura per gli esercizi successivi: violazione dell'art. 81 (legge regionale sarda)."
+        verifica_parole: ["copertura"]
+      - sentenza: "88/2014"
+        sintesi: "La L. 243/2012 e' fonte rinforzata di attuazione dell'art. 81; illegittime le parti che comprimono oltre il necessario l'autonomia finanziaria territoriale."
+        verifica_parole: ["243", "pareggio di bilancio"]
+      - sentenza: "184/2016"
+        sintesi: "Il bilancio e' un 'bene pubblico': la sua chiarezza e' funzionale al controllo democratico sull'uso delle risorse."
+        verifica_parole: ["bene pubblico"]
+      - sentenza: "18/2019"
+        sintesi: "Il ripiano trentennale del disavanzo viola equilibrio, equita' intergenerazionale e responsabilita' di mandato."
+        verifica_parole: ["generazion", "disavanzo"]
+      - sentenza: "4/2020"
+        sintesi: "Le anticipazioni di liquidita' non possono essere usate per allargare la capacita' di spesa: violazione dell'equilibrio."
+        verifica_parole: ["anticipazion", "liquidit"]
+      - sentenza: "10/2015"
+        sintesi: "L'art. 81 puo' giustificare la modulazione nel tempo degli effetti di una pronuncia di illegittimita' (effetti solo per il futuro)."
+        verifica_parole: ["equilibrio di bilancio", "retroattiv"]
+      - sentenza: "17/2019"
+        tipo: ordinanza
+        sintesi: "Conflitto dei senatori sulla legge di bilancio 2019: inammissibile, ma il singolo parlamentare puo' sollevare conflitto se prova una sostanziale negazione o un'evidente menomazione delle sue funzioni; avvertimento sulla compressione dell'esame."
+        verifica_parole: ["parlamentar", "bilancio"]
+    segnali:
+      - {id: onere_quantificato, regex: "(?i)\\b(?:è autorizzata la spesa|è incrementat[oa] di|dotazione (?:pari a|di)|con una dotazione)\\b", livello: basso, nota: "onere da coprire per ogni anno"}
+      - {id: copertura_fondi_generici, regex: "(?i)\\bsi provvede\\b[^.]{0,200}\\b(?:risparmi|maggiori entrate derivanti da(?:ll[ae'])?\\s+(?!presente)|recupero dell'evasione)", livello: medio, nota: "mezzo di copertura fragile"}
+      - {id: indebitamento_clausola_ue, regex: "(?i)clausola di salvaguardia nazionale|articolo 26 del regolamento \\(UE\\) 2024/1263", livello: alto, nota: "spesa in deficit: serve l'autorizzazione ex art. 81, secondo comma, e art. 6 L. 243/2012"}
+      - {id: modifica_243, regex: "(?i)legge 24 dicembre 2012, n\\. 243|L\\. 243/2012", livello: medio, nota: "legge rinforzata: modifica espressa e maggioranza assoluta"}
+      - {id: invarianza, regex: "(?i)senza nuovi o maggiori oneri|non (?:devono )?derivano nuovi o maggiori oneri", livello: basso, nota: "verificare che l'invarianza sia dimostrata dalla relazione tecnica"}
+      - {id: contributo_finanza_pubblica, regex: "(?i)contributo alla finanza pubblica|concorso (?:agli|alla realizzazione degli) obiettivi di finanza pubblica", livello: medio, nota: "concorso degli enti territoriali: proporzionalita', transitorieta', esclusione dei fondi per i diritti sociali (sent. 195/2024)"}
+    domande:
+      - "Ogni onere e' quantificato per anno e per tutti gli anni in cui produce effetti (anche oltre il triennio)?"
+      - "Il mezzo di copertura rientra nell'elenco dell'art. 17, comma 1, L. 196/2009 ed e' disposto nello stesso atto?"
+      - "Le maggiori entrate usate come copertura sono certe (decise per legge) o solo stimate (evasione, crescita)?"
+      - "Se la norma autorizza spesa in disavanzo, c'e' l'autorizzazione delle Camere a maggioranza assoluta (art. 6 L. 243/2012) e la spesa rientra in quella autorizzata per importo, finalita' e anni?"
+      - "La norma modifica la L. 243/2012 o i compiti dell'UPB? Se si', in modo espresso e con legge approvata a maggioranza assoluta?"
+
+  tributi:
+    titolo: "Capacita' contributiva, uguaglianza tributaria, prelievi settoriali"
+    articoli: ["art. 53 Cost.", "art. 3 Cost.", "art. 23 Cost.", "art. 41 Cost.", "L. 212/2000 (Statuto del contribuente), artt. 1 e 3"]
+    principio: >
+      Il prelievo deve colpire un indice effettivo di capacita' contributiva e il sistema deve restare progressivo. Il
+      legislatore tributario ha ampia discrezionalita', ma ogni differenziazione per settore o categoria deve avere una
+      giustificazione ragionevole e un nesso coerente tra presupposto, base imponibile e finalita' dichiarata. Un prelievo
+      aggiuntivo su un solo settore, giustificato con extraprofitti contingenti, e' piu' solido se temporaneo, se colpisce
+      davvero l'incremento di redditivita' (non l'intero reddito) e se i meccanismi accessori (es. divieto di traslazione)
+      sono verificabili. Prestazioni patrimoniali imposte: soggetti, oggetto e criteri devono stare nella legge (art. 23).
+    giurisprudenza:
+      - sentenza: "10/2015"
+        sintesi: "'Robin tax': illegittima (con effetti dal giorno dopo la pubblicazione) l'addizionale IRES sui settori energetici, perche' colpiva l'intero reddito e non i sovraprofitti, era senza termine e il divieto di traslazione sui prezzi non era verificabile in concreto."
+        verifica_parole: ["traslazion", "sovra", "addizionale"]
+      - sentenza: "111/2024"
+        sintesi: "Contributo straordinario 2022 sulle imprese energetiche: legittimo come prelievo settoriale temporaneo; illegittima solo la base imponibile che includeva le accise. Non fondata la censura di disparita' con banche o farmaceutica."
+        verifica_parole: ["contributo straordinario", "extraprofitt", "accise"]
+      - sentenza: "180/2025"
+        sintesi: "Ancora sul contributo straordinario energetico (art. 37 DL 21/2022): non fondate le ulteriori questioni sollevate su artt. 3, 23 e 53."
+        verifica_parole: ["contributo straordinario"]
+      - sentenza: "135/2026"
+        sintesi: "Contributo straordinario energetico: manifestamente infondate le questioni riproposte (artt. 3, 42, 53, 117)."
+        verifica_parole: ["manifesta infondatezza"]
+      - sentenza: "223/2012"
+        sintesi: "Illegittimi i prelievi che colpiscono i soli redditi dei dipendenti pubblici a parita' di capacita' contributiva con altri redditi."
+        verifica_parole: ["capacit"]
+      - sentenza: "116/2013"
+        sintesi: "Illegittimo il contributo di perequazione sulle sole pensioni elevate: prelievo tributario discriminatorio rispetto ad altri redditi."
+        verifica_parole: ["pension", "perequazione"]
+      - sentenza: "262/2020"
+        sintesi: "Illegittima l'indeducibilita' integrale dell'IMU sui beni strumentali dal reddito d'impresa: incoerenza con la tassazione del reddito netto."
+        verifica_parole: ["IMU", "deducibil"]
+      - sentenza: "140/2024"
+        sintesi: "Payback dei dispositivi medici 2015-2018: prestazione patrimoniale (art. 23) e contributo solidaristico non irragionevole ne' sproporzionato, anche per il concorso statale, ma 'limitatamente' al periodo circoscritto esaminato."
+        verifica_parole: ["payback", "solidari"]
+    segnali:
+      - {id: ateco_settore, regex: "(?i)codici ATECO|in via prevalente, le attività economiche", livello: medio, nota: "prelievo o regime selettivo per settore"}
+      - {id: aliquota_aumentata, regex: "(?i)(?:aliquota|addizionale)[^;]{0,220}?\\b(?:è aumentata|è incrementata|è elevata|maggiorazione|incrementata di|un'addizionale)|maggiorazione dell'aliquota|incremento dell'addizionale", livello: medio, nota: "aumento di aliquota"}
+      - {id: settore_specifico, regex: "(?i)\\b(?:comparto|settore) (?:energetico|finanziario|bancario|assicurativo|farmaceutico)|intermediari finanziari|imprese energetiche", livello: medio, nota: "prelievo su un settore: giustificazione e nesso con la capacita' contributiva"}
+      - {id: divieto_traslazione, regex: "(?i)divieto[^.]{0,40}di traslare|divieto di traslazione|È fatto divieto[^.]{0,80}traslare", livello: alto, nota: "divieto di traslazione: in sent. 10/2015 la sua inverificabilita' e' stata uno dei vizi"}
+      - {id: contributo_solidarieta, regex: "(?i)contributo (?:straordinario|di solidarietà)|prelievo (?:straordinario|di solidarietà)", livello: medio, nota: "prelievo straordinario: temporaneita', progressivita', base coerente"}
+      - {id: payback, regex: "(?i)\\bripiano\\b|payback|tetto (?:di|della) spesa[^.]{0,60}(?:superamento|ripiano)", livello: medio, nota: "prestazione patrimoniale imposta alle imprese (art. 23, 41, 3)"}
+      - {id: indeducibilita, regex: "(?i)(?:non è|non sono|indeducibil)[^.]{0,30}deducibil|deducibili in quote costanti", livello: basso, nota: "deroga alla tassazione del reddito netto"}
+    domande:
+      - "Qual e' il presupposto del prelievo e quale indice di capacita' contributiva colpisce? La base imponibile e' coerente con lo scopo dichiarato (es. extraprofitti) o colpisce l'intero reddito?"
+      - "Il prelievo settoriale e' temporaneo e motivato da circostanze specifiche documentate (dati di redditivita' del settore)?"
+      - "Il divieto di traslazione e' verificabile e con quali poteri e sanzioni? Senza verifica e' solo una clausola di stile (sent. 10/2015)."
+      - "Esistono soggetti con pari capacita' contributiva trattati diversamente senza ragione (art. 3)?"
+      - "Per le prestazioni patrimoniali (payback, contributi): la legge fissa soggetti, oggetto e criteri (art. 23)? L'onere e' proporzionato e circoscritto nel tempo?"
+
+  regioni:
+    titolo: "Riparto di competenze, leale collaborazione, autonomia finanziaria, LEP"
+    articoli: ["art. 117, secondo (lett. e, m, p), terzo, quarto e sesto comma, Cost.", "art. 118 Cost.", "art. 119 Cost.", "art. 120, secondo comma, Cost.",
+               "art. 5 Cost.", "L. 42/2009", "d.lgs. 68/2011", "L. 131/2003, art. 8", "L. 86/2024"]
+    principio: >
+      Nelle materie concorrenti lo Stato detta i principi; nelle materie residuali (TPL, assistenza sociale, formazione
+      professionale, agricoltura, turismo) non puo' intervenire con norme di dettaglio. Lo Stato non puo' istituire fondi
+      a destinazione vincolata nelle materie regionali (art. 119): quando titoli statali e regionali si intrecciano, il
+      riparto deve passare per l'intesa in Conferenza, non per un semplice parere. Alle funzioni attribuite devono
+      corrispondere le risorse (art. 119, quarto comma). I LEP (art. 117, secondo comma, lett. m) si determinano con legge
+      o atto con forza di legge con criteri adeguati, si finanziano e si monitorano; i poteri sostitutivi seguono l'art. 120
+      e l'art. 8 L. 131/2003 (diffida, proporzionalita', leale collaborazione). Il contributo degli enti territoriali alla
+      finanza pubblica deve essere transitorio, proporzionato e non intaccare il finanziamento dei diritti sociali e della salute.
+    giurisprudenza:
+      - sentenza: "370/2003"
+        sintesi: "Asili nido: illegittimo il fondo statale vincolato in materia regionale senza coinvolgimento delle Regioni."
+        verifica_parole: ["asili nido"]
+      - sentenza: "423/2004"
+        sintesi: "Divieto di fondi statali a destinazione vincolata nelle materie regionali (politiche sociali), fuori dall'art. 119, quinto comma."
+        verifica_parole: ["vincol", "fondo"]
+      - sentenza: "222/2005"
+        sintesi: "Trasporto pubblico locale, materia regionale: illegittimo il riparto del fondo statale con DPCM senza intesa con le Regioni."
+        verifica_parole: ["trasporto pubblico locale", "intesa"]
+      - sentenza: "251/2016"
+        sintesi: "Decreti legislativi su materie intrecciate (riforma PA): serve l'intesa in Conferenza, il parere non basta."
+        verifica_parole: ["intesa", "leale collaborazione"]
+      - sentenza: "137/2018"
+        sintesi: "Funzioni provinciali non fondamentali: illegittima la mancata riassegnazione delle risorse agli enti subentrati (corrispondenza funzioni-risorse, art. 119)."
+        verifica_parole: ["funzioni", "risorse"]
+      - sentenza: "220/2021"
+        sintesi: "Fondo di solidarieta' comunale e LEP: la mancata definizione dei LEP e' un ostacolo alla perequazione; forte monito al legislatore."
+        verifica_parole: ["livelli essenziali"]
+      - sentenza: "223/2023"
+        sintesi: "Dimensionamento della rete scolastica in legge di bilancio: illegittimo il decreto ministeriale senza il previo parere della Conferenza unificata."
+        verifica_parole: ["rete scolastica", "Conferenza unificata"]
+      - sentenza: "192/2024"
+        sintesi: "Autonomia differenziata (L. 86/2024): i LEP vanno determinati dal legislatore con criteri adeguati, non con DPCM; trasferimento di funzioni specifiche, non di materie."
+        verifica_parole: ["livelli essenziali", "decreto del Presidente del Consiglio"]
+      - sentenza: "195/2024"
+        sintesi: "Contributo alla finanza pubblica delle Regioni (L. 213/2023): illegittimo se non esclude le risorse per diritti sociali, famiglia e salute; illegittimo il DM senza intesa."
+        verifica_parole: ["diritti sociali", "intesa"]
+      - sentenza: "152/2025"
+        sintesi: "Contributi alla finanza pubblica nella legge di bilancio 2025: questioni in parte inammissibili e in parte non fondate (limite di proporzionalita' rispettato)."
+        verifica_parole: ["finanza pubblica"]
+      - sentenza: "182/2026"
+        sintesi: "LEP per l'assistenza all'autonomia e alla comunicazione degli alunni con disabilita' (L. 199/2025): illegittimi i commi che definiscono contenuti e standard senza previa intesa in Conferenza unificata."
+        verifica_parole: ["livello essenziale", "intesa in sede di Conferenza unificata"]
+      - sentenza: "425/2004"
+        sintesi: "La legge statale puo' definire cosa costituisce indebitamento ai fini dell'art. 119, sesto comma; illegittima solo una parte della disciplina (comma 17, quarto periodo, L. 350/2003)."
+        verifica_parole: ["indebitamento"]
+      - sentenza: "33/2019"
+        sintesi: "Gestione associata obbligatoria dei piccoli Comuni: illegittima dove non consente di dimostrare che l'associazione non porta economie o efficienza."
+        verifica_parole: ["gestione associata"]
+    segnali:
+      - {id: materia_regionale, regex: "(?i)trasporto pubblico locale|servizi educativi per l'infanzia|asili nido|assistenza sociale|servizi sociali|ambiti territoriali sociali|\\bATS\\b|formazione professionale|edilizia residenziale pubblica|governo del territorio|tutela della salute|servizio sanitario (?:nazionale|regionale)|diritto allo studio|rete scolastica|turismo|agricoltura|protezione civile", livello: basso, nota: "materia concorrente o residuale"}
+      - {id: atto_statale_attuativo, regex: "(?i)con (?:uno o più )?decret[oi] del (?:Ministro|Presidente del Consiglio)|decreto interministeriale|con decreto del Ministero", livello: basso, nota: "atto statale secondario"}
+      - {id: intesa, regex: "(?i)(?:previa |d')intesa|intesa (?:in sede di|con la) Conferenza", livello: basso, nota: "intesa prevista (attenua)"}
+      - {id: parere_conferenza, regex: "(?i)sentit[ao] la Conferenza|previo parere della Conferenza|parere della Conferenza", livello: medio, nota: "solo parere: per fondi vincolati o LEP la Corte chiede l'intesa (sent. 251/2016, 182/2026)"}
+      - {id: fondo_soppresso_ridotto, regex: "(?i)\\b(?:fondo|autorizzazione di spesa|dotazione)[^.]{0,120}\\b(?:è soppress[oa]|sono soppress|è ridott[oa]|sono ridott[ei]|riduzione)\\b", livello: medio, nota: "definanziamento: corrispondenza funzioni-risorse (art. 119, quarto comma)"}
+      - {id: risorse_bilanci_enti, regex: "(?i)(?:amministrazioni regionali e locali|regioni e (?:gli )?enti locali)[^.]{0,120}(?:concorrono|provvedono)[^.]{0,160}(?:risorse[^.]{0,60}(?:disponibili|iscritte)|rispettivi bilanci)", livello: alto, nota: "onere (anche LEP) scaricato sui bilanci regionali e locali senza risorse dedicate"}
+      - {id: lep, regex: "(?i)livell[oi] essenzial[ei] delle prestazioni|\\bLEP\\b", livello: basso, nota: "LEP: determinazione con legge, finanziamento, monitoraggio"}
+      - {id: poteri_sostitutivi, regex: "(?i)poteri? sostitutiv|commissario ad acta|articolo 120, secondo comma, della Costituzione", livello: basso, nota: "verificare diffida, proporzionalita' e art. 8 L. 131/2003"}
+      - {id: indebitamento_enti, regex: "(?i)costituiscono indebitamento", livello: medio, nota: "definizione statale di indebitamento (art. 119, sesto comma)"}
+      - {id: autonomie_speciali, regex: "(?i)regioni a statuto speciale|province autonome", livello: basso, nota: "clausola di salvaguardia per le autonomie speciali"}
+    domande:
+      - "Qual e' la materia prevalente? Se concorrente o residuale, la norma statale e' di principio o di dettaglio?"
+      - "Il fondo e' vincolato a una materia regionale? Se si', il riparto passa per l'intesa (non il solo parere)?"
+      - "Se un fondo o un trasferimento e' soppresso o ridotto, chi finanzia le funzioni e da quando? C'e' una clausola di continuita' se l'atto sostitutivo (es. DPCM sull'aliquota) non arriva in tempo?"
+      - "Per i LEP: sono determinati con legge, quantificati, finanziati con risorse dedicate? O si chiede agli enti di garantirli 'con le risorse disponibili'?"
+      - "I poteri sostitutivi rispettano diffida, termine congruo, proporzionalita' e art. 8 L. 131/2003?"
+      - "Il contributo degli enti alla finanza pubblica e' transitorio, proporzionato ed esclude i fondi per sanita' e diritti sociali (sent. 195/2024)?"
+
+  diritti_sociali:
+    titolo: "Nucleo incomprimibile dei diritti sociali e vincoli di bilancio"
+    articoli: ["art. 32 Cost. (salute)", "art. 34 Cost. (istruzione)", "art. 38 Cost. (assistenza e previdenza)", "art. 36 Cost. (retribuzione)", "artt. 2 e 3 Cost."]
+    principio: >
+      L'equilibrio di bilancio e' un valore costituzionale, ma non autorizza a comprimere il nucleo essenziale dei diritti
+      sociali: e' la garanzia dei diritti incomprimibili a condizionare il bilancio, non il contrario. Le riduzioni di
+      prestazioni sono possibili se ragionevoli, graduate per capacita' economica, temporanee quando incidono su posizioni
+      gia' maturate, e non ripetute senza istruttoria. LEA e sostegno agli alunni con disabilita' sono 'spesa
+      costituzionalmente necessaria'. Pensioni: i blocchi o i tagli della rivalutazione devono essere graduati, motivati e
+      non reiterati in modo da erodere il potere d'acquisto.
+    giurisprudenza:
+      - sentenza: "80/2010"
+        sintesi: "Sostegno agli alunni con disabilita': illegittimo il tetto rigido ai posti di sostegno che impedisce di assegnare le ore necessarie."
+        verifica_parole: ["sostegno", "disabil"]
+      - sentenza: "275/2016"
+        sintesi: "Trasporto degli studenti con disabilita': la spesa per diritti incomprimibili non puo' essere subordinata alle disponibilita' di bilancio."
+        verifica_parole: ["incomprimibil", "bilancio"]
+      - sentenza: "169/2017"
+        sintesi: "Riduzioni della spesa sanitaria: legittime se non pregiudicano i LEA; la spesa per i LEA ha priorita' e richiede leale collaborazione."
+        verifica_parole: ["livelli essenziali di assistenza"]
+      - sentenza: "62/2020"
+        sintesi: "LEA: le risorse per i livelli essenziali di assistenza vanno garantite e separate nel bilancio regionale."
+        verifica_parole: ["livelli essenziali di assistenza"]
+      - sentenza: "152/2020"
+        sintesi: "Pensione di invalidita' civile: l'importo deve assicurare il minimo vitale (art. 38); illegittimita' con effetti solo per il futuro."
+        verifica_parole: ["invalid"]
+      - sentenza: "70/2015"
+        sintesi: "Illegittimo il blocco biennale della perequazione per le pensioni oltre tre volte il minimo, privo di gradualita' e di motivazione."
+        verifica_parole: ["perequazione"]
+      - sentenza: "250/2017"
+        sintesi: "Non fondate le questioni sulla nuova disciplina della perequazione 2012-2013 (DL 65/2015): bilanciamento ragionevole."
+        verifica_parole: ["perequazione"]
+      - sentenza: "234/2020"
+        sintesi: "Perequazione 2019-2021 legittima; contributo di solidarieta' sulle pensioni elevate legittimo ma ridotto a tre anni."
+        verifica_parole: ["perequazione", "solidariet"]
+      - sentenza: "19/2025"
+        sintesi: "Rivalutazione delle pensioni 2023-2024 (L. 197/2022, comma 309): questioni non fondate o inammissibili."
+        verifica_parole: ["perequazione"]
+      - sentenza: "52/2026"
+        sintesi: "Ancora sulla rivalutazione 2023-2024 (L. 197/2022 e L. 213/2023): non fondate le questioni su artt. 3, 36 e 38."
+        verifica_parole: ["309"]
+      - sentenza: "178/2015"
+        sintesi: "Blocco reiterato della contrattazione nel pubblico impiego: illegittimita' sopravvenuta per il futuro."
+        verifica_parole: ["contrattazion"]
+      - sentenza: "31/2025"
+        sintesi: "Reddito di cittadinanza: illegittimo il requisito di residenza decennale (ridotto a cinque anni)."
+        verifica_parole: ["residenza"]
+    segnali:
+      - {id: rivalutazione_ridotta, regex: "(?i)rivalutazione automatica[^.]{0,200}nella misura del (?!100)\\d{1,2} per cento|perequazione[^.]{0,80}(?:ridott|sospes|non è riconosciut)", livello: medio, nota: "taglio della rivalutazione delle pensioni"}
+      - {id: organico_ridotto, regex: "(?i)(?:organico|dotazione organica|posti)[^.]{0,120}\\b(?:ridott[ao]|riduzione)\\b|ulteriore riduzione nel numero dei posti", livello: medio, nota: "riduzione di organico in servizi essenziali (scuola, sanita')"}
+      - {id: sostegno_disabili, regex: "(?i)posti di sostegno|alunni con disabilità|studenti con disabilità", livello: basso, nota: "spesa costituzionalmente necessaria (sent. 80/2010, 275/2016)"}
+      - {id: prestazione_ridotta, regex: "(?i)(?:prestazion|assegn|indennit|trattament)[^.]{0,80}\\b(?:è ridott|sono ridott|riduzione|non spetta|è soppress|cessa)", livello: medio, nota: "riduzione di prestazioni sociali"}
+      - {id: limiti_spesa_sanita, regex: "(?i)tetto (?:di|della) spesa|limite di spesa[^.]{0,80}(?:sanit|prestazion)", livello: basso, nota: "tetti di spesa sanitaria: compatibilita' con i LEA"}
+      - {id: risorse_disponibili, regex: "(?i)nei limiti (?:delle risorse|degli stanziamenti) (?:disponibili|previsti) a legislazione vigente|compatibilmente con le risorse", livello: medio, nota: "diritto condizionato alle disponibilita' di bilancio"}
+      - {id: requisiti_residenza, regex: "(?i)residen(?:za|ti) (?:in Italia|nel territorio)[^.]{0,80}(?:da almeno|per almeno) \\d+ anni", livello: medio, nota: "requisito di residenza prolungata (sent. 31/2025; CGUE C-112/22)"}
+    domande:
+      - "La misura incide su un diritto sociale fondamentale (salute, istruzione, assistenza, previdenza)? Ne tocca il nucleo essenziale o solo il livello eccedente?"
+      - "La riduzione e' graduata per capacita' economica, temporanea, motivata con dati (relazione tecnica, istruttoria)?"
+      - "Per le pensioni: e' l'ennesimo taglio della rivalutazione? Qual e' la perdita cumulata di potere d'acquisto per fascia?"
+      - "Per scuola e sanita': la riduzione di posti o risorse lascia intatti sostegno, LEA, tempi di accesso? E' mitigata dal calo demografico documentato?"
+      - "Il diritto e' condizionato alle 'risorse disponibili' in modo da renderlo inesigibile?"
+
+  decreti_legge:
+    titolo: "Decreti-legge: necessita' e urgenza, omogeneita', conversione"
+    articoli: ["art. 77 Cost.", "art. 72 Cost.", "L. 400/1988, art. 15"]
+    principio: >
+      Il decreto-legge richiede casi straordinari di necessita' e urgenza (vizio sindacabile se evidente), contenuto
+      omogeneo e misure di immediata applicazione. La legge di conversione e' a contenuto vincolato: gli emendamenti
+      estranei per oggetto o finalita' al decreto violano l'art. 77, secondo comma. Vietata la reiterazione di decreti non
+      convertiti. Le norme ordinamentali di ampio respiro (riforme organiche) non si adottano per decreto-legge.
+    giurisprudenza:
+      - sentenza: "29/1995"
+        sintesi: "La mancanza dei presupposti di necessita' e urgenza e' un vizio del decreto-legge sindacabile dalla Corte, se evidente."
+        verifica_parole: ["necessit"]
+      - sentenza: "360/1996"
+        sintesi: "Illegittima la reiterazione di decreti-legge non convertiti."
+        verifica_parole: ["reiteraz"]
+      - sentenza: "171/2007"
+        sintesi: "Prima dichiarazione di illegittimita' per evidente mancanza dei presupposti; la conversione non sana il vizio."
+        verifica_parole: ["necessità e urgenza"]
+      - sentenza: "128/2008"
+        sintesi: "Evidente mancanza dei presupposti per una norma estranea al resto del decreto: illegittimita'."
+        verifica_parole: ["evidente mancanza"]
+      - sentenza: "22/2012"
+        sintesi: "Emendamenti eterogenei inseriti in sede di conversione (decreto 'milleproroghe'): violazione dell'art. 77, secondo comma."
+        verifica_parole: ["omogene", "conversione"]
+      - sentenza: "220/2013"
+        sintesi: "Il decreto-legge non e' lo strumento per riforme ordinamentali organiche (riordino delle Province)."
+        verifica_parole: ["provinc", "decreto-legge"]
+      - sentenza: "32/2014"
+        sintesi: "Norme sugli stupefacenti inserite in conversione senza nesso con il decreto: illegittime per eterogeneita'."
+        verifica_parole: ["omogene", "conversione"]
+      - sentenza: "247/2019"
+        sintesi: "Disposizione inserita in conversione e priva di nesso con il decreto: illegittima per violazione dell'art. 77, secondo comma."
+        verifica_parole: ["omogene", "estrane"]
+    segnali:
+      - {id: dl_preambolo, regex: "(?i)Ritenuta la straordinaria necessità e urgenza", livello: basso, nota: "decreto-legge: verificare omogeneita' e immediata applicazione"}
+      - {id: dl_conversione, regex: "(?i)convertito(?:, con modificazioni,)? (?:dalla|nella) legge[^.]{0,40}(?:è|sono) (?:modificat|aggiunt|inserit)|legge di conversione", livello: basso, nota: "modifica in sede di conversione: verificare il nesso"}
+      - {id: proroga_termini, regex: "(?i)\\bè prorogat[oa]\\b|\\bsono prorogat[ie]\\b|è differit[oa] al", livello: basso, nota: "proroghe: omogeneita' 'funzionale' dei decreti milleproroghe"}
+    domande:
+      - "Il preambolo motiva in concreto la necessita' e l'urgenza per ciascun gruppo di norme?"
+      - "Il decreto ha una ratio unitaria (per oggetto o per finalita')? Quali articoli ne sono estranei?"
+      - "Le norme sono di immediata applicazione o rinviano a decreti attuativi senza termine?"
+      - "In conversione: ogni emendamento ha un nesso oggettivo o funzionale con il testo originario?"
+
+  procedimento_deleghe:
+    titolo: "Procedimento legislativo, contenuto della legge di bilancio, deleghe"
+    articoli: ["art. 70 Cost.", "art. 72 Cost.", "art. 76 Cost.", "art. 64 Cost. (autonomia delle Camere)", "art. 81, sesto comma, Cost.",
+               "L. 196/2009, art. 21, comma 1-quinquies (contenuto proprio della legge di bilancio)", "Reg. Camera, art. 120, comma 2"]
+    principio: >
+      La delega richiede oggetto definito, principi e criteri direttivi e tempo limitato: criteri generici o il rinvio a
+      un organo amministrativo della scelta di fondo violano l'art. 76. La legge di bilancio non deve contenere deleghe,
+      norme ordinamentali od organizzatorie, ne' interventi localistici: le norme estranee vengono stralciate (come per
+      A.C. 3174, 4/11/2026). Le leggi ordinarie non possono vincolare il procedimento delle Camere (art. 64, 72) ne'
+      modificare una legge rinforzata. Un esame parlamentare troppo compresso (maxiemendamenti, fiducia) puo' arrivare a
+      ledere le prerogative dei parlamentari se la violazione e' manifesta.
+    giurisprudenza:
+      - sentenza: "340/2007"
+        sintesi: "Eccesso di delega: illegittima la norma del decreto legislativo che va oltre i principi e criteri della legge delega."
+        verifica_parole: ["delega", "eccesso"]
+      - sentenza: "280/2004"
+        sintesi: "Delega 'ricognitiva' dei principi fondamentali (L. 131/2003): legittima come mera ricognizione (comma 4); illegittimi i commi 5 e 6."
+        verifica_parole: ["delega", "princip"]
+      - sentenza: "251/2016"
+        sintesi: "La delega su materie intrecciate con competenze regionali deve prevedere l'intesa sugli schemi di decreto."
+        verifica_parole: ["intesa"]
+      - sentenza: "192/2024"
+        sintesi: "Delega per la determinazione dei LEP con criteri troppo generici: illegittima (art. 76)."
+        verifica_parole: ["delega", "criteri direttivi"]
+      - sentenza: "17/2019"
+        tipo: ordinanza
+        sintesi: "Legge di bilancio 2019: conflitto inammissibile; il singolo parlamentare e' legittimato solo se lamenta una sostanziale negazione o un'evidente menomazione delle sue funzioni."
+        verifica_parole: ["parlamentar"]
+      - sentenza: "60/2020"
+        tipo: ordinanza
+        sintesi: "Legge di bilancio 2020: conflitti dei parlamentari dichiarati inammissibili per assenza di violazioni manifeste."
+        verifica_parole: ["bilancio"]
+      - sentenza: "129/1981"
+        sintesi: "Autonomia contabile degli organi costituzionali: le Camere non sono soggette al giudizio di conto della Corte dei conti."
+        verifica_parole: ["tesorie"]
+      - sentenza: "120/2014"
+        sintesi: "I regolamenti parlamentari non sono sindacabili in via incidentale: autonomia delle Camere (con indicazione della via del conflitto)."
+        verifica_parole: ["regolamento"]
+    segnali:
+      - {id: delega, regex: "(?i)il Governo è delegato|è delegato ad adottare|delega al Governo", livello: medio, nota: "delega: oggetto, principi e criteri, termine"}
+      - {id: delega_criteri, regex: "(?i)princìpi e criteri direttivi|principi e criteri direttivi|(?:nel rispetto|sulla base) de(?:i|gli) seguenti (?:princìpi|principi|criteri)", livello: basso, nota: "criteri presenti (verificarne la specificita')"}
+      - {id: norma_ordinamentale_bilancio, regex: "(?i)regolamento di organizzazione[^.]{0,40}è adeguato|dotazione organica|è istituit[oa][^.]{0,60}(?:ufficio|struttura|commissione|osservatorio|agenzia)", livello: basso, nota: "norma organizzatoria: estranea alla legge di bilancio se senza effetti finanziari"}
+      - {id: vincolo_camere, regex: "(?i)(?:le Camere|ciascuna Camera|il Parlamento)[^.]{0,80}(?:deliberano|votano|esaminano|non possono)|bilanci interni delle Camere|regolamenti parlamentari", livello: medio, nota: "vincolo a procedimenti o bilanci delle Camere (art. 64, 72)"}
+      - {id: dpcm_regolamento_delegificazione, regex: "(?i)regolamento (?:da adottare )?ai sensi dell'articolo 17, comma 2, della legge 23 agosto 1988, n\\. 400|delegificazion", livello: medio, nota: "delegificazione: norme generali regolatrici e abrogazione indicata dalla legge"}
+    domande:
+      - "Se c'e' una delega: oggetto definito, principi e criteri specifici (non meri obiettivi), termine, pareri parlamentari, intesa se tocca materie regionali?"
+      - "Se l'atto e' una legge di bilancio: ogni norma ha effetti finanziari diretti? Ci sono deleghe, norme ordinamentali o microsettoriali da stralciare?"
+      - "La norma pretende di vincolare procedure o bilanci delle Camere o di modificare una legge rinforzata con legge ordinaria?"
+
+  ue_internazionale:
+    titolo: "Vincoli dell'Unione europea e degli obblighi internazionali"
+    articoli: ["art. 11 Cost.", "art. 117, primo comma, Cost.", "artt. 107-108 TFUE (aiuti di Stato)", "CEDU (norma interposta)", "Reg. (UE) 2024/1263 (governance economica)"]
+    principio: >
+      Il diritto UE prevale sulla legge interna incompatibile (non applicazione da parte del giudice; questione di
+      costituzionalita' per le norme non direttamente applicabili o in caso di doppia pregiudizialita' sulla Carta). La
+      CEDU, come interpretata dalla Corte di Strasburgo, e' parametro interposto (art. 117, primo comma). Vantaggi
+      selettivi a imprese (crediti d'imposta, riduzioni di oneri subordinate a investimenti, tariffe agevolate) devono
+      rientrare in un regolamento di esenzione, nel de minimis o essere notificati. Le regole fiscali UE non sostituiscono
+      l'autorizzazione parlamentare interna al disavanzo.
+    giurisprudenza:
+      - sentenza: "170/1984"
+        sintesi: "'Granital': il giudice non applica la legge interna incompatibile con il diritto comunitario direttamente applicabile."
+        verifica_parole: ["comunitari"]
+      - sentenza: "348/2007"
+        sintesi: "Indennita' di esproprio: la CEDU, come interpretata dalla Corte EDU, e' parametro interposto ex art. 117, primo comma."
+        verifica_parole: ["CEDU"]
+      - sentenza: "349/2007"
+        sintesi: "Occupazione acquisitiva: stesso principio della 348/2007; la norma interna contraria alla CEDU e' illegittima."
+        verifica_parole: ["CEDU"]
+      - sentenza: "311/2009"
+        sintesi: "Leggi di interpretazione autentica e CEDU (art. 6): ammesse solo per motivi imperativi di interesse generale; nel caso, non fondate."
+        verifica_parole: ["CEDU", "interpretazione autentica"]
+      - sentenza: "269/2017"
+        sintesi: "Doppia pregiudizialita': quando la legge viola insieme Costituzione e Carta UE, la Corte costituzionale puo' essere adita per prima."
+        verifica_parole: ["Carta"]
+      - sentenza: "21/2025"
+        tipo: ordinanza
+        sintesi: "Contributo di solidarieta' 2023 sul settore energetico (L. 197/2022, commi 115-119): rinvio pregiudiziale alla Corte di giustizia UE."
+        verifica_parole: ["267", "Corte di giustizia"]
+    segnali:
+      - {id: atto_ue, regex: "(?i)regolamento \\(UE\\)|direttiva \\(UE\\)|direttiva \\d{4}/\\d+/(?:CE|UE)|Trattato sul funzionamento dell'Unione europea|TFUE", livello: basso, nota: "richiamo al diritto UE"}
+      - {id: aiuto_stato, regex: "(?i)aiut[oi] di Stato|de minimis|regolamento \\(UE\\) n?\\.? ?651/2014|regolamento generale di esenzione", livello: basso, nota: "base UE per l'aiuto"}
+      - {id: vantaggio_selettivo, regex: "(?i)credito d'imposta|(?:ridott[ao]|riduzione)[^.]{0,80}(?:quota di ripiano|contribut|oner)[^.]{0,120}(?:qualora|a condizione che)[^.]{0,80}investiment|esenzion[ei][^.]{0,60}(?:imprese|soggetti esercenti)", livello: medio, nota: "possibile vantaggio selettivo (artt. 107-108 TFUE)"}
+      - {id: notifica_commissione, regex: "(?i)autorizzazione della Commissione europea|subordinat[ao] all'autorizzazione|notifica[^.]{0,40}Commissione europea", livello: basso, nota: "clausola di efficacia subordinata (attenua)"}
+    domande:
+      - "La misura conferisce un vantaggio selettivo a imprese? Qual e' la base UE (GBER o regolamento successivo, de minimis, notifica)? C'e' la clausola di sospensione fino all'autorizzazione?"
+      - "La norma e' compatibile con le direttive di settore (IVA, accise, energia) e con la Carta dei diritti UE?"
+      - "La norma retroattiva o processuale rispetta l'art. 6 CEDU e l'art. 1 Prot. 1 CEDU (motivi imperativi di interesse generale)?"
+
+  giustizia:
+    titolo: "Diritto di difesa, irretroattivita' penale, giusto processo"
+    articoli: ["art. 24 Cost.", "art. 25, secondo comma, Cost.", "art. 111 Cost.", "art. 113 Cost.", "art. 117, primo comma (art. 6 e 7 CEDU)"]
+    principio: >
+      La legge penale piu' sfavorevole non retroagisce, nemmeno quando cambia la natura della pena in sede esecutiva; quella
+      piu' favorevole si applica salvo deroghe ragionevoli. Il legislatore non puo' intervenire su giudizi in corso per
+      determinarne l'esito a favore dello Stato (parita' delle armi). Oneri, termini di decadenza e preclusioni non devono
+      rendere impossibile o eccessivamente difficile l'accesso alla giustizia. Le sanzioni amministrative 'punitive'
+      seguono le garanzie della materia penale.
+    giurisprudenza:
+      - sentenza: "364/1988"
+        sintesi: "Ignoranza inevitabile della legge penale: scusa (colpevolezza, art. 27)."
+        verifica_parole: ["ignoranza"]
+      - sentenza: "393/2006"
+        sintesi: "Retroattivita' della legge penale piu' favorevole: deroghe solo se ragionevoli (prescrizione, L. 251/2005)."
+        verifica_parole: ["retroattiv"]
+      - sentenza: "236/2011"
+        sintesi: "Lex mitior e CEDU: la regola puo' cedere a interessi di analogo rilievo; deroghe sottoposte a vaglio di ragionevolezza."
+        verifica_parole: ["retroattiv"]
+      - sentenza: "32/2020"
+        sintesi: "'Spazzacorrotti': illegittima l'applicazione retroattiva delle preclusioni alle misure alternative che trasformano la natura della pena."
+        verifica_parole: ["retroattiv"]
+      - sentenza: "170/2013"
+        sintesi: "Privilegio dei crediti tributari esteso retroattivamente alle procedure concorsuali in corso: illegittimo (affidamento, parita' delle armi)."
+        verifica_parole: ["retroattiv", "privilegi"]
+      - sentenza: "78/2012"
+        sintesi: "Norma di interpretazione autentica sulla prescrizione nei conti correnti, con effetti sui giudizi in corso: illegittima."
+        verifica_parole: ["interpretazione autentica", "conto corrente"]
+      - sentenza: "137/2026"
+        sintesi: "Iscrizione a ruolo subordinata al pagamento del contributo unificato (L. 207/2024): questioni in parte inammissibili e in parte non fondate."
+        verifica_parole: ["iscrizione a ruolo", "contributo unificato"]
+    segnali:
+      - {id: sanzione_penale, regex: "(?i)\\bè punit[oa]\\b|reclusione|\\breato\\b|codice penale", livello: medio, nota: "norma penale: legalita', irretroattivita', proporzionalita'"}
+      - {id: sanzione_amministrativa, regex: "(?i)sanzione amministrativa(?: pecuniaria)?", livello: basso, nota: "sanzione: proporzionalita' e legalita'"}
+      - {id: giudizi_in_corso, regex: "(?i)giudizi (?:in corso|pendenti)|procediment[oi] (?:in corso|pendenti)|si estingu|estinzione (?:dei giudizi|del giudizio)|rinuncia (?:al|ai) (?:contenzios|giudiz|ricors)", livello: alto, nota: "incidenza su giudizi pendenti (art. 24, 111, 117 c.1 / art. 6 CEDU)"}
+      - {id: decadenza_preclusione, regex: "(?i)a pena di (?:decadenza|inammissibilità)|termine perentorio|preclus", livello: basso, nota: "termini e preclusioni: non irragionevolmente brevi"}
+      - {id: accesso_giustizia, regex: "(?i)contributo unificato|iscrizione a ruolo", livello: medio, nota: "oneri di accesso alla giustizia"}
+    domande:
+      - "La norma si applica a fatti o processi gia' in corso? Con quale giustificazione (motivi imperativi di interesse generale)?"
+      - "Se penale o 'punitiva': e' prevedibile, proporzionata, irretroattiva se sfavorevole?"
+      - "Oneri e termini rendono eccessivamente difficile agire o difendersi?"
+
+  pubblica_amministrazione:
+    titolo: "Buon andamento, imparzialita', concorso pubblico"
+    articoli: ["art. 97 Cost.", "art. 98 Cost.", "art. 51 Cost.", "art. 3 Cost."]
+    principio: >
+      All'impiego pubblico si accede per concorso (deroghe solo se circoscritte e giustificate dal buon andamento); la
+      dirigenza non puo' essere rimossa per spoils system automatico; l'organizzazione deve essere ragionevole e le
+      assunzioni autorizzate e coperte per legge. Gli incarichi dirigenziali non si conferiscono senza procedura selettiva.
+    giurisprudenza:
+      - sentenza: "103/2007"
+        sintesi: "Decadenza automatica degli incarichi dirigenziali (spoils system): illegittima per violazione di imparzialita' e buon andamento."
+        verifica_parole: ["imparzialit", "dirigen"]
+      - sentenza: "104/2007"
+        sintesi: "Decadenza automatica dei direttori generali sanitari regionali: illegittima."
+        verifica_parole: ["dirigen"]
+      - sentenza: "293/2009"
+        sintesi: "Stabilizzazioni e inquadramenti senza concorso: illegittimi (regola del concorso pubblico, art. 97)."
+        verifica_parole: ["concorso"]
+      - sentenza: "37/2015"
+        sintesi: "Incarichi dirigenziali alle Agenzie fiscali conferiti a funzionari senza concorso: illegittimi."
+        verifica_parole: ["concorso", "dirigen"]
+      - sentenza: "108/2016"
+        sintesi: "Norma di bilancio che incide retroattivamente su contratti gia' stipulati (mansioni superiori nella scuola): illegittima per lesione dell'affidamento."
+        verifica_parole: ["affidamento"]
+    segnali:
+      - {id: deroga_concorso, regex: "(?i)in deroga[^.]{0,80}(?:concors|procedure selettive|assunzion)|stabilizzazion|procedur[ae] riservat", livello: medio, nota: "deroghe al concorso pubblico"}
+      - {id: assunzioni, regex: "(?i)(?:è autorizzat[oa]|sono autorizzat[ie])[^.]{0,60}assume|assunzion[ei] a tempo indeterminato|facoltà assunzional", livello: basso, nota: "assunzioni: concorso, copertura"}
+      - {id: cessazione_incarichi, regex: "(?i)incarichi[^.]{0,60}(?:cessano|decadono)|decadenza (?:automatica|dagli incarichi)", livello: alto, nota: "spoils system automatico"}
+      - {id: incarichi_deroga, regex: "(?i)incaric[oh]i?[^.]{0,80}in deroga ai limiti percentuali", livello: medio, nota: "incarichi dirigenziali a esterni oltre i limiti"}
+    domande:
+      - "Le assunzioni avvengono per concorso o scorrimento di graduatorie? Le riserve sono contenute e motivate?"
+      - "Ci sono decadenze automatiche o incarichi senza procedura comparativa?"
+      - "Le riduzioni di personale rendono impossibile il servizio (buon andamento)?"
+
+  affidamento_retroattivita:
+    titolo: "Legittimo affidamento e retroattivita' (anche tributaria)"
+    articoli: ["art. 3 Cost. (ragionevolezza)", "art. 2 e 41 Cost.", "art. 117, primo comma (art. 1 Prot. 1 CEDU, art. 6 CEDU)", "L. 212/2000, art. 3 (irretroattivita' delle norme tributarie) e art. 1, comma 2 (interpretazione autentica)"]
+    principio: >
+      Fuori dalla materia penale la retroattivita' non e' vietata, ma deve essere ragionevole e non tradire l'affidamento
+      consolidato su situazioni sostanziali, specie se a durata pluriennale o gia' entrate nel patrimonio. Le leggi di
+      interpretazione autentica sono ammesse solo se chiariscono un significato gia' compatibile con il testo e non servono
+      a vincere i giudizi in corso. In materia tributaria le norme hanno effetto, di regola, dal periodo d'imposta
+      successivo all'entrata in vigore; gli acconti calcolati 'come se' la nuova aliquota valesse prima sono un indizio da
+      verificare.
+    giurisprudenza:
+      - sentenza: "349/1985"
+        sintesi: "Pensioni: il legislatore puo' modificare in peggio rapporti di durata, ma non in modo irragionevole e frustrando affidamenti consolidati."
+        verifica_parole: ["affidamento"]
+      - sentenza: "822/1988"
+        sintesi: "Illegittima la disciplina pensionistica che lede in modo irragionevole aspettative consolidate."
+        verifica_parole: ["affidamento"]
+      - sentenza: "525/2000"
+        sintesi: "Interpretazione autentica che attribuisce alla norma un significato non desumibile dal testo: illegittima."
+        verifica_parole: ["interpretazione autentica"]
+      - sentenza: "264/2005"
+        sintesi: "Norma retroattiva in materia previdenziale (L. 724/1994): non fondata; la retroattivita' e' ammessa se ragionevole e non lede affidamenti consolidati."
+        verifica_parole: ["affidamento"]
+      - sentenza: "236/2009"
+        sintesi: "Abolizione retroattiva del fuori ruolo per professori gia' collocati con provvedimento: illegittima (affidamento)."
+        verifica_parole: ["affidamento"]
+      - sentenza: "16/2017"
+        sintesi: "Rimodulazione degli incentivi al fotovoltaico ('spalma-incentivi'): non fondata, intervento prevedibile, ragionevole e con alternative per gli operatori."
+        verifica_parole: ["affidamento", "incentiv"]
+      - sentenza: "108/2016"
+        sintesi: "Illegittima la norma di bilancio che priva retroattivamente di effetti contratti gia' stipulati."
+        verifica_parole: ["affidamento"]
+      - sentenza: "170/2013"
+        sintesi: "Retroattivita' che altera l'esito di procedure in corso: illegittima."
+        verifica_parole: ["retroattiv"]
+      - sentenza: "140/2024"
+        sintesi: "Payback dispositivi medici 2015-2018 (prestazione imposta per anni passati): non fondata 'nel circoscritto periodo', con concorso statale al 52%."
+        verifica_parole: ["payback"]
+    segnali:
+      - {id: interpretazione_autentica, regex: "(?i)interpretazione autentica|si interpreta(?:no)? nel senso", livello: alto, nota: "legge interpretativa: significato gia' nel testo? giudizi in corso?"}
+      - {id: si_applica_anche_passato, regex: "(?i)si applica(?:no)? anche (?:ai|alle|agli|al)[^.]{0,80}(?:in corso|pendent|già|anteriori|precedenti)|con effetto retroattivo|hanno effetto a decorrere dal \\d", livello: alto, nota: "applicazione retroattiva"}
+      - {id: anni_passati_obblighi, regex: "(?i)(?:per gli anni dal|relativ[ao] (?:all'|agli )anni?|per ciascuno degli anni dal) (?:19|20)\\d\\d", livello: basso, nota: "riferimento ad annualita': controllo automatico se sono passate"}
+      - {id: acconti_ricalcolo, regex: "(?i)ai fini della determinazione degli acconti[^.]{0,200}si assume", livello: basso, nota: "ricalcolo degli acconti: verificare che l'aumento non incida sul periodo in corso"}
+      - {id: salvezza_effetti, regex: "(?i)(?:sono )?fatti salvi gli effetti|restano validi gli atti", livello: basso, nota: "clausola di salvezza (attenua)"}
+    domande:
+      - "La norma incide su situazioni gia' sorte (rapporti di durata, crediti, agevolazioni pluriennali, annualita' passate)? Con quale grado di prevedibilita'?"
+      - "C'e' una causa giustificativa forte e proporzionata? Ci sono misure transitorie o di salvezza?"
+      - "Se interpretativa: il significato scelto era gia' una delle letture possibili? Ci sono giudizi in corso che la norma risolve a favore dello Stato?"
+      - "In materia tributaria: l'aumento decorre dal periodo d'imposta successivo all'entrata in vigore (art. 3 L. 212/2000)? Gli acconti anticipano l'effetto?"
+
+  referendum:
+    titolo: "Leggi escluse dal referendum abrogativo (completezza)"
+    articoli: ["art. 75, secondo comma, Cost.", "L. cost. 1/1953, art. 2", "L. 352/1970"]
+    principio: >
+      Non e' ammesso il referendum abrogativo sulle leggi tributarie e di bilancio, di amnistia e indulto, di
+      autorizzazione a ratificare trattati. L'esclusione si estende alle norme strettamente collegate all'ambito di
+      operativita' di queste leggi (es. effetti sugli equilibri di bilancio). E' un'informazione utile per chi propone
+      la misura: le norme fiscali inserite in legge di bilancio sono sottratte al referendum.
+    giurisprudenza:
+      - sentenza: "16/1978"
+        sintesi: "Sentenza capostipite sui limiti impliciti ed espliciti al referendum abrogativo."
+        verifica_parole: ["referendum", "tribut"]
+      - sentenza: "2/1994"
+        sintesi: "Inammissibili richieste referendarie in materia tributaria (art. 75, secondo comma)."
+        verifica_parole: ["referendum", "tribut"]
+      - sentenza: "6/2015"
+        sintesi: "Inammissibile il referendum sull'art. 24 DL 201/2011 (pensioni) per lo stretto collegamento con l'equilibrio di bilancio."
+        verifica_parole: ["referendum", "bilancio"]
+    segnali:
+      - {id: legge_bilancio_tributaria, regex: "(?i)Bilancio di previsione dello Stato per l'anno finanziario|disposizioni (?:in materia )?tributari", livello: basso, nota: "legge di bilancio o tributaria: esclusa dal referendum abrogativo"}
+    domande:
+      - "La norma e' tributaria o di bilancio (o strettamente collegata)? Se si', non e' sottoponibile a referendum abrogativo: segnalarlo nella scheda per i cittadini."

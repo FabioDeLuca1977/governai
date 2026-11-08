@@ -34,6 +34,7 @@ Se ti discosti dal programma del momento calcolato dal motore, cioè adotti una 
    - `deroga` (true/false) e `motivo_deroga`;
    - `risposta_opposizione`: obbligatoria se l'opposizione ha obiettato su quella proposta;
    - `risposta_esperti`: obbligatoria se adotti una proposta su cui un esperto ha dato giudizio `contrario` (regola 11);
+   - `riformulazione_costituzionale`: obbligatoria se un esperto ha segnalato `illegittimità probabile`. Indica come cambia il testo per renderlo conforme; senza, la misura viene sospesa (regola 12);
    - `scommessa`: una previsione verificabile oppure `null`.
 3. **Riserva per il risanamento.** Un programma in pareggio non riduce il debito. Con `riserva_deficit_mld` destini una parte delle coperture (mld l'anno a regime) alla riduzione del deficit: la Ragioneria la mette da parte **prima** di finanziare le decisioni, e se i fondi non bastano taglia dal fondo della tua lista. Motiva la cifra nell'indirizzo. Se non la usi, scrivi 0.
 4. **Mandati.** Compiti per i ministri, nella forma `{"area": "06", "compito": "...", "scadenza": "AAAA-MM-GG"}`. Ogni compito deve essere concreto e verificabile. In `mandati_chiusi` elenca gli id dei mandati aperti che consideri svolti.
@@ -54,7 +55,7 @@ Scrivi **solo** un file JSON in `{USCITA}`:
  "risposta_alla_domanda": "",
  "riserva_deficit_mld": 0,
  "decisioni": [{"proposta": "...", "variante": "ESSENZIALE", "decisione": "adottata", "regola": "nucleo",
-                "motivazione": "...", "deroga": false, "motivo_deroga": "", "risposta_opposizione": "...", "risposta_esperti": "",
+                "motivazione": "...", "deroga": false, "motivo_deroga": "", "risposta_opposizione": "...", "risposta_esperti": "", "riformulazione_costituzionale": "",
                 "scommessa": null}],
  "mandati": [{"area": "06", "compito": "...", "scadenza": "2027-01-31"}],
  "mandati_chiusi": [],

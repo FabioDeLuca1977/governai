@@ -71,7 +71,7 @@ La gran parte delle relazioni è *parziale*: obiettivi condivisi, strumenti dive
 | Scuola | Il calo degli alunni libera risorse in parte reinvestite contro la dispersione | La manovra 2027 riduce l'organico senza reinvestire |
 | PA | Ogni sostituzione di personale decisa per competenze; automazione certificata | Turn over al 75% per il 2027 |
 | Grandi opere | Nessuna opera senza valutazione indipendente dei numeri, Ponte compreso | Il governo procede con il Ponte sullo Stretto |
-| Trasporto locale | Fondo vincolato e indicizzato | La manovra 2027 sopprime il Fondo TPL e lo sostituisce con una compartecipazione regionale all'IRPEF |
+| Trasporto locale | Fondo vincolato e indicizzato | Il d.lgs. 147/2026 sopprime il Fondo TPL dal 2027 e lo sostituisce con una compartecipazione regionale all'IRPEF; la manovra 2027 ne registra l'effetto |
 | Anticorruzione | Trasparenza dei dati degli appalti, prima di nuovi reati o divieti | Opposizioni: nuove fattispecie. Governo: abrogazione dell'abuso d'ufficio |
 
 ## Dove GovernAI non ha (ancora) una posizione
@@ -90,7 +90,7 @@ Per i temi istituzionali i ricercatori suggeriscono il formato già usato per la
 Il confronto ha fatto emergere quattro punti in cui il programma va aggiornato alla legislazione vigente:
 1. **02-C1, salario.** L'art. 2 ripete in parte l'art. 7 del DL 62/2026, già in vigore. Va riscritto come modifica della norma vigente.
 2. **02-C3, pensioni.** L'art. 5 (adesione automatica alla previdenza complementare) ripete una norma della L. 199/2025. Si rischia il doppio conteggio di costi e risultati.
-3. **04-P3, treni dei pendolari.** È costruita sul Fondo nazionale TPL, che la manovra 2027 propone di sopprimere. Va riesaminata in Consiglio se la norma viene approvata.
+3. **04-P3, treni dei pendolari.** È costruita sul Fondo nazionale TPL, soppresso dal 2027 dal d.lgs. 147/2026. Va riformulata: secondo il controllo costituzionale, ricreare un fondo statale vincolato in una materia regionale rischia l'illegittimità (artt. 117 e 119); le strade conformi sono indicizzare la compartecipazione o un pilota con risorse aggiuntive e intesa con le Regioni.
 4. **Direttiva UE 2026/1021 sulla corruzione.** Va recepita, e GovernAI non ha ancora una proposta.
 
 ## Idee di altri da valutare

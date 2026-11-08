@@ -1,0 +1,20 @@
+{
+ "origine": "programma/schede/01_economia.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 5,
+ "alto": [],
+ "medio": [
+  "1"
+ ],
+ "rilievi": [
+  {
+   "art": "1",
+   "rubrica": "Finalità",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "delega: oggetto, principi e criteri, termine"
+  }
+ ]
+}

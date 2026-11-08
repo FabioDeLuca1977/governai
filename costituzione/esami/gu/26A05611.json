@@ -1,0 +1,30 @@
+{
+ "origine": "legislazione/archivio/testi/2026/26A05611.txt",
+ "data_riferimento": "2026-10-23",
+ "articoli": 12,
+ "alto": [],
+ "medio": [
+  "4",
+  "7"
+ ],
+ "rilievi": [
+  {
+   "art": "4",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "delega: oggetto, principi e criteri, termine"
+  },
+  {
+   "art": "7",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "8",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  }
+ ]
+}

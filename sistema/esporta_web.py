@@ -134,6 +134,31 @@ def governo() -> dict:
             if (g / "esperti.yaml").exists() else {}}
 
 
+def europa() -> dict:
+    """Scadenze UE, infrazioni e Semestre (europa/); vuoto se il modulo non c'è."""
+    try:
+        sys.path.insert(0, str(RADICE / "europa"))
+        from uscite import dati_web
+        d = dati_web()
+        d.pop("novita_md", None)  # il testo completo resta in europa/novita.md: il sito resta leggero
+        return d
+    except Exception:  # noqa: BLE001
+        return {}
+
+
+def costituzione() -> dict:
+    c = RADICE / "costituzione"
+    if not c.exists():
+        return {}
+    esami = [{"id": f.stem, "testo": leggi(f)} for f in sorted((c / "esami").glob("*.md"))
+             if not f.stem.endswith("_screening")]
+    gu = json.loads(leggi(c / "esami" / "gu" / "stato.json")) if (c / "esami" / "gu" / "stato.json").exists() else {}
+    return {"esami": esami,
+            "gu_alti": [{"codice": k, **v} for k, v in gu.get("esaminati", {}).items() if v.get("alto")][-30:],
+            "pronunce_verificate": len(json.loads(leggi(c / "giurisprudenza_verificata.json")))
+            if (c / "giurisprudenza_verificata.json").exists() else 0}
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     conf = yaml.safe_load(leggi(QUI / "config.yaml"))
@@ -214,6 +239,8 @@ def main() -> int:
         "lezioni": leggi(RADICE / "apprendimento" / "lezioni.md"),
         "integrita": integrita(),
         "governo": governo(),
+        "europa": europa(),
+        "costituzione": costituzione(),
         "numeri": {"cifre_verificate": 334, "proposte": len(proposte),
                    "varianti": int(var.drop_duplicates(["proposta_id", "variante"]).shape[0]),
                    "coperture": len(menu), "valori": len(valori_carta()),
@@ -225,6 +252,9 @@ def main() -> int:
                       "giuridico": leggi(RADICE / "giuridico" / "quadro.md"),
                       "confronto": leggi(RADICE / "benchmark" / "confronto.md"),
                       "partiti": leggi(RADICE / "benchmark" / "confronto_programmi.md"),
+                      "ue": leggi(RADICE / "europa" / "semestre.md") if (RADICE / "europa" / "semestre.md").exists() else "",
+                      "costituzione": "\n\n---\n\n".join(leggi(f) for f in [RADICE / "costituzione" / "esami" / "AC3174_manovra_2027.md",
+                                                                       RADICE / "costituzione" / "esami" / "governai_conti_2027_2029.md"] if f.exists()),
                       "trasparenza": leggi(RADICE / "trasparenza" / "rapporto.md"),
                       "legislazione": leggi(RADICE / "legislazione" / "README.md")},
     }

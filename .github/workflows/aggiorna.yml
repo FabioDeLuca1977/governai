@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name "governai-bot"
           git config user.email "governai-bot@users.noreply.github.com"
-          git add -A dati/serie dati/storico sistema/stato sistema/bollettini docs registro motore programma apprendimento integrita giuridico legislazione/archivio governo
+          git add -A dati/serie dati/storico sistema/stato sistema/bollettini docs registro motore programma apprendimento integrita giuridico legislazione/archivio governo europa costituzione/esami
           git diff --cached --quiet && exit 0
           git commit -m "Aggiornamento dati e bollettino $(date -u +%F)"
           git pull --rebase origin main

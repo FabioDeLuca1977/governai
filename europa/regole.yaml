@@ -1,0 +1,218 @@
+# Regole di pertinenza del modulo europa/ (lette da pertinenza.py).
+#
+# Tutte le regole sono trasparenti e deterministiche: nessun modello decide da solo a chi "tocca" un atto UE.
+# Il testo su cui si cercano le parole è: titolo italiano (senza l'intestazione "Direttiva (UE) ... del Parlamento europeo
+# e del Consiglio, del ...", che nominerebbe sempre le istituzioni) + descrittori EuroVoc (in italiano) + voci del
+# repertorio della legislazione UE (directory code), tutto in minuscolo.
+# Le parole sono RADICI: "sanit" trova sanità, sanitario, sanitaria. Si confrontano all'inizio di parola.
+# Una regola può essere una espressione regolare se inizia con 're:'.
+
+# --- Finestre ---------------------------------------------------------------------------------------
+finestre:
+  novita_giorni: 30          # europa/novita.md
+  scadenze_futuro_mesi: 24   # europa/scadenze.csv: termini di recepimento nei prossimi N mesi
+  scadenze_passato_mesi: 36  # ... e quelli già scaduti negli ultimi N mesi
+  proposte_giorni: 60        # proposte legislative della Commissione
+
+# --- Aree dei ministeri GovernAI (governo/consiglio.py -> MINISTERI) ---------------------------------
+# capitoli: capitoli (2 cifre) o sezioni (4 cifre) del repertorio della legislazione dell'Unione
+#           (https://eur-lex.europa.eu/browse/directories/legislation.html). La sezione vince sul capitolo.
+# parole:   radici cercate nel testo dell'atto.
+aree:
+  "01":
+    nome: Economia e imprese
+    capitoli: ["02", "06", "08", "09", "10", "13", "17", "1520"]
+    parole: [impres, pmi, "piccole e medie", concorrenz, "aiuto di stato", "aiuti di stato", "mercato interno", "mercato unico",
+             fiscal, impost, iva, accis, dogan, "tariffa doganale", "servizi finanziari", "ente creditizio", banca, bancari,
+             "mercato finanziario", "mercato dei capitali", "valore mobiliare", "strumento finanziario", assicurazion,
+             consumator, "proprietà intellettuale", brevett, "diritto societario", "società per azioni", contabil,
+             "revisione legale", turism, industria, "politica industriale", competitivit, "moneta unica", 're:\beuro\b', "servizi di pagamento"]
+  "02":
+    nome: Lavoro, welfare e famiglia
+    capitoli: ["05"]
+    parole: [lavor, occupazion, salari, retribuzion, "previdenza sociale", "sicurezza sociale", pension, disoccupazion,
+             "condizioni di lavoro", "parità di trattamento", "parità retributiva", famigli, infanzia, minori, disabil, povert,
+             "esclusione sociale", "inclusione sociale", "politica sociale", "dialogo sociale", "salute e sicurezza sul lavoro",
+             "congedo", "assistenza sociale", anzian]
+  "03":
+    nome: Ambiente, energia e agricoltura
+    capitoli: ["03", "04", "12", "1330", "1510", "1540"]
+    parole: [ambient, inquinament, rifiut, emission, clima, climatic, energ, elettric, "gas naturale", rinnovabil, idrogeno,
+             agricol, "politica agricola", "prodotto agricolo", pesca, acquacoltur, "risorse idriche", "acque", biodiversit,
+             forest, fitosanitar, "prodotto fitosanitario", sementi, vino, "sostanza chimica", "prodotto chimico", biocid, suolo,
+             "qualità dell'aria", "efficienza energetica", "sistema di scambio di quote", carbonio, "economia circolare",
+             imballagg, "sanità animale", veterinar, zootecn, alimentar]
+  "04":
+    nome: Infrastrutture e territori
+    capitoli: ["07", "14", "1360"]
+    parole: [trasport, ferrovi, stradal, "rete viaria", aviazion, aere, marittim, portual, 're:\bport[io]\b', veicol, autoveicol, edili,
+             abitazion, allogg, costruzion, "politica regionale", coesion, "fondi strutturali", fesr, "sviluppo regionale",
+             urban, infrastruttur, "rete transeuropea", "trasporto pubblico", pendolar, "mobilità"]
+  "05":
+    nome: Istruzione, ricerca e cultura
+    capitoli: ["16"]
+    parole: [istruzion, scuol, universit, "insegnamento superiore", "ricerca scientifica", "ricerca e sviluppo", "ricerca e innovazione", ricercator, "politica della ricerca", "formazione professionale", competenz, giovan,
+             cultur, "patrimonio culturale", audiovisiv, "mezzi di comunicazione", 're:\bsport(?!ell)', erasmus, scienz, "orizzonte europa"]
+  "06":
+    nome: Salute
+    capitoli: ["1530"]
+    parole: ["sanità pubblica", salute, medicinal, "prodotto farmaceutico", farmac, "dispositivo medico", "dispositivi medici",
+             're:\bmalatti[ae](?! anima)', ospedal, "assistenza sanitaria", "servizio sanitario", sangue, tabacco, "sicurezza alimentare",
+             "alimenti", cosmetic, 're:\bmedic[oi]\b', infermier, vaccin, pandemi, epidemi]
+  "07":
+    nome: Giustizia, interno e difesa
+    capitoli: ["19"]
+    parole: [giustizi, giudiziar, tribunal, "procedura penale", "diritto penale", reato, criminal, terrorism, polizi,
+             "sicurezza interna", frontier, immigra, migra, asilo, "politica dei visti", rifugiat, difes, militar, armament, "armi",
+             cibersicurezz, cybersicurezz, "sicurezza informatica", "protezione civile", droga, stupefacent, riciclaggio,
+             "cooperazione giudiziaria", carcer, detenut, "beni confiscati", confisc]
+  "08":
+    nome: Esteri, Europa e istituzioni
+    capitoli: ["01", "11", "18", "20"]
+    parole: ["relazioni esterne", "accordo internazionale", "politica estera", pesc, "misura restrittiva", "misure restrittive",
+             "sanzione internazionale", "commercio internazionale", "politica commerciale", antidumping, "accordo commerciale",
+             "aiuto allo sviluppo", "cooperazione allo sviluppo", "aiuto umanitario",
+             "bilancio dell'ue", "bilancio generale", "risorse proprie", "quadro finanziario pluriennale", elezion, "stato di diritto",
+             "appalto pubblico", "appalti pubblici", esportazion, "istituzione dell'ue", "statuto dei deputati"]
+  "09":
+    nome: PA e digitale
+    capitoli: ["1320"]
+    parole: [digital, "dati personali", "protezione dei dati", "intelligenza artificiale", informatic, "tecnologia dell'informazione",
+             "società dell'informazione", "comunicazione elettronica", "comunicazioni elettroniche", telecomunicazion,
+             "pubblica amministrazione", "amministrazione pubblica", "funzione pubblica", "identità digitale", "identificazione elettronica",
+             "firma elettronica", interoperabil, cloud, "dati aperti", "riutilizzo dell'informazione", "appalto pubblico",
+             "appalti pubblici", "semplificazione amministrativa", "governo elettronico", "e-government", "piattaform", algoritm]
+
+# Materie della banca dati EUR-Infra (procedure d'infrazione) -> aree GovernAI
+materie_infrazioni:
+  "Affari economici e finanziari": ["01"]
+  "Affari esteri": ["08"]
+  "Affari interni": ["07"]
+  "Agricoltura": ["03"]
+  "Ambiente": ["03"]
+  "Appalti": ["08", "09"]
+  "Beni culturali e turismo": ["05", "01"]
+  "Comunicazioni": ["09"]
+  "Concorrenza e aiuti di Stato": ["01"]
+  "Energia": ["03"]
+  "Fiscalita' e Dogane": ["01"]
+  "Fondi strutturali": ["04"]
+  "Giustizia": ["07"]
+  "Istruzione, Universita' e Ricerca": ["05"]
+  "Lavoro e affari sociali": ["02"]
+  "Libera circolazione dei capitali": ["01"]
+  "Libera circolazione delle merci": ["01"]
+  "Libera circolazione delle persone": ["07"]
+  "Libera prestazione dei servizi e stabilimento": ["01"]
+  "Pesca": ["03"]
+  "Salute": ["06"]
+  "Trasporti": ["04"]
+  "Tutela dei consumatori": ["01"]
+  "Privacy": ["09"]
+
+# --- Proposte del programma (motore/proposte.csv) -----------------------------------------------------
+# Oltre a queste parole, un atto è collegato a una proposta se cita (o è) un atto UE citato nella sua scheda
+# in programma/schede/ (es. "Reg. (UE) 2024/1747" nella scheda 03-P2).
+proposte:
+  01-P1: ["bilancio generazionale", "sostenibilità di bilancio", "valutazione d'impatto"]
+  01-P2: ["spese fiscali", "agevolazione fiscale", "agevolazioni fiscali", "esenzione fiscale"]
+  01-P3: [iva, "fatturazione elettronica", "era digitale"]
+  01-P4: [pmi, "piccole e medie imprese", "dimensione dell'impresa", "microimpres"]
+  01-P5: ["accordi di compravendita di energia", "prezzo dell'energia", "prezzi dell'energia", "mercato dell'energia elettrica", ppa]
+  01-P6: [turism, "tassa di soggiorno", "locazioni a breve termine", "alloggi a breve termine"]
+  01-P7: ["dichiarazione dei redditi", "imposta sul reddito", "amministrazione fiscale"]
+  01-P8: ["detrazione fiscale", "imposta sul reddito"]
+  01-P9: ["imposta sul reddito", "cuneo fiscale", "lavoro dipendente"]
+  01-P10: ["frode fiscale", "evasione fiscale", "scambio automatico di informazioni", "cooperazione amministrativa nel settore fiscale", dac]
+  01-P11: ["pagamento elettronico", "pagamenti elettronici", "servizi di pagamento", contante]
+  01-P12: ["riscossione delle imposte", "riscossione dei tributi", "sanzione fiscale", "sanzioni tributarie", "recupero dei crediti relativi a imposte", "condono"]
+  02-C1: ["salario minimo", "salari minimi", "contrattazione collettiva", retribuzion]
+  02-C2: ["congedo di paternità", "congedo parentale", "servizi per l'infanzia", "custodia dei bambini", "equilibrio tra attività professionale e vita familiare"]
+  02-C3: [pension, "previdenza sociale", "regime pensionistico"]
+  02-C4: ["reddito minimo", povert, "esclusione sociale", "inclusione sociale"]
+  02-C5: [disabil, "accessibilità"]
+  02-C6: [demograf, natalit, "invecchiamento della popolazione"]
+  03-P1: ["sussidi dannosi", "tassazione dei prodotti energetici", "tassazione dell'energia", "sistema di scambio di quote", ets2, "fondo sociale per il clima"]
+  03-P2: ["contratti per differenza", "mercato dell'energia elettrica", "energia rinnovabile", "fonti rinnovabili"]
+  03-P3: ["acque reflue", "acqua potabile", "acque destinate al consumo umano", "riutilizzo dell'acqua", "risorse idriche", "gestione delle acque"]
+  03-P4: ["catastrofi naturali", "calamità naturale", "protezione civile", "rischio di alluvioni", "adattamento ai cambiamenti climatici", "fondo di solidarietà"]
+  03-P5: ["politica agricola comune", "pagamenti diretti", "sviluppo rurale", "agricoltura sostenibile", agroambiental, "ripristino della natura"]
+  04-P1: ["ripresa e resilienza", "dispositivo per la ripresa", pnrr]
+  04-P2: [abitazion, "alloggi a prezzi accessibili", "edilizia sociale", "edilizia abitativa", "prestazione energetica nell'edilizia", "prestazione energetica degli edifici"]
+  04-P3: ["trasporto pubblico", "trasporto ferroviario di passeggeri", pendolar, "diritti dei passeggeri", "obblighi di servizio pubblico"]
+  04-P4: ["grandi progetti", "valutazione dell'impatto ambientale", "analisi costi-benefici", "rete transeuropea"]
+  04-P5: ["autonomie locali", "enti territoriali", "politica regionale"]
+  04-P6: ["zone rurali", "aree rurali", "zone svantaggiate", "regioni ultraperiferiche", "spopolamento", "coesione territoriale"]
+  05-C1: ["abbandono scolastico", "dispersione scolastica", "istruzione e formazione"]
+  05-C2: ["conti individuali di apprendimento", "formazione permanente", "apprendimento permanente", competenz]
+  05-C3: ["ricercatori", "spazio europeo della ricerca", "orizzonte europa"]
+  05-C4: ["istruzione superiore", "insegnamento superiore", "formazione professionale", "istruzione terziaria"]
+  05-C5: [scuol]
+  05-C6: ["intelligenza artificiale", "competenze digitali", "istruzione digitale"]
+  06-C1: ["liste d'attesa", "assistenza sanitaria transfrontaliera", "accesso alle cure"]
+  06-C2: [infermier, "professioni sanitarie", "personale sanitario", 're:\bmedic[oi]\b']
+  06-C3: ["assistenza sanitaria primaria", "cure primarie", "assistenza sanitaria"]
+  06-C4: ["assistenza a lungo termine", "non autosufficien", anzian]
+  06-C5: ["salute mentale"]
+  06-C6: [medicinal, "prodotto farmaceutico", farmac, "prevenzione delle malattie", "medicina preventiva", "prevenzione sanitaria", vaccin, "spazio europeo dei dati sanitari"]
+  07-C1: ["digitalizzazione della cooperazione giudiziaria", "sistema giudiziario", "procedura civile", giustizi]
+  07-C2: [detenut, carcer, "misure alternative", "pena"]
+  07-C3: [migra, asilo, rimpatri, "protezione internazionale", frontier]
+  07-C4: [confisc, "beni sequestrati", "recupero dei beni", "criminalità organizzata"]
+  07-C5: [difes, "industria della difesa", armament, "spesa militare", "clausola di salvaguardia nazionale"]
+  07-C6: [cibersicurezz, cybersicurezz, "sicurezza informatica", "sicurezza delle reti", nis2, "ciberresilienza", "resilienza informatica"]
+  08-P1: ["intelligenza artificiale", algoritm, "processo decisionale automatizzato"]
+  08-P2: ["legiferare meglio", "semplificazione", "valutazione d'impatto", "qualità della legislazione", omnibus]
+  08-P3: [elezion, "diritto di voto", "elettorale"]
+  08-P4: ["risorse proprie", "quadro finanziario pluriennale", "bilancio dell'ue", "bilancio generale dell'unione", "beni pubblici europei"]
+  08-P5: ["aiuto pubblico allo sviluppo", "cooperazione allo sviluppo", "aiuto allo sviluppo", "aiuto umanitario"]
+  08-P6: [esportazion, "accordo commerciale", "politica commerciale", dazi, "assicurazione del credito all'esportazione", "controllo delle esportazioni"]
+  08-P7: ["appalto pubblico", "appalti pubblici", "aggiudicazione", "contratti pubblici"]
+  09-C1: ["dati aperti", "riutilizzo dell'informazione", "statistiche ufficiali", "dati del settore pubblico", interoperabil]
+  09-C2: ["sportello digitale unico", "once-only", "una tantum", "identità digitale", "identificazione elettronica", "portafoglio europeo di identità digitale"]
+  09-C3: ["capacità amministrativa", "enti locali", "assistenza tecnica"]
+  09-C4: [cloud, "infrastruttura digitale", "centri di dati", "data center"]
+  09-C5: ["intelligenza artificiale", "processo decisionale automatizzato", "pubblica amministrazione"]
+  09-C6: ["funzione pubblica", "pubblico impiego", "dipendenti pubblici"]
+  09-C7: [automazion, "intelligenza artificiale"]
+  09-C8: ["funzione pubblica", "riqualificazione", "competenze digitali"]
+
+# --- Tipo di impatto -----------------------------------------------------------------------------------
+# Ordine di valutazione: rettifica -> atto che nomina solo altri Stati -> vincolo di bilancio -> opportunità -> direttiva (obbligo)
+# -> gestione corrente (informativo) -> regolamento/decisione (obbligo) -> altro (informativo).
+impatto:
+  vincolo_bilancio: ["disavanzo eccessivo", "disavanzi eccessivi", "spesa netta", "patto di stabilità", "sorveglianza di bilancio",
+                     "governance economica", "politica di bilancio", "disavanzo pubblico", "debito pubblico", "semestre europeo",
+                     "piano strutturale di bilancio", "piano nazionale strutturale", "documento programmatico di bilancio",
+                     "squilibri macroeconomici", "coordinamento delle politiche economiche", "quadri di bilancio"]
+  opportunita: ["finanziamento dell'ue", "finanziamento dell'unione", "contributo finanziario", "sostegno finanziario",
+                "assistenza finanziaria", "fondo europeo", "fondo sociale", fesr, "fondo di coesione", "fondo di solidarietà",
+                "fondo per una transizione giusta", "dispositivo per la ripresa", "ripresa e resilienza", "investeu", "orizzonte europa",
+                "programma dell'ue", "programma pluriennale", sovvenzion, "mobilitazione del fondo", "strumento di flessibilità",
+                "fondo europeo di adeguamento alla globalizzazione", "connecting europe", "meccanismo per collegare l'europa"]
+  # Frasi che escludono l'opportunità anche se compaiono parole sui fondi (es. contributi che gli Stati devono VERSARE)
+  opportunita_esclusioni: ["devono versare", "contributi da versare", "recupero degli importi", "rettifiche finanziarie"]
+  # Atti di gestione corrente: autorizzazioni singole, registrazioni, elenchi, misure su singoli prodotti o persone.
+  routine: ["rilascia un'autorizzazione", "rilascia un’autorizzazione", "autorizzazione dell'unione per", "autorizzazione dell’unione per",
+            "denominazione di origine", "indicazione geografica", "specialità tradizionale garantita", "iscrizione di una denominazione",
+            "modifica non minore", "misure restrittive", "dazio antidumping", "dazi antidumping", "dazio compensativo",
+            "classificazione di talune merci", "nomenclatura combinata", "posizione da adottare a nome dell", "nomina d",
+            "che nomina", "rinnovo dell'approvazione della sostanza attiva", "rinnovo dell’approvazione della sostanza attiva",
+            "non rinnovo", "proroga dei periodi di approvazione", "limiti massimi di residui", "misure speciali di controllo delle malattie",
+            "peste suina", "influenza aviaria", "contingente tariffario", "contingenti tariffari", "valore forfettario",
+            "autorizzazione di un preparato", "additivo per mangimi", "additivi per mangimi", "nuovo alimento",
+            "sospensione dell'approvazione di un'attrezzatura", "norma armonizzata", "norme armonizzate", "elenco delle persone",
+            "registro dei", "immissione in commercio", "importazioni di", "originari della", "originari del", "originarie della"]
+
+# Stati membri diversi dall'Italia: se il titolo nomina solo uno di questi Stati, l'atto non obbliga l'Italia.
+altri_stati: [Austria, Belgio, Bulgaria, Cipro, Croazia, Danimarca, Estonia, Finlandia, Francia, Germania, Grecia, Irlanda,
+              Lettonia, Lituania, Lussemburgo, Malta, "Paesi Bassi", Polonia, Portogallo, "Repubblica ceca", Cechia, Romania,
+              Slovacchia, Slovenia, Spagna, Svezia, Ungheria]
+
+# --- Esperti (governo/esperti.yaml) ---------------------------------------------------------------------
+# Gli esperti sono scelti con le loro "parole" (come fa governo/consiglio.py), più queste regole fisse per tipo di impatto.
+esperti_per_impatto:
+  obbligo: [giurista]
+  vincolo di bilancio: [finanza_pubblica]
+  opportunità: [europa_esteri]
+esperto_infrazioni: [giurista, europa_esteri]

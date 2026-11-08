@@ -1,0 +1,20 @@
+{
+ "origine": "programma/schede/04_infrastrutture.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 6,
+ "alto": [],
+ "medio": [
+  "5"
+ ],
+ "rilievi": [
+  {
+   "art": "5",
+   "rubrica": "Gestione associata",
+   "parametro": "tributi",
+   "segnale": "contributo_solidarieta",
+   "livello": "medio",
+   "comma": "",
+   "nota": "prelievo straordinario: temporaneita', progressivita', base coerente"
+  }
+ ]
+}

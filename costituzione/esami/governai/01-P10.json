@@ -1,0 +1,20 @@
+{
+ "origine": "programma/schede/11_evasione.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 7,
+ "alto": [],
+ "medio": [
+  "4"
+ ],
+ "rilievi": [
+  {
+   "art": "4",
+   "rubrica": "Prima la correzione",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "origine": "legislazione/archivio/testi/2026/26G00202.txt",
+ "data_riferimento": "2026-10-30",
+ "articoli": 10,
+ "alto": [],
+ "medio": [
+  "1",
+  "7"
+ ],
+ "rilievi": [
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega",
+   "livello": "medio",
+   "comma": "9",
+   "nota": "delega: oggetto, principi e criteri, termine"
+  },
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "dpcm_regolamento_delegificazione",
+   "livello": "medio",
+   "comma": "9",
+   "nota": "delegificazione: norme generali regolatrici e abrogazione indicata dalla legge"
+  },
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "9",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "9",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "2",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "18",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "7",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "decorrenza 2026-07-10 anteriore alla data di riferimento 2026-10-30"
+  }
+ ]
+}

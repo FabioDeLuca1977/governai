@@ -203,6 +203,23 @@ def main() -> int:
         ok, msg = esegui(["scarica_gu.py"], RADICE / "legislazione", timeout=3600)
         log.append(f"legislazione: {msg}" if ok else f"ERRORE legislazione: {msg}")
 
+    # 3d-bis. europa: atti UE (GU L), scadenze di recepimento, Semestre europeo, infrazioni
+    if not a.senza_download and (RADICE / "europa" / "scarica_ue.py").exists():
+        ok, msg = esegui(["scarica_ue.py"], RADICE / "europa", timeout=1800)
+        log.append(f"europa: {msg}" if ok else f"ERRORE europa: {msg}")
+    elif (RADICE / "europa" / "uscite.py").exists():
+        esegui(["uscite.py"], RADICE / "europa")  # senza rete: rigenera le uscite dall'archivio
+
+    # 3d-ter. costituzione: screening costituzionale degli atti con forza di legge nuovi della Gazzetta;
+    #         il lunedì aggiorna i dati aperti della Corte costituzionale
+    if (RADICE / "costituzione" / "controllo.py").exists():
+        if not a.senza_download and date.today().weekday() == 0:
+            ok, msg = esegui(["giurisprudenza.py", "--scarica", "--forza", "--verifica-parametri"],
+                             RADICE / "costituzione", timeout=1800)
+            log.append(f"giurisprudenza: {msg}" if ok else f"ERRORE giurisprudenza: {msg}")
+        ok, msg = esegui(["controllo.py", "--gu"], RADICE / "costituzione", timeout=1800)
+        log.append(msg if ok else f"ERRORE costituzione: {msg}")
+
     # 3e. governo ombra: verifica le previsioni scadute del Consiglio dei ministri e aggiorna la credibilità
     if (RADICE / "governo" / "previsioni.csv").exists():
         ok, msg = esegui(["consiglio.py", "--valuta"], RADICE / "governo")

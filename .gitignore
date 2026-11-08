@@ -26,3 +26,6 @@ trasparenza/riservato/
 
 # log locali del modulo legislazione
 legislazione/archivio/_log_*.txt
+# copie di lavoro del modulo europa (rigenerabili)
+europa/archivio/cache/
+europa/archivio/testi/

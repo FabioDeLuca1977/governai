@@ -26,6 +26,8 @@ L'interfaccia web pubblicata in `docs/` contiene:
 | `governo/` | Il Consiglio dei ministri ombra: regolamento, ruoli (9 ministri, opposizione leale, capo di governo), sedute, verbali, previsioni e credibilità |
 | `benchmark/` | Confronto con i Paesi che funzionano meglio e con i programmi del governo e dei partiti italiani (`confronto_programmi.md`, rapporti in `programmi/`) |
 | `trasparenza/` | Indicatori di rischio negli appalti pubblici (dati ANAC); il rapporto pubblico è aggregato, gli elenchi nominativi restano riservati |
+| `europa/` | Monitoraggio quotidiano dell'Unione europea: atti della Gazzetta UE, obblighi di recepimento in scadenza, infrazioni contro l'Italia, Semestre europeo |
+| `costituzione/` | Controllo di costituzionalità di leggi, emendamenti e manovre: screening automatico, giurisprudenza verificata della Corte, esami approfonditi (manovra 2027, misure GovernAI) |
 | `legislazione/` | Archivio quotidiano della Gazzetta Ufficiale, ricerca negli atti e verifica della redazione di leggi ed emendamenti |
 | `apprendimento/` | Obiettivi misurabili, registro delle decisioni, esiti e calibrazione: il modello impara da successi e insuccessi |
 | `integrita/` | Catena di impronte crittografiche (stile blockchain) che rende visibile ogni manomissione |

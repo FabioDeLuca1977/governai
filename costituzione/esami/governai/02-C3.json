@@ -1,0 +1,20 @@
+{
+ "origine": "programma/schede/02_lavoro.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 6,
+ "alto": [],
+ "medio": [
+  "3"
+ ],
+ "rilievi": [
+  {
+   "art": "3",
+   "rubrica": "Contributo temporaneo di solidarietà",
+   "parametro": "tributi",
+   "segnale": "contributo_solidarieta",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "prelievo straordinario: temporaneita', progressivita', base coerente"
+  }
+ ]
+}

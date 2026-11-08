@@ -13,7 +13,8 @@ Il regolamento serve a rendere il modo di decidere migliore di quello abituale. 
 | **Opposizione leale** | Cerca il punto debole di ogni richiesta, con prove, e dice quale fatto le farebbe cambiare idea | Proporre misure proprie fuori dal programma. Decidere |
 | **Capo di governo** | Arbitra i conflitti, decide e fissa i mandati ai ministri | Ignorare la Carta senza motivare. Superare una linea rossa |
 | **Ragioneria** (deterministica) | Verifica che le decisioni siano finanziabili senza deficit | Essere scavalcata |
-| **Ufficio legislativo** (deterministico) | Verifica la conformità giuridica e la redazione dei testi | Essere scavalcato |
+| **Ufficio legislativo** (deterministico) | Verifica la conformità giuridica, la redazione dei testi e, con lo screening costituzionale, i rischi di illegittimità | Essere scavalcato |
+| **Osservatorio UE** (deterministico) | Porta in seduta gli obblighi UE in scadenza, le infrazioni e il Semestre europeo per le aree convocate | Essere ignorato |
 | **Garante dei valori** (deterministico) | Applica le linee rosse della Carta | Essere scavalcato |
 
 Ogni ruolo affidato all'AI è svolto da un agente distinto, che non vede il lavoro degli altri finché non ha consegnato il proprio. L'ordine è questo:
@@ -22,7 +23,7 @@ Ogni ruolo affidato all'AI è svolto da un agente distinto, che non vede il lavo
 3. l'**opposizione** legge pareri e richieste;
 4. il **capo di governo** legge tutto e decide.
 
-In ogni seduta partecipano sempre l'economista di finanza pubblica e il giurista. Gli altri esperti, fino a sei in tutto, sono scelti in base alla domanda e alle allerte. L'elenco completo è in `governo/esperti.yaml`.
+In ogni seduta partecipano sempre l'economista di finanza pubblica, il giurista e il costituzionalista. L'esperto di affari europei entra quando le aree convocate hanno obblighi UE critici o infrazioni. Gli altri esperti, fino a sette in tutto, sono scelti in base alla domanda e alle allerte. L'elenco completo è in `governo/esperti.yaml`.
 
 ## Le regole
 
@@ -37,6 +38,7 @@ In ogni seduta partecipano sempre l'economista di finanza pubblica e il giurista
 9. **Verbale pubblico e immutabile.** Ogni seduta produce un verbale pubblicato sul sito e registrato nella catena di integrità.
 10. **Mandati con scadenza.** Il capo affida compiti ai ministri con una data. Il mandato non svolto resta all'ordine del giorno finché non viene chiuso.
 11. **Rispetto della competenza.** Se il capo adotta una proposta su cui un esperto ha dato parere contrario, risponde per iscritto al parere. Un parere senza fonti, senza grado di certezza o senza i limiti di ciò che si sa non viene considerato.
+12. **Costituzione e Unione europea vengono prima.** Se il giurista o il costituzionalista segnalano un'**illegittimità probabile**, con una sentenza verificata, la misura è sospesa finché il capo di governo non la riformula per iscritto. Gli obblighi UE in scadenza o in infrazione nelle aree convocate si affrontano nella seduta, con una misura di recepimento o un mandato. Le raccomandazioni del Semestre europeo valgono come vincolo per le misure di bilancio.
 
 ## Quando si riunisce
 
@@ -58,6 +60,7 @@ Le decisioni non valgono per sempre: ogni giorno il sistema verifica, con un con
 - ci sono allerte nuove o rientrate?
 - sono cambiate le regole (Carta, rubrica, motore, regolamento, ruoli), secondo la catena di integrità?
 - il programma in vigore viola una linea rossa o non è più finanziabile senza deficit?
+- ci sono obblighi UE critici nuovi per le aree della seduta?
 - la seduta ha superato l'età massima (`governo_riesame_giorni`, oggi 90 giorni)?
 
 Se una risposta è sì, la seduta è **da riesaminare** e il sistema scrive da solo la richiesta di riesame, una alla volta. Si può anche chiedere un riesame in qualsiasi momento: dal sito, con un file in `governo/richieste/`, o in chat.

@@ -1,0 +1,29 @@
+{
+ "origine": "programma/schede/07_giustizia.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 5,
+ "alto": [],
+ "medio": [
+  "5"
+ ],
+ "rilievi": [
+  {
+   "art": "2",
+   "rubrica": "Rafforzamento dell'ANBSC",
+   "parametro": "procedimento_deleghe",
+   "segnale": "norma_ordinamentale_bilancio",
+   "livello": "basso",
+   "comma": "",
+   "nota": "norma organizzatoria: estranea alla legge di bilancio se senza effetti finanziari"
+  },
+  {
+   "art": "5",
+   "rubrica": "Copertura finanziaria",
+   "parametro": "bilancio",
+   "segnale": "copertura_fondi_generici",
+   "livello": "medio",
+   "comma": "",
+   "nota": "mezzo di copertura fragile"
+  }
+ ]
+}

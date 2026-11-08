@@ -34,13 +34,19 @@ GENESI = "0" * 64
 REGOLE = ["01_carta_valori.md", "00_metodo.md", "motore/rubrica.md", "sistema/config.yaml",
           "motore/decidi.py", "programma/ottimizza.py", "registro/controlla.py", "sistema/revisione_ai.py",
           "sistema/analizza_richiesta.py", "apprendimento/valuta.py",
-          "governo/regolamento.md", "governo/consiglio.py", "governo/ruoli/*.md", "governo/esperti.yaml"]
+          "governo/regolamento.md", "governo/consiglio.py", "governo/ruoli/*.md", "governo/esperti.yaml",
+          "costituzione/parametri.yaml", "costituzione/controllo.py", "costituzione/istruzioni_costituzionalista.md",
+          "europa/regole.yaml", "europa/pertinenza.py", "europa/uscite.py", "europa/scarica_ue.py"]
 INPUT = ["motore/punteggi_*.csv", "motore/proposte.csv", "registro/fondi.csv", "programma/varianti/*.csv",
          "programma/coperture_menu.csv", "giuridico/conformita.csv", "apprendimento/obiettivi.yaml", "apprendimento/decisioni.csv",
-         "dati/serie/*.csv"]
+         "dati/serie/*.csv",
+         "costituzione/giurisprudenza_verificata.json", "costituzione/testi/*.txt",
+         "europa/scadenze.csv", "europa/infrazioni.csv", "europa/stato.json",
+         "europa/archivio/atti.csv", "europa/archivio/direttive.csv", "europa/archivio/semestre.json"]
 OUTPUT = ["programma/selezione_*.csv", "motore/esito_proposte.csv", "sistema/bollettini/ultimo.md",
           "apprendimento/esiti.csv", "apprendimento/calibrazione.csv", "analisi/*.json",
-          "governo/verbali/*.json", "governo/previsioni.csv", "governo/mandati.csv"]
+          "governo/verbali/*.json", "governo/previsioni.csv", "governo/mandati.csv",
+          "costituzione/esami/*.md"]
 
 
 def impronta_file(p: Path) -> str:

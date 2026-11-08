@@ -1,0 +1,20 @@
+{
+ "origine": "programma/schede/02_lavoro.md",
+ "data_riferimento": "2027-01-01",
+ "articoli": 5,
+ "alto": [],
+ "medio": [
+  "5"
+ ],
+ "rilievi": [
+  {
+   "art": "5",
+   "rubrica": "Copertura finanziaria",
+   "parametro": "bilancio",
+   "segnale": "modifica_243",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "legge rinforzata: modifica espressa e maggioranza assoluta"
+  }
+ ]
+}

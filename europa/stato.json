@@ -1,0 +1,261 @@
+{
+ "aggiornato": "2026-11-08",
+ "fonti": {
+  "cellar_gu_l": "ok: 0 atti nuovi dal 2026-09-09",
+  "cellar_testi": "0/0 testi di direttive",
+  "cellar_direttive": "ok: 145 direttive con termine tra 2023-11-08 e 2028-11-08",
+  "cellar_proposte": "ok: 64 proposte dal 2026-09-09",
+  "cellar_semestre": "ok: 16 documenti",
+  "ecfin_edp": "ok: 9 passaggi",
+  "eurinfra": "ok: 84 procedure (il sito dichiara 84)",
+  "dpe_aggiornamenti": "ok: 10 aggiornamenti"
+ },
+ "ultima_esecuzione": "2026-11-08T14:48:19",
+ "archivio": {
+  "atti_gu_l": 773,
+  "dal": "2026-09-09",
+  "direttive_monitorate": 145,
+  "proposte_ue": 64,
+  "testi": 5
+ },
+ "totali": {
+  "novita_30g": 298,
+  "scadenze": 143,
+  "scadenze_per_priorita": {
+   "critica": 23,
+   "alta": 10,
+   "media": 94,
+   "bassa": 16
+  },
+  "infrazioni_aperte": 84,
+  "infrazioni_mancato_recepimento": 21,
+  "infrazioni_novita": 0
+ },
+ "per_area": {
+  "01": {
+   "nome": "Economia e imprese",
+   "novita_30g": 113,
+   "novita_30g_alta": 8,
+   "obblighi_30g": 36,
+   "opportunita_30g": 2,
+   "vincoli_bilancio_30g": 0,
+   "direttive_in_scadenza_12m": 12,
+   "direttive_scadute_senza_misure": 1,
+   "direttive_con_infrazione": 13,
+   "infrazioni_aperte": 28,
+   "proposte_ue_30g": 2
+  },
+  "02": {
+   "nome": "Lavoro, welfare e famiglia",
+   "novita_30g": 18,
+   "novita_30g_alta": 2,
+   "obblighi_30g": 3,
+   "opportunita_30g": 0,
+   "vincoli_bilancio_30g": 0,
+   "direttive_in_scadenza_12m": 5,
+   "direttive_scadute_senza_misure": 0,
+   "direttive_con_infrazione": 1,
+   "infrazioni_aperte": 9,
+   "proposte_ue_30g": 2
+  },
+  "03": {
+   "nome": "Ambiente, energia e agricoltura",
+   "novita_30g": 109,
+   "novita_30g_alta": 7,
+   "obblighi_30g": 44,
+   "opportunita_30g": 3,
+   "vincoli_bilancio_30g": 0,
+   "direttive_in_scadenza_12m": 11,
+   "direttive_scadute_senza_misure": 0,
+   "direttive_con_infrazione": 12,
+   "infrazioni_aperte": 39,
+   "proposte_ue_30g": 7
+  },
+  "04": {
+   "nome": "Infrastrutture e territori",
+   "novita_30g": 49,
+   "novita_30g_alta": 8,
+   "obblighi_30g": 17,
+   "opportunita_30g": 1,
+   "vincoli_bilancio_30g": 0,
+   "direttive_in_scadenza_12m": 6,
+   "direttive_scadute_senza_misure": 0,
+   "direttive_con_infrazione": 3,
+   "infrazioni_aperte": 14,
+   "proposte_ue_30g": 5
+  },
+  "05": {
+   "nome": "Istruzione, ricerca e cultura",
+   "novita_30g": 7,
+   "novita_30g_alta": 1,
+   "obblighi_30g": 3,
+   "opportunita_30g": 2,
+   "vincoli_bilancio_30g": 0,
+   "direttive_in_scadenza_12m": 1,
+   "direttive_scadute_senza_misure": 0,
+   "direttive_con_infrazione": 0,
+   "infrazioni_aperte": 0,
+   "proposte_ue_30g": 1
+  },
+  "06": {
+   "nome": "Salute",
+   "novita_30g": 46,
+   "novita_30g_alta": 2,
+   "obblighi_30g": 15,
+   "opportunita_30g": 0,
+   "vincoli_bilancio_30g": 0,
+   "direttive_in_scadenza_12m": 1,
+   "direttive_scadute_senza_misure": 0,
+   "direttive_con_infrazione": 3,
+   "infrazioni_aperte": 4,
+   "proposte_ue_30g": 0
+  },
+  "07": {
+   "nome": "Giustizia, interno e difesa",
+   "novita_30g": 60,
+   "novita_30g_alta": 26,
+   "obblighi_30g": 30,
+   "opportunita_30g": 2,
+   "vincoli_bilancio_30g": 0,
+   "direttive_in_scadenza_12m": 5,
+   "direttive_scadute_senza_misure": 0,
+   "direttive_con_infrazione": 5,
+   "infrazioni_aperte": 7,
+   "proposte_ue_30g": 4
+  },
+  "08": {
+   "nome": "Esteri, Europa e istituzioni",
+   "novita_30g": 135,
+   "novita_30g_alta": 29,
+   "obblighi_30g": 37,
+   "opportunita_30g": 7,
+   "vincoli_bilancio_30g": 0,
+   "direttive_in_scadenza_12m": 2,
+   "direttive_scadute_senza_misure": 0,
+   "direttive_con_infrazione": 3,
+   "infrazioni_aperte": 5,
+   "proposte_ue_30g": 8
+  },
+  "09": {
+   "nome": "PA e digitale",
+   "novita_30g": 35,
+   "novita_30g_alta": 9,
+   "obblighi_30g": 11,
+   "opportunita_30g": 2,
+   "vincoli_bilancio_30g": 0,
+   "direttive_in_scadenza_12m": 4,
+   "direttive_scadute_senza_misure": 0,
+   "direttive_con_infrazione": 3,
+   "infrazioni_aperte": 2,
+   "proposte_ue_30g": 3
+  }
+ },
+ "semestre": {
+  "procedura_disavanzo": "procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026)",
+  "raccomandazione": "32026H03925",
+  "anno_raccomandazioni": "2026",
+  "numero_raccomandazioni": 6
+ },
+ "scadenze_principali": [
+  {
+   "priorita": "critica",
+   "celex": "32015L0849",
+   "titolo": "Direttiva (UE) 2015/849 del Parlamento europeo e del Consiglio, del 20 maggio 2015, relativa alla prevenzione dell'uso del sistema finanziario a fini di riciclaggio o finanziamento del terrorismo, che modifica il regolamento (UE) n. 648/2012 del Parlamento europeo e del Consiglio e che abroga la direttiva 2005/60/CE del Parlamento europeo e del Consiglio e la direttiva 2006/70/CE della Commissione (Testo rilevante ai fini del SEE)",
+   "termine_recepimento": "2024-12-30",
+   "stato": "procedura d'infrazione aperta",
+   "infrazione": "2025_0276 2022_2150",
+   "aree": "01,07",
+   "proposte": ""
+  },
+  {
+   "priorita": "critica",
+   "celex": "32019L0904",
+   "titolo": "Direttiva (UE) 2019/904 del Parlamento europeo e del Consiglio, del 5 giugno 2019, sulla riduzione dell’incidenza di determinati prodotti di plastica sull’ambiente (Testo rilevante ai fini del SEE)",
+   "termine_recepimento": "2024-07-03",
+   "stato": "procedura d'infrazione aperta",
+   "infrazione": "2024_2053",
+   "aree": "01,03,08",
+   "proposte": "03-P3"
+  },
+  {
+   "priorita": "critica",
+   "celex": "32019L1937",
+   "titolo": "Direttiva (UE) 2019/1937 del Parlamento europeo e del Consiglio, del 23 ottobre 2019, riguardante la protezione delle persone che segnalano violazioni del diritto dell’Unione",
+   "termine_recepimento": "2023-12-17",
+   "stato": "procedura d'infrazione aperta",
+   "infrazione": "2025_0276",
+   "aree": "07,08",
+   "proposte": ""
+  },
+  {
+   "priorita": "critica",
+   "celex": "32020L2184",
+   "titolo": "Direttiva (UE) 2020/2184 del Parlamento europeo e del Consiglio del 16 dicembre 2020 concernente la qualità delle acque destinate al consumo umano (rifusione) (Testo rilevante ai fini del SEE)",
+   "termine_recepimento": "2026-01-12",
+   "stato": "procedura d'infrazione aperta",
+   "infrazione": "2026_2038",
+   "aree": "01,03,06",
+   "proposte": "03-P3"
+  },
+  {
+   "priorita": "critica",
+   "celex": "32022L0362",
+   "titolo": "Direttiva (UE) 2022/362 del Parlamento europeo e del Consiglio del 24 febbraio 2022 che modifica le direttive 1999/62/CE, 1999/37/CE e (UE) 2019/520 per quanto riguarda la tassazione a carico di veicoli per l’uso di alcune infrastrutture",
+   "termine_recepimento": "2024-03-25",
+   "stato": "procedura d'infrazione aperta",
+   "infrazione": "2024_0161",
+   "aree": "03,04",
+   "proposte": ""
+  },
+  {
+   "priorita": "critica",
+   "celex": "32023L1791",
+   "titolo": "Direttiva (UE) 2023/1791 del Parlamento europeo e del Consiglio del 13 settembre 2023 sull'efficienza energetica e che modifica il regolamento (UE) 2023/955 (rifusione) (Testo rilevante ai fini del SEE)",
+   "termine_recepimento": "2024-01-11",
+   "stato": "procedura d'infrazione aperta",
+   "infrazione": "2025_0334",
+   "aree": "03",
+   "proposte": "03-P4"
+  },
+  {
+   "priorita": "critica",
+   "celex": "32023L2413",
+   "titolo": "Direttiva (UE) 2023/2413 del Parlamento europeo e del Consiglio, del 18 ottobre 2023, che modifica la direttiva (UE) 2018/2001, il regolamento (UE) 2018/1999 e la direttiva n. 98/70/CE per quanto riguarda la promozione dell’energia da fonti rinnovabili e che abroga la direttiva (UE) 2015/652 del Consiglio",
+   "termine_recepimento": "2024-07-01",
+   "stato": "procedura d'infrazione aperta",
+   "infrazione": "2025_0228 2024_0232",
+   "aree": "03",
+   "proposte": "03-P2"
+  },
+  {
+   "priorita": "critica",
+   "celex": "32023L2661",
+   "titolo": "Direttiva (UE) 2023/2661 del Parlamento europeo e del Consiglio, del 22 novembre 2023, che modifica la direttiva 2010/40/UE sul quadro generale per la diffusione dei sistemi di trasporto intelligenti nel settore del trasporto stradale e nelle interfacce con altri modi di trasporto (Testo rilevante ai fini del SEE)",
+   "termine_recepimento": "2025-03-21",
+   "stato": "procedura d'infrazione aperta",
+   "infrazione": "2026_0084",
+   "aree": "04,09",
+   "proposte": ""
+  },
+  {
+   "priorita": "critica",
+   "celex": "32023L2864",
+   "titolo": "Direttiva (UE) 2023/2864 del Parlamento europeo e del Consiglio, del 13 dicembre 2023, che modifica talune direttive per quanto concerne l’istituzione e il funzionamento del punto di accesso unico europeo (Testo rilevante ai fini del SEE)",
+   "termine_recepimento": "2025-07-10",
+   "stato": "procedura d'infrazione aperta",
+   "infrazione": "2026_0182",
+   "aree": "01,09",
+   "proposte": "09-C1"
+  },
+  {
+   "priorita": "critica",
+   "celex": "32024L0790",
+   "titolo": "Direttiva (UE) 2024/790 del Parlamento europeo e del Consiglio, del 28 febbraio 2024, che modifica la direttiva 2014/65/UE, relativa ai mercati degli strumenti finanziari (Testo rilevante ai fini del SEE)",
+   "termine_recepimento": "2025-09-29",
+   "stato": "procedura d'infrazione aperta",
+   "infrazione": "2025_0335",
+   "aree": "01",
+   "proposte": ""
+  }
+ ]
+}

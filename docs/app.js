@@ -408,7 +408,7 @@
     },
 
     metodo() {
-      const doc = { programma: "Programma", carta: "Carta dei valori", giuridico: "Quadro giuridico e UE", confronto: "Confronto internazionale", partiti: "Confronto con i partiti", trasparenza: "Rischio negli appalti", legislazione: "Legislazione e redazione", metodo: "Metodo degli agenti", sistema: "Sistema dinamico" };
+      const doc = { programma: "Programma", carta: "Carta dei valori", giuridico: "Quadro giuridico e UE", confronto: "Confronto internazionale", partiti: "Confronto con i partiti", ue: "Unione europea", costituzione: "Controllo costituzionale", trasparenza: "Rischio negli appalti", legislazione: "Legislazione e redazione", metodo: "Metodo degli agenti", sistema: "Sistema dinamico" };
       return `
         <h1>Metodo</h1>
         <p class="intro">Come nasce il programma: dossier ministeriali, verifica di 334 cifre su fonte primaria, Carta dei dieci valori, panel indipendente e analisi di robustezza, ottimizzazione senza deficit, aggiornamento continuo dai dati ufficiali.</p>

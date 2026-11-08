@@ -50,7 +50,7 @@ MANDATI = QUI / "mandati.csv"
 CREDIBILITA = QUI / "credibilita.csv"
 ESPERTI = QUI / "esperti.yaml"
 RICHIESTE = QUI / "richieste"
-MAX_ESPERTI = 6
+MAX_ESPERTI = 7           # tre fissi (finanza pubblica, giurista, costituzionalista) + fino a quattro per pertinenza
 VERIFICHE = QUI / "verifiche"
 RIESAME_GIORNI = 90        # oltre questa età una seduta si riesamina comunque
 SOGLIA_RIESAME = 0.15      # variazione relativa di un indicatore che giustifica un riesame
@@ -72,7 +72,7 @@ MINISTERI = {
 AZIONI = {"adottare", "rinviare", "sospendere", "modificare"}
 DECISIONI = {"adottata", "respinta", "rinviata"}
 REGOLE_ARBITRATO = {"linee rosse", "nucleo", "momento", "valori", "deroga"}
-GIUDIZI = {"favorevole", "contrario", "condizionato"}
+GIUDIZI = {"favorevole", "contrario", "condizionato", "illegittimità probabile"}
 CERTEZZE = {"alta", "media", "bassa"}
 
 
@@ -229,6 +229,17 @@ def prepara(motivo: str, richiesta: Path | None = None, ministri: list[str] | No
     lr = linee_rosse()
     temi = [domanda, motivo] + [f"{a.get('messaggio', '')} {a.get('azione', '')}" for a in allerte]
     collegio = scegli_esperti(" ".join(temi), esperti)
+    # vincoli UE per le aree convocate (modulo europa/; senza, la seduta si prepara lo stesso)
+    try:
+        sys.path.insert(0, str(RADICE / "europa"))
+        from uscite import contesto_consiglio, odg_consiglio
+        ue, ue_odg = contesto_consiglio(ministri), odg_consiglio(ministri)
+    except Exception as e:  # noqa: BLE001
+        ue, ue_odg = {"errore": f"{e.__class__.__name__}: {e}"}, []
+    # l'esperto di affari europei entra se le aree convocate hanno infrazioni o obblighi critici
+    if not esperti and ue.get("esperto_europa_consigliato") and all(e["id"] != "europa_esteri" for e in collegio):
+        tutti = yaml.safe_load(ESPERTI.read_text(encoding="utf-8"))["esperti"]
+        collegio = collegio[:MAX_ESPERTI - 1] + [e for e in tutti if e["id"] == "europa_esteri"]
     da_seduta, vigenti = decisioni_vigenti(cartella.name)
     mandati = [m for m in leggi_csv(MANDATI, CAMPI_MAND) if m["stato"] == "aperto"]
     cred = leggi_csv(CREDIBILITA, [])
@@ -253,6 +264,7 @@ def prepara(motivo: str, richiesta: Path | None = None, ministri: list[str] | No
         "allerte": [{k: a.get(k) for k in ("id", "messaggio", "azione", "priorita", "sospendi")} for a in allerte],
         "proposte_per_area": proposte, "coperture_escluse_linee_rosse": {k: m for k, m in lr.items() if ":" not in k},
         "decisioni_vigenti": {"seduta": da_seduta, "varianti": vigenti},
+        "europa": ue,
         "mandati_aperti": mandati, "credibilita": cred, "suggerimenti_in_attesa": richieste,
         "indicatori_per_previsioni": {i["id"]: {"ultimo_periodo": i.get("periodo"), "forma": forma_periodo(i.get("periodo")),
                                               "ultimo_valore": i.get("valore"), "unita": i.get("unita")}
@@ -288,6 +300,8 @@ def prepara(motivo: str, richiesta: Path | None = None, ministri: list[str] | No
                   f"(`governo/verbali/{da_seduta}.md`), salvo modifiche decise in questa seduta. "
                   "In `contesto.json`, il campo `deciso_dal_consiglio` di ogni proposta indica la variante in vigore; "
                   "`nel_programma_del_momento` è invece la scelta del motore, che serve a dichiarare le deroghe."]
+    if ue_odg:
+        righe += [""] + ue_odg
     righe += ["", "## 2. Programma del momento (calcolato dal motore)", "", sezione(sel_md, "Saldo"), "",
               f"- Proposte del nucleo robusto fuori dal programma: {', '.join(nucleo_fuori) or 'nessuna'}",
               f"- Priorità delle allerte non finanziate: {', '.join(prio_fuori) or 'nessuna'}",
@@ -421,6 +435,7 @@ def componi(cartella: Path) -> Path:
             raccogli(autore, p, f"{autore}, previsione {j + 1}")
     # Esperti: pareri con fonti e grado di certezza, giudizi sulle proposte
     contrari: dict[str, list[str]] = {}
+    illegittime: dict[str, list[str]] = {}
     for eid, par in pareri.items():
         autore = f"esperto_{eid}"
         validi = []
@@ -435,8 +450,10 @@ def componi(cartella: Path) -> Path:
             g["proposta"] = id_proposta(g.get("proposta"))
             if g["proposta"] in proposte and g.get("giudizio") in GIUDIZI:
                 giudizi.append(g)
-                if g["giudizio"] == "contrario":
+                if g["giudizio"] in ("contrario", "illegittimità probabile"):
                     contrari.setdefault(g["proposta"], []).append(eid)
+                if g["giudizio"] == "illegittimità probabile":
+                    illegittime.setdefault(g["proposta"], []).append(eid)
             else:
                 rilievi.append(f"{autore}: giudizio su proposta inesistente o non valido, scartato ({g.get('proposta')})")
         par["proposte"] = giudizi
@@ -467,6 +484,14 @@ def componi(cartella: Path) -> Path:
                 d["esito_controlli"].append(f"linea rossa: {lr[f'{pid}:{var}']} (regola 8)")
             if pid in obiettate and not str(d.get("risposta_opposizione", "")).strip():
                 rilievi.append(f"{dove} ({pid}): nessuna risposta all'obiezione dell'opposizione (regola 7)")
+            if pid in illegittime and d["decisione"] == "adottata":
+                if str(d.get("riformulazione_costituzionale", "")).strip():
+                    d["esito_controlli"].append(f"adottata con riformulazione dopo il rilievo di illegittimità di "
+                                                f"{', '.join(illegittime[pid])} (regola 12)")
+                else:
+                    d["decisione"] = "sospesa: illegittimità probabile"
+                    d["esito_controlli"].append(f"illegittimità probabile secondo {', '.join(illegittime[pid])}, "
+                                                "nessuna riformulazione (regola 12)")
             if pid in contrari and not str(d.get("risposta_esperti", "")).strip():
                 rilievi.append(f"{dove} ({pid}): adottata contro il parere di {', '.join(contrari[pid])} "
                                "senza risposta scritta (regola 11)")
@@ -765,6 +790,18 @@ def verifica(accoda: bool = False) -> str:
         allerte_allora = {a["id"] for a in ctx.get("allerte", [])}
         motivi += [f"allerta nuova: {a}" for a in sorted(allerte_ora - allerte_allora)]
         motivi += [f"allerta rientrata: {a}" for a in sorted(allerte_allora - allerte_ora)]
+        # 2b. Unione europea: obblighi critici o infrazioni nuovi per le aree della seduta
+        if ctx.get("europa") and "errore" not in ctx["europa"]:
+            try:
+                sys.path.insert(0, str(RADICE / "europa"))
+                from uscite import contesto_consiglio
+                ora_ue = contesto_consiglio(ctx.get("ministri"))
+                prima = {o["celex"] for o in ctx["europa"].get("obblighi_in_scadenza", [])}
+                motivi += [f"nuovo obbligo UE critico: {o['celex']} (termine {o.get('termine_recepimento')})"
+                           for o in ora_ue.get("obblighi_in_scadenza", [])
+                           if o.get("priorita") == "critica" and o["celex"] not in prima]
+            except Exception:  # noqa: BLE001
+                pass
         # 3. regole cambiate (Carta, rubrica, motore, regolamento, ruoli): hash della catena di integrità
         allora = (v.get("istantanea") or {}).get("radice_regole")
         if allora and allora != regole_ora:

@@ -1,0 +1,55 @@
+{
+ "ultima_data_gu": "2026-11-08",
+ "inizio": "2026-09-09",
+ "infrazioni_prima_esecuzione": "2026-11-08",
+ "dpe_aggiornamenti": [
+  {
+   "titolo": "Infrazioni, aggiornamento del 1 ottobre 2026",
+   "sintesi": "La Commissione europea ha deciso l'apertura di due nuove procedure (che si aggiungono alle tre decise il 24 settembre 2026), tre aggravamenti con l'adozione del parere motivato e l'archiviazione di una infrazione. Le procedure di infrazione a carico del nostro Paese salgono a 84, di cui 63 per violazione del diritto dell'Unione e 21 per mancato recepimento di direttive.",
+   "data": "2026-10-01",
+   "url": "https://www.affarieuropei.gov.it/it/attivita/procedure-dinfrazione/stato-delle-infrazioni/infrazioni-ott-2026/"
+  },
+  {
+   "titolo": "Infrazioni, aggiornamento dell'8 luglio 2026",
+   "sintesi": "La Commissione europea ha deciso l'apertura di due nuove procedure e l'archiviazione di una infrazione. Le procedure di infrazione a carico del nostro Paese salgono a 76, di cui 61 per violazione del diritto dell'Unione e 15 per mancato recepimento di direttive.",
+   "data": "2026-07-08",
+   "url": "https://www.affarieuropei.gov.it/it/attivita/procedure-dinfrazione/stato-delle-infrazioni/infrazioni-8-luglio-2026/"
+  },
+  {
+   "titolo": "Infrazioni, aggiornamento del 4 giugno 2026",
+   "sintesi": "La Commissione europea ha deciso l'apertura di una nuova procedura e l'archiviazione di due infrazioni. Le procedure di infrazione a carico del nostro Paese scendono a 75, di cui 59 per violazione del diritto dell'Unione e 16 per mancato recepimento di direttive.",
+   "data": "2026-06-04",
+   "url": "https://www.affarieuropei.gov.it/it/attivita/procedure-dinfrazione/stato-delle-infrazioni/infrazioni-4-giugno-2026/"
+  },
+  {
+   "titolo": "Infrazioni, aggiornamento del 29 aprile 2026",
+   "sintesi": "La Commissione europea ha deciso l'apertura di una nuova procedura e l'archiviazione di due procedure di infrazione. Le infrazioni a carico del nostro Paese scendono a 75, di cui 59 per violazione del diritto dell'Unione e 16 per mancato recepimento di direttive.",
+   "data": "2026-04-29",
+   "url": "https://www.affarieuropei.gov.it/it/attivita/procedure-dinfrazione/stato-delle-infrazioni/infrazioni-29-apr-2026/"
+  },
+  {
+   "titolo": "Infrazioni, aggiornamento del 30 gennaio 2026",
+   "sintesi": "La Commissione europea ha deciso l'apertura di sei nuove procedure di infrazione, quattro per violazione del diritto UE e due per mancato recepimento di direttive UE i cui termini di recepimento erano previsti per novembre e dicembre 2025. Le infrazioni a carico del nostro Paese salgono a 75, di cui 59 per violazione del diritto dell'Unione e 16 per mancato recepimento di direttive.",
+   "data": "2026-01-30",
+   "url": "https://www.affarieuropei.gov.it/it/attivita/procedure-dinfrazione/stato-delle-infrazioni/infrazioni-30-gennaio-2026/"
+  },
+  {
+   "titolo": "Infrazioni, aggiornamento dell'11 dicembre 2025",
+   "sintesi": "La Commissione europea ha deciso l'archiviazione di due procedure di infrazione, l'apertura di due nuove procedure e l'aggravamento di cinque procedure con l'adozione del parere motivato. I casi a carico del nostro Paese si attestano a 69 di cui 55 per violazione del diritto dell'Unione e 14 per mancato recepimento di direttive.",
+   "data": "2025-12-11",
+   "url": "https://www.affarieuropei.gov.it/it/attivita/procedure-dinfrazione/stato-delle-infrazioni/infrazioni-11-dicembre-2025/"
+  }
+ ],
+ "ultima_esecuzione": "2026-11-08T14:48:19",
+ "fonti": {
+  "cellar_gu_l": "ok: 0 atti nuovi dal 2026-09-09",
+  "cellar_testi": "0/0 testi di direttive",
+  "cellar_direttive": "ok: 145 direttive con termine tra 2023-11-08 e 2028-11-08",
+  "cellar_proposte": "ok: 64 proposte dal 2026-09-09",
+  "cellar_semestre": "ok: 16 documenti",
+  "ecfin_edp": "ok: 9 passaggi",
+  "eurinfra": "ok: 84 procedure (il sito dichiara 84)",
+  "dpe_aggiornamenti": "ok: 10 aggiornamenti"
+ },
+ "richieste": 59
+}

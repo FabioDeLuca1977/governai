@@ -56,6 +56,18 @@ Quando una richiesta contiene un testo di legge o un emendamento:
 2. Segui `legislazione/istruzioni_revisione.md` per il giudizio su valori, linee rosse e quadro giuridico.
 3. Nel dossier riporta gli errori, la versione corretta del testo e i punti da verificare con un ufficio legislativo.
 
+## 2c-bis. Controllo di costituzionalità
+
+Per ogni testo di legge, emendamento o manovra, e per ogni proposta del Consiglio prima dell'adozione:
+1. Lancia `python costituzione/controllo.py FILE --data <entrata in vigore>` (per le schede: `--scheda <id>`; per le leggi di bilancio: `--articoli 1-N`).
+2. Esamina i rilievi alti e medi secondo `costituzione/istruzioni_costituzionalista.md`: verifica ogni sentenza con `python costituzione/giurisprudenza.py --verifica N/AAAA`, classifica (illegittimità probabile, dubbio serio, rischio basso) e proponi la riformulazione.
+3. Scrivi l'esame in `costituzione/esami/<nome>.md`. Un'illegittimità probabile in una misura adottata va portata al Consiglio (regola 12).
+4. Ogni giorno controlla in `costituzione/esami/gu/stato.json` gli atti nuovi con segnali `alto`: se toccano misure del programma, apri il riesame della seduta che le ha adottate (`governo/consiglio.py --riesamina`).
+
+## 2c-ter. Unione europea
+
+`europa/` si aggiorna ogni giorno: atti della Gazzetta ufficiale UE, scadenze di recepimento (`europa/scadenze.csv`), infrazioni, Semestre europeo (`europa/semestre.md`). Il Consiglio riceve da solo gli obblighi per le aree convocate. Per ogni analisi o dossier, controlla gli obblighi UE dell'area e citali; un obbligo critico in scadenza senza misura italiana è un punto da segnalare nella risposta finale.
+
 ## 2d. Consiglio dei ministri (governo ombra)
 
 Regole in `governo/regolamento.md`. Il Consiglio si riunisce in due casi.
@@ -132,7 +144,7 @@ Esegui questo passo solo se hai prodotto o modificato qualcosa.
 ```bash
 python -I integrita/catena.py --aggiungi revisione-ai --nota "<breve descrizione>"
 python -I sistema/esporta_web.py
-git add -A analisi apprendimento sistema/bollettini sistema/stato registro programma integrita docs governo
+git add -A analisi apprendimento sistema/bollettini sistema/stato registro programma integrita docs governo europa costituzione
 git commit -m "Livello AI: <breve descrizione>"
 git pull --rebase origin main
 git push
