@@ -303,3 +303,159 @@ Prelievo a regime per fondo nella combinazione tutta PIENA: SPESE_FISCALI 3,12; 
 1. Misure nuove da inserire nel menu: adeguamento dell'organico al calo demografico via turnover (RIALLOCAZIONE, 0,30); Carta Valore con ISEE (RIORDINO_BONUS, 0,09); quota vincolata della Carta del docente (RIORDINO_BONUS, 0,08-0,12); detrazione per lo sport dei ragazzi (SPESE_FISCALI, 0,10, da verificare); Fondo Nuove Competenze e quota 0,30% non optata (RIALLOCAZIONE, 0,3-0,5, da certificare).
 2. SPESE_FISCALI è il fondo più usato per via di 05-C3. Senza misure del menu che lo alimentino, la scelta ragionevole per 05-C3 è la ESSENZIALE o una PIENA che nel triennio 2027-29 pesa solo 0,9.
 3. COESIONE_2127 copre solo avvio e investimenti fino al 2029, mai personale stabile. Dal 2030 le note indicano chi subentra.
+
+---
+
+## 05-C7 — Quota svantaggio nel finanziamento delle scuole, con menu di interventi provati
+
+*Proposta nata dal confronto con il Nord Europa (`benchmark/proposte_nord_europa.md`, codice provvisorio NE-1; analisi in `benchmark/nord_europa_scuola_welfare_cultura.md`, par. 2.1-2.2). Inserita l'8 novembre 2026. I giudizi sui valori spettano al panel indipendente.*
+
+**Problema in un dato.** Nel 2026 solo il **63%** degli alunni di V primaria raggiunge almeno il livello base in matematica, contro il 66% del 2025. L'abbandono precoce è al **13,7% nelle Isole** contro l'8,2% nazionale. L'Italia non ha una regola stabile che dia più risorse alle scuole con più alunni svantaggiati: i fondi arrivano a bandi temporanei (PNRR "divari", Agenda Sud, FSE+) (INVALSI 2026; Eurostat edat_lfse_16, 2025, `05_elet_18_24_nuts1.csv`).
+
+**Soluzione.** Ogni anno le scuole statali del 20% più svantaggiato ricevono una **quota fissa in euro per alunno**, senza bando e senza domanda. L'indice lo calcola l'INVALSI (lo stesso indice di fragilità di 05-C1) e non si pubblica per nome. Almeno il **70%** della quota va a interventi di un **menu nazionale** con prove di efficacia, curato da INVALSI e INDIRE: tutoraggio in piccoli gruppi in italiano e matematica, formazione al feedback e osservazione tra colleghi, programmi strutturati di lettura. Ogni scuola rendiconta in dati aperti che cosa ha comprato e con quali esiti. La valutazione è già nel disegno: si confrontano le scuole appena sopra e appena sotto la soglia dell'indice. La lezione olandese è che i soldi senza vincolo d'uso non bastano (CPB 2017): per questo il menu è obbligatorio. **Nessun taglio all'organico**: la quota è una risorsa aggiuntiva e non usa il calo degli alunni né come copertura né per spostare posti.
+
+| Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
+|---|---|---|---|---|
+| PIENA | 300 € per alunno nelle scuole del 20% più svantaggiato (circa 1,4 milioni di alunni) | 0,05 / 0,25 / 0,43 → **0,43** (2029) | 1 | SPESE_FISCALI 0,33; RIALLOCAZIONE 0,10 |
+| ESSENZIALE | 250 € per alunno nelle scuole del 10% più svantaggiato (circa 0,7 milioni di alunni) | 0,03 / 0,12 / 0,19 → **0,19** (2029) | 0,55 | SPESE_FISCALI 0,14; RIALLOCAZIONE 0,05 |
+| PILOTA | 3 Regioni (almeno 2 del Mezzogiorno), con valutazione a soglia | 0,01 / 0,03 / 0,03 → 0,03 (2028) | 0,1 | COESIONE_2127 0,03 (FSE+, temporaneo) |
+
+*Come è costruito il costo (stima GovernAI)*: alunni delle scuole statali circa 7 milioni (MIM, da verificare), il 20% è circa 1,4 milioni × 300 € = 0,42; menu, dati aperti e valutazione INVALSI-INDIRE 0,01. Totale 0,43. ESSENZIALE: 0,7 milioni × 250 € = 0,175 + 0,01 = 0,19. **Rispetto alla proposta d'origine** il costo sale da 0,40 a 0,43 (PIENA) e da 0,18 a 0,19 (ESSENZIALE), perché il conto per alunno dà 0,42 più i costi di gestione. Le coperture cambiano: tolta la "seconda quota del dividendo demografico" (scelta di chi guida il progetto: nessun taglio all'organico) e tolta la coesione dalle varianti stabili, perché i fondi UE 2021-27 finiscono nel 2029 e la quota è spesa permanente.
+
+**Articolato normativo essenziale** (da inserire nella legge di bilancio, capo "Istruzione")
+
+> **Art. 1 (Finalità).** Al fine di ridurre i divari negli apprendimenti di base legati alle condizioni sociali ed economiche, in attuazione degli articoli 3 e 34 della Costituzione, è istituita la quota per lo svantaggio nel finanziamento delle istituzioni scolastiche statali.
+>
+> **Art. 2 (Quota per lo svantaggio).** 1. A decorrere dall'anno scolastico 2027/2028 alle istituzioni scolastiche statali collocate nel quintile più svantaggiato [ESSENZIALE: nel decile] dell'indice di cui al comma 2 è assegnata ogni anno una quota pari a 300 euro [ESSENZIALE: 250 euro] per alunno. 2. L'indice è calcolato dall'INVALSI sulla base almeno dell'indice ESCS medio, della quota di alunni di recente arrivo e dei tassi di ripetenza. Coincide con l'indice di fragilità, se istituito. È usato solo per il riparto e non è pubblicato in forma nominativa. 3. La quota è assegnata d'ufficio, senza domanda. Le risorse non concorrono alla determinazione delle dotazioni organiche e non ne riducono la consistenza.
+>
+> **Art. 3 (Menu degli interventi).** 1. Con decreto del Ministro dell'istruzione e del merito, su proposta di INVALSI e INDIRE, è adottato il menu nazionale degli interventi con le relative schede di efficacia, aggiornato ogni due anni. 2. Almeno il 70 per cento della quota è destinato a interventi del menu. La parte restante è spesa con delibera motivata del collegio dei docenti.
+>
+> **Art. 4 (Trasparenza).** Ogni istituzione scolastica pubblica ogni anno, in formato aperto, gli interventi finanziati, la spesa e gli esiti rilevati. Il Ministero pubblica il quadro nazionale.
+>
+> **Art. 5 (Valutazione).** L'INVALSI valuta l'effetto della quota al terzo anno confrontando le istituzioni prossime alla soglia dell'indice. Se l'effetto non è significativo, il Ministro propone la revisione del menu e dei criteri di riparto.
+>
+> **Art. 6 (Copertura finanziaria).** Agli oneri, pari a 50 milioni di euro per il 2027, 250 milioni per il 2028 e 430 milioni annui dal 2029 [ESSENZIALE: 30, 120 e 190 milioni], si provvede: a) per 330 milioni annui dal 2029 [ESSENZIALE: 140] mediante il riordino delle agevolazioni fiscali individuate nell'allegato; b) per la parte restante mediante corrispondente riduzione delle autorizzazioni di spesa del Ministero dell'istruzione e del merito diverse da quelle per il personale. È esclusa ogni riduzione delle dotazioni organiche.
+
+**Cronoprogramma**
+
+| Fase | Cosa | Chi |
+|---|---|---|
+| Primi 100 giorni | Norma in legge di bilancio; mandato a INVALSI per l'indice e a INDIRE per il menu; parere del Garante sull'uso dei dati | MIM, MEF-RGS, INVALSI, INDIRE, Garante |
+| 12 mesi | Indice e menu adottati; prima assegnazione per l'a.s. 2027/28; piattaforma di rendicontazione in dati aperti | MIM, INVALSI, INDIRE, scuole |
+| Fine legislatura | Quota a regime dal 2029; prima valutazione a soglia (2030); revisione del menu | MIM, INVALSI, università |
+
+**Indicatori**
+
+| KPI | Base | Obiettivo a 3 anni (dato 2029) | Obiettivo a 5 anni (dato 2031) |
+|---|---|---|---|
+| Divario tra scuole beneficiarie e media nazionale nella quota di alunni di V primaria almeno al livello base in matematica | da calcolare su INVALSI 2026 (media nazionale 63%) | divario −20% | divario −35% |
+| ELET 18-24 Isole | 13,7% (2025, Eurostat edat_lfse_16) | 11,5% (insieme a 05-C1) | 9,5% |
+| Quota della spesa delle scuole beneficiarie su interventi del menu, in dati aperti | n.d. (misura nuova) | ≥70% | ≥80% |
+
+**Rischi e mitigazione.** *Effetto nullo come nei Paesi Bassi* (CPB 2017) → vincolo del 70% al menu e valutazione a soglia già prevista; senza effetto si cambia il menu. *Soldi spesi in contratti precari* (il caso del programma olandese NPO) → quota pluriennale e stabile, che permette di programmare. *Stigma delle scuole* → indice non pubblico, quota automatica. *Doppio conteggio con 05-C1* → le squadre di 05-C1 restano finanziate da 05-C1; questa proposta aggiunge il canale ordinario e il menu. *Coperture incerte* → le spese fiscali e la revisione della spesa MIM vanno individuate dall'agente coperture; senza di esse resta la ESSENZIALE o la PILOTA.
+
+**Fonti.** INVALSI, Rapporto 2026 (citato in 05-C1 e 05-C6); Eurostat edat_lfse_16 (`dati/serie/05_elet_18_24_nuts1.csv`); CPB, *Empirische evaluatie onderwijsachterstandenbeleid*, 21/4/2017, https://www.cpb.nl/sites/default/files/omnidownload/CPB-Notitie-21apr2017-Empirische-evaluatie-onderwijsachterstandenbeleid.pdf; CBS, indicatore di svantaggio 2019, https://www.cbs.nl/-/media/_pdf/2019/45/de-nieuwe-onderwijsachterstandenindicator-primair-onderwijs.pdf; EEF Teaching and Learning Toolkit (tutoraggio in piccoli gruppi circa +4 mesi, feedback circa +6 mesi; da ricontrollare sulle singole schede), https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit. Numero di alunni: MIM, da verificare.
+
+---
+
+## 05-C8 — Biblioteche di comunità: servizio minimo, biblioteca a scuola, orari estesi
+
+*Proposta nata dal confronto con il Nord Europa (`benchmark/proposte_nord_europa.md`, codice provvisorio NE-5; analisi in `benchmark/nord_europa_scuola_welfare_cultura.md`, par. 4.1 e 4.6). Inserita l'8 novembre 2026. I giudizi sui valori spettano al panel indipendente.*
+
+**Problema in un dato.** Nel 2022 le biblioteche di pubblica lettura hanno servito **4,9 milioni** di utenti, circa l'8% dei residenti. La spesa pubblica per "ricreazione, cultura e religione" è lo **0,9% del PIL** contro l'1,2% UE. Nessuna regola nazionale dice quante ore deve aprire una biblioteca (ISTAT, *Focus biblioteche di pubblica lettura*, 2024; Eurostat gov_10a_exp, 2024, in `dati/verifiche/05_istruzione.md`).
+
+**Soluzione.** La biblioteca diventa un servizio di base dei Comuni, con un **obiettivo di servizio** nel Fondo di solidarietà comunale, come per i nidi: almeno una biblioteca per Comune o per unione di Comuni, con ore minime di apertura con personale e servizi gratuiti (prestito, wifi, aiuto digitale, spazi studio). Un **fondo nazionale** di circa 5 € per abitante va solo ai Comuni che **cofinanziano**: 1 a 1 al Centro-Nord, 1 a 0,3 nel Mezzogiorno e nelle aree interne. La biblioteca civica gestisce con un bibliotecario di rete la **biblioteca delle scuole** primarie e medie, partendo da quelle dell'indice di fragilità. Gli **orari si allungano in autoservizio** (accesso con tessera sanitaria o CIE), ma solo **in aggiunta** alle ore con personale. Il modello viene da Paesi Bassi, Finlandia e Danimarca.
+
+| Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
+|---|---|---|---|---|
+| PIENA | Obiettivo di servizio in tutti i Comuni; fondo di 5 € per abitante; biblioteca a scuola nel 20% più fragile; autoservizio in 1.000 sedi | 0,08 / 0,20 / 0,33 → **0,33** (2029) | 1 | SPESE_FISCALI 0,20; RIALLOCAZIONE 0,13 |
+| ESSENZIALE | Fondo solo per i Comuni sotto l'obiettivo di servizio (soprattutto Sud e aree interne); biblioteca a scuola nel 10% più fragile; autoservizio in 300 sedi | 0,03 / 0,09 / 0,14 → **0,14** (2029) | 0,5 | RIALLOCAZIONE 0,07; SPESE_FISCALI 0,07 |
+| PILOTA | 3 Regioni; 100 biblioteche con autoservizio; 200 scuole con biblioteca di rete | 0,01 / 0,03 / 0,03 → 0,03 (2028) | 0,1 | COESIONE_2127 0,03 (FESR/FSE+, temporaneo) |
+
+*Come è costruito il costo (stima GovernAI)*: 5 € × circa 59 milioni di residenti = 0,295; biblioteca a scuola in circa 1.500 istituzioni (20% di 7.473) con un bibliotecario di rete ogni 4 istituzioni (circa 375 × 40.000 € = 0,015) e 5.000 € di libri per istituzione (0,0075); gestione dell'autoservizio e monitoraggio 0,01. Totale 0,33. ESSENZIALE: circa 25 milioni di abitanti nei Comuni sotto obiettivo (stima, da verificare con il censimento) × 5 € = 0,125; scuole 0,01; gestione 0,005. Totale 0,14. L'impianto per l'autoservizio (circa 50.000 € per sede, 0,05 in tutto nella PIENA) è un investimento una tantum 2027-29 su FESR, fuori dal costo a regime. **La quota dei Comuni non è un costo per lo Stato.** **Rispetto alla proposta d'origine** la PIENA sale da 0,30 a 0,33: il solo fondo per abitante vale già 0,295, e la biblioteca a scuola e la gestione dell'autoservizio vanno aggiunte. La ESSENZIALE scende da 0,15 a 0,14. La coesione resta solo nella PILOTA e per l'investimento iniziale.
+
+**Articolato normativo essenziale**
+
+> **Art. 1 (Finalità).** Al fine di garantire l'accesso alla lettura, alla conoscenza e alle competenze digitali, in attuazione degli articoli 3 e 9 della Costituzione e della legge 13 febbraio 2020, n. 15, la biblioteca di pubblica lettura è riconosciuta come servizio di base dei Comuni.
+>
+> **Art. 2 (Obiettivo di servizio).** 1. Con decreto del Ministro della cultura, d'intesa in Conferenza unificata, sono fissati gli obiettivi di servizio delle biblioteche di pubblica lettura: almeno una biblioteca per Comune o per unione di Comuni, ore minime di apertura con personale, servizi di base gratuiti. 2. Gli obiettivi sono inseriti tra quelli del Fondo di solidarietà comunale e monitorati con l'ISTAT.
+>
+> **Art. 3 (Fondo per le biblioteche di comunità).** 1. È istituito presso il Ministero della cultura il Fondo per le biblioteche di comunità, con una dotazione di 80 milioni di euro per il 2027, 200 milioni per il 2028 e 330 milioni annui dal 2029 [ESSENZIALE: 30, 90 e 140 milioni, solo per i Comuni sotto l'obiettivo di servizio]. 2. Il Fondo finanzia solo spesa corrente ed è assegnato ai Comuni che cofinanziano almeno in pari misura, ridotta al 30 per cento nelle Regioni del Mezzogiorno e nelle aree interne. 3. Il Comune che riduce le ore di apertura con personale perde il contributo.
+>
+> **Art. 4 (Biblioteca a scuola).** Le istituzioni scolastiche del primo ciclo stipulano convenzioni con la biblioteca civica per la gestione della biblioteca scolastica, con priorità per le scuole a più alto indice di fragilità. Le convenzioni sono parte dei Patti locali per la lettura.
+>
+> **Art. 5 (Orari estesi).** Le biblioteche possono aprire in autoservizio con accesso tramite tessera sanitaria o carta d'identità elettronica, solo in aggiunta alle ore con personale previste dall'obiettivo di servizio.
+>
+> **Art. 6 (Copertura finanziaria).** Agli oneri si provvede: a) per 200 milioni annui dal 2029 [ESSENZIALE: 70] mediante il riordino delle agevolazioni fiscali individuate nell'allegato; b) per la parte restante mediante corrispondente riduzione delle autorizzazioni di spesa del Ministero della cultura indicate nell'allegato. Gli investimenti per l'autoservizio sono a valere sui programmi FESR 2021-2027, previa riprogrammazione.
+
+**Cronoprogramma**
+
+| Fase | Cosa | Chi |
+|---|---|---|
+| Primi 100 giorni | Norma in legge di bilancio; censimento ISTAT delle biblioteche rispetto agli standard; avvio dell'intesa in Conferenza unificata | MiC, MEF, ISTAT, ANCI, Regioni |
+| 12 mesi | Decreto sugli obiettivi di servizio; primo riparto del fondo; prime convenzioni biblioteca-scuola; bando FESR per l'autoservizio | MiC, MIM, Comuni, sistemi bibliotecari |
+| Fine legislatura | Fondo a regime dal 2029; 70% dei Comuni sopra l'obiettivo; rapporto pubblico su uso e ore | MiC, ISTAT, Comuni |
+
+**Indicatori**
+
+| KPI | Base | Obiettivo a 3 anni (dato 2029) | Obiettivo a 5 anni (dato 2031) |
+|---|---|---|---|
+| Utenti delle biblioteche di pubblica lettura | 4,9 milioni (2022, ISTAT) | 5,8 milioni | 6,5 milioni |
+| Comuni (o unioni) che rispettano l'obiettivo di servizio | n.d. (censimento ISTAT al primo anno) | 70% | 90% |
+| Persone di 6 anni e più che hanno letto almeno un libro in 12 mesi | 57,1% (2024, ISTAT, *Libri e biblioteche*; definizione da verificare) | +2 punti | +4 punti, con divario Sud-Nord ridotto di un terzo |
+
+**Rischi e mitigazione.** *Comuni poveri che non cofinanziano* → cofinanziamento ridotto al Sud e nelle aree interne, gestione in unione. *Autoservizio usato per tagliare il personale* → il contributo si perde se scendono le ore con personale. *Spesa in edifici invece che in servizi* → il fondo paga solo spesa corrente; gli investimenti vanno su FESR. *Effetto solo su chi già legge* → biblioteca a scuola con priorità alle scuole fragili. *Coperture incerte* → le misure su spese fiscali e bilancio MiC vanno individuate dall'agente coperture.
+
+**Fonti.** ISTAT, *Focus biblioteche di pubblica lettura* (2024), https://www.istat.it/wp-content/uploads/2024/07/Focus_Biblioteche_pubblica_lettura.pdf; ISTAT, *Report biblioteche in Italia* (2021, iscritti al prestito 15,2% nel 2019), https://www.istat.it/it/files/2021/04/REPORT_BIBLIOTECHE-IN-ITALIA.pdf; ISTAT, *Libri e biblioteche, anni 2024-2025*, https://www.istat.it/wp-content/uploads/2026/07/Report_Libri-e-biblioteche_Anni-2024-2025.pdf; Eurostat gov_10a_exp, GF08 (in `dati/verifiche/05_istruzione.md`, che verifica anche le 7.473 istituzioni scolastiche); Finlandia, legge 1492/2016, https://www.finlex.fi/en/laki/kaannokset/2016/en20161492; Paesi Bassi, Kamerstuk 36 902 n. 2 (stato dell'approvazione da verificare); Danimarca, biblioteche aperte, https://slks.dk/fileadmin/publikationer/rapporter_oevrige/AAbne_biblioteker._Rapport.pdf. Popolazione residente circa 59 milioni (ISTAT, da verificare all'ultimo dato).
+
+---
+
+## 05-C9 — Zaino culturale a scuola e tariffa sociale della cultura
+
+*Proposta nata dal confronto con il Nord Europa (`benchmark/proposte_nord_europa.md`, codice provvisorio NE-6; analisi in `benchmark/nord_europa_scuola_welfare_cultura.md`, par. 4.2, 4.4 e 4.5). Inserita l'8 novembre 2026. I giudizi sui valori spettano al panel indipendente.*
+
+**Problema in un dato.** La spesa pubblica per i servizi culturali è di **7,6 mld €** nel 2024 e l'intera funzione cultura e ricreazione vale lo **0,9% del PIL** contro l'1,2% UE. Una parte degli aiuti ai giovani passa per carte individuali per i diciottenni: nel 2025 la Carta cultura giovani e la Carta del merito avevano 180 milioni stanziati e ne sono stati impegnati 140 (Eurostat gov_10a_exp, in `dati/verifiche/05_istruzione.md`; OpenBDAP-RGS, Rendiconto 2025, MiC cap. 1430).
+
+**Soluzione.** Ogni alunno, ogni anno, vive **almeno due esperienze culturali professionali dentro l'orario scolastico**: teatro, musica, danza, cinema, mostre, archivi, siti del patrimonio. Almeno una riguarda il patrimonio del territorio. Gli operatori sono scelti con avviso pubblico regionale e criteri di qualità; i luoghi della cultura statali partecipano gratis. È il modello norvegese dello "zaino culturale". Accanto c'è una **tariffa sociale della cultura** su app IO, sul modello fiammingo: per minori e giovani fino a 25 anni con ISEE fino a 15.000 €, sconto dell'**80%** su biglietti e corsi degli operatori che aderiscono; lo Stato paga il 60% dello sconto, l'operatore o il Comune il 40%. Il diritto si attiva da solo con l'ISEE. Dopo una valutazione pubblica dell'uso delle carte individuali, il Parlamento può spostarne una parte su zaino e tariffa sociale.
+
+| Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
+|---|---|---|---|---|
+| PIENA | Zaino a 20 € per alunno dalla primaria alle superiori; tariffa sociale nazionale | 0,05 / 0,15 / 0,20 → **0,20** (2029) | 1 | SPESE_FISCALI 0,10; RIALLOCAZIONE 0,10 |
+| ESSENZIALE | Zaino a 15 € per alunno di primaria e secondaria di primo grado; tariffa sociale nei Comuni capoluogo e nelle aree interne | 0,03 / 0,08 / 0,10 → **0,10** (2029) | 0,5 | RIALLOCAZIONE 0,05; SPESE_FISCALI 0,05 |
+| PILOTA | 3 Regioni, tutti i gradi, con tariffa sociale nei loro capoluoghi | 0,01 / 0,02 / 0,02 → 0,02 (2028) | 0,1 | COESIONE_2127 0,02 (FSE+, temporaneo) |
+
+*Come è costruito il costo (stima GovernAI)*: alunni dalla primaria alle superiori, statali e paritari, tra 6,5 e 7 milioni (MIM, da verificare) × 20 € = 0,13-0,14; tariffa sociale circa 0,05 (partecipazione del 30% degli aventi diritto, da verificare); coordinamento nazionale e piattaforma 0,01. Totale 0,20, come nella proposta d'origine. ESSENZIALE: circa 4,2 milioni di alunni del primo ciclo (da verificare) × 15 € = 0,06; tariffa sociale ridotta 0,03; coordinamento 0,01. Totale 0,10. **Rispetto alla proposta d'origine** i costi restano uguali, cambiano le coperture: la quota delle carte culturali individuali (RIORDINO_BONUS 0,06-0,10) **non è usata**. La Carta Valore dal 2027 è già usata da RB01 e da 05-C5, la sua dotazione 2027 (180 milioni) è nota solo da fonti di stampa e manca un dato sull'uso per fascia ISEE. Il dato verificato del 2025 (MiC cap. 1430: 180,3 milioni iniziali, 140,3 definitivi, 132,1 pagati) mostra stanziamenti non spesi, e spendere stanziamenti che non si sarebbero spesi non è una copertura. Se l'agente coperture certifica una misura nuova sulle carte, potrà sostituire una parte di SPESE_FISCALI.
+
+**Articolato normativo essenziale**
+
+> **Art. 1 (Finalità).** Al fine di garantire a tutti gli alunni l'accesso all'arte, allo spettacolo e al patrimonio culturale, in attuazione degli articoli 3, 9 e 34 della Costituzione, sono istituiti lo zaino culturale scolastico e la tariffa sociale della cultura.
+>
+> **Art. 2 (Zaino culturale).** 1. A decorrere dall'anno scolastico 2027/2028 ogni alunno delle scuole primarie e secondarie [ESSENZIALE: del primo ciclo] partecipa ad almeno due esperienze culturali professionali all'anno nell'orario scolastico, di cui almeno una sul patrimonio culturale del territorio. 2. Le Regioni formano il catalogo degli operatori con avviso pubblico, secondo criteri di qualità fissati con decreto del Ministro della cultura e del Ministro dell'istruzione e del merito. 3. I luoghi della cultura statali accolgono gratuitamente le attività. 4. Le esperienze sono preparate in classe con i docenti.
+>
+> **Art. 3 (Tariffa sociale della cultura).** 1. I minori e i giovani fino a 25 anni appartenenti a nuclei con ISEE non superiore a 15.000 euro hanno diritto a uno sconto dell'80 per cento sui titoli di accesso e sui corsi degli operatori aderenti [ESSENZIALE: nei Comuni capoluogo e nelle aree interne]. 2. Lo Stato rimborsa il 60 per cento dello sconto; il restante 40 per cento è a carico dell'operatore o del Comune. 3. Il diritto è riconosciuto d'ufficio tramite l'ISEE e reso disponibile sull'app IO, senza domanda.
+>
+> **Art. 4 (Valutazione).** Il Ministero della cultura, con l'ISTAT, valuta ogni anno la partecipazione culturale per fascia ISEE e pubblica una valutazione dell'uso delle carte culturali individuali, anche ai fini del loro riordino.
+>
+> **Art. 5 (Coordinamento).** Presso il Ministero della cultura opera un nucleo di coordinamento con il Ministero dell'istruzione e del merito, senza nuove assunzioni.
+>
+> **Art. 6 (Copertura finanziaria).** Agli oneri, pari a 50 milioni di euro per il 2027, 150 milioni per il 2028 e 200 milioni annui dal 2029 [ESSENZIALE: 30, 80 e 100 milioni], si provvede per metà mediante il riordino delle agevolazioni fiscali individuate nell'allegato e per metà mediante corrispondente riduzione delle autorizzazioni di spesa dei Ministeri della cultura e dell'istruzione indicate nell'allegato, escluse quelle per il personale scolastico.
+
+**Cronoprogramma**
+
+| Fase | Cosa | Chi |
+|---|---|---|
+| Primi 100 giorni | Norma in legge di bilancio; decreto sui criteri di qualità; progetto della tariffa sociale su app IO con INPS (ISEE) | MiC, MIM, PagoPA, INPS |
+| 12 mesi | Cataloghi regionali; zaino attivo dall'a.s. 2027/28; tariffa sociale attiva; prima rilevazione MIM delle esperienze | Regioni, scuole, operatori, Comuni |
+| Fine legislatura | Regime dal 2029; valutazione pubblica sulla partecipazione per ISEE e sulle carte individuali | MiC, ISTAT, Parlamento |
+
+**Indicatori**
+
+| KPI | Base | Obiettivo a 3 anni (dato 2029) | Obiettivo a 5 anni (dato 2031) |
+|---|---|---|---|
+| Alunni con almeno 2 esperienze culturali professionali nell'anno scolastico | n.d. (rilevazione MIM dal primo anno) | 70% | 95% (PIENA) |
+| Divario di partecipazione culturale fuori casa dei 6-17 anni tra primo e ultimo quintile ISEE | n.d. (da calcolare sull'indagine ISTAT *Aspetti della vita quotidiana*) | −15% | −30% |
+| Aventi diritto che usano la tariffa sociale almeno una volta l'anno | 0 (misura nuova) | 25% | 35% |
+
+**Rischi e mitigazione.** *Spettacoli senza legame con la didattica* (la critica norvegese) → preparazione in classe e criteri di qualità. *Offerta poco controllata* (la critica francese alla parte collettiva del Pass Culture) → avviso pubblico e controllo regionale. *Aree interne senza offerta* → spettacoli itineranti e trasporto pagato dallo zaino. *Operatori che non aderiscono alla tariffa sociale* → rimborso rapido su piattaforma unica. *Conflitto sulle carte individuali* → nessun taglio prima della valutazione pubblica; la proposta non dipende da quel riordino.
+
+**Fonti.** Eurostat gov_10a_exp, GF08/GF0802 (in `dati/verifiche/05_istruzione.md`); OpenBDAP-RGS, Rendiconto 2025 per capitolo, MiC cap. 1430 (`dati/raw/00b_openbdap_rendiconto_2025_spese_capitolo.csv`); Kulturtanken, lettera di assegnazione 2024, https://cms12.regjeringen.no/contentassets/89353a08c9c74f0abad39907ccb24939/kulturtanken-den-kulturelle-skolesekken-norge-tildelingsbrev-2024.pdf; Città di Gand, UiTPAS con statuto di opportunità, https://stad.gent/nl/cultuur-vrije-tijd/uitpas-met-kansenstatuut; Cour des comptes sul Pass Culture (dicembre 2024), sintesi https://www.artcena.fr/fil-vie-pro/pass-culture-un-bilan-severe-dresse-par-la-cour-des-comptes. Numero di alunni: MIM, da verificare.

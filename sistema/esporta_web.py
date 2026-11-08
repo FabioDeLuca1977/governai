@@ -38,7 +38,7 @@ SCENARI = [
     ("dividendo", "Completo + dividendo climatico", "Restituzione compensativa di 1,2 mld del gettito SAD", "selezione_dividendo.csv"),
     ("difesa", "Completo + Difesa al 2,5%", "Traiettoria graduale della spesa militare (+9,1 mld)", "selezione_difesa.csv"),
 ]
-RE_SCHEDA = re.compile(r"^## (0[1-9]-[PC]\d)\b.*$", re.M)
+RE_SCHEDA = re.compile(r"^## (0[1-9]-[PC]\d{1,2})\b.*$", re.M)
 
 
 def leggi(p: Path) -> str:

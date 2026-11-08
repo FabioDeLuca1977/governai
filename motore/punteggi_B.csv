@@ -619,3 +619,63 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 09-C8,EQU,0,1,1,M,no,"Priorità del Fondo a piccoli comuni e Mezzogiorno, dove un'uscita può fermare un ufficio"
 09-C8,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
 09-C8,CIT,0,1,1,B,no,Diritto e dovere di riqualificazione: reciprocità tra amministrazione e dipendente
+06-C9,RIS,1,1,1,M,no,"Ascolto a scuola senza diagnosi in classe né sistemi automatici di rischio; riduce lo stigma del disagio"
+06-C9,FID,0,0,0,M,no,"Standard minimi e accordo-quadro, ma nessun effetto rilevante su trasparenza o affidabilità"
+06-C9,INN,0,0,0,M,no,Nessun effetto rilevante su innovazione
+06-C9,BEN,1,1,2,B,no,"Prevenzione e invio rapido per la salute mentale dei ragazzi; prove deboli-medie e carenza di psicologi"
+06-C9,APC,0,1,1,B,no,Possibile riduzione dell'abbandono legato al disagio; nessuna prova controfattuale dall'elevhälsa svedese
+06-C9,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
+06-C9,FUT,0,0,1,B,no,"Investimento sui giovani senza deficit; avvio graduale con pilota e valutazione"
+06-C9,EQU,1,1,1,M,no,"Priorità alle scuole fragili, ma psicologi scarsi al Sud e accise in parte regressive"
+06-C9,SIC,0,0,0,B,no,"Dati sanitari di minori: protocollo con il Garante, consenso e fascicolo sanitario limitano il rischio"
+06-C9,CIT,0,1,1,B,no,"Rete tra scuola, Casa della Comunità e Comune; coinvolgimento dei docenti, poco dei ragazzi"
+06-C8,RIS,1,2,2,M,no,"La persona resta a casa con un piano di cura orientato alla sua autonomia"
+06-C8,FID,0,1,1,M,no,"Obiettivi pubblici per squadra e verifica Agenas dell'autonomia reale"
+06-C8,INN,1,1,2,M,no,"Innovazione organizzativa: squadre autonome, pagamento a ora di cura, sistema informatico unico"
+06-C8,BEN,0,2,2,M,no,"Più ore di cura e alta soddisfazione di pazienti e infermieri; nessun risparmio, rischio carenza infermieri"
+06-C8,APC,0,0,0,A,no,Nessun effetto rilevante su istruzione e cultura
+06-C8,BPA,0,0,0,M,no,Nessun effetto rilevante su patrimonio e accoglienza
+06-C8,FUT,0,0,1,B,no,"Risponde all'invecchiamento senza deficit, ma costo totale nella media e coperture FSN contese"
+06-C8,EQU,0,1,1,M,no,"La PIENA è generale; beneficio maggiore dove le ore ADI per assistito sono più basse"
+06-C8,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
+06-C8,CIT,0,1,1,B,no,Coinvolge famiglia e rete informale nel piano di cura
+02-C7,RIS,2,2,2,M,no,"Casa con contratto proprio senza condizioni preliminari: dignità per i più emarginati, circa 10.000 persone"
+02-C7,FID,0,1,1,M,no,"LEPS esigibile e fondo vincolato invece di bandi; valutazione pubblica a 12 e 24 mesi"
+02-C7,INN,0,0,0,M,no,Nessun effetto rilevante su innovazione
+02-C7,BEN,1,2,2,A,no,"Prove controfattuali forti: circa 85% resta nell'alloggio; benefici di salute, rischio mancanza di case"
+02-C7,APC,0,0,0,A,no,Nessun effetto rilevante su istruzione e cultura
+02-C7,BPA,0,0,0,M,no,Nessun effetto rilevante su patrimonio e accoglienza
+02-C7,FUT,0,0,1,B,no,"Nessun deficit; risparmi sanitari non usati come copertura e prove sul risparmio discordanti"
+02-C7,EQU,2,2,2,M,no,"Risorse mirate alle persone più povere ed escluse, riparto sul bisogno e non sulla spesa storica"
+02-C7,SIC,0,1,1,B,no,"Meno marginalità di strada senza misure di controllo; effetto sulla sicurezza poco documentato"
+02-C7,CIT,0,1,1,B,no,Contratto proprio e responsabilità dell'inquilino; terzo settore accreditato nelle équipe
+05-C9,RIS,1,1,1,M,no,"Diritto automatico via ISEE senza domanda; lo zaino raggiunge ogni alunno a prescindere dalla famiglia"
+05-C9,FID,0,0,1,B,no,"Valutazione pubblica delle Carte e catalogo con avviso pubblico; effetto modesto"
+05-C9,INN,0,0,0,M,no,Uso marginale di app IO e ISEE già esistenti
+05-C9,BEN,0,0,0,B,no,"Effetto modesto sul benessere; chi perde parte delle Carte individuali compensa i guadagni"
+05-C9,APC,1,2,2,M,no,"Cultura professionale a tutti gli alunni; copertura certa ma effetti sugli apprendimenti non misurati"
+05-C9,BPA,1,1,2,M,no,"Almeno un'esperienza l'anno sul patrimonio del territorio; forma il pubblico di domani"
+05-C9,FUT,0,0,1,B,no,"Coperture da riordino bonus e riallocazione, nessun deficit; capitale culturale delle coorti future"
+05-C9,EQU,1,2,2,M,no,"Sposta spesa da voucher che premiano chi già consuma cultura a offerta universale e sconto ISEE"
+05-C9,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza; usa dati ISEE già esistenti
+05-C9,CIT,0,1,1,B,no,"Cultura come bene comune; coinvolge Comuni e operatori, ragazzi spesso spettatori"
+05-C8,RIS,0,1,1,M,no,"Servizi base gratuiti e aiuto digitale accessibili a tutte le età e condizioni"
+05-C8,FID,0,1,1,B,no,"Facilitazione digitale per la PA e standard di servizio prevedibili; effetto indiretto"
+05-C8,INN,0,1,1,M,no,Competenze digitali e autoservizio in aggiunta alle ore con personale
+05-C8,BEN,0,0,1,B,no,"Spazi di studio e di incontro; effetto modesto e poco misurato"
+05-C8,APC,1,2,2,M,no,"Prove medie sull'uso, deboli sugli effetti di lungo periodo; biblioteca a scuola nelle scuole fragili"
+05-C8,BPA,0,1,1,M,no,Patrimonio librario locale e presidi culturali che rendono vivi i piccoli Comuni
+05-C8,FUT,0,0,0,M,no,"Nessun effetto rilevante su debito, clima o demografia; coperture senza deficit"
+05-C8,EQU,1,1,2,M,no,"Cofinanziamento ridotto al Sud e aree interne; rischio che serva soprattutto chi già legge"
+05-C8,SIC,0,0,0,M,no,Accesso con tessera sanitaria o CIE senza raccolta di dati oltre il necessario
+05-C8,CIT,1,1,2,B,no,"Luogo civico per gruppi, corsi e partecipazione; responsabilità locale tramite cofinanziamento"
+05-C7,RIS,0,1,1,M,no,"Quota automatica senza domanda e indice non pubblico evitano lo stigma delle scuole"
+05-C7,FID,1,1,2,M,no,"Regola stabile al posto dei bandi, rendicontazione per scuola in dati aperti e valutazione con soglia"
+05-C7,INN,0,1,1,M,no,Spesa guidata da un menu di interventi con prove di efficacia
+05-C7,BEN,0,0,1,B,no,"Effetto indiretto su lavoro e reddito futuro degli alunni svantaggiati"
+05-C7,APC,1,2,2,M,no,"Tutoraggio e feedback con prove forti; il denaro senza vincolo ha avuto effetto nullo, rischio carenza docenti"
+05-C7,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
+05-C7,FUT,0,1,1,M,no,"Capitale umano delle coorti future finanziato dal calo degli alunni, senza deficit"
+05-C7,EQU,1,2,2,M,no,"Risorse stabili al 20% di scuole più svantaggiate, molte al Sud; scuole non beneficiarie rinunciano al dividendo"
+05-C7,SIC,0,0,0,M,no,Indice calcolato dall'INVALSI per scuola e non nominativo; nessuna profilazione individuale
+05-C7,CIT,0,0,1,B,no,Dati aperti per scuola permettono a famiglie e comunità di verificare l'uso dei fondi

@@ -370,3 +370,69 @@ La quota a carico della riforma SAD compensa le famiglie povere per l'aumento de
    - la flessibilità di 02-C3 sostituisce il fondo flessibilità del ddl 2027 (850 mln, da verificare);
    - 02-C6 si fonde con 01-P1.
 5. **Coperture tolte dal registro** (registro 02-C1, C2, C4, C5): RISPARMI_ATTESI, IVA_EVASIONE, ALTRO e i risparmi già nel tendenziale dalle «quote». Ora tutte le varianti sono finanziate da fondi generali o da PENSIONI.
+
+---
+
+## 02-C7 — Housing First dopo il PNRR: livello essenziale per la grave marginalità
+
+*Proposta nata dal confronto con il Nord Europa (`benchmark/proposte_nord_europa.md`, codice provvisorio NE-3; analisi in `benchmark/nord_europa_scuola_welfare_cultura.md`, par. 3.1). Inserita l'8 novembre 2026. I giudizi sui valori spettano al panel indipendente.*
+
+**Problema in un dato.** Il censimento ISTAT conta **96.197** persone senza tetto o senza fissa dimora iscritte in anagrafe al 31/12/2021, metà in 6 Comuni. Il PNRR (M5C2 inv. 1.3) ha **450 mln €** per Housing First e stazioni di posta fino al 2026; **dal 2027 non c'è un finanziamento stabile** per le équipe che accompagnano le persone nella casa (fio.PSD, *Country profile Italia*, 2023; Ministero del Lavoro, pagina PNRR M5C2 inv. 1.3).
+
+**Soluzione.**
+- Housing First diventa un **livello essenziale delle prestazioni sociali (LEPS)** per le persone senza dimora di lungo periodo, negli Ambiti territoriali con più persone iscritte, a partire dalle grandi città.
+- Prima la casa, con **contratto d'affitto proprio**, poi il sostegno: nessuna condizione preliminare (astinenza, terapia).
+- Le **équipe** (assistente sociale, educatore, infermiere o tecnico della riabilitazione psichiatrica, in rete con il Dipartimento di salute mentale) hanno un finanziamento stabile, circa 1 operatore ogni 10 persone.
+- Gli **alloggi** vengono da fonti già previste: una quota riservata degli alloggi ERP recuperati e delle agenzie sociali per l'affitto di 04-P2, gli alloggi PNRR già acquistati o ristrutturati, contratti con privati con garanzia pubblica.
+- I posti di dormitorio di lungo periodo si **riconvertono** gradualmente; restano l'accoglienza d'emergenza e le stazioni di posta.
+
+Il modello viene dalla Finlandia (senza dimora di lungo periodo circa −70% tra 2008 e 2024) ed è provato dall'esperimento randomizzato francese *Un chez-soi d'abord* (85% resta nell'alloggio). La Finlandia mostra anche il limite: dal 2024 i senza dimora risalgono, con i tagli al welfare.
+
+**Varianti**
+
+| Variante | Contenuto | Costo 2027 / 2028 / 2029 / regime | Intensità | Copertura |
+|---|---|---|---|---|
+| PIENA | 10.000 persone in Housing First stabile entro il 2030 in tutti gli Ambiti sopra soglia | 0,05 / 0,09 / 0,12 / **0,15** (2030) | 1 | SPESE_FISCALI 0,10 + RIALLOCAZIONE 0,05 |
+| **ESSENZIALE** | 6.000 persone nelle 14 città metropolitane, consolidando i progetti PNRR | 0,04 / 0,07 / 0,09 / **0,09** (2029) | 0,6 | SPESE_FISCALI 0,05 + RIALLOCAZIONE 0,04 |
+| PILOTA | Stabilizzazione dei progetti PNRR in 6 città (circa 2.000 persone) per il 2027-29, con gruppo di confronto | 0,03 / 0,03 / 0,03 / **0,03** | 0,2 | COESIONE_2127 0,03 (PN Inclusione, FSE+) |
+
+*Come è costruito il costo (stima GovernAI)*: circa 14.000 € a persona l'anno tra équipe e contributo all'affitto, in linea con il dato francese. PIENA: 10.000 × 14.000 € = 0,14, più formazione, monitoraggio e valutazione 0,01. Totale 0,15. ESSENZIALE: 6.000 × 14.000 € = 0,084 + 0,006 = 0,09. PILOTA: 2.000 × 14.000 € = 0,03. Il costo degli alloggi ERP e delle agenzie sociali è in 04-P2 e non si conta due volte. **I risparmi sanitari attesi non sono usati come copertura**: le prove sul risparmio sono discordanti. **Rispetto alla proposta d'origine** la PIENA scende da 0,17 a 0,15, perché 10.000 persone a 14.000 € fanno 0,14 più i costi di sistema. La coesione (PN Inclusione) resta solo nella PILOTA: è temporanea e il FSE+ 2028-34 non ha ancora una cifra. Nel 2027-29 il PN Inclusione può alleggerire la spesa nazionale di PIENA ed ESSENZIALE, ma non si conta a regime. La riconversione dei dormitori fa risparmiare soprattutto i Comuni e non è una copertura del bilancio dello Stato; la quota grave marginalità del Fondo povertà (611 mln nel 2025 per l'intero Fondo) resta in aggiunta e non viene contata.
+
+**Articolato normativo essenziale (variante ESSENZIALE)**
+
+> **Art. 1 (Finalità).** 1. Al fine di contrastare la grave marginalità adulta, in attuazione degli articoli 2, 3 e 38 della Costituzione, l'accesso a un alloggio stabile con sostegno a domicilio secondo il modello Housing First è livello essenziale delle prestazioni sociali ai sensi dell'articolo 22 della legge 8 novembre 2000, n. 328.
+>
+> **Art. 2 (Destinatari e ambito).** 1. Il livello essenziale si applica alle persone senza dimora da almeno dodici mesi, negli Ambiti territoriali sociali delle città metropolitane [PIENA: negli Ambiti con un numero di persone senza dimora iscritte in anagrafe superiore alla soglia fissata con decreto]. 2. L'accesso all'alloggio non è subordinato a condizioni di trattamento o di astinenza.
+>
+> **Art. 3 (Équipe e alloggi).** 1. Gli Ambiti assicurano un'équipe multiprofessionale, anche tramite enti del terzo settore accreditati, con un rapporto minimo di un operatore ogni dieci persone, in rete con i Dipartimenti di salute mentale e con i servizi per le dipendenze. 2. Gli alloggi sono reperiti con priorità tra quelli di edilizia residenziale pubblica recuperati, quelli acquisiti con la Missione 5 del PNRR e tramite contratti di locazione con garanzia pubblica. La persona è titolare del contratto.
+>
+> **Art. 4 (Riconversione e monitoraggio).** 1. Gli Ambiti riconvertono gradualmente i posti di accoglienza notturna di lungo periodo in posti Housing First, mantenendo l'accoglienza d'emergenza. 2. Il Ministero del lavoro e delle politiche sociali rileva ogni anno la stabilità abitativa a 12 e 24 mesi e pubblica i risultati per Ambito.
+>
+> **Art. 5 (Riparto).** Le risorse sono ripartite tra gli Ambiti in base al numero di persone senza dimora iscritte in anagrafe e non alla spesa storica.
+>
+> **Art. 6 (Copertura finanziaria).** 1. Agli oneri, pari a 40 milioni di euro nel 2027, 70 milioni nel 2028 e 90 milioni annui dal 2029, si provvede:
+> - a) per 50 milioni annui con il riordino delle spese fiscali individuate nell'allegato;
+> - b) per 40 milioni annui con corrispondente riduzione delle autorizzazioni di spesa del Ministero del lavoro e delle politiche sociali indicate nell'allegato, escluse quelle del Fondo per la lotta alla povertà e all'esclusione sociale.
+> 2. Nel triennio 2027-2029 gli oneri possono essere ridotti con le risorse del Programma nazionale Inclusione e lotta alla povertà 2021-2027, previa riprogrammazione.
+
+**Cronoprogramma**
+- **Primi 100 giorni.** La norma entra nella legge di bilancio. Il Ministero del lavoro censisce con ANCI e fio.PSD i progetti PNRR attivi e le persone alloggiate. Si chiede la riprogrammazione del PN Inclusione per il ponte 2027.
+- **Entro 12 mesi.** Decreto sugli standard delle équipe e sul riparto. Le 14 città metropolitane consolidano i progetti PNRR senza interruzioni. Parte la valutazione con gruppi di confronto.
+- **Entro fine legislatura.** 6.000 persone in Housing First stabile (ESSENZIALE) e rapporto pubblico sulla stabilità abitativa. Il Parlamento decide se estendere il livello essenziale agli Ambiti medi (PIENA).
+
+**Indicatori**
+
+| KPI | Base | Obiettivo a 3 anni (2029) | Obiettivo a 5 anni (2031) |
+|---|---|---|---|
+| Persone in Housing First con contratto proprio | progetti PNRR in corso (dato nazionale n.d.) | 6.000 | 10.000 (PIENA); 6.000 (ESSENZIALE) |
+| Persone ancora nell'alloggio a 12 mesi | n.d. | ≥80% | ≥85% (livello francese) |
+| Posti di dormitorio di lungo periodo riconvertiti | n.d. (censimento al primo anno) | 20% | 40% |
+
+**Rischi di attuazione e mitigazione**
+- *Mancano le case* (il rischio vero, come in Finlandia dal 2024): quota riservata in 04-P2, contratti con garanzia pubblica, uso degli alloggi PNRR.
+- *Sindrome del "progetto" a scadenza*: livello essenziale e fondo vincolato, non bando.
+- *Effetto calamita sulle grandi città*: riparto sul numero di persone, non sulla spesa storica.
+- *Resistenza dei gestori dei dormitori*: riconversione graduale; gli stessi enti accreditati possono gestire le équipe.
+- *Coperture incerte*: le misure su spese fiscali e bilancio del Ministero vanno individuate dall'agente coperture; senza di esse resta la PILOTA.
+
+**Fonti.** fio.PSD, *Country profile Italia* (censimento ISTAT al 31/12/2021), https://www.fiopsd.org/wp-content/uploads/2023/03/IT_Country_Profile_IT.pdf; Ministero del Lavoro, PNRR M5C2 inv. 1.3, https://www.lavoro.gov.it/strumenti-e-servizi/Attuazione-Interventi-PNRR/Pagine/M5C2-inv-1-3.aspx; Varke/ARA, *Homeless people 2024*, https://www.varke.fi/en/statistics/homelessness/homeless-people-2024; DIHAL, *Un chez-soi d'abord*, https://www.info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2018_05_presentation_ppt_generale_ucsdb.pdf; OpenBDAP-RGS, Rendiconto 2025, Ministero del Lavoro cap. 3550 (Fondo povertà, 611 mln).

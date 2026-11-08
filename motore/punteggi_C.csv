@@ -619,3 +619,63 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 09-C8,EQU,1,1,1,M,no,Fondo con priorità a piccoli comuni e Mezzogiorno riduce i divari nei servizi
 09-C8,SIC,0,0,1,B,no,Trasferimento di conoscenze sui sistemi informativi riduce i rischi operativi
 09-C8,CIT,0,1,1,M,no,Diritto e dovere di riqualificazione: reciprocità nel lavoro pubblico
+02-C7,RIS,1,2,2,M,no,"Casa con contratto proprio senza condizioni preliminari: forte dignità per i senza dimora, ma platea di 10.000 persone"
+02-C7,FID,0,1,1,M,no,"LEPS esigibile e fondo vincolato al posto dei bandi; valutazione a 12 e 24 mesi resa pubblica"
+02-C7,INN,0,0,0,M,no,Modello di servizio già sperimentato in Italia; nessun effetto rilevante su innovazione o produttività
+02-C7,BEN,1,2,2,M,no,"Stabilità abitativa con prove randomizzate forti; il rischio vero è la mancanza di alloggi disponibili negli Ambiti"
+02-C7,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+02-C7,BPA,0,0,0,M,no,"Nessun effetto rilevante su patrimonio, paesaggio o accoglienza turistica"
+02-C7,FUT,0,0,0,M,no,"Nessun deficit e risparmi sanitari non usati; passaggio da coesione a FSE+ dopo il 2029 da garantire"
+02-C7,EQU,1,2,2,M,no,"Risorse alle persone più marginali, con riparto sul bisogno e non sulla spesa storica"
+02-C7,SIC,0,1,1,B,no,"Meno marginalità di strada con mezzi sociali, senza controllo sulle persone; effetto sulla sicurezza poco misurato"
+02-C7,CIT,0,1,1,B,no,"Contratto d'affitto con diritti e doveri dell'inquilino, al posto dell'assistenza in dormitorio"
+05-C9,RIS,0,1,1,M,no,"Diritto automatico via ISEE senza domanda né stigma; perdono in parte i diciottenni beneficiari delle Carte individuali"
+05-C9,FID,0,0,0,B,no,"Cataloghi regionali ad avviso pubblico, ma rischio di selezione clientelare degli operatori e controlli disomogenei"
+05-C9,INN,0,0,0,M,no,Uso di app IO e ISEE già esistenti; nessun effetto rilevante sull'innovazione
+05-C9,BEN,0,0,0,M,no,Nessun effetto rilevante su salute o reddito; i benefici culturali stanno in APC
+05-C9,APC,1,1,1,M,no,"Cultura professionale a tutti gli alunni, ma due esperienze l'anno a 20 euro: effetti sull'apprendimento mai misurati"
+05-C9,BPA,0,1,1,M,no,Almeno un'esperienza l'anno sul patrimonio del territorio avvicina gli alunni a musei e siti locali
+05-C9,FUT,0,0,0,M,no,"Nessun deficit; copertura da riordino delle Carte ancora da certificare, con ripiego sull'essenziale"
+05-C9,EQU,1,1,2,M,no,"Offerta collettiva via scuola raggiunge anche chi non cerca cultura; tariffa sociale con uso atteso solo al 25-35%"
+05-C9,SIC,0,0,0,A,no,"Usa ISEE già esistente su app IO, senza nuove raccolte di dati"
+05-C9,CIT,0,1,1,B,no,Cultura come bene comune e cofinanziamento degli operatori e dei Comuni; effetto civico indiretto
+06-C9,RIS,0,1,1,B,no,"Ascolto senza diagnosi in classe e senza sistemi automatici di rischio; possibile medicalizzazione del disagio"
+06-C9,FID,0,0,0,B,no,"Accordo-quadro tra tre livelli di governo con standard minimi; esito e trasparenza incerti"
+06-C9,INN,0,0,0,M,no,Riorganizzazione di servizi esistenti senza effetti rilevanti sull'innovazione
+06-C9,BEN,0,1,1,B,no,"Salute mentale dei ragazzi, ma prove deboli e Case della Comunità operative solo al 3,9%"
+06-C9,APC,0,0,1,B,no,"Possibile riduzione dell'abbandono nel lungo, senza prove controfattuali"
+06-C9,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+06-C9,FUT,0,0,0,B,no,"Nessun deficit; accise salute e riallocazioni già molto usate dall'area salute"
+06-C9,EQU,0,1,1,B,no,"Priorità alle scuole fragili, ma la carenza di psicologi al Sud rischia di lasciare scoperti i territori deboli"
+06-C9,SIC,0,0,0,M,no,"Dati sanitari di minori solo nel fascicolo, protocollo col Garante e nessuna profilazione automatica"
+06-C9,CIT,0,0,0,B,no,Nessun effetto rilevante su partecipazione o reciprocità
+05-C7,RIS,0,1,1,M,no,"Quota automatica senza domanda e indice non pubblico evitano lo stigma delle scuole e degli alunni"
+05-C7,FID,1,1,1,M,no,"Regola stabile al posto dei bandi temporanei e rendicontazione per scuola in dati aperti; qualità dei dati da verificare"
+05-C7,INN,0,1,1,M,no,"Spesa guidata da un menu di interventi provati e valutazione a soglia già nel disegno"
+05-C7,BEN,0,0,1,B,no,"Effetti indiretti e lontani su lavoro e reddito degli alunni svantaggiati"
+05-C7,APC,0,1,2,M,no,"Solo denaro ha effetto quasi nullo (CPB); il vincolo al menu aiuta, ma servono personale e capacità di spesa delle scuole"
+05-C7,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+05-C7,FUT,0,1,1,M,no,"Capitale umano senza deficit; dividendo demografico da certificare dalla RGS e conflitto sindacale possibile"
+05-C7,EQU,1,2,2,M,no,"Concentra stabilmente risorse sul 20% delle scuole più svantaggiate, molte al Sud e nelle Isole"
+05-C7,SIC,0,0,0,M,no,"Indice per scuola calcolato dall'INVALSI su dati già raccolti, non nominativo"
+05-C7,CIT,0,0,0,M,no,Nessun effetto rilevante su partecipazione o reciprocità
+06-C8,RIS,0,1,1,M,no,"Più autonomia della persona assistita e possibilità di restare a casa"
+06-C8,FID,0,0,1,B,no,"Obiettivi pubblici per squadra, ma rischio di autonomia solo sulla carta nelle ASL"
+06-C8,INN,0,1,1,M,no,"Innovazione organizzativa e tariffa a ora di cura; adozione lenta per appalti e contratti esistenti"
+06-C8,BEN,0,1,1,M,no,"Più ore di cura e alta soddisfazione nel modello olandese; la carenza di infermieri limita l'effetto in Italia"
+06-C8,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+06-C8,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+06-C8,FUT,0,0,0,B,no,"Nessun risparmio atteso; costo coperto da accise e FSN già molto contesi"
+06-C8,EQU,0,0,1,B,no,"Estesa a tutte le Regioni: quelle con meno ADI hanno anche meno capacità di attuarla"
+06-C8,SIC,0,0,0,A,no,Nessun effetto rilevante sulla sicurezza
+06-C8,CIT,0,1,1,B,no,"Coinvolge famiglia e rete informale nel piano di cura, con obiettivo di autonomia del paziente"
+05-C8,RIS,0,1,1,M,no,"Servizi gratuiti di prossimità e aiuto digitale a chi ne ha bisogno, anche nei piccoli Comuni"
+05-C8,FID,0,1,1,B,no,"Obiettivo di servizio misurato e facilitazione digitale per la PA; censimento iniziale ancora da fare"
+05-C8,INN,0,1,1,B,no,Competenze digitali e autoservizio aggiungono ore a basso costo
+05-C8,BEN,0,0,1,B,no,"Spazi di studio e incontro con effetto modesto e indiretto sul benessere"
+05-C8,APC,0,1,1,M,no,"Più uso delle biblioteche probabile; effetti di lungo periodo sulla lettura non provati, avvio lento nei Comuni"
+05-C8,BPA,0,1,1,B,no,Patrimonio librario locale e presidio culturale contro lo spopolamento delle aree interne
+05-C8,FUT,0,0,0,M,no,"Nessun deficit; coesione solo per investimenti fino al 2029"
+05-C8,EQU,0,1,1,M,no,"Cofinanziamento ridotto al Sud, ma i Comuni più poveri rischiano di non accedere al fondo"
+05-C8,SIC,0,0,0,M,no,"Accesso con CIE o tessera sanitaria senza effetti rilevanti sulla sicurezza"
+05-C8,CIT,0,1,1,M,no,"Biblioteca come luogo civico di incontro, gruppi di lettura e partecipazione locale"

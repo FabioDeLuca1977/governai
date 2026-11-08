@@ -3262,3 +3262,243 @@ obiettivi:
     base: non misurato (2026)
     obiettivo_3a: 60%
     obiettivo_5a: 100%
+- id: 05-C7-a
+  proposta: 05-C7
+  nome: Divario tra scuole beneficiarie e media nazionale nella quota di alunni di V primaria almeno al livello base in matematica
+  unita: '% del divario iniziale'
+  direzione: giu
+  base:
+    valore: null
+    periodo: '2026'
+    fonte: INVALSI 2026 (media nazionale 63%; divario da calcolare)
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: -20% rispetto alla base
+    5a: -35% rispetto alla base
+  misurazione: manuale
+  valori:
+  - APC
+  - EQU
+  scheda:
+    base: da calcolare su INVALSI 2026 (media nazionale 63%)
+    obiettivo_3a: divario −20%
+    obiettivo_5a: divario −35%
+- id: 05-C7-b
+  proposta: 05-C7
+  nome: ELET 18-24 Isole (insieme a 05-C1)
+  unita: '%'
+  direzione: giu
+  base:
+    valore: 13.7
+    periodo: '2025'
+    fonte: Eurostat edat_lfse_16
+  obiettivo_3a: 11.5
+  obiettivo_5a: 9.5
+  serie:
+    file: 05_elet_18_24_nuts1
+    filtro:
+      geo: ITG
+  valori:
+  - APC
+  - EQU
+  scheda:
+    base: 13,7% (2025, Eurostat edat_lfse_16)
+    obiettivo_3a: 11,5% (insieme a 05-C1)
+    obiettivo_5a: 9,5%
+- id: 05-C8-a
+  proposta: 05-C8
+  nome: Utenti delle biblioteche di pubblica lettura
+  unita: milioni di persone
+  direzione: su
+  base:
+    valore: 4.9
+    periodo: '2022'
+    fonte: ISTAT, Focus biblioteche di pubblica lettura (2024)
+  obiettivo_3a: 5.8
+  obiettivo_5a: 6.5
+  misurazione: manuale
+  valori:
+  - APC
+  - CIT
+  scheda:
+    base: 4,9 milioni (2022, ISTAT)
+    obiettivo_3a: 5,8 milioni
+    obiettivo_5a: 6,5 milioni
+- id: 05-C8-b
+  proposta: 05-C8
+  nome: Comuni (o unioni) che rispettano l'obiettivo di servizio delle biblioteche
+  unita: '% Comuni'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: censimento ISTAT al primo anno
+  obiettivo_3a: 70.0
+  obiettivo_5a: 90.0
+  misurazione: manuale
+  valori:
+  - EQU
+  - CIT
+  scheda:
+    base: n.d. (censimento ISTAT al primo anno)
+    obiettivo_3a: 70%
+    obiettivo_5a: 90%
+- id: 05-C9-a
+  proposta: 05-C9
+  nome: Alunni con almeno 2 esperienze culturali professionali nell'anno scolastico
+  unita: '% alunni'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: rilevazione MIM dal primo anno
+  obiettivo_3a: 70.0
+  obiettivo_5a: 95.0
+  misurazione: manuale
+  valori:
+  - APC
+  - EQU
+  - BPA
+  scheda:
+    base: n.d. (rilevazione MIM dal primo anno)
+    obiettivo_3a: 70%
+    obiettivo_5a: 95% (PIENA)
+- id: 05-C9-b
+  proposta: 05-C9
+  nome: Aventi diritto che usano la tariffa sociale della cultura almeno una volta l'anno
+  unita: '% aventi diritto'
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: scheda (misura nuova)
+  obiettivo_3a: 25.0
+  obiettivo_5a: 35.0
+  misurazione: manuale
+  valori:
+  - EQU
+  - CIT
+  scheda:
+    base: 0 (misura nuova)
+    obiettivo_3a: 25%
+    obiettivo_5a: 35%
+- id: 02-C7-a
+  proposta: 02-C7
+  nome: Persone in Housing First con contratto d'affitto proprio
+  unita: persone
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: progetti PNRR M5C2 inv. 1.3 in corso (dato nazionale n.d.)
+  obiettivo_3a: 6000.0
+  obiettivo_5a: null
+  obiettivi_per_variante:
+    5a: 10.000 (PIENA); 6.000 (ESSENZIALE)
+  misurazione: manuale
+  valori:
+  - RIS
+  - EQU
+  scheda:
+    base: progetti PNRR in corso (dato nazionale n.d.)
+    obiettivo_3a: '6.000'
+    obiettivo_5a: 10.000 (PIENA); 6.000 (ESSENZIALE)
+- id: 02-C7-b
+  proposta: 02-C7
+  nome: Persone in Housing First ancora nell'alloggio a 12 mesi
+  unita: '% persone'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: null
+  obiettivo_3a: 80.0
+  obiettivo_5a: 85.0
+  misurazione: manuale
+  valori:
+  - RIS
+  - BEN
+  scheda:
+    base: n.d.
+    obiettivo_3a: ≥80%
+    obiettivo_5a: ≥85% (livello francese)
+- id: 06-C8-a
+  proposta: 06-C8
+  nome: Ore di assistenza domiciliare integrata per caso trattato
+  unita: ore per caso all'anno
+  direzione: su
+  base:
+    valore: 14.0
+    periodo: '2023'
+    fonte: CERGAS Bocconi, Rapporto OASI 2025
+  obiettivo_3a: 16.0
+  obiettivo_5a: 18.0
+  misurazione: manuale
+  valori:
+  - BEN
+  - RIS
+  scheda:
+    base: 14 (2023, CERGAS Bocconi, OASI 2025)
+    obiettivo_3a: 16 (insieme a 06-C3)
+    obiettivo_5a: '18'
+- id: 06-C8-b
+  proposta: 06-C8
+  nome: Ricoveri evitabili degli over 75 seguiti dalle squadre, rispetto ai distretti di controllo
+  unita: '% differenza'
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: valutazione Agenas con distretti di controllo
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: -5% rispetto ai distretti di controllo
+    5a: -10% rispetto ai distretti di controllo
+  misurazione: manuale
+  valori:
+  - BEN
+  - INN
+  scheda:
+    base: n.d.
+    obiettivo_3a: −5%
+    obiettivo_5a: −10%
+- id: 06-C9-a
+  proposta: 06-C9
+  nome: Studenti delle secondarie coperti da un'équipe di benessere con almeno gli standard minimi
+  unita: '% studenti'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: rilevazione dal primo anno
+  obiettivo_3a: 50.0
+  obiettivo_5a: 90.0
+  misurazione: manuale
+  valori:
+  - BEN
+  - EQU
+  scheda:
+    base: n.d. (rilevazione dal primo anno)
+    obiettivo_3a: 50%
+    obiettivo_5a: 90% (PIENA)
+- id: 06-C9-b
+  proposta: 06-C9
+  nome: Tempo tra segnalazione e primo colloquio con lo psicologo dell'équipe
+  unita: giorni
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: null
+  obiettivo_3a: 15.0
+  obiettivo_5a: 10.0
+  misurazione: manuale
+  valori:
+  - BEN
+  - RIS
+  scheda:
+    base: n.d.
+    obiettivo_3a: ≤ 15 giorni
+    obiettivo_5a: ≤ 10 giorni

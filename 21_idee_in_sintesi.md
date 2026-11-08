@@ -8,14 +8,14 @@ Uno Stato che funziona e conti onesti, per investire su famiglie, giovani e terr
 
 ## I numeri
 
-- **62 proposte** in 9 aree, valutate su **10 valori** dichiarati in una Carta.
-- **18 proposte formano il nucleo robusto**: restano tra le prioritarie con quasi ogni combinazione di pesi tra i valori, cioè con sensibilità politiche diverse.
+- **68 proposte** in 9 aree, valutate su **10 valori** dichiarati in una Carta.
+- **19 proposte formano il nucleo robusto**: restano tra le prioritarie con quasi ogni combinazione di pesi tra i valori, cioè con sensibilità politiche diverse.
 - Tre versioni del programma, **tutte senza deficit**:
 
 <!-- auto:totali -->
-- **Programma base: 7,90 mld l'anno**, 50 misure su 62, con 17 su 18 del nucleo robusto almeno in versione essenziale. Usa solo coperture a basso costo sociale.
-- **Programma completo: 12,99 mld l'anno**, 53 misure, nucleo robusto 18 su 18. Aggiunge coperture strutturali più impegnative.
-- **Programma intermedio: 9,15 mld l'anno**, 52 misure, nucleo robusto 18 su 18. Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
+- **Programma base: 7,88 mld l'anno**, 57 misure su 68, con 18 su 19 del nucleo robusto almeno in versione essenziale. Usa solo coperture a basso costo sociale.
+- **Programma completo: 13,31 mld l'anno**, 59 misure, nucleo robusto 19 su 19. Aggiunge coperture strutturali più impegnative.
+- **Programma intermedio: 9,18 mld l'anno**, 56 misure, nucleo robusto 19 su 19. Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
 - **Programma adottato dal governo ombra** (simulazione, `governo/`): 11,63 mld l'anno, 55 misure, coperture al minimo per 11,12 mld più i fondi vincolati.
 <!-- /auto:totali -->
 
@@ -34,9 +34,12 @@ Tra parentesi i codici delle proposte. *Nucleo* indica le misure del nucleo robu
 - Squadre contro la dispersione scolastica (05-C1, *nucleo*), scuole aperte come presidi di comunità (05-C5, *nucleo*).
 - Più diplomati e laureati, con ITS e borse garantite (05-C4, *nucleo*), e un conto personale per formarsi lungo la vita (05-C2, *nucleo*).
 - Progetto di vita e lavoro per le persone con disabilità (02-C5, *nucleo*).
+- Più risorse alle scuole con più alunni svantaggiati, vincolate a interventi di efficacia provata come il tutoraggio in piccoli gruppi (05-C7, dal modello olandese).
 - Salario minimo legato ai contratti più rappresentativi (02-C1) e uscita flessibile dal lavoro pagando il costo vero della scelta (02-C3).
 
-**4. Salute e cura.** Le proposte ci sono: personale sanitario (06-C2), Case della Comunità (06-C3), tempi garantiti o rimborso (06-C1), non autosufficienza (06-C4), salute mentale (06-C5). Oggi però sono in gran parte **fuori dal programma o solo sperimentali**, perché mancano coperture certificate. È il punto più debole del programma, e lo si dice.
+**Cultura per tutti.** Biblioteche di comunità con un livello minimo di servizio, biblioteche a scuola e orari più lunghi (05-C8). Due esperienze culturali professionali l'anno per ogni alunno e una tariffa sociale per chi ha redditi bassi (05-C9, dallo «zaino culturale» norvegese).
+
+**4. Salute e cura.** Le proposte ci sono: personale sanitario (06-C2), Case della Comunità (06-C3), tempi garantiti o rimborso (06-C1), non autosufficienza (06-C4), salute mentale (06-C5). Dal Nord Europa arrivano tre idee: Housing First per chi vive in strada, con una casa stabile e sostegno (02-C7, *nucleo*, sul modello finlandese); squadre autonome di infermieri per l'assistenza a domicilio (06-C8); équipe di benessere a scuola collegate alle Case della Comunità (06-C9). Molte misure sanitarie però sono ancora **fuori dal programma o solo sperimentali**, perché mancano coperture certificate. È il punto più debole del programma, e lo si dice.
 
 **5. Territori, ambiente e casa.**
 - Un fondo stabile per prevenire frane e alluvioni, assegnato per rischio e non per emergenza (03-P4, *nucleo*).

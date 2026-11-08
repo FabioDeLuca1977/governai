@@ -319,3 +319,119 @@ La proposta genera inoltre la misura di copertura **FSN-INT** (0,2–0,5 mld), c
 - **Regressività delle accise**: compensare con il fondo prevenzione nelle aree svantaggiate.
 - **Gettito che cala se i consumi scendono**: è l'effetto voluto; il vincolo di destinazione ha una base minima.
 - **Riallocazione che toglie risorse ad altri capitoli del FSN**: trade-off esplicitato in Conferenza Stato-Regioni.
+
+---
+
+## 06-C8 — Squadre infermieristiche autonome di quartiere per l'assistenza domiciliare
+
+*Proposta nata dal confronto con il Nord Europa (`benchmark/proposte_nord_europa.md`, codice provvisorio NE-4; analisi in `benchmark/nord_europa_scuola_welfare_cultura.md`, par. 3.2). Inserita l'8 novembre 2026. I giudizi sui valori spettano al panel indipendente.*
+
+**Problema in un dato.** Nel 2023 l'assistenza domiciliare integrata (ADI) ha dato in media **14 ore l'anno per caso trattato**, contro 16 nel 2021. L'ADI è spesso appaltata e pagata ad accesso: vince chi fa più visite brevi, non chi rende la persona più autonoma (CERGAS Bocconi, *Rapporto OASI 2025*).
+
+**Soluzione.** Le ASL possono organizzare l'ADI in **squadre di quartiere** di 10-12 infermieri di famiglia e comunità (DM 77/2022), con autonomia su presa in carico, orari e piano di cura, in rete con il medico di famiglia e la Casa della Comunità. È il modello olandese Buurtzorg. Cambia il **modo di pagare**: tariffa a **ora di cura**, compreso il tempo per coordinarsi con famiglia, medico e assistente sociale, e non più ad accesso; vale anche per i soggetti accreditati. Ogni squadra ha un coach esterno, un sistema informatico semplice collegato al fascicolo sanitario e obiettivi pubblici. Si parte a scaglioni tra distretti, con gruppo di controllo, e si estende solo con esiti positivi. **Non è una misura di risparmio**: in Olanda il costo totale per paziente è nella media (KPMG 2015); il guadagno è di qualità e di lavoro.
+
+| Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
+|---|---|---|---|---|
+| PIENA | 1.500 squadre in tutte le Regioni; fondo per le ore aggiuntive di cura | 0,03 / 0,12 / 0,20 → **0,25** (2030) | 1,0 | ACCISE_SALUTE 0,10; RIALLOCAZIONE 0,10; SPESE_FISCALI 0,05 |
+| ESSENZIALE | 500 squadre nelle Regioni con meno ore ADI per assistito | 0,02 / 0,06 / 0,10 → **0,10** (2029) | 0,4 | ACCISE_SALUTE 0,05; RIALLOCAZIONE 0,05 |
+| PILOTA | 60 squadre in 10 distretti, inserimento a scaglioni e valutazione | 0,01 / 0,02 / 0,02 → 0,02 (2028) | 0,1 | COESIONE_2127 0,02 (FSE+, temporaneo) |
+
+*Come è costruito il costo (stima GovernAI)*: circa 70.000 € l'anno per squadra tra coach, formazione, sistema informatico e tempo di coordinamento riconosciuto (1.500 × 70.000 € = 0,105), più un fondo per ore di cura aggiuntive (0,15). Totale circa 0,25. ESSENZIALE: 500 × 70.000 € = 0,035 + ore aggiuntive 0,065 = 0,10. Gli stipendi degli infermieri sono già in 06-C2 e nel DM 77 e non si contano due volte. **Rispetto alla proposta d'origine** i costi restano uguali; nella PIENA il profilo annuo è corretto (0,20 nel 2029, regime nel 2030) e cambiano le coperture: tolto il FSN (le quote FSN delle PIENE dell'area valgono già 0,5 mld, il massimo della misura FSN-INT) e tolta la coesione dalla variante stabile, sostituite da RIALLOCAZIONE e SPESE_FISCALI.
+
+**Articolato normativo essenziale**
+
+**Art. 1 (Finalità).** Al fine di aumentare la quantità e la qualità dell'assistenza domiciliare integrata e l'autonomia delle persone assistite, il presente articolo disciplina le squadre infermieristiche di quartiere e la remunerazione a tempo di cura.
+
+**Art. 2 (Squadre di quartiere).** 1. Le aziende sanitarie possono organizzare l'assistenza domiciliare in squadre di infermieri di famiglia e comunità, di norma non più di dodici, responsabili di un territorio definito. 2. La squadra decide la presa in carico, l'organizzazione dei turni e il piano di cura, in accordo con il medico di medicina generale e con la Casa della Comunità di riferimento.
+
+**Art. 3 (Remunerazione a ora di cura).** Con intesa in Conferenza Stato-Regioni è definito lo standard della tariffa dell'assistenza domiciliare per ora di cura, comprensiva del tempo di coordinamento con la rete familiare e i servizi. La tariffa si applica anche agli erogatori accreditati che adottano il modello.
+
+**Art. 4 (Sperimentazione e valutazione).** 1. Il modello è avviato con inserimento a scaglioni tra distretti, in modo da consentire il confronto con distretti di controllo. 2. L'Agenas valuta ore di cura per assistito, ricoveri evitabili, soddisfazione degli assistiti e turnover del personale, e verifica il rispetto degli standard di autonomia delle squadre.
+
+**Art. 5 (Fondo).** È istituito il Fondo per le squadre di quartiere, con dotazione di 20 mln nel 2027, 60 mln nel 2028 e 100 mln annui dal 2029 [PIENA: 30, 120, 200 mln e 250 dal 2030], per formazione, coaching, sistemi informativi e ore di cura aggiuntive. Il Fondo è ripartito tra le Regioni con priorità per quelle con meno ore di assistenza domiciliare per assistito.
+
+**Art. 6 (Copertura finanziaria).** Agli oneri si provvede mediante quota delle maggiori entrate derivanti dall'aumento delle accise sui tabacchi lavorati e mediante la riduzione del limite di spesa per beni e servizi non sanitari degli enti del SSN [PIENA: anche mediante la rimodulazione delle agevolazioni fiscali sanitarie per i redditi elevati]. [PILOTA: a valere sui programmi FSE+ 2021-2027, previa riprogrammazione.]
+
+**Cronoprogramma**
+
+| Fase | Ministero della Salute | Regioni | AGENAS | ASL |
+|---|---|---|---|---|
+| Primi 100 giorni | Norma in legge di bilancio; proposta di intesa sulla tariffa a ora di cura | Individuano i distretti del primo scaglione | Disegno della valutazione con distretti di controllo | Selezione delle prime squadre e dei coach |
+| 12 mesi | Intesa sulla tariffa; primo riparto del Fondo | Adeguano i contratti con gli erogatori accreditati | Standard di autonomia delle squadre; prima rilevazione | Prime squadre attive; sistema informatico collegato al fascicolo |
+| Fine legislatura | Estensione solo con esiti positivi | Squadre in tutte le Regioni (PIENA) o in quelle in ritardo (ESSENZIALE) | Valutazione a 3 anni pubblica | Ore per assistito in crescita, turnover sotto la media |
+
+**Indicatori**
+
+| KPI | Base | Obiettivo 3 anni | Obiettivo 5 anni |
+|---|---|---|---|
+| Ore ADI per caso trattato | 14 (2023, CERGAS Bocconi, OASI 2025) | 16 (insieme a 06-C3) | 18 |
+| Ricoveri evitabili degli over 75 seguiti dalle squadre, rispetto ai distretti di controllo | n.d. | −5% | −10% |
+| Turnover degli infermieri nelle squadre rispetto alla media regionale | n.d. (rilevazione annua pubblica) | rilevazione pubblica | sotto la media regionale |
+
+Gli obiettivi sulle ore sono più prudenti di quelli della proposta d'origine (18 e 22): un fondo da 0,15 mld per ore aggiuntive non basta da solo a portare la media nazionale a 22.
+
+**Rischi e mitigazione**
+- **Attese di risparmio**: dichiarate nulle; la misura si giudica su ore e qualità.
+- **Carenza di infermieri**: autonomia e meno burocrazia come leva per attrarre; collegamento con 06-C2.
+- **Resistenza delle cooperative appaltatrici**: possono diventare squadre accreditate se accettano il modello.
+- **Squadre autonome solo sulla carta**: standard di autonomia verificati da Agenas.
+- **Coperture**: le accise calano se calano i consumi; la riduzione del limite di spesa per beni e servizi va certificata.
+
+**Fonti.** CERGAS Bocconi, *Rapporto OASI 2025*, cap. B2, https://cergas.unibocconi.eu/sites/default/files/media/attach/05_Fosti_et_al_B2_OASI25.pdf; KPMG-Plexus 2015, in Kamerstuk 31 765 n. 114, https://zoek.officielebekendmakingen.nl/kst-31765-114.pdf; Commonwealth Fund 2015, https://www.commonwealthfund.org/publications/case-study/2015/may/home-care-self-governing-nursing-teams-netherlands-buurtzorg-model; DM 23 maggio 2022, n. 77.
+
+---
+
+## 06-C9 — Équipe di benessere scolastico in rete con la Casa della Comunità
+
+*Proposta nata dal confronto con il Nord Europa (`benchmark/proposte_nord_europa.md`, codice provvisorio NE-2; analisi in `benchmark/nord_europa_scuola_welfare_cultura.md`, par. 2.5). Inserita l'8 novembre 2026. I giudizi sui valori spettano al panel indipendente.*
+
+**Problema in un dato.** La spesa per la salute mentale è il **2,7-3% del FSN** contro l'obiettivo del 5%. Nelle scuole lo psicologo è finanziato a progetto o a bando annuale: non esiste un servizio stabile né un dato nazionale su quante scuole ne hanno uno. Al 31/12/2025 solo il **3,9%** delle Case della Comunità era pienamente operativo (Ministero della Salute, in 06-C5, da verificare sul Rapporto SISM; Agenas, Report DM 77, II semestre 2025, in 06-C3).
+
+**Soluzione.** Ogni rete di scuole ha un'**équipe di benessere** collegata alla Casa della Comunità del distretto: uno psicologo, ore programmate di infermiere di famiglia e comunità, un assistente sociale del Comune come referente. È il modello svedese dell'*elevhälsa*, ma organizzato come accordo di rete tra scuola e sanità, non come nuovo ruolo dentro la scuola. Compiti: prevenzione (salute, sonno, schermi, dipendenze), ascolto, invio rapido ai servizi, sostegno ai docenti nei casi difficili. Un accordo-quadro Stato-Regioni-ANCI fissa standard minimi (ore per mille studenti) e un protocollo sulla privacy. L'équipe **non fa diagnosi a scuola** e non usa sistemi automatici di "rischio". Priorità alle secondarie e alle scuole dell'indice di fragilità.
+
+| Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
+|---|---|---|---|---|
+| PIENA | Tutte le secondarie: 1 psicologo ogni 1.500 studenti (circa 2.800), più ore infermieristiche e di servizio sociale | 0,04 / 0,12 / 0,20 → **0,20** (2029) | 1,0 | ACCISE_SALUTE 0,10; RIALLOCAZIONE 0,10 |
+| ESSENZIALE | Solo le scuole del quintile fragile (le stesse di 05-C1), tutti i gradi | 0,02 / 0,06 / 0,08 → **0,08** (2029) | 0,45 | RIALLOCAZIONE 0,05; ACCISE_SALUTE 0,03 |
+| PILOTA | 100 reti di scuole in 4 Regioni, con valutazione controfattuale | 0,01 / 0,03 / 0,03 → 0,03 (2028) | 0,15 | COESIONE_2127 0,03 (FSE+, temporaneo) |
+
+*Come è costruito il costo (stima GovernAI)*: circa 4,2 milioni di studenti delle secondarie statali (da verificare su MIM) / 1.500 = circa 2.800 psicologi × 55.000 € lordi = 0,15; ore di raccordo infermieristico e sociale, formazione e protocolli 0,05. Totale 0,20. ESSENZIALE: circa 1,4 milioni di alunni del quintile fragile / 1.500 = circa 930 psicologi × 55.000 € = 0,05, più 0,03 di raccordo. Totale 0,08. Le ore di infermiere vengono in gran parte dal personale già previsto per le Case della Comunità (06-C2, 06-C3) e non si contano due volte. **Se 06-C5 è adottata**, gli psicologi di base per i 14-25 anni possono lavorare nelle équipe e il costo aggiuntivo della PIENA scende a circa 0,10. **Rispetto alla proposta d'origine** i costi restano uguali; nella ESSENZIALE la coesione (0,03 fino al 2029) è sostituita da ACCISE_SALUTE, perché si tratta di personale stabile.
+
+**Articolato normativo essenziale**
+
+**Art. 1 (Finalità).** Al fine di promuovere la salute e il benessere psicologico degli studenti e di prevenire il disagio e l'abbandono scolastico, il presente articolo istituisce le équipe di benessere scolastico in rete tra istituzioni scolastiche, aziende sanitarie e Comuni.
+
+**Art. 2 (Équipe di benessere).** 1. Le aziende sanitarie assicurano a ogni rete di istituzioni scolastiche secondarie [ESSENZIALE: alle istituzioni del quintile più fragile dell'indice di fragilità] un'équipe composta da uno psicologo, da ore programmate di infermiere di famiglia e comunità e da un assistente sociale del Comune o dell'Ambito territoriale come referente. 2. L'équipe opera presso la Casa della Comunità del distretto e nelle scuole.
+
+**Art. 3 (Standard e compiti).** 1. Con accordo in Conferenza unificata sono fissati gli standard minimi di ore per mille studenti e i compiti dell'équipe: prevenzione, ascolto, invio ai servizi, sostegno ai docenti. 2. L'équipe non effettua diagnosi a scuola e non utilizza sistemi automatizzati di valutazione del rischio individuale.
+
+**Art. 4 (Protezione dei dati).** Il protocollo sul trattamento dei dati è adottato sentito il Garante per la protezione dei dati personali. I dati sanitari sono conservati solo nel fascicolo sanitario elettronico; per i minori si applicano le regole sul consenso dei genitori.
+
+**Art. 5 (Valutazione).** Il Ministero della salute e il Ministero dell'istruzione e del merito, con l'ISS, valutano l'effetto delle équipe su tempi di presa in carico, benessere e abbandono, confrontando le reti avviate prima e dopo. L'estensione oltre la variante adottata è subordinata a esiti positivi.
+
+**Art. 6 (Copertura finanziaria).** Agli oneri, pari a 20 mln nel 2027, 60 mln nel 2028 e 80 mln annui dal 2029 [PIENA: 40, 120 e 200 mln], si provvede mediante la riduzione del limite di spesa per beni e servizi non sanitari degli enti del SSN e mediante quota delle maggiori entrate derivanti dall'aumento delle accise sui tabacchi lavorati. [PILOTA: a valere sui programmi FSE+ 2021-2027, previa riprogrammazione.]
+
+**Cronoprogramma**
+
+| Fase | Ministero della Salute | Regioni | AGENAS | ASL |
+|---|---|---|---|---|
+| Primi 100 giorni | Norma in legge di bilancio; bozza di accordo-quadro con MIM e ANCI; protocollo con il Garante | Mappano reti di scuole e Case della Comunità | Disegno della rilevazione nazionale delle équipe | Censiscono psicologi e ore infermieristiche disponibili |
+| 12 mesi | Accordo-quadro in Conferenza unificata; primo riparto | Avvio nelle scuole del quintile fragile o nelle reti pilota | Prima rilevazione di copertura e tempi | Équipe attive; protocolli di invio con i servizi |
+| Fine legislatura | Valutazione pubblica; estensione solo con esiti positivi | Copertura di tutte le secondarie (PIENA) | Monitoraggio annuale | Tempi di primo colloquio entro 15 giorni |
+
+**Indicatori**
+
+| KPI | Base | Obiettivo 3 anni | Obiettivo 5 anni |
+|---|---|---|---|
+| Studenti delle secondarie coperti da un'équipe con almeno gli standard minimi | n.d. (rilevazione dal primo anno) | 50% | 90% (PIENA) |
+| Tempo tra segnalazione e primo colloquio con lo psicologo | n.d. | ≤ 15 giorni | ≤ 10 giorni |
+| ELET 18-24 maschi | 10,1% (2025, Eurostat edat_lfse_14) | 8,8% (insieme a 05-C1 e 05-C7) | 7,5% |
+
+**Rischi e mitigazione**
+- **Prove deboli sull'effetto**: partire dalla PILOTA con gruppo di controllo; passare alla PIENA solo con esiti positivi.
+- **Medicalizzazione del disagio**: mandato preventivo e di rete, niente diagnosi in classe.
+- **Privacy dei minori**: protocollo con il Garante, consenso dei genitori, dati sanitari solo nel fascicolo.
+- **Mancano psicologi al Sud e nelle aree interne**: équipe di rete tra più scuole, indennità di sede di 04-P6.
+- **Doppio conteggio con 06-C5**: se 06-C5 è adottata, gli psicologi di base si impiegano nelle équipe e il costo scende.
+
+**Fonti.** Svezia, Dir. 2024:30 *En förbättrad elevhälsa*, https://www.regeringen.se/contentassets/39b4dab4d3e54fbcac52d87ab94825c4/en-forbattrad-elevhalsa-dir.-202430.pdf; Agenas, Report nazionale DM 77, II semestre 2025 (in 06-C3 e `dati/verifiche/06_salute.md`); Ministero della Salute, spesa per la salute mentale (in 06-C5, da verificare sul Rapporto SISM); Eurostat edat_lfse_14 (`dati/serie/05_elet_18_24_sesso.csv`). Numero di studenti delle secondarie: MIM, da verificare.
