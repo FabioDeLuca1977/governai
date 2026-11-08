@@ -1,0 +1,673 @@
+DECRETO 17 settembre 2026
+Caratteristiche e contenuti delle prescrizioni transfrontaliere - ID Monitor 96.
+(GU Serie Generale n. 246 del 2026-10-22; https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05532/sg)
+
+IL MINISTRO DELLA SALUTE
+
+di concerto con
+
+IL MINISTRO DELL'ECONOMIA
+E DELLE FINANZE
+
+Vista la legge 23 dicembre 1978, n. 833, recante istituzione del
+Servizio sanitario nazionale;
+Visto il decreto legislativo 30 dicembre 1992, n. 502, recante
+riordino della disciplina in materia sanitaria, a norma dell'art. 1
+della legge 23 ottobre 1992, n. 421;
+Visto il decreto legislativo 7 marzo 2005, n. 82, recante «Codice
+dell'amministrazione digitale»;
+Visto il regolamento (UE) n. 679/2016 del Parlamento europeo e del
+Consiglio del 27 aprile 2016 relativo alla protezione delle persone
+fisiche con riguardo al trattamento dei dati personali, nonche' alla
+libera circolazione di tali dati e che abroga la direttiva 95/46/CE
+(regolamento generale sulla protezione dei dati);
+Visto il decreto legislativo del 30 giugno 2003, n. 196, recante
+«Codice in materia di protezione dei dati personali, recante
+disposizioni per l'adeguamento della normativa nazionale alle
+disposizioni del regolamento (UE) n. 2016/679 del Parlamento europeo
+e del Consiglio, del 27 aprile 2016, relativo alla protezione delle
+persone fisiche con riguardo al trattamento dei dati personali,
+nonche' alla libera circolazione di tali dati e che abroga la
+direttiva 95/46/CE» e, in particolare, l'art. 2-sexies, comma 2,
+lettere t), u) e v), in considerazione del rilevante interesse
+pubblico al trattamento dei dati relativi alla dispensazione in un
+altro Stato membro dei medicinali oggetto di prescrizioni
+transfrontaliere rilasciate in Italia, per finalita' di gestione,
+controllo e valutazione dell'assistenza sanitaria transfrontaliera,
+nonche' per finalita' statistiche;
+Visto il regolamento (CE) n. 883/2004 del Parlamento europeo e del
+Consiglio, del 29 aprile 2004, relativo al coordinamento dei sistemi
+di sicurezza sociale;
+Visto il regolamento (CE) n. 987/2009 del Parlamento europeo e del
+Consiglio, del 19 settembre 2009, che stabilisce le modalita' di
+applicazione del regolamento (CE) n. 883/2004 relativo al
+coordinamento dei sistemi di sicurezza sociale;
+Visti, in particolare, l'art. 19 del regolamento (CE) n. 883/2004 e
+l'art. 25 e seguenti, del regolamento (CE) n. 987/2009, che
+disciplinano l'erogazione delle prestazioni sanitarie, necessarie
+sotto il profilo medico, durante la dimora in altro Stato membro
+diverso da quello competente, e il relativo rimborso;
+Visti, inoltre, l'art. 20 del regolamento (CE) n. 883/2004 e l'art.
+26 del regolamento (CE) n. 987/2009, che regolano le procedure di
+autorizzazione e i rimborsi per i viaggi intesi a ricevere
+prestazioni cure adeguate al di fuori dello Stato membro di
+residenza;
+Vista l'intesa, ai sensi dell'art. 19 del decreto legislativo 4
+marzo 2014, n. 38, tra il Governo, le regioni e le Province autonome
+di Trento e di Bolzano, su proposta del Ministero della salute, sul
+documento recante «Linee guida in materia di assistenza sanitaria
+transfrontaliera» (rep. atti n. 250/CSR del 21 dicembre 2017);
+Visto il decreto del Ministro della salute 16 aprile 2018, n. 50,
+recante «Regolamento in materia di assistenza sanitaria
+transfrontaliera soggetta ad autorizzazione preventiva»;
+Vista l'intesa, ai sensi dell'art. 8, comma 6, della legge 5 giugno
+2003, n. 131 tra il Governo, le regioni e le Province autonome di
+Trento e di Bolzano concernente «Il nuovo Patto per la salute per gli
+anni 2014-2016» (Rep. atti n. 82/CSR del 10 luglio 2014) e, in
+particolare, l'art. 2 relativo alla mobilita' transfrontaliera;
+Vista la direttiva (UE) n. 24/2011 del Parlamento europeo e del
+Consiglio del 9 marzo 2011 concernente l'applicazione dei diritti dei
+pazienti relativi all'assistenza sanitaria transfrontaliera e, in
+particolare, l'art. 11, recante «Riconoscimento delle prescrizioni
+rilasciate in un altro Stato membro», il quale prevede che gli Stati
+membri garantiscono che le prescrizioni rilasciate in un altro Stato
+membro, per un medicinale la cui immissione in commercio e'
+autorizzata sul loro territorio, possono essere dispensate,
+conformemente alla legislazione nazionale in vigore;
+Vista la direttiva di esecuzione (UE) n. 52/2012 della Commissione
+europea del 20 dicembre 2012 recante misure destinate ad agevolare il
+riconoscimento delle ricette mediche emesse in un altro Stato membro,
+attuativa del predetto art. 11, paragrafo 1, della direttiva (UE) n.
+24/2011, che, all'art. 3, prevede che gli Stati membri provvedano a
+che le ricette contengano i dati minimi indicati nell'allegato alla
+stessa direttiva;
+Visto il regolamento (UE) n. 283/2014 del Parlamento europeo e del
+Consiglio dell'11 marzo 2014 sugli orientamenti per le reti
+transeuropee nel settore dell'infrastruttura di telecomunicazioni e
+che abroga la decisione (CE) n. 1336/1997;
+Vista la decisione del Comitato misto SEE n. 153/2014, del 9 luglio
+2014, che ha integrato l'allegato X dell'accordo sullo Spazio
+economico europeo n. 2015/88 con le citate direttive (UE) n. 24/2011
+del 9 marzo 2011 del Parlamento europeo e del Consiglio, e n. 52/2012
+del 20 dicembre 2012 della Commissione europea;
+Vista la direttiva (CE) n. 83/2001 del Parlamento europeo e del
+Consiglio, del 6 novembre 2001, recante un codice comunitario
+relativo ai medicinali per uso umano e successive direttive di
+modifica;
+Visto il decreto legislativo 24 aprile 2006, n. 219, recante
+«Attuazione della direttiva 2001/83/CE (e successive direttive di
+modifica) relativa ad un codice comunitario concernente i medicinali
+per uso umano»;
+Vista la legge 6 agosto 2013, n. 96, recante «Delega al Governo per
+il recepimento delle direttive europee e l'attuazione di altri atti
+dell'Unione europea - legge di delegazione europea 2013»;
+Visto il decreto legislativo 4 marzo 2014, n. 38, recante
+«Attuazione della direttiva 2011/24/UE concernente l'applicazione dei
+diritti dei pazienti relativi all'assistenza sanitaria
+transfrontaliera, nonche' della direttiva 2012/52/UE, comportante
+misure destinate ad agevolare il riconoscimento delle ricette mediche
+emesse in un altro stato membro» e, in particolare, l'art. 8, il
+quale prevede che le prescrizioni mediche rilasciate nel territorio
+nazionale, per essere utilizzate in un altro Stato membro devono
+contenere almeno i dati stabiliti nell'allegato al decreto, conforme
+all'allegato alla direttiva (UE) n. 52/2012;
+Visto l'art. 7 del citato decreto legislativo 4 marzo 2014, n. 38,
+che istituisce, presso il Ministero della salute, il punto di
+contatto nazionale per l'assistenza sanitaria transfrontaliera, che
+facilita lo scambio delle informazioni da rendere ai pazienti per
+esercitare i loro diritti in materia di assistenza sanitaria
+transfrontaliera e coopera con i punti di contatto nazionale degli
+altri Stati membri dell'Unione europea e con la Commissione europea;
+Visto il regolamento (UE) n. 1724/2018 del Parlamento europeo e del
+Consiglio, del 2 ottobre 2018, che istituisce uno sportello digitale
+unico per l'accesso a informazioni, procedure e servizi di assistenza
+e di risoluzione dei problemi e che modifica il regolamento (UE) n.
+1024/2012;
+Visto il decreto del Ministero dell'economia e delle finanze 11
+marzo 2004 e successive modifiche, concernente la definizione delle
+caratteristiche tecniche della Tessera sanitaria (TS) e quelle della
+Tessera europea di assicurazione malattia (TEAM), corrispettivo
+italiano della European Health Insurance Card (EHIC);
+Visto l'art. 50 del decreto-legge 30 settembre 2003, n. 269,
+convertito, con modificazioni, dalla legge 24 novembre 2003, n. 326,
+concernente il Sistema tessera sanitaria;
+Visto l'art. 11, comma 16, del decreto-legge 31 maggio 2010, n. 78,
+convertito, con modificazioni, dalla legge 30 luglio 2010, n. 122, in
+merito alla dematerializzazione delle prescrizioni mediche di
+farmaceutica e specialistica a carico del Servizio sanitario
+nazionale;
+Visto il decreto del Ministero dell'economia e delle finanze, di
+concerto con il Ministero della salute, 2 novembre 2011, pubblicato
+nella Gazzetta Ufficiale della Repubblica italiana, n. 264 del 12
+novembre 2011, e successive modifiche, concernente la
+dematerializzazione delle ricette mediche, tramite il Sistema di
+accoglienza centrale (SAC), anche tramite Sistemi di accoglienza
+regionali o provinciali (SAR) e l'allegato 1, paragrafo 4.1, del
+medesimo decreto, che prevede la possibilita' di rilascio del
+«promemoria dematerializzato» della ricetta elettronica
+all'assistito;
+Visto il decreto del Ministero dell'economia e delle finanze 25
+marzo 2020, recante «Estensione della dematerializzazione delle
+ricette e dei piani terapeutici e modalita' alternative al promemoria
+cartaceo della ricetta elettronica» pubblicato nella Gazzetta
+Ufficiale della Repubblica italiana, n. 86 del 31 marzo 2020;
+Visto il decreto del Ministro dell'economia e delle finanze, di
+concerto con il Ministro della salute e con il Sottosegretario di
+Stato alla Presidenza del Consiglio dei ministri con delega
+all'innovazione tecnologica 17 ottobre 2024 recante «Modalita' di
+messa a disposizione ai Fascicoli sanitari elettronici (FSE), tramite
+l'Infrastruttura nazionale per l'interoperabilita' (INI), dei dati
+del Sistema tessera sanitaria e del consenso o diniego del Sistema
+informativo trapianti (SIT)» pubblicato nella Gazzetta Ufficiale
+della Repubblica italiana, n. 270 del 18 novembre 2024, di attuazione
+dell'art. 12, comma 15-ter, del decreto-legge 18 ottobre 2012, n.
+179, convertito, con modificazioni, dalla legge 17 dicembre 2012, n.
+221, sul cui schema il garante per la protezione dei dati personali
+ha reso parere favorevole nella seduta del 12 settembre 2024 con il
+provvedimento n. 542, e che disciplina le modalita', nonche' le
+misure tecniche e organizzative necessarie a garantire la sicurezza
+del trattamento e i diritti e le liberta' degli interessati, con cui
+il Sistema TS rende disponibile ai FSE, attraverso INI, anche i dati
+relativi alle prescrizioni e prestazioni erogate di farmaceutica;
+Visto il decreto del Ministero dell'economia e delle finanze 30
+dicembre 2020 recante «Dematerializzazione delle ricette mediche per
+la prescrizione di farmaci non a carico del Servizio sanitario
+nazionale e modalita' di rilascio del promemoria della ricetta
+elettronica attraverso ulteriori canali, sia a regime che nel corso
+della fase emergenziale da COVID-19», pubblicato nella Gazzetta
+Ufficiale della Repubblica italiana, n. 11 del 15 gennaio 2021, e
+successive modificazioni;
+Visto il decreto del Ministero della salute 7 settembre 2023,
+recante «Fascicolo sanitario elettronico 2.0», pubblicato nella
+Gazzetta Ufficiale della Repubblica italiana, n. 249 del 24 ottobre
+2023;
+Visti, in particolare, i commi 6 e 7 del richiamato art. 12,
+decreto legislativo n. 38 del 2014, secondo cui il riconoscimento
+delle prescrizioni rilasciate in un altro Stato membro si applica
+anche ai dispositivi medici legalmente immessi sul mercato nazionale,
+a eccezione dei «medicinali soggetti a prescrizione medica speciale
+di cui all'art. 90 del decreto legislativo 26 aprile 2006, n. 219»,
+ossia i medicinali per i quali il decreto del Presidente della
+Repubblica 9 ottobre 1990, n. 309, e successive modificazioni,
+recante «Testo unico delle leggi in materia di disciplina degli
+stupefacenti e sostanze psicotrope e di prevenzione, cura e
+riabilitazione dei relativi stati di tossicodipendenza», prevede
+specifiche modalita' di distribuzione e prescrizione;
+Visto il decreto del Ministero della salute 16 novembre 2007,
+recante «Norme concernenti la detenzione ed il trasporto di
+medicinali stupefacenti o psicotropi da parte di cittadini che si
+recano all'estero e di cittadini in arrivo nel territorio italiano»
+pubblicato nella Gazzetta Ufficiale della Repubblica italiana, n. 278
+del 29 novembre 2007;
+Visto l'art. 14 della citata direttiva (UE) n. 24/2011, secondo il
+quale «L'Unione sostiene e facilita la cooperazione e lo scambio di
+informazioni tra gli Stati membri operanti nell'ambito di una rete
+volontaria che collega le autorita' nazionali responsabili
+dell'assistenza sanitaria on-line designate dagli Stati membri»;
+Vista la decisione di esecuzione (UE) n. 1765/2019 della
+Commissione del 22 ottobre 2019 che stabilisce le norme per
+l'istituzione, la gestione e il funzionamento della rete di autorita'
+nazionali responsabili dell'assistenza sanitaria on-line e che abroga
+la decisione di esecuzione (UE) n. 890/2011, attraverso la quale gli
+Stati membri aderenti, con il sostegno della commissione, hanno
+sviluppato l'infrastruttura di servizi digitali di eHealth - eHealth
+Digital Service Infrastructure (eHDSI), per i servizi informativi
+transfrontalieri per l'assistenza on-line, quale strumento
+informatico per lo scambio di dati sanitari, quali i dati sui
+pazienti contenuti nelle prescrizioni elettroniche, al fine di
+garantire la continuita' dell'assistenza ai cittadini europei durante
+i loro soggiorni negli Stati membri diversi da quello di assistenza;
+Visto il considerando n. 20 della summenzionata decisione di
+esecuzione (UE) n. 1765/2019, che designa gli Stati membri,
+rappresentati dalle autorita' nazionali responsabili dell'assistenza
+sanitaria on-line, titolari del trattamento dei dati personali
+effettuato attraverso l'infrastruttura di servizi digitali di eHealth
+per i servizi informativi transfrontalieri per l'assistenza sanitaria
+on-line, mentre la Commissione europea, in quanto fornitrice di
+soluzioni tecniche e organizzative dell'infrastruttura di servizi
+digitali di eHealth per i servizi informativi transfrontalieri per
+l'assistenza sanitaria on-line, procede al trattamento per conto
+degli Stati membri dei dati personali criptati dei pazienti tra i
+punti di contatti nazionali per l'eHealth ed e' pertanto responsabile
+del trattamento, secondo le norme previste, ai sensi dell'art. 28 del
+regolamento UE 2016/679, nella relativa decisione di esecuzione (UE)
+2019/1766;
+Vista la legge 30 dicembre 2025, n. 199, recante «Bilancio di
+previsione dello Stato per l'anno finanziario 2026 e bilancio
+pluriennale per il triennio 2026-2028, la quale, all'art. 1, prevede
+che:
+a) al comma 405, «Al fine di assicurare la continuita'
+assistenziale nell'ambito dell'Unione europea mediante la
+realizzazione di infrastrutture che prevedono appositi servizi di
+scambio transfrontaliero e consentono la traduzione e lo scambio
+delle ricette mediche elettroniche, del profilo sanitario sintetico,
+dei documenti clinici originali, dei referti di laboratorio, delle
+schede di dimissione ospedaliera e dei referti di diagnostica per
+immagini, tramite il Sistema tessera sanitaria, e' autorizzata la
+spesa di euro 985.222 per l'anno 2026 e di euro 793.000 annui a
+decorrere dall'anno 2027, da gestire nell'ambito della vigente
+convenzione tra il Ministero dell'economia e delle finanze -
+Dipartimento della Ragioneria generale dello Stato e la societa'
+SOGEI S.p.a. Le risorse di cui al presente comma costituiscono
+incremento del limite di spesa annuo della medesima convenzione.»;
+b) al comma 406, «Agli oneri derivanti dal comma 405 si provvede
+mediante utilizzo delle risorse destinate al perseguimento degli
+obiettivi sanitari di carattere prioritario e di rilievo nazionale di
+cui all'art. 1, commi 34 e 34-bis, della legge 23 dicembre 1996, n.
+662, indicate all'art. 1, comma 275, della legge 30 dicembre 2024, n.
+207.»;
+Considerato che l'art. 12, comma 9, del citato decreto legislativo
+4 marzo 2014, n. 38 demanda a un apposito decreto del Ministero della
+salute, di concerto con il Ministero dell'economia e delle finanze,
+previa intesa con la Conferenza permanente per i rapporti tra lo
+Stato, le regioni e le Province autonome di Trento e di Bolzano, la
+definizione delle caratteristiche e dei contenuti delle prescrizioni
+che verranno rilasciate nel territorio italiano, su richiesta di un
+paziente che intenda utilizzarle in un altro Stato membro;
+Ritenuto necessario procedere alla definizione delle
+caratteristiche e dei contenuti delle prescrizioni di un medicinale
+rilasciate nel territorio italiano affinche' le stesse possano essere
+riconosciute e utilizzate in un altro Stato membro;
+Ritenuto di dover prevedere un termine congruo di conservazione dei
+dati trattati dal sistema National Contact Point for eHealth (NCPeH),
+individuato in dieci anni al fine di garantire agli interessati
+l'esercizio dei propri diritti e interessi;
+Ritenuto di dover prevedere un termine congruo di conservazione dei
+documenti comprovanti la spesa ai fini del rimborso da parte delle
+Aziende sanitarie locali (ASL) del Servizio sanitario nazionale,
+individuato in cinque anni al fine di garantire agli interessati
+l'esercizio dei propri diritti e interessi;
+Acquisito il parere favorevole del Garante per la protezione dei
+dati personali espresso con il provvedimento n. 3 del 16 gennaio
+2025;
+Acquisita l'intesa, sancita dalla Conferenza permanente per i
+rapporti tra lo Stato, le regioni e le Province autonome di Trento e
+di Bolzano nella seduta del 23 luglio 2026 (rep. atti n. 112/CSR del
+23 luglio 2026);
+
+Decreta:
+
+Art. 1
+
+Definizioni
+
+1. Ai fini del presente decreto si intende per:
+a) «prescrizione transfrontaliera»: la ricetta di un medicinale,
+a carico o non a carico del Servizio sanitario nazionale, a eccezione
+di quelli soggetti a prescrizione medica speciale, di cui all'art. 90
+del decreto legislativo 24 aprile 2006, n. 219, rilasciata
+all'interessato dal medico prescrittore nel territorio nazionale,
+utilizzata in un altro Stato membro, in conformita' alla normativa
+vigente e con i contenuti minimi descritti nell'art. 4 del presente
+decreto;
+b) «NRE»: numero di ricetta elettronica, che costituisce
+l'identificativo univoco a livello nazionale di una ricetta
+elettronica a carico del Servizio sanitario nazionale;
+c) «NRBE»: numero della ricetta bianca, non a carico del SSN,
+ripetibile e non ripetibile, elettronica che costituisce
+l'identificativo univoco al livello nazionale generato dal Sistema di
+accoglienza centrale (SAC);
+d) «Stato membro»: stato facente parte dell'Unione europea e
+dello Spazio economico europeo (SEE) ai sensi dell'accordo sullo
+Spazio economico europeo n. 2015/88, nel quale e' richiesto il
+riconoscimento della prescrizione transfrontaliera rilasciata in
+Italia;
+e) «farmacia estera»: e' la farmacia situata sul territorio di
+uno Stato membro, ove e' presentata una ricetta transfrontaliera
+rilasciata sul territorio nazionale italiano per la dispensazione di
+un medicinale;
+f) «NCPeH»: National Contact Point for eHealth - Punto di
+contatto nazionale per l'eHealth - e' un sistema tecnico e
+organizzativo per la prestazione di servizi informativi
+transfrontalieri per l'assistenza sanitaria on-line, istituito presso
+il Ministero della salute, nella qualita' di autorita' nazionale
+responsabile dell'assistenza sanitaria on-line sul territorio
+nazionale, che consente la trasformazione e la trasmissione delle
+prescrizioni farmaceutiche rilasciate sul territorio italiano per la
+dispensazione negli altri Stati membri, attraverso il National
+Connector italiano, realizzato dal Ministero dell'economia e delle
+finanze nell'ambito del Sistema TS;
+g) «infrastruttura eHDSI»: eHealth Digital Service Infrastructure
+- infrastruttura di servizi digitali di eHealth per i servizi
+informativi per l'assistenza sanitaria on-line, e' l'infrastruttura
+informatica europea che consente la prestazione di servizi
+informativi transfrontalieri per l'assistenza sanitaria on-line
+tramite gli NCPeH; essa comprende sia servizi generici sviluppati
+dagli Stati membri, definiti all'art. 2, paragrafo 2, lettera e) del
+regolamento (UE) n. 283/2014, come il National Connector, sia una
+piattaforma di servizi digitali essenziali, definita all'art. 2,
+paragrafo 2, lettera d), dello stesso regolamento, sviluppata dalla
+Commissione;
+h) «National Connector»: componente dell'infrastruttura eHDSI che
+collega una o piu' infrastrutture nazionali a piattaforme di servizi
+chiave, come definiti nella decisione di esecuzione UE n. 1765/2019,
+effettuando le trasformazioni tra le codifiche previste tra lo Stato
+membro di prescrizione e quello di dispensazione. Il National
+Connector italiano e' realizzato nell'infrastruttura del Sistema TS;
+i) «Sistema TS»: Sistema tessera sanitaria, e' il sistema
+informativo di cui e' titolare, con riferimento alla ricetta
+dematerializzata di cui ai decreti del Ministero dell'economia e
+delle finanze 2 novembre 2011 e 30 dicembre 202, e per le finalita'
+di cui al presente decreto, il Ministero dell'economia e delle
+finanze, in attuazione di quanto disposto dall'art. 50 del
+decreto-legge 30 settembre 2003, n. 269, convertito, con
+modificazioni, dalla legge 24 novembre 2003, n. 326;
+l) «Punto di contatto nazionale»: e' il punto di contatto
+nazionale per l'assistenza transfrontaliera, istituito presso il
+Ministero della salute, ai sensi dell'art. 6 della direttiva (UE) n.
+24/2011, e che, secondo quanto previsto all'art. 7 del decreto
+legislativo 4 marzo 2014, n. 38, facilita lo scambio di informazioni
+relative ai diritti dei pazienti in materia di assistenza sanitaria
+transfrontaliera e ai dati da includere nelle ricette mediche
+rilasciate nello Stato italiano e destinate a essere spedite in un
+altro Stato membro per la loro dispensazione, e coopera strettamente
+con i punti di contatto nazionale degli altri Stati membri e con la
+Commissione europea.
+
+Art. 2
+
+Ambito di applicazione e finalita'
+
+1. Il presente decreto disciplina, in coerenza con le disposizioni
+di cui all'art. 12, commi 8 e 9, del decreto legislativo 4 marzo
+2014, n. 38, le caratteristiche e i contenuti delle prescrizioni
+transfrontaliere, rilasciate, in formato elettronico o cartaceo, nel
+territorio italiano e utilizzate per la dispensazione in una farmacia
+estera.
+2. Nel caso in cui la farmacia estera ove si vuole chiedere la
+dispensazione del medicinale si trovi in uno Stato membro che non ha
+attivato gli scambi elettronici con l'Italia, o comunque su richiesta
+dell'interessato, la prescrizione transfrontaliera, contenente tutte
+le indicazioni e i requisiti di cui all'art. 12 del decreto
+legislativo 4 marzo 2014, n. 38, e' rilasciata dal medico
+prescrittore in forma cartacea, ed e' esibita per la dispensazione
+del medicinale in una farmacia estera.
+3. Le prescrizioni transfrontaliere elettroniche, rilasciate dal
+medico prescrittore sul territorio nazionale, sono generate dal
+sistema NCPeH a partire dalle ricette elettroniche nazionali, nel
+momento in cui queste ultime sono richieste dalle farmacie estere
+degli Stati membri che hanno attivato gli scambi elettronici con
+l'Italia.
+4. Per finalita' statistiche e di monitoraggio delle prescrizioni
+transfrontaliere rilasciate nello Stato italiano e rese disponibili
+per la dispensazione in un altro Stato membro, il National Connector
+italiano consente alle unita' organizzative della Direzione generale
+competente in materia di programmazione sanitaria, della Direzione
+generale competente in materia di digitalizzazione e del sistema
+informativo sanitario nazionale del Ministero della salute e alla
+Ragioneria generale dello Stato, di accedere ai dati relativi alle
+suddette prescrizioni pseudonimizzati previa eliminazione degli
+elementi identificativi diretti dell'assistito, secondo le modalita'
+specificate nel disciplinare tecnico allegato al presente decreto.
+5. La Direzione generale competente in materia di digitalizzazione
+e del sistema informativo sanitario nazionale del Ministero della
+salute invia alla Commissione europea le informazioni necessarie per
+il monitoraggio dei servizi fornendo i soli dati aggregati.
+
+Art. 3
+
+Dati riportati nelle prescrizioni transfrontaliere
+
+1. Per le finalita' di cui all'art. 2, le prescrizioni
+transfrontaliere sono generate a partire dalle ricette elettroniche
+rilasciate dal medico prescrittore, secondo le modalita' di cui al
+decreto del Ministero dell'economia e delle finanze 2 novembre 2011 e
+successive modificazioni, e devono riportare i dati relativi
+all'assistito, al medico prescrittore e al medicinale prescritto,
+indicati nel disciplinare tecnico allegato al presente decreto.
+
+Art. 4
+
+Limiti alle prescrizioni transfrontaliere
+
+1. Le prescrizioni transfrontaliere cartacee possono essere
+rilasciate per tutti i medicinali di cui e' autorizzato il commercio
+in Italia, a eccezione di quelli soggetti a prescrizione medica
+speciale, di cui all'art. 90 del decreto legislativo del 24 aprile
+2006, n. 219.
+2. Le prescrizioni transfrontaliere elettroniche possono essere
+generate esclusivamente per i medicinali individuati in un elenco
+pubblicato sul portale istituzionale del Ministero della salute entro
+centottanta giorni dall'entrata in vigore del presente decreto e
+periodicamente aggiornato.
+3. Resta fermo il diritto del farmacista dello Stato membro, ove
+previsto dalla sua normativa nazionale, di rifiutarsi per ragioni
+etiche di dispensare il medicinale prescritto in Italia, ove il
+farmacista godrebbe dello stesso diritto.
+
+Art. 5
+
+Dispensazione dei medicinali in altro Stato membro
+con le prescrizioni transfrontaliere
+
+1. Per richiedere la dispensazione di un medicinale con la
+prescrizione transfrontaliera elettronica in uno Stato membro che ha
+attivato gli scambi elettronici di dati con l'Italia, l'assistito
+fornisce alla farmacia estera prova della sua identita', esibendo un
+documento d'identita', il codice fiscale riportato sulla Tessera
+sanitaria e il NRE o NRBE riportato nella prescrizione.
+2. La farmacia estera, tramite il National Connector estero,
+interroga il National Connector italiano, che a sua volta consulta il
+Sistema TS, per verificare l'esistenza e la spendibilita' della
+prescrizione transfrontaliera elettronica, secondo quanto previsto
+dall'art. 1, comma 6, del decreto del Ministero dell'economia e delle
+finanze 2 novembre 2011. Ricevuto l'esito positivo dal Sistema TS, il
+National Connector italiano accerta che la prescrizione
+transfrontaliera contenga i dati di cui all'art. 3 e che non
+sussistano le esclusioni previste dall'art. 4.
+3. Se la verifica di cui al comma 2 ha esito positivo, il National
+Connector italiano genera e trasmette la prescrizione
+transfrontaliera al National Connector estero, secondo quanto
+previsto dal successivo art. 6, e la farmacia estera dispensa il
+medicinale e invia le informazioni relative alla dispensazione del
+medicinale, attraverso il National Connector estero e italiano, al
+Sistema TS, ai sensi dall'art. 1, comma 8, del decreto del Ministero
+dell'economia e delle finanze 2 novembre 2011, che chiude la
+procedura di dispensazione.
+4. Se la verifica di cui al comma 2 ha esito negativo, il National
+Connector estero invia al farmacista estero un messaggio di errore e
+il medicinale non viene dispensato.
+5. Le ricette elettroniche che contengono piu' di una prescrizione
+farmaceutica sono trasformate in tante prescrizioni transfrontaliere
+singole, quante sono le prescrizioni farmaceutiche contenute nella
+ricetta elettronica e sono utilizzate per un'unica dispensazione,
+conformemente a quanto avviene sul territorio nazionale. Nel caso di
+dispensazione parziale dei medicinali prescritti, la prescrizione non
+e' piu' utilizzabile nelle farmacie, sia italiane sia estere.
+6. Per richiedere la dispensazione di un medicinale con la
+prescrizione transfrontaliera cartacea in un altro Stato membro,
+l'assistito fornisce alla farmacia estera prova della sua identita' e
+la prescrizione transfrontaliera in formato cartaceo, completa delle
+informazioni di cui all'art. 3. In tal caso la farmacia estera
+dispensa il medicinale dopo aver effettuato le verifiche sulla
+identita' dell'assistito e sulla validita' della prescrizione
+transfrontaliera cartacea in base ai requisiti indicati dalla
+direttiva UE 2012/52 e recepiti nell'allegato 1 del decreto
+legislativo n. 38 del 2014.
+
+Art. 6
+
+Servizi per la dispensazione delle prescrizioni transfrontaliere
+elettroniche
+
+1. Per la dispensazione delle prescrizioni transfrontaliere
+rilasciate in Italia e utilizzate in uno Stato membro che ha attivato
+gli scambi elettronici di dati con l'Italia, il National Connector
+italiano assicura servizi di collegamento tra il Sistema TS e il
+National Connector dello Stato membro della farmacia estera ove e'
+richiesta la dispensazione, attraverso l'infrastruttura eHDSI,
+effettuando le trasformazioni necessarie tra le codifiche previste
+nei due Stati membri, necessarie per il riconoscimento della
+prescrizione transfrontaliera.
+2. Al fine di assicurare i servizi di cui al comma 1, le regole
+tecniche e semantiche di trasformazione condivise a livello europeo,
+e i relativi aggiornamenti, sono comunicate dal Ministero della
+salute alla Ragioneria generale dello Stato per la implementazione
+del sistema NCPeH.
+3. Dopo che il medicinale e' stato dispensato nella farmacia
+estera, il National Connector italiano, ricevuta l'informazione della
+dispensazione dal National Connector dello Stato membro della
+farmacia estera, assicura il servizio di comunicazione della
+dispensazione al Sistema TS, che registra l'informazione di
+dispensazione del medicinale, affinche' non sia possibile utilizzare
+la stessa prescrizione transfrontaliera per un medicinale gia'
+dispensato.
+4. I servizi di cui ai commi 1 e 3, sono messi a disposizione dal
+National Connector italiano, secondo le regole e le modalita'
+descritte nel disciplinare tecnico, allegato al presente decreto.
+5. Il Sistema TS mette a disposizione dell'utenza un servizio di
+assistenza tecnica per fornire ai medici prescrittori e ai farmacisti
+esteri informazioni e supporto per garantire il regolare processo di
+dispensazione delle prescrizioni transfrontaliere elettroniche. Per
+tale finalita', il Sistema TS accede ai dati di cui all'art. 3.
+
+Art. 7
+
+Rimborso delle spese sostenute per le prescrizioni transfrontaliere
+
+1. Gli assistiti che utilizzano la prescrizione transfrontaliera
+sono tenuti a sostenere il costo dei medicinali dispensati nella
+farmacia estera, secondo le tariffe in vigore nello Stato di
+erogazione.
+2. Ai fini del rimborso delle spese sostenute all'estero, si
+applica il regolamento (CE) n. 883/2004 del Parlamento europeo e del
+Consiglio del 29 aprile 2004.
+3. In alternativa, i medesimi assistiti possono chiedere il
+rimborso dei costi dell'assistenza sanitaria transfrontaliera nelle
+modalita' di cui al capo III del decreto legislativo 4 marzo 2014, n.
+38.
+
+Art. 8
+
+Trattamento dei dati personali
+
+1. Il Ministero della salute e' titolare di tutti i trattamenti
+effettuati come NCPeH e per tutte le componenti tecniche da esso
+utilizzate.
+2. Il Ministero della salute designa il Ministero dell'economia e
+delle finanze responsabile del trattamento dei dati di cui al comma
+1.
+3. Il medico prescrittore e' titolare autonomo dei dati inseriti
+nel Sistema TS, in fase di rilascio della ricetta elettronica.
+4. Il Ministero dell'economia e delle finanze e' titolare autonomo
+del trattamento dei dati, effettuato dal Sistema TS, relativi alla
+ricetta dematerializzata di cui ai decreti del Ministero
+dell'economia e delle finanze 2 novembre 2011 e 30 dicembre 2022, e
+dei servizi di cui all'art. 5, commi 2 e 3, da questo effettuati.
+
+Art. 9
+
+Periodo di conservazione, diritti dell'interessato
+e informativa
+
+1. I dati trattati dal National Connector italiano per le finalita'
+di cui all'art. 2 vengono cancellati decorsi dieci anni dalla
+richiesta effettuata dal National Connector estero al National
+Connector italiano, prevista dall'art. 5, comma 2.
+2. Il Sistema TS non conserva i dati relativi ai servizi previsti
+all'art. 5, comma 2, e all'art. 6, comma 5.
+3. I dati relativi alla dispensazione di cui all'art. 5, comma 3,
+sono cancellati dal Sistema TS decorsi trent'anni dal decesso
+dell'assistito, con periodicita' annuale.
+4. Il periodo di conservazione dei dati per i trattamenti
+effettuati dal National Connector estero e' stabilito da ciascun
+Stato membro, in conformita' alle regole e principi contenuti nel
+regolamento (UE) n. 679/2016.
+5. L'interessato puo' esercitare i diritti previsti dagli articoli
+15, 16, 17 e 18 del regolamento (UE) n. 679/2016, presentando
+apposita istanza al Ministero della salute secondo le modalita'
+indicate nell'ambito delle informazioni rese all'interessato, ai
+sensi degli articoli 13 e 14 del regolamento (UE) n. 679/2016,
+mediante pubblicazione sul sito istituzionale del Ministero della
+salute.
+
+Art. 10
+
+Valutazione di impatto e misure di sicurezza
+
+1. Il trattamento dei dati e' esercitato secondo le modalita' e con
+le misure di sicurezza, tecniche e organizzative, per la protezione
+dei dati stessi e contro la falsificazione delle prescrizioni
+transfrontaliere, descritte nel disciplinare tecnico, allegato al
+presente decreto, che sono periodicamente riesaminate e aggiornate
+sulla base della valutazione dei rischi per i diritti e le liberta'
+degli interessati, ai sensi dell'art. 35 del regolamento (UE) n.
+679/2016.
+
+Art. 11
+
+Modalita' di trasparenza
+
+1. Le regioni e le province autonome sono tenute a pubblicare
+tempestivamente le misure contenute nel presente decreto sui
+rispettivi siti web istituzionali e a individuare eventuali altre
+forme di diffusione ritenute idonee a tutelare del diritto di
+informazione dei cittadini e degli operatori sanitari, in conformita'
+a quanto stabilito nella richiamata intesa tra il Governo, le regioni
+e le Province autonome di Trento e di Bolzano concernente le «Linee
+guida in materia di assistenza sanitaria transfrontaliera».
+2. Sono messi a disposizione degli interessati informazioni
+sull'utilizzo delle prescrizioni transfrontaliere attraverso:
+a) il punto di contatto nazionale e lo sportello digitale unico
+per l'accesso a informazioni, procedure e servizi di assistenza e di
+risoluzione dei problemi, di cui al regolamento (UE) n. 1724/2018;
+b) il portale del Ministero della salute nella pagina dedicata
+alle prescrizioni transfrontaliere.
+
+Art. 12
+
+Pubblicazione degli aggiornamenti relativi alle specifiche tecniche
+delle funzioni e dei servizi del National Connector italiano
+
+1. Gli aggiornamenti alle specifiche tecniche relative alle
+funzioni e ai servizi di cui al presente decreto, che non incidano
+sui tipi di dati trattati e sulle operazioni eseguibili, sono
+pubblicati in apposite sezioni del sito web del Ministero della
+salute.
+2. Ove necessario e fuori dei casi previsti dal comma 1, il
+disciplinare tecnico allegato al presente decreto e' aggiornato con
+decreto del direttore della Direzione generale competente in materia
+di digitalizzazione e sistema informativo sanitario nazionale del
+Ministero della salute, in coerenza con il decreto ministeriale di
+organizzazione del Ministero della salute, di concerto con il
+Ministero dell'economia e delle finanze.
+
+Art. 13
+
+Clausola di invarianza finanziaria
+
+1. Le amministrazioni interessate provvedono agli adempimenti
+previsti dal presente decreto con le risorse umane, finanziarie e
+strumentali disponibili a legislazione vigente e, comunque, senza
+nuovi o maggiori oneri a carico della finanza pubblica.
+
+Art. 14
+
+Disposizioni finali
+
+1. Il presente decreto e' trasmesso ai competenti organi di
+controllo, e' pubblicato nella Gazzetta Ufficiale della Repubblica
+italiana ed entra in vigore il quindicesimo giorno dalla predetta
+pubblicazione.
+Roma, 17 settembre 2026
+
+Il Ministro della salute
+Schillaci
+Il Ministro dell'economia
+e delle finanze
+Giorgetti
+
+Registrato alla Corte dei conti l'8 ottobre 2026
+Ufficio di controllo sugli atti del Ministero della salute e del
+Ministero del lavoro e delle politiche sociali, reg. n. 980
+
+(Allegato 1)
+
+Allegato 1
+
+Disciplinare tecnico
+Sistema TS: servizi telematici
+Prescrizione transfrontaliera elettronica
+Dati e relativo trattamento
+
+Parte di provvedimento in formato grafico

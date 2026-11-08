@@ -47,6 +47,15 @@ Ragiona sempre come un esperto di fiscalità, di diritto italiano e di diritto d
 
 Non proporre opzioni incompatibili: riformulale. Cita solo norme verificate su Normattiva o EUR-Lex; se non le hai verificate, scrivi "da verificare".
 
+## 2c. Leggi ed emendamenti
+
+L'archivio della Gazzetta Ufficiale è in `legislazione/archivio/` e si aggiorna ogni giorno. Per cercare un atto: `python legislazione/cerca.py "parole"`.
+
+Quando una richiesta contiene un testo di legge o un emendamento:
+1. Salva il testo in un file e lancia `python legislazione/verifica_testo.py FILE`: controlla forma, citazioni (su Normattiva), coperture e termini.
+2. Segui `legislazione/istruzioni_revisione.md` per il giudizio su valori, linee rosse e quadro giuridico.
+3. Nel dossier riporta gli errori, la versione corretta del testo e i punti da verificare con un ufficio legislativo.
+
 ## 3. Il lunedì: revisione del momento
 
 Leggi:

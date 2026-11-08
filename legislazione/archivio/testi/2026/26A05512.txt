@@ -1,0 +1,386 @@
+DETERMINA 13 ottobre 2026
+Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di aficamten, «Myqorzo». (Determina n. 1390/2026).
+(GU Serie Generale n. 246 del 2026-10-22; https://www.gazzettaufficiale.it/eli/id/2026/10/22/26A05512/sg)
+
+IL PRESIDENTE
+
+Visti gli articoli 8 e 9 del decreto legislativo 30 luglio 1999, n.
+300;
+Visto l'art. 48 del decreto-legge 30 settembre 2003, n. 269,
+convertito dalla legge 24 novembre 2003, n. 326, che istituisce
+l'Agenzia italiana del farmaco;
+Visto il decreto del Ministro della salute di concerto con i
+Ministri della funzione pubblica e dell'economia e delle finanze del
+20 settembre 2004, n. 245: «Regolamento recante norme
+sull'organizzazione e il funzionamento dell'Agenzia italiana del
+farmaco, a norma dell'art. 48, comma 13, del decreto-legge 30
+settembre 2003, n. 269, convertito, con modificazioni, dalla legge 24
+novembre 2003, n. 326», come da ultimo modificato dal decreto del
+Ministro della salute, di concerto con i Ministri della funzione
+pubblica e dell'economia e delle finanze 8 gennaio 2024, n. 3,
+pubblicato nella Gazzetta Ufficiale - Serie generale - n. 11 del 15
+gennaio 2024;
+Visto il vigente regolamento di funzionamento e ordinamento del
+personale dell'Agenzia italiana del farmaco, adottato dal consiglio
+di amministrazione con deliberazione del 17 settembre 2025, n. 52,
+approvato, ai sensi dell'art. 22, commi 3 e 4, del decreto del
+Ministro della salute 20 settembre 2004, n. 245, dal Ministro della
+salute di concerto con il Ministro dell'economia e delle finanze e il
+Ministro per la pubblica amministrazione e pubblicato sul sito
+istituzionale dell'AIFA (comunicazione nella Gazzetta Ufficiale della
+Repubblica italiana - Serie generale - n. 220 del 22 settembre 2025);
+Visto il decreto del Ministro della salute 5 aprile 2024 con cui, a
+decorrere dalla data dello stesso, il prof. Robert Giovanni Nistico'
+e' stato nominato Presidente del consiglio di amministrazione
+dell'Agenzia italiana del farmaco, ai sensi dell'art. 7 del citato
+decreto del Ministro della salute 20 settembre 2004, n. 245 e
+successive modificazioni ed integrazioni;
+Visto il decreto del Ministro della salute 9 febbraio 2024 di
+nomina del dott. Pierluigi Russo quale direttore tecnico-scientifico
+dell'Agenzia italiana del farmaco, ai sensi dell'art. 10-bis del
+citato decreto del Ministro della salute 20 settembre 2004, n. 245 e
+successive modificazioni ed integrazioni;
+Vista la legge 24 dicembre 1993, n. 537, recante «Interventi
+correttivi di finanza pubblica» e successive modificazioni ed
+integrazioni, con particolare riferimento all'art. 8, comma 10,
+lettera c);
+Visto il regolamento (CE) n. 726/2004 del Parlamento europeo e del
+Consiglio del 31 marzo 2004, che istituisce procedure comunitarie per
+l'autorizzazione e la vigilanza dei medicinali per uso umano e
+veterinario e che istituisce l'Agenzia europea per i medicinali;
+Visto il decreto legislativo 24 aprile 2006, n. 219, pubblicato
+nella Gazzetta Ufficiale della Repubblica italiana n. 142 del 21
+giugno 2006, concernente l'attuazione della direttiva 2001/83/CE e
+successive modificazioni ed integrazioni, relativa ad un codice
+comunitario concernente i medicinali per uso umano, nonche' della
+direttiva 2003/94/CE;
+Visto il decreto-legge 13 settembre 2012, n. 158, convertito, con
+modificazioni dalla legge 8 novembre 2012, n. 189, recante
+«Disposizioni urgenti per promuovere lo sviluppo del Paese mediante
+un piu' alto livello di tutela della salute» e, in particolare,
+l'art. 12, comma 5;
+Visto l'art. 18 della legge 5 agosto 2022, n. 118, recante «Legge
+annuale per il mercato e la concorrenza 2021» che, in particolare,
+per i medicinali di cui al comma 3, prevede la presentazione da parte
+della ditta titolare di una domanda di classificazione, di cui al
+comma 1 della legge 8 novembre 2012, n. 189, entro trenta giorni
+successivi alla loro autorizzazione all'immissione in commercio;
+Visto il decreto legislativo 6 febbraio 2025, n. 10 recante
+«Adeguamento della normativa nazionale alle disposizioni del
+regolamento delegato (UE) 2016/161 della Commissione del 2 ottobre
+2015, che integra la direttiva 2001/83/CE del Parlamento europeo e
+del Consiglio stabilendo norme dettagliate sulle caratteristiche di
+sicurezza che figurano sull'imballaggio dei medicinali per uso umano»
+e in particolare l'art. 4, comma 7, nella parte in cui prevede, nel
+termine di trenta giorni dalla data di entrata in vigore del suddetto
+decreto legislativo, che l'AIFA adotti le istruzioni applicative
+relative alle procedure di rilascio dell'A.I.C. e alle modalita' per
+adempiere agli obblighi previsti dall'art. 4, anche con riguardo ai
+medicinali di importazione e distribuzione parallela;
+Visto il decreto del Ministro della salute del 6 marzo 2025,
+recante «Specifiche tecniche dell'identificativo univoco "Data
+Matrix" dei medicinali ad uso umano di cui al regolamento delegato
+(UE) 2016/161, in attuazione dell'art. 3, comma 3 del decreto
+legislativo 6 febbraio 2025, n. 10», pubblicato nella Gazzetta
+Ufficiale della Repubblica italiana del 10 aprile 2025, n. 84;
+Visto il decreto del Ministro della salute, di concerto con il
+Ministro dell'economia e delle finanze, del 20 maggio 2025, recante
+«Disciplina del dispositivo, contenente le caratteristiche tecniche e
+grafiche e delle informazioni nel medesimo contenute», pubblicato
+nella Gazzetta Ufficiale della Repubblica italiana del 9 luglio 2025,
+n. 157;
+Considerata la determina AIFA n. 56 del 17 luglio 2025 di adozione
+delle istruzioni applicative relative alle procedure di rilascio
+dell'A.I.C. e alle modalita' per adempiere agli obblighi previsti
+dall'art. 4, comma 7, del decreto legislativo 6 febbraio 2025, n. 10,
+anche relativamente ai medicinali di importazione e distribuzione
+parallela;
+Vista la Gazzetta Ufficiale dell'Unione europea del 31 marzo 2026
+che riporta la sintesi delle decisioni dell'Unione europea relative
+all'autorizzazione all'immissione in commercio di medicinali dal 1°
+febbraio 2026 al 28 febbraio 2026 unitamente all'insieme dei nuovi
+farmaci e delle nuove confezioni registrate;
+Considerato il parere sul regime di classificazione ai fini della
+fornitura espresso, su proposta dell'Ufficio procedure centralizzate,
+dalla Commissione scientifica ed economica (CSE) di AIFA in data
+13-17 aprile 2026;
+Vista la lettera di approvazione dell'Ufficio misure di gestione
+del rischio del 25 settembre 2026 (Prot. n.
+0122802-25/09/2026-AIFA-UMGR-P), con la quale e' stato autorizzato il
+materiale educazionale del prodotto medicinale «Myqorzo» (aficamten);
+Visti gli atti di ufficio;
+
+Determina:
+
+1. Le confezioni del seguente medicinale per uso umano di nuova
+autorizzazione, corredate di numero di A.I.C. e classificazione ai
+fini della fornitura:
+MYQORZO
+descritte in dettaglio nell'allegato, che forma parte integrante
+del presente provvedimento, sono collocate in apposita sezione della
+classe, di cui all'art. 12, comma 5, della legge 8 novembre 2012, n.
+189, denominata classe C(nn), dedicata ai farmaci non ancora valutati
+ai fini della rimborsabilita'.
+2. Per i medicinali, di cui al comma 3 dell'art. 12 del
+decreto-legge 13 settembre 2012, n. 158 convertito dalla legge 8
+novembre 2012, n. 189 di collocazione nella classe C(nn) di cui alla
+presente determina, che non ottemperino alla presentazione della
+domanda di classificazione in fascia di rimborsabilita' entro il
+termine di trenta giorni dal sollecito inviato dall'AIFA, ai sensi
+dell'art. 18 della legge 5 agosto 2022, n. 118 verra' data
+informativa sul sito internet istituzionale dell'AIFA e sara'
+applicato l'allineamento al prezzo piu' basso all'interno del quarto
+livello del sistema di classificazione anatomico terapeutico chimico
+(ATC).
+3. Il titolare dell'A.I.C., ai fini della commercializzazione sul
+territorio italiano del medicinale/della nuova confezione e'
+responsabile del rispetto degli obblighi informativi di cui dall'art.
+73 «Etichettatura» del decreto legislativo n. 219/2006 e successive
+modificazioni ed integrazioni, relativo alle indicazioni e agli
+strumenti che devono comparire sull'imballaggio esterno o, in
+mancanza dello stesso, sul confezionamento primario dei medicinali.
+4. Il titolare dell'A.I.C., prima dell'inizio della
+commercializzazione sul territorio italiano della nuova confezione,
+deve comunicare all'AIFA Servizio online
+https://www.aifa.gov.it/comunicazione-prima-commercializzazione - il
+prezzo ex factory, il prezzo al pubblico e la data di inizio della
+commercializzazione del medicinale/della nuova confezione (art. 34,
+comma 5, decreto legislativo n. 219/2006 e successive modificazioni
+ed integrazioni e art. 12, comma 5, legge n. 189/2012 e successive
+modificazioni ed integrazioni).
+5. La presente determina entra in vigore il giorno successivo alla
+sua pubblicazione nella Gazzetta Ufficiale della Repubblica italiana.
+6. I successivi provvedimenti di classificazione e rimborsabilita',
+ai sensi dell'art. 8, comma 10, della legge 24 dicembre 1993, n. 537,
+verranno pubblicati unicamente sul portale «Trovanorme» accessibile
+dal sito istituzionale dell'Agenzia sviluppato in collaborazione con
+l'Istituto Poligrafico e Zecca dello Stato, dei quali sara' dato
+avviso nella Gazzetta Ufficiale della Repubblica italiana.
+Roma, 13 ottobre 2026
+
+Il Presidente: Nistico'
+
+(Allegato)
+
+Allegato
+Inserimento, in accordo all'art. 12, comma 5, della legge n.
+189/2012, in apposita sezione (denominata classe C (nn)) dedicata ai
+farmaci non ancora valutati ai fini della rimborsabilita' nelle more
+della presentazione da parte dell'azienda interessata di una domanda
+di diversa classificazione. Le informazioni riportate di seguito
+costituiscono un estratto degli allegati alla decisione della
+Commissione europea relativa all'autorizzazione all'immissione in
+commercio del farmaco. Si rimanda quindi alla versione integrale di
+tali allegati.
+MYQORZO
+Principio attivo: Aficamten.
+Codice procedura: EMEA/H/C/006228/0000.
+Titolare: Cytokinetics (Ireland) Limited.
+GUUE: 31 marzo 2026.
+Medicinale sottoposto a monitoraggio addizionale. Cio'
+permettera' la rapida identificazione di nuove informazioni sulla
+sicurezza. Agli operatori sanitari e' richiesto di segnalare
+qualsiasi reazione avversa sospetta. Vedere paragrafo 4.8 per
+informazioni sulle modalita' di segnalazione delle reazioni avverse.
+Indicazioni terapeutiche
+«Myqorzo» e' indicato per il trattamento della cardiomiopatia
+ipertrofica ostruttiva (CMIO) sintomatica (classe II-III della New
+York Heart Association [NYHA]) in pazienti adulti (vedere paragrafo
+5.1).
+Modo di somministrazione
+Il trattamento deve essere iniziato sotto la supervisione di un
+medico esperto nella gestione dei pazienti con cardiomiopatia.
+Prima dell'inizio del trattamento, la frazione di eiezione
+ventricolare sinistra (frazione di eiezione ventricolare sinistra
+(FEVS)) deve essere valutata mediante ecocardiografia (vedere
+paragrafo 4.4). L'avvio o l'aumento graduale della dose di «Myqorzo»
+in pazienti con FEVS<55% non e' raccomandato. Durante l'aumento
+graduale della dose devono essere eseguite valutazioni regolari della
+FEVS e del gradiente del tratto di efflusso ventricolare sinistro
+(left ventricular outflow tract gradient, LVOT-G) da manovra di
+Valsalva per raggiungere un obiettivo appropriato di LVOT-G Valsalva,
+mantenendo al contempo una FEVS ≥50%.
+Per uso orale.
+Il trattamento deve essere assunto una volta al giorno con o
+senza cibo. La compressa deve essere ingerita intera con acqua e non
+deve essere divisa, frantumata o masticata, in quanto questi metodi
+non sono stati studiati.
+Confezioni autorizzate:
+EU/1/25/2014/001 - A.I.C.: 052903010 - in base 32: 1LGH32 - 5
+mg - compressa rivestita con film - uso orale - blister
+(PVC/alluminio) - 28 compresse;
+EU/1/25/2014/002 - A.I.C.: 052903022 - in base 32: 1LGH3G - 10
+mg - compressa rivestita con film - uso orale - blister
+(PVC/alluminio) - 28 compresse;
+EU/1/25/2014/003 - A.I.C.: 052903034 - in base 32: 1LGH3U - 15
+mg - compressa rivestita con film - uso orale - blister
+(PVC/alluminio) - 28 compresse;
+EU/1/25/2014/004 - A.I.C.: 052903046 - in base 32: 1LGH46 - 20
+mg - compressa rivestita con film - uso orale - blister
+(PVC/alluminio) - 28 compresse.
+Altre condizioni e requisiti dell'autorizzazione all'immissione in
+commercio
+Rapporti periodici di aggiornamento sulla sicurezza (PSUR): i
+requisiti per la presentazione dei PSUR per questo medicinale sono
+definiti nell'elenco delle date di riferimento per l'Unione europea
+(elenco EURD) di cui all'art. 107-quater, paragrafo 7, della
+direttiva 2001/83/CE e successive modifiche, pubblicato sul sito web
+dell'Agenzia europea dei medicinali.
+Il titolare dell'autorizzazione all'immissione in commercio deve
+presentare il primo PSUR per questo medicinale entro sei mesi
+successivi all'autorizzazione.
+Condizioni o limitazioni per quanto riguarda l'uso sicuro ed efficace
+del medicinale
+Piano di gestione del rischio (RMP): il titolare
+dell'autorizzazione all'immissione in commercio deve effettuare le
+attivita' e le azioni di farmacovigilanza richieste e dettagliate nel
+RMP approvato e presentato nel modulo 1.8.2 dell'autorizzazione
+all'immissione in commercio e in ogni successivo aggiornamento
+approvato del RMP.
+Il RMP aggiornato deve essere presentato:
+su richiesta dell'Agenzia europea dei medicinali;
+ogni volta che il sistema di gestione del rischio e'
+modificato, in particolare a seguito del ricevimento di nuove
+informazioni che possono portare a un cambiamento significativo del
+profilo beneficio/rischio o a seguito del raggiungimento di un
+importante obiettivo (di farmacovigilanza o di minimizzazione del
+rischio).
+Misure aggiuntive di minimizzazione del rischio.
+Prima del lancio di aficamten in ogni Stato membro, il titolare
+dell'autorizzazione all'immissione in commercio (Marketing
+Authorisation Holder, MAH) deve concordare il contenuto e il formato
+del programma formativo, inclusi i mezzi di comunicazione, le
+modalita' di distribuzione e qualsiasi altro aspetto del programma,
+con l'Autorita' nazionale competente.
+Il programma formativo ha lo scopo di istruire gli operatori
+sanitari (Healthcare Professionals, HCP) e i pazienti sull'importante
+potenziale rischio di insufficienza cardiaca dovuta a disfunzione
+sistolica e tossicita' embrio-fetale.
+Il titolare dell'autorizzazione all'immissione in commercio deve
+garantire che in ogni Stato membro in cui e' commercializzato
+aficamten, tutti gli HCP che prescrivono aficamten abbiano
+accesso/abbiano ricevuto il pacchetto informativo per gli operatori
+sanitari che contiene:
+informazioni su dove trovare l'ultimo Riassunto delle
+caratteristiche del prodotto (RCP);
+lista di controllo per gli operatori sanitari;
+scheda paziente.
+Una dichiarazione recante «Medicinale sottoposto a monitoraggio
+addizionale» sara' inclusa in tutti i materiali formativi insieme
+alle istruzioni per la segnalazione delle reazioni avverse.
+La lista di controllo per gli operatori sanitari conterra' i
+seguenti messaggi:
+Prima di iniziare il trattamento con aficamten:
+per le pazienti in eta' fertile:
+informare la paziente del potenziale rischio di tossicita'
+embrio-fetale associata ad aficamten e della necessita' di ulteriore
+monitoraggio (ecocardiografia fetale) in caso di gravidanza;
+offrire consulenza sulla necessita' di evitare una gravidanza
+e sulla necessita' di un metodo contraccettivo efficace durante il
+trattamento con «Myqorzo»;
+discutere le considerazioni sul rapporto rischi-benefici del
+trattamento durante la gravidanza e la necessita' di un monitoraggio
+regolare (per es., ogni due settimane) della funzione cardiaca fetale
+durante la gravidanza;
+istruire la paziente di informare il medico immediatamente se
+e' in corso una gravidanza, se sospetta o sta pianificando una
+gravidanza.
+per tutti i pazienti:
+assicurarsi che la FEVS del paziente sia ≥55% alla
+valutazione recente;
+informare il paziente del potenziale rischio di disfunzione
+sistolica che porta a insufficienza cardiaca durante il trattamento
+con aficamten e che deve consultare il proprio medico o rivolgersi
+immediatamente a un medico se manifesta aritmia, dispnea, dolore
+toracico, affaticamento o edema alle gambe di nuova insorgenza o in
+peggioramento;
+controllare che il paziente non stia attualmente pianificando
+di assumere fluconazolo o rifampicina durante l'assunzione di
+aficamten;
+valutare le potenziali interazioni. Chiedere se il paziente
+e' in trattamento stabile con inibitori del CYP2C9 o un induttore del
+CYP2C9 o del CYP3A in base alle sezioni 4.2, 4.4 e 4.5 del RCP;
+consigliare al paziente di non iniziare, interrompere o
+sostituire alcun medicinale senza consultare il medico prescrittore;
+consigliare al paziente di assumere aficamten come prescritto
+e consigliare al paziente cosa fare in caso di dose saltata o
+sovradosaggio;
+evidenziare la scheda paziente in ogni confezione.
+Durante il trattamento a ogni visita clinica (come descritto nel
+RCP).
+per le pazienti in eta' fertile:
+ricordare alle pazienti il potenziale rischio di tossicita'
+embrio-fetale associato ad aficamten e la necessita' di ulteriore
+monitoraggio (ecocardiografia fetale) in caso di gravidanza;
+ricordare alle donne in eta' fertile di usare misure
+contraccettive efficaci durante il trattamento;
+istruire la paziente di informare il medico se e' in corso
+una gravidanza o sta pianificando una gravidanza e della necessita'
+di monitoraggio regolare (per es., ogni due settimane) di
+ecocardiografia fetale in caso di gravidanza;
+assicurarsi che la paziente sia attentamente monitorata;
+prendere in considerazione l'ecocardiografia fetale per monitorare
+eventuali segni di disfunzione cardiaca fetale;
+per tutti i pazienti:
+valutare il paziente per individuare segni, sintomi e
+risultati clinici di insufficienza cardiaca secondo le linee guida
+fornite nel paragrafo 4.4 del RCP;
+eseguire un ecocardiogramma per valutare la FEVS (secondo la
+frequenza indicata nel paragrafo 4.2 del RCP) e un LVOT-G Valsalva e
+mantenere, aggiustare o sospendere il trattamento con aficamten come
+indicato nel paragrafo 4.2 del RCP;
+valutare la presenza di malattie gravi (per es., infezione
+grave), aritmia di nuova insorgenza (per es., fibrillazione atriale
+nuova o non controllata o altra tachiaritmia non controllata),
+valutare il peggioramento della funzione sistolica;
+ricordare al paziente che deve consultare il proprio medico o
+rivolgersi immediatamente a un medico se manifesta aritmia, dispnea,
+dolore toracico, affaticamento o edema alle gambe di nuova insorgenza
+o in peggioramento;
+controllare se il paziente prevede di iniziare un inibitore
+del CYP2C9 o di interrompere un induttore del CYP2C9 o CYP3A e
+regolare la dose come da sezione 4.2 del RCP;
+consigliare al paziente di non iniziare, interrompere o
+sostituire alcun medicinale senza consultare il medico prescrittore;
+consigliare al paziente di assumere aficamten come prescritto
+e consigliare al paziente cosa fare in caso di dose saltata o
+sovradosaggio.
+La scheda paziente, che fara' parte dell'allegato III delle
+informazioni sul prodotto, conterra' i seguenti messaggi chiave: Per
+le pazienti in eta' fertile:
+gli effetti di «Myqorzo» su un nascituro non sono pienamente
+noti;
+le donne in eta' fertile devono usare misure contraccettive
+efficaci durante il trattamento;
+se e' in corso una gravidanza, se sospetta o sta pianificando
+una gravidanza, informi immediatamente il medico;
+il medico discutera' con lei dei potenziali rischi associati
+all'assunzione di questo medicinale durante la gravidanza e decidera'
+se il trattamento deve essere iniziato o continuato;
+se lei viene trattata con «Myqorzo» durante la gravidanza, il
+medico monitorera' attentamente la sua funzione cardiaca e quella del
+suo bambino mediante ecocardiogrammi. Se vi e' un cambiamento nella
+sua funzione cardiaca o in quella del suo bambino, il medico puo'
+aggiustare la sua dose o interrompere il trattamento.
+per tutti i pazienti:
+istruzioni per portare sempre con se' la Scheda paziente e
+mostrarla a qualsiasi operatore sanitario che visita il paziente;
+dichiarazione recante l'informazione che aficamten e'
+indicato per il trattamento della cardiomiopatia ipertrofica
+ostruttiva sintomatica;
+informazioni sul potenziale rischio di insufficienza cardiaca
+dovuto a disfunzione sistolica;
+informazione che e' molto importante sottoporsi agli
+appuntamenti per l'ecocardiogramma, perche' il medico deve
+controllare l'effetto di «Myqorzo» sul cuore;
+istruzioni per informare immediatamente il medico se il
+paziente manifesta battito cardiaco irregolare, respiro affannoso di
+nuova insorgenza o in peggioramento, dolore toracico, stanchezza,
+gonfiore delle gambe o infezione grave;
+istruzioni per non iniziare, interrompere o modificare alcun
+farmaco senza consultare il medico prescrittore di aficamten;
+recapiti del medico prescrittore.
+Regime di fornitura: medicinale soggetto a prescrizione medica
+limitativa, vendibile al pubblico su prescrizione di centri
+ospedalieri identificati dalle regioni o di specialista cardiologo
+(RRL).

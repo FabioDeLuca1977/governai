@@ -1,0 +1,402 @@
+DECRETO 16 ottobre 2026
+Emissione dei buoni del Tesoro poliennali «Insieme» («BTP Valore Insieme») con godimento 27 ottobre 2026 e scadenza 27 ottobre 2031, nona emissione BTP Valore.
+(GU Serie Generale n. 248 del 2026-10-24; https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05576/sg)
+
+IL DIRETTORE GENERALE DEL TESORO
+
+Visto il decreto del Presidente della Repubblica 30 dicembre 2003,
+n. 398 e successive modificazioni, con il quale e' stato approvato il
+«Testo unico delle disposizioni legislative e regolamentari in
+materia di debito pubblico» (di seguito «testo unico»), e in
+particolare l'art. 3, ove si prevede che il Ministro dell'economia e
+delle finanze e' autorizzato, in ogni anno finanziario, ad emanare
+decreti cornice che consentano, fra l'altro, al Tesoro di effettuare
+operazioni di indebitamento sul mercato interno o estero nelle forme
+di prodotti e strumenti finanziari a breve, medio e lungo termine,
+indicandone l'ammontare nominale, il tasso di interesse o i criteri
+per la sua determinazione, la durata, l'importo minimo
+sottoscrivibile, il sistema di collocamento ed ogni altra
+caratteristica e modalita';
+Visto il decreto ministeriale n. 58779 del 31 dicembre 2025,
+emanato in attuazione dell'art. 3 del «testo unico» (di seguito
+«decreto cornice»), ove si definiscono per l'anno finanziario 2026
+gli obiettivi, i limiti e le modalita' cui il Dipartimento del Tesoro
+dovra' attenersi nell'effettuare le operazioni finanziarie di cui al
+medesimo articolo prevedendo che le operazioni stesse vengano
+disposte dal direttore generale del Tesoro o, per sua delega, dal
+direttore della Direzione seconda del Dipartimento medesimo e che, in
+caso di assenza o impedimento di quest'ultimo, le operazioni predette
+possano essere disposte dal medesimo direttore generale del Tesoro,
+anche in presenza di delega continuativa;
+Visto il decreto ministeriale n. 216 del 22 dicembre 2009 ed in
+particolare l'art. 23, relativo agli operatori «Specialisti in titoli
+di Stato italiani»;
+Visto il decreto dirigenziale n. 993039 dell'11 novembre 2011
+(decreto dirigenziale specialisti), concernente la selezione e
+valutazione degli specialisti in titoli di Stato;
+Visti gli articoli 24 e seguenti del «testo unico», in materia di
+gestione accentrata dei titoli di Stato;
+Visto il decreto ministeriale n. 143 del 17 aprile 2000, con cui e'
+stato adottato il regolamento concernente la disciplina della
+gestione accentrata dei titoli di Stato;
+Visto il decreto 23 agosto 2000, con cui e' stato affidato alla
+Monte Titoli S.p.a. (oggi Euronext Securities Milan) il servizio di
+gestione accentrata dei titoli di Stato;
+Visto il regolamento (UE) n. 909/2014 del Parlamento europeo e del
+Consiglio del 23 luglio 2014, relativo al miglioramento del
+regolamento titoli nell'Unione europea e ai depositari centrali di
+titoli e recante modifica delle direttive 98/26/CE e 2014/65/UE e del
+regolamento (UE) n. 236/2012, come successivamente modificato dal
+regolamento (UE) n. 2023/2845 del Parlamento europeo e del Consiglio
+del 13 dicembre 2023 per quanto riguarda la disciplina di
+regolamento, la prestazione di servizi transfrontalieri, la
+cooperazione in materia di vigilanza, la prestazione di servizi
+accessori di tipo bancario e i requisiti per i depositari centrali di
+titoli di paesi terzi, e come integrato dal regolamento delegato (UE)
+n. 2017/389 della Commissione dell'11 novembre 2016 per quanto
+riguarda i parametri per il calcolo delle penali pecuniarie per
+mancati regolamenti e le operazioni dei depositari centrali di titoli
+(CSD) negli Stati membri ospitanti e dal regolamento delegato (UE) n.
+2018/1229 della Commissione del 25 maggio 2018 per quanto riguarda le
+norme tecniche di regolamentazione sulla disciplina del regolamento,
+come modificato dal regolamento delegato (UE) n. 2021/70 della
+Commissione del 23 ottobre 2020 con riferimento all'entrata in vigore
+dello stesso, dal regolamento delegato (UE) n. 2022/1930 della
+Commissione del 6 luglio 2022 per quanto riguarda la data di
+applicazione delle disposizioni relative alla procedura di acquisto
+forzoso e, da ultimo, dal regolamento delegato (UE) n. 2023/1626
+della Commissione del 19 aprile 2023 per quanto riguarda il
+meccanismo di penalizzazione per i mancati regolamenti relativi alle
+operazioni compensate che le controparti centrali presentano a fini
+di regolamento;
+Visto il decreto ministeriale n. 12953 del 17 febbraio 2023 e
+successive modificazioni, concernente le «Disposizioni contabili in
+caso di ritardo nel regolamento delle operazioni di emissione,
+concambio e riacquisto di titoli di Stato, nonche' nelle operazioni
+di pronti contro termine svolte dal Ministero dell'economia e delle
+finanze»;
+Visto il decreto ministeriale n. 96717 del 7 dicembre 2012, recante
+l'introduzione delle clausole di azione collettiva (CACs) nei titoli
+di Stato;
+Visto il decreto ministeriale n. 3088 del 15 gennaio 2015, recante
+norme per la trasparenza nelle operazioni di collocamento dei titoli
+di Stato (di seguito «decreto trasparenza»);
+Visto il decreto legislativo 24 febbraio 1998, n. 58 e successive
+modificazioni, recante il testo unico delle disposizioni in materia
+di intermediazione finanziaria (di seguito «testo unico della
+finanza»);
+Visto il decreto legislativo 31 marzo 2023, n. 36 e successive
+modificazioni, recante il «Codice dei contratti pubblici», ed in
+particolare l'art. 56, comma 1, lettera i), ove si stabilisce che le
+disposizioni del codice stesso non si applicano ai contratti
+concernenti servizi finanziari relativi all'emissione, all'acquisto,
+alla vendita ed al trasferimento di titoli o di altri strumenti
+finanziari;
+Visto il regolamento dei mercati organizzati e gestiti da Borsa
+Italiana S.p.a. del 28 giugno 2011, approvato dalla CONSOB con
+delibera n. 17904 del 25 agosto 2011, e successive modificazioni;
+Vista la legge 30 dicembre 2025, n. 199, recante «Bilancio di
+previsione dello Stato per l'anno finanziario 2026 e bilancio
+pluriennale per il triennio 2026-2028», ed in particolare l'art. 3,
+comma 2, con cui e' stato stabilito il limite massimo di emissione
+dei prestiti pubblici per l'anno stesso;
+Considerato che l'importo delle emissioni disposte a tutto il 15
+ottobre 2026 ammonta, al netto dei rimborsi di prestiti pubblici gia'
+effettuati, a 76.740 milioni di euro;
+Vista la determinazione n. 101204 del 23 novembre 2023, con la
+quale il direttore generale del Tesoro ha conferito a decorrere dal
+1° gennaio 2024 la delega al dirigente generale Capo della Direzione
+II in relazione alle attribuzioni in materia di debito pubblico, di
+cui al menzionato art. 3 del decreto del Presidente della Repubblica
+n. 398/2003, al fine di assicurare la continuita' e la tempestivita'
+dell'azione amministrativa;
+Viste le linee guida della gestione del debito pubblico 2026;
+Ritenuto opportuno disporre una nona emissione di buoni del Tesoro
+poliennali Valore (di seguito «BTP Valore Insieme»), a tasso fisso
+con cedola singola (one coupon) corrisposta in un'unica soluzione
+alla data di scadenza, calcolata in base a tasso prefissato, con
+godimento 27 ottobre 2026 e scadenza 27 ottobre 2031, da offrire
+tramite il Mercato telematico delle obbligazioni (di seguito «MOT»),
+diretto dalla Borsa Italiana S.p.a.;
+Considerata l'opportunita' di affidare la gestione della raccolta
+delle adesioni all'offerta dei citati buoni a Intesa Sanpaolo S.p.a.
+e UniCredit S.p.a. nella qualita' di dealers, nonche' a Banca Monte
+dei Paschi di Siena S.p.a. e Banco BPM S.p.a., nella qualita' di
+co-dealers, con il compito di coadiuvare le predette banche nelle
+operazioni medesime;
+Considerato che l'offerta dei suddetti buoni avverra' in
+conformita' all'Information Memorandum del 16 ottobre 2026;
+
+Decreta:
+
+Art. 1
+
+Ai sensi e per gli effetti dell'art. 3 del «testo unico», nonche'
+del «decreto cornice», e' disposta una nona emissione di «BTP Valore
+Insieme» con le seguenti caratteristiche:
+decorrenza: 27 ottobre 2026;
+scadenza: 27 ottobre 2031;
+interessi: cedola singola (one coupon) corrisposta in un'unica
+soluzione alla data di scadenza, calcolata in base a tasso
+prefissato, con godimento 27 ottobre 2026 e scadenza 27 ottobre 2031;
+tasso cedolare definitivo: interessi corrisposti ad un tasso
+prefissato. Il tasso cedolare definitivo sara' annunciato
+successivamente alla chiusura del collocamento, il giorno 23 ottobre
+2026, salvo chiusura anticipata, ed il medesimo non potra' essere
+inferiore al tasso cedolare minimo garantito pari al 22,25%;
+prezzo di emissione: 100 (alla pari);
+taglio unitario: 1.000 euro;
+regolamento: 27 ottobre 2026.
+Il Ministero dell'economia e delle finanze procedera' all'offerta
+dei «BTP Valore Insieme» in conformita' e secondo le modalita'
+descritte nell'Information Memorandum del 16 ottobre 2026.
+
+Art. 2
+
+Il periodo di collocamento avra' inizio alle ore 9,00 del 19
+ottobre 2026 e terminera' alle ore 13,00 del 23 ottobre 2026, salvo
+chiusura anticipata.
+Il collocamento non prevede eventuali riparti, ne' sara' applicato
+alcun tetto massimo assicurando la completa soddisfazione degli
+ordini, salvo facolta' da parte del Ministero dell'economia e delle
+finanze di chiudere anticipatamente l'emissione.
+Tale chiusura anticipata, che comunque non potra' avere luogo prima
+delle ore 17,30 del terzo giorno di collocamento (21 ottobre 2026),
+verra' comunicata entro il termine del secondo giorno di collocamento
+(20 ottobre 2026) oppure entro le ore 13,00 dello stesso terzo giorno
+(21 ottobre 2026). Dell'eventuale chiusura anticipata verra' data
+contestuale comunicazione, da parte del Ministero dell'economia e
+delle finanze e di Borsa Italiana S.p.a. secondo le rispettive
+prassi.
+Qualora la chiusura anticipata avvenga nella quarta giornata di
+collocamento (22 ottobre 2026), la medesima avra' luogo non prima
+delle ore 14,00 e la relativa comunicazione verra' effettuata entro
+il termine del terzo giorno di collocamento (21 ottobre 2026)
+contestualmente dal Ministero dell'economia e delle finanze e da
+Borsa Italiana S.p.a. secondo le rispettive prassi.
+L'emissione verra' poi perfezionata con successivo decreto di
+accertamento, da emanarsi entro il 23 ottobre 2026, con il quale
+sara' accertata la quantita' nominale emessa finale, nonche' il tasso
+cedolare definitivo, fissati sulla base dell'andamento del mercato.
+Nel caso in cui la chiusura anticipata si verificasse alle ore
+17,30 del terzo giorno di collocamento (21 ottobre 2026) o del quarto
+giorno di collocamento (22 ottobre 2026), il decreto di accertamento
+verra' emanato entro la giornata successiva.
+I titoli verranno collocati al prezzo di emissione di cui all'art.
+1.
+Sono ammessi a partecipare al collocamento i risparmiatori
+individuali e gli affini, ed in particolare le seguenti categorie di
+investitori, cosi' come riportati nell'allegato alla scheda
+informativa del titolo - «BTP Valore Insieme» - nona emissione -
+pubblicata dal Ministero dell'economia e delle finanze ed individuati
+nel citato Information Memorandum del 16 ottobre 2026: A) persone
+fisiche comunque classificate; B) soggetti al dettaglio, con
+esclusione di controparti qualificate e clienti professionali di
+diritto (di cui all'allegato 3 del regolamento CONSOB n. 20307/2018 e
+sue successive modificazioni ed integrazioni). Sono quindi inclusi i
+clienti al dettaglio divenuti professionali su richiesta (di cui al
+numero II dell'allegato 3 del regolamento CONSOB n. 20307/2018 e sue
+successive modificazioni ed integrazioni), che ai fini
+dell'operazione dovranno farsi identificare come soggetti al
+dettaglio dall'intermediario a cui inviano o sottomettono l'ordine di
+acquisto o comunque far risultare all'intermediario tale loro
+qualifica; C) societa' di gestione autorizzate alla prestazione del
+servizio di gestione su base individuale di portafogli di
+investimento per conto delle categorie definite ai punti A) e B); D)
+intermediari autorizzati abilitati alla gestione dei portafogli
+individuali per conto delle categorie definite ai punti A) e B); E)
+societa' fiduciarie che prestano servizi di gestione di portafogli di
+investimento, anche mediante intestazione fiduciaria, esclusivamente
+per conto di clienti appartenenti alle categorie definite ai punti A)
+e B).
+La gestione degli ordini di acquisto dei titoli tramite il MOT,
+organizzato e gestito da Borsa Italiana S.p.a., e' affidata a Intesa
+Sanpaolo S.p.a. e UniCredit S.p.a. nella qualita' di dealers, nonche'
+a Banca Monte dei Paschi di Siena S.p.a. e Banco BPM S.p.a., con il
+compito di coadiuvare le predette banche nelle operazioni medesime.
+Con i medesimi istituti e' concluso un accordo di sottoscrizione in
+data 16 ottobre 2026, al fine di regolare l'attivita' connessa
+all'emissione dei titoli.
+Ai predetti istituti, Intesa Sanpaolo S.p.a., UniCredit S.p.a.,
+Banca Monte dei Paschi di Siena S.p.a. e Banco BPM S.p.a., a fronte
+del servizio di supporto reso al Ministero dell'economia e delle
+finanze per il collocamento dell'emissione e per l'attivita' di
+quotazione sul mercato secondario con le modalita' previste
+dall'accordo di sottoscrizione datato 16 ottobre 2026, verra'
+corrisposta una commissione complessivamente pari allo 0,075% del
+valore nominale dei titoli emessi, cosi' suddivisa:
+0,060% suddiviso in parti uguali fra Intesa Sanpaolo S.p.a. e
+UniCredit S.p.a.;
+0,015% suddiviso in parti uguali fra Banca Monte dei Paschi di
+Siena S.p.a. e Banco BPM S.p.a.
+La commissione da attribuire ai co-dealers verra' corrisposta per
+il tramite di Intesa Sanpaolo S.p.a. e UniCredit S.p.a., in
+conformita' all'accordo di sottoscrizione.
+Agli intermediari finanziari che partecipano alla raccolta degli
+ordini della clientela ammessa alla distribuzione dei «BTP Valore
+Insieme» viene riconosciuta una commissione di importo pari allo
+0,50% dell'ammontare nominale complessivo degli ordini di acquisto
+rispettivamente raccolti nel periodo di collocamento.
+Tale commissione verra' corrisposta tramite le sopra nominate
+Intesa Sanpaolo S.p.a. e UniCredit S.p.a. che la riverseranno agli
+altri operatori partecipanti al MOT ai fini del riconoscimento agli
+intermediari che ne hanno diritto. Per aventi diritto si intendono
+gli intermediari che prestano il servizio di investimento nei
+confronti dell'acquirente finale del titolo ovvero che, nell'ambito
+dell'attivita' di raccolta degli ordini di acquisto di titoli dalla
+propria clientela e della trasmissione di tali ordini, direttamente o
+indirettamente, dalla propria clientela ai fini della loro immissione
+sul MOT, presteranno i servizi e le attivita' di investimento
+dell'esecuzione di ordini per conto dei clienti o della ricezione e
+trasmissione di ordini, come definiti nel testo unico della finanza,
+in conformita' con le disposizioni del «decreto trasparenza».
+Gli intermediari che prestano un servizio di gestione di portafogli
+individuali e le societa' fiduciarie che partecipano al collocamento,
+per conto di soggetti ammessi a partecipare alla medesima, non
+riceveranno tale commissione in quanto considerati alla stregua di
+acquirenti finali.
+La responsabilita' di accertare la natura dell'investitore e,
+dunque, la legittimazione a partecipare alla procedura di
+collocamento, spetta all'intermediario di prossimita' rispetto
+all'investitore, ossia all'intermediario che riceve l'ordine
+direttamente dall'acquirente finale.
+Tale ordine potra' essere effettuato allo sportello o mediante il
+sistema home banking, abilitato al trading on-line.
+Alla clientela non dovra' essere applicato alcun onere, da parte
+dei predetti intermediari, a fronte della raccolta degli ordini
+durante il sopraindicato periodo di collocamento, in applicazione di
+quanto previsto dal decreto trasparenza.
+Tutte le predette commissioni verranno corrisposte alla data del 29
+ottobre 2026 per il tramite di Intesa Sanpaolo S.p.a. e Unicredit
+S.p.a.
+Terminato il periodo di collocamento, le proposte di acquisto
+validamente inserite, divengono ordini di acquisto non revocabili.
+Il MOT, gestito da Borsa Italiana S.p.a., provvedera' all'attivita'
+concernente la distribuzione dei titoli ed i relativi ordini di
+acquisto, nonche' ad ogni attivita' connessa e conseguente, in
+conformita' al regolamento dei mercati organizzati e gestiti da Borsa
+Italiana S.p.a.
+I titoli saranno distribuiti attraverso il MOT prima della data di
+regolamento e mediante l'abbinamento tra le proposte di vendita,
+immesse dai dealers nel corso del periodo di distribuzione, e le
+proposte di acquisto, immesse dagli operatori partecipanti al MOT,
+ivi inclusi i dealers, sia per conto proprio che per conto terzi. I
+contratti conclusi saranno regolati alla data del 27 ottobre 2026.
+Ferme restando le limitazioni applicabili ai destinatari
+dell'offerta, di cui all'Information Memorandum, i dealers ed i
+co-dealers, al fine di adempiere agli impegni di quotazione, a
+partire dall'avvio delle negoziazioni ufficiali immetteranno nel
+corso del periodo di distribuzione proposte di acquisto dei titoli
+per conto proprio, conformemente a quanto indicato nel «testo unico»,
+per un ammontare nominale di titoli pari a euro 10.000.000 (dieci
+milioni) per ciascun dealer e pari a euro 5.000.000 (cinque milioni)
+per ciascun co-dealer. Nella specifica ipotesi ai dealers e
+co-dealers non verra' corrisposta alcuna commissione.
+
+Art. 3
+
+L'importo minimo acquistabile durante il periodo di distribuzione
+dei «BTP Valore Insieme» e' di 1.000 euro nominali; gli acquisti
+potranno quindi avvenire per tale importo o multipli di tale cifra.
+In applicazione della convenzione stipulata in data 8 novembre 2016
+tra il Ministero dell'economia e delle finanze, la Monte Titoli
+S.p.a. (oggi Euronext Securities Milan) e Banca d'Italia, in forza
+dell'art. 26 del «testo unico», il capitale nominale collocato verra'
+riconosciuto mediante accreditamento nei conti di deposito in titoli
+in essere presso la predetta societa' a nome degli operatori.
+Ai sensi dell'art. 39 del decreto legislativo 24 giugno del 1998,
+n. 213, e successive modificazioni, i buoni sono rappresentati da
+iscrizioni contabili che continuano a godere dello stesso trattamento
+fiscale, comprese le agevolazioni e le esenzioni, che la vigente
+normativa riconosce ai titoli di Stato.
+
+Art. 4
+
+I titoli matureranno interessi dal 27 ottobre 2026 ad un tasso
+prefissato. La cedola singola (one coupon), corrisposta in un'unica
+soluzione alla data di scadenza, verra' calcolata in base ad un tasso
+fisso. Il tasso cedolare definitivo e' fissato alla chiusura del
+collocamento sulla base delle condizioni di mercato e potra' essere
+confermato o rivisto al rialzo rispetto al tasso minimo garantito
+comunicato all'avvio del collocamento.
+Il tasso cedolare definitivo, fissato sulla base dell'andamento del
+mercato, sara' reso noto al pubblico mediante comunicato stampa del
+Ministero dell'economia e delle finanze dopo la chiusura del periodo
+di collocamento, salvo chiusura anticipata.
+In caso di chiusura anticipata, il tasso cedolare definitivo
+fissato sulla base dell'andamento del mercato sara' reso noto al
+pubblico, mediante comunicato stampa del Ministero dell'economia e
+delle finanze, entro il giorno successivo a quello di chiusura
+anticipata. Il tasso cedolare definitivo applicabile sara' non
+inferiore al 22,25%.
+L'importo della cedola singola («cedola») con riferimento al
+capitale minimo di euro 1.000, e' calcolato moltiplicando il relativo
+tasso cedolare definitivo per l'importo minimo sottoscrivibile del
+prestito (mille euro).
+In formula:
+cedola = tasso cedolare definitivo * valore nominale minimo
+dove:
+«Cedola» indica la cedola singola a scadenza;
+«Tasso cedolare definitivo» ha il significato gia' specificato.
+
+Art. 5
+
+Ferme restando le disposizioni vigenti relative alle esenzioni
+fiscali in materia di debito pubblico, in ordine al pagamento degli
+interessi e del rimborso del capitale, ai «BTP Valore Insieme» si
+applicano le disposizioni del decreto legislativo del 1° aprile 1996,
+n. 239 e successive modificazioni, nonche' quelle del decreto
+legislativo del 21 novembre 1997, n. 461.
+I buoni medesimi verranno ammessi alla quotazione ufficiale e sono
+compresi tra le attivita' ammesse a garanzia delle operazioni di
+rifinanziamento presso la Banca centrale europea.
+
+Art. 6
+
+Il giorno 27 ottobre 2026 la Banca d'Italia ricevera', dalle banche
+di cui all'art. 2, l'importo corrispondente ai titoli collocati.
+A tal fine, la Banca d'Italia provvedera' ad inserire le relative
+partite nel servizio di liquidazione con valuta pari al giorno di
+regolamento.
+In caso di ritardo nel regolamento dei titoli di cui al presente
+decreto, troveranno applicazione le disposizioni del regolamento (UE)
+n. 909/2014 del Parlamento europeo e del Consiglio del 23 luglio 2014
+e del decreto ministeriale n. 12953 del 17 febbraio 2023, citati
+nelle premesse.
+Il medesimo giorno 27 ottobre 2026 la Banca d'Italia provvedera' a
+versare l'importo introitato, presso la Sezione di Roma della
+Tesoreria dello Stato, con valuta stesso giorno.
+La predetta sezione di Tesoreria rilascera', per detto versamento,
+apposita quietanza di entrata al bilancio dello Stato, con
+imputazione al Capo X, capitolo 5100, art. 3 (unita' di voto
+parlamentare 4.1.171), per l'importo relativo al netto ricavo
+dell'emissione.
+Gli importi delle commissioni di cui all'art. 2 saranno scritturati
+dalla Sezione di Roma della Tesoreria dello Stato fra i «pagamenti da
+regolare», alla data del 29 ottobre 2026.
+L'onere relativo al pagamento delle suddette commissioni fara'
+carico al capitolo 2242 (unita' di voto parlamentare 21.1) dello
+stato di previsione della spesa del Ministero dell'economia e delle
+finanze per l'anno finanziario 2026.
+
+Art. 7
+
+Il direttore della Direzione II del Dipartimento del Tesoro del
+Ministero dell'economia e delle finanze firmera' i documenti relativi
+al prestito di cui al presente decreto.
+
+Art. 8
+
+Gli oneri per interessi relativi all'anno finanziario 2031, nonche'
+l'onere per il rimborso del capitale relativo all'anno finanziario
+2031, faranno carico ai capitoli che verranno iscritti nello stato di
+previsione della spesa del Ministero dell'economia e delle finanze
+per gli anni stessi e corrispondenti, rispettivamente, ai capitoli
+2214 (unita' di voto parlamentare 21.1) e 9502 (unita' di voto
+parlamentare 21.2) dello stato di previsione per l'anno in corso.
+Il presente decreto sara' pubblicato nella Gazzetta Ufficiale della
+Repubblica italiana.
+
+Roma, 16 ottobre 2026
+
+p. Il direttore generale del Tesoro: Iacovoni

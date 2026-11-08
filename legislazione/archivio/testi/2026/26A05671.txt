@@ -1,0 +1,148 @@
+DECRETO 7 agosto 2026
+Aggiornamento dell'elenco delle malattie infettive sottoposte a sorveglianza e rilevanti, mediante l'inserimento dell'infezione da Hantavirus, quale malattia emergente.
+(GU Serie Generale n. 252 del 2026-10-29; https://www.gazzettaufficiale.it/eli/id/2026/10/29/26A05671/sg)
+
+IL MINISTRO DELLA SALUTE
+
+Visti gli articoli 32 e 117, commi 1, 2, lettera q), e 3, nonche'
+l'art. 118 della Costituzione;
+Visto il regolamento sanitario internazionale 2005, adottato dalla
+58ª Assemblea mondiale della sanita' in data 23 maggio 2005 e in
+vigore dal 15 giugno 2007, che ha posto le nuove esigenze di sanita'
+pubblica in ambito transfrontaliero;
+Visto l'art. 168 del trattato sul funzionamento dell'Unione
+europea;
+Vista la direttiva 2003/99/CE del Parlamento europeo e del
+Consiglio del 17 novembre 2003 sulle misure di sorveglianza delle
+zoonosi e degli agenti zoonotici, recante modifica della decisione
+90/424/CEE del Consiglio e che abroga la direttiva 92/117/CEE del
+Consiglio;
+Vista la decisione 1082/2013/UE del Parlamento europeo e del
+Consiglio del 22 ottobre 2013, relativa alle gravi minacce per la
+salute a carattere transfrontaliero e che abroga la decisione
+2119/98/CE;
+Vista la decisione 2018/945/CE della Commissione del 22 giugno
+2018, relativa alle malattie trasmissibili e ai problemi sanitari
+speciali connessi da incorporare nella sorveglianza epidemiologica,
+nonche' alle pertinenti definizioni di caso;
+Visti gli articoli 253 e 254 del testo unico delle leggi sanitarie,
+approvato con il regio decreto 27 luglio 1934, n. 1265;
+Visto l'art. 47-bis del decreto legislativo 30 luglio 1999, n. 300,
+che attribuisce al Ministero della salute, tra le altre, le funzioni
+spettanti allo Stato in materia di tutela della salute umana e di
+contrasto di ogni emergenza sanitaria, nonche' ogni iniziativa volta
+alla cura delle patologie epidemico-pandemiche emergenti;
+Visto l'art. 12, commi 10, 13 e 14 del decreto-legge 18 ottobre
+2012, n. 179, convertito, con modificazioni, dalla legge 17 dicembre
+2012, n. 221 relativo alla istituzione dei sistemi di sorveglianza e
+dei registri nel settore sanitario, come modificato dall'art. 21 del
+decreto-legge 27 gennaio 2022, n. 4;
+Visto il decreto del Presidente del Consiglio dei ministri 3 marzo
+2017, recante «Identificazione dei sistemi di sorveglianza e dei
+registri di mortalita', di tumori e di altre patologie», pubblicato
+nella Gazzetta Ufficiale della Repubblica italiana - Serie generale -
+n. 109 del 12 maggio 2017, che, al punto A1.25 dell'allegato A1,
+prevede il sistema di segnalazione delle malattie infettive (PREMAL);
+Visto il decreto del Ministro della salute 7 marzo 2022, pubblicato
+nella Gazzetta Ufficiale della Repubblica italiana - Serie generale -
+n. 82 del 7 aprile 2022, che disciplina l'organizzazione e il
+funzionamento presso il Ministero della salute del sistema di
+segnalazione delle malattie infettive, denominato PREMAL,
+individuando i soggetti che possono avervi accesso, le operazioni
+eseguibili, i tipi di dati che possono essere trattati, nonche' le
+misure appropriate e specifiche per tutelare i diritti fondamentali e
+gli interessi dell'interessato e disciplina, in particolare, le
+modalita' di segnalazione, raccolta, elaborazione e utilizzo dei dati
+relativi alle malattie infettive, che vengono diagnosticate sul
+territorio nazionale nonche' a bordo delle navi e degli aeromobili
+presenti sul territorio nazionale;
+Visto, in particolare, l'art. 2, comma 3, del richiamato decreto
+ove si dispone che l'elenco delle malattie infettive rilevanti ai
+sensi dell'art. 2, comma 2, del medesimo articolo e' adottato e
+aggiornato con decreto del Ministro della salute, in base alle
+evidenze scientifiche relative alle malattie emergenti o riemergenti,
+e che in sede di prima applicazione e' allegato allo stesso decreto;
+Visto il decreto del Ministro della salute 22 luglio 2022 recante
+«Modifica del decreto 7 marzo 2022 concernente il Sistema di
+segnalazione della malattie infettive (PREMAL)», pubblicato nella
+Gazzetta Ufficiale della Repubblica italiana - Serie generale - n.
+208 del 6 settembre 2022, che ha aggiornato e sostituito l'allegato A
+del richiamato decreto 7 marzo 2022;
+Vista la circolare prot. n. 0003482 del Dipartimento della
+prevenzione, della ricerca e delle emergenze sanitarie del Ministero
+della salute dell'11 maggio 2026 «Focolaio di Hantavirus tipo Andes a
+bordo della nave da crociera MV Hondius: aggiornamento della
+situazione e indicazioni di sanita' pubblica», pubblicata sul portale
+internet istituzionale;
+Vista la circolare prot. n. 0003680 del Dipartimento della
+prevenzione, della ricerca e delle emergenze sanitarie del Ministero
+della salute del 15 maggio 2026 «Infezione da virus Andes (ANDV).
+Indicazioni per la valutazione e gestione dei casi sospetti,
+probabili e confermati in particolare legati al focolaio a bordo
+della MV Hondius.», pubblicata sul portale internet istituzionale;
+Considerata la necessita' di ottimizzare il flusso informativo ai
+fini della segnalazione dei casi umani di Hantavirus, onde consentire
+alle aziende sanitarie locali, alle regioni e alle Province autonome
+di Trento e di Bolzano e al Ministero della salute di disporre dei
+dati necessari per la predisposizione degli atti di indirizzo e
+coordinamento in materia di sanita' pubblica e per l'adozione delle
+conseguenti misure, nonche' di adempiere agli obblighi di
+trasmissione dei medesimi dati agli organismi nazionali e
+internazionali;
+Considerato che l'infezione da Hantavirus, e' gia' oggetto di
+sorveglianza epidemiologica a livello europeo attraverso la rete
+coordinata dall'ECDC (European Centre for Disease Prevention and
+Control) e di segnalazione al Ministero della salute secondo
+modalita' straordinarie, non e' inclusa nell'elenco di cui
+all'allegato A del decreto del Ministro della salute del 22 luglio
+2022, ne' dotata di una scheda di segnalazione nel sistema PREMAL;
+Rilevato nel corso del 2026 il verificarsi di eventi di sanita'
+pubblica a carattere transfrontaliero connessi all'infezione da
+Hantavirus (ceppo Andes), oggetto di segnalazione attraverso il
+sistema rapido di allerta e risposta (EWRS) della Commissione europea
+e di coordinamento con l'Organizzazione mondiale della sanita',
+l'ECDC e le regioni interessate;
+Riconosciuta la necessita' di aggiornare, mediante l'inserimento
+dell'infezione da Hantavirus quale malattia emergente, l'elenco delle
+malattie infettive sottoposte a sorveglianza e rilevanti ai fini di
+cui all'art. 2, comma 2, del menzionato decreto del Ministro della
+salute 7 marzo 2022, contenuto, in sede di prima applicazione
+nell'allegato A del menzionato decreto ministeriale;
+Acquisito il parere tecnico del Coordinamento interregionale della
+prevenzione reso in data 10 luglio 2026;
+
+Decreta:
+
+Art. 1
+
+1. L'elenco delle malattie infettive sottoposte a sorveglianza e
+rilevanti ai sensi dell'art. 2, comma 2, del decreto del Ministro
+della salute 7 marzo 2022, pubblicato nella Gazzetta Ufficiale della
+Repubblica italiana - Serie generale - n. 82 del 7 aprile 2022, e'
+contenuto nell'allegato A al presente decreto, di cui costituisce
+parte integrante, che aggiorna e sostituisce l'allegato A del decreto
+del Ministro della salute 7 marzo 2022 come modificato dal decreto
+del Ministro della salute 22 luglio 2022.
+
+Art. 2
+
+1. Il presente decreto e' trasmesso agli organi di controllo, e'
+pubblicato nella Gazzetta Ufficiale della Repubblica italiana, e
+acquista efficacia dalla data della predetta pubblicazione.
+2. Dal presente decreto non derivano nuovi o maggiori oneri a
+carico della finanza pubblica.
+Roma, 7 agosto 2026
+
+Il Ministro: Schillaci
+
+Registrato alla Corte dei conti il 17 settembre 2026
+Ufficio di controllo sugli atti del Ministero della salute e del
+Ministero del lavoro e delle politiche sociali, reg. n. 859
+
+(Allegato A)
+
+Allegato A
+
+ELENCO DELLE MALATTIE INFETTIVE SOTTOPOSTE A SORVEGLIANZA
+
+Parte di provvedimento in formato grafico

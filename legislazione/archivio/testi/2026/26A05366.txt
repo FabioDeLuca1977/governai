@@ -1,0 +1,431 @@
+DETERMINA 1 ottobre 2026
+Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di onasemnogene abeparvovec, «Itvisma». (Determina n. 1363/2026).
+(GU Serie Generale n. 242 del 2026-10-17; https://www.gazzettaufficiale.it/eli/id/2026/10/17/26A05366/sg)
+
+IL PRESIDENTE
+
+Visti gli articoli 8 e 9 del decreto legislativo 30 luglio 1999, n.
+300;
+Visto l'art. 48 del decreto-legge 30 settembre 2003, n. 269,
+convertito dalla legge 24 novembre 2003, n. 326, che istituisce
+l'Agenzia italiana del farmaco;
+Visto il decreto del Ministro della salute di concerto con i
+Ministri della funzione pubblica e dell'economia e finanze del 20
+settembre 2004, n. 245: «Regolamento recante norme
+sull'organizzazione e il funzionamento dell'Agenzia italiana del
+farmaco, a norma dell'art. 48, comma 13, del decreto-legge 30
+settembre 2003, n. 269, convertito, con modificazioni, dalla legge 24
+novembre 2003, n. 326», come da ultimo modificato dal decreto del
+Ministro della salute, di concerto con i Ministri della funzione
+pubblica e dell'economia e delle finanze 8 gennaio 2024, n. 3,
+pubblicato nella Gazzetta Ufficiale - Serie generale - n. 11 del 15
+gennaio 2024;
+Visto il vigente regolamento di funzionamento e ordinamento del
+personale dell'Agenzia italiana del farmaco, adottato dal consiglio
+di amministrazione con deliberazione del 17 settembre 2025, n. 52,
+approvato, ai sensi dell'art. 22, commi 3 e 4, del decreto del
+Ministro della salute 20 settembre 2004, n. 245, dal Ministro della
+salute di concerto con il Ministro dell'economia e delle finanze e il
+Ministro per la pubblica amministrazione e pubblicato sul sito
+istituzionale dell'AIFA (comunicazione nella Gazzetta Ufficiale della
+Repubblica italiana - Serie generale - n. 220 del 22 settembre
+2025)»;
+Visto il decreto del Ministro della salute 5 aprile 2024 con cui, a
+decorrere dalla data dello stesso, il prof. Robert Giovanni Nistico'
+e' stato nominato Presidente del consiglio di amministrazione
+dell'Agenzia italiana del farmaco, ai sensi dell'art. 7 del citato
+decreto del Ministro della salute 20 settembre 2004, n. 245 e
+successive modificazioni ed integrazioni;
+Visto il decreto del Ministro della salute 9 febbraio 2024 di
+nomina del dott. Pierluigi Russo quale direttore tecnico-scientifico
+dell'Agenzia italiana del farmaco, ai sensi dell'art. 10-bis del
+citato decreto del Ministro della salute 20 settembre 2004, n. 245 e
+successive modificazioni ed integrazioni;
+Vista la legge 24 dicembre 1993, n. 537, recante «Interventi
+correttivi di finanza pubblica» e successive modificazioni e
+integrazioni, con particolare riferimento all'art. 8, comma 10,
+lettera c);
+Visto il regolamento (CE) n. 726/2004 del Parlamento europeo e del
+Consiglio del 31 marzo 2004, che istituisce procedure comunitarie per
+l'autorizzazione e la vigilanza dei medicinali per uso umano e
+veterinario e che istituisce l'Agenzia europea per i medicinali;
+Visto il decreto legislativo 24 aprile 2006, n. 219, pubblicato
+nella Gazzetta Ufficiale della Repubblica italiana n. 142 del 21
+giugno 2006, concernente l'attuazione della direttiva 2001/83/CE e
+successive modificazioni ed integrazioni, relativa ad un codice
+comunitario concernente i medicinali per uso umano, nonche' della
+direttiva 2003/94/CE;
+Visto il decreto-legge 13 settembre 2012, n. 158, convertito, con
+modificazioni dalla legge 8 novembre 2012, n. 189, recante
+«Disposizioni urgenti per promuovere lo sviluppo del Paese mediante
+un piu' alto livello di tutela della salute» e, in particolare,
+l'art. 12, comma 5;
+Visto l'art. 18 della legge 5 agosto 2022, n. 118, recante «Legge
+annuale per il mercato e la concorrenza 2021» che, in particolare,
+per i medicinali di cui al comma 3, prevede la presentazione da parte
+della ditta titolare di una domanda di classificazione, di cui al
+comma 1 della legge 8 novembre 2012, n. 189, entro trenta giorni
+successivi alla loro autorizzazione all'immissione in commercio;
+Visto il decreto legislativo 6 febbraio 2025, n. 10 recante
+«Adeguamento della normativa nazionale alle disposizioni del
+regolamento delegato (UE) 2016/161 della Commissione del 2 ottobre
+2015, che integra la direttiva 2001/83/CE del Parlamento europeo e
+del Consiglio stabilendo norme dettagliate sulle caratteristiche di
+sicurezza che figurano sull'imballaggio dei medicinali per uso umano»
+e in particolare l'art. 4, comma 7, nella parte in cui prevede, nel
+termine di trenta giorni dalla data di entrata in vigore del suddetto
+decreto legislativo, che l'AIFA adotti le istruzioni applicative
+relative alle procedure di rilascio dell'A.I.C. e alle modalita' per
+adempiere agli obblighi previsti dall'art. 4, anche con riguardo ai
+medicinali di importazione e distribuzione parallela;
+Visto il decreto del Ministro della salute del 6 marzo 2025,
+recante «Specifiche tecniche dell'identificativo univoco "Data
+Matrix" dei medicinali ad uso umano di cui al regolamento delegato
+(UE) 2016/161, in attuazione dell'art. 3, comma 3, del decreto
+legislativo 6 febbraio 2025, n. 10», pubblicato nella Gazzetta
+Ufficiale della Repubblica italiana del 10 aprile 2025, n. 84;
+Visto il decreto del Ministro della salute, di concerto con il
+Ministro dell'economia e delle finanze, del 20 maggio 2025, recante
+«Disciplina del dispositivo, contenente le caratteristiche tecniche e
+grafiche e delle informazioni nel medesimo contenute», pubblicato
+nella Gazzetta Ufficiale della Repubblica italiana del 9 luglio 2025,
+n. 157;
+Considerata la determina AIFA n. 56 del 17 luglio 2025 di adozione
+delle istruzioni applicative relative alle procedure di rilascio
+dell'A.I.C. e alle modalita' per adempiere agli obblighi previsti
+dall'art. 4, comma 7, del decreto legislativo 6 febbraio 2025, n. 10,
+anche relativamente ai medicinali di importazione e distribuzione
+parallela;
+Vista la Gazzetta Ufficiale dell'Unione europea del 17 luglio 2026
+che riporta la sintesi delle decisioni dell'Unione europea relative
+all'autorizzazione all'immissione in commercio di medicinali dal 1°
+giugno 2026 al 30 giugno 2026 unitamente all'insieme dei nuovi
+farmaci e delle nuove confezioni registrate;
+Considerato il parere sul regime di classificazione ai fini della
+fornitura espresso, su proposta dell'Ufficio procedure centralizzate,
+dalla Commissione scientifica ed economica (CSE) di AIFA in data 7-11
+settembre 2026;
+Visti gli atti di ufficio;
+
+Determina:
+
+1. La confezione del seguente medicinale per uso umano di nuova
+autorizzazione, corredata di numero di A.I.C. e classificazione ai
+fini della fornitura:
+ITVISMA
+descritta in dettaglio nell'allegato, che forma parte integrante
+del presente provvedimento, e' collocata in apposita sezione della
+classe, di cui all'art. 12, comma 5, della legge 8 novembre 2012, n.
+189, denominata classe C(nn), dedicata ai farmaci non ancora valutati
+ai fini della rimborsabilita'.
+2. Per i medicinali, di cui al comma 3 dell'art. 12 del
+decreto-legge 13 settembre 2012, n. 158, convertito dalla legge 8
+novembre 2012, n. 189, di collocazione nella classe C(nn) di cui alla
+presente determina, che non ottemperino alla presentazione della
+domanda di classificazione in fascia di rimborsabilita' entro il
+termine di trenta giorni dal sollecito inviato dall'AIFA, ai sensi
+dell'art. 18 della legge 5 agosto 2022, n. 118, verra' data
+informativa sul sito internet istituzionale dell'AIFA e sara'
+applicato l'allineamento al prezzo piu' basso all'interno del quarto
+livello del sistema di classificazione anatomico terapeutico chimico
+(ATC).
+3. Il titolare dell'A.I.C., ai sensi dell'art. 21-bis, comma 1,
+lettere a) e d), della direttiva 2001/83/CE e dell'art. 5, comma 1,
+lettere a) e d), del decreto ministeriale 30 aprile 2015, prima
+dell'inizio della commercializzazione sul territorio italiano del
+medicinale deve avere ottemperato, ove previsto dalla decisione della
+Commissione europea, alle condizioni o limitazioni per quanto
+riguarda l'uso sicuro ed efficace del medicinale, ottenendo la
+preventiva approvazione delle misure aggiuntive di minimizzazione del
+rischio. Fatti salvi gli stampati, il contenuto e il formato delle
+misure sopra indicate - liberamente accessibili e consultabili sui
+siti istituzionali dell'Agenzia europea del medicinali (EMA) e della
+Commissione europea al «Public Health - Union Register of Medicinal
+Products» - sono soggetti alla preventiva approvazione del competente
+ufficio di AIFA, unitamente ai mezzi di comunicazione, alle modalita'
+di distribuzione e a qualsiasi altro aspetto inerente alla misura
+aggiuntiva di minimizzazione del rischio prevista, con obbligo di
+distribuzione del titolare dell'autorizzazione all'immissione in
+commercio.
+4. Il titolare dell'A.I.C., ai fini della commercializzazione sul
+territorio italiano del medicinale e' responsabile del rispetto degli
+obblighi informativi di cui dall'art. 73 «Etichettatura» del decreto
+legislativo n. 219/2006 e successive modificazioni ed integrazioni,
+relativo alle indicazioni e agli strumenti che devono comparire
+sull'imballaggio esterno o, in mancanza dello stesso, sul
+confezionamento primario dei medicinali.
+5. Il titolare dell'A.I.C., prima dell'inizio della
+commercializzazione sul territorio italiano del medicinale, deve
+comunicare all'AIFA servizio on-line
+https://www.aifa.gov.it/comunicazione-prima-commercializzazione - il
+prezzo ex factory, il prezzo al pubblico e la data di inizio della
+commercializzazione del medicinale (art. 34, comma 5, decreto
+legislativo n. 219/2006 e successive modificazioni ed integrazioni, e
+art. 12, comma 5, legge n. 189/2012 e successive modificazioni ed
+integrazioni).
+6. Qualora si riscontri che il titolare abbia immesso in commercio
+il medicinale in violazione degli obblighi e delle condizioni di cui
+ai precedenti commi, ricorrendone i presupposti e salvo il caso che
+il fatto costituisca reato, verranno applicate le sanzioni previste
+dal decreto legislativo n. 219/2006 e successive modificazioni ed
+integrazioni.
+7. La presente determina entra in vigore il giorno successivo alla
+sua pubblicazione nella Gazzetta Ufficiale della Repubblica italiana.
+8. I successivi provvedimenti di classificazione e rimborsabilita',
+ai sensi dell'art. 8, comma 10, della legge 24 dicembre 1993, n. 537,
+verranno pubblicati unicamente sul portale «Trovanorme» accessibile
+dal sito istituzionale dell'Agenzia sviluppato in collaborazione con
+l'Istituto Poligrafico e Zecca dello Stato, dei quali sara' dato
+avviso nella Gazzetta Ufficiale della Repubblica italiana.
+Roma, 1° ottobre 2026
+
+Il Presidente: Nistico'
+
+(Allegato)
+
+Allegato
+
+Inserimento, in accordo all'art. 12, comma 5, della legge n.
+189/2012, in apposita sezione (denominata classe C(nn)) dedicata ai
+farmaci non ancora valutati ai fini della rimborsabilita' nelle more
+della presentazione da parte dell'azienda interessata di una domanda
+di diversa classificazione. Le informazioni riportate di seguito
+costituiscono un estratto degli allegati alla decisione della
+Commissione europea relativa all'autorizzazione all'immissione in
+commercio del farmaco. Si rimanda quindi alla versione integrale di
+tali allegati.
+Farmaco di nuova registrazione:
+ITVISMA;
+principio attivo: onasemnogene abeparvovec;
+codice procedura: EMEA/H/C/006498/0000;
+codice ATC: M09AX09;
+titolare: Novartis Europharm Limited;
+GUUE: 17 luglio 2026.
+Medicinale sottoposto a monitoraggio addizionale. Cio'
+permettera' la rapida identificazione di nuove informazioni sulla
+sicurezza. Agli operatori sanitari e' richiesto di segnalare
+qualsiasi reazione avversa sospetta. Vedere paragrafo 4.8 per
+informazioni sulle modalita' di segnalazione delle reazioni avverse.
+Indicazioni terapeutiche
+«Itvisma» e' indicato per il trattamento dell'atrofia muscolare
+spinale (SMA) 5q con una mutazione biallelica nel gene SMN1 in
+pazienti di eta' pari o superiore a due anni.
+Modo di somministrazione
+Il trattamento deve essere avviato e somministrato in centri
+clinici e supervisionato da un medico esperto nella gestione di
+pazienti con SMA.
+Prima di somministrare «Itvisma», occorre effettuare esami di
+laboratorio al basale che comprendono, ma non si limitano a:
+test degli anticorpi AAV9 mediante un test appropriatamente
+validato (vedere paragrafo 4.4);
+funzionalita' epatica: alanina aminotransferasi (ALT),
+aspartato aminotransferasi (AST) e bilirubina totale (vedere
+paragrafo 4.4);
+creatinina, e;
+emocromo completo (inclusi emoglobina e conta piastrinica)
+(vedere paragrafo 4.4).
+Si raccomanda che i pazienti siano clinicamente stabili nel loro
+stato di salute generale prima dell'iniezione (vedere paragrafo 4.4).
+Il profilo beneficio-rischio di «Itvisma» nei pazienti con
+insufficienza respiratoria, sottoposti a ventilazione permanente e/o
+incapaci di deglutire non e' stato stabilito.
+Poiche' il trattamento persiste nelle cellule non in divisione, i
+pazienti precedentemente trattati con onasemnogene abeparvovec
+(qualsiasi via di somministrazione) non devono essere trattati con
+«Itvisma» (vedere paragrafo 5.1).
+Per uso intratecale.
+Il trattamento deve essere somministrato per via intratecale
+mediante puntura lombare da parte di operatori sanitari esperti
+nell'esecuzione di punture lombari:
+immediatamente prima della somministrazione, aspirare il
+contenuto del flaconcino nella siringa, eliminare l'aria dalla
+siringa, confermare il volume della dose di 3 mL nella siringa,
+tappare la siringa e iniettare nel sito di iniezione del paziente.
+se indicato dalle condizioni cliniche del paziente, si deve
+prendere in considerazione la sedazione.
+si puo' prendere in considerazione l'utilizzo di tecniche di
+imaging per guidare l'iniezione intratecale.
+il paziente deve essere valutato prima e dopo l'iniezione
+intratecale per la presenza di potenziali condizioni correlate alla
+puntura lombare, al fine di evitare gravi complicazioni procedurali.
+prima della somministrazione, prelevare 3 mL di liquido
+cerebrospinale (CSF) utilizzando un ago per puntura lombare.
+«Itvisma» viene somministrato come iniezione intratecale in
+bolo monodose della durata di circa un-due minuti.
+dopo l'iniezione intratecale, a seconda dello stato clinico del
+paziente, si raccomanda il posizionamento in posizione di
+Trendelenburg.
+Per le istruzioni dettagliate sulla preparazione, manipolazione,
+esposizione accidentale e smaltimento del medicinale, vedere
+paragrafo 6.6.2).
+Confezioni autorizzate:
+EU/1/26/2038/001 A.I.C.: 053145013 In base 32: 1LPVFP - 1,2 ×
+1014 vg - Soluzione iniettabile - Uso intratecale - Flaconcino
+(polimero di olefine cicliche) 3 mL (4 × 1013 vg/mL) - 1 flaconcino.
+Altre condizioni e requisiti dell'autorizzazione all'immissione in
+commercio
+Rapporti periodici di aggiornamento sulla sicurezza (PSUR)
+I requisiti per la presentazione dei PSUR per questo medicinale
+sono stabiliti nell'elenco delle date di riferimento dell'Unione
+(elenco EURD) previsto dall'art. 107-quater, paragrafo 7, della
+direttiva 2001/83/CE e successive modifiche, pubblicato sul sito web
+dell'Agenzia europea per i medicinali.
+Condizioni o limitazioni per quanto riguarda l'uso sicuro ed efficace
+del medicinale
+Piano di gestione del rischio (RMP)
+Il titolare dell'autorizzazione all'immissione in commercio deve
+effettuare le attivita' e le azioni di farmacovigilanza richieste e
+dettagliate nel RMP approvato e presentato nel modulo 1.8.2
+dell'autorizzazione all'immissione in commercio e in ogni successivo
+aggiornamento approvato del RMP.
+Il RMP aggiornato deve essere presentato:
+su richiesta dell'Agenzia europea dei medicinali;
+ogni volta che il sistema di gestione del rischio e'
+modificato, in particolare a seguito del ricevimento di nuove
+informazioni che possono portare a un cambiamento significativo del
+profilo beneficio/rischio o a seguito del raggiungimento di un
+importante obiettivo (di farmacovigilanza o di minimizzazione del
+rischio).
+Misure aggiuntive di minimizzazione del rischio
+Prima dell'uso di «Itvisma» il titolare dell'autorizzazione
+all'immissione in commercio in ciascuno Stato membro deve concordare
+con l'Autorita' nazionale competente il contenuto e il formato del
+programma educazionale, inclusi i mezzi di comunicazione, le
+modalita' di distribuzione e qualsiasi altro aspetto del programma.
+Il titolare dell'autorizzazione all'immissione in commercio
+garantisce che, in ciascuno Stato membro in cui «Itvisma» e'
+commercializzato, tutti i professionisti sanitari (HCP) che possono
+prescrivere, dispensare e somministrare «Itvisma» abbiano ricevuto il
+seguente pacchetto informativo per i professionisti sanitari:
+RCP;
+guida per il professionista sanitario.
+La guida per il professionista deve contenere i seguenti messaggi
+chiave:
+prima che inizi il trattamento:
+valutare il programma di vaccinazione del paziente;
+informare le persone che si prendono cura del paziente sui
+principali rischi associati a «Itvisma» e sui relativi segni e
+sintomi, tra cui epatotossicita', trombocitopenia, neuropatia
+sensitiva periferica e TMA; sulla necessita' di regolari prelievi di
+sangue; sull'importanza dei farmaci corticosteroidi;
+informare le persone che si prendono cura del paziente della
+necessita' di una maggiore supervisione nella prevenzione, nel
+monitoraggio e nella gestione dell'infezione prima e dopo la
+somministrazione di «Itvisma»;
+i pazienti devono essere testati per la presenza di anticorpi
+AAV9;
+al momento del trattamento:
+verificare se lo stato di salute generale del paziente e'
+idoneo alla somministrazione di «Itvisma» (ad es. risoluzione delle
+infezioni) o se e' giustificato un rinvio;
+verificare che il trattamento con corticosteroidi sia stati
+avviato prima della somministrazione di «Itvisma».
+dopo il trattamento:
+il trattamento con corticosteroidi deve continuare per
+almeno due mesi e non essere ridotto fino a quando AST/ALT non sono
+inferiori a 2 × ULN, e tutte le altre valutazioni, ad es. bilirubina
+totale, non tornano al range normale;
+deve essere eseguito un attento e regolare monitoraggio
+(clinico e di laboratorio) del decorso del singolo paziente per
+almeno tre mesi;
+valutazione tempestiva dei pazienti con peggioramento dei
+test di funzionalita' epatica e/o segni o sintomi di malattia acuta;
+se i pazienti non rispondono adeguatamente ai corticosteroidi
+o si sospetta un danno epatico, il professionista sanitario deve
+consultare un gastroenterologo o un epatologo;
+se si sospetta TMA, e' necessario consultare un ematologo e/o
+nefrologo.
+i pazienti e le persone che si prendono cura del paziente
+devono essere informati sui segni e sintomi della neuropatia
+sensitiva periferica e invitati a informare tempestivamente il
+proprio medico qualora tali sintomi si manifestino. In caso di
+sospetta neuropatia sensitiva periferica, si deve prendere in
+considerazione una valutazione neurologica completa e altri esami e/o
+la gestione dei sintomi in base al quadro clinico del paziente.
+Il titolare dell'autorizzazione all'immissione in commercio
+garantisce che, in ciascuno Stato membro in cui «Itvisma» e'
+commercializzato, tutte le persone che si prendono cura dei pazienti
+per i quali e' pianificato il trattamento con «Itvisma» o che hanno
+ricevuto «Itvisma» abbiano ricevuto il seguente pacchetto informativo
+per il paziente:
+foglio illustrativo;
+guida informativa per il paziente/la persona che si prende cura
+del paziente.
+La guida informativa per il paziente/la persona che si prende
+cura del paziente deve contenere i seguenti messaggi chiave:
+che cos'e' la SMA;
+che cos'e' «Itvisma» e come funziona;
+comprendere i rischi di «Itvisma»;
+il trattamento con «Itvisma»: informazioni importanti prima del
+trattamento, il giorno del trattamento e dopo il trattamento, incluso
+quando rivolgersi a un medico;
+si raccomanda che i pazienti presentino uno stato di salute
+generale adeguato (ad es. idratazione e stato nutrizionale, assenza
+di infezione) prima del trattamento con «Itvisma», altrimenti
+potrebbe essere necessario posticipare il trattamento.
+«Itvisma» puo' aumentare il rischio di coagulazione anormale
+del sangue nei piccoli vasi sanguigni (microangiopatia trombotica).
+La microangiopatia trombotica e' grave e puo' portare alla morte.
+Informi immediatamente il suo medico o quello del bambino se nota
+segni e sintomi come lividi, convulsioni o diminuzione della
+produzione di urina. Lei o il bambino sara' sottoposto a regolari
+esami del sangue per verificare l'eventuale diminuzione delle
+piastrine, le cellule responsabili della coagulazione, almeno
+settimanalmente per il primo mese dopo il trattamento. A seconda dei
+valori e di altri segni e sintomi, potrebbero essere necessarie
+ulteriori valutazioni;
+«Itvisma» puo' abbassare la conta piastrinica
+(trombocitopenia). I casi si sono generalmente verificati entro la
+prima settimana dopo che al paziente e' stato somministrato
+«Itvisma». Possibili segni di un basso numero di piastrine a cui deve
+prestare attenzione dopo la somministrazione di «Itvisma» a lei o al
+bambino includono lividi o sanguinamento anomali. Parli con il suo
+medico o quello del bambino se vede segni come lividi o sanguinamento
+di durata piu' lunga del solito se lei o il bambino si e' fatto male;
+«Itvisma» puo' portare ad un aumento degli enzimi (proteine
+presenti nel corpo) prodotti dal fegato. In alcuni casi, «Itvisma»
+puo' influenzare la funzione del fegato e causare danni al fegato.
+Possibili segni a cui prestare attenzione dopo che lei o il bambino
+ha assunto questo medicinale includono vomito, ittero (ingiallimento
+della pelle o del bianco degli occhi) o vigilanza ridotta. Informi
+immediatamente il suo medico o il medico del bambino se nota sintomi
+indicativi di danno al fegato. Lei o il bambino dovra' sottoporsi a
+un esame del sangue per verificare il corretto funzionamento del
+fegato prima di iniziare il trattamento con «Itvisma». Lei o il
+bambino dovra' inoltre sottoporsi a regolari esami del sangue per
+almeno tre mesi dopo il trattamento per monitorare l'aumento degli
+enzimi epatici. A seconda dei valori e di altri segni e sintomi,
+potrebbero essere necessarie ulteriori valutazioni;
+a lei o al bambino verra' somministrato un medicinale
+corticosteroide come il prednisolone prima del trattamento con
+«Itvisma», e per circa due mesi o piu' dopo il trattamento con
+«Itvisma». Il medicinale corticosteroide aiutera' a gestire gli
+effetti di «Itvisma» come l'aumento degli enzimi epatici che lei o il
+bambino potrebbe manifestare dopo il trattamento con «Itvisma»;
+informi il suo medico o quello del bambino in caso di vomito
+prima o dopo il trattamento con «Itvisma», per assicurarsi che lei o
+il bambino non salti la somministrazione di corticosteroidi;
+prima e dopo il trattamento con «Itvisma» e' importante
+prevenire le infezioni evitando situazioni che possono aumentare il
+rischio che il paziente contragga infezioni. Le persone che si
+prendono cura del paziente e i contatti stretti devono seguire le
+pratiche di prevenzione delle infezioni (ad es. igiene delle mani,
+norme di comportamento in caso di tosse/starnuti, limitazione dei
+potenziali contatti). Informi immediatamente il medico in caso di
+segni e sintomi indicativi di infezione, come infezioni respiratorie
+(tosse, respiro sibilante, starnuti, naso che cola, mal di gola o
+febbre) prima della somministrazione poiche' potrebbe essere
+necessario ritardare la somministrazione fino alla risoluzione
+dell'infezione o dopo il trattamento con «Itvisma» poiche' puo'
+portare a complicazioni mediche che possono richiedere cure mediche
+urgenti;
+informi immediatamente il suo medico o quello del bambino se
+lei o il bambino avvertite intorpidimento, formicoloio, pizzicore o
+dolore alle braccia, alle mani, alle gambe e/o ai piedi dopo la
+somministrazione di «Itvisma». Questi potrebbero essere segni di
+neuropatia sensitiva periferica;
+ulteriori informazioni utili (assistenza, associazioni locali);
+contatti del medico/prescrittore.
+Regime di fornitura: medicinale soggetto a prescrizione medica
+limitativa, utilizzabile esclusivamente in ambiente ospedaliero o in
+strutture ad esso assimilabili (OSP).

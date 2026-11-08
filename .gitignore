@@ -23,3 +23,6 @@ sistema/stato/pipeline.log
 trasparenza/grezzi/
 legislazione/archivio/grezzi/
 trasparenza/riservato/
+
+# log locali del modulo legislazione
+legislazione/archivio/_log_*.txt

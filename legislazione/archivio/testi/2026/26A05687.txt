@@ -1,0 +1,99 @@
+DECRETO 22 ottobre 2026
+Accertamento dell'ammontare del capitale nominale rimasto in essere a seguito dell'espletamento dell'operazione di riacquisto mediante asta competitiva di titoli di Stato del 5 ottobre 2026.
+(GU Serie Generale n. 254 del 2026-10-31; https://www.gazzettaufficiale.it/eli/id/2026/10/31/26A05687/sg)
+
+IL DIRETTORE GENERALE DEL TESORO
+
+Visto il decreto del Presidente della Repubblica 30 dicembre 2003,
+n. 398, recante il testo unico delle disposizioni legislative e
+regolamentari in materia di debito pubblico e successive modifiche ed
+integrazioni;
+Visto il decreto ministeriale 31 dicembre 2025, n. 58779, recante
+«Direttive per l'attuazione di operazioni finanziarie, ai sensi
+dell'art. 3 del decreto del Presidente della Repubblica 30 dicembre
+2003, n. 398»;
+Visto il regolamento (UE) n. 909/2014 del Parlamento europeo e del
+Consiglio del 23 luglio 2014, relativo al miglioramento del
+regolamento titoli nell'Unione europea e ai depositari centrali di
+titoli e recante modifica delle direttive 98/26/CE e 2014/65/UE e del
+regolamento (UE) n. 236/2012, come successivamente modificato dal
+regolamento (UE) 2023/2845 del Parlamento europeo e del Consiglio del
+13 dicembre 2023 per quanto riguarda la disciplina di regolamento, la
+prestazione di servizi transfrontalieri, la cooperazione in materia
+di vigilanza, la prestazione di servizi accessori di tipo bancario e
+i requisiti per i depositari centrali di titoli di paesi terzi, e
+come integrato dal regolamento delegato (UE) 2017/389 della
+Commissione dell'11 novembre 2016 per quanto riguarda i parametri per
+il calcolo delle penali pecuniarie per mancati regolamenti e le
+operazioni dei depositari centrali di titoli (CSD) negli Stati membri
+ospitanti e dal regolamento delegato (UE) 2018/1229 della Commissione
+del 25 maggio 2018 per quanto riguarda le norme tecniche di
+regolamentazione sulla disciplina del regolamento, come modificato
+dal regolamento delegato (UE) 2021/70 della Commissione del 23
+ottobre 2020 con riferimento all'entrata in vigore dello stesso, dal
+regolamento delegato (UE) 2022/1930 della Commissione del 6 luglio
+2022 per quanto riguarda la data di applicazione delle disposizioni
+relative alla procedura di acquisto forzoso e, da ultimo, dal
+regolamento delegato (UE) 2023/1626 della Commissione del 19 aprile
+2023 per quanto riguarda il meccanismo di penalizzazione per i
+mancati regolamenti relativi alle operazioni compensate che le
+controparti centrali presentano a fini di regolamento;
+Visto il decreto ministeriale n. 12953 del 17 febbraio 2023,
+concernente le «Disposizioni contabili in caso di ritardo nel
+regolamento delle operazioni di emissione, concambio e riacquisto di
+titoli di Stato, nonche' nelle operazioni di pronti contro termine
+svolte dal Ministero dell'economia e delle finanze»;
+Vista la determinazione n. 101204 del 23 novembre 2023, con la
+quale il direttore generale del Tesoro ha conferito a decorrere dal
+1° gennaio 2024 la delega al dirigente generale Capo della Direzione
+II in relazione alle attribuzioni in materia di debito pubblico, di
+cui al menzionato art. 3 del decreto del Presidente della Repubblica
+n. 398/2003, al fine di assicurare la continuita' e la tempestivita'
+dell'azione amministrativa;
+Visto il decreto ministeriale 5 ottobre 2026, n. 48911 con il quale
+e' stata disposta un'operazione di riacquisto mediante asta
+competitiva di titoli di Stato per il 5 ottobre 2026 con regolamento
+7 ottobre 2026;
+Visto in particolare l'art. 6 del predetto decreto 31 dicembre
+2025, che dispone l'accertamento dell'esito delle operazioni di
+gestione del debito pubblico;
+
+Decreta:
+
+Art. 1
+
+E' stata effettuata il 5 ottobre 2026 l'operazione di riacquisto
+mediante asta competitiva dei seguenti titoli di Stato:
+BTP 0,45% 15 febbraio 2029 cod. IT0005467482 per nominali euro
+1.727.000.000,00 al prezzo medio ponderato di euro 92,978;
+BTP 2,35% 15 gennaio 2029 cod. IT0005660052 per nominali euro
+1.519.000.000,00 al prezzo medio ponderato di euro 97,246;
+BTP 2,40% 15 marzo 2029 cod. IT0005689960 per nominali euro
+1.754.000.000,00 al prezzo medio ponderato di euro 97,101.
+
+Art. 2
+
+La consistenza dei citati prestiti, a seguito dell'operazione di
+riacquisto effettuata il 5 ottobre 2026, e' la seguente:
+
+=====================================================================
+| | | Importo nominale in |
+| | | circolazione |
++=========================+=================+=======================+
+|BTP 0,45% | | |
+|15.11.2021/15.02.2029 | (IT0005467482) | 15.423.000.000,00(*) |
++-------------------------+-----------------+-----------------------+
+|BTP 2,35% | | |
+|15.07.2025/15.01.2029 | (IT0005660052) | 14.951.000.000,00 |
++-------------------------+-----------------+-----------------------+
+|BTP 2,40% | | |
+|15.01.2026/15.03.2029 | (IT0005689960) | 15.746.000.000,00 |
++-------------------------+-----------------+-----------------------+
+
+(*) Il titolo presenta almeno una tranche emessa «ad hoc» per
+operazioni Repo.
+Il presente decreto sara' pubblicato nella Gazzetta Ufficiale della
+Repubblica italiana.
+Roma, 22 ottobre 2026
+
+p. Il direttore generale del Tesoro: Iacovoni

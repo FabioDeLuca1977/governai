@@ -1,0 +1,574 @@
+DELIBERA 4 agosto 2026
+Parere sullo schema di decreto del Ministro delle infrastrutture e dei trasporti, di concerto con il Ministro dell'economia e delle finanze, di programmazione e ripartizione delle risorse del «Fondo per le infrastrutture portuali», di cui all'articolo 4, comma 6, del decreto-legge n. 40 del 2010. (Delibera n. 28/2026).
+(GU Serie Generale n. 248 del 2026-10-24; https://www.gazzettaufficiale.it/eli/id/2026/10/24/26A05580/sg)
+
+IL COMITATO INTERMINISTERIALE
+PER LA PROGRAMMAZIONE ECONOMICA
+E LO SVILUPPO SOSTENIBILE
+Nella seduta del 4 agosto 2026
+
+Visto il Codice della navigazione, approvato con regio decreto 30
+marzo 1942, n. 327, e successive modificazioni;
+Vista la legge 27 febbraio 1967, n. 48, recante «Attribuzioni e
+ordinamento del Ministero del bilancio e della programmazione
+economica e istituzione del Comitato dei Ministri per la
+programmazione economica» e, in particolare, l'art. 16, concernente
+l'istituzione e le attribuzioni del Comitato interministeriale per la
+programmazione economica, di seguito CIPE o Comitato, nonche' le
+successive disposizioni legislative relative al Comitato ed, in
+particolare, il decreto-legge 14 ottobre 2019, n. 111, recante
+«Misure urgenti per il rispetto degli obblighi previsti dalla
+direttiva 2008/50/CE sulla qualita' dell'aria e proroga del termine
+di cui all'art. 48, commi 11 e 13, del decreto-legge 17 ottobre 2016,
+n. 189, convertito, con modificazioni, dalla legge 15 dicembre 2016,
+n. 229», il quale, all'art. 1-bis inserito nella legge di conversione
+12 dicembre 2019, n. 141, ha previsto che dal 1° gennaio 2021, per
+«rafforzare il coordinamento delle politiche pubbliche in vista del
+perseguimento degli obiettivi in materia di sviluppo sostenibile
+indicati» dall'Agenda ONU 2030, il CIPE assuma «la denominazione di
+Comitato interministeriale per la programmazione economica e lo
+sviluppo sostenibile», di seguito CIPESS, e che «a decorrere dalla
+medesima data, nella legge 27 febbraio 1967, n. 48, e in ogni altra
+disposizione vigente, qualunque richiamo» al CIPE «deve intendersi
+riferito al» CIPESS;
+Vista la legge 23 agosto 1988, n. 400, recante «Disciplina
+dell'attivita' di Governo e ordinamento della Presidenza del
+Consiglio dei ministri», e successive modificazioni;
+Vista la legge 7 agosto 1990, n. 241, recante «Nuove norme in
+materia di procedimento amministrativo e di diritto di accesso ai
+documenti amministrativi» e successive modificazioni;
+Vista la legge 28 gennaio 1994, n. 84, recante «Riordino della
+legislazione in materia portuale», e successive modificazioni, che
+all'art. 6 ha istituito le Autorita' di sistema portuale, indicando
+nell'allegato A alla stessa legge i porti rientranti nelle predette
+Autorita';
+Vista la legge 17 maggio 1999, n. 144, recante «Misure in materia
+di investimenti, delega al Governo per il riordino degli incentivi
+all'occupazione e della normativa che disciplina l'INAIL, nonche'
+disposizioni per il riordino degli enti previdenziali» che all'art.
+1, comma 5, ha istituito presso il CIPE il «Sistema di monitoraggio
+degli investimenti pubblici», di seguito MIP, con il compito di
+fornire tempestivamente informazioni sull'attuazione delle politiche
+di sviluppo e la cui attivita' e' funzionale all'alimentazione di una
+banca dati tenuta nell'ambito di questo stesso Comitato;
+Vista la normativa vigente in materia di codice unico di progetto,
+di seguito CUP (o, anche, codice), e in particolare:
+1. la delibera CIPE 27 dicembre 2002, n. 143, come
+successivamente integrata e modificata dalla delibera CIPE 29
+settembre 2004, n. 24, con la quale si e' definito il sistema per
+l'attribuzione del CUP e si e' stabilito che lo stesso deve essere
+riportato su tutti i documenti amministrativi e contabili, cartacei
+ed informatici, relativi a progetti di investimento pubblico e deve
+essere utilizzato nelle banche dati dei vari sistemi informativi,
+comunque interessati ai suddetti progetti;
+2. l'art. 11, comma 1, della legge 16 gennaio 2003, n. 3, recante
+«Disposizioni ordinamentali in materia di pubblica amministrazione»,
+il quale ha disposto che ogni progetto di investimento pubblico deve
+essere dotato di un CUP che le competenti amministrazioni richiedono
+secondo la procedura telematica definita dal CIPE;
+3. l'art. 11, comma 2-bis, della citata legge n. 3 del 2003, come
+introdotto dal decreto-legge 16 luglio 2020, n. 76, recante «Misure
+urgenti per la semplificazione e l'innovazione digitale», convertito,
+con modificazioni, dalla legge 11 settembre 2020, n. 120, il quale ha
+previsto, tra l'altro, l'istituto della nullita' degli «atti
+amministrativi adottati da parte delle amministrazioni di cui
+all'art. 1, comma 2, del decreto legislativo 30 marzo 2001, n. 165,
+che dispongono il finanziamento pubblico o autorizzano l'esecuzione
+di progetti di investimento pubblico» in assenza dei corrispondenti
+codici, che costituiscono elemento essenziale dell'atto stesso;
+4. la legge 13 agosto 2010, n. 136, recante «Piano straordinario
+contro le mafie, nonche' delega al Governo in materia di normativa
+antimafia», che all'art. 6 definisce le sanzioni applicabili in caso
+di mancata apposizione del CUP sugli strumenti di pagamento;
+5. la delibera CIPE 26 novembre 2020, n. 63, la quale ha dato
+attuazione all'art. 11, commi 2-bis, 2-ter, 2-quater e 2-quinquies,
+della legge n. 3 del 2003, come modificato dall'art. 41, comma 1, del
+decreto-legge n. 76 del 2020, e ha, tra le altre, precisato la
+nozione di progetto di investimento pubblico, specificando che
+costituisce un complesso di azioni o di strumenti di sostegno
+collegati fra loro da quattro elementi: presenza di un decisore
+pubblico; finanziamento - anche parziale, diretto o indiretto - con
+risorse pubbliche, o realizzazione basata anche sull'uso di strutture
+pubbliche; le azioni o gli strumenti suddetti hanno un comune
+obiettivo di sviluppo economico e sociale, da raggiungere entro un
+tempo specificato;
+6. l'art. 75 del decreto legislativo 19 gennaio 2026, n. 10, il
+quale stabilisce che le pubbliche amministrazioni non possono
+procedere al pagamento delle fatture elettroniche che non riportano
+il codice identificativo di gara (CIG) e il CUP;
+Visto il decreto-legge 25 marzo 2010, n. 40, recante «Disposizioni
+urgenti tributarie e finanziarie in materia di contrasto alle frodi
+fiscali internazionali e nazionali operate, tra l'altro, nella forma
+dei cosiddetti "caroselli" e "cartiere", di potenziamento e
+razionalizzazione della riscossione tributaria anche in adeguamento
+alla normativa comunitaria, di destinazione dei gettiti recuperati al
+finanziamento di un Fondo per incentivi e sostegno della domanda in
+particolari settori», convertito, con modificazioni, dalla legge 22
+maggio 2010, n. 73, e successive modificazioni;
+Visto, in particolare, l'art. 4, comma 6, del citato decreto-legge
+n. 40 del 2010, che:
+1. ha istituito il «Fondo per le infrastrutture portuali»,
+destinato a finanziare le opere infrastrutturali nei porti di
+rilevanza nazionale;
+2. ha previsto che il fondo sia ripartito con decreto del
+Ministro delle infrastrutture e dei trasporti, di concerto con il
+Ministro dell'economia e delle finanze, previa intesa con la
+Conferenza permanente per i rapporti tra lo Stato, le regioni e le
+Province autonome di Trento e di Bolzano, per i programmi nazionali
+di riparto, e con le singole regioni interessate, per finanziamenti
+specifici riguardanti i singoli porti, nonche' previo parere di
+questo Comitato;
+3. ha previsto che al medesimo Fondo fosse trasferita, con
+decreto del Ministro dell'economia e delle finanze, di concerto con
+il Ministro competente, una quota non superiore al cinquanta per
+cento delle risorse ancora disponibili destinate all'ammortamento del
+finanziamento statale previsto per l'opera «Sistema di trasporto
+rapido di massa a guida vincolata per la citta' di Parma», revocato
+ai sensi del comma 7 del medesimo art. 4, da utilizzare come spesa
+ripartita in favore delle Autorita' portuali che abbiano speso, alla
+data del 31 dicembre 2009, una quota superiore almeno all'80 per
+cento dei finanziamenti ottenuti fino a tale data;
+4. ha previsto che le predette risorse debbano essere destinate a
+progetti, gia' approvati, diretti alla realizzazione di opere
+immediatamente cantierabili e finalizzate a rendere le strutture
+operative funzionali allo sviluppo dei traffici;
+Visto il decreto legislativo 29 dicembre 2011, n. 229, recante
+«Attuazione dell'art. 30, comma 9, lettere e), f) e g), della legge
+31 dicembre 2009, n. 196, in materia di procedure di monitoraggio
+sullo stato di attuazione delle opere pubbliche, di verifica
+dell'utilizzo dei finanziamenti nei tempi previsti e costituzione del
+Fondo opere e del Fondo progetti»;
+Visto il decreto interministeriale 30 settembre 2011, n. 76827, del
+Ministro dell'economia e delle finanze di concerto con il Ministro
+delle infrastrutture e dei trasporti, ha trasferito al «Fondo per le
+infrastrutture portuali», sul capitolo n. 7258 dello stato di
+previsione della spesa del Ministero delle infrastrutture e dei
+trasporti, di seguito MIT, l'importo di 45.553.970,65 euro, per
+l'anno 2012, nonche' l'importo annuo di 3.676.118,84 euro per le
+annualita' dal 2012 al 2021, per un totale di 82.315.159,05 euro;
+Vista la delibera CIPE 21 dicembre 2012, n. 139, con la quale
+questo Comitato ha espresso parere favorevole sullo schema di decreto
+interministeriale del Ministro delle infrastrutture e dei trasporti
+di concerto con il Ministro dell'economia e delle finanze,
+concernente il riparto delle risorse del «Fondo per le infrastrutture
+portuali» per l'importo complessivo di 82.315.150 euro;
+Visto il decreto legislativo 4 agosto 2016, n. 169, recante
+«Riorganizzazione, razionalizzazione e semplificazione della
+disciplina concernente le Autorita' portuali di cui alla legge 28
+gennaio 1994, n. 84, in attuazione dell'art. 8, comma 1, lettera f),
+della legge 7 agosto 2015, n. 124», che ha trasformato
+le ventiquattro precedenti Autorita' portuali in quindici Autorita'
+di sistema portuale;
+Vista la legge 30 dicembre 2020, n. 178, recante «Bilancio di
+previsione dello Stato per l'anno finanziario 2021 e bilancio
+pluriennale per il triennio 2021-2023», con la quale il Fondo per le
+infrastrutture portuali e' stato rifinanziato per complessivi 400
+milioni di euro, con ripartizione temporale dall'anno 2021 all'anno
+2035;
+Vista la delibera CIPESS 3 novembre 2021, n. 57, con la quale
+questo Comitato ha espresso parere favorevole sullo schema di decreto
+interministeriale del Ministro delle infrastrutture e della mobilita'
+sostenibili, di concerto con il Ministro dell'economia e delle
+finanze, concernente il riparto delle risorse per 400 milioni di euro
+del «Fondo per le infrastrutture portuali» appostate sul capitolo
+7258 - piano gestionale 1 - dello stato di previsione della spesa del
+citato MIMS, per gli anni dal 2021 al 2035;
+Tenuto conto che con il decreto del Ragioniere generale dello Stato
+n. 229980 del 2021 sono state disposte, nello stato di previsione
+della spesa del Ministero delle infrastrutture e delle mobilita'
+sostenibili (ora Ministero delle infrastrutture e dei trasporti, di
+seguito MIT), sul capitolo di bilancio n. 7258, «Fondo per le
+infrastrutture portuali», variazioni in aumento, in termini di
+competenza e cassa, per gli anni finanziari 2021-2023, per
+complessivi 41 milioni di euro, di cui 6 milioni di euro in conto
+esercizio, 30 milioni di euro in conto annualita' 2022 e 5 milioni di
+euro per l'annualita' 2023;
+Vista la delibera CIPESS 2 agosto 2022, n. 26, con la quale questo
+Comitato ha espresso parere favorevole sullo schema di decreto
+interministeriale del Ministro delle infrastrutture e della mobilita'
+sostenibili (ora MIT), di concerto con il Ministro dell'economia e
+delle finanze, concernente il riparto delle risorse del piu' volte
+citato «Fondo per le infrastrutture portuali» per complessivi 34
+milioni di euro;
+Visto il decreto del Ministro delle infrastrutture e dei trasporti
+di concerto con il Ministro dell'economia e delle finanze n. 425 del
+30 dicembre 2022, col quale, sono stati ammessi al finanziamento
+pubblico a valere sul fondo infrastrutture di cui all'art. 4, comma
+6, del decreto-legge 25 marzo 2010, n. 40, rispettivamente per euro 4
+milioni ed euro 30 milioni, i seguenti due interventi:
+1. «Ristrutturazione del Molo Martello al porto di Ortona»;
+2. «Interventi di potenziamento ed ampliamento del porto di
+Ortona. 1° stralcio in attuazione al P.R.P. portuale - progetto di
+intervento di riqualificazione e potenziamento della banchina di riva
+del porto di Ortona»;
+Vista la legge 30 dicembre 2023, n. 213, recante «Bilancio di
+previsione dello Stato per l'anno finanziario 2024 e bilancio
+pluriennale per il triennio 2024-2026», che, all'art. 1, comma 292,
+ha rifinanziato l'autorizzazione di spesa di cui all'art. 4, comma 6,
+del decreto-legge n. 40 del 2010 per 55 milioni di euro per l'anno
+2024, 130 milioni di euro per l'anno 2027 e 170 milioni di euro per
+l'anno 2028, con un totale complessivo di 355 milioni di euro;
+Visto il decreto legislativo 31 marzo 2023, n. 36, recante il
+«Codice dei contratti pubblici in attuazione dell'art. 1 della legge
+21 giugno 2022, n. 78, recante delega al Governo in materia di
+contratti pubblici», ed in particolare gli articoli 174 e 175;
+Vista la delibera di questo Comitato 7 novembre 2024, n. 65, con la
+quale e' stato espresso il parere sullo «Schema di decreto
+interministeriale di riparto delle risorse del «Fondo per le
+infrastrutture portuali» di cui all'art. 4, comma 6, del
+decreto-legge n. 40 del 2010, da destinare, previa intesa sancita
+dalla Conferenza permanente per i rapporti tra lo Stato, le regioni e
+le Province autonome di Trento e Bolzano, nella seduta del 4 aprile
+2024, al progetto denominato «Porto di Trieste - Molo VIII», CUP
+C94C24000010003, per un importo di 206.850.279,00 euro, suddiviso tra
+le annualita' 2024, 2027 e 2028;
+Vista la nota DIPE 9047 del 17 luglio 2026, con la quale, in
+un'ottica di collaborazione istituzionale e per accelerare
+l'attivita' istruttoria, sono state anticipate alcune richieste di
+chiarimenti istruttori e di documentazione integrativa;
+Vista la nota n. 25288 del 23 luglio 2026, con la quale il Capo di
+Gabinetto del MIT ha chiesto l'iscrizione all'ordine del giorno della
+prima riunione utile di questo Comitato, della proposta di parere
+sullo schema di decreto del Ministro delle infrastrutture e dei
+trasporti, di concerto con il Ministro dell'economia e delle finanze,
+di assegnazione e ri-assegnazione delle risorse del fondo per il
+finanziamento degli investimenti e lo sviluppo infrastrutturale del
+Paese, di cui all'art. 1, comma 292, della legge 30 dicembre 2023, n.
+213, destinato al settore portuale («Fondo per le infrastrutture
+portuali» di cui all'art. 4, comma 6, del decreto-legge n. 40 del
+2010), relativo alla programmazione e ripartizione della quota parte
+di risorse ancora disponibili a bilancio a valere sulle annualita'
+dal 2025 al 2035, trasmettendo la documentazione istruttoria,
+predisposta dalla Direzione generale per i porti, la logistica e
+l'intermodalita';
+Vista la nota MIT prot. n. 0025831 del 28 luglio 2026, acquisita
+con prot. DIPE-0009539 della stessa data, il MIT ha ritrasmesso il
+testo dello schema di decreto su cui e' richiesto il parere del
+Comitato, con la correzione di alcuni refusi;
+Vista la documentazione istruttoria allegata alla nota di proposta
+del Capo di Gabinetto del MIT e, in particolare, la relazione
+istruttoria predisposta dalla competente Direzione generale per i
+porti, la logistica e l'intermodalita';
+Vista l'Intesa della Conferenza permanente per i rapporti tra lo
+stato, le regioni e le Province autonome di Trento e di Bolzano,
+sancita nel corso della seduta del 23 luglio 2026, ai sensi dell'art.
+4, comma 6, del decreto-legge 25 marzo 2010, n. 40, recante
+«Disposizioni urgenti tributarie e finanziarie in materia di
+contrasto alle frodi fiscali internazionali e nazionali operate, tra
+l'altro, nella forma dei cosiddetti "caroselli" e "cartiere", di
+potenziamento e razionalizzazione della riscossione tributaria anche
+in adeguamento alla normativa comunitaria, di destinazione dei
+gettiti recuperati al finanziamento di un Fondo per incentivi e
+sostegno della domanda in particolari settori», convertito dalla
+legge 22 maggio 2010, n. 73, (Repertorio atti n. 125/CSR del 23
+luglio 2026, inviata al DIPE con nota prot. n. 14175 del 27 luglio
+2026, acquisita al protocollo DIPE al n. 9459 in pari data) sullo
+schema di decreto del Ministro delle infrastrutture e dei trasporti,
+di concerto con il Ministro dell'economia e delle finanze, relativo
+alle risorse del «Fondo per le infrastrutture portuali», rifinanziato
+dall'art. 1, comma 292, della legge 30 dicembre 2023, n. 213, a
+valere sulle annualita' 2025-2035;
+Preso atto che con il sopra citato schema di decreto
+interministeriale:
+1. all'art. 1 viene prevista l'approvazione del programma di
+interventi infrastrutturali in ambito portuale come elencati
+nell'allegato 1, che costituisce parte integrante e sostanziale del
+decreto, per un importo complessivo di 357.649.721,00 euro;
+2. all'art. 2 viene previsto che gli interventi di cui all'art. 1
+siano ammessi al finanziamento statale per un importo complessivo di
+357.649.721,00 euro a valere sulle risorse ancora disponibili,
+appostate sul capitolo di bilancio n. 7258, piano gestionale 1, di
+cui: 4.500.000,00 in conto residui 2025, euro 7.500.000,00 in conto
+esercizio 2026 ed euro 345.649.721,00 su esercizi futuri, ripartiti
+in annualita', secondo la seguente scansione temporale:
+Parte di provvedimento in formato grafico
+3. all'art. 3 viene previsto che le Autorita' di sistema portuale
+nella cui circoscrizione territoriale ricadono gli interventi
+infrastrutturali di cui all'art. 1, ed il Presidente dell'Autorita'
+di sistema portuale del mare Adriatico settentrionale, nella qualita'
+di Commissario straordinario per la realizzazione di approdi
+temporanei e di interventi complementari per la salvaguardia di
+Venezia, nominato per gli effetti di cui all'art. 4, commi da 1 a 4,
+del decreto-legge n. 32 del 2019, con decreto interministeriale
+MIT/MEF 545 del 31 dicembre 2021, assumono le funzioni di soggetto
+attuatore per gli interventi ammessi a finanziamento secondo le
+modalita' ed i tempi stabiliti in apposito Accordo procedimentale da
+stipularsi ai sensi dell'art. 15 della legge 7 agosto 1990, n. 241
+con il Ministero delle infrastrutture e dei trasporti - Direzione
+generale per i porti, la logistica e l'intermodalita', nel quale sono
+definite modalita' ed obblighi relativi all'attuazione e monitoraggio
+degli interventi e all'erogazione del contributo pubblico, nel
+rispetto e nei limiti delle condizioni dettate dal decreto;
+4. agli articoli da 4 a 6 vengono previsti gli adempimenti
+contabili successivi da parte del MIT, le condizioni per la revoca
+delle risorse in assenza di obbligazioni giuridicamente vincolanti e
+le procedure di monitoraggio delle attivita' e degli interventi, da
+effettuarsi attraverso il sistema di «monitoraggio delle opere
+pubbliche - MOP» della «banca dati delle pubbliche amministrazioni -
+BDAP» ai sensi del richiamato decreto legislativo, n. 229 del 2011;
+Preso atto di quanto evidenziato nella documentazione istruttoria
+trasmessa dal MIT con nota n. 25288 del 23 luglio 2026, e nella
+ulteriore documentazione inviata, ad integrazione della prima, con le
+seguenti note:
+nota GAB-MIT prot. n. 25831 del 28 luglio 2026;
+nota MIT prot. n. 12592 del 29 luglio 2026;
+nota MIT prot. n. 12857 del 3 agosto 2026;
+e in particolare:
+1 sotto l'aspetto tecnico-procedurale, amministrativo e
+finanziario, che:
+1.1 con il decreto interministeriale MIMS - MEF n. 52 del 10
+marzo 2022, adottato previo parere favorevole del CIPESS, e' stato
+approvato il programma di interventi infrastrutturali portuali per un
+importo complessivo di 400.000.000,00 euro;
+1.2 l'art. 5 del citato decreto ha previsto la revoca delle
+risorse assegnate qualora i soggetti beneficiari non avessero assunto
+un'obbligazione giuridicamente vincolante per l'affidamento dei
+lavori entro diciotto mesi dall'assegnazione delle risorse, salvo
+comprovate cause ostative;
+1.3 le Autorita' di sistema portuale del mare Adriatico
+settentrionale, del mare Tirreno settentrionale, dei mari Tirreno
+meridionale e Ionio, del mare Tirreno centrale e del mare Adriatico
+centrale, a causa della complessita' delle procedure di affidamento
+dei lavori pubblici e degli effetti derivanti dall'emergenza
+epidemiologica da COVID 19, non hanno rispettato il termine previsto
+e hanno pertanto richiesto una proroga e che gli schemi di decreti di
+proroga, inviati al Ministero dell'economia e delle finanze per il
+necessario concerto, non sono stati assentiti dal MEF, in ragione
+degli effetti negativi sulla finanza pubblica derivanti dall'utilizzo
+delle risorse in annualita' diverse rispetto a quelle originariamente
+previste. A fronte della revoca delle risorse non assistite da
+obbligazioni giuridicamente vincolanti, il MEF ha comunque indicato
+possibilita', da parte del MIT, di valutare una nuova finalizzazione
+delle risorse a partire dall'annualita' 2025;
+1.4 in attuazione di tale orientamento, con nota n. 10693 del
+22 settembre 2025, il MIT ha comunicato alle Autorita' di sistema
+portuale interessate il rigetto delle istanze di proroga e la
+conseguente revoca dei finanziamenti assegnati per un valore di
+complessivo di 300 milioni di euro;
+1.5 il MIT ha invitato gli enti interessati a confermare
+l'interesse al ri-finanziamento dei progetti nel limite di risorse
+che risulteranno effettivamente disponibili a bilancio ad avvenuto
+perfezionamento della procedura di disimpegno, fermo restando
+l'impegno degli enti medesimi a farsi carico delle quote di risorse
+eventualmente necessarie all'integrale copertura dei rispettivi
+quadri economici di spesa;
+1.6 tutte le Autorita' interessate hanno confermato l'interesse
+al rifinanziamento degli interventi originariamente inseriti nel
+programma, approvato con il decreto interministeriale MIMS - MEF n.
+52 del 2022, sul cui schema il CIPESS aveva espresso parere
+favorevole con la propria delibera n. 57 del 2021 sopracitata. Le
+stesse Autorita' si sono impegnate altresi' ad assicurare, ove
+necessario, la copertura delle eventuali maggiori esigenze
+finanziarie;
+Considerato che sotto l'aspetto della sostenibilita':
+1. l'intervento relativo al Porto di Venezia permette di
+allontanare le grandi navi e il traffico crocieristico dal centro
+storico di Venezia e dalle acque lagunari piu' delicate. Il progetto,
+che prevede l'utilizzo e l'adeguamento del Canale Malamocco-Marghera
+come rotta d'accesso esterna e un modello «Homeport» di sviluppo
+crocieristico per permettere lo snellimento del traffico marittimo
+nella laguna e soprattutto di quello a carico della citta' storica,
+con conseguente decongestionamento dell'area lagunare, drastica
+riduzione del moto ondoso, protezione dei canali storici;
+2. l'intervento relativo al Terminal Ro-Ro Noghere (Porto di
+Trieste) e alla piattaforma logistica intermodale di Tremestieri
+integrano diversi elementi di sostenibilita' ambientale ed economica,
+migliorando l'intermodalita' (con aumento dei flussi di trasporto
+merci marittimi e riduzione di quelli su strada), l'integrazione
+viaria e ferroviaria (riducendo l'impatto sul traffico locale grazie
+a collegamenti stradali o ferroviari che allontanano i flussi
+logistici dalle aree urbane), la riduzione delle emissioni di
+inquinanti nell'atmosfera, la riqualificazione delle aree
+interessate;
+Considerato il perdurante interesse pubblico alla realizzazione
+degli interventi in questione, anche in considerazione dell'avanzato
+stato procedurale dei progetti stessi e considerate le legittime
+aspettative dei territori nei quali si sarebbero dovute realizzare le
+infrastrutture programmate;
+Ritenuto che l'Autorita' di sistema portuale del Mar Adriatico
+Centrale, con nota 27 marzo 2026 (prot n. inf.ACF565C.REGISTRO
+UFFICIALE.E.0003563.27-03-2026) ha indicato l'assoluta priorita' di
+una lista di interventi che includevano un aumento di finanziamento
+per 2 milioni di euro per Ortona «Interventi di finanziamento nel
+porto» e per 8 milioni per Ancona «Banchina del fronte esterno del
+Molo Clementino (nuova banchina crociere)». Per gli interventi
+relativi a San Benedetto del Tronto «Vasca di colmata per sedimenti
+dragaggi» e per Pescara «Interventi di deviazione del porto canale»,
+l'Autorita' di sistema portuale del Mar Adriatico Centrale ha
+indicato che «sono in corso le attivita' progettuali che possono
+essere sviluppate con le risorse ad oggi impegnate» e questi ultimi
+due interventi non sono stati inseriti nello schema di decreto in
+esame;
+Ritenuto, altresi', che analogo interesse al rifinanziamento e'
+stato attribuito ai due interventi infrastrutturali gia' ammessi a
+finanziamento con il decreto interministeriale MIT-MEF n. 425 del 30
+dicembre 2022, adottato previo parere favorevole del CIPESS espresso
+con delibera n. 26 del 2 agosto 2022 e successivamente definanziati:
+1 «Ristrutturazione del Molo Martello al porto di Ortona» per un
+importo di euro 4.000.000,00 euro;
+2 «Interventi di potenziamento ed ampliamento del porto di
+Ortona. 1° stralcio in attuazione al P.R.P. portuale -
+riqualificazione e potenziamento della banchina di riva del porto di
+Ortona» per un importo di euro 30.000.000,00 euro;
+Considerato che per questi due interventi, il MIT non ha potuto
+assumere i necessari impegni contabili a causa delle misure di
+riduzione della spesa pubblica con decreto MEF n. 212080 dell'11
+agosto 2023, come conseguenza delle spese relative allo stato di
+emergenza verificatosi nella Regione Emilia-Romagna nel 2023 e che
+pertanto ha previsto il prioritario inserimento dei due interventi
+citati relativi al porto di Ortona tra gli interventi da
+rifinanziare.
+Considerato, inoltre, che il MIT ha riconosciuto valenza strategica
+a tre ulteriori interventi di nuova introduzione:
+1. «Banchinamento parziale del terminal Ro-Ro Noghere nel Porto
+di Trieste - Fase I secondo il PRP 2016, comprensivo di dragaggio del
+canale di servizio e di collegamento alla viabilita'», finalizzato a
+rendere piu' profonda l'area di dragaggio, e ricompreso in un
+progetto piu' ampio gia' finanziato nell'ambito del Piano nazionale
+Complementare (PNC) e in corso di esecuzione;
+2. «Riavvio dei lavori inerenti alla progettazione e costruzione
+della piattaforma logistica intermodale di Tremestieri» con annesso
+scalo portuale che costituisce il completamento di un intervento gia'
+affidato e in corso di esecuzione e non richiede una nuova procedura
+di affidamento;
+3. «Porto di Venezia-Porto Marghera. Realizzazione di due accosti
+per navi di lunghezza fino a 340 m e realizzazione di un terminal
+passeggeri presso il Canale Nord»; gia' commissariato e oggetto di
+procedure semplificate, in corso di attuazione per il primo stralcio
+(demolizioni, banchine, sottoservizi, preparazione aree) e il
+conseguimento dell'obbligazione vincolante al 30 giugno 2027 per il
+secondo stralcio;
+Considerato che per il terzo intervento, il MIT, con nota n. 12408
+del 23 luglio 2026 ha precisato che si tratta di un nuovo intervento
+nell'ambito delle opere commissariate per la salvaguardia di Venezia
+previste dall'art. 2 del decreto-legge 20 luglio 2021, n. 103,
+finalizzato alla realizzazione del nuovo modello di accessibilita'
+crocieristica della laguna di Venezia per il quale e' emerso un costo
+aggiuntivo di 28,5 milioni di euro rispetto ai finanziamenti gia'
+disponibili derivante dall'aggiornamento della progettazione e in
+particolare dall'esigenza di realizzare opere di fondazione piu'
+complesse rispetto a quelle originariamente previste, in ragione
+delle caratteristiche geotecniche e della presenza di sedimenti
+contaminati;
+Considerato che lo schema di decreto, sottoposto al parere del
+Comitato, prevede il finanziamento per 47.849.721,00 euro per tre
+nuovi interventi infrastrutturali, di cui:
+1. terminal Ro-Ro Noghere nel Porto di Trieste per 12.349.721,00
+euro;
+2. per piattaforma logistica intermodale di Tremestieri (Comune
+di Messina) per 7.000.000,00 euro;
+3. Porto di Venezia, realizzazione di due accosti per navi di
+lunghezza fino a 340 m e realizzazione di un terminal passeggeri
+presso il Canale Nord del porto di Marghera per 28.500.000,00 euro;
+Considerato che lo schema di decreto, sottoposto al parere del
+Comitato, prevede il rifinanziamento:
+1. per 275.800.000,00 di euro di nove interventi ex decreto
+MIT-MEF n. 52 del 10 marzo 2022, relativi ai porti di Piombino, Gioia
+Tauro, Napoli, Ortona, Ancona (3 interventi), Pesaro e Venezia,
+precedentemente definanziati ma di cui e' stata confermata la
+priorita' realizzativa per il perdurante interesse pubblico alla
+realizzazione degli interventi e le legittime aspettative dei
+territori e sono state aumentati finanziamenti per tre interventi per
+un totale di 15.000.000 di euro;
+2. Per 34.000.000,00 di euro di due interventi ex decreto MIT-MEF
+n. 425 del 30 dicembre 2022, relativi al Porto di Ortona,
+precedentemente definanziati ma di cui e' stata confermata la
+priorita' realizzativa per il perdurante interesse pubblico alla
+realizzazione degli interventi e le legittime aspettative dei
+territori.
+Considerato che la seguente tabella riporta gli importi relativi ai
+progetti infrastrutturali prioritari e riproposti in ambito portuale,
+evidenziando la differenza tra il decreto n. 52 del 2022 e lo schema
+di decreto sul quale il Comitato deve esprimere parere;
+
+Parte di provvedimento in formato grafico
+
+Visto il decreto del Presidente della Repubblica del 31 ottobre
+2022, con il quale il senatore Alessandro Morelli e' stato nominato
+Sottosegretario di Stato alla Presidenza del Consiglio dei ministri;
+Visto il decreto del Presidente del Consiglio dei ministri 25
+novembre 2022, con il quale il senatore Alessandro Morelli e' stato
+nominato Segretario del CIPESS e gli e' stata assegnata, tra le
+altre, la delega ad esercitare le funzioni spettanti al Presidente
+del Consiglio dei ministri in materia di coordinamento della politica
+economica e di programmazione e monitoraggio degli investimenti
+pubblici, compresi quelli orientati al perseguimento dello sviluppo
+sostenibile, nonche' quelli in regime di partenariato
+pubblico-privato;
+Tenuto conto dell'esame della proposta svolto ai sensi della
+delibera CIPE 28 novembre 2018, n. 82, recante «Regolamento interno
+del Comitato interministeriale per la programmazione economica»,
+cosi' come modificata dalla delibera CIPESS 15 dicembre 2020, n. 79,
+recante «Regolamento interno del Comitato interministeriale per la
+programmazione economica e lo sviluppo sostenibile (CIPESS)»;
+Considerato che il regolamento sopra citato, anche ai sensi
+dell'art. 16 della legge 27 febbraio 1967, n. 48, e successive
+modificazioni, prevede che questo Comitato sia presieduto «dal
+Presidente del Consiglio dei ministri e che in caso di sua assenza o
+impedimento temporaneo, e' presieduto dal Ministro dell'economia e
+delle finanze in qualita' di Vice Presidente di questo stesso
+Comitato», mentre «in caso di assenza o di impedimento temporaneo
+anche di quest'ultimo le relative funzioni sono svolte dal Ministro
+presente piu' anziano per eta'»;
+Vista la nota prot. DIPE n. 9891 del 4 agosto 2026, predisposta
+congiuntamente dalla Presidenza del Consiglio dei ministri -
+Dipartimento per la programmazione e il coordinamento della politica
+economica e dal Ministero dell'economia e delle finanze e posta a
+base dell'esame della presente proposta nell'odierna seduta del
+Comitato, contenente le valutazioni e le prescrizioni da riportare
+nella presente delibera;
+Considerato che il testo della delibera approvata nella presente
+seduta sara' trasmesso, ai sensi dell'art. 5, comma 7, del
+Regolamento interno del CIPESS, al Ministero dell'economia e delle
+finanze per le verifiche di finanza pubblica e successivamente
+sottoposto alla sottoscrizione del Segretario e del Presidente del
+Comitato;
+Considerato il dibattito svolto durante la seduta odierna del
+Comitato;
+Su proposta del Ministro delle infrastrutture e dei trasporti;
+
+Delibera:
+
+1. Parere favorevole sullo schema di decreto interministeriale del
+Ministro delle infrastrutture e dei trasporti, di concerto con il
+Ministro dell'economia e delle finanze, concernente la programmazione
+e ripartizione della quota-parte di risorse previste dal Fondo
+infrastrutture portuali ancora disponibile a bilancio a valere sulle
+annualita' 2025-2035.
+2. Gli interventi oggetto dei finanziamenti previsti nel Fondo
+infrastrutture portuali sono riportati nell'allegato 1, per un totale
+di 357.649.721,00 euro, con i relativi CUP:
+3 Ulteriori disposizioni e prescrizioni
+3.1 Il Ministero delle infrastrutture e dei trasporti
+trasmettera' a questo Comitato, entro il mese di luglio di ogni anno,
+una relazione complessiva sullo stato di attuazione degli interventi
+finanziati a carico del «Fondo per le infrastrutture portuali», che
+evidenzi le eventuali criticita' degli interventi stessi, anche
+attraverso i dati presenti sui sistemi di monitoraggio e che includa
+una tabella riepilogativa dei finanziamenti assegnati, definanziati,
+delle risorse attribuite al Fondo e delle eventuali risorse residue
+disponibili per ulteriori assegnazioni.
+3.2 Il Ministero delle infrastrutture e dei trasporti deve
+coordinare le attivita' necessarie alla tempestiva trasmissione delle
+informazioni, da parte dei soggetti attuatori, al sistema BDAP e MOP,
+ai sensi del decreto legislativo 29 dicembre 2011, n. 229.
+3.3 Il Ministero delle infrastrutture e dei trasporti provvede
+ad assicurare, per conto di questo Comitato, la conservazione dei
+documenti relativi al progetto di cui al presente parere.
+
+Il Ministro per gli affari europei,
+il PNRR e le politiche di coesione
+con funzioni di Presidente
+Foti
+Il segretario
+Morelli
+
+Registrato alla Corte dei conti il 13 ottobre 2026
+Ufficio di controllo sugli atti del Ministero dell'economia e delle
+finanze, n. 1261
+
+(Allegato 1)
+
+Allegato 1
+
+Parte di provvedimento in formato grafico

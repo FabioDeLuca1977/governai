@@ -7,12 +7,12 @@
 > **Cosa cambia nella Carta.**
 > - Nuovi valori: **Equità**, **Sicurezza senza controllo assoluto** e **Cittadinanza responsabile**.
 > - Trasparenza e rispetto per le diversità sono ora esplicite dentro Fiducia e Rispetto.
-> - Il panel indipendente ha rivalutato tutte le 52 proposte (alfa di Krippendorff 0,85).
+> - Il panel indipendente ha rivalutato tutte le proposte, oggi 62 dopo le 10 nuove su fisco semplice, evasione, PA produttiva e integrità degli appalti (alfa di Krippendorff 0,85).
 > - Si applicano le **linee rosse automatiche**. Sono escluse la Difesa nelle versioni a debito e due coperture regressive senza compensazione: l'aumento ulteriore delle accise sul tabacco (AS05) e la soppressione del bonus lavoratrici madri (RB05).
 >
 > **Nuovi totali**, tutti senza deficit e dopo la verifica giuridica:
-> - **programma base: 7,66 mld**, con 13 misure su 14 del nucleo robusto;
-> - **programma completo: 12,10 mld**, con 14 su 14.
+> - **programma base: 7,90 mld**, con 17 misure su 18 del nucleo robusto;
+> - **programma completo: 12,99 mld**, con 18 su 18.
 >
 > **Verifica giuridica.** Tre esperti (tributario, costituzionale, diritto UE) hanno escluso perché incompatibili:
 > - l'IVA ridotta dal 10% al 12% (SF15): sarebbe una terza aliquota ridotta, vietata dalla direttiva 2006/112/CE come modificata nel 2022;
@@ -51,7 +51,7 @@
 
 | Passo | Cosa | Dove |
 |---|---|---|
-| 1 | 9 dossier ministeriali, 52 proposte | `ministeri/` |
+| 1 | 9 dossier ministeriali, 62 proposte | `ministeri/` |
 | 2 | Verifica di 334 cifre su fonte primaria; base dati riproducibile | `dati/` |
 | 3 | Vincolo di bilancio ufficiale: margine in deficit zero | `dati/verifiche/00_vincolo_bilancio.md` |
 | 4 | Carta dei 7 valori: Rispetto, Fiducia, Innovazione, Benessere, Apprendimento e cultura, Bellezza patrimonio e accoglienza, Responsabilità verso il futuro | `01_carta_valori.md` |

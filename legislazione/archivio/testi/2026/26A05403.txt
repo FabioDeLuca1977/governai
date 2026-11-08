@@ -1,0 +1,478 @@
+DECRETO 11 settembre 2026
+Linee di indirizzo nazionali per servizio di accesso personalizzato ai farmaci presso le farmacie aperte al pubblico.
+(GU Serie Generale n. 239 del 2026-10-14; https://www.gazzettaufficiale.it/eli/id/2026/10/14/26A05403/sg)
+
+IL SOTTOSEGRETARIO DI STATO
+
+Visto l'articolo 32 della Costituzione della Repubblica italiana;
+Visto il regio decreto 27 luglio 1934, n. 1265, recante
+«Approvazione del testo unico delle leggi sanitarie»;
+Visto il regio decreto 30 settembre 1938, n. 1706, recante
+«Approvazione del regolamento per il servizio farmaceutico»;
+Visto il decreto legislativo 24 aprile 2006, n. 219, recante
+«Attuazione della direttiva 2001/83/CE (e successive direttive di
+modifica) relativa ad un codice comunitario concernente i medicinali
+per uso umano», e successive modificazioni;
+Vista la Farmacopea ufficiale della Repubblica italiana, XII
+edizione, e successive integrazioni, che contiene le Norme di buona
+preparazione dei medicinali in farmacia;
+Visto l'art. 11 della legge 18 giugno 2009, n. 69 che ha previsto
+lo sviluppo di nuovi servizi a «forte valenza sociosanitaria»
+erogabili dalle farmacie pubbliche e private convenzionate;
+Visto il decreto legislativo 3 ottobre 2009, n. 153, e in
+particolare l'articolo 1, comma 2, lettere b) ed e-bis), che include
+tra i servizi erogabili dalle farmacie l'aderenza alla terapia e
+l'accesso personalizzato ai farmaci;
+Visto l'articolo 11, comma 5, del decreto-legge 13 settembre 2012,
+n. 158, convertito con modificazioni dalla legge 8 novembre 2012, n.
+189, che consente alle regioni e province autonome di sperimentare
+sistemi di riconfezionamento personalizzato dei medicinali;
+Vista la legge 27 dicembre 2019, n. 160 (legge di bilancio 2020), e
+in particolare l'articolo 1, comma 462, che prevede la possibilita'
+di usufruire, presso le farmacie, di un servizio di accesso
+personalizzato ai farmaci nel rispetto di prescrizione medica;
+Vista l'Intesa sancita in Conferenza Stato-regioni il 6 marzo 2025
+sul nuovo accordo collettivo nazionale per le farmacie convenzionate,
+che promuove il servizio di accesso personalizzato ai farmaci;
+Visto il parere n. 992 del 2 settembre 2025 del Consiglio di Stato,
+sezione I, che ha ritenuto consentita l'attivita' di «deblistering»
+(sconfezionamento e riconfezionamento del farmaco), in assenza di
+specifici divieti normativi, purche' svolta nel rispetto delle Norme
+di buona preparazione e delle cautele eventualmente previste dalle
+regioni;
+Visto il decreto del direttore generale della Direzione generale
+dei dispositivi medici e del farmaco del 5 marzo 2026 con il quale e'
+stato costituito il Tavolo tecnico nazionale per la definizione di
+linee guida sull'erogazione del servizio di accesso personalizzato ai
+farmaci svolto presso le farmacie aperte al pubblico;
+Preso atto del documento recante Linee guida sul servizio di
+accesso personalizzato ai farmaci predisposto dal predetto Tavolo
+tecnico all'esito dei lavori;
+Visto il decreto del Presidente della Repubblica 31 ottobre 2022,
+con il quale l'on. Marcello Gemmato e' stato nominato Sottosegretario
+di Stato alla salute;
+Visto il decreto del Ministro della salute 3 febbraio 2023, con il
+quale il Sottosegretario di Stato alla salute, on. Marcello Gemmato,
+e' stato delegato alla trattazione e alla firma degli atti relativi,
+tra l'altro, alle competenze in materia di servizio farmaceutico;
+Ritenuto che il servizio di accesso personalizzato al farmaco
+rappresenta una misura utile per migliorare l'aderenza terapeutica,
+soprattutto nei pazienti cronici e fragili;
+Ravvisata la necessita' di adottare le linee guida sull'erogazione
+del servizio di accesso personalizzato ai farmaci svolto presso le
+farmacie aperte al pubblico;
+
+Decreta:
+
+Art. 1
+
+1. Sono approvate le Linee guida sull'erogazione del servizio di
+accesso personalizzato ai farmaci svolto presso le farmacie aperte al
+pubblico riportate nell'allegato 1, che costituisce parte integrante
+del presente decreto.
+2. Il presente decreto entra in vigore il giorno successivo alla
+sua pubblicazione nella Gazzetta Ufficiale della Repubblica italiana.
+Il presente decreto e' trasmesso al competente organo di controllo
+e pubblicato nella Gazzetta Ufficiale della Repubblica italiana.
+Roma, 11 settembre 2026
+
+Il Sottosegretario di Stato: Gemmato
+
+Registrato alla Corte dei conti il 28 settembre 2026
+Ufficio di controllo sugli atti del Ministero della salute e del
+Ministero del lavoro e delle politiche sociali, n. 875
+
+(Allegato 1)
+
+Allegato 1
+
+MINISTERO DELLA SALUTE
+
+Direzione generale dei dispositivi medici e del farmaco
+
+LINEE DI INDIRIZZO NAZIONALI
+
+Servizio di accesso personalizzato ai farmaci presso le farmacie
+aperte al pubblico ai sensi dell'art. 1 comma 2, lett.
+e-bis decreto legislativo n. 153/2009.
+
+1. Premessa
+Le presenti Linee di indirizzo definiscono un quadro di
+riferimento nazionale volto a favorire modalita' applicative di
+accesso personalizzato al farmaco uniformi sul territorio, garantendo
+qualita' e sicurezza del percorso di accesso alle cure, tutela del
+paziente e a supporto dell'aderenza terapeutica.
+2. Ambito di applicazione
+Le presenti linee di indirizzo si applicano esclusivamente al
+servizio erogato presso le farmacie pubbliche e private aperte al
+pubblico, nell'ambito del rapporto diretto tra farmacista, paziente e
+medico prescrittore. Il servizio non assume carattere produttivo o
+industriale.
+3. Definizioni
+Ai fini del presente documento si intende per:
+Servizio di accesso personalizzato ai farmaci: attivita'
+professionale resa dal farmacista, in collaborazione con i medici di
+medicina generale e con i pediatri di libera scelta e su richiesta
+del paziente, consistente nella predisposizione di confezionamenti
+personalizzati di farmaci gia' acquisiti dal paziente, finalizzata a
+facilitare la corretta assunzione della terapia.
+Allestimento personalizzato delle dosi: attivita' consistente
+nello sconfezionamento, dei farmaci dal loro confezionamento
+originale e nel successivo riconfezionamento, manuale o meccanizzato,
+in unita' posologiche personalizzate, all'interno di un sistema di
+confezionamento idoneo al servizio reso e non riutilizzabile. Per
+sconfezionamento si intende la rimozione del farmaco dal
+confezionamento secondario e, ove necessario, anche dal
+confezionamento primario. L'attivita' e' svolta in farmacia, su
+richiesta del paziente e nel rispetto dello schema terapeutico, per
+finalita' assistenziali.
+Schema terapeutico (paziente specifico): si compone dell'elenco
+dei farmaci assunti dal paziente, e' comprensivo di posologia,
+modalita' e tempi di somministrazione e durata del trattamento e
+rispecchia il piano di cura personalizzato indicato dal medico
+curante e sottoposto al farmacista dal paziente. Per i farmaci senza
+obbligo di prescrizione, lo Schema terapeutico si compone sulla base
+delle indicazioni riportate sui relativi fogli illustrativi. Lo
+schema terapeutico e' riferimento per l'attivita' del farmacista e
+consente di tracciare l'assetto prescrittivo e la posologia stabiliti
+nell'ambito della valutazione clinica, cui il farmacista e' tenuto ad
+attenersi per l'allestimento personalizzato.
+Il farmacista valuta sempre la coerenza e la sicurezza
+dell'allestimento sulla base del Riassunto delle caratteristiche del
+prodotto (RCP) di ogni farmaco, potendo, ove necessario, richiedere
+chiarimenti al medico curante.
+Scheda di allestimento e tracciabilita' (paziente specifica):
+documento operativo individuale che, in applicazione dello schema
+terapeutico e delle procedure operative, definisce e registra le
+attivita' di allestimento personalizzato delle dosi riferite al
+singolo paziente. Essa costituisce riferimento operativo per
+l'allestimento e documentazione dell'attivita' svolta ai fini della
+sicurezza e della tracciabilita' del servizio.
+4. Natura del servizio e ambito di attivita'
+Il servizio di accesso personalizzato ai farmaci si configura
+come attivita' di natura assistenziale, svolta dal farmacista sotto
+la propria responsabilita' finalizzata a supportare la corretta
+assunzione dei farmaci e l'aderenza terapeutica del paziente. Esso si
+inserisce nell'ambito della presa in carico territoriale e si
+realizza nel rapporto diretto tra farmacista, medico prescrittore e
+paziente.
+Il servizio e' erogato esclusivamente dalla farmacia che ha in
+carico il paziente, la quale utilizza unicamente i farmaci da essa
+stessa dispensati.
+In questa prospettiva, il servizio non e' scindibile in fasi
+affidate a operatori distinti, ne' configurabile come attivita'
+delegabile o frazionabile tra soggetti diversi, ne' come servizio
+intermedio tra farmacie o tra operatori economici e farmacie,
+risultando escluso il ricorso a modelli di intermediazione. Esso si
+colloca integralmente nell'ambito della presa in carico del paziente
+da parte della farmacia e si distingue dalle attivita' di produzione
+industriale e di distribuzione all'ingrosso, in quanto orientato alla
+personalizzazione dell'assistenza e alla tutela del singolo paziente,
+senza generare un nuovo farmaco ma intervenendo, in forma controllata
+e tracciabile, sul confezionamento di farmaci gia' legittimamente
+dispensati.
+5. Principi generali
+L'erogazione del servizio deve avvenire nel rispetto di quanto
+previsto dalle NBP, ove applicabili, e dei seguenti principi:
+centralita' del paziente e personalizzazione della terapia;
+rispetto dello schema terapeutico;
+responsabilita' professionale del farmacista nell'ambito delle
+proprie competenze sanitarie;
+tracciabilita' dell'attivita' svolta, dei farmaci utilizzati
+nell'allestimento, nonche' del confezionamento personalizzato
+ottenuto, e ottemperanza alle specifiche disposizioni in materia di
+gestione e tracciabilita' dei farmaci stupefacenti con registro
+entrata/uscita (rif. Par. 11.1);
+trasparenza e informazione al paziente o al soggetto
+legittimato;
+proporzionalita' organizzativa del servizio.
+6. Presupposti al servizio
+Il servizio puo' essere erogato qualora ricorrano congiuntamente
+le seguenti condizioni di minima:
+richiesta esplicita del paziente o di un soggetto legittimato;
+presenza dello schema terapeutico;
+acquisizione della documentazione necessaria;
+disponibilita' dei requisiti organizzativi;
+presenza di procedure operative adeguate;
+valutazione positiva del farmacista in merito alla fattibilita'
+e alla sicurezza del servizio, formalizzata mediante la
+predisposizione e sottoscrizione della Scheda di allestimento e
+tracciabilita'.
+7. Ruolo e responsabilita' del farmacista e delle farmacie
+Il farmacista direttore e' responsabile dell'organizzazione
+complessiva del servizio. Il farmacista esecutore e' responsabile
+della corretta realizzazione dell'allestimento personalizzato delle
+dosi sotto il profilo tecnico-professionale, in coerenza con lo
+schema terapeutico e con la Scheda di allestimento e tracciabilita'.
+Le farmacie forniscono ai pazienti ogni utile e completa
+informazione sulla terapia prescritta dal medico e sulle modalita' di
+conservazione e assunzione personalizzata dei farmaci prescritti,
+nonche' informano periodicamente, e ogni volta che risulti
+necessario, il medico di medicina generale e il pediatra di libera
+scelta o il medico prescrittore sulla regolarita' o meno
+dell'assunzione dei farmaci o su ogni altra notizia reputata utile,
+ivi compresa la necessita' di rinnovo delle prescrizioni di farmaci
+per garantire l'aderenza alla terapia.
+Il farmacista responsabile del servizio:
+adotta e assicura l'applicazione di procedure operative volte a
+garantire la qualita' del confezionamento personalizzato e la
+prevenzione di errori;
+verifica la conformita' della terapia, accertando che farmaci e
+modalita' di assunzione siano conformi allo schema terapeutico e alle
+indicazioni cliniche, nonche' l'assenza di incongruenze;
+garantisce il rispetto delle procedure e il corretto
+svolgimento del servizio.
+8. Requisiti organizzativi e documentali
+Le farmacie, nel rispetto delle norme di buona preparazione dei
+medicinali in farmacia riportate nella Farmacopea ufficiale vigente,
+devono garantire:
+la disponibilita' di un sistema documentale idoneo
+all'esecuzione del servizio, conforme a quanto previsto all'articolo
+5 delle norme di buona preparazione, che comprenda almeno:
+schema terapeutico, consenso al trattamento dei dati, lettera
+di incarico (all. 1);
+prescrizione medica, ove prevista, da richiamare nella schema
+terapeutico;
+scheda di allestimento e tracciabilita', recante, tra
+l'altro, l'elenco dei farmaci utilizzati e le informazioni relative a
+lotto e scadenza (all. 2);
+istruzioni per il paziente relative alla gestione del
+confezionamento personalizzato, incluse modalita' di conservazione e
+di assunzione dei farmaci.
+9. Requisiti di sicurezza e tracciabilita'
+Devono essere garantiti, nell'ambito del sistema documentale e
+delle procedure operative adottate dalla farmacia e nel rispetto
+delle norme di buona preparazione:
+identificazione univoca del paziente e la relativa
+documentazione;
+tracciabilita' dei farmaci impiegati e del confezionamento
+personalizzato risultante, attraverso la scheda di allestimento e
+tracciabilita', con registrazione almeno di denominazione del
+farmaco, lotto e data di scadenza;
+registrazione delle operazioni effettuate con particolare
+riferimento alla segnalazione di eventuali cambi di terapia;
+indicazione della fase di verifica e controllo del lavoro
+svolto al fine di individuare tempestivamente possibili errori e
+correggerli;
+definizione dei tempi di utilizzo del confezionamento
+personalizzato e delle relative condizioni di conservazione in
+funzione del medicinale con i requisiti piu' restrittivi.
+10. Flusso del servizio e modalita' operative
+Il lavoro si articola nelle seguenti fasi (all. 3) e modalita'
+operative generali di minima:
+attivita' preliminare: ricognizione degli elementi presupposti
+al servizio, informazione al paziente e attivazione del servizio;
+dispensazione dei farmaci: il paziente, munito delle
+prescrizioni mediche ove previste, si reca presso la farmacia. Il
+farmacista procede alla dispensazione dei farmaci nella quantita' e
+qualita' prescritte, alla gestione delle relative ricette e
+all'eventuale emissione del documento fiscale;
+affidamento dei farmaci e incarico: ai fini dell'allestimento
+del confezionamento personalizzato, il paziente, mediante
+sottoscrizione della lettera di incarico, affida alla farmacia i
+farmaci precedentemente dispensati. Con tale affidamento, il
+farmacista assume la responsabilita' della corretta conservazione dei
+farmaci e puo' interagire con il medico curante per eventuali dubbi o
+chiarimenti;
+acquisizione preliminare e consenso: prima di procedere a
+qualsiasi operazione, il farmacista assicura l'acquisizione del
+consenso al trattamento dei dati personali del paziente, secondo la
+normativa vigente;
+acquisizione documentale e verifica dello schema terapeutico:
+il farmacista acquisisce la documentazione necessaria e verifica lo
+schema terapeutico del paziente, accertando che riporti, per ciascun
+farmaco, almeno la denominazione, il dosaggio, la forma farmaceutica
+e la posologia. Valuta, ove opportuno, la necessita' di procedere
+alla ricognizione dei farmaci, al fine di ridurre il rischio di
+sovrapposizioni o incongruenze, nonche' l'eventuale necessita' di
+segnalare al medico prescrittore criticita' riscontrate;
+valutazione di fattibilita' tecnico-professionale: il
+farmacista verifica la trattabilita' dei farmaci, con particolare
+riferimento alla stabilita', compatibilita' e idoneita' allo
+sconfezionamento e riconfezionamento, sulla base delle informazioni
+disponibili (RCP e/o evidenze scientifiche. Rif. Par. 11);
+presa in carico e conservazione dei farmaci: i farmaci affidati
+e i loro residui di lavorazione sono conservati in contenitori idonei
+recanti un'identificazione univoca del paziente e la dicitura
+«personalizzazione della terapia», e in uno spazio diverso da quello
+destinato ai farmaci in vendita e dedicato, in condizioni coerenti
+con quanto previsto dalle caratteristiche dei farmaci, in attesa
+dell'allestimento;
+allestimento del confezionamento personalizzato: il farmacista
+procede alle operazioni di sconfezionamento e riconfezionamento
+secondo criteri standardizzati, assicurando il rispetto delle
+condizioni di sicurezza, qualita' e igiene, nonche' delle condizioni
+di conservazione previste;
+identificazione e tracciabilita': il confezionamento
+personalizzato e' identificato in modo univoco con codifica, come
+definito nelle procedure operative, e corredato delle informazioni
+necessarie a garantirne la tracciabilita', inclusi i riferimenti ai
+farmaci utilizzati (denominazione, lotto, scadenza);
+controlli e verifiche: sono effettuati controlli di correttezza
+e completezza dell'allestimento, in coerenza con lo schema
+terapeutico e nel rispetto delle procedure operative adottate;
+documentazione dell'attivita': per ogni confezionamento
+personalizzato predisposto, il farmacista compila e sottoscrive la
+scheda di allestimento riportante la codifica dello stesso che e'
+coerente con quanto riportato in etichetta, che e' conservata agli
+atti della farmacia quale documentazione del servizio reso;
+consegna e informazione al paziente: il confezionamento
+personalizzato, debitamente etichettato, e' consegnato al paziente
+unitamente alle adeguate informazioni;
+archiviazione della documentazione del servizio: la farmacia
+provvede all'archiviazione della documentazione relativa al servizio,
+inclusa la scheda di allestimento, la documentazione acquisita ai
+fini della messa in opera e resa del servizio al paziente e ogni
+ulteriore registrazione predisposta nell'ambito delle procedure
+operative adottate.
+11. Farmaci trattabili
+Sono trattabili i farmaci disponibili in formulazioni solide per
+uso orale. Dovrebbe essere posta particolare attenzione ai
+trattamenti farmacologici in fase di titolazione, ovvero non ancora
+stabilizzati, per i quali sara' indispensabile la presentazione da
+parte del paziente o caregiver al farmacista di documentazione
+attestante il corretto schema posologico sottoscritto dal medico
+prescrittore.
+L'attivita' puo' includere, ove necessario, lo sconfezionamento
+dal confezionamento primario, sulla base di una valutazione del
+farmacista condotta avvalendosi del Riassunto delle caratteristiche
+del prodotto (RCP) e della letteratura scientifica disponibile.
+La suddivisione delle compresse e' consentita esclusivamente per
+i farmaci per i quali tale possibilita', ai fini della posologia, e'
+espressamente prevista nel RCP. La presenza della linea di frattura
+non costituisce di per se' indicazione alla divisibilita', potendo
+essere destinata unicamente a facilitare la deglutizione.
+In considerazione delle caratteristiche chimico-fisiche della
+formulazione, qualora non sia possibile mantenere il farmaco nel
+confezionamento primario, sono escluse dal processo di allestimento
+le seguenti forme farmaceutiche:
+forme solide fisicamente instabili, quali quelle altamente
+friabili o effervescenti, igroscopiche o sensibili alla luce e al
+calore;
+farmaci antineoplastici.
+Il rischio di reazioni chimiche tra componenti solidi
+appartenenti a diverse forme farmaceutiche alloggiati nel medesimo
+contenitore (ad esempio pill box o bustine) e' generalmente
+considerato trascurabile, resta fermo che il farmacista valuta caso
+per caso la trattabilita' del farmaco, in relazione alle sue
+caratteristiche e alle condizioni di allestimento.
+11.1 Campo di applicazione e specifiche disposizioni in materia
+di gestione e tracciabilita' dei medicinali stupefacenti La terapia
+personalizzata - ove applicata - si configura come attivita'
+aggiuntiva rispetto alla gestione ordinaria del medicinale
+stupefacente, pertanto non incide sugli obblighi normativi, che
+restano pienamente vigenti. Le presenti disposizioni si applicano ai
+medicinali stupefacenti limitatamente ai medicinali ricompresi nelle
+sezioni B e C, soggetti a registrazione nel registro di
+entrata/uscita, e nelle sezioni D ed E della Tabella dei medicinali
+di cui al decreto del Presidente della Repubblica 309/1990.
+Restano esclusi dal campo di applicazione i medicinali ricompresi
+nella sezione A della Tabella dei medicinali.
+Ai fini della corretta interpretazione del presente documento, si
+precisa che qualsiasi attivita' connessa alla terapia personalizzata
+relativa ai medicinali ricompresi nelle sezioni B, C, D ed E non
+modifica ne' attenua in alcun modo gli obblighi previsti dal decreto
+del Presidente della Repubblica 309/1990, che rimangono integralmente
+applicabili. In particolare, anche nell'ambito della terapia
+personalizzata:
+permane l'obbligo di registrazione puntuale di ogni movimento
+nel registro di entrata/uscita;
+deve essere garantita la tracciabilita' completa del
+medicinale, con piena riconducibilita' alla confezione originale, al
+lotto e alla data di scadenza;
+restano in capo al farmacista e agli operatori coinvolti tutte
+le responsabilita' di custodia, conservazione e sicurezza previste
+dalla normativa vigente;
+non e' ammessa alcuna deroga alle modalita' di gestione e
+controllo stabilite dal decreto del Presidente della Repubblica
+309/1990.
+Resta fermo che la gestione dei medicinali stupefacenti delle
+sezioni B, C, D ed E, anche nell'ambito della terapia personalizzata,
+deve avvenire nel pieno rispetto degli obblighi di registrazione e
+tracciabilita' previsti dal decreto del Presidente della Repubblica
+n. 309/1990.
+12. Etichettatura e informazione Il confezionamento
+personalizzato deve presentare una etichetta riportante (all. 4):
+l'identificazione del paziente; un numero identificativo univoco del
+confezionamento; la data di allestimento; la denominazione, il
+dosaggio e il numero di lotto di ciascun farmaco contenuto; le
+modalita' di assunzione; la durata della terapia; le condizioni di
+conservazione e la data limite di utilizzo, avvertenze eventuali,
+denominazione e recapito della farmacia, nonche' adeguate
+informazioni per il paziente.
+Le confezioni originarie e i relativi fogli illustrativi devono
+essere restituiti al paziente unitamente alla confezione
+personalizzata allestita.
+13. Rapporti con il medico prescrittore
+Il servizio e' erogato nel rispetto della prescrizione medica,
+con riferimento ai farmaci prescritti e alle relative posologie,
+ovvero dello schema terapeutico, da cui, discende la scheda di
+allestimento e tracciabilita'. Il rapporto di collaborazione con il
+medico e' raccomandato nell'ambito di un percorso il piu' possibile
+strutturato e nel rispetto delle disposizioni vigenti. Il farmacista
+puo' interagire con il medico, anche secondo quanto previsto dalla
+raccomandazione n. 17 del Ministero della salute, in presenza di
+dubbi sulla terapia, criticita' tecniche o necessita' di chiarimenti.
+14. Esecuzione del servizio
+L'esecuzione del servizio deve avvenire in farmacia, secondo le
+Norme di buona preparazione (NBP) delineate nella Farmacopea
+ufficiale (FU) vigente, presso il laboratorio della farmacia ovvero
+in un locale idoneo, muniti di spazi adeguati ad assicurare le
+corrette operazioni di preparazione, confezionamento, etichettatura e
+controllo dei farmaci.
+15. Monitoraggio
+Le regioni monitorano la diffusione del servizio sul territorio.
+16. Disposizioni finali
+Le farmacie aperte al pubblico che intendono attivare il
+servizio devono darne comunicazione di avvio alla autorita'
+territoriale competente.
+Le presenti linee di indirizzo costituiscono standard minimi
+nazionali e definiscono un quadro di riferimento unitario ai fini
+dell'omogenea implementazione del servizio sul territorio nazionale,
+nel rispetto delle competenze regionali in materia organizzativa e
+dei modelli erogativi adottati a livello locale. In applicazione
+dell'articolo 22, comma 1, lettera e), dell'accordo collettivo
+nazionale per la disciplina dei rapporti con le farmacie pubbliche e
+private di cui all'articolo 8, comma 2, del decreto legislativo 30
+dicembre 1992, n. 502 (Rep. atti n. 35/CSR del 6 marzo 2025),
+pubblicato nella Gazzetta Ufficiale n. 65 del 19 marzo 2025, il
+servizio di accesso personalizzato ai farmaci in ambito convenzionale
+e' oggetto di definizione nell'ambito di appositi accordi integrativi
+regionali.
+Le regioni e le province autonome, nell'ambito dei rispettivi
+accordi integrativi, disciplinano gli aspetti organizzativi,
+operativi ed economici del servizio e possono integrare le presenti
+indicazioni nell'ambito delle proprie competenze, nel rispetto dei
+principi e dei requisiti minimi qui definiti, al fine di assicurare
+coerenza del sistema, sicurezza delle prestazioni ed equita' di
+accesso.
+Eventuali modelli organizzativi regionali devono risultare
+compatibili con il presente impianto, evitando difformita' tali da
+compromettere l'efficacia complessiva del servizio.
+Restano ferme le disposizioni normative vigenti in materia di
+dispensazione dei farmaci, responsabilita' professionale del
+farmacista, tracciabilita' e tutela della salute pubblica.
+ALLEGATI
+Allegato 1 - Modulo riportante i dati paziente, schema
+terapeutico, consenso al trattamento dei dati, lettera di incarico.
+Allegato 2 - Scheda di allestimento e tracciabilita'.
+Allegato 3 - Flusso operativo del servizio.
+Allegato 4 - Schema etichettatura standard.
+
+ALLEGATO 1 - Modulo riportante i Dati Paziente, Schema Terapeutico,
+Consenso al trattamento dei dati, Lettera di incarico.
+
+Parte di provvedimento in formato grafico
+
+ALLEGATO 2 - Scheda di allestimento e tracciabilita' (su carta
+intestata della farmacia)
+
+Parte di provvedimento in formato grafico
+
+ALLEGATO 3 - Flusso operativo del servizio
+
+Parte di provvedimento in formato grafico
+
+ALLEGATO 4 - Schema etichettatura
+
+Parte di provvedimento in formato grafico

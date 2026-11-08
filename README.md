@@ -17,12 +17,15 @@ L'interfaccia web pubblicata in `docs/` contiene:
 |---|---|
 | `00_metodo.md` | Metodo comune degli agenti ministeriali |
 | `01_carta_valori.md` | Carta dei 10 valori: Rispetto e diversità, Fiducia e trasparenza, Innovazione, Benessere, Apprendimento e cultura, Bellezza patrimonio e accoglienza, Responsabilità verso il futuro, Equità, Sicurezza senza controllo assoluto, Cittadinanza responsabile |
-| `ministeri/` | 9 dossier ministeriali e 52 proposte |
+| `ministeri/` | 9 dossier ministeriali e 62 proposte |
 | `dati/` | Base dati ufficiale: script di download (Eurostat, ISTAT, MEF, …), serie, verifiche di 334 cifre su fonte primaria, storico |
 | `registro/` | Registro unico delle coperture e vincolo di bilancio |
 | `motore/` | Panel di 3 valutatori indipendenti e analisi di robustezza ai valori (SMAA) |
 | `programma/` | 152 varianti, 59 misure di copertura, ottimizzatore senza deficit, schede pronte (articolato normativo, cronoprogramma, indicatori) |
-| `20_programma_governai.md` | Il programma in due versioni senza deficit: base (7,7 mld) e completo (12,1 mld), verificate giuridicamente |
+| `20_programma_governai.md` | Il programma in due versioni senza deficit: base (7,9 mld) e completo (13,0 mld), verificate giuridicamente |
+| `benchmark/` | Confronto con i Paesi che funzionano meglio (fisco, evasione, PA, appalti) e proposte che ne derivano |
+| `trasparenza/` | Indicatori di rischio negli appalti pubblici (dati ANAC); il rapporto pubblico è aggregato, gli elenchi nominativi restano riservati |
+| `legislazione/` | Archivio quotidiano della Gazzetta Ufficiale, ricerca negli atti e verifica della redazione di leggi ed emendamenti |
 | `apprendimento/` | Obiettivi misurabili, registro delle decisioni, esiti e calibrazione: il modello impara da successi e insuccessi |
 | `integrita/` | Catena di impronte crittografiche (stile blockchain) che rende visibile ogni manomissione |
 | `giuridico/` | Verifica di conformità fiscale, costituzionale ed europea di ogni misura e copertura; le incompatibilità sono linee rosse automatiche |

@@ -1,0 +1,687 @@
+DECRETO 31 agosto 2026
+Disposizioni in materia di rendicontazione e verifica dei traguardi e degli obiettivi, attivazione del circuito finanziario e applicazione delle penalita' relative al Contratto di programma - parte Investimenti tra il Ministero delle infrastrutture e dei trasporti e Rete ferroviaria italiana S.p.a.
+(GU Serie Generale n. 255 del 2026-11-02; https://www.gazzettaufficiale.it/eli/id/2026/11/02/26A05717/sg)
+
+IL MINISTRO DELLE INFRASTRUTTURE
+E DEI TRASPORTI
+
+di concerto con
+
+IL MINISTRO DELL'ECONOMIA
+E DELLE FINANZE
+
+Vista la direttiva 2012/34/UE del Parlamento europeo e del
+Consiglio, del 21 novembre 2012, che istituisce uno spazio
+ferroviario europeo unico; in particolare, l'allegato V «Principi e
+parametri fondamentali dei contratti fra le autorita' competenti e i
+gestori dell'infrastruttura»;
+Vista la direttiva (UE) 2016/797 del Parlamento europeo e del
+Consiglio, dell'11 maggio 2016, relativa all'interoperabilita' del
+sistema ferroviario dell'Unione europea (rifusione);
+Vista la direttiva (UE) 2016/798 del Parlamento europeo e del
+Consiglio, dell'11 maggio 2016, sulla sicurezza delle ferrovie
+(rifusione); in particolare il considerando n. (7);
+Visto il regolamento (UE) 2021/241 del Parlamento europeo e del
+Consiglio, del 12 febbraio 2021, che istituisce il dispositivo per la
+ripresa e la resilienza;
+Visto il regolamento delegato (UE) 2021/2106 della Commissione, del
+28 settembre 2021, che integra il regolamento (UE) 2021/241 del
+Parlamento europeo e del Consiglio, che istituisce il dispositivo per
+la ripresa e la resilienza, stabilendo gli indicatori comuni e gli
+elementi dettagliati del quadro di valutazione della ripresa e della
+resilienza;
+Visto il regolamento (UE) 2024/1679 del Parlamento europeo e del
+Consiglio, del 13 giugno 2024, sugli orientamenti dell'Unione per lo
+sviluppo della rete transeuropea dei trasporti, che modifica il
+regolamento (UE) 2021/1153 e il regolamento (UE) 913/2010 e abroga
+il regolamento (UE) 1315/2013;
+Visto il Piano nazionale di ripresa e resilienza (PNRR) italiano,
+approvato con decisione di esecuzione del Consiglio ECOFIN del 13
+luglio 2021, come successivamente modificato con le decisioni di
+esecuzione del Consiglio ECOFIN dell'8 dicembre 2023, del 14 maggio
+2024, del 18 novembre 2024, del 20 giugno 2025 e del 27 novembre
+2025;
+Vista la legge 16 gennaio 2003, n. 3, recante «Disposizioni
+ordinamentali in materia di pubblica amministrazione»; in
+particolare, l'art. 11, comma 2-bis, che subordina la validita' degli
+atti di finanziamento o autorizzazione di progetti di investimento
+pubblico all'indicazione dei codici identificativi previsti;
+Vista la legge 13 agosto 2010, n. 136, recante «Piano straordinario
+contro le mafie, nonche' delega al Governo in materia di normativa
+antimafia»; in particolare, l'art. 3, comma 5, che dispone che ai
+fini della tracciabilita' dei flussi finanziari, gli strumenti di
+pagamento devono riportare il codice identificativo di gara (CIG);
+Visto il decreto-legge 6 dicembre 2011, n. 201, convertito, con
+modificazioni, dalla legge 22 dicembre 2011, n. 214, recante
+«Disposizioni urgenti per la crescita, l'equita' e il consolidamento
+dei conti pubblici»;
+Visto il decreto legislativo 15 luglio 2015, n. 112, recante
+«Attuazione della direttiva 2012/34/UE del Parlamento europeo e del
+Consiglio, del 21 novembre 2012, che istituisce uno spazio
+ferroviario europeo unico»; in particolare, l'art. 15 «Rapporti tra
+il gestore dell'infrastruttura ferroviaria nazionale e lo Stato»,
+cosi' come modificato dall'art. 22, comma 1, del decreto-legge 19
+febbraio 2026, n. 19;
+Visto il decreto legislativo 14 maggio 2019, n. 50, recante
+«Attuazione della direttiva 2016/798 del Parlamento europeo e del
+Consiglio, dell'11 maggio 2016, sulla sicurezza delle ferrovie»;
+Visto il decreto legislativo 14 maggio 2019, n. 57, recante
+«Attuazione della direttiva 2016/797 del Parlamento europeo e del
+Consiglio, dell'11 maggio 2016, relativa all'interoperabilita' del
+sistema ferroviario dell'Unione europea»;
+Vista la legge 30 dicembre 2020, n. 178, recante «Bilancio di
+previsione dello Stato per l'anno finanziario 2021 e bilancio
+pluriennale per il triennio 2021-2023»; in particolare, l'art. 1,
+commi 1042, 1043, 1044;
+Visto il decreto-legge 6 maggio 2021, n. 59, convertito, con
+modificazioni, dalla legge 1° luglio 2021, n. 101, recante «Misure
+urgenti relative al Fondo complementare al Piano nazionale di ripresa
+e resilienza e altre misure urgenti per gli investimenti»;
+Visto il decreto-legge 31 maggio 2021, n. 77, convertito, con
+modificazioni, dalla legge 29 luglio 2021, n. 108, recante
+«Governance del Piano nazionale di ripresa e resilienza e prime
+misure di rafforzamento delle strutture amministrative e di
+accelerazione e snellimento delle procedure»;
+Visto il decreto-legge 9 giugno 2021, n. 80, convertito, con
+modificazioni, dalla legge 6 agosto 2021, n. 113, recante «Misure
+urgenti per il rafforzamento della capacita' amministrativa delle
+pubbliche amministrazioni funzionale all'attuazione del Piano
+nazionale di ripresa e resilienza (PNRR) e per l'efficienza della
+giustizia»;
+Visto il decreto legislativo 31 marzo 2023, n. 36, recante «Codice
+dei contratti pubblici in attuazione dell'art. 1 della legge 21
+giugno 2022, n. 78, recante delega al Governo in materia di contratti
+pubblici»;
+Visto il decreto-legge 2 marzo 2024, n. 19, convertito, con
+modificazioni, dalla legge 29 aprile 2024, n. 56, recante «Ulteriori
+disposizioni urgenti per l'attuazione del Piano nazionale di ripresa
+e resilienza (PNRR)»;
+Visto il decreto-legge 19 febbraio 2026, n. 19, convertito, con
+modificazioni, dalla legge 20 aprile 2026, n. 50, recante «Ulteriori
+disposizioni urgenti per l'attuazione del Piano nazionale di ripresa
+e resilienza (PNRR) e in materia di politiche di coesione»; in
+particolare, l'art. 22, comma 1, lettera b), punto 4), che prevede
+l'introduzione all'art. 15, del decreto legislativo 15 luglio 2015,
+n. 112, del comma 5-ter il quale stabilisce che: «Con decreto del
+Ministro delle infrastrutture e dei trasporti, di concerto, per i
+profili finanziari, con il Ministro dell'economia e delle finanze,
+sono definite le modalita' di rendicontazione e verifica del
+raggiungimento degli obiettivi e la conseguente attivazione del
+circuito finanziario nonche' le penalita' da applicare a carico del
+gestore in caso di mancato conseguimento degli stessi»;
+Visto il decreto del Ministro dei trasporti e della navigazione 31
+ottobre 2000, n. 138T, con il quale e' stata rilasciata a favore
+delle «Ferrovie dello Stato - Societa' dei trasporti e servizi per
+azioni» e successivamente, a decorrere dalla data della sua
+costituzione (1° luglio 2001), alla Rete ferroviaria italiana S.p.a.,
+la concessione per la gestione dell'infrastruttura ferroviaria
+nazionale, alle condizioni stabilite nello stesso atto di concessione
+e nelle integrazioni apportate con decreti del Ministro delle
+infrastrutture e dei trasporti 28 novembre 2002, n. 60T e 19 gennaio
+2006, n. 3T, e nel contratto di programma;
+Vista la delibera 26 novembre 2020, n. 63, del Comitato
+interministeriale per la programmazione economica (CIPE) recante
+«Attuazione dell'art. 11, commi 2-bis, 2-ter, 2-quater e 2-quinquies,
+della legge 16 gennaio 2003, n. 3, come modificato dall'art. 41,
+comma 1, del decreto-legge 16 luglio 2020, n. 76, convertito, con
+modificazioni, dalla legge 11 settembre 2020, n. 120»;
+Visto il decreto del Ministro n. 496 del 7 dicembre 2021, recante
+le «Linee guida operative per la valutazione degli investimenti in
+opere pubbliche - Settore ferroviario»;
+Vista la delibera n. 116/2025 del 24 luglio 2025 dell'Autorita' di
+regolazione dei trasporti (ART), recante «Conclusione del
+procedimento avviato con delibera n. 55/2025. Approvazione delle
+misure per la definizione dei meccanismi di premi/penalita' sui
+livelli tariffari correlati alla qualita' del servizio erogato dal
+gestore dell'infrastruttura ferroviaria nazionale, di cui alla Misura
+10.6 dell'allegato A alla delibera n. 95/2023»;
+Visto il Documento strategico pluriennale della mobilita' (DSPM)
+del Ministero delle infrastrutture e dei trasporti, predisposto ai
+sensi dell'art. 1, comma 7, del decreto legislativo 15 luglio 2015,
+n. 112;
+Considerata la necessita', nell'ambito degli impegni contrattuali
+previsti, di assicurare un sistema verificabile di traguardi,
+obiettivi, indicatori di performance e criteri di qualita' coerenti
+con il DSPM, nonche' la conseguente attivazione del circuito
+finanziario e l'applicazione di eventuali penalita' per il gestore
+dell'infrastruttura ferroviaria nazionale conseguenti al mancato
+conseguimento degli stessi;
+Ritenuto necessario recepire e attuare quanto disposto dall'art.
+15, comma 5-ter, del decreto legislativo 15 luglio 2015, n. 112,
+cosi' come modificato dall'art. 22, comma 1, lettera b), punto 4),
+del decreto-legge 19 febbraio 2026, n. 19, convertito, con
+modificazioni, dalla legge 20 aprile 2026, n. 50;
+
+Decreta:
+
+Art. 1
+
+Oggetto e finalita'
+
+1. Ai sensi dell'art. 15, comma 5-ter, del decreto legislativo 15
+luglio 2015, n. 112, il presente decreto definisce le modalita' di
+rendicontazione e verifica del raggiungimento dei traguardi e degli
+obiettivi, le modalita' di attivazione del circuito finanziario,
+nonche' le penalita' da applicare a carico del gestore
+dell'infrastruttura ferroviaria nazionale in caso di mancato
+conseguimento degli stessi.
+
+Art. 2
+
+Ambito di applicazione
+
+1. Il presente decreto si applica al gestore dell'infrastruttura
+ferroviaria nazionale ed e' finalizzato a garantire l'efficace
+attuazione delle disposizioni che saranno recepite nel Contratto di
+programma - parte investimenti (CdP-I), sottoscritto tra il Ministero
+delle infrastrutture e dei trasporti (MIT) e la societa' Rete
+ferroviaria italiana S.p.a. (RFI) in attuazione dell'art. 22 del
+decreto-legge 19 febbraio 2026, n. 19, convertito, con modificazioni,
+della legge 20 aprile 2026, n. 50.
+2. Ai sensi dell'art. 15, comma 1, del decreto legislativo 15
+luglio 2015, n. 112, il Contratto di programma - parte Investimenti
+(CdP-I), di cui al comma 1, contiene i traguardi e obiettivi,
+intermedi e finali, da conseguire entro le scadenze temporali
+stabilite, nonche' gli indicatori di performance e dei criteri di
+qualita' definiti in conformita' con quanto previsto dall'allegato II
+al decreto legislativo 15 luglio 2015, n. 112, recante il recepimento
+e l'attuazione dell'allegato V alla direttiva 2012/34/UE.
+3. Nell'ambito degli aggiornamenti annuali, il Contratto di
+programma - parte Investimenti (CdP-I) fornisce evidenza
+dell'evoluzione dei valori relativi ai traguardi e agli obiettivi,
+agli indicatori di performance e ai criteri di qualita', ai fini
+della rendicontazione, delle verifiche e dell'attivazione del
+circuito finanziario disciplinati dal presente decreto.
+4. Il cronoprogramma di spesa e procedurale degli interventi
+ferroviari di cui all'art. 4 e' inserito in appendice alla relazione
+informativa al Contratto di programma - parte Investimenti (CdP-I) e
+ne costituisce parte integrante.
+5. Il presente decreto non si applica al Contratto di programma -
+parte Servizi (CdP-S), fatto salvo per quanto applicabile
+relativamente a indicatori di performance e criteri di qualita', ed
+agli interventi classificati, esclusivamente, come rinnovo ai sensi
+dell'art. 2 della direttiva (UE) 2016/797 e delle pertinenti
+specifiche tecniche di interoperabilita' (STI).
+
+Art. 3
+
+Definizioni
+
+Ai fini del presente decreto si applicano le definizioni seguenti:
+a) «Autorita' di regolazione dei trasporti» o «ART»: Autorita'
+nazionale istituita dall'art. 37 del decreto-legge 6 dicembre 2011,
+n. 201, convertito, con modificazioni, dalla legge 22 dicembre 2011,
+n. 214, che e' anche l'organismo nazionale di regolazione di cui
+all'art. 55 della direttiva 2012/34/UE;
+b) «Comitato interministeriale per la programmazione economica e
+lo sviluppo sostenibile» o «CIPESS»: Comitato istituito dall'art. 16
+della legge 27 febbraio 1967, n. 48;
+c) «MIT»: Ministero ovvero concedente ovvero Ministero delle
+infrastrutture e dei trasporti;
+d) «Direzione generale per il trasporto e le infrastrutture
+ferroviarie» o «Direzione generale»: Direzione generale del Ministero
+delle infrastrutture e dei trasporti competente sui contratti di
+programma, investimenti e servizi con il gestore dell'infrastruttura
+ferroviaria nazionale e vigilanza sulla relativa attuazione;
+e) «MEF»: Ministero dell'economia e delle finanze;
+f) «gestore dell'infrastruttura ferroviaria nazionale»: soggetto
+individuato nella societa' Rete ferroviaria italiana S.p.a. (RFI)
+che, ai sensi dell'atto di concessione, e' responsabile della
+progettazione, costruzione, messa in esercizio, gestione e
+manutenzione dell'infrastruttura ferroviaria nazionale;
+g) «Documento strategico pluriennale della mobilita'» o «DSPM»:
+documento strategico pluriennale della mobilita' di cui all'art. 1,
+comma 7, del decreto legislativo 15 luglio 2015, n. 112, volto a
+definire gli indirizzi strategici di lungo termine per lo sviluppo
+della rete, la mobilita' di passeggeri e merci per ferrovia, la
+promozione del trasporto multimodale e la piena integrazione delle
+esigenze del settore industriale e dei poli logistici nella
+pianificazione infrastrutturale;
+h) «Contratto di programma - parte Investimenti» o «CdP-I»:
+contratto - stipulato tra il Ministero delle infrastrutture e dei
+trasporti e Rete ferroviaria italiana S.p.a. ai sensi dell'art. 15
+del decreto legislativo 15 luglio 2015, n. 112 - che disciplina gli
+investimenti per lo sviluppo dell'infrastruttura ferroviaria
+nazionale e l'adeguamento tecnologico della rete ferroviaria;
+i) «Contratto di programma - parte Servizi» o «CdP-S»: contratto
+- stipulato tra il Ministero delle infrastrutture e dei trasporti e
+Rete ferroviaria italiana S.p.a. ai sensi dell'art. 15 del decreto
+legislativo 15 luglio 2015, n. 112 - che disciplina le attivita'
+manutentive, sia ordinarie sia straordinarie, nonche' le altre
+attivita' di gestione della rete prestate dal gestore
+dell'infrastruttura ferroviaria nazionale e le relative coperture
+finanziarie per il periodo di riferimento;
+j) «Programma di investimento»: insieme di progetti di
+investimento, sinergici e collegati ad un medesimo obiettivo ovvero
+aggregati in base ad omogeneita' tipologica o territoriale e/o
+funzionale, suscettibili di autonoma progettazione e realizzazione,
+contraddistinti da una pianificazione unitaria e gestita da un
+committente funzionale e, ove previsto, da una attuazione coordinata
+gestita da un referente di programma;
+k) «investimento» o «progetto di investimento»: iniziativa
+unitaria con beneficio prevalente, eventualmente articolata in lotti,
+con caratteristiche tipologiche omogenee, contraddistinta da una
+localizzazione, una progettazione coordinata, una valutazione
+economica per determinarne la sostenibilita' complessiva, un insieme
+di appalti di servizi, lavori e forniture che si svolgono secondo una
+successione temporale coordinata, gestita da un referente di progetto
+con impatto diretto e quantificabile sul processo produttivo del
+gestore dell'infrastruttura ferroviaria nazionale;
+l) «Codice unico di progetto» o «CUP»: codice che identifica un
+progetto d'investimento pubblico e lo accompagna in tutte le fasi
+della sua realizzazione;
+m) «Costo a vita intera» o «CVI»: costo di un intervento al cui
+ammontare concorrono tutte le voci di costo associate al quadro
+economico dell'intervento, comprensivo dell'importo degli appalti (di
+servizi, lavori e forniture) connessi all'intervento principale e
+delle somme a disposizione della committenza, in coerenza con l'art.
+5, dell'allegato I.7, del decreto legislativo 31 marzo 2023, n. 36;
+n) «traguardi e obiettivi»: misure dei progressi compiuti verso
+la realizzazione di un investimento o di un intervento, intendendo
+per «traguardi» i risultati qualitativi e per «obiettivi» i risultati
+quantitativi - da conseguire entro le scadenze temporali stabilite;
+o) «indicatori di performance e criteri di qualita'»: obiettivi
+di prestazione orientati agli utenti, definiti in conformita'
+all'allegato V alla direttiva 2012/34/UE e individuati dall'Autorita'
+di regolazione dei trasporti ai sensi del disposto di cui all'art.
+15, comma 5-bis, del decreto legislativo 15 luglio 2015, n. 112;
+p) «rendicontazione»: flusso informativo periodico, predisposto
+dal gestore dell'infrastruttura ferroviaria nazionale, relativo
+all'avanzamento fisico, procedurale, finanziario e prestazionale
+degli interventi;
+q) «circuito finanziario»: insieme di procedure che regolano il
+trasferimento delle risorse nei limiti delle disponibilita' a
+legislazione vigente;
+r) «Sistemi informativi di monitoraggio degli investimenti
+pubblici della Ragioneria generale dello Stato»: sistemi previsti a
+legislazione vigente finalizzati all'acquisizione dei dati in materia
+di investimenti pubblici.
+
+Art. 4
+
+Cronoprogramma di spesa
+e procedurale degli interventi
+
+1. Ai fini di quanto previsto dall'art. 2, comma 2, nonche' ai fini
+della programmazione della spesa e dell'erogazione delle risorse
+relative agli investimenti ferroviari previsti dal Contratto di
+programma - parte Investimenti (CdP-I), il gestore
+dell'infrastruttura ferroviaria nazionale trasmette, anche in formato
+elaborabile, il cronoprogramma di spesa e procedurale degli
+interventi, congiuntamente, al Ministero delle infrastrutture e dei
+trasporti (MIT) e al Ministero dell'economia e delle finanze (MEF).
+2. Il cronoprogramma di spesa e procedurale degli interventi di cui
+al comma 1 e' redatto in coerenza con le informazioni presenti sui
+sistemi informativi di monitoraggio degli investimenti pubblici della
+Ragioneria generale dello Stato, considerando i soli progetti e
+programmi di investimento dotati di totale o parziale copertura
+finanziaria.
+3. Il cronoprogramma di spesa e procedurale degli interventi
+comprende, per ciascun intervento, almeno le seguenti informazioni:
+a) CUP e descrizione intervento;
+b) localizzazione territoriale;
+c) Informazioni finanziarie, comprendenti almeno le seguenti
+voci: i) importo e relativa fonte dei finanziamenti disponibili; ii)
+importo dei finanziamenti da reperire; iii) quadro economico
+previsionale e definitivo; iv) costo a vita intera; v) costo a vita
+intera aggiornato, ove variato; vi) percentuale di variazione; vii)
+cause della variazione; viii) obbligazioni giuridicamente vincolanti
+(impegni); ix) piano dei costi (indicazione del valore realizzato
+nell'anno e da realizzare negli anni futuri); x) pagamenti;
+d) avanzamento intervento, con indicazione, per ogni singolo
+progetto, del relativo CUP, dello stato di avanzamento procedurale e
+fisico, previsto ed effettivo, con riferimento alle fasi di
+progettazione, affidamento, inizio lavori, fine lavori, collaudo,
+entrata in esercizio.
+4. Il cronoprogramma di spesa e procedurale degli interventi
+sottoscritto dall'amministratore delegato della societa' Rete
+ferroviaria italiana S.p.a., in qualita' di gestore
+dell'infrastruttura ferroviaria nazionale, e' redatto sulla base
+degli stanziamenti di bilancio e trasmesso al MIT e al MEF entro il
+31 gennaio di ciascun anno. Tale atto costituisce presupposto
+essenziale per la predisposizione e sottoscrizione del Contratto di
+programma - parte Investimenti (CdP-I), nonche' per i suoi
+aggiornamenti periodici annuali.
+5. Entro il 31 luglio di ogni anno, RFI trasmette al Ministero
+delle infrastrutture e dei trasporti e al Ministero dell'economia e
+delle finanze una relazione adeguatamente motivata in ordine allo
+stato di attuazione del cronoprogramma di spesa e procedurale degli
+interventi, individuati dal rispettivo CUP, in cui sono indicate le
+eventuali modifiche dello stesso e le relative conseguenze
+finanziarie, ai fini delle valutazioni dei necessari interventi. RFI
+attesta l'aggiornamento dei dati finanziari, fisici e procedurali
+degli interventi sui sistemi informativi di monitoraggio degli
+investimenti pubblici della Ragioneria generale dello Stato.
+6. Per le nuove infrastrutture, i cui lavori non siano ancora
+avviati alla data di entrata in vigore del presente decreto, la
+presentazione o l'aggiornamento del cronoprogramma di spesa e
+procedurale degli interventi e dei quadri economici e finanziari
+degli interventi e' accompagnato da un'analisi su categorie omogenee
+di opere e di costi, tenendo in considerazione i benchmark
+internazionali e le serie storiche dei tempi di realizzazione delle
+opere, con indicazione della media e varianza della durata e sulla
+probabilita' media di accadimento di eventi o circostanze oggettive
+ed esogene che potrebbero condizionare l'evoluzione del medesimo
+cronoprogramma e del costo dell'opera. I nuovi progetti di
+investimento sono identificati univocamente tramite il CUP. Nel caso
+in cui un progetto di investimento sia suddiviso in lotti, ciascun
+lotto e' identificato univocamente tramite un CUP.
+7. Ulteriori specifiche indicazioni tecniche e procedurali volte a
+garantire il corretto monitoraggio degli interventi da parte di RFI
+ed il conseguente adeguamento delle procedure connesse al
+trasferimento delle risorse e dei modelli da utilizzare per la
+trasmissione dei dati in formato elaborabile previsti nelle
+comunicazioni di cui al presente decreto, possono essere individuate
+con specifico provvedimento del Ministero dell'economia delle
+finanze.
+8. Ai fini delle valutazioni degli interventi da adottare, le
+variazioni di costo che eccedono il 20% del quadro economico
+approvato, al netto degli adeguamenti tariffari, sono tempestivamente
+comunicate da RFI al MIT e al MEF, con apposita relazione di impatto
+recante le cause dello scostamento, gli effetti sul programma di
+investimento, le eventuali proposte di copertura e le conseguenze sul
+cronoprogramma.
+
+Art. 5
+
+Traguardi e obiettivi
+e relativa rendicontazione
+
+1. L'allegato 1 al presente decreto fornisce uno «Schema di
+riferimento per l'individuazione di traguardi, obiettivi ed
+indicatori del Contratto di programma - parte investimenti
+2027-2031». Tale schema opportunamente dettagliato, anche in coerenza
+con gli indirizzi del Documento strategico pluriennale della
+mobilita' (DSPM) costituira' parte integrante del Contratto
+quinquennale e di ciascun aggiornamento annuale dello stesso.
+2. Gli obiettivi e i traguardi, nonche' gli indicatori quantitativi
+e qualitativi associati agli stessi e il relativo calendario di
+conseguimento concordati fra il MIT e RFI, sono riportati in apposita
+tabella, redatta in conformita' a quanto previsto dall'allegato 1 al
+presente decreto, che costituisce parte integrante del Contratto di
+programma - parte Investimenti (CdP-I).
+3. Nell'ambito degli aggiornamenti annuali al Contratto di
+programma - parte Investimenti (CdP-I) e' ammessa la rimodulazione
+degli obiettivi e dei traguardi precedentemente concordati, anche su
+richiesta motivata del gestore dell'infrastruttura ferroviaria
+nazionale.
+4. Il gestore dell'infrastruttura ferroviaria nazionale trasmette
+alla Direzione generale per il trasporto e le infrastrutture
+ferroviarie del MIT e, per conoscenza, all'Autorita' di regolazione
+dei trasporti (ART), anche sulla base delle informazioni presenti sui
+sistemi informativi di monitoraggio degli investimenti pubblici della
+Ragioneria generale dello Stato, una rendicontazione semestrale sul
+conseguimento dei traguardi e degli obiettivi riportati nella tabella
+«Traguardi e obiettivi» del Contratto di programma - parte
+Investimenti (CdP-I), con riferimento alle scadenze ricadenti nel
+semestre considerato. La rendicontazione e' trasmessa entro trenta
+giorni dalle scadenze semestrali del 30 giugno e 31 dicembre di
+ciascun anno.
+5. La rendicontazione semestrale e' predisposta sulla base del
+flusso informativo periodico relativo all'avanzamento fisico,
+procedurale, finanziario e prestazionale degli interventi. Essa
+attesta il progressivo perseguimento dei traguardi e degli obiettivi
+del periodo di riferimento e per ciascuno di essi riporta almeno:
+a) i dati identificativi degli interventi (CUP, CVI, ecc.) e dei
+progetti di investimento inclusi nella tabella «Traguardi e
+obiettivi» del CdP-I;
+b) l'avanzamento procedurale conseguito ed il relativo
+scostamento rispetto alle previsioni;
+c) l'avanzamento fisico conseguito ed il relativo scostamento
+rispetto alle previsioni;
+d) l'avanzamento finanziario, con le informazioni di cui all'art.
+4, comma 3, lettera c);
+e) la descrizione delle opere e delle attivita' completate,
+nonche' di quelle da completare successivamente al conseguimento del
+traguardo/obiettivo con relativa documentazione comprovante il
+conseguimento degli stessi;
+f) attestazione del coerente aggiornamento dei dati finanziari,
+fisici e procedurali degli interventi sui sistemi informativi di
+monitoraggio degli investimenti pubblici della Ragioneria generale
+dello Stato.
+6. Per ciascun traguardo e obiettivo conseguito nel semestre e
+riportato nel Contratto di programma - parte Investimenti (CdP-I), la
+rendicontazione semestrale include l'attestazione dell'amministratore
+delegato di Rete ferroviaria italiana S.p.a. del raggiungimento dei
+traguardi e degli obiettivi.
+7. Con riferimento ai traguardi e agli obiettivi riportati nel
+Contratto di programma - parte Investimenti (CdP-I) da conseguire nei
+periodi successivi al semestre di riferimento, la rendicontazione
+include una relazione informativa che illustri, per ciascun
+intervento: i dati previsionali di avanzamento fisico, procedurale,
+economico e prestazionale; eventuali criticita'; le misure che si
+intendono adottare per annullare o mitigare gli effetti delle
+criticita'; la valutazione circa la capacita' di conseguire i target
+e gli obiettivi nei tempi previsti; l'aggiornamento delle previsioni
+di spesa.
+8. Il Ministero delle infrastrutture e dei trasporti puo' svolgere
+un monitoraggio autonomo sugli obiettivi, sui traguardi e sui
+cronoprogrammi, distinto dalla sola rendicontazione periodica, anche
+mediante acquisizione di dati, richieste istruttorie e verifiche di
+coerenza con i sistemi di monitoraggio.
+
+Art. 6
+
+Indicatori di performance e criteri di qualita'
+
+1. Ai sensi dell'art. 15, comma 5-bis, del decreto legislativo 15
+luglio 2015, n. 112, l'Autorita' di regolazione dei trasporti (ART)
+individua, in conformita' a quanto previsto dall'allegato V della
+direttiva 2012/34/UE, d'intesa con il Ministero delle infrastrutture
+e dei trasporti (MIT) e, per i profili di natura finanziaria, sentito
+il Ministero dell'economia e delle finanze (MEF), gli indicatori di
+performance ei criteri di qualita' oggetto dei Contratti di
+programma.
+2. Gli indicatori di performance e i criteri di qualita' di cui al
+comma 1 inclusi quelli relativi a: livello dei guasti, puntualita',
+tempi di primo intervento e indicatori di performance orientati agli
+utenti sono recepiti nei Contratti di programma e ne costituiscono
+parte integrante.
+3. L'ART, nell'ambito delle proprie competenze, provvede al
+monitoraggio degli indicatori di performance e dei criteri di
+qualita', contenuti nei Contratti di programma, nonche'
+all'applicazione delle penali per mancato conseguimento dei risultati
+secondo modalita' e procedure stabilite dalla medesima Autorita'.
+4. Gli esiti delle attivita' di cui al comma 3 sono comunicati al
+Ministero delle infrastrutture e dei trasporti (MIT) e al Ministero
+dell'economia e delle finanze (MEF), per le finalita' connesse alla
+attuazione dei Contratti di programma.
+
+Art. 7
+
+Monitoraggio e verifica del raggiungimento
+dei traguardi e degli obiettivi
+
+1. Ai sensi dell'art. 15, comma 5-bis, del decreto legislativo 15
+luglio 2015, n. 112, l'ART, nell'ambito delle proprie competenze,
+provvede al monitoraggio del conseguimento dei traguardi e degli
+obiettivi, intermedi e finali, contenuti nel Contratto di programma -
+parte Investimenti (CdP-I), secondo modalita' e procedure stabilite
+dalla medesima Autorita'.
+2. L'ART effettua il monitoraggio, di cui al comma 1, a partire
+dalla documentazione acquisita dal gestore dell'infrastruttura
+ferroviaria nazionale, con particolare riferimento alla
+rendicontazione semestrale e all'attestazione dell'amministratore
+delegato di cui all'art. 5.
+3. Gli esiti delle attivita' di cui al comma 1 sono comunicati al
+Ministero delle infrastrutture e dei trasporti (MIT) e al Ministero
+dell'economia e delle finanze (MEF), per le finalita' connesse alla
+attuazione del Contratto di programma - parte Investimenti (CdP-I).
+4. La Direzione generale, con il supporto della Struttura tecnica
+di missione (STM), alla luce degli esiti delle attivita' di ART e
+della rendicontazione di cui all'art. 5 trasmessa da RFI S.p.a.,
+verifica il raggiungimento degli obiettivi e dei traguardi previsti
+nel semestre, anche sulla base delle risultanze dell'attivita' di
+monitoraggio prevista al comma 8 dell'art. 5.
+5. In caso di esito positivo, la Direzione generale ne da'
+comunicazione al gestore dell'infrastruttura ferroviaria nazionale,
+anche ai fini dell'attivazione del circuito finanziario di cui
+all'art. 8.
+6. Qualora, anche dai riscontri trasmessi dall'ART, emergano
+scostamenti, ritardi o criticita' nel conseguimento dei traguardi e
+degli obiettivi, intermedi e finali, la Direzione generale comunica
+le osservazioni rilevate e assegna al gestore dell'infrastruttura
+ferroviaria nazionale un termine non inferiore a trenta giorni per la
+trasmissione di controdeduzioni, di elementi integrativi o di un
+piano di azione correttivo, senza pregiudicare la continuita' degli
+interventi in corso.
+7. Le eventuali misure correttive sono adottate nel rispetto dei
+principi di proporzionalita', ragionevolezza e continuita'
+dell'azione amministrativa, evitando duplicazioni rispetto ad altri
+strumenti di monitoraggio e controllo previsti dal presente decreto e
+dalla normativa vigente.
+8. Nei casi di accertato e ingiustificato mancato conseguimento dei
+traguardi e degli obiettivi, intermedi e finali, non derivante da
+cause oggettive o di forza maggiore, la Direzione generale avvia la
+procedura finalizzata all'applicazione delle penalita' di cui
+all'art. 10.
+9. Restano ferme le competenze del Ministero delle infrastrutture e
+dei trasporti e del Ministero dell'economia e delle finanze in
+materia di vigilanza, programmazione finanziaria e controllo della
+spesa, secondo quanto previsto dalla normativa vigente.
+10. Il Ministero delle infrastrutture e dei trasporti da' evidenza
+degli obiettivi e dei traguardi raggiunti e degli eventuali
+scostamenti nell'annualita' di riferimento nell'ambito della
+relazione di cui al comma 2-ter dell'art. 15 del decreto legislativo
+15 luglio 2015, n. 112. La relazione e' trasmessa ai soggetti
+istituzionali competenti ed e' pubblicata sul sito del Ministero.
+
+Art. 8
+
+Trasferimento delle risorse
+e rendicontazione delle spese
+
+1. Il trasferimento delle risorse avviene previa presentazione,
+anche in formato elaborabile, delle relative richieste da parte del
+legale rappresentante di RFI contenenti l'indicazione
+dell'autorizzazione di spesa di riferimento, del capitolo di spesa,
+del piano gestionale e dei CUP degli interventi cui si riferiscono,
+specificando per ciascun intervento l'importo richiesto e quello gia'
+trasferito nonche' il relativo stato di avanzamento finanziario. RFI
+attesta la coerenza tra le richieste di trasferimento, il
+cronoprogramma di spesa e procedurale di cui all'art. 4 e lo stato di
+attuazione degli interventi, anche funzionalmente a quanto previsto
+dagli obiettivi di cui all'allegato 1, nonche' l'avvenuto
+aggiornamento dei dati finanziari, fisici e procedurali degli
+interventi sui sistemi informativi di monitoraggio degli investimenti
+pubblici della Ragioneria generale dello Stato.
+2. Il trasferimento delle risorse e' effettuato, nei limiti delle
+disponibilita' di bilancio in termini di competenza e cassa e
+coerentemente con il quadro di finanza pubblica, da parte del gestore
+del pertinente capitolo di spesa. Entro i successivi trenta giorni il
+soggetto gestore del capitolo trasmette al Ministero dell'economia e
+delle finanze - Dipartimento della Ragioneria generale dello Stato la
+documentazione di cui al comma 1.
+3. RFI assicura la conservazione, l'integrita' e la pronta
+esibizione della documentazione giustificativa delle spese e dei dati
+di monitoraggio, ai fini dei controlli da parte delle competenti
+amministrazioni nazionali ed europee.
+4. Restano ferme, per ciascuna fonte di finanziamento, le
+specifiche procedure di controllo, rendicontazione e certificazione
+previste dalla normativa nazionale ed euro unitaria vigente.
+
+Art. 9
+
+Meccanismo di incentivazione
+della parte variabile della remunerazione
+
+1. In attuazione dell'art. 15, comma 4-bis, del decreto legislativo
+15 luglio 2015, n. 112, il gestore dell'infrastruttura ferroviaria
+nazionale assicura che i sistemi di incentivazione della parte
+variabile della remunerazione del personale con qualifica
+dirigenziale che gestisce le risorse economiche del Contratto di
+programma - parte Investimenti (CdP-I) tengano conto, per ciascun
+anno:
+a) per una quota pari al 50% dell'importo, del livello di
+conseguimento dei traguardi e degli obiettivi, intermedi e finali,
+contenuti nel Contratto di programma - parte Investimenti (CdP-I);
+b) per una quota pari al 50% dell'importo, dei risultati
+conseguiti in relazione agli indicatori di performance e ai criteri
+di qualita'.
+2. Le percentuali minime della componente variabile della
+remunerazione collegate ai criteri di cui al comma 1, lettere a) e
+b), sono contenute nel limite del 30 per cento.
+3. Al fine di garantire la trasparenza e la tracciabilita' dei
+meccanismi incentivanti, annualmente, il gestore dell'infrastruttura
+ferroviaria nazionale da' evidenza, nell'ambito del proprio bilancio
+di esercizio, dei criteri adottati, delle modalita' di applicazione
+dei sistemi di incentivazione e dei risultati complessivamente
+conseguiti.
+
+Art. 10
+
+Penalita' per mancato conseguimento
+dei traguardi e degli obiettivi
+
+1. Le penali da applicare a carico del gestore dell'infrastruttura
+ferroviaria nazionale in caso di mancato conseguimento dei traguardi
+e degli obiettivi sono contenute nell'articolato del Contratto di
+programma - parte Investimenti (CdP-I).
+2. Le penali, di cui al comma 1, sono espresse in relazione a
+panieri costituiti da progetti di investimento rilevanti o da
+specifici programmi di investimento individuati nel Contratto di
+programma - parte Investimenti (CdP-I) e tengono conto dell'entita'
+dello scostamento rispetto ai valori programmati.
+3. Le penali sono definite nel Contratto di programma - parte
+Investimenti (CdP-I), secondo le prerogative di ART, in fisse e/o
+proporzionali e dovranno essere parametrate alla gravita' del mancato
+raggiungimento dell'obiettivo e del traguardo.
+4. L'applicazione delle penali, in presenza di gravi inadempimenti,
+non esclude l'adozione di ulteriori misure correttive qualora
+necessarie per garantire il conseguimento di quanto programmato.
+
+Art. 11
+
+Disposizioni finali e clausola
+di invarianza finanziaria
+
+1. Per quanto non espressamente disciplinato dal presente decreto,
+continuano ad applicarsi, in quanto compatibili e purche' non in
+contrasto con le sue disposizioni, i criteri, le prescrizioni, i
+contenuti informativi, gli allegati, le tabelle, le appendici, le
+schede-progetto e gli obblighi di monitoraggio e rendicontazione
+progressivamente introdotti nel Contratto di programma - parte
+Investimenti (CdP-I).
+2. Dall'attuazione del presente decreto non devono derivare nuovi o
+maggiori oneri a carico della finanza pubblica.
+3. La disciplina del presente decreto si applica al Contratto di
+programma - parte Investimenti (CdP-I) a decorrere dal periodo
+contrattuale 2027-2031.
+4. In sede di prima applicazione il cronoprogramma di spesa e
+procedurale degli interventi e' trasmesso entro sessanta giorni
+dell'entrata in vigore del presente decreto.
+
+Art. 12
+
+Pubblicazione ed entrata in vigore
+
+1. Il presente decreto e' pubblicato sui siti internet
+istituzionali del Ministero delle infrastrutture e dei trasporti
+(www.mit.gov.it) e del Ministero dell'economia e delle finanze
+(www.mef.gov.it).
+2. Il presente decreto entra in vigore il giorno successivo alla
+sua pubblicazione nella Gazzetta Ufficiale della Repubblica italiana.
+Il presente decreto e' trasmesso ai competenti organi di controllo.
+Roma, 31 agosto 2026
+
+Il Ministro delle infrastrutture
+e dei trasporti
+Salvini
+Il Ministro dell'economia
+e delle finanze
+Giorgetti
+
+Registrato alla Corte dei conti il 7 ottobre 2026
+Ufficio di controllo sugli atti del Ministero delle infrastrutture e
+dei trasporti e del Ministero dell'ambiente e della sicurezza
+energetica, n. 3376
+
+__________
+
+Avvertenza:
+Il testo integrale del decreto e dei relativi allegati e'
+consultabile sul sito web del Ministero delle infrastrutture e dei
+trasporti nella sezione «Amministrazione trasparente» - «Opere
+pubbliche» - «Atti di programmazione delle opere pubbliche» al
+seguente link:
+https://trasparenza.mit.gov.it/index.php?in_oggetto=53&id_doc=614

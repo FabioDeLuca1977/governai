@@ -1,0 +1,542 @@
+DECRETO 30 settembre 2026
+Definizione delle modalita' di inserimento dei dati nella piattaforma informatizzata denominata «Registro unico delle movimentazioni del latte di bufala e dei suoi derivati».
+(GU Serie Generale n. 243 del 2026-10-19; https://www.gazzettaufficiale.it/eli/id/2026/10/19/26A05457/sg)
+
+IL MINISTRO DELL'AGRICOLTURA,
+DELLA SOVRANITA' ALIMENTARE
+E DELLE FORESTE
+
+Visto il regolamento (CE) n. 1107/1996 della Commissione, del 12
+giugno 1996, relativo alla registrazione delle indicazioni
+geografiche e delle denominazioni di origine nel quadro della
+procedura di cui all'art. 17 del regolamento (CEE) n. 2081/92 del
+Consiglio, in virtu' del quale e' stata registrata la denominazione
+di origine protetta «Mozzarella di Bufala Campana»;
+Visto regolamento (CE) n. 103/2008 della Commissione, del 4
+febbraio 2008, recante approvazione delle modifiche non secondarie
+del disciplinare di una denominazione registrata nel registro delle
+denominazioni d'origine protette e delle indicazioni geografiche
+protette - Mozzarella di Bufala Campana (DOP);
+Visto il regolamento (UE) n. 1308/2013 del Parlamento europeo e del
+Consiglio, del 17 dicembre 2013, recante organizzazione comune dei
+mercati dei prodotti agricoli e che abroga i regolamenti (CEE) n.
+922/72, (CEE) n. 234/79, (CE) n. 1037/2001 e (CE) n. 1234/2007 del
+Consiglio;
+Visto il regolamento (UE) 2024/1143 del Parlamento europeo e del
+Consiglio, dell'11 aprile 2024, relativo alle indicazioni geografiche
+dei vini, delle bevande spiritose e dei prodotti agricoli, nonche'
+alle specialita' tradizionali garantite e alle indicazioni
+facoltative di qualita' per i prodotti agricoli, che modifica i
+regolamenti (UE) n. 1308/2013, (UE) 2019/787 e (UE) 2019/1753 e che
+abroga il regolamento (UE) n. 1151/2012;
+Vista la legge 11 aprile 1974, n. 138, recante «Nuove norme
+concernenti il divieto di ricostituzione del latte in polvere per
+l'alimentazione umana» e, in particolare, gli articoli 2 e 3;
+Visto il decreto-legge 24 giugno 2014, n. 91, convertito, con
+modificazioni, dalla legge 11 agosto 2014, n. 116, recante
+«Disposizioni urgenti per il settore agricolo, la tutela ambientale e
+l'efficientamento energetico dell'edilizia scolastica e
+universitaria, il rilancio e lo sviluppo delle imprese, il
+contenimento dei costi gravanti sulle tariffe elettriche, nonche' per
+la definizione immediata di adempimenti derivanti dalla normativa
+europea» e, in particolare, l'art. 4 che detta disposizioni in
+materia di sicurezza alimentare e di tracciabilita' del latte e dei
+prodotti della filiera bufalina, come modificato in virtu' dell'art.
+13, comma 1, della legge 21 aprile 2026, n. 75;
+Visto il decreto legislativo 2 febbraio 2021, n. 27, recante
+«Disposizioni per l'adeguamento della normativa nazionale alle
+disposizioni del regolamento (UE) 2017/625, ai sensi dell'art. 12,
+lettere a), b), c), d) ed e), della legge 4 ottobre 2019, n. 117» e,
+in particolare, l'art. 2, comma 3, che individua l'attuale Ministero
+dell'agricoltura, della sovranita' alimentare e delle foreste quale
+autorita' competente ai sensi dell'art. 4 del citato regolamento (UE)
+2017/625 per i controlli ufficiali nei settori ivi indicati;
+Visto il decreto del Ministro delle politiche agricole alimentari e
+forestali 9 settembre 2014;
+Visto il provvedimento del direttore generale per la qualita' dei
+prodotti alimentari del Ministero delle politiche agricole alimentari
+e forestali 11 febbraio 2008, di pubblicazione nella Gazzetta
+Ufficiale della Repubblica italiana - Serie generale - n. 47 del 25
+febbraio 2008, del disciplinare di produzione della denominazione di
+origine protetta «Mozzarella di Bufala Campana» nella stesura
+risultante a seguito dell'emanazione del citato regolamento (CE) n.
+103/2008;
+Ritenuto necessario assicurare la piu' ampia tutela degli interessi
+dei consumatori e di garantire la concorrenza e la trasparenza del
+mercato del latte di bufala e dei prodotti trasformati derivanti
+dall'utilizzo del latte bufalino;
+Considerato che l'art. 4, comma 2, del decreto-legge 24 giugno
+2014, n. 91, convertito, con modificazioni, dalla legge 11 agosto
+2014, n. 116, cosi' come sostituito dall'art. 13, comma 1, lettera
+d), della legge 21 aprile 2026, n. 75, prevede la cessazione
+dell'operativita' della piattaforma informatica istituita con decreto
+del Ministro delle politiche agricole alimentari e forestali 9
+settembre 2014, dalla data di adozione del presente decreto, con
+conseguente perdita di efficacia delle relative disposizioni sui
+correlati adempimenti posti a carico degli operatori;
+Ritenute tuttora vigenti le previsioni di cui all'art. 1 del citato
+decreto ministeriale 9 settembre 2014 nella parte in cui disciplina
+le modalita' di produzione della Mozzarella di Bufala Campana DOP, in
+attuazione e conformita' dell'art. 4, comma 1, del decreto-legge 24
+giugno 2014, n. 91, convertito, con modificazioni, dalla legge 11
+agosto 2014, n. 116;
+
+Decreta:
+
+Art. 1
+
+Ambito di applicazione
+
+1. Il presente decreto disciplina le modalita' di inserimento dei
+dati di produzione, trasformazione e commercializzazione del latte di
+bufala, dei semilavorati di bufala e dei prodotti da essi ottenuti,
+ivi compresi i coadiuvanti ed additivi qualora impiegati, nonche' i
+quantitativi di latte di bufala, dei semilavorati di bufala o loro
+derivati provenienti da Paesi dell'Unione europea (UE) e non UE nella
+piattaforma informatizzata denominata «Registro unico delle
+movimentazioni del latte di bufala e dei suoi derivati» istituita,
+nell'ambito del Sistema informativo agricolo nazionale (SIAN), ai
+sensi dell'art. 4, comma 1, del decreto-legge 24 giugno 2014, n. 91,
+convertito, con modificazioni, dalla legge 11 agosto 2014, n. 116,
+come introdotto dall'art. 13, comma 1, lettera b), della legge 21
+aprile 2026, n. 75.
+
+Art. 2
+
+Definizioni
+
+1. Ai fini del presente decreto, si intende per:
+a) allevatore bufalino: lo stabilimento di produzione, ossia
+l'impresa che esercita l'attivita' di allevamento di bufale e la
+relativa produzione di latte di bufala;
+b) trasformatore di latte di bufala: il caseificio, ossia
+l'impresa che trasforma il latte di bufala in uno o piu' semilavorati
+di latte di bufala o in prodotti e derivati di bufala;
+c) intermediario di latte di bufala: il raccoglitore, ossia
+l'impresa che opera la raccolta e lo stoccaggio di latte di bufala
+dagli allevatori bufalini e il centro di stoccaggio, ossia l'impresa
+che effettua, anche per conto terzi, lo stoccaggio, anche previo
+congelamento, di latte di bufala o di semilavorati di latte di
+bufala;
+d) trasportatore di latte di bufala: l'impresa che opera, anche
+per conto terzi, il trasporto di latte di bufala destinato agli
+intermediari o ai caseifici;
+e) operatore: l'allevatore bufalino, il trasformatore di latte di
+bufala e l'intermediario di latte di bufala;
+f) latte di bufala: le seguenti tipologie di latte:
+1) latte crudo di bufala: il latte prodotto dalla secrezione
+della ghiandola mammaria di femmina di bufalo (Bubalus bubalis)
+ottenuto mediante mungitura, senza alcuna aggiunta o sottrazione e
+che non e' stato riscaldato a piu' di 40 ºC e non e' stato sottoposto
+ad alcun trattamento avente un effetto equivalente;
+2) latte di bufala trattato termicamente: latte crudo di bufala
+trattato termicamente ad una temperatura superiore a 40 °C o che e'
+stato sottoposto ad un trattamento avente un effetto equivalente o,
+comunque, ad ogni trattamento mediante calore avente come effetto,
+immediatamente dopo la sua applicazione, una reazione negativa al
+saggio della fosfatasi;
+3) latte congelato di bufala: latte crudo di bufala e latte di
+bufala trattato termicamente ottenuto mediante
+congelamento/surgelamento e che ha subito il cambiamento dello stato
+fisico da liquido a solido;
+4) latte decongelato di bufala: latte di bufala ottenuto a
+seguito di scongelamento;
+5) latte concentrato di bufala: latte crudo di bufala o latte
+di bufala trattato termicamente o latte decongelato di bufala,
+parzialmente disidratato con o senza aggiunta di zuccheri ed ottenuto
+mediante parziale eliminazione di acqua dal latte o dal latte
+parzialmente o totalmente scremato o da una miscela di tali prodotti
+con l'eventuale aggiunta di creme di latte o di latte totalmente
+disidratato o di entrambi;
+g) semilavorato di latte di bufala: latte parzialmente
+trasformato come la cagliata fresca o congelata di latte di bufala,
+la panna destinata alla produzione di burro o per la produzione di
+altri prodotti della filiera bufalina;
+h) prodotto o derivato di latte di bufala: qualsiasi prodotto
+lattiero caseario ottenuto a seguito della trasformazione del latte
+crudo di bufala, del latte di bufala tratto termicamente, del latte
+congelato di bufala e del latte decongelato di bufala o
+dall'ulteriore trasformazione dei semilavorati di latte di bufala e
+del siero;
+i) piattaforma: il Registro unico delle movimentazioni del latte
+di bufala e dei suoi derivati istituita, nell'ambito del Sistema
+informativo agricolo nazionale (SIAN), ai sensi dell'art. 4, comma 1,
+del decreto-legge 24 giugno 2014, n. 91, convertito, con
+modificazioni, dalla legge 11 agosto 2014, n. 116;
+l) registro telematico: il registro unico delle movimentazioni
+del latte di bufala e dei suoi derivati assegnato al codice ICQRF che
+contraddistingue il singolo stabilimento;
+m) additivi e coadiuvanti: le sostanze come definite dall'art. 3,
+paragrafo 2, lettere a) e b), del regolamento (CE) 1333/2008 del
+Parlamento europeo e del Consiglio del 16 dicembre 2008;
+n) stabilimento e deposito: luogo in cui gli allevatori bufalini,
+i trasformatori di latte di bufala e gli intermediari di latte di
+bufala esercitano l'attivita' d'impresa e al quale e' associato il
+codice ICQRF;
+o) codice ICQRF: codice identificativo alfanumerico rilasciato
+agli operatori dall'Ispettorato centrale della tutela della qualita'
+e della repressione frodi dei prodotti agroalimentari (ICQRF).
+
+Art. 3
+
+Disposizioni per la produzione
+della Mozzarella di Bufala Campana DOP
+
+1. Per la produzione della Mozzarella di Bufala Campana DOP si
+applicano le disposizioni di cui all'art. 1, comma 1, del decreto del
+Ministro delle politiche agricole alimentari e forestali 9 settembre
+2014.
+2. In ragione dell'istituzione e della messa in esercizio della
+piattaforma di cui all'art. 1, gli operatori che lavorano sia latte
+di bufala o semilavorati di latte di bufala del sistema di controllo
+della Mozzarella di Bufala Campana DOP che latte o semilavorati di
+latte differenti, inviano, esclusivamente in formato elettronico, al
+competente ufficio territoriale dell'Ispettorato centrale della
+tutela della qualita' e della repressione frodi dei prodotti
+agroalimentari (ICQRF), ai fini dell'inserimento in piattaforma, e
+all'organismo di controllo incaricato la planimetria dello
+stabilimento con l'indicazione delle differenti linee di produzione,
+dei serbatoi distintamente numerati e suddivisi per ogni spazio dello
+stabilimento produttivo, compresi quelli mobili, degli impianti e
+delle condutture dedicati alla produzione di Mozzarella di Bufala
+Campana DOP.
+3. Qualsiasi variazione rispetto alle informazioni rese ai sensi
+del comma 2 e' comunicata entro cinque giorni al competente ufficio
+territoriale dell'ICQRF, ai fini dell'aggiornamento in piattaforma, e
+all'organismo di controllo incaricato.
+
+Art. 4
+
+Registrazione alla piattaforma
+ed inserimento dei dati
+
+1. Gli allevatori bufalini, i trasformatori, gli intermediari di
+latte di bufala effettuano la registrazione alla piattaforma,
+nell'apposita sezione dedicata nel Sistema informativo agricolo
+nazionale (SIAN).
+2. Gli allevatori bufalini, i trasformatori e gli intermediari di
+latte di bufala, una volta registrati, annotano nell'apposito
+registro telematico tenuto presso ogni stabilimento e deposito
+asservito alla propria attivita' d'impresa i dati relativi alla
+produzione, trasformazione, commercializzazione e cessione del latte
+di bufala, dei semilavorati di latte di bufala e dei prodotti o
+derivati di latte di bufala da esso ottenuti, distinti per origine
+nazionale, unionale ed extra unionale, DOP, IGP e metodo biologico,
+ivi compresi i coadiuvanti ed additivi qualora impiegati, nonche' i
+quantitativi di latte di bufala, dei semilavorato di latte di bufala,
+dei prodotti o suoi derivati di latte di bufala provenienti da Paesi
+dell'Unione europea (UE) e non UE. Tale registro telematico e'
+associato al codice ICQRF assegnato al singolo stabilimento e
+deposito.
+3. Nel caso di detenzione per conto terzi, l'obbligo di tenuta del
+registro di cui al comma 2 e' a carico del contoterzista che procede
+allo stoccaggio di latte di bufala, dei semilavorati di latte di
+bufala, dei prodotti o derivati di latte di bufala.
+4. Le modalita' di accesso e di iscrizione alla piattaforma e di
+tenuta del registro telematico sono stabilite dal Ministero
+dell'agricoltura, della sovranita' alimentare e delle foreste e
+contenute in appositi manuali operativi pubblicati sul portale del
+Sistema informativo agricolo nazionale (SIAN).
+5. I dati di cui al comma 2 sono inseriti in ordine cronologico,
+secondo le modalita' di cui agli articoli 5, 6 e 7, entro il terzo
+giorno calendariale successivo a quello di effettuazione
+dell'operazione.
+6. I quantitativi di latte di bufala, dei semilavorati di latte di
+bufala, dei prodotti o derivati di latte di bufala sono inseriti
+utilizzando come unita' di misura il chilogrammo.
+7. I coadiuvanti e gli additivi, qualora impiegati, sono inseriti
+per ciascun lotto di produzione mediante indicazione della sostanza
+utilizzata se diversa dagli ingredienti dichiarati nel sistema di
+etichettatura.
+8. Ogni variazione relativa all'impresa e all'attivita' svolta,
+compresa la cessazione, sono comunicate dagli operatori a mezzo
+registro telematico mediante inserimento nella piattaforma delle
+pertinenti informazioni.
+9. Tutti gli operatori garantiscono in ogni momento alle autorita'
+competenti l'accesso e lo svolgimento dei controlli, anche mediante
+consultazione della documentazione a riscontro dei dati inseriti
+risultanti dal registro telematico. Tale documentazione e' conservata
+e resa disponibile per almeno cinque anni dall'effettuazione del
+relativo inserimento.
+10. La piattaforma costituisce lo strumento ufficiale di gestione,
+aggiornamento e controllo dei dati di produzione, trasformazione,
+commercializzazione e cessione di cui al comma 2, anche ai fini di
+verificare la coerenza tra il latte di bufala prodotto e il latte
+trasformato e la congruita' tra materia prima in ingresso, giacenze,
+semilavorati e prodotto finito.
+
+Art. 5
+
+Dati da inserire a cura
+degli allevatori bufalini
+
+1. Gli allevatori bufalini, previa verifica della congruita' del
+dato risultante in piattaforma in virtu' dell'interoperabilita' con
+la banca dati nazionali di cui all'art. 10 relativo al numero di
+bufale in lattazione presenti in allevamento, inseriscono nel
+registro telematico i dati relativi a:
+a) i quantitativi giornalieri di latte di bufala complessivamente
+prodotto, ceduto e stoccato, proveniente dalle bufale in lattazione
+presenti in allevamento, nonche' i soggetti ai quali e' ceduto a
+qualsiasi titolo;
+b) i quantitativi giornalieri di latte di bufala smaltiti o
+distrutti, nonche' quelli imputabili ad eventuali cali di resa o
+perdite occorse nelle fasi di produzione;
+c) gli elementi del documento di trasporto di cui all'art. 8.
+2. Per i dati di cui al comma 1, lettera a), e' ammessa una
+tolleranza dovuta ad eventuali cali di resa o perdite occorse nelle
+fasi di produzione nella misura massima dell'1,5%, chilogrammi per
+singola partita lavorata, da registrarsi in piattaforma. I cali di
+resa e le perdite superiori a detta percentuale di tolleranza, oltre
+ad essere registrate in piattaforma, sono comunicate all'ufficio
+dell'Ispettorato centrale della tutela della qualita' e della
+repressione frodi dei prodotti agroalimentari (ICQRF)
+territorialmente competente.
+3. Gli allevatori bufalini iscritti ai libri genealogici tenuti
+dagli enti selezionatori e sottoposti al programma di raccolta dati
+inseriscono, altresi', in piattaforma, tramite l'Associazione
+italiana allevatori (AIA), i quantitativi giornalieri di latte
+prodotto da ciascuna bufala in lattazione presente in allevamento,
+associati al codice identificativo individuale registrato nella banca
+dati nazionale (BDN) e alla data cui la produzione si riferisce,
+entro cinque giorni dal rilevamento che sara' effettuato il primo
+giorno lavorativo di ciascun mese successivo a quello di riferimento.
+L'Associazione italiana allevatori (AIA), quale soggetto terzo
+riconosciuto e delegato dagli enti selezionatori alla raccolta dei
+dati in allevamento ai sensi del decreto legislativo 11 maggio 2018,
+n. 52, assicura, secondo modalita' di interoperabilita' definite con
+il Ministero dell'agricoltura, della sovranita' alimentare e delle
+foreste, la messa a disposizione di tali dati ai fini
+dell'implementazione ed operativita' della piattaforma. Gli stessi
+dati, acquisiti secondo le modalita', i tempi e gli standard tecnici
+previsti dal programma di raccolta dati e in conformita' agli
+standard ICAR (International Committee for Animal Recording), sono
+utilizzati dall'Associazione italiana allevatori (AIA), per
+verificare, con cadenza mensile, la coerenza e la congruita' dei dati
+di produzione giornaliera registrati nella piattaforma.
+4. Gli allevatori bufalini diversi da quelli di cui al comma 3
+inseriscono, altresi', in piattaforma i quantitativi giornalieri di
+latte prodotto da ciascuna bufala in lattazione presente in
+allevamento, associati al codice identificativo individuale
+registrato nella Banca dati nazionale (BDN) e alla data cui la
+produzione si riferisce, entro cinque giorni dal rilevamento che
+sara' effettuato il primo giorno lavorativo di ciascun mese
+successivo a quello di riferimento.
+
+Art. 6
+
+Dati da inserire a cura dei trasformatori
+di latte di bufala
+
+1. I trasformatori di latte di bufala inseriscono nel registro
+telematico i dati relativi a:
+a) i quantitativi giornalieri di latte di bufala e di
+semilavorati di latte di bufala, anche in forma congelata, acquistati
+o introdotti nello stabilimento e utilizzati per la realizzazione di
+prodotti o derivati di latte di bufala;
+b) i quantitativi giornalieri di latte di bufala e di
+semilavorati di latte di bufala, anche in forma congelata, estratti o
+ceduti dallo stabilimento ove si realizzano i prodotti o derivati di
+latte di bufala;
+c) i quantitativi giornalieri di prodotti e derivati di latte di
+bufala ottenuti, distinti in prodotti DOP e non DOP;
+d) i quantitativi giornalieri di prodotti e derivati di latte di
+bufala venduti, distinti in prodotti DOP e non DOP;
+e) i quantitativi giornalieri di latte di bufala, semilavorati di
+latte di bufala, prodotti o derivati del latte di bufala smaltiti o
+distrutti, nonche' quelli derivanti da eventuali cali di resa o
+perdite occorse nelle fasi di produzione;
+f) i coadiuvanti e gli additivi eventualmente impiegati per la
+produzione di prodotti o derivati di latte di bufala;
+g) il nominativo e il numero della partita IVA o codice fiscale
+del soggetto trasportatore;
+h) gli elementi del documento di trasporto di cui all'art. 8.
+2. Ai fini dell'inserimento dei dati di cui al comma 1, lettere a),
+b), c) e d), e' ammessa una tolleranza dovuta ad eventuali cali di
+resa o perdite occorse nelle fasi di produzione nella misura massima
+del 1,5% chilogrammi per singola partita di latte di bufala o
+semilavorato di latte di bufala, da registrarsi in piattaforma. I
+cali di resa e le perdite superiori a detta percentuale di
+tolleranza, oltre ad essere registrate in piattaforma, sono
+comunicate all'ufficio dell'Ispettorato centrale della tutela della
+qualita' e della repressione frodi dei prodotti agroalimentari
+(ICQRF) territorialmente competente.
+
+Art. 7
+
+Dati da inserire a cura
+degli intermediari di latte di bufala
+
+1. Gli intermediari di latte di bufala inseriscono nel registro
+telematico i dati relativi a:
+a) i quantitativi giornalieri di latte di bufala e di
+semilavorati di latte di bufala, anche in forma congelata, acquistati
+o introdotti nel proprio stabilimento;
+b) i quantitativi giornalieri di latte di bufala e di
+semilavorati di latte di bufala, anche in forma congelata, estratti o
+ceduti;
+c) i quantitativi giornalieri di latte di bufala, semilavorati di
+latte di bufala, prodotti o derivati del latte di bufala smaltiti o
+distrutti, nonche' quelli imputabili ad eventuali cali di resa o
+perdite occorse nelle fasi di produzione;
+d) il nominativo, il numero della partita IVA o codice fiscale e
+l'indirizzo dello stabilimento del soggetto conferitore e
+destinatario, distinti per categoria di prodotto fornito e ceduto;
+e) il nominativo e il numero della partita IVA o codice fiscale
+del soggetto trasportatore;
+f) il nominativo e il numero della partita IVA o codice fiscale
+del soggetto committente nel caso di detenzione conto terzi;
+g) gli elementi del documento di trasporto di cui all'art. 8.
+2. Ai fini dell'inserimento dei dati di cui al comma 1, lettere a)
+e b), e' ammessa una tolleranza dovuta ad eventuali cali di resa o
+perdite occorse nelle fasi di produzione nella misura massima
+dell'1,5% chilogrammi per singola partita di latte di bufala o
+semilavorato di latte di bufala, da registrarsi in piattaforma. I
+cali di resa e le perdite superiori a detta percentuale di
+tolleranza, oltre ad essere registrate in piattaforma, sono
+comunicate all'ufficio dell'Ispettorato centrale della tutela della
+qualita' e della repressione frodi dei prodotti agroalimentari
+(ICQRF) territorialmente competente.
+
+Art. 8
+
+Oneri a carico dei trasportatori
+di latte di bufala
+
+1. Il latte prelevato e' corredato dal documento di trasporto in
+triplice copia, sottoscritto dall'allevatore bufalino e dal
+trasportatore e contenente i seguenti dati:
+a) tipologia e quantita' di prodotto trasportato in chilogrammi;
+b) nominativo, partita IVA o codice fiscale, sede e indirizzo
+dello stabilimento di spedizione;
+c) nominativo, partita IVA o codice fiscale, sede e indirizzo
+dello stabilimento di destinazione;
+d) indicazione del trasportatore;
+e) numero e data del documento di trasporto.
+2. La stessa documentazione, all'atto dell'arrivo presso
+l'intermediario o il caseificio, e' sottoscritta da quest'ultimo che
+ne trattiene una copia.
+
+Art. 9
+
+Accesso alle informazioni
+
+1. Il Ministero dell'agricoltura, della sovranita' alimentare e
+delle foreste elabora, in collaborazione con il Centro di referenza
+nazionale sull'igiene e le tecnologie dell'allevamento e delle
+produzioni bufaline (CReNBuf) dell'Istituto zooprofilattico
+sperimentale del Mezzogiorno (IZSM), e rende disponibili, entro il 28
+febbraio e il 31 luglio di ogni anno, al Ministero della salute, alle
+regioni e alle province autonome, per quanto di competenza, le
+informazioni relative agli operatori registrati.
+2. Il Ministero dell'agricoltura, della sovranita' alimentare e
+delle foreste rende accessibili alle organizzazioni professionali e
+di categoria le informazioni aggregate, per anno, relative alla
+produzione di latte di bufala, di semilavorati, di prodotti e
+derivati del latte di bufala degli operatori registrati.
+3. Il Ministero dell'agricoltura, della sovranita' alimentare e
+delle foreste consente alle strutture di controllo designate o
+autorizzate, ai servizi veterinari delle aziende sanitarie locali e
+alle regioni, nonche' al consorzio di tutela e all'Associazione
+italiana allevatori (AIA) l'accesso alla piattaforma per le
+operazioni di rispettiva competenza.
+4. Il Ministero dell'agricoltura, della sovranita' alimentare e
+delle foreste pubblica sul proprio sito istituzionale un report
+denominato «Caseificio Italia - settore bufalino» sullo stato degli
+stoccaggi di latte di bufala, dei semilavorati di latte di bufala e
+dei prodotti o derivati di latte di bufala detenuti sul territorio
+nazionale, suddivisi per origine nazionale, unionale o extra
+unionale.
+
+Art. 10
+
+Avvio della piattaforma
+e interoperabilita' con la BDN
+
+1. La piattaforma entra in esercizio a far data dalla comunicazione
+di avvio della medesima pubblicata sul sito istituzionale del
+Ministero dell'agricoltura, della sovranita' alimentare e delle
+foreste e di cui e' data adeguata diffusione agli operatori.
+Nell'apposita sezione del SIAN, dedicata alla piattaforma e'
+pubblicato ed aggiornato un manuale operativo esplicativo delle
+funzionalita' della piattaforma medesima che vale, ai fini
+dell'applicazione del presente decreto anche come istruzioni
+operative dettate dal Ministero dell'agricoltura, della sovranita'
+alimentare e delle foreste, quale autorita' di controllo, tramite
+l'Ispettorato centrale della tutela della qualita' e della
+repressione frodi dei prodotti agroalimentari (ICQRF).
+2. Ai fini dell'operativita' della piattaforma, l'Ispettorato
+centrale della tutela della qualita' e della repressione frodi dei
+prodotti agroalimentari (ICQRF), d'intesa con gli uffici competenti
+della Direzione generale degli affari generali e del bilancio
+(AGEBIL) del Ministero dell'agricoltura, della sovranita' alimentare
+e delle foreste, assicura il trasferimento dei dati, delle
+informazioni, dei documenti e di ogni altro elemento contenuti nella
+piattaforma informatica istituita con decreto del Ministro delle
+politiche agricole alimentari e forestali 9 settembre 2014 che, a far
+data dalla pubblicazione della comunicazione di cui al comma 1, cessa
+di operare.
+3. Ai fini di assicurare l'interoperabilita' della piattaforma con
+la Banca dati nazionale (BDN), l'Istituto zooprofilattico
+sperimentale dell'Abruzzo e del Molise provvede all'acquisizione
+automatica dei dati degli allevamenti bufalini inseriti nella banca
+dati dell'anagrafe zootecnica, con indicazione anche del numero dei
+capi presenti in ciascun allevamento distinti per sesso. Per la
+medesima finalita', il SIAN rende fruibili i dati relativi ai
+quantitativi di latti e di derivati prodotti.
+
+Art. 11
+
+Sanzioni e controlli
+
+1. Gli operatori effettuano la registrazione alla piattaforma entro
+sessanta giorni dalla pubblicazione della comunicazione di avvio di
+cui all'art. 10, comma 1. In caso di inottemperanza, si applicano le
+sanzioni di cui all'art. 4, comma 5, del decreto-legge 24 giugno
+2014, n. 91, convertito, con modificazioni, dalla legge 11 agosto
+2014, n. 116.
+2. I controlli per il rispetto delle disposizioni del presente
+decreto sono effettuati dall'Ispettorato centrale della tutela della
+qualita' e della repressione frodi dei prodotti agroalimentari
+(ICQRF) che puo' avvalersi della collaborazione delle altre autorita'
+di controllo operanti nel settore agroalimentare.
+3. Il Ministero dell'agricoltura, della sovranita' alimentare e
+delle foreste, nell'ambito del Piano straordinario di controllo
+nazionale di cui all'art. 14, comma 1, della legge 21 aprile 2026, n.
+75, assicura attivita' ispettive per le finalita' di cui al comma 2
+del medesimo articolo, in particolare circa la coerenza tra i
+quantitativi di latte e di cagliata di bufala prodotti o introdotti
+in Italia rispetto ai quantitativi di Mozzarella di Bufala campana
+DOP e di mozzarella di latte di bufala prodotti, l'origine geografica
+e la tipologia del latte impiegato, l'adeguatezza e conformita' delle
+strutture produttive, nonche' la completezza e coerenza dei dati
+registrati in piattaforma.
+
+Art. 12
+
+Disposizioni finali
+
+1. Ai sensi dell'art. 4, comma 2, del decreto-legge 24 giugno 2014,
+n. 91, convertito, con modificazioni, dalla legge 11 agosto 2014, n.
+116, la piattaforma informatica istituita con decreto del Ministro
+delle politiche agricole alimentari e forestali 9 settembre 2014
+cessa di operare e i relativi adempimenti di cui agli articoli da 2 a
+8 del predetto decreto sono ridefiniti come disciplinati nel presente
+provvedimento.
+2. Ai sensi della legge 11 aprile 1974, n. 138, resta fermo il
+divieto di utilizzo di latte concentrato di bufala per la
+preparazione dei prodotti di cui all'art. 2, lettere g) e h), del
+presente decreto.
+Il presente decreto sara' inviato agli organi di controllo per la
+registrazione e sara' pubblicato sul sito istituzionale del Ministero
+dell'agricoltura, della sovranita' alimentare e delle foreste ed
+entra in vigore il giorno successivo alla pubblicazione del relativo
+avviso nella Gazzetta Ufficiale della Repubblica italiana.
+Roma, 30 settembre 2026
+
+Il Ministro: Lollobrigida
+
+Registrato alla Corte dei conti il 12 ottobre 2026
+Ufficio di controllo sugli atti del Ministero delle imprese e del
+made in Italy, del Ministero dell'agricoltura, della sovranita'
+alimentare e delle foreste e del Ministero del turismo, reg. n. 1228

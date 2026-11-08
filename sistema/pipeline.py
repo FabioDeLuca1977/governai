@@ -198,6 +198,11 @@ def main() -> int:
     if list((RADICE / "giuridico").glob("conformita_*.csv")):
         esegui(["unisci.py"], RADICE / "giuridico")
 
+    # 3d. legislazione: archivio incrementale della Gazzetta Ufficiale (solo i fascicoli nuovi)
+    if not a.senza_download and (RADICE / "legislazione" / "scarica_gu.py").exists():
+        ok, msg = esegui(["scarica_gu.py"], RADICE / "legislazione", timeout=3600)
+        log.append(f"legislazione: {msg}" if ok else f"ERRORE legislazione: {msg}")
+
     # 4. ricalcolo
     dati_nuovi = bool(sent.get("serie_cambiate")) or bool(nuove_allerte)
     priorita = sorted({p for r in allerte for p in r.get("priorita", [])})

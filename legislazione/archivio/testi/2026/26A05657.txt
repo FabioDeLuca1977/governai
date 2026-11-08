@@ -1,0 +1,158 @@
+COMUNICATO
+Revoca, su rinuncia, dell'autorizzazione all'immissione in commercio del medicinale per uso umano «Sumatriptan Zentiva».
+(GU Serie Generale n. 253 del 2026-10-30; https://www.gazzettaufficiale.it/eli/id/2026/10/30/26A05657/sg)
+
+Con la determina n. aRM - 171/2026 - 8043 del 16 ottobre 2026 e'
+stata revocata, ai sensi dell'art. 38, comma 9, del decreto
+legislativo n. 219/2006, su rinuncia della Zentiva Italia S.r.l.,
+l'autorizzazione all'immissione in commercio del sottoelencato
+medicinale, nelle confezioni indicate:
+medicinale: SUMATRIPTAN ZENTIVA
+confezione: 037772011
+descrizione: «50 mg compresse rivestite» 1 compressa in blister
+pvc/al
+confezione: 037772023
+descrizione: «50 mg compresse rivestite» 2 compresse in blister
+pvc/al
+confezione: 037772035
+descrizione: «50 mg compresse rivestite» 3 compresse in blister
+pvc/al
+confezione: 037772047
+descrizione: «50 mg compresse rivestite» 4 compresse in blister
+pvc/al
+confezione: 037772050
+descrizione: «50 mg compresse rivestite» 6 compresse in blister
+pvc/al
+confezione: 037772062
+descrizione: «50 mg compresse rivestite» 12 compresse in
+blister pvc/al
+confezione: 037772074
+descrizione: «50 mg compresse rivestite» 18 compresse in
+blister pvc/al
+confezione: 037772086
+descrizione: «50 mg compresse rivestite» 24 compresse in
+blister pvc/al
+confezione: 037772098
+descrizione: «50 mg compresse rivestite» 1 compressa in blister
+pvc/pvdc/al
+confezione: 037772100
+descrizione: «50 mg compresse rivestite» 2 compresse in blister
+pvc/pvdc/al
+confezione: 037772112
+descrizione: «50 mg compresse rivestite» 3 compresse in blister
+pvc/pvdc/al
+confezione: 037772124
+descrizione: «50 mg compresse rivestite» 4 compresse in blister
+pvc/pvdc/al
+confezione: 037772136
+descrizione: «50 mg compresse rivestite» 6 compresse in blister
+pvc/pvdc/al
+confezione: 037772148
+descrizione: «50 mg compresse rivestite» 12 compresse in
+blister pvc/pvdc/al
+confezione: 037772151
+descrizione: «50 mg compresse rivestite» 18 compresse in
+blister pvc/pvdc/al
+confezione: 037772163
+descrizione: «50 mg compresse rivestite» 24 compresse in
+blister pvc/pvdc/al
+confezione: 037772175
+descrizione: «50 mg compresse rivestite» 1 compressa in
+contenitore hdpe
+confezione: 037772187
+descrizione: «50 mg compresse rivestite» 2 compresse in
+contenitore hdpe
+confezione: 037772199
+descrizione: «50 mg compresse rivestite» 3 compresse in
+contenitore hdpe
+confezione: 037772201
+descrizione: «50 mg compresse rivestite» 4 compresse in
+contenitore hdpe
+confezione: 037772213
+descrizione: «50 mg compresse rivestite» 6 compresse in
+contenitore hdpe
+confezione: 037772225
+descrizione: «50 mg compresse rivestite» 12 compresse in
+contenitore hdpe
+confezione: 037772237
+descrizione: «50 mg compresse rivestite» 18 compresse in
+contenitore hdpe
+confezione: 037772249
+descrizione: «50 mg compresse rivestite» 24 compresse in
+contenitore hdpe
+confezione: 037772252
+descrizione: «100 mg compresse rivestite» 1 compressa in
+blister pvc/al
+confezione: 037772264
+descrizione: «100 mg compresse rivestite» 2 compresse in
+blister pvc/al
+confezione: 037772276
+descrizione: «100 mg compresse rivestite» 3 compresse in
+blister pvc/al
+confezione: 037772288
+descrizione: «100 mg compresse rivestite» 4 compresse in
+blister pvc/al
+confezione: 037772290
+descrizione: «100 mg compresse rivestite» 6 compresse in
+blister pvc/al
+confezione: 037772302
+descrizione: «100 mg compresse rivestite» 12 compresse in
+blister pvc/al
+confezione: 037772314
+descrizione: «100 mg compresse rivestite» 18 compresse in
+blister pvc/al
+confezione: 037772326
+descrizione: «100 mg compresse rivestite» 24 compresse in
+blister pvc/al
+confezione: 037772338
+descrizione: «100 mg compresse rivestite» 1 compressa in
+blister pvc/pvdc/al
+confezione: 037772340
+descrizione: «100 mg compresse rivestite» 2 compresse in
+blister pvc/pvdc/al
+confezione: 037772353
+descrizione: «100 mg compresse rivestite» 3 compresse in
+blister pvc/pvdc/al
+confezione: 037772365
+descrizione: «100 mg compresse rivestite» 4 compresse in
+blister pvc/pvdc/al
+confezione: 037772377
+descrizione: «100 mg compresse rivestite» 6 compresse in
+blister pvc/pvdc/al
+confezione: 037772389
+descrizione: «100 mg compresse rivestite» 12 compresse in
+blister pvc/pvdc/al
+confezione: 037772391
+descrizione: «100 mg compresse rivestite» 18 compresse in
+blister pvc/pvdc/al
+confezione: 037772403
+descrizione: «100 mg compresse rivestite» 24 compresse in
+blister pvc/pvdc/al
+confezione: 037772415
+descrizione: «100 mg compresse rivestite» 1 compressa in
+contenitore hdpe
+confezione: 037772427
+descrizione: «100 mg compresse rivestite» 2 compresse in
+contenitore hdpe
+confezione: 037772439
+descrizione: «100 mg compresse rivestite» 3 compresse in
+contenitore hdpe
+confezione: 037772441
+descrizione: «100 mg compresse rivestite» 4 compresse in
+contenitore hdpe
+confezione: 037772454
+descrizione: «100 mg compresse rivestite» 6 compresse in
+contenitore hdpe
+confezione: 037772466
+descrizione: «100 mg compresse rivestite» 12 compresse in
+contenitore hdpe
+confezione: 037772478
+descrizione: «100 mg compresse rivestite» 18 compresse in
+contenitore hdpe
+confezione: 037772480
+descrizione: «100 mg compresse rivestite» 24 compresse in
+contenitore hdpe
+Qualora nel canale distributivo fossero presenti scorte del
+medicinale revocato, in corso di validita', le stesse potranno essere
+smaltite entro e non oltre centottanta giorni dalla data di
+pubblicazione della presente determina.

@@ -20,7 +20,8 @@ RADICE = Path(__file__).resolve().parents[1]
 GENERATI = ["dati/serie", "dati/storico", "sistema/stato", "sistema/bollettini", "docs/data.js",
             "registro/bilancio.md", "motore/esito.md", "motore/esito_proposte.csv",
             "programma/selezione_*", "apprendimento/esiti.csv", "apprendimento/calibrazione.csv",
-            "apprendimento/lezioni.md", "integrita/catena.jsonl", "giuridico/conformita.csv", "giuridico/quadro.md"]
+            "apprendimento/lezioni.md", "integrita/catena.jsonl", "giuridico/conformita.csv", "giuridico/quadro.md",
+            "legislazione/archivio"]
 # Solo output generati: mai cartelle che contengono codice o dati scritti a mano (es. programma/ottimizza.py)
 ETICHETTA = "governai-locale"
 CONSERVA = 7
