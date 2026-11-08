@@ -32,7 +32,7 @@ GENESI = "0" * 64
 
 # Cosa determina le scelte (regole e input) e cosa ne risulta (output)
 REGOLE = ["01_carta_valori.md", "00_metodo.md", "motore/rubrica.md", "sistema/config.yaml",
-          "motore/decidi.py", "programma/ottimizza.py", "registro/controlla.py", "sistema/revisione_ai.py",
+          "motore/decidi.py", "programma/ottimizza.py", "programma/documento.py", "registro/controlla.py", "sistema/revisione_ai.py",
           "sistema/analizza_richiesta.py", "apprendimento/valuta.py",
           "governo/regolamento.md", "governo/consiglio.py", "governo/ruoli/*.md", "governo/esperti.yaml",
           "costituzione/parametri.yaml", "costituzione/controllo.py", "costituzione/istruzioni_costituzionalista.md",
@@ -46,7 +46,7 @@ INPUT = ["motore/punteggi_*.csv", "motore/proposte.csv", "registro/fondi.csv", "
 OUTPUT = ["programma/selezione_*.csv", "motore/esito_proposte.csv", "sistema/bollettini/ultimo.md",
           "apprendimento/esiti.csv", "apprendimento/calibrazione.csv", "analisi/*.json",
           "governo/verbali/*.json", "governo/previsioni.csv", "governo/mandati.csv",
-          "costituzione/esami/*.md"]
+          "costituzione/esami/*.md", "20_programma_governai.md"]
 
 
 def impronta_file(p: Path) -> str:

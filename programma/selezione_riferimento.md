@@ -2,7 +2,7 @@
 
 *Generato da `programma/ottimizza.py`. Tutto finanziato nello scenario prudente: niente deficit, niente risparmi non certificati, gettito minimo delle coperture.*
 
-Priorità al nucleo robusto (Carta, regola 8): **attiva**.
+Priorità al nucleo robusto (Carta, regola 7): **attiva**.
 
 **Escluse dalle linee rosse automatiche** (regole deterministiche, superabili solo con una scelta esplicita):
 

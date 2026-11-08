@@ -4,7 +4,7 @@
 
 Vincoli di scenario: forzate ['07-C5:ESSENZIALE'], escluse —, prioritarie per il momento —, coperture fino al livello tutti.
 
-Priorità al nucleo robusto (Carta, regola 8): **attiva**.
+Priorità al nucleo robusto (Carta, regola 7): **attiva**.
 
 **Escluse dalle linee rosse automatiche** (regole deterministiche, superabili solo con una scelta esplicita):
 

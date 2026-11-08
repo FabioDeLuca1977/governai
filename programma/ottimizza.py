@@ -179,7 +179,7 @@ def main() -> int:
     ap.add_argument("--priorita", nargs="*", default=[], help="proposte da privilegiare in questo momento")
     ap.add_argument("--livello", type=int, default=None, help="usa solo le coperture fino a questo livello (1 o 2)")
     ap.add_argument("--senza-nucleo-prima", dest="nucleo_prima", action="store_false",
-                    help="disattiva la priorità al nucleo robusto (regola 8 della Carta)")
+                    help="disattiva la priorità al nucleo robusto (regola 7 della Carta)")
     ap.add_argument("--riserva", type=float, default=0.0,
                     help="mld/anno di coperture generali riservati alla riduzione del deficit (non spendibili)")
     ap.add_argument("--etichetta", default="")
@@ -207,7 +207,7 @@ def main() -> int:
     inten = chiavi.intensita.to_numpy()
     Mv = menu[VALORI].to_numpy()
 
-    # Carta, regola 8: il nucleo robusto viene prima. Le varianti PIENA/ESSENZIALE delle proposte robuste
+    # Carta, regola 7: il nucleo robusto viene prima. Le varianti PIENA/ESSENZIALE delle proposte robuste
     # ricevono un premio lessicografico: si finanzia il massimo del nucleo, poi si ottimizza il resto.
     esito = pd.read_csv(RADICE / "motore" / "esito_proposte.csv")
     nucleo = set(esito.proposta_id[esito.classe == "robusta"]) if a.nucleo_prima else set()
@@ -272,7 +272,7 @@ def main() -> int:
         out += [f"Vincoli di scenario: forzate {a.forza or '—'}, escluse {a.escludi or '—'}, "
                 f"prioritarie per il momento {a.priorita or '—'}, "
                 f"coperture fino al livello {a.livello or 'tutti'}.", ""]
-    out += [f"Priorità al nucleo robusto (Carta, regola 8): **{'attiva' if a.nucleo_prima else 'disattivata'}**.", ""]
+    out += [f"Priorità al nucleo robusto (Carta, regola 7): **{'attiva' if a.nucleo_prima else 'disattivata'}**.", ""]
     if escluse_lr:
         out += ["**Escluse dalle linee rosse automatiche** (regole deterministiche, superabili solo con una scelta esplicita):", ""]
         for motivo, chiave, idx in escluse_lr:

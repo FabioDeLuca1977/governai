@@ -2,7 +2,7 @@
 
 Applica le regole della Carta dei valori (01_carta_valori.md):
   - consolida i punteggi del panel di valutatori indipendenti e misura il loro accordo;
-  - esplora tutte le combinazioni di pesi tra i 7 valori (pesi uniformi sul simplesso)
+  - esplora tutte le combinazioni di pesi tra i valori della Carta (pesi uniformi sul simplesso)
     e tra gli orizzonti, con il lungo periodo che pesa almeno quanto il breve;
   - a ogni estrazione campiona, cella per cella, il punteggio di uno dei valutatori,
     così il disaccordo del panel entra nell'incertezza;
@@ -245,7 +245,7 @@ def main() -> int:
     # --- esito.md
     out = ["# GovernAI — Esito del motore decisionale", "",
            "*Generato da `motore/decidi.py`. Metodo: analisi di accettabilità multicriterio stocastica (SMAA) "
-           "sui 7 valori della Carta, con il panel indipendente come fonte dei punteggi.*", "",
+           f"sui {len(VALORI)} valori della Carta, con il panel indipendente come fonte dei punteggi.*", "",
            f"- Valutatori: **{', '.join(valutatori)}**. Estrazioni: **{num(a.n, 0)}** combinazioni di pesi tra valori e orizzonti "
            "(lungo periodo ≥ breve).",
            f"- Accordo del panel (alfa di Krippendorff, intervalli): **{num(alfa)}**. "

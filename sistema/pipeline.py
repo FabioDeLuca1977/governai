@@ -355,6 +355,10 @@ def main() -> int:
             ok, msg = esegui(["revisione_ai.py"], QUI, timeout=3600)
             print(f"livello AI: {msg}" if ok else f"ERRORE livello AI: {msg}")
 
+    # 7-bis. tabelle del documento di programma, generate dagli stessi risultati
+    ok, msg = esegui(["documento.py"], RADICE / "programma")
+    print(f"documento di programma: {msg}" if ok else f"ERRORE documento di programma: {msg}")
+
     # 8. registro di integrità: un anello della catena di impronte per questa esecuzione
     ok, msg = esegui(["catena.py", "--aggiungi", "aggiornamento", "--nota", f"allerte {len(allerte)}"], RADICE / "integrita")
     print(f"integrità: {msg}" if ok else f"ERRORE integrità: {msg}")

@@ -1,5 +1,7 @@
 # GovernAI — Sintesi del coordinatore (Consiglio dei Ministri)
 
+> **Documento storico.** Questa sintesi è del 7 novembre 2026 e usa la Carta 1 con 7 valori. Il programma aggiornato alla Carta 2.0 (dieci valori) è in `20_programma_governai.md`; i dati del giorno sono nel sito.
+
 *Iterazione 1.3, 7 novembre 2026 (con vincolo di bilancio, registro delle coperture, Carta dei valori e motore decisionale). Basata sui 9 dossier in `ministeri/`, redatti secondo `00_metodo.md` e verificati su fonte primaria (`dati/verifiche/`).*
 
 ## 0. Esito della verifica dei dati

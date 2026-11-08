@@ -38,7 +38,7 @@ Le regole europee sull'AI ora hanno date certe:
 Eppure **nessuna norma disciplina l'uso dell'AI come consulente del processo legislativo e di governo**: chi la configura, con quali valori, con quale trasparenza e con quale responsabilità. Intanto la fiducia nelle istituzioni rappresentative è bassa. L'affluenza alle politiche 2022 è stata del **63,9%**, minimo storico (Ministero dell'Interno, Eligendo; verifica 08, riga 18).
 
 ### Soluzione in 3 righe
-Una legge ordinaria istituisce presso le Camere un Ufficio indipendente, sul modello dell'UPB. L'Ufficio pubblica una Valutazione d'impatto pubblica (VIP-AI) degli atti principali, su sette valori e tre orizzonti di tempo. I pesi tra i valori li fissa un'Assemblea di cittadini sorteggiati. Il parere non è mai vincolante: il Governo che se ne discosta lo spiega in Parlamento (*comply or explain*). Il sistema è trattato volontariamente "come se" fosse ad alto rischio secondo l'AI Act.
+Una legge ordinaria istituisce presso le Camere un Ufficio indipendente, sul modello dell'UPB. L'Ufficio pubblica una Valutazione d'impatto pubblica (VIP-AI) degli atti principali, sui valori della Carta e su tre orizzonti di tempo. I pesi tra i valori li fissa un'Assemblea di cittadini sorteggiati. Il parere non è mai vincolante: il Governo che se ne discosta lo spiega in Parlamento (*comply or explain*). Il sistema è trattato volontariamente "come se" fosse ad alto rischio secondo l'AI Act.
 
 ### Varianti
 - **PIENA** (intensità 1; 0,035 mld a regime nel 2029): Ufficio di circa 70 unità; VIP-AI obbligatoria sopra soglia e a richiesta di un quinto di una commissione; Assemblea di 150 persone; *comply or explain* su tutti gli atti valutati.

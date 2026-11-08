@@ -4,7 +4,7 @@
 
 Vincoli di scenario: forzate ['02-C2:ESSENZIALE', '02-C5:ESSENZIALE', '03-P4:ESSENZIALE', '04-P6:ESSENZIALE', '05-C1:PIENA', '05-C2:ESSENZIALE', '05-C4:ESSENZIALE', '07-C1:ESSENZIALE', '07-C2:ESSENZIALE', '07-C3:ESSENZIALE', '07-C4:ESSENZIALE', '09-C3:ESSENZIALE', '09-C5:PIENA', '09-C8:ESSENZIALE', '01-P3:ESSENZIALE', '01-P7:ESSENZIALE', '01-P12:ESSENZIALE', '05-C5:ESSENZIALE', '01-P2:PIENA', '03-P1:ESSENZIALE', '01-P8:ESSENZIALE', '02-C1:ESSENZIALE', '04-P2:ESSENZIALE', '02-C4:PILOTA', '04-P3:PILOTA', '03-P2:ESSENZIALE', '01-P5:ESSENZIALE', '08-P7:PIENA', '04-P4:PIENA', '08-P1:ESSENZIALE', '09-C7:ESSENZIALE', '09-C4:ESSENZIALE', '06-C6:ZERO', '06-C1:ZERO', '04-P5:ZERO', '02-C3:ESSENZIALE', '01-P10:ESSENZIALE', '01-P1:ESSENZIALE', '09-C1:ESSENZIALE', '09-C6:PIENA', '03-P5:PILOTA', '05-C6:ESSENZIALE', '08-P2:ZERO', '02-C6:ZERO', '01-P6:ZERO', '06-C2:PILOTA', '07-C6:ESSENZIALE', '09-C2:ESSENZIALE', '08-P3:ESSENZIALE', '08-P4:PIENA'], escluse ['03-P3', '04-P1', '06-C3', '06-C4', '06-C5', '07-C5', '08-P6'], prioritarie per il momento ['01-P5', '02-C1', '02-C4', '03-P2', '04-P2', '04-P3'], coperture fino al livello tutti.
 
-Priorità al nucleo robusto (Carta, regola 8): **attiva**.
+Priorità al nucleo robusto (Carta, regola 7): **attiva**.
 
 **Escluse dalle linee rosse automatiche** (regole deterministiche, superabili solo con una scelta esplicita):
 

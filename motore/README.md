@@ -4,7 +4,7 @@ Applica la Carta dei valori (`../01_carta_valori.md`) alle 52 proposte. Non sceg
 
 ## Come funziona
 
-1. **Panel indipendente.** Tre valutatori (A, B, C), che non hanno scritto le proposte, danno un punteggio a ogni proposta su 7 valori × 3 orizzonti con la stessa rubrica (`rubrica.md`). Lavorano in ordini diversi per ridurre gli effetti di ancoraggio. L'accordo tra loro si misura con l'alfa di Krippendorff.
+1. **Panel indipendente.** Tre valutatori (A, B, C): agenti AI distinti da quelli che hanno scritto le proposte. Non sono valutatori umani: è un limite dichiarato. Danno un punteggio a ogni proposta sui 10 valori della Carta × 3 orizzonti con la stessa rubrica (`rubrica.md`). Lavorano in ordini diversi per ridurre gli effetti di ancoraggio. L'accordo tra loro si misura con l'alfa di Krippendorff.
 2. **SMAA (analisi di accettabilità multicriterio stocastica).** Il motore estrae decine di migliaia di combinazioni di pesi tra i valori e tra gli orizzonti. Vale il vincolo della Carta: il lungo periodo pesa almeno quanto il breve. A ogni estrazione usa il punteggio di uno dei valutatori scelto a caso, cella per cella. Per ogni proposta calcola:
    - la **probabilità di essere utile**;
    - la probabilità di stare nel primo quarto;

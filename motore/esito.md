@@ -1,6 +1,6 @@
 # GovernAI — Esito del motore decisionale
 
-*Generato da `motore/decidi.py`. Metodo: analisi di accettabilità multicriterio stocastica (SMAA) sui 7 valori della Carta, con il panel indipendente come fonte dei punteggi.*
+*Generato da `motore/decidi.py`. Metodo: analisi di accettabilità multicriterio stocastica (SMAA) sui 10 valori della Carta, con il panel indipendente come fonte dei punteggi.*
 
 - Valutatori: **A, B, C**. Estrazioni: **20.000** combinazioni di pesi tra valori e orizzonti (lungo periodo ≥ breve).
 - Accordo del panel (alfa di Krippendorff, intervalli): **0,85**. Sopra 0,67 l'accordo è accettabile per conclusioni provvisorie; sopra 0,80 è buono.
