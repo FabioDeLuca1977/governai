@@ -82,7 +82,8 @@ Prima esecuzione dell'8/11/2026, finestra 9 ottobre – 8 novembre 2026:
 - **26 fascicoli e 576 atti**, di cui 21 nella rubrica «Leggi ed altri atti normativi»: 9 decreti legislativi, 7 leggi, 4 decreti-legge e 1 regolamento ministeriale, più 7 DPR;
 - per tipo: 331 comunicati, 137 decreti ministeriali, 48 determine;
 - il controllo incrociato con Normattiva ha trovato tutti gli atti normativi numerati già presenti nei sommari, nessuno mancante;
-- per i testi scaricati vedere `archivio/stato.json` (`atti_con_testo`).
+- **testo integrale per tutti i 576 atti** (7 MB): circa 2.800 richieste in circa 75 minuti. Un secondo passaggio con `--riprova-testi` ha recuperato i 2 testi falliti per errore di connessione;
+- un aggiornamento senza fascicoli nuovi richiede 2 richieste.
 
 ## Limiti
 
@@ -98,7 +99,7 @@ Prima esecuzione dell'8/11/2026, finestra 9 ottobre – 8 novembre 2026:
   - Non controlla che l'articolo o il comma citato esista né che le parole da sostituire ci siano davvero.
   - Può dare falsi positivi, ad esempio una sigla definita altrove o un termine la cui decorrenza è nella frase prima.
   - Il giudizio sui valori, sulle linee rosse e sul quadro giuridico spetta alla revisione guidata da `istruzioni_revisione.md` e, alla fine, agli uffici legislativi.
-- **Peso nel repository.** I testi occupano circa 10-15 MB al mese. Si può versionare solo `indice.csv` e lasciare `archivio/testi/` fuori dal repository, rigenerabile con `--dal`.
+- **Peso nel repository.** I testi occupano circa 7 MB al mese. Si può versionare solo `indice.csv` e lasciare `archivio/testi/` fuori dal repository, rigenerabile con `--dal`.
 
 ## Prova sulle schede del programma
 

@@ -28,15 +28,15 @@
   "2026-11-06#259",
   "2026-11-07#260"
  ],
- "ultima_esecuzione": "2026-11-08T09:41:56",
+ "ultima_esecuzione": "2026-11-08T10:59:15",
  "ultima": {
-  "fascicoli_nuovi": 26,
-  "atti_nuovi": 576,
+  "fascicoli_nuovi": 0,
+  "atti_nuovi": 0,
   "da_normattiva": 0,
-  "testi_scaricati": 4,
-  "richieste": 72,
+  "testi_scaricati": 2,
+  "richieste": 12,
   "errori": []
  },
  "totale_atti": 576,
- "atti_con_testo": 4
+ "atti_con_testo": 576
 }

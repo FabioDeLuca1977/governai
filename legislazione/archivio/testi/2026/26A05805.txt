@@ -1,0 +1,149 @@
+DECRETO 7 ottobre 2026
+Modifica del decreto 1° dicembre 1980, recante: «Disciplina dei contenitori a pressione di gas con membrature miste di materiale isolante e di materiale metallico, contenenti parti attive di apparecchiature elettriche».
+(GU Serie Generale n. 259 del 2026-11-06; https://www.gazzettaufficiale.it/eli/id/2026/11/06/26A05805/sg)
+
+IL MINISTRO DELLE IMPRESE
+E DEL MADE IN ITALY
+
+di concerto con
+
+IL MINISTRO DEL LAVORO
+E DELLE POLITICHE SOCIALI
+
+Visto il regolamento (UE) 2019/1020 del Parlamento europeo e del
+Consiglio del 20 giugno 2019 sulla vigilanza del mercato e sulla
+conformita' dei prodotti e che modifica la direttiva 2004/42/CE e i
+regolamenti (CE) 765/2008 e (UE) 305/2011;
+Visto il regolamento (UE) 2024/573 del Parlamento europeo e del
+Consiglio del 7 febbraio 2024 sui gas fluorurati a effetto serra, che
+modifica la direttiva (UE) 2019/1937 e che abroga il regolamento (UE)
+n. 517/2014;
+Vista la direttiva 2014/68/UE del Parlamento europeo e del
+Consiglio, del 15 maggio 2014, concernente l'armonizzazione delle
+legislazioni degli Stati membri relative alla messa a disposizione
+sul mercato di attrezzature a pressione (rifusione);
+Visto il decreto legislativo 25 febbraio 2000, n. 93, recante
+«Attuazione della direttiva 97/23/CE in materia di attrezzature a
+pressione e della direttiva 2014/68/UE concernente l'armonizzazione
+delle legislazioni degli Stati membri relative alla messa a
+disposizione sul mercato di attrezzature a pressione (rifusione), che
+ne dispone l'abrogazione»;
+Visto il decreto ministeriale 1° dicembre 1980, recante «Disciplina
+dei contenitori a pressione di gas con membrature miste di materiale
+isolante e di materiale metallico, contenenti parti attive di
+apparecchiature elettriche»;
+Considerato che i contenitori a pressione di gas con membrature
+miste di materiale isolante e di materiale metallico, contenenti
+parti attive di apparecchiature elettriche risultano esclusi
+dall'ambito di applicazione del sopra citato decreto legislativo 25
+febbraio 2000, n. 93;
+Ritenuto necessario modificare l'ambito di applicazione del decreto
+ministeriale 1° dicembre 1980 in linea con la normativa europea
+vigente;
+Considerato che e' stata espletata la procedura di informazione
+prevista dall'art. 6, paragrafo 1, della direttiva (UE) 2015/1535 del
+Parlamento europeo e del Consiglio, del 9 settembre 2015, che prevede
+una procedura d'informazione nel settore delle regolamentazioni
+tecniche e delle regole relative ai servizi della societa'
+dell'informazione;
+Vista la nota del Ministero dell'ambiente e della sicurezza
+energetica, acquisita con prot. n. 15241 del 24 giugno 2026, con la
+quale e' stata rappresentata l'assenza di osservazioni in merito a
+quanto disciplinato dal presente decreto;
+
+Decretano:
+
+Art. 1
+Modifiche alle premesse del decreto ministeriale 1° dicembre 1980
+
+1. Dopo il terzo visto, sono inseriti i seguenti:
+a) «Visto il regolamento (UE) 2024/573 del Parlamento europeo e
+del Consiglio del 7 febbraio 2024 sui gas fluorurati a effetto serra,
+che modifica la direttiva (UE) 2019/1937 e che abroga il regolamento
+(UE) n. 517/2014»;
+b) «Tenuto conto dell'esclusione dall'ambito di applicazione di
+cui al decreto legislativo 25 febbraio 2000, n. 93».
+
+Art. 2
+Modifiche all'allegato A del decreto ministeriale 1° dicembre 1980
+
+1. Il punto 1.1 del punto 1), Campo di applicazione, e' modificato
+come segue:
+a) le parole «0,05 Kg/cm²» sono sostituite dalle seguenti «0,5
+bar»;
+b) dopo le parole «di seguito indicati come "contenitori"» e'
+aggiunto: «fatto salvo quanto specificato nel punto 1.3. e 1.4».
+2. Dopo il punto 1.2 sono aggiunti i seguenti punti:
+a) «1.3 Per i contenitori a pressione di gas di cui al punto 1.1
+e operanti a tensioni non superiori a 52 kV, classificati in I e II
+categoria, classificata sulla base dei criteri di pericolo crescente
+di cui all'allegato II del decreto legislativo 25 febbraio 2000, n.
+93, e in conformita' all'art. 3, comma 3, del decreto legislativo 25
+febbraio 2000, n. 93, non si applicano le regole VSR.8.B.1 e
+VSR.8.B.2 dell'allegato A; tali contenitori devono essere conformi al
+punto 1.3.1»;
+b) «1.3.1 I contenitori a pressione di gas di cui al punto 1.3 e
+1.4 devono essere progettati e fabbricati, sotto la responsabilita'
+del fabbricante, tenendo conto del massimo grado di sicurezza per
+l'utilizzatore e dello stato dell'arte stabilito dall'edizione piu'
+recente delle norme tecniche applicabili elaborate dagli organismi di
+normalizzazione internazionali ed europei»;
+c) «1.4 Per i contenitori operanti a tensioni fino a 52 kV
+progettati ad una pressione non superiore a 3 bar, classificati in
+III e IV categoria in conformita' al decreto legislativo 25 febbraio
+2000, n. 93, e' possibile applicare, in alternativa alle regole
+VSR.8.B.1 e VSR.8.B.2 dell'allegato A, quanto riportato nei punti
+1.3.1 e da 1.4.1 a 1.4.6»;
+d) «1.4.1 La certificazione di conformita' alle disposizioni del
+decreto ministeriale 1° dicembre 1980 e successive modifiche, del
+prototipo del contenitore, e' rilasciata al richiedente previo
+deposito del progetto di costruzione all'INAIL, nonche' previo esito
+positivo delle prove di tipo previste dalle norme tecniche in linea
+con quanto stabilito dal punto 1.3.1, da eseguire alla presenza di
+tecnici dell'INAIL»;
+e) «1.4.2 Il progetto del prototipo del contenitore deve essere
+sottoscritto da un tecnico abilitato secondo le disposizioni di legge
+in vigore, fermo restando anche quanto riportato al punto 1.3.1»;
+f) «1.4.3 Ciascun tipo di membratura del contenitore deve essere
+sottoposta alle prove di tipo indicate nelle norme tecniche adottate
+per la progettazione e la fabbricazione ai sensi del punto 1.3.1; i
+valori e le modalita' di prova per ogni membratura sono quelli
+indicati in tali norme»;
+g) «1.4.4 Dopo il buon esito delle prove l'INAIL rilascia il
+certificato di conformita' del prototipo alle prescrizioni tecniche
+di costruzione adottate dal fabbricante, specificando le verifiche e
+prove effettuate in conformita' alle norme tecniche applicabili ai
+sensi del punto 1.3.1»;
+h) «1.4.5 Il costruttore dei contenitori e' responsabile della
+rispondenza dei contenitori costruiti al prototipo approvato, per la
+produzione si attiene a quanto indicato nelle norme tecniche
+applicabili ai sensi del punto 1.3.1 ed emette un certificato di
+rispondenza dei contenitori al prototipo approvato»;
+i) «1.4.6 Esercizio dei contenitori»;
+l) «1.4.6.1 Nel caso in cui i contenitori debbano essere
+precaricati con gas proveniente da recipiente avente pressione
+superiore di 2 bar rispetto a quella di progetto del contenitore
+stesso, si applicano le disposizioni di cui all'art. 39 del regio
+decreto 12 maggio 1927, n. 824»;
+m) «1.4.6.2 I contenitori corredati di certificazione di
+rispondenza alle prescrizioni dei precedenti punti sono esclusi da
+ulteriori verifiche e prove sul luogo d'impianto».
+
+Art. 3
+Entrata in vigore
+
+1. Il presente decreto sara' pubblicato nella Gazzetta Ufficiale
+della Repubblica italiana.
+Roma, 7 ottobre 2026
+
+Il Ministro delle imprese
+e del made in Italy
+Urso
+Il Ministro del lavoro
+e delle politiche sociali
+Calderone
+
+Registrato alla Corte dei conti il 27 ottobre 2026
+Ufficio di controllo sugli atti del Ministero delle imprese e del
+made in Italy, del Ministero dell'agricoltura, della sovranita'
+alimentare e delle foreste e del Ministero del turismo, n. 1349.
