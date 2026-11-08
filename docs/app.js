@@ -361,12 +361,12 @@
     },
 
     metodo() {
-      const doc = { programma: "Programma", carta: "Carta dei valori", giuridico: "Quadro giuridico e UE", metodo: "Metodo degli agenti", sistema: "Sistema dinamico" };
+      const doc = { programma: "Programma", carta: "Carta dei valori", giuridico: "Quadro giuridico e UE", confronto: "Confronto internazionale", trasparenza: "Rischio negli appalti", legislazione: "Legislazione e redazione", metodo: "Metodo degli agenti", sistema: "Sistema dinamico" };
       return `
         <h1>Metodo</h1>
         <p class="intro">Come nasce il programma: dossier ministeriali, verifica di 334 cifre su fonte primaria, Carta dei sette valori, panel indipendente e analisi di robustezza, ottimizzazione senza deficit, aggiornamento continuo dai dati ufficiali.</p>
         <div class="segmenti">${Object.entries(doc).map(([k, v]) => `<button data-documento="${k}" class="${k === stato.documento ? "attivo" : ""}">${v}</button>`).join("")}</div>
-        <div class="scheda-box md" style="margin-top:14px">${md(D.documenti[stato.documento])}</div>`;
+        <div class="scheda-box md" style="margin-top:14px">${md(D.documenti[stato.documento] || "*Documento non ancora disponibile.*")}</div>`;
     },
   };
 

@@ -18,3 +18,8 @@ sistema/stato/pipeline.log
 # Segreti: la chiave dell'API di Claude va nei Secrets di GitHub o nelle variabili d'ambiente, mai nel repository
 .env
 *.key
+
+# Dati grezzi voluminosi dei nuovi moduli (si riscaricano)
+trasparenza/grezzi/
+legislazione/archivio/grezzi/
+trasparenza/riservato/

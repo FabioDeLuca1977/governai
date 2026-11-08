@@ -209,7 +209,10 @@ def main() -> int:
                       "programma": leggi(RADICE / "20_programma_governai.md"),
                       "metodo": leggi(RADICE / "00_metodo.md"),
                       "sistema": leggi(QUI / "README.md"),
-                      "giuridico": leggi(RADICE / "giuridico" / "quadro.md")},
+                      "giuridico": leggi(RADICE / "giuridico" / "quadro.md"),
+                      "confronto": leggi(RADICE / "benchmark" / "confronto.md"),
+                      "trasparenza": leggi(RADICE / "trasparenza" / "rapporto.md"),
+                      "legislazione": leggi(RADICE / "legislazione" / "README.md")},
     }
     dest = RADICE / "docs" / "data.js"
     dest.parent.mkdir(exist_ok=True)

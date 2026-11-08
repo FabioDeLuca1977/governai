@@ -9,6 +9,36 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 01-P1,EQU,0,0,0,M,no,Effetti per coorte valutati in FUT; distribuzione tra persone e territori neutra
 01-P1,SIC,0,0,0,A,no,"Nessun effetto su criminalità, disastri, cyber o crisi"
 01-P1,CIT,0,1,1,M,no,Informa i cittadini su chi paga e quando; responsabilità politica esplicita
+01-P10,RIS,0,0,0,M,no,"Contraddittorio, lettera prima dell'accertamento e divieto di variabili sensibili bilanciano il rischio di falsi positivi sugli onesti"
+01-P10,FID,1,2,2,M,no,"Registro pubblico dei modelli, audit indipendente e relazione alle Camere; riduce l'evasione; rischio di contraccolpo tipo redditometro"
+01-P10,INN,1,1,1,M,no,"Analisi del rischio più moderna nelle agenzie fiscali, con modelli registrati e sottoposti ad audit"
+01-P10,BEN,0,0,0,M,no,Nessun effetto diretto sul benessere dei contribuenti onesti; gettito non usato per spesa
+01-P10,APC,0,0,0,A,no,Nessun effetto su istruzione e cultura
+01-P10,BPA,0,1,1,B,no,Emersione degli immobili fantasma tramite catasto può aiutare contro l'abusivismo
+01-P10,FUT,1,2,2,M,no,"Gettito recuperato destinato a ridurre l'indebitamento, non a nuova spesa"
+01-P10,EQU,1,2,2,M,no,Riduce l'evasione degli autonomi che grava su chi paga: equità orizzontale tra redditi
+01-P10,SIC,-1,-1,-1,M,no,"Interconnessione estesa di banche dati su tutti i contribuenti: rischio profilazione, contenuto da pseudonimizzazione, audit e revisione"
+01-P10,CIT,1,1,2,M,no,Lettere di compliance favoriscono la correzione spontanea e la lealtà fiscale
+01-P11,RIS,0,0,0,M,no,"Adesione facoltativa del consumatore, nessun obbligo: effetto trascurabile su diritti e libertà"
+01-P11,FID,0,1,1,B,no,Valutazione pubblica di lotteria e cashback e scadenza automatica; effetto sul gap incerto
+01-P11,INN,0,1,1,B,no,Spinta ai pagamenti elettronici e protocollo sulle commissioni POS per i micro-esercenti
+01-P11,BEN,0,0,0,B,no,Vantaggio massimo di 150 euro ai consumatori; effetto netto piccolo e incerto
+01-P11,APC,0,0,0,A,no,Nessun effetto su istruzione e cultura
+01-P11,BPA,0,0,0,M,no,Tocca ristorazione e servizi ma senza effetti apprezzabili sulla qualità dell'accoglienza
+01-P11,FUT,0,0,0,B,no,"Saldo netto tra -0,3 e +0,4 mld: effetto sui conti incerto, con scadenza automatica"
+01-P11,EQU,0,0,0,B,no,Tetto basso e servizi d'uso comune limitano la regressività vista nel cashback; da verificare per decile
+01-P11,SIC,0,0,0,M,no,"Codice fiscale facoltativo e solo importi aggregati per settore, con finalità esclusiva"
+01-P11,CIT,1,1,1,B,no,Il consumatore diventa controllore volontario; partecipazione attesa limitata
+01-P12,RIS,0,1,1,M,no,Rateazione automatica distingue chi non può da chi non vuole pagare; sanzioni piene solo per frode e recidiva
+01-P12,FID,1,2,2,M,no,Stop ai condoni e regole stabili premiano chi paga; indicatori di riscossione pubblicati
+01-P12,INN,1,2,2,M,no,Precompilata IVA e redditi per piccole partite IVA riduce i costi di adempimento delle imprese
+01-P12,BEN,1,1,1,M,no,Meno oneri e rateazione automatica alleviano micro-imprese in crisi di liquidità
+01-P12,APC,0,0,0,A,no,Nessun effetto su istruzione e cultura
+01-P12,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+01-P12,FUT,1,2,2,M,no,Recupero dei mancati versamenti a riduzione del deficit e fine dell'attesa del condono
+01-P12,EQU,1,2,2,M,no,Nessun condono premia chi paga; sanzioni graduate tra chi sbaglia e chi froda
+01-P12,SIC,0,0,0,M,no,Uso di CESOP già previsto dal diritto UE; nessuna lista pubblica di nomi
+01-P12,CIT,1,2,2,M,no,Niente condoni e adempimento facile rafforzano reciprocità e lealtà fiscale
 01-P2,RIS,0,0,0,M,no,"Esenta da scadenza salute, disabilità e famiglia: tutela i vulnerabili, ma effetto sui diritti trascurabile"
 01-P2,FID,1,2,2,M,no,Schede pubbliche per decile e voto esplicito riducono l'opacità; qualche instabilità iniziale per le imprese
 01-P2,INN,0,1,1,B,no,Libera risorse da incentivi inefficaci; rischio di colpire anche crediti utili a R&S
@@ -59,6 +89,36 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 01-P6,EQU,1,1,1,M,no,"Paga di più il turista di alta stagione, il gettito va ai residenti e alle aree interne"
 01-P6,SIC,0,0,0,M,no,Dati CIN anonimizzati; nessun effetto sulla sicurezza
 01-P6,CIT,0,0,0,M,no,Nessun effetto rilevante su partecipazione o responsabilità civica
+01-P7,RIS,1,2,2,M,no,Tratta il cittadino come persona: crediti oggi persi a pensionati e sola CU; canali postali e CAF limitano l'esclusione digitale
+01-P7,FID,1,2,2,M,no,"Fisco prevedibile e comprensibile: conto di una pagina, nessuna sanzione su dati di terzi, rimborsi certi"
+01-P7,INN,1,2,2,M,no,"Servizio pubblico digitale proattivo sul modello danese, basato su dati già in possesso del fisco"
+01-P7,BEN,1,1,1,M,no,Rimborsi automatici da 80-120 euro a 2-3 milioni di persone e tempo risparmiato; importi modesti
+01-P7,APC,0,0,0,A,no,Nessun effetto su istruzione e cultura
+01-P7,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+01-P7,FUT,0,0,1,M,no,"Costo coperto da riordino, non in deficit; minori costi amministrativi nel lungo periodo"
+01-P7,EQU,1,2,2,M,no,Riduce il costo regressivo della complessità; guadagnano soprattutto decili bassi e pensionati
+01-P7,SIC,0,0,0,M,no,Nessun nuovo flusso di dati oltre l'IBAN; DPIA con il Garante
+01-P7,CIT,1,1,1,M,no,Il cittadino controlla e corregge; cresce l'adempimento spontaneo; rischio di passività col silenzio-assenso
+01-P8,RIS,-1,0,0,M,no,"Perdono famiglie con scuole a pagamento, polizze e nuovi mutui; salute, disabilità e non autosufficienza tutelate"
+01-P8,FID,0,1,1,M,no,"Meno spese fiscali e regole più semplici; cambio di regole percepito come instabilità, mutui in corso salvaguardati"
+01-P8,INN,0,0,0,M,no,Nessun effetto diretto sull'innovazione; abilita 01-P7 ma l'effetto è già contato lì
+01-P8,BEN,-1,0,0,M,no,Perdite di 50-150 euro per decili medio-alti; compensazione con quota studio per redditi bassi
+01-P8,APC,0,0,0,M,no,Detrazione istruzione abolita ma sostituita da quota studio rimborsabile per ISEE bassi; effetto netto nullo
+01-P8,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+01-P8,FUT,0,1,1,M,no,Riduce spese fiscali e capitalizzazione nei prezzi delle case; quota studio sostiene le famiglie con figli
+01-P8,EQU,0,1,1,B,no,Pacchetto leggermente progressivo secondo stima ordinale; perdite piccole per decili 6-7; manca microsimulazione
+01-P8,SIC,0,0,0,A,no,Nessun effetto su sicurezza o privacy
+01-P8,CIT,0,0,0,M,no,Nessun effetto rilevante su partecipazione o reciprocità
+01-P9,RIS,0,0,0,A,no,"Riordino tecnico delle detrazioni da lavoro, senza effetti rilevanti su dignità o diritti"
+01-P9,FID,1,1,1,M,no,Elimina uno scalino irrazionale e tre strumenti sovrapposti: regola più chiara e verificabile
+01-P9,INN,0,1,1,B,no,Aliquota marginale più bassa sul ceto medio può incentivare lavoro e carriera; effetto modesto
+01-P9,BEN,1,1,1,M,no,Circa 3-4 milioni di lavoratori guadagnano in media 170-280 euro l'anno
+01-P9,APC,0,0,0,A,no,Nessun effetto su istruzione e cultura
+01-P9,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+01-P9,FUT,0,0,0,B,no,Costo coperto dal riordino delle spese fiscali; rischio che le coperture non bastino
+01-P9,EQU,-1,0,0,M,no,"Beneficio concentrato sui decili 8-9, nulla ai redditi bassi; corregge però uno scalino iniquo"
+01-P9,SIC,0,0,0,A,no,Nessun effetto su sicurezza o privacy
+01-P9,CIT,0,0,0,A,no,Nessun effetto rilevante su partecipazione o reciprocità
 02-C1,RIS,1,2,2,M,no,"Soglia di dignità del lavoro; protegge donne, giovani e stranieri sovrarappresentati nei bassi salari"
 02-C1,FID,1,1,1,M,no,"Commissione indipendente, rappresentatività certificata e più ispezioni contro il lavoro irregolare"
 02-C1,INN,0,0,1,B,no,Spinge fuori dal mercato chi compete solo sul costo del lavoro; effetto incerto
@@ -469,6 +529,16 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 08-P6,EQU,0,0,0,B,no,Benefici soprattutto ai distretti del Centro-Nord; perdite agricole compensate
 08-P6,SIC,0,1,1,M,no,Diversificazione dei mercati e materie prime critiche riducono la vulnerabilità alle crisi
 08-P6,CIT,0,0,0,B,no,Nessun effetto rilevante su partecipazione o reciprocità
+08-P7,RIS,0,0,0,M,no,Valuta enti e non persone; rischio di stigmatizzare piccoli enti mitigato da diritto di replica e avvertenze
+08-P7,FID,2,2,2,M,no,"Dati, indicatori e codice aperti sugli appalti: cuore della trasparenza; rischio di gaming degli indicatori"
+08-P7,INN,1,1,1,M,no,Dati aperti e lettura assistita degli atti; più concorrenza favorisce imprese nuove ed efficienti
+08-P7,BEN,0,0,1,B,no,Effetto indiretto: appalti migliori e risorse liberate per servizi
+08-P7,APC,0,0,0,M,no,Effetto sulle competenze civiche già contato in CIT
+08-P7,BPA,0,0,1,B,no,Appalti più puliti possono migliorare opere e manutenzione dei territori; effetto indiretto
+08-P7,FUT,0,1,1,M,no,Più concorrenza abbassa i prezzi degli appalti; risparmi non usati come copertura
+08-P7,EQU,0,1,1,B,no,Risorse liberate dalla concorrenza; fa emergere territori dove i dati mancano
+08-P7,SIC,0,1,1,M,no,"Controlli mirati contro corruzione e infiltrazioni, senza dati personali né profilazione"
+08-P7,CIT,1,2,2,M,no,"Cittadini, giornalisti e consiglieri possono verificare gli appalti con dati aperti"
 09-C1,RIS,0,0,0,M,no,Trasparenza valutata in FID; nessun effetto diretto su dignità o diversità
 09-C1,FID,2,3,3,A,no,"Dati, modelli e ipotesi delle politiche pubbliche verificabili da chiunque, con audit indipendente"
 09-C1,INN,0,1,2,M,no,Dati e modelli aperti abilitano ricerca e analisi delle politiche
@@ -519,3 +589,33 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 09-C5,EQU,0,1,1,M,no,Facilitazione per anziani e meno istruiti con canale umano garantito
 09-C5,SIC,0,0,0,M,no,Log e divieto di addestramento sui dati pubblici; nessun effetto netto sulla sicurezza
 09-C5,CIT,1,1,2,M,no,Alfabetizzazione e facilitazione digitale rendono i cittadini più capaci e autonomi
+09-C6,RIS,0,1,1,M,no,Piano di miglioramento con assistenza sindacale e attenzione alla salute; nessuna sorveglianza; rischio di pressione sulla quota 30%
+09-C6,FID,1,2,2,M,no,Indicatori di servizio e dati disciplinari pubblici per ente; responsabilità effettiva dei dirigenti
+09-C6,INN,0,1,1,M,no,Organizzazione per risultati misurati migliora la produttività degli uffici
+09-C6,BEN,0,1,1,M,no,Servizi più rapidi per i cittadini; il piano considera salute e carichi di lavoro dei dipendenti
+09-C6,APC,0,1,1,M,no,Il piano di miglioramento include formazione mirata per chi è in difficoltà
+09-C6,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+09-C6,FUT,0,0,1,M,no,PA più efficiente nel lungo periodo con costo minimo
+09-C6,EQU,0,1,1,M,no,"Stesse regole in ogni ente; dati sui piani disaggregati per genere, età e disabilità"
+09-C6,SIC,0,0,0,M,no,"Vieta biometria, riconoscimento emozioni e monitoraggio continuo: nessuna sorveglianza dei lavoratori"
+09-C6,CIT,1,1,2,M,no,Diritti e doveri chiari per dipendenti e dirigenti; i cittadini vedono i risultati degli uffici
+09-C7,RIS,0,0,1,M,no,"Nessun licenziamento né trasferimento forzato; il cambio di mansione può pesare all'inizio, poi lavoro meno ripetitivo"
+09-C7,FID,0,1,2,M,no,Mappa dei processi e certificazione pubblica delle ore liberate; la fiducia dipende dall'attuazione
+09-C7,INN,1,2,2,M,no,Automazione del back-office con soluzioni open source riusabili; rischio di piloti che non scalano
+09-C7,BEN,0,1,1,M,no,Procedimenti più veloci; transizione di mansione con formazione retribuita e posto garantito
+09-C7,APC,1,1,1,M,no,"Formazione retribuita per chi cambia mansione, con priorità alle aree più esposte"
+09-C7,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+09-C7,FUT,0,1,2,M,no,Risparmi certificati ex post e coesione solo una tantum: PA più sostenibile nel tempo
+09-C7,EQU,-1,0,0,M,no,Addetti delle ditte esternalizzate e donne più esposti; clausola sociale e priorità di riqualificazione attenuano
+09-C7,SIC,0,0,0,M,no,Rischi di errori e cyber gestiti con revisione umana e garanzie AI Act anticipate
+09-C7,CIT,0,1,1,M,no,Patto con i sindacati prima di ogni progetto: coinvolgimento dei lavoratori
+09-C8,RIS,0,1,1,M,no,"Diritto alla riqualificazione, mobilità volontaria fuori comune, nessuna pressione all'esodo sugli anziani"
+09-C8,FID,0,1,1,M,no,Decisione motivata e pubblica su ogni cessazione rende trasparente la programmazione degli organici
+09-C8,INN,0,1,2,M,no,Ricambio verso profili tecnici e digitali e trasferimento di conoscenze aumentano la capacità della PA
+09-C8,BEN,0,1,1,M,no,"Continuità dei servizi dove un'uscita blocca l'ufficio, specie nei piccoli comuni"
+09-C8,APC,1,2,2,M,no,"Riqualificazione certificata, Accademia delle competenze pubbliche e trasmissione dei saperi"
+09-C8,BPA,0,1,1,B,no,Priorità ai piccoli comuni mantiene uffici funzionanti nelle aree interne
+09-C8,FUT,0,1,1,M,no,Ringiovanisce gli organici e prepara la PA all'uscita di un terzo del personale
+09-C8,EQU,1,1,1,M,no,Fondo con priorità a piccoli comuni e Mezzogiorno riduce i divari nei servizi
+09-C8,SIC,0,0,1,B,no,Trasferimento di conoscenze sui sistemi informativi riduce i rischi operativi
+09-C8,CIT,0,1,1,M,no,Diritto e dovere di riqualificazione: reciprocità nel lavoro pubblico

@@ -1,6 +1,6 @@
 # Bollettino GovernAI — 2026-11-08
 
-*Generato automaticamente da `sistema/pipeline.py` alle 09:12. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 10:41. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
@@ -44,28 +44,32 @@
 
 ## 4. Programma del momento
 
-Il programma di riferimento (tutte le coperture, nucleo robusto prima) costa **12,10 mld/anno**; il programma adattato al momento costa **11,92 mld/anno**. Entrambi sono finanziati senza deficit.
+Il programma di riferimento (tutte le coperture, nucleo robusto prima) costa **12,99 mld/anno**; il programma adattato al momento costa **12,99 mld/anno**. Entrambi sono finanziati senza deficit.
 
 **Differenze rispetto al riferimento** (effetto delle allerte):
 
-- 01-P5: ESSENZIALE → PIENA
-- 03-P3: ESSENZIALE → esclusa
-- 04-P1: esclusa → PILOTA
+- 02-C6: ESSENZIALE → PIENA
+- 04-P1: ESSENZIALE → esclusa
 - 04-P2: esclusa → ESSENZIALE
-- 05-C4: PIENA → ESSENZIALE
-- 07-C1: PIENA → ESSENZIALE
-- 09-C4: ESSENZIALE → PIENA
+- 04-P6: PIENA → ESSENZIALE
+- 09-C4: ESSENZIALE → ZERO
 
 **Cambiamenti rispetto al bollettino precedente:**
 
-- 02-C6: PIENA → ZERO
-- 04-P6: PIENA → ESSENZIALE
-- 06-C3: ESSENZIALE → esclusa
-- 06-C6: PIENA → ZERO
-- 07-C1: PIENA → ESSENZIALE
-- 08-P3: PIENA → ESSENZIALE
-- 08-P6: esclusa → PILOTA
-- 09-C4: ESSENZIALE → PIENA
+- 01-P10: esclusa → PIENA
+- 01-P11: esclusa → ZERO
+- 01-P12: esclusa → PIENA
+- 01-P7: esclusa → PIENA
+- 01-P8: esclusa → ZERO
+- 01-P9: esclusa → ZERO
+- 02-C6: ZERO → PIENA
+- 04-P1: PILOTA → esclusa
+- 07-C1: ESSENZIALE → PIENA
+- 08-P7: esclusa → PIENA
+- 09-C4: PIENA → ZERO
+- 09-C6: esclusa → PIENA
+- 09-C7: esclusa → PIENA
+- 09-C8: esclusa → PIENA
 
 Dettaglio: `programma/selezione_momento.md`.
 
@@ -78,5 +82,5 @@ Nessuna revisione necessaria.
 - apprendimento: 158 KPI, stati {'manuale': 114, 'in osservazione': 44}, aree calibrate 0
 - controlla.py: avvisi: 0  ->  bilancio.md
 - decidi.py: -> esito.md, esito_proposte.csv
-- ottimizza.py (riferimento): spesa 12.10  coperture 9.97  proposte 43/52  -> selezione_riferimento.md
-- ottimizza.py (momento): spesa 11.92  coperture 9.97  proposte 44/52  -> selezione_momento.md
+- ottimizza.py (riferimento): spesa 12.99  coperture 11.02  proposte 53/62  -> selezione_riferimento.md
+- ottimizza.py (momento): spesa 12.99  coperture 11.02  proposte 53/62  -> selezione_momento.md

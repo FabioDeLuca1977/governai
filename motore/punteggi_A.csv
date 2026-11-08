@@ -9,6 +9,36 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 01-P1,EQU,0,0,0,M,no,Agisce sull'equità tra generazioni (FUT); neutra per reddito e territorio
 01-P1,SIC,0,0,0,A,no,Nessun effetto su sicurezza o raccolta dati
 01-P1,CIT,0,1,1,M,no,"Cittadini informati su chi paga; il diritto di sapere rafforza il controllo civico, effetto modesto"
+01-P10,RIS,0,0,0,M,no,Divieto di variabili sensibili e test di distorsione evitano discriminazioni; falsi positivi su contribuenti onesti restano un rischio
+01-P10,FID,1,2,2,M,no,Meno evasione e registro pubblico dei modelli con audit indipendente aumentano legalità e trasparenza
+01-P10,INN,1,1,2,M,no,"Uso analitico dei dati già posseduti, sul modello HMRC Connect"
+01-P10,BEN,0,0,0,M,no,Gettito destinato al deficit; effetto diretto sul benessere non rilevante
+01-P10,APC,0,0,0,A,no,Nessun effetto su istruzione e cultura
+01-P10,BPA,0,0,0,A,no,Nessun effetto su patrimonio e accoglienza
+01-P10,FUT,1,1,2,M,no,"Gettito stimato 1,5-3,5 mld destinato alla riduzione dell'indebitamento"
+01-P10,EQU,1,2,2,M,no,"Riduce il divario tra dipendenti tassati alla fonte e autonomi con propensione all'evasione del 59,7%"
+01-P10,SIC,-1,0,0,M,no,"Interconnessione di banche dati è un'ingerenza, resa proporzionata da elenco per legge, pseudonimizzazione, Garante, decisione umana e sunset"
+01-P10,CIT,1,2,2,M,no,Lettera di compliance prima dell'accertamento promuove adempimento spontaneo e lealtà fiscale
+01-P11,RIS,0,0,0,M,no,"Adesione facoltativa, nessun effetto su dignità e diritti"
+01-P11,FID,0,1,1,B,no,Sostituisce una lotteria mai valutata con un incentivo a scadenza e valutazione controfattuale
+01-P11,INN,0,1,1,B,no,Protocollo POS e incrocio con corrispettivi telematici favoriscono i pagamenti digitali
+01-P11,BEN,0,1,1,B,no,Piccolo vantaggio certo fino a 100-150 euro per contribuente
+01-P11,APC,0,0,0,A,no,Nessun effetto su istruzione e cultura
+01-P11,BPA,0,0,0,A,no,Nessun effetto su patrimonio e accoglienza
+01-P11,FUT,0,0,0,B,no,"Saldo netto incerto tra -0,3 e +0,4 mld; la scadenza automatica limita il rischio"
+01-P11,EQU,0,0,0,B,no,"Tetto e servizi comuni limitano la regressività, ma la detrazione non rimborsabile esclude incapienti e chi paga in contanti"
+01-P11,SIC,0,0,0,M,no,"Codice fiscale facoltativo, solo importi aggregati per settore, finalità esclusiva e DPIA"
+01-P11,CIT,1,1,1,M,no,"Il consumatore diventa parte attiva del contrasto all'evasione, con reciprocità"
+01-P12,RIS,0,1,1,M,no,Sanzioni proporzionate che distinguono chi non può da chi non vuole pagare; niente liste pubbliche di nomi
+01-P12,FID,1,2,2,M,no,Stop ai condoni e valutazione del Concordato rendono le regole stabili e credibili
+01-P12,INN,1,1,2,M,no,"Precompilata IVA e redditi per piccole partite IVA, rateazione automatica online"
+01-P12,BEN,0,1,1,B,no,Meno oneri di adempimento per micro-imprese; congruità della manodopera tutela i lavoratori in appalto
+01-P12,APC,0,0,0,A,no,Nessun effetto su istruzione e cultura
+01-P12,BPA,0,0,0,A,no,Nessun effetto su patrimonio e accoglienza
+01-P12,FUT,1,1,2,M,no,"Gettito 0,8-2,0 mld al deficit; fine dell'attesa del prossimo condono"
+01-P12,EQU,1,1,2,M,no,Equità tra chi paga e chi aspetta i condoni; contrasto all'evasione contributiva negli appalti
+01-P12,SIC,0,0,0,M,no,Uso CESOP limitato ai debitori; nessuna nuova raccolta generalizzata di dati
+01-P12,CIT,1,2,2,M,no,Elimina l'azzardo morale dei condoni e premia l'adempimento spontaneo
 01-P2,RIS,0,0,0,M,no,"Agevolazioni per salute, disabilità e famiglia esenti dalla scadenza: nessun pregiudizio ai più vulnerabili"
 01-P2,FID,1,2,2,M,no,Schede pubbliche per decile e voto esplicito su ogni rinnovo riducono opacità e rendite normative
 01-P2,INN,0,1,1,B,no,Valutazione elimina incentivi a bassa addizionalita' e semplifica il sistema
@@ -59,6 +89,36 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 01-P6,EQU,1,1,2,M,no,"Costo sui turisti di punta, benefici a residenti in affitto e ad aree interne fuori stagione"
 01-P6,SIC,0,0,0,M,no,"Banca dati CIN anonimizzata, nessun controllo sulle persone"
 01-P6,CIT,0,1,1,B,no,Lascia la scelta ai Comuni e vincola il gettito ai residenti
+01-P7,RIS,1,2,2,M,no,Tratta il contribuente come cittadino: pensionati e chi ha sola CU ottengono crediti oggi persi; esclusione digitale mitigata da posta e CAF
+01-P7,FID,1,2,2,M,no,Lo Stato fa il conto e risponde degli errori nei dati di terzi; rimborsi certi entro luglio aumentano prevedibilità e fiducia
+01-P7,INN,1,2,2,M,no,"Servizio pubblico digitale proattivo su dati già posseduti, modello danese; rischio attuativo IT moderato"
+01-P7,BEN,1,1,1,M,no,"Meno tempo e costi di intermediazione, piccoli rimborsi a 2-3 milioni di persone"
+01-P7,APC,0,0,0,A,no,Nessun effetto rilevante su istruzione e cultura
+01-P7,BPA,0,0,0,A,no,Nessun effetto su patrimonio e accoglienza
+01-P7,FUT,0,0,0,M,no,"Costo coperto dal riordino delle spese fiscali, non in deficit; minori costi CAF non contati"
+01-P7,EQU,1,2,2,M,no,"Riduce un costo della complessità regressivo; crediti ai decili bassi e agli esonerati, nessun nuovo debito per chi non dichiara"
+01-P7,SIC,0,0,0,M,no,"Nessun nuovo flusso di dati oltre l'IBAN, DPIA e decisione umana sui contestati; silenzio-assenso senza sanzioni"
+01-P7,CIT,0,1,1,B,no,Più adempimento spontaneo; il silenzio-assenso riduce però l'attenzione attiva del contribuente al proprio conto
+01-P8,RIS,-1,-1,0,M,no,"Perdono famiglie con scuole a pagamento, polizze vita, animali e nuovi mutui; tutelate disabilità e non autosufficienza"
+01-P8,FID,0,1,1,M,no,"Meno documenti e soglie, sistema più comprensibile; nel breve il cambio di regole pesa sulla stabilità percepita"
+01-P8,INN,0,1,1,B,no,Detrazioni residue già note all'Agenzia rendono possibile la dichiarazione automatica
+01-P8,BEN,-1,0,0,M,no,Perdite di 50-150 euro per molti contribuenti medi e alti; compensazione solo parziale con quota studio AUU
+01-P8,APC,0,0,0,B,no,Detrazione istruzione modesta sostituita da quota studio rimborsabile per ISEE bassi; effetto netto sulle scelte educative piccolo
+01-P8,BPA,0,0,0,A,no,Nessun effetto su patrimonio e accoglienza
+01-P8,FUT,0,1,1,M,no,Stop alla detrazione sui nuovi mutui riduce capitalizzazione nei prezzi delle case e spesa fiscale permanente
+01-P8,EQU,1,1,1,M,no,Toglie benefici non rimborsabili concentrati sui capienti e compensa gli incapienti via AUU; perdono però giovani acquirenti di casa
+01-P8,SIC,0,0,0,A,no,Nessun effetto su sicurezza e controllo
+01-P8,CIT,0,0,1,B,no,Fisco più semplice favorisce l'adempimento spontaneo nel lungo periodo; consenso difficile nel breve
+01-P9,RIS,0,0,0,M,no,Effetto su dignità e diritti solo indiretto
+01-P9,FID,1,1,2,M,no,Un solo strumento al posto di tre sovrapposti; elimina uno scalino contrario alla progressività ordinata
+01-P9,INN,0,1,1,B,no,Aliquota marginale effettiva più bassa riduce il disincentivo a lavorare e crescere di reddito
+01-P9,BEN,1,1,1,M,no,Guadagno medio 170-280 euro per circa 3-4 milioni di lavoratori dipendenti
+01-P9,APC,0,0,0,A,no,Nessun effetto su istruzione e cultura
+01-P9,BPA,0,0,0,A,no,Nessun effetto su patrimonio e accoglienza
+01-P9,FUT,0,0,0,M,no,"Costo 0,5-1 mld coperto con riordino delle spese fiscali, non in deficit; rischio di copertura incompleta"
+01-P9,EQU,0,0,0,M,no,"Corregge un'anomalia contraria all'art. 53, ma il beneficio va ai decili 8-9 e non ai più poveri"
+01-P9,SIC,0,0,0,A,no,Nessun effetto su sicurezza e controllo
+01-P9,CIT,0,1,1,B,no,Premia chi lavora di più e riduce la convenienza del sommerso su straordinari e aumenti
 02-C1,RIS,1,2,2,M,no,Attua la retribuzione sufficiente dell'art. 36: dignità del lavoro per i meno tutelati
 02-C1,FID,0,1,1,M,no,Rappresentatività certificata e soglia motivata in Parlamento rendono le regole salariali più trasparenti
 02-C1,INN,0,0,1,B,no,"Spinta a competere su produttivita' anziche' sul costo del lavoro, effetto incerto"
@@ -469,6 +529,16 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 08-P6,EQU,0,0,0,B,no,Benefici ai distretti del Centro-Nord; compensazioni ai settori agricoli esposti
 08-P6,SIC,0,1,1,B,no,La diversificazione dei mercati riduce le vulnerabilità economiche
 08-P6,CIT,0,0,0,B,no,Nessun effetto rilevante su partecipazione
+08-P7,RIS,0,0,0,M,no,"Valuta enti, mai persone; rischio di stigma per piccoli enti mitigato da avvertenze e diritto di replica"
+08-P7,FID,2,2,2,M,no,"Dati, indicatori, pesi e codice pubblici e verificabili; indicatore di reticenza degli enti"
+08-P7,INN,1,1,2,M,no,Open data completi e lettura assistita degli atti con verifica umana
+08-P7,BEN,0,0,1,B,no,Effetto indiretto da un migliore uso della spesa
+08-P7,APC,0,0,0,A,no,Nessun effetto su istruzione e cultura
+08-P7,BPA,0,0,0,A,no,Nessun effetto su patrimonio e accoglienza
+08-P7,FUT,0,1,1,M,no,Più concorrenza riduce i prezzi degli appalti; effetto non usato come copertura
+08-P7,EQU,0,1,1,M,no,Più concorrenza apre gli appalti a imprese nuove e territori meno presidiati
+08-P7,SIC,0,1,1,M,no,"Controlli mirati e validati, senza dati personali né profilazione"
+08-P7,CIT,1,2,2,M,no,"Cittadini, giornalisti e consiglieri possono fare domande documentate"
 09-C1,RIS,0,0,0,M,no,Nessun effetto diretto su diritti
 09-C1,FID,2,2,3,M,no,"Dati, codice e ipotesi pubblici e verificabili da chiunque, con audit indipendente"
 09-C1,INN,1,1,1,M,no,Modelli di microsimulazione open source riusabili da tutti
@@ -519,3 +589,33 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 09-C5,EQU,0,1,1,M,no,Facilitazione per anziani e meno istruiti; rischio di esclusione se fallisce
 09-C5,SIC,0,1,1,M,no,Valutazioni d'impatto e log riducono i rischi algoritmici senza nuova raccolta di dati
 09-C5,CIT,1,1,2,M,no,Alfabetizzazione digitale di massa rende i cittadini più autonomi
+09-C6,RIS,0,1,1,M,no,"Piano di miglioramento con assistenza sindacale prima della sanzione, attento a salute e cura; resta rischio di pressione sui lavoratori"
+09-C6,FID,1,2,2,M,no,Indicatori di servizio e dati disciplinari per ente pubblici in formato aperto; dirigenti responsabili dell'inerzia
+09-C6,INN,0,1,1,M,no,Innovazione organizzativa: misurazione dei risultati degli uffici dai sistemi informativi
+09-C6,BEN,0,1,1,B,no,Servizi più rapidi per i cittadini; possibile stress da valutazione differenziata
+09-C6,APC,0,0,0,M,no,Formazione nel piano di miglioramento con effetto limitato
+09-C6,BPA,0,0,0,A,no,Nessun effetto su patrimonio e accoglienza
+09-C6,FUT,0,0,1,B,no,"PA più produttiva nel lungo periodo, effetto indiretto"
+09-C6,EQU,0,1,1,M,no,"Stesse regole anche nei piccoli enti con UPD associati; dati sui piani disaggregati per genere, età e disabilità"
+09-C6,SIC,0,0,0,M,no,"Divieto esplicito di biometria, riconoscimento delle emozioni e monitoraggio continuo; dati solo aggregati"
+09-C6,CIT,1,1,2,M,no,"Diritti e doveri di dipendenti e dirigenti resi effettivi, senza generalizzazioni"
+09-C7,RIS,0,0,1,M,no,Nessun licenziamento per automazione e mobilità tutelata; perdono però addetti delle ditte esternalizzate tagliate
+09-C7,FID,0,1,1,M,no,"Ore liberate certificate e pubblicate, codice open source"
+09-C7,INN,1,2,2,M,no,"Automazione riusabile dei processi ripetitivi, selezionata per ore liberate per euro"
+09-C7,BEN,0,1,1,M,no,Servizi più rapidi e più personale allo sportello; lavoro meno ripetitivo
+09-C7,APC,0,1,1,M,no,Riqualificazione retribuita del personale spostato
+09-C7,BPA,0,0,0,A,no,Nessun effetto su patrimonio e accoglienza
+09-C7,FUT,0,1,1,M,no,"Risparmi contati solo dopo certificazione ex post, senza tagli anticipati"
+09-C7,EQU,0,0,1,B,no,Più assistenza ai fragili; effetti su donne impiegate e lavoratori esternalizzati da monitorare
+09-C7,SIC,0,0,0,M,no,Revisione umana e regole AI Act; nessun monitoraggio dei lavoratori
+09-C7,CIT,0,0,1,B,no,Confronto sindacale prima dei progetti; effetto civico limitato
+09-C8,RIS,0,1,1,M,no,"Mobilità fuori comune solo volontaria, nessuna pressione all'esodo; obbligo di riqualificazione in orario di lavoro"
+09-C8,FID,0,1,1,M,no,Decisione pubblica e motivata su ogni posto che si libera
+09-C8,INN,0,1,2,M,no,Più profili tecnici e digitali; trasferimento documentato delle conoscenze
+09-C8,BEN,0,0,1,B,no,Effetto indiretto su qualità dei servizi e del lavoro
+09-C8,APC,1,2,2,M,no,Percorsi certificati di riqualificazione e Accademia delle competenze pubbliche
+09-C8,BPA,0,0,1,B,no,Priorità ai piccoli comuni evita la paralisi di uffici nelle aree interne
+09-C8,FUT,0,1,2,M,no,Ricambio generazionale governato che abbassa l'età media; rischio di taglio occulto mitigato
+09-C8,EQU,0,1,1,M,no,Fondo con priorità a piccoli comuni e Mezzogiorno
+09-C8,SIC,0,0,0,A,no,Nessun effetto su sicurezza e controllo
+09-C8,CIT,0,1,1,B,no,Diritto e dovere di formazione per i dipendenti
