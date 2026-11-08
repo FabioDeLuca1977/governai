@@ -18,7 +18,7 @@ from pathlib import Path
 RADICE = Path(__file__).resolve().parents[1]
 # File generati dalla pipeline: sono gli stessi che l'Action salva su GitHub
 GENERATI = ["dati/serie", "dati/storico", "sistema/stato", "sistema/bollettini", "docs/data.js",
-            "registro/bilancio.md", "20_programma_governai.md", "motore/esito.md", "motore/esito_proposte.csv",
+            "registro/bilancio.md", "20_programma_governai.md", "21_idee_in_sintesi.md", "motore/esito.md", "motore/esito_proposte.csv",
             "programma/selezione_*", "apprendimento/esiti.csv", "apprendimento/calibrazione.csv",
             "apprendimento/lezioni.md", "integrita/catena.jsonl", "giuridico/conformita.csv", "giuridico/quadro.md",
             "legislazione/archivio", "governo/previsioni.csv", "governo/credibilita.csv",

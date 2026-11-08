@@ -46,7 +46,7 @@ INPUT = ["motore/punteggi_*.csv", "motore/proposte.csv", "registro/fondi.csv", "
 OUTPUT = ["programma/selezione_*.csv", "motore/esito_proposte.csv", "sistema/bollettini/ultimo.md",
           "apprendimento/esiti.csv", "apprendimento/calibrazione.csv", "analisi/*.json",
           "governo/verbali/*.json", "governo/previsioni.csv", "governo/mandati.csv",
-          "costituzione/esami/*.md", "20_programma_governai.md"]
+          "costituzione/esami/*.md", "20_programma_governai.md", "21_idee_in_sintesi.md"]
 
 
 def impronta_file(p: Path) -> str:

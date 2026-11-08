@@ -144,13 +144,18 @@ def controlla_schede() -> list[str]:
     return avvisi
 
 
-def applica(testo: str, b: dict[str, str]) -> str:
+def applica(testo: str, b: dict[str, str], nome_doc: str, tutti: bool) -> str:
+    """Sostituisce i blocchi generati. Il programma deve averli tutti; gli altri documenti solo quelli che usano."""
     for nome, corpo in b.items():
         testo, n = re.subn(rf"(<!-- auto:{nome} -->\r?\n)(?:.*?\r?\n)?(<!-- /auto:{nome} -->)",
                            lambda m: m.group(1) + corpo + "\n" + m.group(2), testo, flags=re.S)
-        if n != 1:
-            raise SystemExit(f"marcatore auto:{nome} mancante o doppio in {DOC.name}")
+        if n > 1 or (tutti and n != 1):
+            raise SystemExit(f"marcatore auto:{nome} mancante o doppio in {nome_doc}")
     return testo
+
+
+# Documenti con parti generate: il programma completo e la sintesi delle idee
+DOCUMENTI = [(DOC, True), (RADICE / "21_idee_in_sintesi.md", False)]
 
 
 def main() -> int:
@@ -158,18 +163,21 @@ def main() -> int:
     ap.add_argument("--controlla", action="store_true")
     a = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
-    vecchio = DOC.read_text(encoding="utf-8")
-    nuovo = applica(vecchio, blocchi())
+    b = blocchi()
     avvisi = controlla_schede()
     for x in avvisi:
         print("AVVISO classe superata:", x)
-    if a.controlla:
-        print("aggiornato" if nuovo == vecchio else "da aggiornare")
-        return 0 if nuovo == vecchio and not avvisi else 1
-    if nuovo != vecchio:
-        DOC.write_text(nuovo, encoding="utf-8")
-    print(f"{DOC.name}: {'aggiornato' if nuovo != vecchio else 'già aggiornato'}")
-    return 0
+    da_aggiornare = False
+    for doc, tutti in DOCUMENTI:
+        if not doc.exists():
+            continue
+        vecchio = doc.read_text(encoding="utf-8")
+        nuovo = applica(vecchio, b, doc.name, tutti)
+        da_aggiornare |= nuovo != vecchio
+        if not a.controlla and nuovo != vecchio:
+            doc.write_text(nuovo, encoding="utf-8")
+        print(f"{doc.name}: {'da aggiornare' if a.controlla and nuovo != vecchio else 'aggiornato' if nuovo != vecchio else 'già aggiornato'}")
+    return 1 if a.controlla and (da_aggiornare or avvisi) else 0
 
 
 if __name__ == "__main__":

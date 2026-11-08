@@ -233,7 +233,7 @@
           <p class="etichetta sopratitolo">Un programma di governo aperto, basato su dati e valori dichiarati</p>
           <h1 id="titolo-home">Governare con i dati,<br>scegliere con i valori.</h1>
           <p class="risposta">${n.proposte} proposte valutate su ${n.valori} valori, finanziate senza deficit e controllate su Costituzione e regole europee. <span class="firma">L'AI propone e verifica. Le persone decidono.</span></p>
-          <div class="azioni"><a class="btn primario" href="#/programma">Esplora il programma ${icona("arrow-right")}</a><a class="btn" href="#/metodo">Come funziona</a></div>
+          <div class="azioni"><a class="btn primario" href="#/programma">Esplora il programma ${icona("arrow-right")}</a><a class="btn" href="#/programma/sintesi">Le idee in 10 minuti</a><a class="btn terziario" href="#/metodo">Come funziona</a></div>
         </div>
         <div class="oggi-box" aria-label="Oggi in breve">
           <p class="etichetta">Oggi, ${dataLunga(D.generato)}</p>
@@ -304,7 +304,7 @@
   }
 
   // ---------- Programma ----------
-  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
+  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["sintesi", "In sintesi", "#/programma/sintesi"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
 
   function elenco(params) {
     const sc = scenario(params.get("scenario") || "momento");
@@ -533,6 +533,12 @@
         <div class="barra" aria-hidden="true"><span style="width:${Math.max(0, x.u) / max * 100}%"></span></div></li>`;
     }).join("");
     icone();
+  }
+
+  function sintesi() {
+    return `${schedeProgramma("sintesi")}
+      <div class="md documento">${md((D.documenti.sintesi || "*Sintesi non ancora disponibile.*").replace(/^# .*\n/, ""))}</div>
+      <div class="azioni" style="margin-top:24px"><a class="btn primario" href="#/programma">Tutte le ${D.proposte.length} proposte ${icona("arrow-right")}</a>${azioniCondividi()}</div>`;
   }
 
   function confronti(params) {
@@ -919,6 +925,7 @@
       else if (b === "coperture") { html = coperture(); titolo = "Come si paga"; }
       else if (b === "valori") { html = simulatore(); titolo = "I tuoi valori"; }
       else if (b === "confronti") { html = confronti(params); titolo = "Confronti"; }
+      else if (b === "sintesi") { html = sintesi(); titolo = "Le idee in sintesi"; }
       else { html = elenco(params); titolo = "Programma"; }
     } else if (a === "governo") {
       if (b === "sedute" && c) { html = schedaSeduta(c); titolo = "Seduta " + del_(c); }
