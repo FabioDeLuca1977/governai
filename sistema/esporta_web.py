@@ -224,6 +224,7 @@ def main() -> int:
                       "sistema": leggi(QUI / "README.md"),
                       "giuridico": leggi(RADICE / "giuridico" / "quadro.md"),
                       "confronto": leggi(RADICE / "benchmark" / "confronto.md"),
+                      "partiti": leggi(RADICE / "benchmark" / "confronto_programmi.md"),
                       "trasparenza": leggi(RADICE / "trasparenza" / "rapporto.md"),
                       "legislazione": leggi(RADICE / "legislazione" / "README.md")},
     }
