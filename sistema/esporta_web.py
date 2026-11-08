@@ -153,7 +153,14 @@ def costituzione() -> dict:
     esami = [{"id": f.stem, "testo": leggi(f)} for f in sorted((c / "esami").glob("*.md"))
              if not f.stem.endswith("_screening")]
     gu = json.loads(leggi(c / "esami" / "gu" / "stato.json")) if (c / "esami" / "gu" / "stato.json").exists() else {}
-    return {"esami": esami,
+    screening = []
+    for f in sorted((c / "esami").glob("*_screening.json")):
+        j = json.loads(leggi(f))
+        screening.append({"id": f.stem.replace("_screening", ""), "origine": j.get("origine", ""),
+                          "data": j.get("data_riferimento", ""), "articoli": j.get("articoli", 0),
+                          "alto": len(j["alto"]) if isinstance(j.get("alto"), list) else j.get("alto", 0),
+                          "medio": len(j["medio"]) if isinstance(j.get("medio"), list) else j.get("medio", 0)})
+    return {"esami": esami, "screening": screening,
             "gu_alti": [{"codice": k, **v} for k, v in gu.get("esaminati", {}).items() if v.get("alto")][-30:],
             "pronunce_verificate": len(json.loads(leggi(c / "giurisprudenza_verificata.json")))
             if (c / "giurisprudenza_verificata.json").exists() else 0}
@@ -173,7 +180,7 @@ def main() -> int:
     var["variante"] = var.variante.str.upper().str.strip()
     sk = schede()
     conf_f = RADICE / "giuridico" / "conformita.csv"
-    conf = pd.read_csv(conf_f, dtype=str).fillna("") if conf_f.exists() else pd.DataFrame(columns=["tipo", "id"])
+    giur = pd.read_csv(conf_f, dtype=str).fillna("") if conf_f.exists() else pd.DataFrame(columns=["tipo", "id"])
     campi_g = ["tipo", "id", "ambito", "esito", "norme", "fonti", "motivazione", "condizioni"]
     proposte = []
     for r in prop.itertuples():
@@ -188,8 +195,8 @@ def main() -> int:
             "varianti": [{"variante": x.variante, "intensita": pulisci(x.intensita), "costo": pulisci(x.costo_regime),
                           "descrizione": x.descrizione, "strumento": getattr(x, "strumento", "")} for x in vv.itertuples()],
             "scheda": sk.get(r.proposta_id, ""),
-            "giuridico": conf[((conf.tipo == "proposta") & (conf.id == r.proposta_id))
-                              | ((conf.tipo == "variante") & conf.id.str.startswith(r.proposta_id + ":"))]
+            "giuridico": giur[((giur.tipo == "proposta") & (giur.id == r.proposta_id))
+                              | ((giur.tipo == "variante") & giur.id.str.startswith(r.proposta_id + ":"))]
                          .reindex(columns=campi_g).to_dict("records"),
         })
 
@@ -208,7 +215,12 @@ def main() -> int:
 
     # Cruscotto con serie per i grafici
     ind = json.loads(leggi(QUI / "stato" / "indicatori.json") or "[]")
+    registro = {}
+    for f in sorted((RADICE / "dati" / "serie").glob("_registro_*.csv")):
+        for x in pd.read_csv(f, dtype=str).fillna("").itertuples():
+            registro[x.nome] = {"fonte": x.fonte, "url": x.url}
     for i, cfg in zip(ind, conf.get("indicatori", [])):
+        i["fonte"] = registro.get(cfg.get("serie") or "00c_rendimenti_decennali", {})
         d = pipeline.serie_indicatore(cfg)
         if d is not None and not d.empty:
             d = d.tail(36)
@@ -227,7 +239,7 @@ def main() -> int:
         "valutatori": valutatori,
         "proposte": proposte,
         "scenari": scen,
-        "coperture": [{**c, "giuridico": conf[(conf.tipo == "copertura") & (conf.id == c["misura_id"])]
+        "coperture": [{**c, "giuridico": giur[(giur.tipo == "copertura") & (giur.id == c["misura_id"])]
                        .reindex(columns=campi_g).to_dict("records")} for c in records(menu[col])],
         "indicatori": ind,
         "regole": regole,

@@ -2,55 +2,67 @@
 <html lang="it">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>GovernAI</title>
-  <meta name="description" content="GovernAI: un programma di governo né di destra né di sinistra, guidato da valori dichiarati, dati ufficiali e finanziato senza deficit.">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f5c6e'/%3E%3Cpath d='M9 22V10h6.5a4 4 0 0 1 0 8H9m7 0 4.5 4' stroke='white' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <meta name="description" content="GovernAI: un programma di governo né di destra né di sinistra né di centro, guidato da valori dichiarati e dati ufficiali, finanziato senza deficit e controllato su Costituzione e diritto europeo.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23F7F6F2'/%3E%3Cg stroke='%2312506B' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M16 4v4M23.1 6.3l-2.4 3.3M27.4 12.3l-3.8 1.2M27.4 19.7l-3.8-1.2M23.1 25.7l-2.4-3.3M16 28v-4M8.9 25.7l2.4-3.3M4.6 19.7l3.8-1.2M4.6 12.3l3.8 1.2M8.9 6.3l2.4 3.3'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script>try{var t=localStorage.getItem("governai-tema");if(t)document.documentElement.dataset.tema=t;}catch(e){}</script>
+  <script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js" defer></script>
   <script src="data.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
+  <a class="salta" href="#contenuto">Salta al contenuto</a>
   <header class="testata">
     <div class="testata-in">
-      <a class="marchio" href="#racconto" aria-label="GovernAI, home">
-        <span class="logo" aria-hidden="true">G</span>
-        <span><strong>GovernAI</strong><small>Programma di governo guidato da valori e dati</small></span>
+      <a class="marchio" href="#/" aria-label="GovernAI, vai a Oggi">
+        <svg viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M16 4v4M23.1 6.3l-2.4 3.3M27.4 12.3l-3.8 1.2M27.4 19.7l-3.8-1.2M23.1 25.7l-2.4-3.3M16 28v-4M8.9 25.7l2.4-3.3M4.6 19.7l3.8-1.2M4.6 12.3l3.8 1.2M8.9 6.3l2.4 3.3"/></svg>
+        GovernAI
       </a>
-      <nav class="menu" aria-label="Sezioni">
-        <a href="#racconto" data-vista="racconto">Il progetto</a>
-        <a href="#cruscotto" data-vista="cruscotto">Cruscotto</a>
-        <a href="#programma" data-vista="programma">Programma</a>
-        <a href="#governo" data-vista="governo">Governo</a>
-        <a href="#valori" data-vista="valori">Valori</a>
-        <a href="#obiettivi" data-vista="obiettivi">Obiettivi</a>
-        <a href="#analisi" data-vista="analisi">Analisi</a>
-        <a href="#coperture" data-vista="coperture">Coperture</a>
-        <a href="#bollettini" data-vista="bollettini">Bollettini</a>
-        <a href="#integrita" data-vista="integrita">Integrità</a>
-        <a href="#metodo" data-vista="metodo">Metodo</a>
+      <nav class="nav-princ" aria-label="Navigazione principale">
+        <a href="#/" data-voce="oggi"><i data-lucide="sunrise"></i>Oggi</a>
+        <a href="#/programma" data-voce="programma"><i data-lucide="list-checks"></i>Programma</a>
+        <a href="#/governo" data-voce="governo"><i data-lucide="users-round"></i>Governo</a>
+        <a href="#/dati" data-voce="dati"><i data-lucide="chart-line"></i>Dati</a>
+        <a href="#/controlli" data-voce="controlli"><i data-lucide="shield-check"></i>Controlli</a>
       </nav>
-      <span class="aggiornato" id="aggiornato"></span>
+      <div class="servizi">
+        <a class="cerca" href="#/cerca" aria-label="Cerca (tasto /)"><i data-lucide="search"></i><span class="etichetta-cerca">Cerca…</span><kbd aria-hidden="true">/</kbd></a>
+        <a class="link-servizio" href="#/metodo" data-voce="metodo">Metodo</a>
+        <a class="btn primario s" href="#/partecipa">Partecipa</a>
+        <button class="tema" type="button" data-azione="tema" aria-label="Attiva il tema scuro"><i data-lucide="moon"></i></button>
+      </div>
     </div>
   </header>
+  <div class="striscia"><div><span>Prototipo a scopo sociale · nessuna affiliazione politica o istituzionale</span><span>L'AI propone e verifica. Le persone decidono.</span></div></div>
 
   <main id="contenuto" tabindex="-1">
-    <p class="vuoto">Caricamento…</p>
+    <div class="scheletro" style="height:200px" aria-hidden="true"></div>
+    <p class="vh" role="status">Caricamento dei dati…</p>
   </main>
 
-  <aside class="cassetto" id="cassetto" aria-hidden="true">
-    <div class="cassetto-sfondo" data-chiudi></div>
-    <div class="cassetto-pannello" role="dialog" aria-modal="true" aria-labelledby="cassetto-titolo">
-      <button class="chiudi" data-chiudi aria-label="Chiudi">×</button>
-      <div id="cassetto-corpo"></div>
-    </div>
-  </aside>
-
   <footer class="piede">
-    <p>GovernAI è un prototipo di ricerca: l'AI consiglia, le persone decidono. Dati: Eurostat, ISTAT, MEF/RGS, Banca d'Italia, UPB e documenti ufficiali.
-      Le stime di costo sono "stime GovernAI", non certificate dalla Ragioneria.</p>
+    <nav aria-label="Piè di pagina">
+      <a href="#/metodo">Metodo</a><a href="#/metodo/carta">Carta dei valori</a><a href="#/metodo/documenti">Documenti</a><a href="#/metodo/glossario">Glossario</a><a href="#/controlli/integrita">Integrità</a>
+      <a href="https://github.com/FabioDeLuca1977/governai" target="_blank" rel="noopener">Repository<span class="vh"> (si apre in una nuova scheda)</span></a>
+      <a href="#/partecipa">Segnala un errore</a>
+      <a href="#" data-azione="tema">Tema chiaro/scuro</a>
+    </nav>
+    <p>GovernAI è un prototipo di ricerca: <strong>l'AI propone e verifica, le persone decidono.</strong> Il governo ombra è una simulazione: le sue decisioni non sono in vigore. Le stime di costo sono stime GovernAI, non certificate dalla Ragioneria generale dello Stato. Codice con licenza MIT, contenuti CC BY 4.0. <span id="aggiornato"></span></p>
   </footer>
+
+  <nav class="nav-basso" aria-label="Navigazione principale">
+    <a href="#/" data-voce="oggi"><i data-lucide="sunrise"></i>Oggi</a>
+    <a href="#/programma" data-voce="programma"><i data-lucide="list-checks"></i>Programma</a>
+    <a href="#/governo" data-voce="governo"><i data-lucide="users-round"></i>Governo</a>
+    <a href="#/dati" data-voce="dati"><i data-lucide="chart-line"></i>Dati</a>
+    <a href="#/controlli" data-voce="controlli"><i data-lucide="shield-check"></i>Controlli</a>
+  </nav>
 </body>
 </html>

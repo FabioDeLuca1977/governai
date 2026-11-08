@@ -134,6 +134,13 @@ SCHERMATA 5 · CONTROLLI › EUROPA (con accesso a Costituzione)
 - Fasi delle infrazioni come barre con etichette: Messa in mora 48 → Parere motivato 19 → Ricorso 4 → Sentenza 5 → Messa in mora art. 260 3 → Sentenza art. 260 con sanzioni 5.
 - In fondo, un riquadro di anteprima "Costituzione": avvertenza "Controllo preventivo automatico con revisione umana. Non è un giudizio: decide solo la Corte costituzionale." e barra del rischio dell'"A.C. 3174 · Disegno di legge di bilancio 2027" con legenda "Nessun rilievo 101 · Attenzione 23 · Rischio alto 13 · Critico 0" (screening automatico; esame approfondito: 5 dubbi seri).
 
+REGOLE AGGIUNTIVE
+- Usa solo i codici di proposta, i numeri e le fonti scritti qui. Se ti serve un esempio in più, usa un segnaposto grigio "esempio" senza codice: non inventare proposte, cifre, fonti, impronte o rapporti di contrasto.
+- Badge di verifica con uno stile proprio (bordo sottile, icona 16 px, testo 13 px), distinto dai pulsanti; "Provvisorio" sempre in colore neutro.
+- Trend: icona arrow-up-right o arrow-down-right + segno + parola "favorevole/sfavorevole".
+- Bersagli di 44 px per controlli e link di navigazione, non per i link dentro il testo.
+- Tema scuro: griglia dei grafici #2A333C. Icona del tema: moon/sun (sunrise è riservata alla voce "Oggi").
+
 FORMATO DELLA RISPOSTA (obbligatorio, per poter confrontare)
 A. Il file HTML completo in un unico blocco di codice, con le 5 schermate nell'ordine dato.
 B. Subito dopo, una tabella "Autoverifica" (10 righe: neutralità, contrasto, colore+icona+parola, navigazione identica, badge di verifica sui numeri, banner di simulazione, gerarchia "prima la risposta", font e token esatti, nessun contenuto inventato, accessibilità da tastiera) con "rispettato / parziale / no" e una frase.
@@ -165,6 +172,12 @@ LE 5 SCHERMATE
 3. VERBALE DI SEDUTA — banner compatto "Simulazione · non in vigore"; "8 NOV 2026 · A RICHIESTA"; titolo "Conti in ordine senza tagliare i servizi essenziali"; chip "Confermata oggi"; percorso ①Esperti ②Ministri ③Opposizione ④Capo; la domanda (citazione troncata con "Altro"); risposta in breve; Decisioni con barra "46 · 6 · 1" e schede filtro scorrevoli (Tutte 53, Adottate 46, Respinte 6, Rinviate 1); 2 card decisione (02-C2 Nido esigibile + congedo paterno · Essenziale ●●○ · Adottata; 03-P4 Prevenire costa meno · Essenziale ●●○ · Adottata); Deroghe (30) e Obiezioni (8) aperte; Pareri (8), Ministri (9), Mandati (9) richiusi.
 4. DATI — frase "4 allerte attive su 14 indicatori"; schede scorrevoli; card indicatori in una colonna, layout orizzontale (nome e periodo a sinistra, valore e trend a destra): Inflazione (HICP) 5,6% ott 2026 provvisorio ▲ +1,4 sfavorevole; Debito pubblico 139,9% PIL ▲ +1,3 sfavorevole; Disoccupazione under 25 19,9% ▼ −0,4 favorevole; NEET 13,3% ▼ −1,9 favorevole; PIL reale 0,0% ▼ −0,2 sfavorevole; gruppi richiudibili.
 5. CONTROLLI › EUROPA — sotto-schede "Costituzione · Europa · Integrità"; frase "Nei prossimi 60 giorni scadono 6 obblighi. Infrazioni aperte: 84."; griglia 2×2 (6 in scadenza; 103 già scadute; 84 infrazioni; disavanzo eccessivo in corso); elenco per mese "NOVEMBRE 2026": card "Alto · 23 nov · tra 15 giorni · Recupero e confisca dei beni · Dir. (UE) 2024/1260 · nessuna misura italiana notificata · collegata a 07-C2, 07-C4"; "DICEMBRE 2026": "Alto · 2 dic · Lavoro tramite piattaforme digitali · Dir. (UE) 2024/2831"; "Alto · 31 dic · IVA nell'era digitale (ViDA) · Dir. (UE) 2025/516 · collegata a 01-P3, 01-P10".
+
+REGOLE AGGIUNTIVE
+- Usa solo i codici di proposta, i numeri e le fonti scritti qui. Se ti serve un esempio in più, usa un segnaposto grigio "esempio" senza codice: non inventare proposte, cifre, fonti, impronte o rapporti di contrasto.
+- Badge di verifica con uno stile proprio (bordo sottile, icona 16 px, testo 13 px), distinto dai pulsanti; "Provvisorio" sempre in colore neutro.
+- Trend: icona arrow-up-right o arrow-down-right + segno + parola "favorevole/sfavorevole".
+- Bersagli di 44 px per controlli e link di navigazione, non per i link dentro il testo.
 
 FORMATO DELLA RISPOSTA (obbligatorio, per poter confrontare)
 A. Il file HTML completo in un unico blocco di codice.
