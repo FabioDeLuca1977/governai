@@ -1,0 +1,126 @@
+# Collegio degli esperti di GovernAI.
+# Gli esperti danno pareri tecnici e indipendenti: non decidono, non propongono misure fuori dal programma
+# e non esprimono preferenze politiche. Dicono cosa mostrano i dati e l'esperienza, con quale certezza, e cosa non sappiamo.
+#
+# Convocazione (governo/consiglio.py --prepara):
+#   - "sempre: true" partecipa a ogni seduta;
+#   - gli altri sono scelti in base alle parole chiave trovate nella domanda, nelle allerte e nell'ordine del giorno;
+#   - al massimo MAX_ESPERTI per seduta; con --esperti id1,id2 si scelgono a mano.
+# Fonti: le fonti di riferimento della materia, da citare con il dato preciso. Se un dato non è verificato: "da verificare".
+
+esperti:
+  - id: finanza_pubblica
+    nome: Economista di finanza pubblica
+    sempre: true
+    competenze: Saldi di bilancio, coperture, regole di bilancio europee (nuova governance economica), sostenibilità del debito, valutazione delle stime di gettito e di spesa.
+    fonti: [MEF-RGS, Ufficio parlamentare di bilancio, Banca d'Italia, Commissione europea, Corte dei conti]
+    parole: [debito, deficit, bilancio, copertura, coperture, spesa, gettito, ragioneria, manovra]
+
+  - id: giurista
+    nome: Giurista (costituzionale, amministrativo, diritto UE)
+    sempre: true
+    competenze: Legittimità costituzionale, riparto Stato-Regioni, diritto amministrativo, diritto dell'Unione, aiuti di Stato, tecnica legislativa.
+    fonti: [Normattiva, EUR-Lex, Corte costituzionale, Corte di giustizia UE, Consiglio di Stato]
+    parole: [legge, norma, costituzione, regioni, decreto, delega, ue, direttiva, regolamento, giuridico]
+
+  - id: macroeconomista
+    nome: Macroeconomista
+    competenze: Inflazione, crescita, ciclo economico, politica monetaria, tassi e spread, effetti macro delle misure.
+    fonti: [ISTAT, Eurostat, BCE, Banca d'Italia, FMI, OCSE]
+    parole: [inflazione, prezzi, pil, crescita, recessione, spread, tassi, bce, rendimenti, ciclo, produzione industriale]
+
+  - id: fiscalista
+    nome: Esperto di diritto ed economia tributaria
+    competenze: IRPEF, IVA, accise, detrazioni e spese fiscali, adempimento, evasione ed elusione, confronto con i sistemi fiscali esteri.
+    fonti: [Agenzia delle Entrate, MEF Dipartimento Finanze, Relazione sull'economia non osservata, OCSE Tax Policy, Commissione UE TAXUD]
+    parole: [tasse, fisco, fiscale, irpef, iva, accise, detrazioni, evasione, dichiarazione, tributi, catasto, imposte]
+
+  - id: lavoro_welfare
+    nome: Economista del lavoro e delle politiche sociali
+    competenze: Occupazione, salari, contrattazione, povertà, sostegni al reddito, pensioni, politiche attive.
+    fonti: [ISTAT, INPS, ANPAL, Eurostat, OCSE, Banca d'Italia]
+    parole: [lavoro, salari, salario, disoccupazione, occupazione, pensioni, povertà, inclusione, reddito, welfare, assegno, famiglia]
+
+  - id: demografo
+    nome: Demografo
+    competenze: Natalità, invecchiamento, migrazioni interne ed estere, proiezioni demografiche e loro effetti su welfare e lavoro.
+    fonti: [ISTAT, Eurostat, ONU World Population Prospects]
+    parole: [natalità, fecondità, nascite, invecchiamento, migrazioni, migranti, giovani, emigrazione, demografia, popolazione]
+
+  - id: energia_clima
+    nome: Esperto di energia e clima
+    competenze: Mercati dell'energia, prezzi di gas ed elettricità, transizione, emissioni, sussidi ambientalmente dannosi, ETS.
+    fonti: [ARERA, GSE, Terna, ISPRA, MASE, Agenzia internazionale dell'energia, Commissione UE]
+    parole: [energia, clima, emissioni, gas, elettricità, bollette, rinnovabili, sad, carbonio, ets, transizione]
+
+  - id: ambiente_agricoltura
+    nome: Esperto di ambiente, acqua e agricoltura
+    competenze: Agricoltura e filiere, PAC, risorse idriche, siccità, dissesto, suolo, biodiversità, paesaggio.
+    fonti: [ISPRA, CREA, ISTAT, MASAF, Commissione UE (PAC)]
+    parole: [agricoltura, acqua, siccità, suolo, biodiversità, alimentari, paesaggio, dissesto, alluvioni, pac]
+
+  - id: sanita_pubblica
+    nome: Esperto di sanità pubblica ed economia sanitaria
+    competenze: Organizzazione del SSN, personale sanitario, liste d'attesa, prevenzione, LEA, spesa sanitaria.
+    fonti: [Ministero della Salute, AGENAS, ISS, ISTAT, OCSE Health, Corte dei conti]
+    parole: [salute, sanità, ssn, ospedali, medici, infermieri, liste, attesa, prevenzione, lea, farmaci]
+
+  - id: istruzione_ricerca
+    nome: Esperto di istruzione e ricerca
+    competenze: Scuola, università, competenze, abbandono, NEET, ricerca pubblica e privata, valutazione degli apprendimenti.
+    fonti: [INVALSI, MIM, MUR, ANVUR, ISTAT, OCSE (PISA, Education at a Glance), Eurostat]
+    parole: [scuola, università, ricerca, competenze, neet, docenti, laureati, studenti, abbandono, formazione]
+
+  - id: cultura_turismo
+    nome: Esperto di cultura, patrimonio e turismo
+    competenze: Beni culturali, musei, industrie creative, flussi turistici, overtourism, accoglienza.
+    fonti: [Ministero della Cultura, ISTAT, ENIT, Banca d'Italia (turismo internazionale), UNESCO]
+    parole: [cultura, turismo, patrimonio, musei, beni culturali, accoglienza, turisti, creative]
+
+  - id: territorio_trasporti
+    nome: Esperto di territorio, casa e trasporti
+    competenze: Trasporto pubblico, ferrovie, abitare e affitti, aree interne, opere pubbliche e loro tempi.
+    fonti: [MIT, ISTAT, RFI, Agenzia delle Entrate OMI, Banca d'Italia, Corte dei conti]
+    parole: [trasporti, treni, tpl, pendolari, casa, affitti, abitare, infrastrutture, aree interne, edilizia, opere]
+
+  - id: sicurezza_giustizia
+    nome: Esperto di giustizia, sicurezza e difesa
+    competenze: Tempi dei processi, carceri, criminalità, sicurezza urbana, spesa e impegni per la difesa.
+    fonti: [Ministero della Giustizia, CEPEJ, ISTAT, Ministero dell'Interno, NATO, SIPRI]
+    parole: [giustizia, processi, carceri, sicurezza, criminalità, difesa, polizia, tribunali]
+
+  - id: pa_digitale
+    nome: Esperto di pubblica amministrazione e digitale
+    competenze: Organizzazione e produttività della PA, personale pubblico, digitalizzazione, automazione, dati e intelligenza artificiale.
+    fonti: [Dipartimento Funzione Pubblica, RGS Conto annuale, AgID, ISTAT, OCSE Government at a Glance, Commissione UE (DESI)]
+    parole: [pubblica amministrazione, pa, digitale, dipendenti pubblici, automazione, intelligenza artificiale, dati, burocrazia]
+
+  - id: integrita
+    nome: Esperto di integrità e anticorruzione
+    competenze: Appalti pubblici, indicatori di rischio, conflitti di interesse, trasparenza, lobbying.
+    fonti: [ANAC, Corte dei conti, OCSE, Commissione UE (Rule of Law Report), GRECO]
+    parole: [corruzione, appalti, trasparenza, conflitto, lobby, anac, integrità, gare]
+
+  - id: europa_esteri
+    nome: Esperto di affari europei e internazionali
+    competenze: Bilancio e fondi UE, PNRR, aiuti di Stato, commercio internazionale, rapporti con le istituzioni europee.
+    fonti: [Commissione europea, EUR-Lex, Corte dei conti europea, Dipartimento Politiche europee, OMC]
+    parole: [europa, europea, pnrr, fondi europei, coesione, commercio, esteri, aiuti di stato, dazi]
+
+  - id: impresa_innovazione
+    nome: Economista dell'impresa e dell'innovazione
+    competenze: Produttività, PMI, credito, innovazione, politica industriale, incentivi alle imprese e loro efficacia.
+    fonti: [ISTAT, Banca d'Italia, MIMIT, OCSE, Commissione UE]
+    parole: [imprese, pmi, innovazione, produttività, industria, startup, credito, incentivi, competitività]
+
+  - id: equita
+    nome: Esperto di disuguaglianze e inclusione
+    competenze: Effetti distributivi per decili, divari territoriali, di genere e generazionali, disabilità, discriminazioni.
+    fonti: [ISTAT, Banca d'Italia (indagine sui bilanci delle famiglie), INPS, Eurostat EU-SILC, OCSE]
+    parole: [disuguaglianze, equità, divari, genere, disabilità, sud, mezzogiorno, discriminazione, redditi bassi]
+
+  - id: valutazione
+    nome: Esperto di valutazione delle politiche pubbliche
+    competenze: Valutazione d'impatto controfattuale, sperimentazioni e piloti, indicatori, analisi costi-benefici, evidenze da altri Paesi.
+    fonti: [UPB, Banca d'Italia, OCSE, J-PAL, What Works Centres, letteratura scientifica peer-reviewed]
+    parole: [valutazione, impatto, pilota, sperimentazione, evidenze, indicatori, efficacia]

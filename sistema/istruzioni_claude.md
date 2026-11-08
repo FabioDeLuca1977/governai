@@ -58,15 +58,38 @@ Quando una richiesta contiene un testo di legge o un emendamento:
 
 ## 2d. Consiglio dei ministri (governo ombra)
 
-Convoca il Consiglio quando il bollettino di oggi riporta un'allerta nuova, quando un suggerimento approvato riguarda più ministeri, e in ogni caso il lunedì. Regole in `governo/regolamento.md`.
+Regole in `governo/regolamento.md`. Il Consiglio si riunisce in due casi.
 
-1. `python governo/consiglio.py --prepara --motivo "perché si riunisce"`. Crea `governo/sedute/AAAA-MM-GG/` con l'ordine del giorno e un incarico per ogni ruolo.
-2. **Ministri.** Lancia 9 subagenti in parallelo, uno per `incarico_ministro_NN.md`. Ognuno scrive solo `posizioni/NN.json` e non legge gli altri.
-3. **Opposizione.** Un subagente con `incarico_opposizione.md`, dopo i ministri.
+**A richiesta.** Le domande sono i file `governo/richieste/*.md`, esclusi `README.md` e `_modello.md`. Ci arrivano in due modi:
+- dalle issue pubbliche con etichetta `consiglio`, approvate con `analisi-approvata`: le importa lo stesso comando del punto 2 (`--importa-issue`);
+- dai membri del progetto, che scrivono il file direttamente.
+
+Per ogni domanda nuova:
+```bash
+python -I governo/consiglio.py --prepara --richiesta governo/richieste/<nome>.md
+```
+I ministri da convocare si leggono dalla riga `Ministri:` o dal campo del modulo; se mancano, il Consiglio è al completo. A seduta chiusa, sposta il file in `governo/richieste/fatte/`.
+
+Se l'utente in chat chiede di convocare il Consiglio, scrivi la sua domanda in `governo/richieste/AAAA-MM-GG-<tema>.md` (partendo da `_modello.md`) e procedi allo stesso modo.
+
+**D'ufficio.** Quando il bollettino di oggi riporta un'allerta nuova, quando un suggerimento approvato riguarda più ministeri, e in ogni caso il lunedì:
+```bash
+python -I governo/consiglio.py --prepara --motivo "perché si riunisce"
+```
+
+**Lo svolgimento della seduta è lo stesso nei due casi.** `--prepara` stampa la cartella della seduta e scrive un incarico per ogni ruolo. Lancia i subagenti con lo strumento Agent, in quest'ordine:
+1. **Esperti.** Un subagente per ogni `incarico_esperto_<id>.md`, tutti in parallelo. Ognuno scrive solo `pareri/<id>.json`.
+2. **Ministri.** Un subagente per ogni `incarico_ministro_NN.md`, tutti in parallelo, dopo gli esperti. Ognuno scrive solo `posizioni/NN.json` e non legge le posizioni degli altri.
+3. **Opposizione.** Un subagente con `incarico_opposizione.md`.
 4. **Capo di governo.** Un subagente con `incarico_capo.md`, per ultimo.
-5. `python governo/consiglio.py --componi governo/sedute/AAAA-MM-GG`. Applica linee rosse, Ragioneria e regolamento, scrive il verbale in `governo/verbali/` e registra previsioni e mandati.
 
-Non scrivere tu le posizioni dei ruoli e non correggere le loro decisioni: se un JSON non è valido, rilancia lo stesso ruolo indicandogli l'errore.
+Poi componi la seduta:
+```bash
+python -I governo/consiglio.py --componi governo/sedute/<cartella>
+```
+Il comando applica linee rosse, Ragioneria e regolamento, scrive il verbale in `governo/verbali/` e registra previsioni e mandati. Infine aggiungi un anello alla catena: `python -I integrita/catena.py --aggiungi consiglio --nota "<seduta>"`.
+
+Non scrivere tu pareri, posizioni o decisioni, e non correggerli. Se un JSON non è valido, rilancia lo stesso ruolo indicandogli l'errore.
 
 ## 3. Il lunedì: revisione del momento
 

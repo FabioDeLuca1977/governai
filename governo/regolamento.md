@@ -1,6 +1,6 @@
 # Regolamento del Consiglio dei ministri di GovernAI
 
-GovernAI simula un governo: un capo di governo, nove ministri e un'opposizione leale. È un **governo ombra**: le sue decisioni non sono in vigore, ma vengono prese come se lo fossero e restano scritte, così si può verificare chi aveva ragione.
+GovernAI simula un governo: un capo di governo, nove ministri, un'opposizione leale e un collegio di esperti di ogni materia. È un **governo ombra**: le sue decisioni non sono in vigore, ma vengono prese come se lo fossero e restano scritte, così si può verificare chi aveva ragione.
 
 Il regolamento serve a rendere il modo di decidere migliore di quello abituale. Le regole sono applicate da `governo/consiglio.py`: una decisione che non le rispetta non entra nel verbale.
 
@@ -8,6 +8,7 @@ Il regolamento serve a rendere il modo di decidere migliore di quello abituale. 
 
 | Ruolo | Compito | Cosa non può fare |
 |---|---|---|
+| **Esperti** (collegio di 19 materie) | Danno pareri tecnici indipendenti, con fonti, grado di certezza e limiti di ciò che si sa. Giudicano le proposte della loro materia | Decidere. Esprimere preferenze politiche. Proporre misure fuori dal programma |
 | **Ministri (9)** | Ognuno legge i dati e il dossier della sua area e presenta richieste motivate. Indica anche gli effetti sugli altri ministeri e a cosa è disposto a rinunciare | Valutare le proprie proposte. Decidere |
 | **Opposizione leale** | Cerca il punto debole di ogni richiesta, con prove, e dice quale fatto le farebbe cambiare idea | Proporre misure proprie fuori dal programma. Decidere |
 | **Capo di governo** | Arbitra i conflitti, decide e fissa i mandati ai ministri | Ignorare la Carta senza motivare. Superare una linea rossa |
@@ -15,13 +16,19 @@ Il regolamento serve a rendere il modo di decidere migliore di quello abituale. 
 | **Ufficio legislativo** (deterministico) | Verifica la conformità giuridica e la redazione dei testi | Essere scavalcato |
 | **Garante dei valori** (deterministico) | Applica le linee rosse della Carta | Essere scavalcato |
 
-Ogni ruolo affidato all'AI è svolto da un agente distinto, che non vede il lavoro degli altri finché non ha consegnato il proprio. Prima scrivono i ministri; poi l'opposizione, che legge i ministri; per ultimo il capo, che legge tutto.
+Ogni ruolo affidato all'AI è svolto da un agente distinto, che non vede il lavoro degli altri finché non ha consegnato il proprio. L'ordine è questo:
+1. gli **esperti** scrivono i pareri, ognuno per conto suo;
+2. i **ministri** leggono i pareri e scrivono le loro richieste;
+3. l'**opposizione** legge pareri e richieste;
+4. il **capo di governo** legge tutto e decide.
+
+In ogni seduta partecipano sempre l'economista di finanza pubblica e il giurista. Gli altri esperti, fino a sei in tutto, sono scelti in base alla domanda e alle allerte. L'elenco completo è in `governo/esperti.yaml`.
 
 ## Le regole
 
 1. **Ruoli separati.** Chi propone non valuta, chi valuta non decide. I punteggi delle proposte restano quelli del panel indipendente: il Consiglio non li modifica.
 2. **Ogni decisione è una scommessa scritta.** Chi chiede o decide dichiara cosa succederà: quale indicatore, quale soglia, entro quale periodo e con quale probabilità. Alla scadenza il sistema confronta la previsione con il dato ufficiale.
-3. **Credibilità misurata.** Ogni previsione verificata riceve un punteggio (Brier: 0 = perfetta, 0,25 = come tirare a caso, 1 = sempre sbagliata). La credibilità di ministri, opposizione e capo è pubblica e il capo ne tiene conto.
+3. **Credibilità misurata.** Ogni previsione verificata riceve un punteggio (Brier: 0 = perfetta, 0,25 = come tirare a caso, 1 = sempre sbagliata). La credibilità di esperti, ministri, opposizione e capo è pubblica e il capo ne tiene conto.
 4. **Pre-mortem obbligatorio.** Ogni richiesta dichiara il motivo più probabile per cui potrebbe fallire.
 5. **Effetti sugli altri.** Ogni richiesta indica quali altri ministeri tocca e in che modo. Un effetto negativo non dichiarato, se emerso dopo, pesa sulla credibilità.
 6. **Arbitrato con regole note.** Il capo decide in base alla Carta: prima le linee rosse, poi il nucleo robusto (regola 8), poi le priorità del momento, poi i valori. Se si discosta dall'esito del motore lo dichiara come **deroga** e lo motiva.
@@ -29,8 +36,16 @@ Ogni ruolo affidato all'AI è svolto da un agente distinto, che non vede il lavo
 8. **Nessuna linea rossa, nessun deficit.** Una decisione che supera una linea rossa o non è finanziabile viene respinta da `consiglio.py` e annotata nel verbale.
 9. **Verbale pubblico e immutabile.** Ogni seduta produce un verbale pubblicato sul sito e registrato nella catena di integrità.
 10. **Mandati con scadenza.** Il capo affida compiti ai ministri con una data. Il mandato non svolto resta all'ordine del giorno finché non viene chiuso.
+11. **Rispetto della competenza.** Se il capo adotta una proposta su cui un esperto ha dato parere contrario, risponde per iscritto al parere. Un parere senza fonti, senza grado di certezza o senza i limiti di ciò che si sa non viene considerato.
 
 ## Quando si riunisce
+
+- **A richiesta**, su una domanda precisa, che può arrivare in tre modi:
+  - da chiunque, con il modulo "Domanda al Consiglio" sul sito, dopo l'approvazione di un membro del progetto;
+  - da un membro del progetto, con un file in `governo/richieste/`;
+  - in chat, chiedendolo a Claude.
+
+  Per una domanda circoscritta si possono convocare solo i ministri interessati.
 
 - Quando scatta un'allerta nuova o un dato cambia in modo rilevante.
 - Quando un suggerimento approvato riguarda più ministeri.

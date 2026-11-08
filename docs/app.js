@@ -124,6 +124,13 @@
   ].join(String.fromCharCode(10));
   // Chiunque può suggerire con una issue; i membri del progetto possono anche scrivere direttamente un file di richiesta
   const linkAnalisi = () => D.repo ? `${D.repo}/issues/new?template=analisi.yml` : "#analisi";
+  const linkConsiglio = () => D.repo ? `${D.repo}/issues/new?template=consiglio.yml` : "#governo";
+  const MODELLO_CONSIGLIO = "# Titolo della domanda\n\n**Domanda:** \n\n**Perché ora:** \n\n**Vincoli o attenzioni:** \n\nMinistri: \n";
+  const linkConsiglioFile = () => {
+    if (!D.repo) return "#governo";
+    const nome = new Date().toISOString().slice(0, 10) + "-domanda.md";
+    return `${D.repo}/new/main/governo/richieste?filename=${encodeURIComponent(nome)}&value=${encodeURIComponent(MODELLO_CONSIGLIO)}`;
+  };
   const linkRichiestaFile = () => {
     if (!D.repo) return "#analisi";
     const nome = new Date().toISOString().slice(0, 10) + "-nuova-richiesta.md";
@@ -362,7 +369,9 @@
 
     governo() {
       const G = D.governo || { verbali: [], credibilita: [], mandati: [] };
-      const ruolo = (a) => a === "capo" ? "Capo di governo" : a === "opposizione" ? "Opposizione leale" : "Ministro " + a.replace("ministro_", "area ");
+      const esperti = G.esperti || {};
+      const ruolo = (a) => a === "capo" ? "Capo di governo" : a === "opposizione" ? "Opposizione leale"
+        : a.startsWith("esperto_") ? (esperti[a.slice(8)] || a.slice(8)) : "Ministro " + a.replace("ministro_", "area ");
       const cred = G.credibilita.length ? `<div class="tabella-box"><table><thead><tr><th>Ruolo</th><th class="num">Previsioni verificate</th><th class="num">In attesa</th><th class="num">Brier medio</th></tr></thead><tbody>${G.credibilita.map((c) => `<tr><td>${esc(ruolo(c.autore))}</td><td class="num">${esc(c.verificate)}</td><td class="num">${esc(c.in_attesa)}</td><td class="num">${c.brier_medio === "" || c.brier_medio == null ? "—" : nf(+c.brier_medio, 3)}</td></tr>`).join("")}</tbody></table></div>` : '<p class="vuoto">Nessuna previsione ancora.</p>';
       const aperti = G.mandati.filter((m) => m.stato === "aperto");
       const mand = aperti.length ? `<ul>${aperti.map((m) => `<li><strong>${esc(m.id)}</strong> · area ${esc(m.area)} · entro il ${esc(m.scadenza)}: ${esc(m.compito)}</li>`).join("")}</ul>` : '<p class="vuoto">Nessun mandato aperto.</p>';
@@ -372,7 +381,9 @@
           <div class="scheda-box md">${md(sel.testo)}</div></div>` : '<p class="vuoto">Nessuna seduta ancora.</p>';
       return `
         <h1>Governo</h1>
-        <p class="intro">Un governo ombra che decide con regole verificabili. Nove ministri, un'opposizione leale e un capo di governo sono agenti distinti: chi propone non valuta, chi valuta non decide. Linee rosse, coperture senza deficit e conformità giuridica sono controlli automatici che nessun ruolo può scavalcare. Ogni decisione è una previsione scritta, confrontata alla scadenza con i dati ufficiali: così si misura chi legge meglio la realtà.</p>
+        <p class="intro">Un governo ombra che decide con regole verificabili. Un collegio di esperti di ogni materia, nove ministri, un'opposizione leale e un capo di governo sono agenti distinti: gli esperti danno pareri con le fonti, chi propone non valuta, chi valuta non decide. Linee rosse, coperture senza deficit e conformità giuridica sono controlli automatici che nessun ruolo può scavalcare. Ogni decisione è una previsione scritta, confrontata alla scadenza con i dati ufficiali: così si misura chi legge meglio la realtà.</p>
+        <p><a class="bottone primario" href="${esc(linkConsiglio())}" target="_blank" rel="noopener">Fai una domanda al Consiglio</a> <a class="bottone" href="${esc(linkConsiglioFile())}" target="_blank" rel="noopener">Convoca il Consiglio (membri del progetto)</a></p>
+        <p class="nota">Le domande pubbliche vengono esaminate dopo l'approvazione di un membro del progetto. Il Consiglio si riunisce anche da solo: ogni lunedì e quando scatta un'allerta nuova.</p>
         <h2>Credibilità</h2>
         <p class="nota">Punteggio di Brier sulle previsioni scadute: 0 = perfetta, 0,25 = come tirare a caso, 1 = sempre sbagliata.</p>
         ${cred}

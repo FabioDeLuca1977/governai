@@ -34,7 +34,7 @@ GENESI = "0" * 64
 REGOLE = ["01_carta_valori.md", "00_metodo.md", "motore/rubrica.md", "sistema/config.yaml",
           "motore/decidi.py", "programma/ottimizza.py", "registro/controlla.py", "sistema/revisione_ai.py",
           "sistema/analizza_richiesta.py", "apprendimento/valuta.py",
-          "governo/regolamento.md", "governo/consiglio.py", "governo/ruoli/*.md"]
+          "governo/regolamento.md", "governo/consiglio.py", "governo/ruoli/*.md", "governo/esperti.yaml"]
 INPUT = ["motore/punteggi_*.csv", "motore/proposte.csv", "registro/fondi.csv", "programma/varianti/*.csv",
          "programma/coperture_menu.csv", "giuridico/conformita.csv", "apprendimento/obiettivi.yaml", "apprendimento/decisioni.csv",
          "dati/serie/*.csv"]

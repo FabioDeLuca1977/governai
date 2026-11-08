@@ -29,7 +29,8 @@ Nel contesto, `proposte_per_area["{AREA}"]` elenca le tue proposte con:
 
    Chiedi una sola variante per proposta. Non chiedere varianti escluse dalle linee rosse.
 3. **Rinunce.** Indica a cosa la tua area è disposta a rinunciare se i fondi non bastano. Il Consiglio funziona se ogni ministro sa cedere qualcosa.
-4. **Previsioni sul contesto.** Da 1 a 3, sugli indicatori del cruscotto, indipendenti da qualsiasi misura. Servono a misurare la tua capacità di leggere la realtà.
+4. **Domanda.** Se l'ordine del giorno contiene una domanda posta al Consiglio, rispondi in `risposta_alla_domanda` dal punto di vista della tua area; altrimenti lascia il campo vuoto.
+5. **Previsioni sul contesto.** Da 1 a 3, sugli indicatori del cruscotto, indipendenti da qualsiasi misura. Servono a misurare la tua capacità di leggere la realtà.
 
 ## Le previsioni
 
@@ -55,6 +56,7 @@ Scrivi **solo** un file JSON in `{USCITA}`, con questa forma:
 
 ```json
 {"area": "{AREA}",
+ "risposta_alla_domanda": "",
  "situazione": "...",
  "richieste": [{"azione": "adottare", "proposta": "{AREA}-P1", "variante": "ESSENZIALE", "motivazione": "...",
                 "pre_mortem": "...", "effetti_altri": [{"area": "02", "segno": "-", "effetto": "..."}],

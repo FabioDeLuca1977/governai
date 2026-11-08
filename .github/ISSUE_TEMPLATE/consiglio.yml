@@ -1,0 +1,56 @@
+name: Domanda al Consiglio dei ministri
+description: "Chiunque può porre una domanda al governo ombra di GovernAI: dopo una revisione umana, si riuniscono esperti, ministri, opposizione e capo di governo."
+title: "[Consiglio] "
+labels: ["consiglio"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Il **Consiglio dei ministri** di GovernAI è un governo ombra con regole di decisione verificabili.
+
+        **Come funziona.**
+        1. Un membro del progetto legge la domanda.
+        2. Se la approva, le applica l'etichetta `analisi-approvata`.
+        3. Si riunisce il Consiglio, nell'ordine:
+           - gli esperti delle materie coinvolte danno pareri tecnici, con le fonti;
+           - i ministri presentano le loro richieste;
+           - l'opposizione leale cerca i punti deboli;
+           - il capo di governo decide e risponde.
+        4. Il sistema verifica linee rosse, coperture senza deficit e conformità giuridica.
+        5. Il verbale compare nella sezione "Governo" del sito.
+
+        Le decisioni sono simulate e restano consigli: le scelte vere spettano alle persone. Scrivi in modo rispettoso: i contenuti offensivi o fuori tema verranno chiusi.
+  - type: textarea
+    id: domanda
+    attributes:
+      label: Domanda
+      description: Che cosa deve decidere o valutare il Consiglio? Più è precisa, più la risposta è utile.
+      placeholder: "Es. Con l'inflazione al 5,6%, conviene anticipare il sostegno agli affitti per i giovani o la riduzione del prezzo dell'abbonamento ai treni?"
+    validations:
+      required: true
+  - type: textarea
+    id: perche
+    attributes:
+      label: Perché ora
+      description: Quale fatto, dato o scadenza la rende urgente? (facoltativo)
+  - type: dropdown
+    id: ministri
+    attributes:
+      label: Ministri interessati
+      description: Se la domanda riguarda pochi ministeri, si convocano solo quelli. Altrimenti il Consiglio si riunisce al completo.
+      multiple: true
+      options:
+        - 01 Economia e imprese
+        - 02 Lavoro, welfare e famiglia
+        - 03 Ambiente, energia e agricoltura
+        - 04 Infrastrutture e territori
+        - 05 Istruzione, ricerca e cultura
+        - 06 Salute
+        - 07 Giustizia, interno e difesa
+        - 08 Esteri, Europa e istituzioni
+        - 09 PA e digitale
+  - type: textarea
+    id: vincoli
+    attributes:
+      label: Vincoli o attenzioni
+      description: Chi non deve essere penalizzato, che cosa va evitato? (facoltativo)

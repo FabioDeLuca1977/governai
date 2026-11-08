@@ -9,6 +9,7 @@ Sei il capo di governo nel Consiglio dei ministri di GovernAI. Ascolti i ministr
 Leggi anche:
 - le posizioni dei ministri, in `{POSIZIONI}`;
 - le obiezioni dell'opposizione, in `{OPPOSIZIONE}`;
+- i pareri degli esperti (vedi sopra);
 - il programma del momento, in `programma/selezione_momento.md`.
 
 ## Come decidi: l'ordine della Carta
@@ -24,6 +25,7 @@ Se ti discosti dal programma del momento calcolato dal motore, cioè adotti una 
 ## Cosa fare
 
 1. **Indirizzo.** In 4–6 frasi, la linea del governo per questo momento.
+   Se l'ordine del giorno contiene una **domanda posta al Consiglio**, scrivi anche `risposta_alla_domanda`: la risposta del governo, chiara e motivata, con i numeri e i limiti di ciò che si sa.
 2. **Decisioni.** Decidi su ogni richiesta dei ministri e su ogni punto dell'ordine del giorno che lo richiede. Elencale **in ordine di priorità**: se i fondi non bastano, la Ragioneria taglia dal fondo della lista. Per ognuna indica:
    - `proposta`, `variante`;
    - `decisione`: `adottata`, `respinta` o `rinviata`;
@@ -31,6 +33,7 @@ Se ti discosti dal programma del momento calcolato dal motore, cioè adotti una 
    - `motivazione`;
    - `deroga` (true/false) e `motivo_deroga`;
    - `risposta_opposizione`: obbligatoria se l'opposizione ha obiettato su quella proposta;
+   - `risposta_esperti`: obbligatoria se adotti una proposta su cui un esperto ha dato giudizio `contrario` (regola 11);
    - `scommessa`: una previsione verificabile oppure `null`.
 3. **Mandati.** Compiti per i ministri, nella forma `{"area": "06", "compito": "...", "scadenza": "AAAA-MM-GG"}`. Ogni compito deve essere concreto e verificabile. In `mandati_chiusi` elenca gli id dei mandati aperti che consideri svolti.
 4. **Previsioni sul contesto.** Da 1 a 3, nello stesso formato.
@@ -47,8 +50,9 @@ Scrivi **solo** un file JSON in `{USCITA}`:
 
 ```json
 {"indirizzo": "...",
+ "risposta_alla_domanda": "",
  "decisioni": [{"proposta": "...", "variante": "ESSENZIALE", "decisione": "adottata", "regola": "nucleo",
-                "motivazione": "...", "deroga": false, "motivo_deroga": "", "risposta_opposizione": "...",
+                "motivazione": "...", "deroga": false, "motivo_deroga": "", "risposta_opposizione": "...", "risposta_esperti": "",
                 "scommessa": null}],
  "mandati": [{"area": "06", "compito": "...", "scadenza": "2027-01-31"}],
  "mandati_chiusi": [],

@@ -4,14 +4,18 @@ Il Consiglio riunisce nove ministri, un'opposizione leale e un capo di governo, 
 distinto (vedi regolamento.md e ruoli/). Questo script fa la parte deterministica, che nessun agente può aggirare:
 
   1. --prepara   ordine del giorno e contesto dai dati del giorno (allerte, programma del momento, fondi,
-                 mandati aperti, credibilità) e un incarico scritto per ogni ruolo;
+                 mandati aperti, credibilità) e un incarico scritto per ogni ruolo, esperti compresi.
+                 Con --richiesta FILE la seduta risponde a una domanda (convocazione a richiesta);
   2. --componi   legge posizioni, obiezioni e decisioni; scarta ciò che viola il regolamento (linee rosse,
                  previsioni non verificabili, deroghe non dichiarate); verifica con l'ottimizzatore che le
                  decisioni siano finanziabili senza deficit; scrive il verbale e registra previsioni e mandati;
   3. --valuta    confronta le previsioni scadute con i dati ufficiali e aggiorna la credibilità di ogni ruolo.
 
+Ordine dei lavori: esperti (pareri tecnici) -> ministri -> opposizione -> capo di governo -> --componi.
+
 Uso (dalla radice del repository o da qualsiasi cartella):
   python governo/consiglio.py --prepara [--motivo "testo"]   -> governo/sedute/AAAA-MM-GG/
+  python governo/consiglio.py --prepara --richiesta governo/richieste/NOME.md [--ministri 01,06] [--esperti id1,id2]
   python governo/consiglio.py --componi governo/sedute/AAAA-MM-GG
   python governo/consiglio.py --valuta
 """
@@ -39,6 +43,9 @@ VERBALI = QUI / "verbali"
 PREVISIONI = QUI / "previsioni.csv"
 MANDATI = QUI / "mandati.csv"
 CREDIBILITA = QUI / "credibilita.csv"
+ESPERTI = QUI / "esperti.yaml"
+RICHIESTE = QUI / "richieste"
+MAX_ESPERTI = 6
 CAMPI_PREV = ["id", "seduta", "autore", "indicatore", "condizione", "soglia", "periodo", "probabilita",
               "condizionata_a", "esito", "valore", "brier"]
 CAMPI_MAND = ["id", "seduta", "area", "compito", "scadenza", "stato", "chiuso_il"]
@@ -57,6 +64,8 @@ MINISTERI = {
 AZIONI = {"adottare", "rinviare", "sospendere", "modificare"}
 DECISIONI = {"adottata", "respinta", "rinviata"}
 REGOLE_ARBITRATO = {"linee rosse", "nucleo", "momento", "valori", "deroga"}
+GIUDIZI = {"favorevole", "contrario", "condizionato"}
+CERTEZZE = {"alta", "media", "bassa"}
 
 
 # --- Lettura dello stato del sistema ----------------------------------------------------------------
@@ -125,14 +134,45 @@ def forma_periodo(p: str) -> str:
 
 # --- 1. Preparazione della seduta ---------------------------------------------------------------------
 
-def prepara(motivo: str) -> Path:
+def scegli_esperti(testo: str, scelti: list[str] | None = None) -> list[dict]:
+    """Esperti della seduta: quelli fissi più i più pertinenti alla domanda e alle allerte (parole chiave)."""
+    tutti = yaml.safe_load(ESPERTI.read_text(encoding="utf-8"))["esperti"]
+    if scelti:
+        ignoti = set(scelti) - {e["id"] for e in tutti}
+        if ignoti:
+            sys.exit(f"--esperti: esperti inesistenti {sorted(ignoti)}")
+        return [e for e in tutti if e["id"] in scelti]
+    t = testo.lower()
+    conta = lambda e: sum(len(re.findall(rf"\b{re.escape(p.lower())}\b", t)) for p in e.get("parole", []))
+    fissi = [e for e in tutti if e.get("sempre")]
+    altri = sorted((e for e in tutti if not e.get("sempre") and conta(e) > 0), key=lambda e: -conta(e))
+    scelta = fissi + altri[:MAX_ESPERTI - len(fissi)]
+    if len(scelta) < MAX_ESPERTI and all(e["id"] != "valutazione" for e in scelta):
+        scelta += [e for e in tutti if e["id"] == "valutazione"]  # chi misura l'efficacia serve sempre
+    return scelta
+
+
+def prepara(motivo: str, richiesta: Path | None = None, ministri: list[str] | None = None,
+            esperti: list[str] | None = None) -> Path:
     oggi = date.today().isoformat()
-    cartella = SEDUTE / oggi
-    n = 2
+    domanda = ""
+    if richiesta:
+        domanda = richiesta.read_text(encoding="utf-8").strip()
+        motivo = "Richiesta: " + domanda.splitlines()[0].lstrip("# ").strip()
+    base = f"{oggi}-{richiesta.stem}" if richiesta else oggi
+    cartella, n = SEDUTE / base, 2
     while (cartella / "verbale_composto").exists():
-        cartella = SEDUTE / f"{oggi}-{n}"
+        cartella = SEDUTE / f"{base}-{n}"
         n += 1
-    (cartella / "posizioni").mkdir(parents=True, exist_ok=True)
+    if domanda and not ministri:
+        # riga "Ministri: 01, 06" del modello o campo "Ministri interessati" del modulo pubblico
+        m = re.search(r"^(?:Ministri:|#+\s*Ministri[^\n]*\n+)([^\n#]*)$", domanda, flags=re.M)
+        ministri = sorted(set(re.findall(r"\b0[1-9]\b", m.group(1)))) if m else None
+    ministri = ministri or list(MINISTERI)
+    if set(ministri) - set(MINISTERI):
+        sys.exit(f"--ministri: aree inesistenti {sorted(set(ministri) - set(MINISTERI))}")
+    for sotto in ("posizioni", "pareri"):
+        (cartella / sotto).mkdir(parents=True, exist_ok=True)
     conf = config()
 
     indicatori = leggi_json(RADICE / "sistema" / "stato" / "indicatori.json", [])
@@ -143,6 +183,8 @@ def prepara(motivo: str) -> Path:
     scelte = sel[(sel.tipo == "variante") & (sel.scelta == 1)]
     nel_programma = dict(zip(scelte.proposta_id, scelte.variante))
     lr = linee_rosse()
+    temi = [domanda, motivo] + [f"{a.get('messaggio', '')} {a.get('azione', '')}" for a in allerte]
+    collegio = scegli_esperti(" ".join(temi), esperti)
     mandati = [m for m in leggi_csv(MANDATI, CAMPI_MAND) if m["stato"] == "aperto"]
     cred = leggi_csv(CREDIBILITA, [])
     richieste = [p.name for p in (RADICE / "analisi" / "richieste").glob("*.md")
@@ -159,7 +201,8 @@ def prepara(motivo: str) -> Path:
             "varianti_escluse_linee_rosse": {k.split(":")[1]: m for k, m in lr.items()
                                              if k.startswith(r.proposta_id + ":")}})
     contesto = {
-        "seduta": cartella.name, "motivo": motivo, "indicatori": indicatori,
+        "seduta": cartella.name, "motivo": motivo, "domanda": domanda, "ministri": ministri,
+        "esperti": [e["id"] for e in collegio], "indicatori": indicatori,
         "allerte": [{k: a.get(k) for k in ("id", "messaggio", "azione", "priorita", "sospendi")} for a in allerte],
         "proposte_per_area": proposte, "coperture_escluse_linee_rosse": {k: m for k, m in lr.items() if ":" not in k},
         "mandati_aperti": mandati, "credibilita": cred, "suggerimenti_in_attesa": richieste,
@@ -176,8 +219,12 @@ def prepara(motivo: str) -> Path:
     prio_fuori = [p for p in prio if p not in nel_programma]
     dipendenti = esito[esito.classe == "dipendente dai valori"].proposta_id.tolist()
     righe = [f"# Ordine del giorno — seduta del {cartella.name}", "",
-             f"**Motivo della convocazione:** {motivo}", "",
-             "## 1. Situazione del Paese", ""]
+             f"**Motivo della convocazione:** {motivo}", ""]
+    if domanda:
+        righe += ["## 0. Domanda posta al Consiglio", "", "Ogni ruolo risponde prima a questa domanda, poi agli altri punti.", "",
+                  *[f"> {x}" for x in domanda.splitlines()], ""]
+    righe += [f"**Ministri convocati:** {', '.join(ministri)}. **Esperti:** {', '.join(e['nome'] for e in collegio)}.", "",
+              "## 1. Situazione del Paese", ""]
     righe += [f"- {i['nome']}: {i['valore']:g} {i['unita']} ({i['periodo']}), variazione {i['delta']:+.2f}" for i in rossi] or ["- Nessun indicatore in peggioramento."]
     righe += ["", "Allerte attive:"] + [f"- **{a['id']}**: {a.get('messaggio', '')} Azione prevista: {a.get('azione', '')}"
                                         for a in allerte] + (["- nessuna"] if not allerte else [])
@@ -196,9 +243,21 @@ def prepara(motivo: str) -> Path:
     (cartella / "ordine_del_giorno.md").write_text("\n".join(righe) + "\n", encoding="utf-8")
 
     rel = cartella.relative_to(RADICE).as_posix()
-    comuni = (f"Leggi `governo/regolamento.md`, `{rel}/ordine_del_giorno.md`, `{rel}/contesto.json`, "
-              "`01_carta_valori.md`, `giuridico/quadro.md`, `apprendimento/lezioni.md`.")
-    for area, (titolo, dossier) in MINISTERI.items():
+    base_lettura = (f"Leggi `governo/regolamento.md`, `{rel}/ordine_del_giorno.md`, `{rel}/contesto.json`, "
+                    "`01_carta_valori.md`, `giuridico/quadro.md`, `apprendimento/lezioni.md`.")
+    for e in collegio:
+        testo = (QUI / "ruoli" / "esperto.md").read_text(encoding="utf-8")
+        for k, v in {"{NOME}": e["nome"], "{ID}": e["id"], "{COMPETENZE}": e["competenze"],
+                     "{FONTI}": ", ".join(e.get("fonti", [])), "{COMUNI}": base_lettura,
+                     "{USCITA}": f"{rel}/pareri/{e['id']}.json"}.items():
+            testo = testo.replace(k, v)
+        (cartella / f"incarico_esperto_{e['id']}.md").write_text(testo, encoding="utf-8")
+    comuni = base_lettura + (f" Leggi prima i pareri degli esperti in `{rel}/pareri/`: se ti discosti da un parere, "
+                             "dillo e motiva.")
+    if domanda:
+        comuni += " Rispondi anche alla domanda posta al Consiglio, nel campo `risposta_alla_domanda` del tuo JSON."
+    for area in ministri:
+        titolo, dossier = MINISTERI[area]
         testo = (QUI / "ruoli" / "ministro.md").read_text(encoding="utf-8")
         testo = testo.replace("{TITOLO}", titolo).replace("{AREA}", area).replace("{DOSSIER}", dossier)
         testo = testo.replace("{COMUNI}", comuni).replace("{USCITA}", f"{rel}/posizioni/{area}.json")
@@ -253,8 +312,12 @@ def componi(cartella: Path) -> Path:
         sys.exit(f"{cartella}: capo.json mancante o senza 'decisioni'")
     oppo = leggi_json(cartella / "opposizione.json", {}) or {}
     posizioni = {f.stem: leggi_json(f, {}) for f in sorted((cartella / "posizioni").glob("*.json"))}
+    pareri = {f.stem: leggi_json(f, {}) for f in sorted((cartella / "pareri").glob("*.json"))}
     rilievi: list[str] = []
-    mancanti = sorted(set(MINISTERI) - set(posizioni))
+    assenti = sorted(set(ctx.get("esperti", [])) - set(pareri))
+    if assenti:
+        rilievi.append(f"Esperti senza parere: {', '.join(assenti)}")
+    mancanti = sorted(set(ctx.get("ministri", MINISTERI)) - set(posizioni))
     if mancanti:
         rilievi.append(f"Ministri assenti (nessuna posizione): {', '.join(mancanti)}")
 
@@ -286,6 +349,28 @@ def componi(cartella: Path) -> Path:
             rilievi.append(f"{autore}: nessuna previsione sul contesto (regola 2)")
         for j, p in enumerate(pos.get("previsioni_contesto", []) or []):
             raccogli(autore, p, f"{autore}, previsione {j + 1}")
+    # Esperti: pareri con fonti e grado di certezza, giudizi sulle proposte
+    contrari: dict[str, list[str]] = {}
+    for eid, par in pareri.items():
+        autore = f"esperto_{eid}"
+        validi = []
+        for i, q in enumerate(par.get("pareri", []) or []):
+            if not q.get("evidenze") or q.get("certezza") not in CERTEZZE or not str(q.get("cosa_non_sappiamo", "")).strip():
+                rilievi.append(f"{autore}, parere {i + 1}: senza evidenze, grado di certezza o limiti dichiarati, scartato")
+                continue
+            validi.append(q)
+        par["pareri"] = validi
+        giudizi = []
+        for g in par.get("proposte", []) or []:
+            if g.get("proposta") in proposte and g.get("giudizio") in GIUDIZI:
+                giudizi.append(g)
+                if g["giudizio"] == "contrario":
+                    contrari.setdefault(g["proposta"], []).append(eid)
+            else:
+                rilievi.append(f"{autore}: giudizio su proposta inesistente o non valido, scartato ({g.get('proposta')})")
+        par["proposte"] = giudizi
+        for j, p in enumerate(par.get("previsioni_contesto", []) or []):
+            raccogli(autore, p, f"{autore}, previsione {j + 1}")
     for j, p in enumerate(oppo.get("previsioni_contesto", []) or []):
         raccogli("opposizione", p, f"opposizione, previsione {j + 1}")
     for j, p in enumerate(capo.get("previsioni_contesto", []) or []):
@@ -310,6 +395,9 @@ def componi(cartella: Path) -> Path:
                 d["esito_controlli"].append(f"linea rossa: {lr[f'{pid}:{var}']} (regola 8)")
             if pid in obiettate and not str(d.get("risposta_opposizione", "")).strip():
                 rilievi.append(f"{dove} ({pid}): nessuna risposta all'obiezione dell'opposizione (regola 7)")
+            if pid in contrari and not str(d.get("risposta_esperti", "")).strip():
+                rilievi.append(f"{dove} ({pid}): adottata contro il parere di {', '.join(contrari[pid])} "
+                               "senza risposta scritta (regola 11)")
         motore = proposte[pid]["nel_programma_del_momento"]
         # ZERO = status quo: per il motore la proposta è già fuori dal programma
         diverge = (d["decisione"] == "adottata" and motore != var) or (d["decisione"] == "respinta" and motore not in ("no", "ZERO"))
@@ -362,8 +450,11 @@ def componi(cartella: Path) -> Path:
 
     # Verbale
     VERBALI.mkdir(exist_ok=True)
-    verbale = {"seduta": seduta, "motivo": ctx["motivo"], "indirizzo": capo.get("indirizzo", ""),
-               "decisioni": decisioni, "posizioni": posizioni, "opposizione": oppo, "mandati": nuovi,
+    if ctx.get("domanda") and not str(capo.get("risposta_alla_domanda", "")).strip():
+        rilievi.append("capo: nessuna risposta alla domanda posta al Consiglio")
+    verbale = {"seduta": seduta, "motivo": ctx["motivo"], "domanda": ctx.get("domanda", ""),
+               "risposta": capo.get("risposta_alla_domanda", ""), "indirizzo": capo.get("indirizzo", ""),
+               "decisioni": decisioni, "posizioni": posizioni, "pareri": pareri, "opposizione": oppo, "mandati": nuovi,
                "mandati_chiusi": sorted(chiusi), "previsioni": len(previsioni), "rilievi": rilievi,
                "ragioneria": {"finanziabile": ok, "esito": ragioneria, "varianti_adottate": forza}}
     (VERBALI / f"{seduta}.json").write_text(json.dumps(verbale, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -372,12 +463,26 @@ def componi(cartella: Path) -> Path:
     return VERBALI / f"{seduta}.md"
 
 
+def nomi_esperti() -> dict[str, str]:
+    try:
+        return {e["id"]: e["nome"] for e in yaml.safe_load(ESPERTI.read_text(encoding="utf-8"))["esperti"]}
+    except (OSError, KeyError, TypeError):
+        return {}
+
+
+NOMI_ESPERTI = nomi_esperti()
+
+
 def verbale_md(v: dict, proposte: dict) -> str:
     tit = lambda p: proposte.get(p, {}).get("titolo", p)
     r = [f"# Verbale del Consiglio dei ministri — {v['seduta']}", "",
          "*Governo ombra di GovernAI: le decisioni non sono in vigore. Regole in `governo/regolamento.md`; "
          "atti della seduta in `governo/sedute/" + v["seduta"] + "/`.*", "",
-         f"**Motivo della convocazione.** {v['motivo']}", "", "## Indirizzo del capo di governo", "", v["indirizzo"] or "—", "",
+         f"**Motivo della convocazione.** {v['motivo']}", ""]
+    if v.get("domanda"):
+        r += ["## Domanda posta al Consiglio", "", *[f"> {x}" for x in v["domanda"].splitlines()], "",
+              "## Risposta del Consiglio", "", v.get("risposta") or "—", ""]
+    r += ["## Indirizzo del capo di governo", "", v["indirizzo"] or "—", "",
          "## Decisioni", "", "| Proposta | Variante | Decisione | Regola | Motivazione |", "|---|---|---|---|---|"]
     for d in v["decisioni"]:
         regola = d.get("regola", "") + (" · **deroga**" if d.get("deroga") else "")
@@ -390,6 +495,20 @@ def verbale_md(v: dict, proposte: dict) -> str:
     deroghe = [d for d in v["decisioni"] if d.get("deroga")]
     if deroghe:
         r += ["## Deroghe dall'esito del motore", ""] + [f"- **{d['proposta']}**: {d.get('motivo_deroga') or 'motivazione mancante'}" for d in deroghe] + [""]
+    if v.get("pareri"):
+        r += ["## Pareri degli esperti", ""]
+        risposte_e = {d["proposta"]: d.get("risposta_esperti", "") for d in v["decisioni"]}
+        for eid, par in v["pareri"].items():
+            r += [f"### {NOMI_ESPERTI.get(eid, eid)}", "", str(par.get("sintesi", "")), ""]
+            for q in par.get("pareri", []):
+                fonti = "; ".join(f"{e.get('fonte', '')}: {e.get('dato', '')}" for e in q.get("evidenze", []))
+                r += [f"- **{q.get('tema', '')}** (certezza {q.get('certezza')}): {q.get('parere', '')}",
+                      f"  - Evidenze: {fonti}", f"  - Cosa non sappiamo: {q.get('cosa_non_sappiamo', '')}"]
+            for g in par.get("proposte", []):
+                cond = f" Condizione: {g['condizione']}" if g.get("condizione") else ""
+                risp = f" — *Risposta del capo: {risposte_e[g['proposta']]}*" if g["giudizio"] == "contrario" and risposte_e.get(g["proposta"]) else ""
+                r.append(f"- {g['proposta']}: **{g['giudizio']}**. {g.get('motivo', '')}{cond}{risp}")
+            r.append("")
     r += ["## Obiezioni dell'opposizione e risposte", ""]
     risposte = {d["proposta"]: d.get("risposta_opposizione", "") for d in v["decisioni"]}
     for o in v["opposizione"].get("obiezioni", []) or []:
@@ -402,6 +521,8 @@ def verbale_md(v: dict, proposte: dict) -> str:
     r += ["", "## Posizioni dei ministri", ""]
     for area, pos in v["posizioni"].items():
         r += [f"### {MINISTERI.get(area, (area,))[0]}", "", str(pos.get("situazione", "")), ""]
+        if pos.get("risposta_alla_domanda"):
+            r += [f"*Risposta alla domanda:* {pos['risposta_alla_domanda']}", ""]
         for q in pos.get("richieste", []):
             eff = "; ".join(f"{e.get('area')} {e.get('segno')} {e.get('effetto')}" for e in q.get("effetti_altri", []) or []) or "nessuno dichiarato"
             r += [f"- **{q['azione']} {q['proposta']}** {q.get('variante', '')}: {q.get('motivazione', '')}",
@@ -472,10 +593,16 @@ def main() -> int:
     g.add_argument("--componi", metavar="CARTELLA", help="applica il regolamento e scrive il verbale")
     g.add_argument("--valuta", action="store_true", help="verifica le previsioni scadute e aggiorna la credibilità")
     ap.add_argument("--motivo", default="Seduta ordinaria", help="motivo della convocazione")
+    ap.add_argument("--richiesta", help="con --prepara: file con la domanda posta al Consiglio (prima riga = titolo)")
+    ap.add_argument("--ministri", help="con --prepara: aree convocate, es. 01,06 (predefinito: tutte)")
+    ap.add_argument("--esperti", help="con --prepara: esperti scelti a mano, es. fiscalista,giurista (vedi esperti.yaml)")
     a = ap.parse_args()
     if a.prepara:
-        c = prepara(a.motivo)
-        print(f"seduta preparata: {c.relative_to(RADICE).as_posix()} (incarichi: 9 ministri, opposizione, capo)")
+        lista = lambda x: [v.strip() for v in x.split(",") if v.strip()] if x else None
+        c = prepara(a.motivo, Path(a.richiesta).resolve() if a.richiesta else None, lista(a.ministri), lista(a.esperti))
+        ctx = leggi_json(c / "contesto.json")
+        print(f"seduta preparata: {c.relative_to(RADICE).as_posix()} (esperti: {', '.join(ctx['esperti'])}; "
+              f"ministri: {', '.join(ctx['ministri'])}; opposizione; capo)")
     elif a.componi:
         print(f"verbale: {componi(Path(a.componi).resolve()).relative_to(RADICE).as_posix()}")
     else:

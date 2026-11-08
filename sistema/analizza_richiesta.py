@@ -247,17 +247,22 @@ def importa_issue_approvate() -> list[str]:
                      params={"labels": "analisi-approvata", "state": "open", "per_page": 50},
                      headers={"Accept": "application/vnd.github+json"})
     r.raise_for_status()
-    nuove, cartella = [], OUT / "richieste"
+    nuove = []
     for iss in r.json():
         nome = f"issue-{iss['number']}"
+        # le domande al Consiglio dei ministri (etichetta "consiglio" o titolo "[Consiglio]") vanno in governo/richieste/
+        consiglio = (any(l.get("name") == "consiglio" for l in iss.get("labels", []))
+                     or iss["title"].startswith("[Consiglio]"))
+        cartella = RADICE / "governo" / "richieste" if consiglio else OUT / "richieste"
         gia = list(OUT.glob(f"*-{nome}.json")) + [cartella / f"{nome}.md", cartella / "fatte" / f"{nome}.md"]
         if any(p.exists() for p in gia):
             continue
         cartella.mkdir(parents=True, exist_ok=True)
-        testo = (f"# {iss['title'].removeprefix('[Suggerimento]').strip()}\n\n{iss.get('body') or ''}\n\n"
+        titolo = iss["title"].removeprefix("[Suggerimento]").removeprefix("[Consiglio]").strip()
+        testo = (f"# {titolo}\n\n{iss.get('body') or ''}\n\n"
                  f"*Suggerimento pubblico: issue #{iss['number']} di @{iss['user']['login']}.*\n")
         (cartella / f"{nome}.md").write_text(testo, encoding="utf-8")
-        nuove.append(nome)
+        nuove.append(("consiglio/" if consiglio else "") + nome)
     return nuove
 
 
