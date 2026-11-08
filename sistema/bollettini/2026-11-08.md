@@ -1,10 +1,14 @@
 # Bollettino GovernAI — 2026-11-08
 
-*Generato automaticamente da `sistema/pipeline.py` alle 10:41. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 13:04. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
-- Download non eseguito in questa esecuzione.
+- Modalità di aggiornamento: **nessun aggiornamento**
+- Dataset Eurostat aggiornati: nessuno
+- File ufficiali aggiornati: 0
+- Serie cambiate e archiviate in `dati/storico/`: bm_01_produttivita_ora, bm_02_occupazione_20_64, bm_03_rinnovabili_quota, bm_04_sovraccarico_abitativo, bm_05_laureati_25_34, bm_06_bisogni_cure_insoddisfatti, bm_09_egov_uso, obi_aps_quota_rifugiati, obi_disposition_time_annuale, obi_export_quote_mercati, obi_presenze_quota_lug_ago, obi_rapporto_infermieri_medici, obi_regioni_perdite_oltre_50, obi_rimpatri_su_ordini
+- Documenti nuovi sulle pagine osservate: 0
 
 ## 2. Cruscotto
 
@@ -56,20 +60,7 @@ Il programma di riferimento (tutte le coperture, nucleo robusto prima) costa **1
 
 **Cambiamenti rispetto al bollettino precedente:**
 
-- 01-P10: esclusa → PIENA
-- 01-P11: esclusa → ZERO
-- 01-P12: esclusa → PIENA
-- 01-P7: esclusa → PIENA
-- 01-P8: esclusa → ZERO
-- 01-P9: esclusa → ZERO
-- 02-C6: ZERO → PIENA
-- 04-P1: PILOTA → esclusa
-- 07-C1: ESSENZIALE → PIENA
-- 08-P7: esclusa → PIENA
-- 09-C4: PIENA → ZERO
-- 09-C6: esclusa → PIENA
-- 09-C7: esclusa → PIENA
-- 09-C8: esclusa → PIENA
+- nessuno
 
 Dettaglio: `programma/selezione_momento.md`.
 
@@ -79,7 +70,11 @@ Nessuna revisione necessaria.
 
 ## Registro tecnico
 
+- sentinella: sentinella: nessun aggiornamento; Eurostat aggiornati 0, file 0, documenti nuovi 0, serie cambiate 14, errori 0
 - apprendimento: 158 KPI, stati {'manuale': 114, 'in osservazione': 44}, aree calibrate 0
+- legislazione: archivio GU: 576 atti, 576 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
+- consiglio: 95 previsioni, 0 verificate oggi, 0 verificate in totale
+- verifica sedute: 2 attive, 2 confermate, 0 da riesaminare
 - controlla.py: avvisi: 0  ->  bilancio.md
 - decidi.py: -> esito.md, esito_proposte.csv
 - ottimizza.py (riferimento): spesa 12.99  coperture 11.02  proposte 53/62  -> selezione_riferimento.md

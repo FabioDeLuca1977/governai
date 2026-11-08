@@ -1,15 +1,26 @@
 {
- "data": "2026-11-07T16:45:21",
+ "data": "2026-11-08T13:03:08",
  "prima_esecuzione": false,
  "eurostat_aggiornati": [],
- "file_aggiornati": [
-  "https://www.gse.it/documenti_site/Documenti%20GSE/Rapporti%20ASTE%20CO2/Rapporto%20Aste%20CO2_%20Annuale_%202025.pdf"
- ],
+ "file_aggiornati": [],
  "documenti_nuovi": [],
  "errori": [],
- "script": {
-  "03_ambiente.py": "ok"
- },
- "serie_cambiate": [],
- "modalita": "mirato"
+ "script": {},
+ "serie_cambiate": [
+  "bm_01_produttivita_ora",
+  "bm_02_occupazione_20_64",
+  "bm_03_rinnovabili_quota",
+  "bm_04_sovraccarico_abitativo",
+  "bm_05_laureati_25_34",
+  "bm_06_bisogni_cure_insoddisfatti",
+  "bm_09_egov_uso",
+  "obi_aps_quota_rifugiati",
+  "obi_disposition_time_annuale",
+  "obi_export_quote_mercati",
+  "obi_presenze_quota_lug_ago",
+  "obi_rapporto_infermieri_medici",
+  "obi_regioni_perdite_oltre_50",
+  "obi_rimpatri_su_ordini"
+ ],
+ "modalita": "nessun aggiornamento"
 }

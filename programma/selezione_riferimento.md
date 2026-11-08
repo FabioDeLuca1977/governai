@@ -37,7 +37,6 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 05-C5 | Scuole aperte come presidi di comunita' | PIENA | 1,0 | 0,40 | 100% |
 | 09-C8 | Staffetta delle competenze": il ricambio generazionale come occasione di riqualificazione | PIENA | 1,0 | 0,23 | 100% |
 | 09-C5 | AI nella PA con le mani sul volante | PIENA | 1,0 | 0,22 | 100% |
-| 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | PIENA | 1,0 | 0,15 | 100% |
 | 07-C4 | Dal bene confiscato al bene comune | PIENA | 1,0 | 0,15 | 100% |
 | 09-C1 | Stato a vetro: infrastruttura aperta per l'analisi delle politiche | PIENA | 1,0 | 0,07 | 100% |
 | 01-P12 | Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate | PIENA | 1,0 | 0,06 | 100% |
@@ -63,27 +62,28 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 05-C1 | Nessuno escluso: squadre di prossimita' contro la dispersione | PIENA | 1,0 | 0,25 | 99% |
 | 05-C6 | AI a scuola | PIENA | 1,0 | 0,22 | 99% |
 | 01-P3 | IVA in tempo reale | PIENA | 1,0 | 0,15 | 99% |
+| 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | PIENA | 1,0 | 0,15 | 99% |
 | 05-C3 | Carriere della ricerca | ZERO | 0,1 | 0,00 | 99% |
-| 09-C3 | Tecnici della Repubblica: pool di competenze per i piccoli enti | PIENA | 1,0 | 0,55 | 99% |
 | 03-P2 | Elettricita' rinnovabile a prezzo rinnovabile (CfD) | PIENA | 1,0 | 0,15 | 99% |
 | 01-P8 | Meno scontrini: riordino delle detrazioni del 19% | ZERO | 0,4 | 0,00 | 99% |
+| 09-C3 | Tecnici della Repubblica: pool di competenze per i piccoli enti | PIENA | 1,0 | 0,55 | 98% |
 | 01-P10 | Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti | PIENA | 1,0 | 0,10 | 98% |
 | 01-P11 | Lo scontrino che conviene: un incentivo mirato al posto di lotterie e cashback | ZERO | 0,1 | 0,00 | 98% |
 | 03-P4 | Prevenire costa meno: fondo prevenzione e assicurazione catastrofale | ESSENZIALE | 0,6 | 0,80 | 97% |
 | 09-C7 | Automazione dei processi ripetitivi con riallocazione garantita | PIENA | 1,0 | 0,20 | 97% |
 | 02-C3 | Patto previdenziale tra generazioni | ESSENZIALE | 0,8 | 0,35 | 91% |
-| 03-P5 | Contratto agro-climatico | PIENA | 1,0 | 0,50 | 89% |
+| 03-P5 | Contratto agro-climatico | PIENA | 1,0 | 0,50 | 90% |
 | 02-C1 | Salario minimo contrattuale garantito | PIENA | 1,0 | 0,35 | 89% |
 | 07-C3 | Governance dei flussi migratori fondata sui dati | PIENA | 1,0 | 0,55 | 89% |
 | 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | PIENA | 1,0 | 0,35 | 75% |
 | 05-C4 | Piu' laureati e diplomati terziari: ITS, lauree professionalizzanti, residenze | ESSENZIALE | 0,6 | 0,45 | 66% |
 | 07-C1 | Giustizia a regime: Ufficio per il processo e triage digitale | PIENA | 1,0 | 0,55 | 61% |
 | 04-P6 | Restare e' possibile: servizi essenziali aree interne | PIENA | 1,0 | 0,80 | 41% |
-| 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | PIENA | 1,0 | 0,35 | 39% |
 | 09-C4 | Cloud pubblico sostenibile e Patto per la manutenzione digitale | ESSENZIALE | 0,5 | 0,12 | 39% |
+| 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | PIENA | 1,0 | 0,35 | 38% |
 | 02-C6 | Bilancio generazionale e strategia demografica | ESSENZIALE | 0,5 | 0,10 | 33% |
-| 08-P6 | Export resiliente | PILOTA | 0,1 | 0,03 | 32% |
-| 04-P1 | Patto di continuita' post-PNRR | ESSENZIALE | 0,6 | 0,28 | 30% |
+| 08-P6 | Export resiliente | PILOTA | 0,1 | 0,03 | 31% |
+| 04-P1 | Patto di continuita' post-PNRR | ESSENZIALE | 0,6 | 0,28 | 29% |
 
 ## Coperture attivate
 
@@ -153,8 +153,8 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 Restano fuori perché, con le risorse disponibili, altre misure danno più valore per euro, oppure perché il loro effetto netto sui valori è negativo. *Rientrano se si trovano coperture aggiuntive.*
 
 - 02-C4 Reddito di inclusione universale (scelta in 1% delle combinazioni di pesi)
-- 03-P3 Ogni goccia conta: reti idriche e riuso (scelta in 33% delle combinazioni di pesi)
-- 04-P2 Casa a canone giusto (scelta in 25% delle combinazioni di pesi)
+- 03-P3 Ogni goccia conta: reti idriche e riuso (scelta in 35% delle combinazioni di pesi)
+- 04-P2 Casa a canone giusto (scelta in 24% delle combinazioni di pesi)
 - 04-P3 Prima il treno dei pendolari: fondo TPL e abbonamento unico (scelta in 0% delle combinazioni di pesi)
 - 06-C2 Patto per infermieri e medicina generale (scelta in 0% delle combinazioni di pesi)
 - 06-C3 Case della Comunita' vive (scelta in 8% delle combinazioni di pesi)

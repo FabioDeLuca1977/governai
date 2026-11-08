@@ -42,7 +42,7 @@ id,proposta,nome,unita,direzione,base,periodo_base,obiettivo,valori,ultimo,perio
 03-P2-a,03-P2,Quota rinnovabili sulla domanda elettrica,%,su,41.1,2025,62.0,"FUT,INN",,,,,manuale
 03-P2-b,03-P2,Nuova capacità rinnovabile installata,GW/anno,su,7.19,2025,10.0,"FUT,INN",,,,,manuale
 03-P2-c,03-P2,Tempo medio di autorizzazione degli impianti in area idonea,giorni,giu,,,,"INN,FID",,,,,manuale
-03-P3-a,03-P3,Perdite idriche totali in distribuzione,%,giu,42.4,2022,33.0,"FUT,BEN",42.35002822987733,2022,0.005,,in osservazione
+03-P3-a,03-P3,Perdite idriche totali in distribuzione,%,giu,42.4,2022,33.0,"FUT,BEN",42.350028229877324,2022,0.005,,in osservazione
 03-P3-b,03-P3,Regioni con perdite oltre il 50%,regioni,giu,5.0,2022,0.0,"EQU,FUT",5.0,2022,-0.0,,in osservazione
 03-P3-c,03-P3,Acqua reflua riutilizzata in agricoltura,mln m3,su,,,,FUT,,,,,manuale
 03-P4-a,03-P4,Imprese con polizza catastrofale,% imprese,su,16.0,2026-04,80.0,"SIC,FUT",,,,,manuale
