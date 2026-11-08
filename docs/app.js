@@ -27,6 +27,25 @@
     return "<pre>" + esc(testo) + "</pre>";
   }
   const chipClasse = (c) => `<span class="chip ${CSS_CLASSE[c] || ""}">${esc(NOME_CLASSE[c] || c)}</span>`;
+
+  // Verifica giuridica: l'esito complessivo è il più restrittivo tra gli ambiti
+  const GRAVITA = { compatibile: 0, condizionato: 1, richiede_notifica: 2, incompatibile: 3 };
+  const NOME_ESITO = { compatibile: "Compatibile", condizionato: "Condizionato", richiede_notifica: "Richiede notifica", incompatibile: "Incompatibile" };
+  const CSS_ESITO = { compatibile: "robusta", condizionato: "valori", richiede_notifica: "var-PILOTA", incompatibile: "sfavorevole" };
+  const NOME_AMBITO = { FIS: "Fiscale", COS: "Costituzionale", UE: "Europeo" };
+  const esitoPeggiore = (righe) => (righe || []).reduce((a, r) => (GRAVITA[r.esito] ?? 0) > (GRAVITA[a] ?? -1) ? r.esito : a, null);
+  const chipGiuridico = (righe) => {
+    const e = esitoPeggiore(righe);
+    return e ? `<span class="chip ${CSS_ESITO[e] || ""}" title="Verifica giuridica">⚖ ${esc(NOME_ESITO[e] || e)}</span>` : "";
+  };
+  const linkFonti = (f) => String(f || "").split(/[\s;,]+/).filter((u) => /^https?:\/\//.test(u))
+    .map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">fonte ${i + 1}</a>`).join(" ");
+  const tabellaGiuridica = (righe) => !(righe || []).length ? '<p class="vuoto">Verifica giuridica non ancora disponibile.</p>' :
+    `<div class="tabella-box"><table><thead><tr><th>Ambito</th><th>Esito</th><th>Norme e motivazione</th></tr></thead><tbody>${righe.map((r) => `
+      <tr><td>${esc(NOME_AMBITO[r.ambito] || r.ambito)}${r.tipo === "variante" ? `<br><small>${esc(r.id.split(":")[1] || "")}</small>` : ""}</td>
+      <td><span class="chip ${CSS_ESITO[r.esito] || ""}">${esc(NOME_ESITO[r.esito] || r.esito)}</span></td>
+      <td><strong>${esc(r.norme)}</strong><br>${esc(r.motivazione)}${r.condizioni ? `<br><em>Condizioni:</em> ${esc(r.condizioni)}` : ""} ${linkFonti(r.fonti)}</td></tr>`).join("")}
+    </tbody></table></div>`;
   const chipVariante = (v) => v ? `<span class="chip var-${esc(v)}">${esc(v.charAt(0) + v.slice(1).toLowerCase())}</span>` : '<span class="chip var-esclusa">non inclusa</span>';
   const proposta = (id) => D.proposte.find((p) => p.id === id);
   const scenario = (id) => D.scenari.find((s) => s.id === id) || D.scenari[0];
@@ -88,6 +107,8 @@
         ${p.trainanti ? "Sale se si dà più peso a: <strong>" + esc(p.trainanti) + "</strong>." : ""}</p>
       <h3>Effetto sui valori <small style="color:var(--tenue);font-weight:400">(mediana del panel, media dei tre orizzonti, da −3 a +3)</small></h3>
       <div class="valori-barre">${barre}</div>
+      <h3 style="margin-top:18px">Verifica giuridica <small style="color:var(--tenue);font-weight:400">(fiscale, costituzionale, europea)</small></h3>
+      ${tabellaGiuridica(p.giuridico)}
       <h3 style="margin-top:18px">Varianti</h3>
       <div class="tabella-box"><table><thead><tr><th>Variante</th><th class="num">Costo</th><th class="num">Intensità</th><th>Descrizione</th></tr></thead><tbody>${varianti}</tbody></table></div>
       <div class="md" style="margin-top:18px">${md(p.scheda.replace(/^## .*\n/, "### Scheda pronta\n"))}</div>`);
@@ -253,7 +274,8 @@
         const m = s.misure[p.id], r = rif.misure[p.id];
         const diverso = s.id !== "completo" && (m && m.variante) !== (r && r.variante);
         corpo += `<tr class="cliccabile${m ? "" : " esclusa"}" data-proposta="${esc(p.id)}">
-          <td>${esc(p.id)}</td><td>${esc(p.titolo)} ${p.linea_rossa ? '<span class="chip rossa">!</span>' : ""}</td><td>${chipClasse(p.classe)}</td>
+          <td>${esc(p.id)}</td><td>${esc(p.titolo)} ${p.linea_rossa ? '<span class="chip rossa">!</span>' : ""} ${chipGiuridico((p.giuridico || []).filter((g) =>
+            g.tipo === "proposta" || (m && g.id === `${p.id}:${m.variante}`)))}</td><td>${chipClasse(p.classe)}</td>
           <td>${chipVariante(m && m.variante)}${diverso ? ` <small style="color:var(--tenue)">(completo: ${esc(r ? r.variante.toLowerCase() : "esclusa")})</small>` : ""}</td>
           <td class="num">${m ? nf(m.costo) : "—"}</td>
           <td><div class="barra" title="robustezza ${pct(m && m.robustezza)}"><span style="width:${m ? Math.round(m.robustezza * 100) : 0}%"></span></div></td></tr>`;
@@ -322,7 +344,7 @@
         <div class="tabella-box"><table><thead><tr><th>Misura</th><th>Descrizione</th><th>Fondo</th><th class="num">Gettito min–max</th><th>Chi paga</th><th>Valori</th><th>Base</th><th>Completo</th></tr></thead>
           <tbody id="c-corpo">${D.coperture.map((c) => `<tr data-testo="${esc((c.misura_id + " " + c.descrizione + " " + c.chi_paga).toLowerCase())}" data-fondo="${esc(c.fondo_id)}" data-livello="${c.livello ?? 1}">
             <td>${esc(c.misura_id)}<br><span class="chip">liv. ${c.livello ?? 1}</span></td><td>${esc(c.descrizione)}</td><td>${esc(c.fondo_id)}</td>
-            <td class="num">${nf(c.gettito_min)}–${nf(c.gettito_max)}</td><td>${esc(c.chi_paga)}</td><td>${punti(c)}</td>
+            <td class="num">${nf(c.gettito_min)}–${nf(c.gettito_max)}</td><td>${esc(c.chi_paga)}</td><td>${punti(c)}<br>${chipGiuridico(c.giuridico)}</td>
             <td>${base.has(c.misura_id) ? "✓" : ""}</td><td>${comp.has(c.misura_id) ? "✓" : ""}</td></tr>`).join("")}</tbody></table></div>`;
     },
 
@@ -339,7 +361,7 @@
     },
 
     metodo() {
-      const doc = { programma: "Programma 1.0", carta: "Carta dei valori", metodo: "Metodo degli agenti", sistema: "Sistema dinamico" };
+      const doc = { programma: "Programma", carta: "Carta dei valori", giuridico: "Quadro giuridico e UE", metodo: "Metodo degli agenti", sistema: "Sistema dinamico" };
       return `
         <h1>Metodo</h1>
         <p class="intro">Come nasce il programma: dossier ministeriali, verifica di 334 cifre su fonte primaria, Carta dei sette valori, panel indipendente e analisi di robustezza, ottimizzazione senza deficit, aggiornamento continuo dai dati ufficiali.</p>

@@ -39,6 +39,14 @@ Le richieste sono i file `analisi/richieste/*.md`. Escludi `README.md` e `_model
    Il risultato va in `analisi/`.
 6. Sposta la richiesta in `analisi/richieste/fatte/`.
 
+## 2b. Competenza giuridica
+
+Ragiona sempre come un esperto di fiscalità, di diritto italiano e di diritto dell'Unione europea. Prima di ogni dossier leggi `giuridico/quadro.md`. Per ogni opzione indica:
+- la base giuridica;
+- la conformità fiscale, costituzionale ed europea.
+
+Non proporre opzioni incompatibili: riformulale. Cita solo norme verificate su Normattiva o EUR-Lex; se non le hai verificate, scrivi "da verificare".
+
 ## 3. Il lunedì: revisione del momento
 
 Leggi:
@@ -55,6 +63,12 @@ Ogni modifica richiede:
 - una riga in `sistema/stato/modifiche_ai.csv`, con data, stato, file, riga, campo, valore prima, valore dopo, fonte, citazione e motivazione.
 
 Le variazioni oltre il 25% vanno registrate con stato "in attesa" e non applicate.
+
+**Nuove norme e decisioni UE.** Tra i documenti nuovi ci sono anche quelli di Gazzetta Ufficiale ed EUR-Lex. Se una nuova legge, sentenza o decisione europea cambia la conformità di una misura o di una copertura:
+- aggiorna la riga in `giuridico/conformita_FIS.csv`, `conformita_COS.csv` o `conformita_UE.csv`, con norma, link e motivazione;
+- esegui `python -I giuridico/unisci.py`.
+
+Un esito "incompatibile" esclude in automatico la misura dal programma.
 
 **Nota del giorno.** Aggiungi in fondo al bollettino del giorno, `sistema/bollettini/<data>.md` e `ultimo.md`, una sezione `## 6. Nota del livello AI` di massimo 400 parole, con tre parti:
 - **Cosa è successo**;

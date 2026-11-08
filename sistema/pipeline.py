@@ -194,6 +194,10 @@ def main() -> int:
         ok, msg = esegui(["valuta.py"], RADICE / "apprendimento")
         log.append(msg if ok else f"ERRORE apprendimento: {msg}")
 
+    # 3c. verifica giuridica: unisce le verifiche degli esperti (le incompatibilità diventano linee rosse)
+    if list((RADICE / "giuridico").glob("conformita_*.csv")):
+        esegui(["unisci.py"], RADICE / "giuridico")
+
     # 4. ricalcolo
     dati_nuovi = bool(sent.get("serie_cambiate")) or bool(nuove_allerte)
     priorita = sorted({p for r in allerte for p in r.get("priorita", [])})

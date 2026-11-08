@@ -131,7 +131,23 @@ def linee_rosse(chiavi: pd.DataFrame, menu: pd.DataFrame) -> list[tuple[str, str
     for i, r in chiavi.iterrows():
         if r.proposta_id in maggioranza and r.costo_regime > 0:
             out.append(("linea rossa segnalata dalla maggioranza del panel", r.chiave, int(i)))
-    # 2. copertura che sposta costi rilevanti sui più deboli senza compensazione (Carta, Equità)
+    # 2. incompatibilità giuridica (Costituzione o diritto UE) secondo gli esperti di giuridico/
+    conf_f = RADICE / "giuridico" / "conformita.csv"
+    if conf_f.exists():
+        conf = pd.read_csv(conf_f, dtype=str).fillna("")
+        inc = conf[conf.esito == "incompatibile"]
+        for r in inc.itertuples():
+            motivo = f"incompatibile ({r.ambito}): {r.norme[:80]}"
+            if r.tipo == "proposta":
+                for i in chiavi.index[chiavi.proposta_id == r.id]:
+                    out.append((motivo, chiavi.chiave[i], int(i)))
+            elif r.tipo == "variante":
+                for i in chiavi.index[chiavi.chiave == r.id]:
+                    out.append((motivo, chiavi.chiave[i], int(i)))
+            elif r.tipo == "copertura":
+                for j in menu.index[menu.misura_id == r.id]:
+                    out.append((motivo, r.id, len(chiavi) + int(j)))
+    # 3. copertura che sposta costi rilevanti sui più deboli senza compensazione (Carta, Equità)
     J = len(chiavi)
     if "EQU" in menu.columns:
         for j, r in menu.iterrows():

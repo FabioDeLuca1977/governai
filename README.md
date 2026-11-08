@@ -22,9 +22,10 @@ L'interfaccia web pubblicata in `docs/` contiene:
 | `registro/` | Registro unico delle coperture e vincolo di bilancio |
 | `motore/` | Panel di 3 valutatori indipendenti e analisi di robustezza ai valori (SMAA) |
 | `programma/` | 152 varianti, 59 misure di copertura, ottimizzatore senza deficit, schede pronte (articolato normativo, cronoprogramma, indicatori) |
-| `20_programma_governai.md` | Il programma in due versioni senza deficit: base (7,9 mld) e completo (13,7 mld) |
+| `20_programma_governai.md` | Il programma in due versioni senza deficit: base (7,7 mld) e completo (12,1 mld), verificate giuridicamente |
 | `apprendimento/` | Obiettivi misurabili, registro delle decisioni, esiti e calibrazione: il modello impara da successi e insuccessi |
 | `integrita/` | Catena di impronte crittografiche (stile blockchain) che rende visibile ogni manomissione |
+| `giuridico/` | Verifica di conformità fiscale, costituzionale ed europea di ogni misura e copertura; le incompatibilità sono linee rosse automatiche |
 | `analisi/` | Analisi su richiesta, avviate da una issue GitHub con l'etichetta "analisi" |
 | `sistema/` | Sistema dinamico: sentinella delle fonti ufficiali, cruscotto, allerte, programma del momento, livello AI, bollettini; `sincronizza.py` allinea la copia locale a GitHub |
 | `docs/` | Interfaccia web statica, pronta per GitHub Pages |

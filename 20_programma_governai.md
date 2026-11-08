@@ -10,9 +10,17 @@
 > - Il panel indipendente ha rivalutato tutte le 52 proposte (alfa di Krippendorff 0,85).
 > - Si applicano le **linee rosse automatiche**. Sono escluse la Difesa nelle versioni a debito e due coperture regressive senza compensazione: l'aumento ulteriore delle accise sul tabacco (AS05) e la soppressione del bonus lavoratrici madri (RB05).
 >
-> **Nuovi totali**, tutti senza deficit:
-> - **programma base: 7,94 mld**, con 13 misure su 14 del nucleo robusto;
-> - **programma completo: 13,74 mld**, con 14 su 14.
+> **Nuovi totali**, tutti senza deficit e dopo la verifica giuridica:
+> - **programma base: 7,66 mld**, con 13 misure su 14 del nucleo robusto;
+> - **programma completo: 12,10 mld**, con 14 su 14.
+>
+> **Verifica giuridica.** Tre esperti (tributario, costituzionale, diritto UE) hanno escluso perché incompatibili:
+> - l'IVA ridotta dal 10% al 12% (SF15): sarebbe una terza aliquota ridotta, vietata dalla direttiva 2006/112/CE come modificata nel 2022;
+> - il contributo sui biglietti aerei con importi diversi per voli nazionali e UE (SAD11): viola l'art. 56 TFUE;
+> - il prezzo massimo dell'abbonamento ai trasporti locali imposto dallo Stato (04-P3, versione piena): il trasporto pubblico locale è materia regionale;
+> - il vincolo dei 3/5 sulle future leggi elettorali (08-P3, versione piena): una legge ordinaria non può vincolare le maggioranze future.
+>
+> Le altre misure sono compatibili, condizionate o richiedono un passaggio formale, come una notifica alla Commissione o un'intesa con le Regioni (`giuridico/`).
 >
 > **Nuovo nucleo robusto.** Con l'equità e la cittadinanza tra i valori, salgono:
 > - inclusione e comunità: squadre contro la dispersione, scuole aperte, progetto di vita per le persone con disabilità, beni confiscati;

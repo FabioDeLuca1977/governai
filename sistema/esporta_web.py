@@ -135,6 +135,9 @@ def main() -> int:
     var = pd.concat([pd.read_csv(f) for f in sorted((RADICE / "programma" / "varianti").glob("*.csv"))])
     var["variante"] = var.variante.str.upper().str.strip()
     sk = schede()
+    conf_f = RADICE / "giuridico" / "conformita.csv"
+    conf = pd.read_csv(conf_f, dtype=str).fillna("") if conf_f.exists() else pd.DataFrame(columns=["tipo", "id"])
+    campi_g = ["tipo", "id", "ambito", "esito", "norme", "fonti", "motivazione", "condizioni"]
     proposte = []
     for r in prop.itertuples():
         e = esito.loc[r.proposta_id]
@@ -148,6 +151,9 @@ def main() -> int:
             "varianti": [{"variante": x.variante, "intensita": pulisci(x.intensita), "costo": pulisci(x.costo_regime),
                           "descrizione": x.descrizione, "strumento": getattr(x, "strumento", "")} for x in vv.itertuples()],
             "scheda": sk.get(r.proposta_id, ""),
+            "giuridico": conf[((conf.tipo == "proposta") & (conf.id == r.proposta_id))
+                              | ((conf.tipo == "variante") & conf.id.str.startswith(r.proposta_id + ":"))]
+                         .reindex(columns=campi_g).to_dict("records"),
         })
 
     # Scenari del programma
@@ -184,7 +190,8 @@ def main() -> int:
         "valutatori": valutatori,
         "proposte": proposte,
         "scenari": scen,
-        "coperture": records(menu[col]),
+        "coperture": [{**c, "giuridico": conf[(conf.tipo == "copertura") & (conf.id == c["misura_id"])]
+                       .reindex(columns=campi_g).to_dict("records")} for c in records(menu[col])],
         "indicatori": ind,
         "regole": regole,
         "allerte_attive": sorted(attive),
@@ -201,7 +208,8 @@ def main() -> int:
         "documenti": {"carta": leggi(RADICE / "01_carta_valori.md"),
                       "programma": leggi(RADICE / "20_programma_governai.md"),
                       "metodo": leggi(RADICE / "00_metodo.md"),
-                      "sistema": leggi(QUI / "README.md")},
+                      "sistema": leggi(QUI / "README.md"),
+                      "giuridico": leggi(RADICE / "giuridico" / "quadro.md")},
     }
     dest = RADICE / "docs" / "data.js"
     dest.parent.mkdir(exist_ok=True)

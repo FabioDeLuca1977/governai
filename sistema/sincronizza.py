@@ -18,7 +18,10 @@ from pathlib import Path
 RADICE = Path(__file__).resolve().parents[1]
 # File generati dalla pipeline: sono gli stessi che l'Action salva su GitHub
 GENERATI = ["dati/serie", "dati/storico", "sistema/stato", "sistema/bollettini", "docs/data.js",
-            "registro/bilancio.md", "motore/esito.md", "motore/esito_proposte.csv", "programma"]
+            "registro/bilancio.md", "motore/esito.md", "motore/esito_proposte.csv",
+            "programma/selezione_*", "apprendimento/esiti.csv", "apprendimento/calibrazione.csv",
+            "apprendimento/lezioni.md", "integrita/catena.jsonl", "giuridico/conformita.csv", "giuridico/quadro.md"]
+# Solo output generati: mai cartelle che contengono codice o dati scritti a mano (es. programma/ottimizza.py)
 ETICHETTA = "governai-locale"
 CONSERVA = 7
 
@@ -32,7 +35,7 @@ def main() -> int:
     if git("rev-parse", "--is-inside-work-tree").returncode != 0 or not git("remote").stdout.strip():
         print("sincronizza: nessun repository git con remote, salto")
         return 0
-    esistenti = [p for p in GENERATI if (RADICE / p).exists()]
+    esistenti = [p for p in GENERATI if any(RADICE.glob(p))]
     if git("status", "--porcelain", "--", *esistenti).stdout.strip():
         r = git("stash", "push", "--include-untracked", "-m", f"{ETICHETTA} {date.today()}", "--", *esistenti)
         print(f"sincronizza: output locali accantonati ({r.stdout.strip() or r.stderr.strip()})")

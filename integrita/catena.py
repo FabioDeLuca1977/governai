@@ -35,7 +35,7 @@ REGOLE = ["01_carta_valori.md", "00_metodo.md", "motore/rubrica.md", "sistema/co
           "motore/decidi.py", "programma/ottimizza.py", "registro/controlla.py", "sistema/revisione_ai.py",
           "sistema/analizza_richiesta.py", "apprendimento/valuta.py"]
 INPUT = ["motore/punteggi_*.csv", "motore/proposte.csv", "registro/fondi.csv", "programma/varianti/*.csv",
-         "programma/coperture_menu.csv", "apprendimento/obiettivi.yaml", "apprendimento/decisioni.csv",
+         "programma/coperture_menu.csv", "giuridico/conformita.csv", "apprendimento/obiettivi.yaml", "apprendimento/decisioni.csv",
          "dati/serie/*.csv"]
 OUTPUT = ["programma/selezione_*.csv", "motore/esito_proposte.csv", "sistema/bollettini/ultimo.md",
           "apprendimento/esiti.csv", "apprendimento/calibrazione.csv", "analisi/*.json"]

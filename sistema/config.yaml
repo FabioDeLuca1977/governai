@@ -97,6 +97,9 @@ pagine:
   - {nome: "MASE - Ministero dell'Ambiente", url: "https://www.mase.gov.it/", aree: ["03"]}
   - {nome: "AGENAS", url: "https://www.agenas.gov.it/", aree: ["06"]}
   - {nome: "NATO - Spesa per la difesa", url: "https://www.nato.int/cps/en/natohq/topics_49198.htm", aree: ["07"]}
+  # Fonti giuridiche ed europee: leggi nuove, sentenze, decisioni del Consiglio UE
+  - {nome: "Gazzetta Ufficiale", url: "https://www.gazzettaufficiale.it/", aree: ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09"], pattern: "atto|serie_generale|dettaglio|eli"}
+  - {nome: "EUR-Lex - Gazzetta ufficiale UE", url: "https://eur-lex.europa.eu/oj/direct-access.html", aree: ["00", "01", "03", "08", "09"]}
 
 # --- Parametri ---------------------------------------------------------------------
 parametri:
