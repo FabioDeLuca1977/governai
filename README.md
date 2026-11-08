@@ -23,6 +23,7 @@ L'interfaccia web pubblicata in `docs/` contiene:
 | `motore/` | Panel di 3 valutatori indipendenti e analisi di robustezza ai valori (SMAA) |
 | `programma/` | 152 varianti, 59 misure di copertura, ottimizzatore senza deficit, schede pronte (articolato normativo, cronoprogramma, indicatori) |
 | `20_programma_governai.md` | Il programma in due versioni senza deficit: base (7,9 mld) e completo (13,0 mld), verificate giuridicamente |
+| `governo/` | Il Consiglio dei ministri ombra: regolamento, ruoli (9 ministri, opposizione leale, capo di governo), sedute, verbali, previsioni e credibilità |
 | `benchmark/` | Confronto con i Paesi che funzionano meglio (fisco, evasione, PA, appalti) e proposte che ne derivano |
 | `trasparenza/` | Indicatori di rischio negli appalti pubblici (dati ANAC); il rapporto pubblico è aggregato, gli elenchi nominativi restano riservati |
 | `legislazione/` | Archivio quotidiano della Gazzetta Ufficiale, ricerca negli atti e verifica della redazione di leggi ed emendamenti |

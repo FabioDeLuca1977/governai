@@ -11,7 +11,7 @@
   const NOME_CLASSE = { "robusta": "Nucleo robusto", "dipendente dai valori": "Dipende dai valori", "in coda": "In coda", "sfavorevole": "Sfavorevole" };
   const CSS_CLASSE = { "robusta": "robusta", "dipendente dai valori": "valori", "in coda": "coda", "sfavorevole": "sfavorevole" };
   const ORIZZ = ["breve", "medio", "lungo"];
-  const stato = { scenario: "momento", area: "", classe: "", cerca: "", soloIncluse: false, bollettino: null, documento: "programma", analisi: null };
+  const stato = { scenario: "momento", area: "", classe: "", cerca: "", soloIncluse: false, bollettino: null, documento: "programma", analisi: null, verbale: null };
 
   if (!D) {
     main.innerHTML = '<p class="vuoto">Dati non trovati: esegui <code>python sistema/esporta_web.py</code> per generare <code>docs/data.js</code>.</p>';
@@ -360,11 +360,34 @@
         </div>`;
     },
 
+    governo() {
+      const G = D.governo || { verbali: [], credibilita: [], mandati: [] };
+      const ruolo = (a) => a === "capo" ? "Capo di governo" : a === "opposizione" ? "Opposizione leale" : "Ministro " + a.replace("ministro_", "area ");
+      const cred = G.credibilita.length ? `<div class="tabella-box"><table><thead><tr><th>Ruolo</th><th class="num">Previsioni verificate</th><th class="num">In attesa</th><th class="num">Brier medio</th></tr></thead><tbody>${G.credibilita.map((c) => `<tr><td>${esc(ruolo(c.autore))}</td><td class="num">${esc(c.verificate)}</td><td class="num">${esc(c.in_attesa)}</td><td class="num">${c.brier_medio === "" || c.brier_medio == null ? "—" : nf(+c.brier_medio, 3)}</td></tr>`).join("")}</tbody></table></div>` : '<p class="vuoto">Nessuna previsione ancora.</p>';
+      const aperti = G.mandati.filter((m) => m.stato === "aperto");
+      const mand = aperti.length ? `<ul>${aperti.map((m) => `<li><strong>${esc(m.id)}</strong> · area ${esc(m.area)} · entro il ${esc(m.scadenza)}: ${esc(m.compito)}</li>`).join("")}</ul>` : '<p class="vuoto">Nessun mandato aperto.</p>';
+      const sel = G.verbali.find((v) => v.seduta === stato.verbale) || G.verbali[0];
+      const verbali = sel ? `<div class="doppia">
+          <ul class="elenco">${G.verbali.map((v) => `<li><button data-verbale="${esc(v.seduta)}" class="${v === sel ? "attivo" : ""}">Seduta del ${esc(v.seduta)}</button></li>`).join("")}</ul>
+          <div class="scheda-box md">${md(sel.testo)}</div></div>` : '<p class="vuoto">Nessuna seduta ancora.</p>';
+      return `
+        <h1>Governo</h1>
+        <p class="intro">Un governo ombra che decide con regole verificabili. Nove ministri, un'opposizione leale e un capo di governo sono agenti distinti: chi propone non valuta, chi valuta non decide. Linee rosse, coperture senza deficit e conformità giuridica sono controlli automatici che nessun ruolo può scavalcare. Ogni decisione è una previsione scritta, confrontata alla scadenza con i dati ufficiali: così si misura chi legge meglio la realtà.</p>
+        <h2>Credibilità</h2>
+        <p class="nota">Punteggio di Brier sulle previsioni scadute: 0 = perfetta, 0,25 = come tirare a caso, 1 = sempre sbagliata.</p>
+        ${cred}
+        <h2>Mandati aperti</h2>
+        ${mand}
+        <h2>Verbali</h2>
+        ${verbali}
+        <div class="scheda-box md" style="margin-top:14px">${md(G.regolamento || "")}</div>`;
+    },
+
     metodo() {
       const doc = { programma: "Programma", carta: "Carta dei valori", giuridico: "Quadro giuridico e UE", confronto: "Confronto internazionale", trasparenza: "Rischio negli appalti", legislazione: "Legislazione e redazione", metodo: "Metodo degli agenti", sistema: "Sistema dinamico" };
       return `
         <h1>Metodo</h1>
-        <p class="intro">Come nasce il programma: dossier ministeriali, verifica di 334 cifre su fonte primaria, Carta dei sette valori, panel indipendente e analisi di robustezza, ottimizzazione senza deficit, aggiornamento continuo dai dati ufficiali.</p>
+        <p class="intro">Come nasce il programma: dossier ministeriali, verifica di 334 cifre su fonte primaria, Carta dei dieci valori, panel indipendente e analisi di robustezza, ottimizzazione senza deficit, aggiornamento continuo dai dati ufficiali.</p>
         <div class="segmenti">${Object.entries(doc).map(([k, v]) => `<button data-documento="${k}" class="${k === stato.documento ? "attivo" : ""}">${v}</button>`).join("")}</div>
         <div class="scheda-box md" style="margin-top:14px">${md(D.documenti[stato.documento] || "*Documento non ancora disponibile.*")}</div>`;
     },
@@ -429,11 +452,12 @@
   }
 
   main.addEventListener("click", (e) => {
-    const t = e.target.closest("[data-proposta],[data-scenario],[data-bollettino],[data-documento],[data-preset],[data-analisi]");
+    const t = e.target.closest("[data-proposta],[data-scenario],[data-bollettino],[data-documento],[data-preset],[data-analisi],[data-verbale]");
     if (!t) return;
     if (t.dataset.proposta) mostraProposta(t.dataset.proposta);
     else if (t.dataset.scenario) { stato.scenario = t.dataset.scenario; ridisegna(); }
     else if (t.dataset.bollettino) { stato.bollettino = t.dataset.bollettino; ridisegna(); }
+    else if (t.dataset.verbale) { stato.verbale = t.dataset.verbale; ridisegna(); }
     else if (t.dataset.documento) { stato.documento = t.dataset.documento; ridisegna(); }
     else if (t.dataset.analisi) { stato.analisi = t.dataset.analisi; ridisegna(); }
     else if (t.dataset.preset) {

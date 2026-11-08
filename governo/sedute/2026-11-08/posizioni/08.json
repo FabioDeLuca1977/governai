@@ -1,0 +1,52 @@
+{"area": "08",
+ "situazione": "Il quadro esterno peggiora: lo spread IT-DE sale a 88,9 pb a settembre 2026 (+8,8 sul mese) e il rendimento del decennale al 4,362% (+0,80 punti sull'anno), mentre il debito trimestrale arriva al 139,9% del PIL (+1,3 punti) e la spesa per interessi è al 3,8% del PIL nel 2025. Con il PIL fermo nel terzo trimestre (0,0%) e la produzione industriale a 92,8 (-1,2), un Paese esportatore che concentra il 32,2% dell'export su tre mercati resta esposto a shock commerciali. La fine del PNRR (ultima rata da 28,4 mld entro il 31/12/2026) e l'avvio del rimborso NGEU nel 2028 rendono il negoziato sul QFP 2028-2034 la leva più importante dell'area, a costo nazionale nullo. Sul piano istituzionale la l. 180/2026 si applicherà alle politiche 2027 a meno di 12 mesi dall'approvazione, l'affluenza 2022 era al minimo storico (63,9%) e il 54,8% degli appalti competitivi 2024 è aggiudicato con una sola offerta. Con l'allerta debito_in_salita e il fondo RIALLOCAZIONE già sovrascritto (4,41 contro 2,49 mld), l'area deve chiedere solo misure a costo minimo e ad alto rendimento di fiducia.",
+ "richieste": [
+  {"azione": "adottare", "proposta": "08-P4", "variante": "PIENA",
+   "motivazione": "Costo nazionale zero e nessun beneficio iscritto come copertura. Con debito al 139,9% del PIL e spread in salita, ottenere nuove risorse proprie UE per il rimborso NGEU dal 2028, invece di un aumento dei contributi nazionali, protegge il saldo con l'UE (oggi -4,1 mld sul solo QFP nel 2025) e coerentemente con FUT evita di spostare sul bilancio nazionale beni pubblici europei (difesa, reti, ricerca). Il mandato parlamentare annuale e la condizionalità sullo stato di diritto servono FID. Il negoziato QFP è all'unanimità e l'accordo è atteso entro il 2027: i primi 100 giorni sono la finestra utile.",
+   "pre_mortem": "Il veto dei Paesi frugali blocca le nuove risorse proprie e l'Italia, avendo legato il proprio mandato a esse, ottiene meno su coesione e PAC senza contropartite: il negoziato si chiude su un QFP ridotto (proposta cipriota a 1.730,2 mld) con rimborso NGEU a carico dei contributi nazionali.",
+   "effetti_altri": [
+    {"area": "01", "segno": "+", "effetto": "Riduce il rischio di maggiori contributi nazionali al bilancio UE dal 2028 per il rimborso NGEU; nessun onere nel piano strutturale di bilancio."},
+    {"area": "07", "segno": "-", "effetto": "Trasformare parte del prestito SAFE (poco piu' di 8 mld) in programmi comuni riduce l'autonomia nelle scelte nazionali di acquisto e puo' penalizzare l'industria nazionale della difesa."},
+    {"area": "03", "segno": "-", "effetto": "Un QFP che privilegia beni pubblici europei puo' ridurre in termini relativi la PAC; il mandato prevede soglie minime ma il rischio resta."},
+    {"area": "04", "segno": "-", "effetto": "Possibile riduzione relativa della coesione nel QFP 2028-2034, compensata solo in parte dalle soglie minime nel mandato negoziale."},
+    {"area": "04", "segno": "+", "effetto": "Reti europee di trasporto ed energia finanziate a livello UE non pesano sul debito nazionale."}],
+   "scommessa": null},
+  {"azione": "adottare", "proposta": "08-P3", "variante": "ESSENZIALE",
+   "motivazione": "E' l'unica misura dell'area con una scadenza imminente: per valere alle politiche 2027 il voto fuorisede deve essere legge entro pochi mesi. Non rimette in discussione la formula della l. 180/2026 (rispettando il principio di stabilita' della Commissione di Venezia) e introduce una clausola di stabilita' solo per il futuro, neutra rispetto agli attuali rapporti di forza. Serve CIT e RIS (rimuove un ostacolo di fatto al voto per studenti, lavoratori e persone in cura, art. 48 Cost.) a un costo di 0,015 mld. La PIENA e' esclusa dalle linee rosse e non la chiedo.",
+   "pre_mortem": "I tempi: senza un consenso ampio il DDL non viene approvato in tempo e le sezioni speciali con domanda telematica tramite ANPR non sono operative per le politiche 2027; resta da verificare se la l. 180/2026 disciplini gia' il voto fuorisede, nel qual caso la misura va ridotta a clausola di stabilita' e rapporto.",
+   "effetti_altri": [
+    {"area": "07", "segno": "-", "effetto": "Carico organizzativo per il Ministero dell'Interno (sezioni speciali, plichi, presidio) a ridosso di una tornata elettorale nazionale."},
+    {"area": "09", "segno": "-", "effetto": "Richiede l'adeguamento di ANPR e della domanda telematica in tempi stretti."},
+    {"area": "09", "segno": "+", "effetto": "Prima applicazione su larga scala di un servizio digitale ANPR per un diritto politico."},
+    {"area": "05", "segno": "+", "effetto": "Gli studenti universitari fuorisede, la categoria piu' numerosa, possono votare senza rientrare nel comune di residenza."}],
+   "scommessa": null},
+  {"azione": "adottare", "proposta": "08-P7", "variante": "PIENA",
+   "motivazione": "Con il 54,8% degli appalti competitivi 2024 aggiudicati a offerta unica (contro la soglia del 20% del Single Market Scoreboard) e il numero di offerte noto solo per il 29% delle procedure non dirette, la trasparenza degli appalti e' la misura di FID con il miglior rapporto valore/costo (0,008 mld). Con inflazione al 5,6% e costi nominali delle opere in salita, piu' concorrenza riduce i prezzi pagati dalla PA (effetto non usato come copertura). Le garanzie dell'art. 3 (enti e procedure, mai persone; nessun uso automatico per sanzioni) rispettano le linee rosse di SIC. La variante ESSENZIALE senza repository testuale non permette di verificare i requisiti su misura.",
+   "pre_mortem": "Gli enti si adattano agli indicatori (inviti di comodo per evitare l'offerta unica) o restano reticenti nelle comunicazioni, e il cruscotto produce molti falsi positivi che ne minano la credibilita' presso le stazioni appaltanti e la stampa.",
+   "effetti_altri": [
+    {"area": "04", "segno": "-", "effetto": "Le stazioni appaltanti di infrastrutture e opere pubbliche, soprattutto nei piccoli comuni, sostengono un carico di trasmissione degli atti e un rischio reputazionale da falsi positivi."},
+    {"area": "09", "segno": "-", "effetto": "AgID e le piattaforme certificate devono definire lo standard di trasmissione testuale degli atti collegati al CIG."},
+    {"area": "07", "segno": "+", "effetto": "Controlli anticorruzione mirati e verificabili, con dati aperti utilizzabili anche dagli organi inquirenti."},
+    {"area": "01", "segno": "+", "effetto": "Piu' concorrenza negli appalti riduce i prezzi pagati dalla PA, senza iscriverne il risparmio come copertura."}],
+   "scommessa": null},
+  {"azione": "modificare", "proposta": "08-P1", "variante": "ESSENZIALE",
+   "motivazione": "Passo dalla PIENA (0,035 mld) all'ESSENZIALE (0,015 mld) perche' il fondo RIALLOCAZIONE e' sovrascritto (4,41 contro 2,49 mld) e l'allerta debito_in_salita impone prudenza. Una sezione dentro l'UPB, con VIP-AI sugli atti finanziari maggiori e un'Assemblea di 100 sorteggiati, mantiene il nucleo di FID e CIT (pesi democratici per il motore, comply or explain) riducendo il rischio di cattura e i costi di avvio. La conformita' volontaria agli obblighi per l'alto rischio dell'AI Act va completata prima del 2/12/2027 (Reg. UE 2026/1744); il rispetto della l. 132/2025 (decisione e responsabilita' restano umane) e' parte della linea rossa di INN. Collocazione presso le Camere e modifica dei regolamenti parlamentari (art. 64 Cost.) da verificare con i Presidenti delle Camere.",
+   "pre_mortem": "La misura viene percepita come tecnocrazia ('lo dice l'AI') o come strumento di una parte politica: le Camere non approvano le modifiche regolamentari, il Governo ignora le VIP-AI senza relazione motivata e l'Ufficio si riduce a un rito senza effetti.",
+   "effetti_altri": [
+    {"area": "01", "segno": "-", "effetto": "Le manovre finanziarie maggiori (a partire dal DDL di bilancio 2028) dovranno essere accompagnate da una VIP-AI e, in caso di scostamento, da una relazione motivata in Parlamento."},
+    {"area": "09", "segno": "+", "effetto": "Riferimento per l'uso conforme dell'AI nella PA (AgID, ACN, codice aperto e riuso secondo il CAD)."},
+    {"area": "09", "segno": "-", "effetto": "Richiede pareri e supporto di AgID e ACN e infrastruttura di calcolo sotto giurisdizione UE."},
+    {"area": "02", "segno": "-", "effetto": "Il taglio delle consulenze esterne dei ministeri usato come copertura riduce i margini di tutti i ministeri, incluso il lavoro."}],
+   "scommessa": null}
+ ],
+ "rinunce": [
+  "08-P5 (APS): resto alla variante ZERO del programma e non chiedo l'ESSENZIALE da 1,13 mld finche' il debito e' in salita e il gettito del contributo di solidarieta' sui biglietti aerei (stima 0,4-0,8 mld) non e' verificato con dati ENAC/Assaeroporti; mantengo solo la contabilita' separata dei costi di accoglienza e la valutazione entro l'APS esistente.",
+  "08-P6 (Export resiliente): se i fondi non bastano rinuncio al PILOTA (0,03 mld) e lo rinvio al DDL di bilancio 2028, mantenendo a costo zero lo sportello unico ICE-SACE-SIMEST e la valutazione degli accordi commerciali UE.",
+  "08-P1: se RIALLOCAZIONE resta insufficiente scendo ulteriormente dall'ESSENZIALE al PILOTA (0,006 mld), limitato alla legge di bilancio 2028 e a 10 provvedimenti.",
+  "08-P2 (Patto per la buona legge): accetto di passare dalla PIENA (0,008 mld) alla ZERO (protocollo Governo-Camere con monitoraggio trimestrale), che non richiede risorse."
+ ],
+ "previsioni_contesto": [
+  {"indicatore": "spread", "condizione": ">", "soglia": 80.0, "periodo": "2026-10", "probabilita": 0.75},
+  {"indicatore": "inflazione", "condizione": ">", "soglia": 4.5, "periodo": "2026-11", "probabilita": 0.8},
+  {"indicatore": "pil_trimestrale", "condizione": "<", "soglia": 0.3, "periodo": "2026-Q4", "probabilita": 0.75}
+ ]}

@@ -1,0 +1,55 @@
+{"area": "09",
+ "situazione": "Il quadro macro chiede misure che costino poco e rendano lo Stato più capace, non più grande: inflazione al 5,6% (+1,4 punti in un mese), debito al 139,9% del PIL (+1,3 nel trimestre), PIL fermo (0,0% nel 2026-Q3) e fiducia dei consumatori a -23,3 (-7,8 sull'anno). Le otto proposte dell'area valgono circa 1,65 mld nel programma del momento (tutte PIENE tranne 09-C4 a ZERO) e pesano soprattutto sul fondo RIALLOCAZIONE, già il più conteso (spesa 4,41 contro capienza 2,49), e su COESIONE_2127, saturo (2,00 su 2,00). L'inflazione alta fa salire in euro nominali le misure fatte di personale (09-C3, 09-C8), mentre dal 2027 i canoni cloud di circa 13.000 PA migrate col PNRR diventano spesa corrente degli enti senza alcuna copertura. Il collo di bottiglia del digitale pubblico non è l'offerta ma l'uso (43,5% dei 16-74enni interagisce online con la PA contro il 57,7% UE) e la capacità tecnica dei 5.522 comuni sotto i 5.000 abitanti, a fronte di 3.919 amministrazioni qualificate per le gare. Propongo quindi di proteggere il nucleo robusto e il capitale digitale già pagato, compensando con riduzioni dentro la mia area per non chiedere un euro netto in più di risorse generali.",
+ "richieste": [
+  {"azione": "adottare", "proposta": "09-C3", "variante": "PIENA",
+   "motivazione": "Proposta robusta per il panel e precondizione attuativa di gran parte del programma: senza tecnici, appalti e cyber nei piccoli comuni le misure di altre aree non si spendono. Si finanzia per l'80% riservando ai profili tecnici una quota del turnover già autorizzato (R09-1) e per il 20% tagliando consulenze esterne (R09-2): nessun nuovo deficit, coerente con la regola FUT attivata dall'allerta debito_in_salita. Carta: Equità (redistributiva verso Mezzogiorno e aree interne), Fiducia (gare qualificate), Responsabilità verso il futuro (ricambio generazionale). Con l'inflazione al 5,6% il costo nominale a regime va indicizzato: chiedo che la quota di turnover riservata sia rivista ogni anno con il MEF, come già previsto dall'art. 4 della scheda.",
+   "pre_mortem": "La riserva del turnover non si materializza: i ministeri continuano ad assumere profili generici o la quota annuale fissata con il MEF resta minima, e la PIENA diventa di fatto una spesa nuova. Secondo rischio: la riserva del 40% per gli esperti PNRR nei concorsi potrebbe essere contestata come eccessiva rispetto all'art. 97 Cost. (compatibilità da verificare).",
+   "effetti_altri": [
+    {"area": "04", "segno": "+", "effetto": "Pool qualificati come stazioni appaltanti accelerano l'attuazione delle opere e dei servizi nelle aree interne (04-P6)."},
+    {"area": "07", "segno": "+", "effetto": "I pool sono il braccio territoriale del presidio cyber di 07-C6: il costo del personale resta in area 09."},
+    {"area": "01", "segno": "-", "effetto": "La riserva di facoltà assunzionali riduce le assunzioni di profili amministrativi generici nelle amministrazioni centrali, comprese quelle economiche; R09-1 e R09-2 occupano capienza del fondo RIALLOCAZIONE, già conteso."},
+    {"area": "04", "segno": "-", "effetto": "Gare aggregate nei pool rischiano lotti più grandi a svantaggio delle piccole imprese locali; mitigazione con obbligo di suddivisione in lotti."}
+   ],
+   "scommessa": null},
+  {"azione": "adottare", "proposta": "09-C5", "variante": "PIENA",
+   "motivazione": "Proposta robusta per il panel. Gli obblighi dell'AI Act per i sistemi ad alto rischio dell'allegato III, tra cui l'accesso a prestazioni pubbliche, valgono dal 2/12/2027 (Reg. 2026/1744): servono albo, valutazione d'impatto e supervisione umana prima di quella data, non dopo. La parte permanente (0,10) sostituisce licenze IA acquistate singolarmente (R09-3), la facilitazione per gli over 65 (0,12) è su FSE+ fino al 2029 e non crea impegni permanenti senza copertura. Carta: Innovazione, Sicurezza senza controllo assoluto (linea rossa: nessuna decisione automatizzata sui diritti), Equità (54,3% di competenze digitali di base contro 60,4% UE, divario concentrato su anziani e Mezzogiorno).",
+   "pre_mortem": "L'albo resta formale: le amministrazioni non dichiarano la 'shadow AI' già in uso e le valutazioni d'impatto diventano moduli compilati senza verifica, finché un errore algoritmico su una prestazione (come il caso olandese) fa crollare la fiducia nell'intero programma.",
+   "effetti_altri": [
+    {"area": "05", "segno": "+", "effetto": "Alfabetizzazione su IA e dati per dipendenti e cittadini; sinergia con 05-C6 AI a scuola."},
+    {"area": "08", "segno": "+", "effetto": "L'albo alimenta il registro verificato dall'Ufficio di 08-P1 sulla consulenza algoritmica pubblica."},
+    {"area": "03", "segno": "-", "effetto": "Più domanda elettrica dei data center per l'assistente condiviso; mitigazione con modelli più piccoli e reporting energetico."},
+    {"area": "02", "segno": "-", "effetto": "Richiede confronto sindacale e accordo sui guadagni di tempo, che non possono tradursi in tagli di organico per 5 anni."}
+   ],
+   "scommessa": null},
+  {"azione": "modificare", "proposta": "09-C4", "variante": "ESSENZIALE",
+   "motivazione": "Passaggio da ZERO a ESSENZIALE (0,12 mld su RIALLOCAZIONE, quota R09-3 di taglio della spesa ICT corrente legacy), compensato interamente dalla richiesta su 09-C8. Dal 2027 i canoni cloud di circa 13.000 PA migrate con 1,9 mld di PNRR diventano spesa corrente degli enti: senza un cofinanziamento mirato i comuni sotto i 5.000 abitanti e le ASL rischiano di tornare su server locali non sicuri, con l'Italia già bersaglio del 10,2% degli incidenti cyber gravi mondiali (Clusit, I sem. 2025). L'ESSENZIALE copre solo enti fragili e servizi critici, con quota statale decrescente dal 60% al 30%, accesso condizionato alle misure NIS2 (d.lgs. 138/2024) e risparmi usati solo dopo la certificazione. La clausola di uscita è coerente con il Data Act (cambio di fornitore cloud senza oneri dal 12/1/2027). Carta: Responsabilità verso il futuro (non sprecare un investimento già pagato), Sicurezza senza controllo assoluto.",
+   "pre_mortem": "Il fabbisogno reale dei canoni è sconosciuto (nessuna stima ufficiale): se il censimento dei primi 100 giorni mostra canoni molto superiori a 0,12 mld per la platea scelta, il fondo si esaurisce e gli enti fragili restano comunque scoperti; in alternativa il fondo diventa un sussidio permanente se i risparmi non vengono certificati.",
+   "effetti_altri": [
+    {"area": "06", "segno": "+", "effetto": "Continuità e sicurezza dei servizi digitali delle ASL (fascicolo sanitario, sistemi critici)."},
+    {"area": "07", "segno": "+", "effetto": "Meno superficie d'attacco negli enti locali, coerente con 07-C6."},
+    {"area": "04", "segno": "+", "effetto": "Sostiene i servizi digitali dei piccoli comuni e delle aree interne."},
+    {"area": "01", "segno": "-", "effetto": "Occupa 0,12 della capienza R09-3 sul fondo RIALLOCAZIONE; nessun costo netto solo se si approva insieme la riduzione di 09-C8."},
+    {"area": "03", "segno": "-", "effetto": "Mantiene in esercizio data center con consumi elettrici; mitigazione con reporting PUE e criteri ambientali minimi."}
+   ],
+   "scommessa": null},
+  {"azione": "modificare", "proposta": "09-C8", "variante": "ESSENZIALE",
+   "motivazione": "Riduzione volontaria da PIENA (0,23) a ESSENZIALE (0,08): libera 0,12 su RIALLOCAZIONE, che compensa esattamente 09-C4 ESSENZIALE, e 0,03 su COESIONE_2127, che è saturo. La proposta resta nel nucleo robusto almeno in versione essenziale, come chiede la regola 8 del motore. Il cuore della misura (fabbisogni per competenze nel PIAO, diritto alla riqualificazione, mobilità interna prioritaria) è normativo e quasi gratuito; ciò che si riduce è il numero di posti critici con affiancamento (da circa 7.500 a circa 2.250 l'anno), concentrati su piccoli comuni, sanità amministrativa e sistemi informativi. Con l'inflazione al 5,6% il costo nominale dell'affiancamento sarebbe comunque salito. Carta: Responsabilità verso il futuro (nessuna spesa corrente in più mentre il debito sale), Apprendimento e cultura.",
+   "pre_mortem": "Con meno affiancamenti si perdono competenze uniche in uffici chiave delle amministrazioni centrali escluse dalla priorità, e i pensionamenti (fino a circa 120.000 l'anno) svuotano procedimenti critici prima che i successori siano formati.",
+   "effetti_altri": [
+    {"area": "01", "segno": "+", "effetto": "Libera 0,12 mld sul fondo RIALLOCAZIONE e 0,03 su COESIONE_2127, a beneficio delle altre aree."},
+    {"area": "06", "segno": "+", "effetto": "La sanità amministrativa resta tra le priorità dell'affiancamento anche nella versione ridotta."},
+    {"area": "02", "segno": "-", "effetto": "Meno posti di affiancamento e meno formazione aggiuntiva su FSE+ per il personale da riqualificare."}
+   ],
+   "scommessa": null}
+ ],
+ "rinunce": [
+  "09-C7 da PIENA a ESSENZIALE (risparmio 0,13 al picco: 0,10 su COESIONE_2127 e 0,03 su RIALLOCAZIONE), o fino al PILOTA (risparmio 0,18) se la coesione non basta per le priorità delle allerte (02-C4, 04-P3): la mappa dei processi e le garanzie contro i licenziamenti restano.",
+  "09-C2 da PIENA a ESSENZIALE (risparmio 0,21 al picco, quasi tutto su COESIONE_2127): 30 procedimenti invece di 100, con il diritto all'once-only e il cruscotto intatti.",
+  "09-C1 da PIENA a ESSENZIALE (risparmio 0,035): obblighi solo per gli atti sopra soglia, purché resti il registro pubblico su cui gira GovernAI.",
+  "In ultima istanza 09-C3 da PIENA a ESSENZIALE (risparmio 0,33): 3.000 tecnici concentrati sui comuni sotto i 5.000 abitanti di Mezzogiorno e aree interne. Non rinuncio invece a 09-C5 sotto l'ESSENZIALE, per la scadenza AI Act del 2/12/2027, né a 09-C6 sotto la PIENA, che costa 0,03."
+ ],
+ "previsioni_contesto": [
+  {"indicatore": "inflazione", "condizione": ">", "soglia": 5.0, "periodo": "2026-11", "probabilita": 0.75},
+  {"indicatore": "spread", "condizione": "<", "soglia": 110.0, "periodo": "2026-10", "probabilita": 0.85},
+  {"indicatore": "disoccupazione", "condizione": ">", "soglia": 6.0, "periodo": "2026-10", "probabilita": 0.8}
+ ]}

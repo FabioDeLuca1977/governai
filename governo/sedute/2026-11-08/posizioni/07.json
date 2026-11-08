@@ -1,0 +1,56 @@
+{"area": "07",
+ "situazione": "Il cruscotto non ha indicatori propri dell'area, ma i vincoli di finanza pubblica la toccano direttamente: debito al 139,9% del PIL nel 2026-Q2 (+1,3 punti in un trimestre), saldo di bilancio al -3,1% e interessi al 3,8% del PIL nel 2025, BTP decennale al 4,362% (+0,38) e spread a 88,9 pb (+8,8); l'allerta debito_in_salita chiede di sospendere 07-C5 e di rivedere la traiettoria della Difesa. Nei dati di settore il rischio principale è la fine del personale PNRR dell'Ufficio per il processo (circa 10.000 addetti finanziati fino al 30/6/2026), che ha portato il disposition time civile a 1.251 giorni nel I semestre 2026 (-50,2% sul 2019) e che senza stabilizzazione rischia di far risalire i tempi dal 2027. Le carceri sono al 128,8% della capienza regolamentare (66.063 detenuti per 51.295 posti al 30/9/2026, DAP), con rischio di nuove condanne CEDU ex art. 3. Il fondo RIALLOCAZIONE, da cui dipendono tutte le proposte dell'area, è sovrascritto (spesa 4,41 contro capienza 2,49 mld), quindi l'area deve concentrare le risorse sulle misure robuste e cedere sulle altre.",
+ "richieste": [
+  {"azione": "adottare", "proposta": "07-C1", "variante": "PIENA",
+   "motivazione": "Proposta robusta per il panel, già nel programma. Consolida l'unico risultato misurato dell'area (disposition time civile da 2.512 giorni nel 2019 a 1.251 nel I semestre 2026; penale -38,8%) evitando il 'precipizio' post-PNRR. Serve Fiducia e trasparenza (cruscotto trimestrale per tribunale), Rispetto (art. 111 Cost., art. 6 CEDU) e Responsabilità verso il futuro (meno arretrato trasferito avanti, meno indennizzi Pinto). Il triage digitale resta organizzativo con decisione sempre del giudice, coerente con AI Act e art. 22 GDPR. La base per la stabilizzazione è l'art. 22 del d.l. 19/2024; la conformità del concorso riservato all'art. 97 Cost. nei limiti indicati è da verificare dall'Ufficio legislativo. È la priorità dell'area: non scenderei sotto la ESSENZIALE.",
+   "pre_mortem": "I concorsi riservati slittano oltre il 2027 e nel frattempo gli addetti PNRR escono: si perde l'esperienza accumulata e i tempi risalgono prima che i nuovi assunti siano operativi. Rischio secondario: il calo del 2026 era in parte dovuto alla spinta finale verso la scadenza PNRR e non si ripete.",
+   "effetti_altri": [
+    {"area": "01", "segno": "-", "effetto": "Usa 0,30 mld del fondo SPESE_FISCALI e introduce un contributo unificato maggiorato del 50% per le imprese con oltre 500 cause l'anno: costo per i grandi litiganti seriali (banche, utility)."},
+    {"area": "01", "segno": "+", "effetto": "Tempi civili più brevi riducono il costo del credito e l'incertezza per famiglie e PMI, con effetto positivo su investimenti e attrattività."},
+    {"area": "09", "segno": "+", "effetto": "Sinergia con 09-C5 (AI nella PA con supervisione umana) e con il registro pubblico degli algoritmi; serve però capacità DGSIA che compete con altri progetti digitali."}
+   ],
+   "scommessa": null},
+  {"azione": "adottare", "proposta": "07-C2", "variante": "PIENA",
+   "motivazione": "Proposta robusta, già nel programma. Il sovraffollamento al 128,8% sui posti regolamentari (139,7% sui posti effettivi secondo Antigone, fonte non governativa) espone lo Stato a ristori ex art. 35-ter o.p. (6.539 casi, dato di fonte secondaria) e a condanne CEDU. Un detenuto costa circa 178 euro al giorno; le misure di comunità costano una frazione e i dati disponibili, benché datati, indicano recidiva molto più bassa (circa 19-28% contro 68%). Serve Rispetto e diversità (art. 27 Cost.), Sicurezza senza controllo assoluto (meno recidiva con mezzi proporzionati) ed Equità. I risparmi da minori presenze non sono contati come copertura. Le assunzioni UEPE precedono l'allargamento dell'accesso.",
+   "pre_mortem": "Un reato grave commesso da un beneficiario di misura alternativa, con forte eco mediatica, blocca il decreto legislativo o ne svuota l'applicazione da parte della magistratura di sorveglianza; in parallelo la carenza di braccialetti elettronici e di funzionari UEPE rende la valutazione d'ufficio solo formale.",
+   "effetti_altri": [
+    {"area": "03", "segno": "-", "effetto": "Assorbe 0,30 mld del fondo SAD, in concorrenza con le misure ambientali finanziate dalla riforma dei sussidi ambientalmente dannosi."},
+    {"area": "01", "segno": "-", "effetto": "Il rafforzamento del credito d'imposta Smuraglia aggiunge una spesa fiscale, in direzione opposta al riordino e al sunset delle spese fiscali (01-P2)."},
+    {"area": "02", "segno": "+", "effetto": "Più lavoro per detenuti ed ex detenuti tramite cooperative e imprese, con minore ricorso futuro a sostegni al reddito."},
+    {"area": "06", "segno": "+", "effetto": "Meno sovraffollamento riduce il carico sulla sanità penitenziaria e su salute mentale e autolesionismo (26,5 episodi ogni 100 detenuti)."}
+   ],
+   "scommessa": null},
+  {"azione": "adottare", "proposta": "07-C5", "variante": "ZERO",
+   "motivazione": "L'allerta debito_in_salita (debito al 139,9% del PIL, +1,3 punti nel trimestre) chiede di sospendere la crescita della Difesa e di non finanziare nulla a debito. PIENA ed ESSENZIALE sono escluse dalle linee rosse; la ZERO stabilizza la spesa core intorno al 2,1% del PIL con acquisti comuni europei, revisione dei programmi duplicati e nuove capacità solo da risparmi interni certificati. È coerente con Responsabilità verso il futuro (art. 81 Cost.) e con Fiducia e trasparenza (relazione annuale verificata dalla Corte dei conti). Dichiaro apertamente che non rispetta l'impegno dell'Aia (3,5% core al 2035): è una scelta di peso tra valori che spetta al Parlamento, e la variante va rivalutata quando il debito torna sul percorso UE. L'adozione formale della clausola nazionale da parte del Consiglio UE è da verificare.",
+   "pre_mortem": "Pressioni NATO e degli Stati Uniti, o un peggioramento della sicurezza europea, rendono politicamente insostenibile la stabilizzazione e la spesa cresce comunque per altre vie (clausola nazionale, prestiti SAFE) senza le condizioni di efficienza e trasparenza della proposta.",
+   "effetti_altri": [
+    {"area": "08", "segno": "-", "effetto": "Costo di credibilità verso gli alleati NATO e in sede UE per il mancato rispetto dell'impegno dell'Aia; possibili tensioni nei negoziati su difesa europea."},
+    {"area": "01", "segno": "+", "effetto": "Nessuna pressione aggiuntiva sulle coperture e sul debito: dal 2029 evita circa 7,6 mld/anno da assorbire rispetto alla traiettoria programmatica."},
+    {"area": "05", "segno": "-", "effetto": "Minori risorse per ricerca e innovazione dual-use legate a nuovi programmi di difesa."},
+    {"area": "06", "segno": "+", "effetto": "Evita lo spiazzamento della spesa sanitaria e sociale che una traiettoria al 3,5% comporterebbe."}
+   ],
+   "scommessa": null},
+  {"azione": "modificare", "proposta": "07-C6", "variante": "ESSENZIALE",
+   "motivazione": "La proposta dipende dai valori e il programma la prevede in PIENA (0,35 mld). Con il fondo RIALLOCAZIONE sovrascritto e le spese fiscali necessarie altrove, propongo la ESSENZIALE (0,18 mld): SOC di macro-area per tutta la sanità e per i Comuni tra 5.000 e 50.000 abitanti, più la formazione di base. Libera circa 0,17 mld (0,04 RIALLOCAZIONE, 0,13 SPESE_FISCALI) mantenendo la protezione dove l'impatto è maggiore: ospedali e ASL, dove il ransomware (103 incidenti nel 2025 su 615 con impatto, ACN) interrompe servizi essenziali. Serve Sicurezza senza controllo assoluto (difesa dei sistemi, non sorveglianza delle persone) e Innovazione. La riserva cyber civile-militare è rinviata alla PIENA.",
+   "pre_mortem": "Mancano gli specialisti per far funzionare i SOC di macro-area e gli enti aderiscono solo formalmente; l'infrastruttura avviata con i fondi FESR 2021-27 resta senza personale stabile quando la coesione si chiude nel 2029.",
+   "effetti_altri": [
+    {"area": "04", "segno": "-", "effetto": "I Comuni sotto i 5.000 abitanti, concentrati nelle aree interne, restano fuori dalla rete nella variante ESSENZIALE."},
+    {"area": "06", "segno": "+", "effetto": "Tutte le aziende sanitarie sono coperte da monitoraggio, backup protetti e risposta agli incidenti."},
+    {"area": "09", "segno": "+", "effetto": "La sicurezza di base è prerequisito per once-only (09-C2) e cloud pubblico (09-C4); la copertura parziale dei piccoli enti resta però un punto debole."},
+    {"area": "01", "segno": "+", "effetto": "Libera circa 0,13 mld di SPESE_FISCALI rispetto alla PIENA del programma."}
+   ],
+   "scommessa": null}
+ ],
+ "rinunce": [
+  "07-C3 dalla PIENA alla ESSENZIALE (da 0,55 a 0,25 mld): si mantengono Osservatorio sul fabbisogno, asilo entro 6 mesi richiesto dal Patto UE, rimpatri volontari assistiti e tutori per i minori; il corso di italiano entro 3 mesi resta solo per titolari di protezione e lavoratori. Libera 0,10 di RIALLOCAZIONE e 0,20 di SAD.",
+  "07-C4 dalla PIENA alla ESSENZIALE (da 0,15 a 0,07 mld): fondo rotativo solo con prestiti, senza quota a fondo perduto per i piccoli Comuni.",
+  "07-C6 fino alla PILOTA (0,03 mld, 3 Regioni) se anche la ESSENZIALE non è finanziabile.",
+  "07-C2 dalla PIENA alla ESSENZIALE (0,25 mld) come ultima concessione: si rinuncia alle case di reinserimento e al recupero dei posti inagibili, non alle misure alternative, agli UEPE e alla statistica sulla recidiva.",
+  "Nessuna richiesta di crescita della spesa per la Difesa finché il debito/PIL non torna sul percorso concordato in sede UE.",
+  "Non rinuncio a 07-C1 sotto la ESSENZIALE: senza stabilizzazione dell'Ufficio per il processo si perde il risultato PNRR già raggiunto."
+ ],
+ "previsioni_contesto": [
+  {"indicatore": "inflazione", "condizione": ">", "soglia": 4.5, "periodo": "2026-11", "probabilita": 0.85},
+  {"indicatore": "spread", "condizione": ">", "soglia": 80.0, "periodo": "2026-10", "probabilita": 0.75},
+  {"indicatore": "disoccupazione", "condizione": ">", "soglia": 6.0, "periodo": "2026-10", "probabilita": 0.8}
+ ]}

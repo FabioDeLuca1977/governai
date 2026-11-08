@@ -1,0 +1,61 @@
+{"area": "01",
+ "situazione": "L'economia è ferma e i prezzi accelerano. Il PIL reale è a 0,0% nel 2026-Q3 (-0,2 punti), la produzione industriale scende a 92,8 ad agosto (-1,2) e la fiducia dei consumatori è a -23,3 (-7,8 punti sull'anno). L'inflazione HICP sale al 5,6% a ottobre (dato provvisorio, +1,4 in un mese e +4,3 sull'anno): lo shock sembra di origine energetica, con il PUN già a 115 €/MWh nel 2025 contro 61-91 nei Paesi vicini. Peggiora anche la finanza pubblica. Il debito trimestrale è al 139,9% del PIL nel 2026-Q2 (+1,3), il BTP decennale al 4,36% (+0,38) e lo spread a 88,9 pb (+8,8), mentre gli interessi valgono già il 3,8% del PIL (2025) e il deficit 2027 è programmato al 3,4%. Il programma del momento sta in pareggio sulle risorse generali per appena 0,01 mld (10,49 di spesa contro 10,50 di gettito), e il fondo RIALLOCAZIONE è già oltre la capienza (4,41 contro 2,49): l'area 01 deve dare risorse certe e trasparenza, non chiederne.",
+ "richieste": [
+  {"azione": "adottare", "proposta": "01-P3", "variante": "PIENA",
+   "motivazione": "Proposta robusta per il panel, nel nucleo del programma. Il gap IVA è di 34,4 mld nel 2023 (+3,6 sul 2022) e oltre il 30% del gap IVA è imposta dichiarata e non versata. Con il debito in salita (allerta debito_in_salita) e lo spread in aumento, la misura riduce il deficit senza gravare su chi paga già, mentre aumentare le aliquote sarebbe regressivo e colpirebbe consumi già deboli (allerta fiducia_in_calo). Il recupero non è usato come copertura ex ante, come richiede la regola FUT: va al deficit e solo dopo certificazione al fondo IVA_EVASIONE. Rispetta FID (regole uguali, niente condoni), EQU, FUT e SIC: decisione umana, contraddittorio in 10 giorni, DPIA con il Garante, Statuto delle garanzie di 01-P10 esteso al sistema IVA. La richiesta di deroga ex art. 395 della direttiva 2006/112/CE per l'estensione di reverse charge e split payment ha esito e tempi da verificare; se manca, la parte restante funziona come la variante ESSENZIALE.",
+   "pre_mortem": "Il Consiglio UE nega o ritarda la deroga ex art. 395 e il sistema di blocco preventivo produce troppi falsi positivi su crediti IVA leciti. Le sospensioni annullate diventano un caso politico, la misura viene annacquata prima di mostrare effetti sul gap, e intanto una nuova definizione agevolata nel DDL di bilancio 2027 annulla l'effetto deterrente.",
+   "effetti_altri": [
+    {"area": "09", "segno": "-", "effetto": "Carico di sviluppo su Sogei e Agenzia delle entrate (0,4 mld nel 2027 e nel 2028 su RIALLOCAZIONE) in concorrenza con i progetti di digitalizzazione della PA (09-C2, 09-C5)."},
+    {"area": "07", "segno": "-", "effetto": "Possibile aumento del contenzioso sulle sospensioni dei crediti IVA e lavoro aggiuntivo per Garante privacy e comitato di audit sui modelli di rischio."},
+    {"area": "07", "segno": "+", "effetto": "Sinergia con il contrasto a frodi carosello e riciclaggio (protocollo GdF-AdE-EPPO, dati CESOP)."},
+    {"area": "08", "segno": "-", "effetto": "Richiede un negoziato in Consiglio UE per la deroga ex art. 395 e il coordinamento con il recepimento di ViDA entro il 31/12/2026."},
+    {"area": "02", "segno": "+", "effetto": "Meno concorrenza sleale da imprese che non versano l'IVA, più spazio per il lavoro regolare."},
+    {"area": "04", "segno": "-", "effetto": "L'estensione dello split payment ai settori ad alto rischio (per esempio edilizia e logistica) può ridurre la liquidità delle imprese oneste negli appalti."}
+   ],
+   "scommessa": {"indicatore": "debito_annuo", "condizione": "<", "soglia": 138.5, "periodo": "2028", "probabilita": 0.6}},
+  {"azione": "adottare", "proposta": "01-P5", "variante": "PIENA",
+   "motivazione": "È una priorità dell'allerta inflazione_in_salita, che chiede di intervenire sull'origine energetica dei prezzi. Il PUN di 115 €/MWh è fissato dal gas nella maggior parte delle ore; il sostegno temporaneo alle imprese costa 1,7 mld ogni anno in cui si rinnova e non cambia il meccanismo. I PPA aggregati con garanzia di prima perdita sono l'alternativa strutturale: stabilizzano i costi delle PMI (INN, BEN) e accelerano le rinnovabili (FUT), con una spesa una tantum su COESIONE_2127 e SAD invece che a debito. La variante PIENA estende la misura al Centro-Nord e al terziario e già figura nel programma del momento. La notifica sugli aiuti di Stato secondo CEEAG/CISAF precede l'avvio; resta da verificare il regolamento che sostituirà il GBER in scadenza al 31/12/2026.",
+   "pre_mortem": "Gli impianti abbinati non vengono autorizzati o costruiti in tempo, per conflitti su aree idonee e paesaggio con le Regioni. La riprogrammazione FESR si blocca tra Commissione e Regioni e le prime aste restano deserte dal lato delle PMI, perché i prezzi a termine scendono e le imprese temono di bloccare un prezzo troppo alto.",
+   "effetti_altri": [
+    {"area": "03", "segno": "+", "effetto": "Sinergia con i CfD di 03-P2 e con gli obiettivi clima: più capacità rinnovabile contrattualizzata e meno dipendenza dal gas."},
+    {"area": "03", "segno": "-", "effetto": "Usa 0,1 mld del fondo SAD, che può servire anche al dividendo climatico 03-P1; possibili conflitti su paesaggio e aree idonee."},
+    {"area": "04", "segno": "-", "effetto": "Assorbe 0,25 mld di COESIONE_2127, fondo già pieno (2,00 su 2,00): la riprogrammazione FESR va negoziata con le Regioni e può sottrarre risorse ad altri programmi territoriali."},
+    {"area": "08", "segno": "-", "effetto": "Richiede la notifica alla DG COMP e una gestione dei tempi UE sugli aiuti di Stato."}
+   ],
+   "scommessa": null},
+  {"azione": "adottare", "proposta": "01-P2", "variante": "PIENA",
+   "motivazione": "Le spese fiscali erariali sono 573, per 129,7 mld nel 2026, e nessuna deve dimostrare di funzionare. La raccomandazione del Consiglio UE 2026 chiede di ridurre spese fiscali e SAD, e il Piano strutturale conta già 7,37 mld di riordino senza indicare il metodo. Con il debito in salita e il margine di spesa netta a zero, la clausola di scadenza con valutazione è la via meno regressiva per conseguire quell'obiettivo, al posto di un taglio lineare. Sono esenti dalla scadenza, ma non dalla valutazione, salute, disabilità, famiglia e obblighi UE (RIS, EQU). Il gettito oltre l'obiettivo va al cuneo dei redditi medio-bassi e al deficit (FUT, FID). Costo trascurabile (0,01 mld).",
+   "pre_mortem": "Il Parlamento rinnova in blocco le misure in scadenza, sotto la pressione delle categorie interessate, oppure la Commissione di valutazione non ottiene in tempo i dati anonimizzati dell'Agenzia delle entrate. Le schede arrivano tardi e le scadenze vengono prorogate per decreto.",
+   "effetti_altri": [
+    {"area": "02", "segno": "+", "effetto": "Il gettito oltre l'obiettivo del Piano finanzia la riduzione del cuneo fiscale sui redditi da lavoro medio-bassi."},
+    {"area": "03", "segno": "+", "effetto": "Strumento per eliminare gradualmente i sussidi fiscali dannosi per l'ambiente, in coordinamento con la riforma dei SAD."},
+    {"area": "03", "segno": "-", "effetto": "Le agevolazioni su gasolio agricolo e autotrasporto entrano nel calendario di scadenza: servono transizione triennale e compensazioni non fiscali."},
+    {"area": "04", "segno": "-", "effetto": "Le agevolazioni per casa ed edilizia vengono valutate e possono decadere, con effetti sulla domanda di ristrutturazioni."},
+    {"area": "06", "segno": "-", "effetto": "Le detrazioni sanitarie restano escluse dalla scadenza ma vengono valutate: aumenta la pressione per renderle più mirate."},
+    {"area": "05", "segno": "-", "effetto": "Le agevolazioni per istruzione e ricerca entrano nella valutazione e possono decadere se non dimostrano efficacia."}
+   ],
+   "scommessa": null},
+  {"azione": "modificare", "proposta": "01-P8", "variante": "ESSENZIALE",
+   "motivazione": "Il programma del momento adotta la variante ZERO, cioè le abolizioni delle detrazioni del 19% (vita e infortuni, veterinarie, istruzione, interessi sui nuovi mutui) senza la compensazione: la scheda stessa avverte che la ZERO senza compensazione non ha senso. Con l'inflazione al 5,6% e la fiducia dei consumatori a -23,3 (allerte inflazione_alta e fiducia_in_calo), togliere la detrazione per istruzione alle famiglie a basso reddito senza la quota studio dell'Assegno unico violerebbe lo spirito della linea rossa EQU (costi sui più deboli senza compensazione). La variante ESSENZIALE (0,20 mld su SPESE_FISCALI) mantiene la quota studio, rimborsabile anche per gli incapienti, per l'ISEE fino a 20.000 €. Il costo è compensato dalle rinunce indicate sotto. Il gettito delle abolizioni sta nelle coperture FN01, FN02 e FN03: che siano attivate insieme alla misura è da verificare con la Ragioneria.",
+   "pre_mortem": "Le detrazioni piccole sono molto diffuse, per esempio 5,3 milioni di beneficiari per le assicurazioni. Se la misura arriva da sola, senza 01-P7 (conto fiscale automatico) e con un'inflazione alta, diventa il simbolo di un aumento di tasse sul ceto medio. Il Parlamento ripristina le detrazioni e lascia solo il costo della quota studio.",
+   "effetti_altri": [
+    {"area": "05", "segno": "-", "effetto": "Abolizione della detrazione per spese di istruzione, in media 166 € per 4,4 milioni di beneficiari, anche per le scuole paritarie e le università non statali."},
+    {"area": "05", "segno": "+", "effetto": "La quota studio dell'Assegno unico per l'ISEE fino a 20.000 € raggiunge anche le famiglie incapienti con figli da 6 a 21 anni a scuola o all'università."},
+    {"area": "02", "segno": "-", "effetto": "Nuovo compito per INPS (quota studio dell'Assegno unico) e interazione con l'ISEE da coordinare."},
+    {"area": "04", "segno": "-", "effetto": "Niente detrazione degli interessi per i nuovi mutui prima casa dal 2028: possibile effetto sull'accesso alla casa dei giovani, solo in parte attenuato dalla garanzia Consap per gli under 36."}
+   ],
+   "scommessa": null}
+ ],
+ "rinunce": [
+  "01-P6 da PIENA a ESSENZIALE: si rinuncia al credito di riqualificazione delle strutture turistiche, ma restano la modulazione dell'imposta di soggiorno, il vincolo del 50% e i dati CIN (-0,10 mld/anno su RIALLOCAZIONE, fondo già oltre la capienza).",
+  "01-P7 da PIENA a ESSENZIALE: il conto fiscale automatico parte da chi ha presentato il 730 l'anno precedente e dai pensionati con sola CU, rinviando gli altri non dichiaranti (-0,15 mld/anno, quasi tutti su SPESE_FISCALI).",
+  "01-P5 da PIENA a ESSENZIALE, se COESIONE_2127 o SAD non bastano: solo consorzi e distretti energivori, senza quota SAD per il Centro-Nord (-0,20 mld/anno nel 2027-2028).",
+  "01-P12 da PIENA a ESSENZIALE: si rinvia l'adempimento collaborativo semplificato per le medie imprese e la congruità estesa ai servizi (-0,02 mld/anno su RIALLOCAZIONE).",
+  "01-P1 da PIENA a ESSENZIALE: valutazione generazionale su debito e coorti senza il conto clima, soglia allo 0,1% del PIL (-0,01 mld/anno).",
+  "Non chiedo in questa seduta 01-P4, 01-P9 e 01-P11 oltre la variante del programma (ZERO): con il debito in salita e senza margine di spesa netta, vanno rinviate a quando ci saranno coperture certe."
+ ],
+ "previsioni_contesto": [
+  {"indicatore": "inflazione", "condizione": ">", "soglia": 4.5, "periodo": "2026-12", "probabilita": 0.75},
+  {"indicatore": "pil_trimestrale", "condizione": "<", "soglia": 0.2, "periodo": "2026-Q4", "probabilita": 0.7},
+  {"indicatore": "spread", "condizione": ">", "soglia": 80.0, "periodo": "2026-12", "probabilita": 0.65}
+ ]}

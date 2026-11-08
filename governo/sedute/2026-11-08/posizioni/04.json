@@ -1,0 +1,59 @@
+{"area": "04",
+ "situazione": "Con l'inflazione al 5,6% (ottobre 2026, +1,4 punti sul mese e +4,3 sull'anno) i redditi reali di inquilini e pendolari si comprimono proprio dove l'area è già fragile: il 22,3% degli inquilini a prezzo di mercato spende oltre il 40% del reddito per la casa (2025, contro 18,5% UE) e il Fondo TPL ha perso circa il 38% in termini reali dal 2009. Il PIL è fermo (0,0% nel 2026-Q3), la produzione industriale scende a 92,8 e la fiducia dei consumatori è a -23,3 (-7,8 sull'anno): la chiusura del PNRR (24,2 mld di spesa che slittano oltre il 2026, quasi tutta la Missione 3) rischia di togliere un sostegno agli investimenti nel momento peggiore. Il debito sale a 139,9% del PIL (2026-Q2, +1,3 punti) e lo spread a 88,9 pb: ogni misura dell'area va finanziata senza deficit, e la capienza della coesione 2021-27 (2,00 mld) è già tutta impegnata. Tra le priorità dell'allerta inflazione, 04-P3 è oggi fuori dal programma.",
+ "richieste": [
+  {"azione": "modificare", "proposta": "04-P3", "variante": "ESSENZIALE",
+   "motivazione": "È una priorità dell'allerta inflazione_alta oggi non finanziata. La variante ESSENZIALE (1,17 mld a regime) indicizza il Fondo TPL all'HICP, aggiunge 0,2 mld di servizi al Sud e introduce la tariffa sociale per under 26 e ISEE sotto 20.000 euro: protegge il reddito reale di chi non ha alternative all'auto (Benessere, Equità) e riduce le emissioni del trasporto stradale, l'unico grande settore in crescita (105,0 Mt CO2eq, +11,7% sul 1990: Responsabilità verso il futuro). Non usa il Fondo sociale per il clima ed è coperta da riduzione dei SAD (0,87) e coesione per il rotabile (0,30), senza deficit. La PIENA è esclusa dalle linee rosse e non è chiesta. Il riparto del Fondo richiede intesa in Conferenza (Corte cost. 370/2003) e le compensazioni devono rispettare il Reg. (CE) 1370/2007; il dettaglio della tariffa sociale come LEP o come condizione di accesso ai fondi è da verificare con l'Ufficio legislativo.",
+   "pre_mortem": "Le coperture non reggono: la riduzione dei SAD su gasolio di autotrasporto e agricoltura viene rinviata per l'opposizione delle categorie e per il calo della fiducia dei consumatori, e la quota coesione per il rotabile non trova capienza perché il fondo COESIONE_2127 è già saturo. In subordine i treni arrivano dopo 2-4 anni e la tariffa sociale crea domanda su un'offerta insufficiente.",
+   "effetti_altri": [
+    {"area": "03", "segno": "+", "effetto": "Contributo agli obiettivi Effort Sharing e di riduzione delle emissioni dei trasporti."},
+    {"area": "03", "segno": "-", "effetto": "Usa 0,87 mld di gettito SAD, in concorrenza con il dividendo climatico 03-P1 e con le altre misure finanziate dal fondo SAD."},
+    {"area": "01", "segno": "-", "effetto": "La riduzione dei sussidi al gasolio aumenta i costi di autotrasporto e agricoltura; servono compensazioni per il rinnovo delle flotte. Aggiunge 0,87 mld di fabbisogno sulle risorse generali, oggi in pareggio (10,49 su 10,50)."},
+    {"area": "02", "segno": "+", "effetto": "Tariffa sociale per famiglie a basso ISEE e under 26: sostegno al reddito reale e alla mobilità verso il lavoro."},
+    {"area": "05", "segno": "+", "effetto": "Accesso più economico a scuola, università e ITS per gli under 26."},
+    {"area": "04", "segno": "-", "effetto": "La quota coesione (0,30) compete con 04-P2 e 04-P6 sullo stesso fondo già saturo."}
+   ],
+   "scommessa": null},
+  {"azione": "adottare", "proposta": "04-P2", "variante": "ESSENZIALE",
+   "motivazione": "Priorità dell'allerta inflazione_alta, già nel programma del momento. Con affitti cresciuti del 13,9% nel 2010-2024 e il sovraccarico abitativo degli inquilini salito dal 19,4% al 22,3% in un anno, il recupero di 30.000 alloggi ERP vuoti e 50.000 contratti con Agenzie sociali per l'affitto aumenta l'offerta a canone concordato invece di sussidiare la domanda, che con l'inflazione verrebbe assorbita dai canoni (Benessere, Rispetto e diversità, Equità). Costo 0,48 mld, coperto da coesione OP4 (0,30) e da riduzione delle detrazioni edilizie non selettive (0,18). La cedolare secca al 5% per i contratti con le Agenzie è un'agevolazione fiscale: compatibilità con le regole sugli aiuti di Stato non rilevante (beneficiari persone fisiche), ma da verificare se i locatori sono imprese.",
+   "pre_mortem": "I cantieri ERP partono lentamente per la scarsa capacità tecnica degli enti gestori e i proprietari privati non si fidano delle Agenzie: a fine 2028 i contratti attivi restano molto sotto l'obiettivo e la riprogrammazione FESR non viene approvata in tempo.",
+   "effetti_altri": [
+    {"area": "01", "segno": "-", "effetto": "La riduzione delle detrazioni edilizie sulle seconde case non locate a canone concordato riduce la domanda per il settore edile e la cedolare al 5% riduce il gettito."},
+    {"area": "02", "segno": "+", "effetto": "Offerta abitativa per famiglie in graduatoria e nella fascia grigia; coordinamento con Assegno di inclusione e contributi affitto."},
+    {"area": "07", "segno": "+", "effetto": "Il protocollo 'da casa a casa' offre una soluzione alle famiglie fragili negli sgomberi del DL 66/2026."},
+    {"area": "06", "segno": "+", "effetto": "Alloggi di servizio per il personale sanitario nelle aree carenti, in sinergia con 04-P6."}
+   ],
+   "scommessa": null},
+  {"azione": "adottare", "proposta": "04-P6", "variante": "ESSENZIALE",
+   "motivazione": "Proposta robusta: rientra nel nucleo che non dipende dai pesi dei valori e va finanziata per prima (regola 8 della Carta). Le aree interne del Mezzogiorno passerebbero da 7,1 a 6,0 milioni di abitanti al 2050 (ISTAT, agosto 2026). La ESSENZIALE (0,42 mld: 72 aree SNAI, 500 presidi multiservizio, indennità per circa 35.000 tra medici, infermieri e insegnanti) lega le risorse a obiettivi di servizio misurati (Equità, Bellezza, patrimonio e accoglienza, Benessere). L'indennità va definita in contrattazione entro un limite di spesa fissato per legge (art. 97 Cost.).",
+   "pre_mortem": "Il personale non accetta comunque gli incarichi nelle sedi periferiche e i presidi aprono senza operatori formati; le quote successive alla prima vengono erogate anche senza obiettivi raggiunti per pressione locale.",
+   "effetti_altri": [
+    {"area": "06", "segno": "+", "effetto": "Indennità di sede disagiata e telemedicina aiutano a coprire i posti vacanti nei distretti periferici."},
+    {"area": "06", "segno": "-", "effetto": "L'indennità va negoziata nei contratti del SSN e può creare richieste di estensione ad altre sedi."},
+    {"area": "05", "segno": "+", "effetto": "Scuole in rete e indennità per gli insegnanti riducono il turnover nelle scuole delle aree interne."},
+    {"area": "09", "segno": "+", "effetto": "Presidi multiservizio come punto unico dei servizi statali, in sinergia con 09-C3 (Tecnici della Repubblica)."},
+    {"area": "09", "segno": "-", "effetto": "La gestione associata obbligatoria dei Comuni sotto 3.000 abitanti richiede supporto organizzativo e incontra resistenze locali."},
+    {"area": "03", "segno": "-", "effetto": "Usa 0,04 mld di gettito SAD, in concorrenza con le misure dell'area 03."}
+   ],
+   "scommessa": null},
+  {"azione": "adottare", "proposta": "04-P4", "variante": "PIENA",
+   "motivazione": "Costo quasi nullo (0,025 mld) e beneficio alto nel medio-lungo periodo: con il debito al 139,9% del PIL e l'allerta debito_in_salita, ogni grande opera sopra 500 mln deve passare un'analisi costi-benefici indipendente, pubblica e confrontata con alternative, con scenari demografici (popolazione a 55 milioni nel 2050) e climatici (Fiducia e trasparenza, Responsabilità verso il futuro). Il Governo resta libero di decidere, ma motiva in pubblico (comply or explain). Collocare l'Ufficio presso l'UPB richiede il consenso delle Camere, la modifica dei loro regolamenti e una modifica espressa della L. 243/2012 a maggioranza assoluta: da verificare con l'Ufficio legislativo; in alternativa l'Ufficio può essere collocato presso un organo indipendente già esistente.",
+   "pre_mortem": "La legge non viene approvata o l'Ufficio non nasce perché le Camere non danno il consenso a collocarlo presso l'UPB; oppure le opere strategiche vengono escluse per decreto e la valutazione diventa un adempimento formale.",
+   "effetti_altri": [
+    {"area": "08", "segno": "-", "effetto": "Richiede consenso delle Camere, modifica dei regolamenti parlamentari e della L. 243/2012 a maggioranza assoluta."},
+    {"area": "01", "segno": "+", "effetto": "Selezione migliore degli investimenti e minori scostamenti di costo, con beneficio sui conti pubblici nel medio periodo."},
+    {"area": "03", "segno": "+", "effetto": "Gli scenari climatici entrano nella valutazione delle opere e riducono il rischio di infrastrutture non resilienti."}
+   ],
+   "scommessa": null}
+ ],
+ "rinunce": [
+  "04-P1 (Patto di continuità post-PNRR): non chiedo di inserirla in questa seduta, benché il precipizio del dopo-PNRR resti reale; la ripresento quando si libera capienza sulla coesione.",
+  "04-P3: se il Consiglio non trova 0,87 mld di risorse generali e 0,30 di coesione, accetto la variante PILOTA (0,62 mld: indicizzazione del Fondo TPL e abbonamento unico in 3 Regioni) invece della ESSENZIALE.",
+  "04-P4: accetto la ESSENZIALE (soglia 1 mld, solo nuove opere; 0,012 mld) al posto della PIENA se servono risparmi o se l'opzione UPB non è percorribile.",
+  "04-P5: resta alla variante ZERO (solo metodo: quantificazione dei LEP, clausola LEP prima, reversibilità); rinuncio al Fondo di convergenza in questa legislatura di bilancio.",
+  "04-P2: come ultima istanza, accetto il passaggio dalla ESSENZIALE alla PILOTA se serve a finanziare una misura del nucleo robusto di un'altra area. Non rinuncio a 04-P6, che è nel nucleo robusto."
+ ],
+ "previsioni_contesto": [
+  {"indicatore": "inflazione", "condizione": ">", "soglia": 5.0, "periodo": "2026-11", "probabilita": 0.75},
+  {"indicatore": "pil_trimestrale", "condizione": "<", "soglia": 0.3, "periodo": "2026-Q4", "probabilita": 0.75},
+  {"indicatore": "spread", "condizione": ">", "soglia": 80.0, "periodo": "2026-10", "probabilita": 0.75}
+ ]}

@@ -1,0 +1,57 @@
+{"area": "05",
+ "situazione": "Il quadro macro è sfavorevole: inflazione al 5,6% a ottobre 2026 (+1,4 punti sul mese, dato provvisorio), PIL fermo nel 2026-Q3 (0,0%), debito/PIL trimestrale al 139,9% (+1,3) e risorse generali già sature (spesa 10,49 contro gettito 10,50 mld), con RIALLOCAZIONE (4,41 contro 2,49) e RIORDINO_BONUS (1,21 contro 0,21) oltre la capienza e COESIONE_2127 esaurita (2,00 su 2,00). Gli indicatori dell'area restano in miglioramento ma fragili: NEET 15-29 al 13,3% nel 2025 (-1,9 punti, ancora quartultimi nell'UE) e disoccupazione under 25 al 19,9% a settembre 2026 (-0,4). L'apprendimento automatico segnala però che la spesa totale in R&S scende all'1,37% del PIL nel 2025 contro la base 1,41% anche senza intervento, mentre il programma del momento tiene la proposta sulla ricerca (05-C3) a ZERO. Con la chiusura del PNRR al 31/12/2026 si apre un precipizio di spesa su borse di studio e contratti di ricerca a tempo determinato, e la fecondità a 1,18 (2024) conferma un calo degli alunni che libera risorse sugli organici solo tramite turnover.",
+ "richieste": [
+  {"azione": "adottare", "proposta": "05-C1", "variante": "PIENA",
+   "motivazione": "Proposta robusta e a basso costo (0,25 mld a regime nel 2029, 0,03 nel 2027), coperta quasi per intero dal dividendo demografico della scuola (RIALLOCAZIONE 0,17, adeguamento degli organici al calo degli alunni solo tramite turnover) e per la parte di avvio dal FSE+. Interviene dove il beneficio marginale è più alto: abbandono precoce al 13,7% nelle Isole e al 10,1% tra i maschi (2025) contro l'8,2% nazionale, calo di 3 punti in matematica alla primaria (INVALSI 2026). Serve Apprendimento e cultura, Equità e Rispetto; l'allerta precoce che segnala ma non decide rispetta la linea rossa sull'AI (supervisione umana, AI Act). Il rifinanziamento oltre il 2030 è legato a una valutazione controfattuale, coerente con Fiducia e trasparenza.",
+   "pre_mortem": "La RGS non certifica come risparmio nuovo l'adeguamento degli organici, perché in parte già scontato nei tendenziali (L. 207/2024, c. 828; nota MIM 10164/2026 nota solo da stampa, da verificare): la quota RIALLOCAZIONE da 0,17 non si materializza e la misura resta senza copertura stabile dopo la fine del FSE+ nel 2029. Secondo rischio: resistenza sindacale e difficoltà a reclutare educatori stabili nelle sedi disagiate.",
+   "effetti_altri": [
+    {"area": "01", "segno": "-", "effetto": "Il dividendo demografico della scuola (0,17 mld) resta nel sistema scolastico invece di ridurre la spesa: il MEF rinuncia a contabilizzarlo come risparmio, e la quota pesa su RIALLOCAZIONE, fondo già oltre la capienza (4,41 contro 2,49)."},
+    {"area": "04", "segno": "-", "effetto": "Usa COESIONE_2127 (FSE+) fino al 2029, fondo già esaurito (2,00 su 2,00): la riprogrammazione toglie spazio ad altri programmi di coesione, anche regionali."},
+    {"area": "02", "segno": "+", "effetto": "Meno abbandono e meno NEET futuri; i percorsi ponte CPIA-IeFP per i neo-arrivati 16-24 aiutano l'inserimento lavorativo."},
+    {"area": "07", "segno": "+", "effetto": "Integrazione scolastica dei giovani stranieri arrivati tardi (ELET al 44,1%), con effetti positivi su inclusione e prevenzione del disagio."},
+    {"area": "09", "segno": "-", "effetto": "Il sistema di allerta precoce richiede valutazione d'impatto sui diritti, parere del Garante e conformità all'AI Act: carico amministrativo per le autorità digitali e privacy."}
+   ],
+   "scommessa": null},
+  {"azione": "adottare", "proposta": "05-C4", "variante": "ESSENZIALE",
+   "motivazione": "Proposta robusta: i laureati 25-34 sono al 31,1% nel 2025 contro il 44,8% UE e il target del 45% al 2030. Con gli ultimi pagamenti PNRR al 31/12/2026 una parte delle borse (circa 150 mln su 708 nel 2025/26, fonte di stampa, da verificare) resta senza copertura e tornerebbero gli idonei non beneficiari: rinviare significa fare un passo indietro sul diritto allo studio (art. 34 Cost.). La ESSENZIALE (0,45 mld a regime) tutela le borse, raddoppia gli ITS e avvia le residenze, con un costo contenuto e in parte autofinanziato dal dividendo demografico. Serve Apprendimento e cultura, Equità e Futuro; ridurre i NEET (13,3%) è anche una leva di crescita in un PIL fermo.",
+   "pre_mortem": "La copertura su SPESE_FISCALI (0,22) slitta perché il riordino delle spese fiscali non viene deciso per legge, e i fondi di coesione per le residenze non ci sono dopo il 2029; in più gli ITS crescono di numero ma con qualità disomogenea, e i nuovi laureati emigrano se i salari dei giovani restano bassi.",
+   "effetti_altri": [
+    {"area": "01", "segno": "-", "effetto": "Assorbe 0,22 mld di SPESE_FISCALI e 0,13 di RIALLOCAZIONE che il MEF potrebbe destinare ad altre misure o alla riduzione del deficit."},
+    {"area": "01", "segno": "+", "effetto": "Più diplomati ITS e laureati sostengono la produttività e la domanda di competenze delle imprese nel medio periodo."},
+    {"area": "02", "segno": "+", "effetto": "Riduce NEET e disoccupazione giovanile grazie all'orientamento ITS e alle passerelle verso il lavoro qualificato."},
+    {"area": "04", "segno": "-", "effetto": "Le residenze su immobili pubblici dismessi entrano in conflitto con l'uso degli stessi beni per dismissioni a fini di riduzione del debito; quota COESIONE_2127 (0,10) su un fondo esaurito."},
+    {"area": "03", "segno": "+", "effetto": "Le residenze ristrutturate ad alta efficienza energetica contribuiscono agli obiettivi di efficienza degli edifici pubblici."}
+   ],
+   "scommessa": {"indicatore": "neet", "condizione": "<", "soglia": 12.8, "periodo": "2028", "probabilita": 0.6}},
+  {"azione": "modificare", "proposta": "05-C3", "variante": "ESSENZIALE",
+   "motivazione": "Il programma del momento tiene la ricerca a ZERO mentre la spesa in R&S scende all'1,37% del PIL nel 2025 (base 1,41%, UE 2,26%) anche senza intervento: è l'unico indicatore dell'area che l'apprendimento segnala in peggioramento. Con la fine del PNRR scadono tra 2026 e 2027 molti contratti di ricerca a tempo determinato (totale nazionale non disponibile da fonte ufficiale; DM MUR 193/2026 da verificare): senza un ponte si perde un capitale umano già formato e si aggrava la fuga dei laureati (-78.000 nel 2019-2024). La ESSENZIALE pesa poco nel triennio (0,20 / 0,40 / 0,60 mld nel 2027-29) ed è coperta da SPESE_FISCALI e SAD, che oggi hanno margine (4,30 contro 2,78 e 2,53 contro 1,54), quindi non a debito, come chiede la regola FUT. La clausola di revisione triennale (almeno 2 indicatori su 4 migliorati) protegge Fiducia e Futuro. Per non gravare sulle risorse generali, l'area offre in cambio le rinunce indicate (05-C6 e 05-C5 in ESSENZIALE, 05-C2 in PILOTA), che liberano circa 0,74 mld a regime, più del costo della ESSENZIALE fino al 2029.",
+   "pre_mortem": "Il sentiero viene tagliato nelle leggi di bilancio successive perché il beneficio arriva tra 10 e 20 anni mentre il costo è immediato; oppure il riordino delle spese fiscali e dei SAD, in un momento di fiducia dei consumatori in calo (-23,3), viene rinviato per ragioni di consenso e la copertura salta.",
+   "effetti_altri": [
+    {"area": "01", "segno": "-", "effetto": "Assorbe fino a 1,00 mld di SPESE_FISCALI e 0,50 di SAD a regime (2032): meno spazio per altre misure fiscali o per la riduzione del deficit."},
+    {"area": "03", "segno": "-", "effetto": "Usa una quota del gettito dalla rimodulazione dei SAD, contesa con le misure ambientali ed energetiche."},
+    {"area": "03", "segno": "+", "effetto": "Almeno un terzo delle risorse aggiuntive va a ricerca su clima, energia e adattamento."},
+    {"area": "01", "segno": "+", "effetto": "Più ricerca pubblica sostiene innovazione e trasferimento tecnologico alle imprese nel medio-lungo periodo."},
+    {"area": "06", "segno": "+", "effetto": "Ricerca biomedica finanziata con bandi a calendario fisso e peer review."}
+   ],
+   "scommessa": null},
+  {"azione": "modificare", "proposta": "05-C6", "variante": "ESSENZIALE",
+   "motivazione": "Con risorse generali sature e RIORDINO_BONUS oltre la capienza (1,21 contro 0,21), la PIENA (0,22 mld) è un lusso: la ESSENZIALE (0,08) mantiene curricolo di alfabetizzazione critica, formazione obbligatoria dei docenti e regola della decisione umana, acquistando gli strumenti tramite accordi quadro Consip invece di una piattaforma pubblica propria. Libera 0,04 di RIORDINO_BONUS, 0,05 di RIALLOCAZIONE e 0,05 di COESIONE_2127, tutti fondi contesi. Il calo della matematica alla primaria (V primaria dal 66% al 63%, INVALSI 2026) suggerisce prudenza: meglio regole e formazione prima degli strumenti. Coerente con Cittadinanza responsabile, Apprendimento e la linea rossa dell'AI Act sulla supervisione umana.",
+   "pre_mortem": "La quota vincolata della Carta del docente (RIORDINO_BONUS 0,08) incontra la resistenza dei docenti e dei sindacati e non viene approvata, oppure la formazione resta formale (ore certificate senza cambiamento della didattica) e gli strumenti acquistati via Consip non rispettano in pratica i requisiti di alto rischio dell'AI Act dal 2/12/2027.",
+   "effetti_altri": [
+    {"area": "01", "segno": "+", "effetto": "Riduce di 0,14 mld a regime la pressione sui fondi contesi (RIORDINO_BONUS, RIALLOCAZIONE, COESIONE_2127)."},
+    {"area": "09", "segno": "-", "effetto": "Senza piattaforma pubblica propria, maggiore dipendenza da fornitori privati: serve vigilanza su lock-in, conformità all'AI Act e trattamento dei dati nell'UE."},
+    {"area": "02", "segno": "+", "effetto": "Studenti con competenze critiche sull'AI, più preparati a un mercato del lavoro in cui le imprese che usano l'AI sono il 16,4%."}
+   ],
+   "scommessa": null}
+ ],
+ "rinunce": [
+  "05-C5 Scuole aperte da PIENA a ESSENZIALE (da 0,40 a 0,20 mld): si concentrano le aperture sulle ~1.500 scuole fragili di 05-C1 e si libera la quota RIALLOCAZIONE (0,06 a 0,03) e SPESE_FISCALI (0,10).",
+  "05-C2 Conto personale di competenze da ESSENZIALE a PILOTA (da 0,45 a 0,05 mld): si rinvia la scala nazionale a dopo la valutazione dei piloti in 3 Regioni e si libera 0,30 di RIALLOCAZIONE, il fondo più conteso.",
+  "05-C3 Carriere della ricerca: se le coperture su SPESE_FISCALI e SAD non sono decise per legge, l'area accetta di restare a ZERO (solo Agenzia, tenure track e calendario a costo zero), purché resti il ponte per i ricercatori PNRR finanziato all'interno dei fondi PRIN/FIS esistenti.",
+  "05-C4 Terziario da ESSENZIALE a PILOTA (0,20 mld) solo come ultima istanza, mantenendo comunque la copertura integrale delle borse di studio per gli idonei."
+ ],
+ "previsioni_contesto": [
+  {"indicatore": "fecondita", "condizione": "<", "soglia": 1.16, "periodo": "2025", "probabilita": 0.8},
+  {"indicatore": "inflazione", "condizione": ">", "soglia": 4.5, "periodo": "2026-12", "probabilita": 0.7},
+  {"indicatore": "neet", "condizione": "<", "soglia": 13.3, "periodo": "2026", "probabilita": 0.65}
+ ]}

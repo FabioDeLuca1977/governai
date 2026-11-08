@@ -56,6 +56,18 @@ Quando una richiesta contiene un testo di legge o un emendamento:
 2. Segui `legislazione/istruzioni_revisione.md` per il giudizio su valori, linee rosse e quadro giuridico.
 3. Nel dossier riporta gli errori, la versione corretta del testo e i punti da verificare con un ufficio legislativo.
 
+## 2d. Consiglio dei ministri (governo ombra)
+
+Convoca il Consiglio quando il bollettino di oggi riporta un'allerta nuova, quando un suggerimento approvato riguarda più ministeri, e in ogni caso il lunedì. Regole in `governo/regolamento.md`.
+
+1. `python governo/consiglio.py --prepara --motivo "perché si riunisce"`. Crea `governo/sedute/AAAA-MM-GG/` con l'ordine del giorno e un incarico per ogni ruolo.
+2. **Ministri.** Lancia 9 subagenti in parallelo, uno per `incarico_ministro_NN.md`. Ognuno scrive solo `posizioni/NN.json` e non legge gli altri.
+3. **Opposizione.** Un subagente con `incarico_opposizione.md`, dopo i ministri.
+4. **Capo di governo.** Un subagente con `incarico_capo.md`, per ultimo.
+5. `python governo/consiglio.py --componi governo/sedute/AAAA-MM-GG`. Applica linee rosse, Ragioneria e regolamento, scrive il verbale in `governo/verbali/` e registra previsioni e mandati.
+
+Non scrivere tu le posizioni dei ruoli e non correggere le loro decisioni: se un JSON non è valido, rilancia lo stesso ruolo indicandogli l'errore.
+
 ## 3. Il lunedì: revisione del momento
 
 Leggi:
@@ -93,7 +105,7 @@ Esegui questo passo solo se hai prodotto o modificato qualcosa.
 ```bash
 python -I integrita/catena.py --aggiungi revisione-ai --nota "<breve descrizione>"
 python -I sistema/esporta_web.py
-git add -A analisi apprendimento sistema/bollettini sistema/stato registro programma integrita docs
+git add -A analisi apprendimento sistema/bollettini sistema/stato registro programma integrita docs governo
 git commit -m "Livello AI: <breve descrizione>"
 git pull --rebase origin main
 git push

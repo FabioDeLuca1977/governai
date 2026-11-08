@@ -122,6 +122,14 @@ def integrita() -> dict:
             "ultimi": [{k: a.get(k) for k in campi} for a in anelli[-30:]][::-1]}
 
 
+def governo() -> dict:
+    g = RADICE / "governo"
+    leggi_csv = lambda f: records(pd.read_csv(f, dtype=str).fillna("")) if f.exists() else []
+    return {"verbali": [{"seduta": f.stem, "testo": leggi(f)} for f in sorted((g / "verbali").glob("*.md"), reverse=True)[:60]],
+            "credibilita": leggi_csv(g / "credibilita.csv"), "mandati": leggi_csv(g / "mandati.csv"),
+            "regolamento": leggi(g / "regolamento.md") if (g / "regolamento.md").exists() else ""}
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     conf = yaml.safe_load(leggi(QUI / "config.yaml"))
@@ -201,6 +209,7 @@ def main() -> int:
         "obiettivi": obiettivi(),
         "lezioni": leggi(RADICE / "apprendimento" / "lezioni.md"),
         "integrita": integrita(),
+        "governo": governo(),
         "numeri": {"cifre_verificate": 334, "proposte": len(proposte),
                    "varianti": int(var.drop_duplicates(["proposta_id", "variante"]).shape[0]),
                    "coperture": len(menu), "valori": len(valori_carta()),

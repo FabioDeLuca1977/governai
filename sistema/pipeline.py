@@ -203,6 +203,11 @@ def main() -> int:
         ok, msg = esegui(["scarica_gu.py"], RADICE / "legislazione", timeout=3600)
         log.append(f"legislazione: {msg}" if ok else f"ERRORE legislazione: {msg}")
 
+    # 3e. governo ombra: verifica le previsioni scadute del Consiglio dei ministri e aggiorna la credibilità
+    if (RADICE / "governo" / "previsioni.csv").exists():
+        ok, msg = esegui(["consiglio.py", "--valuta"], RADICE / "governo")
+        log.append(msg if ok else f"ERRORE consiglio: {msg}")
+
     # 4. ricalcolo
     dati_nuovi = bool(sent.get("serie_cambiate")) or bool(nuove_allerte)
     priorita = sorted({p for r in allerte for p in r.get("priorita", [])})

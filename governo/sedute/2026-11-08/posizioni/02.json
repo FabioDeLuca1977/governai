@@ -1,0 +1,61 @@
+{"area": "02",
+ "situazione": "L'inflazione al 5,6% (ottobre 2026, +4,3 punti sull'anno) supera di molto gli aumenti contrattuali (+2,5%): le retribuzioni contrattuali orarie reali sono al -10,2% rispetto a gennaio 2021 e il 10,2% degli occupati è a rischio di povertà (UE 8,3%). Il mercato del lavoro comincia a cedere con il PIL fermo nel terzo trimestre: disoccupazione al 6,3% (+0,4 punti sull'anno), under 25 al 19,9%, NEET al 13,3%. La povertà assoluta riguarda 5,4 milioni di persone (9,3%) e 1,136 milioni di minori, ma l'ADI raggiunge solo 690 mila nuclei su 2,1 milioni di famiglie povere; la fecondità è a 1,18 nel 2024 e scende a 1,14 nel 2025 secondo ISTAT. Con debito/PIL al 139,9% e risorse generali già impegnate (spesa 10,49 su 10,50 mld), ogni euro in più per i redditi bassi deve venire da coperture vere o da rinunce interne, mai dal deficit.",
+ "richieste": [
+  {"azione": "adottare",
+   "proposta": "02-C4",
+   "variante": "ESSENZIALE",
+   "motivazione": "È priorità dell'allerta inflazione_alta ed è oggi non finanziata. Con prezzi al +5,6% le famiglie in povertà assoluta (9,3%, minori 12,5%) perdono più degli altri, e due terzi di esse restano fuori dall'ADI per i requisiti categoriali. La ESSENZIALE (ISEE fino a 6.000 euro, decalage al 50% per 12 mesi, residenza a 2 anni conforme a CGUE C-112/22 e C-223/22) costa 0,3 mld nel 2027, 1,2 nel 2028 e 1,5 a regime, ed è coperta senza deficit (regola FUT): 0,45 mld li libera la mia stessa area (02-C1 e 02-C6 ridotte a ESSENZIALE), il resto va trovato nella capienza ancora libera di SPESE_FISCALI (4,30 disponibili contro 2,78 impegnati) e SAD (2,53 contro 1,54). Dato l'allerta fiducia_in_calo, chiedo di preferire il riordino delle spese fiscali regressive alle coperture che pesano sui consumi. Carta: Equità (art. 3 c.2 Cost.), Rispetto e diversità, con reciprocità tramite il decalage e il patto di inclusione (Cittadinanza responsabile); decisione sempre umana sul beneficio (AI Act, GDPR art. 22).",
+   "pre_mortem": "I centri per l'impiego e i servizi sociali degli ambiti non hanno abbastanza case manager: le domande crescono, il patto di inclusione resta sulla carta e la misura viene percepita come puro assistenzialismo, con take-up basso proprio al Sud e tra i soli adulti.",
+   "effetti_altri": [
+    {"area": "01", "segno": "-", "effetto": "Assorbe circa 0,5 mld di riordino delle spese fiscali e 0,5 mld di riordino dei bonus: meno margine per altre misure fiscali."},
+    {"area": "03", "segno": "-", "effetto": "Usa 0,5 mld della riforma SAD, in concorrenza con 03-P1 (dividendo climatico); in cambio compensa le famiglie povere dei rincari energetici prodotti dalla riforma SAD e la rende più sostenibile socialmente."},
+    {"area": "07", "segno": "-", "effetto": "La residenza ridotta a 2 anni amplia la platea di stranieri beneficiari: tema valoriale che tocca la governance dei flussi (07-C3) e va deciso esplicitamente."},
+    {"area": "09", "segno": "-", "effetto": "Carico aggiuntivo su INPS (piattaforma SIISL, controlli incrociati) e sugli uffici; sinergia con 09-C2 once-only per l'aggiornamento automatico del beneficio."}
+   ],
+   "scommessa": null},
+  {"azione": "modificare",
+   "proposta": "02-C1",
+   "variante": "ESSENZIALE",
+   "motivazione": "Il salario minimo contrattuale è priorità di due allerte (inflazione_alta e inflazione_in_salita) e va mantenuto, ma nella ESSENZIALE anziché nella PIENA: TEC del CCNL più rappresentativo come parametro dell'art. 36 Cost. (non erga omnes ex art. 39), soglia di garanzia della Commissione dove manca un contratto rappresentativo o il minimo è sotto soglia (Direttiva 2022/2041), 750 ispettori INL. Rinvia lo sgravio per le micro-imprese e la seconda metà degli ispettori a dopo la valutazione UPB-INAPP a 36 mesi. Con il PIL fermo e la disoccupazione in salita è la versione che protegge i salari più bassi con il minor rischio occupazionale, e libera 0,15 mld a regime per 02-C4.",
+   "pre_mortem": "La misurazione della rappresentatività CNEL-INPS si impantana in ricorsi al giudice amministrativo sugli elenchi dei contratti di riferimento, e senza abbastanza ispettori il pavimento non viene fatto rispettare nelle micro-imprese del Sud, dove cresce il sommerso.",
+   "effetti_altri": [
+    {"area": "01", "segno": "-", "effetto": "Più costo del lavoro per le micro-imprese con contratti al ribasso, senza lo sgravio temporaneo previsto dalla PIENA; in compenso più gettito contributivo e IRPEF (non contabilizzato come copertura)."},
+    {"area": "04", "segno": "-", "effetto": "Il TEC di riferimento vale anche negli appalti e subappalti: possibile aumento del costo dei servizi appaltati (pulizie, vigilanza, logistica) per le stazioni appaltanti."},
+    {"area": "08", "segno": "+", "effetto": "Sinergia con 08-P7 (appalti a vetro): i dati sui contratti applicati negli appalti rafforzano il cruscotto dei rischi."}
+   ],
+   "scommessa": {"indicatore": "disoccupazione", "condizione": "<", "soglia": 7.0, "periodo": "2028-12", "probabilita": 0.75}},
+  {"azione": "adottare",
+   "proposta": "02-C2",
+   "variante": "ESSENZIALE",
+   "motivazione": "È nel nucleo robusto e va protetta da tagli: spesa corrente per i nidi solo negli ambiti sotto il LEP del 33% già previsto dalla L. 234/2021 (Sud a 19,0 posti ogni 100 bambini), gratuità per ISEE fino a 25.000 euro in quegli ambiti, congedo paterno a 1 mese dal 2028 e 2 mesi dal 2030. Con fecondità a 1,18 (2024) e 1,14 (2025) e occupazione femminile 20-64 al 58,0%, servizi e tempo condiviso sono la leva con più evidenze, più dei bonus monetari. L'obiettivo dichiarato è copertura e occupazione, non un numero di nascite. La sovrapposizione con il mese di congedo parentale per il padre del ddl bilancio 2027 è da verificare sul testo bollinato.",
+   "pre_mortem": "Mancano educatori e capacità amministrativa nei Comuni del Sud: il fondo paga solo i posti effettivamente attivati, quindi le risorse restano inutilizzate e la copertura negli ambiti sotto soglia non sale come previsto.",
+   "effetti_altri": [
+    {"area": "01", "segno": "-", "effetto": "Assorbe 1,0 mld di riordino delle spese fiscali e 1,0 mld di riordino dei bonus natalità (decontribuzione madri, bonus nido nei Comuni beneficiari)."},
+    {"area": "05", "segno": "+", "effetto": "Sinergia con il sistema 0-6 e con la formazione degli educatori (lauree L-19 su FSE+)."},
+    {"area": "09", "segno": "-", "effetto": "Richiede il supporto della struttura per i piccoli enti (09-C3) ai Comuni sotto i 5.000 abitanti: carico aggiuntivo sul pool tecnico."}
+   ],
+   "scommessa": null},
+  {"azione": "modificare",
+   "proposta": "02-C6",
+   "variante": "ESSENZIALE",
+   "motivazione": "02-C6 è in coda nella classificazione del panel. La ESSENZIALE conserva il cuore della proposta (valutazione d'impatto generazionale UPB unificata con 01-P1, Strategia demografica decennale, programmazione triennale degli ingressi per lavoro decisa dal Parlamento) e costa 0,10 mld invece di 0,40. Libera 0,30 mld a regime per finanziare 02-C4, coerentemente con la regola FUT dell'allerta debito_in_salita.",
+   "pre_mortem": "La valutazione generazionale diventa un adempimento formale senza effetti sulle scelte di bilancio, e la Strategia demografica resta un documento senza strumenti, perché la parte operativa (rientro dei giovani, riconoscimento dei titoli) è stata tolta.",
+   "effetti_altri": [
+    {"area": "01", "segno": "+", "effetto": "L'articolato si fonde con 01-P1 (bilancio generazionale) a costo marginale; viene meno però il tetto al regime impatriati della PIENA, che avrebbe ridotto una spesa fiscale."},
+    {"area": "05", "segno": "-", "effetto": "Senza incentivo al rientro dei giovani e riconoscimento rapido dei titoli si perde una leva per trattenere e attrarre laureati."},
+    {"area": "07", "segno": "+", "effetto": "La programmazione triennale degli ingressi fondata su Excelsior e INPS fornisce dati a 07-C3 (governance dei flussi)."}
+   ],
+   "scommessa": null}
+ ],
+ "rinunce": [
+  "Se il Consiglio non trova i circa 1,05 mld a regime per completare 02-C4 ESSENZIALE senza deficit, accetto di ripiegare su 02-C4 PILOTA (0,1 mld, sperimentazione randomizzata in 12 ambiti), purché non si tocchi 02-C2.",
+  "02-C2 ESSENZIALE: disponibile a rinviare di un anno il secondo mese di congedo paterno (dal 2030 al 2031), ma non a ridurre il fondo per la spesa corrente dei nidi negli ambiti sotto il 33%.",
+  "02-C5 ESSENZIALE: disponibile a far slittare di 12 mesi l'avvio del Fondo per il budget di progetto, mantenendo dal 2027 il progetto di vita su tutto il territorio e gli operatori delle UVM.",
+  "02-C3 ESSENZIALE: disponibile a ripiegare sulla ZERO (solo regole: flessibilità attuariale, aggancio all'aspettativa di vita, gravosi su dati INAIL) se il fondo PENSIONI serve ad altre misure, rinviando la pensione di garanzia, che comunque costerebbe solo dal 2036.",
+  "Non rinuncio a 02-C1 sotto la ESSENZIALE: è priorità di due allerte sull'inflazione."
+ ],
+ "previsioni_contesto": [
+  {"indicatore": "fecondita", "condizione": "<", "soglia": 1.17, "periodo": "2025", "probabilita": 0.9},
+  {"indicatore": "disoccupazione", "condizione": ">", "soglia": 6.0, "periodo": "2026-12", "probabilita": 0.75},
+  {"indicatore": "disoccupazione_giovani", "condizione": "<", "soglia": 21.5, "periodo": "2026-12", "probabilita": 0.8}
+ ]}

@@ -1,0 +1,53 @@
+{"area": "06",
+ "situazione": "Il cruscotto non ha un indicatore sanitario, ma il quadro macro pesa direttamente sull'area: inflazione al 5,6% a ottobre (+1,4 punti in un mese, +4,3 sull'anno) erode il valore reale di un FSN che dopo i +3,4 mld del 2027 (146,3 mld) cresce di meno di 1 mld l'anno e scende dal 6,14% al 5,98% del PIL nel 2028 (dossier 06, calcolo GovernAI). Con debito al 139,9% del PIL (+1,3 punti nel trimestre), PIL fermo nel Q3 e risorse generali già quasi esaurite (spesa 10,49 su gettito 10,50 mld), nessuna misura sanitaria può essere finanziata a debito né con risparmi attesi. Intanto i bisogni crescono: rinuncia alle cure per costo, distanza o attese al 2,5% nel 2025 (1,9% nel 2024), spesa privata delle famiglie a 42,4 mld (22,3%), solo 66 Case della Comunità su 1.715 pienamente operative e 6,9 infermieri per 1.000 abitanti contro 9,2 OCSE. Nel programma del momento l'area 06 ha solo C1 e C6 in variante ZERO: il rischio concreto è che le strutture PNRR, chiuse al 30/6/2026, restino muri senza servizi.",
+ "richieste": [
+  {"azione": "adottare", "proposta": "06-C6", "variante": "ZERO",
+   "motivazione": "Costo zero, già nel programma del momento. Il budget unico del farmaco affronta uno sforamento degli acquisti diretti di 4,77 mld nel 2025 (incidenza 11,8% contro tetto 8,3%) e un payback conflittuale di 2,38 mld; la riallocazione interna verso la prevenzione (oggi 4,5% della spesa corrente) è a saldo invariato e rispetta la regola FUT imposta dall'allerta debito_in_salita. Genera inoltre la copertura FSN-INT, accertata solo ex post. Valori: Responsabilità verso il futuro, Benessere, Fiducia e trasparenza (meno contenzioso, regole pluriennali).",
+   "pre_mortem": "Ricorsi e resistenza dell'industria farmaceutica rallentano il passaggio al tetto unico oltre il 2028; i risparmi da biosimilari e gare non vengono certificati da AIFA-MEF e la riallocazione verso la prevenzione resta sulla carta.",
+   "effetti_altri": [
+    {"area": "01", "segno": "-", "effetto": "Tocca la politica industriale farmaceutica (settore esportatore) e la riduzione del payback per chi investe prevista dal DDL bilancio 2027, art. 71 (da verificare nel testo finale): possibile contenzioso e attrito con le imprese."},
+    {"area": "01", "segno": "+", "effetto": "Riduce l'incertezza di finanza pubblica legata agli sforamenti strutturali dei tetti farmaceutici e al contenzioso sul payback."},
+    {"area": "09", "segno": "-", "effetto": "Richiede registri di monitoraggio AIFA e flussi dati regionali interoperabili per i contratti basati sugli esiti: carico sui sistemi informativi."}
+   ],
+   "scommessa": null},
+  {"azione": "adottare", "proposta": "06-C1", "variante": "ZERO",
+   "motivazione": "Costo zero, già nel programma del momento. Con l'inflazione al 5,6% una garanzia finanziata (ESSENZIALE 0,5 mld) non è sostenibile ora, ma agenda unica CUP, divieto di agende chiuse, criteri RAO vincolanti, audit sui prescrittori e sospensione dell'intramoenia nelle ASL inadempienti aggrediscono i circa 2,8 milioni di prestazioni fuori soglia del I semestre 2026 (Agenas via stampa, da verificare) senza spesa. La rinuncia alle cure al 2,5% colpisce soprattutto chi non può pagare: valori Equità e Benessere.",
+   "pre_mortem": "Le Regioni non chiudono le agende del privato accreditato entro sei mesi e la sospensione dell'intramoenia non viene applicata per timore di perdere professionisti; senza garanzia finanziata i tempi non scendono e la misura perde credibilità.",
+   "effetti_altri": [
+    {"area": "09", "segno": "-", "effetto": "Richiede l'integrazione nei CUP regionali di tutte le agende pubbliche e accreditate e l'estensione della Piattaforma nazionale liste d'attesa: carico sui sistemi informativi regionali."},
+    {"area": "04", "segno": "-", "effetto": "I poteri sostitutivi ex art. 120 Cost. e le sanzioni organizzative alle aziende sono politicamente sensibili nei rapporti con le Regioni (leale collaborazione, intesa da verificare)."}
+   ],
+   "scommessa": null},
+  {"azione": "adottare", "proposta": "06-C3", "variante": "ESSENZIALE",
+   "motivazione": "Solo il 3,9% delle Case della Comunità è pienamente operativo e solo il 27,4% degli Ospedali di Comunità ha almeno un servizio; finita la spesa PNRR, senza fondi di gestione l'investimento già fatto va perso, che è il contrario della Responsabilità verso il futuro. La ESSENZIALE (0,8 mld a regime nel 2029, rampa 0,3-0,6-0,8) copre le 1.038 hub del target PNRR con quota a risultato e perequazione per il Sud (Equità, Benessere). Non usa il FSN né debito: SPESE_FISCALI 0,3 (capienza libera circa 1,5 mld), ACCISE_SALUTE 0,2 (capienza libera 0,42), RIALLOCAZIONE 0,3. Poiché il fondo RIALLOCAZIONE è già oltre capienza (4,41 su 2,49), chiedo che quella quota sia coperta attivando la misura R-SAN2 (tetto per legge alla spesa per beni e servizi non sanitari degli enti SSN, 0,3-0,5 mld, stima GovernAI) o, in subordine, SF-SAN1 (detrazione sanitaria decrescente tra 50.000 e 120.000 euro, gettito da verificare sul Rapporto spese fiscali). La PILOTA non è chiesta perché usa COESIONE_2127, già saturo (2,00 su 2,00).",
+   "pre_mortem": "Le Case restano senza personale: senza abbastanza infermieri e ore di medicina generale (C2), il fondo paga aperture formali e la quota a risultato non scatta; le Regioni in ritardo del Mezzogiorno non firmano i contratti di prossimità entro 12 mesi.",
+   "effetti_altri": [
+    {"area": "01", "segno": "-", "effetto": "Consuma capienza su SPESE_FISCALI e ACCISE_SALUTE e richiede l'attivazione di una copertura nuova (R-SAN2 o SF-SAN1): SF-SAN1 aumenta il prelievo sui redditi sopra 50.000 euro; la quota di accise sui tabacchi ha un effetto marginale al rialzo sui prezzi in fase di inflazione alta e fiducia in calo."},
+    {"area": "02", "segno": "+", "effetto": "Lo sportello sociale unico con Comuni e ambiti territoriali e l'ADI al 10% degli over 65 rafforzano l'integrazione socio-sanitaria e il punto unico di accesso utile a 02-C5 e alla non autosufficienza."},
+    {"area": "04", "segno": "+", "effetto": "Servizi sanitari di prossimità nelle aree interne, in sinergia con 04-P6; esclusione esplicita del doppio finanziamento con 04-P1."},
+    {"area": "04", "segno": "-", "effetto": "Poteri sostitutivi e riconversione a tre anni delle strutture inattive toccano l'organizzazione regionale: servono intesa sul riparto (Corte cost. 370/2003) e diffida preventiva."}
+   ],
+   "scommessa": null},
+  {"azione": "adottare", "proposta": "06-C2", "variante": "PILOTA",
+   "motivazione": "C3 senza personale non funziona: l'Italia ha 6,9 infermieri per 1.000 abitanti contro 9,2 OCSE e un rapporto infermieri/medici di 1,2, mentre i posti di medicina generale scoperti sono oltre 5.500 (Gimbe, da verificare). Con le risorse generali esaurite chiedo la PILOTA (0,35 mld a regime: 4 Regioni e aree interne, 5.000 borse con vincolo SSN, pratica avanzata in 50 CdC), finanziata con SPESE_FISCALI 0,2 e ACCISE_SALUTE 0,15, senza debito. Misura presto l'effetto di indennità e borse prima di scalare alla ESSENZIALE (1,4 mld) quando i conti lo consentiranno. Valori: Benessere, Apprendimento e cultura, Equità territoriale. Nota: la parte sulla pratica avanzata richiede una delega legislativa che oggi non esiste (da verificare); nella PILOTA va limitata a protocolli sperimentali con base di legge.",
+   "pre_mortem": "Gli iscritti a infermieristica non crescono e l'indennità sposta infermieri tra aziende invece di aumentarli; il conflitto con gli ordini medici sul task shifting blocca la pratica avanzata nelle 50 Case pilota.",
+   "effetti_altri": [
+    {"area": "05", "segno": "-", "effetto": "Richiede al MUR più posti nei corsi di laurea in infermieristica e la gestione delle borse con vincolo di servizio: carico organizzativo sugli atenei."},
+    {"area": "01", "segno": "-", "effetto": "Consuma 0,35 mld di capienza su SPESE_FISCALI e ACCISE_SALUTE, in concorrenza con altre aree; spesa per personale rigida una volta a regime."},
+    {"area": "04", "segno": "+", "effetto": "Indennità di area disagiata nelle aree interne, in sinergia con 04-P6 (servizi essenziali)."},
+    {"area": "02", "segno": "+", "effetto": "Occupazione qualificata nel SSN, soprattutto femminile e nelle aree con carenza certificata."}
+   ],
+   "scommessa": null}
+ ],
+ "rinunce": [
+  "Rinvio di 06-C5 (salute mentale) e 06-C4 (budget di cura) a quando le risorse generali avranno margine: nessuna variante chiesta in questa seduta, malgrado i bisogni documentati.",
+  "Rinuncia alla variante PIENA di 06-C6 (fondo prevenzione da 0,3 mld su ACCISE_SALUTE): resta la ZERO a costo nullo.",
+  "Rinuncia a ogni variante finanziata di 06-C1: resta la ZERO, senza garanzia di erogazione pagata.",
+  "Se i fondi non bastano, 06-C3 può scendere dalla ESSENZIALE alla PILOTA (0,15 mld) purché si liberi spazio su COESIONE_2127; 06-C2 resta in PILOTA come soglia minima, perché senza personale anche le Case della Comunità restano vuote.",
+  "Disponibilità a rinviare di sei mesi la quota di accise sui tabacchi delle coperture di area se il Consiglio giudica prioritario non pesare sui consumatori finché la fiducia è in calo, sostituendola con R-SAN2 o SF-SAN1."
+ ],
+ "previsioni_contesto": [
+  {"indicatore": "inflazione", "condizione": ">", "soglia": 5.0, "periodo": "2026-11", "probabilita": 0.72},
+  {"indicatore": "pil_trimestrale", "condizione": "<", "soglia": 0.3, "periodo": "2026-Q4", "probabilita": 0.8},
+  {"indicatore": "fiducia_consumatori", "condizione": "<", "soglia": -20.0, "periodo": "2026-11", "probabilita": 0.8}
+ ]}

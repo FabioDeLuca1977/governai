@@ -195,3 +195,4 @@ tr.esclusa td { color: var(--tenue); }
   .valori-barre { grid-template-columns: 120px 1fr 32px; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+.nota { color: var(--tenue); font-size: .9rem; margin: 4px 0 10px; }

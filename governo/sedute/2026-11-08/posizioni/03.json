@@ -1,0 +1,57 @@
+{"area": "03",
+ "situazione": "L'inflazione è al 5,6% a ottobre 2026 (+1,4 punti in un mese, +4,3 sull'anno, dato provvisorio) e l'allerta chiede di verificarne l'origine energetica: il PUN medio 2025 era già 115,32 €/MWh (+6,3% sul 2024, GME) perché lo fissa il gas, mentre le rinnovabili coprono solo il 41,1% della domanda e nel 2025 si sono installati 7,19 GW contro i circa 9 GW/anno necessari (Terna). Il debito sale a 139,9% del PIL (2026-Q2, +1,3 punti) e la fiducia dei consumatori è a -23,3 (-7,8 sull'anno): nessuna variante a debito e attenzione a coperture che pesano sui consumi, come le accise. Lo Stato spende ancora 22,38 mld di sussidi ambientalmente dannosi (20,63 alle fonti fossili, Catalogo MASE 2026); il programma del momento attiva la riforma SAD (fondo SAD: spesa 1,54 su capienza 2,53) ma tiene il dividendo climatico 03-P1 a ZERO, cioè aumenti di prezzo senza restituzione ai redditi bassi. Sul territorio il 94,5% dei comuni è a rischio idrogeologico e il consumo di suolo è al record di +102 km² nel 2025 (ISPRA); il fondo COESIONE_2127 è saturo (2,00 su 2,00) e la RIALLOCAZIONE è sovra-impegnata (4,41 contro 2,49), tenuta in equilibrio solo dalle risorse generali (10,49 su 10,50).",
+ "richieste": [
+  {"azione": "adottare", "proposta": "03-P4", "variante": "ESSENZIALE",
+   "motivazione": "È l'unica proposta dell'area nel nucleo robusto secondo il panel: per la regola 8 della Carta va finanziata almeno in versione essenziale prima di ottimizzare il resto. Con il debito in salita (139,9% del PIL) spostare spesa dall'emergenza alla prevenzione riduce una passività fiscale implicita (FUT, SIC): 1,28 milioni di persone vivono in aree a pericolosità da frana elevata e solo il 16% delle imprese ha la polizza catastrofale obbligatoria (IVASS, aprile 2026). La ESSENZIALE (0,80 mld: SAD 0,25, RIALLOCAZIONE 0,20, COESIONE_2127 0,25, TARIFFE 0,10) è già nel programma: chiedo di confermarla e non di salire alla PIENA, perché coesione e riallocazione non hanno margine. Lo schema assicurativo con opt-out e il premio calmierato per ISEE ≤ 15.000 € evitano costi sui più deboli senza compensazione (EQU).",
+   "pre_mortem": "La quota di 0,20 mld da riduzione della spesa emergenziale non si materializza: se la RGS non certifica il taglio, il fondo resta sottodimensionato e le nuove emergenze continuano a essere finanziate ex post. Secondo rischio: dal 2030 la quota di coesione (0,25) va sostituita con il ciclo 2028-34, la cui dotazione non è certa (QFP in negoziato).",
+   "effetti_altri": [
+    {"area": "04", "segno": "-", "effetto": "Il divieto di nuove costruzioni nelle aree P3/P4 e il consumo di suolo netto zero al 2040 riducono le aree edificabili e possono frenare l'offerta abitativa in alcuni comuni esposti; sinergia con la rigenerazione urbana."},
+    {"area": "04", "segno": "-", "effetto": "Usa 0,25 mld di COESIONE_2127, fondo già saturo: compete con le opere una tantum delle altre aree nel triennio 2027-29."},
+    {"area": "01", "segno": "-", "effetto": "La riassicurazione CONSAP con garanzia dello Stato crea una passività potenziale da esporre in bilancio; usa 0,25 mld del gettito SAD."},
+    {"area": "07", "segno": "+", "effetto": "Minore spesa e pressione emergenziale su Protezione civile e forze dell'ordine nei disastri; esclusione degli edifici abusivi o condonati dagli indennizzi rafforza la legalità."},
+    {"area": "02", "segno": "+", "effetto": "Premi calmierati per i nuclei con ISEE basso riducono il rischio di impoverimento dopo una calamità."}
+   ],
+   "scommessa": null},
+  {"azione": "modificare", "proposta": "03-P1", "variante": "ESSENZIALE",
+   "motivazione": "Il programma attiva la riforma dei SAD come copertura ma tiene il dividendo a ZERO: in un momento con inflazione al 5,6% e fiducia dei consumatori a -23,3, un aumento dei prezzi dei carburanti senza restituzione visibile ripete l'errore della Francia 2018 e sposta costi sui primi decili, contro la linea rossa EQU (art. 3, c. 2, e art. 53 Cost.). La ESSENZIALE (1,2 mld a regime, solo dal gettito SAD accertato, quindi senza deficit) restituisce 0,8 mld con un bonus clima per ISEE ≤ 15.000 € e aree interne senza trasporto pubblico e 0,4 mld di compensazioni settoriali decrescenti; lascia la parte maggiore del gettito SAD ai servizi (FUT). Il calendario quinquennale parte dal 2028 insieme a ETS2 e ha una clausola di sospensione se il gasolio supera una soglia: risponde all'allerta fiducia_in_calo sulla tempistica delle accise. Per restare nella capienza del fondo SAD (2,53) compenso con 03-P5 a PILOTA (richiesta 4): il fondo SAD passerebbe da 1,54 a circa 2,34.",
+   "pre_mortem": "Il gettito SAD accertato è molto inferiore ai valori teorici del Catalogo (stime a comportamento invariato) e la protesta di categoria di autotrasporto, pesca e agricoltura blocca gli scaglioni prima che il dividendo diventi visibile. Il coordinamento con il Fondo sociale per il clima resta incerto: il Piano sociale italiano non è ancora approvato (da verificare).",
+   "effetti_altri": [
+    {"area": "01", "segno": "-", "effetto": "Assorbe 1,2 mld del gettito SAD che altrimenti affluirebbe alle risorse generali; riduce il margine per altre coperture o riduzioni fiscali."},
+    {"area": "01", "segno": "-", "effetto": "Il riallineamento delle accise pesa su autotrasporto e imprese energivore nel breve; le compensazioni sono solo temporanee e decrescenti."},
+    {"area": "02", "segno": "+", "effetto": "Il bonus clima per ISEE ≤ 15.000 € protegge il reddito reale dei primi decili; richiede coordinamento con l'anagrafe ISEE/INPS."},
+    {"area": "04", "segno": "+", "effetto": "Il bonus per i residenti delle aree interne senza trasporto pubblico compensa la dipendenza dall'auto e sostiene la permanenza nei territori."},
+    {"area": "08", "segno": "+", "effetto": "Allinea l'Italia alle raccomandazioni UE 2026 (riduzione di SAD e spese fiscali) e prepara l'avvio di ETS2 nel 2028."}
+   ],
+   "scommessa": null},
+  {"azione": "adottare", "proposta": "03-P2", "variante": "PIENA",
+   "motivazione": "L'allerta inflazione_in_salita indica 03-P2 tra le priorità: il prezzo elettrico italiano lo fa il gas (PUN 115,32 €/MWh nel 2025) e la capacità rinnovabile cresce sotto il passo necessario (7,19 GW contro circa 9 GW/anno). Costa poco al bilancio (0,15 mld: RIALLOCAZIONE 0,10 e TARIFFE 0,05) perché i CfD a due vie sono finanziati in bolletta e restituiscono gli extra-ricavi; il Reg. (UE) 2024/1747 li rende comunque obbligatori dal 17/7/2027. La PIENA estende il pool a prezzo di costo alle PMI e porta la squadra tecnica a circa 150 unità per i Comuni piccoli e le Soprintendenze (FUT, SIC, INN). Il testo va corretto: il quadro giuridico esclude il silenzio-assenso sugli atti paesaggistici (art. 9 Cost.), quindi l'art. 4, c. 2, della scheda va riscritto con termini certi e potere sostitutivo, non con il silenzio-assenso.",
+   "pre_mortem": "Le autorizzazioni restano lente perché i conflitti paesaggistici locali e la saturazione della rete al Sud bloccano gli impianti anche con la squadra tecnica; senza nuova capacità i CfD non producono effetti sui prezzi prima del 2029. Rischio contabile: la spesa GSE potrebbe essere riclassificata nel conto della PA.",
+   "effetti_altri": [
+    {"area": "01", "segno": "+", "effetto": "Il pool rinnovabile a prezzo di costo per le PMI e prezzi meno volatili migliorano la competitività manifatturiera; sinergia con 01-P5 (PPA per le PMI)."},
+    {"area": "05", "segno": "-", "effetto": "Più istanze per impianti in aree idonee aumentano il carico e il conflitto potenziale con la tutela paesaggistica delle Soprintendenze, pur con il supporto della squadra tecnica."},
+    {"area": "04", "segno": "-", "effetto": "Le Regioni devono completare le aree idonee entro sei mesi, con potere sostitutivo dello Stato: possibile contenzioso sulle competenze concorrenti in materia di energia e territorio."},
+    {"area": "02", "segno": "+", "effetto": "Il pool per i titolari del bonus sociale elettrico riduce la povertà energetica delle famiglie vulnerabili."}
+   ],
+   "scommessa": null},
+  {"azione": "modificare", "proposta": "03-P5", "variante": "PILOTA",
+   "motivazione": "Scendo volontariamente dalla PIENA (0,50 mld) alla PILOTA (0,05 mld, solo RIALLOCAZIONE) per liberare 0,40 mld del fondo SAD e 0,05 di riallocazione, così che il dividendo climatico ESSENZIALE stia nella capienza SAD senza deficit. La scheda stessa prevede questo scambio quando il gettito SAD è conteso con 03-P1. Il pilota su 3 territori e circa 3.000 aziende serve come prova d'efficacia dei pagamenti per risultati in vista del negoziato PAC post-2027, dove sta la leva vera (FUT, BPA); ogni modifica del Piano strategico PAC va comunque approvata dalla Commissione.",
+   "pre_mortem": "Il pilota è troppo piccolo e breve per produrre risultati misurabili sulle emissioni agricole o sul carbonio nel suolo prima del negoziato PAC, e le organizzazioni agricole lo leggono come anticipo dei tagli al gasolio agricolo senza il fondo mutualistico che lo doveva compensare.",
+   "effetti_altri": [
+    {"area": "01", "segno": "+", "effetto": "Libera 0,40 mld del fondo SAD e 0,05 di riallocazione rispetto al programma del momento."},
+    {"area": "08", "segno": "+", "effetto": "Fornisce evidenza per la posizione italiana nel negoziato PAC 2028-34."},
+    {"area": "04", "segno": "-", "effetto": "Le aree interne e collinari ricevono meno consulenza gratuita e meno sostegno mutualistico contro siccità e grandine rispetto alla PIENA."}
+   ],
+   "scommessa": null}
+ ],
+ "rinunce": [
+  "03-P3 (reti idriche e riuso): non la chiedo in questa seduta perché il fondo COESIONE_2127 è saturo; la ripresenterò in variante PILOTA (0,12 mld) se si libera capienza di coesione o con la riprogrammazione FESR.",
+  "03-P4: rinuncio a salire dalla ESSENZIALE alla PIENA (+0,70 mld) finché RIALLOCAZIONE e COESIONE_2127 non hanno margine.",
+  "03-P5: accetto la PILOTA invece della PIENA, e se serve rinuncio anche al pilota (0,05 mld di riallocazione).",
+  "03-P2: se i fondi non bastano accetto la ESSENZIALE (0,07 mld, squadra di 60 tecnici, pool solo per le famiglie vulnerabili); i CfD e le aree idonee restano anche nella ZERO.",
+  "03-P1: non chiedo la PIENA (5,0 mld); se il gettito SAD accertato risulta inferiore alle attese accetto di ridurre prima la quota di compensazione settoriale (0,4) e non il bonus clima per i redditi bassi."
+ ],
+ "previsioni_contesto": [
+  {"indicatore": "inflazione", "condizione": ">", "soglia": 5.0, "periodo": "2026-11", "probabilita": 0.75},
+  {"indicatore": "pil_trimestrale", "condizione": "<", "soglia": 0.2, "periodo": "2026-Q4", "probabilita": 0.75},
+  {"indicatore": "spread", "condizione": ">", "soglia": 80.0, "periodo": "2026-10", "probabilita": 0.7}
+ ]}
