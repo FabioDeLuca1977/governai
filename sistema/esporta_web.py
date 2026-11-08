@@ -125,7 +125,7 @@ def integrita() -> dict:
 def governo() -> dict:
     g = RADICE / "governo"
     leggi_csv = lambda f: records(pd.read_csv(f, dtype=str).fillna("")) if f.exists() else []
-    return {"verbali": [{"seduta": f.stem, "testo": leggi(f)} for f in sorted((g / "verbali").glob("*.md"), reverse=True)[:60]],
+    return {"verbali": [{"seduta": f.stem, "testo": leggi(f)} for f in sorted((g / "verbali").glob("*.md"), key=lambda f: f.stem, reverse=True)[:60]],
             "credibilita": leggi_csv(g / "credibilita.csv"), "mandati": leggi_csv(g / "mandati.csv"),
             "regolamento": leggi(g / "regolamento.md") if (g / "regolamento.md").exists() else "",
             "esperti": {e["id"]: e["nome"] for e in yaml.safe_load(leggi(g / "esperti.yaml"))["esperti"]}

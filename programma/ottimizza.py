@@ -180,6 +180,8 @@ def main() -> int:
     ap.add_argument("--livello", type=int, default=None, help="usa solo le coperture fino a questo livello (1 o 2)")
     ap.add_argument("--senza-nucleo-prima", dest="nucleo_prima", action="store_false",
                     help="disattiva la priorità al nucleo robusto (regola 8 della Carta)")
+    ap.add_argument("--riserva", type=float, default=0.0,
+                    help="mld/anno di coperture generali riservati alla riduzione del deficit (non spendibili)")
     ap.add_argument("--etichetta", default="")
     ap.add_argument("--seed", type=int, default=7)
     a = ap.parse_args()
@@ -188,6 +190,9 @@ def main() -> int:
     var, menu = carica_varianti(), carica_menu(a.livello)
     cap = capienze_base(menu)
     chiavi, A, lb, ub, nomi = costruisci(var, menu, cap)
+    # Riserva per il risanamento: un programma in pareggio non riduce il debito. Con --riserva una parte delle
+    # coperture generali resta a riduzione del deficit: spesa sulle risorse generali <= gettito - riserva.
+    ub[nomi.index("risorse generali")] = -max(a.riserva, 0.0)
     J, M = len(chiavi), len(menu)
 
     # Utilità delle proposte dal panel (SMAA), riallineate alle varianti
@@ -281,6 +286,7 @@ def main() -> int:
             f"| Spesa delle misure scelte | {num(spesa)} |",
             f"| di cui su risorse generali | {num(gen_spesa)} |",
             f"| Gettito minimo delle coperture attivate (risorse generali) | {num(gen_gettito)} |",
+            *([f"| di cui riservato alla riduzione del deficit | {num(a.riserva)} |"] if a.riserva > 0 else []),
             f"| Gettito minimo delle coperture attivate (totale) | {num(attive.gettito_min.sum())} |",
             f"| Proposte nel programma | {usate.proposta_id.nunique()} su {chiavi.proposta_id.nunique()} |", "",
             "La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i valori la stessa scelta "

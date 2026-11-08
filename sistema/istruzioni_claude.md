@@ -64,7 +64,9 @@ Regole in `governo/regolamento.md`. Il Consiglio si riunisce in due casi.
 - dalle issue pubbliche con etichetta `consiglio`, approvate con `analisi-approvata`: le importa lo stesso comando del punto 2 (`--importa-issue`);
 - dai membri del progetto, che scrivono il file direttamente.
 
-Per ogni domanda nuova:
+Esamina **una sola domanda al giorno**, la prima in ordine di nome del file: i nomi con il numero d'ordine (`AAAA-MM-GG-1-…`, `-2-…`) fissano la priorità. Ogni seduta si basa sulle decisioni delle precedenti, che trovi in `governo/verbali/`. Se oggi si è già tenuta una seduta a richiesta, salta la seduta d'ufficio.
+
+Per la domanda del giorno:
 ```bash
 python -I governo/consiglio.py --prepara --richiesta governo/richieste/<nome>.md
 ```

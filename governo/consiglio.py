@@ -70,6 +70,12 @@ CERTEZZE = {"alta", "media", "bassa"}
 
 # --- Lettura dello stato del sistema ----------------------------------------------------------------
 
+def id_proposta(testo) -> str:
+    """L'id di una proposta anche quando gli agenti lo scrivono con il titolo («01-P2 Spese fiscali…»)."""
+    m = re.match(r"\s*(\d{2}-[PC]\d+)\b", str(testo or ""))
+    return m.group(1) if m else str(testo or "")
+
+
 def leggi_json(p: Path, predefinito=None):
     try:
         return json.loads(p.read_text(encoding="utf-8"))
@@ -134,6 +140,16 @@ def forma_periodo(p: str) -> str:
 
 # --- 1. Preparazione della seduta ---------------------------------------------------------------------
 
+def decisioni_vigenti(prima_di: str | None = None) -> tuple[str, dict[str, str]]:
+    """Programma deciso dal Consiglio nell'ultima seduta precedente: {proposta: variante}.
+    Le decisioni restano in vigore finché una seduta successiva non le cambia."""
+    verbali = sorted(f for f in VERBALI.glob("*.json") if prima_di is None or f.stem < prima_di)
+    if not verbali:
+        return "", {}
+    v = leggi_json(verbali[-1], {}) or {}
+    adottate = (v.get("ragioneria") or {}).get("varianti_adottate", []) + v.get("vigenti_confermate", [])
+    return verbali[-1].stem, dict(k.split(":", 1) for k in adottate if ":" in k)
+
 def scegli_esperti(testo: str, scelti: list[str] | None = None) -> list[dict]:
     """Esperti della seduta: quelli fissi più i più pertinenti alla domanda e alle allerte (parole chiave)."""
     tutti = yaml.safe_load(ESPERTI.read_text(encoding="utf-8"))["esperti"]
@@ -159,7 +175,9 @@ def prepara(motivo: str, richiesta: Path | None = None, ministri: list[str] | No
     if richiesta:
         domanda = richiesta.read_text(encoding="utf-8").strip()
         motivo = "Richiesta: " + domanda.splitlines()[0].lstrip("# ").strip()
-    base = f"{oggi}-{richiesta.stem}" if richiesta else oggi
+    base = oggi
+    if richiesta:  # le domande datate (AAAA-MM-GG-...) non ripetono la data
+        base = richiesta.stem if re.match(r"\d{4}-\d{2}-\d{2}", richiesta.stem) else f"{oggi}-{richiesta.stem}"
     cartella, n = SEDUTE / base, 2
     while (cartella / "verbale_composto").exists():
         cartella = SEDUTE / f"{base}-{n}"
@@ -185,6 +203,7 @@ def prepara(motivo: str, richiesta: Path | None = None, ministri: list[str] | No
     lr = linee_rosse()
     temi = [domanda, motivo] + [f"{a.get('messaggio', '')} {a.get('azione', '')}" for a in allerte]
     collegio = scegli_esperti(" ".join(temi), esperti)
+    da_seduta, vigenti = decisioni_vigenti(cartella.name)
     mandati = [m for m in leggi_csv(MANDATI, CAMPI_MAND) if m["stato"] == "aperto"]
     cred = leggi_csv(CREDIBILITA, [])
     richieste = [p.name for p in (RADICE / "analisi" / "richieste").glob("*.md")
@@ -197,6 +216,7 @@ def prepara(motivo: str, richiesta: Path | None = None, ministri: list[str] | No
         proposte.setdefault(area, []).append({
             "id": r.proposta_id, "titolo": r.titolo, "classe": r.classe, "costo_medio_mld": round(r.costo_medio, 3),
             "valori_trainanti": r.valori_trainanti, "nel_programma_del_momento": nel_programma.get(r.proposta_id, "no"),
+            "deciso_dal_consiglio": vigenti.get(r.proposta_id, "no") if vigenti else "nessuna seduta precedente",
             "varianti": {v.variante: round(float(v.costo_regime), 3) for v in varianti.itertuples()},
             "varianti_escluse_linee_rosse": {k.split(":")[1]: m for k, m in lr.items()
                                              if k.startswith(r.proposta_id + ":")}})
@@ -205,6 +225,7 @@ def prepara(motivo: str, richiesta: Path | None = None, ministri: list[str] | No
         "esperti": [e["id"] for e in collegio], "indicatori": indicatori,
         "allerte": [{k: a.get(k) for k in ("id", "messaggio", "azione", "priorita", "sospendi")} for a in allerte],
         "proposte_per_area": proposte, "coperture_escluse_linee_rosse": {k: m for k, m in lr.items() if ":" not in k},
+        "decisioni_vigenti": {"seduta": da_seduta, "varianti": vigenti},
         "mandati_aperti": mandati, "credibilita": cred, "suggerimenti_in_attesa": richieste,
         "indicatori_per_previsioni": {i["id"]: {"ultimo_periodo": i.get("periodo"), "forma": forma_periodo(i.get("periodo")),
                                               "ultimo_valore": i.get("valore"), "unita": i.get("unita")}
@@ -228,7 +249,13 @@ def prepara(motivo: str, richiesta: Path | None = None, ministri: list[str] | No
     righe += [f"- {i['nome']}: {i['valore']:g} {i['unita']} ({i['periodo']}), variazione {i['delta']:+.2f}" for i in rossi] or ["- Nessun indicatore in peggioramento."]
     righe += ["", "Allerte attive:"] + [f"- **{a['id']}**: {a.get('messaggio', '')} Azione prevista: {a.get('azione', '')}"
                                         for a in allerte] + (["- nessuna"] if not allerte else [])
-    righe += ["", "## 2. Programma del momento", "", sezione(sel_md, "Saldo"), "",
+    if vigenti:
+        righe += ["", "## Decisioni in vigore", "",
+                  f"Restano in vigore le {len(vigenti)} misure adottate nella seduta {da_seduta} "
+                  f"(`governo/verbali/{da_seduta}.md`), salvo modifiche decise in questa seduta. "
+                  "In `contesto.json`, il campo `deciso_dal_consiglio` di ogni proposta indica la variante in vigore; "
+                  "`nel_programma_del_momento` è invece la scelta del motore, che serve a dichiarare le deroghe."]
+    righe += ["", "## 2. Programma del momento (calcolato dal motore)", "", sezione(sel_md, "Saldo"), "",
               f"- Proposte del nucleo robusto fuori dal programma: {', '.join(nucleo_fuori) or 'nessuna'}",
               f"- Priorità delle allerte non finanziate: {', '.join(prio_fuori) or 'nessuna'}",
               f"- Proposte la cui scelta dipende dai pesi dei valori (scelte politiche): {', '.join(dipendenti)}", "",
@@ -294,8 +321,8 @@ def valida_previsione(p: dict, ctx: dict, rilievi: list[str], dove: str) -> bool
     return True
 
 
-def ottimizza(forza: list[str], escludi: list[str], priorita: list[str]) -> tuple[bool, str]:
-    cmd = [sys.executable, "ottimizza.py", "--n", "60", "--etichetta", "consiglio"]
+def ottimizza(forza: list[str], escludi: list[str], priorita: list[str], riserva: float = 0.0) -> tuple[bool, str]:
+    cmd = [sys.executable, "ottimizza.py", "--n", "60", "--etichetta", "consiglio", "--riserva", str(riserva)]
     cmd += (["--forza", *forza] if forza else []) + (["--escludi", *escludi] if escludi else [])
     cmd += ["--priorita", *priorita] if priorita else []
     r = subprocess.run(cmd, cwd=RADICE / "programma", capture_output=True, text=True, encoding="utf-8", errors="replace")
@@ -336,7 +363,8 @@ def componi(cartella: Path) -> Path:
         validi = []
         for i, r in enumerate(pos.get("richieste", []) or []):
             dove = f"{autore}, richiesta {i + 1}"
-            if r.get("proposta") not in proposte or r.get("azione") not in AZIONI:
+            r["proposta"] = id_proposta(r.get("proposta"))
+            if r["proposta"] not in proposte or r.get("azione") not in AZIONI:
                 rilievi.append(f"{dove}: proposta o azione non valida, scartata")
                 continue
             if not str(r.get("pre_mortem", "")).strip():
@@ -362,7 +390,8 @@ def componi(cartella: Path) -> Path:
         par["pareri"] = validi
         giudizi = []
         for g in par.get("proposte", []) or []:
-            if g.get("proposta") in proposte and g.get("giudizio") in GIUDIZI:
+            g["proposta"] = id_proposta(g.get("proposta"))
+            if g["proposta"] in proposte and g.get("giudizio") in GIUDIZI:
                 giudizi.append(g)
                 if g["giudizio"] == "contrario":
                     contrari.setdefault(g["proposta"], []).append(eid)
@@ -377,11 +406,12 @@ def componi(cartella: Path) -> Path:
         raccogli("capo", p, f"capo, previsione {j + 1}")
 
     # Capo: decisioni nel rispetto del regolamento
-    obiettate = {o.get("proposta") for o in oppo.get("obiezioni", []) or []}
+    obiettate = {id_proposta(o.get("proposta")) for o in oppo.get("obiezioni", []) or []}
     decisioni = []
     for i, d in enumerate(capo["decisioni"]):
         dove = f"capo, decisione {i + 1}"
-        pid, var = d.get("proposta"), str(d.get("variante") or "").upper()
+        pid, var = id_proposta(d.get("proposta")), str(d.get("variante") or "").upper()
+        d["proposta"] = pid
         if pid not in proposte or d.get("decisione") not in DECISIONI:
             rilievi.append(f"{dove}: proposta o decisione non valida, scartata")
             continue
@@ -415,15 +445,39 @@ def componi(cartella: Path) -> Path:
     escludi = sorted({d["proposta"] for d in decisioni if d["decisione"] == "respinta"}
                      | {p for a in ctx["allerte"] for p in (a.get("sospendi") or [])})
     adottate = [d for d in decisioni if d["decisione"] == "adottata"]
+    # quota delle coperture che il capo destina alla riduzione del deficit (mld/anno): viene prima delle misure
+    try:
+        riserva = max(float(capo.get("riserva_deficit_mld") or 0), 0.0)
+    except (TypeError, ValueError):
+        riserva = 0.0
+        rilievi.append("capo: riserva_deficit_mld non numerica, considerata 0")
+    if riserva and not ottimizza([], escludi, prio, riserva)[0]:
+        rilievi.append(f"capo: riserva di {riserva} mld non raggiungibile nemmeno senza misure obbligatorie; ridotta a 0")
+        riserva = 0.0
     forza: list[str] = []
     for d in adottate:
-        ok, msg = ottimizza(forza + [f"{d['proposta']}:{d['variante']}"], escludi, prio)
+        ok, msg = ottimizza(forza + [f"{d['proposta']}:{d['variante']}"], escludi, prio, riserva)
         if ok:
             forza.append(f"{d['proposta']}:{d['variante']}")
         else:
             d["decisione"] = "sospesa: non finanziabile"
             d["esito_controlli"].append("con le decisioni precedenti non c'è copertura senza deficit (regola 8)")
-    ok, ragioneria = ottimizza(forza, escludi, prio)
+    # Le decisioni delle sedute precedenti restano in vigore se questa seduta non le ha toccate.
+    # Vengono dopo le decisioni di oggi: se la copertura non basta, la Ragioneria le sospende e lo scrive.
+    da_seduta, vigenti = decisioni_vigenti(cartella.name)
+    toccate = {d["proposta"] for d in decisioni}
+    confermate, sospese_vigenti = [], []
+    for pid, var in vigenti.items():
+        if pid in toccate or pid in escludi:
+            continue
+        k = f"{pid}:{var}"
+        if ottimizza(forza + confermate + [k], escludi, prio, riserva)[0]:
+            confermate.append(k)
+        else:
+            sospese_vigenti.append(k)
+    if sospese_vigenti:
+        rilievi.append(f"Decisioni della seduta {da_seduta} sospese per mancanza di copertura: {', '.join(sospese_vigenti)}")
+    ok, ragioneria = ottimizza(forza + confermate, escludi, prio, riserva)
 
     # Registri: previsioni e mandati
     seduta = cartella.name
@@ -456,7 +510,8 @@ def componi(cartella: Path) -> Path:
                "risposta": capo.get("risposta_alla_domanda", ""), "indirizzo": capo.get("indirizzo", ""),
                "decisioni": decisioni, "posizioni": posizioni, "pareri": pareri, "opposizione": oppo, "mandati": nuovi,
                "mandati_chiusi": sorted(chiusi), "previsioni": len(previsioni), "rilievi": rilievi,
-               "ragioneria": {"finanziabile": ok, "esito": ragioneria, "varianti_adottate": forza}}
+               "vigenti_da": da_seduta, "vigenti_confermate": confermate, "vigenti_sospese": sospese_vigenti,
+               "ragioneria": {"finanziabile": ok, "esito": ragioneria, "varianti_adottate": forza, "riserva_deficit_mld": riserva}}
     (VERBALI / f"{seduta}.json").write_text(json.dumps(verbale, ensure_ascii=False, indent=1), encoding="utf-8")
     (VERBALI / f"{seduta}.md").write_text(verbale_md(verbale, proposte), encoding="utf-8")
     (cartella / "verbale_composto").write_text(seduta, encoding="utf-8")
@@ -491,7 +546,14 @@ def verbale_md(v: dict, proposte: dict) -> str:
             mot += " — *Controlli: " + "; ".join(d["esito_controlli"]) + "*"
         r.append(f"| {d['proposta']} {tit(d['proposta'])} | {d['variante'] or '—'} | {d['decisione']} | {regola} | {mot} |")
     rag = v["ragioneria"]
-    r += ["", f"**Ragioneria.** {'Finanziabile senza deficit' if rag['finanziabile'] else 'NON finanziabile'}: {rag['esito']}", ""]
+    r += ["", f"**Ragioneria.** {'Finanziabile senza deficit' if rag['finanziabile'] else 'NON finanziabile'}: {rag['esito']}"]
+    if rag.get("riserva_deficit_mld"):
+        r.append(f"Riservati alla riduzione del deficit: **{rag['riserva_deficit_mld']:g} mld l'anno** a regime, prima di ogni nuova spesa.")
+    r.append("")
+    if v.get("vigenti_da"):
+        r += [f"**Decisioni precedenti.** Restano in vigore {len(v.get('vigenti_confermate', []))} misure della seduta "
+              f"{v['vigenti_da']} non modificate oggi."
+              + (f" Sospese per mancanza di copertura: {', '.join(v['vigenti_sospese'])}." if v.get("vigenti_sospese") else ""), ""]
     deroghe = [d for d in v["decisioni"] if d.get("deroga")]
     if deroghe:
         r += ["## Deroghe dall'esito del motore", ""] + [f"- **{d['proposta']}**: {d.get('motivo_deroga') or 'motivazione mancante'}" for d in deroghe] + [""]
