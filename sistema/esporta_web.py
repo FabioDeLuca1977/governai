@@ -115,6 +115,37 @@ def obiettivi() -> list[dict]:
     return records(pd.read_csv(f)) if f.exists() else []
 
 
+def schema() -> dict:
+    """Il programma in una pagina: missioni con perché, come, cosa misuriamo e chi ne beneficia (programma/schema.yaml).
+    Gli indicatori sono presi da apprendimento/obiettivi.yaml, così base e traguardi restano quelli delle schede."""
+    f = RADICE / "programma" / "schema.yaml"
+    if not f.exists():
+        return {}
+    s = yaml.safe_load(leggi(f))
+    obi = {o["id"]: o for o in (yaml.safe_load(leggi(RADICE / "apprendimento" / "obiettivi.yaml")) or {}).get("obiettivi", [])}
+    usati = set(s.get("programma", {}).get("indicatori_chiave", []))
+    for m in s.get("missioni", []):
+        usati |= set(m.get("indicatori", []))
+    s["indicatori"] = {}
+    for i in sorted(usati):
+        o = obi.get(i)
+        if not o:
+            continue
+        base = o.get("base") or {}
+        sch = o.get("scheda") or {}
+        s["indicatori"][i] = {"nome": o.get("nome"), "proposta": o.get("proposta"), "unita": o.get("unita"),
+                              "direzione": o.get("direzione"), "valori": o.get("valori") or [],
+                              "base": base.get("valore"), "periodo": base.get("periodo"), "fonte": base.get("fonte"),
+                              "obiettivo_3a": o.get("obiettivo_3a"), "obiettivo_5a": o.get("obiettivo_5a"),
+                              "testo_base": sch.get("base"), "testo_5a": sch.get("obiettivo_5a")}
+        semplice = (s.get("indicatori_semplici") or {}).get(i) or {}
+        if "obiettivo_5a" in semplice:
+            s["indicatori"][i]["testo_5a"] = None
+        s["indicatori"][i].update(semplice)
+    s.pop("indicatori_semplici", None)
+    return s
+
+
 def integrita() -> dict:
     anelli = catena.leggi_catena()
     campi = ("n", "data", "evento", "nota", "hash", "precedente", "radice_regole", "radice_input", "radice_output",
@@ -249,6 +280,7 @@ def main() -> int:
         "repo": repo_url(),
         "analisi": analisi(),
         "obiettivi": obiettivi(),
+        "schema": schema(),
         "lezioni": leggi(RADICE / "apprendimento" / "lezioni.md"),
         "integrita": integrita(),
         "governo": governo(),

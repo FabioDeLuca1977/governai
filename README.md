@@ -22,7 +22,9 @@ L'interfaccia web pubblicata in `docs/` contiene:
 | `registro/` | Registro unico delle coperture e vincolo di bilancio |
 | `motore/` | Panel di 3 valutatori indipendenti e analisi di robustezza ai valori (SMAA) |
 | `programma/` | 152 varianti, 59 misure di copertura, ottimizzatore senza deficit, schede pronte (articolato normativo, cronoprogramma, indicatori) |
-| `20_programma_governai.md` | Il programma in due versioni senza deficit: base (7,9 mld) e completo (13,0 mld), verificate giuridicamente |
+| `20_programma_governai.md` | Il programma completo: versioni base, completa e intermedia, tutte senza deficit, verificate giuridicamente |
+| `21_idee_in_sintesi.md` | Le idee in dieci minuti |
+| `22_programma_in_una_pagina.md` | Il programma in una pagina: perché, come, cosa misuriamo, chi ne beneficia (generato da `programma/schema.yaml`) |
 | `governo/` | Il Consiglio dei ministri ombra: regolamento, ruoli (9 ministri, opposizione leale, capo di governo), sedute, verbali, previsioni e credibilità |
 | `benchmark/` | Confronto con i Paesi che funzionano meglio e con i programmi del governo e dei partiti italiani (`confronto_programmi.md`, rapporti in `programmi/`) |
 | `trasparenza/` | Indicatori di rischio negli appalti pubblici (dati ANAC); il rapporto pubblico è aggregato, gli elenchi nominativi restano riservati |

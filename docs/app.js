@@ -233,7 +233,7 @@
           <p class="etichetta sopratitolo">Un programma di governo aperto, basato su dati e valori dichiarati</p>
           <h1 id="titolo-home">Governare con i dati,<br>scegliere con i valori.</h1>
           <p class="risposta">${n.proposte} proposte valutate su ${n.valori} valori, finanziate senza deficit e controllate su Costituzione e regole europee. <span class="firma">L'AI propone e verifica. Le persone decidono.</span></p>
-          <div class="azioni"><a class="btn primario" href="#/programma">Esplora il programma ${icona("arrow-right")}</a><a class="btn" href="#/programma/sintesi">Le idee in 10 minuti</a><a class="btn terziario" href="#/metodo">Come funziona</a></div>
+          <div class="azioni"><a class="btn primario" href="#/programma/una-pagina">Il programma in una pagina ${icona("arrow-right")}</a><a class="btn" href="#/programma/sintesi">Le idee in 10 minuti</a><a class="btn terziario" href="#/metodo">Come funziona</a></div>
         </div>
         <div class="oggi-box" aria-label="Oggi in breve">
           <p class="etichetta">Oggi, ${dataLunga(D.generato)}</p>
@@ -304,7 +304,7 @@
   }
 
   // ---------- Programma ----------
-  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["sintesi", "In sintesi", "#/programma/sintesi"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
+  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["sintesi", "In sintesi", "#/programma/sintesi"],["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
 
   function elenco(params) {
     const sc = scenario(params.get("scenario") || "momento");
@@ -533,6 +533,94 @@
         <div class="barra" aria-hidden="true"><span style="width:${Math.max(0, x.u) / max * 100}%"></span></div></li>`;
     }).join("");
     icone();
+  }
+
+  // ---------- Il programma in una pagina: perché, come, cosa misuriamo, chi ne beneficia ----------
+  const QUATTRO = [["perche", "heart", "Perché", "Il valore che vogliamo dare"], ["come", "route", "Come", "Le misure e come si pagano"],
+    ["cosa", "target", "Cosa misuriamo", "Come sapremo se ce l'abbiamo fatta"], ["chi", "users-round", "Chi ne beneficia", "Le persone avvantaggiate"]];
+  const testaQuattro = (k) => { const q = QUATTRO.find((x) => x[0] === k); return `<p class="q-etichetta q-${k}">${icona(q[1])}${q[2]}</p>`; };
+  const nomeValore = (id) => (D.valori.find((v) => v.id === id) || {}).nome || id;
+  const numIndic = (x) => x == null || x === "" ? null : Number(x).toLocaleString("it-IT", { maximumFractionDigits: 2 });
+  function rigaIndicatore(id) {
+    const o = (D.schema.indicatori || {})[id];
+    if (!o) return "";
+    const un = String(o.unita || "");
+    const u = !un ? "" : un === "%" ? "%" : un.startsWith("%") ? "% " + esc(un.slice(1).trim()) : " " + esc(un);
+    const b = numIndic(o.base), t = numIndic(o.obiettivo_5a);
+    const freccia = o.direzione === "giu" ? "trending-down" : "trending-up";
+    const da = b != null ? `${b}${u}` : `<span class="nota">${esc(piano(o.testo_base) || "da rilevare")}</span>`;
+    const a = t != null ? `<strong>${t}${u}</strong>` : `<strong>${esc(piano(o.testo_5a) || "—")}</strong>`;
+    const fonte = [o.fonte, o.periodo].filter(Boolean).join(", ");
+    return `<li><span class="q-ind-nome">${esc(piano(o.nome))}</span>
+      <span class="q-ind-valori">${da} ${icona(freccia)} ${a} <span class="nota">in 5 anni</span></span>
+      <span class="nota">${fonte ? `Base: ${esc(fonte)} · ` : ""}<a href="${linkP(o.proposta)}">${esc(o.proposta)}</a></span></li>`;
+  }
+  function unaPagina(params) {
+    const S = D.schema || {};
+    if (!S.missioni) return `${schedeProgramma("una-pagina")}${vuoto("Lo schema del programma non è ancora disponibile.")}`;
+    const sc = scenario(params.get("scenario") || S.scenario || "momento");
+    const P = S.programma || {};
+    const costo = (ids) => ids.reduce((a, id) => a + ((sc.misure[id] || {}).costo || 0), 0);
+    const cop = D.coperture.filter((c) => sc.coperture.includes(c.misura_id) && c.gettito_min > 0).sort((a, b) => (b.gettito_min || 0) - (a.gettito_min || 0));
+    const dose = (m) => !m ? misuratore(null) : m.variante === "ZERO" ? `<span class="chip">${icona("scroll-text")}Solo regole, costo zero</span>` : misuratore(m.variante) + `<span class="nota">${nf(m.costo)} mld</span>`;
+    const misura = (id) => { const p = proposta(id), m = sc.misure[id]; if (!p) return ""; return `<li class="${m ? "" : "fuori"}"><a href="${linkP(id)}">${esc(tit(p.titolo))}</a> <span class="nota mono">${esc(id)}</span><span class="q-dose">${dose(m)}</span></li>`; };
+    const missione = (m) => {
+      const dentro = m.proposte.filter((id) => sc.misure[id]).sort((a, b) => sc.misure[b].costo - sc.misure[a].costo);
+      const fuori = m.proposte.filter((id) => !dentro.includes(id));
+      const prime = dentro.filter((id) => sc.misure[id].variante !== "ZERO").slice(0, 5), altre = dentro.filter((id) => !prime.includes(id));
+      const fonteChi = (g) => !g.fonte ? "" : /da stimare/i.test(g.fonte) ? badge("verificare", "Numero da stimare: la fonte non è ancora disponibile.") : badge(/stima|elaborazione|calcol/i.test(g.fonte) ? "stima" : "verificato", g.fonte);
+      return `<article class="card missione" id="${esc(m.id)}" aria-labelledby="t-${esc(m.id)}">
+        <header class="missione-testa">${icona(m.icona || "circle")}<div><h2 id="t-${esc(m.id)}">${esc(m.titolo)}</h2>
+          <p class="nota">${dentro.length} misure su ${m.proposte.length} · ${nf(costo(m.proposte))} mld l'anno ${badge("stima", STIMA)}</p></div></header>
+        <div class="quattro">
+          <section class="q-cella">${testaQuattro("perche")}<p>${esc(m.perche)}</p><div class="chips">${(m.valori || []).map((v) => `<span class="chip info">${esc(nomeValore(v))}</span>`).join("")}</div></section>
+          <section class="q-cella">${testaQuattro("come")}<p>${esc(m.come)}</p>
+            <p class="q-sotto">Le misure con più risorse</p>
+            <ul class="q-misure">${prime.map(misura).join("")}</ul>
+            ${altre.length ? `<details class="leggi"><summary>Altre ${altre.length} ${altre.length === 1 ? "misura" : "misure"} nel programma</summary><ul class="q-misure">${altre.map(misura).join("")}</ul></details>` : ""}
+            ${fuori.length ? `<details class="leggi"><summary>${fuori.length} ${fuori.length === 1 ? "misura fuori" : "misure fuori"} da questa versione</summary><ul class="q-misure">${fuori.map(misura).join("")}</ul></details>` : ""}
+            <p class="q-sostenibile">${icona("scale")}<span><strong>Sostenibilità.</strong> ${esc(m.sostenibilita)}</span></p></section>
+          <section class="q-cella">${testaQuattro("cosa")}<ul class="q-ind">${(m.indicatori || []).map(rigaIndicatore).join("")}</ul></section>
+          <section class="q-cella">${testaQuattro("chi")}<ul class="q-lista-chi">${(m.chi || []).map((g) => `<li><strong>${esc(g.gruppo)}</strong>${g.quanti ? `<span class="q-quanti">${esc(g.quanti)} ${fonteChi(g)}</span>` : ""}<span>${esc(g.cosa_cambia)}</span></li>`).join("")}</ul></section>
+        </div></article>`;
+    };
+    return `${schedeProgramma("una-pagina")}
+      <p class="risposta">Il programma in una pagina. Per ogni missione: <strong>perché</strong> la facciamo, <strong>come</strong> e con quali soldi, <strong>cosa misuriamo</strong> per dire che ce l'abbiamo fatta, e <strong>chi ne beneficia</strong>.</p>
+      <div class="filtri-barra"><label class="campo">Versione del programma<select id="schema-scenario">${D.scenari.map((x) => `<option value="${x.id}" ${x.id === sc.id ? "selected" : ""}>${esc(x.nome)}${x.id === S.scenario ? " (scelto)" : ""}</option>`).join("")}</select></label></div>
+      <p class="nota" style="margin-top:8px">${esc(sc.descrizione)}.</p>
+
+      <section class="tela" aria-label="Il programma in quattro domande">
+        ${QUATTRO.map(([k, ic, t, sotto]) => `<div class="tela-cella q-${k}"><p class="q-etichetta">${icona(ic)}${t}</p><p class="nota">${sotto}</p><p class="tela-testo">${esc(P[k] || "")}</p></div>`).join("")}
+      </section>
+
+      <section class="sezione" aria-labelledby="t-conti">
+        <div class="sezione-testa"><h2 id="t-conti">I conti in una riga</h2><a href="#/programma/coperture">Come si paga</a></div>
+        <div class="griglia g2 g4-d">
+          <div class="card kpi"><p class="etichetta">Spesa nuova</p><p class="numero">${nf(sc.spesa)}<small>mld/anno</small></p><p class="nota">a regime</p>${badge("stima", STIMA)}</div>
+          <div class="card kpi"><p class="etichetta">Coperture</p><p class="numero">${nf(sc.gettito)}<small>mld/anno</small></p><p class="nota">gettito minimo, più i fondi vincolati</p></div>
+          <div class="card kpi"><p class="etichetta">Nuovo deficit</p><p class="numero">0<small>mld</small></p><p class="nota">nessuna spesa a debito</p></div>
+          <div class="card kpi"><p class="etichetta">Misure</p><p class="numero">${Object.keys(sc.misure).length}<small>su ${D.proposte.length}</small></p><p class="nota">in ${S.missioni.length} missioni; ${Object.values(sc.misure).filter((m) => m.variante === "ZERO").length} sono solo regole, a costo zero</p></div>
+        </div>
+      </section>
+
+      ${(P.indicatori_chiave || []).length ? `<section class="sezione" aria-labelledby="t-chiave">
+        <div class="sezione-testa"><h2 id="t-chiave">Ce l'avremo fatta se…</h2><a href="#/dati/obiettivi">Tutti gli obiettivi</a></div>
+        <ul class="q-ind griglia g2-d">${P.indicatori_chiave.map(rigaIndicatore).join("")}</ul></section>` : ""}
+
+      <section class="sezione" aria-labelledby="t-missioni">
+        <div class="sezione-testa"><h2 id="t-missioni">Le ${S.missioni.length} missioni</h2></div>
+        <nav class="temi nav-missioni" aria-label="Missioni">${S.missioni.map((m) => `<a href="#${esc(m.id)}" data-ancora>${esc(m.titolo)}<span>${nf(costo(m.proposte), 1)} mld</span></a>`).join("")}</nav>
+        <div class="missioni">${S.missioni.map(missione).join("")}</div>
+      </section>
+
+      <section class="sezione" aria-labelledby="t-contribuisce">
+        <div class="sezione-testa"><h2 id="t-contribuisce">Chi contribuisce</h2><a href="#/programma/coperture">Tutte le coperture</a></div>
+        <p class="nota" style="margin-top:-8px">Le coperture attive in questa versione, dalla più grande. Ogni euro di spesa ha una copertura certa: niente deficit, niente recupero di evasione non ancora incassato.</p>
+        <div class="tabella-box"><table class="tabella a-card"><thead><tr><th>Copertura</th><th>Chi paga o rinuncia</th><th class="num">Gettito minimo</th></tr></thead><tbody>
+          ${cop.map((c) => `<tr><td class="principale"><span class="mono nota">${esc(c.misura_id)}</span><br>${esc(c.descrizione)}</td><td data-etichetta="Chi paga">${esc(c.chi_paga)}</td><td class="num" data-etichetta="Gettito minimo">${nf(c.gettito_min)} mld</td></tr>`).join("")}
+        </tbody></table></div>
+      </section>
+      <div class="azioni" style="margin-top:24px"><a class="btn primario" href="#/programma">Tutte le ${D.proposte.length} proposte ${icona("arrow-right")}</a>${azioniCondividi()}</div>`;
   }
 
   function sintesi() {
@@ -926,6 +1014,7 @@
       else if (b === "valori") { html = simulatore(); titolo = "I tuoi valori"; }
       else if (b === "confronti") { html = confronti(params); titolo = "Confronti"; }
       else if (b === "sintesi") { html = sintesi(); titolo = "Le idee in sintesi"; }
+      else if (b === "una-pagina") { html = unaPagina(params); titolo = "Il programma in una pagina"; }
       else { html = elenco(params); titolo = "Programma"; }
     } else if (a === "governo") {
       if (b === "sedute" && c) { html = schedaSeduta(c); titolo = "Seduta " + del_(c); }
@@ -960,6 +1049,7 @@
     if ($("#c-corpo")) { const filtra = () => { const t = $("#c-cerca").value.toLowerCase(), f = $("#c-fondo").value, l = $("#c-livello").value; $$("#c-corpo tr").forEach((tr) => { tr.hidden = (t && !tr.dataset.testo.includes(t)) || (f && tr.dataset.fondo !== f) || (l && tr.dataset.livello !== l); }); }; ["#c-cerca", "#c-fondo", "#c-livello"].forEach((s) => $(s).addEventListener("input", filtra)); }
     if ($("#classifica")) { $$("input[type=range]", main).forEach((el) => el.addEventListener("input", aggiornaClassifica)); aggiornaClassifica(); }
     if ($("#q")) { $("#q").addEventListener("input", aggiornaRicerca); aggiornaRicerca(); $("#q").focus(); }
+    if ($("#schema-scenario")) $("#schema-scenario").addEventListener("change", (e) => { location.hash = "#/programma/una-pagina" + (e.target.value === (D.schema || {}).scenario ? "" : "?scenario=" + e.target.value); });
     if ($("#o-tema")) $("#o-tema").addEventListener("change", (e) => { location.hash = "#/dati/obiettivi" + (e.target.value ? "?tema=" + e.target.value : ""); });
     if ($("#i-tema")) $("#i-tema").addEventListener("change", (e) => { location.hash = "#/controlli/europa/infrazioni" + (e.target.value ? "?tema=" + e.target.value : ""); });
     icone();

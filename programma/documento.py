@@ -165,6 +165,72 @@ def applica(testo: str, b: dict[str, str], nome_doc: str, tutti: bool) -> str:
 
 # Documenti con parti generate: il programma completo e la sintesi delle idee
 DOCUMENTI = [(DOC, True), (RADICE / "21_idee_in_sintesi.md", False)]
+UNA_PAGINA = RADICE / "22_programma_in_una_pagina.md"
+
+
+def una_pagina() -> str | None:
+    """Il programma in una pagina (perché, come, cosa misuriamo, chi), interamente generato da programma/schema.yaml,
+    dallo scenario scelto e da apprendimento/obiettivi.yaml."""
+    import yaml
+    f = QUI / "schema.yaml"
+    if not f.exists():
+        return None
+    s = yaml.safe_load(f.read_text(encoding="utf-8"))
+    obi = {o["id"]: o for o in yaml.safe_load((RADICE / "apprendimento" / "obiettivi.yaml").read_text(encoding="utf-8"))["obiettivi"]}
+    semplici = s.get("indicatori_semplici") or {}
+    nomi_val = dict(re.findall(r"^### \d+\. (.+?) \((\w{3})\)", (RADICE / "01_carta_valori.md").read_text(encoding="utf-8"), re.M))
+    nomi_val = {v: k for k, v in nomi_val.items()}
+    titoli = pd.read_csv(RADICE / "motore" / "proposte.csv").set_index("proposta_id").titolo
+    sel = pd.read_csv(QUI / f"selezione_{s['scenario']}.csv")
+    v = sel[(sel.tipo == "variante") & (sel.scelta == 1)].set_index("proposta_id")
+    c = sel[(sel.tipo == "copertura") & (sel.scelta == 1) & (sel.gettito_min > 0)].sort_values("gettito_min", ascending=False)
+
+    def unita(o, sem):
+        u = str(sem.get("unita", o.get("unita") or ""))
+        return "" if not u else "%" if u == "%" else "% " + u[1:].strip() if u.startswith("%") else " " + u
+
+    def ind(i):
+        o, sem = obi[i], semplici.get(i, {})
+        u = unita(o, sem)
+        base = (o.get("base") or {}).get("valore")
+        t5 = sem.get("obiettivo_5a", o.get("obiettivo_5a"))
+        n = lambda x: num(float(x), 2).rstrip("0").rstrip(",") if x is not None else None
+        da = f"{n(base)}{u}" if base is not None else "da rilevare"
+        a = f"{n(t5)}{u}" if t5 is not None else str((o.get("scheda") or {}).get("obiettivo_5a") or "—")
+        fonte = (o.get("base") or {}).get("fonte")
+        return f"- **{sem.get('nome', o['nome'])}**: da {da} a **{a}** in 5 anni ({o['proposta']}{'; base: ' + fonte if fonte else ''})"
+
+    P = s["programma"]
+    out = ["# Il programma in una pagina", "",
+           f"*Generato da `programma/documento.py` da `programma/schema.yaml` e dallo scenario «{s['scenario']}» "
+           f"(`programma/selezione_{s['scenario']}.md`). Costi in mld € l'anno a regime, stime GovernAI non certificate.*", "",
+           "| Perché | Come | Cosa misuriamo | Chi ne beneficia |", "|---|---|---|---|",
+           f"| {P['perche']} | {P['come']} | {P['cosa']} | {P['chi']} |", "",
+           f"**I conti:** {num(v.costo_regime.sum())} mld l'anno di spesa nuova, {len(v)} misure su {len(titoli)}, "
+           f"coperture per {num(c.gettito_min.sum())} mld al minimo più i fondi vincolati. Nuovo deficit: zero.", "",
+           "## Ce l'avremo fatta se…", "", *[ind(i) for i in P.get("indicatori_chiave", []) if i in obi], ""]
+    for m in s["missioni"]:
+        dentro = [p for p in m["proposte"] if p in v.index]
+        costo = v.loc[dentro].costo_regime.sum() if dentro else 0.0
+        out += [f"## {m['titolo']}", "", f"*{len(dentro)} misure su {len(m['proposte'])} · {num(costo)} mld l'anno*", "",
+                f"**Perché.** {m['perche']} *Valori: {', '.join(nomi_val.get(x, x) for x in m.get('valori', []))}.*", "",
+                f"**Come.** {m['come']}", ""]
+        for p in sorted(dentro, key=lambda p: -v.loc[p].costo_regime):
+            r = v.loc[p]
+            dose = "solo regole, costo zero" if r.variante == "ZERO" else f"{r.variante.lower()}, {num(r.costo_regime)} mld"
+            out.append(f"- {p} {tit(titoli[p])} ({dose})")
+        fuori = [p for p in m["proposte"] if p not in v.index]
+        if fuori:
+            out.append(f"- *Fuori da questa versione:* " + "; ".join(f"{p} {tit(titoli[p])}" for p in sorted(fuori, key=chiave)))
+        out += ["", f"**Sostenibilità.** {m['sostenibilita']}", "", "**Cosa misuriamo.**", "",
+                *[ind(i) for i in m.get("indicatori", []) if i in obi], "", "**Chi ne beneficia.**", ""]
+        for g in m.get("chi", []):
+            out.append(f"- **{g['gruppo']}** ({g.get('quanti', 'da stimare')}): {g['cosa_cambia']}")
+        out.append("")
+    out += ["## Chi contribuisce", "", "| Copertura | Chi paga o rinuncia | Gettito minimo |", "|---|---|---|"]
+    for r in c.itertuples():
+        out.append(f"| {r.chiave} {str(r.descrizione).replace('|', '/')} | {str(r.chi_paga).replace('|', '/')} | {num(r.gettito_min)} |")
+    return "\n".join(out) + "\n"
 
 
 def main() -> int:
@@ -186,6 +252,13 @@ def main() -> int:
         if not a.controlla and nuovo != vecchio:
             doc.write_text(nuovo, encoding="utf-8")
         print(f"{doc.name}: {'da aggiornare' if a.controlla and nuovo != vecchio else 'aggiornato' if nuovo != vecchio else 'già aggiornato'}")
+    pagina = una_pagina()
+    if pagina is not None:
+        vecchio = UNA_PAGINA.read_text(encoding="utf-8") if UNA_PAGINA.exists() else ""
+        da_aggiornare |= pagina != vecchio
+        if not a.controlla and pagina != vecchio:
+            UNA_PAGINA.write_text(pagina, encoding="utf-8")
+        print(f"{UNA_PAGINA.name}: {'da aggiornare' if a.controlla and pagina != vecchio else 'aggiornato' if pagina != vecchio else 'già aggiornato'}")
     return 1 if a.controlla and (da_aggiornare or avvisi) else 0
 
 

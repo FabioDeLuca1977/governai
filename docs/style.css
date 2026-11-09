@@ -482,3 +482,48 @@ details.leggi summary{ display:inline-flex; align-items:center; min-height:44px;
 details.leggi[open]{ display:block; }
 details.leggi[open] summary{ display:none; }
 @media print{ .testata,.nav-basso,.piede nav,.indice,.indice-mobile,.azioni{ display:none!important; } main{ padding:0; } }
+
+/* ---------- il programma in una pagina: perché, come, cosa misuriamo, chi ---------- */
+.q-perche{ --q:var(--c-accento); --q-tenue:var(--c-accento-tenue); }
+.q-come{ --q:var(--c-favorevole); --q-tenue:var(--c-favorevole-tenue); }
+.q-cosa{ --q:var(--c-attenzione); --q-tenue:var(--c-attenzione-tenue); }
+.q-chi{ --q:var(--c-critico); --q-tenue:var(--c-critico-tenue); }
+.q-etichetta{ display:flex; align-items:center; gap:6px; margin:0 0 6px; font:700 13px/1.3 var(--f-sans); text-transform:uppercase; letter-spacing:.06em; color:var(--q); }
+.q-etichetta svg{ width:18px; height:18px; }
+.tela{ display:grid; gap:12px; margin-top:24px; }
+@media (min-width:600px){ .tela{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (min-width:1000px){ .tela{ grid-template-columns:repeat(4,minmax(0,1fr)); } }
+.tela-cella{ background:var(--q-tenue); border:1px solid color-mix(in srgb, var(--q) 30%, transparent); border-top:4px solid var(--q); border-radius:var(--r-l); padding:16px; }
+.tela-cella .nota{ margin:0 0 8px; }
+.tela-testo{ font:600 var(--t-corpo-l)/1.4 var(--f-serif); margin:0; }
+.missioni{ display:grid; gap:20px; margin-top:20px; }
+.missione{ padding:0; overflow:hidden; scroll-margin-top:80px; }
+.missione-testa{ display:flex; gap:12px; align-items:flex-start; padding:16px; border-bottom:1px solid var(--c-bordo); background:var(--c-superficie-2); }
+.missione-testa>svg{ width:32px; height:32px; color:var(--c-accento); margin-top:2px; }
+.missione-testa h2{ margin:0 0 2px; }
+.missione-testa .nota{ margin:0; display:flex; flex-wrap:wrap; align-items:center; gap:6px; }
+.quattro{ display:grid; }
+@media (min-width:1000px){ .quattro{ grid-template-columns:1fr 1.35fr 1.2fr 1.2fr; } }
+.q-cella{ padding:16px; border-top:1px solid var(--c-bordo); min-width:0; }
+.q-cella:first-child{ border-top:0; }
+@media (min-width:1000px){ .q-cella{ border-top:0; border-left:1px solid var(--c-bordo); } .q-cella:first-child{ border-left:0; } }
+.q-cella:nth-child(1) .q-etichetta{ color:var(--c-accento); }
+.q-cella>p{ margin:0 0 10px; }
+.q-misure,.q-ind,.q-lista-chi{ list-style:none; margin:0; padding:0; display:grid; gap:10px; }
+.q-misure li{ display:flex; flex-wrap:wrap; align-items:center; gap:2px 8px; line-height:1.35; }
+.q-misure li.fuori a{ color:var(--c-testo-2); }
+.q-dose{ display:inline-flex; align-items:center; gap:8px; margin-left:auto; }
+.q-sostenibile{ display:flex; gap:8px; align-items:flex-start; margin:12px 0 0; padding:10px 12px; border-radius:var(--r-m); background:var(--c-favorevole-tenue); font-size:15px; }
+.q-sostenibile svg{ width:18px; height:18px; color:var(--c-favorevole); margin-top:3px; }
+.q-ind li{ display:grid; gap:2px; padding:10px 12px; border-radius:var(--r-m); background:var(--c-attenzione-tenue); }
+.q-ind.griglia li{ background:var(--c-superficie); border:1px solid var(--c-bordo); border-left:4px solid var(--c-attenzione); }
+.q-ind-nome{ font-weight:600; line-height:1.3; }
+.q-ind-valori{ display:flex; flex-wrap:wrap; align-items:center; gap:6px; font:600 18px/1.3 var(--f-serif); }
+.q-ind-valori svg{ width:18px; height:18px; color:var(--c-attenzione); }
+.q-ind .nota{ margin:0; font-size:13px; }
+.q-lista-chi li{ display:grid; gap:2px; padding-left:12px; border-left:3px solid var(--c-critico); }
+.q-quanti{ display:flex; flex-wrap:wrap; align-items:center; gap:6px; font:600 15px var(--f-serif); color:var(--c-testo-2); }
+@media (min-width:900px){ .temi.nav-missioni{ display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); overflow:visible; } .temi.nav-missioni a{ width:auto; } }
+.q-sotto{ font:700 13px/1.3 var(--f-sans); color:var(--c-testo-2); margin:4px 0 8px!important; }
+.q-cella details.leggi{ display:block; }
+@media (max-width:599px){ .tela-testo{ font-size:var(--t-corpo); } .tela-cella{ padding:12px 14px; } }
