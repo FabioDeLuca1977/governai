@@ -66,7 +66,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 02-C3 | Patto previdenziale tra generazioni | ZERO | 0,5 | 0,00 | 100% |
 | 02-C5 | Progetto di vita esigibile e lavoro per le persone con disabilita' | ZERO | 0,2 | 0,00 | 100% |
 | 02-C6 | Bilancio generazionale e strategia demografica | ZERO | 0,3 | 0,00 | 100% |
-| 03-P1 | Dividendo climatico: riforma SAD restituita ai cittadini | ZERO | 0,2 | 0,00 | 100% |
+| 03-P1 | Dividendo climatico: riforma SAD restituita alla cittadinanza | ZERO | 0,2 | 0,00 | 100% |
 | 04-P5 | LEP prima: autonomia differenziata reversibile | ZERO | 0,5 | 0,00 | 100% |
 | 05-C3 | Carriere della ricerca | ZERO | 0,1 | 0,00 | 100% |
 | 05-C6 | AI a scuola | ZERO | 0,2 | 0,00 | 100% |
@@ -140,7 +140,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | SF03 | Tonnage tax e credito d'imposta armatoriale: rimodulazione con coefficienti legati a emissioni e bandiera UE, tetto al beneficio | SPESE_FISCALI | 0,05 | Imprese armatoriali | 100% |
 | RA10 | Contributo unificato maggiorato per i litiganti seriali (oltre 500 cause l'anno) (proposta area 07) | RIALLOCAZIONE | 0,05 | Grandi litiganti: banche, assicurazioni, società di recupero crediti, utilities | 100% |
 | RP01 | Turnover selettivo nei profili amministrativi generici di ministeri ed enti pubblici non economici nazionali: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni di quei profili invece del 100%, con taglio corrispondente delle facoltà assunzionali e degli stanziamenti. Esclusi: scuola, università, ricerca e cultura (MIM, MUR, MiC), giustizia, Interno, agenzie fiscali, sanità, sicurezza e soccorso, servizi sociali e inclusione (compresi gli sportelli e le prestazioni di inclusione INPS e la DG inclusione del Ministero del lavoro). Esclusa la quota riservata ai tecnici da RA07 | RIALLOCAZIONE | 0,04 | Giovani candidati ai concorsi per profili amministrativi generici (meno posti, soprattutto al Sud); uffici di supporto che lavorano con meno persone | 100% |
-| SF08 | Detrazione 19% per lo sport dei ragazzi 5-18 anni sostituita da offerta sportiva gratuita a scuola (proposta area 05) | SPESE_FISCALI | 0,04 | Famiglie che detraggono iscrizioni a palestre e associazioni sportive | 100% |
+| SF08 | Detrazione 19% per lo sport di ragazze e ragazzi 5-18 anni sostituita da offerta sportiva gratuita a scuola (proposta area 05) | SPESE_FISCALI | 0,04 | Famiglie che detraggono iscrizioni a palestre e associazioni sportive | 100% |
 | RA08 | Assistenza tecnica e studi d'impatto esterni sostituiti dai pool tecnici e dall'infrastruttura pubblica, oltre RA03 (R09-2, area 09) | RIALLOCAZIONE | 0,03 | Società di consulenza e assistenza tecnica | 100% |
 | SAD04 | Accisa sui carburanti della navigazione marittima nazionale (EN.SI.05b), esclusi collegamenti in continuità territoriale e pesca | SAD | 0,03 | Armatori di linee nazionali non OSP, crociere e trasporto turistico nazionale | 100% |
 | RP06 | Enti previdenziali e assicurativi nazionali (INPS, INAIL) e altri EPNE: riduzione del 4% della spesa per beni e servizi rispetto al 2025, con versamento al bilancio dello Stato in aggiunta ai versamenti già previsti dalla L. 160/2019. Esclusi gli sportelli, i servizi per l'inclusione e le spese per prestazioni | RIALLOCAZIONE | 0,03 | Fornitori degli enti (ICT, servizi, logistica) | 100% |
@@ -165,7 +165,7 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 - 04-P1 Patto di continuita' post-PNRR (scelta in 0% delle combinazioni di pesi)
 - 04-P2 Casa a canone giusto (scelta in 0% delle combinazioni di pesi)
 - 04-P3 Prima il treno dei pendolari: fondo TPL e abbonamento unico (scelta in 0% delle combinazioni di pesi)
-- 06-C2 Patto per infermieri e medicina generale (scelta in 0% delle combinazioni di pesi)
+- 06-C2 Patto per il personale infermieristico e la medicina generale (scelta in 0% delle combinazioni di pesi)
 - 06-C3 Case della Comunita' vive (scelta in 20% delle combinazioni di pesi)
 - 06-C5 Salute mentale al 5% (scelta in 0% delle combinazioni di pesi)
 - 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea (scelta in 29% delle combinazioni di pesi)

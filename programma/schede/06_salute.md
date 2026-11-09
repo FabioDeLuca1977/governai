@@ -15,12 +15,12 @@
 |---|---|---|---|---|
 | SF-SAN1 | Detrazione IRPEF 19% delle spese sanitarie decrescente tra 50.000 e 120.000 € di reddito; salve le spese per disabilità e patologie croniche gravi | SPESE_FISCALI | 0,4–0,7 mld (da verificare sul Rapporto spese fiscali 2025) | redditi alti |
 | SF-SAN2 | Tetto alla deducibilità dei contributi ai fondi sanitari integrativi (oggi 3.615,20 €) e all'esenzione dei piani sanitari aziendali oltre 75.000 € di reddito | SPESE_FISCALI | 0,2–0,4 mld (da verificare) | redditi alti, fondi integrativi |
-| SF-SAN3 | Riassorbimento nel budget di cura (C4) delle agevolazioni per badanti e assistenza personale oltre una soglia di reddito | SPESE_FISCALI | da quantificare | famiglie con redditi alti |
+| SF-SAN3 | Riassorbimento nel budget di cura (C4) delle agevolazioni per assistenti familiari e assistenza personale oltre una soglia di reddito | SPESE_FISCALI | da quantificare | famiglie con redditi alti |
 | AS-SAN1 | Allineamento graduale delle accise su sigarette, trinciato e tabacco riscaldato verso i paesi UE con accisa più alta, oltre i 112 mln del DDL 2027 (art. 33) | ACCISE_SALUTE | 0,5–1,0 mld, decrescente | fumatori, filiera del tabacco |
 | AS-SAN2 | Accisa sui superalcolici +20% | ACCISE_SALUTE | 0,1–0,2 mld | consumatori di superalcolici |
 | R-SAN1 | Abrogazione della riduzione del payback per le aziende che investono (DDL 2027, art. 71) | RIALLOCAZIONE | 0,16 mld | industria farmaceutica |
 | R-SAN2 | Riduzione per legge del tetto di spesa per beni e servizi non sanitari degli enti SSN, con gare centralizzate | RIALLOCAZIONE | 0,3–0,5 mld | fornitori SSN |
-| RB-SAN1 | Fusione nel budget di cura di trasferimenti permanenti frammentati per anziani e caregiver | RIORDINO_BONUS | da quantificare con l'area 02 | nessuno perde a parità di bisogno |
+| RB-SAN1 | Fusione nel budget di cura di trasferimenti permanenti frammentati per persone anziane e caregiver | RIORDINO_BONUS | da quantificare con l'area 02 | nessuno perde a parità di bisogno |
 | FSN-INT | Riallocazione interna al FSN da budget unico del farmaco, biosimilari e gare centralizzate, certificata con la riduzione per legge del tetto corrispondente | FSN | 0,2–0,5 mld | fornitori e industria |
 
 Il gettito della sugar tax (circa 0,34 mld/anno dal 1/7/2027) è già nei saldi del DDL 2027 e non è conteggiato come risorsa nuova.
@@ -76,7 +76,7 @@ Se il CUP non colloca una prestazione nei tempi della classe di priorità, il si
 
 ---
 
-## 06-C2 — Patto per infermieri e medicina generale
+## 06-C2 — Patto per il personale infermieristico e la medicina generale
 
 ### Problema in un dato
 L'Italia ha 6,9 infermieri praticanti ogni 1.000 abitanti (2024: 407.750 persone) contro 9,2 della media OCSE, mentre i medici sono 5,75 ogni 1.000, sopra la media OCSE di 3,9: il rapporto infermieri/medici è 1,2 (Eurostat hlth_rs_prs2, 2024, serie `06_personale_sanitario.csv`; OCSE, *Health at a Glance 2025*). Il problema è il mix professionale e la distribuzione, non il numero totale di medici.
@@ -177,7 +177,7 @@ Un "contratto di prossimità" triennale per ogni CdC: fondo nazionale vincolato 
 ## 06-C4 — Budget di cura per la non autosufficienza
 
 ### Problema in un dato
-La Prestazione universale per gli anziani non autosufficienti (D.Lgs. 29/2024) resta sperimentale: 500 mln per il 2025-2026, prorogata solo al 31/12/2027 con soglia ISEE a 12.000 € (DDL bilancio 2027, art. 53 c. 3). Le famiglie pagano di tasca propria il 22,3% della spesa sanitaria corrente, 42,4 mld nel 2025 (ISTAT-SHA via Eurostat, serie `06_spesa_sanitaria_finanziamento.csv`). Circa 243.000 persone sono in lista d'attesa per una RSA (Quotidiano Sanità 2026, da verificare).
+La Prestazione universale per le persone anziane non autosufficienti (D.Lgs. 29/2024) resta sperimentale: 500 mln per il 2025-2026, prorogata solo al 31/12/2027 con soglia ISEE a 12.000 € (DDL bilancio 2027, art. 53 c. 3). Le famiglie pagano di tasca propria il 22,3% della spesa sanitaria corrente, 42,4 mld nel 2025 (ISTAT-SHA via Eurostat, serie `06_spesa_sanitaria_finanziamento.csv`). Circa 243.000 persone sono in lista d'attesa per una RSA (Quotidiano Sanità 2026, da verificare).
 
 ### Soluzione
 Valutazione unica del bisogno (INPS + ASL + Comune) in un solo punto di accesso nella Casa della Comunità; budget di cura graduato per intensità del bisogno, con una maggiorazione se è usato per lavoro di cura regolare o servizi accreditati. Nessun beneficiario attuale dell'indennità di accompagnamento perde importo. La Prestazione universale diventa il primo livello stabile del budget.
@@ -199,7 +199,7 @@ Valutazione unica del bisogno (INPS + ASL + Comune) in un solo punto di accesso 
 
 **Art. 5 (Monitoraggio e revisione).** INPS e Ufficio parlamentare di bilancio valutano la misura dopo tre anni. Se la spesa supera le previsioni del 20%, i livelli sono corretti con decreto.
 
-**Art. 6 (Copertura finanziaria).** Agli oneri, pari a 200 mln nel 2027, 700 mln nel 2028 e 1.200 mln annui dal 2029 [PIENA: 500, 1.500, 2.200 mln e 3.000 dal 2030], si provvede mediante il riordino dei trasferimenti monetari per anziani e caregiver che confluiscono nel budget, le maggiori entrate dalla rimodulazione delle agevolazioni fiscali per l'assistenza personale e le spese sanitarie per i redditi elevati e l'aumento delle accise sui tabacchi lavorati. Le maggiori entrate dall'emersione del lavoro di cura sono accertate ex post e destinate alla riduzione dell'onere.
+**Art. 6 (Copertura finanziaria).** Agli oneri, pari a 200 mln nel 2027, 700 mln nel 2028 e 1.200 mln annui dal 2029 [PIENA: 500, 1.500, 2.200 mln e 3.000 dal 2030], si provvede mediante il riordino dei trasferimenti monetari per persone anziane e caregiver che confluiscono nel budget, le maggiori entrate dalla rimodulazione delle agevolazioni fiscali per l'assistenza personale e le spese sanitarie per i redditi elevati e l'aumento delle accise sui tabacchi lavorati. Le maggiori entrate dall'emersione del lavoro di cura sono accertate ex post e destinate alla riduzione dell'onere.
 
 ### Cronoprogramma
 | Fase | Ministero della Salute | Regioni | AGENAS | ASL |

@@ -292,7 +292,7 @@
         <div class="sezione-testa"><h2 id="t-fiducia">Fiducia verificabile</h2><a href="#/metodo">Metodo</a></div>
         <div class="fiducia">
           <div class="card">${icona("link-2")}<div><h3>Catena ${integra ? "integra" : "da verificare"}</h3><p>${D.integrita.anelli} anelli di impronte crittografiche: una modifica nascosta a dati, regole o risultati si vede subito.</p></div></div>
-          <div class="card">${icona("octagon-x")}<div><h3>Linee rosse automatiche</h3><p>Le proposte che violano diritti o scaricano costi sui più deboli sono escluse da regole fisse.</p></div></div>
+          <div class="card">${icona("octagon-x")}<div><h3>Linee rosse automatiche</h3><p>Le proposte che violano diritti o scaricano costi sulle persone con redditi bassi o in condizioni di fragilità sono escluse da regole fisse.</p></div></div>
           <div class="card">${icona("repeat")}<div><h3>Tutto riproducibile</h3><p>Codice, dati, punteggi e regole sono pubblici: chiunque può rifare il calcolo.</p></div></div>
         </div>
       </section>
@@ -304,7 +304,7 @@
   }
 
   // ---------- Programma ----------
-  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["sintesi", "In sintesi", "#/programma/sintesi"],["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
+  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
 
   function elenco(params) {
     const sc = scenario(params.get("scenario") || "momento");
@@ -621,6 +621,12 @@
         </tbody></table></div>
       </section>
       <div class="azioni" style="margin-top:24px"><a class="btn primario" href="#/programma">Tutte le ${D.proposte.length} proposte ${icona("arrow-right")}</a>${azioniCondividi()}</div>`;
+  }
+
+  function equita() {
+    return `${schedeProgramma("equita")}
+      <div class="md documento">${md((D.documenti.equita || "*Capitolo non ancora disponibile.*").replace(/^# .*\n/, ""))}</div>
+      <div class="azioni" style="margin-top:24px"><a class="btn primario" href="#/programma/una-pagina">Il programma in una pagina ${icona("arrow-right")}</a>${azioniCondividi()}</div>`;
   }
 
   function sintesi() {
@@ -943,7 +949,7 @@
       <div class="md documento sezione">${md(D.documenti[k] || "*Documento non ancora disponibile.*")}</div>`;
   }
   function glossario() {
-    const voci = [["A.C.", "Atto della Camera: numero con cui la Camera dei deputati identifica un progetto di legge."], ["AI", "Intelligenza artificiale."], ["Brier (punteggio di)", "Misura la qualità delle previsioni: 0 è perfetta, 0,25 come tirare a caso, 1 sempre sbagliata."], ["Catena di integrità", "Registro di impronte crittografiche: ogni anello contiene l'impronta del precedente, così una modifica nascosta si vede."], ["CELEX", "Codice che identifica un atto nella banca dati del diritto europeo EUR-Lex."], ["Deroga", "Decisione del capo di governo che si discosta dall'esito del motore, sempre dichiarata e motivata."], ["Governo ombra", "Simulazione di un Consiglio dei ministri fatto di agenti AI con ruoli distinti. Le decisioni non sono in vigore."], ["HICP", "Indice armonizzato dei prezzi al consumo, misura europea dell'inflazione."], ["Linea rossa", "Limite della Carta che nessuna proposta può superare: se lo supera, è esclusa automaticamente."], ["Mandato", "Compito con scadenza affidato a un ministro dal Consiglio."], ["NEET", "Giovani che non lavorano, non studiano e non seguono una formazione."], ["Nucleo robusto", "Proposte che restano nella prima metà della classifica con quasi ogni combinazione di pesi tra i valori."], ["Opposizione leale", "Ruolo che cerca il punto debole di ogni decisione, con prove; il capo di governo deve rispondere per iscritto."], ["PIL", "Prodotto interno lordo."], ["RGS", "Ragioneria generale dello Stato."], ["Spread", "Differenza di rendimento tra titoli di Stato italiani e tedeschi a 10 anni, in punti base."], ["Stima GovernAI", "Cifra calcolata dal modello, non certificata dalla Ragioneria."], ["UE", "Unione europea."], ["UPB", "Ufficio parlamentare di bilancio."], ["Variante", "La dose di una misura: Piena, Essenziale, Pilota o Zero."]];
+    const voci = [["A.C.", "Atto della Camera: numero con cui la Camera dei deputati identifica un progetto di legge."], ["AI", "Intelligenza artificiale."], ["Brier (punteggio di)", "Misura la qualità delle previsioni: 0 è perfetta, 0,25 come tirare a caso, 1 sempre sbagliata."], ["Catena di integrità", "Registro di impronte crittografiche: ogni anello contiene l'impronta del precedente, così una modifica nascosta si vede."], ["CELEX", "Codice che identifica un atto nella banca dati del diritto europeo EUR-Lex."], ["Deroga", "Decisione del capo di governo che si discosta dall'esito del motore, sempre dichiarata e motivata."], ["Governo ombra", "Simulazione di un Consiglio dei ministri fatto di agenti AI con ruoli distinti. Le decisioni non sono in vigore."], ["HICP", "Indice armonizzato dei prezzi al consumo, misura europea dell'inflazione."], ["ISTAT", "Istituto nazionale di statistica."],["Linea rossa", "Limite della Carta che nessuna proposta può superare: se lo supera, è esclusa automaticamente."], ["Mandato", "Compito con scadenza affidato a un ministro dal Consiglio."], ["MEF", "Ministero dell'economia e delle finanze."], ["NEET", "Giovani che non lavorano, non studiano e non seguono una formazione."],["Nucleo robusto", "Proposte che restano nella prima metà della classifica con quasi ogni combinazione di pesi tra i valori."], ["Opposizione leale", "Ruolo che cerca il punto debole di ogni decisione, con prove; il capo di governo deve rispondere per iscritto."], ["PIL", "Prodotto interno lordo."], ["RGS", "Ragioneria generale dello Stato."], ["Spread", "Differenza di rendimento tra titoli di Stato italiani e tedeschi a 10 anni, in punti base."], ["Stima GovernAI", "Cifra calcolata dal modello, non certificata dalla Ragioneria."], ["UE", "Unione europea."], ["UPB", "Ufficio parlamentare di bilancio."], ["Variante", "La dose di una misura: Piena, Essenziale, Pilota o Zero."]];
     return `${schedeMetodo("glossario")}<div class="obiezione card"><dl>${voci.map(([t, d]) => `<dt>${esc(t)}</dt><dd>${esc(d)}</dd>`).join("")}</dl></div>`;
   }
 
@@ -1014,6 +1020,7 @@
       else if (b === "valori") { html = simulatore(); titolo = "I tuoi valori"; }
       else if (b === "confronti") { html = confronti(params); titolo = "Confronti"; }
       else if (b === "sintesi") { html = sintesi(); titolo = "Le idee in sintesi"; }
+      else if (b === "equita") { html = equita(); titolo = "Equità e linguaggio inclusivo"; }
       else if (b === "una-pagina") { html = unaPagina(params); titolo = "Il programma in una pagina"; }
       else { html = elenco(params); titolo = "Programma"; }
     } else if (a === "governo") {

@@ -4,7 +4,7 @@
 
 | Perché | Come | Cosa misuriamo | Chi ne beneficia |
 |---|---|---|---|
-| Un Paese dove chi nasce, studia, lavora e invecchia trova servizi che funzionano, e dove le scelte di oggi non pesano sui conti dei figli. | Ogni misura pagata senza deficit: tagli di spesa nei ministeri, meno sussidi dannosi e agevolazioni inefficaci, accise su tabacco e alcol. Le misure incerte partono come sperimentazioni. | Con indicatori pubblici, aggiornati ogni anno, con base e obiettivo a 5 anni: nidi, abbandono scolastico, laureati, ricerca, produttività, cure, acqua, giustizia. | Famiglie con bambini piccoli, studenti delle scuole più fragili, giovani, imprese che innovano, chi vive in territori a rischio, contribuenti e chi usa giustizia e servizi pubblici. |
+| Un Paese dove chi nasce, studia, lavora e invecchia trova servizi che funzionano, e dove le scelte di oggi non pesano sui conti delle generazioni future. | Ogni misura pagata senza deficit: tagli di spesa nei ministeri, meno sussidi dannosi e agevolazioni inefficaci, accise su tabacco e alcol. Le misure incerte partono come sperimentazioni. | Con indicatori pubblici, aggiornati ogni anno, con base e obiettivo a 5 anni: nidi, abbandono scolastico, persone laureate, ricerca, produttività, cure, acqua, giustizia. | Famiglie con bambine e bambini piccoli, studentesse e studenti delle scuole più fragili, giovani, imprese che innovano, chi vive in territori a rischio, chi paga le tasse e chi usa giustizia e servizi pubblici. |
 
 **I conti:** 9,16 mld l'anno di spesa nuova, 63 misure su 75, coperture per 7,37 mld al minimo più i fondi vincolati. Nuovo deficit: zero.
 
@@ -12,7 +12,7 @@
 
 - **Posti al nido ogni 100 bambini sotto i 3 anni**: da 31,6 a **40** in 5 anni (02-C2; base: ISTAT)
 - **Giovani che lasciano presto la scuola, nelle Isole**: da 13,7% a **9,5%** in 5 anni (05-C1; base: Eurostat edat_lfse_16)
-- **Laureati e diplomati ITS tra 25 e 34 anni**: da 31,1% a **35%** in 5 anni (05-C4; base: Eurostat edat_lfse_03)
+- **Persone tra 25 e 34 anni con laurea o diploma ITS**: da 31,1% a **35%** in 5 anni (05-C4; base: Eurostat edat_lfse_03)
 - **Spesa delle imprese in ricerca e sviluppo**: da 0,8% PIL a **0,9% PIL** in 5 anni (01-P13; base: Eurostat rd_e_gerdtot (settore BES))
 - **Produttività: PIL per ora lavorata**: da 100,4 (2015 = 100) a **104 (2015 = 100)** in 5 anni (01-P4; base: Eurostat nama_10_lp_ulc)
 - **Persone che rinunciano a cure necessarie per costo, distanza o attesa**: da 2,5% a **1,5%** in 5 anni (06-C1; base: Eurostat hlth_silc_08)
@@ -23,7 +23,7 @@
 
 *11 misure su 11 · 4,22 mld l'anno*
 
-**Perché.** Ogni bambino deve poter partire alla pari, ovunque nasca. Nido, scuola e studio dopo il diploma sono la base di una vita libera e di un Paese che cresce. *Valori: Apprendimento e cultura, Equità, Responsabilità verso il futuro.*
+**Perché.** Ogni bambina e ogni bambino deve poter partire alla pari, ovunque nasca. Nido, scuola e studio dopo il diploma sono la base di una vita libera e di un Paese che cresce. *Valori: Apprendimento e cultura, Equità, Responsabilità verso il futuro.*
 
 **Come.** Più posti al nido dove mancano e congedo più lungo per i papà. Squadre contro l'abbandono e più fondi alle scuole fragili. Borse di studio garantite e ITS (scuole tecniche superiori) triplicati.
 
@@ -45,22 +45,22 @@
 
 - **Posti al nido ogni 100 bambini sotto i 3 anni**: da 31,6 a **40** in 5 anni (02-C2; base: ISTAT)
 - **Giovani che lasciano presto la scuola, nelle Isole**: da 13,7% a **9,5%** in 5 anni (05-C1; base: Eurostat edat_lfse_16)
-- **Laureati e diplomati ITS tra 25 e 34 anni**: da 31,1% a **35%** in 5 anni (05-C4; base: Eurostat edat_lfse_03)
+- **Persone tra 25 e 34 anni con laurea o diploma ITS**: da 31,1% a **35%** in 5 anni (05-C4; base: Eurostat edat_lfse_03)
 - **Donne tra 20 e 64 anni che lavorano**: da 58% a **62,5%** in 5 anni (02-C2; base: Eurostat lfsi_emp_a)
 
 **Chi ne beneficia.**
 
-- **Famiglie con bambini sotto i 3 anni** (circa 1,1 milioni di bambini): Circa 60-70 mila posti nido in più dove mancano, gratis fino a ISEE 25.000 €; congedo papà di 2 mesi.
-- **Alunni delle scuole più fragili** (circa 0,7 milioni di alunni (10% di scuole più svantaggiate), fino a 1,4 milioni nelle 1.500 scuole con squadre): Tutor, educatori e mediatori contro l'abbandono, 250 € in più per alunno, scuole aperte il pomeriggio e d'estate.
-- **Giovani che studiano dopo il diploma** (circa 33.400 iscritti agli ITS oggi, verso circa 100.000; idonei alla borsa da stimare): Borsa di studio garantita a tutti gli idonei, ITS triplicati, nuove residenze universitarie a canone legato all'ISEE.
-- **Adulti senza diploma e giovani oltre i 25 anni che non studiano né lavorano** (da stimare): Dote di 900 € per corsi certificati e scuole serali per adulti (CPIA) su lettura, calcolo e uso dell'AI.
-- **Studenti e famiglie nelle Regioni della sperimentazione su cultura e benessere** (da stimare (3-4 Regioni)): Solo sperimentazione: biblioteche di comunità, zaino culturale, psicologi a scuola. Si estende se la valutazione è positiva.
+- **Famiglie con figlie e figli sotto i 3 anni** (circa 1,1 milioni di bambine e bambini): Circa 60-70 mila posti nido in più dove mancano, gratis fino a un ISEE (indicatore della situazione economica equivalente) di 25.000 €; congedo papà di 2 mesi.
+- **Alunne e alunni delle scuole più fragili** (circa 0,7 milioni tra alunne e alunni (10% di scuole più svantaggiate), fino a 1,4 milioni nelle 1.500 scuole con squadre): Tutor, educatori e mediatori contro l'abbandono, 250 € in più per ogni alunna o alunno, scuole aperte il pomeriggio e d'estate.
+- **Giovani che studiano dopo il diploma** (circa 33.400 persone iscritte agli ITS oggi, verso circa 100.000; persone idonee alla borsa da stimare): Borsa di studio garantita a tutte le persone idonee, ITS triplicati, nuove residenze universitarie a canone legato all'ISEE.
+- **Persone adulte senza diploma e giovani oltre i 25 anni che non studiano né lavorano** (da stimare): Dote di 900 € per corsi certificati e scuole serali per adulti (CPIA) su lettura, calcolo e uso dell'AI.
+- **Studentesse, studenti e famiglie nelle Regioni della sperimentazione su cultura e benessere** (da stimare (3-4 Regioni)): Solo sperimentazione: biblioteche di comunità, zaino culturale, psicologi a scuola. Si estende se la valutazione è positiva.
 
 ## Cura e protezione quando serve
 
 *7 misure su 10 · 0,31 mld l'anno*
 
-**Perché.** Nessuno deve rinunciare a curarsi o restare solo quando è fragile: malati, anziani non autosufficienti, persone con disabilità, chi vive in strada. *Valori: Benessere, Equità, Rispetto e diversità.*
+**Perché.** Nessuna persona deve rinunciare a curarsi o restare sola quando è fragile: chi ha una malattia, le persone anziane non autosufficienti, le persone con disabilità, chi vive in strada. *Valori: Benessere, Equità, Rispetto e diversità.*
 
 **Come.** Regole per accorciare le attese senza spesa nuova, più prevenzione dentro il fondo sanitario, Housing First (prima una casa, poi il resto) e sperimentazioni su povertà e non autosufficienza.
 
@@ -71,9 +71,9 @@
 - 02-C5 Progetto di vita esigibile e lavoro per le persone con disabilità (solo regole, costo zero)
 - 06-C1 Tempo garantito o rimborso (solo regole, costo zero)
 - 06-C6 Dividendo della prevenzione e budget unico del farmaco (solo regole, costo zero)
-- *Fuori da questa versione:* 06-C2 Patto per infermieri e medicina generale; 06-C3 Case della Comunità vive; 06-C5 Salute mentale al 5%
+- *Fuori da questa versione:* 06-C2 Patto per il personale infermieristico e la medicina generale; 06-C3 Case della Comunità vive; 06-C5 Salute mentale al 5%
 
-**Sostenibilità.** È la missione più debole e lo diciamo. Personale sanitario, Case della Comunità e salute mentale restano fuori per mancanza di coperture certe. Povertà, anziani e assistenza a domicilio solo sperimentali.
+**Sostenibilità.** È la missione più debole e lo diciamo. Personale sanitario, Case della Comunità e salute mentale restano fuori per mancanza di coperture certe. Povertà, persone anziane non autosufficienti e assistenza a domicilio solo sperimentali.
 
 **Cosa misuriamo.**
 
@@ -85,9 +85,9 @@
 **Chi ne beneficia.**
 
 - **Persone che aspettano visite ed esami** (il 2,5% delle persone dai 16 anni in su ha rinunciato a cure nel 2025; numero assoluto da stimare): Agenda unica delle prenotazioni anche con il privato accreditato, richiamo attivo; nessun rimborso automatico in questo scenario.
-- **Persone senza dimora** (96.197 persone iscritte in anagrafe; 6.000 in Housing First nelle 14 città metropolitane): Una casa con contratto proprio e un'équipe stabile che accompagna, anche dopo la fine dei fondi PNRR.
+- **Persone senza dimora** (96.197 persone iscritte in anagrafe; 6.000 in Housing First nelle 14 città metropolitane): Una casa con contratto proprio e un'équipe stabile che accompagna, anche dopo la fine dei fondi del PNRR (Piano nazionale di ripresa e resilienza).
 - **Persone con disabilità grave** (circa 2,9 milioni di persone con limitazioni gravi): Collocamento mirato con banca dati dei posti scoperti e sanzioni automatiche; il progetto di vita pieno è rinviato.
-- **Anziani non autosufficienti e chi li assiste** (da stimare (circa 243.000 persone in lista d'attesa per una RSA, dato da verificare)): Solo sperimentazione: budget di cura in 20 ambiti e squadre di infermieri a domicilio in 10 distretti.
+- **Persone anziane non autosufficienti e chi le assiste** (da stimare (circa 243.000 persone in lista d'attesa per una RSA, residenza sanitaria assistenziale, dato da verificare)): Solo sperimentazione: budget di cura in 20 ambiti e squadre di infermieri a domicilio in 10 distretti.
 - **Famiglie in povertà assoluta** (2,1 milioni di famiglie, 5,4 milioni di persone): Solo una sperimentazione in 12 ambiti del reddito di inclusione universale; per ora nessun cambiamento generale.
 
 ## Lavoro, ricerca e imprese che crescono
@@ -96,7 +96,7 @@
 
 **Perché.** Produttività e salari sono fermi da anni. Più ricerca e innovazione nelle imprese, soprattutto piccole, servono a creare lavoro migliore e pagato meglio. *Valori: Innovazione, Responsabilità verso il futuro, Apprendimento e cultura.*
 
-**Come.** Un solo credito d'imposta per la ricerca, stabile e più forte per le piccole imprese; la PA compra innovazione; un fondo per le imprese tecnologiche; centri di ricerca al servizio delle imprese.
+**Come.** Un solo credito d'imposta per la ricerca, stabile e più forte per le piccole imprese; la pubblica amministrazione (PA) compra innovazione; un fondo per le imprese tecnologiche; centri di ricerca al servizio delle imprese.
 
 - 01-P13 Un solo credito per la ricerca: stabile, più forte per le piccole imprese, certificato prima di spendere (piena, 0,30 mld)
 - 05-C10 Rete nazionale per la ricerca applicata sul modello Fraunhofer (essenziale, 0,20 mld)
@@ -120,10 +120,10 @@
 **Chi ne beneficia.**
 
 - **Imprese che fanno ricerca, soprattutto quelle sotto i 50 addetti** (da stimare): Credito unico stabile per 5 anni: 10%, 13% sotto i 50 addetti; progetto certificato prima di spendere.
-- **Ricercatori, università e nuove imprese nate dalla ricerca** (86 spin-off nel 2023; 750 dottorati industriali l'anno previsti): Fondo di fondi da 750 milioni con capitale privato, 130 prove di fattibilità l'anno, 8 centri di ricerca applicata.
+- **Ricercatrici e ricercatori, università e nuove imprese nate dalla ricerca** (86 spin-off nel 2023; 750 dottorati industriali l'anno previsti): Fondo di fondi da 750 milioni con capitale privato, 130 prove di fattibilità l'anno, 8 centri di ricerca applicata.
 - **Piccole imprese e startup che vendono innovazione alla PA** (circa 200 contratti di prima fase e 40 di seconda fase l'anno): Gare in tre fasi su salute, territorio ed energia: la PA paga prototipi e poi li compra.
 - **Imprese che consumano molta energia** (da stimare): Garanzia pubblica per contratti lunghi di energia rinnovabile a prezzo stabile, per consorzi e distretti.
-- **Lavoratori con salari bassi** (il 10,2% degli occupati è a rischio di povertà; numero assoluto da stimare): Il salario del contratto più rappresentativo diventa il riferimento per tutti; nessuna soglia di legge né nuovi ispettori.
+- **Chi lavora con salari bassi** (il 10,2% delle persone occupate è a rischio di povertà; numero assoluto da stimare): Il salario del contratto più rappresentativo diventa il riferimento per tutti; nessuna soglia di legge né nuovo personale ispettivo.
 
 ## Territori sicuri e transizione verde
 
@@ -139,7 +139,7 @@
 - 04-P7 Dal porto al treno: più merci sul ferro (essenziale, 0,16 mld)
 - 04-P8 Camion a zero emissioni: patto per la transizione dell'autotrasporto (piena, 0,15 mld)
 - 04-P9 Consegne pulite in città: zone a emissioni zero per le merci (piena, 0,07 mld)
-- 03-P1 Dividendo climatico: riforma SAD restituita ai cittadini (solo regole, costo zero)
+- 03-P1 Dividendo climatico: riforma SAD restituita alla cittadinanza (solo regole, costo zero)
 - 03-P2 Elettricità rinnovabile a prezzo rinnovabile (CfD) (solo regole, costo zero)
 - 04-P5 LEP prima: autonomia differenziata reversibile (solo regole, costo zero)
 - *Fuori da questa versione:* 03-P5 Contratto agro-climatico; 04-P1 Patto di continuità post-PNRR; 04-P2 Casa a canone giusto; 04-P3 Prima il treno dei pendolari: fondo TPL e abbonamento unico
@@ -157,7 +157,7 @@
 
 - **Chi vive nelle zone a rischio frana** (1,28 milioni di persone in aree a pericolosità elevata e molto elevata): Fondo di prevenzione sui Comuni più a rischio e polizza casa con adesione automatica e uscita libera.
 - **Residenti delle regioni che perdono più acqua** (da stimare (5 regioni con perdite oltre il 50%)): Obiettivi vincolanti sulle perdite, gestori più grandi e fondi europei per rifare le reti.
-- **Abitanti delle aree interne** (13,3 milioni di persone (intervento in 72 aree progetto)): 500 presidi con più servizi, trasporto a chiamata, indennità per circa 35.000 medici, infermieri e insegnanti.
+- **Abitanti delle aree interne** (13,3 milioni di persone (intervento in 72 aree progetto)): 500 presidi con più servizi, trasporto a chiamata, indennità per circa 35.000 persone tra personale medico, infermieristico e docente.
 - **Imprese di autotrasporto e logistica** (da stimare): Aste per circa 1.000 camion a zero emissioni l'anno e più ferrovia, in cambio dell'uscita dal rimborso sul gasolio.
 - **Residenti e negozi delle 14 città metropolitane** (da stimare): Consegne a emissioni zero dal 2030, con 4 anni di preavviso e regole uguali in tutta Italia.
 
@@ -165,7 +165,7 @@
 
 *10 misure su 11 · 0,30 mld l'anno*
 
-**Perché.** Pagare le tasse deve essere semplice e giusto. Ogni scelta pubblica deve dire chi paga e quando, senza scaricare debiti sui figli. *Valori: Fiducia e trasparenza, Responsabilità verso il futuro, Equità.*
+**Perché.** Pagare le tasse deve essere semplice e giusto. Ogni scelta pubblica deve dire chi paga e quando, senza scaricare debiti sulle generazioni future. *Valori: Fiducia e trasparenza, Responsabilità verso il futuro, Equità.*
 
 **Come.** Dichiarazione già pronta che vale se non la contesti, controlli IVA in tempo reale, nessun condono, agevolazioni fiscali a scadenza, valutazione a 30 anni delle leggi e delle grandi opere.
 
@@ -192,7 +192,7 @@
 
 **Chi ne beneficia.**
 
-- **Chi usa il 730 e i pensionati con la sola Certificazione Unica** (circa 25,2 milioni di contribuenti con il 730, più i pensionati con sola CU): La dichiarazione arriva già fatta e vale se non la si contesta; rimborsi automatici.
+- **Chi usa il 730 e chi ha una pensione con la sola Certificazione Unica** (circa 25,2 milioni di contribuenti con il 730, più chi ha una pensione e la sola CU): La dichiarazione arriva già fatta e vale se non la si contesta; rimborsi automatici.
 - **Piccole partite IVA (regime forfetario e semplificato)** (da stimare): IVA e redditi precompilati dalle fatture, rateazione automatica online, sanzioni proporzionate e nessun condono.
 - **Contribuenti e imprese in regola** (42,8 milioni di contribuenti IRPEF): Meno frodi IVA, rimborsi più rapidi per chi è affidabile, agevolazioni che restano solo se funzionano.
 - **Giovani e generazioni future** (da stimare): Ogni legge importante dichiara chi paga e quando; grandi opere con analisi pubblica; costo delle pensioni per generazione.
@@ -201,9 +201,9 @@
 
 *18 misure su 20 · 1,35 mld l'anno*
 
-**Perché.** Uno Stato rapido, giusto e trasparente fa risparmiare tempo a cittadini e imprese e rafforza la fiducia. L'AI aiuta, ma decidono le persone. *Valori: Fiducia e trasparenza, Sicurezza senza controllo assoluto, Cittadinanza responsabile.*
+**Perché.** Uno Stato rapido, giusto e trasparente fa risparmiare tempo alle persone e alle imprese e rafforza la fiducia. L'AI aiuta, ma decidono le persone. *Valori: Fiducia e trasparenza, Sicurezza senza controllo assoluto, Cittadinanza responsabile.*
 
-**Come.** Tribunali più veloci, pene alternative per i reati minori, tecnici per i piccoli Comuni, AI nella PA con supervisione umana, appalti e dati aperti, leggi valutate prima del voto.
+**Come.** Tribunali più veloci, pene alternative per i reati minori, personale tecnico per i piccoli Comuni, AI nella PA con supervisione umana, appalti e dati aperti, leggi valutate prima del voto.
 
 - 07-C1 Giustizia a regime: Ufficio per il processo e triage digitale (essenziale, 0,32 mld)
 - 07-C2 Pena utile: misure di comunità contro il sovraffollamento (essenziale, 0,25 mld)
@@ -236,10 +236,10 @@
 
 **Chi ne beneficia.**
 
-- **Cittadini e imprese con una causa civile** (da stimare): 4.500 addetti stabili nei tribunali più lenti: obiettivo da 1.789 a 1.400 giorni per una causa civile.
-- **Persone detenute e chi lavora nelle carceri** (66.063 detenuti per 51.295 posti): Pene alternative per chi ha meno di 2 anni da scontare, 1.000 funzionari in più, braccialetti elettronici.
-- **Piccoli Comuni** (5.522 Comuni sotto i 5.000 abitanti (aiuto mirato a Mezzogiorno e aree interne)): 3.000 tecnici condivisi per gare, progetti e informatica, e affiancamento di chi va in pensione.
-- **Lavoratori pubblici** (oltre 3,7 milioni): Valutazione vera, formazione su AI e dati, automazione dei lavori ripetitivi in sperimentazione, con ricollocazione garantita.
+- **Persone e imprese con una causa civile** (da stimare): 4.500 addetti stabili nei tribunali più lenti: obiettivo da 1.789 a 1.400 giorni per una causa civile.
+- **Persone detenute e chi lavora nelle carceri** (66.063 persone detenute per 51.295 posti): Pene alternative per chi ha meno di 2 anni da scontare, 1.000 funzionarie e funzionari in più, braccialetti elettronici.
+- **Piccoli Comuni** (5.522 Comuni sotto i 5.000 abitanti (aiuto mirato a Mezzogiorno e aree interne)): 3.000 tra tecniche e tecnici condivisi per gare, progetti e informatica, e affiancamento di chi va in pensione.
+- **Personale pubblico** (oltre 3,7 milioni di persone): Valutazione vera, formazione su AI e dati, automazione dei lavori ripetitivi in sperimentazione, con ricollocazione garantita.
 - **Comunità e associazioni che ricevono beni confiscati** (19.414 immobili confiscati ancora in gestione dello Stato): Più beni restituiti all'uso sociale, con prestiti per ristrutturarli e dati aperti.
 
 ## Chi contribuisce
@@ -284,7 +284,7 @@
 | RA03 Consulenze, studi, auto di servizio e rappresentanza: tetto del 20% sotto la spesa 2025 dei capitoli dedicati | Consulenti esterni, società di noleggio | 0,05 |
 | SF09 Detrazioni edilizie: aliquota ridotta per le unità diverse dall'abitazione principale non locate a canone concordato (proposta area 04) | Proprietari di seconde case che ristrutturano | 0,05 |
 | RA10 Contributo unificato maggiorato per i litiganti seriali (oltre 500 cause l'anno) (proposta area 07) | Grandi litiganti: banche, assicurazioni, società di recupero crediti, utilities | 0,05 |
-| SF08 Detrazione 19% per lo sport dei ragazzi 5-18 anni sostituita da offerta sportiva gratuita a scuola (proposta area 05) | Famiglie che detraggono iscrizioni a palestre e associazioni sportive | 0,04 |
+| SF08 Detrazione 19% per lo sport di ragazze e ragazzi 5-18 anni sostituita da offerta sportiva gratuita a scuola (proposta area 05) | Famiglie che detraggono iscrizioni a palestre e associazioni sportive | 0,04 |
 | RP01 Turnover selettivo nei profili amministrativi generici di ministeri ed enti pubblici non economici nazionali: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni di quei profili invece del 100%, con taglio corrispondente delle facoltà assunzionali e degli stanziamenti. Esclusi: scuola, università, ricerca e cultura (MIM, MUR, MiC), giustizia, Interno, agenzie fiscali, sanità, sicurezza e soccorso, servizi sociali e inclusione (compresi gli sportelli e le prestazioni di inclusione INPS e la DG inclusione del Ministero del lavoro). Esclusa la quota riservata ai tecnici da RA07 | Giovani candidati ai concorsi per profili amministrativi generici (meno posti, soprattutto al Sud); uffici di supporto che lavorano con meno persone | 0,04 |
 | RA08 Assistenza tecnica e studi d'impatto esterni sostituiti dai pool tecnici e dall'infrastruttura pubblica, oltre RA03 (R09-2, area 09) | Società di consulenza e assistenza tecnica | 0,03 |
 | RP06 Enti previdenziali e assicurativi nazionali (INPS, INAIL) e altri EPNE: riduzione del 4% della spesa per beni e servizi rispetto al 2025, con versamento al bilancio dello Stato in aggiunta ai versamenti già previsti dalla L. 160/2019. Esclusi gli sportelli, i servizi per l'inclusione e le spese per prestazioni | Fornitori degli enti (ICT, servizi, logistica) | 0,03 |

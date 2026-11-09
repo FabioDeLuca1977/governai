@@ -56,7 +56,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 02-C3 | Patto previdenziale tra generazioni | ZERO | 0,5 | 0,00 | 100% |
 | 02-C5 | Progetto di vita esigibile e lavoro per le persone con disabilita' | ZERO | 0,2 | 0,00 | 100% |
 | 02-C6 | Bilancio generazionale e strategia demografica | ZERO | 0,3 | 0,00 | 100% |
-| 03-P1 | Dividendo climatico: riforma SAD restituita ai cittadini | ZERO | 0,2 | 0,00 | 100% |
+| 03-P1 | Dividendo climatico: riforma SAD restituita alla cittadinanza | ZERO | 0,2 | 0,00 | 100% |
 | 04-P5 | LEP prima: autonomia differenziata reversibile | ZERO | 0,5 | 0,00 | 100% |
 | 05-C3 | Carriere della ricerca | ZERO | 0,1 | 0,00 | 100% |
 | 05-C6 | AI a scuola | ZERO | 0,2 | 0,00 | 100% |
@@ -128,7 +128,7 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 - 04-P3 Prima il treno dei pendolari: fondo TPL e abbonamento unico (scelta in 0% delle combinazioni di pesi)
 - 04-P7 Dal porto al treno: piu' merci sul ferro (scelta in 0% delle combinazioni di pesi)
 - 05-C4 Piu' laureati e diplomati terziari: ITS, lauree professionalizzanti, residenze (scelta in 2% delle combinazioni di pesi)
-- 06-C2 Patto per infermieri e medicina generale (scelta in 0% delle combinazioni di pesi)
+- 06-C2 Patto per il personale infermieristico e la medicina generale (scelta in 0% delle combinazioni di pesi)
 - 06-C5 Salute mentale al 5% (scelta in 0% delle combinazioni di pesi)
 - 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea (scelta in 29% delle combinazioni di pesi)
 - 07-C6 Scudo cyber territoriale (scelta in 1% delle combinazioni di pesi)

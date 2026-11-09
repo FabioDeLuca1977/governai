@@ -158,7 +158,7 @@ Le regole:
 | Fiducia nell'Agenzia delle Entrate e adempimento spontaneo (tax compliance, valore CIT) | da rilevare con indagine AdE nel 2027 | +5 punti | +10 punti |
 
 **Rischi e mitigazioni**
-- **Esclusione digitale degli anziani.** Il conto arriva anche per posta o tramite il cedolino della pensione; CAF e patronati restano un canale assistito gratuito, finanziato a prestazione.
+- **Esclusione digitale delle persone anziane.** Il conto arriva anche per posta o tramite il cedolino della pensione; CAF e patronati restano un canale assistito gratuito, finanziato a prestazione.
 - **Errori nei dati di terzi.** Sono i terzi a rispondere delle comunicazioni; non ci sono sanzioni per il contribuente e c'è un anno per rettificare.
 - **Opposizione degli intermediari.** Nuova funzione dei CAF come consulenti per i casi complessi e per l'accesso ai benefici (ISEE, Assegno unico) e transizione in 3 anni dei compensi.
 - **Costo superiore alla stima per i crediti non chiesti.** Variante ESSENZIALE prima; clausola di monitoraggio art. 17 L. 196/2009.
@@ -333,7 +333,7 @@ La causa sono tre strumenti sovrapposti, introdotti in anni diversi:
 
 | Valore | 01-P7 | 01-P8 | 01-P9 | Motivo |
 |---|---|---|---|---|
-| RIS | +2 | 0 | +1 | il cittadino non è una pratica; sanità e disabilità salve |
+| RIS | +2 | 0 | +1 | la persona non è una pratica; sanità e disabilità salve |
 | FID | +3 | +2 | +2 | regole comprensibili, meno arbitrio, rimborsi certi |
 | INN | +2 | +1 | 0 | servizio proattivo con dati esistenti |
 | BEN | +1 | 0 | +1 | tempo e costi risparmiati; più reddito netto nello scalino |

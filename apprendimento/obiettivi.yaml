@@ -189,7 +189,7 @@ obiettivi:
     obiettivo_5a: '0'
 - id: 01-P4-a
   proposta: 01-P4
-  nome: Quota di occupati in imprese con meno di 50 addetti
+  nome: Quota di persone occupate in imprese con meno di 50 addetti
   unita: '%'
   direzione: giu
   base:
@@ -367,7 +367,7 @@ obiettivi:
     obiettivo_5a: '150'
 - id: 02-C1-a
   proposta: 02-C1
-  nome: Occupati 18+ a rischio di povertà
+  nome: Persone occupate 18+ a rischio di povertà
   unita: '%'
   direzione: giu
   base:
@@ -412,7 +412,7 @@ obiettivi:
     obiettivo_5a: −3%
 - id: 02-C1-c
   proposta: 02-C1
-  nome: Dipendenti pagati sotto il contratto di riferimento o la soglia
+  nome: Persone con lavoro dipendente pagate sotto il contratto di riferimento o la soglia
   unita: '% dipendenti'
   direzione: giu
   base:
@@ -433,7 +433,7 @@ obiettivi:
     obiettivo_5a: sotto il 2%
 - id: 02-C2-a
   proposta: 02-C2
-  nome: Posti nido ogni 100 bambini 0-2 al Sud
+  nome: Posti nido ogni 100 bambine e bambini 0-2 al Sud
   unita: posti per 100 bambini
   direzione: su
   base:
@@ -452,7 +452,7 @@ obiettivi:
     obiettivo_5a: '33'
 - id: 02-C2-b
   proposta: 02-C2
-  nome: Posti nido ogni 100 bambini 0-2, Italia
+  nome: Posti nido ogni 100 bambine e bambini 0-2, Italia
   unita: posti per 100 bambini
   direzione: su
   base:
@@ -1477,7 +1477,7 @@ obiettivi:
     obiettivo_5a: 7,5%
 - id: 05-C1-c
   proposta: 05-C1
-  nome: Alunni di V primaria almeno al livello base in matematica
+  nome: Alunne e alunni di V primaria almeno al livello base in matematica
   unita: '%'
   direzione: su
   base:
@@ -1604,7 +1604,7 @@ obiettivi:
     obiettivo_5a: 1,60%
 - id: 05-C3-c
   proposta: 05-C3
-  nome: Saldo migratorio dei laureati italiani 25-34
+  nome: Saldo migratorio delle persone laureate italiane 25-34
   unita: laureati/anno
   direzione: su
   base:
@@ -1623,7 +1623,7 @@ obiettivi:
     obiettivo_5a: -6.000/anno
 - id: 05-C4-a
   proposta: 05-C4
-  nome: Laureati e diplomati terziari 25-34
+  nome: Persone di 25-34 anni con titolo terziario
   unita: '%'
   direzione: su
   base:
@@ -1644,7 +1644,7 @@ obiettivi:
     obiettivo_5a: 35% (verso il 40% nel 2035)
 - id: 05-C4-b
   proposta: 05-C4
-  nome: Iscritti ITS Academy
+  nome: Persone iscritte agli ITS Academy
   unita: iscritti
   direzione: su
   base:
@@ -1663,7 +1663,7 @@ obiettivi:
     obiettivo_5a: '85.000'
 - id: 05-C4-c
   proposta: 05-C4
-  nome: Idonei non beneficiari
+  nome: Persone idonee alla borsa ma senza borsa
   unita: studenti
   direzione: giu
   base:
@@ -1742,7 +1742,7 @@ obiettivi:
     obiettivo_5a: ≥400 ore/anno
 - id: 05-C6-a
   proposta: 05-C6
-  nome: Docenti con formazione AI certificata
+  nome: Personale docente con formazione AI certificata
   unita: '% docenti'
   direzione: su
   base:
@@ -1780,7 +1780,7 @@ obiettivi:
     obiettivo_5a: ≥ media OCSE
 - id: 05-C6-c
   proposta: 05-C6
-  nome: Alunni di V primaria almeno al livello base in matematica
+  nome: Alunne e alunni di V primaria almeno al livello base in matematica
   unita: '%'
   direzione: su
   base:
@@ -2271,7 +2271,7 @@ obiettivi:
     obiettivo_5a: ≤ 105%
 - id: 07-C2-b
   proposta: 07-C2
-  nome: Detenuti presenti
+  nome: Persone detenute presenti
   unita: detenuti
   direzione: giu
   base:
@@ -3245,7 +3245,7 @@ obiettivi:
     obiettivo_5a: 100%, con verifica a campione dell'Ufficio 08-P1
 - id: 09-C5-c
   proposta: 09-C5
-  nome: Dipendenti che hanno completato 24 ore su IA e dati
+  nome: Personale che ha completato 24 ore su IA e dati
   unita: '% dipendenti'
   direzione: su
   base:
@@ -3264,7 +3264,7 @@ obiettivi:
     obiettivo_5a: 100%
 - id: 05-C7-a
   proposta: 05-C7
-  nome: Divario tra scuole beneficiarie e media nazionale nella quota di alunni di V primaria almeno al livello base in matematica
+  nome: Divario tra scuole beneficiarie e media nazionale nella quota di alunne e alunni di V primaria almeno al livello base in matematica
   unita: '% del divario iniziale'
   direzione: giu
   base:
@@ -3346,7 +3346,7 @@ obiettivi:
     obiettivo_5a: 90%
 - id: 05-C9-a
   proposta: 05-C9
-  nome: Alunni con almeno 2 esperienze culturali professionali nell'anno scolastico
+  nome: Alunne e alunni con almeno 2 esperienze culturali professionali nell'anno scolastico
   unita: '% alunni'
   direzione: su
   base:
@@ -3466,7 +3466,7 @@ obiettivi:
     obiettivo_5a: −10%
 - id: 06-C9-a
   proposta: 06-C9
-  nome: Studenti delle secondarie coperti da un'équipe di benessere con almeno gli standard minimi
+  nome: Studentesse e studenti delle secondarie coperti da un'équipe di benessere con almeno gli standard minimi
   unita: '% studenti'
   direzione: su
   base:

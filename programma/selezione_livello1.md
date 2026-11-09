@@ -50,7 +50,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 08-P7 | Appalti a vetro: cruscotto pubblico dei rischi e dati aperti completi | PIENA | 1,0 | 0,01 | 100% |
 | 02-C1 | Salario minimo contrattuale garantito | ZERO | 0,3 | 0,00 | 100% |
 | 02-C6 | Bilancio generazionale e strategia demografica | ZERO | 0,3 | 0,00 | 100% |
-| 03-P1 | Dividendo climatico: riforma SAD restituita ai cittadini | ZERO | 0,2 | 0,00 | 100% |
+| 03-P1 | Dividendo climatico: riforma SAD restituita alla cittadinanza | ZERO | 0,2 | 0,00 | 100% |
 | 04-P5 | LEP prima: autonomia differenziata reversibile | ZERO | 0,5 | 0,00 | 100% |
 | 05-C3 | Carriere della ricerca | ZERO | 0,1 | 0,00 | 100% |
 | 05-C6 | AI a scuola | ZERO | 0,2 | 0,00 | 100% |
@@ -138,7 +138,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | SF09 | Detrazioni edilizie: aliquota ridotta per le unità diverse dall'abitazione principale non locate a canone concordato (proposta area 04) | SPESE_FISCALI | 0,05 | Proprietari di seconde case che ristrutturano | 100% |
 | RB01 | Carta Valore per i neodiplomati (180 mln/anno, universale): limite ISEE 35.000 € come per la vecchia Carta cultura | RIORDINO_BONUS | 0,05 | Neodiplomati di famiglie con ISEE oltre 35.000 € | 99% |
 | SAD07 | IVA ordinaria su fertilizzanti di sintesi, fitosanitari (IVA.03.a, IVA.15) e prodotti petroliferi agricoli (IVA.10); restano agevolati i prodotti ammessi in agricoltura biologica | SAD | 0,04 | Aziende agricole in regime speciale IVA (art. 34) e consumatori finali non detraenti | 100% |
-| SF08 | Detrazione 19% per lo sport dei ragazzi 5-18 anni sostituita da offerta sportiva gratuita a scuola (proposta area 05) | SPESE_FISCALI | 0,04 | Famiglie che detraggono iscrizioni a palestre e associazioni sportive | 96% |
+| SF08 | Detrazione 19% per lo sport di ragazze e ragazzi 5-18 anni sostituita da offerta sportiva gratuita a scuola (proposta area 05) | SPESE_FISCALI | 0,04 | Famiglie che detraggono iscrizioni a palestre e associazioni sportive | 96% |
 | RA08 | Assistenza tecnica e studi d'impatto esterni sostituiti dai pool tecnici e dall'infrastruttura pubblica, oltre RA03 (R09-2, area 09) | RIALLOCAZIONE | 0,03 | Società di consulenza e assistenza tecnica | 100% |
 | RP06 | Enti previdenziali e assicurativi nazionali (INPS, INAIL) e altri EPNE: riduzione del 4% della spesa per beni e servizi rispetto al 2025, con versamento al bilancio dello Stato in aggiunta ai versamenti già previsti dalla L. 160/2019. Esclusi gli sportelli, i servizi per l'inclusione e le spese per prestazioni | RIALLOCAZIONE | 0,03 | Fornitori degli enti (ICT, servizi, logistica) | 100% |
 | PE02 | Estensione del contributo PE01 alla fascia tra 80.000 e 100.000 € con aliquota 5%, stessi 3 anni e stessa base retributiva | PENSIONI | 0,03 | Pensionati con trattamenti tra 80.000 e 100.000 € lordi annui | 71% |
@@ -164,7 +164,7 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 - 04-P3 Prima il treno dei pendolari: fondo TPL e abbonamento unico (scelta in 0% delle combinazioni di pesi)
 - 04-P7 Dal porto al treno: piu' merci sul ferro (scelta in 0% delle combinazioni di pesi)
 - 05-C10 Rete nazionale per la ricerca applicata sul modello Fraunhofer (scelta in 62% delle combinazioni di pesi)
-- 06-C2 Patto per infermieri e medicina generale (scelta in 0% delle combinazioni di pesi)
+- 06-C2 Patto per il personale infermieristico e la medicina generale (scelta in 0% delle combinazioni di pesi)
 - 06-C4 Budget di cura per la non autosufficienza (scelta in 35% delle combinazioni di pesi)
 - 06-C5 Salute mentale al 5% (scelta in 0% delle combinazioni di pesi)
 - 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea (scelta in 29% delle combinazioni di pesi)

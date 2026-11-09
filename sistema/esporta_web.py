@@ -293,6 +293,7 @@ def main() -> int:
         "documenti": {"carta": leggi(RADICE / "01_carta_valori.md"),
                       "programma": leggi(RADICE / "20_programma_governai.md"),
                       "sintesi": leggi(RADICE / "21_idee_in_sintesi.md"),
+                      "equita": leggi(RADICE / "23_equita_e_linguaggio.md") if (RADICE / "23_equita_e_linguaggio.md").exists() else "",
                       "metodo": leggi(RADICE / "00_metodo.md"),
                       "sistema": leggi(QUI / "README.md"),
                       "giuridico": leggi(RADICE / "giuridico" / "quadro.md"),

@@ -11,7 +11,7 @@ proposta_id,titolo,costo_min,costo_max,costo_opportunita
 02-C4,Reddito di inclusione universale,2.0,3.0,0.0
 02-C5,Progetto di vita esigibile e lavoro per le persone con disabilita',1.0,1.5,0.0
 02-C6,Bilancio generazionale e strategia demografica,0.2,0.5,0.0
-03-P1,Dividendo climatico: riforma SAD restituita ai cittadini,0.0,0.0,5.0
+03-P1,Dividendo climatico: riforma SAD restituita alla cittadinanza,0.0,0.0,5.0
 03-P2,Elettricita' rinnovabile a prezzo rinnovabile (CfD),0.1,0.2,0.0
 03-P3,Ogni goccia conta: reti idriche e riuso,0.5,1.0,0.0
 03-P4,Prevenire costa meno: fondo prevenzione e assicurazione catastrofale,1.0,1.5,0.0
@@ -29,7 +29,7 @@ proposta_id,titolo,costo_min,costo_max,costo_opportunita
 05-C5,Scuole aperte come presidi di comunita',0.3,0.5,0.0
 05-C6,AI a scuola,0.15,0.3,0.0
 06-C1,Tempo garantito o rimborso,0.5,1.0,0.0
-06-C2,Patto per infermieri e medicina generale,1.5,2.5,0.0
+06-C2,Patto per il personale infermieristico e la medicina generale,1.5,2.5,0.0
 06-C3,Case della Comunita' vive,1.0,2.0,0.0
 06-C4,Budget di cura per la non autosufficienza,1.0,3.0,0.0
 06-C5,Salute mentale al 5%,2.9,3.4,0.0

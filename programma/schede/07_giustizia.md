@@ -66,7 +66,7 @@
 
 ## 07-C2 — Pena utile: misure di comunità contro il sovraffollamento
 
-**Problema in un dato.** Al 30/9/2026 erano presenti **66.063 detenuti** per **51.295 posti regolamentari** in 189 istituti: affollamento del **128,8%**, 20.856 stranieri (DAP; `07_detenuti_dap.csv`). Sui posti effettivamente disponibili Antigone stima il 139,7% (fonte non governativa). Un detenuto costa circa 178 € al giorno (COFOG carceri 2024 / presenze medie DAP, elaborazione GovernAI).
+**Problema in un dato.** Al 30/9/2026 erano presenti **66.063 persone detenute** per **51.295 posti regolamentari** in 189 istituti: affollamento del **128,8%**; 20.856 persone detenute hanno cittadinanza straniera (DAP; `07_detenuti_dap.csv`). Sui posti effettivamente disponibili Antigone stima il 139,7% (fonte non governativa). Un detenuto costa circa 178 € al giorno (COFOG carceri 2024 / presenze medie DAP, elaborazione GovernAI).
 
 **Soluzione.** Per chi ha un residuo di pena fino a 2 anni ed è a basso rischio, valutare d'ufficio l'accesso a misure alternative con controllo sul territorio e lavoro. Rafforzare gli UEPE prima di allargare l'accesso. Avviare case di reinserimento per il fine pena e recuperare i posti inagibili. Introdurre una statistica ufficiale sulla recidiva.
 
@@ -76,7 +76,7 @@
 | ESSENZIALE | Misure alternative + 1.000 UEPE + braccialetti + recidiva | 0,25 | 0,6 | RIALLOCAZIONE 0,10; SAD 0,15 |
 | PILOTA | 3 distretti, valutazione a 36 mesi | 0,06 | 0,15 | RIALLOCAZIONE 0,06 |
 
-I risparmi da minori presenze (3.000 detenuti in meno valgono circa 0,2 mld/anno) **non sono contati**: dopo la certificazione riducono il prelievo dai fondi.
+I risparmi da minori presenze (3.000 persone detenute in meno valgono circa 0,2 mld/anno) **non sono contati**: dopo la certificazione riducono il prelievo dai fondi.
 
 **Articolato normativo essenziale** (legge delega e decreto legislativo)
 

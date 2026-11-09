@@ -109,7 +109,7 @@ Malta, al primo posto (83,6%), ha alzato l'occupazione femminile in un decennio 
 - **Finlandia.** Bioenergia forestale.
 
 **Trasferibile.**
-- **Prezzo del carbonio sui settori non-ETS** restituito ai cittadini: è coerente con la riforma dei sussidi ambientalmente dannosi (fondo SAD del menu coperture).
+- **Prezzo del carbonio sui settori non-ETS** restituito alla cittadinanza: è coerente con la riforma dei sussidi ambientalmente dannosi (fondo SAD del menu coperture).
 - **Aste con contratti per differenza**, obbligatori nella UE dal 2027.
 - **Aree di accelerazione** con tempi autorizzativi certi (RED III).
 
@@ -149,7 +149,7 @@ Sull'intera popolazione l'Italia sta meglio della media (5,0%, 7ª su 27) grazie
 
 ---
 
-## 05 — Istruzione: quanti giovani laureati
+## 05 — Istruzione: quante persone giovani hanno la laurea
 
 **Indicatore.** Popolazione 25-34 anni con istruzione terziaria nel 2025 (Eurostat edat_lfse_03, serie `bm_05_laureati_25_34`).
 
@@ -173,7 +173,7 @@ Sull'intera popolazione l'Italia sta meglio della media (5,0%, 7ª su 27) grazie
 - Diritto allo studio esteso ai fuori sede.
 
 **Non trasferibile.**
-- Il risultato del Lussemburgo (65,2%), dovuto a lavoratori laureati immigrati.
+- Il risultato del Lussemburgo (65,2%), dovuto a lavoratrici e lavoratori laureati di origine straniera.
 - In parte quello irlandese, legato agli investimenti esteri ad alta qualificazione.
 
 ---
@@ -224,7 +224,7 @@ Sull'intera popolazione l'Italia sta meglio della media (5,0%, 7ª su 27) grazie
 - Procedimento monitorio interamente telematico e **pesatura dei carichi** per distribuire le risorse.
 
 **Non trasferibile.**
-- La minore litigiosità e il numero più basso di avvocati per abitante di questi Paesi: dipendono da fattori culturali ed economici, e dal costo dell'accesso alla giustizia, che non va alzato a danno dei più deboli.
+- La minore litigiosità e il numero più basso di avvocati per abitante di questi Paesi: dipendono da fattori culturali ed economici, e dal costo dell'accesso alla giustizia, che non va alzato a danno di chi ha meno mezzi.
 
 ---
 
@@ -258,7 +258,7 @@ Sull'intera popolazione l'Italia sta meglio della media (5,0%, 7ª su 27) grazie
 
 ---
 
-## 09 — PA digitale: quanti cittadini usano i servizi online
+## 09 — PA digitale: quante persone usano i servizi online
 
 **Indicatore.** Persone di 16-74 anni che hanno interagito online con la PA negli ultimi 12 mesi, nel 2025 (Eurostat isoc_ciegi_ac, I_IUGOV1, serie `bm_09_egov_uso`).
 
@@ -271,7 +271,7 @@ Sull'intera popolazione l'Italia sta meglio della media (5,0%, 7ª su 27) grazie
 | Paesi Bassi | 84,9% |
 
 **Politica che spiega il risultato.**
-- **Danimarca.** "Digitale per default": casella postale digitale obbligatoria per tutti i cittadini dal 2014 (*Digital Post*), con esenzione su richiesta per chi non può usarla, e una sola identità digitale (MitID).
+- **Danimarca.** "Digitale per default": casella postale digitale obbligatoria per tutta la popolazione dal 2014 (*Digital Post*), con esenzione su richiesta per chi non può usarla, e una sola identità digitale (MitID).
 - **Finlandia.** Portale unico Suomi.fi e principio "una sola volta" sui dati.
 - **Paesi Bassi.** DigiD unica per tutti i servizi.
 

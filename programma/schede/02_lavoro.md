@@ -204,7 +204,7 @@ La flessibilità attuariale anticipa cassa nei primi anni. L'anticipo si finanzi
 **Problema in un dato.** Nel 2025 sono in povertà assoluta **5,4 milioni di persone (9,3%)** e **2,1 milioni di famiglie**. I minori poveri sono 1,136 milioni (12,5%) (ISTAT, *La povertà in Italia 2025*). L'ADI raggiunge **690 mila nuclei** a giugno 2026 (INPS), circa un terzo delle famiglie in povertà assoluta.
 
 **Soluzione.**
-- L'ADI si apre ai nuclei in povertà grave senza requisito categoriale, cioè anche senza figli, disabili o anziani in casa.
+- L'ADI si apre ai nuclei in povertà grave senza requisito categoriale, cioè anche senza figli, persone con disabilità o persone anziane in casa.
 - Chi trova lavoro perde solo il 50% del beneficio per ogni euro guadagnato, per 12 mesi.
 - La residenza richiesta scende a 2 anni, compatibile con il diritto UE. La scala di equivalenza migliora per le famiglie numerose.
 

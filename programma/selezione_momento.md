@@ -53,7 +53,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 01-P2 | Spese fiscali a scadenza (sunset 5 anni) | PIENA | 1,0 | 0,01 | 100% |
 | 08-P2 | Patto per la buona legge | PIENA | 1,0 | 0,01 | 100% |
 | 08-P7 | Appalti a vetro: cruscotto pubblico dei rischi e dati aperti completi | PIENA | 1,0 | 0,01 | 100% |
-| 03-P1 | Dividendo climatico: riforma SAD restituita ai cittadini | ZERO | 0,2 | 0,00 | 100% |
+| 03-P1 | Dividendo climatico: riforma SAD restituita alla cittadinanza | ZERO | 0,2 | 0,00 | 100% |
 | 04-P5 | LEP prima: autonomia differenziata reversibile | ZERO | 0,5 | 0,00 | 100% |
 | 05-C3 | Carriere della ricerca | ZERO | 0,1 | 0,00 | 100% |
 | 06-C1 | Tempo garantito o rimborso | ZERO | 0,2 | 0,00 | 100% |
@@ -105,7 +105,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | Misura | Descrizione | Fondo | Gettito min | Chi paga | Robustezza |
 |---|---|---|---|---|---|
 | SAD13 | Uscita completa entro il 2035 dal rimborso gasolio per autotrasporto e dall'agevolazione per il gasolio agricolo, oltre SAD01 e SAD02; sostegno a rinnovo delle flotte e redditi agricoli | SAD | 0,80 | Autotrasportatori, aziende agricole; consumatori tramite prezzi | 100% |
-| SF13 | Revisione degli estimi catastali (valori di mercato) e IMU sull'abitazione principale solo oltre una franchigia di valore, con detrazione piena per ISEE ≤25.000 € e rinvio del pagamento per anziani a basso reddito; gettito ai Comuni compensato da minori trasferimenti statali | SPESE_FISCALI | 0,80 | Proprietari di abitazioni principali di valore alto | 100% |
+| SF13 | Revisione degli estimi catastali (valori di mercato) e IMU sull'abitazione principale solo oltre una franchigia di valore, con detrazione piena per ISEE ≤25.000 € e rinvio del pagamento per persone anziane a basso reddito; gettito ai Comuni compensato da minori trasferimenti statali | SPESE_FISCALI | 0,80 | Proprietari di abitazioni principali di valore alto | 100% |
 | SF11 | Cedolare secca a canone libero abolita (ritorno all'IRPEF), oltre SF01; resta il 10% per il concordato e la cedolare per le Agenzie sociali | SPESE_FISCALI | 0,60 | Locatori a canone libero, in particolare con redditi alti | 100% |
 | RA13 | Revisione strutturale della spesa dei ministeri: ulteriori 0,05% del PIL oltre quanto già nel DPB, con analisi a base zero dei programmi e tagli selettivi | RIALLOCAZIONE | 0,60 | Destinatari dei programmi tagliati (da individuare) | 100% |
 | AS01 | Sigarette: ulteriore componente specifica di accisa di 25 € per 1.000 sigarette (circa 0,50 € a pacchetto) in due tappe 2028-2029, oltre a quanto già previsto da L. 199/2025 e DDL 2027 | ACCISE_SALUTE | 0,60 | Fumatori (prelievo regressivo); filiera del tabacco | 100% |
@@ -153,7 +153,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | RA03 | Consulenze, studi, auto di servizio e rappresentanza: tetto del 20% sotto la spesa 2025 dei capitoli dedicati | RIALLOCAZIONE | 0,05 | Consulenti esterni, società di noleggio | 100% |
 | SF09 | Detrazioni edilizie: aliquota ridotta per le unità diverse dall'abitazione principale non locate a canone concordato (proposta area 04) | SPESE_FISCALI | 0,05 | Proprietari di seconde case che ristrutturano | 100% |
 | RA10 | Contributo unificato maggiorato per i litiganti seriali (oltre 500 cause l'anno) (proposta area 07) | RIALLOCAZIONE | 0,05 | Grandi litiganti: banche, assicurazioni, società di recupero crediti, utilities | 100% |
-| SF08 | Detrazione 19% per lo sport dei ragazzi 5-18 anni sostituita da offerta sportiva gratuita a scuola (proposta area 05) | SPESE_FISCALI | 0,04 | Famiglie che detraggono iscrizioni a palestre e associazioni sportive | 87% |
+| SF08 | Detrazione 19% per lo sport di ragazze e ragazzi 5-18 anni sostituita da offerta sportiva gratuita a scuola (proposta area 05) | SPESE_FISCALI | 0,04 | Famiglie che detraggono iscrizioni a palestre e associazioni sportive | 87% |
 | SAD07 | IVA ordinaria su fertilizzanti di sintesi, fitosanitari (IVA.03.a, IVA.15) e prodotti petroliferi agricoli (IVA.10); restano agevolati i prodotti ammessi in agricoltura biologica | SAD | 0,04 | Aziende agricole in regime speciale IVA (art. 34) e consumatori finali non detraenti | 100% |
 | RP01 | Turnover selettivo nei profili amministrativi generici di ministeri ed enti pubblici non economici nazionali: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni di quei profili invece del 100%, con taglio corrispondente delle facoltà assunzionali e degli stanziamenti. Esclusi: scuola, università, ricerca e cultura (MIM, MUR, MiC), giustizia, Interno, agenzie fiscali, sanità, sicurezza e soccorso, servizi sociali e inclusione (compresi gli sportelli e le prestazioni di inclusione INPS e la DG inclusione del Ministero del lavoro). Esclusa la quota riservata ai tecnici da RA07 | RIALLOCAZIONE | 0,04 | Giovani candidati ai concorsi per profili amministrativi generici (meno posti, soprattutto al Sud); uffici di supporto che lavorano con meno persone | 82% |
 | RA08 | Assistenza tecnica e studi d'impatto esterni sostituiti dai pool tecnici e dall'infrastruttura pubblica, oltre RA03 (R09-2, area 09) | RIALLOCAZIONE | 0,03 | Società di consulenza e assistenza tecnica | 100% |
@@ -180,7 +180,7 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 - 04-P1 Patto di continuita' post-PNRR (scelta in 9% delle combinazioni di pesi)
 - 04-P3 Prima il treno dei pendolari: fondo TPL e abbonamento unico (scelta in 0% delle combinazioni di pesi)
 - 05-C10 Rete nazionale per la ricerca applicata sul modello Fraunhofer (scelta in 16% delle combinazioni di pesi)
-- 06-C2 Patto per infermieri e medicina generale (scelta in 0% delle combinazioni di pesi)
+- 06-C2 Patto per il personale infermieristico e la medicina generale (scelta in 0% delle combinazioni di pesi)
 - 06-C4 Budget di cura per la non autosufficienza (scelta in 0% delle combinazioni di pesi)
 - 06-C5 Salute mentale al 5% (scelta in 0% delle combinazioni di pesi)
 - 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea (scelta in 0% delle combinazioni di pesi)

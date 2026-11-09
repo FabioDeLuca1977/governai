@@ -6,43 +6,43 @@
 versione: '2026-11-09'
 scenario: intermedio
 programma:
-  perche: "Un Paese dove chi nasce, studia, lavora e invecchia trova servizi che funzionano, e dove le scelte di oggi non pesano sui conti dei figli."
+  perche: "Un Paese dove chi nasce, studia, lavora e invecchia trova servizi che funzionano, e dove le scelte di oggi non pesano sui conti delle generazioni future."
   come: "Ogni misura pagata senza deficit: tagli di spesa nei ministeri, meno sussidi dannosi e agevolazioni inefficaci, accise su tabacco e alcol. Le misure incerte partono come sperimentazioni."
-  cosa: "Con indicatori pubblici, aggiornati ogni anno, con base e obiettivo a 5 anni: nidi, abbandono scolastico, laureati, ricerca, produttività, cure, acqua, giustizia."
-  chi: "Famiglie con bambini piccoli, studenti delle scuole più fragili, giovani, imprese che innovano, chi vive in territori a rischio, contribuenti e chi usa giustizia e servizi pubblici."
+  cosa: "Con indicatori pubblici, aggiornati ogni anno, con base e obiettivo a 5 anni: nidi, abbandono scolastico, persone laureate, ricerca, produttività, cure, acqua, giustizia."
+  chi: "Famiglie con bambine e bambini piccoli, studentesse e studenti delle scuole più fragili, giovani, imprese che innovano, chi vive in territori a rischio, chi paga le tasse e chi usa giustizia e servizi pubblici."
   indicatori_chiave: [02-C2-b, 05-C1-a, 05-C4-a, 01-P13-a, 01-P4-c, 06-C1-a, 03-P3-a, 07-C1-a]
 missioni:
   - id: M1
     titolo: "Crescere e imparare, a ogni età"
     icona: school
-    perche: "Ogni bambino deve poter partire alla pari, ovunque nasca. Nido, scuola e studio dopo il diploma sono la base di una vita libera e di un Paese che cresce."
+    perche: "Ogni bambina e ogni bambino deve poter partire alla pari, ovunque nasca. Nido, scuola e studio dopo il diploma sono la base di una vita libera e di un Paese che cresce."
     valori: [APC, EQU, FUT]
     come: "Più posti al nido dove mancano e congedo più lungo per i papà. Squadre contro l'abbandono e più fondi alle scuole fragili. Borse di studio garantite e ITS (scuole tecniche superiori) triplicati."
     sostenibilita: "Si paga con il riordino di bonus e agevolazioni e con tagli di spesa nei ministeri, senza tagli al personale della scuola; fondi europei per le sperimentazioni. Nido in versione ridotta; biblioteche, cultura e psicologi a scuola solo sperimentali."
     proposte: [02-C2, 02-C6, 05-C1, 05-C2, 05-C4, 05-C5, 05-C6, 05-C7, 05-C8, 05-C9, 06-C9]
     indicatori: [02-C2-b, 05-C1-a, 05-C4-a, 02-C2-c]
     chi:
-      - gruppo: "Famiglie con bambini sotto i 3 anni"
-        quanti: "circa 1,1 milioni di bambini"
+      - gruppo: "Famiglie con figlie e figli sotto i 3 anni"
+        quanti: "circa 1,1 milioni di bambine e bambini"
         fonte: "Nati 2023-2025 (379.890 + 369.944 + 355.435), Eurostat, dati/serie/02_demografia_nati_decessi_pop.csv"
-        cosa_cambia: "Circa 60-70 mila posti nido in più dove mancano, gratis fino a ISEE 25.000 €; congedo papà di 2 mesi."
+        cosa_cambia: "Circa 60-70 mila posti nido in più dove mancano, gratis fino a un ISEE (indicatore della situazione economica equivalente) di 25.000 €; congedo papà di 2 mesi."
         proposte: [02-C2]
-      - gruppo: "Alunni delle scuole più fragili"
-        quanti: "circa 0,7 milioni di alunni (10% di scuole più svantaggiate), fino a 1,4 milioni nelle 1.500 scuole con squadre"
+      - gruppo: "Alunne e alunni delle scuole più fragili"
+        quanti: "circa 0,7 milioni tra alunne e alunni (10% di scuole più svantaggiate), fino a 1,4 milioni nelle 1.500 scuole con squadre"
         fonte: "Scheda 05-C7, variante ESSENZIALE; scheda 06-C9 (quintile fragile, stima GovernAI)"
-        cosa_cambia: "Tutor, educatori e mediatori contro l'abbandono, 250 € in più per alunno, scuole aperte il pomeriggio e d'estate."
+        cosa_cambia: "Tutor, educatori e mediatori contro l'abbandono, 250 € in più per ogni alunna o alunno, scuole aperte il pomeriggio e d'estate."
         proposte: [05-C1, 05-C7, 05-C5]
       - gruppo: "Giovani che studiano dopo il diploma"
-        quanti: "circa 33.400 iscritti agli ITS oggi, verso circa 100.000; idonei alla borsa da stimare"
+        quanti: "circa 33.400 persone iscritte agli ITS oggi, verso circa 100.000; persone idonee alla borsa da stimare"
         fonte: "Scheda 05-C4 e obiettivo 05-C4-b (iscritti ITS al 1/2/2026)"
-        cosa_cambia: "Borsa di studio garantita a tutti gli idonei, ITS triplicati, nuove residenze universitarie a canone legato all'ISEE."
+        cosa_cambia: "Borsa di studio garantita a tutte le persone idonee, ITS triplicati, nuove residenze universitarie a canone legato all'ISEE."
         proposte: [05-C4]
-      - gruppo: "Adulti senza diploma e giovani oltre i 25 anni che non studiano né lavorano"
+      - gruppo: "Persone adulte senza diploma e giovani oltre i 25 anni che non studiano né lavorano"
         quanti: "da stimare"
         fonte: "da stimare (la scheda 05-C2 riporta solo quote: 35% degli adulti con competenze di lettura minime, OCSE PIAAC 2023)"
         cosa_cambia: "Dote di 900 € per corsi certificati e scuole serali per adulti (CPIA) su lettura, calcolo e uso dell'AI."
         proposte: [05-C2]
-      - gruppo: "Studenti e famiglie nelle Regioni della sperimentazione su cultura e benessere"
+      - gruppo: "Studentesse, studenti e famiglie nelle Regioni della sperimentazione su cultura e benessere"
         quanti: "da stimare (3-4 Regioni)"
         fonte: "da stimare; varianti PILOTA in programma/selezione_intermedio.csv"
         cosa_cambia: "Solo sperimentazione: biblioteche di comunità, zaino culturale, psicologi a scuola. Si estende se la valutazione è positiva."
@@ -51,10 +51,10 @@ missioni:
   - id: M2
     titolo: "Cura e protezione quando serve"
     icona: heart-pulse
-    perche: "Nessuno deve rinunciare a curarsi o restare solo quando è fragile: malati, anziani non autosufficienti, persone con disabilità, chi vive in strada."
+    perche: "Nessuna persona deve rinunciare a curarsi o restare sola quando è fragile: chi ha una malattia, le persone anziane non autosufficienti, le persone con disabilità, chi vive in strada."
     valori: [BEN, EQU, RIS]
     come: "Regole per accorciare le attese senza spesa nuova, più prevenzione dentro il fondo sanitario, Housing First (prima una casa, poi il resto) e sperimentazioni su povertà e non autosufficienza."
-    sostenibilita: "È la missione più debole e lo diciamo. Personale sanitario, Case della Comunità e salute mentale restano fuori per mancanza di coperture certe. Povertà, anziani e assistenza a domicilio solo sperimentali."
+    sostenibilita: "È la missione più debole e lo diciamo. Personale sanitario, Case della Comunità e salute mentale restano fuori per mancanza di coperture certe. Povertà, persone anziane non autosufficienti e assistenza a domicilio solo sperimentali."
     proposte: [02-C4, 02-C5, 02-C7, 06-C1, 06-C2, 06-C3, 06-C4, 06-C5, 06-C6, 06-C8]
     indicatori: [06-C1-a, 06-C6-a, 02-C5-a, 02-C7-b]
     chi:
@@ -66,15 +66,15 @@ missioni:
       - gruppo: "Persone senza dimora"
         quanti: "96.197 persone iscritte in anagrafe; 6.000 in Housing First nelle 14 città metropolitane"
         fonte: "ISTAT, censimento al 31/12/2021; scheda 02-C7, variante PIENA"
-        cosa_cambia: "Una casa con contratto proprio e un'équipe stabile che accompagna, anche dopo la fine dei fondi PNRR."
+        cosa_cambia: "Una casa con contratto proprio e un'équipe stabile che accompagna, anche dopo la fine dei fondi del PNRR (Piano nazionale di ripresa e resilienza)."
         proposte: [02-C7]
       - gruppo: "Persone con disabilità grave"
         quanti: "circa 2,9 milioni di persone con limitazioni gravi"
         fonte: "ISTAT 2023, scheda 02-C5"
         cosa_cambia: "Collocamento mirato con banca dati dei posti scoperti e sanzioni automatiche; il progetto di vita pieno è rinviato."
         proposte: [02-C5]
-      - gruppo: "Anziani non autosufficienti e chi li assiste"
-        quanti: "da stimare (circa 243.000 persone in lista d'attesa per una RSA, dato da verificare)"
+      - gruppo: "Persone anziane non autosufficienti e chi le assiste"
+        quanti: "da stimare (circa 243.000 persone in lista d'attesa per una RSA, residenza sanitaria assistenziale, dato da verificare)"
         fonte: "Scheda 06-C4 (Quotidiano Sanità 2026, da verificare)"
         cosa_cambia: "Solo sperimentazione: budget di cura in 20 ambiti e squadre di infermieri a domicilio in 10 distretti."
         proposte: [06-C4, 06-C8]
@@ -89,7 +89,7 @@ missioni:
     icona: lightbulb
     perche: "Produttività e salari sono fermi da anni. Più ricerca e innovazione nelle imprese, soprattutto piccole, servono a creare lavoro migliore e pagato meglio."
     valori: [INN, FUT, APC]
-    come: "Un solo credito d'imposta per la ricerca, stabile e più forte per le piccole imprese; la PA compra innovazione; un fondo per le imprese tecnologiche; centri di ricerca al servizio delle imprese."
+    come: "Un solo credito d'imposta per la ricerca, stabile e più forte per le piccole imprese; la pubblica amministrazione (PA) compra innovazione; un fondo per le imprese tecnologiche; centri di ricerca al servizio delle imprese."
     sostenibilita: "Inserite per scelta politica: il panel le mette in coda. Si pagano chiudendo il patent box (sconto sui brevetti) e tagliando incentivi inefficaci. Salario minimo: solo regole. La misura sui gradini dimensionali delle imprese (01-P4) resta fuori."
     proposte: [01-P4, 01-P5, 01-P6, 01-P13, 01-P14, 01-P15, 02-C1, 05-C3, 05-C10, 08-P6]
     indicatori: [01-P13-a, 01-P4-c, 01-P15-a, 02-C1-b]
@@ -99,7 +99,7 @@ missioni:
         fonte: "da stimare (obiettivo 01-P13-c senza base nel repo)"
         cosa_cambia: "Credito unico stabile per 5 anni: 10%, 13% sotto i 50 addetti; progetto certificato prima di spendere."
         proposte: [01-P13, 01-P4]
-      - gruppo: "Ricercatori, università e nuove imprese nate dalla ricerca"
+      - gruppo: "Ricercatrici e ricercatori, università e nuove imprese nate dalla ricerca"
         quanti: "86 spin-off nel 2023; 750 dottorati industriali l'anno previsti"
         fonte: "Netval, 20° Rapporto 2025 (scheda 01-P15); scheda 05-C10, variante ESSENZIALE"
         cosa_cambia: "Fondo di fondi da 750 milioni con capitale privato, 130 prove di fattibilità l'anno, 8 centri di ricerca applicata."
@@ -114,10 +114,10 @@ missioni:
         fonte: "da stimare"
         cosa_cambia: "Garanzia pubblica per contratti lunghi di energia rinnovabile a prezzo stabile, per consorzi e distretti."
         proposte: [01-P5]
-      - gruppo: "Lavoratori con salari bassi"
-        quanti: "il 10,2% degli occupati è a rischio di povertà; numero assoluto da stimare"
+      - gruppo: "Chi lavora con salari bassi"
+        quanti: "il 10,2% delle persone occupate è a rischio di povertà; numero assoluto da stimare"
         fonte: "Eurostat EU-SILC ilc_iw01, 2025 (scheda 02-C1)"
-        cosa_cambia: "Il salario del contratto più rappresentativo diventa il riferimento per tutti; nessuna soglia di legge né nuovi ispettori."
+        cosa_cambia: "Il salario del contratto più rappresentativo diventa il riferimento per tutti; nessuna soglia di legge né nuovo personale ispettivo."
         proposte: [02-C1]
 
   - id: M4
@@ -143,7 +143,7 @@ missioni:
       - gruppo: "Abitanti delle aree interne"
         quanti: "13,3 milioni di persone (intervento in 72 aree progetto)"
         fonte: "ISTAT, previsioni base 1/1/2025, dati/serie/04_istat_previsioni_aree_interne; scheda 04-P6"
-        cosa_cambia: "500 presidi con più servizi, trasporto a chiamata, indennità per circa 35.000 medici, infermieri e insegnanti."
+        cosa_cambia: "500 presidi con più servizi, trasporto a chiamata, indennità per circa 35.000 persone tra personale medico, infermieristico e docente."
         proposte: [04-P6]
       - gruppo: "Imprese di autotrasporto e logistica"
         quanti: "da stimare"
@@ -159,15 +159,15 @@ missioni:
   - id: M5
     titolo: "Fisco semplice e conti onesti"
     icona: receipt
-    perche: "Pagare le tasse deve essere semplice e giusto. Ogni scelta pubblica deve dire chi paga e quando, senza scaricare debiti sui figli."
+    perche: "Pagare le tasse deve essere semplice e giusto. Ogni scelta pubblica deve dire chi paga e quando, senza scaricare debiti sulle generazioni future."
     valori: [FID, FUT, EQU]
     come: "Dichiarazione già pronta che vale se non la contesti, controlli IVA in tempo reale, nessun condono, agevolazioni fiscali a scadenza, valutazione a 30 anni delle leggi e delle grandi opere."
     sostenibilita: "Costa poco ed è pagata spostando spesa esistente. L'evasione recuperata non paga nuova spesa: riduce il deficit. Detrazioni e scontrini: solo riordino a costo zero. I controlli mirati restano fuori."
     proposte: [01-P1, 01-P2, 01-P3, 01-P7, 01-P8, 01-P9, 01-P10, 01-P11, 01-P12, 02-C3, 04-P4]
     indicatori: [01-P3-a, 01-P2-a, 01-P1-a, 04-P4-a]
     chi:
-      - gruppo: "Chi usa il 730 e i pensionati con la sola Certificazione Unica"
-        quanti: "circa 25,2 milioni di contribuenti con il 730, più i pensionati con sola CU"
+      - gruppo: "Chi usa il 730 e chi ha una pensione con la sola Certificazione Unica"
+        quanti: "circa 25,2 milioni di contribuenti con il 730, più chi ha una pensione e la sola CU"
         fonte: "MEF-DF, Sintesi dati dichiarazioni 2024 (scheda 01-P7)"
         cosa_cambia: "La dichiarazione arriva già fatta e vale se non la si contesta; rimborsi automatici."
         proposte: [01-P7, 01-P8, 01-P9]
@@ -190,30 +190,30 @@ missioni:
   - id: M6
     titolo: "Uno Stato che funziona, istituzioni aperte"
     icona: landmark
-    perche: "Uno Stato rapido, giusto e trasparente fa risparmiare tempo a cittadini e imprese e rafforza la fiducia. L'AI aiuta, ma decidono le persone."
+    perche: "Uno Stato rapido, giusto e trasparente fa risparmiare tempo alle persone e alle imprese e rafforza la fiducia. L'AI aiuta, ma decidono le persone."
     valori: [FID, SIC, CIT]
-    come: "Tribunali più veloci, pene alternative per i reati minori, tecnici per i piccoli Comuni, AI nella PA con supervisione umana, appalti e dati aperti, leggi valutate prima del voto."
+    come: "Tribunali più veloci, pene alternative per i reati minori, personale tecnico per i piccoli Comuni, AI nella PA con supervisione umana, appalti e dati aperti, leggi valutate prima del voto."
     sostenibilita: "Costi bassi, pagati con tagli di spesa e di personale amministrativo nei ministeri. Difesa al 3,5% del PIL e scudo cyber per i Comuni restano fuori; diverse misure sulla PA sono ridotte."
     proposte: [07-C1, 07-C2, 07-C3, 07-C4, 07-C5, 07-C6, 08-P1, 08-P2, 08-P3, 08-P4, 08-P5, 08-P7, 09-C1, 09-C2, 09-C3, 09-C4, 09-C5, 09-C6, 09-C7, 09-C8]
     indicatori: [07-C1-a, 07-C2-a, 09-C2-a, 09-C5-a]
     chi:
-      - gruppo: "Cittadini e imprese con una causa civile"
+      - gruppo: "Persone e imprese con una causa civile"
         quanti: "da stimare"
         fonte: "da stimare"
         cosa_cambia: "4.500 addetti stabili nei tribunali più lenti: obiettivo da 1.789 a 1.400 giorni per una causa civile."
         proposte: [07-C1]
       - gruppo: "Persone detenute e chi lavora nelle carceri"
-        quanti: "66.063 detenuti per 51.295 posti"
+        quanti: "66.063 persone detenute per 51.295 posti"
         fonte: "DAP al 30/9/2026, dati/serie/07_detenuti_dap.csv (scheda 07-C2)"
-        cosa_cambia: "Pene alternative per chi ha meno di 2 anni da scontare, 1.000 funzionari in più, braccialetti elettronici."
+        cosa_cambia: "Pene alternative per chi ha meno di 2 anni da scontare, 1.000 funzionarie e funzionari in più, braccialetti elettronici."
         proposte: [07-C2]
       - gruppo: "Piccoli Comuni"
         quanti: "5.522 Comuni sotto i 5.000 abitanti (aiuto mirato a Mezzogiorno e aree interne)"
         fonte: "ISTAT 1/1/2026, dati/serie/09_comuni_classi_ampiezza (scheda 09-C3)"
-        cosa_cambia: "3.000 tecnici condivisi per gare, progetti e informatica, e affiancamento di chi va in pensione."
+        cosa_cambia: "3.000 tra tecniche e tecnici condivisi per gare, progetti e informatica, e affiancamento di chi va in pensione."
         proposte: [09-C3, 09-C8]
-      - gruppo: "Lavoratori pubblici"
-        quanti: "oltre 3,7 milioni"
+      - gruppo: "Personale pubblico"
+        quanti: "oltre 3,7 milioni di persone"
         fonte: "INPS, Osservatorio sui lavoratori pubblici, 11/11/2025 (scheda 09-C8)"
         cosa_cambia: "Valutazione vera, formazione su AI e dati, automazione dei lavori ripetitivi in sperimentazione, con ricollocazione garantita."
         proposte: [09-C6, 09-C7, 09-C5]
@@ -242,7 +242,7 @@ indicatori_semplici:
   04-P4-a: {nome: "Grandi opere con valutazione indipendente pubblica", unita: "%"}
   04-P7-a: {nome: "Merci trasportate in treno", obiettivo_5a: 13.0}
   05-C1-a: {nome: "Giovani che lasciano presto la scuola, nelle Isole"}
-  05-C4-a: {nome: "Laureati e diplomati ITS tra 25 e 34 anni"}
+  05-C4-a: {nome: "Persone tra 25 e 34 anni con laurea o diploma ITS"}
   06-C1-a: {nome: "Persone che rinunciano a cure necessarie per costo, distanza o attesa"}
   06-C6-a: {nome: "Quota della spesa sanitaria per la prevenzione", unita: "%"}
   07-C1-a: {nome: "Durata di una causa civile nei tre gradi"}

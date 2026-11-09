@@ -13,7 +13,7 @@
 
 ## 05-C1 — "Nessuno escluso": squadre di prossimità contro la dispersione
 
-**Problema in un dato.** L'abbandono precoce (ELET 18-24) è all'8,2% in Italia, ma al **13,7% nelle Isole** e al **10,1% tra i maschi** nel 2025 (Eurostat edat_lfse_16 ed edat_lfse_14; `05_elet_18_24_nuts1.csv`, `05_elet_18_24_sesso.csv`). Arriva al 44,1% tra gli stranieri arrivati a 16-24 anni (ISTAT 2026).
+**Problema in un dato.** L'abbandono precoce (ELET 18-24) è all'8,2% in Italia, ma al **13,7% nelle Isole** e al **10,1% tra i maschi** nel 2025 (Eurostat edat_lfse_16 ed edat_lfse_14; `05_elet_18_24_nuts1.csv`, `05_elet_18_24_sesso.csv`). Arriva al 44,1% tra le persone straniere arrivate in Italia a 16-24 anni (ISTAT 2026).
 
 **Soluzione.** Un indice di fragilità di istituto individua le scuole a più alto rischio. In ciascuna lavora una squadra stabile: un tutor (docente riconvertito dal dividendo demografico), un educatore e un mediatore a rete. Si aggiungono il tutoraggio intensivo di matematica alla primaria, un percorso ponte con i CPIA per i neo-arrivati 16-24 e un sistema di allerta precoce che segnala ma non decide. Una valutazione controfattuale al terzo anno condiziona il rifinanziamento.
 
@@ -241,7 +241,7 @@
 
 ---
 
-## 05-C6 — AI a scuola: alfabetizzazione critica, strumenti per i docenti, regole chiare
+## 05-C6 — AI a scuola: alfabetizzazione critica, strumenti per chi insegna, regole chiare
 
 **Problema in un dato.** Usa l'AI il **16,4%** delle imprese italiane con almeno 10 addetti nel 2025, il doppio del 2024 (UE 20,0%) (Eurostat isoc_eb_ai; `05_imprese_ai.csv`): lavoro e scuola cambiano in fretta. Intanto alla primaria cala la matematica: il 63% degli alunni di V raggiunge il livello base nel 2026, contro il 66% del 2025 (INVALSI 2026). Il rischio è che una delega non guidata all'AI peggiori gli apprendimenti di base (Bastani et al., 2024).
 

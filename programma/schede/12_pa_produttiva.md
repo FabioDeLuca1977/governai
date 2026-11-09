@@ -45,7 +45,7 @@ Uso nelle PIENE: 0,26 su RIALLOCAZIONE (R12-1 fino a 0,12, RA13 per il resto). U
 
 ## 09-C6 — "Lavoro pubblico misurato e giusto": organizzazione, valutazione vera e responsabilità
 
-*In una frase: si misurano i risultati degli uffici per i cittadini, si valuta davvero chi lavora, si aiuta chi è in difficoltà e si applicano fino in fondo le regole che già esistono contro chi non lavora, con tempi certi e senza processi sommari.*
+*In una frase: si misurano i risultati degli uffici per la cittadinanza, si valuta davvero chi lavora, si aiuta chi è in difficoltà e si applicano fino in fondo le regole che già esistono contro chi non lavora, con tempi certi e senza processi sommari.*
 
 **Problema in un dato.** Nel 2024 i procedimenti disciplinari avviati sono stati **11.328**, pari allo 0,34% dei dipendenti. Si sono chiusi con **590 licenziamenti**: 230 per assenze ingiustificate o false certificazioni, 29 per falsa attestazione della presenza, 162 per reati e 153 per negligenza e inosservanza degli obblighi di servizio. Altri **979 procedimenti erano ancora in corso** a sei mesi dalla fine dell'anno, e 768 erano sospesi in attesa del giudizio penale (Funzione pubblica, *Procedimenti disciplinari 2024*). La rilevazione **non conta a parte** i licenziamenti per insufficiente rendimento (art. 55-quater, c. 1, lett. f-quinquies). Intanto la valutazione della performance dà il massimo a quasi tutti: 98% secondo il Ministro. Lo strumento contro lo scarso rendimento esiste dal 2017, ma senza una valutazione credibile non si può usare, né per premiare né per correggere.
 
@@ -109,7 +109,7 @@ Uso nelle PIENE: 0,26 su RIALLOCAZIONE (R12-1 fino a 0,12, RA13 per il resto). U
 
 ## 09-C7 — Automazione dei processi ripetitivi con riallocazione garantita
 
-*In una frase: le macchine fanno il lavoro ripetitivo, come protocollare, ricopiare dati e controllare documenti standard, e le persone si spostano dove servono di più: sportello, controlli, arretrati, assistenza ai più fragili; nessuno perde il posto per l'automazione.*
+*In una frase: le macchine fanno il lavoro ripetitivo, come protocollare, ricopiare dati e controllare documenti standard, e le persone si spostano dove servono di più: sportello, controlli, arretrati, assistenza alle persone più fragili; nessuna persona perde il posto per l'automazione.*
 
 **Problema in un dato.** Nei Paesi ad alto reddito il **9,6%** dei posti di lavoro femminili rientra nella fascia di massima esposizione all'IA generativa, contro il 3,5% di quelli maschili. Le mansioni d'ufficio sono le più esposte (ILO, *WP 140*, 2025). Nella PA italiana l'adozione è appena iniziata e frammentata: **45 enti su 108** censiti hanno iniziative di IA, con 120 progetti in tutto (AgID, censimento 2025). Non esiste una mappa dei processi ripetitivi né una regola su dove va il tempo liberato.
 
@@ -175,7 +175,7 @@ Uso nelle PIENE: 0,26 su RIALLOCAZIONE (R12-1 fino a 0,12, RA13 per il resto). U
 
 ## 09-C8 — "Staffetta delle competenze": il ricambio generazionale come occasione di riqualificazione
 
-*In una frase: nei prossimi dieci anni andrà in pensione fino a un terzo dei dipendenti pubblici; invece di sostituire ogni uscita con lo stesso profilo, ogni posto si ripensa: si assume chi serve davvero, si riqualifica chi c'è, e chi va in pensione trasmette ciò che sa.*
+*In una frase: nei prossimi dieci anni andrà in pensione fino a un terzo del personale pubblico; invece di sostituire ogni uscita con lo stesso profilo, ogni posto si ripensa: si assume chi serve davvero, si riqualifica chi c'è, e chi va in pensione trasmette ciò che sa.*
 
 **Problema in un dato.** Gli oltre **3,7 milioni** di lavoratori pubblici con almeno una giornata retribuita nel 2024 hanno un'età media alta: il **76,6%** ha almeno 40 anni e **661.919** (17,7%) sono nella fascia 55-59. L'INPS stima che **al massimo un terzo** andrà in pensione entro dieci anni (Osservatorio sui lavoratori pubblici, 11.11.2025). Oggi i fabbisogni si programmano soprattutto per sostituzione del profilo uscente. La formazione prevista, 40 ore annue per dipendente secondo la direttiva del Ministro per la PA del 14.1.2025 (dato da verificare sul testo), non è legata ai cambi di mansione.
 
@@ -225,7 +225,7 @@ Uso nelle PIENE: 0,26 su RIALLOCAZIONE (R12-1 fino a 0,12, RA13 per il resto). U
 ### Rischi e garanzie per i lavoratori
 - **"Non sostituire" diventa un taglio occulto** → l'opzione (iv) vale solo dopo la certificazione di 09-C7, ed è motivata e pubblica. Ogni anno si pubblica il saldo tra uscite e ingressi per funzione, con attenzione a scuola e sanità, dove i servizi non vanno ridotti.
 - **Riqualificazione di facciata** → percorsi certificati con verifica delle competenze; indicatore di ricollocazione effettiva.
-- **Lavoratori anziani spinti all'uscita** → nessun incentivo all'esodo e nessuna pressione: l'affiancamento riguarda chi esce per requisiti già maturati.
+- **Lavoratrici e lavoratori più anziani spinti all'uscita** → nessun incentivo all'esodo e nessuna pressione: l'affiancamento riguarda chi esce per requisiti già maturati.
 - **Divari territoriali** → priorità del Fondo ai piccoli comuni e al Mezzogiorno, dove l'uscita di una sola persona può fermare un ufficio.
 - **Coesione non riprogrammabile** → la parte FSE+ è solo aggiuntiva: senza di essa la formazione resta nelle 40 ore esistenti.
 
