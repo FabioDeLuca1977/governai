@@ -8,14 +8,14 @@ Uno Stato che funziona e conti onesti, per investire su famiglie, giovani e terr
 
 ## I numeri
 
-- **68 proposte** in 9 aree, valutate su **10 valori** dichiarati in una Carta.
-- **19 proposte formano il nucleo robusto**: restano tra le prioritarie con quasi ogni combinazione di pesi tra i valori, cioè con sensibilità politiche diverse.
+- **75 proposte** in 9 aree, valutate su **10 valori** dichiarati in una Carta.
+- **22 proposte formano il nucleo robusto**: restano tra le prioritarie con quasi ogni combinazione di pesi tra i valori, cioè con sensibilità politiche diverse.
 - Tre versioni del programma, **tutte senza deficit**:
 
 <!-- auto:totali -->
-- **Programma base: 7,88 mld l'anno**, 57 misure su 68, con 18 su 19 del nucleo robusto almeno in versione essenziale. Usa solo coperture a basso costo sociale.
-- **Programma completo: 13,31 mld l'anno**, 59 misure, nucleo robusto 19 su 19. Aggiunge coperture strutturali più impegnative.
-- **Programma intermedio: 9,18 mld l'anno**, 56 misure, nucleo robusto 19 su 19. Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
+- **Programma base: 8,24 mld l'anno**, 62 misure su 75, con 21 su 22 del nucleo robusto almeno in versione essenziale. Usa solo coperture a basso costo sociale.
+- **Programma completo: 13,51 mld l'anno**, 66 misure, nucleo robusto 22 su 22. Aggiunge coperture strutturali più impegnative.
+- **Programma intermedio: 9,40 mld l'anno**, 62 misure, nucleo robusto 21 su 22. Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
 - **Programma adottato dal governo ombra** (simulazione, `governo/`): 11,63 mld l'anno, 55 misure, coperture al minimo per 11,12 mld più i fondi vincolati.
 <!-- /auto:totali -->
 
@@ -46,7 +46,18 @@ Tra parentesi i codici delle proposte. *Nucleo* indica le misure del nucleo robu
 - Servizi essenziali nelle aree interne, con obiettivi misurati (04-P6, *nucleo*).
 - Energia rinnovabile con contratti che riportano in bolletta gli extra-profitti (03-P2), agricoltura pagata per i risultati ambientali (03-P5).
 - Prima i livelli essenziali delle prestazioni finanziati, poi l'autonomia differenziata (04-P5).
-- Casa (04-P2), treni per i pendolari (04-P3) e reti idriche (03-P3): utili, ma oggi entrano solo in parte o restano fuori per mancanza di risorse.
+- Casa (04-P2) e treni per i pendolari (04-P3): utili, ma oggi entrano solo in parte o restano fuori per mancanza di risorse. Le reti idriche (03-P3) sono entrate nel nucleo robusto.
+
+**Ricerca, innovazione e merci pulite.** L'Italia spende in ricerca nelle imprese lo 0,80% del PIL, contro l'1,50% della media UE.
+- Un solo credito d'imposta per la ricerca, stabile, più forte per le piccole imprese e certificato prima di spendere. Si finanzia chiudendo gradualmente il patent box, che secondo gli studi sposta i brevetti tra Paesi ma non crea nuove invenzioni (01-P13).
+- La pubblica amministrazione compra innovazione con gare in tre fasi, sul modello americano SBIR (01-P14).
+- Regole chiare per gli spin-off universitari e un fondo di fondi deep tech con almeno il 60% di capitale privato (01-P15).
+- I centri di ricerca nati con il PNRR lavorano per le imprese sul modello Fraunhofer, con 1.500 dottorati industriali l'anno (05-C10). Si aggiunge alle carriere della ricerca pubblica (05-C3).
+- Più merci dai porti al treno, con un fondo decennale al posto degli incentivi annuali (04-P7).
+- Camion a zero emissioni, con aste e ricarica sulle grandi strade, come contropartita dell'uscita dai sussidi al gasolio (04-P8).
+- Zone a zero emissioni per le consegne nelle città metropolitane dal 2030, con quattro anni di preavviso e regole uguali in tutta Italia (04-P9).
+
+Il panel le giudica tutte positive, ma le mette in coda: con la Carta attuale valgono meno, per euro speso, di scuola, cura e Stato che funziona. Nel programma completo entrano la logistica, quasi per intero, e le misure su gare innovative e spin-off. Il credito unico e la rete per la ricerca applicata restano fuori o solo come sperimentazione. Nel programma intermedio ricerca e logistica entrano solo in forma minima.
 
 **6. Uno Stato che funziona.**
 - «Chiedilo una volta sola»: la PA non chiede di nuovo dati che ha già, e se sbaglia rimborsa (09-C2).
@@ -101,7 +112,8 @@ Sono scelte politiche: il sistema le presenta con il loro prezzo, non le prende.
 1. **A che cosa servono le coperture strutturali**: nuova spesa, meno tasse sul lavoro, un pavimento per la sanità o meno debito.
 2. **Quanto spendere per la Difesa**, sapendo che cosa costa in termini di altre misure.
 3. **Dividendo climatico**: restituire ai cittadini il gettito dei sussidi ambientali tagliati, o usarlo per i servizi.
-4. **Quali valori**: la Carta è un punto di partenza. Altre aree propongono di aggiungere famiglia, libertà economica, lavoro e solidarietà, crescita, sicurezza esterna.
+4. **Quanto investire su ricerca e innovazione**: con la Carta attuale il panel le mette in coda. Si possono finanziare per scelta politica, sapendo che cosa costano in termini di altre misure.
+5. **Quali valori**: la Carta è un punto di partenza. Altre aree propongono di aggiungere famiglia, libertà economica, lavoro e solidarietà, crescita, sicurezza esterna.
 
 ## Per saperne di più
 

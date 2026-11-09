@@ -59,6 +59,7 @@ Le misure sono invariate, salvo AS04, portato a +20% sui superalcolici per integ
 | SF08 | 05 | Detrazione per lo sport dei ragazzi trasformata in offerta gratuita | 0,04-0,07 | Tetto: costo RSF di 74 mln (l'area stimava 0,10) |
 | SF09 | 04 | Detrazioni edilizie ridotte per le seconde case | 0,05-0,15 | Gettito in 10 rate, cresce lentamente |
 | SF10 | 01 | Iperammortamento: maggiorazione base ridotta | 0,20-0,40 | Costo totale della misura non trovato: non verificata |
+| SF16 | 01-P13 | Nuovo patent box chiuso ai nuovi ingressi, uscita graduale | 0,20-0,24 | RSF 2025: 244,5 mln IRES (la quota IRAP va alle Regioni); vincolata al credito unico per la ricerca |
 | PE04 | 02 | Perequazione al 50% sopra 6 volte il minimo, dal 2030 | 0,30-0,50 (2035) | Calcolo GovernAI; cresce di circa 0,1 l'anno |
 | RB04 | 05 | Quota della Carta del docente vincolata alla formazione | 0,08-0,12 | Vincolata a 05-C6 |
 | RB05 | 02-C2 | Soppressione del bonus madri oltre RB03 | 0,85-0,95 | RT DDL: 1.070 mln, 993 mila beneficiarie |

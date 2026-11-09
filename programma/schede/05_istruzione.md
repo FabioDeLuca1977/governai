@@ -459,3 +459,63 @@ Prelievo a regime per fondo nella combinazione tutta PIENA: SPESE_FISCALI 3,12; 
 **Rischi e mitigazione.** *Spettacoli senza legame con la didattica* (la critica norvegese) → preparazione in classe e criteri di qualità. *Offerta poco controllata* (la critica francese alla parte collettiva del Pass Culture) → avviso pubblico e controllo regionale. *Aree interne senza offerta* → spettacoli itineranti e trasporto pagato dallo zaino. *Operatori che non aderiscono alla tariffa sociale* → rimborso rapido su piattaforma unica. *Conflitto sulle carte individuali* → nessun taglio prima della valutazione pubblica; la proposta non dipende da quel riordino.
 
 **Fonti.** Eurostat gov_10a_exp, GF08/GF0802 (in `dati/verifiche/05_istruzione.md`); OpenBDAP-RGS, Rendiconto 2025 per capitolo, MiC cap. 1430 (`dati/raw/00b_openbdap_rendiconto_2025_spese_capitolo.csv`); Kulturtanken, lettera di assegnazione 2024, https://cms12.regjeringen.no/contentassets/89353a08c9c74f0abad39907ccb24939/kulturtanken-den-kulturelle-skolesekken-norge-tildelingsbrev-2024.pdf; Città di Gand, UiTPAS con statuto di opportunità, https://stad.gent/nl/cultuur-vrije-tijd/uitpas-met-kansenstatuut; Cour des comptes sul Pass Culture (dicembre 2024), sintesi https://www.artcena.fr/fil-vie-pro/pass-culture-un-bilan-severe-dresse-par-la-cour-des-comptes. Numero di alunni: MIM, da verificare.
+
+---
+
+*Le proposte che seguono nascono dal confronto sulla ricerca e l'innovazione nelle imprese (`benchmark/ricerca_innovazione.md`), 9 novembre 2026.*
+
+## 05-C10 — Rete nazionale per la ricerca applicata: i centri nati con il PNRR lavorano per le imprese, sul modello Fraunhofer
+
+**Problema in un dato.** Con il PNRR sono nati **5 Centri nazionali** (1,6 mld), **11 Ecosistemi dell'innovazione** (1,3 mld) e **14 Partenariati estesi** (1,61 mld): circa **4,5 mld** in tutto, con scadenza nel 2026 e nessuna regola di finanziamento dopo il PNRR (Camera, monitoraggio PNRR M4C2; MUR, DD 475/2026). Le fondazioni che li gestiscono chiedono ora contributi annuali a università ed enti. In Germania la Fraunhofer ha un bilancio di **3,6 mld €** e riceve il finanziamento di base solo fino a **un terzo** del bilancio per la ricerca a contratto; nel 2024 ha incassato **867 milioni** dalle imprese (Fraunhofer, 2024).
+
+**Soluzione.** Una legge crea la **Rete nazionale per la ricerca applicata**. Ne fanno parte da 15 a 20 nodi, scelti con una valutazione internazionale tra i Centri nazionali, gli Ecosistemi, i Partenariati del PNRR, i centri di competenza e gli istituti applicati degli enti pubblici di ricerca. Ogni nodo è una fondazione con imprese nel consiglio.
+- **Regola di finanziamento.** Lo Stato paga **un euro di finanziamento di base per ogni euro di contratti con le imprese**, fino a un terzo del bilancio del nodo. Il resto arriva da contratti e da bandi competitivi (Horizon Europe, PRIN, regioni). Chi non trova clienti riceve meno; dopo tre anni sotto soglia esce dalla rete.
+- **PMI.** I contratti con le PMI contano il doppio ai fini del finanziamento di base, per un tetto del 30% della base.
+- **Dottorati industriali.** I nodi ospitano **1.500 dottorati industriali l'anno**, cofinanziati al 50% dalle imprese, come i dottorati innovativi del PNRR (DM 117/2023), che non hanno più fondi.
+- **Regole comuni.** Contratti tipo per la proprietà intellettuale, tariffe pubbliche, bilancio e risultati in dati aperti.
+
+La valutazione può essere affidata all'Agenzia nazionale della ricerca di 05-C3, se istituita. La rete è il luogo dove le imprese spendono il credito di 01-P13 e dove nascono le prove di fattibilità di 01-P15.
+
+| Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
+|---|---|---|---|---|
+| PIENA | 15-20 nodi; base fino a 0,35 mld legata ai contratti con imprese; 1.500 dottorati industriali l'anno | 0,10 / 0,20 / 0,30 → **0,40** (2031) | 1 | RIALLOCAZIONE 0,10 (quota del FOE); SPESE_FISCALI 0,15; COESIONE_2834 0,10; SAD 0,05 (nodi su energia e clima) |
+| ESSENZIALE | 8 nodi; base fino a 0,17 mld; 750 dottorati industriali l'anno | 0,05 / 0,10 / 0,15 → **0,20** (2030) | 0,5 | RIALLOCAZIONE 0,08; SPESE_FISCALI 0,05; COESIONE_2834 0,05; SAD 0,02 |
+| PILOTA | Voucher per le PMI che comprano ricerca da 5 centri PNRR (almeno 2 nel Mezzogiorno), 2027-2029 | 0,02 / 0,05 / 0,05 → 0,05 (2028) | 0,12 | COESIONE_2127 0,05 (FESR, temporaneo) |
+
+*Nota del coordinamento (9 novembre 2026): le quote indicate su COESIONE_2834 sono contate come RIALLOCAZIONE, perché nel registro dei fondi COESIONE_2834 ha capienza minima zero e non è una copertura certa. Se i fondi di coesione 2028-34 saranno assegnati, potranno sostituire la riallocazione.*
+
+*Come è costruito il costo (stima GovernAI)*: la Fraunhofer incassa dalle imprese 867 milioni con un PIL tedesco circa doppio di quello italiano; una rete italiana che arrivi a circa 350 milioni di contratti con imprese nel 2031 riceve fino a 0,35 di base. Dottorati: 1.500 l'anno × 10.000 € l'anno di quota pubblica (metà di una borsa di circa 60.000 € in tre anni) × 3 coorti = 0,045. Valutazione internazionale e segreteria 0,005. Totale 0,40. ESSENZIALE: base 0,17 + dottorati 0,0225 + segreteria 0,005 = 0,20. *Ritmo delle coperture nella PIENA*: 2027 COESIONE_2127 0,05 (attrezzature e voucher PMI, non personale) e RIALLOCAZIONE 0,05; 2028 COESIONE_2127 0,10, RIALLOCAZIONE 0,08, SAD 0,02; 2029 COESIONE_2127 0,10, RIALLOCAZIONE 0,10, SAD 0,05, SPESE_FISCALI 0,05; dal 2031 la composizione a regime. La RIALLOCAZIONE è una quota del Fondo ordinario degli enti di ricerca (FOE, 1.686,5 mln nel 2025, OpenBDAP cap. 7236 MUR), circa il 6%: gli istituti degli enti che entrano nella rete la recuperano solo se trovano clienti.
+
+**Articolato normativo essenziale**
+
+> **Art. 1 (Finalità).** Al fine di collegare la ricerca pubblica alle esigenze delle imprese e di rendere stabili le infrastrutture di ricerca realizzate con il Piano nazionale di ripresa e resilienza, in attuazione degli articoli 9 e 33 della Costituzione, è istituita la Rete nazionale per la ricerca applicata.
+>
+> **Art. 2 (Nodi della rete).** 1. Possono chiedere di far parte della Rete le fondazioni dei Centri nazionali, degli Ecosistemi dell'innovazione e dei Partenariati estesi finanziati dal PNRR, i centri di competenza ad alta specializzazione e gli istituti di ricerca applicata degli enti pubblici di ricerca. 2. I nodi sono selezionati da un comitato di valutazione composto in maggioranza da esperti in servizio all'estero, sulla base della qualità scientifica, della domanda delle imprese e di un piano di attività a cinque anni. I nodi sono non più di venti [ESSENZIALE: otto]. 3. Almeno un terzo dei nodi ha sede principale nel Mezzogiorno.
+>
+> **Art. 3 (Finanziamento di base condizionato).** 1. Ogni nodo riceve ogni anno un finanziamento di base pari ai ricavi da contratti di ricerca con imprese dell'anno precedente, fino a un terzo del proprio bilancio. 2. I ricavi da contratti con micro, piccole e medie imprese sono conteggiati per il doppio, entro il 30 per cento del finanziamento di base. 3. Il nodo che per tre anni consecutivi non raggiunge una soglia minima di ricavi da imprese, fissata con decreto, esce dalla Rete.
+>
+> **Art. 4 (Dottorati industriali).** Il Ministero dell'università e della ricerca cofinanzia ogni anno fino a 1.500 [ESSENZIALE: 750] borse di dottorato industriale svolte presso i nodi della Rete e presso imprese, a condizione che l'impresa finanzi almeno la metà della borsa.
+>
+> **Art. 5 (Regole comuni e trasparenza).** 1. Con decreto sono adottati contratti tipo per la proprietà intellettuale e le tariffe di riferimento. 2. Ogni nodo pubblica in formato aperto bilancio, contratti con imprese per classe dimensionale, brevetti, licenze e dottorati. 3. Ogni cinque anni la Rete è valutata da un comitato internazionale; l'esito è trasmesso alle Camere.
+>
+> **Art. 6 (Copertura finanziaria).** Agli oneri, pari a 100 milioni di euro per il 2027, 200 milioni per il 2028, 300 milioni per il 2029 e crescenti fino a 400 milioni annui dal 2031 [ESSENZIALE: 50, 100, 150 e 200 milioni dal 2030], si provvede: a) nel triennio 2027-2029, per attrezzature e voucher alle imprese, a valere sui programmi FESR 2021-2027 e, dal 2030, sulla programmazione 2028-2034; b) mediante riduzione della quota del Fondo ordinario per gli enti e le istituzioni di ricerca non legata a programmi, per 100 milioni annui a regime; c) per la parte destinata ai nodi su energia, clima ed economia circolare, mediante quota delle maggiori entrate dalla rimodulazione dei sussidi ambientalmente dannosi; d) per la parte restante mediante il riordino delle agevolazioni fiscali individuate nell'allegato.
+
+**Cronoprogramma**
+
+| Fase | Cosa | Chi |
+|---|---|---|
+| Primi 100 giorni | Norma in legge di bilancio; ponte di 12 mesi per i centri PNRR che presentano un piano di attività con imprese; avvio del comitato di valutazione | MUR, MIMIT, MEF, fondazioni PNRR |
+| 12 mesi | Selezione dei nodi; contratti tipo; primo finanziamento di base sui contratti 2027; primo bando dottorati industriali | MUR, comitato internazionale, nodi |
+| Fine legislatura | Rete a regime (2031); prima valutazione quinquennale; uscita dei nodi sotto soglia | MUR, Agenzia nazionale della ricerca (05-C3), Parlamento |
+
+**Indicatori**
+
+| KPI | Base | 3 anni (2029) | 5 anni (2031) |
+|---|---|---|---|
+| Ricavi dei nodi da contratti con imprese | n.d. (rilevazione dal primo anno) | 200 mln | 350 mln |
+| Entrate di università ed enti pubblici di ricerca da licenze | 5,87 mln (2023, Netval 2025) | 8 mln | 12 mln |
+| Dottorati industriali avviati nell'anno con cofinanziamento d'impresa | dottorati innovativi PNRR esauriti (DM 117/2023; dato annuo da verificare) | 1.000 | 1.500 |
+
+**Rischi e mitigazione.** *Salvare tutto il PNRR per inerzia* → selezione internazionale e numero massimo di nodi; chi non trova clienti esce. *Contratti fittizi o con imprese collegate* → contratti con imprese controllate dai soci del nodo conteggiati al 50%; audit annuale. *Ricerca di base trascurata* → la rete riguarda solo la ricerca applicata; la ricerca di base resta in 05-C3. *Divario Nord-Sud* → un terzo dei nodi nel Mezzogiorno e contratti con PMI conteggiati il doppio. *Opposizione degli enti di ricerca alla quota del FOE* → la quota resta agli istituti che entrano nella rete e trovano clienti. *Coperture incerte* (spese fiscali e SAD sono misure del menu) → variante ESSENZIALE pronta come ripiego.
+
+**Fonti.** Camera dei deputati, monitoraggio PNRR M4C2, https://temi.camera.it/leg19/pnrr/politiche/OCD54-9/universita-e-ricerca.html; MUR, Focus Centri nazionali, Ecosistemi, Partenariati estesi, https://www.mur.gov.it/sites/default/files/2023-12/M4C2_1.4%20Focus%20per%20Centri%20nazionali.pdf; MUR, DD 475 del 23/4/2026, https://www.mur.gov.it/sites/default/files/2026-04/Decreto%20Direttoriale%20n.%20475%20del%2023-04-2026.pdf; Fraunhofer, finanze, https://www.fraunhofer.de/en/about-fraunhofer/profile-structure/facts-and-figures/finances.html; Comin, Licht, Pellens, Schubert, *Do Companies Benefit from Public Research Organizations? The Impact of the Fraunhofer Society in Germany*, ZEW DP 19-006, 2019, https://www.zew.de/PU80724; UK Catapult Network Review 2023, https://assets.publishing.service.gov.uk/media/6503184897d3960014482f14/catapult-network-review-2023-update.pdf; Netval 2025; MUR, DM 117/2023 (dottorati innovativi, borsa circa 60.000 €, 50% impresa), https://www.mur.gov.it/it/pnrr/misure-e-componenti/m4c2/investimento-33-introduzione-di-dott-innovativi-che; OpenBDAP-RGS, Rendiconto 2025, cap. 7236 MUR. Da verificare: numero esatto degli Ecosistemi (11 secondo il MUR, alcune fonti ne citano 12-13); fondi post-PNRR già decisi per i centri; numero di dottorati innovativi attivati per ciclo.

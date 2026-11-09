@@ -3502,3 +3502,385 @@ obiettivi:
     base: n.d.
     obiettivo_3a: ≤ 15 giorni
     obiettivo_5a: ≤ 10 giorni
+
+- id: 01-P13-a
+  proposta: 01-P13
+  nome: Spesa in R&S delle imprese, % PIL
+  unita: '% PIL'
+  direzione: su
+  base:
+    valore: 0.80
+    periodo: '2024'
+    fonte: Eurostat rd_e_gerdtot (settore BES)
+  obiettivo_3a: 0.85
+  obiettivo_5a: 0.90
+  serie:
+    file: 05_rs_gerd_settore
+    filtro:
+      sectperf: BES
+      unit: PC_GDP
+      geo: IT
+  valori:
+  - INN
+  - FUT
+  scheda:
+    base: 0,80% (2024, Eurostat rd_e_gerdtot, BES)
+    obiettivo_3a: 0,85%
+    obiettivo_5a: 0,90%
+- id: 01-P13-b
+  proposta: 01-P13
+  nome: Quota del credito R&S coperta da certificazione preventiva
+  unita: '% credito'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: n.d. (certificazione oggi facoltativa e successiva; dato MIMIT da pubblicare)
+  obiettivo_3a: 50.0
+  obiettivo_5a: 75.0
+  misurazione: manuale
+  valori:
+  - FID
+  - INN
+  scheda:
+    base: n.d. (certificazione oggi facoltativa e successiva)
+    obiettivo_3a: 50%
+    obiettivo_5a: 75%
+- id: 01-P13-c
+  proposta: 01-P13
+  nome: Imprese con meno di 50 addetti che usano il credito R&S
+  unita: imprese
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: Agenzia delle entrate (dato da pubblicare)
+  obiettivo_3a: null
+  obiettivo_5a: null
+  obiettivo_relativo:
+    3a: +20% rispetto alla base
+    5a: +35% rispetto alla base
+  misurazione: manuale
+  valori:
+  - INN
+  - EQU
+  scheda:
+    base: n.d. (dato Agenzia delle entrate da pubblicare)
+    obiettivo_3a: +20%
+    obiettivo_5a: +35%
+- id: 01-P14-a
+  proposta: 01-P14
+  nome: Valore dei contratti pre-commerciali e per l'innovazione aggiudicati nell'anno
+  unita: mln euro
+  direzione: su
+  base:
+    valore: null
+    periodo: 2019-2025
+    fonte: AgID, Smarter Italy (circa 93 mln in tutto nel 2019-2025; dato annuo n.d.)
+  obiettivo_3a: 150.0
+  obiettivo_5a: 200.0
+  misurazione: manuale
+  valori:
+  - INN
+  - FID
+  scheda:
+    base: circa 93 mln in tutto nel 2019-2025 (Smarter Italy, AgID; dato annuo n.d.)
+    obiettivo_3a: 150 mln
+    obiettivo_5a: 200 mln
+- id: 01-P14-b
+  proposta: 01-P14
+  nome: Soluzioni di fase 2 acquistate da una PA entro 2 anni
+  unita: '% soluzioni'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: n.d. (misura nuova)
+  obiettivo_3a: 25.0
+  obiettivo_5a: 40.0
+  misurazione: manuale
+  valori:
+  - INN
+  - BEN
+  scheda:
+    base: n.d.
+    obiettivo_3a: 25%
+    obiettivo_5a: 40%
+- id: 01-P15-a
+  proposta: 01-P15
+  nome: Investimenti di venture capital in Italia, % PIL
+  unita: '% PIL'
+  direzione: su
+  base:
+    valore: 0.07
+    periodo: '2025'
+    fonte: EY, Venture Capital Barometer 2025 (fonte non ufficiale)
+  obiettivo_3a: 0.10
+  obiettivo_5a: 0.13
+  misurazione: manuale
+  valori:
+  - INN
+  - FUT
+  scheda:
+    base: 0,07% (2025, EY, fonte non ufficiale)
+    obiettivo_3a: 0,10%
+    obiettivo_5a: 0,13%
+- id: 01-P15-b
+  proposta: 01-P15
+  nome: Spin-off costituite da universita' ed enti pubblici di ricerca nell'anno
+  unita: imprese
+  direzione: su
+  base:
+    valore: 86.0
+    periodo: '2023'
+    fonte: Netval, 20 Rapporto (2025)
+  obiettivo_3a: 110.0
+  obiettivo_5a: 130.0
+  misurazione: manuale
+  valori:
+  - INN
+  - APC
+  scheda:
+    base: 86 (2023, Netval 2025)
+    obiettivo_3a: '110'
+    obiettivo_5a: '130'
+- id: 01-P15-c
+  proposta: 01-P15
+  nome: Capitale privato raccolto dai fondi sottoscritti per ogni euro pubblico
+  unita: euro privati per euro pubblico
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: n.d. (misura nuova; rendiconto annuale CDP Venture Capital)
+  obiettivo_3a: 1.5
+  obiettivo_5a: 1.5
+  misurazione: manuale
+  valori:
+  - FID
+  - FUT
+  scheda:
+    base: n.d. (misura nuova)
+    obiettivo_3a: '>=1,5'
+    obiettivo_5a: '>=1,5'
+- id: 05-C10-a
+  proposta: 05-C10
+  nome: Ricavi dei nodi della Rete da contratti con imprese
+  unita: mln euro
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: n.d. (rilevazione dal primo anno)
+  obiettivo_3a: 200.0
+  obiettivo_5a: 350.0
+  misurazione: manuale
+  valori:
+  - INN
+  - APC
+  scheda:
+    base: n.d. (rilevazione dal primo anno)
+    obiettivo_3a: 200 mln
+    obiettivo_5a: 350 mln
+- id: 05-C10-b
+  proposta: 05-C10
+  nome: Entrate di universita' ed enti pubblici di ricerca da licenze
+  unita: mln euro
+  direzione: su
+  base:
+    valore: 5.87
+    periodo: '2023'
+    fonte: Netval, 20 Rapporto (2025)
+  obiettivo_3a: 8.0
+  obiettivo_5a: 12.0
+  misurazione: manuale
+  valori:
+  - INN
+  - FUT
+  scheda:
+    base: 5,87 mln (2023, Netval 2025)
+    obiettivo_3a: 8 mln
+    obiettivo_5a: 12 mln
+- id: 05-C10-c
+  proposta: 05-C10
+  nome: Dottorati industriali avviati nell'anno con cofinanziamento d'impresa
+  unita: borse
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: MUR, dottorati innovativi PNRR (DM 117/2023), esauriti; dato annuo da verificare
+  obiettivo_3a: 1000.0
+  obiettivo_5a: 1500.0
+  obiettivi_per_variante:
+    5a: 1.500 (PIENA); 750 (ESSENZIALE)
+  misurazione: manuale
+  valori:
+  - APC
+  - INN
+  scheda:
+    base: dottorati innovativi PNRR esauriti (DM 117/2023; dato annuo da verificare)
+    obiettivo_3a: '1.000'
+    obiettivo_5a: 1.500 (PIENA); 750 (ESSENZIALE)
+- id: 04-P7-a
+  proposta: 04-P7
+  nome: Quota del treno sulle tonnellate-km di merci su terra
+  unita: '%'
+  direzione: su
+  base:
+    valore: 11.6
+    periodo: '2024'
+    fonte: Eurostat tran_hv_frmod (tra_mode RAIL, geo IT)
+  obiettivo_3a: 12.5
+  obiettivo_5a: 14.0
+  obiettivi_per_variante:
+    5a: 14% (PIENA); 13% (ESSENZIALE); 12% (PILOTA)
+  misurazione: manuale
+  valori:
+  - FUT
+  - BEN
+  - INN
+  scheda:
+    base: 11,6% (2024, Eurostat tran_hv_frmod)
+    obiettivo_3a: 12,5%
+    obiettivo_5a: 14% (PIENA); 13% (ESSENZIALE)
+- id: 04-P7-b
+  proposta: 04-P7
+  nome: Treni-km merci sulla rete RFI
+  unita: mln treni-km
+  direzione: su
+  base:
+    valore: 49.4
+    periodo: '2025'
+    fonte: Fermerci su dati RFI (fonte di settore, da verificare su RFI/ISTAT)
+  obiettivo_3a: 52.0
+  obiettivo_5a: 56.0
+  misurazione: manuale
+  valori:
+  - FUT
+  - INN
+  scheda:
+    base: 49,4 mln (2025, Fermerci/RFI)
+    obiettivo_3a: 52 mln
+    obiettivo_5a: 56 mln (PIENA)
+- id: 04-P7-c
+  proposta: 04-P7
+  nome: Banchine elettrificate con fondi pubblici effettivamente in esercizio
+  unita: '% interventi finanziati'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: censimento MIT-AdSP entro 100 giorni (circa 50 interventi finanziati, fonte di settore)
+  obiettivo_3a: 70.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - FUT
+  - BEN
+  - FID
+  scheda:
+    base: da censire entro 100 giorni
+    obiettivo_3a: 70%
+    obiettivo_5a: 100%
+- id: 04-P8-a
+  proposta: 04-P8
+  nome: Quota di camion pesanti a zero emissioni sulle immatricolazioni
+  unita: '% immatricolazioni'
+  direzione: su
+  base:
+    valore: 0.3
+    periodo: '2025'
+    fonte: analisi su dati ICCT (80 camion pesanti a zero emissioni nel 2025)
+  obiettivo_3a: 3.0
+  obiettivo_5a: 8.0
+  obiettivi_per_variante:
+    5a: 8% (PIENA); 5% (ESSENZIALE)
+  misurazione: manuale
+  valori:
+  - FUT
+  - INN
+  - BEN
+  scheda:
+    base: 0,3% (2025, dati ICCT)
+    obiettivo_3a: 3%
+    obiettivo_5a: 8% (PIENA); 5% (ESSENZIALE)
+- id: 04-P8-b
+  proposta: 04-P8
+  nome: Rete centrale TEN-T coperta da stazioni per camion conformi AFIR
+  unita: '% km rete centrale'
+  direzione: su
+  base:
+    valore: null
+    periodo: null
+    fonte: piano nazionale della ricarica pesante (mese 6)
+  obiettivo_3a: 50.0
+  obiettivo_5a: 100.0
+  misurazione: manuale
+  valori:
+  - FUT
+  - INN
+  - EQU
+  scheda:
+    base: da misurare (piano nazionale, mese 6)
+    obiettivo_3a: 50%
+    obiettivo_5a: 100% (obbligo AFIR al 2030)
+- id: 04-P8-c
+  proposta: 04-P8
+  nome: Costo pubblico per tonnellata di CO2 evitata nelle aste per i camion a zero emissioni
+  unita: euro/tCO2
+  direzione: giu
+  base:
+    valore: null
+    periodo: null
+    fonte: misura nuova (prima asta a 12 mesi)
+  obiettivo_3a: 200.0
+  obiettivo_5a: 150.0
+  misurazione: manuale
+  valori:
+  - FUT
+  - FID
+  scheda:
+    base: non misurato (2026)
+    obiettivo_3a: ≤ 200 €
+    obiettivo_5a: ≤ 150 €
+- id: 04-P9-a
+  proposta: 04-P9
+  nome: Citta' metropolitane con zona a emissioni zero per le merci deliberata
+  unita: citta' (su 14)
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: scheda (misura nuova)
+  obiettivo_3a: 8.0
+  obiettivo_5a: 14.0
+  misurazione: manuale
+  valori:
+  - BEN
+  - FUT
+  - BPA
+  scheda:
+    base: 0 su 14 (2026)
+    obiettivo_3a: 8
+    obiettivo_5a: 14
+- id: 04-P9-b
+  proposta: 04-P9
+  nome: Quota di furgoni elettrici sulle nuove immatricolazioni di veicoli commerciali leggeri
+  unita: '% immatricolazioni'
+  direzione: su
+  base:
+    valore: 4.4
+    periodo: '2025'
+    fonte: UNRAE, veicoli commerciali leggeri 2025 (189.050 immatricolazioni)
+  obiettivo_3a: 15.0
+  obiettivo_5a: 30.0
+  misurazione: manuale
+  valori:
+  - FUT
+  - BEN
+  - INN
+  scheda:
+    base: 4,4% (2025, UNRAE)
+    obiettivo_3a: 15%
+    obiettivo_5a: 30%

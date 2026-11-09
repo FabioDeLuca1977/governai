@@ -679,3 +679,73 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 05-C7,EQU,1,2,2,M,no,"Risorse stabili al 20% di scuole più svantaggiate, molte al Sud; scuole non beneficiarie rinunciano al dividendo"
 05-C7,SIC,0,0,0,M,no,Indice calcolato dall'INVALSI per scuola e non nominativo; nessuna profilazione individuale
 05-C7,CIT,0,0,1,B,no,Dati aperti per scuola permettono a famiglie e comunità di verificare l'uso dei fondi
+04-P9,RIS,0,-1,0,B,no,Vincolo a imprese e artigiani e obbligo per 14 Comuni; preavviso di 4 anni e deroghe fino al 2033 attenuano
+04-P9,FID,1,1,1,M,no,Regole nazionali uniche e prevedibili e dati aperti sulle piazzole al posto di discipline comunali diverse
+04-P9,INN,0,1,1,M,no,Spinge furgoni elettrici e micro-hub; effetto olandese non tutto attribuibile alle zone
+04-P9,BEN,0,1,1,M,no,"Meno inquinamento e rumore nei centri; costi di acquisto dei mezzi sulle imprese, con minori costi d'uso"
+04-P9,APC,0,0,0,A,no,Nessun effetto rilevante su istruzione e cultura
+04-P9,BPA,0,1,1,M,no,Centri storici più vivibili per residenti e visitatori; riuso di spazi pubblici inutilizzati
+04-P9,FUT,0,1,2,M,no,Riduzione di emissioni a costo pubblico quasi nullo; scadenza coerente con gli standard UE sui furgoni
+04-P9,EQU,0,-1,0,B,no,Costi concentrati su piccoli commercianti e artigiani; contributi FSC limitati compensano solo in parte
+04-P9,SIC,0,0,0,M,no,Controlli degli accessi analoghi alle ZTL esistenti; nessun effetto rilevante
+04-P9,CIT,0,0,0,M,no,Nessun effetto rilevante su partecipazione o responsabilità civica
+04-P8,RIS,0,0,0,M,no,Nessun effetto rilevante su dignità e diversità
+04-P8,FID,1,1,1,M,no,"Aste per tonnellata di CO2, calendario noto con 12 mesi di anticipo e risorse esistenti riorientate"
+04-P8,INN,0,1,1,M,no,Avvia camion elettrici e ricarica pesante dove l'Italia è in fondo all'UE; volumi annui contenuti
+04-P8,BEN,0,0,1,B,no,Aria più pulita sui corridoi; perdono lo sconto pedaggi gli autotrasportatori con mezzi Euro V
+04-P8,APC,0,0,0,M,no,Formazione di autisti e meccanici marginale
+04-P8,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
+04-P8,FUT,0,1,2,M,no,Costo stimato 100-160 euro per t CO2; la rete di ricarica abilita la transizione oltre il programma
+04-P8,EQU,-1,0,0,B,no,Padroncini con Euro V perdono subito lo sconto; riserva del 30% e priorità ai monoveicolo compensano nel tempo
+04-P8,SIC,0,0,1,B,no,Minore dipendenza dal gasolio importato nel lungo periodo; effetto indiretto
+04-P8,CIT,0,0,0,M,no,Nessun effetto rilevante su partecipazione o responsabilità civica
+04-P7,RIS,0,0,0,M,no,Nessun effetto rilevante su dignità e diversità
+04-P7,FID,1,2,2,M,no,Regole decennali stabili al posto di incentivi annuali incerti; valutazione controfattuale pubblica
+04-P7,INN,1,1,1,M,no,"Sportello unico doganale, interoperabilità dei PCS ed e-CMR rendono più efficiente la logistica portuale"
+04-P7,BEN,0,1,1,M,no,Meno congestione e aria migliore nelle città portuali; ripresa del ferro incerta per i cantieri sulla rete
+04-P7,APC,0,0,0,A,no,Nessun effetto rilevante su istruzione e cultura
+04-P7,BPA,0,0,1,B,no,Cold ironing migliora l'aria delle città portuali; effetto limitato
+04-P7,FUT,0,1,1,M,no,Spostamento modale utile ma costo stimato 450-850 euro per t CO2; quota SAD in conflitto con 03-P1
+04-P7,EQU,0,0,0,M,no,Nessun effetto distributivo rilevante; ultimo miglio non mirato al Mezzogiorno nella PIENA
+04-P7,SIC,0,1,1,B,no,Meno camion su strada riduce l'incidentalità; effetto indiretto e lento
+04-P7,CIT,0,0,0,M,no,Nessun effetto rilevante su partecipazione o responsabilità civica
+05-C10,RIS,0,0,0,M,no,Nessun effetto rilevante su dignità e diversità
+05-C10,FID,1,1,1,M,no,"Selezione internazionale, dati aperti e uscita dei nodi senza clienti; rischio di salvataggio per inerzia"
+05-C10,INN,0,1,2,M,no,Prove Fraunhofer e Catapult su fatturato e produttività; effetti lenti e taglio del FOE agli enti
+05-C10,BEN,0,0,1,B,no,Effetto indiretto via produttività e salari nel lungo periodo
+05-C10,APC,0,1,1,M,no,1.500 dottorati industriali l'anno cofinanziati dalle imprese; trattiene ricercatori formati con il PNRR
+05-C10,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
+05-C10,FUT,0,0,1,B,no,Rende produttivi investimenti PNRR già fatti; coperture in parte da misure del menu ancora incerte
+05-C10,EQU,0,1,1,B,no,Un terzo dei nodi nel Mezzogiorno e contratti PMI contati doppio; perdono gli enti esclusi dalla rete
+05-C10,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
+05-C10,CIT,0,0,0,M,no,Nessun effetto rilevante su partecipazione o responsabilità civica
+01-P15,RIS,0,0,0,M,no,Congedo con rientro per i ricercatori fondatori; nessun effetto rilevante su dignità e diversità
+01-P15,FID,0,1,1,M,no,"Regolamento tipo, decisione in 60 giorni e rendiconti pubblici CDP; prima perdita da sorvegliare"
+01-P15,INN,0,1,2,M,no,Prove di fattibilità e capitale privato sul deep tech; prove positive solo se il pubblico accompagna i privati
+01-P15,BEN,0,0,1,B,no,Effetto indiretto tramite nuove imprese e lavoro qualificato
+01-P15,APC,0,1,1,B,no,Più sbocchi per i ricercatori e meno fuga dei talenti verso ecosistemi esteri
+01-P15,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
+01-P15,FUT,0,0,1,B,no,Rendimenti tornano al fondo; perdite possibili ma con tetto e prudenzialmente coperte
+01-P15,EQU,0,0,0,B,no,Asimmetria a favore di investitori privati compensata da FESR per le regioni meno sviluppate
+01-P15,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
+01-P15,CIT,0,0,0,M,no,Nessun effetto rilevante su partecipazione o responsabilità civica
+01-P14,RIS,0,0,0,M,no,Nessun effetto rilevante su dignità e diversità
+01-P14,FID,1,1,1,M,no,"Sfide, contratti ed esiti in dati aperti; obbligo di motivare pubblicamente il mancato acquisto"
+01-P14,INN,0,1,2,M,no,"Prove SBIR forti sulla fase 1, nulle sulla fase 2; capacità di gara della PA debole dopo Smarter Italy"
+01-P14,BEN,0,0,1,B,no,Servizi pubblici migliori solo se le soluzioni vengono adottate; effetto incerto
+01-P14,APC,0,0,0,A,no,Nessun effetto rilevante su istruzione e cultura
+01-P14,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
+01-P14,FUT,0,0,0,B,no,Copertura da tagli agli acquisti e coesione; nessun effetto netto su debito o clima
+01-P14,EQU,0,0,0,B,no,Quota del 60% alle PMI; benefici concentrati sulle imprese innovative
+01-P14,SIC,0,0,1,B,no,Possibili soluzioni per il monitoraggio di ponti e frane; effetto incerto
+01-P14,CIT,0,0,0,M,no,Nessun effetto rilevante su partecipazione o responsabilità civica
+01-P13,RIS,0,0,0,M,no,Nessun effetto rilevante su dignità e diversità
+01-P13,FID,1,2,2,M,no,"Certificazione preventiva vincolante, testo unico e regola dei 12 mesi chiudono i contenziosi; rischio certificatori compiacenti"
+01-P13,INN,0,1,2,M,no,"Sposta risorse dal patent box, con prove deboli, al credito sulla spesa, più efficace nelle piccole imprese"
+01-P13,BEN,0,0,0,B,no,Grandi imprese perdono il patent box; beneficio indiretto sui salari incerto
+01-P13,APC,0,0,0,A,no,Nessun effetto rilevante su istruzione e cultura
+01-P13,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
+01-P13,FUT,0,0,0,M,no,Riordino a parità di costo con correttivo automatico se la spesa supera la copertura
+01-P13,EQU,0,1,1,M,no,Sposta il sostegno dalle grandi imprese a quelle sotto 50 addetti e alle giovani imprese
+01-P13,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
+01-P13,CIT,0,0,0,M,no,Nessun effetto rilevante su partecipazione o responsabilità civica

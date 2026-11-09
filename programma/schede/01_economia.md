@@ -317,3 +317,176 @@ Gettito comunale aggiuntivo stimato in 0,3-0,8 mld/anno (fondo TASSA_SOGGIORNO, 
 - *Conflitto Stato-Regioni-Comuni:* intesa in Conferenza unificata; la modulazione è una facoltà, non un obbligo.
 - *Gettito usato per la sola promozione:* vincolo del 50% e rendicontazione pubblica; sanzione sulla quota del Patto per chi non rendiconta.
 - *Rottura della serie 2025:* KPI calcolati sulla serie ricostruita ISTAT o con base 2025 sul nuovo campo di osservazione.
+
+---
+
+*Le proposte che seguono nascono dal confronto sulla ricerca e l'innovazione nelle imprese (`benchmark/ricerca_innovazione.md`), 9 novembre 2026.*
+
+## 01-P13 — Un solo credito per la ricerca: stabile, più forte per le piccole imprese, certificato prima di spendere
+
+**Problema in un dato.** Le imprese italiane spendono in R&S lo **0,80% del PIL** contro l'1,50% UE (Eurostat, 2024). Il sostegno fiscale passa da due strumenti che si sovrappongono: il credito R&S (10%, **1.823 mln** l'anno) e il Nuovo patent box (deduzione maggiorata del 110%, **283 mln** l'anno tra IRES e IRAP) (MEF, Rapporto spese fiscali 2025). Il patent box va soprattutto alle imprese con almeno 500 addetti e ai settori a bassa intensità tecnologica (ISTAT, *Gli incentivi alle imprese per la R&S*, 2023). Le regole sono cambiate quasi ogni anno dal 2015 e i contenziosi sui crediti 2015-2019 sono stati così diffusi che lo Stato ha aperto una procedura di restituzione senza sanzioni (DL 146/2021, art. 5), riaperta fino al 3 giugno 2025 (numero di adesioni da verificare).
+
+**Soluzione.** Un solo credito per la ricerca, con regole fisse per almeno cinque anni.
+- **Aliquota.** Resta al 10% per tutte le imprese. Sale al **13%** per le imprese con meno di 50 addetti, dove l'effetto per euro speso è maggiore (OCSE, microBeRD; Dechezleprêtre et al. sul Regno Unito).
+- **Giovani imprese.** Le imprese con meno di cinque anni e senza imposte da compensare ricevono il credito **in denaro** entro 90 giorni, fino a 200.000 € l'anno.
+- **Certificazione prima di spendere.** L'impresa può chiedere a un certificatore iscritto all'Albo MIMIT, già esistente (art. 23 DL 73/2022, DPCM 15/9/2023), di certificare il **progetto prima di avviarlo**. La certificazione vincola l'Agenzia delle entrate sulla natura di R&S, salvo dati falsi. Sopra i 500.000 € di credito annuo la certificazione è obbligatoria. Si chiude così la stagione dei recuperi a distanza di anni.
+- **Fine del patent box.** Il patent box si chiude in due anni: la maggiorazione scende al 50% per le spese 2027 e si azzera dal 2028. I risparmi pagano il credito più forte per le piccole imprese. È un riordino a parità di costo: le risorse restano alla ricerca, ma passano dalla deduzione sui beni immateriali, che premia soprattutto le grandi imprese, al credito sulla spesa.
+- **Un portale, un testo unico.** Un solo portale MIMIT per comunicazioni e certificazioni. Un testo unico degli incentivi fiscali alla R&S. Le modifiche restrittive valgono solo per i periodi d'imposta che iniziano almeno 12 mesi dopo la legge.
+
+L'iperammortamento (L. 199/2025) scade il 30 settembre 2028 e resta fuori da questa proposta. La sua maggiorazione base è già usata da 01-P4. Una eventuale proroga dovrebbe seguire le condizioni di 01-P4 e passare dalla valutazione di 01-P2.
+
+| Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
+|---|---|---|---|---|
+| PIENA | Credito unico; 13% per le imprese sotto 50 addetti; rimborso in denaro alle giovani imprese; certificazione preventiva; patent box chiuso dal 2028 | 0,02 / 0,12 / 0,22 → **0,30** (2030) | 1 | SPESE_FISCALI 0,28 (chiusura del patent box); RIALLOCAZIONE 0,02 |
+| ESSENZIALE | 12% per le imprese sotto 50 addetti; certificazione preventiva; patent box ridotto al 50% | 0,01 / 0,06 / 0,11 → **0,16** (2030) | 0,5 | SPESE_FISCALI 0,15 (patent box al 50%); RIALLOCAZIONE 0,01 |
+| ZERO | Solo certificazione preventiva vincolante, portale unico, testo unico e regola dei cinque anni | 0,01 → **0,01** (2027) | 0,2 | RIALLOCAZIONE 0,01 |
+
+*Come è costruito il costo (stima GovernAI).* Il credito R&S costa 1,823 mld (RSF 2025). Nel 2020 le imprese sotto i 50 addetti ne ricevevano il 42% (ISTAT 2023: il 58% andava alle imprese con almeno 50 addetti), cioè circa 0,77 mld su una spesa agevolata di circa 7,7 mld. Tre punti in più su questa spesa valgono 0,23 mld a comportamento invariato. Il rimborso alle giovani imprese vale circa 0,05 (stima, da verificare con i dati dell'Agenzia delle entrate). Portale, certificazione pubblica e controlli valgono 0,02. Totale 0,30. ESSENZIALE: due punti in più per 0,15, più 0,01 di gestione. Il credito si usa in tre quote annuali dall'anno dopo la spesa, quindi il costo arriva a regime nel 2030. *Ritmo delle coperture*: il patent box ridotto al 50% sulle spese 2027 fa risparmiare circa 0,15 nel 2028 (dichiarazioni 2027); dal 2029 il risparmio è pieno, circa 0,28 (RSF 2025: 244,5 mln IRES + 38,9 mln IRAP). Nel 2028-29 la copertura supera il costo. La quota dei beneficiari sotto i 50 addetti è un dato del 2020 e va aggiornata.
+
+**Articolato normativo essenziale**
+
+> **Art. 1 (Finalità).** Al fine di aumentare la spesa delle imprese in ricerca e sviluppo e di dare certezza alle regole, in attuazione degli articoli 9 e 41 della Costituzione, la presente legge riordina gli incentivi fiscali alla ricerca e sviluppo in un unico credito d'imposta stabile.
+>
+> **Art. 2 (Credito unico).** 1. All'articolo 1, comma 203, della legge 27 dicembre 2019, n. 160, dopo il primo periodo è inserito il seguente: «Per le imprese con meno di cinquanta addetti il credito è riconosciuto in misura pari al 13 per cento [ESSENZIALE: 12 per cento].» 2. Le imprese costituite da meno di cinque anni che non hanno imposte o contributi da compensare possono chiedere l'erogazione del credito in denaro, entro il limite di 200.000 euro annui. L'Agenzia delle entrate eroga il rimborso entro novanta giorni. *(Solo variante PIENA.)*
+>
+> **Art. 3 (Certificazione preventiva).** 1. La certificazione di cui all'articolo 23 del decreto-legge 21 giugno 2022, n. 73, può essere richiesta sul progetto prima dell'avvio delle attività. Salvo il caso di dati falsi o di progetto realizzato in modo difforme, la certificazione vincola l'Amministrazione finanziaria sulla qualificazione delle attività come ricerca e sviluppo. 2. La certificazione è obbligatoria per i crediti superiori a 500.000 euro annui. 3. Il Ministero delle imprese e del made in Italy pubblica ogni anno, in forma aggregata, i progetti certificati, i crediti, i controlli e gli esiti dei contenziosi.
+>
+> **Art. 4 (Chiusura del patent box).** 1. La maggiorazione di cui all'articolo 6, comma 3, del decreto-legge 21 ottobre 2021, n. 146, è ridotta al 50 per cento per le spese sostenute nel periodo d'imposta 2027 ed è soppressa per le spese sostenute dal periodo d'imposta 2028 [ESSENZIALE: è ridotta al 50 per cento dal periodo d'imposta 2027]. 2. Dal 1° gennaio 2027 non possono essere esercitate nuove opzioni.
+>
+> **Art. 5 (Stabilità delle regole).** 1. Entro dodici mesi il Governo adotta un testo unico degli incentivi fiscali alla ricerca e sviluppo. 2. Le modifiche che riducono il beneficio si applicano solo ai periodi d'imposta che iniziano almeno dodici mesi dopo l'entrata in vigore della norma che le dispone. 3. Comunicazioni, prenotazioni e certificazioni passano per un unico portale del Ministero delle imprese e del made in Italy.
+>
+> **Art. 6 (Valutazione).** Ogni tre anni l'ISTAT e la Banca d'Italia valutano l'effetto del credito sulla spesa in R&S, sui brevetti e sulla produttività, con metodo controfattuale e dati dell'Agenzia delle entrate. La valutazione è pubblica e alimenta la scheda prevista dalla legge sulle spese fiscali a scadenza.
+>
+> **Art. 7 (Copertura finanziaria).** Agli oneri di cui all'articolo 2, pari a 120 milioni di euro per il 2028, 220 milioni per il 2029 e 300 milioni annui dal 2030, si provvede con le maggiori entrate derivanti dall'articolo 4. Agli oneri di cui agli articoli 3 e 5, pari a 20 milioni annui, si provvede mediante riduzione delle spese di funzionamento del Ministero delle imprese e del made in Italy.
+
+**Cronoprogramma**
+
+| Fase | Cosa | Chi |
+|---|---|---|
+| Primi 100 giorni | Norme in legge di bilancio 2027 (aliquota, patent box, certificazione); bozza del testo unico; dati dell'Agenzia delle entrate sui beneficiari per classe di addetti | MEF, MIMIT, Agenzia delle entrate |
+| 12 mesi | Portale unico e certificazione preventiva operativi; testo unico adottato; primi rimborsi alle giovani imprese | MIMIT, Agenzia delle entrate, certificatori |
+| Fine legislatura | Regime pieno dal 2030; prima valutazione ISTAT-Banca d'Italia (2030) | ISTAT, Banca d'Italia, Parlamento |
+
+**Indicatori**
+
+| KPI | Base | 3 anni (2029) | 5 anni (2031) |
+|---|---|---|---|
+| Spesa in R&S delle imprese, % PIL | 0,80% (2024, Eurostat rd_e_gerdtot, BES) | 0,85% | 0,90% |
+| Credito R&S coperto da certificazione preventiva | n.d. (certificazione oggi facoltativa e successiva) | 50% | 75% |
+| Imprese sotto i 50 addetti che usano il credito R&S | n.d. (dato Agenzia delle entrate da pubblicare) | +20% | +35% |
+
+**Rischi e mitigazione.** *Imprese che perdono il patent box* (grandi imprese, software, marchi già esclusi) → il credito unico resta pieno per loro al 10%; due anni di transizione; il risparmio resta nella ricerca. *Rischio di frodi con il rimborso in denaro* → tetto di 200.000 €, certificazione obbligatoria per il rimborso, controlli a campione. *Certificatori compiacenti* → responsabilità del certificatore, controlli MIMIT sui certificati e pubblicazione degli esiti. *Stima del costo incerta* (quote ISTAT del 2020) → limite di spesa annuo con monitoraggio dell'Agenzia delle entrate; se il costo supera la copertura, l'aliquota maggiorata si riduce per l'anno successivo. *Concorrenza fiscale con altri Paesi* che hanno patent box → secondo la letteratura il patent box sposta brevetti più che creare invenzioni (Gaessler, Hall e Harhoff 2021), quindi la perdita di attività reale attesa è limitata.
+
+**Fonti.** MEF, Rapporto spese fiscali 2025 (misure 169 e 170, tabella di sintesi), https://www.mef.gov.it/export/sites/MEF/documenti-allegati/2025/RSF-2025-bis.pdf; OpenBDAP-RGS, Rendiconto 2025, cap. 7828 MEF (1.823 mln pagati); ISTAT, *Gli incentivi alle imprese per la ricerca e sviluppo*, 20/9/2023, https://www.istat.it/it/files//2023/09/Focus_incentivi_RS_DEFINITIVO.pdf; Banca d'Italia, QEF n. 898, dicembre 2024 (allineare l'aliquota alla media OCSE aumenterebbe la R&S privata di circa il 15%), https://www.bancaditalia.it/pubblicazioni/qef/2024-0898/; MEF-Banca d'Italia-MIMIT, *Piano Transizione 4.0: una valutazione*, sintesi maggio 2026, https://www.mimit.gov.it/images/stories/documenti/allegati/Sintesi_Valutazione_transizione_40_ITA_5_maggio_2026.pdf; UPB, Focus 1/2026 (iperammortamento: 8,4 mld di minor gettito di cassa 2027-2034), https://www.upbilancio.it/wp-content/uploads/2026/02/Focus-1_2026-LB.pdf; Albo dei certificatori MIMIT, https://www.mimit.gov.it/it/notizie-stampa/mimit-da-oggi-online-lalbo-dei-certificatori-del-credito-dimposta-in-attivita-di-ricerca-e-sviluppo-innovazione-tecnologica-design-e-ideazione-estetica. Da verificare: se i crediti per innovazione tecnologica e design (5%, in vigore fino al 2025) sono stati prorogati e quanto pesano nei 1.823 mln.
+
+---
+
+## 01-P14 — "Sfide Italia": la pubblica amministrazione compra innovazione in tre fasi
+
+**Problema in un dato.** Dal 2019 il programma nazionale di appalti innovativi (Smarter Italy) ha avuto circa **93 milioni €** in tutto: 50 dal MISE e 43,4 dal MUR (AgID). Nel 2026 il Consiglio UE raccomanda all'Italia di **"rafforzare gli appalti per l'innovazione"** (Raccomandazione del 10 luglio 2026, punto 3). Manca anche una misura nazionale coerente della spesa pubblica in innovazione (CNR, PPI4MED, 2024).
+
+**Soluzione.** Le amministrazioni centrali pubblicano ogni anno delle **sfide**: problemi concreti per cui non esiste ancora una soluzione sul mercato (ad esempio diagnosi precoce nelle Case della Comunità, monitoraggio di ponti e frane, riduzione dei consumi negli edifici pubblici). Le imprese competono in tre fasi, sul modello SBIR statunitense e SBRI britannico.
+- **Fase 1, fattibilità:** fino a 80.000 € per 6 mesi, a più imprese per ogni sfida.
+- **Fase 2, prototipo:** fino a 1,5 milioni € per 18-24 mesi, alle migliori della fase 1.
+- **Fase 3, acquisto:** l'amministrazione compra la soluzione che funziona con gli ordinari fondi di acquisto, anche tramite Consip.
+
+Le imprese mantengono i diritti di proprietà intellettuale; lo Stato ha una licenza d'uso gratuita. Le regole sono quelle degli appalti pre-commerciali UE e del partenariato per l'innovazione (art. 75 d.lgs. 36/2023). AgID resta la centrale di committenza; un comitato tecnico con MIMIT e MUR sceglie le sfide. Ogni ministero con grandi acquisti di beni e servizi propone almeno una sfida l'anno. Il 60% dei contratti di fase 1 va a PMI.
+
+| Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
+|---|---|---|---|---|
+| PIENA | Circa 40 sfide l'anno: 500 contratti di fase 1 e 100 di fase 2 | 0,03 / 0,08 / 0,15 → **0,20** (2030) | 1 | RIALLOCAZIONE 0,12 (acquisti delle amministrazioni proponenti); COESIONE_2834 0,08 (FESR, ricerca e innovazione) |
+| ESSENZIALE | Circa 15 sfide l'anno, solo salute, territorio ed energia | 0,01 / 0,04 / 0,06 → **0,08** (2030) | 0,45 | RIALLOCAZIONE 0,05; COESIONE_2834 0,03 |
+| PILOTA | 3 sfide con valutazione, 2027-2029 | 0,01 / 0,03 / 0,03 → 0,03 (2028) | 0,15 | COESIONE_2127 0,03 (FESR, temporaneo) |
+
+*Nota del coordinamento (9 novembre 2026): le quote indicate su COESIONE_2834 sono contate come RIALLOCAZIONE, perché nel registro dei fondi COESIONE_2834 ha capienza minima zero e non è una copertura certa. Se i fondi di coesione 2028-34 saranno assegnati, potranno sostituire la riallocazione.*
+
+*Come è costruito il costo (stima GovernAI)*: fase 1, 500 contratti × 80.000 € = 0,04; fase 2, 100 contratti × 1,5 milioni € = 0,15; gestione AgID e valutazione 0,01. Totale 0,20 l'anno. La fase 3 non è un costo aggiuntivo: sostituisce acquisti che l'amministrazione farebbe comunque. ESSENZIALE: 200 × 80.000 € = 0,016; 40 × 1,5 milioni € = 0,06; gestione 0,005. Totale 0,08. *Ritmo delle coperture nella PIENA*: COESIONE_2127 (FESR 2021-27, obiettivo "Europa più intelligente") 0,03 / 0,05 / 0,07 nel 2027-29; RIALLOCAZIONE 0 / 0,03 / 0,08; dal 2030 RIALLOCAZIONE 0,12 e COESIONE_2834 0,08. Nessun personale stabile è pagato con fondi di coesione.
+
+**Articolato normativo essenziale**
+
+> **Art. 1 (Finalità).** Al fine di usare la domanda pubblica per stimolare l'innovazione delle imprese e migliorare i servizi pubblici, in attuazione degli articoli 9 e 97 della Costituzione, è istituito il programma "Sfide Italia" per gli appalti pre-commerciali e per l'innovazione.
+>
+> **Art. 2 (Sfide).** 1. Ogni anno le amministrazioni centrali dello Stato con una spesa per acquisto di beni e servizi superiore a 100 milioni di euro propongono almeno una sfida. 2. Un comitato tecnico composto da AgID, Ministero delle imprese e del made in Italy e Ministero dell'università e della ricerca seleziona le sfide in base all'utilità pubblica, all'assenza di soluzioni sul mercato e all'impegno dell'amministrazione ad acquistare la soluzione.
+>
+> **Art. 3 (Fasi).** 1. Ogni sfida si svolge in tre fasi: fattibilità, fino a 80.000 euro per contratto; prototipo e prova sul campo, fino a 1,5 milioni di euro per contratto; acquisto della soluzione. 2. Le fasi di fattibilità e prototipo sono affidate come servizi di ricerca e sviluppo secondo la disciplina europea degli appalti pre-commerciali, o con il partenariato per l'innovazione di cui all'articolo 75 del decreto legislativo 31 marzo 2023, n. 36. 3. I diritti di proprietà intellettuale restano all'impresa. L'amministrazione ha una licenza d'uso gratuita e non esclusiva. 4. Almeno il 60 per cento dei contratti di fattibilità è riservato alle micro, piccole e medie imprese.
+>
+> **Art. 4 (Acquisto).** L'amministrazione proponente indica, al momento della sfida, le risorse per l'acquisto della soluzione nella fase 3. Se non acquista una soluzione che ha superato la prova sul campo, ne dà motivazione pubblica.
+>
+> **Art. 5 (Trasparenza e valutazione).** AgID pubblica in formato aperto sfide, partecipanti, contratti, esiti e acquisti. Dopo cinque anni la Corte dei conti e un valutatore indipendente misurano la crescita delle imprese partecipanti rispetto alle imprese non selezionate con punteggi vicini.
+>
+> **Art. 6 (Copertura finanziaria).** Agli oneri, pari a 30 milioni di euro per il 2027, 80 milioni per il 2028, 150 milioni per il 2029 e 200 milioni annui dal 2030 [ESSENZIALE: 10, 40, 60 e 80 milioni], si provvede: a) per il triennio 2027-2029, a valere sui programmi FESR 2021-2027, obiettivo strategico 1, previa riprogrammazione, e mediante riduzione delle autorizzazioni di spesa per acquisto di beni e servizi delle amministrazioni proponenti, indicate in allegato; b) dal 2030, per 120 milioni [ESSENZIALE: 50] mediante le medesime riduzioni e per la parte restante a valere sulla programmazione 2028-2034.
+
+**Cronoprogramma**
+
+| Fase | Cosa | Chi |
+|---|---|---|
+| Primi 100 giorni | Norma in legge di bilancio; riprogrammazione FESR; prime 10 sfide raccolte dai ministeri (salute, protezione civile, energia, trasporti) | MIMIT, MUR, AgID, Dipartimento coesione |
+| 12 mesi | Primi bandi di fase 1; piattaforma aperta dei risultati; linee guida sulla proprietà intellettuale | AgID, amministrazioni proponenti |
+| Fine legislatura | Primi prototipi in prova; prime acquisizioni di fase 3; valutazione intermedia (2030) | AgID, Corte dei conti, valutatore indipendente |
+
+**Indicatori**
+
+| KPI | Base | 3 anni (2029) | 5 anni (2031) |
+|---|---|---|---|
+| Valore dei contratti pre-commerciali e per l'innovazione aggiudicati nell'anno | circa 93 mln in tutto nel 2019-2025 (Smarter Italy, AgID; dato annuo n.d.) | 150 mln | 200 mln |
+| Soluzioni di fase 2 acquistate da una PA entro 2 anni | n.d. | 25% | 40% |
+| Quota di PMI tra i vincitori di fase 1 | n.d. | ≥60% | ≥60% |
+
+**Rischi e mitigazione.** *Sfide inventate per spendere* → impegno ad acquistare e motivazione pubblica in caso di mancato acquisto. *Amministrazioni senza competenze di gara* → AgID come centrale di committenza unica, collegamento con i tecnici di 09-C3. *Aiuti di Stato* → prezzi di mercato e procedure competitive, come prevede la disciplina UE sugli appalti pre-commerciali. *Effetto sugli acquisti ordinari* (la riduzione degli stanziamenti) → riguarda le stesse amministrazioni che ricevono le soluzioni; da tenere distinta dai risparmi sugli acquisti centralizzati (RA01) per non contarli due volte. *Coesione dopo il 2029* → RIALLOCAZIONE prevalente a regime; se il ciclo 2028-34 non conferma le risorse si scende alla ESSENZIALE.
+
+**Fonti.** Consiglio UE, Raccomandazione all'Italia del 10/7/2026 (CELEX 32026H03925), in `europa/semestre.md`; AgID, Smarter Italy (50 mln MISE 2019, 43,4 mln MUR), https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2020/05/04/covid-19-appalti-innovativi-il-rilancio-del-paese.html; Howell, S., *Financing Innovation: Evidence from R&D Grants*, American Economic Review 107(4), 2017 (un contributo di fase 1 SBIR raddoppia circa la probabilità di ricevere venture capital), https://econpapers.repec.org/RePEc:aea:aecrev:v:107:y:2017:i:4:p:1136-64; Commissione UE, benchmarking degli appalti per l'innovazione 2024, https://research-and-innovation.ec.europa.eu/strategy/support-policy-making/shaping-eu-research-and-innovation-policy/new-european-innovation-agenda/innovation-procurement/benchmarking-innovation-procurement-investments-and-policy-frameworks-across-europe_en; CNR, PPI4MED White Paper, https://www.enicbcmed.eu/sites/default/files/2024-01/PPI4MED_WhitePaper_CNR.pdf; d.lgs. 36/2023, art. 75. Da verificare: il valore italiano degli appalti per l'innovazione nel benchmarking UE 2024; la norma nazionale di recepimento dell'esclusione dei servizi di R&S (art. 14 direttiva 2014/24/UE).
+
+---
+
+## 01-P15 — Dalla scoperta all'impresa: prove di fattibilità, regole chiare per gli spin-off, fondo di fondi deep tech
+
+**Problema in un dato.** Nel 2023 università ed enti pubblici di ricerca hanno creato **86 spin-off**, contro le 108 del 2022, e incassato **5,87 milioni €** da licenze attive, con 470 addetti equivalenti a tempo pieno negli uffici di trasferimento tecnologico (Netval, 20° Rapporto, 2025). Il venture capital investe circa **1,5 mld €** nel 2025, lo **0,07% del PIL**, contro lo 0,22% della Francia e lo 0,15% della Germania (EY, VC Barometer 2025; Bain 2026: fonti private, non ufficiali). Il Consiglio UE chiede all'Italia di sostenere "il ruolo degli investitori aziendali e istituzionali nel venture capital" (Raccomandazione 2026, punto 3).
+
+**Soluzione.** Tre strumenti lungo la stessa filiera.
+- **Prove di fattibilità (proof of concept).** Un bando annuale e stabile finanzia 250-300 progetti l'anno, da 50.000 a 150.000 €, per portare un brevetto pubblico a un prototipo. Riunisce i bandi PoC e UTT oggi a singhiozzo dell'Ufficio brevetti (cap. 7476 MIMIT).
+- **Regole chiare per gli spin-off.** Un regolamento tipo nazionale: quota dell'ateneo nel capitale tra il 5% e il 10%, licenza standard con royalty bassa o in cambio di quote, decisione entro 60 giorni, congedo fino a tre anni per il ricercatore che fonda l'impresa, con diritto di rientro.
+- **Fondo di fondi deep tech.** CDP Venture Capital, con il Fondo europeo per gli investimenti (FEI), gestisce un fondo di fondi da **1,5 mld €** in cinque anni. Investe in fondi di venture capital su tecnologie avanzate (materiali, scienze della vita, energia, quantistica, AI applicata), solo se **almeno il 60%** dei capitali viene da privati: casse previdenziali, fondi pensione, assicurazioni, fondazioni. Lo Stato mette una **quota di prima perdita** di 300 milioni in cinque anni: assorbe le prime perdite e lascia ai privati una parte maggiore dei guadagni. È il modello israeliano Yozma e del programma francese Tibi, adattato. I fondi selezionati devono investire in Italia almeno il doppio di quanto ricevono dal fondo pubblico.
+
+| Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
+|---|---|---|---|---|
+| PIENA | Fondo di fondi da 1,5 mld (prima perdita pubblica 300 mln in 5 anni) + 250-300 prove di fattibilità l'anno + regole spin-off | 0,05 / 0,10 / 0,10 → **0,10** (2028) | 1 | RIALLOCAZIONE 0,06 (bandi PoC/UTT e Fondo crescita sostenibile); COESIONE_2834 0,04 (strumenti finanziari FESR) |
+| ESSENZIALE | Fondo di fondi da 750 mln (prima perdita 150 mln) + 130 prove di fattibilità l'anno + regole spin-off | 0,03 / 0,05 / 0,05 → **0,05** (2028) | 0,5 | RIALLOCAZIONE 0,03; COESIONE_2834 0,02 |
+| ZERO | Solo regolamento tipo per gli spin-off e congedo per i ricercatori fondatori | 0 → **0** (2027) | 0,2 | — |
+
+*Nota del coordinamento (9 novembre 2026): le quote indicate su COESIONE_2834 sono contate come RIALLOCAZIONE, perché nel registro dei fondi COESIONE_2834 ha capienza minima zero e non è una copertura certa. Se i fondi di coesione 2028-34 saranno assegnati, potranno sostituire la riallocazione.*
+
+*Come è costruito il costo (stima GovernAI)*: quota di prima perdita 300 mln in cinque rate annue = 0,06; prove di fattibilità, circa 270 × 150.000 € in media = 0,04 (in parte già finanziate dai bandi PoC e UTT MIMIT-UIBM sul cap. 7476, 43,8 mln iniziali nel 2025, OpenBDAP). Totale 0,10. La quota di CDP Venture Capital (circa 0,30 mld su 1,5) è un investimento di una società fuori dal perimetro della PA e non pesa sul bilancio; la quota del FEI è europea. Per prudenza tutta la prima perdita è trattata come spesa, anche se una parte potrebbe essere classificata come operazione finanziaria (da verificare con ISTAT ed Eurostat). ESSENZIALE: 0,03 + 0,02 = 0,05. *Ritmo delle coperture nella PIENA*: COESIONE_2127 0,04 l'anno nel 2027-29 (strumenti finanziari FESR per prove di fattibilità e investimenti seed nelle regioni meno sviluppate); RIALLOCAZIONE 0,01 / 0,06 / 0,06; dal 2030 RIALLOCAZIONE 0,06 e COESIONE_2834 0,04. Il programma dura cinque anni (2027-2031); poi si decide se rifinanziarlo in base ai rendimenti, che rientrano al fondo.
+
+**Articolato normativo essenziale**
+
+> **Art. 1 (Finalità).** Al fine di trasformare i risultati della ricerca pubblica in nuove imprese e di attrarre capitale privato verso le tecnologie avanzate, in attuazione degli articoli 9, 41 e 47 della Costituzione, la presente legge istituisce il programma nazionale per le prove di fattibilità, il regolamento tipo per gli spin-off e il fondo di fondi deep tech.
+>
+> **Art. 2 (Prove di fattibilità).** 1. Il Ministero delle imprese e del made in Italy, d'intesa con il Ministero dell'università e della ricerca, pubblica ogni anno, a data fissa, un bando per progetti di prova di fattibilità di università, enti pubblici di ricerca e IRCCS, di importo compreso tra 50.000 e 150.000 euro. 2. Nel bando confluiscono le risorse delle misure per la valorizzazione dei brevetti e per gli uffici di trasferimento tecnologico.
+>
+> **Art. 3 (Spin-off).** 1. Entro sei mesi il Ministro dell'università e della ricerca adotta un regolamento tipo per le imprese spin-off. Il regolamento prevede: una partecipazione dell'ente non superiore al 10 per cento, salvo diverso accordo motivato; un contratto di licenza standard; una decisione entro sessanta giorni dalla domanda. 2. Il personale di ricerca che fonda o lavora in uno spin-off può chiedere un congedo fino a tre anni, con diritto alla conservazione del posto. 3. Gli enti che non adottano un proprio regolamento applicano il regolamento tipo.
+>
+> **Art. 4 (Fondo di fondi deep tech).** 1. CDP Venture Capital SGR istituisce, anche con il Fondo europeo per gli investimenti, un fondo di fondi dedicato alle tecnologie avanzate, con una dotazione obiettivo di 1,5 miliardi di euro in cinque anni [ESSENZIALE: 750 milioni]. 2. Il fondo investe in fondi di venture capital solo se almeno il 60 per cento dei loro capitali proviene da investitori privati, e a condizione che investano in imprese con sede o attività di ricerca in Italia almeno il doppio dell'importo ricevuto. 3. Lo Stato sottoscrive una quota di prima perdita fino a 300 milioni di euro [ESSENZIALE: 150 milioni] in cinque anni, che assorbe le prime perdite e riconosce agli investitori privati una quota maggiore dei rendimenti. I rendimenti spettanti allo Stato tornano al fondo.
+>
+> **Art. 5 (Trasparenza e valutazione).** CDP Venture Capital pubblica ogni anno i fondi sottoscritti, i capitali privati raccolti, le imprese finanziate e gli esiti. Dopo cinque anni la Banca d'Italia valuta il programma confrontando le imprese finanziate con imprese simili non finanziate.
+>
+> **Art. 6 (Copertura finanziaria).** Agli oneri, pari a 50 milioni di euro per il 2027 e a 100 milioni annui dal 2028 al 2031 [ESSENZIALE: 30 e 50 milioni], si provvede: a) per 40 milioni annui nel triennio 2027-2029, a valere sui programmi FESR 2021-2027, mediante strumenti finanziari; b) per la parte restante mediante corrispondente riduzione delle autorizzazioni di spesa di cui al capitolo 7476 e del Fondo per la crescita sostenibile; c) dal 2030 per 40 milioni a valere sulla programmazione 2028-2034.
+
+**Cronoprogramma**
+
+| Fase | Cosa | Chi |
+|---|---|---|
+| Primi 100 giorni | Norma in legge di bilancio; regolamento tipo in consultazione con CRUI e Netval; negoziato CDP VC-FEI sul fondo di fondi; primo bando PoC a data fissa | MIMIT, MUR, CDP VC, FEI |
+| 12 mesi | Regolamento tipo adottato; prima chiusura del fondo di fondi con le casse previdenziali; primi 250 progetti PoC | MUR, CDP VC, enti di ricerca |
+| Fine legislatura | Cinque annate di investimenti; prima valutazione Banca d'Italia (2031) | CDP VC, Banca d'Italia |
+
+**Indicatori**
+
+| KPI | Base | 3 anni (2029) | 5 anni (2031) |
+|---|---|---|---|
+| Investimenti di venture capital in Italia, % PIL | 0,07% (2025, EY, fonte non ufficiale) | 0,10% | 0,13% |
+| Spin-off costituite da università ed enti pubblici di ricerca nell'anno | 86 (2023, Netval 2025) | 110 | 130 |
+| Capitale privato raccolto dai fondi sottoscritti per ogni euro pubblico (Stato + CDP) | n.d. (misura nuova) | ≥1,5 | ≥1,5 |
+
+**Rischi e mitigazione.** *Il fondo pubblico sostituisce i privati invece di attirarli* → almeno il 60% privato per ogni fondo; la letteratura trova effetti positivi soprattutto quando il capitale pubblico accompagna quello privato (Brander, Du e Hellmann 2015). *Prima perdita come regalo ai privati* → tetto di 300 mln, gestori selezionati con gara, rendimenti pubblici che tornano al fondo. *Spin-off "di facciata"* → indicatore sulle spin-off ancora attive dopo cinque anni e con ricavi. *Doppio conteggio con 01-P4 e RA04* (incentivi MIMIT a bassa addizionalità) → la riduzione del Fondo per la crescita sostenibile è aggiuntiva a quelle di 01-P4 e RA04 e va verificata dall'agente coperture. *Classificazione statistica* → prudenzialmente tutto a deficit, quindi tutto coperto.
+
+**Fonti.** Netval, 20° Rapporto, 2025, https://www.iris.santannapisa.it/retrieve/bfef2339-d16a-48ff-8362-d845383e7898/rapportonetval2025-e64d.pdf; EY, Venture Capital Barometer 2025 (via StartupItalia), https://startupitalia.eu/startup/ey-venture-capital-barometer-2025-italia/; Bain & Company, comunicato 2026, https://www.bain.com/it/about-bain/media-center/press-releases/italy/2023222/Venture-capital-in-italia-il-2025-e-un-anno-record-sostenuto-dai-mega-deal/; CDP Venture Capital, Piano strategico 2024-2028 (8 mld in gestione, fondo deep tech 500 mln), https://www.cdpventurecapital.it/resources/cms/documents/PianoStrategico_2428.pdf; FEI, European Tech Champions Initiative, https://www.eif.org/etci/index.htm; Brander, Du, Hellmann, *The Effects of Government-Sponsored Venture Capital: International Evidence*, Review of Finance 2015; OpenBDAP-RGS, Rendiconto 2025, capp. 7476 e 7483 MIMIT, 7344 (Fondo venture capital, 5 mln). Da verificare: classificazione Eurostat della quota di prima perdita; stato dell'adesione italiana a ETCI 2.0 e allo Scaleup Europe Fund.

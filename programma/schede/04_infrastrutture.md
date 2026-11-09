@@ -304,3 +304,185 @@
 ### Fonti dei dati usati
 
 Serie in `dati/serie/04_*.csv` (Eurostat `ilc_lvho07c`, `road_eqs_carhab`, `env_air_gge`, `prc_hicp_aind`, `prc_hpi_a`; Corte dei conti Doc. XIII-bis n. 7; ISTAT previsioni agosto 2026; Cohesion Open Data), verifica in `dati/verifiche/04_infrastrutture.md`. Intervallo delle stime sul costo dei LEP: [Il Post, 7.12.2024](https://www.ilpost.it/2024/12/07/autonomia-differenziata-lep-risorse-coperture-corte-costituzionale-sentenza/); [Il Post, 19.11.2023](https://www.ilpost.it/2023/11/19/autonomia-differenziata-regioni-calderoli-lep-giorgetti/); [UPB, Audizione LEP 22.1.2026](https://www.upbilancio.it/wp-content/uploads/2026/01/CS_Audizione-LEP_22_01_2026.pdf). Sono fonti secondarie da verificare sull'atto parlamentare originale.
+
+---
+
+## Logistica green: regole delle coperture e quadro delle varianti
+
+*Le proposte 04-P7, 04-P8 e 04-P9 nascono dal confronto sulla logistica delle merci (`benchmark/logistica_green.md`), 9 novembre 2026.*
+
+- **Nessun deficit, nessuna nuova tassa** su casa, eredità, affitti, IVA, lavoro o pensioni.
+- **Quota vincolata di SAD01.** La misura SAD01 del menu coperture (rimborso accise gasolio dell'autotrasporto) destina già il 25% del gettito lordo (0,10-0,15 mld a regime) a rinnovo flotte e intermodalità. Il gettito netto di SAD01 nel menu (0,30-0,50) è **già al netto** di questa quota. Le schede 04-P7 e 04-P8 ne sono la destinazione esplicita: 0,05 ciascuna, cioè 0,10 in tutto, il minimo della forchetta. Questa quota **non riduce** il gettito netto di SAD01 disponibile per altre proposte, e non va contata una seconda volta.
+- **Altre coperture**: SAD generale (solo in 04-P7, con il conflitto dichiarato con il dividendo climatico 03-P1), RIALLOCAZIONE (risorse dell'autotrasporto riorientate dentro lo stesso settore, capitoli MIT per la digitalizzazione), COESIONE_2127 (solo investimenti una tantum 2027-29), ETS2_FSC (solo nella PIENA di 04-P9, per microimprese ammissibili al Fondo sociale per il clima).
+- **Non usati**: ETS (esaurito), RISPARMI_ATTESI, DEFICIT, ALTRO. I fondi UE a gestione diretta (CEF Trasporti e AFIF, BEI, Innovation Fund) sono una **leva in più**, non contata come copertura: vanno alle imprese per bando e non sono programmabili.
+- **Pedaggi con componente CO2 (Eurovignetta, dir. 2022/362).** È una **tariffa**, non un'entrata del bilancio statale per le autostrade in concessione. La offriamo solo come **opzione** in 04-P8 (fondo TARIFFE, con l'effetto distributivo dichiarato), non come base di copertura.
+- **Coerenza con 04-P4.** Nessuna delle tre schede finanzia grandi opere nuove. 04-P7 finanzia solo piccoli interventi (raccordi, binari di terminal, manovre) e dà priorità ad adeguamenti già finanziati. Ogni intervento sopra 500 mln resta soggetto alla prova dei numeri di 04-P4.
+
+| Proposta | PIENA (costo 2029 / intensità) | ESSENZIALE | PILOTA / ZERO |
+|---|---|---|---|
+| 04-P7 Dal porto al treno | 0,27 / 1 | 0,16 / 0,6 | PILOTA 0,06 / 0,3 |
+| 04-P8 Camion a zero emissioni | 0,15 / 1 | 0,08 / 0,55 | ZERO 0 / 0,25 |
+| 04-P9 Consegne pulite in città | 0,07 / 1 | 0,04 / 0,6 | ZERO 0 / 0,45 |
+| **Totale** | **0,49** | **0,28** | **0,06** |
+
+**Raccomandazione dell'agente**: la PIENA di 04-P8 e di 04-P9, perché costano poco per tonnellata di CO2 evitata e le regole fanno gran parte del lavoro. Per 04-P7 la ESSENZIALE: il ferro merci serve, ma il costo per tonnellata di CO2 è alto se si guarda solo al clima (vedi benchmark). Totale 0,38 mld a regime, di cui 0,09 una tantum dalla coesione.
+
+---
+
+## 04-P7 — Dal porto al treno: più merci sul ferro
+
+**Problema in un dato.** Nel 2024 il treno ha portato l'**11,6% delle tonnellate-km di merci** su terra in Italia, contro il 16,6% della media UE, il 20,3% della Germania e il 30,3% dell'Austria (Eurostat `tran_hv_frmod`, 2024). E il dato peggiora: i treni-km merci sono scesi da 51,2 milioni nel 2024 a 49,4 nel 2025 (−3,5%) e di un altro 8,1% nel primo semestre 2026 (Fermerci su dati RFI, fonte di settore). Gli incentivi sono annuali e incerti: per il 2027 risultano circa 10 mln, contro 32 previsti per il 2026 (fonte di stampa, da verificare).
+
+**Soluzione.** Tre azioni sullo stesso percorso della merce, dal porto al treno.
+- Un **Fondo merci su ferro** decennale riunisce Sconto traccia (la cosiddetta "norma merci"), Ferrobonus e Ferrobonus portuale. Le regole restano stabili per 10 anni. Il contributo si paga per treno-km effettuato e cresce per il traffico **in più** rispetto all'anno base; dopo 5 anni scende gradualmente.
+- **Ultimo miglio**: raccordi, binari nei porti e negli interporti, terminal adatti ai treni da 750 metri. Sono piccoli interventi, finanziati con la coesione e i bandi CEF. Gli adeguamenti già finanziati sui corridoi TEN-T (moduli da 750 m, sagoma P400 per i semirimorchi) hanno priorità nel contratto di programma RFI.
+- **Porti puliti e veloci**: le banchine elettrificate con il PNRR (cold ironing) devono entrare in servizio. Le navi in sosta dove la presa c'è e non la usano pagano tasse portuali più alte, a gettito invariato per l'Autorità portuale. Si completano lo sportello unico doganale e dei controlli e l'interoperabilità dei Port Community System con la Piattaforma logistica nazionale e i documenti di trasporto digitali (e-CMR, regolamento eFTI).
+
+| Variante | Contenuto | 2027 | 2028 | 2029 | Intensità | Fondi a regime |
+|---|---|---|---|---|---|---|
+| PIENA | Fondo decennale 0,15 mld/anno + ultimo miglio 0,10 mld/anno (2027-29) + porti e digitale | 0,22 | 0,26 | 0,27 | 1 | SAD 0,15 (di cui 0,05 quota vincolata SAD01); COESIONE 0,10; RIALLOCAZIONE 0,02 |
+| ESSENZIALE | Fondo 0,10 mld/anno per 5 anni + ultimo miglio nei porti e interporti del Mezzogiorno + porti e digitale | 0,14 | 0,16 | 0,16 | 0,6 | SAD 0,10 (di cui 0,05 quota vincolata SAD01); COESIONE 0,05; RIALLOCAZIONE 0,01 |
+| PILOTA | Fondo stabilizzato a 0,05 mld/anno solo con la quota vincolata SAD01 + regole su cold ironing e sportello unico | 0,06 | 0,06 | 0,06 | 0,3 | SAD 0,05 (quota vincolata SAD01); RIALLOCAZIONE 0,01 |
+
+**Articolato normativo essenziale** (legge di bilancio)
+
+> **Art. 1 (Finalità).** Al fine di aumentare la quota del trasporto ferroviario delle merci, ridurre le emissioni e l'incidentalità del trasporto stradale e rendere più efficiente il passaggio delle merci dai porti alla rete ferroviaria, la presente legge istituisce il Fondo per il trasporto merci su ferro e reca disposizioni sull'ultimo miglio ferroviario, sull'elettrificazione delle banchine e sulla digitalizzazione dei documenti di trasporto.
+>
+> **Art. 2 (Fondo per il trasporto merci su ferro).** È istituito presso il Ministero delle infrastrutture e dei trasporti il Fondo per il trasporto merci su ferro, di durata decennale, nel quale confluiscono le risorse per i servizi di trasporto ferroviario merci, per il Ferrobonus e per le manovre ferroviarie nei porti. Il Fondo eroga contributi per treno-chilometro effettuato, maggiorati per il traffico eccedente quello dell'anno base. I criteri restano invariati per cinque anni; dal sesto anno il contributo unitario si riduce in misura non superiore al 10 per cento annuo. Gli aiuti sono concessi nel rispetto della disciplina europea sugli aiuti di Stato.
+>
+> **Art. 3 (Ultimo miglio).** Il Ministero delle infrastrutture e dei trasporti adotta entro sei mesi un programma triennale di interventi di importo unitario non superiore a 50 milioni di euro per raccordi ferroviari, binari portuali e interportuali e adeguamento dei terminal ai treni di 750 metri. Il contratto di programma con il gestore dell'infrastruttura dà priorità agli adeguamenti a modulo 750 metri e a sagoma P400 già finanziati sui corridoi della rete TEN-T. Gli interventi di costo superiore a 500 milioni di euro restano soggetti alla valutazione di cui alla legge istitutiva dell'Ufficio per la valutazione degli investimenti pubblici.
+>
+> **Art. 4 (Banchine elettrificate).** Le Autorità di sistema portuale mettono in esercizio le infrastrutture di fornitura di energia elettrica da terra realizzate con risorse pubbliche entro dodici mesi dal collaudo, secondo le linee guida nazionali per le concessioni del servizio. Le Autorità modulano le tasse portuali in modo da rendere più onerosa la sosta delle navi che, potendo, non si collegano, a gettito complessivo invariato.
+>
+> **Art. 5 (Porti digitali).** Entro diciotto mesi lo sportello unico doganale e dei controlli è operativo in tutti i porti di sistema e i Port Community System sono interoperabili con la Piattaforma logistica nazionale. Le amministrazioni accettano in formato elettronico la lettera di vettura e-CMR e le informazioni sul trasporto merci di cui al regolamento (UE) 2020/1056.
+>
+> **Art. 6 (Copertura finanziaria).** Agli oneri di cui all'articolo 2, pari a 0,10 miliardi nel 2027, 0,14 nel 2028 e 0,15 dal 2029, si provvede mediante la quota del maggior gettito derivante dalla revisione del rimborso dell'accisa sul gasolio per autotrazione destinata all'intermodalità e mediante la riduzione dei sussidi ambientalmente dannosi di cui all'allegato X. Agli oneri di cui all'articolo 3 si provvede nei limiti delle risorse dei programmi della politica di coesione 2021-2027. Agli oneri di cui all'articolo 5 si provvede mediante riduzione delle autorizzazioni di spesa di cui all'allegato Y.
+
+**Cronoprogramma**
+
+| Fase | Cosa | Chi |
+|---|---|---|
+| 100 giorni | Norma in legge di bilancio; notifica del Fondo alla Commissione UE (aiuti di Stato); elenco dei raccordi e dei terminal da adeguare | MIT, MEF, RFI, Fermerci, Assoporti |
+| 12 mesi | Primo bando del Fondo con regole decennali; programma ultimo miglio approvato; prime banchine elettrificate in esercizio; tasse portuali modulate | MIT, RFI, Autorità di sistema portuale, ART |
+| Fine legislatura | Quota ferroviaria in risalita; sportello unico in tutti i porti di sistema; valutazione controfattuale del Fondo pubblicata | MIT, ISTAT, UPB, università (valutazione) |
+
+**Indicatori**
+
+| KPI | Base | Obiettivo a 3 anni | a 5 anni |
+|---|---|---|---|
+| Quota del treno sulle tonnellate-km di merci su terra | 11,6% (2024, Eurostat `tran_hv_frmod`) | 12,5% | 14% (PIENA); 13% (ESSENZIALE) |
+| Treni-km merci sulla rete RFI | 49,4 mln (2025, Fermerci/RFI, fonte di settore) | 52 mln | 56 mln (PIENA) |
+| Banchine elettrificate con fondi pubblici effettivamente in esercizio | da censire entro 100 giorni (circa 50 interventi finanziati, fonte di settore) | 70% | 100% |
+
+**Rischi e mitigazioni.** *Contributo che paga traffico che ci sarebbe comunque* → la maggiorazione premia solo il traffico in più rispetto all'anno base; valutazione controfattuale a 3 anni. *Calo dovuto ai cantieri sulla rete, non ai prezzi* → RFI pubblica in anticipo il piano delle interruzioni e garantisce itinerari alternativi per le merci. *Costo per tonnellata di CO2 alto se si conta solo il clima* → il Fondo è giustificato anche da meno incidenti, meno congestione e meno usura delle strade; se la valutazione non lo conferma, il Fondo scende alla ESSENZIALE. *Conflitto con il dividendo climatico 03-P1 sulla quota SAD generale* → la ESSENZIALE ne usa metà, la PILOTA nessuna. *Gettito SAD01 graduale (regime 2031)* → nel 2027-28 la quota vincolata è piccola; il Fondo cresce con il gettito accertato. *Banchine elettrificate inutilizzate* → obbligo di messa in esercizio e tasse portuali modulate.
+
+---
+
+## 04-P8 — Camion a zero emissioni: un patto per la transizione dell'autotrasporto
+
+**Problema in un dato.** I veicoli commerciali producono **circa il 32% delle emissioni di gas serra del trasporto su strada** (ISPRA, Emissioni del settore trasporti, 2024). Nel 2025 in Italia sono stati immatricolati **80 camion pesanti a zero emissioni, lo 0,3% del segmento**, contro l'1,9% della media UE (analisi su dati ICCT, 2025). Nel primo semestre 2026 i camion elettrici sono calati del 48,9%, mentre in Europa crescevano del 47,7% (UNRAE). Intanto lo Stato spende **228 mln l'anno per l'autotrasporto**, di cui 140 per ridurre i pedaggi, anche ai camion Euro V (decreto MIT 30 maggio 2025).
+
+**Soluzione.** Un patto con gli autotrasportatori: le risorse restano al settore, ma premiano chi passa a mezzi puliti.
+- **Le risorse esistenti cambiano obiettivo.** Dal 2028 la riduzione dei pedaggi vale solo per Euro VI e mezzi a zero emissioni, con lo sconto più alto ai secondi. È coerente con SAD01, che dal 2028 toglie il rimborso del gasolio agli Euro 5. Una parte del capitolo autotrasporto passa al rinnovo della flotta.
+- **Contributo per i camion a zero emissioni.** Copre parte della differenza di prezzo con il diesel. È assegnato con **aste**: vince chi chiede meno euro per tonnellata di CO2 evitata (come i bandi tedeschi KsNI). Le piccole imprese hanno una riserva e un contributo per la ricarica in deposito, che oggi non ha incentivi.
+- **Ricarica pesante sulla rete TEN-T.** Il regolamento AFIR chiede stazioni per camion ogni 60 km sulla rete centrale entro il 2030. Lo Stato mette a gara i tratti dove il mercato non arriva (soprattutto al Sud), con un contributo solo per la parte non redditizia. Le connessioni alla rete elettrica hanno uno sportello unico con Terna e i distributori.
+- **Transizione giusta.** Formazione di autisti e meccanici sui mezzi elettrici; priorità ai padroncini con un solo veicolo; calendario noto con 12 mesi di anticipo. Dopo il 2030 il percorso prosegue con le compensazioni previste da SAD13, se scelta.
+- **Opzione T: pedaggi con componente CO2 (Eurovignetta).** L'Italia è in ritardo nel recepire la direttiva 2022/362 ed è stata deferita alla Corte di giustizia UE. Il recepimento con classi CO2 renderebbe i camion elettrici più convenienti. **È una tariffa** pagata dagli autotrasportatori (fondo TARIFFE), con effetto sui prezzi dei trasporti. Non è nella base di copertura: si sceglie a parte.
+
+| Variante | Contenuto | 2027 | 2028 | 2029 | Intensità | Fondi a regime |
+|---|---|---|---|---|---|---|
+| PIENA | Circa 1.000 camion a zero emissioni l'anno con aste + ricarica in deposito per PMI + gare per la ricarica TEN-T (2027-29) + riorientamento pedaggi | 0,08 | 0,13 | 0,15 | 1 | SAD 0,05 (quota vincolata SAD01); RIALLOCAZIONE 0,06; COESIONE 0,04 |
+| ESSENZIALE | Circa 600 camion l'anno con aste + gare per la ricarica solo nel Mezzogiorno + riorientamento pedaggi | 0,04 | 0,07 | 0,08 | 0,55 | SAD 0,05 (quota vincolata SAD01); COESIONE 0,02; RIALLOCAZIONE 0,01 |
+| ZERO | Solo regole: pedaggi ridotti solo per Euro VI e zero emissioni a spesa invariata, piano nazionale della ricarica pesante, sportello unico per le connessioni | 0 | 0 | 0 | 0,25 | — |
+
+**Articolato normativo essenziale** (legge di bilancio e decreto MIT-MASE)
+
+> **Art. 1 (Finalità).** Al fine di ridurre le emissioni del trasporto merci su strada e di accompagnare le imprese di autotrasporto nella transizione verso veicoli a zero emissioni, la presente legge riorienta le risorse destinate al settore e istituisce il Programma per i veicoli pesanti a zero emissioni.
+>
+> **Art. 2 (Riorientamento delle risorse per l'autotrasporto).** Dal 1° gennaio 2028 la riduzione compensata dei pedaggi autostradali spetta solo per i transiti di veicoli di classe Euro VI o a zero emissioni, con percentuali maggiorate per questi ultimi. Le risorse destinate all'autotrasporto sono ridotte di 60 milioni di euro annui, che sono destinati al Programma di cui all'articolo 3.
+>
+> **Art. 3 (Programma per i veicoli pesanti a zero emissioni).** Il Ministero delle infrastrutture e dei trasporti assegna contributi per l'acquisto di veicoli pesanti a zero emissioni e per le infrastrutture di ricarica in deposito mediante procedure competitive, in base al contributo richiesto per tonnellata di anidride carbonica evitata. Una quota non inferiore al 30 per cento è riservata alle imprese con meno di dieci veicoli. Il contributo è revocato in caso di cessione del veicolo all'estero entro cinque anni.
+>
+> **Art. 4 (Ricarica dei veicoli pesanti).** Entro sei mesi il Ministero dell'ambiente e della sicurezza energetica, d'intesa con il Ministero delle infrastrutture e dei trasporti, adotta il piano nazionale della ricarica dei veicoli pesanti sulla rete TEN-T in attuazione del regolamento (UE) 2023/1804. Per le tratte in cui nessun operatore si candida, sono bandite gare per contributi a copertura della sola quota non remunerativa dell'investimento. Il gestore della rete di trasmissione e i distributori istituiscono uno sportello unico per le connessioni delle stazioni di ricarica, con tempi massimi pubblicati.
+>
+> **Art. 5 (Transizione giusta).** Nell'ambito delle risorse per la formazione nel settore dell'autotrasporto, una quota è riservata alla formazione di conducenti e manutentori di veicoli a zero emissioni. Il calendario delle modifiche ai benefici del settore è pubblicato con almeno dodici mesi di anticipo.
+>
+> **Art. 6 (Copertura finanziaria).** Agli oneri, pari a 0,08 miliardi nel 2027, 0,13 nel 2028 e 0,15 dal 2029, si provvede: a) mediante la quota del maggior gettito derivante dalla revisione del rimborso dell'accisa sul gasolio per autotrazione destinata al rinnovo delle flotte; b) mediante le risorse di cui all'articolo 2; c) nei limiti delle risorse dei programmi della politica di coesione 2021-2027, per l'articolo 4.
+>
+> *Opzione T, articolo aggiuntivo (solo se scelta): recepimento della direttiva (UE) 2022/362 con variazione dei pedaggi dei veicoli pesanti per classe di emissione di CO2, anche sulle autostrade in concessione alla scadenza o revisione dei piani economico-finanziari; i maggiori introiti sono destinati al Programma di cui all'articolo 3.*
+
+**Cronoprogramma**
+
+| Fase | Cosa | Chi |
+|---|---|---|
+| 100 giorni | Norma in legge di bilancio; accordo con le associazioni dell'autotrasporto sul calendario; notifica del regime di aiuti alla Commissione UE | MIT, MASE, Albo autotrasportatori, associazioni di categoria |
+| 12 mesi | Prima asta per i camion a zero emissioni; piano nazionale della ricarica pesante; prime gare sulle tratte scoperte; sportello unico per le connessioni | MIT, MASE, Terna, distributori, concessionari autostradali |
+| Fine legislatura | Ricarica pesante su tutta la rete centrale TEN-T; quota di camion a zero emissioni vicina alla media UE; valutazione del costo per tonnellata di CO2 evitata | MIT, MASE, ISPRA, UPB |
+
+**Indicatori**
+
+| KPI | Base | Obiettivo a 3 anni | a 5 anni |
+|---|---|---|---|
+| Quota di camion pesanti a zero emissioni sulle immatricolazioni | 0,3% (2025, dati ICCT) | 3% | 8% (PIENA); 5% (ESSENZIALE) |
+| Rete centrale TEN-T coperta da stazioni per camion conformi AFIR | da misurare (piano nazionale, mese 6) | 50% | 100% (obbligo AFIR al 2030) |
+| Costo pubblico per tonnellata di CO2 evitata nelle aste | non misurato (2026) | ≤ 200 € | ≤ 150 € |
+
+**Rischi e mitigazioni.** *Protesta di categoria per la riduzione dei pedaggi agli Euro V* → le risorse restano al settore; calendario noto con 12 mesi di anticipo; riserva per le piccole imprese. *Camion comprati con il contributo e poi venduti all'estero* → revoca entro 5 anni. *Costruttori che alzano i prezzi assorbendo il contributo* → aste in euro per tonnellata di CO2, con tetto. *Ricarica che non arriva in tempo* → gare sulle tratte scoperte e sportello unico per le connessioni. *Doppio finanziamento con gli incentivi MASE ai veicoli commerciali* → questi riguardano i mezzi leggeri; la scheda solo i pesanti. *Opzione T percepita come nuova tassa* → resta separata; se scelta, il gettito torna al settore.
+
+---
+
+## 04-P9 — Consegne pulite in città: zone a emissioni zero per le merci
+
+**Problema in un dato.** Nel 2025 solo il **4,4% dei furgoni nuovi venduti in Italia era elettrico** (UNRAE, 189.050 veicoli commerciali leggeri immatricolati). Nei Paesi Bassi, dove dal 2025 molte città hanno zone a emissioni zero per le merci, nel primo semestre 2025 la quota è stata del **78,4%** (Clean Cities Campaign, fonte di settore). In Italia ogni Comune ha regole diverse per le consegne (ZTL, orari, classi), e chi consegna in più città non può programmare il cambio dei mezzi.
+
+**Soluzione.** Regole comuni e prevedibili, poi un aiuto mirato a chi è piccolo.
+- **Legge quadro sulle zone a emissioni zero per le merci.** Nei centri delle 14 città metropolitane le consegne con furgoni e camion diventano a emissioni zero dal 2030, con un preavviso di almeno 4 anni e deroghe per i mezzi già circolanti fino al 2033. Gli altri capoluoghi possono adottare la stessa regola. Le classi dei veicoli, i permessi e la segnaletica sono **uguali in tutta Italia**.
+- **Micro-hub e piazzole digitali.** I Comuni mettono a disposizione spazi pubblici inutilizzati (ex mercati, parcheggi) per piccoli depositi di quartiere. Da lì partono cargo bike e furgoni elettrici. Le piazzole di carico e scarico si prenotano da app, con dati aperti.
+- **Piani della logistica urbana.** Le città metropolitane li inseriscono nei Piani urbani della mobilità sostenibile (PUMS).
+- **Aiuto ai piccoli.** Le microimprese di consegna e le cooperative di ciclologistica ricevono un contributo per le cargo bike e per la ricarica, con risorse del Fondo sociale per il clima (solo PIENA). Gli incentivi ai furgoni elettrici restano quelli MASE già esistenti, senza duplicazioni.
+
+| Variante | Contenuto | 2027 | 2028 | 2029 | Intensità | Fondi a regime |
+|---|---|---|---|---|---|---|
+| PIENA | Legge quadro + micro-hub e piazzole digitali nelle 14 città metropolitane + contributi cargo bike per microimprese | 0,03 | 0,07 | 0,07 | 1 | COESIONE 0,04; ETS2_FSC 0,02; RIALLOCAZIONE 0,01 |
+| ESSENZIALE | Legge quadro + micro-hub e piazzole digitali, senza contributi del Fondo sociale per il clima | 0,02 | 0,04 | 0,04 | 0,6 | COESIONE 0,03; RIALLOCAZIONE 0,01 |
+| ZERO | Solo la legge quadro: zone a emissioni zero per le merci con regole nazionali uniche e preavviso di 4 anni | 0 | 0 | 0 | 0,45 | — |
+
+*Nota del coordinamento (9 novembre 2026): le quote indicate su ETS2_FSC sono contate come RIALLOCAZIONE, perché nel registro dei fondi ETS2_FSC ha capienza minima zero e non è una copertura certa. Se i Fondo sociale per il clima saranno assegnati, potranno sostituire la riallocazione.*
+
+**Articolato normativo essenziale** (legge ordinaria e modifica del Codice della strada)
+
+> **Art. 1 (Finalità).** Al fine di ridurre le emissioni, l'inquinamento dell'aria e il rumore nei centri urbani e di dare alle imprese regole uniformi e prevedibili, la presente legge disciplina le zone a emissioni zero per la distribuzione urbana delle merci.
+>
+> **Art. 2 (Zone a emissioni zero per le merci).** I Comuni capoluogo delle città metropolitane istituiscono, entro il 1° gennaio 2030, zone nelle quali la circolazione dei veicoli destinati al trasporto di merci è consentita solo ai veicoli a emissioni zero. Gli altri Comuni capoluogo possono istituirle. La deliberazione è adottata almeno quattro anni prima dell'entrata in vigore. I veicoli immatricolati prima della deliberazione possono accedere fino al 31 dicembre 2033.
+>
+> **Art. 3 (Regole uniche).** Con decreto del Ministro delle infrastrutture e dei trasporti, sentita la Conferenza unificata, sono definiti in modo uniforme per tutto il territorio nazionale le categorie di veicoli, la segnaletica, le deroghe, i permessi e il sistema di controllo delle zone di cui all'articolo 2.
+>
+> **Art. 4 (Micro-hub e piazzole).** I Comuni possono concedere, anche a titolo gratuito e con procedura a evidenza pubblica, aree e immobili pubblici inutilizzati per l'insediamento di centri di distribuzione urbana di prossimità. Le piazzole di carico e scarico sono prenotabili con sistemi digitali i cui dati sono pubblicati in formato aperto.
+>
+> **Art. 5 (Piani della logistica urbana).** Le città metropolitane integrano nei Piani urbani della mobilità sostenibile un piano della logistica urbana sostenibile entro due anni.
+>
+> **Art. 6 (Copertura finanziaria).** Agli oneri per gli investimenti di cui all'articolo 4 si provvede nei limiti delle risorse dei programmi della politica di coesione 2021-2027 destinate alla mobilità urbana sostenibile. Ai contributi per le microimprese si provvede nei limiti delle risorse del Fondo sociale per il clima. Agli oneri di cui all'articolo 3 si provvede mediante riduzione delle autorizzazioni di spesa di cui all'allegato Y. Nella variante ZERO la legge non comporta nuovi o maggiori oneri.
+
+**Cronoprogramma**
+
+| Fase | Cosa | Chi |
+|---|---|---|
+| 100 giorni | Disegno di legge approvato dal CdM; decreto sulle regole uniche in consultazione con Comuni e operatori | MIT, MASE, ANCI, associazioni della logistica e del commercio |
+| 12 mesi | Legge approvata; prime 5 città metropolitane con la delibera e il calendario; primi micro-hub in gara | Città metropolitane, Comuni capoluogo, Regioni (FESR) |
+| Fine legislatura | Delibere in tutte le 14 città metropolitane; micro-hub attivi; quota di furgoni elettrici in forte crescita | MIT, ISTAT, UNRAE/ACI (dati), UPB |
+
+**Indicatori**
+
+| KPI | Base | Obiettivo a 3 anni | a 5 anni |
+|---|---|---|---|
+| Città metropolitane con zona a emissioni zero per le merci deliberata | 0 su 14 (2026) | 8 | 14 |
+| Quota di furgoni elettrici sulle nuove immatricolazioni | 4,4% (2025, UNRAE) | 15% | 30% |
+| Micro-hub urbani pubblici o in concessione attivi | da censire (mese 6) | 40 | 100 (PIENA) |
+
+**Rischi e mitigazioni.** *Costi per i piccoli commercianti e artigiani* → preavviso di 4 anni, deroghe fino al 2033, contributi alle microimprese nella PIENA. *Regole diverse da città a città* → decreto nazionale unico (art. 3). *Spostamento delle consegne fuori dalla zona* → micro-hub ai margini e piazzole prenotabili. *Offerta di furgoni elettrici insufficiente* → gli standard UE sulle emissioni dei nuovi furgoni spingono l'offerta; la scadenza del 2030 coincide. *Città che non deliberano* → la quota di coesione per i micro-hub va solo alle città con la delibera adottata.
+
+---
+
+### Fonti dei dati usati
+
+Vedi `benchmark/logistica_green.md` per l'elenco completo con link. Principali: Eurostat `tran_hv_frmod` (2024); ISPRA, *Le emissioni nazionali di gas serra – Settore Trasporti 2024* (2026); Fermerci/RFI via Shipping Italy e Teleborsa (2026, fonte di settore); decreto MIT 30 maggio 2025 (risorse autotrasporto); ICCT e UNRAE (immatricolazioni 2025-26); Clean Cities Campaign (Paesi Bassi, 2025); regolamento (UE) 2023/1804 (AFIR); direttiva (UE) 2022/362 (Eurovignetta).
