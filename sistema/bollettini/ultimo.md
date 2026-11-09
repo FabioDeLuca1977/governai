@@ -71,3 +71,23 @@ Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
 - consiglio: 95 previsioni, 0 verificate oggi, 0 verificate in totale
 - verifica sedute: 2 attive, 2 confermate, 0 da riesaminare
 - modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
+## 6. Nota del livello AI
+
+**Cosa è successo.** Oggi non sono arrivati dati statistici nuovi. I tre documenti nuovi non toccano numeri usati dal programma:
+- le delibere 118/2026/PRSE e 120/2026/PRSE della Corte dei conti, Sezione di controllo per l'Umbria, riguardano i bilanci di due piccoli Comuni (Monteleone di Spoleto e Costacciaro);
+- il decreto-legge 6 novembre 2026, n. 200, proroga di 45 giorni al massimo le funzioni dei vertici ANAC, solo per gli atti ordinari e urgenti, e non ha effetti finanziari.
+
+Restano quindi invariati fondi, coperture e conformità giuridica. Il quadro macro resta teso: inflazione al 5,6% (ottobre, provvisorio), PIL fermo nel terzo trimestre, debito al 139,9% del PIL nel secondo trimestre, fiducia dei consumatori a −23,3. Sono attive quattro allerte: inflazione alta, inflazione in salita, debito in salita e fiducia in calo.
+
+**Opzioni sostenibili per il momento** (tutte senza deficit, con le coperture già nel programma del momento):
+1. **Proteggere i redditi senza spesa nuova:** soglia di dignità salariale nella variante a costo zero (02-C1 ZERO), cioè il trattamento del CCNL più rappresentativo come minimo ai sensi dell'art. 36 Cost.
+2. **Energia a costo regolatorio:** CfD a due vie e mappa delle aree idonee (03-P2 ZERO o ESSENZIALE), per trasferire in bolletta i costi bassi delle rinnovabili e frenare la componente energetica dell'inflazione.
+3. **Povertà grave per gradi:** accesso all'ADI senza requisito categoriale per i nuclei con ISEE fino a 6.000 euro (02-C4 ESSENZIALE), finanziato solo con coperture certificate.
+4. **Trasporto pubblico:** indicizzazione del Fondo TPL e tariffa sociale (04-P3 ESSENZIALE). La variante piena resta esclusa per i profili di incompatibilità con gli artt. 117-119 Cost.
+5. **Prudenza sul debito:** nessun aumento della spesa per la Difesa finanziato a debito (07-C5 resta sospesa) e rinvio delle coperture che pesano sui consumi finché la fiducia non risale.
+
+**Decisioni che spettano alle persone.**
+- Se, con l'inflazione al 5,6%, dare la precedenza alla tutela dei redditi (02-C1, 02-C4) o al contenimento dei prezzi dell'energia (03-P2), visto che lo spazio di copertura è lo stesso.
+- Se indicizzare all'inflazione i costi nominali delle misure già adottate, accettando di riaprire le coperture.
+- Se confermare la sospensione di 07-C5 finché il debito/PIL non torna a scendere.
+- Quando esaminare le tre domande al Consiglio ancora in coda: servizi che rendono, sprechi che non tornano, idee dagli altri programmi.
