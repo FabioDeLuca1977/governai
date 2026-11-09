@@ -4,7 +4,7 @@
 
 ## Diritto tributario
 
-*Esperto di diritto tributario, 8 novembre 2026.*
+*Verifica di diritto tributario, 8 novembre 2026.*
 
 ## IVA (direttiva 2006/112/CE, modificata dalla 2022/542)
 - **Due aliquote ridotte al massimo**, entrambe non inferiori al 5%, solo sui beni e servizi dell'allegato III. L'Italia le usa già (5% e 10%): una nuova aliquota ridotta impone di sopprimerne una.

@@ -1,40 +1,41 @@
 {
- "data": "2026-11-09T09:20:32",
+ "data": "2026-11-09T15:47:07",
  "prima_esecuzione": false,
  "eurostat_aggiornati": [],
  "file_aggiornati": [],
  "documenti_nuovi": [
   {
-   "pagina": "Corte dei conti",
+   "pagina": "ISTAT - Home e comunicati",
    "aree": [
-    "00",
-    "04"
-   ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=208d8726-b6da-4048-beb7-de0b13d18a53"
-  },
-  {
-   "pagina": "Corte dei conti",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=722cee96-7a15-4b7e-a4d7-51e891c8ee67"
-  },
-  {
-   "pagina": "Gazzetta Ufficiale",
-   "aree": [
-    "00",
-    "01",
     "02",
-    "03",
-    "04",
     "05",
-    "06",
-    "07",
-    "08",
-    "09"
+    "06"
    ],
-   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/06/26G00223/sg"
+   "documento": "https://www.istat.it/documenti/sistema-informativo-6/"
+  },
+  {
+   "pagina": "Corte dei conti",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=2b1c4d96-eecd-4863-946a-e2a4f71726e4"
+  },
+  {
+   "pagina": "Corte dei conti",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=df6bf072-c88a-4eda-aa56-f5f5947aa1a7"
+  },
+  {
+   "pagina": "Corte dei conti",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=ffdaa75d-bd65-4a98-b5e5-068ff3adb288"
   }
  ],
  "errori": [],

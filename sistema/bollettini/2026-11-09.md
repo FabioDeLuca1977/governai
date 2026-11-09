@@ -1,6 +1,6 @@
 # Bollettino GovernAI — 2026-11-09
 
-*Generato automaticamente da `sistema/pipeline.py` alle 09:22. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 15:49. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
@@ -8,10 +8,11 @@
 - Dataset Eurostat aggiornati: nessuno
 - File ufficiali aggiornati: 0
 - Serie cambiate e archiviate in `dati/storico/`: nessuna
-- Documenti nuovi sulle pagine osservate: 3
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=208d8726-b6da-4048-beb7-de0b13d18a53
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=722cee96-7a15-4b7e-a4d7-51e891c8ee67
-  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/06/26G00223/sg
+- Documenti nuovi sulle pagine osservate: 4
+  - ISTAT - Home e comunicati: https://www.istat.it/documenti/sistema-informativo-6/
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=2b1c4d96-eecd-4863-946a-e2a4f71726e4
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=df6bf072-c88a-4eda-aa56-f5f5947aa1a7
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=ffdaa75d-bd65-4a98-b5e5-068ff3adb288
 
 ## 2. Cruscotto
 
@@ -55,39 +56,24 @@ Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
 
 ## 5. Revisione AI richiesta
 
-**3 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=208d8726-b6da-4048-beb7-de0b13d18a53 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=722cee96-7a15-4b7e-a4d7-51e891c8ee67 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/06/26G00223/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+**4 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
+- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/documenti/sistema-informativo-6/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=2b1c4d96-eecd-4863-946a-e2a4f71726e4 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=df6bf072-c88a-4eda-aa56-f5f5947aa1a7 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=ffdaa75d-bd65-4a98-b5e5-068ff3adb288 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
 
 ## Registro tecnico
 
-- sentinella: sentinella: nessun aggiornamento; Eurostat aggiornati 0, file 0, documenti nuovi 3, serie cambiate 0, errori 0
+- sentinella: sentinella: nessun aggiornamento; Eurostat aggiornati 0, file 0, documenti nuovi 4, serie cambiate 0, errori 0
 - apprendimento: 189 KPI, stati {'manuale': 143, 'in osservazione': 46}, aree calibrate 0
 - legislazione: archivio GU: 576 atti, 576 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
-- europa: europa: 777 atti GU L in archivio, 292 negli ultimi 30 giorni; 144 direttive con termine (23 critiche, 11 alte); 84 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 24
+- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
 - giurisprudenza: pronunce citate: 81; verificate: 81; da controllare: []
 - costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
 - consiglio: 95 previsioni, 0 verificate oggi, 0 verificate in totale
 - verifica sedute: 2 attive, 2 confermate, 0 da riesaminare
 - modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
+
 ## 6. Nota del livello AI
 
-**Cosa è successo.** Oggi non sono arrivati dati statistici nuovi. I tre documenti nuovi non toccano numeri usati dal programma:
-- le delibere 118/2026/PRSE e 120/2026/PRSE della Corte dei conti, Sezione di controllo per l'Umbria, riguardano i bilanci di due piccoli Comuni (Monteleone di Spoleto e Costacciaro);
-- il decreto-legge 6 novembre 2026, n. 200, proroga di 45 giorni al massimo le funzioni dei vertici ANAC, solo per gli atti ordinari e urgenti, e non ha effetti finanziari.
-
-Restano quindi invariati fondi, coperture e conformità giuridica. Il quadro macro resta teso: inflazione al 5,6% (ottobre, provvisorio), PIL fermo nel terzo trimestre, debito al 139,9% del PIL nel secondo trimestre, fiducia dei consumatori a −23,3. Sono attive quattro allerte: inflazione alta, inflazione in salita, debito in salita e fiducia in calo.
-
-**Opzioni sostenibili per il momento** (tutte senza deficit, con le coperture già nel programma del momento):
-1. **Proteggere i redditi senza spesa nuova:** soglia di dignità salariale nella variante a costo zero (02-C1 ZERO), cioè il trattamento del CCNL più rappresentativo come minimo ai sensi dell'art. 36 Cost.
-2. **Energia a costo regolatorio:** CfD a due vie e mappa delle aree idonee (03-P2 ZERO o ESSENZIALE), per trasferire in bolletta i costi bassi delle rinnovabili e frenare la componente energetica dell'inflazione.
-3. **Povertà grave per gradi:** accesso all'ADI senza requisito categoriale per i nuclei con ISEE fino a 6.000 euro (02-C4 ESSENZIALE), finanziato solo con coperture certificate.
-4. **Trasporto pubblico:** indicizzazione del Fondo TPL e tariffa sociale (04-P3 ESSENZIALE). La variante piena resta esclusa per i profili di incompatibilità con gli artt. 117-119 Cost.
-5. **Prudenza sul debito:** nessun aumento della spesa per la Difesa finanziato a debito (07-C5 resta sospesa) e rinvio delle coperture che pesano sui consumi finché la fiducia non risale.
-
-**Decisioni che spettano alle persone.**
-- Se, con l'inflazione al 5,6%, dare la precedenza alla tutela dei redditi (02-C1, 02-C4) o al contenimento dei prezzi dell'energia (03-P2), visto che lo spazio di copertura è lo stesso.
-- Se indicizzare all'inflazione i costi nominali delle misure già adottate, accettando di riaprire le coperture.
-- Se confermare la sospensione di 07-C5 finché il debito/PIL non torna a scendere.
-- Quando esaminare le tre domande al Consiglio ancora in coda: servizi che rendono, sprechi che non tornano, idee dagli altri programmi.
+Livello AI non eseguito: credenziali dell'API di Claude assenti (impostare la variabile d'ambiente ANTHROPIC_API_KEY).

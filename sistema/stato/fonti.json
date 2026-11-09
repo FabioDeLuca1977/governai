@@ -302,6 +302,7 @@
    "https://www.istat.it/documenti/infografiche/",
    "https://www.istat.it/documenti/newsletter/",
    "https://www.istat.it/documenti/notizia/",
+   "https://www.istat.it/documenti/sistema-informativo-6/",
    "https://www.istat.it/evento/presentazione-rapporto-bes-2026-tendenze-e-prospettive-del-benessere-in-italia/",
    "https://www.istat.it/evento/progetto-insegnanti-istat-statistica-ufficiale-strumenti-per-docenti/",
    "https://www.istat.it/listituto/relazioni-internazionali/",
@@ -357,9 +358,9 @@
   "https://www.corteconti.it/": [
    "https://www.corteconti.it/HOME/Documenti",
    "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=208d8726-b6da-4048-beb7-de0b13d18a53",
-   "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=722cee96-7a15-4b7e-a4d7-51e891c8ee67",
-   "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=731e0fde-b4c0-49d5-b1cb-36a48d6ead2c",
-   "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=ed2d5988-eead-475b-8429-08e263312e77",
+   "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=2b1c4d96-eecd-4863-946a-e2a4f71726e4",
+   "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=df6bf072-c88a-4eda-aa56-f5f5947aa1a7",
+   "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=ffdaa75d-bd65-4a98-b5e5-068ff3adb288",
    "https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa",
    "https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=58186e50-e1d4-425f-bf66-15da02a362db",
    "https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=5dfe06ad-90ae-4176-a097-56fad8f6067a",
@@ -460,7 +461,6 @@
    "https://www.nato.int/en/about-us/official-texts-and-resources/NATO-archives/publicly-disclosed-nato-documents"
   ],
   "https://www.gazzettaufficiale.it/": [
-   "http://www.gazzettaufficiale.it/eli/id/2026/10/20/26G00205/sg",
    "http://www.gazzettaufficiale.it/eli/id/2026/10/21/26G00206/sg",
    "http://www.gazzettaufficiale.it/eli/id/2026/10/21/T-260172/s1",
    "http://www.gazzettaufficiale.it/eli/id/2026/10/22/26G00207/sg",

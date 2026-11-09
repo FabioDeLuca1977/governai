@@ -9,13 +9,13 @@ id,proposta,nome,unita,direzione,base,periodo_base,obiettivo,valori,ultimo,perio
 01-P3-b,01-P3,Tempo medio dei rimborsi IVA ai contribuenti affidabili,giorni,giu,,,60.0,"FID,INN",,,,,manuale
 01-P3-c,01-P3,Nuovi condoni o definizioni agevolate,numero,giu,,,0.0,"FID,CIT,EQU",,,,,manuale
 01-P4-a,01-P4,Quota di persone occupate in imprese con meno di 50 addetti,%,giu,60.0,2024,58.5,INN,60.0,2024,-0.0,,in osservazione
-01-P4-b,01-P4,Valore aggiunto per addetto dei beneficiari rispetto al gruppo di controllo,% vs controllo,su,0.0,2026,5.0,INN,,,,,manuale
+01-P4-b,01-P4,Valore aggiunto per addetto delle imprese beneficiarie rispetto al gruppo di controllo,% vs controllo,su,0.0,2026,5.0,INN,,,,,manuale
 01-P4-c,01-P4,"PIL per ora lavorata, indicatore di contesto",indice 2015=100,su,100.4,2025,104.0,"INN,BEN",100.374,2025,-0.007,,in osservazione
 01-P5-a,01-P5,Nuova capacità rinnovabile contrattualizzata con PPA aggregati di PMI,GW,su,0.0,2026,1.5,"FUT,INN",,,,,manuale
 01-P5-b,01-P5,PMI aderenti,imprese,su,0.0,2026,4000.0,INN,,,,,manuale
 01-P5-c,01-P5,Prezzo medio pagato dalle aderenti rispetto al PUN,% rispetto al PUN,giu,,2025,-15.0,"BEN,INN",,,,,manuale
 01-P6-a,01-P6,Quota di presenze in luglio e agosto,%,giu,34.5,2024,32.0,"BPA,BEN",34.27,2025,0.092,,in osservazione
-01-P6-b,01-P6,Quota del gettito dell'imposta destinata ai servizi per i residenti,% gettito,su,,,50.0,"BPA,BEN",,,,,manuale
+01-P6-b,01-P6,Quota del gettito dell'imposta destinata ai servizi per chi risiede nel territorio,% gettito,su,,,50.0,"BPA,BEN",,,,,manuale
 01-P6-c,01-P6,Comuni ad alta intensità con tariffa modulata,comuni,su,0.0,2026,150.0,BPA,,,,,manuale
 02-C1-a,02-C1,Persone occupate 18+ a rischio di povertà,%,giu,10.2,2025,8.5,"EQU,BEN",10.2,2025,-0.0,,in osservazione
 02-C1-b,02-C1,Retribuzioni contrattuali orarie reali rispetto a gen. 2021,% vs gen. 2021,su,-10.2,2026-09,-3.0,"BEN,EQU",-10.2,2026-09,0.0,,in osservazione
@@ -26,7 +26,7 @@ id,proposta,nome,unita,direzione,base,periodo_base,obiettivo,valori,ultimo,perio
 02-C2-d,02-C2,Padri che fruiscono del congedo di paternità,%,su,,,75.0,"EQU,RIS",,,,,manuale
 02-C3-a,02-C3,Spesa pensionistica / PIL rispetto allo scenario RGS,% PIL,giu,15.2,2025,,FUT,,,,,manuale
 02-C3-b,02-C3,Leggi previdenziali con relazione UPB sul costo per generazione,% leggi,su,0.0,2026,100.0,"FUT,FID",,,,,manuale
-02-C3-c,02-C3,Neoassunti iscritti alla previdenza complementare,punti %,su,,,,"FUT,BEN",,,,,manuale
+02-C3-c,02-C3,Persone neoassunte iscritte alla previdenza complementare,punti %,su,,,,"FUT,BEN",,,,,manuale
 02-C4-a,02-C4,"Incidenza della povertà assoluta, individui",%,giu,9.3,2025,8.0,"EQU,RIS",,,,,manuale
 02-C4-b,02-C4,"Incidenza della povertà assoluta, minori",%,giu,12.5,2025,10.5,"EQU,FUT",,,,,manuale
 02-C4-c,02-C4,Nuclei beneficiari con reddito da lavoro 12 mesi dopo l'ingresso,punti %,su,,,,"CIT,EQU",,,,,manuale
@@ -42,7 +42,7 @@ id,proposta,nome,unita,direzione,base,periodo_base,obiettivo,valori,ultimo,perio
 03-P2-a,03-P2,Quota rinnovabili sulla domanda elettrica,%,su,41.1,2025,62.0,"FUT,INN",,,,,manuale
 03-P2-b,03-P2,Nuova capacità rinnovabile installata,GW/anno,su,7.19,2025,10.0,"FUT,INN",,,,,manuale
 03-P2-c,03-P2,Tempo medio di autorizzazione degli impianti in area idonea,giorni,giu,,,,"INN,FID",,,,,manuale
-03-P3-a,03-P3,Perdite idriche totali in distribuzione,%,giu,42.4,2022,33.0,"FUT,BEN",42.35002822987733,2022,0.005,,in osservazione
+03-P3-a,03-P3,Perdite idriche totali in distribuzione,%,giu,42.4,2022,33.0,"FUT,BEN",42.350028229877324,2022,0.005,,in osservazione
 03-P3-b,03-P3,Regioni con perdite oltre il 50%,regioni,giu,5.0,2022,0.0,"EQU,FUT",5.0,2022,-0.0,,in osservazione
 03-P3-c,03-P3,Acqua reflua riutilizzata in agricoltura,mln m3,su,,,,FUT,,,,,manuale
 03-P4-a,03-P4,Imprese con polizza catastrofale,% imprese,su,16.0,2026-04,80.0,"SIC,FUT",,,,,manuale
@@ -54,7 +54,7 @@ id,proposta,nome,unita,direzione,base,periodo_base,obiettivo,valori,ultimo,perio
 04-P1-a,04-P1,Opere PNRR locali censite con servizio in esercizio,% opere,su,,,90.0,"FUT,FID",,,,,manuale
 04-P1-b,04-P1,Spesa PNRR prevista oltre il 2026 effettivamente sostenuta,"% di 24,2 mld",su,0.0,2026,100.0,FUT,,,,,manuale
 04-P1-c,04-P1,Quota dei costi di gestione a carico ordinario degli enti,%,su,20.0,,100.0,"FUT,CIT",,,,,manuale
-04-P2-a,04-P2,Inquilini a prezzo di mercato con costo abitativo oltre il 40% del reddito,%,giu,22.3,2025,17.5,"BEN,EQU",22.3,2025,-0.0,,in osservazione
+04-P2-a,04-P2,Persone in affitto a prezzo di mercato con costo abitativo oltre il 40% del reddito,%,giu,22.3,2025,17.5,"BEN,EQU",22.3,2025,-0.0,,in osservazione
 04-P2-b,04-P2,Alloggi ERP non assegnabili recuperati e riassegnati,alloggi,su,0.0,2026,60000.0,"BEN,EQU",,,,,manuale
 04-P2-c,04-P2,Contratti ASA attivi,contratti,su,0.0,2026,100000.0,"BEN,EQU",,,,,manuale
 04-P3-a,04-P3,Passeggeri giornalieri su treni regionali,mln passeggeri/giorno,su,2.54,2024,3.2,"BEN,FUT",,,,,manuale
@@ -74,7 +74,7 @@ id,proposta,nome,unita,direzione,base,periodo_base,obiettivo,valori,ultimo,perio
 05-C1-c,05-C1,Alunne e alunni di V primaria almeno al livello base in matematica,%,su,63.0,2026,68.0,"APC,EQU",,,,,manuale
 05-C2-a,05-C2,Adulti 25-64 in formazione,%,su,10.8,2025,16.0,APC,10.8,2025,0.0,,in osservazione
 05-C2-b,05-C2,"Idem, aree rurali",%,su,9.4,2025,14.0,"APC,EQU",9.4,2025,0.0,,in osservazione
-05-C2-c,05-C2,Quota di titolari della dote maggiorata tra gli utilizzatori,%,su,,,45.0,"EQU,APC",,,,,manuale
+05-C2-c,05-C2,Quota di titolari della dote maggiorata tra chi usa la dote,%,su,,,45.0,"EQU,APC",,,,,manuale
 05-C3-a,05-C3,"R&S finanziata dalla PA, % PIL",% PIL,su,0.54,2024,0.61,"INN,APC",0.54,2024,0.0,,in osservazione
 05-C3-b,05-C3,"Spesa totale in R&S, % PIL",% PIL,su,1.41,2024,1.6,INN,1.37,2025,-0.211,,in osservazione
 05-C3-c,05-C3,Saldo migratorio delle persone laureate italiane 25-34,laureati/anno,su,-13000.0,2019-2024 (media annua),-6000.0,"APC,FUT",,,,,manuale
@@ -90,13 +90,13 @@ id,proposta,nome,unita,direzione,base,periodo_base,obiettivo,valori,ultimo,perio
 06-C1-a,06-C1,"Persone con bisogni di cure non soddisfatti per costo, distanza o attesa",%,giu,2.5,2025,1.5,"BEN,EQU",2.5,2025,-0.0,,in osservazione
 06-C1-b,06-C1,Bisogni non soddisfatti per sola attesa,%,giu,0.9,2025,0.4,"BEN,FID",0.9,2025,-0.0,,in osservazione
 06-C1-c,06-C1,Prestazioni B e D erogate nei tempi,% prestazioni,su,,2026-H1,90.0,"BEN,FID",,,,,manuale
-06-C2-a,06-C2,Infermieri praticanti per 1.000 abitanti,per 1.000 ab.,su,6.92,2024,7.7,BEN,6.916,2024,-0.005,,in osservazione
-06-C2-b,06-C2,Rapporto infermieri/medici,rapporto,su,1.2,2024,1.4,BEN,1.202,2024,0.01,,in osservazione
+06-C2-a,06-C2,Personale infermieristico in attività per 1.000 abitanti,per 1.000 ab.,su,6.92,2024,7.7,BEN,6.916,2024,-0.005,,in osservazione
+06-C2-b,06-C2,Rapporto tra personale infermieristico e medico,rapporto,su,1.2,2024,1.4,BEN,1.202,2024,0.01,,in osservazione
 06-C2-c,06-C2,Posti di medicina generale scoperti,posti,giu,5500.0,2025,,"BEN,EQU",,,,,manuale
 06-C3-a,06-C3,CdC pienamente operative,% CdC,su,3.9,2025-H2,80.0,"BEN,EQU",,,,,manuale
 06-C3-b,06-C3,OdC con almeno un servizio,% OdC,su,27.4,2025-H2,85.0,BEN,,,,,manuale
 06-C3-c,06-C3,Over 65 in ADI,%,su,,,10.0,"BEN,EQU",,,,,manuale
-06-C4-a,06-C4,Nuovi beneficiari con valutazione multidimensionale unica,% nuovi beneficiari,su,0.0,2026,100.0,"BEN,RIS",,,,,manuale
+06-C4-a,06-C4,Nuove persone beneficiarie con valutazione multidimensionale unica,% nuovi beneficiari,su,0.0,2026,100.0,"BEN,RIS",,,,,manuale
 06-C4-b,06-C4,Quota del budget usata per lavoro regolare o servizi accreditati,% budget,su,,,60.0,"BEN,FID",,,,,manuale
 06-C4-c,06-C4,Persone in lista d'attesa per RSA,persone,giu,243000.0,2026,,"BEN,RIS",,,,,manuale
 06-C5-a,06-C5,Quota del FSN destinata alla salute mentale,% FSN,su,,,,BEN,,,,,manuale
@@ -131,7 +131,7 @@ id,proposta,nome,unita,direzione,base,periodo_base,obiettivo,valori,ultimo,perio
 08-P2-b,08-P2,Quota di leggi sopra 100 mln con clausola valutativa attuata,% leggi,su,,,90.0,FID,,,,,manuale
 08-P2-c,08-P2,Decreti attuativi pendenti oltre 12 mesi,decreti,giu,,,,FID,,,,,manuale
 08-P3-a,08-P3,Affluenza alle politiche,%,su,63.9,2022,66.0,"CIT,FID",,,,,manuale
-08-P3-b,08-P3,Elettori fuorisede che votano nel comune di domicilio,elettori,su,,,500000.0,"CIT,RIS",,,,,manuale
+08-P3-b,08-P3,Persone fuorisede che votano nel comune di domicilio,elettori,su,,,500000.0,"CIT,RIS",,,,,manuale
 08-P3-c,08-P3,Modifiche agli elementi fondamentali nei 12 mesi prima del voto,modifiche,giu,1.0,2026,0.0,"FID,CIT",,,,,manuale
 08-P4-a,08-P4,Saldo netto Italia sul solo QFP,mld €,su,-4.1,2025,-3.0,"FUT,EQU",-4.1377670665579975,2025,-0.034,,in osservazione
 08-P4-b,08-P4,Quota del QFP 2028–34 finanziata da nuove risorse proprie,% rimborso NGEU,su,0.0,2026,,"FUT,EQU",,,,,manuale
@@ -159,7 +159,7 @@ id,proposta,nome,unita,direzione,base,periodo_base,obiettivo,valori,ultimo,perio
 09-C5-c,09-C5,Personale che ha completato 24 ore su IA e dati,% dipendenti,su,,,100.0,"INN,APC",,,,,manuale
 05-C7-a,05-C7,Divario tra scuole beneficiarie e media nazionale nella quota di alunne e alunni di V primaria almeno al livello base in matematica,% del divario iniziale,giu,,2026,,"APC,EQU",,,,,manuale
 05-C7-b,05-C7,ELET 18-24 Isole (insieme a 05-C1),%,giu,13.7,2025,9.5,"APC,EQU",13.7,2025,-0.0,,in osservazione
-05-C8-a,05-C8,Utenti delle biblioteche di pubblica lettura,milioni di persone,su,4.9,2022,6.5,"APC,CIT",,,,,manuale
+05-C8-a,05-C8,Persone che usano le biblioteche di pubblica lettura,milioni di persone,su,4.9,2022,6.5,"APC,CIT",,,,,manuale
 05-C8-b,05-C8,Comuni (o unioni) che rispettano l'obiettivo di servizio delle biblioteche,% Comuni,su,,,90.0,"EQU,CIT",,,,,manuale
 05-C9-a,05-C9,Alunne e alunni con almeno 2 esperienze culturali professionali nell'anno scolastico,% alunni,su,,,95.0,"APC,EQU,BPA",,,,,manuale
 05-C9-b,05-C9,Aventi diritto che usano la tariffa sociale della cultura almeno una volta l'anno,% aventi diritto,su,0.0,2026,35.0,"EQU,CIT",,,,,manuale
