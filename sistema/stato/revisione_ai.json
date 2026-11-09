@@ -1,4 +1,40 @@
 {
- "data": "2026-11-08",
- "compiti": []
+ "data": "2026-11-09",
+ "compiti": [
+  {
+   "tipo": "documento_nuovo",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=208d8726-b6da-4048-beb7-de0b13d18a53",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  },
+  {
+   "tipo": "documento_nuovo",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=722cee96-7a15-4b7e-a4d7-51e891c8ee67",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  },
+  {
+   "tipo": "documento_nuovo",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/06/26G00223/sg",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  }
+ ]
 }

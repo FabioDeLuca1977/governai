@@ -1,26 +1,44 @@
 {
- "data": "2026-11-08T13:03:08",
+ "data": "2026-11-09T09:20:32",
  "prima_esecuzione": false,
  "eurostat_aggiornati": [],
  "file_aggiornati": [],
- "documenti_nuovi": [],
+ "documenti_nuovi": [
+  {
+   "pagina": "Corte dei conti",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=208d8726-b6da-4048-beb7-de0b13d18a53"
+  },
+  {
+   "pagina": "Corte dei conti",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=722cee96-7a15-4b7e-a4d7-51e891c8ee67"
+  },
+  {
+   "pagina": "Gazzetta Ufficiale",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/06/26G00223/sg"
+  }
+ ],
  "errori": [],
  "script": {},
- "serie_cambiate": [
-  "bm_01_produttivita_ora",
-  "bm_02_occupazione_20_64",
-  "bm_03_rinnovabili_quota",
-  "bm_04_sovraccarico_abitativo",
-  "bm_05_laureati_25_34",
-  "bm_06_bisogni_cure_insoddisfatti",
-  "bm_09_egov_uso",
-  "obi_aps_quota_rifugiati",
-  "obi_disposition_time_annuale",
-  "obi_export_quote_mercati",
-  "obi_presenze_quota_lug_ago",
-  "obi_rapporto_infermieri_medici",
-  "obi_regioni_perdite_oltre_50",
-  "obi_rimpatri_su_ordini"
- ],
+ "serie_cambiate": [],
  "modalita": "nessun aggiornamento"
 }

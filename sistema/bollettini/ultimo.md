@@ -1,14 +1,17 @@
-# Bollettino GovernAI — 2026-11-08
+# Bollettino GovernAI — 2026-11-09
 
-*Generato automaticamente da `sistema/pipeline.py` alle 13:04. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 09:22. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
 - Modalità di aggiornamento: **nessun aggiornamento**
 - Dataset Eurostat aggiornati: nessuno
 - File ufficiali aggiornati: 0
-- Serie cambiate e archiviate in `dati/storico/`: bm_01_produttivita_ora, bm_02_occupazione_20_64, bm_03_rinnovabili_quota, bm_04_sovraccarico_abitativo, bm_05_laureati_25_34, bm_06_bisogni_cure_insoddisfatti, bm_09_egov_uso, obi_aps_quota_rifugiati, obi_disposition_time_annuale, obi_export_quote_mercati, obi_presenze_quota_lug_ago, obi_rapporto_infermieri_medici, obi_regioni_perdite_oltre_50, obi_rimpatri_su_ordini
-- Documenti nuovi sulle pagine osservate: 0
+- Serie cambiate e archiviate in `dati/storico/`: nessuna
+- Documenti nuovi sulle pagine osservate: 3
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=208d8726-b6da-4048-beb7-de0b13d18a53
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=722cee96-7a15-4b7e-a4d7-51e891c8ee67
+  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/06/26G00223/sg
 
 ## 2. Cruscotto
 
@@ -48,34 +51,23 @@
 
 ## 4. Programma del momento
 
-Il programma di riferimento (tutte le coperture, nucleo robusto prima) costa **12,99 mld/anno**; il programma adattato al momento costa **12,99 mld/anno**. Entrambi sono finanziati senza deficit.
-
-**Differenze rispetto al riferimento** (effetto delle allerte):
-
-- 02-C6: ESSENZIALE → PIENA
-- 04-P1: ESSENZIALE → esclusa
-- 04-P2: esclusa → ESSENZIALE
-- 04-P6: PIENA → ESSENZIALE
-- 09-C4: ESSENZIALE → ZERO
-
-**Cambiamenti rispetto al bollettino precedente:**
-
-- nessuno
-
-Dettaglio: `programma/selezione_momento.md`.
+Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
 
 ## 5. Revisione AI richiesta
 
-Nessuna revisione necessaria.
+**3 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=208d8726-b6da-4048-beb7-de0b13d18a53 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=722cee96-7a15-4b7e-a4d7-51e891c8ee67 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/06/26G00223/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
 
 ## Registro tecnico
 
-- sentinella: sentinella: nessun aggiornamento; Eurostat aggiornati 0, file 0, documenti nuovi 0, serie cambiate 14, errori 0
-- apprendimento: 158 KPI, stati {'manuale': 114, 'in osservazione': 44}, aree calibrate 0
+- sentinella: sentinella: nessun aggiornamento; Eurostat aggiornati 0, file 0, documenti nuovi 3, serie cambiate 0, errori 0
+- apprendimento: 189 KPI, stati {'manuale': 143, 'in osservazione': 46}, aree calibrate 0
 - legislazione: archivio GU: 576 atti, 576 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
+- europa: europa: 777 atti GU L in archivio, 292 negli ultimi 30 giorni; 144 direttive con termine (23 critiche, 11 alte); 84 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 24
+- giurisprudenza: pronunce citate: 81; verificate: 81; da controllare: []
+- costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
 - consiglio: 95 previsioni, 0 verificate oggi, 0 verificate in totale
 - verifica sedute: 2 attive, 2 confermate, 0 da riesaminare
-- controlla.py: avvisi: 0  ->  bilancio.md
-- decidi.py: -> esito.md, esito_proposte.csv
-- ottimizza.py (riferimento): spesa 12.99  coperture 11.02  proposte 53/62  -> selezione_riferimento.md
-- ottimizza.py (momento): spesa 12.99  coperture 11.02  proposte 53/62  -> selezione_momento.md
+- modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta

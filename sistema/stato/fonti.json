@@ -356,10 +356,10 @@
   ],
   "https://www.corteconti.it/": [
    "https://www.corteconti.it/HOME/Documenti",
+   "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=208d8726-b6da-4048-beb7-de0b13d18a53",
+   "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=722cee96-7a15-4b7e-a4d7-51e891c8ee67",
    "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=731e0fde-b4c0-49d5-b1cb-36a48d6ead2c",
-   "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=7e48517f-768e-451e-8c10-267140670254",
    "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=ed2d5988-eead-475b-8429-08e263312e77",
-   "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=f5e9590d-9df5-457d-a4bf-aef7817361ee",
    "https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa",
    "https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=58186e50-e1d4-425f-bf66-15da02a362db",
    "https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=5dfe06ad-90ae-4176-a097-56fad8f6067a",
@@ -476,6 +476,7 @@
    "http://www.gazzettaufficiale.it/eli/id/2026/10/30/26G00217/sg",
    "http://www.gazzettaufficiale.it/eli/id/2026/11/04/T-260181/s1",
    "http://www.gazzettaufficiale.it/eli/id/2026/11/04/T-260182/s1",
+   "http://www.gazzettaufficiale.it/eli/id/2026/11/06/26G00223/sg",
    "https://www.gazzettaufficiale.it/30giorni/serie_generale",
    "https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-06&numeroGazzetta=86",
    "https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-06&numeroGazzetta=127",
@@ -485,9 +486,7 @@
    "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-07&numeroGazzetta=260",
    "https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-05&numeroGazzetta=87"
   ],
-  "https://eur-lex.europa.eu/oj/direct-access.html": [
-   "https://eur-lex.europa.eu/statistics/statistics.html"
-  ]
+  "https://eur-lex.europa.eu/oj/direct-access.html": []
  },
  "ultimo_completo": "2026-11-07",
  "serie": {

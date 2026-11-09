@@ -56,7 +56,7 @@ La posizione in classifica cambia molto con i pesi: **qui la scelta è politica*
 | 01-P10 | Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti | 0,77 | 62% | 31% | 5–64 | 0,1 | 7,66 | 0,3 | Responsabilità verso il futuro, Cittadinanza responsabile | 97% | 99% | 100% |
 | 03-P5 | Contratto agro-climatico | 0,75 | 64% | 19% | 10–53 | 0,4 | 1,88 | 0,3 | Bellezza, patrimonio e accoglienza, Sicurezza senza controllo assoluto | 7% | 94% | 100% |
 | 02-C1 | Salario minimo contrattuale garantito | 0,75 | 59% | 20% | 10–60 | 0,4 | 1,88 | 0,2 | Rispetto e diversità, Equità | 9% | 85% | 100% |
-| 06-C2 | Patto per infermieri e medicina generale | 0,75 | 61% | 21% | 9–58 | 2,0 | 0,37 | 0,3 | Benessere, Apprendimento e cultura | 0% | 0% | 0% |
+| 06-C2 | Patto per il personale infermieristico e la medicina generale | 0,75 | 61% | 21% | 9–58 | 2,0 | 0,37 | 0,3 | Benessere, Apprendimento e cultura | 0% | 0% | 0% |
 | 05-C6 | AI a scuola | 0,74 | 58% | 20% | 11–60 | 0,2 | 3,28 | 0,2 | Cittadinanza responsabile, Sicurezza senza controllo assoluto | 77% | 99% | 100% |
 | 06-C5 | Salute mentale al 5% | 0,74 | 54% | 24% | 8–66 | 3,1 | 0,23 | 0,3 | Rispetto e diversità, Benessere | 0% | 0% | 0% |
 | 06-C4 | Budget di cura per la non autosufficienza | 0,73 | 54% | 20% | 9–65 | 2,0 | 0,37 | 0,3 | Benessere, Rispetto e diversità | 0% | 0% | 0% |
@@ -69,7 +69,7 @@ La posizione in classifica cambia molto con i pesi: **qui la scelta è politica*
 | 02-C3 | Patto previdenziale tra generazioni | 0,67 | 41% | 16% | 7–67 | 0,0 | — | 0,1 | Responsabilità verso il futuro, Equità | 100% | 100% | 100% |
 | 04-P5 | LEP prima: autonomia differenziata reversibile | 0,64 | 36% | 9% | 15–69 | 0,0 | — | 0,3 | Equità, Fiducia e trasparenza | 100% | 100% | 100% |
 | 05-C3 | Carriere della ricerca | 0,64 | 40% | 20% | 5–69 | 3,1 | 0,21 | 0,4 | Innovazione, Apprendimento e cultura | 0% | 0% | 0% |
-| 03-P1 | Dividendo climatico: riforma SAD restituita ai cittadini | 0,64 | 33% | 9% | 15–60 | 5,0 | 0,13 | 0,3 | Responsabilità verso il futuro, Sicurezza senza controllo assoluto | 0% | 0% | 0% |
+| 03-P1 | Dividendo climatico: riforma SAD restituita alla cittadinanza | 0,64 | 33% | 9% | 15–60 | 5,0 | 0,13 | 0,3 | Responsabilità verso il futuro, Sicurezza senza controllo assoluto | 0% | 0% | 0% |
 | 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | 0,64 | 33% | 10% | 11–67 | 0,2 | 4,28 | 0,2 | Bellezza, patrimonio e accoglienza, Rispetto e diversità | 91% | 100% | 100% |
 | 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | 0,63 | 33% | 8% | 16–69 | 0,0 | — | 0,0 | Cittadinanza responsabile, Fiducia e trasparenza | 100% | 100% | 100% |
 | 06-C8 | Squadre infermieristiche autonome di quartiere per l'ADI | 0,63 | 28% | 5% | 20–64 | 0,2 | 2,51 | 0,3 | Rispetto e diversità, Benessere | 49% | 96% | 100% |
