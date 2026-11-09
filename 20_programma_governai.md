@@ -11,7 +11,7 @@ Due versioni del programma, entrambe finanziate senza deficit nello scenario pru
 <!-- auto:totali -->
 - **Programma base: 8,24 mld l'anno**, 62 misure su 75, con 21 su 22 del nucleo robusto almeno in versione essenziale. Usa solo coperture a basso costo sociale.
 - **Programma completo: 13,51 mld l'anno**, 66 misure, nucleo robusto 22 su 22. Aggiunge coperture strutturali più impegnative.
-- **Programma intermedio: 9,40 mld l'anno**, 62 misure, nucleo robusto 21 su 22. Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
+- **Programma intermedio: 9,38 mld l'anno**, 64 misure, nucleo robusto 20 su 22. Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Per scelta politica entrano almeno in versione essenziale le sette misure su ricerca, innovazione e logistica verde, al posto delle Case della Comunità (06-C3). Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
 - **Programma adottato dal governo ombra** (simulazione, `governo/`): 11,63 mld l'anno, 55 misure, coperture al minimo per 11,12 mld più i fondi vincolati.
 <!-- /auto:totali -->
 
@@ -227,11 +227,11 @@ Con la traiettoria al 2,5%:
 
 **3. Coperture strutturali** (programma completo, circa 5,3 mld in più del base). Le pagano soprattutto proprietari di case di valore alto, locatori a canone libero, eredi di patrimoni oltre 500.000 € per erede, famiglie capienti con spese di istruzione privata, autotrasporto e agricoltura (fino al 2035), consumatori di gas con bonus per i redditi bassi. È la scelta più politica del programma: il sistema la presenta, non la impone.
 
-**4. Ricerca, innovazione e logistica verde.** Le sette proposte nuove (01-P13, 01-P14, 01-P15, 05-C10, 04-P7, 04-P8, 04-P9) hanno benefici attesi positivi per tutti e tre i valutatori, ma con la Carta attuale finiscono in coda: per euro speso valgono meno di scuola, cura e Stato che funziona. Nel programma intermedio entrano solo in forma minima. Imporle tutte almeno in versione essenziale, nello stesso tetto di spesa di 9,4 mld, costa circa 1 mld l'anno. Con il calcolo di prova del 9 novembre 2026:
-- **esce** 06-C3 Case della Comunità vive (0,8 mld in versione essenziale);
+**4. Ricerca, innovazione e logistica verde.** Le sette proposte nuove (01-P13, 01-P14, 01-P15, 05-C10, 04-P7, 04-P8, 04-P9) hanno benefici attesi positivi per tutti e tre i valutatori, ma con la Carta attuale finiscono in coda: per euro speso valgono meno di scuola, cura e Stato che funziona. Lasciato fare all'ottimizzatore, il programma intermedio le includeva solo in forma minima. Il 9 novembre 2026 chi guida il progetto ha scelto di imporle tutte almeno in versione essenziale nel programma intermedio. Costano circa 1 mld l'anno nello stesso tetto di spesa di 9,4 mld. Il prezzo, dichiarato:
+- **esce** 06-C3 Case della Comunità vive (0,8 mld in versione essenziale), che fa parte del nucleo robusto;
 - **scendono di variante** 09-C7 Automazione dei processi ripetitivi, 09-C1 Stato a vetro e 08-P3 Regole del gioco stabili.
 
-Chi dà più peso alla crescita e all'innovazione può fare questa scelta. Il sistema mostra il prezzo, non la impone.
+È una scelta politica, non un risultato del motore: dà più peso alla crescita e all'innovazione di quanto faccia la Carta attuale. Gli altri scenari restano calcolati senza vincoli.
 
 ## 7. Cosa manca e cosa fare dopo
 

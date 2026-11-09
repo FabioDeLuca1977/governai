@@ -15,7 +15,7 @@ Uno Stato che funziona e conti onesti, per investire su famiglie, giovani e terr
 <!-- auto:totali -->
 - **Programma base: 8,24 mld l'anno**, 62 misure su 75, con 21 su 22 del nucleo robusto almeno in versione essenziale. Usa solo coperture a basso costo sociale.
 - **Programma completo: 13,51 mld l'anno**, 66 misure, nucleo robusto 22 su 22. Aggiunge coperture strutturali più impegnative.
-- **Programma intermedio: 9,40 mld l'anno**, 62 misure, nucleo robusto 21 su 22. Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
+- **Programma intermedio: 9,38 mld l'anno**, 64 misure, nucleo robusto 20 su 22. Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Per scelta politica entrano almeno in versione essenziale le sette misure su ricerca, innovazione e logistica verde, al posto delle Case della Comunità (06-C3). Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
 - **Programma adottato dal governo ombra** (simulazione, `governo/`): 11,63 mld l'anno, 55 misure, coperture al minimo per 11,12 mld più i fondi vincolati.
 <!-- /auto:totali -->
 
@@ -57,7 +57,7 @@ Tra parentesi i codici delle proposte. *Nucleo* indica le misure del nucleo robu
 - Camion a zero emissioni, con aste e ricarica sulle grandi strade, come contropartita dell'uscita dai sussidi al gasolio (04-P8).
 - Zone a zero emissioni per le consegne nelle città metropolitane dal 2030, con quattro anni di preavviso e regole uguali in tutta Italia (04-P9).
 
-Il panel le giudica tutte positive, ma le mette in coda: con la Carta attuale valgono meno, per euro speso, di scuola, cura e Stato che funziona. Nel programma completo entrano la logistica, quasi per intero, e le misure su gare innovative e spin-off. Il credito unico e la rete per la ricerca applicata restano fuori o solo come sperimentazione. Nel programma intermedio ricerca e logistica entrano solo in forma minima.
+Il panel le giudica tutte positive, ma le mette in coda: con la Carta attuale valgono meno, per euro speso, di scuola, cura e Stato che funziona. Nel programma completo entrano la logistica, quasi per intero, e le misure su gare innovative e spin-off. Il credito unico e la rete per la ricerca applicata restano fuori o solo come sperimentazione. Nel programma intermedio, per scelta politica, entrano tutte almeno in versione essenziale: costano circa 1 mld l'anno, e il prezzo è l'uscita delle Case della Comunità (06-C3) e versioni ridotte di tre misure sulla PA e sulle regole elettorali.
 
 **6. Uno Stato che funziona.**
 - «Chiedilo una volta sola»: la PA non chiede di nuovo dati che ha già, e se sbaglia rimborsa (09-C2).
@@ -112,7 +112,7 @@ Sono scelte politiche: il sistema le presenta con il loro prezzo, non le prende.
 1. **A che cosa servono le coperture strutturali**: nuova spesa, meno tasse sul lavoro, un pavimento per la sanità o meno debito.
 2. **Quanto spendere per la Difesa**, sapendo che cosa costa in termini di altre misure.
 3. **Dividendo climatico**: restituire ai cittadini il gettito dei sussidi ambientali tagliati, o usarlo per i servizi.
-4. **Quanto investire su ricerca e innovazione**: con la Carta attuale il panel le mette in coda. Si possono finanziare per scelta politica, sapendo che cosa costano in termini di altre misure.
+4. **Quanto investire su ricerca e innovazione**: con la Carta attuale il panel le mette in coda. Il programma intermedio le impone per scelta politica. Resta da decidere se cambiare la Carta, dando più peso alla crescita, o tenere la scelta come eccezione dichiarata.
 5. **Quali valori**: la Carta è un punto di partenza. Altre aree propongono di aggiungere famiglia, libertà economica, lavoro e solidarietà, crescita, sicurezza esterna.
 
 ## Per saperne di più
