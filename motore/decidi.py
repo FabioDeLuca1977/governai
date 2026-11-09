@@ -193,7 +193,7 @@ def main() -> int:
     S, lunga, valutatori, ids = carica_panel()
     prop = pd.read_csv(QUI / "proposte.csv").set_index("proposta_id").loc[ids]
     # Il costo opportunità conta le risorse che una proposta sottrae al programma senza spenderle:
-    # il dividendo climatico (03-P1) restituisce ai cittadini il gettito SAD che altrimenti finanzierebbe servizi.
+    # il dividendo climatico (03-P1) restituisce alla cittadinanza il gettito SAD che altrimenti finanzierebbe servizi.
     opp = prop.get("costo_opportunita", pd.Series(0.0, index=prop.index)).fillna(0)
     costo = ((prop.costo_min + prop.costo_max) / 2 + opp).clip(lower=0).to_numpy()
 
@@ -326,7 +326,7 @@ def main() -> int:
             "ma le proposte costose con utilità alta vanno lette come **\"entrano con più risorse\"**, non come proposte di poco valore.",
             "- L'alfa di Krippendorff è alto anche perché molte celle valgono 0 per tutti i valutatori: l'accordo sui punteggi diversi da zero è più basso.",
             "- Il pacchetto rispetta il budget complessivo; la compatibilità con i singoli fondi va verificata con `registro/controlla.py`.",
-            "- La distribuzione dei pesi è uniforme: quando l'assemblea dei cittadini esprimerà i suoi pesi, diventeranno lo scenario centrale.", ""]
+            "- La distribuzione dei pesi è uniforme: quando l'assemblea civica esprimerà i suoi pesi, diventeranno lo scenario centrale.", ""]
     (QUI / "esito.md").write_text("\n".join(out), encoding="utf-8")
 
     print(f"alfa Krippendorff {alfa:.2f}; classi: {ris.classe.value_counts().to_dict()}")

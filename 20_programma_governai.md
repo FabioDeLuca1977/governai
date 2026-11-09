@@ -57,7 +57,7 @@ Costi in mld €/anno a regime. "—" = non inclusa. L'ultima colonna è la deci
 | 01-P4 | Crescere conviene: eliminare i gradini dimensionali | Coda | Zero 0,01 | Zero 0,01 | Zero 0,01 |
 | 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | Coda | Essenziale 0,15 | Essenziale 0,15 | Essenziale 0,15 |
 | 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | Valori | Zero 0,00 | Piena 0,15 | Zero 0,00 |
-| 01-P7 | Dichiarazione zero: lo Stato fa il conto, il cittadino controlla | **Nucleo** | Essenziale 0,15 | Piena 0,30 | Essenziale 0,15 |
+| 01-P7 | Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla | **Nucleo** | Essenziale 0,15 | Piena 0,30 | Essenziale 0,15 |
 | 01-P8 | Meno scontrini: riordino delle detrazioni del 19% | Coda | Zero 0,00 | Zero 0,00 | Essenziale 0,20 |
 | 01-P9 | Una sola detrazione per il lavoro, senza scalini | Coda | Zero 0,00 | Zero 0,00 | Zero 0,00 |
 | 01-P10 | Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti | Valori | Piena 0,10 | Piena 0,10 | Essenziale 0,06 |
@@ -83,7 +83,7 @@ Costi in mld €/anno a regime. "—" = non inclusa. L'ultima colonna è la deci
 | **Infrastrutture e Territori** | [schede](programma/schede/04_infrastrutture.md) | | | | |
 | 04-P1 | Patto di continuità post-PNRR | Coda | — | Pilota 0,09 | — |
 | 04-P2 | Casa a canone giusto | Valori | — | — | Essenziale 0,48 |
-| 04-P3 | Prima il treno dei pendolari: fondo TPL e abbonamento unico | Valori | — | — | Pilota 0,62 |
+| 04-P3 | Prima il treno di chi viaggia ogni giorno: fondo TPL e abbonamento unico | Valori | — | — | Pilota 0,62 |
 | 04-P4 | Nessuna grande opera senza prova dei numeri | Valori | Piena 0,03 | Piena 0,03 | Piena 0,03 |
 | 04-P5 | LEP prima: autonomia differenziata reversibile | Valori | Zero 0,00 | Zero 0,00 | Zero 0,00 |
 | 04-P6 | Restare è possibile: servizi essenziali aree interne | **Nucleo** | Essenziale 0,42 | Essenziale 0,42 | Essenziale 0,42 |
@@ -91,10 +91,10 @@ Costi in mld €/anno a regime. "—" = non inclusa. L'ultima colonna è la deci
 | 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | Coda | Zero 0,00 | Piena 0,15 | — |
 | 04-P9 | Consegne pulite in città: zone a emissioni zero per le merci | Coda | Zero 0,00 | Piena 0,07 | — |
 | **Istruzione, Ricerca, Cultura** | [schede](programma/schede/05_istruzione.md) | | | | |
-| 05-C1 | Nessuno escluso: squadre di prossimità contro la dispersione | **Nucleo** | Essenziale 0,13 | Piena 0,25 | Piena 0,25 |
+| 05-C1 | Nessuna esclusione: squadre di prossimità contro la dispersione | **Nucleo** | Essenziale 0,13 | Piena 0,25 | Piena 0,25 |
 | 05-C2 | Conto personale di competenze | **Nucleo** | Essenziale 0,45 | Essenziale 0,45 | Essenziale 0,45 |
 | 05-C3 | Carriere della ricerca | Valori | Zero 0,00 | Zero 0,00 | Zero 0,00 |
-| 05-C4 | Più laureati e diplomati terziari: ITS, lauree professionalizzanti, residenze | **Nucleo** | Essenziale 0,45 | Essenziale 0,45 | Essenziale 0,45 |
+| 05-C4 | Più persone con laurea o diploma terziario: ITS, lauree professionalizzanti, residenze | **Nucleo** | Essenziale 0,45 | Essenziale 0,45 | Essenziale 0,45 |
 | 05-C5 | Scuole aperte come presidi di comunità | **Nucleo** | Essenziale 0,20 | Piena 0,40 | Essenziale 0,20 |
 | 05-C6 | AI a scuola | Valori | Zero 0,00 | Piena 0,22 | Essenziale 0,08 |
 | 05-C7 | Quota svantaggio nel finanziamento delle scuole | **Nucleo** | Essenziale 0,19 | Essenziale 0,19 | — |
@@ -128,7 +128,7 @@ Costi in mld €/anno a regime. "—" = non inclusa. L'ultima colonna è la deci
 | **PA e Digitale** | [schede](programma/schede/09_pa_digitale.md) | | | | |
 | 09-C1 | Stato a vetro: infrastruttura aperta per l'analisi delle politiche | Valori | Piena 0,07 | Piena 0,07 | Essenziale 0,04 |
 | 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | Valori | Piena 0,35 | Essenziale 0,14 | Essenziale 0,14 |
-| 09-C3 | Tecnici della Repubblica: pool di competenze per i piccoli enti | **Nucleo** | Essenziale 0,22 | Essenziale 0,22 | Essenziale 0,22 |
+| 09-C3 | Squadre tecniche della Repubblica: pool di competenze per i piccoli enti | **Nucleo** | Essenziale 0,22 | Essenziale 0,22 | Essenziale 0,22 |
 | 09-C4 | Cloud pubblico sostenibile e Patto per la manutenzione digitale | Coda | Zero 0,00 | Zero 0,00 | Essenziale 0,12 |
 | 09-C5 | AI nella PA con le mani sul volante | **Nucleo** | Piena 0,22 | Piena 0,22 | Piena 0,22 |
 | 09-C6 | Lavoro pubblico misurato e giusto": organizzazione, valutazione vera e responsabilità | Valori | Piena 0,03 | Piena 0,03 | Piena 0,03 |
@@ -186,7 +186,7 @@ Il resto della spesa si finanzia con fondi già vincolati: coesione 2021-27 (sol
 
 Ogni scheda riporta il cronoprogramma dettagliato: 100 giorni, 12 mesi, fine legislatura, con chi fa cosa. In sintesi:
 
-1. **Legge GovernAI** (08-P1) e **Stato a vetro** (09-C1) in Consiglio dei ministri. Nascono l'Ufficio per la consulenza algoritmica presso le Camere, il registro pubblico delle analisi e l'assemblea dei cittadini sorteggiati, che fisserà i pesi tra i valori.
+1. **Legge GovernAI** (08-P1) e **Stato a vetro** (09-C1) in Consiglio dei ministri. Nascono l'Ufficio per la consulenza algoritmica presso le Camere, il registro pubblico delle analisi e l'assemblea civica di persone sorteggiate, che fisserà i pesi tra i valori.
 2. **Legge di bilancio**:
    - i fondi delle misure del nucleo;
    - le coperture del livello scelto, contate al minimo e con il profilo annuale;
@@ -201,7 +201,7 @@ Ogni scheda riporta il cronoprogramma dettagliato: 100 giorni, 12 mesi, fine leg
 
 ## 6. Le decisioni politiche che restano
 
-Il sistema non decide al posto dei cittadini. Su questi punti presenta le opzioni con il loro prezzo, calcolato con lo stesso ottimizzatore.
+Il sistema non decide al posto della cittadinanza. Su questi punti presenta le opzioni con il loro prezzo, calcolato con lo stesso ottimizzatore.
 
 **1. Difesa.** Oggi la spesa è al 2,09% del PIL secondo la NATO (luglio 2026). Il panel classifica sfavorevole il percorso al 3,5%, perché senza deficit toglierebbe risorse a quasi tutte le altre misure: è un giudizio sul costo, non sulla sicurezza, e chi dà più peso alla sicurezza esterna può arrivare a una scelta diversa. Le versioni finanziate in deficit superano la linea rossa della Carta sulla responsabilità verso il futuro e sono escluse in automatico; le versioni senza deficit restano scelte possibili.
 
@@ -214,7 +214,7 @@ Il sistema non decide al posto dei cittadini. Su questi punti presenta le opzion
 Con la traiettoria al 2,5%:
 
 <!-- auto:difesa -->
-- **Escono (12):** 01-P4 Crescere conviene: eliminare i gradini dimensionali; 01-P10 Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti; 01-P13 Un solo credito per la ricerca: stabile, più forte per le piccole imprese, certificato prima di spendere; 02-C2 Nido esigibile + congedo paterno; 03-P4 Prevenire costa meno: fondo prevenzione e assicurazione catastrofale; 03-P5 Contratto agro-climatico; 04-P1 Patto di continuità post-PNRR; 04-P7 Dal porto al treno: più merci sul ferro; 05-C4 Più laureati e diplomati terziari: ITS, lauree professionalizzanti, residenze; 07-C1 Giustizia a regime: Ufficio per il processo e triage digitale; 07-C3 Governance dei flussi migratori fondata sui dati; 07-C6 Scudo cyber territoriale.
+- **Escono (12):** 01-P4 Crescere conviene: eliminare i gradini dimensionali; 01-P10 Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti; 01-P13 Un solo credito per la ricerca: stabile, più forte per le piccole imprese, certificato prima di spendere; 02-C2 Nido esigibile + congedo paterno; 03-P4 Prevenire costa meno: fondo prevenzione e assicurazione catastrofale; 03-P5 Contratto agro-climatico; 04-P1 Patto di continuità post-PNRR; 04-P7 Dal porto al treno: più merci sul ferro; 05-C4 Più persone con laurea o diploma terziario: ITS, lauree professionalizzanti, residenze; 07-C1 Giustizia a regime: Ufficio per il processo e triage digitale; 07-C3 Governance dei flussi migratori fondata sui dati; 07-C6 Scudo cyber territoriale.
 - **Cambiano variante (31):** 01-P1 piena → essenziale; 01-P3 piena → essenziale; 01-P6 piena → zero; 01-P7 piena → essenziale; 01-P12 piena → essenziale; 01-P14 piena → pilota; 01-P15 piena → zero; 02-C5 essenziale → zero; 02-C7 piena → essenziale; 03-P2 piena → zero; 04-P8 piena → zero; 04-P9 piena → zero; 05-C1 piena → essenziale; 05-C2 essenziale → pilota; 05-C5 piena → essenziale; 05-C6 piena → zero; 05-C8 piena → pilota; 05-C9 piena → pilota; 06-C3 essenziale → pilota; 06-C8 piena → pilota; 06-C9 piena → pilota; 07-C2 piena → essenziale; 07-C4 piena → essenziale; 08-P1 piena → essenziale; 08-P3 essenziale → zero; 09-C1 piena → pilota; 09-C2 essenziale → zero; 09-C5 piena → essenziale; 09-C6 piena → essenziale; 09-C7 piena → pilota; 09-C8 piena → essenziale.
 <!-- /auto:difesa -->
 
@@ -225,7 +225,7 @@ Con la traiettoria al 2,5%:
 - **Cambiano variante (7):** 01-P14 piena → pilota; 03-P1 zero → essenziale; 04-P7 essenziale → pilota; 05-C8 piena → essenziale; 06-C9 piena → pilota; 07-C2 piena → essenziale; 07-C6 piena → pilota.
 <!-- /auto:dividendo -->
 
-**3. Coperture strutturali** (programma completo, circa 5,3 mld in più del base). Le pagano soprattutto proprietari di case di valore alto, locatori a canone libero, eredi di patrimoni oltre 500.000 € per erede, famiglie capienti con spese di istruzione privata, autotrasporto e agricoltura (fino al 2035), consumatori di gas con bonus per i redditi bassi. È la scelta più politica del programma: il sistema la presenta, non la impone.
+**3. Coperture strutturali** (programma completo, circa 5,3 mld in più del base). Le pagano soprattutto chi possiede case di valore alto, chi affitta a canone libero, chi eredita patrimoni oltre 500.000 € per erede, le famiglie capienti con spese di istruzione privata, l'autotrasporto e l'agricoltura (fino al 2035), chi consuma gas (con un bonus per i redditi bassi). È la scelta più politica del programma: il sistema la presenta, non la impone.
 
 **4. Ricerca, innovazione e logistica verde.** Le sette proposte nuove (01-P13, 01-P14, 01-P15, 05-C10, 04-P7, 04-P8, 04-P9) hanno benefici attesi positivi per tutti e tre i valutatori, ma con la Carta attuale finiscono in coda: per euro speso valgono meno di scuola, cura e Stato che funziona. Lasciato fare all'ottimizzatore, il programma intermedio le includeva solo in forma minima. Il 9 novembre 2026 chi guida il progetto ha scelto di imporle tutte almeno in versione essenziale nel programma intermedio. Costano circa 1 mld l'anno nello stesso tetto di spesa del programma intermedio. Il prezzo, dichiarato:
 - **esce** 06-C3 Case della Comunità vive (0,8 mld in versione essenziale), che fa parte del nucleo robusto;
@@ -239,4 +239,4 @@ Con la traiettoria al 2,5%:
 - **Doppioni da escludere.** Le spese fiscali del menu vanno confrontate voce per voce con la lista dei 7,37 mld già nel Piano strutturale.
 - **Utilità delle varianti.** È calcolata come intensità × utilità della proposta piena. Il panel dovrebbe valutare direttamente le varianti essenziali e le misure di copertura.
 - **Proposte escluse ma di valore.** Salute mentale, non autosufficienza e reddito di inclusione restano fuori per mancanza di risorse certificate, non perché siano di poco valore.
-- **Revisione esterna.** Una prima analisi politica indipendente è in `revisioni/2026-11-08_analista_politico.md`. Serve ora una revisione critica di persone con orientamenti politici diversi, e un confronto tra i punteggi degli agenti e quelli di valutatori umani.
+- **Revisione esterna.** Una prima analisi politica indipendente è in `revisioni/2026-11-08_analista_politico.md`. Serve ora una revisione critica di persone con orientamenti politici diversi, e un confronto tra i punteggi degli agenti e quelli di un panel di persone.

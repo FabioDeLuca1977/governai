@@ -61,7 +61,7 @@ Il coordinatore ha controllato a campione, sui documenti originali, le cifre che
 | **Recupero dell'evasione IVA** | 5–7 mld a regime (stima) | Solo **dopo** certificazione, mai prima | 01, 02 |
 | **Fondi coesione / FSE+ / FSC** | già programmati fino al 2027 | Solo per il ciclo 2028–2034 | 03, 04, 05, 07, 09 |
 
-**Il nodo politico resta lo stesso:** il gettito della riforma dei SAD non può essere insieme **restituito ai cittadini** (dossier 03) e **speso per servizi** (dossier 04, 01, 08).
+**Il nodo politico resta lo stesso:** il gettito della riforma dei SAD non può essere insieme **restituito alla cittadinanza** (dossier 03) e **speso per servizi** (dossier 04, 01, 08).
 
 ### 2.2 Saldo complessivo (verificato)
 
@@ -101,7 +101,7 @@ Con gli interessi già sopra i 100 mld l'anno, **il programma va ordinato per pr
 | Tema | Proposte | Proposta unificata |
 |---|---|---|
 | **Bilancio generazionale** | 01-1 (UPB, semaforo a 30 anni), 02-6 (bilancio generazionale e strategia demografica) | Un solo **Bilancio generazionale** presso l'UPB, che copre anche la demografia |
-| **Infrastruttura di GovernAI** | 08-1 (legge sulla consulenza algoritmica, assemblea dei sorteggiati, diritto di motivazione), 09-1 ("Stato a vetro"), 01-1 | **Pilastro 0: la legge GovernAI**. Da raccordare con il Regolamento (UE) 2026/1744 e il D.Lgs. 179/2026 |
+| **Infrastruttura di GovernAI** | 08-1 (legge sulla consulenza algoritmica, assemblea di persone sorteggiate, diritto di motivazione), 09-1 ("Stato a vetro"), 01-1 | **Pilastro 0: la legge GovernAI**. Da raccordare con il Regolamento (UE) 2026/1744 e il D.Lgs. 179/2026 |
 | **Personale dopo il PNRR** | 04-1, 07-C1, 09-4, 06-C3 | **Patto di continuità post-PNRR**. La Corte dei conti stima 24,2 mld di spesa che slitta oltre il 2026, su 66 misure |
 | **Formazione degli adulti** | 05-2, 02 (programma GOL, NEET) | Un'unica regia tra Lavoro e Istruzione |
 | **Fiscalità correttiva** | 06-C6 (accise sui prodotti nocivi), 03-1 (SAD) | Un'unica riforma con regole uniche sull'uso del gettito |
@@ -118,19 +118,19 @@ Con gli interessi già sopra i 100 mld l'anno, **il programma va ordinato per pr
 | **Immigrazione** | 07-C3 ↔ 02, demografia | Valoriale | Sinergia: gli over 65 passeranno dal 39% al 62% della popolazione in età da lavoro entro il 2050 (ISTAT). Flussi regolari guidati dai dati riducono la pressione previdenziale. Le opzioni restano neutrali |
 | **Dati aperti contro privacy** | 09 ↔ Giustizia, Garante | Diritti | "Chiedilo una volta sola" vale tra amministrazioni, mai verso soggetti privati. Valutazione d'impatto sui diritti obbligatoria |
 
-## 5. Decisioni che spettano agli umani
+## 5. Decisioni che spettano alle persone
 
 1. **Traiettoria della Difesa**
    - (a) obiettivo NATO pieno entro il 2035, circa +32 mld/anno a regime
    - (b) percorso più lento, legato al debito e alla quota di spesa europea comune
    - (c) stabilizzazione intorno al 2,1% attuale, puntando sull'efficienza
 2. **Uso del gettito della riforma dei SAD**, cioè fino a 17 mld riformabili:
-   - (a) dividendo ai cittadini
+   - (a) dividendo alla cittadinanza
    - (b) servizi
    - (c) misto
    
    Da questa scelta dipende la metà del buco di copertura.
-3. **Pesi provvisori tra i valori**, in attesa dell'assemblea dei cittadini sorteggiati (08-1).
+3. **Pesi provvisori tra i valori**, in attesa dell'assemblea civica di persone sorteggiate (08-1).
 
 ## 6. Priorità secondo la Carta dei valori (motore decisionale)
 
@@ -142,14 +142,14 @@ Con gli interessi già sopra i 100 mld l'anno, **il programma va ordinato per pr
 
 **Nucleo robusto: 14 proposte.** Sono nella prima metà della classifica con almeno il 75% delle combinazioni di pesi, cioè qualunque sia la sensibilità politica:
 - 06-C2 personale sanitario
-- 04-P3 treni dei pendolari
+- 04-P3 treni per chi viaggia ogni giorno
 - 03-P4 prevenzione del dissesto
 - 06-C3 Case della Comunità
 - 05-C4 ITS e residenze universitarie
 - 07-C1 Ufficio per il processo
 - 09-C2 "Chiedilo una volta sola"
 - 02-C2 nidi e congedo paterno
-- 09-C3 tecnici per i piccoli enti
+- 09-C3 squadre tecniche per i piccoli enti
 - 04-P2 casa a canone giusto
 - 04-P6 aree interne
 - 04-P4 valutazione indipendente delle grandi opere

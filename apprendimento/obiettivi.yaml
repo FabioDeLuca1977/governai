@@ -211,7 +211,7 @@ obiettivi:
     obiettivo_5a: ≤ 58,5%
 - id: 01-P4-b
   proposta: 01-P4
-  nome: Valore aggiunto per addetto dei beneficiari rispetto al gruppo di controllo
+  nome: Valore aggiunto per addetto delle imprese beneficiarie rispetto al gruppo di controllo
   unita: '% vs controllo'
   direzione: su
   base:
@@ -330,7 +330,7 @@ obiettivi:
     obiettivo_5a: ≤ 32,0%
 - id: 01-P6-b
   proposta: 01-P6
-  nome: Quota del gettito dell'imposta destinata ai servizi per i residenti
+  nome: Quota del gettito dell'imposta destinata ai servizi per chi risiede nel territorio
   unita: '% gettito'
   direzione: su
   base:
@@ -553,7 +553,7 @@ obiettivi:
     obiettivo_5a: 100%
 - id: 02-C3-c
   proposta: 02-C3
-  nome: Neoassunti iscritti alla previdenza complementare
+  nome: Persone neoassunte iscritte alla previdenza complementare
   unita: punti %
   direzione: su
   base:
@@ -1128,7 +1128,7 @@ obiettivi:
     obiettivo_5a: 100%
 - id: 04-P2-a
   proposta: 04-P2
-  nome: Inquilini a prezzo di mercato con costo abitativo oltre il 40% del reddito
+  nome: Persone in affitto a prezzo di mercato con costo abitativo oltre il 40% del reddito
   unita: '%'
   direzione: giu
   base:
@@ -1540,7 +1540,7 @@ obiettivi:
     obiettivo_5a: 14%
 - id: 05-C2-c
   proposta: 05-C2
-  nome: Quota di titolari della dote maggiorata tra gli utilizzatori
+  nome: Quota di titolari della dote maggiorata tra chi usa la dote
   unita: '%'
   direzione: su
   base:
@@ -1864,7 +1864,7 @@ obiettivi:
     obiettivo_5a: ≥ 90% nei tempi
 - id: 06-C2-a
   proposta: 06-C2
-  nome: Infermieri praticanti per 1.000 abitanti
+  nome: Personale infermieristico in attività per 1.000 abitanti
   unita: per 1.000 ab.
   direzione: su
   base:
@@ -1889,7 +1889,7 @@ obiettivi:
     obiettivo_5a: 7,7 (8 entro il 2035)
 - id: 06-C2-b
   proposta: 06-C2
-  nome: Rapporto infermieri/medici
+  nome: Rapporto tra personale infermieristico e medico
   unita: rapporto
   direzione: su
   base:
@@ -1992,7 +1992,7 @@ obiettivi:
     obiettivo_5a: 10% mantenuto, con intensità minima
 - id: 06-C4-a
   proposta: 06-C4
-  nome: Nuovi beneficiari con valutazione multidimensionale unica
+  nome: Nuove persone beneficiarie con valutazione multidimensionale unica
   unita: '% nuovi beneficiari'
   direzione: su
   base:
@@ -2724,7 +2724,7 @@ obiettivi:
     obiettivo_5a: ≥ 66% (elezioni successive)
 - id: 08-P3-b
   proposta: 08-P3
-  nome: Elettori fuorisede che votano nel comune di domicilio
+  nome: Persone fuorisede che votano nel comune di domicilio
   unita: elettori
   direzione: su
   base:
@@ -3308,7 +3308,7 @@ obiettivi:
     obiettivo_5a: 9,5%
 - id: 05-C8-a
   proposta: 05-C8
-  nome: Utenti delle biblioteche di pubblica lettura
+  nome: Persone che usano le biblioteche di pubblica lettura
   unita: milioni di persone
   direzione: su
   base:

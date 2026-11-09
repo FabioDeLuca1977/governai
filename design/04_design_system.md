@@ -93,7 +93,7 @@ Testo normale ≥ 4,5:1; testo grande e componenti grafici ≥ 3:1.
   --g-traccia:#E6E3DA; --g-griglia:#E6E3DA; --g-zero:#8A8F94;
   color-scheme: light;
 }
-/* Scuro: segue il sistema, salvo scelta esplicita dell'utente */
+/* Scuro: segue il sistema, salvo scelta esplicita di chi visita */
 @media (prefers-color-scheme: dark) { :root:not([data-tema="chiaro"]) { /* stessi valori di [data-tema="scuro"] */ } }
 :root[data-tema="scuro"] {
   --c-sfondo:#12171C; --c-superficie:#1A2128; --c-superficie-2:#222A33;

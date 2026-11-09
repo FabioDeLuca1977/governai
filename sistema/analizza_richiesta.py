@@ -1,4 +1,4 @@
-"""Analisi su richiesta: da un problema posto dai cittadini o dal team a un dossier con opzioni valutate.
+"""Analisi su richiesta: da un problema posto dalla cittadinanza o dal team a un dossier con opzioni valutate.
 
 Flusso (lo stesso metodo del programma, in piccolo):
   1. un agente "ministeriale" scrive la diagnosi e 3 opzioni, usando solo i dati del sistema

@@ -1,6 +1,6 @@
 # Rubrica di valutazione per il panel indipendente
 
-Ogni valutatore assegna, per **ogni proposta** (`motore/proposte.csv`, 52 proposte) e **ogni valore** della Carta (`01_carta_valori.md`: RIS, FID, INN, BEN, APC, BPA, FUT, EQU, SIC, CIT), un punteggio sui tre orizzonti.
+Ogni membro del panel assegna, per **ogni proposta** (`motore/proposte.csv`, 52 proposte) e **ogni valore** della Carta (`01_carta_valori.md`: RIS, FID, INN, BEN, APC, BPA, FUT, EQU, SIC, CIT), un punteggio sui tre orizzonti.
 
 ## Scala (identica per tutti i valori e orizzonti)
 

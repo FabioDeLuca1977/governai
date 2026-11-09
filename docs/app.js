@@ -298,7 +298,7 @@
       </section>
 
       <section class="sezione partecipa-box" aria-labelledby="t-partecipa">
-        <div><h2 id="t-partecipa">Hai un'idea o una domanda?</h2><p>Chiunque può proporre. Serve un account GitHub gratuito; un membro del progetto legge ogni richiesta.</p></div>
+        <div><h2 id="t-partecipa">Hai un'idea o una domanda?</h2><p>Chiunque può proporre. Serve un account GitHub gratuito; una persona del progetto legge ogni richiesta.</p></div>
         <a class="btn primario" href="#/partecipa">${icona("message-square-plus")}Proponi un'idea</a>
       </section>`;
   }
@@ -653,7 +653,7 @@
     return `${schedeGoverno("sedute")}
       <p class="risposta">Un governo ombra che decide con regole verificabili: esperti di ogni materia, nove ministri, un'opposizione leale e un capo di governo. Si è riunito ${VERBALI.length} volte e ha preso ${decisioni} decisioni.</p>
       <div class="azioni" style="margin-bottom:8px"><a class="btn primario" href="${esc(linkConsiglio())}" target="_blank" rel="noopener">${icona("message-circle-question")}Fai una domanda al Consiglio<span class="vh"> (si apre in una nuova scheda)</span></a><a class="btn" href="#/partecipa">Altri modi di partecipare</a></div>
-      <p class="nota">Il Consiglio si riunisce ogni lunedì, quando scatta un'allerta nuova e su richiesta approvata da un membro del progetto.</p>
+      <p class="nota">Il Consiglio si riunisce ogni lunedì, quando scatta un'allerta nuova e su richiesta approvata da una persona del progetto.</p>
       <div class="griglia" style="margin-top:24px">${VERBALI.map((x) => `<a class="card" href="${linkSeduta(x.id)}"><p class="etichetta">${dataBreve(x.data)} · ${esc(x.tipo)}</p><h2 class="titolo-card" style="font-size:22px">${esc(x.titolo)}</h2>${x.domanda ? `<p class="nota">«${esc(x.domanda)}»</p>` : ""}${contatore(x.dec)}<p class="nota">${x.deroghe.length} deroghe · ${x.obiezioni.length} obiezioni · ${x.mandati.length} mandati</p></a>`).join("") || vuoto("Il Consiglio non si è ancora riunito.")}</div>`;
   }
   function decisioniInVigore() {
@@ -960,7 +960,7 @@
     const nuovoFile = (cartella, nome, testo) => `${repo}/new/main/${cartella}?filename=${encodeURIComponent(OGGI + "-" + nome + ".md")}&value=${encodeURIComponent(testo)}`;
     if (sel) return `<nav class="briciole" aria-label="Briciole di pane"><a href="#/partecipa">Partecipa</a><span aria-hidden="true">›</span><span aria-current="page">Analisi</span></nav><div class="md documento card">${md(sel.testo)}</div>`;
     return `<h1>Partecipa</h1>
-      <p class="risposta">GovernAI è un progetto aperto a scopo sociale: chiunque può proporre un problema, fare una domanda o segnalare un errore. Serve un account GitHub gratuito; un membro del progetto legge ogni richiesta prima che venga analizzata.</p>
+      <p class="risposta">GovernAI è un progetto aperto a scopo sociale: chiunque può proporre un problema, fare una domanda o segnalare un errore. Serve un account GitHub gratuito; una persona del progetto legge ogni richiesta prima che venga analizzata.</p>
       <div class="griglia g3-d sezione">
         <div class="card"><h2 style="font-size:20px">${icona("lightbulb")} Proponi un'idea</h2><p>Descrivi un problema o una proposta. GovernAI risponde con una diagnosi e tre opzioni, valutate sui valori della Carta con costi e coperture.</p><a class="btn primario" href="${repo}/issues/new?template=analisi.yml" target="_blank" rel="noopener">Proponi un'idea<span class="vh"> (si apre in una nuova scheda)</span></a></div>
         <div class="card"><h2 style="font-size:20px">${icona("message-circle-question")} Fai una domanda al Consiglio</h2><p>Il governo ombra si riunisce sulla tua domanda, con esperti, ministri e opposizione leale.</p><a class="btn" href="${esc(linkConsiglio())}" target="_blank" rel="noopener">Fai una domanda<span class="vh"> (si apre in una nuova scheda)</span></a></div>

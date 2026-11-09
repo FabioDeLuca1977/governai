@@ -38,7 +38,7 @@ Le regole europee sull'AI ora hanno date certe:
 Eppure **nessuna norma disciplina l'uso dell'AI come consulente del processo legislativo e di governo**: chi la configura, con quali valori, con quale trasparenza e con quale responsabilità. Intanto la fiducia nelle istituzioni rappresentative è bassa. L'affluenza alle politiche 2022 è stata del **63,9%**, minimo storico (Ministero dell'Interno, Eligendo; verifica 08, riga 18).
 
 ### Soluzione in 3 righe
-Una legge ordinaria istituisce presso le Camere un Ufficio indipendente, sul modello dell'UPB. L'Ufficio pubblica una Valutazione d'impatto pubblica (VIP-AI) degli atti principali, sui valori della Carta e su tre orizzonti di tempo. I pesi tra i valori li fissa un'Assemblea di cittadini sorteggiati. Il parere non è mai vincolante: il Governo che se ne discosta lo spiega in Parlamento (*comply or explain*). Il sistema è trattato volontariamente "come se" fosse ad alto rischio secondo l'AI Act.
+Una legge ordinaria istituisce presso le Camere un Ufficio indipendente, sul modello dell'UPB. L'Ufficio pubblica una Valutazione d'impatto pubblica (VIP-AI) degli atti principali, sui valori della Carta e su tre orizzonti di tempo. I pesi tra i valori li fissa un'Assemblea civica di persone sorteggiate. Il parere non è mai vincolante: il Governo che se ne discosta lo spiega in Parlamento (*comply or explain*). Il sistema è trattato volontariamente "come se" fosse ad alto rischio secondo l'AI Act.
 
 ### Varianti
 - **PIENA** (intensità 1; 0,035 mld a regime nel 2029): Ufficio di circa 70 unità; VIP-AI obbligatoria sopra soglia e a richiesta di un quinto di una commissione; Assemblea di 150 persone; *comply or explain* su tutti gli atti valutati.
@@ -58,7 +58,7 @@ Una legge ordinaria istituisce presso le Camere un Ufficio indipendente, sul mod
 - *Altre fonti*: GDPR e Garante; CAD (d.lgs. 82/2005) per il codice aperto e il riuso.
 
 ### Articolato normativo essenziale
-**Disegno di legge "Disciplina della consulenza algoritmica pubblica e dell'Assemblea dei cittadini sui valori"**
+**Disegno di legge "Disciplina della consulenza algoritmica pubblica e dell'Assemblea civica sui valori"**
 
 **Art. 1 (Finalità e principi).**
 1. In attuazione degli articoli 1, 3, secondo comma, 95, 97 e 118, quarto comma, della Costituzione, la presente legge disciplina l'uso di sistemi di intelligenza artificiale a supporto della valutazione degli atti normativi. Ne assicura la trasparenza, la verificabilità, l'imparzialità e il controllo democratico.
@@ -106,10 +106,10 @@ Una legge ordinaria istituisce presso le Camere un Ufficio indipendente, sul mod
 4. La VIP-AI è pubblicata entro quindici giorni dalla trasmissione dell'atto alle Camere. Per i decreti-legge una versione sintetica è pubblicata entro cinque giorni. Il termine non sospende né condiziona l'iter parlamentare.
 5. La VIP-AI integra l'analisi di impatto della regolamentazione di cui all'articolo 14 della legge 28 novembre 2005, n. 246, e non la sostituisce.
 
-**Art. 6 (Assemblea dei cittadini sui valori).**
-1. È istituita l'Assemblea dei cittadini sui valori. È composta da centocinquanta persone sorteggiate tra gli iscritti nelle liste elettorali, con campionamento stratificato per età, genere, territorio, titolo di studio e condizione occupazionale. Il sorteggio è certificato dall'ISTAT.
-2. L'Assemblea resta in carica due anni e si rinnova per metà ogni anno. I componenti ricevono un'indennità giornaliera e il rimborso delle spese. Hanno diritto al permesso dal lavoro senza perdita della retribuzione.
-3. Dopo audizioni pubbliche di esperti e di portatori di interessi, con materiali validati da un comitato scientifico pluralista, l'Assemblea delibera la matrice dei valori e il tasso di sconto intergenerazionale. La delibera vincola la configurazione predefinita del SCAP. Non vincola le Camere né il Governo.
+**Art. 6 (Assemblea civica sui valori).**
+1. È istituita l'Assemblea civica sui valori. È composta da centocinquanta persone sorteggiate tra le persone iscritte nelle liste elettorali, con campionamento stratificato per età, genere, territorio, titolo di studio e condizione occupazionale. Il sorteggio è certificato dall'ISTAT.
+2. L'Assemblea resta in carica due anni e si rinnova per metà ogni anno. Le persone che ne fanno parte ricevono un'indennità giornaliera e il rimborso delle spese. Hanno diritto al permesso dal lavoro senza perdita della retribuzione.
+3. Dopo audizioni pubbliche di persone esperte e di soggetti portatori di interessi, con materiali validati da un comitato scientifico pluralista, l'Assemblea delibera la matrice dei valori e il tasso di sconto intergenerazionale. La delibera vincola la configurazione predefinita del SCAP. Non vincola le Camere né il Governo.
 4. I principi e i diritti costituzionali non sono oggetto di ponderazione.
 
 **Art. 7 (Motivazione dello scostamento).**
@@ -257,15 +257,15 @@ Il Governo in carica ha posto la questione di fiducia **91 volte** dall'inizio d
 **Disegno di legge "Disposizioni per l'esercizio del voto nel luogo di domicilio e per la stabilità delle regole elettorali"**
 
 **Art. 1 (Finalità).** In attuazione degli articoli 3, secondo comma, 48 e 51 della Costituzione, la presente legge:
-- rende effettivo il diritto di voto degli elettori temporaneamente domiciliati, per motivi di studio, lavoro o cura, in un comune di altra provincia;
+- rende effettivo il diritto di voto di elettrici ed elettori temporaneamente domiciliati, per motivi di studio, lavoro o cura, in un comune di altra provincia;
 - garantisce la stabilità delle regole elettorali.
 
 **Art. 2 (Voto nel comune di domicilio).**
-1. Gli elettori di cui all'articolo 1 votano nel comune di domicilio temporaneo per le elezioni politiche, europee e per i referendum. Devono presentare domanda, anche in via telematica tramite l'Anagrafe nazionale della popolazione residente, entro il trentacinquesimo giorno precedente il voto.
+1. Le elettrici e gli elettori di cui all'articolo 1 votano nel comune di domicilio temporaneo per le elezioni politiche, europee e per i referendum. Devono presentare domanda, anche in via telematica tramite l'Anagrafe nazionale della popolazione residente, entro il trentacinquesimo giorno precedente il voto.
 2. Il voto è espresso in sezioni speciali istituite nei capoluoghi di provincia, per le liste della circoscrizione di iscrizione elettorale. Si applicano le garanzie di segretezza e di scrutinio previste per le sezioni ordinarie.
 
 **Art. 3 (Voto anticipato presidiato).** *Solo variante PIENA.*
-1. Nei dieci giorni precedenti la consultazione, gli elettori possono votare presso uffici comunali individuati con decreto del Ministro dell'interno, alla presenza di personale con funzioni di presidente di seggio e di rappresentanti di lista.
+1. Nei dieci giorni precedenti la consultazione, le elettrici e gli elettori possono votare presso uffici comunali individuati con decreto del Ministro dell'interno, alla presenza di personale con funzioni di presidente di seggio e di rappresentanti di lista.
 2. Le schede sono custodite in plichi sigillati e scrutinate con quelle del giorno di voto.
 
 **Art. 4 (Stabilità delle regole elettorali).**
@@ -278,7 +278,7 @@ Il Governo in carica ha posto la questione di fiducia **91 volte** dall'inizio d
 2. Entro novanta giorni da ogni elezione politica, l'Ufficio di cui alla legge sulla consulenza algoritmica pubblica (08-P1), o in sua assenza l'ISTAT, pubblica:
    - l'indice di disproporzionalità;
    - la quota di voti non rappresentati;
-   - la composizione degli eletti per genere, età e territorio.
+   - la composizione delle persone elette per genere, età e territorio.
 
 **Art. 6 (Copertura finanziaria).** Agli oneri derivanti dagli articoli 2 e 3, valutati in 25 milioni di euro annui (15 milioni nella variante essenziale), si provvede mediante corrispondente riduzione delle dotazioni di parte corrente dello stato di previsione del Ministero dell'interno, missione "Relazioni finanziarie con le autonomie territoriali", esclusi i trasferimenti agli enti locali. *Programma da individuare con la RGS.*
 
@@ -293,7 +293,7 @@ Il Governo in carica ha posto la questione di fiducia **91 volte** dall'inizio d
 | KPI | Base | Obiettivo a 3 anni | Obiettivo a 5 anni |
 |---|---|---|---|
 | Affluenza alle politiche | 63,9% (2022, Eligendo) | ≥ 64% (2027) | ≥ 66% (elezioni successive) |
-| Elettori fuorisede che votano nel comune di domicilio | n.d. (sperimentazioni 2024–25, dato non verificato) | ≥ 300.000 (stima GovernAI) | ≥ 500.000 |
+| Persone fuorisede che votano nel comune di domicilio | n.d. (sperimentazioni 2024–25, dato non verificato) | ≥ 300.000 (stima GovernAI) | ≥ 500.000 |
 | Modifiche agli elementi fondamentali nei 12 mesi prima del voto | 1 (l. 180/2026) | 0 | 0 |
 
 ### Rischi e mitigazione
@@ -370,7 +370,7 @@ Non si iscrive come copertura alcun beneficio atteso dal negoziato.
 
 ### Problema in un dato
 - L'aiuto pubblico allo sviluppo (APS) italiano è lo **0,30% del RNL nel 2025** (6,46 mld € in equivalente dono, dati preliminari), contro l'obiettivo dello 0,7% richiamato dalla l. 125/2014.
-- Di questo aiuto, **1,33 mld (18,5% dell'APS netto) sono costi per l'accoglienza dei rifugiati in Italia**, che non arrivano ai Paesi partner (OCSE DAC1, misure 11002 e 1820; serie `08_aps_ocse_dac.csv`).
+- Di questo aiuto, **1,33 mld (18,5% dell'APS netto) sono costi per l'accoglienza delle persone rifugiate in Italia**, che non arrivano ai Paesi partner (OCSE DAC1, misure 11002 e 1820; serie `08_aps_ocse_dac.csv`).
 - La media DAC è lo 0,26%, ma è scesa per i tagli degli altri donatori.
 
 ### Soluzione in 3 righe
@@ -402,7 +402,7 @@ Non si iscrive come copertura alcun beneficio atteso dal negoziato.
    - *variante piena:* non inferiore allo 0,50 per cento entro il 2035, con un incremento minimo di 0,02 punti percentuali annui.
 2. In caso di mancato rispetto, il Governo presenta alle Camere una relazione motivata con le misure correttive.
 
-**Art. 3 (Contabilità separata).** I costi per l'accoglienza dei rifugiati e dei richiedenti asilo nel territorio nazionale, contabilizzati come APS secondo le regole OCSE-DAC:
+**Art. 3 (Contabilità separata).** I costi per l'accoglienza delle persone rifugiate e richiedenti asilo nel territorio nazionale, contabilizzati come APS secondo le regole OCSE-DAC:
 - sono riportati separatamente nella relazione annuale;
 - non concorrono al raggiungimento della traiettoria di cui all'articolo 2.
 
@@ -434,13 +434,13 @@ Non si iscrive come copertura alcun beneficio atteso dal negoziato.
 |---|---|---|
 | Primi 100 giorni | MAECI (Vice Ministro cooperazione), MEF | DDL; stima ufficiale del gettito del contributo con dati ENAC/Assaeroporti; avvio della contabilità separata nella relazione APS 2026 |
 | 12 mesi | AICS, Comitato interministeriale per la cooperazione (CICS) | Documento triennale 2027–29 con la traiettoria; piano di valutazione; Piano Mattei agli stessi standard |
-| Fine legislatura | AICS, valutatori indipendenti, OCSE-DAC | Prime valutazioni controfattuali pubblicate; APS ≥ 0,32% del RNL; *peer review* DAC |
+| Fine legislatura | AICS, enti di valutazione indipendenti, OCSE-DAC | Prime valutazioni controfattuali pubblicate; APS ≥ 0,32% del RNL; *peer review* DAC |
 
 ### Indicatori
 | KPI | Base | Obiettivo a 3 anni | Obiettivo a 5 anni |
 |---|---|---|---|
 | APS/RNL (equivalente dono) | 0,30% (2025, OCSE DAC1, prelim.) | 0,33% (ESS.) / 0,36% (PIENA) | 0,35% (ESS.) / 0,40% (PIENA) |
-| Quota APS spesa per rifugiati in Italia | 18,5% dell'APS netto (2025, OCSE DAC1) | riportata a parte; ≤ 15% | ≤ 12% |
+| Quota APS spesa per persone rifugiate in Italia | 18,5% dell'APS netto (2025, OCSE DAC1) | riportata a parte; ≤ 15% | ≤ 12% |
 | Programmi con valutazione controfattuale pubblicata | n.d. (valutazione qualitativa: poche e non sistematiche) | 5% | 10% |
 
 ### Rischi e mitigazione
@@ -494,7 +494,7 @@ Nel 2025 i primi tre mercati (Germania 72,2 mld, Stati Uniti 69,6, Francia 65,0)
 |---|---|---|
 | Primi 100 giorni | MAECI (DG promozione), MIMIT, ICE | Disegno dei voucher e del protocollo di valutazione; avvio della riprogrammazione FESR con l'Agenzia per la coesione |
 | 12 mesi | ICE, SACE, SIMEST | Primo bando; sportello unico operativo; prima VIP-AI su un accordo (es. Mercosur o India) |
-| Fine legislatura | MAECI, valutatori indipendenti | Valutazione controfattuale; decisione su prosecuzione con copertura nuova o chiusura |
+| Fine legislatura | MAECI, enti di valutazione indipendenti | Valutazione controfattuale; decisione su prosecuzione con copertura nuova o chiusura |
 
 ### Indicatori
 | KPI | Base | Obiettivo a 3 anni | Obiettivo a 5 anni |

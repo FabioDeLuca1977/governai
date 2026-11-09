@@ -1,6 +1,6 @@
 # Verifica giuridica di GovernAI
 
-Ogni misura del programma e ogni copertura passa una verifica di conformità da parte di tre esperti, ciascuno nel proprio ambito:
+Ogni misura del programma e ogni copertura passa una verifica di conformità in tre ambiti, ciascuno affidato a un profilo esperto:
 
 | Ambito | Cosa verifica |
 |---|---|
@@ -23,6 +23,6 @@ Ogni misura del programma e ogni copertura passa una verifica di conformità da 
 |---|---|
 | `conformita.csv` | Una riga per elemento × ambito: `tipo` (proposta, variante o copertura), `id`, `ambito`, `esito`, `norme` (citazioni), `fonti` (link a Normattiva o EUR-Lex), `motivazione`, `condizioni` |
 | `quadro.md` | I vincoli giuridici ed europei essenziali, letti dagli agenti prima di ogni nuova proposta o analisi |
-| `note_*.md` | Le note di ciascun esperto |
+| `note_*.md` | Le note di ciascun ambito di verifica |
 
 La verifica è un supporto alla decisione, non un parere legale. Le misure da adottare richiedono comunque la valutazione degli uffici legislativi e, dove serve, dell'avvocatura.

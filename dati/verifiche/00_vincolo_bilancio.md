@@ -127,7 +127,7 @@ Per ogni fondo il dettaglio di fonti e vincoli è in `registro/fondi.csv`.
 | FONDI_UE | 0-1,0 | 8,0 (SAFE) | temporanea | fuori bilancio o debito |
 | RIALLOCAZIONE | 0,5-2,0 | 1,2 | permanente | vedi §4 |
 | RISPARMI_ATTESI | 0-∞ | — | incerta | mai come copertura ex ante |
-| TARIFFE | 0-∞ | — | incerta, fuori bilancio | pagano gli utenti |
+| TARIFFE | 0-∞ | — | incerta, fuori bilancio | paga l'utenza |
 | DEFICIT | **-2,4-0** | — | — | nessun margine |
 
 **Totale in bilancio** (esclusi DEFICIT e voci illimitate): **5,7-34,1 mld/anno**. La quota **permanente**, l'unica adatta a spese strutturali, è di **3,7-18,2 mld/anno**. Escludendo anche l'evasione IVA (incerta e da certificare) e la coesione (una tantum), restano risorse permanenti e certe per circa **3,7-18 mld**, di cui oltre la metà dai SAD.
@@ -148,6 +148,6 @@ Ne derivano tre conseguenze.
 
 1. **Ogni proposta deve portare la sua copertura**, sotto forma di nuove entrate decise per legge (riforma dei SAD, riordino delle spese fiscali oltre il Piano, accise sulla salute, contributo di equità) o di tagli di spese che si sarebbero davvero fatte. Il recupero dell'evasione IVA va bene per ridurre il debito, non per finanziare spesa permanente. Spendere i residui non spesi non è una copertura.
 2. **Prima delle 52 proposte c'è un conto già aperto**: circa 10-14 mld l'anno per rinnovare le misure temporanee della manovra 2027. Dal 2029 si aggiungono circa 7,6 mld per mantenere la spesa per la difesa.
-3. **Le risorse permanenti credibili valgono 4-18 mld l'anno**, contro 27-45 mld di proposte senza Difesa. Più della metà dipende dai SAD. La scelta tra dividendo ai cittadini e servizi decide quante proposte strutturali restano finanziabili. I fondi di coesione possono sostenere investimenti una tantum fino al 2029, non personale o prestazioni stabili.
+3. **Le risorse permanenti credibili valgono 4-18 mld l'anno**, contro 27-45 mld di proposte senza Difesa. Più della metà dipende dai SAD. La scelta tra dividendo alla cittadinanza e servizi decide quante proposte strutturali restano finanziabili. I fondi di coesione possono sostenere investimenti una tantum fino al 2029, non personale o prestazioni stabili.
 
 Per i 9 agenti ministeriali la regola pratica è questa: **si negozia una torta di 4-18 mld l'anno a regime, non di più**. Se il Governo rinnova le misure temporanee, i loro 10-14 mld vanno tolti prima da questa stessa torta. Le proposte vanno ordinate per priorità.

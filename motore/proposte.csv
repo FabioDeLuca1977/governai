@@ -18,14 +18,14 @@ proposta_id,titolo,costo_min,costo_max,costo_opportunita
 03-P5,Contratto agro-climatico,0.3,0.5,0.0
 04-P1,Patto di continuita' post-PNRR,1.0,2.0,0.0
 04-P2,Casa a canone giusto,0.8,1.5,0.0
-04-P3,Prima il treno dei pendolari: fondo TPL e abbonamento unico,1.5,3.0,0.0
+04-P3,Prima il treno di chi viaggia ogni giorno: fondo TPL e abbonamento unico,1.5,3.0,0.0
 04-P4,Nessuna grande opera senza prova dei numeri,0.01,0.05,0.0
 04-P5,LEP prima: autonomia differenziata reversibile,0.0,0.0,0.0
 04-P6,Restare e' possibile: servizi essenziali aree interne,0.5,1.0,0.0
-05-C1,Nessuno escluso: squadre di prossimita' contro la dispersione,0.2,0.3,0.0
+05-C1,Nessuna esclusione: squadre di prossimita' contro la dispersione,0.2,0.3,0.0
 05-C2,Conto personale di competenze,1.0,1.5,0.0
 05-C3,Carriere della ricerca,3.0,3.2,0.0
-05-C4,"Piu' laureati e diplomati terziari: ITS, lauree professionalizzanti, residenze",0.5,0.8,0.0
+05-C4,"Piu' persone con laurea o diploma terziario: ITS, lauree professionalizzanti, residenze",0.5,0.8,0.0
 05-C5,Scuole aperte come presidi di comunita',0.3,0.5,0.0
 05-C6,AI a scuola,0.15,0.3,0.0
 06-C1,Tempo garantito o rimborso,0.5,1.0,0.0
@@ -48,10 +48,10 @@ proposta_id,titolo,costo_min,costo_max,costo_opportunita
 08-P6,Export resiliente,0.2,0.4,0.0
 09-C1,Stato a vetro: infrastruttura aperta per l'analisi delle politiche,0.05,0.1,0.0
 09-C2,Chiedilo una volta sola: once-only con rimborso automatico,0.2,0.4,0.0
-09-C3,Tecnici della Repubblica: pool di competenze per i piccoli enti,0.4,0.7,0.0
+09-C3,Squadre tecniche della Repubblica: pool di competenze per i piccoli enti,0.4,0.7,0.0
 09-C4,Cloud pubblico sostenibile e Patto per la manutenzione digitale,0.3,0.5,0.0
 09-C5,AI nella PA con le mani sul volante,0.15,0.3,0.0
-01-P7,"Dichiarazione zero: lo Stato fa il conto, il cittadino controlla",0.3,0.3,0.0
+01-P7,"Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla",0.3,0.3,0.0
 01-P8,Meno scontrini: riordino delle detrazioni del 19%,0.35,0.35,0.0
 01-P9,"Una sola detrazione per il lavoro, senza scalini",1.0,1.0,0.0
 01-P10,"Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti",0.1,0.1,0.0

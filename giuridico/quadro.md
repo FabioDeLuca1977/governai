@@ -35,7 +35,7 @@
 ## Costituzione e Statuto del contribuente
 - **Art. 23:** soggetti, base e limiti massimi del tributo li fissa la legge, non il decreto.
 - **Art. 53:** capacità contributiva e progressività del sistema.
-- **Pensioni:** un prelievo che colpisce solo i pensionati regge se è solidale, interno al sistema previdenziale, temporaneo e progressivo (Corte cost. 116/2013, 173/2016, 234/2020).
+- **Pensioni:** un prelievo che colpisce solo chi ha una pensione regge se è solidale, interno al sistema previdenziale, temporaneo e progressivo (Corte cost. 116/2013, 173/2016, 234/2020).
 - **Retroattività (L. 212/2000):** decorrenza dal periodo d'imposta successivo; restano salve le rate e i crediti già maturati.
 
 ## Tributi locali
@@ -43,7 +43,7 @@
 - Il gettito è dei Comuni (art. 119 Cost.): non copre spesa statale senza una riduzione dei trasferimenti decisa per legge.
 
 ## Non discriminazione UE
-- Niente vantaggi ai residenti o ai tratti nazionali rispetto ad altri Stati UE.
+- Niente vantaggi a chi risiede in Italia o ai tratti nazionali rispetto ad altri Stati UE.
 
 ## Diritto costituzionale e amministrativo
 

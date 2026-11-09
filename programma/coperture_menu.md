@@ -54,9 +54,9 @@ Le misure sono invariate, salvo AS04, portato a +20% sui superalcolici per integ
 | ID | Origine | Misura | Gettito | Verifica |
 |---|---|---|---|---|
 | SAD11 | 08 | Contributo di solidarietà sui biglietti aerei (2/4/10 €) | 0,30-0,50 | L'area stimava 0,4-0,8; ricalcolato su 230 mln di passeggeri (ENAC 2025) |
-| SF06 | 06 SF-SAN1 | Detrazione sanitaria decrescente tra 50 e 120 mila €, salvi cronici e disabili | 0,35-0,60 | Base RSF 4.874 mln |
+| SF06 | 06 SF-SAN1 | Detrazione sanitaria decrescente tra 50 e 120 mila €, salve le persone con malattie croniche o con disabilità | 0,35-0,60 | Base RSF 4.874 mln |
 | SF07 | 06 SF-SAN2 | Fondi sanitari integrativi: deduzione decrescente oltre 75 mila | 0,08-0,20 | L'area stimava 0,2-0,4; la deduzione RSF vale 838 mln con media di 84 € |
-| SF08 | 05 | Detrazione per lo sport dei ragazzi trasformata in offerta gratuita | 0,04-0,07 | Tetto: costo RSF di 74 mln (l'area stimava 0,10) |
+| SF08 | 05 | Detrazione per lo sport di ragazze e ragazzi trasformata in offerta gratuita | 0,04-0,07 | Tetto: costo RSF di 74 mln (l'area stimava 0,10) |
 | SF09 | 04 | Detrazioni edilizie ridotte per le seconde case | 0,05-0,15 | Gettito in 10 rate, cresce lentamente |
 | SF10 | 01 | Iperammortamento: maggiorazione base ridotta | 0,20-0,40 | Costo totale della misura non trovato: non verificata |
 | SF16 | 01-P13 | Nuovo patent box chiuso ai nuovi ingressi, uscita graduale | 0,20-0,24 | RSF 2025: 244,5 mln IRES (la quota IRAP va alle Regioni); vincolata al credito unico per la ricerca |
@@ -80,7 +80,7 @@ Le misure sono invariate, salvo AS04, portato a +20% sui superalcolici per integ
 - il contributo triennale dell'area 02 corrisponde a PE01 + PE02.
 
 **Non inserite** perché non quantificate o fuori dal menu:
-- SF-SAN3 (badanti), RB-SAN1 e RB-SAN2 (budget di cura, bonus psicologo): mancano le cifre;
+- SF-SAN3 (assistenti familiari), RB-SAN1 e RB-SAN2 (budget di cura, bonus psicologo): mancano le cifre;
 - FSN-INT: riguarda il fondo FSN, non il menu;
 - aumento contributivo CUAF: l'avanzo non è certificato.
 
@@ -88,7 +88,7 @@ Le misure sono invariate, salvo AS04, portato a +20% sui superalcolici per integ
 | ID | Misura | Gettito netto | Compensazione sottratta | Effetti negativi dichiarati |
 |---|---|---|---|---|
 | **SF15** | IVA 10%→12%, esclusi alimentari di base, farmaci, energia domestica e TPL | **1,50-2,20** | AUU e ADI per il 30% più povero (0,5-0,7) | BEN −2, RIS −1, BPA −1 (turismo, ristorazione) |
-| **SF13** | Catasto a valori di mercato e IMU sulla prima casa solo oltre una franchigia; gettito ai Comuni compensato da minori trasferimenti statali | **0,80-1,50** | detrazione piena per ISEE ≤25 mila, rinvio per anziani a basso reddito | BEN −1, RIS −1; 3-4 anni di attuazione |
+| **SF13** | Catasto a valori di mercato e IMU sulla prima casa solo oltre una franchigia; gettito ai Comuni compensato da minori trasferimenti statali | **0,80-1,50** | detrazione piena per ISEE ≤25 mila, rinvio per persone anziane a basso reddito | BEN −1, RIS −1; 3-4 anni di attuazione |
 | **SAD13** | Uscita completa dai SAD del gasolio per autotrasporto e agricoltura entro il 2035 | **0,80-1,10** | rinnovo flotte e redditi agricoli (0,4) | RIS −2, BEN −1, BPA −1 (aree rurali) |
 | SF11 | Abolizione della cedolare secca a canone libero (oltre SF01) | 0,60-1,10 | concordato al 10% salvo | rischio affitti più alti e nero |
 | RA13 | Revisione della spesa dei ministeri: ulteriori 0,05% del PIL | 0,60-1,20 | — | rischio di tagli lineari (BEN −1) |
@@ -137,7 +137,7 @@ Per il livello 2 **non propongo**:
 **Cosa è incerto.**
 - I valori del Catalogo sono teorici, "a comportamento invariato".
 - Diverse platee non sono verificate.
-- Mancano dati ufficiali su: costo dell'iperammortamento, gettito del tabacco riscaldato, distribuzione per reddito di forfetari e detrazioni, quota dei pensionati sopra 6 volte il minimo.
+- Mancano dati ufficiali su: costo dell'iperammortamento, gettito del tabacco riscaldato, distribuzione per reddito del regime forfetario e delle detrazioni, quota delle persone in pensione sopra 6 volte il minimo.
 - SF14 e SF15 sono DRM imputate a SPESE_FISCALI perché non esiste un fondo più adatto.
 - SF13, RA06 e RA05 richiedono di ridurre i trasferimenti a Comuni o SSN per liberare risorse statali.
 
@@ -158,7 +158,7 @@ Ricerche web usate in tutto: 19.
 - SF13: RIS −1→0 (distributivo, ora EQU +2); FID 1→2 (estimi trasparenti e uguali per tutti).
 - RA14: RIS −1→0 (perdita delle imprese beneficiarie compensata dall'eliminazione di rendite, EQU 0); FID 1→2 (addizionalità dimostrata e pubblica).
 - RB04: RIS −1→0, l'effetto sulla libertà di scelta è ora in CIT −1.
-- Restano in RIS gli effetti non distributivi: affidamento dei pensionati (PE01, PE02, PE04), effetto di genere (RB03, RB05), libertà di circolazione (TS02).
+- Restano in RIS gli effetti non distributivi: affidamento di chi è in pensione (PE01, PE02, PE04), effetto di genere (RB03, RB05), libertà di circolazione (TS02).
 - Dove la compensazione prevista neutralizza l'effetto, EQU vale 0 anche se RIS era −1: SAD06 (salvaguardia under 36), SAD08 (perdita dei gestori contro privilegio dei grandi consumatori).
 
 **Le 5 misure più regressive (EQU).** A parità di punteggio, ordine per gettito massimo.
@@ -166,7 +166,7 @@ Ricerche web usate in tutto: 19.
 | Misura | EQU | Perché |
 |---|---|---|
 | RB05, soppressione del bonus madri residuo | −2 | colpisce madri lavoratrici con reddito fino a 32.000 €; accettabile solo con i nidi |
-| AS05, tabacchi al livello UE più alto | −2 | prelievo concentrato sui fumatori a basso reddito, trinciato incluso |
+| AS05, tabacchi al livello UE più alto | −2 | prelievo concentrato su chi fuma e ha un reddito basso, trinciato incluso |
 | SAD12, IVA sul gas domestico al 22% | −2 | bene essenziale; il bonus sociale copre solo ISEE ≤15.000 € |
 | SF15, IVA ridotta dal 10% al 12% | −1 | IVA regressiva, attenuata da esclusioni e maggiorazione di AUU e ADI |
 | SAD13, uscita completa dai SAD del gasolio | −1 | pesa su aziende agricole, aree rurali e prezzi; sostegni ai redditi agricoli |

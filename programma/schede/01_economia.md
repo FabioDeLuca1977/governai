@@ -75,7 +75,7 @@ Indicatore di contesto: debito/PIL 138,5% nel 2027 e 136,6% nel 2029 programmato
 
 **Problema in un dato.** Le spese fiscali erariali sono **573**, per **129,7 mld nel 2026** (MEF, Rapporto spese fiscali 2025). L'UPB ne contava 466 nel 2018 e 625 nel 2024 (Focus 4/2024): il numero cresce e nessuna misura deve dimostrare di funzionare. Il Piano strutturale di bilancio conta già **7,37 mld** di riordino, senza indicare il metodo.
 
-**Soluzione.** Ogni spesa fiscale riceve una data di scadenza, scaglionata in 5 anni. Una Commissione indipendente pubblica per ciascuna una scheda (costo, beneficiari per decile, efficacia) e il Parlamento la rinnova solo con un voto esplicito e una copertura. È il metodo per conseguire i 7,37 mld già nel Piano, non una risorsa aggiuntiva: il gettito oltre quella soglia va al menu coperture.
+**Soluzione.** Ogni spesa fiscale riceve una data di scadenza, scaglionata in 5 anni. Una Commissione indipendente pubblica per ciascuna una scheda (costo, chi ne beneficia per decile, efficacia) e il Parlamento la rinnova solo con un voto esplicito e una copertura. È il metodo per conseguire i 7,37 mld già nel Piano, non una risorsa aggiuntiva: il gettito oltre quella soglia va al menu coperture.
 
 **Varianti**
 
@@ -89,9 +89,9 @@ Indicatore di contesto: debito/PIL 138,5% nel 2027 e 136,6% nel 2029 programmato
 
 > **Art. 1 (Finalità).** 1. Al fine di assicurare l'efficacia, l'equità e la trasparenza delle spese fiscali e di conseguire gli obiettivi di riordino previsti dal Piano strutturale di bilancio di medio termine, il Governo è delegato ad adottare, entro dodici mesi, uno o più decreti legislativi secondo i principi e criteri direttivi di cui agli articoli 2 e 3.
 >
-> **Art. 2 (Clausola di scadenza).** 1. Ciascuna spesa fiscale censita nel rapporto di cui all'articolo 21, comma 11-bis, della legge 31 dicembre 2009, n. 196, cessa di avere efficacia al termine del quinto periodo d'imposta successivo all'entrata in vigore del decreto legislativo, secondo un calendario che distribuisce le scadenze in cinque annualità e pone per prime le misure con minor numero di beneficiari o prive di valutazione. 2. Le spese fiscali introdotte o prorogate dopo l'entrata in vigore della presente legge hanno durata non superiore a cinque anni. 3. Sono escluse dalla cessazione automatica, ma non dalla valutazione, le agevolazioni relative a spese sanitarie, disabilità, carichi familiari e quelle che attuano obblighi dell'Unione europea.
+> **Art. 2 (Clausola di scadenza).** 1. Ciascuna spesa fiscale censita nel rapporto di cui all'articolo 21, comma 11-bis, della legge 31 dicembre 2009, n. 196, cessa di avere efficacia al termine del quinto periodo d'imposta successivo all'entrata in vigore del decreto legislativo, secondo un calendario che distribuisce le scadenze in cinque annualità e pone per prime le misure con minor numero di soggetti beneficiari o prive di valutazione. 2. Le spese fiscali introdotte o prorogate dopo l'entrata in vigore della presente legge hanno durata non superiore a cinque anni. 3. Sono escluse dalla cessazione automatica, ma non dalla valutazione, le agevolazioni relative a spese sanitarie, disabilità, carichi familiari e quelle che attuano obblighi dell'Unione europea.
 >
-> **Art. 3 (Valutazione e rinnovo).** 1. La Commissione per la redazione del rapporto annuale sulle spese fiscali è integrata da esperti indipendenti e dotata di una segreteria tecnica; accede ai dati dell'Agenzia delle entrate in forma anonimizzata, nel rispetto del regolamento (UE) 2016/679. 2. Per ogni misura in scadenza pubblica, almeno dodici mesi prima, una scheda su costo, beneficiari per decile di reddito e territorio, efficacia rispetto all'obiettivo e alternative. 3. Il rinnovo è disposto con norma specifica, votata separatamente e munita di copertura ai sensi dell'articolo 17 della legge n. 196 del 2009.
+> **Art. 3 (Valutazione e rinnovo).** 1. La Commissione per la redazione del rapporto annuale sulle spese fiscali è integrata da persone esperte indipendenti e dotata di una segreteria tecnica; accede ai dati dell'Agenzia delle entrate in forma anonimizzata, nel rispetto del regolamento (UE) 2016/679. 2. Per ogni misura in scadenza pubblica, almeno dodici mesi prima, una scheda su costo, soggetti beneficiari per decile di reddito e territorio, efficacia rispetto all'obiettivo e alternative. 3. Il rinnovo è disposto con norma specifica, votata separatamente e munita di copertura ai sensi dell'articolo 17 della legge n. 196 del 2009.
 >
 > **Art. 4 (Destinazione dei risparmi).** 1. I risparmi concorrono prioritariamente al conseguimento dell'obiettivo di riordino previsto dal Piano strutturale di bilancio. 2. Le maggiori entrate eccedenti tale obiettivo, accertate a consuntivo, sono destinate con legge di bilancio alla riduzione del cuneo fiscale sui redditi da lavoro medio-bassi e alla riduzione dell'indebitamento netto.
 >
@@ -169,7 +169,7 @@ Indicatore di contesto: debito/PIL 138,5% nel 2027 e 136,6% nel 2029 programmato
 
 ## 01-P4 — "Crescere conviene" (versione mirata): togliere i gradini che tengono piccole le imprese
 
-**Problema in un dato.** Il **60,0%** degli occupati lavora in imprese con meno di 50 addetti, contro il 41,6% in Francia e il 39,4% in Germania (Eurostat sbs_sc_ovw, 2024; `01_quota_occupati_micro_piccole`). La produttività del lavoro è cresciuta dello 0,3% l'anno nel 1995-2024, contro l'1,5% dell'UE27 (ISTAT, dicembre 2025); l'indice del PIL per ora lavorata è a 100,4 nel 2025 (2015=100; Eurostat nama_10_lp_ulc).
+**Problema in un dato.** Il **60,0%** delle persone occupate lavora in imprese con meno di 50 addetti, contro il 41,6% in Francia e il 39,4% in Germania (Eurostat sbs_sc_ovw, 2024; `01_quota_occupati_micro_piccole`). La produttività del lavoro è cresciuta dello 0,3% l'anno nel 1995-2024, contro l'1,5% dell'UE27 (ISTAT, dicembre 2025); l'indice del PIL per ora lavorata è a 100,4 nel 2025 (2015=100; Eurostat nama_10_lp_ulc).
 
 **Soluzione.** Chi supera 15 o 50 addetti ha tre anni per adeguarsi agli obblighi amministrativi; salute, sicurezza e diritti sindacali restano pieni da subito. Un premio di crescita, con tetto annuo, va solo alle imprese tra 10 e 49 addetti che crescono, si fondono o fanno rete. Il costo scende da 2,5 a 0,6 mld, finanziato rimodulando la parte generica dell'iperammortamento.
 
@@ -185,7 +185,7 @@ La variante ESSENZIALE prende la parte a costo zero, cioè la graduazione delle 
 
 **Articolato normativo essenziale** (disegno di legge; premio in legge di bilancio)
 
-> **Art. 1 (Finalità).** 1. Al fine di favorire la crescita dimensionale, l'aggregazione e la produttività delle micro e piccole imprese, senza ridurre i diritti dei lavoratori, la presente legge gradua gli obblighi amministrativi connessi alle soglie occupazionali e istituisce un premio di crescita.
+> **Art. 1 (Finalità).** 1. Al fine di favorire la crescita dimensionale, l'aggregazione e la produttività delle micro e piccole imprese, senza ridurre i diritti di chi lavora, la presente legge gradua gli obblighi amministrativi connessi alle soglie occupazionali e istituisce un premio di crescita.
 >
 > **Art. 2 (Mappatura delle soglie).** 1. Entro sei mesi il Ministro delle imprese e del made in Italy, di concerto con i Ministri del lavoro e delle politiche sociali e dell'economia e delle finanze, sentite le parti sociali, pubblica l'elenco degli obblighi amministrativi, contabili e informativi che sorgono al superamento delle soglie di 10, 15, 50 e 250 addetti.
 >
@@ -206,8 +206,8 @@ La variante ESSENZIALE prende la parte a costo zero, cioè la graduazione delle 
 
 | KPI | Base (dato, anno, fonte) | Obiettivo 3 anni | Obiettivo 5 anni |
 |---|---|---|---|
-| Quota di occupati in imprese con meno di 50 addetti | 60,0%, 2024 (Eurostat sbs_sc_ovw) | ≤ 59,3% | ≤ 58,5% |
-| Valore aggiunto per addetto dei beneficiari rispetto al gruppo di controllo | 0, 2026 (avvio) | +3% | +5%, significativo |
+| Quota di persone occupate in imprese con meno di 50 addetti | 60,0%, 2024 (Eurostat sbs_sc_ovw) | ≤ 59,3% | ≤ 58,5% |
+| Valore aggiunto per addetto delle imprese beneficiarie rispetto al gruppo di controllo | 0, 2026 (avvio) | +3% | +5%, significativo |
 | PIL per ora lavorata (indice 2015=100), indicatore di contesto | 100,4, 2025 (Eurostat nama_10_lp_ulc) | ≥ 102 | ≥ 104 |
 
 **Rischi e mitigazioni**
@@ -273,7 +273,7 @@ Dopo il 2029 il fabbisogno scende a circa 0,02-0,05 mld/anno per le perdite atte
 
 **Problema in un dato.** Luglio e agosto concentrano il **34,5%** delle presenze annue, giugno-settembre il **56,9%** (466,2 milioni di presenze nel 2024; Eurostat tour_occ_nim, elaborazione GovernAI). Nel 2025 le presenze salgono a 535,5 milioni, ma il dato non è pienamente confrontabile per l'ampliamento del campo di osservazione (`01_presenze_turistiche`).
 
-**Soluzione.** I Comuni ad alta intensità turistica possono modulare l'imposta di soggiorno per stagione e zona, entro un tetto nazionale e con riduzioni obbligatorie in bassa stagione. Almeno metà del gettito va per legge a casa, trasporti e servizi per i residenti, e i dati CIN sugli affitti brevi diventano pubblici. Un patto Stato-Regioni premia chi sposta presenze fuori stagione e nelle aree interne.
+**Soluzione.** I Comuni ad alta intensità turistica possono modulare l'imposta di soggiorno per stagione e zona, entro un tetto nazionale e con riduzioni obbligatorie in bassa stagione. Almeno metà del gettito va per legge a casa, trasporti e servizi per chi ci abita, e i dati CIN sugli affitti brevi diventano pubblici. Un patto Stato-Regioni premia chi sposta presenze fuori stagione e nelle aree interne.
 
 **Varianti**
 
@@ -287,7 +287,7 @@ Gettito comunale aggiuntivo stimato in 0,3-0,8 mld/anno (fondo TASSA_SOGGIORNO, 
 
 **Articolato normativo essenziale** (disegno di legge, modifica dell'art. 4 del d.lgs. 23/2011; intesa in Conferenza unificata)
 
-> **Art. 1 (Finalità).** 1. Al fine di distribuire nel tempo e nello spazio i flussi turistici e di destinare ai residenti una quota dei benefici del turismo, la presente legge modifica la disciplina dell'imposta di soggiorno e istituisce il Patto nazionale per la destagionalizzazione.
+> **Art. 1 (Finalità).** 1. Al fine di distribuire nel tempo e nello spazio i flussi turistici e di destinare alla popolazione residente una quota dei benefici del turismo, la presente legge modifica la disciplina dell'imposta di soggiorno e istituisce il Patto nazionale per la destagionalizzazione.
 >
 > **Art. 2 (Imposta di soggiorno modulata).** 1. All'articolo 4 del decreto legislativo 14 marzo 2011, n. 23, dopo il comma 1 è inserito il seguente: «1-bis. I comuni individuati come ad alta intensità turistica sulla base di un indice ISTAT di presenze per residente possono articolare l'imposta per periodi dell'anno e zone del territorio, entro il limite massimo fissato con decreto del Ministro dell'economia e delle finanze, d'intesa con la Conferenza Stato-città ed autonomie locali, in misura non superiore alla media dei principali Paesi dell'Unione europea. Nei mesi di bassa stagione individuati dal comune la misura è ridotta di almeno un terzo rispetto alla misura ordinaria.»
 >
@@ -309,7 +309,7 @@ Gettito comunale aggiuntivo stimato in 0,3-0,8 mld/anno (fondo TASSA_SOGGIORNO, 
 | KPI | Base (dato, anno, fonte) | Obiettivo 3 anni | Obiettivo 5 anni |
 |---|---|---|---|
 | Quota di presenze in luglio e agosto | 34,5%, 2024 (Eurostat tour_occ_nim) | ≤ 33,5% | ≤ 32,0% |
-| Quota del gettito dell'imposta destinata ai servizi per i residenti | non rilevata; gettito circa 1,0 mld, 2024 (stime JFC-IRPET, non ufficiali) | ≥ 50% nei Comuni aderenti, rendicontata | ≥ 50% in tutti i Comuni |
+| Quota del gettito dell'imposta destinata ai servizi per la popolazione residente | non rilevata; gettito circa 1,0 mld, 2024 (stime JFC-IRPET, non ufficiali) | ≥ 50% nei Comuni aderenti, rendicontata | ≥ 50% in tutti i Comuni |
 | Comuni ad alta intensità con tariffa modulata | 0, 2026 | 50 | 150 |
 
 **Rischi e mitigazioni**
@@ -341,7 +341,7 @@ L'iperammortamento (L. 199/2025) scade il 30 settembre 2028 e resta fuori da que
 | ESSENZIALE | 12% per le imprese sotto 50 addetti; certificazione preventiva; patent box ridotto al 50% | 0,01 / 0,06 / 0,11 → **0,16** (2030) | 0,5 | SPESE_FISCALI 0,15 (patent box al 50%); RIALLOCAZIONE 0,01 |
 | ZERO | Solo certificazione preventiva vincolante, portale unico, testo unico e regola dei cinque anni | 0,01 → **0,01** (2027) | 0,2 | RIALLOCAZIONE 0,01 |
 
-*Come è costruito il costo (stima GovernAI).* Il credito R&S costa 1,823 mld (RSF 2025). Nel 2020 le imprese sotto i 50 addetti ne ricevevano il 42% (ISTAT 2023: il 58% andava alle imprese con almeno 50 addetti), cioè circa 0,77 mld su una spesa agevolata di circa 7,7 mld. Tre punti in più su questa spesa valgono 0,23 mld a comportamento invariato. Il rimborso alle giovani imprese vale circa 0,05 (stima, da verificare con i dati dell'Agenzia delle entrate). Portale, certificazione pubblica e controlli valgono 0,02. Totale 0,30. ESSENZIALE: due punti in più per 0,15, più 0,01 di gestione. Il credito si usa in tre quote annuali dall'anno dopo la spesa, quindi il costo arriva a regime nel 2030. *Ritmo delle coperture*: il patent box ridotto al 50% sulle spese 2027 fa risparmiare circa 0,15 nel 2028 (dichiarazioni 2027); dal 2029 il risparmio è pieno, circa 0,28 (RSF 2025: 244,5 mln IRES + 38,9 mln IRAP). Nel 2028-29 la copertura supera il costo. La quota dei beneficiari sotto i 50 addetti è un dato del 2020 e va aggiornata.
+*Come è costruito il costo (stima GovernAI).* Il credito R&S costa 1,823 mld (RSF 2025). Nel 2020 le imprese sotto i 50 addetti ne ricevevano il 42% (ISTAT 2023: il 58% andava alle imprese con almeno 50 addetti), cioè circa 0,77 mld su una spesa agevolata di circa 7,7 mld. Tre punti in più su questa spesa valgono 0,23 mld a comportamento invariato. Il rimborso alle giovani imprese vale circa 0,05 (stima, da verificare con i dati dell'Agenzia delle entrate). Portale, certificazione pubblica e controlli valgono 0,02. Totale 0,30. ESSENZIALE: due punti in più per 0,15, più 0,01 di gestione. Il credito si usa in tre quote annuali dall'anno dopo la spesa, quindi il costo arriva a regime nel 2030. *Ritmo delle coperture*: il patent box ridotto al 50% sulle spese 2027 fa risparmiare circa 0,15 nel 2028 (dichiarazioni 2027); dal 2029 il risparmio è pieno, circa 0,28 (RSF 2025: 244,5 mln IRES + 38,9 mln IRAP). Nel 2028-29 la copertura supera il costo. La quota delle imprese beneficiarie sotto i 50 addetti è un dato del 2020 e va aggiornata.
 
 **Articolato normativo essenziale**
 
@@ -363,7 +363,7 @@ L'iperammortamento (L. 199/2025) scade il 30 settembre 2028 e resta fuori da que
 
 | Fase | Cosa | Chi |
 |---|---|---|
-| Primi 100 giorni | Norme in legge di bilancio 2027 (aliquota, patent box, certificazione); bozza del testo unico; dati dell'Agenzia delle entrate sui beneficiari per classe di addetti | MEF, MIMIT, Agenzia delle entrate |
+| Primi 100 giorni | Norme in legge di bilancio 2027 (aliquota, patent box, certificazione); bozza del testo unico; dati dell'Agenzia delle entrate sulle imprese beneficiarie per classe di addetti | MEF, MIMIT, Agenzia delle entrate |
 | 12 mesi | Portale unico e certificazione preventiva operativi; testo unico adottato; primi rimborsi alle giovani imprese | MIMIT, Agenzia delle entrate, certificatori |
 | Fine legislatura | Regime pieno dal 2030; prima valutazione ISTAT-Banca d'Italia (2030) | ISTAT, Banca d'Italia, Parlamento |
 
@@ -430,9 +430,9 @@ Le imprese mantengono i diritti di proprietà intellettuale; lo Stato ha una lic
 |---|---|---|---|
 | Valore dei contratti pre-commerciali e per l'innovazione aggiudicati nell'anno | circa 93 mln in tutto nel 2019-2025 (Smarter Italy, AgID; dato annuo n.d.) | 150 mln | 200 mln |
 | Soluzioni di fase 2 acquistate da una PA entro 2 anni | n.d. | 25% | 40% |
-| Quota di PMI tra i vincitori di fase 1 | n.d. | ≥60% | ≥60% |
+| Quota di PMI tra le imprese vincitrici di fase 1 | n.d. | ≥60% | ≥60% |
 
-**Rischi e mitigazione.** *Sfide inventate per spendere* → impegno ad acquistare e motivazione pubblica in caso di mancato acquisto. *Amministrazioni senza competenze di gara* → AgID come centrale di committenza unica, collegamento con i tecnici di 09-C3. *Aiuti di Stato* → prezzi di mercato e procedure competitive, come prevede la disciplina UE sugli appalti pre-commerciali. *Effetto sugli acquisti ordinari* (la riduzione degli stanziamenti) → riguarda le stesse amministrazioni che ricevono le soluzioni; da tenere distinta dai risparmi sugli acquisti centralizzati (RA01) per non contarli due volte. *Coesione dopo il 2029* → RIALLOCAZIONE prevalente a regime; se il ciclo 2028-34 non conferma le risorse si scende alla ESSENZIALE.
+**Rischi e mitigazione.** *Sfide inventate per spendere* → impegno ad acquistare e motivazione pubblica in caso di mancato acquisto. *Amministrazioni senza competenze di gara* → AgID come centrale di committenza unica, collegamento con il personale tecnico di 09-C3. *Aiuti di Stato* → prezzi di mercato e procedure competitive, come prevede la disciplina UE sugli appalti pre-commerciali. *Effetto sugli acquisti ordinari* (la riduzione degli stanziamenti) → riguarda le stesse amministrazioni che ricevono le soluzioni; da tenere distinta dai risparmi sugli acquisti centralizzati (RA01) per non contarli due volte. *Coesione dopo il 2029* → RIALLOCAZIONE prevalente a regime; se il ciclo 2028-34 non conferma le risorse si scende alla ESSENZIALE.
 
 **Fonti.** Consiglio UE, Raccomandazione all'Italia del 10/7/2026 (CELEX 32026H03925), in `europa/semestre.md`; AgID, Smarter Italy (50 mln MISE 2019, 43,4 mln MUR), https://www.agid.gov.it/it/agenzia/stampa-e-comunicazione/notizie/2020/05/04/covid-19-appalti-innovativi-il-rilancio-del-paese.html; Howell, S., *Financing Innovation: Evidence from R&D Grants*, American Economic Review 107(4), 2017 (un contributo di fase 1 SBIR raddoppia circa la probabilità di ricevere venture capital), https://econpapers.repec.org/RePEc:aea:aecrev:v:107:y:2017:i:4:p:1136-64; Commissione UE, benchmarking degli appalti per l'innovazione 2024, https://research-and-innovation.ec.europa.eu/strategy/support-policy-making/shaping-eu-research-and-innovation-policy/new-european-innovation-agenda/innovation-procurement/benchmarking-innovation-procurement-investments-and-policy-frameworks-across-europe_en; CNR, PPI4MED White Paper, https://www.enicbcmed.eu/sites/default/files/2024-01/PPI4MED_WhitePaper_CNR.pdf; d.lgs. 36/2023, art. 75. Da verificare: il valore italiano degli appalti per l'innovazione nel benchmarking UE 2024; la norma nazionale di recepimento dell'esclusione dei servizi di R&S (art. 14 direttiva 2014/24/UE).
 
@@ -444,14 +444,14 @@ Le imprese mantengono i diritti di proprietà intellettuale; lo Stato ha una lic
 
 **Soluzione.** Tre strumenti lungo la stessa filiera.
 - **Prove di fattibilità (proof of concept).** Un bando annuale e stabile finanzia 250-300 progetti l'anno, da 50.000 a 150.000 €, per portare un brevetto pubblico a un prototipo. Riunisce i bandi PoC e UTT oggi a singhiozzo dell'Ufficio brevetti (cap. 7476 MIMIT).
-- **Regole chiare per gli spin-off.** Un regolamento tipo nazionale: quota dell'ateneo nel capitale tra il 5% e il 10%, licenza standard con royalty bassa o in cambio di quote, decisione entro 60 giorni, congedo fino a tre anni per il ricercatore che fonda l'impresa, con diritto di rientro.
+- **Regole chiare per gli spin-off.** Un regolamento tipo nazionale: quota dell'ateneo nel capitale tra il 5% e il 10%, licenza standard con royalty bassa o in cambio di quote, decisione entro 60 giorni, congedo fino a tre anni per chi fa ricerca e fonda l'impresa, con diritto di rientro.
 - **Fondo di fondi deep tech.** CDP Venture Capital, con il Fondo europeo per gli investimenti (FEI), gestisce un fondo di fondi da **1,5 mld €** in cinque anni. Investe in fondi di venture capital su tecnologie avanzate (materiali, scienze della vita, energia, quantistica, AI applicata), solo se **almeno il 60%** dei capitali viene da privati: casse previdenziali, fondi pensione, assicurazioni, fondazioni. Lo Stato mette una **quota di prima perdita** di 300 milioni in cinque anni: assorbe le prime perdite e lascia ai privati una parte maggiore dei guadagni. È il modello israeliano Yozma e del programma francese Tibi, adattato. I fondi selezionati devono investire in Italia almeno il doppio di quanto ricevono dal fondo pubblico.
 
 | Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
 |---|---|---|---|---|
 | PIENA | Fondo di fondi da 1,5 mld (prima perdita pubblica 300 mln in 5 anni) + 250-300 prove di fattibilità l'anno + regole spin-off | 0,05 / 0,10 / 0,10 → **0,10** (2028) | 1 | RIALLOCAZIONE 0,06 (bandi PoC/UTT e Fondo crescita sostenibile); COESIONE_2834 0,04 (strumenti finanziari FESR) |
 | ESSENZIALE | Fondo di fondi da 750 mln (prima perdita 150 mln) + 130 prove di fattibilità l'anno + regole spin-off | 0,03 / 0,05 / 0,05 → **0,05** (2028) | 0,5 | RIALLOCAZIONE 0,03; COESIONE_2834 0,02 |
-| ZERO | Solo regolamento tipo per gli spin-off e congedo per i ricercatori fondatori | 0 → **0** (2027) | 0,2 | — |
+| ZERO | Solo regolamento tipo per gli spin-off e congedo per chi fa ricerca e fonda un'impresa | 0 → **0** (2027) | 0,2 | — |
 
 *Nota del coordinamento (9 novembre 2026): le quote indicate su COESIONE_2834 sono contate come RIALLOCAZIONE, perché nel registro dei fondi COESIONE_2834 ha capienza minima zero e non è una copertura certa. Se i fondi di coesione 2028-34 saranno assegnati, potranno sostituire la riallocazione.*
 

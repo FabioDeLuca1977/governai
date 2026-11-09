@@ -658,7 +658,7 @@ DESKTOP                                                   MOBILE
 │ I TUOI PESI              │ CLASSIFICA                    │ │ I tuoi valori                │
 │ [Uguali][Più futuro]…    │  1 Prevenire costa meno ‹✓› ▲2│ │ [Uguali][Più futuro][Più …›  │
 │ Rispetto e diversità  50 │  2 Restare è possibile  ‹✓›  =│ │ ▸ Regola i 10 pesi (aperto)  │
-│ ──────●─────────         │  3 Nessuno escluso      ‹✓› ▼1│ │ ──────────────────────────── │
+│ ──────●─────────         │  3 Nessuna esclusione      ‹✓› ▼1│ │ ──────────────────────────── │
 │ Fiducia e trasparenza 50 │  4 IVA in tempo reale   ‹✓› ▲4│ │ Classifica                   │
 │ …                        │  …                            │ │ 1 Prevenire costa meno ‹✓›▲2 │
 │ ORIZZONTI                │ Con i tuoi pesi 8 delle prime │ │ 2 Restare è possibile  ‹✓› = │

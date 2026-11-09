@@ -23,10 +23,10 @@ Il pacchetto con tutte le ESSENZIALI costa **4,6 mld/anno a regime** (2030), con
 
 ## 02-C1 — Soglia di dignità: salario minimo contrattuale garantito
 
-**Problema in un dato.** Il **10,2%** degli occupati con 18 anni e più è a rischio di povertà nel 2025, contro l'8,3% nella UE (Eurostat, EU-SILC `ilc_iw01`, serie `02_working_poor`). Le retribuzioni contrattuali orarie reali sono **−10,2%** a settembre 2026 rispetto a gennaio 2021 (elaborazione GovernAI su ISTAT, *Retribuzioni contrattuali* 30/10/2026, ed Eurostat HICP; serie `02_retribuzioni_contrattuali_reali`).
+**Problema in un dato.** Il **10,2%** delle persone occupate con 18 anni e più è a rischio di povertà nel 2025, contro l'8,3% nella UE (Eurostat, EU-SILC `ilc_iw01`, serie `02_working_poor`). Le retribuzioni contrattuali orarie reali sono **−10,2%** a settembre 2026 rispetto a gennaio 2021 (elaborazione GovernAI su ISTAT, *Retribuzioni contrattuali* 30/10/2026, ed Eurostat HICP; serie `02_retribuzioni_contrattuali_reali`).
 
 **Soluzione.**
-- Per legge, il trattamento economico complessivo (TEC) del CCNL più rappresentativo del settore è la retribuzione «proporzionata e sufficiente» dell'art. 36 Cost., per tutti i dipendenti.
+- Per legge, il trattamento economico complessivo (TEC) del CCNL più rappresentativo del settore è la retribuzione «proporzionata e sufficiente» dell'art. 36 Cost., per tutto il personale dipendente.
 - Una Commissione indipendente propone ogni anno una soglia oraria di garanzia, con i criteri della Direttiva 2022/2041.
 - Si rafforzano i controlli INL, così che il pavimento valga davvero.
 
@@ -40,13 +40,13 @@ Il pacchetto con tutte le ESSENZIALI costa **4,6 mld/anno a regime** (2030), con
 
 **Articolato normativo essenziale (variante ESSENZIALE)**
 
-> **Art. 1 (Finalità).** 1. In attuazione degli articoli 36 e 39 della Costituzione e della direttiva (UE) 2022/2041, la presente legge assicura a ogni lavoratore subordinato una retribuzione proporzionata e sufficiente e contrasta l'applicazione di contratti collettivi stipulati da soggetti privi di effettiva rappresentatività.
+> **Art. 1 (Finalità).** 1. In attuazione degli articoli 36 e 39 della Costituzione e della direttiva (UE) 2022/2041, la presente legge assicura a ogni persona con rapporto di lavoro subordinato una retribuzione proporzionata e sufficiente e contrasta l'applicazione di contratti collettivi stipulati da soggetti privi di effettiva rappresentatività.
 >
-> **Art. 2 (Retribuzione minima di riferimento).** 1. Per ciascun settore, il trattamento economico complessivo previsto dal contratto collettivo nazionale stipulato dalle associazioni comparativamente più rappresentative, individuato ai sensi dell'articolo 3, costituisce la retribuzione proporzionata e sufficiente ai sensi dell'articolo 36 della Costituzione per i lavoratori del settore, qualunque sia il contratto applicato. 2. Il comma 1 si applica anche ai lavoratori impiegati negli appalti pubblici e privati e nei subappalti.
+> **Art. 2 (Retribuzione minima di riferimento).** 1. Per ciascun settore, il trattamento economico complessivo previsto dal contratto collettivo nazionale stipulato dalle associazioni comparativamente più rappresentative, individuato ai sensi dell'articolo 3, costituisce la retribuzione proporzionata e sufficiente ai sensi dell'articolo 36 della Costituzione per le lavoratrici e i lavoratori del settore, qualunque sia il contratto applicato. 2. Il comma 1 si applica anche al personale impiegato negli appalti pubblici e privati e nei subappalti.
 >
-> **Art. 3 (Misurazione della rappresentatività).** 1. Il CNEL e l'INPS certificano ogni anno la rappresentatività delle organizzazioni sindacali e datoriali, sulla base dei dati sugli iscritti, sui voti nelle elezioni delle RSU e sui lavoratori a cui si applica ciascun contratto, e pubblicano l'elenco dei contratti di riferimento per codice ATECO. 2. Le modalità sono definite con decreto del Ministro del lavoro, sentite le parti sociali, entro 120 giorni.
+> **Art. 3 (Misurazione della rappresentatività).** 1. Il CNEL e l'INPS certificano ogni anno la rappresentatività delle organizzazioni sindacali e datoriali, sulla base dei dati sulle iscrizioni, sui voti nelle elezioni delle RSU e sul numero di lavoratrici e lavoratori a cui si applica ciascun contratto, e pubblicano l'elenco dei contratti di riferimento per codice ATECO. 2. Le modalità sono definite con decreto del Ministro del lavoro, sentite le parti sociali, entro 120 giorni.
 >
-> **Art. 4 (Commissione per la soglia di garanzia).** 1. È istituita presso il CNEL la Commissione per la retribuzione di garanzia, composta da tre rappresentanti dei lavoratori, tre dei datori di lavoro e tre esperti indipendenti nominati dal Presidente della Repubblica su proposta dei Presidenti delle Camere. 2. Entro il 30 giugno di ogni anno la Commissione propone una soglia oraria lorda di garanzia, motivata sulla base degli indicatori dell'articolo 5 della direttiva (UE) 2022/2041. 3. La soglia si applica ai rapporti di lavoro dei settori privi di un contratto di riferimento e a quelli in cui il TEC del contratto di riferimento è inferiore alla soglia. 4. Il Governo può discostarsi dalla proposta solo con una relazione motivata alle Camere.
+> **Art. 4 (Commissione per la soglia di garanzia).** 1. È istituita presso il CNEL la Commissione per la retribuzione di garanzia, composta da tre rappresentanti delle lavoratrici e dei lavoratori, tre delle parti datoriali e tre componenti indipendenti di comprovata competenza nominati dal Presidente della Repubblica su proposta dei Presidenti delle Camere. 2. Entro il 30 giugno di ogni anno la Commissione propone una soglia oraria lorda di garanzia, motivata sulla base degli indicatori dell'articolo 5 della direttiva (UE) 2022/2041. 3. La soglia si applica ai rapporti di lavoro dei settori privi di un contratto di riferimento e a quelli in cui il TEC del contratto di riferimento è inferiore alla soglia. 4. Il Governo può discostarsi dalla proposta solo con una relazione motivata alle Camere.
 >
 > **Art. 5 (Controlli).** 1. La dotazione organica dell'Ispettorato nazionale del lavoro è aumentata di 750 unità di personale ispettivo, da assumere nel biennio 2027-2028. 2. L'INPS e l'Agenzia delle entrate trasmettono all'INL, attraverso la piattaforma nazionale dati, le anomalie retributive individuate con controlli incrociati.
 >
@@ -75,10 +75,10 @@ Il pacchetto con tutte le ESSENZIALI costa **4,6 mld/anno a regime** (2030), con
 
 ## 02-C2 — Tempo e servizi per chi ha figli: nido esigibile e congedo paterno vero
 
-**Problema in un dato.** Nel 2023/24 i posti nei nidi sono **31,6 ogni 100 bambini** di 0-2 anni, ma solo **19,0 al Sud** e 19,5 nelle Isole (ISTAT, *Offerta di nidi*, 2/2/2026). Il 59,5% dei nidi ha liste d'attesa. La fecondità è a **1,14** figli per donna nel 2025 (ISTAT, *Natalità e fecondità 2025*). L'occupazione femminile 20-64 è al **58,0%** nel 2025 (Eurostat `lfsi_emp_a`).
+**Problema in un dato.** Nel 2023/24 i posti nei nidi sono **31,6 ogni 100 bambine e bambini** di 0-2 anni, ma solo **19,0 al Sud** e 19,5 nelle Isole (ISTAT, *Offerta di nidi*, 2/2/2026). Il 59,5% dei nidi ha liste d'attesa. La fecondità è a **1,14** figli per donna nel 2025 (ISTAT, *Natalità e fecondità 2025*). L'occupazione femminile 20-64 è al **58,0%** nel 2025 (Eurostat `lfsi_emp_a`).
 
 **Soluzione.**
-- Il LEP del 33% previsto dalla L. 234/2021 diventa reale dove manca: un fondo finanzia la spesa corrente, cioè gli educatori e non solo gli edifici, negli ambiti sotto soglia, con nido gratuito per le famiglie a basso ISEE.
+- Il LEP del 33% previsto dalla L. 234/2021 diventa reale dove manca: un fondo finanzia la spesa corrente, cioè il personale educativo e non solo gli edifici, negli ambiti sotto soglia, con nido gratuito per le famiglie a basso ISEE.
 - Il congedo di paternità sale da 10 giorni a 2 mesi all'80%, non trasferibili.
 - Il bonus nido si converte gradualmente in offerta di posti.
 
@@ -94,17 +94,17 @@ Come è costruita l'ESSENZIALE (stima GovernAI):
 - **Nidi, 0,8 mld.** Servono circa 65 mila posti, a 9 mila € l'uno al netto delle rette. Il conto parte dagli 1,1 mld del Fondo di solidarietà comunale già destinati al LEP dal 2027, non da zero.
 - **Congedo, 1,2 mld.** Sono 2/3 della stima di 1,5-2 mld per 3 mesi, riproporzionata dalla relazione tecnica RGS sul congedo paritario. È una stima prudente, perché il ddl bilancio 2027 riserva già al padre un mese di congedo parentale all'80%.
 - **CUAF.** L'aumento contributivo **non è usato**: l'avanzo della CUAF non è documentato. Se l'INPS lo certifica, l'agente coperture lo potrà inserire nel menu come nuova misura di entrata.
-- **Formazione degli educatori 2027-29.** Va sul FSE+ (COESIONE_2127): è spesa una tantum e non è conteggiata nel costo a regime.
+- **Formazione del personale educativo 2027-29.** Va sul FSE+ (COESIONE_2127): è spesa una tantum e non è conteggiata nel costo a regime.
 
 **Articolato normativo essenziale (variante ESSENZIALE)**
 
-> **Art. 1 (Finalità).** 1. Al fine di garantire il diritto dei bambini all'educazione nella prima infanzia, sostenere l'occupazione dei genitori e la condivisione delle responsabilità di cura, la presente legge rende esigibile il livello essenziale delle prestazioni per i servizi educativi 0-2 anni di cui all'articolo 1, comma 172, della legge 30 dicembre 2021, n. 234, e rafforza il congedo di paternità.
+> **Art. 1 (Finalità).** 1. Al fine di garantire il diritto di bambine e bambini all'educazione nella prima infanzia, sostenere l'occupazione dei genitori e la condivisione delle responsabilità di cura, la presente legge rende esigibile il livello essenziale delle prestazioni per i servizi educativi 0-2 anni di cui all'articolo 1, comma 172, della legge 30 dicembre 2021, n. 234, e rafforza il congedo di paternità.
 >
 > **Art. 2 (Fondo per la gestione dei nidi negli ambiti sotto soglia).** 1. È istituito presso il Ministero dell'economia e delle finanze, per il successivo trasferimento ai Comuni, il Fondo per la gestione dei servizi educativi 0-2, con una dotazione di 0,4 mld nel 2027, 0,5 mld nel 2028 e 0,8 mld annui dal 2029. Gli oneri del congedo di cui all'articolo 4 sono valutati in 0,4 mld nel 2028, 0,6 mld nel 2029 e 1,2 mld annui dal 2030. 2. Il Fondo finanzia esclusivamente la spesa corrente, compresa quella di personale, dei Comuni, singoli o associati, il cui bacino ha una copertura inferiore al 33%, in proporzione ai posti aggiuntivi effettivamente attivati. 3. Il riparto è disposto con decreto del Ministro dell'economia, di concerto con i Ministri dell'istruzione e dell'interno, previa intesa in Conferenza unificata. 4. Nei Comuni beneficiari l'accesso è gratuito per i nuclei con ISEE fino a 25.000 euro. Per questi nuclei il contributo di cui all'articolo 1, comma 355, della legge 11 dicembre 2016, n. 232, è sostituito dalla gratuità.
 >
 > **Art. 3 (Supporto alla gestione).** 1. I Comuni sotto i 5.000 abitanti possono affidare la gestione all'unione di Comuni o all'ambito territoriale sociale. Il supporto tecnico è assicurato dalla struttura di progettazione nazionale per i piccoli enti, prevista dalla proposta 09-C3.
 >
-> **Art. 4 (Congedo di paternità).** 1. All'articolo 27-bis del decreto legislativo 26 marzo 2001, n. 151, le parole «dieci giorni lavorativi» sono sostituite, dal 1° gennaio 2028, dalle parole «un mese» e, dal 1° gennaio 2030, dalle parole «due mesi». 2. Per il periodo eccedente i dieci giorni l'indennità è pari all'80% della retribuzione. Il congedo non è trasferibile e si perde se non fruito entro i dodici mesi dalla nascita. 3. Il congedo è esteso, con indennità commisurata al reddito, ai lavoratori autonomi e agli iscritti alla Gestione separata. 4. Per le imprese con meno di 15 dipendenti che assumono un sostituto è riconosciuto l'esonero contributivo previsto dall'articolo 4 del medesimo decreto.
+> **Art. 4 (Congedo di paternità).** 1. All'articolo 27-bis del decreto legislativo 26 marzo 2001, n. 151, le parole «dieci giorni lavorativi» sono sostituite, dal 1° gennaio 2028, dalle parole «un mese» e, dal 1° gennaio 2030, dalle parole «due mesi». 2. Per il periodo eccedente i dieci giorni l'indennità è pari all'80% della retribuzione. Il congedo non è trasferibile e si perde se non fruito entro i dodici mesi dalla nascita. 3. Il congedo è esteso, con indennità commisurata al reddito, a chi lavora in forma autonoma e a chi è iscritto alla Gestione separata. 4. Per le imprese con meno di 15 dipendenti che assumono un sostituto è riconosciuto l'esonero contributivo previsto dall'articolo 4 del medesimo decreto.
 >
 > **Art. 5 (Monitoraggio).** 1. ISTAT e INPS pubblicano ogni anno la copertura per ambito e la quota di padri che fruiscono del congedo. La relazione al Parlamento del 2029 valuta il passaggio al 45% nazionale e ai tre mesi di congedo.
 >
@@ -121,13 +121,13 @@ Come è costruita l'ESSENZIALE (stima GovernAI):
 
 | KPI | Base | Obiettivo a 3 anni (2029) | Obiettivo a 5 anni (2031) |
 |---|---|---|---|
-| Posti nido ogni 100 bambini 0-2 al Sud | 19,0, a.e. 2023/24 (ISTAT) | 27 | 33 |
-| Posti nido ogni 100 bambini 0-2, Italia | 31,6, a.e. 2023/24 (ISTAT) | 36 | 40 |
+| Posti nido ogni 100 bambine e bambini di 0-2 anni al Sud | 19,0, a.e. 2023/24 (ISTAT) | 27 | 33 |
+| Posti nido ogni 100 bambine e bambini di 0-2 anni, Italia | 31,6, a.e. 2023/24 (ISTAT) | 36 | 40 |
 | Tasso di occupazione femminile 20-64 | 58,0%, 2025 (Eurostat `lfsi_emp_a`) | 60,5% | 62,5% |
 | Padri che fruiscono del congedo di paternità | base INPS da acquisire (Osservatorio prestazioni a sostegno della famiglia) | 60% | 75% |
 
 **Rischi di attuazione e mitigazione**
-- *Mancano educatori*: borse L-19 vincolate a 3 anni di servizio nei territori sotto soglia, finanziate su FSE+. Il fondo paga solo i posti effettivamente attivati.
+- *Manca personale educativo*: borse L-19 vincolate a 3 anni di servizio nei territori sotto soglia, finanziate su FSE+. Il fondo paga solo i posti effettivamente attivati.
 - *Comuni senza capacità amministrativa*: gestione associata per ambito e supporto della struttura tecnica nazionale (09-C3).
 - *Piccole imprese e assenza dei padri*: esonero contributivo per chi assume un sostituto. Il congedo cresce in due tappe.
 - *Aspettative eccessive sulla natalità*: gli obiettivi dichiarati sono la copertura e l'occupazione, non il numero di nascite.
@@ -165,15 +165,15 @@ La flessibilità attuariale anticipa cassa nei primi anni. L'anticipo si finanzi
 
 **Articolato normativo essenziale (variante PIENA riformata)**
 
-> **Art. 1 (Finalità).** 1. Al fine di assicurare la sostenibilità del sistema pensionistico, l'equità tra generazioni e un trattamento adeguato ai lavoratori con carriere discontinue, ai sensi degli articoli 3, 38 e 81 della Costituzione, la presente legge disciplina l'uscita flessibile, la pensione di garanzia e un contributo temporaneo di solidarietà interno al sistema previdenziale.
+> **Art. 1 (Finalità).** 1. Al fine di assicurare la sostenibilità del sistema pensionistico, l'equità tra generazioni e un trattamento adeguato a chi ha carriere discontinue, ai sensi degli articoli 3, 38 e 81 della Costituzione, la presente legge disciplina l'uscita flessibile, la pensione di garanzia e un contributo temporaneo di solidarietà interno al sistema previdenziale.
 >
-> **Art. 2 (Uscita flessibile e aggancio all'aspettativa di vita).** 1. Dal 1° gennaio 2028 i lavoratori con almeno 64 anni di età e 25 anni di contributi possono accedere alla pensione con calcolo interamente contributivo o con una riduzione attuariale, determinata con decreto del Ministro del lavoro di concerto con il Ministro dell'economia, che rende neutrale per il bilancio pubblico l'anticipo dell'uscita. 2. È confermato l'adeguamento dei requisiti all'aspettativa di vita di cui all'articolo 12 del decreto-legge 31 maggio 2010, n. 78. 3. Per le attività gravose, individuate ogni tre anni con decreto sulla base dei dati INAIL su infortuni e malattie professionali, l'adeguamento è ridotto della metà. 4. Il fondo per la flessibilità in uscita istituito dalla legge di bilancio 2027 è destinato agli oneri di cassa del comma 1.
+> **Art. 2 (Uscita flessibile e aggancio all'aspettativa di vita).** 1. Dal 1° gennaio 2028 le lavoratrici e i lavoratori con almeno 64 anni di età e 25 anni di contributi possono accedere alla pensione con calcolo interamente contributivo o con una riduzione attuariale, determinata con decreto del Ministro del lavoro di concerto con il Ministro dell'economia, che rende neutrale per il bilancio pubblico l'anticipo dell'uscita. 2. È confermato l'adeguamento dei requisiti all'aspettativa di vita di cui all'articolo 12 del decreto-legge 31 maggio 2010, n. 78. 3. Per le attività gravose, individuate ogni tre anni con decreto sulla base dei dati INAIL su infortuni e malattie professionali, l'adeguamento è ridotto della metà. 4. Il fondo per la flessibilità in uscita istituito dalla legge di bilancio 2027 è destinato agli oneri di cassa del comma 1.
 >
 > **Art. 3 (Contributo temporaneo di solidarietà).** 1. Per gli anni 2027, 2028 e 2029 i trattamenti pensionistici diretti di importo complessivo superiore a 10 volte il trattamento minimo INPS sono soggetti a un contributo di solidarietà, calcolato sulla sola quota di trattamento non corrispondente a contributi versati, determinata dall'INPS mediante ricalcolo contributivo o, se mancano dati, con coefficienti forfettari per anno di decorrenza e gestione. 2. Il contributo è pari al 3% per la quota di importo tra 10 e 15 volte il minimo, al 7% tra 15 e 20 volte e al 12% oltre 20 volte. 3. Sono esclusi i trattamenti di invalidità, le pensioni ai superstiti e le pensioni delle vittime del dovere e del terrorismo. 4. Il contributo non è prorogabile se non con una legge, preceduta da una relazione dell'Ufficio parlamentare di bilancio sui suoi effetti. 5. Le somme affluiscono al Fondo dell'articolo 4.
 >
-> **Art. 4 (Pensione di garanzia).** 1. È istituito presso l'INPS il Fondo per la pensione di garanzia. 2. Dal 1° gennaio 2036 ai pensionati con primo accredito contributivo successivo al 31 dicembre 1995 e almeno 20 anni di contributi effettivi o figurativi è riconosciuta un'integrazione fino a 1,5 volte l'importo dell'assegno sociale, ridotta in proporzione al reddito, secondo i criteri dell'assegno sociale. 3. Ai fini del comma 2 sono valorizzati i periodi di cura di figli fino a 6 anni e di familiari non autosufficienti, di disoccupazione indennizzata e di formazione certificata, fino a 5 anni complessivi.
+> **Art. 4 (Pensione di garanzia).** 1. È istituito presso l'INPS il Fondo per la pensione di garanzia. 2. Dal 1° gennaio 2036 a chi percepisce una pensione con primo accredito contributivo successivo al 31 dicembre 1995 e almeno 20 anni di contributi effettivi o figurativi è riconosciuta un'integrazione fino a 1,5 volte l'importo dell'assegno sociale, ridotta in proporzione al reddito, secondo i criteri dell'assegno sociale. 3. Ai fini del comma 2 sono valorizzati i periodi di cura di figli fino a 6 anni e di familiari non autosufficienti, di disoccupazione indennizzata e di formazione certificata, fino a 5 anni complessivi.
 >
-> **Art. 5 (Adesione automatica e trasparenza).** 1. Dal 1° luglio 2028 i lavoratori dipendenti neoassunti aderiscono alla forma di previdenza complementare prevista dal contratto applicato, salvo rinuncia espressa entro sei mesi. 2. Ogni disegno di legge in materia previdenziale è accompagnato da una relazione dell'UPB sul costo per coorte di nascita.
+> **Art. 5 (Adesione automatica e trasparenza).** 1. Dal 1° luglio 2028 il personale dipendente neoassunto aderisce alla forma di previdenza complementare prevista dal contratto applicato, salvo rinuncia espressa entro sei mesi. 2. Ogni disegno di legge in materia previdenziale è accompagnato da una relazione dell'UPB sul costo per coorte di nascita.
 >
 > **Art. 6 (Copertura finanziaria).** 1. Agli oneri amministrativi, pari a 0,03 mld annui nel 2027-2029, si provvede con le risorse del Fondo dell'articolo 4. 2. Agli oneri dell'articolo 4, valutati in 0,6 mld annui dal 2036, si provvede con le minori spese derivanti dalla rivalutazione al 50% della quota di trattamento eccedente 6 volte il minimo, disposta dal 2030 con modifica dell'articolo 34 della legge 23 dicembre 1998, n. 448. Le eventuali eccedenze sono accantonate nel Fondo.
 
@@ -188,7 +188,7 @@ La flessibilità attuariale anticipa cassa nei primi anni. L'anticipo si finanzi
 |---|---|---|---|
 | Spesa pensionistica / PIL rispetto allo scenario RGS | 15,2%, 2025 (RGS agg. 2026) | non oltre lo scenario RGS base | non oltre lo scenario RGS base, con picco 2041-44 ≤ 17,1% |
 | Leggi previdenziali con relazione UPB sul costo per generazione | 0%, 2026 | 100% | 100% |
-| Neoassunti iscritti alla previdenza complementare | base COVIP da acquisire | +20 punti | +30 punti |
+| Persone neoassunte iscritte alla previdenza complementare | base COVIP da acquisire | +20 punti | +30 punti |
 
 **Rischi di attuazione e mitigazione**
 - *Ricorsi sul contributo*: è triennale, progressivo, ha soglia alta e base solo non contributiva, e il gettito resta nel circuito previdenziale. Se la Corte lo sospende, la ESSENZIALE resta in piedi, perché la garanzia è coperta dalla perequazione.
@@ -201,7 +201,7 @@ La flessibilità attuariale anticipa cassa nei primi anni. L'anticipo si finanzi
 
 ## 02-C4 — Reddito di inclusione universale con «lavoro che conviene»
 
-**Problema in un dato.** Nel 2025 sono in povertà assoluta **5,4 milioni di persone (9,3%)** e **2,1 milioni di famiglie**. I minori poveri sono 1,136 milioni (12,5%) (ISTAT, *La povertà in Italia 2025*). L'ADI raggiunge **690 mila nuclei** a giugno 2026 (INPS), circa un terzo delle famiglie in povertà assoluta.
+**Problema in un dato.** Nel 2025 sono in povertà assoluta **5,4 milioni di persone (9,3%)** e **2,1 milioni di famiglie**. I minori in povertà assoluta sono 1,136 milioni (12,5%) (ISTAT, *La povertà in Italia 2025*). L'ADI raggiunge **690 mila nuclei** a giugno 2026 (INPS), circa un terzo delle famiglie in povertà assoluta.
 
 **Soluzione.**
 - L'ADI si apre ai nuclei in povertà grave senza requisito categoriale, cioè anche senza figli, persone con disabilità o persone anziane in casa.
@@ -213,7 +213,7 @@ La flessibilità attuariale anticipa cassa nei primi anni. L'anticipo si finanzi
 | Variante | Contenuto | Costo 2027 / 2028 / 2029 / regime | Intensità | Copertura |
 |---|---|---|---|---|
 | PIENA | Universale sotto le soglie ADI; scala più favorevole ai minori; decalage al 50-60% per 18 mesi | 0,5 / 2,0 / 3,0 / **3,0** (2029) | 1 | RIORDINO_BONUS 1,0 + SPESE_FISCALI 1,0 + SAD 1,0 |
-| **ESSENZIALE** | Universale per ISEE fino a 6.000 €, importo ridotto per gli adulti soli; decalage al 50% per 12 mesi; residenza 2 anni; scala migliore per nuclei con 3 o più figli | 0,3 / 1,2 / 1,5 / **1,5** (2029) | 0,55 | RIORDINO_BONUS 0,5 + SPESE_FISCALI 0,5 + SAD 0,5 |
+| **ESSENZIALE** | Universale per ISEE fino a 6.000 €, importo ridotto per le persone adulte che vivono sole; decalage al 50% per 12 mesi; residenza 2 anni; scala migliore per nuclei con 3 o più figli | 0,3 / 1,2 / 1,5 / **1,5** (2029) | 0,55 | RIORDINO_BONUS 0,5 + SPESE_FISCALI 0,5 + SAD 0,5 |
 | PILOTA | Sperimentazione randomizzata in 12 ambiti | 0,03 / 0,10 / 0,10 / **0,10** | 0,05 | RIORDINO_BONUS 0,1 |
 
 La quota a carico della riforma SAD compensa le famiglie povere per l'aumento dei prezzi energetici che la riforma stessa produce (sinergia con l'area 03). Rispetto al registro non sono più usati come copertura la lotta all'evasione e i risparmi dalle «quote».
@@ -250,9 +250,9 @@ La quota a carico della riforma SAD compensa le famiglie povere per l'aumento de
 
 **Rischi di attuazione e mitigazione**
 - *Frodi*: controlli incrociati INPS, Entrate e catasto prima dell'erogazione.
-- *Pochi operatori nei CPI e nei servizi sociali*: case manager finanziati con la quota servizi del Fondo povertà e con il FSE+ già programmato.
+- *Poco personale nei CPI e nei servizi sociali*: case manager finanziati con la quota servizi del Fondo povertà e con il FSE+ già programmato.
 - *Aliquote marginali implicite cumulate con AUU e IRPEF*: simulazione INPS-MEF pubblicata prima dell'avvio.
-- *Percezione di assistenzialismo*: dati pubblici sui minori e sul lavoro dei beneficiari.
+- *Percezione di assistenzialismo*: dati pubblici sui minori e sul lavoro delle persone beneficiarie.
 - *Requisito di residenza*: scelta valoriale, perché dipende dalla politica migratoria. I 2 anni sono il minimo prudente dopo la sentenza CGUE; il Parlamento può fissare un valore diverso entro i limiti UE.
 
 ---
@@ -271,14 +271,14 @@ La quota a carico della riforma SAD compensa le famiglie povere per l'aumento de
 | Variante | Contenuto | Costo 2027 / 2028 / 2029 / regime | Intensità | Copertura |
 |---|---|---|---|---|
 | PIENA | Tutto, compresi il LEP domiciliare e il rafforzamento del «Dopo di noi» | 0,4 / 0,9 / 1,5 / **1,5** (2029) | 1 | RIALLOCAZIONE 0,5 + SPESE_FISCALI 0,5 + ACCISE_SALUTE 0,5 |
-| **ESSENZIALE** | Progetto di vita ovunque dal 2027 con circa 3.000 operatori per le UVM; budget di progetto; accomodamento ragionevole; LEP domiciliare dal 2030 | 0,3 / 0,6 / 0,8 / **0,8** (2029) | 0,6 | RIALLOCAZIONE 0,4 + ACCISE_SALUTE 0,4 |
+| **ESSENZIALE** | Progetto di vita ovunque dal 2027 con circa 3.000 unità di personale per le UVM; budget di progetto; accomodamento ragionevole; LEP domiciliare dal 2030 | 0,3 / 0,6 / 0,8 / **0,8** (2029) | 0,6 | RIALLOCAZIONE 0,4 + ACCISE_SALUTE 0,4 |
 | ZERO | Solo riforma del collocamento mirato e fusione amministrativa dei fondi | 0 | 0,25 | invarianza |
 
 **Articolato normativo essenziale (variante ESSENZIALE, decreto legislativo integrativo del d.lgs. 62/2024)**
 
 > **Art. 1 (Finalità).** 1. In attuazione della Convenzione ONU sui diritti delle persone con disabilità e della legge 22 dicembre 2021, n. 227, il presente decreto rende esigibile su tutto il territorio il progetto di vita individuale, personalizzato e partecipato, e rafforza l'inclusione lavorativa.
 >
-> **Art. 2 (Unità di valutazione multidimensionale).** 1. Dal 1° gennaio 2027 il progetto di vita è garantito in ogni ambito territoriale sociale. 2. Per dotare le unità di valutazione di personale sociale e sanitario dedicato, è assegnato alle Regioni un contributo di 0,2 mld annui, ripartito in base alla popolazione con disabilità certificata, per l'assunzione di circa 3.000 operatori.
+> **Art. 2 (Unità di valutazione multidimensionale).** 1. Dal 1° gennaio 2027 il progetto di vita è garantito in ogni ambito territoriale sociale. 2. Per dotare le unità di valutazione di personale sociale e sanitario dedicato, è assegnato alle Regioni un contributo di 0,2 mld annui, ripartito in base alla popolazione con disabilità certificata, per l'assunzione di circa 3.000 unità di personale.
 >
 > **Art. 3 (Budget di progetto).** 1. Il budget di progetto riunisce le risorse sanitarie, sociali e previdenziali destinate alla persona. La persona può sceglierne la gestione diretta, con un sostegno alla gestione. 2. È istituito il Fondo per il budget di progetto, con una dotazione di 0,4 mld annui dal 2029, alimentato anche dal riordino del Fondo per le non autosufficienze e del Fondo unico per l'inclusione. 3. L'attivazione del budget non può ridurre le prestazioni già in godimento.
 >
@@ -332,7 +332,7 @@ La quota a carico della riforma SAD compensa le famiglie povere per l'aumento de
 >
 > **Art. 2 (Valutazione d'impatto generazionale).** 1. I disegni di legge e gli emendamenti del Governo con effetti finanziari superiori a 0,5 mld annui sono accompagnati da una valutazione d'impatto generazionale. La valutazione indica il saldo per coorte di nascita e l'effetto sul debito implicito. 2. L'Ufficio parlamentare di bilancio redige la valutazione o ne verifica la redazione, secondo una metodologia pubblica. La disciplina è coordinata con quella prevista dalla proposta 01-P1.
 >
-> **Art. 3 (Strategia demografica nazionale).** 1. Entro il 30 giugno 2027 il Governo adotta, con decreto del Presidente del Consiglio dei ministri e previo parere delle Commissioni parlamentari, una Strategia demografica decennale. La Strategia fissa obiettivi quantitativi su natalità, occupazione femminile e giovanile, rientro dei cittadini emigrati e integrazione dei lavoratori stranieri, e include scenari alternativi sui flussi migratori. 2. Il Governo riferisce ogni anno al Parlamento sullo stato di attuazione.
+> **Art. 3 (Strategia demografica nazionale).** 1. Entro il 30 giugno 2027 il Governo adotta, con decreto del Presidente del Consiglio dei ministri e previo parere delle Commissioni parlamentari, una Strategia demografica decennale. La Strategia fissa obiettivi quantitativi su natalità, occupazione femminile e giovanile, rientro delle persone emigrate all'estero e integrazione di lavoratrici e lavoratori di cittadinanza straniera, e include scenari alternativi sui flussi migratori. 2. Il Governo riferisce ogni anno al Parlamento sullo stato di attuazione.
 >
 > **Art. 4 (Programmazione degli ingressi per lavoro).** 1. Il documento di programmazione triennale dei flussi d'ingresso per lavoro si fonda sui fabbisogni rilevati dal sistema informativo Excelsior e dai dati INPS sulle assunzioni non coperte. Il livello complessivo degli ingressi è determinato dal Parlamento con atto d'indirizzo.
 >
@@ -353,7 +353,7 @@ La quota a carico della riforma SAD compensa le famiglie povere per l'aumento de
 
 **Rischi di attuazione e mitigazione**
 - *Valutazione formalistica*: è pubblica, ha un'audizione obbligatoria e un metodo unico UPB.
-- *Strumentalizzazione del tema migratorio*: la Strategia presenta scenari alternativi con dati ISTAT e INPS pubblici. Il livello degli ingressi è deciso dal Parlamento, non dai tecnici.
+- *Strumentalizzazione del tema migratorio*: la Strategia presenta scenari alternativi con dati ISTAT e INPS pubblici. Il livello degli ingressi è deciso dal Parlamento, non dagli organi tecnici.
 - *Sovrapposizione con 01-P1*: articolato unico. La variante ESSENZIALE costa poco proprio perché usa la stessa struttura UPB.
 
 ---

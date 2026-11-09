@@ -30,7 +30,7 @@ Cosa piace subito:
 - [Fatto] Il governo ombra dichiara apertamente che il programma non basta a ridurre il debito ("non arriva a quella scala e non lo nascondo", `governo/verbali/2026-11-08-1-conti-in-ordine.md`). Questa onestà è rara.
 
 Cosa allarma subito:
-- [Fatto] Le misure sanitarie 06-C3 (Case della Comunità), 06-C4 (non autosufficienza) e 06-C5 (salute mentale) **non sono in nessuna delle tre versioni** del programma. 06-C1 (liste d'attesa) è solo in variante Zero. 06-C2 (infermieri e medici di famiglia) è solo Pilota nel governo ombra (`20_programma_governai.md`, §3).
+- [Fatto] Le misure sanitarie 06-C3 (Case della Comunità), 06-C4 (non autosufficienza) e 06-C5 (salute mentale) **non sono in nessuna delle tre versioni** del programma. 06-C1 (liste d'attesa) è solo in variante Zero. 06-C2 (infermiere e infermieri e medici di famiglia) è solo Pilota nel governo ombra (`20_programma_governai.md`, §3).
 - [Fatto] Il ministro della salute del governo ombra scrive che il FSN/PIL scende dal 6,14% al 5,98% tra 2026 e 2028 e che le famiglie pagano di tasca propria 42,4 mld (verbale, posizione del ministro della salute). Eppure il programma non aggiunge risorse.
 - [Fatto] Il benchmark sintetizza la scelta sanitaria come "nessun aumento automatico del fondo".
 - [Valutazione] Per un elettore progressista la sanità pubblica è la prima linea. Un programma che la "riorganizza a costo zero" mentre cala in termini reali verrebbe letto come austerità educata.
@@ -50,7 +50,7 @@ Cosa allarma subito:
 - [Valutazione] Mancano la pace e il disarmo come orizzonte; la Difesa è trattata solo come costo.
 
 **Parole che suonano "di parte".**
-- [Fatto] Nella definizione di CIT: "non solo utenti o assistiti", "non tutela paternalistica", "In cambio chiede reciprocità e lealtà fiscale". [Valutazione] "Assistiti" e "paternalistica" sono parole del lessico che critica il welfare. Va detto meglio: "cittadini titolari di diritti e partecipi delle decisioni".
+- [Fatto] Nella definizione di CIT: "non solo utenti o assistiti", "non tutela paternalistica", "In cambio chiede reciprocità e lealtà fiscale". [Valutazione] "Assistiti" e "paternalistica" sono parole del lessico che critica il welfare. Va detto meglio: "cittadine e cittadini titolari di diritti e partecipi delle decisioni".
 - [Fatto] La regola 6 del motore, "Valore per euro", e la nota della regola 7 riconoscono che la scala "tende a favorire le misure piccole rispetto ai grandi programmi nazionali". [Valutazione] È esattamente il bias che penalizza sanità e welfare universale, che sono grandi per natura. Dichiararlo è giusto, correggerlo solo per il nucleo non basta.
 
 ## 3. Le proposte
@@ -61,7 +61,7 @@ Cosa allarma subito:
 2. **04-P5 LEP prima: autonomia differenziata reversibile.** [Valutazione] È la posizione storica dell'area sul Mezzogiorno. [Fatto] Però nel programma è in variante Zero: nessun Fondo di convergenza.
 3. **01-P12 e 01-P10: no ai condoni, controlli mirati con garanzie.** [Fatto] Il gap su IRPEF di autonomi e imprese è 38,4 mld, con propensione all'evasione del 59,7% (`programma/schede/11_evasione.md`). [Valutazione] Combinare contrasto all'evasione e statuto delle garanzie è il modo giusto di toglierlo dallo scontro ideologico.
 4. **05-C1 Nessuno escluso (dispersione) e 05-C5 Scuole aperte.** Scuola pubblica come presidio di comunità, soprattutto al Sud e nelle periferie.
-5. **04-P2 Casa a canone giusto.** [Fatto] Il 22,3% degli inquilini a mercato spende oltre il 40% del reddito per la casa; circa 60.000 alloggi ERP sono vuoti (`04_infrastrutture.md`). [Fatto] È fuori dal base e dal completo, c'è solo nel governo ombra. [Valutazione] Per noi la casa è emergenza sociale, non opzione.
+5. **04-P2 Casa a canone giusto.** [Fatto] Il 22,3% delle inquiline e degli inquilini a mercato spende oltre il 40% del reddito per la casa; circa 60.000 alloggi ERP sono vuoti (`04_infrastrutture.md`). [Fatto] È fuori dal base e dal completo, c'è solo nel governo ombra. [Valutazione] Per noi la casa è emergenza sociale, non opzione.
 
 Meritano una menzione 07-C2 (pena utile), 07-C4 (beni confiscati), 04-P4 (grandi opere) e 03-P1 (dividendo climatico restituito ai redditi bassi).
 
@@ -90,7 +90,7 @@ Bene:
 Male:
 - [Fatto] Le coperture progressive più forti (SF11, SF13, SF14) sono tutte di **livello 2**, cioè solo nel programma completo, e il §6 le presenta come "la scelta più politica". Nel base pesano accise sul tabacco, forfetario, gasolio.
 - [Fatto] SAD12, IVA sul gas domestico dal 10% al 22%, ha punteggio Equità −2 nel menu, pur con bonus sociale. [Valutazione] Con inflazione al 5,6% (verbale) è socialmente insostenibile: va tolta.
-- [Fatto] RA11 riduce l'organico della scuola seguendo il calo degli alunni (0,20 mld); RA06 fissa un tetto alla spesa non sanitaria degli enti SSN, che l'opposizione del governo ombra chiama "un taglio a un servizio essenziale presentato come efficienza". [Valutazione] Il calo degli alunni è l'occasione per classi più piccole e tempo pieno al Sud, non un risparmio.
+- [Fatto] RA11 riduce l'organico della scuola seguendo il calo delle alunne e degli alunni (0,20 mld); RA06 fissa un tetto alla spesa non sanitaria degli enti SSN, che l'opposizione del governo ombra chiama "un taglio a un servizio essenziale presentato come efficienza". [Valutazione] Il calo delle alunne e degli alunni è l'occasione per classi più piccole e tempo pieno al Sud, non un risparmio.
 - [Fatto] FN01 abolisce la detrazione per spese di istruzione, anche universitarie, compensata con una quota nell'Assegno unico. [Valutazione] Accettabile solo se la compensazione copre davvero i redditi medi con figli all'università pubblica.
 - [Fatto] **Evasione non usata come copertura**: il gettito atteso, 2,3-5,5 mld a regime, va al deficit (`11_evasione.md`; verbale, indirizzo del capo). [Valutazione] La prudenza contabile è corretta. Il risultato politico no: chi evade finanzia la riduzione del debito, mentre i servizi aspettano.
 
@@ -113,10 +113,10 @@ Rischi:
 - [Fatto] I tre valutatori sono agenti AI "indipendenti da chi ha scritto le proposte ma non da chi ha progettato il sistema", e l'accordo alto "dipende anche dai molti punteggi a zero" (`20_programma_governai.md`, §2). [Valutazione] Un accordo tra modelli simili non è pluralismo.
 - [Valutazione] Il vincolo "senza deficit" è un'ipotesi politica presentata come vincolo tecnico. Esclude per costruzione la spesa per investimenti sociali (Case della Comunità, nidi, ERP) che le stesse regole europee trattano in modo diverso dalla spesa corrente. [Ipotesi] Una regola d'oro per gli investimenti con rendimento sociale certificato andrebbe almeno simulata come scenario alternativo.
 - [Valutazione] "Valore per euro" e la scala da −3 a +3 favoriscono misure piccole. La sanità perde non perché vale poco, ma perché costa molto.
-- [Valutazione] Le scelte "lasciate ai cittadini" (§6) sono proprio le coperture progressive. Il default resta il programma base, meno redistributivo.
+- [Valutazione] Le scelte "lasciate alle cittadine e ai cittadini" (§6) sono proprio le coperture progressive. Il default resta il programma base, meno redistributivo.
 
 Per fidarsi servirebbero:
-- un panel umano plurale accanto a quello AI, con sindacati, terzo settore, medici e insegnanti, e il confronto pubblico tra i punteggi;
+- un panel umano plurale accanto a quello AI, con sindacati, terzo settore, mediche e medici e insegnanti, e il confronto pubblico tra i punteggi;
 - microsimulazioni distributive per decile su ogni copertura, con accesso ai microdati (già indicato come passo successivo nel §7);
 - uno scenario alternativo con regola d'oro per gli investimenti sociali;
 - l'assemblea sorteggiata (08-P1) attivata davvero prima di fissare i pesi.
@@ -130,7 +130,7 @@ Da prendere subito:
 - **04-P4** e **04-P5** come regole su grandi opere e autonomia;
 - il metodo del verbale: opposizione obbligata a portare prove, previsioni scritte e verificate.
 
-Modifiche per rendere il programma accettabile ai nostri elettori, senza perdere coerenza:
+Modifiche per rendere il programma accettabile al nostro elettorato, senza perdere coerenza:
 1. **Sanità nel nucleo per regola.** 06-C2 almeno Essenziale e 06-C3 Essenziale, legata alle ore effettive di apertura delle Case. È coerente con la Carta: il valore Benessere cita la rinuncia alle cure come indicatore.
 2. **Pavimento del FSN**: nessuna riduzione del rapporto FSN/PIL, idea già segnalata nel benchmark (PD, M5S).
 3. **Clausola evasione-servizi** (vedi §4).
@@ -149,3 +149,5 @@ Modifiche per rendere il programma accettabile ai nostri elettori, senza perdere
 | Credibilità | **6** | Coperture al minimo, nessun condono, limiti dichiarati; restano costi stimati, doppi conteggi segnalati dalla stessa opposizione e panel solo AI. |
 | Neutralità percepita | **5** | Il tono è equilibrato, ma pareggio come linea rossa, "valore per euro" e lessico della reciprocità spostano la cornice verso il centro tecnocratico. |
 | Idee | **6** | Ottime su trasparenza, evasione, LEP e grandi opere; deboli e sottofinanziate su sanità, povertà, salari e casa. |
+
+*Testo rivisto il 9 novembre 2026 per un linguaggio inclusivo, senza cambiare il contenuto.*

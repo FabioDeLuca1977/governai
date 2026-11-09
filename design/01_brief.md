@@ -12,7 +12,7 @@ Il prodotto non è il sito di un partito né un sito istituzionale. Non deve sem
 
 ## 2. Pubblici
 
-| | Cittadino curioso | Persona attiva nel progetto | Esperto o giornalista |
+| | Persona curiosa | Persona attiva nel progetto | Pubblico esperto (anche giornalistico) |
 |---|---|---|---|
 | **Chi è** | Elettore di qualunque orientamento, arriva da un link condiviso o da un motore di ricerca | Volontario, revisore, membro del progetto con account GitHub | Economista, giurista, ricercatore, cronista politico, fact-checker |
 | **Contesto** | Telefono, 2 minuti, in pausa o sui mezzi | Desktop e telefono, sessioni di 15-60 minuti, torna spesso | Desktop, sessioni lunghe, copia numeri e link |
@@ -32,25 +32,25 @@ Un solo prodotto serve tutti e tre con la **lettura a tre livelli** (principio 2
 6. **Conoscere i vincoli**: Costituzione, obblighi UE, regole di bilancio europee.
 7. **Partecipare** con un gesto semplice e sapere che fine fa la propria richiesta.
 
-## 4. Le 8 domande che un utente si fa (compiti principali)
+## 4. Le 8 domande che si fa chi visita il sito (compiti principali)
 
-| # | Domanda dell'utente | Dove trova la risposta | Pubblico principale |
+| # | Domanda di chi visita | Dove trova la risposta | Pubblico principale |
 |---|---|---|---|
-| 1 | **Che cosa propone GovernAI su un tema che mi interessa?** (sanità, casa, tasse, scuola…) | Programma → filtro per tema, ricerca → scheda della proposta | Cittadino |
+| 1 | **Che cosa propone GovernAI su un tema che mi interessa?** (sanità, casa, tasse, scuola…) | Programma → filtro per tema, ricerca → scheda della proposta | Persona curiosa |
 | 2 | **Quanto costa e chi paga?** | Scheda della proposta (blocco *Costi e coperture*); Programma → *Come si paga* | Tutti |
-| 3 | **Come sta l'Italia oggi?** | Oggi (sintesi) → Dati → Indicatori e allerte | Cittadino, giornalista |
+| 3 | **Come sta l'Italia oggi?** | Oggi (sintesi) → Dati → Indicatori e allerte | Persona curiosa, giornalista |
 | 4 | **Che cosa ha deciso il governo ombra, perché, e chi era contrario?** | Governo → Seduta → Decisioni, Obiezioni dell'opposizione | Giornalista, attivo |
-| 5 | **È compatibile con la Costituzione e con le regole europee?** | Scheda della proposta (blocco *Controlli*); Controlli → Costituzione, Europa | Esperto |
-| 6 | **Che cosa chiede l'Europa all'Italia e dove siamo in ritardo?** | Controlli → Europa (scadenze, infrazioni, semestre europeo) | Esperto, giornalista |
+| 5 | **È compatibile con la Costituzione e con le regole europee?** | Scheda della proposta (blocco *Controlli*); Controlli → Costituzione, Europa | Pubblico esperto |
+| 6 | **Che cosa chiede l'Europa all'Italia e dove siamo in ritardo?** | Controlli → Europa (scadenze, infrazioni, semestre europeo) | Pubblico esperto, giornalista |
 | 7 | **Posso fidarmi? Chi controlla l'AI?** | Metodo; Controlli → Integrità; badge di verifica su ogni numero | Tutti |
-| 8 | **Come propongo un'idea o una domanda, e che fine fa?** | Partecipa (sempre visibile in testata) | Attivo, cittadino |
+| 8 | **Come propongo un'idea o una domanda, e che fine fa?** | Partecipa (sempre visibile in testata) | Persona attiva, persona curiosa |
 
 Domanda trasversale, servita dal simulatore: *"Che cosa cambierebbe se contasse di più ciò che conta per me?"* (Programma → I tuoi valori).
 
 ## 5. Principi di design (7)
 
-1. **Prima la risposta, poi il ragionamento.** Ogni schermata apre con una frase che risponde alla domanda dell'utente ("53 misure su 62, 12,99 mld l'anno, senza deficit"). Il dettaglio viene dopo, mai al posto della risposta.
-2. **Tre livelli di lettura nella stessa pagina.** *In breve* (cittadino, 20 secondi), *Dettagli* (attivo), *Fonti e metodo* (esperto). Si aprono, non si cambiano pagine. Nessun pubblico è servito da un sito "minore".
+1. **Prima la risposta, poi il ragionamento.** Ogni schermata apre con una frase che risponde alla domanda di chi visita ("53 misure su 62, 12,99 mld l'anno, senza deficit"). Il dettaglio viene dopo, mai al posto della risposta.
+2. **Tre livelli di lettura nella stessa pagina.** *In breve* (persona curiosa, 20 secondi), *Dettagli* (persona attiva), *Fonti e metodo* (pubblico esperto). Si aprono, non si cambiano pagine. Nessun pubblico è servito da un sito "minore".
 3. **Ogni numero porta la sua prova.** Accanto a ogni cifra: fonte, periodo e stato (*Verificato su fonte*, *Stima GovernAI*, *Da verificare*, *Provvisorio*). Una cifra senza prova non si pubblica.
 4. **La proposta è il centro.** Tutto si collega alla scheda della proposta: decisioni del Consiglio, controlli di Costituzione ed Europa, coperture, obiettivi e dati. Da ogni oggetto si arriva alla proposta in un clic, e viceversa.
 5. **Mostrare il disaccordo, non nasconderlo.** Obiezioni dell'opposizione leale, deroghe del capo di governo, incertezza del panel e limiti dichiarati hanno lo stesso peso visivo delle decisioni.
@@ -126,7 +126,7 @@ Per i grafici divergenti si usa l'asse **blu petrolio ↔ arancio mattone**, dis
 
 | Obiettivo | Misura | Soglia |
 |---|---|---|
-| Comprensione | Test con 5 cittadini: "che cos'è GovernAI?" in una frase corretta dopo 2 minuti | 4 su 5 |
+| Comprensione | Test con 5 persone: "che cos'è GovernAI?" in una frase corretta dopo 2 minuti | 4 su 5 |
 | Trovabilità | Trovare la proposta sugli asili nido partendo dalla home, da telefono | < 30 secondi, ≤ 3 tocchi |
 | Verificabilità | Dalla cifra "34,4 mld di gap IVA" alla fonte primaria | ≤ 2 clic |
 | Fiducia | Test con persone di orientamento diverso: "questo sito è di parte?" | Nessuna attribuzione coerente a uno schieramento |

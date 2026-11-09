@@ -6,7 +6,7 @@ Ogni giorno l'attività di Claude, che usa l'abbonamento e non la chiave API, sv
 
 1. legge le richieste nuove;
 2. prepara diagnosi e tre opzioni;
-3. le fa valutare da tre valutatori indipendenti sui valori della Carta;
+3. le sottopone a tre valutazioni indipendenti sui valori della Carta;
 4. pubblica il risultato in `analisi/`;
 5. sposta la richiesta in `fatte/`.
 

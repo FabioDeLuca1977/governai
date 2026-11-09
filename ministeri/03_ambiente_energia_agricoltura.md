@@ -50,7 +50,7 @@
 
 ## C. Proposte
 
-### Proposta 1 — "Dividendo climatico": riformare i sussidi dannosi restituendo tutto ai cittadini
+### Proposta 1 — "Dividendo climatico": riformare i sussidi dannosi restituendo tutto alla cittadinanza
 
 **In una frase**: lo Stato smette gradualmente di finanziare l'uso di combustibili fossili e restituisce ogni euro risparmiato a famiglie e imprese, soprattutto a quelle con redditi più bassi, tagliando le bollette elettriche.
 
@@ -65,7 +65,7 @@
 
 **Costo e copertura**: saldo neutro per costruzione. Ordine di grandezza della riforma a regime: 4–8 mld €/anno riallocati (stima GovernAI, da verificare con simulazioni UPB/MEF; non esiste una stima ufficiale). È compatibile con la base: 22,4 mld € di SAD, di cui 17,1 mld riformabili a livello nazionale (MASE, Catalogo 2026), avvertendo che il Catalogo dà stime teoriche "a comportamento invariato", non gettito integralmente recuperabile. Si sommano i proventi ETS2 (dal 2028) e il Fondo sociale per il clima; non i proventi ETS1, già interamente destinati per legge.
 
-**Vincitori e perdenti**: vincono le famiglie a basso reddito (in media ricevono più di quanto perdono), i consumatori elettrici, chi elettrifica riscaldamento e trasporti. Perdono nel breve autotrasporto, alcuni comparti agricoli e della pesca, aree interne con alta dipendenza dall'auto (mitigato dal bonus territoriale). Intergenerazionale: beneficio netto per i giovani.
+**Vincitori e perdenti**: vincono le famiglie a basso reddito (in media ricevono più di quanto perdono), le consumatrici e i consumatori elettrici, chi elettrifica riscaldamento e trasporti. Perdono nel breve autotrasporto, alcuni comparti agricoli e della pesca, aree interne con alta dipendenza dall'auto (mitigato dal bonus territoriale). Intergenerazionale: beneficio netto per i giovani.
 
 **Valutazione tre orizzonti**
 
@@ -75,7 +75,7 @@
 | Medio | +2 | Segnale di prezzo coerente, minori acquisti di quote Effort Sharing, elettrificazione più conveniente | Media |
 | Lungo | +3 | Riduzione strutturale delle emissioni non-ETS e del rischio fiscale climatico | Media |
 
-**Impatto sostenibilità**: SDG 7, 10, 12, 13. Riduzione emissioni trasporti e civile; trasferisce risorse dalle esternalità future al reddito presente dei più deboli.
+**Impatto sostenibilità**: SDG 7, 10, 12, 13. Riduzione emissioni trasporti e civile; trasferisce risorse dalle esternalità future al reddito presente delle persone con redditi bassi o in condizioni di fragilità.
 
 **Rischi e mitigazioni**: rivolta di categoria → calendario pubblico e prevedibile, compensazioni temporanee e decrescenti; restituzione percepita come invisibile → pagamento esplicito e "dividendo" riportato in bolletta; rincari energetici esogeni → clausola di sospensione automatica se il prezzo del carburante supera una soglia.
 
@@ -96,7 +96,7 @@
 2. *Uscita dal mercato unico / prezzo amministrato*: incompatibile con il mercato interno UE e rischiosa per gli investimenti.
 3. *Contratti per differenza a due vie su scala + "pool rinnovabile" per famiglie e PMI + accelerazione autorizzazioni e accumuli* (**scelta**): consentita dalla riforma UE del mercato elettrico (2024), stabilizza i prezzi e riduce il costo del capitale.
 
-**Meccanismo**: (a) aste GSE con CfD a due vie per tutta la nuova capacità rinnovabile incentivata, con gli extra-ricavi (quando il prezzo di mercato supera lo strike) restituiti ai consumatori tramite riduzione degli oneri; (b) "pool rinnovabile" in cui il GSE rivende a prezzo di costo una quota dell'energia CfD a famiglie vulnerabili, PMI energivore e comunità energetiche; (c) sportello unico autorizzativo con silenzio-assenso effettivo, mappatura definitiva delle aree idonee concordata con le Regioni in Conferenza unificata, e una "squadra tecnica" statale in supporto alle Soprintendenze e ai Comuni piccoli; (d) piena attuazione delle aste per accumuli (MACSE) e degli investimenti di rete Terna; (e) quota di ricavi destinata ai comuni ospitanti (compensazioni trasparenti). Attuano MASE, GSE, Terna, ARERA, Regioni. Tempi: decreti attuativi entro 12 mesi, prime aste entro 18.
+**Meccanismo**: (a) aste GSE con CfD a due vie per tutta la nuova capacità rinnovabile incentivata, con gli extra-ricavi (quando il prezzo di mercato supera lo strike) restituiti alle consumatrici e ai consumatori tramite riduzione degli oneri; (b) "pool rinnovabile" in cui il GSE rivende a prezzo di costo una quota dell'energia CfD a famiglie vulnerabili, PMI energivore e comunità energetiche; (c) sportello unico autorizzativo con silenzio-assenso effettivo, mappatura definitiva delle aree idonee concordata con le Regioni in Conferenza unificata, e una "squadra tecnica" statale in supporto alle Soprintendenze e ai Comuni piccoli; (d) piena attuazione delle aste per accumuli (MACSE) e degli investimenti di rete Terna; (e) quota di ricavi destinata ai comuni ospitanti (compensazioni trasparenti). Attuano MASE, GSE, Terna, ARERA, Regioni. Tempi: decreti attuativi entro 12 mesi, prime aste entro 18.
 
 **Costo e copertura**: costo netto per il bilancio basso o nullo: i CfD sono finanziati in bolletta e, con prezzi del gas elevati, generano restituzioni. Struttura tecnica per autorizzazioni: 0,1–0,2 mld €/anno (stima GovernAI), coperta dalla quota MASE dei proventi ETS (≈0,65 mld € nel 2025, art. 23 c. 7 d.lgs. 47/2020), da riprogrammare rispetto agli usi attuali.
 
@@ -170,7 +170,7 @@
 
 **Costo e copertura**: Fondo prevenzione 1–1,5 mld €/anno (stima GovernAI). Copertura: riordino dei fondi emergenza e contributo addizionale sulle polizze come fonti principali; i proventi ETS possono dare solo una quota, perché sono già interamente destinati per legge (d.lgs. 47/2020, art. 23) e la quota MASE vale circa 0,65 mld €. Usarne di più richiede di modificare l'art. 23, per esempio riducendo la quota al Fondo ammortamento titoli (≈0,92 mld €), con effetto equivalente sul deficit. La riassicurazione pubblica ha costo atteso basso ma passività potenziale rilevante, da contabilizzare esplicitamente (Corte dei conti/UPB).
 
-**Vincitori e perdenti**: vincono residenti delle aree esposte (Emilia-Romagna, Toscana, Veneto, Campania, aree costiere), finanza pubblica di lungo periodo, giovani (meno debito da catastrofi). Perdono nel breve proprietari di immobili in zone ad alto rischio (premi, vincoli, possibile calo di valore), costruttori in aree vincolate, contribuenti delle zone sicure (sussidio incrociato parziale).
+**Vincitori e perdenti**: vincono residenti delle aree esposte (Emilia-Romagna, Toscana, Veneto, Campania, aree costiere), finanza pubblica di lungo periodo, giovani (meno debito da catastrofi). Perdono nel breve proprietarie e proprietari di immobili in zone ad alto rischio (premi, vincoli, possibile calo di valore), costruttori in aree vincolate, contribuenti delle zone sicure (sussidio incrociato parziale).
 
 **Valutazione tre orizzonti** ⚠️ *(negativo nel breve, molto positivo nel lungo)*
 
@@ -205,7 +205,7 @@
 
 **Costo e copertura**: largamente a valere sulle risorse PAC esistenti (riallocazione); cofinanziamento nazionale aggiuntivo 0,3–0,5 mld €/anno (stima GovernAI) principalmente dalla riforma dei SAD agricoli e, in via residuale, dalla quota MASE dei proventi ETS; biometano sostenuto da tariffe già previste.
 
-**Vincitori e perdenti**: vincono piccole e medie aziende, aree collinari e interne, agricoltori che innovano, consumatori (qualità dell'aria e dell'acqua). Perdono, relativamente, le grandi aziende che ricevono aiuti per ettaro senza vincoli; allevamenti intensivi non adeguati (con fase di transizione finanziata).
+**Vincitori e perdenti**: vincono piccole e medie aziende, aree collinari e interne, agricoltori che innovano, consumatrici e consumatori (qualità dell'aria e dell'acqua). Perdono, relativamente, le grandi aziende che ricevono aiuti per ettaro senza vincoli; allevamenti intensivi non adeguati (con fase di transizione finanziata).
 
 **Valutazione tre orizzonti**
 

@@ -15,7 +15,7 @@
 
 ## Altre riformulazioni
 
-- **02-C4.** La residenza di 2 anni non è opponibile a lavoratori UE, soggiornanti di lungo periodo e titolari di protezione (C-112/22; procedura d'infrazione sull'Assegno unico). La nota «compatibile C-112/22» nelle varianti è troppo ottimista.
+- **02-C4.** La residenza di 2 anni non è opponibile a lavoratrici e lavoratori UE, a soggiornanti di lungo periodo e titolari di protezione (C-112/22; procedura d'infrazione sull'Assegno unico). La nota «compatibile C-112/22» nelle varianti è troppo ottimista.
 - **Aiuti di Stato da inquadrare** in GBER, nel de minimis o con notifica:
   - premio di crescita 10-49 addetti (01-P4);
   - crediti per le flotte (03-P1, SAD01, SAD13);

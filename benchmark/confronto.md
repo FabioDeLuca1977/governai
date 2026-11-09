@@ -22,8 +22,8 @@ Per ognuna delle 9 aree di governo:
 | 01 Economia | Divario di adempimento IVA, % dell'IVA teorica (Commissione UE, 2023) | Austria ~1%, Finlandia ~3% | ~15% (media UE 9,5%) | nel gruppo con i divari più alti |
 | 02 Lavoro | Tasso di occupazione 20-64 anni, % (Eurostat lfsi_emp_a, 2025) | Paesi Bassi 83,4; Svezia 81,8 (donne: Estonia 81,4; Svezia 79,8) | 67,6 (donne 58,0) | 27ª su 27 |
 | 03 Ambiente | Quota di rinnovabili nel consumo finale di energia, % (Eurostat nrg_ind_ren, 2025 provv.) | Svezia 65,4; Finlandia 53,0; Danimarca 48,2 | 20,5 (UE 26,2) | 19ª su 27 |
-| 04 Casa | Inquilini a canone di mercato che spendono >40% del reddito per la casa, % (Eurostat ilc_lvho07c, 2025) | Finlandia 12,3; Germania 13,2; Austria 14,5 | 22,3 (UE 18,5) | 13ª su 27 |
-| 05 Istruzione | Laureati 25-34 anni, % (Eurostat edat_lfse_03, 2025) | Irlanda 66,8; Paesi Bassi 56,1; Francia 55,8 | 31,1 (UE 44,8) | 26ª su 27 |
+| 04 Casa | Persone in affitto a canone di mercato che spendono >40% del reddito per la casa, % (Eurostat ilc_lvho07c, 2025) | Finlandia 12,3; Germania 13,2; Austria 14,5 | 22,3 (UE 18,5) | 13ª su 27 |
+| 05 Istruzione | Persone laureate di 25-34 anni, % (Eurostat edat_lfse_03, 2025) | Irlanda 66,8; Paesi Bassi 56,1; Francia 55,8 | 31,1 (UE 44,8) | 26ª su 27 |
 | 06 Salute | Bisogni di cure non soddisfatti per costo, distanza o attesa, % 16+ (Eurostat hlth_silc_08, 2025) | Rep. Ceca 0,3; Paesi Bassi 0,5; Germania 1,0 | 2,5 (primo quintile 4,4) | 15ª su 27 |
 | 07 Giustizia | Durata stimata dei processi civili e commerciali in primo grado, giorni (EU Justice Scoreboard / CEPEJ) | Rep. Ceca 2ª e Lettonia 3ª nello Scoreboard 2026 (dati 2024) | 584 giorni contro una mediana UE di 248 (scheda CEPEJ); 435 giorni nei tribunali nel 2025 (Ministero) | tra i più lenti |
 | 08 Esteri | Aiuto pubblico allo sviluppo, % del reddito nazionale lordo (OCSE DAC, 2025 prelim.) | Norvegia 1,03; Svezia 0,85; Danimarca 0,72 | 0,30 (DAC 0,26) | 17ª tra i membri DAC |
@@ -49,12 +49,12 @@ Per ognuna delle 9 aree di governo:
 Il dato polacco riflette soprattutto la convergenza di un Paese che parte più in basso, quindi non è un modello trasferibile.
 
 **Politica che spiega il risultato.**
-- **Finlandia.** Un registro nazionale dei redditi in tempo reale (*Tulorekisteri*, dal 2019) e una tradizione di alta fiducia verso l'amministrazione fiscale. Il contribuente riceve una dichiarazione precompilata che, se è corretta, non richiede alcuna azione.
+- **Finlandia.** Un registro nazionale dei redditi in tempo reale (*Tulorekisteri*, dal 2019) e una tradizione di alta fiducia verso l'amministrazione fiscale. Ogni contribuente riceve una dichiarazione precompilata che, se è corretta, non richiede alcuna azione.
 - **Austria.** Registratori di cassa con firma elettronica antimanomissione, obbligatori dal 2016-17, controlli mirati sul rischio e un'economia sommersa contenuta.
 
 **Trasferibile.**
 - L'Italia ha già fatturazione elettronica e corrispettivi telematici, che sono la parte tecnica.
-- Si può trasferire **l'uso dei dati per la prevenzione** (proposta 01-P3) e la **semplificazione per chi è in regola**: il cittadino che vede lo Stato precompilare e rimborsare in fretta è più leale. È la logica della scheda `programma/schede/10_fisco_semplice.md`.
+- Si può trasferire **l'uso dei dati per la prevenzione** (proposta 01-P3) e la **semplificazione per chi è in regola**: la persona che vede lo Stato precompilare e rimborsare in fretta è più leale. È la logica della scheda `programma/schede/10_fisco_semplice.md`.
 
 **Non trasferibile a breve.**
 - I livelli di fiducia nordici e la bassa quota di lavoro autonomo e micro-imprese, che in Italia è strutturalmente più alta.
@@ -121,7 +121,7 @@ Malta, al primo posto (83,6%), ha alzato l'occupazione femminile in un decennio 
 
 ## 04 — Casa: quanto pesa l'affitto
 
-**Indicatore.** Quota di inquilini a canone di mercato che spendono più del 40% del reddito disponibile per la casa nel 2025 (Eurostat ilc_lvho07c, serie `bm_04_sovraccarico_abitativo`).
+**Indicatore.** Quota di persone in affitto a canone di mercato che spendono più del 40% del reddito disponibile per la casa nel 2025 (Eurostat ilc_lvho07c, serie `bm_04_sovraccarico_abitativo`).
 
 | Paese | Quota |
 |---|---|
@@ -131,7 +131,7 @@ Malta, al primo posto (83,6%), ha alzato l'occupazione femminile in un decennio 
 | Germania | 13,2% |
 | Austria | 14,5% |
 
-Sull'intera popolazione l'Italia sta meglio della media (5,0%, 7ª su 27) grazie all'alta quota di proprietari: il problema si concentra sugli inquilini.
+Sull'intera popolazione l'Italia sta meglio della media (5,0%, 7ª su 27) grazie all'alta quota di famiglie proprietarie: il problema si concentra su chi è in affitto.
 
 **Politica che spiega il risultato.**
 - **Austria.** Edilizia a "profitto limitato" (*gemeinnützige Bauvereinigungen*): finanziamento pubblico dedicato e stabile, affitti legati ai costi e utili reinvestiti per legge.
@@ -168,7 +168,7 @@ Sull'intera popolazione l'Italia sta meglio della media (5,0%, 7ª su 27) grazie
   - Irlanda: istituti tecnologici, ora università tecnologiche, e tasse universitarie basse.
 
 **Trasferibile.**
-- **Scalare gli ITS Academy**: oggi sono una frazione minima degli iscritti alla terziaria (dato da verificare con INDIRE).
+- **Scalare gli ITS Academy**: oggi sono una frazione minima della popolazione iscritta alla terziaria (dato da verificare con INDIRE).
 - Titoli brevi riconosciuti nel quadro europeo delle qualifiche e passerelle verso la laurea.
 - Diritto allo studio esteso ai fuori sede.
 
@@ -215,12 +215,12 @@ Sull'intera popolazione l'Italia sta meglio della media (5,0%, 7ª su 27) grazie
 - **Migliori:** nell'EU Justice Scoreboard 2026 (dati 2024), la Repubblica Ceca è **seconda** ([Corte suprema ceca](https://www.nsoud.cz/en/press-releases/detail/podle-srovnavaciho-prehledu-eu-o-soudnictvi-pro-rok-2026-si-ceska-republika-ve-vetsine-ukazatelu-vede-vyborne)) e la Lettonia **terza** ([Consiglio giudiziario lettone](https://www.tieslietupadome.lv/en/article/latvia-ranks-third-among-eu-countries-shortest-length-proceedings-civil-commercial-and-administrative-cases-courts-first-instance)). Il primo Paese e i giorni esatti sono **da verificare** sulla tavola della Commissione.
 
 **Politica che spiega il risultato.**
-- **Rep. Ceca.** Ingiunzione di pagamento elettronica per i crediti non contestati e giudici assistiti da funzionari con competenze decisorie delegate.
+- **Rep. Ceca.** Ingiunzione di pagamento elettronica per i crediti non contestati e giudici assistiti da personale con competenze decisorie delegate.
 - **Lettonia.** Fascicolo interamente digitale, riforma della geografia giudiziaria e specializzazione dei tribunali.
 
 **Trasferibile.**
 - **Ufficio per il processo stabile**, non a termine PNRR.
-- **Delega ai funzionari** delle attività non decisorie.
+- **Delega al personale amministrativo** delle attività non decisorie.
 - Procedimento monitorio interamente telematico e **pesatura dei carichi** per distribuire le risorse.
 
 **Non trasferibile.**
@@ -278,7 +278,7 @@ Sull'intera popolazione l'Italia sta meglio della media (5,0%, 7ª su 27) grazie
 **Trasferibile.**
 - **Domicilio digitale come canale ordinario**: INAD e App IO esistono già. Va accompagnato da un **canale assistito** (sportelli, CAF, uffici postali) per chi non è digitale, come l'esenzione danese.
 - **Un solo accesso e un solo fascicolo.**
-- **Servizi proattivi**, in cui lo Stato agisce senza domanda del cittadino: la dichiarazione dei redditi automatica (01-P7) ne è l'esempio più grande.
+- **Servizi proattivi**, in cui lo Stato agisce senza una domanda della persona interessata: la dichiarazione dei redditi automatica (01-P7) ne è l'esempio più grande.
 
 **Non trasferibile a breve.**
 - Le competenze digitali nordiche: in Italia ha competenze digitali di base il 46% circa della popolazione (serie `09_competenze_digitali_base`), contro oltre il 70% dei Paesi nordici (dato da verificare).
@@ -289,9 +289,9 @@ Sull'intera popolazione l'Italia sta meglio della media (5,0%, 7ª su 27) grazie
 ## Cosa insegna il confronto, trasversalmente
 
 1. **I Paesi migliori fanno meno cose, ma stabili.** Obiettivi pluriennali per legge (APS, edilizia austriaca, carbon tax svedese) e strumenti che durano più di una legislatura. È il valore FID della Carta.
-2. **Lo Stato che agisce senza domanda.** Dichiarazione automatica, servizi proattivi, garanzia di tempo massimo in sanità: il cittadino riceve il diritto senza doverlo chiedere. È la leva più trasferibile e la meno costosa, perché i dati in Italia esistono già.
+2. **Lo Stato che agisce senza domanda.** Dichiarazione automatica, servizi proattivi, garanzia di tempo massimo in sanità: la persona riceve il diritto senza doverlo chiedere. È la leva più trasferibile e la meno costosa, perché i dati in Italia esistono già.
 3. **Gradualità e compensazione.** Le riforme di prezzo che hanno funzionato (Svezia, Danimarca) sono state introdotte in 10-20 anni, con restituzione del gettito. Le riforme copiate "in un colpo" falliscono sul consenso.
-4. **Dove l'Italia è ultima (occupazione, laureati, PA digitale), il divario è di sistema.** Nessuna singola misura lo chiude: servono pacchetti coerenti e valutati.
+4. **Dove l'Italia è ultima (occupazione, istruzione terziaria, PA digitale), il divario è di sistema.** Nessuna singola misura lo chiude: servono pacchetti coerenti e valutati.
 
 ## Limiti
 

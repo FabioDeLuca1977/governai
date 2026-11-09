@@ -4,7 +4,7 @@
 
 **Regole rispettate.** Nessuna variante usa DEFICIT, RISPARMI_ATTESI, IVA_EVASIONE, ETS o ALTRO. I risparmi attesi (minori presenze in carcere, minori indennizzi Pinto, minori costi di accoglienza) sono indicati ma **non contati**: si certificano ex post e riducono il prelievo. Coesione e AMIF finanziano solo costi una tantum 2027-29, mai personale stabile.
 
-**Nuova copertura segnalata all'agente coperture.** Contributo unificato maggiorato per i litiganti seriali (oltre 500 cause l'anno): 0,10-0,15 mld/anno, DRM. Nel CSV è imputata a RIALLOCAZIONE (bilancio Giustizia) in attesa di un fondo dedicato.
+**Nuova copertura segnalata all'agente coperture.** Contributo unificato maggiorato per le parti che promuovono cause in serie (oltre 500 cause l'anno): 0,10-0,15 mld/anno, DRM. Nel CSV è imputata a RIALLOCAZIONE (bilancio Giustizia) in attesa di un fondo dedicato.
 
 | Proposta | PIENA | ESSENZIALE | PILOTA / ZERO |
 |---|---|---|---|
@@ -20,7 +20,7 @@
 
 ## 07-C1 — Giustizia a regime: Ufficio per il processo e triage digitale
 
-**Problema in un dato.** Disposition time civile (tre gradi): **2.512 giorni nel 2019, 1.789 nel 2025 (−28,8%), 1.251 nel I semestre 2026 (−50,2%)**. Il target PNRR è raggiunto, ma con circa 10.000 addetti finanziati dal PNRR fino al 30/6/2026 (Ministero della Giustizia, *Continuous Monitoring PNRR 2025* e *Relazione PNRR* agosto 2026; `07_disposition_time_pnrr.csv`). Senza quel personale i tempi rischiano di risalire dal 2027.
+**Problema in un dato.** Disposition time civile (tre gradi): **2.512 giorni nel 2019, 1.789 nel 2025 (−28,8%), 1.251 nel I semestre 2026 (−50,2%)**. Il target PNRR è raggiunto, ma con circa 10.000 unità di personale finanziate dal PNRR fino al 30/6/2026 (Ministero della Giustizia, *Continuous Monitoring PNRR 2025* e *Relazione PNRR* agosto 2026; `07_disposition_time_pnrr.csv`). Senza quel personale i tempi rischiano di risalire dal 2027.
 
 **Soluzione.** Rendere permanente una quota dell'Ufficio per il processo con un concorso riservato e assegnarla ai tribunali più lenti. Introdurre nel Processo civile telematico un triage che classifica le cause e propone il calendario; la decisione resta sempre al giudice. Pubblicare ogni trimestre un cruscotto per tribunale.
 
@@ -34,7 +34,7 @@
 
 > **Art. 1 (Finalità).** Al fine di consolidare la riduzione della durata dei procedimenti civili e penali conseguita con il PNRR e di assicurare il rispetto dell'articolo 111 della Costituzione, il presente articolo dispone la stabilizzazione dell'Ufficio per il processo e l'introduzione di strumenti digitali di organizzazione del lavoro giudiziario.
 >
-> **Art. 2 (Stabilizzazione).** 1. Il Ministero della giustizia è autorizzato a bandire, entro il 30 giugno 2027, procedure concorsuali riservate per l'assunzione a tempo indeterminato di [7.000 / 4.500 / 1.500] unità di addetti all'Ufficio per il processo e di [500 / 0 / 0] unità di personale tecnico, tra il personale assunto a tempo determinato con risorse PNRR, ai sensi dell'articolo 22 del decreto-legge 2 marzo 2024, n. 19. 2. Il personale è assegnato con decreto del Ministro, sentito il CSM, in proporzione ai carichi e al disposition time di ciascun ufficio.
+> **Art. 2 (Stabilizzazione).** 1. Il Ministero della giustizia è autorizzato a bandire, entro il 30 giugno 2027, procedure concorsuali riservate per l'assunzione a tempo indeterminato di [7.000 / 4.500 / 1.500] unità di personale addetto all'Ufficio per il processo e di [500 / 0 / 0] unità di personale tecnico, tra il personale assunto a tempo determinato con risorse PNRR, ai sensi dell'articolo 22 del decreto-legge 2 marzo 2024, n. 19. 2. Il personale è assegnato con decreto del Ministro, sentito il CSM, in proporzione ai carichi e al disposition time di ciascun ufficio.
 >
 > **Art. 3 (Triage digitale).** 1. La DGSIA sviluppa nel Processo civile telematico un modulo di classificazione delle cause per materia e complessità, di proposta di calendario e di individuazione del contenzioso seriale. 2. Il modulo svolge funzioni esclusivamente organizzative; ogni atto incidente sul procedimento è adottato dal giudice, che può disattendere la proposta. Le parti possono contestare la classificazione. 3. Il sistema è iscritto in un registro pubblico degli algoritmi ed è soggetto a valutazione d'impatto ai sensi del regolamento (UE) 2024/1689 e a un audit indipendente biennale.
 >
@@ -66,7 +66,7 @@
 
 ## 07-C2 — Pena utile: misure di comunità contro il sovraffollamento
 
-**Problema in un dato.** Al 30/9/2026 erano presenti **66.063 persone detenute** per **51.295 posti regolamentari** in 189 istituti: affollamento del **128,8%**; 20.856 persone detenute hanno cittadinanza straniera (DAP; `07_detenuti_dap.csv`). Sui posti effettivamente disponibili Antigone stima il 139,7% (fonte non governativa). Un detenuto costa circa 178 € al giorno (COFOG carceri 2024 / presenze medie DAP, elaborazione GovernAI).
+**Problema in un dato.** Al 30/9/2026 erano presenti **66.063 persone detenute** per **51.295 posti regolamentari** in 189 istituti: affollamento del **128,8%**; 20.856 persone detenute hanno cittadinanza straniera (DAP; `07_detenuti_dap.csv`). Sui posti effettivamente disponibili Antigone stima il 139,7% (fonte non governativa). Ogni persona detenuta costa circa 178 € al giorno (COFOG carceri 2024 / presenze medie DAP, elaborazione GovernAI).
 
 **Soluzione.** Per chi ha un residuo di pena fino a 2 anni ed è a basso rischio, valutare d'ufficio l'accesso a misure alternative con controllo sul territorio e lavoro. Rafforzare gli UEPE prima di allargare l'accesso. Avviare case di reinserimento per il fine pena e recuperare i posti inagibili. Introdurre una statistica ufficiale sulla recidiva.
 
@@ -80,13 +80,13 @@ I risparmi da minori presenze (3.000 persone detenute in meno valgono circa 0,2 
 
 **Articolato normativo essenziale** (legge delega e decreto legislativo)
 
-> **Art. 1 (Finalità).** In attuazione degli articoli 13 e 27 della Costituzione e dell'articolo 3 della CEDU, la presente legge riduce il sovraffollamento penitenziario e la recidiva favorendo l'esecuzione della pena nella comunità per i condannati a basso rischio.
+> **Art. 1 (Finalità).** In attuazione degli articoli 13 e 27 della Costituzione e dell'articolo 3 della CEDU, la presente legge riduce il sovraffollamento penitenziario e la recidiva favorendo l'esecuzione della pena nella comunità per le persone condannate a basso rischio.
 >
-> **Art. 2 (Valutazione d'ufficio per le misure alternative).** 1. Il Governo è delegato ad adottare, entro dodici mesi, un decreto legislativo che preveda la valutazione d'ufficio, da parte del magistrato di sorveglianza, dell'ammissione a misure alternative dei condannati con pena residua non superiore a due anni, esclusi i delitti di cui all'articolo 4-bis della legge 354/1975. 2. La valutazione si fonda su un programma di trattamento predisposto dall'UEPE e su strumenti strutturati di valutazione del rischio; il braccialetto elettronico è disponibile entro 48 ore dal provvedimento.
+> **Art. 2 (Valutazione d'ufficio per le misure alternative).** 1. Il Governo è delegato ad adottare, entro dodici mesi, un decreto legislativo che preveda la valutazione d'ufficio, da parte del magistrato di sorveglianza, dell'ammissione a misure alternative delle persone condannate con pena residua non superiore a due anni, esclusi i delitti di cui all'articolo 4-bis della legge 354/1975. 2. La valutazione si fonda su un programma di trattamento predisposto dall'UEPE e su strumenti strutturati di valutazione del rischio; il braccialetto elettronico è disponibile entro 48 ore dal provvedimento.
 >
-> **Art. 3 (Esecuzione penale esterna e case di reinserimento).** 1. Il Ministero della giustizia è autorizzato ad assumere [1.500 / 1.000 / 250] funzionari di servizio sociale, psicologi e mediatori per gli UEPE. 2. Sono istituite case di reinserimento a bassa sicurezza per i detenuti con fine pena entro diciotto mesi, in immobili pubblici dismessi o beni confiscati assegnati ai sensi del d.lgs. 159/2011.
+> **Art. 3 (Esecuzione penale esterna e case di reinserimento).** 1. Il Ministero della giustizia è autorizzato ad assumere [1.500 / 1.000 / 250] unità di personale di servizio sociale, psicologia e mediazione per gli UEPE. 2. Sono istituite case di reinserimento a bassa sicurezza per le persone detenute con fine pena entro diciotto mesi, in immobili pubblici dismessi o beni confiscati assegnati ai sensi del d.lgs. 159/2011.
 >
-> **Art. 4 (Lavoro).** Il credito d'imposta di cui alla legge 193/2000 è elevato e esteso ai diciotto mesi successivi alla scarcerazione; le commesse pubbliche possono riservare quote a cooperative che impiegano detenuti.
+> **Art. 4 (Lavoro).** Il credito d'imposta di cui alla legge 193/2000 è elevato e esteso ai diciotto mesi successivi alla scarcerazione; le commesse pubbliche possono riservare quote a cooperative che impiegano persone detenute.
 >
 > **Art. 5 (Recidiva e trasparenza).** L'ISTAT e il DAP pubblicano ogni anno, dal 2028, la recidiva a tre e a cinque anni per tipo di esecuzione della pena. Il Ministro riferisce ogni anno alle Camere.
 >
@@ -98,14 +98,14 @@ I risparmi da minori presenze (3.000 persone detenute in meno valgono circa 0,2 
 |---|---|---|
 | Primi 100 giorni | Ddl delega; bando UEPE; gara per i braccialetti elettronici; censimento dei posti inagibili e degli immobili disponibili | Giustizia (DAP, DGEPE), ANBSC, Agenzia del Demanio |
 | 12 mesi | Decreto legislativo approvato; UEPE rafforzati; prime case di reinserimento; avvio della rilevazione sulla recidiva | Governo, Parlamento (pareri), magistratura di sorveglianza, ISTAT |
-| Fine legislatura | Regime pieno; posti inagibili recuperati; prima statistica sulla recidiva; revisione a 36 mesi | DAP, ISTAT, Garante nazionale dei detenuti |
+| Fine legislatura | Regime pieno; posti inagibili recuperati; prima statistica sulla recidiva; revisione a 36 mesi | DAP, ISTAT, Garante nazionale dei diritti delle persone private della libertà personale |
 
 **Indicatori**
 
 | KPI | Base | Obiettivo 3 anni (2029) | Obiettivo 5 anni (2031) |
 |---|---|---|---|
 | Affollamento sui posti regolamentari | 128,8%, 30/9/2026 (DAP) | ≤ 115% | ≤ 105% |
-| Detenuti presenti | 66.063, 30/9/2026 (DAP) | ≤ 60.000 | ≤ 56.000 |
+| Persone detenute presenti | 66.063, 30/9/2026 (DAP) | ≤ 60.000 | ≤ 56.000 |
 | Recidiva a 3 anni, misure alternative vs carcere | assente; prima rilevazione ISTAT-DAP 2028 | base pubblicata | −10% rispetto alla base |
 
 **Rischi e mitigazione.** Reato grave commesso da un beneficiario, con forte eco mediatica: esclusione dei reati 4-bis, valutazione del rischio strutturata, relazione annuale trasparente. Carenza di UEPE: le assunzioni precedono l'allargamento dell'accesso. Opposizione locale alle case di reinserimento: piccole strutture, accordi con i Comuni. Risparmi inferiori al previsto: non sono usati come copertura.
@@ -116,12 +116,12 @@ I risparmi da minori presenze (3.000 persone detenute in meno valgono circa 0,2 
 
 **Problema in un dato.** Nel 2025 l'Italia ha eseguito **4.780 rimpatri** a fronte di **21.295 ordini di allontanamento**: circa il **22%**, contro il 32% della media UE (Eurostat migr_eirtn, migr_eiord; `07_rimpatri_eurostat.csv`, `07_ordini_allontanamento_eurostat.csv`). Prime domande d'asilo: 128.655 nel 2025. Sbarchi: 22.786 a settembre 2026, −55% sul 2025 (Viminale).
 
-**Soluzione.** È una cornice comune, compatibile sia con una linea di contenimento sia con una linea di canali regolari e integrazione. L'intensità delle quote resta una scelta politica. La cornice prevede quote motivate da un Osservatorio indipendente sul fabbisogno, decisione sull'asilo entro 6 mesi con le garanzie del Patto UE, priorità ai rimpatri volontari assistiti e un'integrazione misurabile (lingua, SAI, tutori dei minori).
+**Soluzione.** È una cornice comune, compatibile sia con una linea di contenimento sia con una linea di canali regolari e integrazione. L'intensità delle quote resta una scelta politica. La cornice prevede quote motivate da un Osservatorio indipendente sul fabbisogno, decisione sull'asilo entro 6 mesi con le garanzie del Patto UE, priorità ai rimpatri volontari assistiti e un'integrazione misurabile (lingua, SAI, tutela volontaria dei minori).
 
 | Variante | Contenuto | Costo a regime | Intensità | Copertura |
 |---|---|---|---|---|
-| PIENA | Osservatorio + asilo in 6 mesi + italiano entro 3 mesi + SAI + rimpatri volontari + tutori MSNA | 0,55 (dal 2029) | 1 | RIALLOCAZIONE 0,20 (da CAS a SAI); SAD 0,35; AMIF 0,05-0,10/anno solo 2027-29 |
-| ESSENZIALE | Osservatorio + asilo in 6 mesi + rimpatri volontari + tutori; italiano solo per protetti e lavoratori | 0,25 | 0,55 | RIALLOCAZIONE 0,10; SAD 0,15 |
+| PIENA | Osservatorio + asilo in 6 mesi + italiano entro 3 mesi + SAI + rimpatri volontari + tutela MSNA | 0,55 (dal 2029) | 1 | RIALLOCAZIONE 0,20 (da CAS a SAI); SAD 0,35; AMIF 0,05-0,10/anno solo 2027-29 |
+| ESSENZIALE | Osservatorio + asilo in 6 mesi + rimpatri volontari + tutela; italiano solo per chi ha protezione o un lavoro | 0,25 | 0,55 | RIALLOCAZIONE 0,10; SAD 0,15 |
 | PILOTA | Osservatorio e dati + asilo in 6 mesi in 3 Commissioni | 0,04 | 0,15 | RIALLOCAZIONE 0,04 |
 
 **Articolato normativo essenziale** (disegno di legge)
@@ -132,7 +132,7 @@ I risparmi da minori presenze (3.000 persone detenute in meno valgono circa 0,2 
 >
 > **Art. 3 (Durata delle procedure).** 1. La decisione sulla domanda di protezione internazionale è adottata entro sei mesi dalla presentazione, salvi i termini più brevi delle procedure di frontiera previsti dal regolamento (UE) 2024/1348. 2. Le Commissioni territoriali e le sezioni specializzate sono integrate di [800 / 800 / 60] unità.
 >
-> **Art. 4 (Integrazione e rimpatri).** 1. Il corso di lingua italiana e di orientamento civico è garantito entro tre mesi dall'ingresso [a tutti / ai titolari di protezione e ai lavoratori con nulla osta]. 2. L'accoglienza dei richiedenti è prioritariamente diffusa nel sistema SAI, con trasferimenti ai Comuni aderenti. 3. Il Ministero dell'interno promuove i rimpatri volontari assistiti e stipula accordi di riammissione collegati a canali di ingresso regolari. 4. Il Garante nazionale monitora i centri e riferisce ogni anno alle Camere. 5. Ai minori stranieri non accompagnati è assegnato un tutore entro trenta giorni.
+> **Art. 4 (Integrazione e rimpatri).** 1. Il corso di lingua italiana e di orientamento civico è garantito entro tre mesi dall'ingresso [a ogni persona / alle persone titolari di protezione e a chi ha un nulla osta al lavoro]. 2. L'accoglienza delle persone richiedenti asilo è prioritariamente diffusa nel sistema SAI, con trasferimenti ai Comuni aderenti. 3. Il Ministero dell'interno promuove i rimpatri volontari assistiti e stipula accordi di riammissione collegati a canali di ingresso regolari. 4. Il Garante nazionale monitora i centri e riferisce ogni anno alle Camere. 5. Ai minori stranieri non accompagnati è assegnata una tutrice o un tutore entro trenta giorni.
 >
 > **Art. 5 (Copertura finanziaria).** Agli oneri, pari a [400 / 200 / 30] milioni per il 2027, [600 / 300 / 40] milioni per il 2028 e il 2029 e [550 / 250 / 40] milioni annui dal 2030, si provvede: a) quanto a [100 milioni per il 2027 e il 2028 e 50 milioni per il 2029 / 50 milioni annui per il 2027-2029 / 0], con le risorse del Fondo Asilo, migrazione e integrazione 2021-27; b) quanto a [200 / 100 / 40] milioni con la riduzione degli stanziamenti per le convenzioni dei centri di accoglienza straordinaria; c) per la parte restante con le maggiori entrate derivanti dalla riforma dei sussidi ambientalmente dannosi.
 
@@ -196,7 +196,7 @@ I risparmi da minori presenze (3.000 persone detenute in meno valgono circa 0,2 
 | Beni opzionati / beni proposti agli enti | 44,8%, 2025 (ANBSC) | ≥ 60% | ≥ 70% |
 | Immobili destinati nell'anno | 3.639, 2025 (ANBSC) | ≥ 4.500 | ≥ 5.000 |
 
-**Rischi e mitigazione.** Intimidazioni contro gli assegnatari: protezione e rete con le Prefetture. Piccoli Comuni senza capacità tecnica: assegnazione a reti intercomunali, accompagnamento tecnico (sinergia con 09-C3). Riacquisto tramite prestanome in caso di vendita: vendita solo come ultima istanza, con verifiche antimafia rafforzate. Mancati rimborsi del fondo: rating dei progetti e garanzie parziali.
+**Rischi e mitigazione.** Intimidazioni contro chi riceve i beni: protezione e rete con le Prefetture. Piccoli Comuni senza capacità tecnica: assegnazione a reti intercomunali, accompagnamento tecnico (sinergia con 09-C3). Riacquisto tramite prestanome in caso di vendita: vendita solo come ultima istanza, con verifiche antimafia rafforzate. Mancati rimborsi del fondo: rating dei progetti e garanzie parziali.
 
 ---
 
@@ -254,7 +254,7 @@ Note: importi a PIL 2025 costante (2.265 mld); in termini nominali sono più alt
 
 **Problema in un dato.** Nel 2025 CSIRT Italia ha gestito **2.729 eventi cyber** (1.979 nel 2024) e **615 incidenti con impatto** (573), di cui 103 ransomware, il tipo più dannoso (ACN, *Relazione annuale al Parlamento 2025*; verifica n. 36). Comuni piccoli e aziende sanitarie hanno risorse e competenze limitate (valutazione qualitativa, dato non verificato).
 
-**Soluzione.** Creare centri di sicurezza condivisi (SOC) regionali con ACN, che offrono monitoraggio, backup sicuri e risposta agli incidenti ai Comuni sotto i 50.000 abitanti e alle aziende sanitarie. Istituire una riserva cyber civile-militare. Garantire formazione di base a tutti i dipendenti pubblici e requisiti minimi nei capitolati. La spesa è contabilizzabile nell'1,5% NATO di resilienza.
+**Soluzione.** Creare centri di sicurezza condivisi (SOC) regionali con ACN, che offrono monitoraggio, backup sicuri e risposta agli incidenti ai Comuni sotto i 50.000 abitanti e alle aziende sanitarie. Istituire una riserva cyber civile-militare. Garantire formazione di base a tutto il personale pubblico e requisiti minimi nei capitolati. La spesa è contabilizzabile nell'1,5% NATO di resilienza.
 
 | Variante | Contenuto | Costo a regime | Intensità | Copertura |
 |---|---|---|---|---|
@@ -268,9 +268,9 @@ Note: importi a PIL 2025 costante (2.265 mld); in termini nominali sono più alt
 >
 > **Art. 2 (SOC territoriali).** 1. L'ACN, d'intesa con la Conferenza Stato-Regioni, istituisce [un SOC per Regione / dieci SOC di macro-area / tre SOC sperimentali] che forniscono monitoraggio, backup protetti e risposta agli incidenti ai Comuni con popolazione inferiore a 50.000 abitanti e agli enti del Servizio sanitario nazionale. 2. L'adesione è gratuita; gli enti aderenti adottano le misure minime definite dall'ACN.
 >
-> **Art. 3 (Riserva cyber).** È istituita presso l'ACN, in raccordo con il Ministero della difesa, una riserva di professionisti e studenti formati, attivabile in caso di crisi con decreto del Presidente del Consiglio dei ministri.
+> **Art. 3 (Riserva cyber).** È istituita presso l'ACN, in raccordo con il Ministero della difesa, una riserva di persone formate, professioniste o ancora in corso di studi, attivabile in caso di crisi con decreto del Presidente del Consiglio dei ministri.
 >
-> **Art. 4 (Formazione e capitolati).** 1. Tutti i dipendenti pubblici svolgono entro ventiquattro mesi un modulo di formazione di base sulla sicurezza informatica. 2. I capitolati per software e servizi digitali pubblici includono i requisiti minimi di sicurezza definiti dall'ACN. 3. Ogni anno si tiene un'esercitazione congiunta Difesa, Interno e ACN.
+> **Art. 4 (Formazione e capitolati).** 1. Tutto il personale delle pubbliche amministrazioni svolge entro ventiquattro mesi un modulo di formazione di base sulla sicurezza informatica. 2. I capitolati per software e servizi digitali pubblici includono i requisiti minimi di sicurezza definiti dall'ACN. 3. Ogni anno si tiene un'esercitazione congiunta Difesa, Interno e ACN.
 >
 > **Art. 5 (Copertura finanziaria).** Agli oneri di gestione, pari a [100 / 40 / 10] milioni per il 2027, [250 / 120 / 30] milioni per il 2028 e [350 / 180 / 30] milioni annui dal 2029, si provvede: a) quanto a [100 / 60 / 30] milioni con la riduzione delle autorizzazioni di spesa per la sicurezza informatica dei Ministeri dell'interno e della difesa e dell'ACN; b) per la parte restante con le maggiori entrate derivanti dal riordino delle spese fiscali. Gli investimenti infrastrutturali del 2027-29 sono finanziati con i programmi regionali FESR 2021-27 (obiettivo di policy 1).
 
@@ -290,4 +290,4 @@ Note: importi a PIL 2025 costante (2.265 mld); in termini nominali sono più alt
 | Incidenti con impatto in enti locali e sanità | sottoinsieme dei 615 del 2025 (ACN), da rilevare | −20% | −35% |
 | Tempo medio di ripristino dopo un ransomware | da rilevare (ACN, 2027) | −30% | −50% |
 
-**Rischi e mitigazione.** Carenza di specialisti: borse con vincolo di servizio e retribuzioni competitive. Sovrapposizioni Stato-Regioni: coordinamento ACN e standard unici. Dipendenza dai fondi di coesione per l'avvio: la gestione stabile è coperta da fondi nazionali dal 2027. Adesione solo formale degli enti: servizio gratuito e misure minime obbligatorie.
+**Rischi e mitigazione.** Carenza di personale specializzato: borse con vincolo di servizio e retribuzioni competitive. Sovrapposizioni Stato-Regioni: coordinamento ACN e standard unici. Dipendenza dai fondi di coesione per l'avvio: la gestione stabile è coperta da fondi nazionali dal 2027. Adesione solo formale degli enti: servizio gratuito e misure minime obbligatorie.

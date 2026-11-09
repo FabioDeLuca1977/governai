@@ -30,7 +30,7 @@
 |---|---|---|
 | Contribuenti IRPEF (anno d'imposta 2024) | 42,8 milioni: 25,2 mln con il 730, 8,4 mln con Redditi PF, 9,2 mln con la sola Certificazione Unica | MEF-DF, *Sintesi dati dichiarazioni 2024* ([finanze.gov.it](https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/sintesi_analisi_dati_2024_irpef_iva.pdf)) |
 | Contribuenti che di fatto non versano IRPEF | 11,3 milioni: imposta netta zero o compensata dal trattamento integrativo | idem |
-| 730 precompilati inviati direttamente dai cittadini (campagna 2026) | circa 5,5 milioni; il **31% accettati senza modifiche** | Agenzia Entrate, via [ItaliaOggi](https://www.italiaoggi.it/diritto-e-fisco/fisco/entrate-5-5-mln-di-730-precompilati-il-31-accettati-integralmente-h8gh8p5e) e Fiscal Focus 25/9/2026 (dato parziale a fine settembre) |
+| 730 precompilati inviati direttamente da chi dichiara (campagna 2026) | circa 5,5 milioni; il **31% accettati senza modifiche** | Agenzia Entrate, via [ItaliaOggi](https://www.italiaoggi.it/diritto-e-fisco/fisco/entrate-5-5-mln-di-730-precompilati-il-31-accettati-integralmente-h8gh8p5e) e Fiscal Focus 25/9/2026 (dato parziale a fine settembre) |
 | Quota di contribuenti che chiude la dichiarazione "con un clic" | circa **4%** (1,7 mln su 42,8) | calcolo GovernAI dalle due righe precedenti |
 | Spese fiscali erariali | 573 misure, di cui **196 sull'IRPEF** per 83,9 mld nel 2026; 58 detrazioni per 74,4 mld | MEF, *Rapporto spese fiscali 2025*, Tav. 13 e Tav. 10 (`dati/raw/01_mef_rapporto_spese_fiscali_2025.txt`) |
 | Detrazione 19% per spese sanitarie | 4,87 mld, 22,8 milioni di beneficiari, 213 € in media | idem |
@@ -47,7 +47,7 @@
 
 | Paese | Modello | Dato |
 |---|---|---|
-| **Danimarca** | *Årsopgørelse*: l'amministrazione calcola l'imposta e invia il conto annuale. Se il cittadino non fa nulla, il conto vale come dichiarazione (silenzio-assenso). | 80% dei cittadini senza alcuna modifica (Skattestyrelsen, [dati 2018](https://sktst.dk/media/Skattestyrelsen/2019/Publikationer_og_tal_&_tendenser/bag-om-danmarks-stoerste-digitale-begivenhed-noegletal-om-aarsopgoerelsen-2018.pdf)) |
+| **Danimarca** | *Årsopgørelse*: l'amministrazione calcola l'imposta e invia il conto annuale. Se la persona non fa nulla, il conto vale come dichiarazione (silenzio-assenso). | 80% delle persone senza alcuna modifica (Skattestyrelsen, [dati 2018](https://sktst.dk/media/Skattestyrelsen/2019/Publikationer_og_tal_&_tendenser/bag-om-danmarks-stoerste-digitale-begivenhed-noegletal-om-aarsopgoerelsen-2018.pdf)) |
 | **Svezia** | Dichiarazione precompilata dal 1995; si approva online senza modifiche; rimborso in aprile per chi approva entro marzo | nel 2026, 6,2 milioni su 8,4 (quasi 3 su 4) potevano approvare senza modifiche ([Skatteverket](https://www.skatteverket.se/omoss/pressochmedia/pressmeddelanden/2026/2026/farredeklareradeforstadygnet.5.70685bee19c85dd5dd02aff.html)) |
 | **Estonia** | Imposta piatta (22% nel 2026) con poche deduzioni; dichiarazione precompilata in pochi minuti; rimborsi da inizio marzo | 96,4% delle dichiarazioni elettroniche già nel 2020 ([ERR](https://news.err.ee/1115419/more-than-700-000-income-tax-returns-were-filed-in-2020)); impresa tipo: 50 ore l'anno (Banca Mondiale) |
 | **Norvegia** | Dichiarazione precompilata (*skattemelding*) che, se corretta, non richiede invio | quota senza azione: non verificata |
@@ -62,7 +62,7 @@ In Italia il 730 precompilato richiede comunque un invio attivo. Ogni detrazione
 
 ### Il problema distributivo nascosto
 - Le detrazioni sono **non rimborsabili**: gli 11,3 milioni di contribuenti che non versano IRPEF non ne beneficiano.
-- I 9,2 milioni che non presentano la dichiarazione perdono spesso detrazioni a cui avrebbero diritto. Sono soprattutto pensionati e lavoratori con una sola CU, e molti hanno spese mediche registrate nel Sistema Tessera Sanitaria.
+- I 9,2 milioni che non presentano la dichiarazione perdono spesso detrazioni a cui avrebbero diritto. Sono soprattutto persone con pensione o lavoro dipendente e una sola CU, e molti hanno spese mediche registrate nel Sistema Tessera Sanitaria.
 - La complessità costa di più a chi ha meno strumenti per gestirla. È un costo regressivo, in contrasto con l'art. 53 Cost. e con il valore EQU della Carta.
 
 ---
@@ -81,11 +81,11 @@ In Italia il 730 precompilato richiede comunque un invio attivo. Ogni detrazione
 
 ---
 
-## 01-P7 — Dichiarazione zero: lo Stato fa il conto, il cittadino controlla
+## 01-P7 — Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla
 
-**Problema in un dato.** Su 42,8 milioni di contribuenti solo il **4%** circa accetta il 730 precompilato senza modifiche, inviandolo da sé; i 9,2 milioni che non dichiarano perdono spesso detrazioni già note al Fisco. In Danimarca l'80% dei cittadini non tocca il conto annuale.
+**Problema in un dato.** Su 42,8 milioni di contribuenti solo il **4%** circa accetta il 730 precompilato senza modifiche, inviandolo da sé; i 9,2 milioni che non dichiarano perdono spesso detrazioni già note al Fisco. In Danimarca l'80% delle persone non tocca il conto annuale.
 
-**Soluzione.** Dal periodo d'imposta 2028 l'Agenzia delle Entrate invia a ogni contribuente con soli redditi certificati un **conto fiscale annuale di una pagina**. Riguarda il lavoro dipendente, le pensioni, i redditi assimilati, le locazioni in cedolare e i forfetari. Il conto indica:
+**Soluzione.** Dal periodo d'imposta 2028 l'Agenzia delle Entrate invia a ogni contribuente con soli redditi certificati un **conto fiscale annuale di una pagina**. Riguarda il lavoro dipendente, le pensioni, i redditi assimilati, le locazioni in cedolare e il regime forfetario. Il conto indica:
 - redditi;
 - detrazioni già note: spese sanitarie dal Sistema Tessera Sanitaria, mutui, contributi, familiari a carico;
 - imposta dovuta;
@@ -109,7 +109,7 @@ Le regole:
 | Variante | Contenuto | Costo a regime | Intensità |
 |---|---|---|---|
 | PIENA | conto automatico per tutti i redditi certificati, compresi i 9,2 mln con sola CU (solo a credito); silenzio-assenso; rimborsi automatici | 0,30 (0,27 SPESE_FISCALI + 0,03 RIALLOCAZIONE) | 1 |
-| ESSENZIALE | silenzio-assenso per chi ha presentato il 730 l'anno precedente e per i pensionati con sola CU; altri non dichiaranti esclusi | 0,15 (0,13 + 0,02) | 0,6 |
+| ESSENZIALE | silenzio-assenso per chi ha presentato il 730 l'anno precedente e per chi ha solo la CU della pensione; altri non dichiaranti esclusi | 0,15 (0,13 + 0,02) | 0,6 |
 | PILOTA | modello pieno in 3 regioni (una per ripartizione) per 2 anni, con valutazione | 0,04 (0,03 + 0,01) | 0,15 |
 
 **Costo: da dove viene (stima GovernAI).**
@@ -136,7 +136,7 @@ Le regole:
 - **Primi 100 giorni:**
   - ddl presentato;
   - gruppo di lavoro AdE-Sogei-SOSE;
-  - consultazione di CAF, professionisti e associazioni di consumatori e pensionati;
+  - consultazione di CAF, studi professionali e associazioni che rappresentano consumatori e persone pensionate;
   - DPIA con il Garante.
 - **Entro 12 mesi:**
   - legge approvata;
@@ -146,7 +146,7 @@ Le regole:
 - **Entro fine legislatura:**
   - due campagne con il conto automatico (redditi 2028 e 2029);
   - valutazione pubblica dell'UPB;
-  - estensione ai forfetari con dati della fatturazione elettronica.
+  - estensione al regime forfetario con dati della fatturazione elettronica.
 
 **Indicatori**
 
@@ -180,9 +180,9 @@ Le regole:
 1. **Abolizione** delle detrazioni 19% per:
    - **premi assicurativi vita e infortuni**, mantenendo quelli per **non autosufficienza** e per la tutela di persone con **disabilità grave**;
    - **spese veterinarie**;
-   - **spese di istruzione** (scuola e università). Restano le detrazioni per canoni dei **fuori sede** e per gli studenti con DSA (misure FN01, FN02).
+   - **spese di istruzione** (scuola e università). Restano le detrazioni per canoni dei **fuori sede** e per studentesse e studenti con DSA (misure FN01, FN02).
 2. **Detrazione degli interessi sul mutuo prima casa** solo per i contratti stipulati fino al 31/12/2027; nessuna detrazione per i nuovi mutui (FN03, modello Spagna 2013 e Regno Unito 2000).
-3. **"Quota studio" dell'Assegno unico** per i figli da 6 a 21 anni che frequentano scuola o università, decrescente con l'ISEE: è la compensazione per le famiglie a reddito medio-basso che perdono la detrazione per istruzione. È rimborsabile, quindi raggiunge anche gli incapienti.
+3. **"Quota studio" dell'Assegno unico** per i figli da 6 a 21 anni che frequentano scuola o università, decrescente con l'ISEE: è la compensazione per le famiglie a reddito medio-basso che perdono la detrazione per istruzione. È rimborsabile, quindi raggiunge anche chi è incapiente.
 4. Le detrazioni che restano sono quasi tutte **già note all'Agenzia**: sanità, mutui in corso, affitti, contributi, erogazioni liberali tracciate. È ciò che rende possibile il conto automatico (01-P7).
 
 **Varianti**
@@ -203,7 +203,7 @@ Le regole:
 
 **Articolato normativo essenziale** (legge di bilancio; modifica degli artt. 15 e 16-ter TUIR e del d.lgs. 230/2021)
 
-> **Art. 1 (Riordino degli oneri detraibili).** 1. All'articolo 15 del TUIR, a decorrere dal periodo d'imposta 2028: a) al comma 1, le lettere e) ed e-bis) sono abrogate; restano ferme le lettere i-sexies) e le detrazioni per studenti con disturbi specifici dell'apprendimento; b) al comma 1, la lettera f) è sostituita dalla seguente: «f) i premi per assicurazioni aventi per oggetto il rischio di non autosufficienza nel compimento degli atti della vita quotidiana e il rischio di morte finalizzate alla tutela delle persone con disabilità grave, nei limiti vigenti»; c) al comma 1, la lettera c-bis) è abrogata.
+> **Art. 1 (Riordino degli oneri detraibili).** 1. All'articolo 15 del TUIR, a decorrere dal periodo d'imposta 2028: a) al comma 1, le lettere e) ed e-bis) sono abrogate; restano ferme le lettere i-sexies) e le detrazioni per studentesse e studenti con disturbi specifici dell'apprendimento; b) al comma 1, la lettera f) è sostituita dalla seguente: «f) i premi per assicurazioni aventi per oggetto il rischio di non autosufficienza nel compimento degli atti della vita quotidiana e il rischio di morte finalizzate alla tutela delle persone con disabilità grave, nei limiti vigenti»; c) al comma 1, la lettera c-bis) è abrogata.
 > 2. La detrazione di cui all'articolo 15, comma 1, lettera b), del TUIR spetta per gli interessi relativi ai contratti di mutuo stipulati entro il 31 dicembre 2027.
 >
 > **Art. 2 (Quota studio dell'assegno unico).** 1. All'articolo 4 del d.lgs. 29 dicembre 2021, n. 230, è aggiunta una maggiorazione annua per ciascun figlio di età compresa tra 6 e 21 anni iscritto a un percorso di istruzione o formazione, di importo decrescente in funzione dell'ISEE fino ad azzerarsi a 30.000 euro, nel limite di spesa di 350 milioni annui dal 2028.
@@ -224,7 +224,7 @@ Le regole:
 | Famiglie con ISEE ≤30.000 € e figli 6-21 anni che ricevono la quota studio | 0, 2027 | 80% degli aventi diritto | 90% |
 
 **Rischi e mitigazioni**
-- **Scuole paritarie e università non statali.** La detrazione oggi vale in media 166 €: un effetto modesto sulla scelta della scuola. Per gli studenti universitari a basso reddito c'è già l'esonero dalle tasse in base all'ISEE.
+- **Scuole paritarie e università non statali.** La detrazione oggi vale in media 166 €: un effetto modesto sulla scelta della scuola. Per chi studia all'università con un reddito basso c'è già l'esonero dalle tasse in base all'ISEE.
 - **Mutui: accesso alla casa dei giovani.** I contratti in corso restano salvi. Per i nuovi acquisti restano la garanzia Consap per gli under 36 e le politiche dell'area 04. L'eliminazione riduce la capitalizzazione del beneficio nei prezzi (evidenza spagnola e britannica).
 - **Consenso.** Le detrazioni piccole sono molto diffuse: 5,3 milioni di persone per le assicurazioni. La riforma va presentata insieme, nella stessa legge, a 01-P7 (niente più dichiarazione) e a 01-P9 (meno tasse sul lavoro).
 
@@ -232,7 +232,7 @@ Le regole:
 
 ## 01-P9 — Una sola detrazione per il lavoro, senza scalini
 
-**Problema in un dato.** Tra 32.000 e 40.000 € di reddito un lavoratore dipendente paga circa **54 centesimi di imposta su ogni euro in più** nel 2026 (56,2% nel 2025, Osservatorio CPI), più di chi guadagna 100.000 € (43% più addizionali).
+**Problema in un dato.** Tra 32.000 e 40.000 € di reddito chi ha un lavoro dipendente paga circa **54 centesimi di imposta su ogni euro in più** nel 2026 (56,2% nel 2025, Osservatorio CPI), più di chi guadagna 100.000 € (43% più addizionali).
 
 La causa sono tre strumenti sovrapposti, introdotti in anni diversi:
 - la detrazione da lavoro (art. 13 TUIR);
@@ -245,7 +245,7 @@ La causa sono tre strumenti sovrapposti, introdotti in anni diversi:
 - Un'**unica "detrazione per il lavoro"**, con una sola formula che sostituisce i tre strumenti a parità di importo per tutti i redditi fino a 32.000 €.
 - L'**uscita graduale** si allunga da 32.000 a 50.000 € (PIENA) o a 44.000 € (ESSENZIALE).
 - L'aliquota marginale effettiva massima per il lavoro dipendente scende da circa 54% a circa **47%** (PIENA) o **50%** (ESSENZIALE). Calcolo GovernAI: 33% + 8,7% + 1.000/18.000 = 5,6% (PIENA) o 1.000/12.000 = 8,3% (ESSENZIALE).
-- Per il datore di lavoro la busta paga usa **una sola formula**.
+- Per chi paga lo stipendio la busta paga usa **una sola formula**.
 
 **Varianti**
 
@@ -256,9 +256,9 @@ La causa sono tre strumenti sovrapposti, introdotti in anni diversi:
 | ZERO | solo unificazione dei tre strumenti in una formula, a parità di importi e di scalini | 0 | 0,2 |
 
 **Costo (stima GovernAI, da verificare con microsimulazione MEF-DF).**
-- I lavoratori dipendenti con reddito tra 32.000 e 50.000 € sono circa **4 milioni**: 2,3 tra 32 e 40.000 €, 1,7 tra 40 e 50.000 €. È una stima dalle distribuzioni MEF-DF, perché il 76,6% dei contribuenti dichiara meno di 35.000 €.
+- Le persone con lavoro dipendente e reddito tra 32.000 e 50.000 € sono circa **4 milioni**: 2,3 tra 32 e 40.000 €, 1,7 tra 40 e 50.000 €. È una stima dalle distribuzioni MEF-DF, perché il 76,6% dei contribuenti dichiara meno di 35.000 €.
 - **PIENA:** guadagno da 0 a 556 €, in media circa 250-280 €, quindi **0,9-1,1 mld**.
-- **ESSENZIALE:** circa 3 milioni di lavoratori, guadagno medio circa 170 €, quindi **0,45-0,55 mld**.
+- **ESSENZIALE:** circa 3 milioni di persone, guadagno medio circa 170 €, quindi **0,45-0,55 mld**.
 
 **Articolato normativo essenziale** (legge di bilancio; modifica dell'art. 13 TUIR e dell'art. 1, commi 4-9, L. 207/2024)
 
@@ -282,7 +282,7 @@ La causa sono tre strumenti sovrapposti, introdotti in anni diversi:
 | Strumenti di detrazione per il lavoro dipendente | 3 (art. 13, somma esente, ulteriore detrazione) | 1 | 1 |
 
 **Rischi e mitigazioni**
-- **"Taglio per il ceto medio" e non per i poveri.** È vero: 01-P9 va ai decili 8-9. Va letta insieme a 01-P7 e 01-P8, che danno ai decili bassi (vedi la tabella dei decili). La variante ESSENZIALE dimezza il costo.
+- **"Taglio per il ceto medio" e non per chi ha redditi bassi.** È vero: 01-P9 va ai decili 8-9. Va letta insieme a 01-P7 e 01-P8, che danno ai decili bassi (vedi la tabella dei decili). La variante ESSENZIALE dimezza il costo.
 - **Interazione con l'ISEE e le prestazioni.** Le aliquote implicite oltre il 100% citate dall'OCPI nascono dall'ISEE, non dall'IRPEF: da coordinare con l'area 02.
 - **Politica invariata del 2027.** Il secondo scaglione esteso a 55.000 € (1,4 mld, solo 2027) è un'alternativa più costosa che non tocca lo scalino. 01-P9 è proposta **al posto** del suo rinnovo, non in aggiunta.
 
@@ -308,7 +308,7 @@ La causa sono tre strumenti sovrapposti, introdotti in anni diversi:
 
 | Decile | 01-P7 conto automatico | 01-P8 + FN01-FN03 riordino | 01-P9 (ESS.) | FN04 premi | **Effetto netto medio** |
 |---|---|---|---|---|---|
-| D1-D3 | **+** crediti oggi persi (pensionati, CU) | ≈0: incapienti, non usano detrazioni; **+** quota studio AUU | 0 | 0 | **guadagno piccolo** (+10/+40 € medi; di più per chi ha spese mediche) |
+| D1-D3 | **+** crediti oggi persi (pensioni, CU) | ≈0: incapienti, non usano detrazioni; **+** quota studio AUU | 0 | 0 | **guadagno piccolo** (+10/+40 € medi; di più per chi ha spese mediche) |
 | D4-D5 | **+** | **–** istruzione e assicurazioni (circa 30-60 € medi); **+** quota studio per le famiglie con ISEE basso | 0 | 0 | **circa neutro**; guadagno per le famiglie con figli |
 | D6-D7 | + piccolo | **–** circa 50-90 € medi; quota studio parziale | 0 | 0 | **perdita piccola** (–30/–70 €) |
 | D8 | ≈0 | **–** circa 80-110 € | **+** fino a 333 € (media circa 150) | 0 | **guadagno** (+40/+80 €) |
@@ -320,7 +320,7 @@ La causa sono tre strumenti sovrapposti, introdotti in anni diversi:
   - guadagnano i decili bassi (crediti oggi persi, quota studio) e il ceto medio nello scalino 32-44.000 €;
   - perdono in modo moderato il decile più alto e una parte dei decili centrali che usano molte detrazioni.
 - **Dentro ogni decile** chi perde è chi oggi usa più detrazioni (scuole e università a pagamento, polizze vita, nuovi mutui). Chi guadagna è chi non le usa o non le può usare.
-- Non ci sono variazioni per gli incapienti in senso negativo: **nessun aumento di imposta per i decili 1-3** (linea rossa EQU e art. 3, comma 2, Cost.).
+- Non ci sono variazioni per chi è incapiente in senso negativo: **nessun aumento di imposta per i decili 1-3** (linea rossa EQU e art. 3, comma 2, Cost.).
 
 **Limiti.**
 - Senza microsimulazione non si conoscono la sovrapposizione tra misure nella stessa famiglia né la distribuzione per famiglia (equivalente ISEE) invece che per contribuente.
@@ -342,7 +342,7 @@ La causa sono tre strumenti sovrapposti, introdotti in anni diversi:
 | FUT | 0 | +1 | 0 | meno spese fiscali, nessun deficit |
 | EQU | +2 | +1 | 0/+1 | crediti agli esclusi; beneficio non rimborsabile sostituito da uno rimborsabile; scalino rimosso |
 | SIC | 0 | 0 | 0 | nessuna nuova raccolta di dati |
-| CIT | +2 | +1 | +1 | lealtà fiscale: lo Stato fa la sua parte, il cittadino controlla |
+| CIT | +2 | +1 | +1 | lealtà fiscale: lo Stato fa la sua parte, chi dichiara controlla |
 
 ## 4. Fonti principali
 - MEF-DF, *Sintesi dati dichiarazioni IRPEF e IVA, anno d'imposta 2024* ([finanze.gov.it](https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/sintesi_analisi_dati_2024_irpef_iva.pdf)).

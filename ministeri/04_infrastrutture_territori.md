@@ -38,7 +38,7 @@ Il PNRR chiude nel 2026, ma molte opere entreranno in esercizio solo dopo, e gli
 ### B4. Emergenza abitativa, soprattutto per chi è in affitto
 - Oltre **650.000 famiglie** nelle graduatorie per l'edilizia residenziale pubblica (ERP), secondo la rilevazione Federcasa-Nomisma (memoria Federcasa alla Camera, Commissione VIII, 19 maggio 2026). È un dato associativo: non esiste una statistica ufficiale nazionale delle graduatorie, e altre stime (250–300.000) non sono state reperite in fonti verificabili.
 - Stock ERP gestito dagli enti Federcasa: circa **797.000 alloggi** (Osservatorio Federcasa-Nomisma, aprile 2026; da verificare: il dato non è stato reperito in rete). Circa **60.000 alloggi ERP** non sono assegnabili per carenze di manutenzione (Federcasa-Nomisma). Il Piano Casa Italia (DL 66/2026, art. 2) stanzia **970 mln € per il 2026-2030** per il loro recupero e punta a **100.000 alloggi accessibili in dieci anni** (obiettivo da verificare sul testo del decreto).
-- **22,3% degli inquilini a prezzo di mercato** vive in famiglie che spendono oltre il 40% del reddito per la casa nel 2025 (19,4% nel 2024; media UE27 18,5%) (Eurostat EU-SILC, ilc_lvho07c, 2026). L'Italia è l'unico tra i grandi paesi UE con l'indicatore in aumento nel 2024-2025 (in calo in Germania, Francia, Spagna, Polonia e Paesi Bassi). Nel 2010-2024 gli affitti sono cresciuti del **13,9%** mentre i prezzi delle case sono scesi del **5,4%** (Eurostat/ISTAT, HICP affitti effettivi e indice dei prezzi delle abitazioni, valori nominali). L'indice HICP comprende anche i contratti in essere; SVIMEZ (Rapporto 2025), con altre fonti, stima +17% e -4%.
+- **22,3% delle inquiline e degli inquilini a prezzo di mercato** vive in famiglie che spendono oltre il 40% del reddito per la casa nel 2025 (19,4% nel 2024; media UE27 18,5%) (Eurostat EU-SILC, ilc_lvho07c, 2026). L'Italia è l'unico tra i grandi paesi UE con l'indicatore in aumento nel 2024-2025 (in calo in Germania, Francia, Spagna, Polonia e Paesi Bassi). Nel 2010-2024 gli affitti sono cresciuti del **13,9%** mentre i prezzi delle case sono scesi del **5,4%** (Eurostat/ISTAT, HICP affitti effettivi e indice dei prezzi delle abitazioni, valori nominali). L'indice HICP comprende anche i contratti in essere; SVIMEZ (Rapporto 2025), con altre fonti, stima +17% e -4%.
 
 ### B5. Divari territoriali e aree interne in spopolamento
 - Nelle aree interne vivono circa **13,3 milioni di persone (2025)**, che scenderebbero a 11,8 milioni nel 2050; quelle del Mezzogiorno passerebbero da **7,1 a circa 6 milioni (-1,1 milioni)**, contro -122.000 nelle aree interne del Nord (ISTAT, Previsioni della popolazione base 1.1.2025, agosto 2026, scenario mediano).
@@ -72,7 +72,7 @@ Il PNRR chiude nel 2026, ma molte opere entreranno in esercizio solo dopo, e gli
 
 **Costo e copertura**: ordine di grandezza **1–2 mld €/anno nei primi due anni, poi decrescente** (stima GovernAI, da rivedere dopo il censimento; nessuna quantificazione ufficiale). Copertura: riprogrammazione FSC e quota nazionale della coesione; risparmio da opere già finanziate che non dovranno essere ricostruite.
 
-**Vincitori e perdenti**: vincono famiglie con bambini piccoli, anziani, Comuni del Sud e delle aree interne (minore capacità fiscale). Perdono, relativamente, le destinazioni alternative del FSC (nuove opere). Effetto progressivo per reddito e territorio.
+**Vincitori e perdenti**: vincono famiglie con bambine e bambini piccoli, persone anziane, Comuni del Sud e delle aree interne (minore capacità fiscale). Perdono, relativamente, le destinazioni alternative del FSC (nuove opere). Effetto progressivo per reddito e territorio.
 
 **Valutazione tre orizzonti**
 | Orizzonte | Punteggio | Motivazione | Confidenza |
@@ -92,14 +92,14 @@ Il PNRR chiude nel 2026, ma molte opere entreranno in esercizio solo dopo, e gli
 ---
 
 ### Proposta 2 — "Casa a canone giusto: alloggi pubblici vuoti subito, agenzia per l'affitto sociale"
-**In una frase**: riportiamo in uso le case popolari vuote e convinciamo i proprietari privati ad affittare a canone calmierato garantendo loro pagamento e manutenzione tramite un'agenzia pubblica.
+**In una frase**: riportiamo in uso le case popolari vuote e convinciamo le proprietarie e i proprietari privati ad affittare a canone calmierato garantendo loro pagamento e manutenzione tramite un'agenzia pubblica.
 
 **Problema affrontato**: B4 (e B5 per il riuso del patrimonio vuoto nei centri minori).
 
 **Opzioni considerate**
 1. *Status quo / solo Piano Casa Italia*: recupero di 60.000 alloggi e nuove costruzioni in dieci anni; utile ma lento rispetto a oltre 650.000 domande (stima Federcasa-Nomisma).
 2. *Bonus affitto generalizzato*: rapido, ma in mercati rigidi viene in parte assorbito dagli aumenti dei canoni.
-3. *Controllo dei canoni stringente*: riduce i costi agli inquilini esistenti, ma rischia di ridurre l'offerta (evidenze miste: Berlino 2020-2021).
+3. *Controllo dei canoni stringente*: riduce i costi alle inquiline e agli inquilini esistenti, ma rischia di ridurre l'offerta (evidenze miste: Berlino 2020-2021).
 4. *Agenzie sociali per l'affitto + recupero accelerato ERP (scelta)*: agisce sia sull'offerta pubblica sia su quella privata inutilizzata.
 
 **Meccanismo**
@@ -110,7 +110,7 @@ Il PNRR chiude nel 2026, ma molte opere entreranno in esercizio solo dopo, e gli
 
 **Costo e copertura**: **0,8–1,5 mld €/anno a regime** (fondo di garanzia morosità, minori entrate fiscali, personale delle agenzie) (stima GovernAI; nessuna quantificazione ufficiale). Copertura: riorientamento di parte delle agevolazioni edilizie non selettive; fondi FESR 2021-2027 obiettivo "inclusione sociale"; Banca europea per gli investimenti e Fondo sociale per il clima per la riqualificazione energetica.
 
-**Vincitori e perdenti**: vincono famiglie in affitto a basso e medio reddito, giovani, lavoratori fuori sede, piccoli proprietari che temono la morosità. Perdono, in parte, i beneficiari di agevolazioni edilizie non selettive (redditi medio-alti). Prevalenza di benefici nei grandi centri urbani del Centro-Nord e nelle città universitarie.
+**Vincitori e perdenti**: vincono famiglie in affitto a basso e medio reddito, giovani, lavoratrici e lavoratori fuori sede, piccole proprietarie e piccoli proprietari che temono la morosità. Perdono, in parte, i beneficiari di agevolazioni edilizie non selettive (redditi medio-alti). Prevalenza di benefici nei grandi centri urbani del Centro-Nord e nelle città universitarie.
 
 **Valutazione tre orizzonti**
 | Orizzonte | Punteggio | Motivazione | Confidenza |
@@ -121,9 +121,9 @@ Il PNRR chiude nel 2026, ma molte opere entreranno in esercizio solo dopo, e gli
 
 **Impatto sostenibilità**: SDG 1, 7, 10, 11. Riduce il consumo di suolo (riuso invece di nuova costruzione); riqualificazione energetica degli alloggi riduce emissioni ed esposizione all'ETS2 delle famiglie povere. Positivo per l'equità intergenerazionale (giovani).
 
-**Rischi e mitigazioni**: *proprietari poco fiduciosi* → garanzia pubblica chiara e pagamenti puntuali; *agenzie inefficienti* → standard di servizio e pubblicazione dei tempi; *conflitto con politiche di sgombero del DL 66/2026* → protocolli per il passaggio da casa a casa per famiglie fragili.
+**Rischi e mitigazioni**: *proprietarie e proprietari poco fiduciosi* → garanzia pubblica chiara e pagamenti puntuali; *agenzie inefficienti* → standard di servizio e pubblicazione dei tempi; *conflitto con politiche di sgombero del DL 66/2026* → protocolli per il passaggio da casa a casa per famiglie fragili.
 
-**Indicatori e revisione**: alloggi ERP sfitti recuperati/anno; contratti ASA attivi; quota inquilini oltre il 40% del reddito (Eurostat). **Revisione** a 36 mesi.
+**Indicatori e revisione**: alloggi ERP sfitti recuperati/anno; contratti ASA attivi; quota inquiline e inquilini oltre il 40% del reddito (Eurostat). **Revisione** a 36 mesi.
 
 **Evidenze**: *Agences immobilières sociales* in Belgio (Vallonia e Bruxelles, attive dagli anni '90); modello di edilizia sociale di Vienna; sperimentazioni italiane di agenzie per l'affitto a Milano e Torino (esiti da verificare).
 
@@ -148,7 +148,7 @@ Il PNRR chiude nel 2026, ma molte opere entreranno in esercizio solo dopo, e gli
 
 **Costo e copertura**: **1,5–3 mld €/anno a regime** (indicizzazione + materiale rotabile + compensazione tariffaria) (stima GovernAI; per confronto, il Deutschlandticket costa 3 mld €/anno, 1,5 dal Bund e 1,5 dai Länder: Bundesrat, Drucksache 402/25). L'indicizzazione del Fondo TPL (5,30 mld nel 2026) costa circa 0,1 mld in più per ogni anno con inflazione al 2%. Copertura: graduale riduzione dei sussidi ambientalmente dannosi ai carburanti (Catalogo MASE), proventi ETS2 e Fondo sociale per il clima (dal 2026-2027), riprogrammazione di risorse da opere stradali a basso rendimento.
 
-**Vincitori e perdenti**: vincono pendolari, studenti, anziani senza auto, famiglie a basso reddito (per le quali il costo dell'auto pesa di più), Mezzogiorno se la priorità di flotta è rispettata. Perdono gli utilizzatori di gasolio agricolo e autotrasporto se si toccano i sussidi (necessaria gradualità e compensazioni).
+**Vincitori e perdenti**: vincono pendolari, studentesse e studenti, persone anziane senza auto, famiglie a basso reddito (per le quali il costo dell'auto pesa di più), Mezzogiorno se la priorità di flotta è rispettata. Perdono gli utilizzatori di gasolio agricolo e autotrasporto se si toccano i sussidi (necessaria gradualità e compensazioni).
 
 **Valutazione tre orizzonti**
 | Orizzonte | Punteggio | Motivazione | Confidenza |
@@ -168,7 +168,7 @@ Il PNRR chiude nel 2026, ma molte opere entreranno in esercizio solo dopo, e gli
 ---
 
 ### Proposta 4 — "Nessuna grande opera senza prova dei numeri": valutazione indipendente e pubblica
-**In una frase**: prima di spendere miliardi, un organismo indipendente confronta ogni grande opera con le alternative e pubblica i conti, così i cittadini sanno cosa si guadagna e cosa si rinuncia.
+**In una frase**: prima di spendere miliardi, un organismo indipendente confronta ogni grande opera con le alternative e pubblica i conti, così le cittadine e i cittadini sanno cosa si guadagna e cosa si rinuncia.
 
 **Problema affrontato**: B2, B3, B5. Il caso più visibile è il Ponte sullo Stretto, la cui delibera CIPESS non ha ottenuto il visto di legittimità della Corte dei conti (novembre 2025); il governo ha adottato un decreto-legge (febbraio 2026) e avviato una nuova istruttoria CIPESS nell'autunno 2026. Il costo complessivo definitivo resta da verificare.
 
@@ -223,7 +223,7 @@ Il PNRR chiude nel 2026, ma molte opere entreranno in esercizio solo dopo, e gli
 
 **Costo e copertura**: costo diretto basso; il **finanziamento dei LEP** può richiedere diversi miliardi l'anno nelle regioni sotto standard (stima GovernAI; nessuna quantificazione ufficiale reperita). Copertura: perequazione, riallocazione fondi coesione nazionali, recupero di efficienza dai fabbisogni standard.
 
-**Vincitori e perdenti**: vincono i cittadini delle regioni con servizi sotto standard (prevalentemente Sud) e la certezza del diritto per le Regioni richiedenti. Perdono in parte le Regioni che auspicano tempi rapidi su tutte le materie.
+**Vincitori e perdenti**: vincono la cittadinanza delle regioni con servizi sotto standard (prevalentemente Sud) e la certezza del diritto per le Regioni richiedenti. Perdono in parte le Regioni che auspicano tempi rapidi su tutte le materie.
 
 **Valutazione tre orizzonti**
 | Orizzonte | Punteggio | Motivazione | Confidenza |
@@ -250,7 +250,7 @@ Il PNRR chiude nel 2026, ma molte opere entreranno in esercizio solo dopo, e gli
 **Opzioni considerate**
 1. *Status quo (SNAI con dotazioni limitate)*: progetti frammentati, spesso non sostenibili dopo il finanziamento. Il Piano strategico nazionale aree interne 2025 è stato criticato per aver indicato che alcune aree vanno "accompagnate" in un declino considerato irreversibile (da verificare formulazione esatta).
 2. *Incentivi monetari alla residenza (bonus trasferimento)*: effetti modesti e temporanei se mancano i servizi.
-3. *Pacchetto di servizi essenziali riorganizzati (scelta)*: "presidi multiservizio", scuole in rete, telemedicina con infermiere di comunità, trasporto a chiamata, indennità di sede disagiata per medici, insegnanti e personale pubblico, banda ultralarga completata.
+3. *Pacchetto di servizi essenziali riorganizzati (scelta)*: "presidi multiservizio", scuole in rete, telemedicina con infermiere di comunità, trasporto a chiamata, indennità di sede disagiata per mediche e medici, insegnanti e personale pubblico, banda ultralarga completata.
 4. *Accompagnamento esplicito del declino*: valore di realismo e di uso efficiente delle risorse; ma, applicato in modo generalizzato, rischia di diventare una profezia che si autoavvera. Da usare solo con decisione partecipata delle comunità.
 
 **Meccanismo**
@@ -261,7 +261,7 @@ Il PNRR chiude nel 2026, ma molte opere entreranno in esercizio solo dopo, e gli
 
 **Costo e copertura**: **0,5–1 mld €/anno** (stima GovernAI; nessuna quantificazione ufficiale). Copertura: fondi di coesione e FSC (quota aree interne), Fondo sviluppo e coesione regionale, PAC sviluppo rurale.
 
-**Vincitori e perdenti**: vincono residenti delle aree interne (più anziani e con redditi più bassi della media), giovani che vogliono restare, lavoratori in remoto. Perdono marginalmente i progetti urbani concorrenti per gli stessi fondi; resistenze locali alla gestione associata (perdita di autonomia dei piccoli Comuni).
+**Vincitori e perdenti**: vincono residenti delle aree interne (più anziani e con redditi più bassi della media), giovani che vogliono restare, lavoratrici e lavoratori in remoto. Perdono marginalmente i progetti urbani concorrenti per gli stessi fondi; resistenze locali alla gestione associata (perdita di autonomia dei piccoli Comuni).
 
 **Valutazione tre orizzonti**
 | Orizzonte | Punteggio | Motivazione | Confidenza |
@@ -270,7 +270,7 @@ Il PNRR chiude nel 2026, ma molte opere entreranno in esercizio solo dopo, e gli
 | Medio | +1 | Rallenta lo spopolamento dove c'è una base economica; effetto incerto altrove | Bassa |
 | Lungo | +2 | Presidio del territorio (dissesto idrogeologico, incendi, paesaggio), capitale sociale | Bassa |
 
-**Impatto sostenibilità**: SDG 3, 4, 10, 11, 15. Presidio del territorio come servizio ecosistemico; trasporto a chiamata riduce dipendenza dall'auto per gli anziani. Equità intergenerazionale positiva se combinata con lavoro (agricoltura, turismo, energie rinnovabili di comunità).
+**Impatto sostenibilità**: SDG 3, 4, 10, 11, 15. Presidio del territorio come servizio ecosistemico; trasporto a chiamata riduce dipendenza dall'auto per le persone anziane. Equità intergenerazionale positiva se combinata con lavoro (agricoltura, turismo, energie rinnovabili di comunità).
 
 **Rischi e mitigazioni**: *dispersione delle risorse* → concentrazione su "comuni-polo" di area; *personale che non accetta incarichi* → indennità e alloggi di servizio (sinergia con Proposta 2); *aspettative irrealistiche di inversione demografica* → obiettivi espressi in qualità dei servizi, non in popolazione.
 
@@ -300,7 +300,7 @@ Nessuna proposta presenta il segnale ⚠️ (positivo nel breve e negativo nel l
 1. **Economia e Finanze ↔ tutte le proposte (conflitto principale)**: il costo complessivo (circa 4–7,5 mld €/anno a regime, stima GovernAI) va reso compatibile con il tetto alla spesa netta del Patto di stabilità. Coperture proposte: riprogrammazione FSC/coesione, sussidi ambientalmente dannosi, ETS2. Serve una decisione su priorità.
 2. **Ambiente e Sicurezza energetica ↔ Trasporti (sinergia) / Grandi opere (conflitto)**: Proposta 3 contribuisce agli obiettivi Effort Sharing; Ponte sullo Stretto e nuove autostrade aumentano emissioni incorporate e consumo di suolo. Riduzione dei sussidi ai carburanti richiede accordo con MASE e MEF.
 3. **Imprese e Made in Italy / Agricoltura ↔ Sussidi ai carburanti**: autotrasporto e agricoltura beneficiano di agevolazioni sul gasolio; la loro riduzione per finanziare il TPL genera conflitto e richiede compensazioni (rinnovo flotte, intermodalità ferro-porto).
-4. **Salute e Istruzione ↔ Dopo-PNRR (forte interdipendenza)**: case di comunità e asili nido PNRR richiedono personale (medici, infermieri, educatori) che dipende da questi ministeri; senza personale la Proposta 1 finanzia edifici vuoti.
+4. **Salute e Istruzione ↔ Dopo-PNRR (forte interdipendenza)**: case di comunità e asili nido PNRR richiedono personale (mediche e medici, infermiere e infermieri, educatori) che dipende da questi ministeri; senza personale la Proposta 1 finanzia edifici vuoti.
 5. **Interno ↔ Casa**: le procedure di sgombero rafforzate dal DL 66/2026 possono confliggere con la tutela delle famiglie fragili; serve un protocollo "da casa a casa".
 6. **Lavoro e Politiche sociali ↔ Casa e aree interne (sinergia)**: mobilità lavorativa, Assegno di inclusione e contributi affitto vanno coordinati con le agenzie sociali per l'affitto.
 7. **Riforme istituzionali / Giustizia ↔ Autonomia e Grandi opere**: ruolo della Corte dei conti (controllo preventivo) e del Parlamento sulle intese; rischio di conflitto con modifiche che riducono i controlli.

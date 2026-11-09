@@ -34,7 +34,7 @@ missioni:
         proposte: [05-C1, 05-C7, 05-C5]
       - gruppo: "Giovani che studiano dopo il diploma"
         quanti: "circa 33.400 persone iscritte agli ITS oggi, verso circa 100.000; persone idonee alla borsa da stimare"
-        fonte: "Scheda 05-C4 e obiettivo 05-C4-b (iscritti ITS al 1/2/2026)"
+        fonte: "Scheda 05-C4 e obiettivo 05-C4-b (iscrizioni ITS al 1/2/2026)"
         cosa_cambia: "Borsa di studio garantita a tutte le persone idonee, ITS triplicati, nuove residenze universitarie a canone legato all'ISEE."
         proposte: [05-C4]
       - gruppo: "Persone adulte senza diploma e giovani oltre i 25 anni che non studiano né lavorano"
@@ -76,7 +76,7 @@ missioni:
       - gruppo: "Persone anziane non autosufficienti e chi le assiste"
         quanti: "da stimare (circa 243.000 persone in lista d'attesa per una RSA, residenza sanitaria assistenziale, dato da verificare)"
         fonte: "Scheda 06-C4 (Quotidiano Sanità 2026, da verificare)"
-        cosa_cambia: "Solo sperimentazione: budget di cura in 20 ambiti e squadre di infermieri a domicilio in 10 distretti."
+        cosa_cambia: "Solo sperimentazione: budget di cura in 20 ambiti e squadre infermieristiche a domicilio in 10 distretti."
         proposte: [06-C4, 06-C8]
       - gruppo: "Famiglie in povertà assoluta"
         quanti: "2,1 milioni di famiglie, 5,4 milioni di persone"
@@ -117,7 +117,7 @@ missioni:
       - gruppo: "Chi lavora con salari bassi"
         quanti: "il 10,2% delle persone occupate è a rischio di povertà; numero assoluto da stimare"
         fonte: "Eurostat EU-SILC ilc_iw01, 2025 (scheda 02-C1)"
-        cosa_cambia: "Il salario del contratto più rappresentativo diventa il riferimento per tutti; nessuna soglia di legge né nuovo personale ispettivo."
+        cosa_cambia: "Il salario del contratto più rappresentativo diventa il riferimento per tutto il settore; nessuna soglia di legge né nuovo personale ispettivo."
         proposte: [02-C1]
 
   - id: M4
@@ -232,7 +232,7 @@ indicatori_semplici:
   01-P3-a: {nome: "IVA evasa ogni anno"}
   01-P4-c: {nome: "Produttività: PIL per ora lavorata", unita: "(2015 = 100)"}
   02-C1-b: {nome: "Potere d'acquisto dei salari rispetto a gennaio 2021", unita: "%"}
-  02-C2-b: {nome: "Posti al nido ogni 100 bambini sotto i 3 anni", unita: ""}
+  02-C2-b: {nome: "Posti al nido ogni 100 bambine e bambini sotto i 3 anni", unita: ""}
   02-C2-c: {nome: "Donne tra 20 e 64 anni che lavorano"}
   02-C5-a: {nome: "Divario di occupazione tra persone con disabilità grave e le altre", unita: "punti"}
   02-C7-b: {nome: "Persone senza dimora ancora in casa dopo 12 mesi", unita: "%"}

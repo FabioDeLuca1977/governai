@@ -31,7 +31,7 @@
     {"area": "08", "segno": "-", "effetto": "Richiede il testo unico con 08-P1 sulla collocazione fuori dall'UPB (mandato M005) e il passaggio parlamentare della legge."},
     {"area": "01", "segno": "+", "effetto": "Selezione migliore degli investimenti e minori scostamenti di costo, con risparmi contabilizzati solo quando le autorizzazioni di spesa vengono ridotte per legge."},
     {"area": "03", "segno": "+", "effetto": "Gli scenari climatici entrano nella valutazione delle opere e riducono il rischio di infrastrutture non resilienti."},
-    {"area": "09", "segno": "-", "effetto": "La copertura sulle consulenze MIT va separata per capitolo dal taglio delle consulenze che finanzia 09-C3, per evitare un doppio conteggio che ridurrebbe la copertura dei Tecnici della Repubblica."}
+    {"area": "09", "segno": "-", "effetto": "La copertura sulle consulenze MIT va separata per capitolo dal taglio delle consulenze che finanzia 09-C3, per evitare un doppio conteggio che ridurrebbe la copertura delle Squadre tecniche della Repubblica."}
    ],
    "scommessa": null},
   {"azione": "modificare", "proposta": "04-P5", "variante": "ZERO",

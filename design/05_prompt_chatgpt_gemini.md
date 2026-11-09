@@ -74,10 +74,10 @@ Non inventare numeri, nomi di persone o partiti. Non aggiungere loghi.
 ## P2 · Mockup desktop: home e 4 schermate chiave
 
 ```text
-Sei un product designer senior (servizi pubblici digitali, information architecture, WCAG 2.2 AA) e un esperto di comunicazione civica neutrale. Disegna il TEMPLATE GRAFICO DESKTOP (larghezza 1440 px, contenuto massimo 1200 px) di 5 schermate dell'app "GovernAI", come UNA SOLA PAGINA HTML autonoma (HTML + CSS + poco JavaScript in un file; solo Google Fonts e icone Lucide da https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js). Le 5 schermate stanno una sotto l'altra, ciascuna in una cornice 1440 px con il titolo "Schermata N · Nome".
+Sei un product designer senior (servizi pubblici digitali, information architecture, WCAG 2.2 AA) con competenze di comunicazione civica neutrale. Disegna il TEMPLATE GRAFICO DESKTOP (larghezza 1440 px, contenuto massimo 1200 px) di 5 schermate dell'app "GovernAI", come UNA SOLA PAGINA HTML autonoma (HTML + CSS + poco JavaScript in un file; solo Google Fonts e icone Lucide da https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js). Le 5 schermate stanno una sotto l'altra, ciascuna in una cornice 1440 px con il titolo "Schermata N · Nome".
 
 CHE COS'È GOVERNAI
-Prototipo a scopo sociale di programma di governo post-ideologico (né destra né sinistra né centro). Dati ufficiali ogni giorno, 62 proposte valutate su una Carta di 10 valori, un governo ombra simulato con regole verificabili, coperture senza deficit, controlli di Costituzione e diritto UE, catena di integrità. Motto: "L'AI propone e verifica. Le persone decidono." Tre pubblici: cittadini curiosi (2 minuti, telefono), persone attive nel progetto, esperti e giornalisti (fonti, numeri, metodo).
+Prototipo a scopo sociale di programma di governo post-ideologico (né destra né sinistra né centro). Dati ufficiali ogni giorno, 62 proposte valutate su una Carta di 10 valori, un governo ombra simulato con regole verificabili, coperture senza deficit, controlli di Costituzione e diritto UE, catena di integrità. Motto: "L'AI propone e verifica. Le persone decidono." Tre pubblici: persone curiose (2 minuti, telefono), persone attive nel progetto, pubblico esperto e giornalistico (fonti, numeri, metodo).
 
 VINCOLI NON NEGOZIABILI
 - Neutralità: nessun colore di partito come colore principale, nessuna combinazione verde-bianco-rosso, nessun simbolo politico, nessuna persona o edificio del potere, niente estetica "AI magica". Non deve sembrare un sito istituzionale ufficiale (niente stemma, niente Titillium Web, niente blu #0066CC).
@@ -155,7 +155,7 @@ C. Tre righe: le 3 scelte di design più importanti che hai fatto e perché.
 Sei un product designer senior mobile-first (servizi pubblici digitali, WCAG 2.2 AA). Disegna le VARIANTI MOBILE (larghezza 375 px, margini laterali 16 px) di 5 schermate dell'app "GovernAI", come UNA SOLA PAGINA HTML autonoma (HTML + CSS + poco JavaScript; solo Google Fonts e icone Lucide da https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js). Mostra le 5 schermate AFFIANCATE, ognuna dentro una cornice di telefono 375 × 812 px che scorre in verticale, con il titolo sopra.
 
 CHE COS'È GOVERNAI
-Prototipo a scopo sociale di programma di governo post-ideologico (né destra né sinistra né centro): dati ufficiali ogni giorno, 62 proposte valutate su 10 valori, governo ombra simulato con regole verificabili, nessun deficit, controlli di Costituzione e diritto UE, catena di integrità. "L'AI propone e verifica. Le persone decidono." Pubblico principale su mobile: cittadini curiosi con 2 minuti.
+Prototipo a scopo sociale di programma di governo post-ideologico (né destra né sinistra né centro): dati ufficiali ogni giorno, 62 proposte valutate su 10 valori, governo ombra simulato con regole verificabili, nessun deficit, controlli di Costituzione e diritto UE, catena di integrità. "L'AI propone e verifica. Le persone decidono." Pubblico principale su mobile: persone curiose con 2 minuti.
 
 VINCOLI NON NEGOZIABILI
 - Neutralità: nessun colore di partito come colore principale, niente verde-bianco-rosso, nessun simbolo politico, nessuna persona, niente estetica "AI magica"; non sembrare un sito istituzionale (niente stemma, Titillium Web, blu #0066CC).

@@ -10,7 +10,7 @@
 
 **Competenze principali:**
 - MEF: politica di bilancio, tasse, gestione del debito pubblico, spending review, rapporti con l'UE sul Patto di stabilità, partecipazioni pubbliche, Agenzia delle Entrate e riscossione.
-- MIMIT: politica industriale, incentivi alle imprese e alle PMI, crisi aziendali, concorrenza e consumatori, energia per le imprese (insieme al Ministero dell'Ambiente e della Sicurezza Energetica, MASE), proprietà industriale.
+- MIMIT: politica industriale, incentivi alle imprese e alle PMI, crisi aziendali, concorrenza e consumatrici e consumatori, energia per le imprese (insieme al Ministero dell'Ambiente e della Sicurezza Energetica, MASE), proprietà industriale.
 - Turismo: promozione (ENIT), regole sulle strutture ricettive, codice identificativo nazionale (CIN) per gli affitti brevi, fondi per il settore. La gran parte delle competenze sul turismo spetta però alle **Regioni** (Titolo V).
 
 **Budget indicativo:** il MEF gestisce la quota maggiore del bilancio dello Stato, che comprende interessi sul debito e trasferimenti a enti territoriali e previdenza. La manovra 2027 vale circa **23,5 mld lordi** (0,98% del PIL 2027, pari a 2.401 mld), con un impatto netto sul deficit di 0,54 punti di PIL (MEF, DPB 2027, tab. I.6-1 e III.1). Gli stanziamenti diretti di MIMIT e Turismo valgono pochi miliardi l'anno (non verificato sul bilancio dello Stato).
@@ -124,7 +124,7 @@
 
 **Meccanismo:**
 - Legge delega di riordino. Tutte le spese fiscali nazionali ricevono una data di scadenza scaglionata in 5 anni, circa un quinto all'anno, partendo dalle misure con meno beneficiari e minore evidenza.
-- Una **Commissione indipendente per la valutazione delle spese fiscali**, già prevista sulla carta, viene resa operativa con dati dell'Agenzia delle Entrate anonimizzati e accessibili ai ricercatori. Per ogni misura in scadenza pubblica una scheda: costo, beneficiari per decile di reddito, efficacia rispetto all'obiettivo, alternative.
+- Una **Commissione indipendente per la valutazione delle spese fiscali**, già prevista sulla carta, viene resa operativa con dati dell'Agenzia delle Entrate anonimizzati e accessibili alle ricercatrici e ai ricercatori. Per ogni misura in scadenza pubblica una scheda: costo, beneficiari per decile di reddito, efficacia rispetto all'obiettivo, alternative.
 - Il Parlamento può rinnovare una misura solo con un voto esplicito sulla scheda.
 - Sono **esenti dalla scadenza automatica**, ma non dalla valutazione: detrazioni per spese sanitarie, disabilità, carichi familiari e misure che attuano obblighi UE.
 - I risparmi vanno a un **fondo vincolato**: 50% per ridurre il cuneo fiscale sui redditi fino a circa 35.000 € e 50% per ridurre il deficit.
@@ -132,7 +132,7 @@
 **Costo e copertura:** produce risorse invece di costarle. Obiettivo realistico: **5-8 mld/anno a regime** (circa 0,2-0,35% del PIL), cioè il 4-6% del costo 2026 (129,7 mld) e il 6-9% di quello previsto per il 2028 (87,6 mld) (stima GovernAI, da affinare con microsimulazioni MEF/UPB). L'ordine di grandezza è coerente con l'obiettivo ufficiale di riordino delle spese fiscali già inserito nel Piano strutturale di bilancio, **7,37 mld** (MEF, Rapporto spese fiscali 2025). Per non contare due volte gli stessi risparmi, la Proposta 2 va intesa come lo strumento per raggiungere quell'obiettivo, non come un'aggiunta. Costo amministrativo trascurabile.
 
 **Vincitori e perdenti:**
-- *Vincitori*: lavoratori dipendenti con redditi medio-bassi (taglio del cuneo), contribuenti che non usano agevolazioni, generazioni future (meno deficit).
+- *Vincitori*: lavoratrici e lavoratori dipendenti con redditi medio-bassi (taglio del cuneo), contribuenti che non usano agevolazioni, generazioni future (meno deficit).
 - *Perdenti*: beneficiari di agevolazioni concentrate e di nicchia, spesso con redditi medio-alti o in settori organizzati.
 - *Per territorio*: probabile vantaggio relativo per il Sud, dove l'uso delle detrazioni è più basso (ipotesi GovernAI, da verificare con le statistiche fiscali territoriali del MEF).
 - *Per età*: favorisce i più giovani, che usano meno detrazioni legate a casa e patrimonio.
@@ -234,7 +234,7 @@
 
 **Opzioni considerate:**
 1. *Status quo*: incentivi a pioggia (crediti d'imposta generici) e soglie normative rigide. **Scartata**: la produttività ristagna da 30 anni e la frammentazione resta.
-2. *Abolire le tutele legate alle soglie.* **Scartata**: riduce diritti dei lavoratori collegati agli artt. 35-41 Cost., ed è conflittuale e poco realizzabile.
+2. *Abolire le tutele legate alle soglie.* **Scartata**: riduce diritti delle lavoratrici e dei lavoratori collegati agli artt. 35-41 Cost., ed è conflittuale e poco realizzabile.
 3. *Graduare gli obblighi* (non abolirli) e concentrare gli incentivi su crescita, aggregazione e capitale immateriale. **Scelta**: mantiene le tutele, elimina l'effetto "muro" e misura i risultati.
 
 **Meccanismo:**
@@ -247,7 +247,7 @@
 **Costo e copertura:** **circa 2-3 mld/anno**, ottenuti **riorientando** incentivi esistenti con bassa addizionalità, individuati con la Proposta 2 (stima GovernAI). Saldo netto per lo Stato vicino a zero.
 
 **Vincitori e perdenti:**
-- *Vincitori*: PMI dinamiche, lavoratori delle imprese che crescono (le imprese più grandi pagano salari più alti, OCSE 2026), filiere del Made in Italy.
+- *Vincitori*: PMI dinamiche, lavoratrici e lavoratori delle imprese che crescono (le imprese più grandi pagano salari più alti, OCSE 2026), filiere del Made in Italy.
 - *Perdenti*: imprese che vivevano di crediti d'imposta generici e consulenti specializzati in incentivi.
 - *Per territorio*: rischio di favorire il Nord industriale. Va previsto un moltiplicatore per le aree ZES (Mezzogiorno).
 
@@ -357,8 +357,8 @@
 **Costo e copertura:** saldo positivo per i Comuni interessati. Gettito aggiuntivo stimato **0,3-0,8 mld/anno** (stima GovernAI: dipende dalle adesioni). Il costo per lo Stato è limitato al patto con le Regioni, **0,1-0,2 mld/anno** riorientati dal Fondo turismo (stima GovernAI).
 
 **Vincitori e perdenti:**
-- *Vincitori*: residenti delle città e località turistiche, in particolare giovani e famiglie in affitto; aree interne e Mezzogiorno fuori stagione; lavoratori stagionali.
-- *Perdenti*: turisti di alta stagione nelle mete più affollate (pagano qualche euro in più a notte); proprietari di affitti brevi nelle zone sature; parte delle imprese ricettive, per possibili cali di domanda marginali nei picchi.
+- *Vincitori*: residenti delle città e località turistiche, in particolare giovani e famiglie in affitto; aree interne e Mezzogiorno fuori stagione; lavoratrici e lavoratori stagionali.
+- *Perdenti*: turisti di alta stagione nelle mete più affollate (pagano qualche euro in più a notte); proprietarie e proprietari di affitti brevi nelle zone sature; parte delle imprese ricettive, per possibili cali di domanda marginali nei picchi.
 
 **Valutazione tre orizzonti:**
 

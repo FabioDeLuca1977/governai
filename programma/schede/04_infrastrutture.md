@@ -15,7 +15,7 @@
 |---|---|---|---|
 | 04-P1 Continuità post-PNRR | 0,73 / 1 (picco 1,21 nel 2027, zero dal 2031) | 0,28 / 0,6 | PILOTA 0,09 / 0,25 |
 | 04-P2 Casa a canone giusto | 0,95 / 1 | 0,48 / 0,6 | PILOTA 0,14 / 0,15 |
-| 04-P3 Prima il treno dei pendolari | 2,32 / 1 | 1,17 / 0,6 | PILOTA 0,62 / 0,3 |
+| 04-P3 Prima il treno di chi viaggia ogni giorno | 2,32 / 1 | 1,17 / 0,6 | PILOTA 0,62 / 0,3 |
 | 04-P4 Prova dei numeri | 0,025 / 1 | 0,012 / 0,7 | ZERO 0 / 0,35 |
 | 04-P5 LEP prima | 1,0 / 1 | 0,5 / 0,7 | ZERO 0 / 0,45 |
 | 04-P6 Restare è possibile | 0,80 / 1 | 0,42 / 0,6 | PILOTA 0,10 / 0,15 |
@@ -73,9 +73,9 @@
 
 ## 04-P2 — Casa a canone giusto
 
-**Problema in un dato.** Nel 2025 il **22,3% degli inquilini a prezzo di mercato** spende oltre il 40% del reddito per la casa, contro il 18,5% della media UE e il 19,4% del 2024 (Eurostat `ilc_lvho07c`; serie `04_sovraccarico_costo_abitativo_per_titolo`). Nel 2010-2024 gli affitti sono cresciuti del 13,9% mentre i prezzi delle case scendevano del 5,4% (serie `04_affitti_hicp_indice`, `04_prezzi_abitazioni_indice`). Circa 60.000 alloggi ERP sono vuoti per mancata manutenzione (Federcasa, memoria Camera, 19.5.2026).
+**Problema in un dato.** Nel 2025 il **22,3% di chi è in affitto a prezzo di mercato** spende oltre il 40% del reddito per la casa, contro il 18,5% della media UE e il 19,4% del 2024 (Eurostat `ilc_lvho07c`; serie `04_sovraccarico_costo_abitativo_per_titolo`). Nel 2010-2024 gli affitti sono cresciuti del 13,9% mentre i prezzi delle case scendevano del 5,4% (serie `04_affitti_hicp_indice`, `04_prezzi_abitazioni_indice`). Circa 60.000 alloggi ERP sono vuoti per mancata manutenzione (Federcasa, memoria Camera, 19.5.2026).
 
-**Soluzione.** Contratti quadro regionali per recuperare "a pacchetti" gli alloggi ERP vuoti, con fondi di coesione e Piano Casa. Agenzie sociali per l'affitto (ASA) che garantiscono canone e manutenzione ai proprietari e sublocano a canone concordato a famiglie in graduatoria o nella fascia grigia. La copertura viene dalle detrazioni edilizie non selettive.
+**Soluzione.** Contratti quadro regionali per recuperare "a pacchetti" gli alloggi ERP vuoti, con fondi di coesione e Piano Casa. Agenzie sociali per l'affitto (ASA) che garantiscono canone e manutenzione alla proprietà e sublocano a canone concordato a famiglie in graduatoria o nella fascia grigia. La copertura viene dalle detrazioni edilizie non selettive.
 
 | Variante | Contenuto | 2027 | 2028 | 2029 | Intensità | Fondi a regime |
 |---|---|---|---|---|---|---|
@@ -117,7 +117,7 @@
 
 ---
 
-## 04-P3 — Prima il treno dei pendolari
+## 04-P3 — Prima il treno di chi viaggia ogni giorno
 
 **Problema in un dato.** L'Italia ha **709 auto ogni 1.000 abitanti (2025), prima nell'UE, contro 584 della media UE27**, e il dato cresce ancora (Eurostat `road_eqs_carhab`; serie `04_auto_per_1000_abitanti`). Le emissioni del trasporto stradale sono **105,0 Mt CO2eq nel 2024, +11,7% sul 1990**, mentre il totale nazionale è sceso del 30% (Eurostat `env_air_gge`; serie `04_emissioni_gas_serra_trasporti`).
 
@@ -137,7 +137,7 @@
 >
 > **Art. 3 (Servizi aggiuntivi e materiale rotabile).** È istituita una sezione del Fondo destinata ai servizi aggiuntivi nelle Regioni con offerta per abitante inferiore alla media nazionale. Il Ministero delle infrastrutture e dei trasporti adotta un programma triennale di acquisto centralizzato di treni regionali e autobus a zero emissioni, prioritariamente per Sicilia, Calabria, Campania, Sardegna e aree interne, finanziato anche con le risorse dei programmi della politica di coesione.
 >
-> **Art. 4 (Abbonamento unico e tariffa sociale).** Entro tre anni ogni Regione istituisce un abbonamento unico integrato valido su tutti i servizi di trasporto regionale e locale, al prezzo massimo stabilito con decreto. È istituita la tariffa sociale nazionale per i residenti di età inferiore a 26 anni e per i nuclei con ISEE inferiore a una soglia stabilita con decreto. Lo Stato compensa le minori entrate tariffarie solo nelle Regioni che hanno raggiunto gli obiettivi di offerta di cui all'articolo 3.
+> **Art. 4 (Abbonamento unico e tariffa sociale).** Entro tre anni ogni Regione istituisce un abbonamento unico integrato valido su tutti i servizi di trasporto regionale e locale, al prezzo massimo stabilito con decreto. È istituita la tariffa sociale nazionale per le persone residenti di età inferiore a 26 anni e per i nuclei con ISEE inferiore a una soglia stabilita con decreto. Lo Stato compensa le minori entrate tariffarie solo nelle Regioni che hanno raggiunto gli obiettivi di offerta di cui all'articolo 3.
 >
 > **Art. 5 (Copertura finanziaria).** Agli oneri, pari a 1,11 miliardi nel 2027, 1,71 nel 2028 e 2,32 dal 2029, si provvede: a) mediante la progressiva riduzione dei sussidi ambientalmente dannosi di cui al Catalogo del Ministero dell'ambiente e della sicurezza energetica indicati nell'allegato X; b) nei limiti delle risorse del Fondo sociale per il clima destinate alle famiglie in condizione di povertà dei trasporti; c) nei limiti delle risorse dei programmi della politica di coesione 2021-2027, per il materiale rotabile; d) mediante riduzione delle autorizzazioni di spesa per opere stradali di cui all'allegato Y.
 
@@ -175,7 +175,7 @@
 
 **Articolato normativo essenziale** (legge ordinaria)
 
-> **Art. 1 (Finalità).** Al fine di migliorare la selezione degli investimenti pubblici e di garantire ai cittadini e al Parlamento un'informazione completa sui costi, sui benefici e sulle alternative, è istituito presso l'Ufficio parlamentare di bilancio l'Ufficio per la valutazione degli investimenti pubblici.
+> **Art. 1 (Finalità).** Al fine di migliorare la selezione degli investimenti pubblici e di garantire alla cittadinanza e al Parlamento un'informazione completa sui costi, sui benefici e sulle alternative, è istituito presso l'Ufficio parlamentare di bilancio l'Ufficio per la valutazione degli investimenti pubblici.
 >
 > **Art. 2 (Ambito).** Sono sottoposte a valutazione le opere pubbliche, comprese quelle in concessione, di costo complessivo superiore a 500 milioni di euro, prima dell'approvazione del progetto di fattibilità o, per quelle in corso di istruttoria, prima della deliberazione del CIPESS. La valutazione non sospende i procedimenti già autorizzati.
 >
@@ -211,7 +211,7 @@
 
 **Problema in un dato.** Il costo del finanziamento integrale dei LEP **non ha una quantificazione ufficiale** (nessuna stima RGS, UPB o CTFS: verifica 04, novembre 2026). Le stime pubbliche vanno **da 17 a 100 mld €/anno**, secondo l'intervallo riportato dal Ministro per gli Affari regionali in risposta a un'interrogazione; SVIMEZ indica 80 mld. Intanto le aree interne del Mezzogiorno passerebbero da **7,1 a 6,0 milioni di abitanti nel 2050** (ISTAT, previsioni agosto 2026; serie `04_istat_previsioni_aree_interne`).
 
-**Ordine di grandezza (stima GovernAI).** Il costo dipende dal perimetro. Le stime più alte includono sanità e istruzione per intero, che hanno già standard nazionali (LEA, organici). Per i LEP non sanitari con il divario più grande (servizi sociali comunali, tempo pieno nella primaria al Sud, trasporto e assistenza scolastica per gli alunni con disabilità) la stima è **3-8 mld/anno a regime**, da raggiungere in un percorso di convergenza decennale. Il primo prodotto della riforma è proprio la cifra ufficiale.
+**Ordine di grandezza (stima GovernAI).** Il costo dipende dal perimetro. Le stime più alte includono sanità e istruzione per intero, che hanno già standard nazionali (LEA, organici). Per i LEP non sanitari con il divario più grande (servizi sociali comunali, tempo pieno nella primaria al Sud, trasporto e assistenza scolastica per alunne e alunni con disabilità) la stima è **3-8 mld/anno a regime**, da raggiungere in un percorso di convergenza decennale. Il primo prodotto della riforma è proprio la cifra ufficiale.
 
 **Soluzione.** Nessuna intesa su materie LEP prima che i LEP siano quantificati con i fabbisogni standard e finanziati su tutto il territorio. Le intese su materie non-LEP durano 10 anni, hanno una valutazione quinquennale e una clausola di rientro. Il voto del Parlamento sulle intese diventa vincolante. Un Fondo di convergenza avvia il percorso.
 
@@ -257,23 +257,23 @@
 
 ## 04-P6 — Restare è possibile: servizi essenziali nelle aree interne
 
-**Problema in un dato.** Gli abitanti delle aree interne scenderebbero da **13,3 milioni nel 2025 a 11,8 nel 2050**. Nel Mezzogiorno il calo è da 7,1 a 6,0 milioni, mentre nel Nord è di 122.000 (ISTAT, previsioni base 1.1.2025, agosto 2026; serie `04_istat_previsioni_aree_interne`).
+**Problema in un dato.** La popolazione delle aree interne scenderebbe da **13,3 milioni nel 2025 a 11,8 nel 2050**. Nel Mezzogiorno il calo è da 7,1 a 6,0 milioni, mentre nel Nord è di 122.000 (ISTAT, previsioni base 1.1.2025, agosto 2026; serie `04_istat_previsioni_aree_interne`).
 
 **Soluzione.** Contratti di area tra Stato, Regione e unione di Comuni con obiettivi di servizio misurati: tempi di accesso a pronto soccorso, scuola secondaria e stazione. Presidi multiservizio sul modello France Services (quasi 2.900 strutture in Francia), indennità di sede disagiata per chi resta almeno 5 anni, trasporto a chiamata, scuole in rete e telemedicina. Gestione associata obbligatoria per i Comuni sotto i 3.000 abitanti.
 
 | Variante | Contenuto | 2027 | 2028 | 2029 | Intensità | Fondi a regime |
 |---|---|---|---|---|---|---|
-| PIENA | 1.000 presidi; indennità per circa 70.000 tra medici, infermieri e insegnanti; trasporto a chiamata; gestione associata obbligatoria | 0,40 | 0,65 | 0,80 | 1 | COESIONE 0,35; RIALLOCAZIONE 0,20; SPESE_FISCALI 0,17; SAD 0,08 |
+| PIENA | 1.000 presidi; indennità per circa 70.000 persone tra personale medico, infermieristico e docente; trasporto a chiamata; gestione associata obbligatoria | 0,40 | 0,65 | 0,80 | 1 | COESIONE 0,35; RIALLOCAZIONE 0,20; SPESE_FISCALI 0,17; SAD 0,08 |
 | ESSENZIALE | 72 aree progetto SNAI; 500 presidi; indennità per circa 35.000 persone nei comuni periferici e ultraperiferici | 0,20 | 0,33 | 0,42 | 0,6 | COESIONE 0,20; RIALLOCAZIONE 0,12; SPESE_FISCALI 0,06; SAD 0,04 |
 | PILOTA | 10 contratti di area (almeno 6 al Sud) con valutazione a 3 anni | 0,05 | 0,08 | 0,10 | 0,15 | COESIONE 0,06; RIALLOCAZIONE 0,04 |
 
 **Articolato normativo essenziale** (legge di bilancio e accordo Stato-Regioni)
 
-> **Art. 1 (Finalità).** Al fine di garantire ai residenti delle aree interne l'accesso ai servizi essenziali di istruzione, salute, mobilità e connettività, la Strategia nazionale per le aree interne è dotata di risorse pluriennali ed è attuata mediante contratti di area con obiettivi di servizio misurabili.
+> **Art. 1 (Finalità).** Al fine di garantire alla popolazione delle aree interne l'accesso ai servizi essenziali di istruzione, salute, mobilità e connettività, la Strategia nazionale per le aree interne è dotata di risorse pluriennali ed è attuata mediante contratti di area con obiettivi di servizio misurabili.
 >
 > **Art. 2 (Contratti di area).** Lo Stato, la Regione e l'unione o associazione dei Comuni di ciascuna area stipulano un contratto di area che fissa, per un periodo di cinque anni, gli obiettivi relativi ai tempi di accesso ai servizi, le azioni, le risorse e gli indicatori. L'erogazione delle quote successive alla prima è subordinata al raggiungimento degli obiettivi intermedi.
 >
-> **Art. 3 (Presidi multiservizio).** Nei Comuni polo di area sono istituiti presidi multiservizio che offrono in un unico punto i servizi delle amministrazioni statali, dell'INPS, dell'Agenzia delle entrate e dei servizi postali e digitali, con un operatore formato e collegamenti in telemedicina con il distretto sanitario.
+> **Art. 3 (Presidi multiservizio).** Nei Comuni polo di area sono istituiti presidi multiservizio che offrono in un unico punto i servizi delle amministrazioni statali, dell'INPS, dell'Agenzia delle entrate e dei servizi postali e digitali, con personale formato e collegamenti in telemedicina con il distretto sanitario.
 >
 > **Art. 4 (Personale).** Al personale del Servizio sanitario nazionale, della scuola e delle amministrazioni statali che presta servizio continuativo per almeno cinque anni nei comuni classificati periferici e ultraperiferici è riconosciuta un'indennità di sede disagiata, definita in sede di contrattazione collettiva entro il limite di spesa di cui all'articolo 6, e un punteggio aggiuntivo nelle procedure di mobilità e di carriera.
 >
@@ -382,12 +382,12 @@ Serie in `dati/serie/04_*.csv` (Eurostat `ilc_lvho07c`, `road_eqs_carhab`, `env_
 
 **Problema in un dato.** I veicoli commerciali producono **circa il 32% delle emissioni di gas serra del trasporto su strada** (ISPRA, Emissioni del settore trasporti, 2024). Nel 2025 in Italia sono stati immatricolati **80 camion pesanti a zero emissioni, lo 0,3% del segmento**, contro l'1,9% della media UE (analisi su dati ICCT, 2025). Nel primo semestre 2026 i camion elettrici sono calati del 48,9%, mentre in Europa crescevano del 47,7% (UNRAE). Intanto lo Stato spende **228 mln l'anno per l'autotrasporto**, di cui 140 per ridurre i pedaggi, anche ai camion Euro V (decreto MIT 30 maggio 2025).
 
-**Soluzione.** Un patto con gli autotrasportatori: le risorse restano al settore, ma premiano chi passa a mezzi puliti.
+**Soluzione.** Un patto con le imprese di autotrasporto: le risorse restano al settore, ma premiano chi passa a mezzi puliti.
 - **Le risorse esistenti cambiano obiettivo.** Dal 2028 la riduzione dei pedaggi vale solo per Euro VI e mezzi a zero emissioni, con lo sconto più alto ai secondi. È coerente con SAD01, che dal 2028 toglie il rimborso del gasolio agli Euro 5. Una parte del capitolo autotrasporto passa al rinnovo della flotta.
 - **Contributo per i camion a zero emissioni.** Copre parte della differenza di prezzo con il diesel. È assegnato con **aste**: vince chi chiede meno euro per tonnellata di CO2 evitata (come i bandi tedeschi KsNI). Le piccole imprese hanno una riserva e un contributo per la ricarica in deposito, che oggi non ha incentivi.
 - **Ricarica pesante sulla rete TEN-T.** Il regolamento AFIR chiede stazioni per camion ogni 60 km sulla rete centrale entro il 2030. Lo Stato mette a gara i tratti dove il mercato non arriva (soprattutto al Sud), con un contributo solo per la parte non redditizia. Le connessioni alla rete elettrica hanno uno sportello unico con Terna e i distributori.
 - **Transizione giusta.** Formazione di autisti e meccanici sui mezzi elettrici; priorità ai padroncini con un solo veicolo; calendario noto con 12 mesi di anticipo. Dopo il 2030 il percorso prosegue con le compensazioni previste da SAD13, se scelta.
-- **Opzione T: pedaggi con componente CO2 (Eurovignetta).** L'Italia è in ritardo nel recepire la direttiva 2022/362 ed è stata deferita alla Corte di giustizia UE. Il recepimento con classi CO2 renderebbe i camion elettrici più convenienti. **È una tariffa** pagata dagli autotrasportatori (fondo TARIFFE), con effetto sui prezzi dei trasporti. Non è nella base di copertura: si sceglie a parte.
+- **Opzione T: pedaggi con componente CO2 (Eurovignetta).** L'Italia è in ritardo nel recepire la direttiva 2022/362 ed è stata deferita alla Corte di giustizia UE. Il recepimento con classi CO2 renderebbe i camion elettrici più convenienti. **È una tariffa** pagata dalle imprese di autotrasporto (fondo TARIFFE), con effetto sui prezzi dei trasporti. Non è nella base di copertura: si sceglie a parte.
 
 | Variante | Contenuto | 2027 | 2028 | 2029 | Intensità | Fondi a regime |
 |---|---|---|---|---|---|---|
@@ -479,7 +479,7 @@ Serie in `dati/serie/04_*.csv` (Eurostat `ilc_lvho07c`, `road_eqs_carhab`, `env_
 | Quota di furgoni elettrici sulle nuove immatricolazioni | 4,4% (2025, UNRAE) | 15% | 30% |
 | Micro-hub urbani pubblici o in concessione attivi | da censire (mese 6) | 40 | 100 (PIENA) |
 
-**Rischi e mitigazioni.** *Costi per i piccoli commercianti e artigiani* → preavviso di 4 anni, deroghe fino al 2033, contributi alle microimprese nella PIENA. *Regole diverse da città a città* → decreto nazionale unico (art. 3). *Spostamento delle consegne fuori dalla zona* → micro-hub ai margini e piazzole prenotabili. *Offerta di furgoni elettrici insufficiente* → gli standard UE sulle emissioni dei nuovi furgoni spingono l'offerta; la scadenza del 2030 coincide. *Città che non deliberano* → la quota di coesione per i micro-hub va solo alle città con la delibera adottata.
+**Rischi e mitigazioni.** *Costi per le piccole attività commerciali e artigiane* → preavviso di 4 anni, deroghe fino al 2033, contributi alle microimprese nella PIENA. *Regole diverse da città a città* → decreto nazionale unico (art. 3). *Spostamento delle consegne fuori dalla zona* → micro-hub ai margini e piazzole prenotabili. *Offerta di furgoni elettrici insufficiente* → gli standard UE sulle emissioni dei nuovi furgoni spingono l'offerta; la scadenza del 2030 coincide. *Città che non deliberano* → la quota di coesione per i micro-hub va solo alle città con la delibera adottata.
 
 ---
 

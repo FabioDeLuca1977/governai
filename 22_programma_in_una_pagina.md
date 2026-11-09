@@ -10,7 +10,7 @@
 
 ## Ce l'avremo fatta se…
 
-- **Posti al nido ogni 100 bambini sotto i 3 anni**: da 31,6 a **40** in 5 anni (02-C2; base: ISTAT)
+- **Posti al nido ogni 100 bambine e bambini sotto i 3 anni**: da 31,6 a **40** in 5 anni (02-C2; base: ISTAT)
 - **Giovani che lasciano presto la scuola, nelle Isole**: da 13,7% a **9,5%** in 5 anni (05-C1; base: Eurostat edat_lfse_16)
 - **Persone tra 25 e 34 anni con laurea o diploma ITS**: da 31,1% a **35%** in 5 anni (05-C4; base: Eurostat edat_lfse_03)
 - **Spesa delle imprese in ricerca e sviluppo**: da 0,8% PIL a **0,9% PIL** in 5 anni (01-P13; base: Eurostat rd_e_gerdtot (settore BES))
@@ -28,10 +28,10 @@
 **Come.** Più posti al nido dove mancano e congedo più lungo per i papà. Squadre contro l'abbandono e più fondi alle scuole fragili. Borse di studio garantite e ITS (scuole tecniche superiori) triplicati.
 
 - 02-C2 Nido esigibile + congedo paterno (essenziale, 2,00 mld)
-- 05-C4 Più laureati e diplomati terziari: ITS, lauree professionalizzanti, residenze (piena, 0,85 mld)
+- 05-C4 Più persone con laurea o diploma terziario: ITS, lauree professionalizzanti, residenze (piena, 0,85 mld)
 - 05-C2 Conto personale di competenze (essenziale, 0,45 mld)
 - 05-C5 Scuole aperte come presidi di comunità (piena, 0,40 mld)
-- 05-C1 Nessuno escluso: squadre di prossimità contro la dispersione (piena, 0,25 mld)
+- 05-C1 Nessuna esclusione: squadre di prossimità contro la dispersione (piena, 0,25 mld)
 - 05-C7 Quota svantaggio nel finanziamento delle scuole (essenziale, 0,19 mld)
 - 05-C8 Biblioteche di comunità (pilota, 0,03 mld)
 - 06-C9 Equipe di benessere scolastico in rete con la Casa della Comunità (pilota, 0,03 mld)
@@ -43,7 +43,7 @@
 
 **Cosa misuriamo.**
 
-- **Posti al nido ogni 100 bambini sotto i 3 anni**: da 31,6 a **40** in 5 anni (02-C2; base: ISTAT)
+- **Posti al nido ogni 100 bambine e bambini sotto i 3 anni**: da 31,6 a **40** in 5 anni (02-C2; base: ISTAT)
 - **Giovani che lasciano presto la scuola, nelle Isole**: da 13,7% a **9,5%** in 5 anni (05-C1; base: Eurostat edat_lfse_16)
 - **Persone tra 25 e 34 anni con laurea o diploma ITS**: da 31,1% a **35%** in 5 anni (05-C4; base: Eurostat edat_lfse_03)
 - **Donne tra 20 e 64 anni che lavorano**: da 58% a **62,5%** in 5 anni (02-C2; base: Eurostat lfsi_emp_a)
@@ -87,7 +87,7 @@
 - **Persone che aspettano visite ed esami** (il 2,5% delle persone dai 16 anni in su ha rinunciato a cure nel 2025; numero assoluto da stimare): Agenda unica delle prenotazioni anche con il privato accreditato, richiamo attivo; nessun rimborso automatico in questo scenario.
 - **Persone senza dimora** (96.197 persone iscritte in anagrafe; 6.000 in Housing First nelle 14 città metropolitane): Una casa con contratto proprio e un'équipe stabile che accompagna, anche dopo la fine dei fondi del PNRR (Piano nazionale di ripresa e resilienza).
 - **Persone con disabilità grave** (circa 2,9 milioni di persone con limitazioni gravi): Collocamento mirato con banca dati dei posti scoperti e sanzioni automatiche; il progetto di vita pieno è rinviato.
-- **Persone anziane non autosufficienti e chi le assiste** (da stimare (circa 243.000 persone in lista d'attesa per una RSA, residenza sanitaria assistenziale, dato da verificare)): Solo sperimentazione: budget di cura in 20 ambiti e squadre di infermieri a domicilio in 10 distretti.
+- **Persone anziane non autosufficienti e chi le assiste** (da stimare (circa 243.000 persone in lista d'attesa per una RSA, residenza sanitaria assistenziale, dato da verificare)): Solo sperimentazione: budget di cura in 20 ambiti e squadre infermieristiche a domicilio in 10 distretti.
 - **Famiglie in povertà assoluta** (2,1 milioni di famiglie, 5,4 milioni di persone): Solo una sperimentazione in 12 ambiti del reddito di inclusione universale; per ora nessun cambiamento generale.
 
 ## Lavoro, ricerca e imprese che crescono
@@ -123,7 +123,7 @@
 - **Ricercatrici e ricercatori, università e nuove imprese nate dalla ricerca** (86 spin-off nel 2023; 750 dottorati industriali l'anno previsti): Fondo di fondi da 750 milioni con capitale privato, 130 prove di fattibilità l'anno, 8 centri di ricerca applicata.
 - **Piccole imprese e startup che vendono innovazione alla PA** (circa 200 contratti di prima fase e 40 di seconda fase l'anno): Gare in tre fasi su salute, territorio ed energia: la PA paga prototipi e poi li compra.
 - **Imprese che consumano molta energia** (da stimare): Garanzia pubblica per contratti lunghi di energia rinnovabile a prezzo stabile, per consorzi e distretti.
-- **Chi lavora con salari bassi** (il 10,2% delle persone occupate è a rischio di povertà; numero assoluto da stimare): Il salario del contratto più rappresentativo diventa il riferimento per tutti; nessuna soglia di legge né nuovo personale ispettivo.
+- **Chi lavora con salari bassi** (il 10,2% delle persone occupate è a rischio di povertà; numero assoluto da stimare): Il salario del contratto più rappresentativo diventa il riferimento per tutto il settore; nessuna soglia di legge né nuovo personale ispettivo.
 
 ## Territori sicuri e transizione verde
 
@@ -142,7 +142,7 @@
 - 03-P1 Dividendo climatico: riforma SAD restituita alla cittadinanza (solo regole, costo zero)
 - 03-P2 Elettricità rinnovabile a prezzo rinnovabile (CfD) (solo regole, costo zero)
 - 04-P5 LEP prima: autonomia differenziata reversibile (solo regole, costo zero)
-- *Fuori da questa versione:* 03-P5 Contratto agro-climatico; 04-P1 Patto di continuità post-PNRR; 04-P2 Casa a canone giusto; 04-P3 Prima il treno dei pendolari: fondo TPL e abbonamento unico
+- *Fuori da questa versione:* 03-P5 Contratto agro-climatico; 04-P1 Patto di continuità post-PNRR; 04-P2 Casa a canone giusto; 04-P3 Prima il treno di chi viaggia ogni giorno: fondo TPL e abbonamento unico
 
 **Sostenibilità.** Si paga soprattutto con l'uscita graduale dai sussidi al gasolio entro il 2035 e con fondi europei. Treni per pendolari, casa a canone giusto e agricoltura per il clima restano fuori.
 
@@ -169,7 +169,7 @@
 
 **Come.** Dichiarazione già pronta che vale se non la contesti, controlli IVA in tempo reale, nessun condono, agevolazioni fiscali a scadenza, valutazione a 30 anni delle leggi e delle grandi opere.
 
-- 01-P7 Dichiarazione zero: lo Stato fa il conto, il cittadino controlla (essenziale, 0,15 mld)
+- 01-P7 Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla (essenziale, 0,15 mld)
 - 01-P3 IVA in tempo reale (essenziale, 0,08 mld)
 - 01-P12 Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate (essenziale, 0,04 mld)
 - 04-P4 Nessuna grande opera senza prova dei numeri (piena, 0,03 mld)
@@ -208,7 +208,7 @@
 - 07-C1 Giustizia a regime: Ufficio per il processo e triage digitale (essenziale, 0,32 mld)
 - 07-C2 Pena utile: misure di comunità contro il sovraffollamento (essenziale, 0,25 mld)
 - 07-C3 Governance dei flussi migratori fondata sui dati (essenziale, 0,25 mld)
-- 09-C3 Tecnici della Repubblica: pool di competenze per i piccoli enti (essenziale, 0,22 mld)
+- 09-C3 Squadre tecniche della Repubblica: pool di competenze per i piccoli enti (essenziale, 0,22 mld)
 - 09-C5 AI nella PA con le mani sul volante (essenziale, 0,08 mld)
 - 09-C8 Staffetta delle competenze": il ricambio generazionale come occasione di riqualificazione (essenziale, 0,08 mld)
 - 07-C4 Dal bene confiscato al bene comune (essenziale, 0,07 mld)
@@ -246,54 +246,54 @@
 
 | Copertura | Chi paga o rinuncia | Gettito minimo |
 |---|---|---|
-| SAD13 Uscita completa entro il 2035 dal rimborso gasolio per autotrasporto e dall'agevolazione per il gasolio agricolo, oltre SAD01 e SAD02; sostegno a rinnovo delle flotte e redditi agricoli | Autotrasportatori, aziende agricole; consumatori tramite prezzi | 0,80 |
-| RA13 Revisione strutturale della spesa dei ministeri: ulteriori 0,05% del PIL oltre quanto già nel DPB, con analisi a base zero dei programmi e tagli selettivi | Destinatari dei programmi tagliati (da individuare) | 0,60 |
-| AS01 Sigarette: ulteriore componente specifica di accisa di 25 € per 1.000 sigarette (circa 0,50 € a pacchetto) in due tappe 2028-2029, oltre a quanto già previsto da L. 199/2025 e DDL 2027 | Fumatori (prelievo regressivo); filiera del tabacco | 0,60 |
+| SAD13 Uscita completa entro il 2035 dal rimborso gasolio per autotrasporto e dall'agevolazione per il gasolio agricolo, oltre SAD01 e SAD02; sostegno a rinnovo delle flotte e redditi agricoli | Imprese di autotrasporto, aziende agricole; clientela finale tramite i prezzi | 0,80 |
+| RA13 Revisione strutturale della spesa dei ministeri: ulteriori 0,05% del PIL oltre quanto già nel DPB, con analisi a base zero dei programmi e tagli selettivi | Chi beneficia dei programmi tagliati (da individuare) | 0,60 |
+| AS01 Sigarette: ulteriore componente specifica di accisa di 25 € per 1.000 sigarette (circa 0,50 € a pacchetto) in due tappe 2028-2029, oltre a quanto già previsto da L. 199/2025 e DDL 2027 | Chi fuma (prelievo regressivo); filiera del tabacco | 0,60 |
 | RA14 Codice degli incentivi: riordino completo, con abrogazione delle linee di incentivo alle imprese senza addizionalità dimostrata, oltre RA04 | Imprese beneficiarie di incentivi | 0,40 |
 | SF06 Detrazione 19% delle spese sanitarie decrescente tra 50.000 e 120.000 € di reddito, salve disabilità, patologie croniche gravi e non autosufficienza (SF-SAN1, area 06) | Contribuenti con reddito tra 50.000 e 120.000 € (azzerata oltre) | 0,35 |
-| SAD01 Rimborso accise gasolio autotrasporto (EN.SI.19): esclusione Euro 5 dal 2028 e riduzione graduale di un terzo del rimborso per gli Euro 6; 25% del gettito a rinnovo flotte e intermodalità (Ferrobonus/Marebonus) | Imprese di autotrasporto merci (veicoli da 7,5 t) e passeggeri; in parte consumatori finali tramite prezzi del trasporto | 0,30 |
-| PE04 Perequazione differenziata dal 2030: rivalutazione al 50% (invece del 75%) sulla sola quota di pensione oltre 6 volte il minimo (proposta area 02) | Pensionati con trattamento oltre circa 3.700 €/mese lordi | 0,30 |
-| FN02 Abolizione dal 2028 delle detrazioni 19% per premi assicurativi vita e infortuni (salvi i premi per non autosufficienza e per la tutela di persone con disabilità grave) e per spese veterinarie | Titolari di polizze vita/infortuni e proprietari di animali, capienti, distribuiti su tutti i decili dal quarto in su | 0,25 |
+| SAD01 Rimborso accise gasolio autotrasporto (EN.SI.19): esclusione Euro 5 dal 2028 e riduzione graduale di un terzo del rimborso per gli Euro 6; 25% del gettito a rinnovo flotte e intermodalità (Ferrobonus/Marebonus) | Imprese di autotrasporto merci (veicoli da 7,5 t) e passeggeri; in parte la clientela finale tramite i prezzi del trasporto | 0,30 |
+| PE04 Perequazione differenziata dal 2030: rivalutazione al 50% (invece del 75%) sulla sola quota di pensione oltre 6 volte il minimo (proposta area 02) | Persone in pensione con trattamento oltre circa 3.700 €/mese lordi | 0,30 |
+| FN02 Abolizione dal 2028 delle detrazioni 19% per premi assicurativi vita e infortuni (salvi i premi per non autosufficienza e per la tutela di persone con disabilità grave) e per spese veterinarie | Persone capienti titolari di polizze vita/infortuni o proprietarie di animali, distribuite su tutti i decili dal quarto in su | 0,25 |
 | SF10 Iperammortamento (L. 199/2025 c. 427-436): riduzione della maggiorazione base per investimenti non qualificati, mantenuta per 4.0, immateriali e transizione (proposta area 01) | Imprese che investono in beni strumentali ordinari | 0,20 |
 | RA06 SSN: tetto di legge alla spesa per beni e servizi non sanitari degli enti, con gare centralizzate, e riduzione corrispondente del FSN (R-SAN2, area 06) | Fornitori non sanitari del SSN | 0,20 |
 | SF16 Nuovo patent box (art. 6 DL 146/2021): nessun nuovo ingresso dal 2027 e uscita graduale per chi è già nel regime; risorse vincolate al credito unico per la ricerca (01-P13) | Imprese con redditi da beni immateriali, in prevalenza con almeno 500 addetti (ISTAT) | 0,20 |
-| SF02 Regime forfetario: aliquota sostitutiva 20% (invece di 15%) sul reddito corrispondente ai ricavi tra 50.000 e 85.000 €; nessun cambio sotto 50.000 € né alla soglia IVA | Lavoratori autonomi e piccole imprese forfetarie con ricavi tra 50.000 e 85.000 € | 0,20 |
+| SF02 Regime forfetario: aliquota sostitutiva 20% (invece di 15%) sul reddito corrispondente ai ricavi tra 50.000 e 85.000 €; nessun cambio sotto 50.000 € né alla soglia IVA | Lavoratrici e lavoratori autonomi e piccole imprese forfetarie con ricavi tra 50.000 e 85.000 € | 0,20 |
 | RA05 Abrogazione della riduzione del payback farmaceutico per le aziende che investono (DDL 2027 art. 71; R-SAN1, area 06) | Industria farmaceutica | 0,16 |
-| AS03 Sugar tax: raddoppio delle aliquote dal 2029, dopo il primo anno di applicazione | Consumatori di bevande zuccherate; produttori (spinta a riformulare) | 0,15 |
+| AS03 Sugar tax: raddoppio delle aliquote dal 2029, dopo il primo anno di applicazione | Chi consuma bevande zuccherate; produttori (spinta a riformulare) | 0,15 |
 | SAD02 Gasolio agricolo (EN.SI.21): accisa dal 22% al 40% dell'aliquota normale in 5 anni, con credito per piccole aziende e montagna (mezzi a basse emissioni, biometano) | Aziende agricole, florovivaistiche, silvicole e della pesca in acque interne che usano gasolio agevolato | 0,15 |
 | RA01 Acquisti centralizzati: obbligo Consip/soggetti aggregatori esteso a nuove categorie merceologiche per le amministrazioni centrali, con prezzi di riferimento vincolanti e taglio corrispondente degli stanziamenti | Fornitori della PA (prezzi più bassi), in parte PMI locali | 0,15 |
-| RA12 Fondo Nuove Competenze e quota del contributo 0,30% non destinata ai fondi interprofessionali confluiscono nel Conto competenze (proposta area 05) | Imprese e lavoratori che oggi usano il Fondo Nuove Competenze | 0,15 |
-| AS02 Tabacco riscaldato e sigarette elettroniche: accisa avvicinata a quella delle sigarette tradizionali equivalenti (dal livello attuale a circa il 60-70%) | Consumatori di prodotti da inalazione senza combustione | 0,15 |
-| SAD05 Auto aziendali (TR.SI.04a): fine del regime transitorio per i contratti ante 2025 dal 2028 e percentuale imponibile dal 50% al 60% per i veicoli a combustione | Dipendenti con auto aziendale a uso promiscuo; imprese (costo del welfare aziendale) | 0,15 |
+| RA12 Fondo Nuove Competenze e quota del contributo 0,30% non destinata ai fondi interprofessionali confluiscono nel Conto competenze (proposta area 05) | Imprese e personale che oggi usano il Fondo Nuove Competenze | 0,15 |
+| AS02 Tabacco riscaldato e sigarette elettroniche: accisa avvicinata a quella delle sigarette tradizionali equivalenti (dal livello attuale a circa il 60-70%) | Chi consuma prodotti da inalazione senza combustione | 0,15 |
+| SAD05 Auto aziendali (TR.SI.04a): fine del regime transitorio per i contratti ante 2025 dal 2028 e percentuale imponibile dal 50% al 60% per i veicoli a combustione | Personale dipendente con auto aziendale a uso promiscuo; imprese (costo del welfare aziendale) | 0,15 |
 | RA04 Trasferimenti correnti alle imprese: taglio del 3-5% delle linee di incentivo senza valutazione d'impatto positiva (esclusi i contratti di servizio di TPL, ferrovie e servizio postale), in attuazione del Codice degli incentivi | Imprese beneficiarie di incentivi correnti | 0,15 |
-| RA07 Riserva di una quota delle facoltà assunzionali da turnover ai profili tecnici (ICT, appalti, progettazione) al posto dei profili amministrativi generici (R09-1, area 09) | Candidati a profili generici; uffici che non sostituiscono il personale | 0,15 |
+| RA07 Riserva di una quota delle facoltà assunzionali da turnover ai profili tecnici (ICT, appalti, progettazione) al posto dei profili amministrativi generici (R09-1, area 09) | Chi si candida a profili generici; uffici che non sostituiscono il personale | 0,15 |
 | RA09 Spesa ICT corrente delle amministrazioni centrali -4/6%: dismissione dei CED residui, licenze duplicate, accordi quadro Consip (R09-3, area 09) | Fornitori di hosting e licenze legacy | 0,12 |
-| SAD03 Accisa sul cherosene dei voli nazionali (EN.SI.04b) al 50% dell'aliquota normale in 3 anni; esenti le rotte in continuità territoriale (OSP) con Sardegna, Sicilia e isole minori | Compagnie aeree e passeggeri dei voli nazionali non OSP | 0,12 |
-| TS01 Imposta di soggiorno: tetto massimo +2 €/notte nei comuni ad alta intensità turistica, con vincolo di destinazione a casa per residenti, trasporti e patrimonio | Turisti pernottanti nei comuni ad alta pressione turistica | 0,10 |
+| SAD03 Accisa sul cherosene dei voli nazionali (EN.SI.04b) al 50% dell'aliquota normale in 3 anni; esenti le rotte in continuità territoriale (OSP) con Sardegna, Sicilia e isole minori | Compagnie aeree e chi viaggia sui voli nazionali non OSP | 0,12 |
+| TS01 Imposta di soggiorno: tetto massimo +2 €/notte nei comuni ad alta intensità turistica, con vincolo di destinazione a casa per residenti, trasporti e patrimonio | Chi pernotta nei comuni ad alta pressione turistica | 0,10 |
 | SAD08 Abolizione di quattro SAD energetici minori: deduzione forfetaria gestori carburanti (EN.SI.18), accisa ridotta gas grandi consumatori (EN.SI.20), GPL industriale (EN.SI.15), esenzione oli lubrificanti (EN.SI.03) | Gestori di impianti di distribuzione, grandi consumatori industriali di gas, imprese gomma/plastica | 0,10 |
 | RB03 Bonus lavoratrici madri (DDL 2027 art. 57): soglia di reddito da 40.000 a 32.000 € con uscita graduale fino a 40.000 € | Lavoratrici madri con 2 o più figli e reddito tra 32.000 e 40.000 € | 0,10 |
-| RA02 Locazioni passive: piano di rientro negli immobili pubblici accelerato, obiettivo -20% dei canoni entro il 2030 | Proprietari privati che affittano alla PA | 0,08 |
-| SF05 Abrogazione delle spese fiscali minori e senza valutazione (fascia 10-20 mln e parte delle misure sotto 10 mln), con clausola di scadenza per le nuove | Beneficiari frammentati di agevolazioni minori | 0,08 |
-| RB02 Bonus nuovi nati 1.000 € (360 mln/anno, ISEE ≤40.000 €) assorbito in una maggiorazione dell'Assegno unico nel primo anno di vita per ISEE ≤25.000 € | Famiglie con nuovi nati e ISEE tra 25.000 e 40.000 € | 0,08 |
-| SF07 Fondi sanitari integrativi: deducibilità dei contributi (3.615,20 €) decrescente oltre 75.000 € di reddito, e stesso limite per i piani sanitari aziendali esenti (SF-SAN2, area 06) | Iscritti ai fondi sanitari con reddito oltre 75.000 € | 0,08 |
+| RA02 Locazioni passive: piano di rientro negli immobili pubblici accelerato, obiettivo -20% dei canoni entro il 2030 | Soggetti privati che affittano immobili alla PA | 0,08 |
+| SF05 Abrogazione delle spese fiscali minori e senza valutazione (fascia 10-20 mln e parte delle misure sotto 10 mln), con clausola di scadenza per le nuove | Chi beneficia di agevolazioni minori e frammentate | 0,08 |
+| RB02 Bonus nuovi nati 1.000 € (360 mln/anno, ISEE ≤40.000 €) assorbito in una maggiorazione dell'Assegno unico nel primo anno di vita per ISEE ≤25.000 € | Famiglie con una nuova nascita e ISEE tra 25.000 e 40.000 € | 0,08 |
+| SF07 Fondi sanitari integrativi: deducibilità dei contributi (3.615,20 €) decrescente oltre 75.000 € di reddito, e stesso limite per i piani sanitari aziendali esenti (SF-SAN2, area 06) | Persone iscritte ai fondi sanitari con reddito oltre 75.000 € | 0,08 |
 | RB04 Carta del docente: quota di circa 150 € vincolata alla formazione su AI e didattica, al posto di acquisti liberi (proposta area 05) | Docenti di ruolo e supplenti annuali (minor libertà d'uso) | 0,08 |
-| AS04 Superalcolici: accisa sull'alcol etilico +20% (birra e vino esclusi); integra AS-SAN2 dell'area 06 | Consumatori di superalcolici; produttori | 0,07 |
+| AS04 Superalcolici: accisa sull'alcol etilico +20% (birra e vino esclusi); integra AS-SAN2 dell'area 06 | Chi consuma superalcolici; produttori | 0,07 |
 | SF04 Cooperative: esclusione degli utili a riserva indivisibile ridotta dal 90% al 70% per le cooperative con ricavi oltre 50 mln €; invariata per le altre | Grandi cooperative (consumo, servizi, agroalimentare) | 0,05 |
 | SF03 Tonnage tax e credito d'imposta armatoriale: rimodulazione con coefficienti legati a emissioni e bandiera UE, tetto al beneficio | Imprese armatoriali | 0,05 |
-| RB01 Carta Valore per i neodiplomati (180 mln/anno, universale): limite ISEE 35.000 € come per la vecchia Carta cultura | Neodiplomati di famiglie con ISEE oltre 35.000 € | 0,05 |
-| RA03 Consulenze, studi, auto di servizio e rappresentanza: tetto del 20% sotto la spesa 2025 dei capitoli dedicati | Consulenti esterni, società di noleggio | 0,05 |
-| SF09 Detrazioni edilizie: aliquota ridotta per le unità diverse dall'abitazione principale non locate a canone concordato (proposta area 04) | Proprietari di seconde case che ristrutturano | 0,05 |
+| RB01 Carta Valore per i neodiplomati (180 mln/anno, universale): limite ISEE 35.000 € come per la vecchia Carta cultura | Persone neodiplomate di famiglie con ISEE oltre 35.000 € | 0,05 |
+| RA03 Consulenze, studi, auto di servizio e rappresentanza: tetto del 20% sotto la spesa 2025 dei capitoli dedicati | Consulenze esterne, società di noleggio | 0,05 |
+| SF09 Detrazioni edilizie: aliquota ridotta per le unità diverse dall'abitazione principale non locate a canone concordato (proposta area 04) | Chi ristruttura una seconda casa di proprietà | 0,05 |
 | RA10 Contributo unificato maggiorato per i litiganti seriali (oltre 500 cause l'anno) (proposta area 07) | Grandi litiganti: banche, assicurazioni, società di recupero crediti, utilities | 0,05 |
 | SF08 Detrazione 19% per lo sport di ragazze e ragazzi 5-18 anni sostituita da offerta sportiva gratuita a scuola (proposta area 05) | Famiglie che detraggono iscrizioni a palestre e associazioni sportive | 0,04 |
-| RP01 Turnover selettivo nei profili amministrativi generici di ministeri ed enti pubblici non economici nazionali: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni di quei profili invece del 100%, con taglio corrispondente delle facoltà assunzionali e degli stanziamenti. Esclusi: scuola, università, ricerca e cultura (MIM, MUR, MiC), giustizia, Interno, agenzie fiscali, sanità, sicurezza e soccorso, servizi sociali e inclusione (compresi gli sportelli e le prestazioni di inclusione INPS e la DG inclusione del Ministero del lavoro). Esclusa la quota riservata ai tecnici da RA07 | Giovani candidati ai concorsi per profili amministrativi generici (meno posti, soprattutto al Sud); uffici di supporto che lavorano con meno persone | 0,04 |
+| RP01 Turnover selettivo nei profili amministrativi generici di ministeri ed enti pubblici non economici nazionali: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni di quei profili invece del 100%, con taglio corrispondente delle facoltà assunzionali e degli stanziamenti. Esclusi: scuola, università, ricerca e cultura (MIM, MUR, MiC), giustizia, Interno, agenzie fiscali, sanità, sicurezza e soccorso, servizi sociali e inclusione (compresi gli sportelli e le prestazioni di inclusione INPS e la DG inclusione del Ministero del lavoro). Esclusa la quota riservata ai profili tecnici da RA07 | Giovani che si candidano ai concorsi per profili amministrativi generici (meno posti, soprattutto al Sud); uffici di supporto che lavorano con meno persone | 0,04 |
 | RA08 Assistenza tecnica e studi d'impatto esterni sostituiti dai pool tecnici e dall'infrastruttura pubblica, oltre RA03 (R09-2, area 09) | Società di consulenza e assistenza tecnica | 0,03 |
 | RP06 Enti previdenziali e assicurativi nazionali (INPS, INAIL) e altri EPNE: riduzione del 4% della spesa per beni e servizi rispetto al 2025, con versamento al bilancio dello Stato in aggiunta ai versamenti già previsti dalla L. 160/2019. Esclusi gli sportelli, i servizi per l'inclusione e le spese per prestazioni | Fornitori degli enti (ICT, servizi, logistica) | 0,03 |
 | SAD04 Accisa sui carburanti della navigazione marittima nazionale (EN.SI.05b), esclusi collegamenti in continuità territoriale e pesca | Armatori di linee nazionali non OSP, crociere e trasporto turistico nazionale | 0,03 |
-| RP07 Società e organismi partecipati: attuazione obbligatoria del Testo unico (d.lgs. 175/2016), con commissario ad acta, per le società senza dipendenti o con più amministratori che dipendenti, con fatturato sotto 1 mln o in perdita 4 anni su 5; amministratore unico e tetti ai compensi. Una quota dei risparmi certificati degli enti territoriali va alla finanza pubblica con intesa in Conferenza unificata. Esclusi i servizi pubblici locali essenziali e gli organismi dei servizi sociali | Amministratori e componenti degli organi delle società chiuse o fuse; enti territoriali che cedono una quota dei risparmi | 0,02 |
+| RP07 Società e organismi partecipati: attuazione obbligatoria del Testo unico (d.lgs. 175/2016), con commissario ad acta, per le società senza dipendenti o con più amministratori che dipendenti, con fatturato sotto 1 mln o in perdita 4 anni su 5; amministratore unico e tetti ai compensi. Una quota dei risparmi certificati degli enti territoriali va alla finanza pubblica con intesa in Conferenza unificata. Esclusi i servizi pubblici locali essenziali e gli organismi dei servizi sociali | Componenti dei consigli di amministrazione e degli organi delle società chiuse o fuse; enti territoriali che cedono una quota dei risparmi | 0,02 |
 | SAD10 Gasolio e GPL da riscaldamento nelle zone svantaggiate (EN.SI.22a/b): agevolazione sostituita in 4 anni da un contributo per pompe di calore e biomassa efficiente, con salvaguardia per ISEE ≤15.000 € | Famiglie in zone montane, Sardegna e isole minori che si scaldano con gasolio o GPL | 0,02 |
 | SAD09 Contributi agli impianti di risalita (AL.SD.17): metà riconvertita in un fondo per l'adattamento del turismo montano, metà risparmiata | Gestori di impianti di risalita e comprensori sciistici | 0,02 |
-| RP03 Uffici di diretta collaborazione dei ministri, strutture di missione e strutture commissariali: tetto di spesa del 20% sotto il 2025 per indennità di diretta collaborazione, esperti e collaboratori esterni, personale comandato e funzionamento; organici massimi fissati e pubblicati. Non tocca le consulenze già in RA03 | Esperti e collaboratori esterni dei vertici politici; personale che perde l'indennità di diretta collaborazione | 0,02 |
-| RP05 Sedi degli uffici civili dello Stato: standard di spazio per addetto con lavoro agile e postazioni condivise, sedi uniche territoriali (più uffici statali nello stesso immobile) e rilascio degli immobili in eccesso; taglio dei capitoli di utenze, pulizia, vigilanza e manutenzione ordinaria. Non tocca i canoni (già in RA02) né le sedi di scuole, università, musei, biblioteche, archivi, servizi sociali e sanitari | Fornitori di pulizia, vigilanza e manutenzione; dipendenti che perdono la postazione fissa | 0,01 |
+| RP03 Uffici di diretta collaborazione dei ministri, strutture di missione e strutture commissariali: tetto di spesa del 20% sotto il 2025 per indennità di diretta collaborazione, consulenze e collaborazioni esterne, personale comandato e funzionamento; organici massimi fissati e pubblicati. Non tocca le consulenze già in RA03 | Consulenze e collaborazioni esterne dei vertici politici; personale che perde l'indennità di diretta collaborazione | 0,02 |
+| RP05 Sedi degli uffici civili dello Stato: standard di spazio per addetto con lavoro agile e postazioni condivise, sedi uniche territoriali (più uffici statali nello stesso immobile) e rilascio degli immobili in eccesso; taglio dei capitoli di utenze, pulizia, vigilanza e manutenzione ordinaria. Non tocca i canoni (già in RA02) né le sedi di scuole, università, musei, biblioteche, archivi, servizi sociali e sanitari | Fornitori di pulizia, vigilanza e manutenzione; personale che perde la postazione fissa | 0,01 |
 | RP04 Accorpamento degli enti pubblici nazionali minori con funzioni sovrapposte e servizi comuni obbligatori (stipendi su NoiPA, contabilità, acquisti, gestione del personale) per gli enti sotto i 200 dipendenti; organi collegiali sostituiti da amministratore unico e revisore unico. Esclusi enti di ricerca, culturali, sanitari, socio-assistenziali e di soccorso | Componenti di consigli di amministrazione e collegi; personale di back-office che cambia sede o mansione (senza licenziamenti) | 0,01 |
-| RP02 Dirigenza: riduzione dell'8-12% dei posti di funzione dirigenziale di seconda fascia nei ministeri e negli enti pubblici non economici nazionali, accorpando gli uffici piccoli; i posti si sopprimono solo quando si liberano. Limite più basso agli incarichi dirigenziali a esterni (art. 19 c. 6 d.lgs. 165/2001). Esclusi MiC, MIM, MUR e le strutture sanitarie, sociali e di soccorso | Funzionari che aspirano a incarichi dirigenziali; dirigenti esterni non rinnovati | 0,01 |
-| TS02 Contributo di accesso per visitatori giornalieri nelle città d'arte sature (modello Venezia), facoltativo per i comuni | Escursionisti giornalieri nelle città aderenti | 0,01 |
+| RP02 Dirigenza: riduzione dell'8-12% dei posti di funzione dirigenziale di seconda fascia nei ministeri e negli enti pubblici non economici nazionali, accorpando gli uffici piccoli; i posti si sopprimono solo quando si liberano. Limite più basso agli incarichi dirigenziali a esterni (art. 19 c. 6 d.lgs. 165/2001). Esclusi MiC, MIM, MUR e le strutture sanitarie, sociali e di soccorso | Personale funzionario che aspira a incarichi dirigenziali; incarichi dirigenziali esterni non rinnovati | 0,01 |
+| TS02 Contributo di accesso per visitatori giornalieri nelle città d'arte sature (modello Venezia), facoltativo per i comuni | Chi visita in giornata le città aderenti | 0,01 |

@@ -56,7 +56,7 @@ def rimpatri_su_ordini() -> None:
 
 
 def infermieri_su_medici() -> None:
-    """06-C2-b: rapporto infermieri/medici praticanti (per 100.000 ab.)."""
+    """06-C2-b: rapporto tra personale infermieristico e medico in attività (per 100.000 ab.)."""
     df = eurostat("hlth_rs_prs2", since="2010", geo="IT", unit="P_HTHAB", wstatus="PRACT", med_spec=["NRS", "PHYS"])
     p = df.pivot_table(index=["geo", "time"], columns="med_spec", values="valore").reset_index()
     p = p.dropna(subset=["NRS", "PHYS"])
@@ -65,7 +65,7 @@ def infermieri_su_medici() -> None:
     p.attrs["aggiornato"] = df.attrs.get("aggiornato", "")
     salva(p[["geo", "time", "valore", "NRS", "PHYS"]], "obi_rapporto_infermieri_medici",
           fonte="Eurostat hlth_rs_prs2 (elaborazione GovernAI)", url=df.attrs["url"],
-          nota="infermieri praticanti / medici praticanti, per 100.000 abitanti", area="obi")
+          nota="personale infermieristico in attività / personale medico in attività, per 100.000 abitanti", area="obi")
 
 
 def export_quote() -> None:

@@ -43,7 +43,7 @@ L'AI Act vieta alcune pratiche dal febbraio 2025 e regola l'AI per finalità gen
 
 ### Proposta 1 — "Legge sulla consulenza algoritmica pubblica": istituzionalizzare GovernAI in modo costituzionalmente corretto
 
-**In una frase**: un'AI pubblica, trasparente e verificabile valuta l'impatto delle leggi più importanti su tre orizzonti temporali; i cittadini sorteggiati decidono quanto contano i diversi valori; il governo resta libero di decidere, ma se si discosta dal parere deve spiegare pubblicamente perché.
+**In una frase**: un'AI pubblica, trasparente e verificabile valuta l'impatto delle leggi più importanti su tre orizzonti temporali; le cittadine e i cittadini sorteggiati decidono quanto contano i diversi valori; il governo resta libero di decidere, ma se si discosta dal parere deve spiegare pubblicamente perché.
 
 **Problema affrontato**: B.5 (qualità della legislazione), B.7 (AI senza legittimazione), indirettamente B.6 (fiducia e partecipazione).
 
@@ -51,13 +51,13 @@ L'AI Act vieta alcune pratiche dal febbraio 2025 e regola l'AI per finalità gen
 1. *Status quo*: uso informale e frammentato di strumenti AI nei ministeri. Scartata: opacità, nessuna responsabilità, rischio di "consulenza ombra" non verificabile.
 2. *AI con parere vincolante o con poteri decisori*. Scartata perché viola i vincoli inderogabili: art. 1 (sovranità popolare), art. 67 (libero mandato), art. 70 (funzione legislativa delle Camere), art. 95 (responsabilità del Presidente del Consiglio), nonché lo spirito dell'AI Act sulla supervisione umana (art. 14).
 3. *Riforma costituzionale che crea un "quarto organo" algoritmico*. Scartata: procedura lunga (art. 138), rischio referendario, e nessuna necessità giuridica, perché un organo consultivo senza poteri decisori può essere istituito con legge ordinaria (l'UPB stesso è stato istituito con la legge rinforzata 243/2012, in attuazione della l. cost. 1/2012).
-4. *Scelta: legge ordinaria + modifica dei regolamenti parlamentari + organo consultivo indipendente*, con parere non vincolante, pesi fissati da cittadini sorteggiati e obbligo politico di motivazione.
+4. *Scelta: legge ordinaria + modifica dei regolamenti parlamentari + organo consultivo indipendente*, con parere non vincolante, pesi fissati da cittadine e cittadini sorteggiati e obbligo politico di motivazione.
 
 **Meccanismo**
 - **Strumento normativo**: legge ordinaria "Disciplina della consulenza algoritmica pubblica" (fondamento: artt. 3 c. 2, 95, 97, 118 c. 4 Cost.), più modifica dei regolamenti di Camera e Senato (art. 64 Cost., autonomia delle Camere) per l'allegato obbligatorio ai progetti di legge.
 - **Collocazione**: un *Ufficio indipendente di valutazione algoritmica* presso le Camere, sul modello dell'Ufficio parlamentare di bilancio (consiglio di tre membri nominati d'intesa dai Presidenti delle Camere su rosa delle commissioni competenti a maggioranza dei due terzi). Collocarlo presso il Parlamento e non presso Palazzo Chigi evita che lo strumento diventi un'arma della maggioranza: serve governo e opposizioni.
 - **Valutazione d'impatto pubblica (VIP-AI)**: obbligatoria per disegni di legge governativi, decreti-legge, leggi di bilancio e decreti legislativi sopra una soglia di impatto (es. >0,1% del PIL o diritti fondamentali). Contiene: punteggio Breve/Medio/Lungo secondo il metodo GovernAI, vincitori e perdenti, analisi di sensitività ("come cambierebbe il giudizio con pesi diversi"), fonti e incertezze. Pubblicata in formato aperto entro 15 giorni (5 per i decreti-legge, con versione "rapida").
-- **Assemblea dei cittadini sui valori**: 150 persone sorteggiate con campionamento stratificato (età, genere, territorio, istruzione, condizione occupazionale), compensate economicamente, mandato di 2 anni con rinnovo per metà. Dopo audizioni di esperti e portatori di interessi, fissano la **matrice dei pesi** tra gli obiettivi (benessere, equità, ambiente, crescita, coesione, sicurezza, libertà) e il **tasso di sconto intergenerazionale** (quanto contano le generazioni future). I pesi vincolano la *configurazione di default* di GovernAI, non il Parlamento. I vincoli costituzionali restano fuori dalla ponderazione: non si "pesano", si rispettano.
+- **Assemblea civica sui valori**: 150 persone sorteggiate con campionamento stratificato (età, genere, territorio, istruzione, condizione occupazionale), compensate economicamente, mandato di 2 anni con rinnovo per metà. Dopo audizioni di esperte ed esperti e portatori di interessi, fissano la **matrice dei pesi** tra gli obiettivi (benessere, equità, ambiente, crescita, coesione, sicurezza, libertà) e il **tasso di sconto intergenerazionale** (quanto contano le generazioni future). I pesi vincolano la *configurazione di default* di GovernAI, non il Parlamento. I vincoli costituzionali restano fuori dalla ponderazione: non si "pesano", si rispettano.
 - **Diritto di motivazione (comply or explain)**: quando l'atto finale si discosta in modo rilevante dal parere (punteggio di lungo periodo negativo o peggiorativo), il governo deposita entro 30 giorni una *relazione motivata* alle commissioni competenti, discussa in un'apposita seduta. La motivazione è un **obbligo politico-parlamentare, non una condizione di validità della legge**: la legge resta valida anche senza motivazione (le leggi non richiedono motivazione secondo la giurisprudenza costituzionale, a differenza degli atti amministrativi ex l. 241/1990), ma l'omissione è registrata e pubblicata. Si evita così di creare un nuovo vizio di costituzionalità.
 - **Diritti delle minoranze**: un quinto dei componenti di una commissione può chiedere una VIP-AI su qualsiasi progetto di legge, inclusi quelli dell'opposizione (valorizzazione dello "statuto dell'opposizione").
 - **Garanzie tecniche**: codice e prompt di sistema pubblici; registro delle versioni del modello e dei dati; audit annuale esterno e verifica di AgID e ACN (autorità nazionali per l'AI ex l. 132/2025) e del Garante privacy; valutazione d'impatto sui diritti fondamentali sul modello dell'art. 27 AI Act applicata volontariamente come se fosse un sistema ad alto rischio; divieto di profilare singole persone; preferenza per modelli e infrastrutture sotto giurisdizione UE.
@@ -66,7 +66,7 @@ L'AI Act vieta alcune pratiche dal febbraio 2025 e regola l'AI per finalità gen
 
 **Costo e copertura**: 30–60 mln €/anno (personale ~60–80 unità, calcolo, assemblea) — stima GovernAI (non esiste una stima ufficiale). Copertura: bilanci interni delle Camere e riduzione della spesa per consulenze esterne dei ministeri. Ordine di grandezza: <0,01% della spesa pubblica.
 
-**Vincitori e perdenti**: guadagnano i cittadini (trasparenza), le generazioni future (il lungo periodo diventa visibile), le opposizioni e il Parlamento (informazione indipendente), i territori meno rappresentati (sorteggio stratificato). Perdono margine i gruppi di pressione che beneficiano dell'opacità e i governi che legiferano in fretta. Effetto distributivo per reddito neutro; per età favorevole ai giovani.
+**Vincitori e perdenti**: guadagnano le cittadine e i cittadini (trasparenza), le generazioni future (il lungo periodo diventa visibile), le opposizioni e il Parlamento (informazione indipendente), i territori meno rappresentati (sorteggio stratificato). Perdono margine i gruppi di pressione che beneficiano dell'opacità e i governi che legiferano in fretta. Effetto distributivo per reddito neutro; per età favorevole ai giovani.
 
 **Valutazione tre orizzonti**
 
@@ -86,10 +86,10 @@ L'AI Act vieta alcune pratiche dal febbraio 2025 e regola l'AI per finalità gen
 - *Consenso*: diffidenza verso l'AI; mitigare con avvio sperimentale e comunicazione in linguaggio semplice.
 - *AI Act*: un sistema consultivo legislativo non rientra chiaramente nell'Allegato III, ma l'uso "per influenzare l'esito di elezioni" sì: per questo il divieto di valutazione selettiva in campagna e la conformità volontaria agli obblighi ad alto rischio.
 
-**Indicatori di successo**: % di atti con VIP-AI pubblicata nei tempi (obiettivo >90%); % di discostamenti con relazione motivata (>95%); quota di cittadini che conosce lo strumento e lo ritiene imparziale (indagine ISTAT/BES); errori sostanziali segnalati e corretti; partecipazione accettata ai sorteggi (>10% degli invitati).
+**Indicatori di successo**: % di atti con VIP-AI pubblicata nei tempi (obiettivo >90%); % di discostamenti con relazione motivata (>95%); quota di cittadine e cittadini che conosce lo strumento e lo ritiene imparziale (indagine ISTAT/BES); errori sostanziali segnalati e corretti; partecipazione accettata ai sorteggi (>10% degli invitati).
 **Clausola di revisione**: dopo 5 anni valutazione indipendente (Corte dei conti + comitato accademico); la legge decade se il Parlamento non la conferma.
 
-**Evidenze**: Ufficio parlamentare di bilancio (l. 243/2012) e Office for Budget Responsibility britannico come modelli di consulenza indipendente; CPB olandese per la valutazione dei programmi elettorali; Consiglio permanente dei cittadini dell'Ostbelgien (dal 2019) e Assemblea dei cittadini irlandese (2016–2018) per il sorteggio; Convention citoyenne pour le climat francese (2019–2020) come avvertimento sul rischio di aspettative tradite quando manca l'obbligo di risposta; Future Generations Commissioner del Galles (2015) per la tutela del lungo periodo; obbligo di motivazione degli atti UE (art. 296 TFUE).
+**Evidenze**: Ufficio parlamentare di bilancio (l. 243/2012) e Office for Budget Responsibility britannico come modelli di consulenza indipendente; CPB olandese per la valutazione dei programmi elettorali; Consiglio permanente delle cittadine e dei cittadini dell'Ostbelgien (dal 2019) e Assemblea civica irlandese (2016–2018) per il sorteggio; Convention citoyenne pour le climat francese (2019–2020) come avvertimento sul rischio di aspettative tradite quando manca l'obbligo di risposta; Future Generations Commissioner del Galles (2015) per la tutela del lungo periodo; obbligo di motivazione degli atti UE (art. 296 TFUE).
 
 ---
 
@@ -114,7 +114,7 @@ L'AI Act vieta alcune pratiche dal febbraio 2025 e regola l'AI per finalità gen
 
 **Costo e copertura**: <10 mln €/anno (rafforzamento uffici studi; stima GovernAI). A regime possibili risparmi da eliminazione di agevolazioni inefficaci: non quantificabili oggi, da stimare con il Rapporto sulle spese fiscali (MEF).
 
-**Vincitori e perdenti**: guadagnano Parlamento, cittadini e imprese (certezza del diritto); perdono i portatori di interessi che ottengono norme "infilate" nei decreti. Effetto distributivo neutro; positivo per le PMI, che soffrono più delle grandi imprese l'instabilità normativa.
+**Vincitori e perdenti**: guadagnano Parlamento, cittadine e cittadini e imprese (certezza del diritto); perdono i portatori di interessi che ottengono norme "infilate" nei decreti. Effetto distributivo neutro; positivo per le PMI, che soffrono più delle grandi imprese l'instabilità normativa.
 
 | Orizzonte | Punteggio | Motivazione | Confidenza |
 |---|---|---|---|
@@ -149,12 +149,12 @@ L'AI Act vieta alcune pratiche dal febbraio 2025 e regola l'AI per finalità gen
 - **Clausola di stabilità**: legge (eventualmente costituzionale in futuro) che vieta l'applicazione di modifiche agli elementi fondamentali (formula, soglie, premio, circoscrizioni) alle elezioni che si tengono entro 12 mesi dall'approvazione, in linea con la Commissione di Venezia.
 - **Maggioranza qualificata o "doppio consenso"**: le leggi elettorali approvate senza almeno i 3/5 si applicano solo dalla legislatura successiva alla prossima.
 - **Rapporto di proporzionalità**: dopo ogni elezione l'Ufficio di cui alla Proposta 1 pubblica l'indice di disproporzionalità (Gallagher), la quota di voti "sprecati" e la rappresentanza per genere, età e territorio.
-- **Voto per i fuorisede** (studenti e lavoratori) strutturale, superando le sperimentazioni; anticipazione del voto in seggi speciali.
+- **Voto per i fuorisede** (studentesse e studenti e lavoratrici e lavoratori) strutturale, superando le sperimentazioni; anticipazione del voto in seggi speciali.
 - **Simulazioni pubbliche** di qualunque nuova legge elettorale su più scenari di voto, allegate al disegno di legge.
 
 **Costo e copertura**: voto fuorisede 10–30 mln € per consultazione (stima GovernAI, nessuna stima ufficiale trovata); il resto è a costo quasi nullo. Copertura: fondo elezioni del Ministero dell'Interno.
 
-**Vincitori e perdenti**: guadagnano elettori giovani e mobili (fuorisede: in prevalenza 18–35 anni, dal Sud verso il Centro-Nord), opposizioni di ogni colore (protezione dalla riscrittura delle regole). Perde la maggioranza di turno, che rinuncia a un vantaggio tattico.
+**Vincitori e perdenti**: guadagnano elettrici ed elettori giovani e mobili (fuorisede: in prevalenza 18–35 anni, dal Sud verso il Centro-Nord), opposizioni di ogni colore (protezione dalla riscrittura delle regole). Perde la maggioranza di turno, che rinuncia a un vantaggio tattico.
 
 | Orizzonte | Punteggio | Motivazione | Confidenza |
 |---|---|---|---|
@@ -272,7 +272,7 @@ L'AI Act vieta alcune pratiche dal febbraio 2025 e regola l'AI per finalità gen
 
 **Costo e copertura**: 0,2–0,4 mld €/anno (stima GovernAI, nessuna stima ufficiale). Copertura: riorientamento del Fondo 394/81 gestito da SIMEST e di risorse esistenti per la promozione.
 
-**Vincitori e perdenti**: guadagnano PMI esportatrici, distretti del Centro-Nord e, se ben disegnato, del Mezzogiorno; consumatori (accordi commerciali). Perdono settori esposti alla concorrenza degli accordi (alcune filiere agricole), da compensare in modo mirato e temporaneo.
+**Vincitori e perdenti**: guadagnano PMI esportatrici, distretti del Centro-Nord e, se ben disegnato, del Mezzogiorno; consumatrici e consumatori (accordi commerciali). Perdono settori esposti alla concorrenza degli accordi (alcune filiere agricole), da compensare in modo mirato e temporaneo.
 
 | Orizzonte | Punteggio | Motivazione | Confidenza |
 |---|---|---|---|
@@ -312,7 +312,7 @@ L'AI Act vieta alcune pratiche dal febbraio 2025 e regola l'AI per finalità gen
 
 > Sei l'agente GovernAI per **Esteri, Europa, Riforme istituzionali e Rapporti con il Parlamento**. Sei un consigliere: produci analisi e opzioni; non decidi e non usi mai linguaggio prescrittivo ("si deve"). La decisione spetta al Governo e al Parlamento (artt. 1, 67, 70, 95 Cost.).
 >
-> **Competenze**: politica estera e sicurezza; commercio internazionale (competenza esclusiva UE, ruolo italiano nel Consiglio); cooperazione allo sviluppo (l. 125/2014, AICS, Piano Mattei); negoziato sul bilancio UE, risorse proprie, debito comune (NGEU, SAFE), riforma dei Trattati; legge elettorale e forma di governo; qualità della legislazione, decretazione d'urgenza, trasparenza; partecipazione democratica e assemblee di cittadini; governance dello stesso GovernAI.
+> **Competenze**: politica estera e sicurezza; commercio internazionale (competenza esclusiva UE, ruolo italiano nel Consiglio); cooperazione allo sviluppo (l. 125/2014, AICS, Piano Mattei); negoziato sul bilancio UE, risorse proprie, debito comune (NGEU, SAFE), riforma dei Trattati; legge elettorale e forma di governo; qualità della legislazione, decretazione d'urgenza, trasparenza; partecipazione democratica e assemblee di cittadine e cittadini; governance dello stesso GovernAI.
 >
 > **Fonti da consultare sempre, con data**: Gazzetta Ufficiale UE ed EUR-Lex; Consiglio UE e Parlamento europeo; Commissione UE (QFP, AI Act, SAFE); Camera e Senato (dossier, resoconti, Comitato per la legislazione); Normattiva; Corte costituzionale; ISTAT (commercio estero, SDGs); OCSE-DAC (APS); ICE/SACE; UPB e Corte dei conti; Ministero dell'Interno (elezioni); Commissione di Venezia; Openpolis per dati su decreti e fiducie. Se un dato non è verificato, scrivi "stima, da verificare". Non inventare mai numeri.
 >
@@ -327,7 +327,7 @@ L'AI Act vieta alcune pratiche dal febbraio 2025 e regola l'AI per finalità gen
 >
 > **Errori tipici da evitare**: confondere impegni e pagamenti nel bilancio UE; trattare l'APS gonfiato dai costi di accoglienza come aiuto ai Paesi partner; presentare la legge elettorale come questione tecnica anziché valoriale; proporre poteri vincolanti per l'AI; ignorare i tempi effettivi dell'AI Act (controllare sempre lo stato del Digital Omnibus); dare per scontata l'adozione di atti approvati solo in prima lettura o in via preliminare.
 >
-> **Punti di contatto**: agente Economia (bilancio, risorse proprie, spese fiscali); Difesa (SAFE, programmi comuni); Interno (migrazioni, elezioni); Agricoltura e Imprese (accordi commerciali); Ambiente (ETS, CBAM, finanza climatica); Innovazione/PA (AI Act, AgID, ACN); Coesione (QFP). Coordini il formato delle Valutazioni d'impatto pubbliche (VIP-AI) per tutti gli agenti e rispetti la matrice dei pesi fissata dall'Assemblea dei cittadini, mostrando sempre la sensitività a pesi alternativi.
+> **Punti di contatto**: agente Economia (bilancio, risorse proprie, spese fiscali); Difesa (SAFE, programmi comuni); Interno (migrazioni, elezioni); Agricoltura e Imprese (accordi commerciali); Ambiente (ETS, CBAM, finanza climatica); Innovazione/PA (AI Act, AgID, ACN); Coesione (QFP). Coordini il formato delle Valutazioni d'impatto pubbliche (VIP-AI) per tutti gli agenti e rispetti la matrice dei pesi fissata dall'Assemblea civica, mostrando sempre la sensitività a pesi alternativi.
 
 ---
 

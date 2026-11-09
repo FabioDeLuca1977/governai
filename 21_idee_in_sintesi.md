@@ -27,26 +27,26 @@ Tra parentesi i codici delle proposte. *Nucleo* indica le misure del nucleo robu
 
 **1. Conti onesti e regole stabili.** Ogni legge importante dichiara chi paga e quando, con una valutazione a 30 anni (01-P1). Le agevolazioni fiscali ricevono una data di scadenza e vanno rinnovate solo se funzionano (01-P2). Nessun nuovo condono (01-P12, *nucleo*). Le grandi opere oltre 500 milioni passano da una valutazione indipendente (04-P4).
 
-**2. Un fisco più semplice e più giusto.** Chi ha solo redditi certificati riceve dallo Stato il conto fiscale già fatto e lo controlla (01-P7, *nucleo*). Una sola detrazione per il lavoro, senza scalini (01-P9), e meno detrazioni minori (01-P8). L'IVA si controlla in tempo reale incrociando fatture e pagamenti (01-P3, *nucleo*), con controlli mirati e garanzie per il contribuente (01-P10).
+**2. Un fisco più semplice e più giusto.** Chi ha solo redditi certificati riceve dallo Stato il conto fiscale già fatto e lo controlla (01-P7, *nucleo*). Una sola detrazione per il lavoro, senza scalini (01-P9), e meno detrazioni minori (01-P8). L'IVA si controlla in tempo reale incrociando fatture e pagamenti (01-P3, *nucleo*), con controlli mirati e garanzie per chi paga le tasse (01-P10).
 
 **3. Famiglie, giovani e lavoro.**
 - Il nido diventa un diritto esigibile, con il congedo paterno (02-C2, *nucleo*).
 - Squadre contro la dispersione scolastica (05-C1, *nucleo*), scuole aperte come presidi di comunità (05-C5, *nucleo*).
-- Più diplomati e laureati, con ITS e borse garantite (05-C4, *nucleo*), e un conto personale per formarsi lungo la vita (05-C2, *nucleo*).
+- Più persone con diploma o laurea, con ITS e borse garantite (05-C4, *nucleo*), e un conto personale per formarsi lungo la vita (05-C2, *nucleo*).
 - Progetto di vita e lavoro per le persone con disabilità (02-C5, *nucleo*).
-- Più risorse alle scuole con più alunni svantaggiati, vincolate a interventi di efficacia provata come il tutoraggio in piccoli gruppi (05-C7, dal modello olandese).
+- Più risorse alle scuole con più alunne e alunni in condizioni di svantaggio, vincolate a interventi di efficacia provata come il tutoraggio in piccoli gruppi (05-C7, dal modello olandese).
 - Salario minimo legato ai contratti più rappresentativi (02-C1) e uscita flessibile dal lavoro pagando il costo vero della scelta (02-C3).
 
-**Cultura per tutti.** Biblioteche di comunità con un livello minimo di servizio, biblioteche a scuola e orari più lunghi (05-C8). Due esperienze culturali professionali l'anno per ogni alunno e una tariffa sociale per chi ha redditi bassi (05-C9, dallo «zaino culturale» norvegese).
+**Cultura per tutte e tutti.** Biblioteche di comunità con un livello minimo di servizio, biblioteche a scuola e orari più lunghi (05-C8). Due esperienze culturali professionali l'anno per ogni alunna e ogni alunno e una tariffa sociale per chi ha redditi bassi (05-C9, dallo «zaino culturale» norvegese).
 
-**4. Salute e cura.** Le proposte ci sono: personale sanitario (06-C2), Case della Comunità (06-C3), tempi garantiti o rimborso (06-C1), non autosufficienza (06-C4), salute mentale (06-C5). Dal Nord Europa arrivano tre idee: Housing First per chi vive in strada, con una casa stabile e sostegno (02-C7, *nucleo*, sul modello finlandese); squadre autonome di infermieri per l'assistenza a domicilio (06-C8); équipe di benessere a scuola collegate alle Case della Comunità (06-C9). Molte misure sanitarie però sono ancora **fuori dal programma o solo sperimentali**, perché mancano coperture certificate. È il punto più debole del programma, e lo si dice.
+**4. Salute e cura.** Le proposte ci sono: personale sanitario (06-C2), Case della Comunità (06-C3), tempi garantiti o rimborso (06-C1), non autosufficienza (06-C4), salute mentale (06-C5). Dal Nord Europa arrivano tre idee: Housing First per chi vive in strada, con una casa stabile e sostegno (02-C7, *nucleo*, sul modello finlandese); squadre infermieristiche autonome per l'assistenza a domicilio (06-C8); équipe di benessere a scuola collegate alle Case della Comunità (06-C9). Molte misure sanitarie però sono ancora **fuori dal programma o solo sperimentali**, perché mancano coperture certificate. È il punto più debole del programma, e lo si dice.
 
 **5. Territori, ambiente e casa.**
 - Un fondo stabile per prevenire frane e alluvioni, assegnato per rischio e non per emergenza (03-P4, *nucleo*).
 - Servizi essenziali nelle aree interne, con obiettivi misurati (04-P6, *nucleo*).
 - Energia rinnovabile con contratti che riportano in bolletta gli extra-profitti (03-P2), agricoltura pagata per i risultati ambientali (03-P5).
 - Prima i livelli essenziali delle prestazioni finanziati, poi l'autonomia differenziata (04-P5).
-- Casa (04-P2) e treni per i pendolari (04-P3): utili, ma oggi entrano solo in parte o restano fuori per mancanza di risorse. Le reti idriche (03-P3) sono entrate nel nucleo robusto.
+- Casa (04-P2) e treni per chi viaggia ogni giorno (04-P3): utili, ma oggi entrano solo in parte o restano fuori per mancanza di risorse. Le reti idriche (03-P3) sono entrate nel nucleo robusto.
 
 **Ricerca, innovazione e merci pulite.** L'Italia spende in ricerca nelle imprese lo 0,80% del PIL, contro l'1,50% della media UE.
 - Un solo credito d'imposta per la ricerca, stabile, più forte per le piccole imprese e certificato prima di spendere. Si finanzia chiudendo gradualmente il patent box, che secondo gli studi sposta i brevetti tra Paesi ma non crea nuove invenzioni (01-P13).
@@ -61,7 +61,7 @@ Il panel le giudica tutte positive, ma le mette in coda: con la Carta attuale va
 
 **6. Uno Stato che funziona.**
 - «Chiedilo una volta sola»: la PA non chiede di nuovo dati che ha già, e se sbaglia rimborsa (09-C2).
-- Tecnici per i piccoli Comuni (09-C3), ricambio generazionale con trasmissione delle competenze (09-C8, *nucleo*).
+- Squadre tecniche per i piccoli Comuni (09-C3), ricambio generazionale con trasmissione delle competenze (09-C8, *nucleo*).
 - AI nella PA con supervisione umana (09-C5, *nucleo*), valutazione vera del lavoro pubblico (09-C6).
 - Giustizia più veloce con l'Ufficio per il processo (07-C1, *nucleo*).
 - Appalti trasparenti con un cruscotto pubblico dei rischi (08-P7), beni confiscati restituiti alla comunità (07-C4, *nucleo*).
@@ -72,7 +72,7 @@ Il panel le giudica tutte positive, ma le mette in coda: con la Carta attuale va
 - Difesa cibernetica per i Comuni (07-C6).
 - Difesa (07-C5): il panel giudica sfavorevole il percorso al 3,5% del PIL senza deficit, perché toglierebbe risorse a quasi tutto il resto; il programma presenta le opzioni con il loro prezzo.
 
-**8. Istituzioni aperte e uso pubblico dell'AI.** Una legge sulla consulenza algoritmica pubblica, con un ufficio indipendente presso le Camere e un'assemblea di cittadini sorteggiati che fissa i pesi tra i valori (08-P1). Dati e modelli delle politiche pubbliche aperti a tutti (09-C1). Regole elettorali stabili e voto per chi studia o lavora fuori sede (08-P3).
+**8. Istituzioni aperte e uso pubblico dell'AI.** Una legge sulla consulenza algoritmica pubblica, con un ufficio indipendente presso le Camere e un'assemblea civica di persone sorteggiate che fissa i pesi tra i valori (08-P1). Dati e modelli delle politiche pubbliche aperti a tutti (09-C1). Regole elettorali stabili e voto per chi studia o lavora fuori sede (08-P3).
 
 ## Chi paga
 
@@ -83,17 +83,17 @@ Il programma base usa coperture a basso costo sociale. Le principali:
 - tagli di spesa nella PA.
 
 Il programma completo aggiunge circa 5,3 mld di coperture strutturali, pagate soprattutto da:
-- proprietari di case di valore alto;
-- locatori a canone libero;
+- chi possiede case di valore alto;
+- chi affitta case a canone libero;
 - grandi eredità;
 - autotrasporto e agricoltura, con uscita graduale dai sussidi al gasolio fino al 2035;
-- consumatori di gas, con un bonus per i redditi bassi.
+- chi consuma gas, con un bonus per i redditi bassi.
 
 Le coperture regressive senza compensazione sono escluse da una linea rossa della Carta.
 
 ## Che cosa unisce e che cosa divide
 
-Quattro esperti di aree diverse (centrodestra, centrosinistra, centro e area civica) hanno letto il programma in modo indipendente (`revisioni/`).
+Quattro revisioni da aree diverse (centrodestra, centrosinistra, centro e area civica) hanno esaminato il programma in modo indipendente (`revisioni/`).
 
 - **Unisce**: lo Stato che funziona, i conti trasparenti, la legalità e la valutazione. Per esempio 04-P4, 01-P2, 07-C1, 09-C6, 07-C4 e il «niente condoni».
 - **Divide**:
@@ -102,7 +102,7 @@ Quattro esperti di aree diverse (centrodestra, centrosinistra, centro e area civ
   - le esclusioni di sanità, povertà e non autosufficienza: contestate dal centrosinistra.
 - **In comune** tutte le aree chiedono:
   - persone con nome e cognome che rispondano delle scelte;
-  - una partecipazione reale dei cittadini;
+  - una partecipazione reale della cittadinanza;
   - di dichiarare apertamente dove il programma pende, invece di dirsi neutrale.
 
 ## Che cosa resta da decidere
@@ -111,7 +111,7 @@ Sono scelte politiche: il sistema le presenta con il loro prezzo, non le prende.
 
 1. **A che cosa servono le coperture strutturali**: nuova spesa, meno tasse sul lavoro, un pavimento per la sanità o meno debito.
 2. **Quanto spendere per la Difesa**, sapendo che cosa costa in termini di altre misure.
-3. **Dividendo climatico**: restituire ai cittadini il gettito dei sussidi ambientali tagliati, o usarlo per i servizi.
+3. **Dividendo climatico**: restituire alla cittadinanza il gettito dei sussidi ambientali tagliati, o usarlo per i servizi.
 4. **Quanto investire su ricerca e innovazione**: con la Carta attuale il panel le mette in coda. Il programma intermedio le impone per scelta politica. Resta da decidere se cambiare la Carta, dando più peso alla crescita, o tenere la scelta come eccezione dichiarata.
 5. **Quali valori**: la Carta è un punto di partenza. Altre aree propongono di aggiungere famiglia, libertà economica, lavoro e solidarietà, crescita, sicurezza esterna.
 

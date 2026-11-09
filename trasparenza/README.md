@@ -4,8 +4,8 @@
 
 > ## Avviso
 > **Un indicatore di rischio NON è una prova né un'accusa.** Misura quanto le procedure di un ente si discostano dalla media nazionale per contratti simili. Molti scostamenti hanno spiegazioni legittime: urgenze vere (alluvioni, sismi), mercati con un solo fornitore qualificato, deroghe previste dalla legge (difesa, protezione civile), errori o ritardi nell'invio dei dati ad ANAC.
-> Gli indicatori servono a **orientare** controlli e trasparenza: controlli interni e responsabili anticorruzione (RPCT) degli enti, ANAC, Corte dei conti, revisori, giornalisti e cittadini che chiedono spiegazioni. **Ogni caso va verificato da persone competenti**, leggendo gli atti e sentendo l'ente, prima di trarre qualsiasi conclusione.
-> Come prevede la Carta dei valori (valore 9, SIC), si analizzano **enti e settori, mai persone fisiche**. Nessun punteggio è attribuito a dipendenti, dirigenti, imprenditori o professionisti.
+> Gli indicatori servono a **orientare** controlli e trasparenza: controlli interni e responsabili anticorruzione (RPCT) degli enti, ANAC, Corte dei conti, organi di revisione, chi fa giornalismo e chiunque chieda spiegazioni. **Ogni caso va verificato da persone competenti**, leggendo gli atti e sentendo l'ente, prima di trarre qualsiasi conclusione.
+> Come prevede la Carta dei valori (valore 9, SIC), si analizzano **enti e settori, mai persone fisiche**. Nessun punteggio è attribuito a singole persone: personale dipendente, dirigenza, chi fa impresa o esercita una professione.
 
 ## File
 
@@ -93,7 +93,7 @@ Il **rapporto di rischio** è (O+1)/(E+1): 1 significa in linea con l'atteso, 2 
 
 1. **Dati incompleti e non casuali.** Il numero di offerte è noto solo per 56.000 procedure non dirette su circa 191.000. Chi non comunica i dati ad ANAC sembra meno a rischio: la reticenza va misurata a parte. Un indicatore di "comunicazioni mancanti", come quelli UIF, è il primo sviluppo da fare.
 2. **Anno 2024, il primo della digitalizzazione completa** (piattaforme certificate, PCP). Alcuni campi sono compilati in modo poco affidabile: `FLAG_URGENZA` vale 1 nel 68% dei CIG ed è quindi inutilizzabile, per questo si usa il motivo esplicito. Varianti e fine lavori di contratti del 2024 sono in gran parte ancora da registrare, quindi l'indicatore `varianti` è sottostimato.
-3. **Mancano indicatori importanti della letteratura**: vincitori costituiti da poco (serve il Registro imprese, non aperto), ritardi e contenziosi (fine contratto e collaudi ancora assenti per il 2024; i ricorsi TAR non sono in open data), legami societari e titolari effettivi, prezzi unitari fuori mercato.
+3. **Mancano indicatori importanti della letteratura**: imprese aggiudicatarie costituite da poco (serve il Registro imprese, non aperto), ritardi e contenziosi (fine contratto e collaudi ancora assenti per il 2024; i ricorsi TAR non sono in open data), legami societari e titolari effettivi, prezzi unitari fuori mercato.
 4. **Soglie e definizioni semplificate.** Le soglie UE sono quelle degli enti sub-centrali; non si distinguono le deroghe legittime (art. 76, unico operatore; somma urgenza; difesa). Il frazionamento è misurato per divisione CPV e anno solare, un'approssimazione dell'"oggetto" della norma.
 5. **Correlazione tra indicatori**: l'IC dell'indice è ottimistico.
 6. **Valori economici**: gli importi a base di gara contengono errori di compilazione, a volte miliardari. Sono solo informativi e non entrano nell'indice.

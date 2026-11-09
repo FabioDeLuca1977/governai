@@ -28,7 +28,7 @@
 | 18 | Oltre metà delle misure con meno di 30.000 contribuenti | UPB | non presente nel comunicato UPB; il Focus completo non è stato consultato | UPB, Focus 4/2024 | ❓ |
 | 19 | Produttività 1995-2024: IT vs UE27 | +0,3% vs +1,5% l'anno | +0,3% vs +1,5% (valore aggiunto per ora lavorata). Controllo Eurostat su PIL per ora: +0,27% vs +1,16% | ISTAT, Misure di produttività 1995-2024, dic. 2025, [PDF](https://www.istat.it/wp-content/uploads/2025/12/REPORT_PRODUTTIVITA_2024.pdf); Eurostat nama_10_lp_ulc (`01_produttivita_ora_i15`) | ✅ |
 | 20 | Produttività 2024 / 2023 | -1,9% / -2,7% | -1,9% / -2,7% | ISTAT, Misure di produttività | ✅ |
-| 21 | Occupati in micro e piccole imprese | "oltre il 60%" vs ~40% FR/DE | **60,0%** (0-49 addetti) vs 41,6% FR, 39,4% DE (2024) | Eurostat sbs_sc_ovw (`01_quota_occupati_micro_piccole`) | ✏️ (lieve: "il 60%", non "oltre") |
+| 21 | Persone occupate in micro e piccole imprese | "oltre il 60%" vs ~40% FR/DE | **60,0%** (0-49 addetti) vs 41,6% FR, 39,4% DE (2024) | Eurostat sbs_sc_ovw (`01_quota_occupati_micro_piccole`) | ✏️ (lieve: "il 60%", non "oltre") |
 | 22 | Investimenti intensivi in conoscenza | 18,9% nel 2025 | non verificato sul Rapporto annuale ISTAT | ISTAT, Rapporto annuale 2026 (non consultato) | ❓ |
 | 23 | PUN medio 2025 Italia | 115 €/MWh | 115,32 €/MWh | GME, newsletter, tramite [QualEnergia](https://www.qualenergia.it/pro/articoli-pro/nel-2025-pun-medio-a-115-euro-mwh/) (dato GME, documento GME non scaricato) | ✅ |
 | 24 | Prezzi all'ingrosso DE / ES / FR | 91 / 68 / 61 | non verificato sulle borse elettriche (EEX/OMIE/EPEX) | Confindustria, audizione marzo 2026 (fonte associativa) | ❓ |
@@ -36,9 +36,9 @@
 | 26 | Transizione 5.0 | 6,3 → 2,5 mld; sostituita dall'iperammortamento | Cifre confermate da più fonti specializzate. Precisazione: le risorse residue sono andate **esaurite** a novembre 2025 (decreto MIMIT 6/11/2025) | Decisione UE di revisione del PNRR non consultata | ❓ (dato coerente, fonte primaria non scaricata) |
 | 27 | Spesa PNRR a settembre 2026 | ~86 mld | non verificato su ReGiS/Italia Domani | Dichiarazione ministeriale | ❓ |
 | 28 | Rischio PNRR secondo la Corte dei conti | ~15 mld | non verificato. La relazione delle Sezioni riunite è del 28 maggio 2026; la Sezione autonomie (del. 11/2026) parla di circa 45 mld a rischio sugli enti territoriali (dato di stampa) | Corte dei conti (non consultata) | ❓ |
-| 29 | Presenze turistiche 2024 | 458,4 mln (+2,5%) | **466,2 mln (+4,2%)**, di cui 253,9 mln di stranieri | ISTAT via Eurostat tour_occ_ninat (`01_presenze_turistiche`), agg. 12/10/2026 | ✏️ |
+| 29 | Presenze turistiche 2024 | 458,4 mln (+2,5%) | **466,2 mln (+4,2%)**, di cui 253,9 mln di provenienza estera | ISTAT via Eurostat tour_occ_ninat (`01_presenze_turistiche`), agg. 12/10/2026 | ✏️ |
 | 30 | Presenze straniere 2025 | 271 mln (+6,7%, stima) | **301,6 mln** (Eurostat); ISTAT: totale oltre 535 mln, quota estera 55,3%. Salto del 15% sul 2024: il campo di osservazione è stato ampliato, quindi i dati non sono pienamente confrontabili | Eurostat tour_occ_ninat; ISTAT, Storie di dati Turismo, ott. 2026 | ✏️ |
-| 31 | Spesa dei turisti stranieri 2025 | 57 mld | non verificato su Banca d'Italia (indagine sul turismo internazionale) | Banca d'Italia (non consultata) | ❓ |
+| 31 | Spesa turistica dall'estero 2025 | 57 mld | non verificato su Banca d'Italia (indagine sul turismo internazionale) | Banca d'Italia (non consultata) | ❓ |
 | 32 | 75% dei turisti nel 4% del territorio | TEHA | dato TEHA citato in un documento del Ministero del Turismo; non è un dato statistico ufficiale | MiTur, presentazione gennaio 2026 | ❓ |
 | 33 | Presenze in Sardegna | "oltre 22 milioni" | **15,6 mln nel 2024**; 21,7 mln nel 2025 con il nuovo campo di osservazione | Eurostat tour_occ_nin2, ITG2 (`01_presenze_sardegna`) | ✏️ |
 | 34 | Economia non osservata 2023 | oltre 217 mld | 217,5 mld, 10,2% del PIL | ISTAT, Economia non osservata 2023, ott. 2025, [PDF](https://www.istat.it/wp-content/uploads/2025/10/Report-ECONOMIA-NON-OSSERVATA-NEI-CONTI-NAZIONALI_ANNO2023.pdf) | ✅ |

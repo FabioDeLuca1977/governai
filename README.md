@@ -70,7 +70,7 @@ I documenti grezzi scaricati (`dati/raw/`, oltre 100 MB) non vengono salvati nel
 - **Prima i vincoli, poi i valori.** Costituzione e vincolo di bilancio non si pesano: si rispettano.
 - **Nessun peso unico.** Le proposte si classificano per robustezza, provando tutte le combinazioni di pesi tra i valori:
   - *robuste*: prioritarie con ogni combinazione;
-  - *dipendenti dai valori*: la scelta è politica e va a cittadini e Parlamento.
+  - *dipendenti dai valori*: la scelta è politica e spetta alla cittadinanza e al Parlamento.
 - **Dati verificabili.** Ogni cifra rimanda a una serie o a un documento ufficiale. Le stime di costo sono etichettate "stima GovernAI" e non sono quantificazioni della Ragioneria.
 - **Trasparenza dell'AI.** Le modifiche del livello AI passano salvaguardie automatiche: citazione verificata nel documento, soglie, registro delle modifiche.
 

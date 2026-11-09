@@ -10,7 +10,7 @@
 
 - **5 voci principali**, identiche su desktop (barra in alto) e telefono (barra in basso, con icona e parola).
 - **3 elementi di servizio** sempre visibili: *Cerca*, *Metodo* (come funziona), *Partecipa* (pulsante primario).
-- Ogni voce principale risponde a **una domanda** che l'utente si fa:
+- Ogni voce principale risponde a **una domanda** che si fa chi visita il sito:
 
 | Voce | Domanda a cui risponde | Icona (Lucide) |
 |---|---|---|
@@ -22,19 +22,19 @@
 
 ## 2. Dalle 11 voci attuali alle 5 nuove
 
-Il menu attuale ha 11 voci allo stesso livello (Il progetto, Cruscotto, Programma, Governo, Valori, Obiettivi, Analisi, Coperture, Bollettini, Integrità, Metodo). Su telefono vanno a capo in tre righe e non dicono che cosa è importante. Regola seguita: **raggruppare per domanda dell'utente, non per cartella del repository.**
+Il menu attuale ha 11 voci allo stesso livello (Il progetto, Cruscotto, Programma, Governo, Valori, Obiettivi, Analisi, Coperture, Bollettini, Integrità, Metodo). Su telefono vanno a capo in tre righe e non dicono che cosa è importante. Regola seguita: **raggruppare per domanda di chi visita, non per cartella del repository.**
 
 | Voce attuale | Dove va | Perché |
 |---|---|---|
 | Il progetto | **Oggi** (in alto: che cos'è, in 3 righe) + **Metodo → Come funziona** | La home deve servire chi arriva per la prima volta *e* chi torna ogni giorno: presentazione breve sopra, novità del giorno sotto |
-| Cruscotto | **Dati → Indicatori** (e sintesi in **Oggi**) | "Cruscotto" è gergo; "Dati" è la parola che gli utenti usano |
+| Cruscotto | **Dati → Indicatori** (e sintesi in **Oggi**) | "Cruscotto" è gergo; "Dati" è la parola che le persone usano |
 | Programma | **Programma → Proposte** | Resta, diventa la sezione centrale |
 | Coperture | **Programma → Come si paga** | Chi paga è una domanda sul programma, non un tema a parte. In ogni scheda c'è anche il blocco *Costi e coperture* |
 | Valori (simulatore) | **Programma → I tuoi valori** | Il simulatore riordina le proposte: vive accanto all'elenco che modifica. La *Carta* (testo) va in **Metodo** |
 | Governo | **Governo** | Resta, riorganizzato per sedute, decisioni, mandati, credibilità |
 | Obiettivi | **Dati → Obiettivi e risultati** (e in ogni scheda) | Sono indicatori misurati: stanno con i dati. Nella scheda si vedono gli obiettivi di quella proposta |
 | Bollettini | **Dati → Diario quotidiano** | È lo storico giornaliero dei dati; la nota del giorno compare in **Oggi** |
-| Analisi | **Partecipa → Richieste e analisi** | Nascono da una richiesta dei cittadini: si trovano dove si fa la richiesta |
+| Analisi | **Partecipa → Richieste e analisi** | Nascono da una richiesta della cittadinanza: si trovano dove si fa la richiesta |
 | Integrità | **Controlli → Integrità** | È un controllo, come Costituzione ed Europa: "anche l'AI è controllata" |
 | Metodo | **Metodo** (servizio, in testata e piè di pagina) | Serve a chi vuole capire o verificare, non a ogni visita: non occupa una voce principale |
 | *(nuova)* Europa | **Controlli → Europa** | Obblighi UE, infrazioni e semestre europeo sono vincoli da rispettare, come la Costituzione |
@@ -174,9 +174,9 @@ La **Proposta** è il centro (principio 4 del brief). Ogni altro oggetto si coll
 | Ogni pagina | Integrità | Riga in fondo: "Dati del 8/11/2026 · anello n. 8 · impronta f9ecf15b…" |
 | Ogni sigla | Glossario | Prima occorrenza sottolineata a puntini, definizione al tocco |
 
-## 7. Percorsi utente
+## 7. Percorsi di visita
 
-### 7.1 Cittadino curioso — "Che cosa propone sugli asili?" (telefono, 2 minuti)
+### 7.1 Persona curiosa — "Che cosa propone sugli asili?" (telefono, 2 minuti)
 
 ```
 Link condiviso / ricerca web
@@ -202,7 +202,7 @@ Oggi: blocco "Da ieri" (nuova seduta, 4 allerte attive, mandati in scadenza)
 ```
 **Punti critici**: un elenco "Da ieri" calcolato confrontando le date; stati di una richiesta chiari; azioni per i membri visibili ma distinte da quelle pubbliche (pulsante secondario con etichetta "membri del progetto").
 
-### 7.3 Esperto o giornalista — "Da dove viene quel numero? Regge giuridicamente?" (desktop, 30 minuti)
+### 7.3 Pubblico esperto o giornalistico — "Da dove viene quel numero? Regge giuridicamente?" (desktop, 30 minuti)
 
 ```
 Cerca "IVA" → 01-P3 IVA in tempo reale

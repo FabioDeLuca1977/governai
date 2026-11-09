@@ -17,7 +17,7 @@
 | SF-SAN2 | Tetto alla deducibilità dei contributi ai fondi sanitari integrativi (oggi 3.615,20 €) e all'esenzione dei piani sanitari aziendali oltre 75.000 € di reddito | SPESE_FISCALI | 0,2–0,4 mld (da verificare) | redditi alti, fondi integrativi |
 | SF-SAN3 | Riassorbimento nel budget di cura (C4) delle agevolazioni per assistenti familiari e assistenza personale oltre una soglia di reddito | SPESE_FISCALI | da quantificare | famiglie con redditi alti |
 | AS-SAN1 | Allineamento graduale delle accise su sigarette, trinciato e tabacco riscaldato verso i paesi UE con accisa più alta, oltre i 112 mln del DDL 2027 (art. 33) | ACCISE_SALUTE | 0,5–1,0 mld, decrescente | fumatori, filiera del tabacco |
-| AS-SAN2 | Accisa sui superalcolici +20% | ACCISE_SALUTE | 0,1–0,2 mld | consumatori di superalcolici |
+| AS-SAN2 | Accisa sui superalcolici +20% | ACCISE_SALUTE | 0,1–0,2 mld | chi consuma superalcolici |
 | R-SAN1 | Abrogazione della riduzione del payback per le aziende che investono (DDL 2027, art. 71) | RIALLOCAZIONE | 0,16 mld | industria farmaceutica |
 | R-SAN2 | Riduzione per legge del tetto di spesa per beni e servizi non sanitari degli enti SSN, con gare centralizzate | RIALLOCAZIONE | 0,3–0,5 mld | fornitori SSN |
 | RB-SAN1 | Fusione nel budget di cura di trasferimenti permanenti frammentati per persone anziane e caregiver | RIORDINO_BONUS | da quantificare con l'area 02 | nessuno perde a parità di bisogno |
@@ -79,23 +79,23 @@ Se il CUP non colloca una prestazione nei tempi della classe di priorità, il si
 ## 06-C2 — Patto per il personale infermieristico e la medicina generale
 
 ### Problema in un dato
-L'Italia ha 6,9 infermieri praticanti ogni 1.000 abitanti (2024: 407.750 persone) contro 9,2 della media OCSE, mentre i medici sono 5,75 ogni 1.000, sopra la media OCSE di 3,9: il rapporto infermieri/medici è 1,2 (Eurostat hlth_rs_prs2, 2024, serie `06_personale_sanitario.csv`; OCSE, *Health at a Glance 2025*). Il problema è il mix professionale e la distribuzione, non il numero totale di medici.
+L'Italia ha 6,9 infermiere e infermieri in attività ogni 1.000 abitanti (2024: 407.750 persone) contro 9,2 della media OCSE, mentre il personale medico è a 5,75 ogni 1.000, sopra la media OCSE di 3,9: il rapporto tra personale infermieristico e medico è 1,2 (Eurostat hlth_rs_prs2, 2024, serie `06_personale_sanitario.csv`; OCSE, *Health at a Glance 2025*). Il problema è il mix professionale e la distribuzione, non la quantità complessiva di personale medico.
 
 ### Soluzione
-Più infermieri formati e trattenuti dove servono (borse con vincolo SSN, indennità di area disagiata, carriera di pratica avanzata con prescrizione limitata), e medici di famiglia che lavorano in squadra nelle Case della Comunità. Il task shifting regolato libera tempo medico per i casi complessi. È la condizione perché C3 funzioni.
+Più personale infermieristico formato e trattenuto dove serve (borse con vincolo SSN, indennità di area disagiata, carriera di pratica avanzata con prescrizione limitata), e una medicina di famiglia che lavora in squadra nelle Case della Comunità. Il task shifting regolato libera tempo medico per i casi complessi. È la condizione perché C3 funzioni.
 
 | Variante | Contenuto | Costo a regime | Intensità | Coperture |
 |---|---|---|---|---|
 | PIENA | Pacchetto completo, inclusa la doppia opzione MMG (dipendenza o convenzione con ore in CdC) e la specializzazione universitaria in medicina generale | 2,5 mld (2030) | 1,0 | SPESE_FISCALI 1,0; ACCISE_SALUTE 0,8; RIALLOCAZIONE 0,55; FSN 0,15 |
-| ESSENZIALE | Indennità mirata (100.000 infermieri), borse, monte ore MMG in CdC in convenzione, pratica avanzata | 1,4 mld (2029) | 0,6 | SPESE_FISCALI 0,6; ACCISE_SALUTE 0,5; RIALLOCAZIONE 0,3 |
+| ESSENZIALE | Indennità mirata (100.000 unità di personale infermieristico), borse, monte ore MMG in CdC in convenzione, pratica avanzata | 1,4 mld (2029) | 0,6 | SPESE_FISCALI 0,6; ACCISE_SALUTE 0,5; RIALLOCAZIONE 0,3 |
 | PILOTA | 4 Regioni e aree interne, 5.000 borse, pratica avanzata in 50 CdC | 0,35 mld (2029) | 0,2 | SPESE_FISCALI 0,2; ACCISE_SALUTE 0,15 |
 
 ### Articolato normativo essenziale
 **Art. 1 (Finalità).** Al fine di colmare il divario nella dotazione di personale infermieristico e di rafforzare l'assistenza primaria, la presente legge reca misure per la formazione, la permanenza nel Servizio sanitario nazionale e l'organizzazione del lavoro delle professioni sanitarie del territorio.
 
-**Art. 2 (Borse di studio con impegno di servizio).** 1. È istituito presso il Ministero della salute un fondo per borse di studio destinate agli studenti dei corsi di laurea in infermieristica, di importo pari a 5.000 euro annui. 2. Il beneficiario si impegna a prestare servizio nel SSN per almeno tre anni dopo il conseguimento del titolo, con priorità nelle aziende con carenza certificata; in caso di inadempimento restituisce le somme percepite.
+**Art. 2 (Borse di studio con impegno di servizio).** 1. È istituito presso il Ministero della salute un fondo per borse di studio destinate a studentesse e studenti dei corsi di laurea in infermieristica, di importo pari a 5.000 euro annui. 2. Chi riceve la borsa si impegna a prestare servizio nel SSN per almeno tre anni dopo il conseguimento del titolo, con priorità nelle aziende con carenza certificata; in caso di inadempimento restituisce le somme percepite.
 
-**Art. 3 (Indennità di area disagiata).** Ai dipendenti del SSN appartenenti al profilo infermieristico in servizio nelle aree interne e nelle aziende con rapporto infermieri/abitanti inferiore alla soglia fissata con decreto del Ministro della salute, d'intesa con la Conferenza Stato-Regioni, è riconosciuta un'indennità annua lorda fino a 3.000 euro, legata alla permanenza in servizio. L'indennità non è cumulabile con l'indennità di pronto soccorso.
+**Art. 3 (Indennità di area disagiata).** Al personale dipendente del SSN appartenente al profilo infermieristico in servizio nelle aree interne e nelle aziende con rapporto tra personale infermieristico e popolazione inferiore alla soglia fissata con decreto del Ministro della salute, d'intesa con la Conferenza Stato-Regioni, è riconosciuta un'indennità annua lorda fino a 3.000 euro, legata alla permanenza in servizio. L'indennità non è cumulabile con l'indennità di pronto soccorso.
 
 **Art. 4 (Infermiere di pratica avanzata).** Il Governo è delegato ad adottare, entro dodici mesi, uno o più decreti legislativi per istituire la laurea magistrale a indirizzo clinico e il profilo dell'infermiere di pratica avanzata, con facoltà di prescrizione limitata di presidi e farmaci per la cronicità secondo protocolli nazionali, definendo la responsabilità professionale.
 
@@ -108,19 +108,19 @@ Più infermieri formati e trattenuti dove servono (borse con vincolo SSN, indenn
 |---|---|---|---|---|
 | Primi 100 giorni | DDL delega in CdM; fondo borse in legge di bilancio; DM sulle soglie di carenza; atto di indirizzo SISAC per l'ACN | Mappa delle aree disagiate | Metodo di calcolo del fabbisogno di personale per ASL | Ricognizione dei posti vacanti |
 | 12 mesi | Delega approvata; primi bandi borse (a.a. 2027/28) con il MUR | Programmazione posti nei corsi di laurea in aumento | Prima rilevazione di permanenza e dimissioni | Indennità erogata; ore MMG in CdC nei contratti |
-| Fine legislatura | Decreti legislativi su pratica avanzata e (PIENA) specializzazione MMG; valutazione a 5 anni | Infermieri di pratica avanzata nelle CdC | Valutazione dell'effetto sugli iscritti | Organici territoriali allo standard DM 77 |
+| Fine legislatura | Decreti legislativi su pratica avanzata e (PIENA) specializzazione MMG; valutazione a 5 anni | Infermieri di pratica avanzata nelle CdC | Valutazione dell'effetto sulle iscrizioni | Organici territoriali allo standard DM 77 |
 
 ### Indicatori
 | KPI | Base | Obiettivo 3 anni | Obiettivo 5 anni |
 |---|---|---|---|
-| Infermieri praticanti per 1.000 abitanti | 6,92 (2024, Eurostat hlth_rs_prs2) | 7,3 | 7,7 (8 entro il 2035) |
-| Rapporto infermieri/medici | 1,2 (2024, Eurostat hlth_rs_prs2) | 1,3 | 1,4 |
+| Personale infermieristico in attività per 1.000 abitanti | 6,92 (2024, Eurostat hlth_rs_prs2) | 7,3 | 7,7 (8 entro il 2035) |
+| Rapporto tra personale infermieristico e medico | 1,2 (2024, Eurostat hlth_rs_prs2) | 1,3 | 1,4 |
 | Posti di medicina generale scoperti | oltre 5.500 (Gimbe 2025, da verificare su dati SISAC) | -25% | -50% |
 
 ### Rischi e mitigazione
 - **Conflitto con gli ordini medici sul task shifting**: protocolli nazionali condivisi, responsabilità chiarita per legge, sperimentazione valutata.
 - **Incentivi che spostano personale senza aumentarlo**: indennità legate alla permanenza e ai nuovi posti; borse con vincolo SSN.
-- **Effetti lenti** (3–5 anni per i laureati): la PILOTA misura presto l'effetto dell'indennità; clausola di revisione se gli iscritti non crescono del 30%.
+- **Effetti lenti** (3–5 anni per le prime lauree): la PILOTA misura presto l'effetto dell'indennità; clausola di revisione se le iscrizioni non crescono del 30%.
 - **Reclutamento estero non etico**: rispetto del Codice OMS.
 
 ---
@@ -131,7 +131,7 @@ Più infermieri formati e trattenuti dove servono (borse con vincolo SSN, indenn
 Al 31/12/2025 solo 66 Case della Comunità su 1.715 programmate erano pienamente operative (3,9%); 781 (45,5%) avevano almeno un servizio attivo; gli Ospedali di Comunità con almeno un servizio erano 163 su 594 (Agenas, Report nazionale DM 77, II semestre 2025; verificato in `dati/verifiche/06_salute.md`). Il target PNRR è chiuso al 30/6/2026: senza fondi di gestione restano muri senza servizi.
 
 ### Soluzione
-Un "contratto di prossimità" triennale per ogni CdC: fondo nazionale vincolato con quota base e quota a risultato (ore di apertura medica e infermieristica, cronici presi in carico, ADI). Ogni hub garantisce MMG h12 (dal C2), infermiere di famiglia, prelievi e diagnostica di base, sportello sociale unico con il Comune. I costi di personale MMG e infermieristico stanno in C2 e non si contano due volte.
+Un "contratto di prossimità" triennale per ogni CdC: fondo nazionale vincolato con quota base e quota a risultato (ore di apertura medica e infermieristica, persone con malattie croniche prese in carico, ADI). Ogni hub garantisce MMG h12 (dal C2), infermiere di famiglia, prelievi e diagnostica di base, sportello sociale unico con il Comune. I costi di personale MMG e infermieristico stanno in C2 e non si contano due volte.
 
 | Variante | Contenuto | Costo a regime | Intensità | Coperture |
 |---|---|---|---|---|
@@ -144,7 +144,7 @@ Un "contratto di prossimità" triennale per ogni CdC: fondo nazionale vincolato 
 
 **Art. 2 (Fondo per i contratti di prossimità).** 1. Il Fondo, con dotazione di 300 mln nel 2027, 600 mln nel 2028 e 800 mln annui dal 2029 [PIENA: 400, 900, 1.300 mln e 1.500 dal 2030], è vincolato alle spese di gestione delle Case della Comunità hub, all'assistenza domiciliare integrata e all'integrazione socio-sanitaria. 2. Il Fondo è ripartito per il 60% come quota base, in proporzione alla popolazione servita con una quota di perequazione per le Regioni con minori strutture operative, e per il 40% come quota a risultato.
 
-**Art. 3 (Contratto di prossimità).** 1. Per ogni Casa della Comunità hub l'azienda sanitaria, il Comune o l'ambito territoriale sociale e i medici dell'aggregazione funzionale stipulano un contratto triennale che fissa: orari di apertura medica e infermieristica, servizi minimi, numero di pazienti cronici in carico, obiettivi di assistenza domiciliare. 2. La quota a risultato è erogata in base agli indicatori rilevati da Agenas.
+**Art. 3 (Contratto di prossimità).** 1. Per ogni Casa della Comunità hub l'azienda sanitaria, il Comune o l'ambito territoriale sociale e il personale medico dell'aggregazione funzionale stipulano un contratto triennale che fissa: orari di apertura medica e infermieristica, servizi minimi, numero di persone con malattie croniche in carico, obiettivi di assistenza domiciliare. 2. La quota a risultato è erogata in base agli indicatori rilevati da Agenas.
 
 **Art. 4 (Assistenza domiciliare).** Le Regioni assicurano l'assistenza domiciliare integrata ad almeno il 10% della popolazione di 65 anni e più, con un'intensità minima di accessi definita con decreto del Ministro della salute.
 
@@ -157,7 +157,7 @@ Un "contratto di prossimità" triennale per ogni CdC: fondo nazionale vincolato 
 |---|---|---|---|---|
 | Primi 100 giorni | Fondo in legge di bilancio; schema di decreto interministeriale Salute-MEF su riparto e indicatori | Elenco delle CdC hub e dei Comuni partner | Indicatori della quota a risultato; aggiornamento del monitoraggio DM 77 | Progetto di servizi per ogni hub |
 | 12 mesi | Decreto adottato, primo riparto | Contratti di prossimità firmati in tutte le hub | Primo rapporto semestrale con la quota a risultato | Apertura h12 con MMG (C2); sportello sociale unico |
-| Fine legislatura | Verifica a 18 mesi, poteri sostitutivi dove serve; riconversione a 3 anni | ADI al 10% degli over 65 | Valutazione su ricoveri evitabili (PNE) | 80% delle hub pienamente operative |
+| Fine legislatura | Verifica a 18 mesi, poteri sostitutivi dove serve; riconversione a 3 anni | ADI al 10% delle persone over 65 | Valutazione su ricoveri evitabili (PNE) | 80% delle hub pienamente operative |
 
 ### Indicatori
 | KPI | Base | Obiettivo 3 anni | Obiettivo 5 anni |
@@ -170,7 +170,7 @@ Un "contratto di prossimità" triennale per ogni CdC: fondo nazionale vincolato 
 - **Strutture senza personale**: quota a risultato legata alle ore effettive; sinergia obbligata con C2 (se C2 non entra, la ESSENZIALE di C3 perde efficacia).
 - **Duplicazione con gli studi dei MMG**: modello hub-spoke, con gli studi periferici collegati.
 - **Divari Nord-Sud**: quota di perequazione; la PILOTA parte dal Mezzogiorno.
-- **Doppio conteggio con C2**: i costi di MMG e infermieri sono solo in C2.
+- **Doppio conteggio con C2**: i costi di MMG e personale infermieristico sono solo in C2.
 
 ---
 
@@ -180,11 +180,11 @@ Un "contratto di prossimità" triennale per ogni CdC: fondo nazionale vincolato 
 La Prestazione universale per le persone anziane non autosufficienti (D.Lgs. 29/2024) resta sperimentale: 500 mln per il 2025-2026, prorogata solo al 31/12/2027 con soglia ISEE a 12.000 € (DDL bilancio 2027, art. 53 c. 3). Le famiglie pagano di tasca propria il 22,3% della spesa sanitaria corrente, 42,4 mld nel 2025 (ISTAT-SHA via Eurostat, serie `06_spesa_sanitaria_finanziamento.csv`). Circa 243.000 persone sono in lista d'attesa per una RSA (Quotidiano Sanità 2026, da verificare).
 
 ### Soluzione
-Valutazione unica del bisogno (INPS + ASL + Comune) in un solo punto di accesso nella Casa della Comunità; budget di cura graduato per intensità del bisogno, con una maggiorazione se è usato per lavoro di cura regolare o servizi accreditati. Nessun beneficiario attuale dell'indennità di accompagnamento perde importo. La Prestazione universale diventa il primo livello stabile del budget.
+Valutazione unica del bisogno (INPS + ASL + Comune) in un solo punto di accesso nella Casa della Comunità; budget di cura graduato per intensità del bisogno, con una maggiorazione se è usato per lavoro di cura regolare o servizi accreditati. Chi oggi riceve l'indennità di accompagnamento non perde nulla dell'importo. La Prestazione universale diventa il primo livello stabile del budget.
 
 | Variante | Contenuto | Costo a regime | Intensità | Coperture |
 |---|---|---|---|---|
-| PIENA | Budget su 4 livelli per tutti i nuovi beneficiari, maggiorazione 40%, standard RSA | 3,0 mld (2030) | 1,0 | RIORDINO_BONUS 1,0; SPESE_FISCALI 1,0; ACCISE_SALUTE 0,5; RIALLOCAZIONE 0,5 |
+| PIENA | Budget su 4 livelli per tutti i nuovi accessi, maggiorazione 40%, standard RSA | 3,0 mld (2030) | 1,0 | RIORDINO_BONUS 1,0; SPESE_FISCALI 1,0; ACCISE_SALUTE 0,5; RIALLOCAZIONE 0,5 |
 | ESSENZIALE | Valutazione unica per tutti; budget solo per i bisogni gravi e gravissimi, maggiorazione 30% | 1,2 mld (2029) | 0,5 | RIORDINO_BONUS 0,5; SPESE_FISCALI 0,4; ACCISE_SALUTE 0,3 |
 | PILOTA | 20 ambiti territoriali sociali per 3 anni, con valutazione dell'emersione | 0,1 mld (2028) | 0,1 | COESIONE_2127 0,1 (FSE+, temporaneo) |
 
@@ -193,9 +193,9 @@ Valutazione unica del bisogno (INPS + ASL + Comune) in un solo punto di accesso 
 
 **Art. 2 (Valutazione multidimensionale unica).** 1. La valutazione del bisogno è effettuata da un'unità composta da personale dell'INPS, dell'azienda sanitaria e dell'ambito territoriale sociale, presso il punto unico di accesso della Casa della Comunità, con uno strumento nazionale unico adottato con decreto del Ministro della salute e del Ministro del lavoro. 2. L'INPS effettua audit a campione sulle valutazioni.
 
-**Art. 3 (Budget di cura).** 1. Il budget di cura è articolato in livelli di intensità [ESSENZIALE: riservato ai nuovi beneficiari con bisogno grave e gravissimo; PIENA: quattro livelli per tutti i nuovi beneficiari]. 2. L'importo è maggiorato del 30% [PIENA: 40%] se il budget è utilizzato per lavoro di cura regolarmente contrattualizzato o per servizi accreditati. 3. La Prestazione universale di cui al D.Lgs. 29/2024 confluisce nel primo livello del budget.
+**Art. 3 (Budget di cura).** 1. Il budget di cura è articolato in livelli di intensità [ESSENZIALE: riservato ai nuovi accessi con bisogno grave e gravissimo; PIENA: quattro livelli per tutti i nuovi accessi]. 2. L'importo è maggiorato del 30% [PIENA: 40%] se il budget è utilizzato per lavoro di cura regolarmente contrattualizzato o per servizi accreditati. 3. La Prestazione universale di cui al D.Lgs. 29/2024 confluisce nel primo livello del budget.
 
-**Art. 4 (Salvaguardia).** I titolari dell'indennità di accompagnamento alla data di entrata in vigore conservano l'importo in godimento. Il budget di cura si applica alle domande presentate dal 1° gennaio 2029.
+**Art. 4 (Salvaguardia).** Chi è titolare dell'indennità di accompagnamento alla data di entrata in vigore conserva l'importo in godimento. Il budget di cura si applica alle domande presentate dal 1° gennaio 2029.
 
 **Art. 5 (Monitoraggio e revisione).** INPS e Ufficio parlamentare di bilancio valutano la misura dopo tre anni. Se la spesa supera le previsioni del 20%, i livelli sono corretti con decreto.
 
@@ -211,7 +211,7 @@ Valutazione unica del bisogno (INPS + ASL + Comune) in un solo punto di accesso 
 ### Indicatori
 | KPI | Base | Obiettivo 3 anni | Obiettivo 5 anni |
 |---|---|---|---|
-| Nuovi beneficiari con valutazione multidimensionale unica | 0 (nessuna valutazione unica nel 2026) | 50% | 100% |
+| Nuovi accessi con valutazione multidimensionale unica | 0 (nessuna valutazione unica nel 2026) | 50% | 100% |
 | Quota del budget usata per lavoro regolare o servizi accreditati | da rilevare (non esiste oggi) | 40% | 60% |
 | Persone in lista d'attesa per RSA | circa 243.000 (Quotidiano Sanità 2026, da verificare) | -10% | -25% |
 
@@ -242,7 +242,7 @@ Una quota del FSN vincolata alla salute mentale e crescente ogni anno, condizion
 
 **Art. 2 (Quota vincolata).** 1. A decorrere dal 2027, una quota del fabbisogno sanitario nazionale standard è vincolata alla salute mentale, in misura crescente di 0,3 punti percentuali annui fino al 4% nel 2030 [PIENA: 0,4 punti annui fino al 5% nel 2031]. 2. L'erogazione della quota è condizionata al rispetto degli standard di personale dei Dipartimenti di salute mentale ed è oggetto della verifica degli adempimenti LEA.
 
-**Art. 3 (Servizi per i giovani).** 1. Ogni azienda sanitaria istituisce un servizio per la transizione tra 14 e 25 anni, integrato tra neuropsichiatria dell'infanzia e dell'adolescenza e psichiatria adulti. 2. Nelle Case della Comunità hub è assicurata la funzione di psicologia di base in rete con i medici di medicina generale. 3. I programmi di prevenzione nelle scuole e nelle università sono definiti con il Ministero dell'istruzione e del merito e con il MUR, sulla base di evidenze.
+**Art. 3 (Servizi per i giovani).** 1. Ogni azienda sanitaria istituisce un servizio per la transizione tra 14 e 25 anni, integrato tra neuropsichiatria dell'infanzia e dell'adolescenza e psichiatria adulti. 2. Nelle Case della Comunità hub è assicurata la funzione di psicologia di base in rete con la medicina generale. 3. I programmi di prevenzione nelle scuole e nelle università sono definiti con il Ministero dell'istruzione e del merito e con il MUR, sulla base di evidenze.
 
 **Art. 4 (Personale).** Le Regioni adottano un piano di assunzioni per raggiungere gli organici minimi dei Dipartimenti; è incrementato il numero dei contratti di formazione specialistica in psichiatria e neuropsichiatria infantile. Le Regioni promuovono il superamento della contenzione meccanica.
 
@@ -328,7 +328,7 @@ La proposta genera inoltre la misura di copertura **FSN-INT** (0,2–0,5 mld), c
 
 **Problema in un dato.** Nel 2023 l'assistenza domiciliare integrata (ADI) ha dato in media **14 ore l'anno per caso trattato**, contro 16 nel 2021. L'ADI è spesso appaltata e pagata ad accesso: vince chi fa più visite brevi, non chi rende la persona più autonoma (CERGAS Bocconi, *Rapporto OASI 2025*).
 
-**Soluzione.** Le ASL possono organizzare l'ADI in **squadre di quartiere** di 10-12 infermieri di famiglia e comunità (DM 77/2022), con autonomia su presa in carico, orari e piano di cura, in rete con il medico di famiglia e la Casa della Comunità. È il modello olandese Buurtzorg. Cambia il **modo di pagare**: tariffa a **ora di cura**, compreso il tempo per coordinarsi con famiglia, medico e assistente sociale, e non più ad accesso; vale anche per i soggetti accreditati. Ogni squadra ha un coach esterno, un sistema informatico semplice collegato al fascicolo sanitario e obiettivi pubblici. Si parte a scaglioni tra distretti, con gruppo di controllo, e si estende solo con esiti positivi. **Non è una misura di risparmio**: in Olanda il costo totale per paziente è nella media (KPMG 2015); il guadagno è di qualità e di lavoro.
+**Soluzione.** Le ASL possono organizzare l'ADI in **squadre di quartiere** di 10-12 infermieri di famiglia e comunità (DM 77/2022), con autonomia su presa in carico, orari e piano di cura, in rete con la medicina di famiglia e la Casa della Comunità. È il modello olandese Buurtzorg. Cambia il **modo di pagare**: tariffa a **ora di cura**, compreso il tempo per coordinarsi con famiglia, medico e assistente sociale, e non più ad accesso; vale anche per i soggetti accreditati. Ogni squadra ha un coach esterno, un sistema informatico semplice collegato al fascicolo sanitario e obiettivi pubblici. Si parte a scaglioni tra distretti, con gruppo di controllo, e si estende solo con esiti positivi. **Non è una misura di risparmio**: in Olanda il costo totale per paziente è nella media (KPMG 2015); il guadagno è di qualità e di lavoro.
 
 | Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
 |---|---|---|---|---|
@@ -336,7 +336,7 @@ La proposta genera inoltre la misura di copertura **FSN-INT** (0,2–0,5 mld), c
 | ESSENZIALE | 500 squadre nelle Regioni con meno ore ADI per assistito | 0,02 / 0,06 / 0,10 → **0,10** (2029) | 0,4 | ACCISE_SALUTE 0,05; RIALLOCAZIONE 0,05 |
 | PILOTA | 60 squadre in 10 distretti, inserimento a scaglioni e valutazione | 0,01 / 0,02 / 0,02 → 0,02 (2028) | 0,1 | COESIONE_2127 0,02 (FSE+, temporaneo) |
 
-*Come è costruito il costo (stima GovernAI)*: circa 70.000 € l'anno per squadra tra coach, formazione, sistema informatico e tempo di coordinamento riconosciuto (1.500 × 70.000 € = 0,105), più un fondo per ore di cura aggiuntive (0,15). Totale circa 0,25. ESSENZIALE: 500 × 70.000 € = 0,035 + ore aggiuntive 0,065 = 0,10. Gli stipendi degli infermieri sono già in 06-C2 e nel DM 77 e non si contano due volte. **Rispetto alla proposta d'origine** i costi restano uguali; nella PIENA il profilo annuo è corretto (0,20 nel 2029, regime nel 2030) e cambiano le coperture: tolto il FSN (le quote FSN delle PIENE dell'area valgono già 0,5 mld, il massimo della misura FSN-INT) e tolta la coesione dalla variante stabile, sostituite da RIALLOCAZIONE e SPESE_FISCALI.
+*Come è costruito il costo (stima GovernAI)*: circa 70.000 € l'anno per squadra tra coach, formazione, sistema informatico e tempo di coordinamento riconosciuto (1.500 × 70.000 € = 0,105), più un fondo per ore di cura aggiuntive (0,15). Totale circa 0,25. ESSENZIALE: 500 × 70.000 € = 0,035 + ore aggiuntive 0,065 = 0,10. Gli stipendi del personale infermieristico sono già in 06-C2 e nel DM 77 e non si contano due volte. **Rispetto alla proposta d'origine** i costi restano uguali; nella PIENA il profilo annuo è corretto (0,20 nel 2029, regime nel 2030) e cambiano le coperture: tolto il FSN (le quote FSN delle PIENE dell'area valgono già 0,5 mld, il massimo della misura FSN-INT) e tolta la coesione dalla variante stabile, sostituite da RIALLOCAZIONE e SPESE_FISCALI.
 
 **Articolato normativo essenziale**
 
@@ -346,7 +346,7 @@ La proposta genera inoltre la misura di copertura **FSN-INT** (0,2–0,5 mld), c
 
 **Art. 3 (Remunerazione a ora di cura).** Con intesa in Conferenza Stato-Regioni è definito lo standard della tariffa dell'assistenza domiciliare per ora di cura, comprensiva del tempo di coordinamento con la rete familiare e i servizi. La tariffa si applica anche agli erogatori accreditati che adottano il modello.
 
-**Art. 4 (Sperimentazione e valutazione).** 1. Il modello è avviato con inserimento a scaglioni tra distretti, in modo da consentire il confronto con distretti di controllo. 2. L'Agenas valuta ore di cura per assistito, ricoveri evitabili, soddisfazione degli assistiti e turnover del personale, e verifica il rispetto degli standard di autonomia delle squadre.
+**Art. 4 (Sperimentazione e valutazione).** 1. Il modello è avviato con inserimento a scaglioni tra distretti, in modo da consentire il confronto con distretti di controllo. 2. L'Agenas valuta ore di cura per persona assistita, ricoveri evitabili, soddisfazione delle persone assistite e turnover del personale, e verifica il rispetto degli standard di autonomia delle squadre.
 
 **Art. 5 (Fondo).** È istituito il Fondo per le squadre di quartiere, con dotazione di 20 mln nel 2027, 60 mln nel 2028 e 100 mln annui dal 2029 [PIENA: 30, 120, 200 mln e 250 dal 2030], per formazione, coaching, sistemi informativi e ore di cura aggiuntive. Il Fondo è ripartito tra le Regioni con priorità per quelle con meno ore di assistenza domiciliare per assistito.
 
@@ -365,14 +365,14 @@ La proposta genera inoltre la misura di copertura **FSN-INT** (0,2–0,5 mld), c
 | KPI | Base | Obiettivo 3 anni | Obiettivo 5 anni |
 |---|---|---|---|
 | Ore ADI per caso trattato | 14 (2023, CERGAS Bocconi, OASI 2025) | 16 (insieme a 06-C3) | 18 |
-| Ricoveri evitabili degli over 75 seguiti dalle squadre, rispetto ai distretti di controllo | n.d. | −5% | −10% |
-| Turnover degli infermieri nelle squadre rispetto alla media regionale | n.d. (rilevazione annua pubblica) | rilevazione pubblica | sotto la media regionale |
+| Ricoveri evitabili delle persone over 75 seguiti dalle squadre, rispetto ai distretti di controllo | n.d. | −5% | −10% |
+| Turnover del personale infermieristico nelle squadre rispetto alla media regionale | n.d. (rilevazione annua pubblica) | rilevazione pubblica | sotto la media regionale |
 
 Gli obiettivi sulle ore sono più prudenti di quelli della proposta d'origine (18 e 22): un fondo da 0,15 mld per ore aggiuntive non basta da solo a portare la media nazionale a 22.
 
 **Rischi e mitigazione**
 - **Attese di risparmio**: dichiarate nulle; la misura si giudica su ore e qualità.
-- **Carenza di infermieri**: autonomia e meno burocrazia come leva per attrarre; collegamento con 06-C2.
+- **Carenza di personale infermieristico**: autonomia e meno burocrazia come leva per attrarre; collegamento con 06-C2.
 - **Resistenza delle cooperative appaltatrici**: possono diventare squadre accreditate se accettano il modello.
 - **Squadre autonome solo sulla carta**: standard di autonomia verificati da Agenas.
 - **Coperture**: le accise calano se calano i consumi; la riduzione del limite di spesa per beni e servizi va certificata.
@@ -387,23 +387,23 @@ Gli obiettivi sulle ore sono più prudenti di quelli della proposta d'origine (1
 
 **Problema in un dato.** La spesa per la salute mentale è il **2,7-3% del FSN** contro l'obiettivo del 5%. Nelle scuole lo psicologo è finanziato a progetto o a bando annuale: non esiste un servizio stabile né un dato nazionale su quante scuole ne hanno uno. Al 31/12/2025 solo il **3,9%** delle Case della Comunità era pienamente operativo (Ministero della Salute, in 06-C5, da verificare sul Rapporto SISM; Agenas, Report DM 77, II semestre 2025, in 06-C3).
 
-**Soluzione.** Ogni rete di scuole ha un'**équipe di benessere** collegata alla Casa della Comunità del distretto: uno psicologo, ore programmate di infermiere di famiglia e comunità, un assistente sociale del Comune come referente. È il modello svedese dell'*elevhälsa*, ma organizzato come accordo di rete tra scuola e sanità, non come nuovo ruolo dentro la scuola. Compiti: prevenzione (salute, sonno, schermi, dipendenze), ascolto, invio rapido ai servizi, sostegno ai docenti nei casi difficili. Un accordo-quadro Stato-Regioni-ANCI fissa standard minimi (ore per mille studenti) e un protocollo sulla privacy. L'équipe **non fa diagnosi a scuola** e non usa sistemi automatici di "rischio". Priorità alle secondarie e alle scuole dell'indice di fragilità.
+**Soluzione.** Ogni rete di scuole ha un'**équipe di benessere** collegata alla Casa della Comunità del distretto: una figura di psicologia, ore programmate di infermiere di famiglia e comunità, il servizio sociale del Comune come referente. È il modello svedese dell'*elevhälsa*, ma organizzato come accordo di rete tra scuola e sanità, non come nuovo ruolo dentro la scuola. Compiti: prevenzione (salute, sonno, schermi, dipendenze), ascolto, invio rapido ai servizi, sostegno al personale docente nei casi difficili. Un accordo-quadro Stato-Regioni-ANCI fissa standard minimi (ore per mille tra studentesse e studenti) e un protocollo sulla privacy. L'équipe **non fa diagnosi a scuola** e non usa sistemi automatici di "rischio". Priorità alle secondarie e alle scuole dell'indice di fragilità.
 
 | Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
 |---|---|---|---|---|
-| PIENA | Tutte le secondarie: 1 psicologo ogni 1.500 studenti (circa 2.800), più ore infermieristiche e di servizio sociale | 0,04 / 0,12 / 0,20 → **0,20** (2029) | 1,0 | ACCISE_SALUTE 0,10; RIALLOCAZIONE 0,10 |
+| PIENA | Tutte le secondarie: 1 figura di psicologia ogni 1.500 tra studentesse e studenti (circa 2.800), più ore infermieristiche e di servizio sociale | 0,04 / 0,12 / 0,20 → **0,20** (2029) | 1,0 | ACCISE_SALUTE 0,10; RIALLOCAZIONE 0,10 |
 | ESSENZIALE | Solo le scuole del quintile fragile (le stesse di 05-C1), tutti i gradi | 0,02 / 0,06 / 0,08 → **0,08** (2029) | 0,45 | RIALLOCAZIONE 0,05; ACCISE_SALUTE 0,03 |
 | PILOTA | 100 reti di scuole in 4 Regioni, con valutazione controfattuale | 0,01 / 0,03 / 0,03 → 0,03 (2028) | 0,15 | COESIONE_2127 0,03 (FSE+, temporaneo) |
 
-*Come è costruito il costo (stima GovernAI)*: circa 4,2 milioni di studenti delle secondarie statali (da verificare su MIM) / 1.500 = circa 2.800 psicologi × 55.000 € lordi = 0,15; ore di raccordo infermieristico e sociale, formazione e protocolli 0,05. Totale 0,20. ESSENZIALE: circa 1,4 milioni di alunni del quintile fragile / 1.500 = circa 930 psicologi × 55.000 € = 0,05, più 0,03 di raccordo. Totale 0,08. Le ore di infermiere vengono in gran parte dal personale già previsto per le Case della Comunità (06-C2, 06-C3) e non si contano due volte. **Se 06-C5 è adottata**, gli psicologi di base per i 14-25 anni possono lavorare nelle équipe e il costo aggiuntivo della PIENA scende a circa 0,10. **Rispetto alla proposta d'origine** i costi restano uguali; nella ESSENZIALE la coesione (0,03 fino al 2029) è sostituita da ACCISE_SALUTE, perché si tratta di personale stabile.
+*Come è costruito il costo (stima GovernAI)*: circa 4,2 milioni tra studentesse e studenti delle secondarie statali (da verificare su MIM) / 1.500 = circa 2.800 posti di psicologia × 55.000 € lordi = 0,15; ore di raccordo infermieristico e sociale, formazione e protocolli 0,05. Totale 0,20. ESSENZIALE: circa 1,4 milioni di alunne e alunni del quintile fragile / 1.500 = circa 930 posti di psicologia × 55.000 € = 0,05, più 0,03 di raccordo. Totale 0,08. Le ore di infermiere vengono in gran parte dal personale già previsto per le Case della Comunità (06-C2, 06-C3) e non si contano due volte. **Se 06-C5 è adottata**, i servizi di psicologia di base per i 14-25 anni possono lavorare nelle équipe e il costo aggiuntivo della PIENA scende a circa 0,10. **Rispetto alla proposta d'origine** i costi restano uguali; nella ESSENZIALE la coesione (0,03 fino al 2029) è sostituita da ACCISE_SALUTE, perché si tratta di personale stabile.
 
 **Articolato normativo essenziale**
 
-**Art. 1 (Finalità).** Al fine di promuovere la salute e il benessere psicologico degli studenti e di prevenire il disagio e l'abbandono scolastico, il presente articolo istituisce le équipe di benessere scolastico in rete tra istituzioni scolastiche, aziende sanitarie e Comuni.
+**Art. 1 (Finalità).** Al fine di promuovere la salute e il benessere psicologico di studentesse e studenti e di prevenire il disagio e l'abbandono scolastico, il presente articolo istituisce le équipe di benessere scolastico in rete tra istituzioni scolastiche, aziende sanitarie e Comuni.
 
-**Art. 2 (Équipe di benessere).** 1. Le aziende sanitarie assicurano a ogni rete di istituzioni scolastiche secondarie [ESSENZIALE: alle istituzioni del quintile più fragile dell'indice di fragilità] un'équipe composta da uno psicologo, da ore programmate di infermiere di famiglia e comunità e da un assistente sociale del Comune o dell'Ambito territoriale come referente. 2. L'équipe opera presso la Casa della Comunità del distretto e nelle scuole.
+**Art. 2 (Équipe di benessere).** 1. Le aziende sanitarie assicurano a ogni rete di istituzioni scolastiche secondarie [ESSENZIALE: alle istituzioni del quintile più fragile dell'indice di fragilità] un'équipe composta da personale di psicologia, da ore programmate di infermiere di famiglia e comunità e da personale del servizio sociale del Comune o dell'Ambito territoriale con funzione di referente. 2. L'équipe opera presso la Casa della Comunità del distretto e nelle scuole.
 
-**Art. 3 (Standard e compiti).** 1. Con accordo in Conferenza unificata sono fissati gli standard minimi di ore per mille studenti e i compiti dell'équipe: prevenzione, ascolto, invio ai servizi, sostegno ai docenti. 2. L'équipe non effettua diagnosi a scuola e non utilizza sistemi automatizzati di valutazione del rischio individuale.
+**Art. 3 (Standard e compiti).** 1. Con accordo in Conferenza unificata sono fissati gli standard minimi di ore per mille tra studentesse e studenti e i compiti dell'équipe: prevenzione, ascolto, invio ai servizi, sostegno al personale docente. 2. L'équipe non effettua diagnosi a scuola e non utilizza sistemi automatizzati di valutazione del rischio individuale.
 
 **Art. 4 (Protezione dei dati).** Il protocollo sul trattamento dei dati è adottato sentito il Garante per la protezione dei dati personali. I dati sanitari sono conservati solo nel fascicolo sanitario elettronico; per i minori si applicano le regole sul consenso dei genitori.
 
@@ -434,4 +434,4 @@ Gli obiettivi sulle ore sono più prudenti di quelli della proposta d'origine (1
 - **Mancano psicologi al Sud e nelle aree interne**: équipe di rete tra più scuole, indennità di sede di 04-P6.
 - **Doppio conteggio con 06-C5**: se 06-C5 è adottata, gli psicologi di base si impiegano nelle équipe e il costo scende.
 
-**Fonti.** Svezia, Dir. 2024:30 *En förbättrad elevhälsa*, https://www.regeringen.se/contentassets/39b4dab4d3e54fbcac52d87ab94825c4/en-forbattrad-elevhalsa-dir.-202430.pdf; Agenas, Report nazionale DM 77, II semestre 2025 (in 06-C3 e `dati/verifiche/06_salute.md`); Ministero della Salute, spesa per la salute mentale (in 06-C5, da verificare sul Rapporto SISM); Eurostat edat_lfse_14 (`dati/serie/05_elet_18_24_sesso.csv`). Numero di studenti delle secondarie: MIM, da verificare.
+**Fonti.** Svezia, Dir. 2024:30 *En förbättrad elevhälsa*, https://www.regeringen.se/contentassets/39b4dab4d3e54fbcac52d87ab94825c4/en-forbattrad-elevhalsa-dir.-202430.pdf; Agenas, Report nazionale DM 77, II semestre 2025 (in 06-C3 e `dati/verifiche/06_salute.md`); Ministero della Salute, spesa per la salute mentale (in 06-C5, da verificare sul Rapporto SISM); Eurostat edat_lfse_14 (`dati/serie/05_elet_18_24_sesso.csv`). Numero di studentesse e studenti delle secondarie: MIM, da verificare.

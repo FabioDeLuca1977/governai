@@ -30,12 +30,12 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 
 | Proposta | Titolo | Variante | Intensità | Costo | Robustezza |
 |---|---|---|---|---|---|
-| 05-C4 | Piu' laureati e diplomati terziari: ITS, lauree professionalizzanti, residenze | PIENA | 1,0 | 0,85 | 100% |
+| 05-C4 | Piu' persone con laurea o diploma terziario: ITS, lauree professionalizzanti, residenze | PIENA | 1,0 | 0,85 | 100% |
 | 04-P6 | Restare e' possibile: servizi essenziali aree interne | ESSENZIALE | 0,6 | 0,42 | 100% |
 | 05-C5 | Scuole aperte come presidi di comunita' | PIENA | 1,0 | 0,40 | 100% |
-| 05-C1 | Nessuno escluso: squadre di prossimita' contro la dispersione | PIENA | 1,0 | 0,25 | 100% |
+| 05-C1 | Nessuna esclusione: squadre di prossimita' contro la dispersione | PIENA | 1,0 | 0,25 | 100% |
 | 05-C7 | Quota svantaggio nel finanziamento delle scuole | ESSENZIALE | 0,6 | 0,19 | 100% |
-| 01-P7 | Dichiarazione zero: lo Stato fa il conto, il cittadino controlla | ESSENZIALE | 0,6 | 0,15 | 100% |
+| 01-P7 | Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla | ESSENZIALE | 0,6 | 0,15 | 100% |
 | 01-P3 | IVA in tempo reale | ESSENZIALE | 0,6 | 0,08 | 100% |
 | 05-C6 | AI a scuola | ESSENZIALE | 0,5 | 0,08 | 100% |
 | 09-C8 | Staffetta delle competenze": il ricambio generazionale come occasione di riqualificazione | ESSENZIALE | 0,4 | 0,08 | 100% |
@@ -74,7 +74,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 05-C10 | Rete nazionale per la ricerca applicata sul modello Fraunhofer | PILOTA | 0,1 | 0,05 | 95% |
 | 04-P9 | Consegne pulite in citta': zone a emissioni zero per le merci | ZERO | 0,5 | 0,00 | 93% |
 | 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 92% |
-| 09-C3 | Tecnici della Repubblica: pool di competenze per i piccoli enti | ESSENZIALE | 0,5 | 0,22 | 92% |
+| 09-C3 | Squadre tecniche della Repubblica: pool di competenze per i piccoli enti | ESSENZIALE | 0,5 | 0,22 | 92% |
 | 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | ZERO | 0,3 | 0,00 | 92% |
 | 05-C2 | Conto personale di competenze | PILOTA | 0,1 | 0,05 | 90% |
 | 04-P4 | Nessuna grande opera senza prova dei numeri | PIENA | 1,0 | 0,03 | 83% |
@@ -91,21 +91,21 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 
 | Misura | Descrizione | Fondo | Gettito min | Chi paga | Robustezza |
 |---|---|---|---|---|---|
-| RA13 | Revisione strutturale della spesa dei ministeri: ulteriori 0,05% del PIL oltre quanto già nel DPB, con analisi a base zero dei programmi e tagli selettivi | RIALLOCAZIONE | 0,60 | Destinatari dei programmi tagliati (da individuare) | 100% |
+| RA13 | Revisione strutturale della spesa dei ministeri: ulteriori 0,05% del PIL oltre quanto già nel DPB, con analisi a base zero dei programmi e tagli selettivi | RIALLOCAZIONE | 0,60 | Chi beneficia dei programmi tagliati (da individuare) | 100% |
 | RA14 | Codice degli incentivi: riordino completo, con abrogazione delle linee di incentivo alle imprese senza addizionalità dimostrata, oltre RA04 | RIALLOCAZIONE | 0,40 | Imprese beneficiarie di incentivi | 100% |
 | RA06 | SSN: tetto di legge alla spesa per beni e servizi non sanitari degli enti, con gare centralizzate, e riduzione corrispondente del FSN (R-SAN2, area 06) | RIALLOCAZIONE | 0,20 | Fornitori non sanitari del SSN | 100% |
 | RA05 | Abrogazione della riduzione del payback farmaceutico per le aziende che investono (DDL 2027 art. 71; R-SAN1, area 06) | RIALLOCAZIONE | 0,16 | Industria farmaceutica | 100% |
-| RA07 | Riserva di una quota delle facoltà assunzionali da turnover ai profili tecnici (ICT, appalti, progettazione) al posto dei profili amministrativi generici (R09-1, area 09) | RIALLOCAZIONE | 0,15 | Candidati a profili generici; uffici che non sostituiscono il personale | 100% |
+| RA07 | Riserva di una quota delle facoltà assunzionali da turnover ai profili tecnici (ICT, appalti, progettazione) al posto dei profili amministrativi generici (R09-1, area 09) | RIALLOCAZIONE | 0,15 | Chi si candida a profili generici; uffici che non sostituiscono il personale | 100% |
 | RA04 | Trasferimenti correnti alle imprese: taglio del 3-5% delle linee di incentivo senza valutazione d'impatto positiva (esclusi i contratti di servizio di TPL, ferrovie e servizio postale), in attuazione del Codice degli incentivi | RIALLOCAZIONE | 0,15 | Imprese beneficiarie di incentivi correnti | 100% |
 | RA01 | Acquisti centralizzati: obbligo Consip/soggetti aggregatori esteso a nuove categorie merceologiche per le amministrazioni centrali, con prezzi di riferimento vincolanti e taglio corrispondente degli stanziamenti | RIALLOCAZIONE | 0,15 | Fornitori della PA (prezzi più bassi), in parte PMI locali | 100% |
-| RA12 | Fondo Nuove Competenze e quota del contributo 0,30% non destinata ai fondi interprofessionali confluiscono nel Conto competenze (proposta area 05) | RIALLOCAZIONE | 0,15 | Imprese e lavoratori che oggi usano il Fondo Nuove Competenze | 100% |
+| RA12 | Fondo Nuove Competenze e quota del contributo 0,30% non destinata ai fondi interprofessionali confluiscono nel Conto competenze (proposta area 05) | RIALLOCAZIONE | 0,15 | Imprese e personale che oggi usano il Fondo Nuove Competenze | 100% |
 | RA09 | Spesa ICT corrente delle amministrazioni centrali -4/6%: dismissione dei CED residui, licenze duplicate, accordi quadro Consip (R09-3, area 09) | RIALLOCAZIONE | 0,12 | Fornitori di hosting e licenze legacy | 100% |
 | RB03 | Bonus lavoratrici madri (DDL 2027 art. 57): soglia di reddito da 40.000 a 32.000 € con uscita graduale fino a 40.000 € | RIORDINO_BONUS | 0,10 | Lavoratrici madri con 2 o più figli e reddito tra 32.000 e 40.000 € | 100% |
 | RB04 | Carta del docente: quota di circa 150 € vincolata alla formazione su AI e didattica, al posto di acquisti liberi (proposta area 05) | RIORDINO_BONUS | 0,08 | Docenti di ruolo e supplenti annuali (minor libertà d'uso) | 100% |
-| RB02 | Bonus nuovi nati 1.000 € (360 mln/anno, ISEE ≤40.000 €) assorbito in una maggiorazione dell'Assegno unico nel primo anno di vita per ISEE ≤25.000 € | RIORDINO_BONUS | 0,08 | Famiglie con nuovi nati e ISEE tra 25.000 e 40.000 € | 100% |
-| RA02 | Locazioni passive: piano di rientro negli immobili pubblici accelerato, obiettivo -20% dei canoni entro il 2030 | RIALLOCAZIONE | 0,08 | Proprietari privati che affittano alla PA | 100% |
-| RB01 | Carta Valore per i neodiplomati (180 mln/anno, universale): limite ISEE 35.000 € come per la vecchia Carta cultura | RIORDINO_BONUS | 0,05 | Neodiplomati di famiglie con ISEE oltre 35.000 € | 100% |
-| RA03 | Consulenze, studi, auto di servizio e rappresentanza: tetto del 20% sotto la spesa 2025 dei capitoli dedicati | RIALLOCAZIONE | 0,05 | Consulenti esterni, società di noleggio | 100% |
+| RB02 | Bonus nuovi nati 1.000 € (360 mln/anno, ISEE ≤40.000 €) assorbito in una maggiorazione dell'Assegno unico nel primo anno di vita per ISEE ≤25.000 € | RIORDINO_BONUS | 0,08 | Famiglie con una nuova nascita e ISEE tra 25.000 e 40.000 € | 100% |
+| RA02 | Locazioni passive: piano di rientro negli immobili pubblici accelerato, obiettivo -20% dei canoni entro il 2030 | RIALLOCAZIONE | 0,08 | Soggetti privati che affittano immobili alla PA | 100% |
+| RB01 | Carta Valore per i neodiplomati (180 mln/anno, universale): limite ISEE 35.000 € come per la vecchia Carta cultura | RIORDINO_BONUS | 0,05 | Persone neodiplomate di famiglie con ISEE oltre 35.000 € | 100% |
+| RA03 | Consulenze, studi, auto di servizio e rappresentanza: tetto del 20% sotto la spesa 2025 dei capitoli dedicati | RIALLOCAZIONE | 0,05 | Consulenze esterne, società di noleggio | 100% |
 | RA10 | Contributo unificato maggiorato per i litiganti seriali (oltre 500 cause l'anno) (proposta area 07) | RIALLOCAZIONE | 0,05 | Grandi litiganti: banche, assicurazioni, società di recupero crediti, utilities | 100% |
 | RA08 | Assistenza tecnica e studi d'impatto esterni sostituiti dai pool tecnici e dall'infrastruttura pubblica, oltre RA03 (R09-2, area 09) | RIALLOCAZIONE | 0,03 | Società di consulenza e assistenza tecnica | 100% |
 
@@ -121,7 +121,7 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 - 03-P5 Contratto agro-climatico (scelta in 0% delle combinazioni di pesi)
 - 04-P1 Patto di continuita' post-PNRR (scelta in 0% delle combinazioni di pesi)
 - 04-P2 Casa a canone giusto (scelta in 0% delle combinazioni di pesi)
-- 04-P3 Prima il treno dei pendolari: fondo TPL e abbonamento unico (scelta in 0% delle combinazioni di pesi)
+- 04-P3 Prima il treno di chi viaggia ogni giorno: fondo TPL e abbonamento unico (scelta in 0% delle combinazioni di pesi)
 - 04-P7 Dal porto al treno: piu' merci sul ferro (scelta in 0% delle combinazioni di pesi)
 - 06-C2 Patto per il personale infermieristico e la medicina generale (scelta in 0% delle combinazioni di pesi)
 - 06-C4 Budget di cura per la non autosufficienza (scelta in 68% delle combinazioni di pesi)

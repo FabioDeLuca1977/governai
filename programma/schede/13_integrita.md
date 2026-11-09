@@ -19,7 +19,7 @@ Nel 2024, tra le procedure con confronto competitivo per cui il dato è disponib
 
 ### Soluzione in 3 righe
 1. ANAC pubblica un **cruscotto aperto dei rischi** per stazione appaltante e per settore. Indicatori e pesi sono dichiarati, con intervalli di confidenza e confronto con l'atteso nazionale per lo stesso mix di contratti. Il punto di partenza è il prototipo GovernAI (`trasparenza/`) insieme ai 17 indicatori del progetto ANAC "Misurare la corruzione".
-2. La **completezza dei dati** diventa un obbligo misurato. Ogni ente ha un indicatore pubblico di reticenza, e determine e bandi si pubblicano in formato aperto e testuale collegati al CIG, così anche cittadini, giornalisti e RPCT possono leggerli, con l'assistenza di strumenti di AI (`trasparenza/istruzioni_lettura_atti.md`).
+2. La **completezza dei dati** diventa un obbligo misurato. Ogni ente ha un indicatore pubblico di reticenza, e determine e bandi si pubblicano in formato aperto e testuale collegati al CIG, così anche la cittadinanza, la stampa e i RPCT possono leggerli, con l'assistenza di strumenti di AI (`trasparenza/istruzioni_lettura_atti.md`).
 3. **Garanzie**: il cruscotto valuta enti e procedure, mai persone. Nessun uso automatico per sanzioni, esclusioni o rating di imprese. Ogni anno una validazione indipendente misura falsi positivi e utilità.
 
 ### Varianti
@@ -47,7 +47,7 @@ Nel 2024, tra le procedure con confronto competitivo per cui il dato è disponib
 2. L'Autorità pubblica per ciascuna stazione appaltante un indicatore di completezza delle comunicazioni dovute. L'indicatore è considerato nella valutazione della performance dei dirigenti responsabili, ai sensi del decreto legislativo 27 ottobre 2009, n. 150.
 
 **Art. 5 (Validazione e strumenti per i controlli).**
-1. Ogni anno un comitato indipendente, composto da esperti designati dalla Corte dei conti, dall'ISTAT e da università, valuta la capacità predittiva degli indicatori e la quota di falsi positivi e ne riferisce alle Camere.
+1. Ogni anno un comitato indipendente, composto da persone esperte designate dalla Corte dei conti, dall'ISTAT e da università, valuta la capacità predittiva degli indicatori e la quota di falsi positivi e ne riferisce alle Camere.
 2. L'Autorità mette a disposizione dei responsabili della prevenzione della corruzione e della trasparenza strumenti di lettura assistita degli atti di gara. Gli strumenti sono conformi al regolamento (UE) 2024/1689 e prevedono sempre la verifica umana.
 
 **Art. 6 (Copertura finanziaria).** Agli oneri, pari a 4 milioni di euro per il 2027 e a 8 milioni di euro annui dal 2028, si provvede mediante riallocazione delle risorse del bilancio dell'Autorità e corrispondente riduzione delle spese per incarichi di consulenza delle amministrazioni centrali.
@@ -71,11 +71,11 @@ Nel 2024, tra le procedure con confronto competitivo per cui il dato è disponib
 - **FID** (+): rende pubblici dati, criteri e risultati. È il cuore della definizione di trasparenza.
 - **EQU** e **FUT** (+): più concorrenza significa prezzi più bassi e risorse liberate. L'effetto non è usato come copertura.
 - **SIC** (neutro o +): controlli mirati e verificabili, senza profilazione di persone, con verifica umana e validazione indipendente.
-- **CIT** (+): cittadini, giornalisti e consiglieri locali possono fare domande documentate.
+- **CIT** (+): la cittadinanza, la stampa e chi siede nei consigli locali possono fare domande documentate.
 - **Rischio sui valori**: stigmatizzare enti piccoli o in emergenza (RIS). La mitigazione è nelle avvertenze, nel diritto di replica dell'ente e nella graduatoria per limite inferiore.
 
 ### Rischi e mitigazione
 - **Gogna e falsi positivi.** Le garanzie dell'art. 3 e il diritto di replica limitano il rischio. La graduatoria usa il limite inferiore dell'intervallo, e la validazione annuale misura i falsi positivi.
 - **Adattamento degli enti** (gaming): ad esempio inviti di comodo per evitare l'offerta unica. Si attenua ruotando e aggiornando gli indicatori e affiancando al cruscotto la lettura degli atti.
-- **Più reticenza invece di più trasparenza.** L'indicatore di completezza è pubblico e pesa nella performance dei dirigenti.
+- **Più reticenza invece di più trasparenza.** L'indicatore di completezza è pubblico e pesa nella performance della dirigenza.
 - **Carico per i piccoli comuni.** La trasmissione testuale avviene in automatico dalle piattaforme certificate; c'è un raccordo con i pool tecnici di 09-C3.

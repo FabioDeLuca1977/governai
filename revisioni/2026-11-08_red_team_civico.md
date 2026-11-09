@@ -5,7 +5,7 @@
 ## Giudizio in 5 righe
 
 GovernAI è serio, onesto sui conti e sui propri limiti: più di quanto un elettore deluso si aspetti dalla politica.
-Ma oggi è un sistema **per** i cittadini, non **dei** cittadini: le persone osservano, gli agenti decidono, pochi membri anonimi filtrano.
+Ma oggi è un sistema **per** la cittadinanza, non **della** cittadinanza: le persone osservano, gli agenti decidono, pochi membri anonimi filtrano.
 La promessa post-ideologica regge sul metodo, non sul contenuto: le scelte rivelano un orientamento riformista, europeista e di rigore, da dichiarare.
 Il rischio più grande non è l'AI, è il "leaderismo nascosto": chi scrive la Carta e approva le richieste non ha volto né regole.
 Prima di altro codice serve una comunità: un'assemblea vera, presìdi fisici e una governance scritta del progetto.
@@ -26,13 +26,13 @@ Prima di altro codice serve una comunità: un'assemblea vera, presìdi fisici e 
 **L'elettore comune lo sentirebbe distante.** [Fatto] Il verbale della seduta "Conti in ordine" pesa circa 348 KB. Le decisioni sono scritte in sigle: SAD, RIALLOCAZIONE, M002, RGS, ESSENZIALE, "regola 8" (`governo/verbali/2026-11-08-1-conti-in-ordine.md`). [Valutazione] Un astensionista non arriva alla seconda riga. La progettazione dei percorsi utente è buona (`design/02_architettura.md`, §7.1, "In breve" sopra la piega), ma il materiale di partenza resta da tecnici per tecnici.
 
 **L'astensionista lo guarderebbe con sospetto, per tre motivi.**
-1. *Un "governo" senza persone.* [Fatto] Capo di governo, ministri, opposizione ed esperti sono agenti AI (`governo/regolamento.md`). Il capo scrive in prima persona ("non lo nascondo", "mi discosto") e registra circa 30 deroghe all'esito del motore in una sola seduta (verbale, sezione "Deroghe"). [Valutazione] A chi diffida dei palazzi sembra un palazzo nuovo, solo più ordinato.
-2. *Chi c'è dietro?* [Fatto] Le domande dei cittadini passano solo dopo l'approvazione di "un membro del progetto" (`governo/richieste/README.md`; `CONTRIBUTING.md`). Non ho trovato nei documenti chi siano i membri, come si diventa membri, né chi può modificare la Carta. [Valutazione] Per questo elettorato è il primo campanello d'allarme: è la domanda che ha affossato molte esperienze "dal basso".
+1. *Un "governo" senza persone.* [Fatto] Capo di governo, ministri, opposizione ed esperte ed esperti sono agenti AI (`governo/regolamento.md`). Il capo scrive in prima persona ("non lo nascondo", "mi discosto") e registra circa 30 deroghe all'esito del motore in una sola seduta (verbale, sezione "Deroghe"). [Valutazione] A chi diffida dei palazzi sembra un palazzo nuovo, solo più ordinato.
+2. *Chi c'è dietro?* [Fatto] Le domande delle cittadine e dei cittadini passano solo dopo l'approvazione di "un membro del progetto" (`governo/richieste/README.md`; `CONTRIBUTING.md`). Non ho trovato nei documenti chi siano i membri, come si diventa membri, né chi può modificare la Carta. [Valutazione] Per questo elettorato è il primo campanello d'allarme: è la domanda che ha affossato molte esperienze "dal basso".
 3. *GitHub come porta d'ingresso.* [Fatto] Per partecipare "serve un account GitHub gratuito" (`docs/app.js`, funzione `partecipa`). [Valutazione] È una porta per sviluppatori, non per la pensionata di un'area interna o per il volontario della Caritas.
 
 ## 2. La promessa post-ideologica regge?
 
-**Sul metodo, sì, ed è il punto più forte.** [Fatto] La Carta non sceglie un unico insieme di pesi e separa le proposte "robuste" da quelle "dipendenti dai valori", che vanno "ai cittadini e al Parlamento" (`01_carta_valori.md`). Il benchmark mostra convergenze sia con il governo sia con le opposizioni (`benchmark/confronto_programmi.md`). [Valutazione] Rendere visibili i valori invece di nasconderli è la risposta giusta all'accusa di falsa neutralità.
+**Sul metodo, sì, ed è il punto più forte.** [Fatto] La Carta non sceglie un unico insieme di pesi e separa le proposte "robuste" da quelle "dipendenti dai valori", che vanno "alla cittadinanza e al Parlamento" (`01_carta_valori.md`). Il benchmark mostra convergenze sia con il governo sia con le opposizioni (`benchmark/confronto_programmi.md`). [Valutazione] Rendere visibili i valori invece di nasconderli è la risposta giusta all'accusa di falsa neutralità.
 
 **Sul contenuto, un orientamento c'è.** [Valutazione] Non è destra né sinistra, ma è riconoscibile: riformismo tecnocratico, europeista, di rigore fiscale e di valutazione d'impatto. Esempi:
 - [Fatto] "Nessuna spesa in deficit" è una linea rossa (art. 81 nella Carta, valore FUT). La Difesa al 3,5% è classificata "Sfav. · linea rossa" (`20_programma_governai.md`, 07-C5). [Valutazione] Chi mette la sicurezza esterna al primo posto leggerà un giudizio politico travestito da vincolo contabile, anche se il documento lo ammette (§6).
@@ -45,7 +45,7 @@ Prima di altro codice serve una comunità: un'assemblea vera, presìdi fisici e 
 1. Una pagina "Il nostro orientamento" che dica in chiaro: rigore di bilancio, europeismo, valutazione delle politiche. Chiamarlo "orientamento di metodo" è più credibile che "né destra né sinistra".
 2. Presentare la scelta di Difesa, coperture strutturali e dividendo climatico come **schede di opzioni** alla pari, senza etichetta "sfavorevole" nel titolo.
 3. Far valutare le stesse proposte da un panel umano plurale (almeno tre sensibilità) e pubblicare la differenza con il panel AI.
-4. Riempire le lacune identitarie con schede di opzioni, come suggeriscono gli stessi ricercatori del benchmark.
+4. Riempire le lacune identitarie con schede di opzioni, come suggeriscono gli stesse ricercatrici e stessi ricercatori del benchmark.
 
 ## 3. Partecipazione: le persone decidono davvero qualcosa?
 
@@ -56,7 +56,7 @@ Prima di altro codice serve una comunità: un'assemblea vera, presìdi fisici e 
 | Partecipa via GitHub | [Fatto] Issue con modulo; un membro approva; l'AI risponde con diagnosi e tre opzioni (`CONTRIBUTING.md`). Analisi pubblicate: zero (`docs/data.js`, `"analisi":[]`) | [Valutazione] È una cassetta dei suggerimenti con filtro. Chi propone non decide nulla, e il filtro non ha criteri pubblici |
 | Domanda al Consiglio | [Fatto] Approvazione di un membro, poi seduta degli agenti. La seduta "Conti in ordine" nasce da un file in `governo/richieste/`, cioè dal canale dei membri | [Valutazione] La prima domanda "vera" l'ha scritta l'interno. Il cittadino chiede, gli agenti decidono |
 | Simulatore "I tuoi valori" | [Fatto] Riordina le proposte con i pesi del singolo (`design/02_architettura.md`) | [Valutazione] Utile per capire, ma è un gioco individuale: nessuno ne aggrega i risultati |
-| Assemblea dei sorteggiati | [Fatto] Prevista da 08-P1: 150 persone, sorteggio certificato ISTAT, indennità, rinnovo per metà ogni anno. Decide solo la "matrice dei valori" e "non vincola le Camere né il Governo" (`programma/schede/08_esteri.md`, art. 6) | [Valutazione] Ottimo disegno, ma esiste solo dopo una legge dello Stato. E ai cittadini lascia i pesi, non le scelte |
+| Assemblea dei sorteggiati | [Fatto] Prevista da 08-P1: 150 persone, sorteggio certificato ISTAT, indennità, rinnovo per metà ogni anno. Decide solo la "matrice dei valori" e "non vincola le Camere né il Governo" (`programma/schede/08_esteri.md`, art. 6) | [Valutazione] Ottimo disegno, ma esiste solo dopo una legge dello Stato. E alle cittadine e ai cittadini lascia i pesi, non le scelte |
 | Pesi democratici | [Fatto] Il motore userà i pesi dell'assemblea "quando avrà espresso i suoi pesi" (`01_carta_valori.md`, regola 8) | [Valutazione] Oggi i pesi sono di nessuno: tutte le combinazioni, cioè di fatto quelle scelte dall'architettura |
 
 **Che cosa manca per una partecipazione reale e inclusiva.**
@@ -79,7 +79,7 @@ Prima di altro codice serve una comunità: un'assemblea vera, presìdi fisici e 
 Menzione: 05-C5 Scuole aperte come presidi di comunità e 04-P6 aree interne, molto vicine alle liste civiche dei piccoli comuni.
 
 **Le 5 che lascerebbero freddi o allontanerebbero.**
-1. **08-P1 Legge GovernAI, così com'è.** [Fatto] Un ufficio di 70 unità presso le Camere, tre membri nominati dai Presidenti delle Camere; ai cittadini solo i pesi (`08_esteri.md`, artt. 3 e 6). [Valutazione] È la proposta-simbolo, ma l'astensionista legge "nuovo ufficio, nomine dall'alto, AI". E un movimento che fa della propria tecnologia la prima legge dei 100 giorni sembra parlare di sé.
+1. **08-P1 Legge GovernAI, così com'è.** [Fatto] Un ufficio di 70 unità presso le Camere, tre membri nominati dai Presidenti delle Camere; alle cittadine e ai cittadini solo i pesi (`08_esteri.md`, artt. 3 e 6). [Valutazione] È la proposta-simbolo, ma l'astensionista legge "nuovo ufficio, nomine dall'alto, AI". E un movimento che fa della propria tecnologia la prima legge dei 100 giorni sembra parlare di sé.
 2. **01-P3 IVA in tempo reale.** [Fatto] Blocco preventivo motivato fino a 30 giorni (verbale). [Valutazione] Giusta contro le frodi, ma il piccolo artigiano civico la sente come un'arma contro di lui. Va raccontata con le garanzie in testa.
 3. **02-C4 Reddito di inclusione, pilota randomizzato.** [Fatto] Randomizzazione a livello di nucleo con gruppo di controllo (verbale). [Valutazione] Per chi lavora nel sociale, "estrarre a sorte chi aiutare" è difficile da accettare, anche se il gruppo di controllo conserva le misure esistenti.
 4. **Le coperture del programma completo (SF13, SF11, SF14, SAD12).** [Fatto] IMU su prime case di valore alto, fine della cedolare libera, IVA sul gas domestico al 22% con bonus per ISEE fino a 15.000 euro (`coperture_menu.csv`). [Valutazione] Il ceto medio proprietario, molto presente tra i delusi, sente "nuove tasse sulla casa e sulle bollette".
@@ -92,7 +92,7 @@ Menzione: 05-C5 Scuole aperte come presidi di comunità e 04-P6 aree interne, mo
 **Elementi di antidoto.** [Fatto] Ruoli separati, verbali pubblici, catena di integrità, previsioni con punteggio di Brier, opposizione leale che deve dire "che cosa le farebbe cambiare idea", risposta scritta del capo a ogni obiezione (`governo/regolamento.md`). [Valutazione] Il verbale mostra un'opposizione che morde e un capo che accoglie le obiezioni, per esempio sulla copertura RB05 tolta alle madri. È più rendicontazione di quanta ne veda in molte giunte.
 
 **Elementi di potere opaco.**
-- [Fatto] Il regolamento vieta all'opposizione di "proporre misure proprie fuori dal programma" e agli esperti di esprimere preferenze politiche. [Valutazione] Il perimetro del dibattito è fissato a monte: si discute solo dentro le 62 proposte.
+- [Fatto] Il regolamento vieta all'opposizione di "proporre misure proprie fuori dal programma" e alle esperte e agli esperti di esprimere preferenze politiche. [Valutazione] Il perimetro del dibattito è fissato a monte: si discute solo dentro le 62 proposte.
 - [Fatto] Gli agenti seguono istruzioni (`governo/ruoli/`) che qualcuno ha scritto. [Valutazione] Il vero potere è di chi scrive prompt, rubrica e Carta. Oggi non c'è una regola pubblica su chi li cambia e con quale procedura.
 - [Fatto] La Carta è già alla versione 2.0 dopo pochi giorni (7 novembre 2026). [Valutazione] Bene che evolva; male che non si sappia chi ha deciso di aggiungere tre valori.
 - [Valutazione] La catena di integrità prova che un testo non è stato manomesso, non che sia giusto.
@@ -112,8 +112,8 @@ Menzione: 05-C5 Scuole aperte come presidi di comunità e 04-P6 aree interne, mo
 - *Promesse non mantenute.* [Fatto esterno] In Francia la Convention citoyenne pour le climat (150 sorteggiati, 2019-2020) aveva ricevuto la promessa di una ripresa "senza filtro" delle proposte; molte sono state poi modificate o scartate. [Valutazione] Se l'assemblea fissa i pesi e poi il "capo" AI deroga 30 volte, l'effetto è lo stesso.
 
 **Esperienze da cui imparare.**
-- [Fatto esterno] Irlanda: le assemblee di cittadini (2016-2018) hanno preparato referendum poi vinti, perché il Parlamento si era impegnato a rispondere.
-- [Fatto esterno] Ostbelgien: dal 2019 un Consiglio dei cittadini permanente sceglie i temi delle assemblee sorteggiate. È il modello più vicino a ciò che serve a GovernAI.
+- [Fatto esterno] Irlanda: le assemblee di cittadine e cittadini (2016-2018) hanno preparato referendum poi vinti, perché il Parlamento si era impegnato a rispondere.
+- [Fatto esterno] Ostbelgien: dal 2019 un Consiglio delle cittadine e dei cittadini permanente sceglie i temi delle assemblee sorteggiate. È il modello più vicino a ciò che serve a GovernAI.
 - [Fatto esterno] Taiwan (vTaiwan, Pol.is): strumenti che cercano il consenso tra gruppi diversi, non la maggioranza. Coerente con l'idea di "nucleo robusto".
 - [Fatto esterno] Italia: la Toscana ha una legge regionale sulla partecipazione con un'Autorità dedicata (l.r. 46/2013); la piattaforma pubblica per le firme di referendum e leggi di iniziativa popolare è attiva dal 2024. Sono alleati istituzionali naturali.
 
@@ -133,3 +133,5 @@ Menzione: 05-C5 Scuole aperte come presidi di comunità e 04-P6 aree interne, mo
 | Credibilità | **6** | Conti prudenti e limiti dichiarati; pesano agenti senza volto e assenza di governance del progetto. |
 | Neutralità percepita | **5** | Metodo plurale, ma contenuti riconoscibili (rigore, europeismo, coperture sulla casa) e lacune sui temi identitari. |
 | Idee (qualità delle proposte) | **7** | Proposte concrete, finanziate e verificabili; mancano lobby, conflitto di interessi e partecipazione locale. |
+
+*Testo rivisto il 9 novembre 2026 per un linguaggio inclusivo, senza cambiare il contenuto.*

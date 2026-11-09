@@ -17,7 +17,7 @@ Per ogni rapporto c'è un file `.csv` con le singole misure.
 
 ## Come è stato fatto
 
-Quattro ricercatori indipendenti hanno lavorato ciascuno su un gruppo di temi. Hanno seguito tre regole:
+Quattro ricerche indipendenti hanno coperto ciascuna un gruppo di temi, con tre regole:
 1. **Neutralità**: si descrivono le misure, non si giudicano i partiti.
 2. **Fonte per ogni misura**: leggi in Normattiva, testo della manovra, dossier parlamentari, UPB, programmi elettorali 2022, proposte di legge e stampa citata con il link.
 3. **Stato della misura**: per ciascuna è indicato se è *approvata*, *in discussione* o soltanto *proposta*.
@@ -67,8 +67,8 @@ La gran parte delle relazioni è *parziale*: obiettivi condivisi, strumenti dive
 | Povertà | Assegno universale provato prima con un pilota randomizzato | Governo: Assegno di inclusione per categorie. M5S: ritorno a un reddito più ampio |
 | Pensioni | Uscita flessibile con ricalcolo contributivo, nessuna nuova "quota" | Quota 103, Quota 41, blocco dell'età proposti da diversi attori |
 | Famiglia | Prima nidi esigibili e congedo dei padri, poi i bonus | Prevalenza dei bonus monetari nelle manovre |
-| Sanità | Nessun aumento automatico del fondo; regole, infermieri, spesa per i farmaci, risparmi solo se accertati | Governo +2,4 mld nel 2027; opposizioni chiedono il 7,5-8% del PIL |
-| Scuola | Il calo degli alunni libera risorse in parte reinvestite contro la dispersione | La manovra 2027 riduce l'organico senza reinvestire |
+| Sanità | Nessun aumento automatico del fondo; regole, personale infermieristico, spesa per i farmaci, risparmi solo se accertati | Governo +2,4 mld nel 2027; opposizioni chiedono il 7,5-8% del PIL |
+| Scuola | Il calo della popolazione scolastica libera risorse in parte reinvestite contro la dispersione | La manovra 2027 riduce l'organico senza reinvestire |
 | PA | Ogni sostituzione di personale decisa per competenze; automazione certificata | Turn over al 75% per il 2027 |
 | Grandi opere | Nessuna opera senza valutazione indipendente dei numeri, Ponte compreso | Il governo procede con il Ponte sullo Stretto |
 | Trasporto locale | Fondo vincolato e indicizzato | Il d.lgs. 147/2026 sopprime il Fondo TPL dal 2027 e lo sostituisce con una compartecipazione regionale all'IRPEF; la manovra 2027 ne registra l'effetto |
@@ -83,7 +83,7 @@ Sono lacune dichiarate, non scelte di merito.
 - **Cultura e beni culturali**: manca un'area dedicata.
 - **Abuso d'ufficio e responsabilità erariale**.
 
-Per i temi istituzionali i ricercatori suggeriscono il formato già usato per la Difesa: una **scheda di opzioni** con pro e contro, senza raccomandazione, lasciando la scelta alle persone.
+Per i temi istituzionali le ricerche suggeriscono il formato già usato per la Difesa: una **scheda di opzioni** con pro e contro, senza raccomandazione, lasciando la scelta alle persone.
 
 ## Da correggere nel programma di GovernAI
 
@@ -95,7 +95,7 @@ Il confronto ha fatto emergere quattro punti in cui il programma va aggiornato a
 
 ## Idee di altri da valutare
 
-Sono le idee più promettenti segnalate dai ricercatori, ognuna con la sua fonte nei rapporti. Spetta al Consiglio dei ministri valutarle con il metodo del programma: costi, coperture, valori, robustezza.
+Sono le idee più promettenti segnalate dalle ricerche, ognuna con la sua fonte nei rapporti. Spetta al Consiglio dei ministri valutarle con il metodo del programma: costi, coperture, valori, robustezza.
 
 **Fisco**
 - Conto unico per compensare crediti e debiti con la PA (centrodestra 2022).

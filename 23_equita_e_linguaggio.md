@@ -27,7 +27,7 @@ L'equità tra generazioni sta in un terzo valore, **Responsabilità verso il fut
 
 ### Le linee rosse
 
-- **EQU:** nessuna proposta che sposti i costi sui più deboli senza compensazione (art. 3, comma 2, e art. 53 Cost.).
+- **EQU:** nessuna proposta che sposti i costi su chi ha meno mezzi senza compensazione (art. 3, comma 2, e art. 53 Cost.).
 - **RIS:** nessuna proposta che violi i diritti fondamentali (artt. 2 e 3 Cost., Carta dei diritti fondamentali dell'Unione europea), anche se migliora gli altri valori.
 
 ### La regola sulle coperture regressive
@@ -57,7 +57,7 @@ GovernAI non sceglie una delle due. Le misura entrambe. Quanto peso dare all'una
 | Persone in povertà assoluta | **5,4 milioni (9,3%)**, 2025 | ISTAT, *La povertà in Italia 2025* (`dati/serie/02_cifre_puntuali_documenti.csv`) |
 | Minorenni in povertà assoluta | **1,136 milioni (12,5%)**, 2025 | idem |
 | Famiglie operaie in povertà assoluta | **14,3%**, 2025 | idem |
-| Occupati a rischio di povertà | **10,2%** (UE 8,3%), 2025; **18,8%** tra chi lavora in proprio | Eurostat `ilc_iw01` (`02_working_poor.csv`) |
+| Persone occupate a rischio di povertà | **10,2%** (UE 8,3%), 2025; **18,8%** tra chi lavora in proprio | Eurostat `ilc_iw01` (`02_working_poor.csv`) |
 | Retribuzioni contrattuali orarie reali | **−10,2%** rispetto a gennaio 2021, settembre 2026 | ISTAT e HICP, elaborazione GovernAI (`dati/verifiche/02_lavoro.md`) |
 | Indice di Gini, rapporto tra quintili | **dato da acquisire** | — |
 
@@ -67,7 +67,7 @@ I minorenni sono la fascia più povera. Lavorare non basta sempre a uscire dalla
 
 | Indicatore | Valore | Fonte |
 |---|---|---|
-| Posti al nido ogni 100 bambini sotto i 3 anni | **Sud 19,0**, Isole 19,5, Centro 40,4, Italia 31,6 (2023/24) | ISTAT, *Offerta di nidi* (`dati/verifiche/02_lavoro.md`) |
+| Posti al nido ogni 100 bambine e bambini sotto i 3 anni | **Sud 19,0**, Isole 19,5, Centro 40,4, Italia 31,6 (2023/24) | ISTAT, *Offerta di nidi* (`dati/verifiche/02_lavoro.md`) |
 | Giovani 18-24 che lasciano presto la scuola | **Isole 13,7%**, Nord-Ovest 7,0%, Italia 8,2% (2025) | Eurostat `edat_lfse_16` (`05_elet_18_24_nuts1.csv`) |
 | Giovani 15-29 che non studiano e non lavorano (NEET) | **Sicilia 22,8%**, Lombardia 8,5%, Italia 13,3% (2025) | Eurostat (`02_neet_15_29_regioni.csv`) |
 | Abitanti delle aree interne | **13,3 milioni** nel 2025; nel Mezzogiorno da 7,1 a **6,0 milioni** nel 2050 | ISTAT, previsioni base 1/1/2025 (`04_istat_previsioni_aree_interne.csv`) |
@@ -149,9 +149,9 @@ Legenda delle versioni (dal file `programma/selezione_intermedio.md`):
 | | 02-C7 Housing First dopo il PNRR | ESSENZIALE | Circa 6.000 persone senza dimora in casa, su 96.197 |
 | | 02-C1 Salario minimo contrattuale | ZERO | Solo regole: nessuna soglia di legge, nessuna nuova ispezione |
 | | 04-P2 Casa a canone giusto | FUORI | Il divario dell'affitto resta senza risposta |
-| **Territorio** | 04-P6 Servizi essenziali nelle aree interne | ESSENZIALE | 500 presidi e indennità per circa 35.000 medici, infermieri e insegnanti |
+| **Territorio** | 04-P6 Servizi essenziali nelle aree interne | ESSENZIALE | 500 presidi e indennità per circa 35.000 persone tra personale medico, infermieristico e docente |
 | | 05-C1 Squadre contro la dispersione; 05-C7 Quota svantaggio alle scuole | PIENA; ESSENZIALE | Risorse alle scuole più fragili, molte al Sud |
-| | 09-C3 Tecnici della Repubblica per i piccoli Comuni | ESSENZIALE | Aiuto mirato a Mezzogiorno e aree interne |
+| | 09-C3 Squadre tecniche della Repubblica per i piccoli Comuni | ESSENZIALE | Aiuto mirato a Mezzogiorno e aree interne |
 | | 04-P5 LEP prima dell'autonomia differenziata | ZERO | Regole sui livelli essenziali; il fabbisogno aggiuntivo non è finanziato |
 | | 03-P3 Reti idriche | ESSENZIALE | 5 regioni perdono oltre metà dell'acqua |
 | | 04-P3 Treni per pendolari | FUORI | |
@@ -159,14 +159,14 @@ Legenda delle versioni (dal file `programma/selezione_intermedio.md`):
 | | 02-C6 Bilancio generazionale e strategia demografica | ZERO | Obiettivi su occupazione femminile, senza spesa |
 | | 06-C4 Budget di cura per la non autosufficienza | PILOTA | Il lavoro di cura pesa soprattutto sulle donne: solo 20 ambiti |
 | **Generazioni** | 01-P1 Bilancio generazionale; 02-C3 Patto previdenziale | ZERO | Trasparenza su chi paga e quando |
-| | 05-C4 Più laureati e ITS | PIENA | Borsa garantita a chi ne ha diritto |
+| | 05-C4 Più persone laureate e ITS | PIENA | Borsa garantita a chi ne ha diritto |
 | | 05-C2 Conto personale di competenze | ESSENZIALE | Dote di 900 euro per adulti |
 | **Disabilità** | 02-C5 Progetto di vita e lavoro | ZERO | Collocamento mirato con banca dati e sanzioni; il progetto di vita pieno è rinviato |
 | **Origine** | 07-C3 Governance dei flussi fondata sui dati | ESSENZIALE | Più orientata a ingressi e rimpatri che all'inclusione |
 | | 05-C1 Mediatori nelle scuole fragili | PIENA | Effetto indiretto |
 | | Misura specifica per l'inclusione lavorativa delle persone straniere | assente | **Lacuna del programma** |
 | **Salute** | 06-C1 Tempo garantito; 06-C6 Prevenzione | ZERO | Nessun rimborso automatico in questo scenario |
-| | 06-C8 Infermieri di quartiere; 06-C9 Benessere a scuola | PILOTA | |
+| | 06-C8 Squadre infermieristiche di quartiere; 06-C9 Benessere a scuola | PILOTA | |
 | | 06-C2 Personale; 06-C3 Case della Comunità; 06-C5 Salute mentale | FUORI | È la missione più debole, come dice `programma/schema.yaml` |
 | **Persone detenute** | 07-C2 Pena utile: misure di comunità | ESSENZIALE | Obiettivo: affollamento da 128,8% a 105% in 5 anni |
 
@@ -175,7 +175,7 @@ Legenda delle versioni (dal file `programma/selezione_intermedio.md`):
 - **Pieno** dove l'equità passa dalla scuola: dispersione, ITS, scuole aperte.
 - **Ridotto** dove servono molti soldi: nidi, aree interne, Housing First.
 - **Sperimentale** dove l'incertezza è alta: povertà, non autosufficienza, cure a domicilio.
-- **Fuori** su casa, trasporto dei pendolari, personale sanitario e salute mentale.
+- **Fuori** su casa, trasporto di chi viaggia ogni giorno, personale sanitario e salute mentale.
 - **Lacune vere**: inclusione lavorativa delle persone straniere, divario salariale di genere, progetto di vita per le persone con disabilità.
 
 ---
@@ -189,7 +189,7 @@ Lo scenario intermedio attiva coperture per un gettito minimo di **7,37 miliardi
 | Codice | Chi paga | Gettito min. (mld) | EQU |
 |---|---|---|---|
 | SF06 | Detrazione sanitaria decrescente tra 50.000 e 120.000 euro di reddito (salve disabilità, malattie croniche gravi, non autosufficienza) | 0,35 | +2 |
-| SF07 | Iscritti ai fondi sanitari con reddito oltre 75.000 euro | 0,08 | +2 |
+| SF07 | Persone iscritte ai fondi sanitari con reddito oltre 75.000 euro | 0,08 | +2 |
 | PE04 | Pensioni oltre circa 3.700 euro lordi al mese (rivalutazione ridotta sulla sola quota alta) | 0,30 | +1 |
 | SF02 | Forfettari con ricavi tra 50.000 e 85.000 euro | 0,20 | +1 |
 | SAD05 | Auto aziendali a combustione | 0,15 | +1 |
@@ -260,12 +260,12 @@ Indicatori di **divario**, non solo medie. Base e obiettivi vengono da `apprendi
 
 | # | Indicatore | Base | Fonte | Obiettivo a 5 anni |
 |---|---|---|---|---|
-| 1 | Posti al nido ogni 100 bambini sotto i 3 anni, **Sud** (Italia 31,6) | 19,0 (2023/24) | ISTAT; 02-C2-a | **33** |
+| 1 | Posti al nido ogni 100 bambine e bambini sotto i 3 anni, **Sud** (Italia 31,6) | 19,0 (2023/24) | ISTAT; 02-C2-a | **33** |
 | 2 | Abbandono precoce della scuola 18-24, **Isole** (Italia 8,2%) | 13,7% (2025) | Eurostat; 05-C1-a | **9,5%** |
 | 3 | Occupazione delle **donne** 20-64 | 58,0% (2025) | Eurostat; 02-C2-c | **62,5%** |
 | 4 | **Divario di occupazione** per limitazioni gravi | 43,4 punti (2025) | Eurostat; 02-C5-a | **37 punti** |
 | 5 | Povertà assoluta dei **minorenni** | 12,5% (2025) | ISTAT; 02-C4-b | **10,5%** |
-| 6 | Occupati a rischio di povertà | 10,2% (2025) | Eurostat; 02-C1-a | **8,5%** |
+| 6 | Persone occupate a rischio di povertà | 10,2% (2025) | Eurostat; 02-C1-a | **8,5%** |
 | 7 | Rinuncia alle cure nel **quinto più povero** (media 2,5%) | 4,4% (2025) | Eurostat `hlth_silc_08` | **2,5%**, proposta di obiettivo |
 | 8 | Rapporto tra povertà assoluta delle famiglie di sole persone straniere e di sole persone italiane | 5,0 (29,4% / 5,9%, 2025) | ISTAT | **4,0**, proposta di obiettivo |
 | 9 | Spesa per la casa oltre il 40% del reddito, persone in affitto a prezzo di mercato | 22,3% (2025) | Eurostat; 04-P2-a | **17,5%** (misura 04-P2 fuori dal programma: obiettivo a rischio) |
@@ -333,7 +333,7 @@ Le regole che seguono hanno un limite chiaro: chiedono **rispetto e chiarezza**,
 - **Prova con le persone utenti**: ogni modulo riscritto si prova con un gruppo che comprende persone con disabilità intellettiva, persone anziane e persone che parlano poco l'italiano.
 - **Traduzione** delle istruzioni dei 20 servizi essenziali nelle 5-6 lingue più diffuse.
 
-**Costo stimato (stima GovernAI, ordine di grandezza):** circa **10-20 milioni di euro l'anno** per 3 anni, poi una manutenzione più bassa. La stima si basa su un costo ipotizzato di 50-100 mila euro per modulo (riscrittura, prova con utenti, traduzioni, adeguamento dei sistemi). Non ci sono fonti ufficiali nel repository: va verificata.
+**Costo stimato (stima GovernAI, ordine di grandezza):** circa **10-20 milioni di euro l'anno** per 3 anni, poi una manutenzione più bassa. La stima si basa su un costo ipotizzato di 50-100 mila euro per modulo (riscrittura, prova con chi usa i servizi, traduzioni, adeguamento dei sistemi). Non ci sono fonti ufficiali nel repository: va verificata.
 
 **Da dove viene il denaro:** RIALLOCAZIONE, cioè una quota dei risparmi su consulenze e assistenza tecnica esterna (RA03, RA08). Il fondo RIALLOCAZIONE nello scenario intermedio è quasi tutto impegnato (spesa 2,43 su capienza 2,44 mld). Quindi la misura entra solo **al posto di qualcos'altro** o con una copertura nuova. Per questo la proponiamo al panel e **non** la inseriamo nel programma.
 

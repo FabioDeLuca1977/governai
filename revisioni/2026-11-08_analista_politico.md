@@ -10,7 +10,7 @@ GovernAI è oggi un eccellente **laboratorio di politiche pubbliche aperto**, no
 
 | Asse | Voto | Motivazione |
 |---|---|---|
-| Utilità | **7/10** | Ottima per giornalisti, esperti e decisori come banca di proposte coperte e verificabili; poco leggibile oggi per il cittadino comune. |
+| Utilità | **7/10** | Ottima per giornalisti, esperte ed esperti e decisori come banca di proposte coperte e verificabili; poco leggibile oggi per il cittadino comune. |
 | Credibilità | **5/10** | Metodo e trasparenza notevoli, ma costi non certificati, "panel indipendente" composto da agenti AI, incoerenze tra documenti e nessun responsabile con nome e cognome. |
 | Neutralità percepita | **4/10** | Le coperture (successioni, IMU sulle prime case di pregio, cedolare secca, IVA) e la Difesa "sfavorevole" saranno lette come scelte di campo. |
 | Fattibilità politica | **2/10** | Mancano persone, leadership, radicamento, finanziamento e regole interne: oggi non esiste un soggetto politico, solo uno strumento. |
@@ -31,7 +31,7 @@ GovernAI è oggi un eccellente **laboratorio di politiche pubbliche aperto**, no
 **Per chi è utile oggi:**
 - giornalisti economici e fact-checker: confronto strutturato di 318 misure tra governo e partiti, con fonte e stato;
 - staff parlamentari e uffici studi: proposte "chiavi in mano" con copertura e rischi costituzionali;
-- docenti e studenti di politiche pubbliche: un caso didattico raro di trade-off espliciti;
+- docenti e studentesse e studenti di politiche pubbliche: un caso didattico raro di trade-off espliciti;
 - amministratori locali e reti civiche: idee a basso costo (Tecnici della Repubblica, beni confiscati, Chiedilo una volta sola).
 
 **Per chi non è ancora utile:** l'elettore medio. Non trova una risposta in una frase su ciò che gli cambia nella vita, né un volto di cui fidarsi.
@@ -100,16 +100,16 @@ GovernAI è oggi un eccellente **laboratorio di politiche pubbliche aperto**, no
 | **Openpolis** | Simulazione e ottimizzazione, non solo dati | Anni di reputazione, fondazione con governance chiara, dati citati dai media | Nessuno: è il modello di credibilità da imitare |
 | **M5S e Rousseau** | Regole pubbliche e verificabili, codice aperto, catena di integrità | Rousseau aveva comunque una comunità reale e un leader | Piattaforma controllata da pochi, opacità sulla governance, partecipazione bassa ma presentata come "democrazia diretta". Il Garante privacy ha sanzionato l'associazione Rousseau (2019) per carenze di sicurezza. Il conflitto tra M5S e Rousseau (2021) mostra che chi controlla la piattaforma controlla il partito |
 | **Partiti Pirata (LiquidFeedback)** | Più contenuti di policy, più verifica dei conti | Comunità attiva e democrazia interna strutturata | Ottimi processi, pochi voti: il metodo non sostituisce un messaggio |
-| **vTaiwan / Audrey Tang (Pol.is)** | Più profondità sui conti e sul diritto | vTaiwan cercava il **consenso tra cittadini**; GovernAI produce consenso tra agenti AI | Esiti non vincolanti che deludono i partecipanti; vTaiwan ha perso slancio quando il governo ha smesso di recepirne gli esiti |
+| **vTaiwan / Audrey Tang (Pol.is)** | Più profondità sui conti e sul diritto | vTaiwan cercava il **consenso tra cittadine e cittadini**; GovernAI produce consenso tra agenti AI | Esiti non vincolanti che deludono i partecipanti; vTaiwan ha perso slancio quando il governo ha smesso di recepirne gli esiti |
 | **Volt** | Programma quantificato e coperto | Persone, sezioni locali, presenza europea | Programma ottimo e identità "post-ideologica", ma risultati elettorali italiani marginali |
-| **Osservatorio CPI** | Copertura di tutti i settori, aggiornamento quotidiano | Firme riconoscibili (Cottarelli e ricercatori universitari), ancoraggio accademico | Il think tank è credibile perché non si candida; quando i fondatori entrano in politica la neutralità si perde |
+| **Osservatorio CPI** | Copertura di tutti i settori, aggiornamento quotidiano | Firme riconoscibili (Cottarelli e ricercatrici e ricercatori universitari), ancoraggio accademico | Il think tank è credibile perché non si candida; quando i fondatori entrano in politica la neutralità si perde |
 | **Partiti o candidati "AI"** (il Partito Sintetico danese del 2022, "AI Steve" nel Regno Unito nel 2024, la "ministra virtuale" Diella in Albania nel 2025) | Molto più sostanza | — | Sono stati percepiti come trovate mediatiche; AI Steve ha raccolto pochi voti, se ricordo bene alcune centinaia. Il tema "l'AI al governo" fa notizia una volta, poi diventa una battuta |
 
 **[Valutazione]** GovernAI ha più profondità di quasi tutti questi casi. Ha meno di tutti la cosa che li ha resi credibili o rilevanti: **persone riconoscibili e una comunità**. Rischia di ripetere due errori: quello di Rousseau (piattaforma e regole controllate da chi l'ha creata) e quello dei partiti AI (essere ricordato per lo strumento, non per le idee).
 
 ## 5. Fattibilità politica
 
-**[Fatto]** Oggi il progetto non ha: un responsabile pubblico, uno statuto, organi, iscritti, finanziamento, sedi, candidati. La partecipazione passa da GitHub, che il brief stesso riconosce come ostacolo («senza spaventare chi non conosce GitHub»). L'assemblea dei cittadini sorteggiati, che dovrebbe fissare i pesi, è citata in 37 punti dei documenti ma non esiste.
+**[Fatto]** Oggi il progetto non ha: un responsabile pubblico, uno statuto, organi, iscritti, finanziamento, sedi, candidati. La partecipazione passa da GitHub, che il brief stesso riconosce come ostacolo («senza spaventare chi non conosce GitHub»). L'assemblea civica di persone sorteggiate, che dovrebbe fissare i pesi, è citata in 37 punti dei documenti ma non esiste.
 
 **Che cosa manca, in ordine di gravità [Valutazione]:**
 1. **Persone e leadership.** In Italia si vota per volti e per comunità. Serve un gruppo fondatore pubblico, plurale e con competenze riconosciute.
@@ -122,7 +122,7 @@ GovernAI è oggi un eccellente **laboratorio di politiche pubbliche aperto**, no
 
 **Primi 12 mesi, se un gruppo volesse farne una base politica [Valutazione]:**
 - **mesi 1-3:** gruppo promotore pubblico (10-15 persone di provenienza politica diversa); associazione con statuto, bilancio e nomi; red team esterno;
-- **mesi 3-6:** prima assemblea di cittadini sorteggiati, anche piccola, sui pesi dei valori; partnership con un'università per validare il metodo;
+- **mesi 3-6:** prima assemblea civica di persone sorteggiate, anche piccola, sui pesi dei valori; partnership con un'università per validare il metodo;
 - **mesi 6-9:** applicazione a una città o a una regione (bilancio comunale, piano dei trasporti) con un'amministrazione disposta a provare;
 - **mesi 9-12:** decisione esplicita: restare think tank e piattaforma di servizio per tutti, oppure diventare lista civica locale. Non tentare le elezioni nazionali al primo anno.
 
@@ -151,7 +151,7 @@ In ordine di priorità:
 2. **Cambiare la promessa: da "neutrale" a "trasparente sulle sue scelte".** Sostituire "né destra né sinistra né centro" con qualcosa come "valori dichiarati, conti verificabili, decisioni alle persone". Pubblicare una pagina "Dove pendiamo", con le scelte che un elettore di ciascuna area troverà sgradite. Dichiarare il proprio orientamento disarma l'accusa di propaganda.
 3. **Red team politico umano, subito.** Il README lo chiede già. Concretamente: 4-6 revisori di aree diverse (anche ex staff di partiti di maggioranza e opposizione), con mandato scritto e risposte pubblicate. Priorità: Difesa, coperture su casa ed eredità, Semestre europeo come vincolo.
 4. **Rendere davvero indipendente il panel.** Usare modelli di AI di fornitori diversi, più almeno un valutatore umano per area; pubblicare l'accordo sui soli punteggi diversi da zero; testare il bias politico del sistema con le stesse proposte presentate con etichette di partiti diversi.
-5. **Far esistere l'assemblea dei cittadini sorteggiati**, anche in forma pilota (50-100 persone, con un partner accademico). È il pezzo che trasforma "l'AI propone" in "le persone decidono". Oggi è solo annunciato.
+5. **Far esistere l'assemblea civica di persone sorteggiate**, anche in forma pilota (50-100 persone, con un partner accademico). È il pezzo che trasforma "l'AI propone" in "le persone decidono". Oggi è solo annunciato.
 6. **Pulizia e semplificazione.** Allineare tutti i documenti alla Carta 2.0; togliere dal testo pubblico le formule da ottimizzatore; arrotondare le cifre; ridurre le decisioni per seduta. Per il cittadino: una pagina "Che cosa cambia per te" per 5-6 profili (studente, famiglia con figli, pensionato, partita IVA, dipendente del Sud).
 7. **Validazione esterna dei numeri.** Chiedere a un'università o a un centro studi di replicare 5 stime di costo e 5 di gettito. Pubblicare gli scarti.
 8. **Sicurezza e governance della piattaforma.** Statuto che dica chi può cambiare Carta, regolamento e codice; revisione delle modifiche da parte di almeno due persone; protezione dalla manipolazione dei documenti letti dall'AI; registrazione del marchio e degli account, per evitare imitazioni.
@@ -163,8 +163,10 @@ In ordine di priorità:
 - **Non cercare il sostegno di un partito esistente** prima di aver costruito il comitato plurale: si verrebbe subito classificati come sua appendice.
 - **Non pubblicare cifre più precise di quanto le stime consentano.**
 - **Non rispondere alle critiche di parzialità negando**: rispondere mostrando il dato, la regola e la modifica fatta.
-- **Non usare dati personali o profilazione degli elettori** per la diffusione: contraddirebbe il valore 9 e attirerebbe il Garante.
+- **Non usare dati personali o profilazione delle elettrici e degli elettori** per la diffusione: contraddirebbe il valore 9 e attirerebbe il Garante.
 
 ---
 
 *Fonti consultate nel progetto: `README.md`, `01_carta_valori.md`, `20_programma_governai.md`, `governo/regolamento.md`, `governo/verbali/2026-11-08-1-conti-in-ordine.md` (estratti), `benchmark/confronto_programmi.md`, `costituzione/esami/governai_conti_2027_2029.md` (estratto), `programma/coperture_menu.md` (estratti), `motore/README.md` ed `esito.md` (estratti), `design/01_brief.md`, home del sito pubblico. Le esperienze esterne sono citate da conoscenza generale: i dettagli segnalati come incerti vanno verificati prima di un uso pubblico.*
+
+*Testo rivisto il 9 novembre 2026 per un linguaggio inclusivo, senza cambiare il contenuto.*

@@ -8,7 +8,7 @@
 
 **Ministeri coperti:** Ministro per la Pubblica amministrazione (Dipartimento della Funzione pubblica) e delega all'Innovazione tecnologica e Transizione digitale (Dipartimento per la trasformazione digitale, AgID; coordinamento con l'Agenzia per la cybersicurezza nazionale – ACN, che fa capo alla Presidenza del Consiglio).
 
-**Competenze principali:** reclutamento, carriere, formazione e contrattazione del personale pubblico (circa 3,37–3,39 milioni di dipendenti); semplificazione amministrativa; capacità amministrativa e attuazione; indirizzo sugli appalti pubblici (in raccordo con MIT e ANAC); identità digitale (SPID, CIE, IT-Wallet); interoperabilità dei dati (PDND); cloud nazionale (PSN); uso dell'intelligenza artificiale nella PA; cybersicurezza "civile" degli enti; competenze digitali dei cittadini.
+**Competenze principali:** reclutamento, carriere, formazione e contrattazione del personale pubblico (circa 3,37–3,39 milioni di dipendenti); semplificazione amministrativa; capacità amministrativa e attuazione; indirizzo sugli appalti pubblici (in raccordo con MIT e ANAC); identità digitale (SPID, CIE, IT-Wallet); interoperabilità dei dati (PDND); cloud nazionale (PSN); uso dell'intelligenza artificiale nella PA; cybersicurezza "civile" degli enti; competenze digitali della cittadinanza.
 
 **Budget indicativo:** la spesa per redditi da lavoro dipendente delle amministrazioni pubbliche vale **203,3 mld € nel 2025** (9,0% del PIL; Eurostat, gov_10a_main, 2026); la componente digitale nazionale è stata finanziata soprattutto dalla Missione 1 Componente 1 del PNRR (9,75 mld € di risorse RRF per "Digitalizzazione, innovazione e sicurezza nella PA", testo PNRR 2021; importo dopo le revisioni non verificato), che **si chiude nel 2026**: il problema centrale del prossimo ciclo è il "dopo-PNRR", cioè chi paga la manutenzione di ciò che è stato costruito.
 
@@ -20,8 +20,8 @@
 
 ### B1. Una PA anziana, sottodimensionata in profili tecnici, alla vigilia di un'ondata di pensionamenti
 - Età media dei dipendenti pubblici stabili: circa **49 anni e 4 mesi** (RGS, Conto annuale 2024, ripreso da Teleborsa, luglio 2026; sito RGS non raggiungibile per la verifica diretta); il **54%** ha più di 50 anni e oltre **121.000** hanno già 65 anni o più (quest'ultimo dato non ritrovato in fonte primaria) (Conto annuale RGS 2024, pubblicato 2025; [Affaritaliani](https://www.affaritaliani.it/economia/piu-dipendenti-pubblici-soprattutto-piu-giovani-ma-meta-del-personale-ha-oltre-50-anni.html); [Teleborsa 2026](https://www.teleborsa.it/News/2026/07/07/pa-al-bivio-generazionale-in-un-anno-33percent-di-dipendenti-pubblici-under-30-209.html)).
-- Dipendenti pubblici nel 2024: **3.373.682** secondo [Avvenire, set. 2025](https://www.avvenire.it/economia/lavoro/lavoratori-pubblici-in-crescita_97745), **3.388.794** (+1,8%) secondo altre riprese dello stesso Conto annuale RGS 2024 (divergenza non risolta: primario non raggiungibile); **5,7 ogni 100 abitanti** (su 58,97 mln residenti, Eurostat), contro 8,3 in Francia e 6,3 in Germania (FPA, *Lavoro pubblico 2025*, confronto non verificato su fonte primaria). Il problema non è "troppi statali" ma **pochi profili tecnici** (ingegneri, informatici, statistici, esperti di appalti).
-- Quota di profili ICT sul totale del personale pubblico: nessun dato ufficiale. Come riferimento, gli specialisti ICT sono il **3,8% degli occupati** nell'intera economia italiana, contro il 5,0% UE, e la quota è in calo dal 4,1% del 2023 (Eurostat, isoc_sks_itspt, 2025).
+- Dipendenti pubblici nel 2024: **3.373.682** secondo [Avvenire, set. 2025](https://www.avvenire.it/economia/lavoro/lavoratori-pubblici-in-crescita_97745), **3.388.794** (+1,8%) secondo altre riprese dello stesso Conto annuale RGS 2024 (divergenza non risolta: primario non raggiungibile); **5,7 ogni 100 abitanti** (su 58,97 mln residenti, Eurostat), contro 8,3 in Francia e 6,3 in Germania (FPA, *Lavoro pubblico 2025*, confronto non verificato su fonte primaria). Il problema non è "troppi statali" ma **pochi profili tecnici** (ingegneri, informatici, statistici, esperte ed esperti di appalti).
+- Quota di profili ICT sul totale del personale pubblico: nessun dato ufficiale. Come riferimento, gli specialisti ICT sono il **3,8% delle persone occupate** nell'intera economia italiana, contro il 5,0% UE, e la quota è in calo dal 4,1% del 2023 (Eurostat, isoc_sks_itspt, 2025).
 
 ### B2. Capacità amministrativa debole e frammentata, soprattutto nei piccoli enti
 - **7.896 comuni**, di cui il **69,9% sotto i 5.000 abitanti** (5.522 comuni, dove vive il 16,3% della popolazione) e 2.030 sotto i 1.000 (ISTAT, popolazione residente al 1° gennaio 2026): enti senza un ufficio tecnico o informatico in grado di gestire progetti complessi.
@@ -41,10 +41,10 @@
 - Nel I semestre 2025 l'Italia ha subito il **10,2%** degli incidenti cyber gravi rilevati nel mondo (280 su 2.755), pur pesando circa l'1–2% del PIL mondiale; l'hacktivism è salito al **54%** degli incidenti italiani, con forte esposizione del settore governativo (Clusit, Rapporto 2025 e aggiornamento semestrale; [Punto Informatico](https://www.punto-informatico.it/attacchi-informatici-italia-maglia-nera/)). Nel I semestre 2026 gli incidenti noti in Italia sono 245 (dato di stampa sul Rapporto Clusit di metà 2026).
 - I comuni e le ASL rientrano progressivamente negli obblighi NIS2 ma senza personale dedicato.
 
-### B6. Competenze digitali dei cittadini: progresso rapido ma lontano dal target
+### B6. Competenze digitali della cittadinanza: progresso rapido ma lontano dal target
 - Persone 16–74 anni con competenze digitali almeno di base: **54,3% nel 2025**, +8,5 punti sul 2023 (45,8%; la rilevazione è biennale); media UE **60,4%**; target UE 2030: **80%** (Eurostat, isoc_sk_dskl_i21; ISTAT, aprile 2026).
-- Servizi pubblici digitali: l'offerta è sopra la media UE (punteggio **86,1/100** per i cittadini contro 84,6 UE; 96,8 per i servizi ai cittadini nazionali; e-health 89,9 contro 86,5), ma l'uso è sotto: nel 2025 il **43,5%** dei 16–74enni ha interagito online con la PA, contro il 57,7% UE (Commissione UE, *State of the Digital Decade 2026*; Eurostat, isoc_ciegi_ac). Il divario non è più nell'offerta di servizi, ma nella capacità di usarli.
-- Il divario è concentrato su anziani, Mezzogiorno e persone a bassa istruzione: esattamente gli utenti più dipendenti dai servizi pubblici.
+- Servizi pubblici digitali: l'offerta è sopra la media UE (punteggio **86,1/100** per le cittadine e i cittadini contro 84,6 UE; 96,8 per i servizi alle cittadine e ai cittadini nazionali; e-health 89,9 contro 86,5), ma l'uso è sotto: nel 2025 il **43,5%** dei 16–74enni ha interagito online con la PA, contro il 57,7% UE (Commissione UE, *State of the Digital Decade 2026*; Eurostat, isoc_ciegi_ac). Il divario non è più nell'offerta di servizi, ma nella capacità di usarli.
+- Il divario è concentrato su persone anziane, Mezzogiorno e persone a bassa istruzione: esattamente gli utenti più dipendenti dai servizi pubblici.
 
 ---
 
@@ -70,7 +70,7 @@
 
 **Costo e copertura:** 0,05–0,1 mld €/anno a regime (personale tecnico ~150–250 unità tra DTD, ISTAT, UPB; infrastruttura su PSN; audit) — stima GovernAI (nessuna stima ufficiale disponibile). Copertura: riallocazione di quote dei fondi ordinari per l'informatica pubblica (piano triennale AgID) e risparmi su consulenze esterne per AIR/studi di impatto.
 
-**Vincitori e perdenti:** guadagnano cittadini, Parlamento (soprattutto l'opposizione), ricercatori, giornalisti, imprese che usano i dati. Perdono rendite informative di uffici e consulenti; ministeri che preferiscono non esporre le ipotesi. Effetto distributivo neutro per reddito; leggermente positivo per i territori con meno capacità di analisi (accesso gratuito a modelli).
+**Vincitori e perdenti:** guadagnano cittadine e cittadini, Parlamento (soprattutto l'opposizione), ricercatrici e ricercatori, giornalisti, imprese che usano i dati. Perdono rendite informative di uffici e consulenti; ministeri che preferiscono non esporre le ipotesi. Effetto distributivo neutro per reddito; leggermente positivo per i territori con meno capacità di analisi (accesso gratuito a modelli).
 
 **Valutazione tre orizzonti:**
 
@@ -109,7 +109,7 @@
 
 **Costo e copertura:** 0,2–0,4 mld €/anno per 3 anni (integrazioni API, supporto ai comuni via centri di competenza regionali) — stima GovernAI (nessuna stima ufficiale disponibile). Copertura: quota del Fondo per l'innovazione e risparmi di tempo-uffici; gli indennizzi sono a carico dei bilanci degli enti inadempienti (incentivo, non costo netto se si adeguano).
 
-**Vincitori e perdenti:** vincono cittadini e PMI (meno tempo, meno intermediari), soprattutto chi ha meno tempo e competenze; perdono intermediari che vivono di pratiche (parzialmente: CAF e patronati si riconvertono in assistenza), enti con sistemi informativi obsoleti (devono investire). Territoriale: rischio che i comuni piccoli del Sud paghino più indennizzi → serve supporto preventivo (C3).
+**Vincitori e perdenti:** vincono cittadine e cittadini e PMI (meno tempo, meno intermediari), soprattutto chi ha meno tempo e competenze; perdono intermediari che vivono di pratiche (parzialmente: CAF e patronati si riconvertono in assistenza), enti con sistemi informativi obsoleti (devono investire). Territoriale: rischio che i comuni piccoli del Sud paghino più indennizzi → serve supporto preventivo (C3).
 
 **Valutazione tre orizzonti:**
 
@@ -129,7 +129,7 @@
 
 ---
 
-### C3. "Tecnici della Repubblica": pool nazionale di competenze condivise per i piccoli enti e ricambio generazionale mirato
+### C3. "Squadre tecniche della Repubblica": pool nazionale di competenze condivise per i piccoli enti e ricambio generazionale mirato
 
 **In una frase:** invece di chiedere a ogni piccolo comune di avere il suo ingegnere, informatico ed esperto di gare, lo Stato crea squadre di tecnici pubblici condivise, assunte giovani e pagate in modo competitivo.
 
@@ -144,7 +144,7 @@
 
 **Costo e copertura:** 0,4–0,7 mld €/anno a regime — stima GovernAI (pari a 0,2–0,35% dei 203 mld € di redditi da lavoro dipendente delle AP nel 2025). Copertura: (i) quota del turnover già autorizzato (sostituzione di pensionamenti con profili tecnici invece che amministrativi generici); (ii) risparmi su consulenze esterne e su gare frammentate (prezzi unitari più bassi con aggregazione); (iii) fondi di coesione 2028-2034 per i territori in ritardo. Coerente col percorso di spesa netta se finanziato a invarianza di spesa per personale complessiva.
 
-**Vincitori e perdenti:** vincono piccoli comuni (specie aree interne e Mezzogiorno), giovani laureati STEM, imprese fornitrici (gare migliori, pagamenti più rapidi). Perdono parzialmente: consulenti esterni, posizioni amministrative generiche non sostituite; amministratori locali che perdono controllo diretto sulle gare. Età: favorisce under 35. Territorio: redistributivo verso aree fragili.
+**Vincitori e perdenti:** vincono piccoli comuni (specie aree interne e Mezzogiorno), giovani con laurea STEM, imprese fornitrici (gare migliori, pagamenti più rapidi). Perdono parzialmente: consulenti esterni, posizioni amministrative generiche non sostituite; amministratori locali che perdono controllo diretto sulle gare. Età: favorisce under 35. Territorio: redistributivo verso aree fragili.
 
 **Valutazione tre orizzonti:**
 
@@ -160,7 +160,7 @@
 
 **Indicatori e clausola di revisione:** tempi medi di aggiudicazione e di esecuzione degli appalti negli enti aderenti; capacità di spesa dei fondi di coesione; età media dei profili tecnici; tempi di pagamento *effettivi* (non solo ITP); incidenti cyber negli enti aderenti. Revisione a 4 anni con valutazione controfattuale (enti aderenti vs non aderenti).
 
-**Evidenze:** Regno Unito, *Government Digital Service* e *Government Digital and Data Profession*; Francia, *Agence nationale de la cohésion des territoires* e *DINUM*; in Italia, l'esperienza dei 1.000 esperti PNRR e di Invitalia come centrale di committenza; letteratura OCSE sulla capacità amministrativa multilivello.
+**Evidenze:** Regno Unito, *Government Digital Service* e *Government Digital and Data Profession*; Francia, *Agence nationale de la cohésion des territoires* e *DINUM*; in Italia, l'esperienza dei 1.000 esperte ed esperti PNRR e di Invitalia come centrale di committenza; letteratura OCSE sulla capacità amministrativa multilivello.
 
 ---
 
@@ -179,13 +179,13 @@
 
 **Costo e copertura:** 0,3–0,5 mld €/anno per 5 anni, poi decrescente — stima GovernAI, possibilmente sottostimata visto che sono migrate al cloud circa 13.000 PA (DTD, 2026). Copertura: risparmi energetici e di licenze da consolidamento dei data center (da misurare), quota del Fondo per la Repubblica digitale, fondi strutturali FESR 2028-2034 per la componente cyber.
 
-**Vincitori e perdenti:** vincono cittadini (continuità dei servizi), enti piccoli, fornitori cloud qualificati; perdono fornitori legacy di hosting locale; il bilancio statale sostiene un costo nuovo ma evita perdite di investimento già sostenuto. Territorio: neutro o lievemente positivo per il Sud (meno capacità di autofinanziamento).
+**Vincitori e perdenti:** vincono cittadine e cittadini (continuità dei servizi), enti piccoli, fornitori cloud qualificati; perdono fornitori legacy di hosting locale; il bilancio statale sostiene un costo nuovo ma evita perdite di investimento già sostenuto. Territorio: neutro o lievemente positivo per il Sud (meno capacità di autofinanziamento).
 
 **Valutazione tre orizzonti:**
 
 | Orizzonte | Punteggio | Motivazione | Confidenza |
 |---|---|---|---|
-| Breve | 0 | Costo nuovo per il bilancio senza benefici visibili ai cittadini (si evita un danno) | Alta |
+| Breve | 0 | Costo nuovo per il bilancio senza benefici visibili alle cittadine e ai cittadini (si evita un danno) | Alta |
 | Medio | +2 | Servizi continui, meno incidenti, risparmi energetici e di licenze | Media |
 | Lungo | +2 | Preserva il capitale pubblico digitale; autonomia strategica se si evita il lock-in | Media |
 
@@ -201,7 +201,7 @@
 
 ### C5. AI nella PA "con le mani sul volante": albo dei sistemi, valutazione d'impatto sui diritti e alfabetizzazione di massa
 
-**In una frase:** l'intelligenza artificiale entra negli uffici pubblici per risparmiare tempo, ma ogni sistema è registrato, valutato e sempre sotto il controllo di un funzionario responsabile, e lo Stato forma i cittadini e i dipendenti a usarla.
+**In una frase:** l'intelligenza artificiale entra negli uffici pubblici per risparmiare tempo, ma ogni sistema è registrato, valutato e sempre sotto il controllo di un funzionario responsabile, e lo Stato forma la cittadinanza e i dipendenti a usarla.
 
 **Problema affrontato:** B1 (produttività di una PA che si riduce per pensionamenti), B6 (competenze digitali), B3.
 
@@ -210,11 +210,11 @@
 2. *Moratoria sull'IA nella PA* fino a piena maturità del quadro UE. Scartata: lascia l'uso sommerso e perde produttività proprio mentre il personale invecchia.
 3. *Adozione regolata*: albo pubblico dei sistemi (collegato al registro C1), valutazione d'impatto sui diritti fondamentali (FRIA, già prevista dall'AI Act per i sistemi ad alto rischio) estesa a tutti i sistemi che incidono su provvedimenti, piattaforma IA condivisa su PSN con modelli aperti dove possibile, formazione obbligatoria. **Scelta**.
 
-**Meccanismo:** direttiva del Ministro PA + DPCM: (a) albo AgID dei sistemi IA in uso nella PA, con esito pubblico della FRIA; (b) divieto di decisioni automatizzate con effetti giuridici senza revisione umana motivata (art. 22 GDPR, art. 14 l. 132/2025); (c) "assistente pubblico" condiviso per redazione atti, sintesi, risposte ai cittadini, gestito su infrastruttura qualificata, con log consultabili dall'audit; (d) formazione: 24 ore obbligatorie in IA e dati per ogni dipendente in 3 anni (sulla piattaforma Syllabus esistente) e "Punti digitali facilitati" potenziati per i cittadini over 65; (e) quota dei risparmi di tempo misurati reinvestita nei servizi allo sportello, non in tagli lineari.
+**Meccanismo:** direttiva del Ministro PA + DPCM: (a) albo AgID dei sistemi IA in uso nella PA, con esito pubblico della FRIA; (b) divieto di decisioni automatizzate con effetti giuridici senza revisione umana motivata (art. 22 GDPR, art. 14 l. 132/2025); (c) "assistente pubblico" condiviso per redazione atti, sintesi, risposte alla cittadinanza, gestito su infrastruttura qualificata, con log consultabili dall'audit; (d) formazione: 24 ore obbligatorie in IA e dati per ogni dipendente in 3 anni (sulla piattaforma Syllabus esistente) e "Punti digitali facilitati" potenziati per le cittadine e i cittadini over 65; (e) quota dei risparmi di tempo misurati reinvestita nei servizi allo sportello, non in tagli lineari.
 
 **Costo e copertura:** 0,15–0,3 mld €/anno — stima GovernAI. Copertura: fondi della formazione (contratti collettivi già prevedono ore obbligatorie), FSE+, quota del fondo C4; risparmi su licenze singole duplicate.
 
-**Vincitori e perdenti:** vincono dipendenti (meno lavoro ripetitivo), cittadini (risposte più rapide), anziani e persone con minore istruzione (facilitazione). Rischio di perdenti: cittadini soggetti a errori algoritmici, se i controlli falliscono; dipendenti con mansioni esecutive (riconversione, non licenziamento). Età: forte beneficio per gli over 65 se la facilitazione funziona; rischio di esclusione se si digitalizza senza canali alternativi → diritto al canale umano garantito.
+**Vincitori e perdenti:** vincono dipendenti (meno lavoro ripetitivo), cittadine e cittadini (risposte più rapide), persone anziane e persone con minore istruzione (facilitazione). Rischio di perdenti: cittadine e cittadini soggetti a errori algoritmici, se i controlli falliscono; dipendenti con mansioni esecutive (riconversione, non licenziamento). Età: forte beneficio per gli over 65 se la facilitazione funziona; rischio di esclusione se si digitalizza senza canali alternativi → diritto al canale umano garantito.
 
 **Valutazione tre orizzonti:**
 
@@ -246,7 +246,7 @@
 | **Difesa / Interno (ACN, cybersicurezza)** | Sinergia/Conflitto | Cybersicurezza civile (C3, C4) va coordinata con ACN e difesa cibernetica; tensione tra trasparenza (C1) e segreto/sicurezza nazionale. |
 | **Ambiente ed Energia** | Conflitto | Data center e IA aumentano la domanda elettrica; serve coerenza con target clima. Sinergia: C1 rende pubblici i modelli climatici e le valutazioni di impatto ambientale. |
 | **Mezzogiorno / Coesione** | Sinergia | Pool tecnici e cloud finanziabili con fondi coesione; principale leva per spendere meglio le risorse UE. |
-| **Istruzione, Università e Ricerca** | Sinergia | Competenze digitali, reclutamento di laureati STEM, accesso dei ricercatori ai dati (C1). |
+| **Istruzione, Università e Ricerca** | Sinergia | Competenze digitali, reclutamento di persone laureate STEM, accesso delle ricercatrici e dei ricercatori ai dati (C1). |
 | **Salute** | Sinergia | ASL nel perimetro cloud/cyber; fascicolo sanitario e once-only sanitario. |
 | **Tutti i ministeri** | Sinergia strutturale | C1 è la precondizione tecnica per la valutazione a tre orizzonti richiesta dal metodo GovernAI a ogni area. |
 
@@ -256,7 +256,7 @@
 
 > Sei l'agente ministeriale permanente di GovernAI per la **Pubblica amministrazione e la Transizione digitale**. Sei un consigliere etico e tecnico: produci analisi, opzioni e compromessi espliciti; non decidi. La decisione spetta a organi umani responsabili (artt. 1, 95, 97 Cost.; AI Act; art. 14 l. 132/2025).
 >
-> **Competenze:** personale pubblico (reclutamento, carriere, formazione, contrattazione), semplificazione e capacità amministrativa, appalti pubblici e qualificazione delle stazioni appaltanti, identità digitale (SPID, CIE, IT-Wallet/EUDI), interoperabilità (PDND, once-only), cloud pubblico (PSN e cloud qualificati), IA nella PA, cybersicurezza civile (NIS2), competenze digitali dei cittadini. Sei anche il **custode dell'infrastruttura di GovernAI**: dati aperti, modelli open source, registro pubblico delle analisi, audit indipendente.
+> **Competenze:** personale pubblico (reclutamento, carriere, formazione, contrattazione), semplificazione e capacità amministrativa, appalti pubblici e qualificazione delle stazioni appaltanti, identità digitale (SPID, CIE, IT-Wallet/EUDI), interoperabilità (PDND, once-only), cloud pubblico (PSN e cloud qualificati), IA nella PA, cybersicurezza civile (NIS2), competenze digitali della cittadinanza. Sei anche il **custode dell'infrastruttura di GovernAI**: dati aperti, modelli open source, registro pubblico delle analisi, audit indipendente.
 >
 > **Fonti da consultare sempre, nella versione più recente:** RGS Conto annuale e monitoraggio tempi di pagamento; Funzione pubblica e ARAN; ISTAT (censimento istituzioni pubbliche, competenze digitali, BES); Commissione UE (Digital Decade/DESI); AgID (piano triennale, dati SPID/CIE, linee guida IA); PDND e Developers Italia; ACN e Clusit; ANAC (banca dati contratti, elenco stazioni qualificate); Corte dei conti; UPB; OCSE (*Government at a Glance*, *Digital Government Index*); Italia Domani (PNRR). Se un dato non è verificato scrivi "stima, da verificare". Distingui sempre il dato ufficiale da quello misurato in modo indipendente (es. tempi di pagamento ITP vs tempi effettivi).
 >

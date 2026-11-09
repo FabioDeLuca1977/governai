@@ -8,7 +8,7 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 01-P1,FUT,1,2,2,M,no,"Valutazione a 30 anni su debito, clima e coorti; rischio di adempimento formale"
 01-P1,EQU,0,0,0,M,no,L'equità tra generazioni sta in FUT; nessun effetto distributivo tra persone o territori
 01-P1,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
-01-P1,CIT,0,1,1,M,no,Cittadini informati sui costi differiti delle leggi
+01-P1,CIT,0,1,1,M,no,Cittadine e cittadini informati sui costi differiti delle leggi
 01-P10,RIS,0,0,0,M,no,Divieto di variabili sensibili e test di distorsione; resta il rischio di falsi positivi su contribuenti onesti
 01-P10,FID,1,2,2,M,no,"Riduce il gap IRPEF autonomi; registro pubblico dei modelli, audit indipendente e relazione alle Camere"
 01-P10,INN,1,1,1,M,no,"Analisi del rischio su dati esistenti, sul modello Danimarca e HMRC Connect"
@@ -89,14 +89,14 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 01-P6,EQU,1,1,1,M,no,"Paga chi visita, beneficia chi abita; premi alle aree interne"
 01-P6,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
 01-P6,CIT,0,1,1,B,no,Autonomia dei comuni e gettito destinato ai residenti
-01-P7,RIS,1,2,2,M,no,Il cittadino non è una pratica; canali postali e assistiti tutelano gli anziani dall'esclusione digitale
+01-P7,RIS,1,2,2,M,no,Il cittadino non è una pratica; canali postali e assistiti tutelano le persone anziane dall'esclusione digitale
 01-P7,FID,1,2,2,M,no,"Conto chiaro, rimborsi certi, nessuna sanzione sui dati di terzi; evidenze danesi e svedesi, rischio di attuazione"
 01-P7,INN,1,2,2,M,no,Servizio proattivo costruito su dati già disponibili all'Agenzia
 01-P7,BEN,1,1,1,M,no,Meno tempo e costi di adempimento; rimborsi entro luglio. Perdono in parte gli intermediari
 01-P7,APC,0,0,0,A,no,Nessun effetto rilevante su istruzione e cultura
 01-P7,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
 01-P7,FUT,0,0,0,M,no,"Costo coperto da riordino delle spese fiscali, nessun deficit"
-01-P7,EQU,1,2,2,M,no,Restituisce crediti oggi persi a 2-3 milioni di pensionati e titolari di sola CU
+01-P7,EQU,1,2,2,M,no,Restituisce crediti oggi persi a 2-3 milioni di persone in pensione e titolari di sola CU
 01-P7,SIC,0,0,0,M,no,Nessun nuovo incrocio di dati oltre l'IBAN
 01-P7,CIT,0,1,1,B,no,"Più adempimento spontaneo, ma il silenzio-assenso riduce il controllo attivo del cittadino"
 01-P8,RIS,0,0,0,M,no,"Sanità, disabilità e non autosufficienza salvaguardate; lieve riduzione del sostegno alla scelta educativa"
@@ -116,7 +116,7 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 01-P9,APC,0,0,0,A,no,Nessun effetto rilevante su istruzione e cultura
 01-P9,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
 01-P9,FUT,0,0,0,M,no,"Coperta con riordino delle spese fiscali, senza deficit; rischio se le coperture non si realizzano"
-01-P9,EQU,0,0,0,M,no,"Corregge un'anomalia di progressività ma il beneficio va ai decili 8-9, non ai più poveri"
+01-P9,EQU,0,0,0,M,no,"Corregge un'anomalia di progressività ma il beneficio va ai decili 8-9, non alle persone più povere"
 01-P9,SIC,0,0,0,A,no,Nessun effetto rilevante sulla sicurezza
 01-P9,CIT,0,1,1,B,no,Marginale più bassa riduce il disincentivo a lavorare di più e a dichiarare
 02-C1,RIS,1,2,2,M,no,Retribuzione proporzionata e sufficiente (art. 36) per tutti i dipendenti
@@ -126,14 +126,14 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 02-C1,APC,0,0,0,A,no,Nessun effetto rilevante su istruzione e cultura
 02-C1,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
 02-C1,FUT,0,0,1,B,no,Pensioni contributive piu adeguate; copertura da recupero evasione non crea spazio sotto il tetto
-02-C1,EQU,2,2,2,M,no,Alza il pavimento per i lavoratori poveri; rischio di sommerso nelle micro-imprese del Sud
+02-C1,EQU,2,2,2,M,no,Alza il pavimento per le lavoratrici e i lavoratori poveri; rischio di sommerso nelle micro-imprese del Sud
 02-C1,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
 02-C1,CIT,0,1,1,B,no,Lavoro che paga e controlli sul rispetto delle regole rafforzano la reciprocità
 02-C2,RIS,1,2,2,M,no,Pari opportunità di genere e cura condivisa tra padri e madri
 02-C2,FID,0,0,0,M,no,Nessun effetto rilevante sulla trasparenza istituzionale
 02-C2,INN,0,0,0,M,no,Nessun effetto rilevante su innovazione
 02-C2,BEN,1,2,2,M,no,Piu occupazione femminile e meno poverta infantile; perdono i beneficiari dei bonus riordinati
-02-C2,APC,0,1,2,M,no,Nido di qualita produce effetti cognitivi documentati sui bambini dei ceti bassi
+02-C2,APC,0,1,2,M,no,Nido di qualita produce effetti cognitivi documentati sulle bambine e sui bambini dei ceti bassi
 02-C2,BPA,0,0,0,M,no,Nessun effetto rilevante su patrimonio e accoglienza
 02-C2,FUT,0,1,1,B,no,"Effetto moderato sulla fecondita; copertura CUAF non dimostrata e costo salito a 3-4,5 mld"
 02-C2,EQU,2,2,3,M,no,"Nidi negli ambiti sotto il 33%, soprattutto al Sud, gratuiti per i bassi ISEE; riduce il divario di genere"
@@ -216,7 +216,7 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 03-P4,APC,0,0,0,A,no,Nessun effetto rilevante su istruzione e cultura
 03-P4,BPA,1,2,2,M,no,Consumo di suolo netto zero e stop al costruito in aree a rischio tutelano il territorio
 03-P4,FUT,0,2,2,M,no,Riduce la passivita fiscale climatica; riassicurazione pubblica crea passivita potenziali
-03-P4,EQU,1,1,1,M,no,Premi calmierati per i redditi bassi; i vincoli di inedificabilità pesano su alcuni proprietari
+03-P4,EQU,1,1,1,M,no,Premi calmierati per i redditi bassi; i vincoli di inedificabilità pesano su alcune proprietarie e alcuni proprietari
 03-P4,SIC,2,2,3,A,no,"1,28 milioni di persone in aree a frana elevata: prevenzione mirata e verificabile riduce rischi reali"
 03-P4,CIT,1,1,1,M,no,"Responsabilità reciproca: niente indennizzi agli abusivi, sconti a chi fa prevenzione"
 03-P5,RIS,0,0,0,M,no,Nessun effetto rilevante su dignità e diversità
@@ -232,24 +232,24 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 04-P1,RIS,0,0,0,M,no,Nessun effetto rilevante su dignità e diversità
 04-P1,FID,1,1,1,M,no,Censimento obbligatorio e nessuna opera senza piano di gestione: meno opere inutilizzate
 04-P1,INN,0,0,0,M,no,Nessun effetto rilevante su innovazione
-04-P1,BEN,1,1,1,M,no,Servizi gia costruiti restano aperti per famiglie con bambini e anziani
-04-P1,APC,0,1,1,B,no,Nidi funzionanti sostengono lo sviluppo precoce dei bambini
+04-P1,BEN,1,1,1,M,no,Servizi gia costruiti restano aperti per famiglie con bambine e bambini e persone anziane
+04-P1,APC,0,1,1,B,no,Nidi funzionanti sostengono lo sviluppo precoce delle bambine e dei bambini
 04-P1,BPA,0,1,0,B,no,Servizi nei piccoli comuni sostenuti per pochi anni
 04-P1,FUT,0,0,0,B,no,"Evita spreco di debito RRF ma usa coesione per spesa corrente, copertura non strutturale"
 04-P1,EQU,1,1,1,M,no,Sostiene la gestione nei comuni che non potrebbero permettersela; fondo decrescente
 04-P1,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
 04-P1,CIT,0,0,0,M,no,Nessun effetto rilevante su partecipazione o responsabilità civica
 04-P2,RIS,1,2,2,M,no,Alloggi recuperati e protocollo da casa a casa per le famiglie fragili sgomberate
-04-P2,FID,0,1,1,M,no,Garanzia pubblica ai proprietari con tempi pubblicati; risorse legate agli alloggi riassegnati
+04-P2,FID,0,1,1,M,no,Garanzia pubblica alle proprietarie e ai proprietari con tempi pubblicati; risorse legate agli alloggi riassegnati
 04-P2,INN,0,0,0,M,no,Nessun effetto rilevante su innovazione
-04-P2,BEN,1,2,2,M,no,"Piu offerta accessibile con disagio degli inquilini al 22,3% e in crescita"
-04-P2,APC,0,0,0,M,no,Effetto marginale per studenti fuori sede
+04-P2,BEN,1,2,2,M,no,"Piu offerta accessibile con disagio delle inquiline e degli inquilini al 22,3% e in crescita"
+04-P2,APC,0,0,0,M,no,Effetto marginale per studentesse e studenti fuori sede
 04-P2,BPA,0,1,1,B,no,Riuso del patrimonio vuoto nei centri invece di nuovo consumo di suolo
 04-P2,FUT,0,1,1,M,no,Riqualificazione energetica e coperture da agevolazioni edilizie non selettive
-04-P2,EQU,2,2,2,M,no,Aiuta gli inquilini in sovraccarico e la fascia grigia; finanziata riducendo detrazioni edilizie non selettive
+04-P2,EQU,2,2,2,M,no,Aiuta le inquiline e gli inquilini in sovraccarico e la fascia grigia; finanziata riducendo detrazioni edilizie non selettive
 04-P2,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
-04-P2,CIT,0,0,0,B,no,"Coinvolge proprietari e agenzie sociali, ma nessun ruolo attivo degli inquilini"
-04-P3,RIS,0,1,1,M,no,"Mobilità accessibile per chi non ha l'auto: giovani, anziani, persone con disabilità"
+04-P2,CIT,0,0,0,B,no,"Coinvolge proprietarie e proprietari e agenzie sociali, ma nessun ruolo attivo delle inquiline e degli inquilini"
+04-P3,RIS,0,1,1,M,no,"Mobilità accessibile per chi non ha l'auto: giovani, persone anziane, persone con disabilità"
 04-P3,FID,0,1,1,M,no,Riparto del fondo su posti-km e puntualità anziché sulla spesa storica
 04-P3,INN,0,1,1,M,no,Flotta a zero emissioni e riparto per indicatori di qualita
 04-P3,BEN,0,1,2,M,no,Tariffe piu basse e meno congestione; taglio sussidi carburanti pesa su autotrasporto e agricoltura
@@ -268,7 +268,7 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 04-P4,FUT,0,2,2,M,no,Meno debito sprecato e opere resilienti a clima e calo demografico
 04-P4,EQU,0,0,1,B,no,Alternative valutate nello stesso territorio; rischio percepito di penalizzare opere al Sud
 04-P4,SIC,0,0,0,M,no,"Scenari climatici utili, effetto sulla sicurezza marginale"
-04-P4,CIT,1,1,1,M,no,Modelli e dati pubblici permettono a cittadini e comunità di discutere le opere
+04-P4,CIT,1,1,1,M,no,Modelli e dati pubblici permettono a cittadine e cittadini e comunità di discutere le opere
 04-P5,RIS,1,1,1,M,no,Stessi diritti civili e sociali ovunque; limita però l'autonomia regionale chiesta da alcuni territori
 04-P5,FID,1,2,2,M,no,"Prima quantificazione ufficiale dei LEP, voto parlamentare vincolante e clausola di rientro"
 04-P5,INN,0,0,0,M,no,Nessun effetto rilevante su innovazione
@@ -295,17 +295,17 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 05-C1,BEN,0,1,1,M,no,Meno NEET e minore trasmissione intergenerazionale della poverta nel tempo
 05-C1,APC,1,2,2,M,no,"Intervento mirato e stabile sui gruppi a piu alta dispersione, pratiche PNRR gia sperimentate"
 05-C1,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
-05-C1,FUT,0,1,1,B,no,Investimento sulle coorti future; stima di costo da ricalibrare e copertura da calo alunni contesa
+05-C1,FUT,0,1,1,B,no,Investimento sulle coorti future; stima di costo da ricalibrare e copertura da calo alunne e alunni contesa
 05-C1,EQU,2,2,3,M,no,"Risorse al quintile di scuole più fragile: Isole, maschi, stranieri; evidenze solide sul tutoraggio"
 05-C1,SIC,-1,0,0,B,no,"L'allerta precoce tratta dati di minori; FRIA, nessuna conservazione e audit limitano il rischio di profilazione"
-05-C1,CIT,1,1,2,M,no,Scuola e territorio collaborano; i ragazzi che restano a scuola diventano cittadini più capaci
-05-C2,RIS,1,1,1,M,no,"Offerta per adulti con bassa literacy, NEET e lavoratori esposti all'AI"
+05-C1,CIT,1,1,2,M,no,Scuola e territorio collaborano; le ragazze e i ragazzi che restano a scuola diventano cittadine e cittadini più capaci
+05-C2,RIS,1,1,1,M,no,"Offerta per adulti con bassa literacy, NEET e lavoratrici e lavoratori esposti all'AI"
 05-C2,FID,0,0,0,M,no,Nessun effetto rilevante sulla trasparenza istituzionale
-05-C2,INN,0,1,1,M,no,Riqualificazione dei lavoratori esposti all AI sostiene la produttivita
+05-C2,INN,0,1,1,M,no,Riqualificazione delle lavoratrici e dei lavoratori esposti all AI sostiene la produttivita
 05-C2,BEN,0,1,1,B,no,Occupabilita degli adulti a bassa qualifica e degli over 50
 05-C2,APC,1,1,2,M,no,Agisce su adulti a bassa literacy che oggi non si formano; rischio di bassa adesione iniziale
 05-C2,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
-05-C2,FUT,0,0,1,B,no,Lavoratori anziani piu produttivi; copertura da riordino dei fondi interprofessionali
+05-C2,FUT,0,0,1,B,no,Lavoratrici e lavoratori anziani piu produttivi; copertura da riordino dei fondi interprofessionali
 05-C2,EQU,1,1,2,M,no,Dote maggiorata per chi non ha il diploma; rischio di effetto San Matteo se l'orientamento non funziona
 05-C2,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
 05-C2,CIT,2,2,2,M,no,"Conto personale portabile: la persona sceglie il proprio percorso, con pagamento legato al completamento"
@@ -313,7 +313,7 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 05-C3,FID,1,1,2,M,no,"Agenzia indipendente, peer review e calendario fisso riducono la discrezionalità nei finanziamenti"
 05-C3,INN,0,2,2,M,no,"Piu R&S pubblica, progetti europei e brevetti; effetti dopo alcuni anni"
 05-C3,BEN,0,0,1,B,no,Effetto indiretto via produttivita e salari nel lungo periodo
-05-C3,APC,1,2,2,M,no,"Trattiene e attrae ricercatori, ferma la perdita dei precari PNRR"
+05-C3,APC,1,2,2,M,no,"Trattiene e attrae ricercatrici e ricercatori, ferma la perdita dei precari PNRR"
 05-C3,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
 05-C3,FUT,0,0,1,B,no,"Investimento produttivo, ma copertura in parte da gettito della crescita non valida sotto il tetto"
 05-C3,EQU,0,0,1,B,no,Bandi di capacità per gli atenei del Mezzogiorno; benefici diretti concentrati sul mondo della ricerca
@@ -322,14 +322,14 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 05-C4,RIS,1,1,1,M,no,Studio terziario accessibile indipendentemente dall'origine sociale
 05-C4,FID,0,1,1,M,no,Il LEP sulle borse elimina gli idonei non beneficiari: regola certa e uguale per tutti
 05-C4,INN,0,1,1,M,no,Piu tecnici ITS con alta occupabilita per le imprese
-05-C4,BEN,0,1,1,M,no,Casa per studenti a basso reddito; salari piu alti dei diplomati terziari
-05-C4,APC,1,2,2,M,no,Aumenta laureati e diplomati terziari agendo su costo dell alloggio e percorsi brevi
+05-C4,BEN,0,1,1,M,no,Casa per studentesse e studenti a basso reddito; salari piu alti dei diplomati terziari
+05-C4,APC,1,2,2,M,no,Aumenta persone laureate e diplomati terziari agendo su costo dell alloggio e percorsi brevi
 05-C4,BPA,0,0,0,B,no,Riuso di immobili pubblici compensato dal rischio di drenaggio ulteriore dal Sud
 05-C4,FUT,0,1,1,M,no,Capitale umano e riuso di immobili esistenti invece di nuovo suolo
 05-C4,EQU,2,2,2,M,no,"Borse a tutti gli idonei, residenze a canone ISEE e quota per il Mezzogiorno"
 05-C4,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
 05-C4,CIT,1,1,1,M,no,Rafforza autonomia e capacità di scelta dei giovani
-05-C5,RIS,1,1,1,M,no,"Attività gratuite per ragazzi a basso ISEE, spazi aperti a tutti"
+05-C5,RIS,1,1,1,M,no,"Attività gratuite per ragazze e ragazzi a basso ISEE, spazi aperti a tutti"
 05-C5,FID,0,0,1,B,no,Avvisi pubblici e valutazione partecipata; effetto modesto
 05-C5,INN,0,0,0,A,no,Nessun effetto rilevante su innovazione
 05-C5,BEN,1,1,1,M,no,Sport e attivita contro la sedentarieta giovanile usando spazi esistenti
@@ -348,7 +348,7 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 05-C6,FUT,0,0,0,B,no,Competenze future compensate da consumi energetici e rischio lock-in
 05-C6,EQU,0,1,1,B,no,Strumenti pubblici per tutti limitano il divario con le famiglie che possono pagare servizi privati
 05-C6,SIC,0,0,1,B,no,I dati dei minori sulle piattaforme vanno tutelati; l'alfabetizzazione critica aumenta la resilienza alla disinformazione
-05-C6,CIT,1,2,2,M,no,L'alfabetizzazione critica all'AI nell'educazione civica forma cittadini autonomi e consapevoli
+05-C6,CIT,1,2,2,M,no,L'alfabetizzazione critica all'AI nell'educazione civica forma cittadine e cittadini autonomi e consapevoli
 06-C1,RIS,1,1,1,M,no,Tempi garantiti riducono la rinuncia alle cure; il paziente non resta in attesa indefinita
 06-C1,FID,1,2,2,M,no,Promessa esigibile con responsabilità dell'ASL inadempiente: lo Stato mantiene quanto dichiara
 06-C1,INN,0,0,0,M,no,Agenda unica CUP e richiamo attivo sono miglioramenti organizzativi minori
@@ -359,10 +359,10 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 06-C1,EQU,1,2,2,M,no,L'alternativa al costo del ticket aiuta chi non può pagare il privato; le ASL fragili del Sud rischiano oneri maggiori
 06-C1,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
 06-C1,CIT,0,1,1,B,no,Diritto azionabile e richiamo attivo responsabilizzano anche il paziente contro le doppie prenotazioni
-06-C2,RIS,0,1,1,M,no,Più infermieri e lavoro in squadra migliorano la presa in carico; effetto modesto sulla dignità
+06-C2,RIS,0,1,1,M,no,Più infermiere e infermieri e lavoro in squadra migliorano la presa in carico; effetto modesto sulla dignità
 06-C2,FID,0,0,1,B,no,"Effetto indiretto sulla fiducia nel SSN, dopo 3-5 anni"
 06-C2,INN,0,1,1,M,no,Task shifting e infermiere di pratica avanzata innovano l organizzazione delle cure
-06-C2,BEN,0,2,2,M,no,Piu infermieri e medici di famiglia in squadra per una popolazione anziana; effetti dopo 3-5 anni
+06-C2,BEN,0,2,2,M,no,Piu infermiere e infermieri e medici di famiglia in squadra per una popolazione anziana; effetti dopo 3-5 anni
 06-C2,APC,0,1,1,M,no,Borse di studio e laurea clinica attraggono e trattengono giovani nelle professioni sanitarie
 06-C2,BPA,0,1,1,B,no,Indennita di area disagiata sostiene presenza sanitaria nelle aree interne
 06-C2,FUT,0,1,1,B,no,Forza lavoro per l invecchiamento; copertura su incremento FSN fragile dal 2028
@@ -378,14 +378,14 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 06-C3,FUT,0,1,1,B,no,Valorizza investimenti a debito PNRR; copertura su FSN contesa con C2 e C5
 06-C3,EQU,1,2,2,M,no,Perequazione per le Regioni in ritardo e pilota nel Mezzogiorno riducono i divari territoriali
 06-C3,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
-06-C3,CIT,0,1,1,B,no,Collaborazione con comuni e comunità locali; coinvolgimento dei cittadini non strutturato
-06-C4,RIS,2,2,2,M,no,Valutazione unica e budget scelto dalla persona: dignità e libertà di scelta per anziani non autosufficienti
+06-C3,CIT,0,1,1,B,no,Collaborazione con comuni e comunità locali; coinvolgimento delle cittadine e dei cittadini non strutturato
+06-C4,RIS,2,2,2,M,no,Valutazione unica e budget scelto dalla persona: dignità e libertà di scelta per persone anziane non autosufficienti
 06-C4,FID,1,1,1,M,no,Punto unico di accesso e strumento nazionale riducono arbitrio e frammentazione
 06-C4,INN,0,0,0,M,no,Nessun effetto rilevante su innovazione
 06-C4,BEN,1,2,2,M,no,Piu servizi per non autosufficienti gravi e caregiver; nuovi casi lievi ricevono meno
 06-C4,APC,0,0,0,A,no,Nessun effetto rilevante su istruzione e cultura
 06-C4,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
-06-C4,FUT,0,0,0,B,no,Spesa piu mirata per i grandi anziani ma copertura strutturale incerta dopo la Carta valore 2027
+06-C4,FUT,0,0,0,B,no,Spesa piu mirata per le persone molto anziane ma copertura strutturale incerta dopo la Carta valore 2027
 06-C4,EQU,1,2,2,M,no,"Graduato sul bisogno, alleggerisce la spesa privata delle famiglie e il carico di cura, spesso femminile"
 06-C4,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
 06-C4,CIT,1,2,2,M,no,Il budget di cura dà autonomia di scelta; la maggiorazione per lavoro regolare premia emersione e reciprocità
@@ -422,11 +422,11 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 07-C2,RIS,2,2,2,M,no,"Riduce il sovraffollamento al 128,8%, in attuazione degli artt. 27 Cost. e 3 CEDU"
 07-C2,FID,0,1,1,M,no,La statistica ufficiale sulla recidiva rende misurabili i risultati della pena
 07-C2,INN,0,0,0,A,no,Nessun effetto rilevante su innovazione
-07-C2,BEN,0,1,1,B,no,Meno recidiva e piu lavoro per ex detenuti; timori dei residenti vicino alle case di reinserimento
-07-C2,APC,0,1,1,B,no,Lavoro e reinserimento aumentano competenze dei detenuti a basso rischio
+07-C2,BEN,0,1,1,B,no,Meno recidiva e piu lavoro per persone che hanno scontato la pena; timori dei residenti vicino alle case di reinserimento
+07-C2,APC,0,1,1,B,no,Lavoro e reinserimento aumentano competenze delle persone detenute a basso rischio
 07-C2,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
 07-C2,FUT,0,1,1,M,no,Parziale autofinanziamento con meno presenze a 180 euro al giorno e meno condanne CEDU
-07-C2,EQU,1,1,1,M,no,Detenuti in larga parte poveri e stranieri; l'accesso alle misure alternative non dipende più dalle risorse personali
+07-C2,EQU,1,1,1,M,no,Persone detenute in larga parte povere e straniere; l'accesso alle misure alternative non dipende più dalle risorse personali
 07-C2,SIC,0,1,1,M,no,"Esclusi i reati 4-bis, valutazione del rischio e braccialetti: recidiva attesa minore, rischio mediatico iniziale"
 07-C2,CIT,1,2,2,M,no,Lavoro e reinserimento nella comunità: la pena diventa responsabilità attiva e reciproca
 07-C3,RIS,1,1,1,M,no,"Asilo in sei mesi con garanzie, tutori per i minori e accoglienza diffusa; i rimpatri restano un tema delicato"
@@ -456,9 +456,9 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 07-C5,APC,0,0,-1,B,no,Rischio di spiazzamento della spesa per scuola e ricerca
 07-C5,BPA,0,0,0,M,no,Nessun effetto rilevante su patrimonio e accoglienza
 07-C5,FUT,-1,-2,-2,B,si,Fino a 32 mld annui con margine nullo e parte dichiarata a debito: rischio art. 81 ed emissioni
-07-C5,EQU,-1,-2,-2,M,no,32 mld senza deficit richiedono tagli o nuove imposte non specificati: rischio che il costo ricada sui più deboli
+07-C5,EQU,-1,-2,-2,M,no,32 mld senza deficit richiedono tagli o nuove imposte non specificati: rischio che il costo ricada sulle persone con redditi bassi o in condizioni di fragilità
 07-C5,SIC,1,2,2,M,no,"Difesa aerea, munizioni e cyber migliorano la deterrenza contro rischi reali; mezzi militari, non sorveglianza interna"
-07-C5,CIT,0,0,0,B,no,Voto parlamentare ma nessun coinvolgimento dei cittadini su una scelta che assorbe gran parte del bilancio
+07-C5,CIT,0,0,0,B,no,Voto parlamentare ma nessun coinvolgimento della cittadinanza su una scelta che assorbe gran parte del bilancio
 07-C6,RIS,0,0,0,M,no,Nessun effetto rilevante su dignità e diversità
 07-C6,FID,1,1,1,M,no,Continuità dei servizi pubblici e meno incidenti rafforzano l'affidabilità della PA
 07-C6,INN,1,1,1,M,no,SOC regionali condivisi e requisiti minimi nei capitolati software
@@ -467,8 +467,8 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 07-C6,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
 07-C6,FUT,0,0,1,B,no,Resilienza dello Stato; cofinanziamento UE e quota NATO resilienza
 07-C6,EQU,1,1,1,M,no,Protezione gratuita per comuni piccoli e aziende sanitarie oggi meno attrezzati
-07-C6,SIC,2,2,2,M,no,"SOC sui sistemi pubblici, backup e risposta agli incidenti: sicurezza mirata senza monitorare i cittadini"
-07-C6,CIT,0,1,1,B,no,La riserva cyber civile coinvolge professionisti e studenti in un impegno civico volontario
+07-C6,SIC,2,2,2,M,no,"SOC sui sistemi pubblici, backup e risposta agli incidenti: sicurezza mirata senza monitorare le cittadine e i cittadini"
+07-C6,CIT,0,1,1,B,no,La riserva cyber civile coinvolge professionisti e studentesse e studenti in un impegno civico volontario
 08-P1,RIS,0,0,0,B,no,"Valutazione d'impatto sui diritti utile, ma il rischio tecnocratico la compensa; effetto netto incerto"
 08-P1,FID,1,2,2,M,no,"Pareri pubblici, sensitività ai pesi e comply or explain aumentano la trasparenza; possibile sfiducia verso l'AI"
 08-P1,INN,1,1,1,M,no,Introduce valutazione d impatto sistematica e verificabile nel processo legislativo
@@ -478,7 +478,7 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 08-P1,FUT,0,1,2,M,no,Tasso di sconto intergenerazionale deciso democraticamente rende visibile il lungo periodo
 08-P1,EQU,0,1,1,B,no,L'assemblea sorteggiata dà voce anche a chi è poco rappresentato; effetto distributivo indiretto
 08-P1,SIC,0,0,0,M,no,Nessun impatto sulla sicurezza; conformità volontaria all'alto rischio evita usi di sorveglianza
-08-P1,CIT,1,2,2,M,no,"Cittadini sorteggiati fissano i pesi dei valori: partecipazione deliberativa reale, pareri non vincolanti"
+08-P1,CIT,1,2,2,M,no,"Cittadine e cittadini sorteggiati fissano i pesi dei valori: partecipazione deliberativa reale, pareri non vincolanti"
 08-P2,RIS,0,0,0,M,no,Nessun effetto rilevante su dignità e diversità
 08-P2,FID,1,2,2,M,no,"Meno decreti omnibus e fiducie, leggi omogenee e valutate: regole più prevedibili e comprensibili"
 08-P2,INN,0,1,1,M,no,Stabilita normativa riduce costi soprattutto per le PMI
@@ -488,8 +488,8 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 08-P2,FUT,0,1,2,M,no,Clausole sunset impediscono che agevolazioni temporanee diventino permanenti a carico del debito
 08-P2,EQU,0,0,0,M,no,Nessun effetto distributivo diretto tra persone o territori
 08-P2,SIC,0,0,0,M,no,La deroga per calamità e sicurezza nazionale preserva la capacità di risposta alle emergenze
-08-P2,CIT,0,1,1,B,no,Parlamento più centrale e leggi più leggibili favoriscono cittadini informati; nessuno strumento partecipativo diretto
-08-P3,RIS,1,1,1,M,no,"Garantisce il diritto di voto a studenti, lavoratori e caregiver lontani dalla residenza"
+08-P2,CIT,0,1,1,B,no,Parlamento più centrale e leggi più leggibili favoriscono cittadine e cittadini informati; nessuno strumento partecipativo diretto
+08-P3,RIS,1,1,1,M,no,"Garantisce il diritto di voto a studentesse e studenti, lavoratrici e lavoratori e caregiver lontani dalla residenza"
 08-P3,FID,1,2,2,M,no,Clausola di stabilità delle regole elettorali e rapporto post-voto riducono l'uso strumentale delle regole
 08-P3,INN,0,0,0,A,no,Nessun effetto rilevante su innovazione
 08-P3,BEN,0,0,0,A,no,Nessun effetto rilevante sul benessere materiale
@@ -499,7 +499,7 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 08-P3,EQU,1,1,1,M,no,"Favorisce giovani e meridionali che vivono fuori sede, oggi penalizzati nell'esercizio del voto"
 08-P3,SIC,0,0,0,M,no,"Voto presidiato e cartaceo, senza voto elettronico: rischi per la segretezza contenuti"
 08-P3,CIT,2,2,2,M,no,Riduce l'astensione involontaria e sostiene la partecipazione elettorale di chi vive altrove
-08-P4,RIS,0,0,0,B,no,Nessun effetto diretto sulla dignità; condizionalità sullo stato di diritto marginale per i cittadini italiani
+08-P4,RIS,0,0,0,B,no,Nessun effetto diretto sulla dignità; condizionalità sullo stato di diritto marginale per le cittadine e i cittadini italiani
 08-P4,FID,0,1,1,B,no,Mandato parlamentare annuale e trasparenza sui saldi; risultato negoziale molto incerto
 08-P4,INN,0,1,2,B,no,Finanziamento europeo di ricerca di frontiera e reti energetiche
 08-P4,BEN,0,0,1,B,no,Minori costi del debito e beni pubblici; perdono agricoltura e settori ad alto carbonio
@@ -516,7 +516,7 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 08-P5,APC,0,0,0,M,no,Nessun effetto rilevante su istruzione e cultura in Italia
 08-P5,BPA,0,0,0,M,no,Nessun effetto rilevante su patrimonio e accoglienza
 08-P5,FUT,0,1,1,B,no,"Adattamento climatico e stabilita del vicinato; coperta con ETS e SAD, non in deficit"
-08-P5,EQU,1,1,1,M,no,"Trasferisce risorse ai più poveri; contributo sui voli progressivo per classe, isole esentate"
+08-P5,EQU,1,1,1,M,no,"Trasferisce risorse alle persone più povere; contributo sui voli progressivo per classe, isole esentate"
 08-P5,SIC,0,1,1,B,no,Possibile riduzione di instabilità e cause di migrazione forzata; evidenze deboli nel medio periodo
 08-P5,CIT,0,0,1,B,no,Effetto modesto: valutazione pubblica e cooperazione con società civile e diaspore
 08-P6,RIS,0,0,0,M,no,Nessun effetto rilevante su dignità e diversità
@@ -538,17 +538,17 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 08-P7,FUT,0,1,1,B,no,"Più concorrenza può abbassare i prezzi e liberare risorse, effetto incerto e non usato come copertura"
 08-P7,EQU,0,1,1,B,no,Risorse pubbliche meno disperse; trasmissione automatizzata limita il carico sui piccoli comuni
 08-P7,SIC,0,1,1,M,no,"Controlli anticorruzione mirati e verificabili, senza profilazione di persone e con validazione dei falsi positivi"
-08-P7,CIT,1,1,2,M,no,"Cittadini, giornalisti e consiglieri locali possono porre domande documentate sugli appalti"
+08-P7,CIT,1,1,2,M,no,"Cittadine e cittadini, giornalisti e consiglieri locali possono porre domande documentate sugli appalti"
 09-C1,RIS,0,0,1,B,no,Effetto indiretto: analisi pubbliche permettono di vedere chi viene penalizzato dalle politiche
 09-C1,FID,2,3,3,M,no,"Dati, codice e registro delle analisi pubblici e riproducibili: trasparenza piena e verificabile"
 09-C1,INN,1,1,2,M,no,Modelli open source e dati riusabili migliorano qualita delle analisi e servizi informativi
 09-C1,BEN,0,0,1,B,no,"Effetto indiretto sul benessere tramite politiche meglio stimate, solo nel lungo periodo"
-09-C1,APC,0,0,1,B,no,"Accesso gratuito a dati e modelli per ricercatori e territori, effetto modesto"
+09-C1,APC,0,0,1,B,no,"Accesso gratuito a dati e modelli per ricercatrici e ricercatori e territori, effetto modesto"
 09-C1,BPA,0,0,0,A,no,"Nessun effetto rilevante su patrimonio, paesaggio o accoglienza"
 09-C1,FUT,0,1,2,M,no,Rende visibili costi di lungo periodo su debito e clima oggi esclusi dalle relazioni tecniche
 09-C1,EQU,0,1,1,B,no,"Microsimulazioni aperte rendono visibili effetti per decile e territorio, ma beneficio distributivo indiretto"
 09-C1,SIC,0,0,0,M,no,Microdati solo in ambienti sicuri con parere del Garante: nessun aumento rilevante di rischio o sicurezza
-09-C1,CIT,1,2,2,M,no,"Cittadini, ricercatori e associazioni possono verificare le analisi e partecipare informati al dibattito"
+09-C1,CIT,1,2,2,M,no,"Cittadine e cittadini, ricercatrici e ricercatori e associazioni possono verificare le analisi e partecipare informati al dibattito"
 09-C2,RIS,1,1,1,M,no,Il cittadino smette di essere una pratica che porta carte; utile a chi ha meno tempo e strumenti
 09-C2,FID,1,2,2,M,no,"Diritto esigibile, cruscotto pubblico per ente e accessi visibili al cittadino aumentano la prevedibilità"
 09-C2,INN,1,2,2,M,no,Spinge l uso reale della PDND e servizi proattivi; infrastruttura gia matura secondo la verifica
@@ -567,12 +567,12 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 09-C3,BPA,0,1,1,B,no,"Rafforza capacita dei comuni di aree interne, utile contro lo spopolamento"
 09-C3,FUT,0,1,1,M,no,Ricambio generazionale e capacita di spendere fondi per adattamento; copertura a invarianza credibile
 09-C3,EQU,1,2,2,M,no,"Porta competenze ai comuni sotto 5.000 abitanti, Mezzogiorno e aree interne, riducendo i divari di capacità"
-09-C3,SIC,1,1,2,M,no,"Presidio cyber territoriale per enti oggi scoperti; mezzi mirati sui sistemi, non sui cittadini"
-09-C3,CIT,0,1,1,B,no,Rafforza la capacità di autogoverno dei piccoli comuni; nessun coinvolgimento diretto dei cittadini
+09-C3,SIC,1,1,2,M,no,"Presidio cyber territoriale per enti oggi scoperti; mezzi mirati sui sistemi, non sulle cittadine e sui cittadini"
+09-C3,CIT,0,1,1,B,no,Rafforza la capacità di autogoverno dei piccoli comuni; nessun coinvolgimento diretto della cittadinanza
 09-C4,RIS,0,0,0,M,no,Nessun effetto rilevante su dignità e diversità
 09-C4,FID,0,1,1,M,no,"Clausole di uscita, prezzi Consip e risparmi certificati pubblicati migliorano la trasparenza della spesa"
 09-C4,INN,0,1,1,M,no,Preserva piattaforme esistenti piu che innovare; clausole anti lock-in utili
-09-C4,BEN,0,0,1,B,no,"Evita interruzioni di servizio, beneficio poco visibile ai cittadini"
+09-C4,BEN,0,0,1,B,no,"Evita interruzioni di servizio, beneficio poco visibile alle cittadine e ai cittadini"
 09-C4,APC,0,0,0,A,no,Nessun effetto rilevante su istruzione e cultura
 09-C4,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
 09-C4,FUT,0,1,1,B,no,Evita perdita di capitale PNRR; copertura da risparmi incerti e costo forse sottostimato
@@ -582,13 +582,13 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 09-C5,RIS,1,2,2,M,no,"Revisione umana, valutazione d'impatto sui diritti e ricorso semplice proteggono da discriminazioni algoritmiche"
 09-C5,FID,2,2,2,M,no,Albo pubblico dei sistemi di IA e valutazioni d'impatto pubblicate rendono verificabile l'uso dell'IA
 09-C5,INN,1,2,2,M,no,Compensa parzialmente il calo di personale con guadagni di produttivita documentale
-09-C5,BEN,0,0,1,B,no,Risposte piu rapide e facilitazione anziani; benefici incerti
+09-C5,BEN,0,0,1,B,no,Risposte piu rapide e facilitazione persone anziane; benefici incerti
 09-C5,APC,1,1,1,M,no,Formazione obbligatoria dei dipendenti e alfabetizzazione digitale di massa
 09-C5,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
 09-C5,FUT,0,0,0,B,no,Competenze trasferite compensate da consumi energetici e dipendenza da fornitori esteri
 09-C5,EQU,1,1,1,M,no,"Facilitazione digitale per over 65, aree interne e Mezzogiorno riduce il divario di accesso"
 09-C5,SIC,1,1,1,M,no,"Divieto di addestramento sui dati, infrastruttura UE e sospensione oltre soglia di errore limitano i rischi"
-09-C5,CIT,1,1,1,M,no,Competenze digitali e diritto a revisione motivata rendono i cittadini più capaci di far valere i diritti
+09-C5,CIT,1,1,1,M,no,Competenze digitali e diritto a revisione motivata rendono le cittadine e i cittadini più capaci di far valere i diritti
 09-C6,RIS,0,0,1,M,no,Piano di miglioramento con assistenza sindacale tutela chi è in difficoltà; quota 30% e pressione percepita restano rischi
 09-C6,FID,1,2,2,M,no,Indicatori di servizio e dati disciplinari pubblici per ente; dirigenti rispondono dell'inerzia
 09-C6,INN,0,1,1,M,no,Organizzazione per obiettivi misurati migliora la produttività degli uffici
@@ -597,7 +597,7 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 09-C6,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
 09-C6,FUT,0,0,1,B,no,"Effetto indiretto sulla qualità futura della PA, a costo minimo"
 09-C6,EQU,0,1,1,B,no,"UPD associati: stesse regole nei piccoli enti; dati sui piani disaggregati per genere, età, disabilità"
-09-C6,SIC,0,0,0,M,no,"Esclude biometria, emozioni e monitoraggio continuo: nessun aumento del controllo sui lavoratori"
+09-C6,SIC,0,0,0,M,no,"Esclude biometria, emozioni e monitoraggio continuo: nessun aumento del controllo sulle lavoratrici e sui lavoratori"
 09-C6,CIT,1,1,2,M,no,Diritti e doveri espliciti di dipendenti e dirigenti; responsabilità senza nuove fattispecie di licenziamento
 09-C7,RIS,0,0,0,M,no,Nessun licenziamento né trasferimento forzato; rischio di errori automatici sui diritti compensato da revisione umana
 09-C7,FID,0,1,1,M,no,Mappa dei processi e ore liberate certificate e pubblicate; risparmi contati solo ex post
@@ -608,7 +608,7 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 09-C7,FUT,0,1,1,B,no,"Risparmi strutturali possibili dopo certificazione; coesione solo una tantum, nessun personale stabile"
 09-C7,EQU,0,0,1,B,no,Ore liberate verso assistenza ai fragili; rischio sproporzionato sulle donne mitigato da priorità di riqualificazione
 09-C7,SIC,0,0,0,B,no,"Più sistemi aumentano il rischio informatico, bilanciato da albo, valutazione d'impatto e supervisione umana"
-09-C7,CIT,0,0,1,B,no,Patto di riallocazione con sindacati prima di ogni progetto; coinvolgimento dei lavoratori
+09-C7,CIT,0,0,1,B,no,Patto di riallocazione con sindacati prima di ogni progetto; coinvolgimento delle lavoratrici e dei lavoratori
 09-C8,RIS,0,1,1,M,no,"Mobilità volontaria fuori comune, nessuna pressione all'esodo; obbligo di formazione in orario di lavoro"
 09-C8,FID,0,1,1,M,no,Decisione motivata e pubblica per ogni cessazione e saldo annuale uscite/ingressi
 09-C8,INN,0,1,2,M,no,Ricambio verso profili tecnici e digitali e trasferimento documentato delle conoscenze
@@ -622,17 +622,17 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 06-C9,RIS,1,1,1,M,no,"Ascolto a scuola senza diagnosi in classe né sistemi automatici di rischio; riduce lo stigma del disagio"
 06-C9,FID,0,0,0,M,no,"Standard minimi e accordo-quadro, ma nessun effetto rilevante su trasparenza o affidabilità"
 06-C9,INN,0,0,0,M,no,Nessun effetto rilevante su innovazione
-06-C9,BEN,1,1,2,B,no,"Prevenzione e invio rapido per la salute mentale dei ragazzi; prove deboli-medie e carenza di psicologi"
+06-C9,BEN,1,1,2,B,no,"Prevenzione e invio rapido per la salute mentale delle ragazze e dei ragazzi; prove deboli-medie e carenza di psicologi"
 06-C9,APC,0,1,1,B,no,Possibile riduzione dell'abbandono legato al disagio; nessuna prova controfattuale dall'elevhälsa svedese
 06-C9,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
 06-C9,FUT,0,0,1,B,no,"Investimento sui giovani senza deficit; avvio graduale con pilota e valutazione"
 06-C9,EQU,1,1,1,M,no,"Priorità alle scuole fragili, ma psicologi scarsi al Sud e accise in parte regressive"
 06-C9,SIC,0,0,0,B,no,"Dati sanitari di minori: protocollo con il Garante, consenso e fascicolo sanitario limitano il rischio"
-06-C9,CIT,0,1,1,B,no,"Rete tra scuola, Casa della Comunità e Comune; coinvolgimento dei docenti, poco dei ragazzi"
+06-C9,CIT,0,1,1,B,no,"Rete tra scuola, Casa della Comunità e Comune; coinvolgimento dei docenti, poco delle ragazze e dei ragazzi"
 06-C8,RIS,1,2,2,M,no,"La persona resta a casa con un piano di cura orientato alla sua autonomia"
 06-C8,FID,0,1,1,M,no,"Obiettivi pubblici per squadra e verifica Agenas dell'autonomia reale"
 06-C8,INN,1,1,2,M,no,"Innovazione organizzativa: squadre autonome, pagamento a ora di cura, sistema informatico unico"
-06-C8,BEN,0,2,2,M,no,"Più ore di cura e alta soddisfazione di pazienti e infermieri; nessun risparmio, rischio carenza infermieri"
+06-C8,BEN,0,2,2,M,no,"Più ore di cura e alta soddisfazione di pazienti e infermiere e infermieri; nessun risparmio, rischio carenza infermiere e infermieri"
 06-C8,APC,0,0,0,A,no,Nessun effetto rilevante su istruzione e cultura
 06-C8,BPA,0,0,0,M,no,Nessun effetto rilevante su patrimonio e accoglienza
 06-C8,FUT,0,0,1,B,no,"Risponde all'invecchiamento senza deficit, ma costo totale nella media e coperture FSN contese"
@@ -653,12 +653,12 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 05-C9,FID,0,0,1,B,no,"Valutazione pubblica delle Carte e catalogo con avviso pubblico; effetto modesto"
 05-C9,INN,0,0,0,M,no,Uso marginale di app IO e ISEE già esistenti
 05-C9,BEN,0,0,0,B,no,"Effetto modesto sul benessere; chi perde parte delle Carte individuali compensa i guadagni"
-05-C9,APC,1,2,2,M,no,"Cultura professionale a tutti gli alunni; copertura certa ma effetti sugli apprendimenti non misurati"
+05-C9,APC,1,2,2,M,no,"Cultura professionale a tutte le alunne e gli alunni; copertura certa ma effetti sugli apprendimenti non misurati"
 05-C9,BPA,1,1,2,M,no,"Almeno un'esperienza l'anno sul patrimonio del territorio; forma il pubblico di domani"
 05-C9,FUT,0,0,1,B,no,"Coperture da riordino bonus e riallocazione, nessun deficit; capitale culturale delle coorti future"
 05-C9,EQU,1,2,2,M,no,"Sposta spesa da voucher che premiano chi già consuma cultura a offerta universale e sconto ISEE"
 05-C9,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza; usa dati ISEE già esistenti
-05-C9,CIT,0,1,1,B,no,"Cultura come bene comune; coinvolge Comuni e operatori, ragazzi spesso spettatori"
+05-C9,CIT,0,1,1,B,no,"Cultura come bene comune; coinvolge Comuni e operatori, ragazze e ragazzi spesso spettatori"
 05-C8,RIS,0,1,1,M,no,"Servizi base gratuiti e aiuto digitale accessibili a tutte le età e condizioni"
 05-C8,FID,0,1,1,B,no,"Facilitazione digitale per la PA e standard di servizio prevedibili; effetto indiretto"
 05-C8,INN,0,1,1,M,no,Competenze digitali e autoservizio in aggiunta alle ore con personale
@@ -672,10 +672,10 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 05-C7,RIS,0,1,1,M,no,"Quota automatica senza domanda e indice non pubblico evitano lo stigma delle scuole"
 05-C7,FID,1,1,2,M,no,"Regola stabile al posto dei bandi, rendicontazione per scuola in dati aperti e valutazione con soglia"
 05-C7,INN,0,1,1,M,no,Spesa guidata da un menu di interventi con prove di efficacia
-05-C7,BEN,0,0,1,B,no,"Effetto indiretto su lavoro e reddito futuro degli alunni svantaggiati"
+05-C7,BEN,0,0,1,B,no,"Effetto indiretto su lavoro e reddito futuro delle alunne e degli alunni svantaggiati"
 05-C7,APC,1,2,2,M,no,"Tutoraggio e feedback con prove forti; il denaro senza vincolo ha avuto effetto nullo, rischio carenza docenti"
 05-C7,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
-05-C7,FUT,0,1,1,M,no,"Capitale umano delle coorti future finanziato dal calo degli alunni, senza deficit"
+05-C7,FUT,0,1,1,M,no,"Capitale umano delle coorti future finanziato dal calo delle alunne e degli alunni, senza deficit"
 05-C7,EQU,1,2,2,M,no,"Risorse stabili al 20% di scuole più svantaggiate, molte al Sud; scuole non beneficiarie rinunciano al dividendo"
 05-C7,SIC,0,0,0,M,no,Indice calcolato dall'INVALSI per scuola e non nominativo; nessuna profilazione individuale
 05-C7,CIT,0,0,1,B,no,Dati aperti per scuola permettono a famiglie e comunità di verificare l'uso dei fondi
@@ -713,17 +713,17 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 05-C10,FID,1,1,1,M,no,"Selezione internazionale, dati aperti e uscita dei nodi senza clienti; rischio di salvataggio per inerzia"
 05-C10,INN,0,1,2,M,no,Prove Fraunhofer e Catapult su fatturato e produttività; effetti lenti e taglio del FOE agli enti
 05-C10,BEN,0,0,1,B,no,Effetto indiretto via produttività e salari nel lungo periodo
-05-C10,APC,0,1,1,M,no,1.500 dottorati industriali l'anno cofinanziati dalle imprese; trattiene ricercatori formati con il PNRR
+05-C10,APC,0,1,1,M,no,1.500 dottorati industriali l'anno cofinanziati dalle imprese; trattiene ricercatrici e ricercatori formati con il PNRR
 05-C10,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
 05-C10,FUT,0,0,1,B,no,Rende produttivi investimenti PNRR già fatti; coperture in parte da misure del menu ancora incerte
 05-C10,EQU,0,1,1,B,no,Un terzo dei nodi nel Mezzogiorno e contratti PMI contati doppio; perdono gli enti esclusi dalla rete
 05-C10,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
 05-C10,CIT,0,0,0,M,no,Nessun effetto rilevante su partecipazione o responsabilità civica
-01-P15,RIS,0,0,0,M,no,Congedo con rientro per i ricercatori fondatori; nessun effetto rilevante su dignità e diversità
+01-P15,RIS,0,0,0,M,no,Congedo con rientro per le ricercatrici e i ricercatori fondatori; nessun effetto rilevante su dignità e diversità
 01-P15,FID,0,1,1,M,no,"Regolamento tipo, decisione in 60 giorni e rendiconti pubblici CDP; prima perdita da sorvegliare"
 01-P15,INN,0,1,2,M,no,Prove di fattibilità e capitale privato sul deep tech; prove positive solo se il pubblico accompagna i privati
 01-P15,BEN,0,0,1,B,no,Effetto indiretto tramite nuove imprese e lavoro qualificato
-01-P15,APC,0,1,1,B,no,Più sbocchi per i ricercatori e meno fuga dei talenti verso ecosistemi esteri
+01-P15,APC,0,1,1,B,no,Più sbocchi per le ricercatrici e i ricercatori e meno fuga dei talenti verso ecosistemi esteri
 01-P15,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
 01-P15,FUT,0,0,1,B,no,Rendimenti tornano al fondo; perdite possibili ma con tetto e prudenzialmente coperte
 01-P15,EQU,0,0,0,B,no,Asimmetria a favore di investitori privati compensata da FESR per le regioni meno sviluppate

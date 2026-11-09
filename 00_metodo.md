@@ -37,12 +37,12 @@ Se un dato non è verificato, scriverlo esplicitamente ("stima, da verificare").
 ### C. Proposte (da 4 a 6)
 Per ciascuna, la scheda:
 
-- **Titolo** e una frase che la spiega a un cittadino
+- **Titolo** e una frase che la spiega a chi non è del mestiere
 - **Problema affrontato** (rimando alla diagnosi)
 - **Opzioni considerate**: almeno 3, inclusa "status quo", con il motivo della scelta
 - **Meccanismo**: cosa si fa concretamente (strumento normativo, chi attua, tempi)
 - **Costo e copertura**: stima ordine di grandezza (€ mld/anno) e fonte di copertura realistica
-- **Vincitori e perdenti**: chi ci guadagna, chi ci perde, distribuzione per reddito / territorio / età
+- **Effetti distributivi**: chi ci guadagna, chi ci perde, distribuzione per reddito / territorio / età
 - **Valutazione tre orizzonti**: tabella Breve / Medio / Lungo con punteggio, motivazione, confidenza
 - **Impatto sostenibilità**: SDG principali toccati, effetto su emissioni ed equità intergenerazionale
 - **Rischi e mitigazioni**: inclusi rischi di attuazione e di consenso politico

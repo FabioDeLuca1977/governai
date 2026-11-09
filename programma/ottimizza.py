@@ -152,7 +152,7 @@ def linee_rosse(chiavi: pd.DataFrame, menu: pd.DataFrame) -> list[tuple[str, str
             elif r.tipo == "copertura":
                 for j in menu.index[menu.misura_id == r.id]:
                     out.append((motivo, r.id, len(chiavi) + int(j)))
-    # 3. copertura che sposta costi rilevanti sui più deboli senza compensazione (Carta, Equità)
+    # 3. copertura che sposta costi rilevanti su chi ha meno mezzi senza compensazione (Carta, Equità)
     J = len(chiavi)
     if "EQU" in menu.columns:
         for j, r in menu.iterrows():

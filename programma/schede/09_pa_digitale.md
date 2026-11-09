@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 | 09-C1 Stato a vetro | dipende dai valori | 0,07 (int. 1) | 0,035 (0,6) | PILOTA 0,012 (0,25) |
 | 09-C2 Chiedilo una volta sola | dipende dai valori | 0,35 (1) | 0,14 (0,6) | ZERO 0 (0,3) |
-| 09-C3 Tecnici della Repubblica | **nucleo robusto** | 0,55 (1) | 0,22 (0,5) | PILOTA 0,04 (0,1) |
+| 09-C3 Squadre tecniche della Repubblica | **nucleo robusto** | 0,55 (1) | 0,22 (0,5) | PILOTA 0,04 (0,1) |
 | 09-C4 Manutenzione digitale | in coda | 0,40 (1) | 0,12 (0,45) | ZERO 0 (0,15) |
 | 09-C5 IA nella PA | **nucleo robusto** | 0,22 (1) | 0,08 (0,55) | ZERO 0 (0,3) |
 | **Totale** | | **1,59** | **0,595** | |
@@ -23,7 +23,7 @@
 
 | Misura | Cosa si taglia | Gettito stimato | Chi paga |
 |---|---|---|---|
-| R09-1 Riserva di facoltà assunzionali | Una quota del turnover già autorizzato (Stato e enti aderenti) va al ruolo tecnico invece che a profili amministrativi generici | 0,18-0,45 (uso nelle PIENE: 0,45) | Candidati a profili generici; uffici che non sostituiscono il personale |
+| R09-1 Riserva di facoltà assunzionali | Una quota del turnover già autorizzato (Stato e enti aderenti) va al ruolo tecnico invece che a profili amministrativi generici | 0,18-0,45 (uso nelle PIENE: 0,45) | Chi si candida a profili generici; uffici che non sostituiscono il personale |
 | R09-2 Consulenze esterne | Incarichi esterni, assistenza tecnica e studi d'impatto sostituiti dai pool (C3) e dall'infrastruttura pubblica (C1) | 0,05-0,2 (uso nelle PIENE: 0,17) | Società di consulenza |
 | R09-3 Spesa ICT corrente | -4/6% della spesa ICT della PA (oltre 7 mld nel 2022, stima AgID; 5 mld nel 2025 sul solo panel rilevato): CED residui, hosting locale, licenze duplicate, acquisti via accordi quadro Consip | 0,28-0,42 (uso nelle PIENE: 0,40; nelle ESSENZIALI: 0,20) | Fornitori di hosting e licenze legacy |
 
@@ -89,9 +89,9 @@ Fonte del dato ICT: AgID, rilevazioni sulla spesa ICT nella PA (gennaio 2022 e m
 **Problema in un dato.** Nel 2025 solo il **43,5%** dei 16-74enni ha interagito online con la PA, contro il **57,7%** della media UE (Eurostat, isoc_ciegi_ac, I_IUGOV1; serie `09_egov_uso_cittadini`). Eppure l'offerta di servizi digitali è sopra la media UE (86,1 contro 84,6; *State of the Digital Decade 2026*). La PDND ha oltre 14.000 e-service, ma la quota di procedimenti davvero "once only" non è misurata. Il problema non è l'infrastruttura, è il suo uso.
 
 **Soluzione in 3 righe.**
-1. Per i 100 procedimenti a maggior volume, un decreto fissa la data entro cui l'ente deve acquisire i dati via PDND invece di chiederli al cittadino.
-2. Dopo quella data, se l'ente chiede un dato che lo Stato già possiede, scatta un indennizzo forfettario: 30 € al cittadino, 100 € all'impresa, pagati dall'ente inadempiente.
-3. Un cruscotto pubblico mostra, ente per ente, i procedimenti once-only. Il cittadino può vedere chi ha consultato i suoi dati.
+1. Per i 100 procedimenti a maggior volume, un decreto fissa la data entro cui l'ente deve acquisire i dati via PDND invece di chiederli alle persone.
+2. Dopo quella data, se l'ente chiede un dato che lo Stato già possiede, scatta un indennizzo forfettario: 30 € alla persona, 100 € all'impresa, pagati dall'ente inadempiente.
+3. Un cruscotto pubblico mostra, ente per ente, i procedimenti once-only. Ogni persona può vedere chi ha consultato i suoi dati.
 
 | Variante | Contenuto | Costo | Intensità | Fondi |
 |---|---|---|---|---|
@@ -103,13 +103,13 @@ Gli indennizzi non sono contati come costo per lo Stato: sono pagati dai bilanci
 
 ### Articolato normativo essenziale (decreto legislativo, su delega per l'attuazione del Reg. UE 2024/903 e del CAD)
 
-**Art. 1 (Finalità).** 1. Il presente decreto rende esigibile il diritto di cittadini e imprese a non fornire alle pubbliche amministrazioni dati e documenti già in possesso di un'altra amministrazione. Dà attuazione all'articolo 43 del d.P.R. 28 dicembre 2000, n. 445, all'articolo 50-ter del d.lgs. 7 marzo 2005, n. 82, e al Regolamento (UE) 2024/903.
+**Art. 1 (Finalità).** 1. Il presente decreto rende esigibile il diritto delle persone e delle imprese a non fornire alle pubbliche amministrazioni dati e documenti già in possesso di un'altra amministrazione. Dà attuazione all'articolo 43 del d.P.R. 28 dicembre 2000, n. 445, all'articolo 50-ter del d.lgs. 7 marzo 2005, n. 82, e al Regolamento (UE) 2024/903.
 
 **Art. 2 (Procedimenti e calendario).** 1. Con decreto del Ministro per la pubblica amministrazione, d'intesa in Conferenza unificata, sono individuati i cento procedimenti a maggior volume. Per ciascuno sono fissati la data dalla quale i dati sono acquisiti esclusivamente tramite la Piattaforma digitale nazionale dati e l'amministrazione titolare del dato. 2. Le date sono comprese tra il dodicesimo e il trentaseiesimo mese dall'entrata in vigore del presente decreto.
 
-**Art. 3 (Indennizzo once-only).** 1. Dopo la data di cui all'articolo 2, l'amministrazione che richiede un dato già disponibile tramite la Piattaforma corrisponde all'interessato, su istanza anche telematica, un indennizzo forfettario: 30 euro per le persone fisiche, 100 euro per le imprese, per ciascun procedimento. Si applica l'articolo 2-bis, comma 1-bis, della legge 7 agosto 1990, n. 241, in quanto compatibile. 2. L'indennizzo non è dovuto se il dato non è disponibile per inadempimento dell'amministrazione titolare: in quel caso è a carico di quest'ultima. 3. Per i primi dodici mesi da ciascuna data si applica una franchigia; l'importo complessivo annuo a carico di ciascun ente non supera lo 0,5 per cento delle sue spese correnti.
+**Art. 3 (Indennizzo once-only).** 1. Dopo la data di cui all'articolo 2, l'amministrazione che richiede un dato già disponibile tramite la Piattaforma corrisponde alla persona interessata, su istanza anche telematica, un indennizzo forfettario: 30 euro per le persone fisiche, 100 euro per le imprese, per ciascun procedimento. Si applica l'articolo 2-bis, comma 1-bis, della legge 7 agosto 1990, n. 241, in quanto compatibile. 2. L'indennizzo non è dovuto se il dato non è disponibile per inadempimento dell'amministrazione titolare: in quel caso è a carico di quest'ultima. 3. Per i primi dodici mesi da ciascuna data si applica una franchigia; l'importo complessivo annuo a carico di ciascun ente non supera lo 0,5 per cento delle sue spese correnti.
 
-**Art. 4 (Trasparenza e diritti dell'interessato).** 1. Il Dipartimento per la trasformazione digitale pubblica un cruscotto, aggiornato ogni trimestre, con lo stato di attuazione per ciascun ente e gli indennizzi corrisposti. 2. Ogni interessato può consultare, tramite il punto di accesso telematico nazionale, l'elenco delle amministrazioni che hanno acquisito i suoi dati. La rettifica di un dato presso l'amministrazione titolare si propaga a tutte le amministrazioni che lo utilizzano.
+**Art. 4 (Trasparenza e diritti della persona interessata).** 1. Il Dipartimento per la trasformazione digitale pubblica un cruscotto, aggiornato ogni trimestre, con lo stato di attuazione per ciascun ente e gli indennizzi corrisposti. 2. Ogni persona interessata può consultare, tramite il punto di accesso telematico nazionale, l'elenco delle amministrazioni che hanno acquisito i suoi dati. La rettifica di un dato presso l'amministrazione titolare si propaga a tutte le amministrazioni che lo utilizzano.
 
 **Art. 5 (Supporto agli enti).** 1. Le amministrazioni regionali, d'intesa con il Dipartimento per la trasformazione digitale, costituiscono centri di competenza per supportare gli enti locali nell'integrazione con la Piattaforma. Hanno priorità i comuni con meno di 5.000 abitanti.
 
@@ -133,32 +133,32 @@ Gli indennizzi non sono contati come costo per lo Stato: sono pagati dai bilanci
 
 ### Rischi e mitigazione
 - **Indennizzi che drenano le risorse degli enti fragili** → franchigia, tetto dello 0,5% della spesa corrente, priorità ai centri di competenza e ai pool di C3. Revisione a 24 mesi: se gli indennizzi non calano si interviene sulla capacità degli enti, non si abolisce il diritto.
-- **Sorveglianza e accentramento dei dati** → nessuna banca dati unica; scambi puntuali tracciati; il cittadino vede chi ha usato i suoi dati.
+- **Sorveglianza e accentramento dei dati** → nessuna banca dati unica; scambi puntuali tracciati; ogni persona vede chi ha usato i suoi dati.
 - **Errori che si propagano** → rettifica unica presso l'ente titolare del dato, propagata a tutti.
 - **Coesione non riprogrammabile in tempo** → si ripiega sull'ESSENZIALE, che usa un terzo delle risorse.
 
 ---
 
-## 09-C3 — "Tecnici della Repubblica": pool di competenze condivise per i piccoli enti
+## 09-C3 — "Squadre tecniche della Repubblica": pool di competenze condivise per i piccoli enti
 
-**Problema in un dato.** Al 31.3.2026 le amministrazioni qualificate da ANAC per bandire gare sono **3.919** (ANAC, serie `09_anac_qualificazione_sa`), a fronte di **7.896 comuni**, di cui **5.522 (69,9%) sotto i 5.000 abitanti** (ISTAT, 1.1.2026, serie `09_comuni_classi_ampiezza`). Gli specialisti ICT sono il 3,8% degli occupati in Italia, contro il 5,0% UE (Eurostat 2025). La maggior parte dei comuni non ha né un ufficio gare qualificato né un informatico.
+**Problema in un dato.** Al 31.3.2026 le amministrazioni qualificate da ANAC per bandire gare sono **3.919** (ANAC, serie `09_anac_qualificazione_sa`), a fronte di **7.896 comuni**, di cui **5.522 (69,9%) sotto i 5.000 abitanti** (ISTAT, 1.1.2026, serie `09_comuni_classi_ampiezza`). Il personale specializzato in ICT è il 3,8% delle persone occupate in Italia, contro il 5,0% UE (Eurostat 2025). La maggior parte dei comuni non ha né un ufficio gare qualificato né personale informatico.
 
 **Soluzione in 3 righe.**
-1. Nasce un ruolo unico nazionale di tecnici pubblici (ICT, cybersicurezza, appalti, progettazione, dati) con carriera tecnica e indennità di specialità.
-2. I tecnici lavorano in pool regionali che, con una convenzione, fanno da stazione appaltante qualificata e da presidio cyber per i comuni aderenti. L'adesione è volontaria e il presidio cyber è il braccio territoriale di 07-C6.
-3. **Il costo è coperto senza nuovi fondi**: una quota delle assunzioni già autorizzate per turnover va ai tecnici invece che a profili generici, e i pool sostituiscono le consulenze esterne.
+1. Nasce un ruolo unico nazionale di personale tecnico pubblico (ICT, cybersicurezza, appalti, progettazione, dati) con carriera tecnica e indennità di specialità.
+2. Il personale tecnico lavora in pool regionali che, con una convenzione, fanno da stazione appaltante qualificata e da presidio cyber per i comuni aderenti. L'adesione è volontaria e il presidio cyber è il braccio territoriale di 07-C6.
+3. **Il costo è coperto senza nuovi fondi**: una quota delle assunzioni già autorizzate per turnover va al personale tecnico invece che a profili generici, e i pool sostituiscono le consulenze esterne.
 
 | Variante | Contenuto | Costo a regime | Intensità | Fondo |
 |---|---|---|---|---|
-| PIENA | 8.000 tecnici entro il 2031 in tutte le regioni | 0,55 (2031) | 1 | RIALLOCAZIONE (R09-1 0,45 + R09-2 0,1) |
-| ESSENZIALE | 3.000 tecnici per i comuni sotto i 5.000 abitanti di Mezzogiorno e aree interne; priorità agli esperti PNRR valutati positivamente | 0,22 (2029) | 0,5 | RIALLOCAZIONE |
-| PILOTA | 600 tecnici a termine per 3 anni in 4 regioni, con valutazione controfattuale | 0,04 (solo 2027-29) | 0,1 | COESIONE_2127 (capacità amministrativa) |
+| PIENA | 8.000 unità di personale tecnico entro il 2031 in tutte le regioni | 0,55 (2031) | 1 | RIALLOCAZIONE (R09-1 0,45 + R09-2 0,1) |
+| ESSENZIALE | 3.000 unità di personale tecnico per i comuni sotto i 5.000 abitanti di Mezzogiorno e aree interne; priorità al personale esperto PNRR valutato positivamente | 0,22 (2029) | 0,5 | RIALLOCAZIONE |
+| PILOTA | 600 unità di personale tecnico a termine per 3 anni in 4 regioni, con valutazione controfattuale | 0,04 (solo 2027-29) | 0,1 | COESIONE_2127 (capacità amministrativa) |
 
 ### Articolato normativo essenziale (legge delega e decreto legislativo)
 
-**Art. 1 (Finalità).** 1. Per rafforzare la capacità tecnica delle amministrazioni, in particolare dei comuni con meno di 5.000 abitanti, nel rispetto dell'articolo 118 della Costituzione e dell'autonomia degli enti locali, è istituito il ruolo unico dei Tecnici della Repubblica presso il Dipartimento della funzione pubblica.
+**Art. 1 (Finalità).** 1. Per rafforzare la capacità tecnica delle amministrazioni, in particolare dei comuni con meno di 5.000 abitanti, nel rispetto dell'articolo 118 della Costituzione e dell'autonomia degli enti locali, è istituito il ruolo unico delle Squadre tecniche della Repubblica presso il Dipartimento della funzione pubblica.
 
-**Art. 2 (Ruolo e pool territoriali).** 1. Il ruolo comprende profili ICT, di cybersicurezza, di contratti pubblici, di progettazione e di analisi dei dati. 2. I tecnici sono assegnati a pool territoriali, costituiti d'intesa con ciascuna Regione e con l'ANCI. I pool operano per gli enti locali che vi aderiscono tramite convenzione ai sensi dell'articolo 30 del d.lgs. 18 agosto 2000, n. 267. 3. I pool possono essere qualificati come stazioni appaltanti e centrali di committenza ai sensi dell'articolo 63 del d.lgs. 31 marzo 2023, n. 36. Svolgono inoltre funzioni di presidio di sicurezza informatica per gli enti aderenti, in raccordo con l'Agenzia per la cybersicurezza nazionale.
+**Art. 2 (Ruolo e pool territoriali).** 1. Il ruolo comprende profili ICT, di cybersicurezza, di contratti pubblici, di progettazione e di analisi dei dati. 2. Il personale tecnico è assegnato a pool territoriali, costituiti d'intesa con ciascuna Regione e con l'ANCI. I pool operano per gli enti locali che vi aderiscono tramite convenzione ai sensi dell'articolo 30 del d.lgs. 18 agosto 2000, n. 267. 3. I pool possono essere qualificati come stazioni appaltanti e centrali di committenza ai sensi dell'articolo 63 del d.lgs. 31 marzo 2023, n. 36. Svolgono inoltre funzioni di presidio di sicurezza informatica per gli enti aderenti, in raccordo con l'Agenzia per la cybersicurezza nazionale.
 
 **Art. 3 (Reclutamento e carriera).** 1. Il reclutamento avviene con concorsi nazionali per profili, banditi ogni anno. Una riserva fino al 40% dei posti è destinata al personale con contratto a termine nei progetti PNRR che ha ricevuto una valutazione positiva. 2. Il contratto collettivo definisce una carriera tecnica parallela a quella dirigenziale, un'indennità di specialità e una valutazione annuale con indicatori pubblici.
 
@@ -172,9 +172,9 @@ Gli indennizzi non sono contati come costo per lo Stato: sono pagati dai bilanci
 
 | Fase | Chi | Cosa |
 |---|---|---|
-| Primi 100 giorni | Ministro PA, Conferenza unificata, ARAN | DDL delega; censimento degli esperti PNRR in scadenza da trattenere; scelta delle 4 regioni pilota; atto di indirizzo ARAN sulla carriera tecnica |
+| Primi 100 giorni | Ministro PA, Conferenza unificata, ARAN | DDL delega; censimento del personale esperto PNRR in scadenza da trattenere; scelta delle 4 regioni pilota; atto di indirizzo ARAN sulla carriera tecnica |
 | 12 mesi | Funzione pubblica, Regioni, ANAC | Decreto legislativo; primo concorso nazionale (circa 1.000 posti); primi pool costituiti e qualificati da ANAC; prime convenzioni con le unioni di comuni |
-| Fine legislatura | Pool regionali; Funzione pubblica | 8.000 tecnici (PIENA) o 3.000 (ESSENZIALE); valutazione controfattuale pubblicata; decisione sull'estensione |
+| Fine legislatura | Pool regionali; Funzione pubblica | 8.000 unità di personale tecnico (PIENA) o 3.000 (ESSENZIALE); valutazione controfattuale pubblicata; decisione sull'estensione |
 
 ### Indicatori
 
@@ -289,7 +289,7 @@ Gli indennizzi non sono contati come costo per lo Stato: sono pagati dai bilanci
 |---|---|---|---|
 | 16-74enni con competenze digitali almeno di base | 54,27% (2025, Eurostat; UE 60,4%) | 64% (rilevazione 2029) | 72% (verso il 70% al 2030 e l'80% al 2032 del dossier) |
 | Sistemi IA che incidono su provvedimenti iscritti nell'albo con valutazione d'impatto pubblica | 0 (albo inesistente, 2026) | 100% dei sistemi censiti | 100%, con verifica a campione dell'Ufficio 08-P1 |
-| Dipendenti che hanno completato 24 ore su IA e dati | non misurato (2026) | 60% | 100% |
+| Personale che ha completato 24 ore su IA e dati | non misurato (2026) | 60% | 100% |
 
 ### Rischi e mitigazione
 - **Discriminazioni ed errori algoritmici** (caso olandese *toeslagenaffaire*) → valutazione d'impatto, sospensione automatica oltre la soglia di errore, ricorso semplice.

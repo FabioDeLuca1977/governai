@@ -19,7 +19,7 @@ Allerte attive:
 - **inflazione_alta**: Inflazione sopra il 3%: i redditi reali scendono e i costi delle misure in euro nominali salgono. Azione prevista: Rivalutare le varianti a sostegno dei redditi (salario minimo, inclusione, casa, trasporti) e indicizzare i costi del programma.
 - **inflazione_in_salita**: Inflazione in forte aumento sull'anno precedente. Azione prevista: Verificare l'origine (energia, alimentari) e le misure su prezzo dell'energia.
 - **debito_in_salita**: Debito/PIL in aumento di oltre 1 punto in un trimestre. Azione prevista: Applicare la regola FUT: nessuna variante finanziata a debito; rivedere la traiettoria della Difesa.
-- **fiducia_in_calo**: Fiducia dei consumatori in netto calo sull'anno. Azione prevista: Segnale di rischio per i consumi; valutare la tempistica delle coperture che pesano sui consumatori (IVA, accise).
+- **fiducia_in_calo**: Fiducia dei consumatori in netto calo sull'anno. Azione prevista: Segnale di rischio per i consumi; valutare la tempistica delle coperture che pesano sulle consumatrici e sui consumatori (IVA, accise).
 
 ## 2. Programma del momento
 

@@ -14,7 +14,7 @@ La riforma dei sussidi ambientalmente dannosi è nel menu coperture. Il suo gett
 
 | Variante 03-P1 | Restituzione | Costo (fondo SAD) | Intensità | Cosa resta del gettito SAD (se il menu attiva circa 5-6 mld) | Chi ne beneficia |
 |---|---|---|---|---|---|
-| **PIENA** | Tutto il gettito: bollette più leggere (2,5), bonus clima (1,5), conversione flotte (1,0) | 5,0 (2031) | 1,0 | quasi nulla: 03-P4 e 03-P5 vanno coperti con altre fonti, e le altre aree non usano il SAD | Tutti i consumatori elettrici; massima visibilità e consenso |
+| **PIENA** | Tutto il gettito: bollette più leggere (2,5), bonus clima (1,5), conversione flotte (1,0) | 5,0 (2031) | 1,0 | quasi nulla: 03-P4 e 03-P5 vanno coperti con altre fonti, e le altre aree non usano il SAD | Tutte le utenze elettriche; massima visibilità e consenso |
 | **ESSENZIALE** | Solo compensazione: bonus clima per ISEE ≤ 15.000 € e aree interne (0,8), compensazione settoriale decrescente (0,4) | 1,2 (2030) | 0,5 | circa 3,5-4 mld per prevenzione (03-P4), agricoltura (03-P5) e servizi di altre aree | Primi due decili e settori esposti; il resto va a servizi pubblici |
 | **ZERO** | Nessuna restituzione; resta la governance (calendario, clausola di sospensione, valutazione UPB) | 0 | 0,2 | tutto | Chi riceve i servizi finanziati; rischio di regressività e di rivolta di categoria |
 
@@ -30,7 +30,7 @@ La PIENA ha più consenso e spinge l'elettrificazione, ma assorbe tutto il getti
 
 **Problema in un dato.** Nel 2025 lo Stato ha speso **22,38 mld €** in sussidi ambientalmente dannosi, di cui **20,63 mld** alle fonti fossili. Fonte: MASE, Catalogo SAD/SAF VIII ed., 2026, serie `03_sad_catalogo_mase`. Intanto le emissioni dei trasporti, **113,3 Mt CO₂eq nel 2024**, sono sopra il livello del 1990 (102,2 Mt): Eurostat env_air_gge, serie `03_ghg_settori`.
 
-**Soluzione.** Una legge delega fissa un calendario quinquennale e pubblico di riforma dei SAD riformabili a livello nazionale: in tutto 17,1 mld, di cui una parte da scegliere nel menu coperture. Una parte del maggior gettito *accertato* torna ai cittadini attraverso un Fondo per il dividendo climatico. L'importo e i canali della restituzione dipendono dalla variante. I pagamenti partono solo dopo l'incasso, quindi la misura non crea deficit.
+**Soluzione.** Una legge delega fissa un calendario quinquennale e pubblico di riforma dei SAD riformabili a livello nazionale: in tutto 17,1 mld, di cui una parte da scegliere nel menu coperture. Una parte del maggior gettito *accertato* torna alla cittadinanza attraverso un Fondo per il dividendo climatico. L'importo e i canali della restituzione dipendono dalla variante. I pagamenti partono solo dopo l'incasso, quindi la misura non crea deficit.
 
 **Varianti.** PIENA 5,0 mld (int. 1,0) · ESSENZIALE 1,2 mld (int. 0,5) · ZERO 0 (int. 0,2). Vedi la tabella sopra. Le coperture sono tutte sul fondo SAD.
 
@@ -50,7 +50,7 @@ La PIENA ha più consenso e spinge l'elettrificazione, ma assorbe tutto il getti
 
 2. Il Fondo finanzia:
 - a) [PIENA] la riduzione degli oneri generali di sistema gravanti sulle bollette elettriche, che sono posti a carico della fiscalità generale;
-- b) un bonus clima annuale per i nuclei con ISEE non superiore a 15.000 euro e per i residenti nei comuni delle aree interne privi di servizio di trasporto pubblico di linea;
+- b) un bonus clima annuale per i nuclei con ISEE non superiore a 15.000 euro e per le persone residenti nei comuni delle aree interne privi di servizio di trasporto pubblico di linea;
 - c) contributi temporanei e decrescenti alla conversione delle flotte dell'autotrasporto, della pesca e dell'agricoltura.
 
 3. [ZERO] Il maggior gettito affluisce all'entrata del bilancio dello Stato. La relazione di cui all'articolo 5 ne indica la destinazione.
@@ -104,8 +104,8 @@ Il costo per il bilancio riguarda solo la squadra tecnica. I CfD sono finanziati
 
 | Variante | Costo | Intensità | Fondi |
 |---|---|---|---|
-| PIENA (squadra di circa 150 tecnici, pool anche per le PMI) | 0,15 | 1,0 | RIALLOCAZIONE 0,10 + TARIFFE 0,05 (corrispettivi GSE) |
-| ESSENZIALE (squadra di circa 60 tecnici, pool solo per famiglie vulnerabili) | 0,07 | 0,7 | RIALLOCAZIONE 0,05 + TARIFFE 0,02 |
+| PIENA (squadra tecnica di circa 150 persone, pool anche per le PMI) | 0,15 | 1,0 | RIALLOCAZIONE 0,10 + TARIFFE 0,05 (corrispettivi GSE) |
+| ESSENZIALE (squadra tecnica di circa 60 persone, pool solo per famiglie vulnerabili) | 0,07 | 0,7 | RIALLOCAZIONE 0,05 + TARIFFE 0,02 |
 | ZERO (solo CfD e aree idonee) | 0 | 0,45 | — |
 
 ### Articolato normativo essenziale (decreto legislativo in attuazione del Reg. (UE) 2024/1747)
@@ -180,7 +180,7 @@ Nello scenario prudente la parte a carico del bilancio permanente è minima (0,0
 
 **Art. 1 (Finalità).** 1. Il presente decreto dimezza in dieci anni le perdite delle reti di distribuzione idrica, completa l'organizzazione industriale del servizio idrico integrato e promuove il riuso delle acque reflue depurate, nel rispetto dell'esito referendario del 2011 sulla remunerazione del capitale.
 
-**Art. 2 (Obiettivi vincolanti di riduzione delle perdite).** 1. L'ARERA fissa per ciascun ambito territoriale ottimale obiettivi annuali di riduzione delle perdite idriche lineari e percentuali, con l'obiettivo nazionale di riportarle sotto il 25 per cento entro il 2036. 2. Il mancato raggiungimento comporta penalità tariffarie a carico del gestore, non trasferibili agli utenti. Il superamento comporta premialità.
+**Art. 2 (Obiettivi vincolanti di riduzione delle perdite).** 1. L'ARERA fissa per ciascun ambito territoriale ottimale obiettivi annuali di riduzione delle perdite idriche lineari e percentuali, con l'obiettivo nazionale di riportarle sotto il 25 per cento entro il 2036. 2. Il mancato raggiungimento comporta penalità tariffarie a carico del gestore, non trasferibili alle utenze. Il superamento comporta premialità.
 
 **Art. 3 (Aggregazione delle gestioni).** 1. Entro ventiquattro mesi le gestioni in economia non conformi all'articolo 149-bis del decreto legislativo 3 aprile 2006, n. 152, confluiscono nel gestore unico d'ambito. 2. In caso di inerzia il Presidente della Regione, e in via sostitutiva il Governo, nomina un commissario. 3. Resta salva la facoltà dell'ente d'ambito di affidare il servizio a società interamente pubblica.
 
@@ -212,7 +212,7 @@ Nello scenario prudente la parte a carico del bilancio permanente è minima (0,0
 |---|---|
 | Accusa di "privatizzazione" | Facoltà di gestione interamente pubblica (art. 3, c. 3); dati pubblici per gestore |
 | Conflitto con i Comuni | Commissari solo dopo 24 mesi; supporto tecnico gratuito |
-| Aumento delle tariffe | Bonus idrico adeguato per legge (art. 5, c. 2); penalità non trasferibili agli utenti |
+| Aumento delle tariffe | Bonus idrico adeguato per legge (art. 5, c. 2); penalità non trasferibili alle utenze |
 | Lentezza dei cantieri e scadenza FESR (n+3) | Progetti già in parco progetti PNRR non finanziati; centrale di committenza; rotazione verso il fondo di garanzia |
 | Diffidenza sul riuso | Controlli ARPA e garanzie sanitarie del Reg. UE 2020/741 |
 
@@ -239,7 +239,7 @@ Dal 2030 la quota di coesione va sostituita con il ciclo 2028-34 o con altro get
 
 ### Articolato normativo essenziale (legge quadro "Prevenzione dei rischi naturali e territorio sicuro")
 
-**Art. 1 (Finalità).** 1. La presente legge sposta le risorse pubbliche dalla riparazione dei danni alla prevenzione dei rischi idrogeologici, idraulici e costieri. Riduce l'esposizione di persone e beni, arresta il consumo di suolo netto e ripartisce in modo equo il rischio catastrofale tra Stato, assicurazioni e cittadini.
+**Art. 1 (Finalità).** 1. La presente legge sposta le risorse pubbliche dalla riparazione dei danni alla prevenzione dei rischi idrogeologici, idraulici e costieri. Riduce l'esposizione di persone e beni, arresta il consumo di suolo netto e ripartisce in modo equo il rischio catastrofale tra Stato, assicurazioni e cittadinanza.
 
 **Art. 2 (Fondo nazionale per la prevenzione).** 1. Presso la Presidenza del Consiglio dei ministri, Dipartimento della protezione civile, è istituito il Fondo nazionale per la prevenzione dei rischi naturali, con una dotazione di [PIENA: 1.200; ESSENZIALE: 600] milioni di euro annui dal 2029. 2. Il Fondo è ripartito annualmente su graduatoria nazionale di rischio elaborata dall'ISPRA sulla base della piattaforma IdroGEO e dei piani di gestione del rischio di alluvione. Le richieste conseguenti a eventi emergenziali non costituiscono criterio di priorità. 3. Per i Comuni con meno di 15.000 abitanti la progettazione è svolta da una struttura tecnica nazionale o dalla Regione in qualità di stazione appaltante.
 
@@ -306,7 +306,7 @@ Il cofinanziamento nazionale viene dalla riforma dei SAD agricoli.
 
 ### Articolato normativo essenziale (decreto legislativo "Contratto agro-climatico")
 
-**Art. 1 (Finalità).** 1. Il presente decreto remunera gli agricoltori per risultati ambientali misurati e rafforza la loro protezione dai rischi climatici, per ridurre le emissioni agricole, preservare la fertilità dei suoli e la risorsa idrica e sostenere il reddito delle piccole e medie aziende.
+**Art. 1 (Finalità).** 1. Il presente decreto remunera agricoltrici e agricoltori per risultati ambientali misurati e rafforza la loro protezione dai rischi climatici, per ridurre le emissioni agricole, preservare la fertilità dei suoli e la risorsa idrica e sostenere il reddito delle piccole e medie aziende.
 
 **Art. 2 (Pagamenti per risultati).** 1. Nella modifica del Piano strategico nazionale della PAC e nella programmazione successiva al 2027, il MASAF destina una quota crescente degli interventi per il clima e l'ambiente a pagamenti commisurati a risultati misurati: carbonio organico del suolo, efficienza irrigua, bilancio dell'azoto, elementi del paesaggio. 2. Il CREA definisce entro dodici mesi protocolli semplificati di misurazione basati su dati satellitari e campionamenti.
 

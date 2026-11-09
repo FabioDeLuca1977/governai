@@ -22,7 +22,7 @@
 
 **Area.** 05 Istruzione. Migliora 05-C1.
 
-**Problema in un dato.** Nel 2026 solo il **63%** degli alunni di quinta primaria raggiunge almeno il livello base in matematica, contro il 66% del 2025 (INVALSI 2026, citato in `programma/schede/05_istruzione.md`). L'abbandono precoce è al **13,7% nelle Isole** contro l'8,2% nazionale (Eurostat edat_lfse_16, 2025). L'Italia non ha una regola stabile che dia più risorse alle scuole con più alunni svantaggiati: i fondi arrivano a bandi temporanei (PNRR "divari", Agenda Sud, FSE+).
+**Problema in un dato.** Nel 2026 solo il **63%** di chi frequenta la quinta primaria raggiunge almeno il livello base in matematica, contro il 66% del 2025 (INVALSI 2026, citato in `programma/schede/05_istruzione.md`). L'abbandono precoce è al **13,7% nelle Isole** contro l'8,2% nazionale (Eurostat edat_lfse_16, 2025). L'Italia non ha una regola stabile che dia più risorse alle scuole con più alunne e alunni in condizioni di svantaggio: i fondi arrivano a bandi temporanei (PNRR "divari", Agenda Sud, FSE+).
 
 **Che cosa prendiamo dal Nord Europa.**
 - Dai Paesi Bassi, l'**indicatore statistico per scuola** calcolato da un ente terzo (CBS) e aggiornato ogni anno.
@@ -30,27 +30,27 @@
 - Dal Nationaal Programma Onderwijs, il **menu di interventi con le prove** (tutoraggio in piccoli gruppi circa +4 mesi, feedback circa +6 mesi secondo l'EEF).
 
 **Soluzione.**
-1. Una **quota svantaggio** strutturale in euro per alunno, assegnata ogni anno alle scuole statali dei quintili più svantaggiati. L'indice è quello di 05-C1 (ESCS INVALSI, alunni neo-arrivati, ripetenze). Lo calcola l'INVALSI, non la scuola, e non si pubblica in forma nominativa.
+1. Una **quota svantaggio** strutturale in euro per alunno, assegnata ogni anno alle scuole statali dei quintili più svantaggiati. L'indice è quello di 05-C1 (ESCS INVALSI, alunne e alunni neo-arrivati, ripetenze). Lo calcola l'INVALSI, non la scuola, e non si pubblica in forma nominativa.
 2. Almeno il **70%** della quota va a interventi del **menu nazionale**, curato da INVALSI e INDIRE con le schede di efficacia: tutoraggio in piccoli gruppi in italiano e matematica, formazione al feedback e osservazione tra colleghi, programmi strutturati di lettura, le squadre di prossimità di 05-C1. Il resto è libero, con motivazione.
 3. **Rendicontazione pubblica** per scuola: che cosa si è comprato e con quali esiti, in dati aperti.
 4. **Valutazione già nel disegno**: la soglia dell'indice crea un confronto naturale tra scuole appena sopra e appena sotto, come nello studio CPB. L'INVALSI lo usa al terzo anno.
-5. **Variante a costo zero inclusa in tutte**: i posti di potenziamento che si liberano con il calo degli alunni si riassegnano con lo stesso indice.
+5. **Variante a costo zero inclusa in tutte**: i posti di potenziamento che si liberano con il calo della popolazione scolastica si riassegnano con lo stesso indice.
 
 | Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
 |---|---|---|---|---|
-| PIENA | 300 € per alunno nelle scuole del 20% più svantaggiato (circa 1,4 milioni di alunni) | 0,05 / 0,25 / 0,40 → **0,40** (2029) | 1 | RIALLOCAZIONE 0,25 (seconda quota del dividendo demografico, solo turnover); COESIONE_2127 0,15 fino al 2029, poi SPESE_FISCALI 0,15 |
+| PIENA | 300 € per alunno nelle scuole del 20% più svantaggiato (circa 1,4 milioni di alunne e alunni) | 0,05 / 0,25 / 0,40 → **0,40** (2029) | 1 | RIALLOCAZIONE 0,25 (seconda quota del dividendo demografico, solo turnover); COESIONE_2127 0,15 fino al 2029, poi SPESE_FISCALI 0,15 |
 | ESSENZIALE | 250 € per alunno nel 10% più svantaggiato (circa 0,7 milioni) | 0,03 / 0,12 / 0,18 → **0,18** (2029) | 0,55 | RIALLOCAZIONE 0,12; COESIONE_2127 0,06 fino al 2029, poi RIALLOCAZIONE |
 | PILOTA | 3 Regioni (almeno 2 del Mezzogiorno), con valutazione | 0,01 / 0,03 / 0,03 → 0,03 | 0,1 | COESIONE_2127 0,03 |
 
-*Come è costruito il costo (stima GovernAI).* Gli alunni delle scuole statali sono circa 7 milioni (dato da ricontrollare su MIM). La quota per alunno è vicina all'ordine di grandezza olandese per gli alunni con peso alto. La seconda quota del dividendo demografico vale circa 5.500 posti comuni × 45.000 € e si aggiunge ai 6.700 di 05-C1. Va certificata dalla RGS come non già scontata nei tendenziali. È una **scelta politica**: si tiene la spesa totale ferma mentre gli alunni calano, e si concentra il risparmio su chi parte indietro.
+*Come è costruito il costo (stima GovernAI).* Alunne e alunni delle scuole statali sono circa 7 milioni (dato da ricontrollare su MIM). La quota per alunno è vicina all'ordine di grandezza olandese per alunne e alunni con peso alto. La seconda quota del dividendo demografico vale circa 5.500 posti comuni × 45.000 € e si aggiunge ai 6.700 di 05-C1. Va certificata dalla RGS come non già scontata nei tendenziali. È una **scelta politica**: si tiene la spesa totale ferma mentre la popolazione scolastica cala, e si concentra il risparmio su chi parte indietro.
 
-**Chi paga e chi decide.** Lo Stato (MIM) per i fondi alle scuole statali; nessuna intesa con le Regioni necessaria per la quota. INVALSI per indice e valutazione; INDIRE per il menu; dirigenti scolastici per la scelta degli interventi.
+**Chi paga e chi decide.** Lo Stato (MIM) per i fondi alle scuole statali; nessuna intesa con le Regioni necessaria per la quota. INVALSI per indice e valutazione; INDIRE per il menu; dirigenza scolastica per la scelta degli interventi.
 
 **Indicatori e obiettivi.**
 
 | KPI | Base | 3 anni (dato 2029) | 5 anni (dato 2031) |
 |---|---|---|---|
-| Divario tra scuole beneficiarie e media nazionale, quota di alunni di V primaria almeno al livello base in matematica | da calcolare su INVALSI 2026 (media 63%) | divario −20% | divario −35% |
+| Divario tra scuole beneficiarie e media nazionale, quota di alunne e alunni di V primaria almeno al livello base in matematica | da calcolare su INVALSI 2026 (media 63%) | divario −20% | divario −35% |
 | ELET 18-24 Isole | 13,7% (2025) | 11,5% (insieme a 05-C1) | 9,5% |
 | Quota della spesa delle scuole beneficiarie su interventi del menu, rendicontata in dati aperti | n.d. | ≥70% | ≥80% |
 
@@ -77,13 +77,13 @@
 
 **Soluzione.**
 1. Ogni rete di scuole ha un'**équipe di benessere** collegata alla Casa della Comunità del distretto: uno psicologo (anche quello "di base" di 06-C5), ore programmate di infermiere di famiglia e comunità, un assistente sociale del Comune come referente.
-2. Compiti: prevenzione (educazione alla salute, sonno, uso degli schermi, dipendenze), ascolto, invio rapido ai servizi, sostegno ai docenti nei casi difficili.
-3. Un **accordo-quadro** Stato-Regioni-ANCI fissa standard minimi (ore per mille studenti) e un protocollo sulla privacy. L'équipe **non fa diagnosi a scuola** e non usa sistemi automatici di "rischio".
+2. Compiti: prevenzione (educazione alla salute, sonno, uso degli schermi, dipendenze), ascolto, invio rapido ai servizi, sostegno al corpo docente nei casi difficili.
+3. Un **accordo-quadro** Stato-Regioni-ANCI fissa standard minimi (ore per mille persone iscritte) e un protocollo sulla privacy. L'équipe **non fa diagnosi a scuola** e non usa sistemi automatici di "rischio".
 4. Priorità alle secondarie e alle scuole dell'indice di fragilità.
 
 | Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
 |---|---|---|---|---|
-| PIENA | Tutte le secondarie: 1 psicologo ogni 1.500 studenti (circa 2.800), più ore infermieristiche | 0,04 / 0,12 / 0,20 → **0,20** (2029) | 1 | ACCISE_SALUTE 0,10; RIALLOCAZIONE 0,10 |
+| PIENA | Tutte le secondarie: 1 professionista della psicologia ogni 1.500 tra studentesse e studenti (circa 2.800), più ore infermieristiche | 0,04 / 0,12 / 0,20 → **0,20** (2029) | 1 | ACCISE_SALUTE 0,10; RIALLOCAZIONE 0,10 |
 | ESSENZIALE | Solo le scuole del quintile fragile (le stesse di 05-C1), tutti i gradi | 0,02 / 0,06 / 0,08 → **0,08** (2029) | 0,45 | RIALLOCAZIONE 0,05; COESIONE_2127 0,03 fino al 2029, poi RIALLOCAZIONE |
 | PILOTA | 100 reti di scuole in 4 Regioni, con valutazione | 0,01 / 0,03 / 0,03 → 0,03 | 0,15 | COESIONE_2127 0,03 |
 
@@ -95,7 +95,7 @@
 
 | KPI | Base | 3 anni (2029) | 5 anni (2031) |
 |---|---|---|---|
-| Studenti delle secondarie coperti da un'équipe con almeno gli standard minimi | n.d. (rilevazione dal primo anno) | 50% | 90% (PIENA) |
+| Studentesse e studenti delle secondarie coperti da un'équipe con almeno gli standard minimi | n.d. (rilevazione dal primo anno) | 50% | 90% (PIENA) |
 | Tempo tra segnalazione e primo colloquio con lo psicologo | n.d. | ≤15 giorni | ≤10 giorni |
 | ELET 18-24 maschi | 10,1% (2025, Eurostat edat_lfse_14) | 8,8% (insieme a 05-C1 e NE-1) | 7,5% |
 
@@ -105,9 +105,9 @@
 - *Privacy* → protocollo con il Garante, consenso dei genitori per i minori secondo la legge, dati sanitari solo nel fascicolo sanitario.
 - *Mancanza di psicologi al Sud e nelle aree interne* → équipe di rete tra più scuole, indennità di sede di 04-P6.
 
-**Valori (prima lettura).** BEN ++ (salute mentale dei ragazzi), APC + (meno abbandono), EQU + (priorità alle scuole fragili), RIS + (ascolto senza stigma), SIC 0 se rispettato il vincolo sui dati.
+**Valori (prima lettura).** BEN ++ (salute mentale di ragazze e ragazzi), APC + (meno abbandono), EQU + (priorità alle scuole fragili), RIS + (ascolto senza stigma), SIC 0 se rispettato il vincolo sui dati.
 
-**Rapporto con proposte esistenti.** **Migliora 06-C5** (porta lo psicologo di base dove sono i ragazzi) e **06-C3** (dà alle Case della Comunità un compito verso le scuole). **Completa 05-C1**: la squadra anti-dispersione ha a chi inviare i casi sanitari.
+**Rapporto con proposte esistenti.** **Migliora 06-C5** (porta lo psicologo di base dove sono ragazze e ragazzi) e **06-C3** (dà alle Case della Comunità un compito verso le scuole). **Completa 05-C1**: la squadra anti-dispersione ha a chi inviare i casi sanitari.
 
 ---
 
@@ -160,9 +160,9 @@
 
 **Area.** 06 Salute (assistenza domiciliare). Migliora 06-C3 e 06-C4.
 
-**Problema in un dato.** Nel 2023 l'ADI ha dato in media **14 ore l'anno per caso trattato**, contro 16 nel 2021 ([CERGAS Bocconi, OASI 2025](https://cergas.unibocconi.eu/sites/default/files/media/attach/05_Fosti_et_al_B2_OASI25.pdf)). Gli anziani non autosufficienti sono circa **4 milioni** (OASI 2024). L'ADI è spesso appaltata e pagata **ad accesso**: vince chi fa più visite brevi, non chi rende la persona più autonoma.
+**Problema in un dato.** Nel 2023 l'ADI ha dato in media **14 ore l'anno per caso trattato**, contro 16 nel 2021 ([CERGAS Bocconi, OASI 2025](https://cergas.unibocconi.eu/sites/default/files/media/attach/05_Fosti_et_al_B2_OASI25.pdf)). Le persone anziane non autosufficienti sono circa **4 milioni** (OASI 2024). L'ADI è spesso appaltata e pagata **ad accesso**: vince chi fa più visite brevi, non chi rende la persona più autonoma.
 
-**Che cosa prendiamo dal Nord Europa.** Da Buurtzorg (Paesi Bassi): **squadre di 10-12 infermieri** che gestiscono da sole un quartiere; pochi livelli gerarchici; pagamento **a ora di cura** con il coordinamento incluso; obiettivo dichiarato di autonomia del paziente. Dalla valutazione KPMG 2015 la misura giusta delle attese: **meno ore per cliente e alta soddisfazione, ma costo totale nella media**. Non è una misura di risparmio.
+**Che cosa prendiamo dal Nord Europa.** Da Buurtzorg (Paesi Bassi): **squadre di 10-12 infermiere e infermieri** che gestiscono da sole un quartiere; pochi livelli gerarchici; pagamento **a ora di cura** con il coordinamento incluso; obiettivo dichiarato di autonomia del paziente. Dalla valutazione KPMG 2015 la misura giusta delle attese: **meno ore per cliente e alta soddisfazione, ma costo totale nella media**. Non è una misura di risparmio.
 
 **Soluzione.**
 1. Le ASL possono organizzare l'ADI in **squadre di quartiere** di infermieri di famiglia e comunità (DM 77/2022), con autonomia su presa in carico, orari e piano di cura, in rete con il medico di famiglia e la Casa della Comunità.
@@ -176,7 +176,7 @@
 | ESSENZIALE | 500 squadre nelle Regioni con meno ore ADI per assistito | 0,02 / 0,06 / 0,10 → **0,10** (2029) | 0,4 | ACCISE_SALUTE 0,05; RIALLOCAZIONE 0,05 |
 | PILOTA | 60 squadre in 10 distretti con inserimento a scaglioni e valutazione | 0,01 / 0,02 / 0,02 → 0,02 | 0,1 | COESIONE_2127 0,02 |
 
-*Costo (stima GovernAI)*: circa 70.000 € l'anno per squadra tra coaching, formazione, sistema informatico e tempo di coordinamento riconosciuto, più un fondo per ore di cura aggiuntive (0,15 nella PIENA). Gli stipendi degli infermieri sono già in 06-C2 e nel DM 77 e non si contano due volte.
+*Costo (stima GovernAI)*: circa 70.000 € l'anno per squadra tra coaching, formazione, sistema informatico e tempo di coordinamento riconosciuto, più un fondo per ore di cura aggiuntive (0,15 nella PIENA). Gli stipendi del personale infermieristico sono già in 06-C2 e nel DM 77 e non si contano due volte.
 
 **Chi paga e chi decide.** Regioni e ASL (organizzazione e tariffe ADI). Lo Stato fissa con un'intesa lo standard della tariffa a ora di cura e finanzia sperimentazione e formazione. Agenas valuta.
 
@@ -186,11 +186,11 @@
 |---|---|---|---|
 | Ore ADI per caso trattato | 14 (2023, OASI 2025) | 18 | 22 |
 | Ricoveri evitabili degli over 75 seguiti dalle squadre, rispetto ai distretti di controllo | n.d. | −5% | −10% |
-| Soddisfazione degli assistiti e turnover degli infermieri nelle squadre | n.d. | rilevazione annua pubblica | turnover sotto la media regionale |
+| Soddisfazione delle persone assistite e turnover del personale infermieristico nelle squadre | n.d. | rilevazione annua pubblica | turnover sotto la media regionale |
 
 **Rischi e mitigazione.**
 - *Aspettative di risparmio* → dichiarate nulle; la misura si giudica su qualità e ore.
-- *Carenza di infermieri* → l'autonomia e la minore burocrazia sono una leva di attrazione; collegamento con 06-C2.
+- *Carenza di personale infermieristico* → l'autonomia e la minore burocrazia sono una leva di attrazione; collegamento con 06-C2.
 - *Resistenza delle cooperative appaltatrici* → possono diventare squadre accreditate, se accettano il modello.
 - *Copia di facciata* (squadre "autonome" solo sulla carta) → standard di autonomia verificati da Agenas.
 
@@ -204,7 +204,7 @@
 
 **Area.** 05 Cultura. **Colma la lacuna** del programma sulla cultura, insieme a NE-6.
 
-**Problema in un dato.** Nel 2022 le biblioteche di pubblica lettura hanno servito **4,9 milioni** di utenti, circa l'8% dei residenti ([ISTAT](https://www.istat.it/wp-content/uploads/2024/07/Focus_Biblioteche_pubblica_lettura.pdf)). Gli iscritti al prestito erano il **15,2%** della popolazione dei Comuni con biblioteca nel 2019 ([ISTAT](https://www.istat.it/it/files/2021/04/REPORT_BIBLIOTECHE-IN-ITALIA.pdf)). La spesa pubblica per "ricreazione, cultura e religione" è lo **0,9% del PIL** contro l'1,2% UE (Eurostat COFOG 2024, in `dati/verifiche/05_istruzione.md`). Nessuna regola nazionale dice quanto deve essere aperta una biblioteca.
+**Problema in un dato.** Nel 2022 le biblioteche di pubblica lettura hanno servito **4,9 milioni** di utenti, circa l'8% della popolazione residente ([ISTAT](https://www.istat.it/wp-content/uploads/2024/07/Focus_Biblioteche_pubblica_lettura.pdf)). Le persone iscritte al prestito erano il **15,2%** della popolazione dei Comuni con biblioteca nel 2019 ([ISTAT](https://www.istat.it/it/files/2021/04/REPORT_BIBLIOTECHE-IN-ITALIA.pdf)). La spesa pubblica per "ricreazione, cultura e religione" è lo **0,9% del PIL** contro l'1,2% UE (Eurostat COFOG 2024, in `dati/verifiche/05_istruzione.md`). Nessuna regola nazionale dice quanto deve essere aperta una biblioteca.
 
 **Che cosa prendiamo dal Nord Europa.**
 - Paesi Bassi (disegno di legge 36 902) e Finlandia (legge 1492/2016): la biblioteca come **servizio comunale obbligatorio** con funzioni scritte (lettura, competenze digitali, incontro, cittadinanza).
@@ -217,7 +217,7 @@
 2. **Fondo nazionale per le biblioteche di comunità**, assegnato solo se il Comune **cofinanzia**: 1 a 1 al Centro-Nord, 1 a 0,3 nel Mezzogiorno e nelle aree interne (perequazione).
 3. **Biblioteca a scuola**: convenzioni tra biblioteca civica e scuole primarie e medie, con un bibliotecario di rete, partendo dalle scuole dell'indice di fragilità. Si collega ai Patti locali per la lettura della L. 15/2020.
 4. **Orari estesi in autoservizio** (accesso con tessera sanitaria o CIE) solo **in aggiunta** alle ore con personale. Investimento iniziale con fondi di coesione.
-5. **Biblioteca come presidio di comunità**: punto di facilitazione digitale per la PA, spazio studio serale per gli studenti, sede per gruppi di lettura e corsi CPIA (collegamento con 05-C2).
+5. **Biblioteca come presidio di comunità**: punto di facilitazione digitale per la PA, spazio studio serale per studentesse e studenti, sede per gruppi di lettura e corsi CPIA (collegamento con 05-C2).
 
 | Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
 |---|---|---|---|---|
@@ -225,7 +225,7 @@
 | ESSENZIALE | Fondo solo per i Comuni sotto l'obiettivo di servizio (soprattutto Sud e aree interne); biblioteca a scuola nel 10% più fragile; autoservizio in 300 sedi | 0,05 / 0,10 / 0,15 → **0,15** (2029) | 0,5 | RIALLOCAZIONE 0,08; SPESE_FISCALI 0,05; COESIONE_2127 0,02 |
 | PILOTA | 3 Regioni; 100 biblioteche con autoservizio; 200 scuole con biblioteca di rete | 0,01 / 0,03 / 0,03 → 0,03 | 0,1 | COESIONE_2127 0,03 |
 
-*Costo (stima GovernAI)*: 5 € per abitante l'anno di quota statale, raddoppiati dal cofinanziamento comunale. **La quota dei Comuni non è un costo per lo Stato**. I Comuni turistici possono usare il gettito dell'imposta di soggiorno vincolato ai servizi per i residenti (01-P6, fondo TASSA_SOGGIORNO).
+*Costo (stima GovernAI)*: 5 € per abitante l'anno di quota statale, raddoppiati dal cofinanziamento comunale. **La quota dei Comuni non è un costo per lo Stato**. I Comuni turistici possono usare il gettito dell'imposta di soggiorno vincolato ai servizi per la popolazione residente (01-P6, fondo TASSA_SOGGIORNO).
 
 **Chi paga e chi decide.** Comuni (gestione, cofinanziamento), Regioni (sistemi bibliotecari, leggi regionali), Stato (MiC: obiettivo di servizio, fondo, SBN; MIM: convenzioni con le scuole). Intesa in Conferenza unificata.
 
@@ -262,14 +262,14 @@
 
 **Soluzione.**
 1. **Zaino culturale.** Ogni alunno delle scuole statali e paritarie ha diritto ad almeno **due esperienze culturali professionali l'anno** dentro l'orario scolastico: teatro, musica, danza, cinema, mostre, archivi, siti del patrimonio. **Almeno una** riguarda il patrimonio del territorio (musei, aree archeologiche, archivi, biblioteche storiche).
-2. **Catalogo regionale** di operatori selezionati con avviso pubblico e criteri di qualità (artisti professionisti, attività preparata con i docenti). I luoghi della cultura statali partecipano per obbligo e gratis. Un piccolo coordinamento nazionale presso MiC e MIM, sul modello di Kulturtanken.
+2. **Catalogo regionale** di operatori selezionati con avviso pubblico e criteri di qualità (artiste e artisti professionisti, attività preparata con il corpo docente). I luoghi della cultura statali partecipano per obbligo e gratis. Un piccolo coordinamento nazionale presso MiC e MIM, sul modello di Kulturtanken.
 3. **Tariffa sociale della cultura** su app IO: per minori e giovani fino a 25 anni di famiglie con ISEE fino a 15.000 €, sconto dell'**80%** su biglietti e corsi degli operatori aderenti (teatri, cinema, musei non statali, scuole di musica, centri culturali). Lo sconto è diviso tra Stato (60%) e operatore o Comune (40%). Il diritto si attiva da solo con l'ISEE.
 4. **Riequilibrio**: una parte delle Carte culturali individuali per i diciottenni passa allo zaino e alla tariffa sociale, dopo una valutazione d'uso pubblica.
 5. **Valutazione**: partecipazione culturale fuori dalla scuola per fascia ISEE, prima e dopo, con un confronto tra Regioni che partono prima e dopo.
 
 | Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
 |---|---|---|---|---|
-| PIENA | Zaino a 20 € per alunno, dalla primaria alle superiori (circa 7 milioni di alunni); tariffa sociale nazionale | 0,05 / 0,15 / 0,20 → **0,20** (2029) | 1 | RIORDINO_BONUS 0,10 (quota delle Carte culturali individuali, misura nuova da certificare); RIALLOCAZIONE 0,05; SPESE_FISCALI 0,05 |
+| PIENA | Zaino a 20 € pro capite, dalla primaria alle superiori (circa 7 milioni di alunne e alunni); tariffa sociale nazionale | 0,05 / 0,15 / 0,20 → **0,20** (2029) | 1 | RIORDINO_BONUS 0,10 (quota delle Carte culturali individuali, misura nuova da certificare); RIALLOCAZIONE 0,05; SPESE_FISCALI 0,05 |
 | ESSENZIALE | Zaino a 15 € per alunno di primaria e secondaria di primo grado; tariffa sociale nei Comuni capoluogo e nelle aree interne | 0,03 / 0,08 / 0,10 → **0,10** (2029) | 0,5 | RIORDINO_BONUS 0,06; RIALLOCAZIONE 0,04 |
 | PILOTA | 3 Regioni, tutti i gradi, con tariffa sociale nei loro capoluoghi | 0,01 / 0,02 / 0,02 → 0,02 | 0,1 | COESIONE_2127 0,02 |
 
@@ -281,7 +281,7 @@
 
 | KPI | Base | 3 anni (2029) | 5 anni (2031) |
 |---|---|---|---|
-| Alunni con almeno 2 esperienze culturali professionali nell'anno scolastico | n.d. (rilevazione MIM dal primo anno) | 70% | 95% (PIENA) |
+| Alunne e alunni con almeno 2 esperienze culturali professionali nell'anno scolastico | n.d. (rilevazione MIM dal primo anno) | 70% | 95% (PIENA) |
 | Divario di partecipazione culturale fuori casa dei 6-17 anni tra primo e ultimo quintile ISEE | n.d. (da calcolare sull'indagine ISTAT *Aspetti della vita quotidiana*) | −15% | −30% |
 | Aventi diritto che usano la tariffa sociale almeno una volta l'anno | 0 | 25% | 35% |
 
@@ -304,4 +304,4 @@
 2. **COESIONE_2127** copre solo avvio, formazione e investimenti fino al 2029, mai personale stabile. Per NE-3 il subentro naturale è il FSE+ 2028-34.
 3. **ACCISE_SALUTE e FSN** sono già molto usati dall'area 06. NE-2 e NE-4 li usano solo nelle PIENE, per 0,10 ciascuno.
 4. **Doppi conteggi evitati**: personale infermieristico (06-C2), alloggi (04-P2), squadre anti-dispersione (05-C1), psicologi di base (06-C5).
-5. **Scelte politiche esplicite** (da portare all'assemblea dei cittadini): usare il calo degli alunni per concentrare risorse sulle scuole svantaggiate (NE-1); spostare spesa dai voucher individuali all'offerta collettiva (NE-6).
+5. **Scelte politiche esplicite** (da portare all'assemblea civica): usare il calo della popolazione scolastica per concentrare risorse sulle scuole svantaggiate (NE-1); spostare spesa dai voucher individuali all'offerta collettiva (NE-6).

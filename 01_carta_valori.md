@@ -10,7 +10,7 @@ Ogni scelta pubblica è una scelta di valori. I partiti tradizionali la nascondo
 2. **Valuta ogni proposta su ciascun valore separatamente**, su tre orizzonti di tempo.
 3. **Non sceglie un'unica combinazione di pesi.** Il motore decisionale prova tutte le combinazioni possibili di importanza tra i valori, che corrispondono anche alle diverse sensibilità politiche. Poi distingue:
    - le proposte **robuste**: buone *qualunque* sia il peso dato ai singoli valori. Sono il cuore del programma e non dipendono da un'appartenenza;
-   - le proposte **dipendenti dai valori**: buone solo se si dà molto peso a un valore. Qui la scelta è legittimamente politica e va ai cittadini (assemblea dei sorteggiati) e al Parlamento, con il compromesso reso esplicito;
+   - le proposte **dipendenti dai valori**: buone solo se si dà molto peso a un valore. Qui la scelta è legittimamente politica e va alla cittadinanza (assemblea delle persone sorteggiate) e al Parlamento, con il compromesso reso esplicito;
    - le proposte **dominate**: ce n'è sempre una migliore su tutti i valori. Si scartano.
 
 In questo senso la Carta supera destra e sinistra senza fingere di essere neutrale: rende visibili i valori invece di nasconderli, e cerca prima ciò che unisce.
@@ -23,7 +23,7 @@ Ogni valore ha una definizione, le domande che pone a ogni proposta, gli indicat
 
 ### 1. Rispetto e diversità (RIS)
 **Definizione.** La dignità di ogni persona, i suoi diritti e la sua libertà di scelta. Il **rispetto per le diversità**: di origine, genere, orientamento, religione, disabilità, età, condizione sociale e territorio. Nessuno deve adattarsi a un modello unico per avere gli stessi diritti. Comprende anche il rispetto dell'ambiente come casa comune.
-**Domande.** La proposta tratta le persone come cittadini e non come pratiche? Funziona per persone diverse, o solo per il cittadino "medio"? Lascia spazio alla libertà di scelta? Protegge chi è più vulnerabile senza umiliarlo? Rispetta le autonomie locali e i corpi intermedi?
+**Domande.** La proposta tratta le persone come titolari di diritti e non come pratiche? Funziona per persone diverse, o solo per una persona "media"? Lascia spazio alla libertà di scelta? Protegge chi è più vulnerabile senza umiliarne la dignità? Rispetta le autonomie locali e i corpi intermedi?
 **Indicatori.** Discriminazioni percepite (ISTAT, indagini sulle discriminazioni); divari per genere, origine e disabilità nei servizi e nel lavoro; povertà assoluta e deprivazione materiale (BES *Benessere economico*); condizioni carcerarie e durata dei processi; partecipazione delle persone con disabilità.
 **Linee rosse.** Nessuna proposta che violi i diritti fondamentali (artt. 2, 3 Cost., Carta UE), anche se migliora gli altri valori.
 
@@ -47,7 +47,7 @@ Ogni valore ha una definizione, le domande che pone a ogni proposta, gli indicat
 ### 5. Apprendimento e cultura (APC)
 **Definizione.** Investire nelle persone per tutta la vita: scuola, università, formazione continua, cultura e creatività. È l'investimento con il rendimento più lungo e più largamente condiviso.
 **Domande.** Aumenta le competenze, soprattutto di chi parte svantaggiato? Rende la cultura accessibile? Trattiene o attrae talenti?
-**Indicatori.** Abbandono scolastico, competenze INVALSI/PISA, laureati 25–34 anni, formazione degli adulti (BES *Istruzione e formazione*); partecipazione culturale; emigrazione dei laureati.
+**Indicatori.** Abbandono scolastico, competenze INVALSI/PISA, persone laureate di 25–34 anni, formazione degli adulti (BES *Istruzione e formazione*); partecipazione culturale; emigrazione delle persone laureate.
 
 ### 6. Bellezza, patrimonio e accoglienza (BPA)
 **Definizione.** La valorizzazione del patrimonio culturale, paesaggistico e naturale dell'Italia e la capacità di accogliere: un **turismo** di qualità che porti benessere ai residenti, territori vivi (anche le aree interne), il *made in Italy* come espressione di identità.
@@ -56,7 +56,7 @@ Ogni valore ha una definizione, le domande che pone a ogni proposta, gli indicat
 **Indicatori.** Spesa per il patrimonio culturale, abusivismo e consumo di suolo, soddisfazione per il paesaggio (BES *Paesaggio e patrimonio culturale*); presenze turistiche e loro stagionalità e concentrazione; spopolamento delle aree interne.
 
 ### 7. Responsabilità verso il futuro (FUT)
-**Definizione.** Non scaricare sui giovani e su chi non è ancora nato i costi delle scelte di oggi: debito, clima, demografia, infrastrutture che invecchiano. È il valore dell'orizzonte lungo, presente in ogni scelta.
+**Definizione.** Non scaricare sulle giovani generazioni e su chi deve ancora nascere i costi delle scelte di oggi: debito, clima, demografia, infrastrutture che invecchiano. È il valore dell'orizzonte lungo, presente in ogni scelta.
 **Domande.** Chi paga, e quando? La proposta si autosostiene o lascia un conto? Riduce emissioni e rischi climatici? Aiuta la demografia?
 **Indicatori.** Debito/PIL e spesa per interessi; emissioni di gas serra; consumo di suolo e dissesto (BES *Ambiente*); tasso di fecondità; indice di dipendenza degli anziani; sostenibilità del sistema pensionistico.
 **Linee rosse.** Art. 9 Cost. (tutela dell'ambiente "anche nell'interesse delle future generazioni") e art. 81 (equilibrio di bilancio).
@@ -65,18 +65,18 @@ Ogni valore ha una definizione, le domande che pone a ogni proposta, gli indicat
 **Definizione.** Pari opportunità reali e una distribuzione giusta di costi e benefici tra persone e territori. Chi parte svantaggiato deve poter recuperare, e chi ha di più contribuisce in proporzione. L'equità tra generazioni resta nel valore 7, Responsabilità verso il futuro.
 **Domande.** Chi guadagna e chi perde, per reddito, territorio, genere ed età? Riduce o aumenta le disuguaglianze? Il costo pesa in proporzione alla capacità di chi paga? Aiuta chi non ha voce né rappresentanza?
 **Indicatori.** Disuguaglianza del reddito (indice di Gini, rapporto tra quintili; BES *Benessere economico*); povertà assoluta e relativa; divari Nord-Sud e aree interne nei servizi essenziali (LEP); divario di genere nell'occupazione e nei salari; mobilità sociale.
-**Linee rosse.** Nessuna proposta che sposti i costi sui più deboli senza compensazione (art. 3, comma 2, e art. 53 Cost.).
+**Linee rosse.** Nessuna proposta che sposti i costi sulle persone con redditi bassi o in condizioni di fragilità senza compensazione (art. 3, comma 2, e art. 53 Cost.).
 
 ### 9. Sicurezza senza controllo assoluto (SIC)
-**Definizione.** Le persone devono poter vivere senza paura: sicurezza dalla criminalità, dai disastri, dagli attacchi informatici, dalle crisi. La sicurezza però si ottiene con mezzi **proporzionati, mirati e verificabili**, non con il controllo generalizzato dei cittadini. Libertà e privacy non sono il prezzo da pagare per la sicurezza: ne fanno parte.
+**Definizione.** Le persone devono poter vivere senza paura: sicurezza dalla criminalità, dai disastri, dagli attacchi informatici, dalle crisi. La sicurezza però si ottiene con mezzi **proporzionati, mirati e verificabili**, non con il controllo generalizzato della popolazione. Libertà e privacy non sono il prezzo da pagare per la sicurezza: ne fanno parte.
 **Domande.** Riduce rischi reali e misurabili? I mezzi sono proporzionati al rischio e limitati nel tempo? C'è un controllo indipendente, giudiziario o di un garante? Evita la sorveglianza di massa, la profilazione e la raccolta di dati oltre lo stretto necessario?
 **Indicatori.** Reati e vittimizzazione, sicurezza percepita (BES *Sicurezza*); popolazione esposta a rischio idrogeologico e sismico (ISPRA); incidenti informatici alla PA (ACN); sanzioni e pareri del Garante privacy; tempi di risposta delle emergenze.
-**Linee rosse.** Niente sorveglianza biometrica generalizzata, profilazione dei cittadini o punteggi sociali, in linea con le pratiche vietate dall'AI Act. Nessuna limitazione delle libertà senza base di legge, proporzionalità, durata limitata e controllo giudiziario (artt. 13–15 Cost.; art. 8 CEDU).
+**Linee rosse.** Niente sorveglianza biometrica generalizzata, profilazione delle persone o punteggi sociali, in linea con le pratiche vietate dall'AI Act. Nessuna limitazione delle libertà senza base di legge, proporzionalità, durata limitata e controllo giudiziario (artt. 13–15 Cost.; art. 8 CEDU).
 
 ### 10. Cittadinanza responsabile (CIT)
-**Definizione.** Cittadini protagonisti e non solo utenti o assistiti: informati, coinvolti nelle decisioni, capaci di assumersi responsabilità e di contribuire, con il lavoro, con il rispetto delle regole e con l'impegno civico. Lo Stato dà strumenti e fiducia, non tutela paternalistica. In cambio chiede reciprocità e lealtà fiscale.
-**Domande.** La proposta rende le persone più autonome e capaci di scegliere? Prevede diritti e doveri, cioè reciprocità? Coinvolge i cittadini nelle decisioni, ad esempio con assemblee sorteggiate, consultazioni o bilanci partecipativi? Valorizza volontariato, terzo settore e comunità locali?
-**Indicatori.** Partecipazione civica e politica, volontariato (BES *Relazioni sociali*, *Politica e istituzioni*); affluenza al voto; adempimento fiscale spontaneo (tax compliance); uso degli strumenti di partecipazione; competenze civiche degli studenti (indagine IEA ICCS).
+**Definizione.** Cittadine e cittadini protagonisti, non solo destinatari di servizi o di assistenza: informati, coinvolti nelle decisioni, capaci di assumersi responsabilità e di contribuire, con il lavoro, con il rispetto delle regole e con l'impegno civico. Lo Stato dà strumenti e fiducia, non tutela paternalistica. In cambio chiede reciprocità e lealtà fiscale.
+**Domande.** La proposta rende le persone più autonome e capaci di scegliere? Prevede diritti e doveri, cioè reciprocità? Coinvolge la cittadinanza nelle decisioni, ad esempio con assemblee sorteggiate, consultazioni o bilanci partecipativi? Valorizza volontariato, terzo settore e comunità locali?
+**Indicatori.** Partecipazione civica e politica, volontariato (BES *Relazioni sociali*, *Politica e istituzioni*); affluenza al voto; adempimento fiscale spontaneo (tax compliance); uso degli strumenti di partecipazione; competenze civiche di studentesse e studenti (indagine IEA ICCS).
 **Linee rosse.** Nessuna condizionalità che neghi diritti fondamentali. La responsabilità si chiede, non si usa per escludere.
 
 ## Regole del motore decisionale
@@ -84,8 +84,8 @@ Ogni valore ha una definizione, le domande che pone a ogni proposta, gli indicat
 1. **Tre orizzonti per ogni valore**: breve (0–2 anni), medio (3–10), lungo (10–30+), punteggio da −3 a +3 come nel metodo (`00_metodo.md`).
 2. **Equità tra generazioni**: nel combinare gli orizzonti, il lungo periodo pesa **almeno quanto** il breve. Nessuna generazione vale meno di quella presente.
 3. **Nessun peso unico**: il motore esplora tutte le combinazioni di pesi tra i dieci valori (analisi di accettabilità multicriterio stocastica, SMAA). Le proposte si classificano per **robustezza**, non per punteggio con un solo insieme di pesi.
-4. **Valutatori indipendenti**: i punteggi non li dà chi ha scritto la proposta, ma un panel di almeno tre valutatori indipendenti che usano la stessa rubrica. Dove i valutatori sono in disaccordo, la proposta viene segnalata e la confidenza scende.
+4. **Valutazione indipendente**: i punteggi non li dà chi ha scritto la proposta, ma un panel indipendente di almeno tre membri che usano la stessa rubrica. Dove i membri del panel sono in disaccordo, la proposta viene segnalata e la confidenza scende.
 5. **Vincoli prima dei valori**: Costituzione e vincolo di bilancio (`registro/`) non si pesano: si rispettano. Il motore sceglie solo tra le proposte che li rispettano e che stanno nella capienza dei fondi.
 6. **Valore per euro**: a parità di robustezza, viene prima la proposta con più valore per ogni miliardo speso. Le riforme a costo quasi zero entrano sempre.
 7. **Prima il nucleo robusto**: con risorse scarse, si finanziano prima, almeno in versione essenziale, le proposte del nucleo robusto, cioè quelle prioritarie qualunque sia il peso dato ai valori. Solo dopo si ottimizza il resto. Serve anche a correggere un limite della scala di punteggio, che tende a favorire le misure piccole rispetto ai grandi programmi nazionali.
-8. **Pesi democratici**: quando l'assemblea dei cittadini sorteggiati (proposta 08-P1) avrà espresso i suoi pesi, il motore li userà come scenario centrale. L'analisi di robustezza resta però sempre pubblica.
+8. **Pesi democratici**: quando l'assemblea civica di persone sorteggiate (proposta 08-P1) avrà espresso i suoi pesi, il motore li userà come scenario centrale. L'analisi di robustezza resta però sempre pubblica.

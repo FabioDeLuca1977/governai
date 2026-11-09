@@ -36,12 +36,12 @@ FSN: livello vigente secondo la Camera dei deputati (tema "Organizzazione del SS
 | Liste d'attesa, I semestre 2026 | +1,6 mln nei tempi; 2,8 mln fuori soglia | confermati solo da stampa; bollettino al 30/9: circa 4 mln oltre o vicino alla soglia (stampa) | Agenas, bollettino (PDF originale non recuperato) | ❓ |
 | Liste d'attesa, gen.-apr. 2026 | 2,4 mln su 12 mln | solo stampa | Agenas via LaPresse | ❓ |
 | 16 Regioni su 21 migliorano | 16/21 | solo stampa | Agenas via stampa | ❓ |
-| Infermieri per 1.000 ab. | 6,9 contro 9,2 OCSE (2023) | 6,9 contro 9,2 (2023); Eurostat: 6,83 (2023), 6,92 (2024) | OCSE, Health at a Glance 2025, profilo Italia, https://www.oecd.org/en/publications/health-at-a-glance-2025_15a55280-en/italy_c737c936-en.html ; Eurostat hlth_rs_prs2 | ✅ |
-| Rapporto infermieri/medici | 1,3 contro circa 2,5 OCSE | 1,3 (6,9/5,4) contro 2,4 (9,2/3,9); Eurostat 1,2 | OCSE, HaaG 2025; Eurostat hlth_rs_prs2 | ✅ |
-| Laureati in infermieristica | 16,4 contro 44,9 per 100.000 (2022) | non verificato | (Gimbe su OCSE) | ❓ |
+| Personale infermieristico per 1.000 ab. | 6,9 contro 9,2 OCSE (2023) | 6,9 contro 9,2 (2023); Eurostat: 6,83 (2023), 6,92 (2024) | OCSE, Health at a Glance 2025, profilo Italia, https://www.oecd.org/en/publications/health-at-a-glance-2025_15a55280-en/italy_c737c936-en.html ; Eurostat hlth_rs_prs2 | ✅ |
+| Rapporto personale infermieristico/medico | 1,3 contro circa 2,5 OCSE | 1,3 (6,9/5,4) contro 2,4 (9,2/3,9); Eurostat 1,2 | OCSE, HaaG 2025; Eurostat hlth_rs_prs2 | ✅ |
+| Persone laureate in infermieristica | 16,4 contro 44,9 per 100.000 (2022) | non verificato | (Gimbe su OCSE) | ❓ |
 | MMG mancanti | oltre 5.500 | non verificato | (Gimbe, VIII Rapporto) | ❓ |
-| Medici "in linea con l'OCSE" | in linea | **5,4 per 1.000 contro 3,9 OCSE**: sopra la media; Eurostat 5,75 (2024) | OCSE, HaaG 2025; Eurostat hlth_rs_prs2 | ✏️ |
-| Età media elevata dei medici | stima | non verificato (dataset Eurostat per età non disponibile via API) | | ❓ |
+| Personale medico "in linea con l'OCSE" | in linea | **5,4 per 1.000 contro 3,9 OCSE**: sopra la media; Eurostat 5,75 (2024) | OCSE, HaaG 2025; Eurostat hlth_rs_prs2 | ✏️ |
+| Età media elevata del personale medico | stima | non verificato (dataset Eurostat per età non disponibile via API) | | ❓ |
 | CdC pienamente operative | 66 su 1.715 | 66 su 1.715 (3,9%) | Agenas, Report nazionale DM 77, II semestre 2025 (mar. 2026) | ✅ |
 | CdC con almeno un servizio | circa 45% | 781 su 1.715 (45,5%) | Agenas, Report DM 77, II sem. 2025 | ✅ |
 | OdC con almeno un servizio | 163 su 594 | 163 su 594 (27,4%) | Agenas, Report DM 77, II sem. 2025 | ✅ |
@@ -58,7 +58,7 @@ FSN: livello vigente secondo la Camera dei deputati (tema "Organizzazione del SS
 | Sforamento acquisti diretti | circa 4,7 mld | **4,767 mld** (incidenza 11,82% contro tetto 8,30%) | AIFA, consuntivo 2025 | ✏️ |
 | Payback a carico delle aziende | 2,385 mld | 2,384 mld (50% di 4,767) | AIFA, consuntivo 2025; ripiano al 50% | ✅ |
 | Avanzo convenzionata | circa 460 mln | 459 mln ai fini del tetto; 513 mln al netto dei payback | AIFA, consuntivo 2025 e comunicato | ✅ |
-| Voucher anziani manovra 2027 | 1,6 mld (ItaliaOggi) | Carta valore 300 € per over 75 con pensione fino a 28.000 €: **1.645 mln, solo per il 2027** | DDL bilancio 2027 art. 53 c. 1 | ✏️ |
+| Voucher per persone anziane, manovra 2027 | 1,6 mld (ItaliaOggi) | Carta valore 300 € per over 75 con pensione fino a 28.000 €: **1.645 mln, solo per il 2027** | DDL bilancio 2027 art. 53 c. 1 | ✏️ |
 | Quota della spesa per prevenzione | "piccola quota" (stima) | **4,5% della spesa sanitaria corrente, 8,56 mld (2025)** | ISTAT-SHA via Eurostat hlth_sha11_hc (HC6), serie `06_spesa_sanitaria_funzioni` | ✏️ |
 | Gettito della sugar tax | qualche centinaio di milioni (stima) | circa 340 mln/anno (rinvio di 6 mesi = -170,1 mln nel 2027); entrata in vigore rinviata al 1/7/2027 | DDL bilancio 2027 art. 40 e relazione tecnica | ✅ |
 | Costo C1 (tempo garantito) | 0,5–1 mld (stima) | nessuna stima ufficiale; confronto: 300 mln nel 2027 per prestazioni aggiuntive | DDL bilancio 2027 art. 69 c. 4 | ❓ (stima GovernAI) |
@@ -73,12 +73,12 @@ FSN: livello vigente secondo la Camera dei deputati (tema "Organizzazione del SS
 2. **C5 (salute mentale al 5%): costo corretto da 2,3 a 2,9–3,4 mld/anno.** Portare la quota dal 2,7–3% al 5% di un FSN da 146,3 mld costa 2–2,3 punti, cioè 2,9–3,4 mld. La stima del Collegio DSM (2,3 mld) sottostima il fabbisogno rispetto al FSN attuale. La crescita di 0,4 punti l'anno vale circa 0,6 mld l'anno e assorbirebbe da sola circa due terzi dell'incremento annuo del FSN nel 2028-2029. **Punteggi invariati; la confidenza dell'orizzonte Medio passa da Media a Bassa**, perché la sostenibilità finanziaria del percorso è meno certa.
 3. **C4 (budget di cura).** (a) La Prestazione universale non scade il 31/12/2026: il DDL bilancio 2027 la proroga al 31/12/2027. Ho riscritto la motivazione del punteggio Breve (+1, invariato): la misura serve ancora, ma come soluzione strutturale a una proroga di un solo anno, non per coprire un vuoto immediato. (b) Il "voucher anziani 1,6 mld" è una Carta valore una tantum per il solo 2027 (1.645 mln). Può finanziare l'avvio, non la spesa a regime, quindi la copertura strutturale di C4 poggia di più sull'emersione del lavoro di cura e sul riordino delle altre misure. Punteggi invariati.
 4. **C6 (accise salute e budget del farmaco).** Il gettito della sugar tax è ora quantificato su fonte ufficiale (circa 340 mln/anno, coerente con "qualche centinaio di milioni"). La tassa viene rinviata ancora, al 1/7/2027. Lo sforamento degli acquisti diretti è 4,77 mld. Il DDL 2027 va in parte nella direzione di C6 (tetto acquisti diretti +0,2% dal 2028) ma introduce anche una riduzione del payback legata agli investimenti (160 mln/anno), che complica il superamento del payback. La prevenzione vale il 4,5% della spesa corrente (8,6 mld): la riallocazione proposta di 1–1,5 mld la aumenterebbe del 12–18%. Punteggi invariati.
-5. **C1 e B3.** Il confronto con i 300 mln del DDL 2027 per prestazioni aggiuntive conferma che 0,5–1 mld è un ordine di grandezza plausibile per una garanzia generalizzata (stima GovernAI). La correzione sui medici (sopra la media OCSE, non "in linea") rafforza la diagnosi di C2: lo squilibrio è sugli infermieri e sulla distribuzione dei medici, non sul numero totale. Punteggi invariati.
+5. **C1 e B3.** Il confronto con i 300 mln del DDL 2027 per prestazioni aggiuntive conferma che 0,5–1 mld è un ordine di grandezza plausibile per una garanzia generalizzata (stima GovernAI). La correzione sul personale medico (sopra la media OCSE, non "in linea") rafforza la diagnosi di C2: lo squilibrio è sul personale infermieristico e sulla distribuzione del personale medico, non sul numero totale. Punteggi invariati.
 6. **Out-of-pocket.** Con i dati SHA rivisti la quota è 23,0% nel 2024 e 22,3% nel 2025 (42,4 mld). Il livello è più alto di quello indicato, ma la diagnosi non cambia. Nessun effetto su punteggi o costi.
 
 ## Note tecniche
 
-- `fonti.py` funziona per tutte le chiamate usate; nessun bug da aggirare. L'API Eurostat non espone `hlth_rs_physage` (404), quindi l'età dei medici resta ❓.
+- `fonti.py` funziona per tutte le chiamate usate; nessun bug da aggirare. L'API Eurostat non espone `hlth_rs_physage` (404), quindi l'età del personale medico resta ❓.
 - Il PDF AIFA consuntivo scaricato (dati NSIS al 14/5/2026) riporta 24.950,2 mln di spesa totale e 4.767,1 mln di disavanzo. Il comunicato AIFA riportava 24.965,3 e 4.702,2 mln, con una diversa base di calcolo (incluso o escluso il fondo innovativi e i gas medicinali). Nel dossier ho usato il PDF.
 - Nei flussi ISTAT BES territoriali (`DF_BES_TERRIT_1` e `_12`) non c'è l'indicatore di rinuncia alle prestazioni. Il dato Sardegna resta ❓.
 - Le fonti che richiedono accesso riservato non sono state consultate (nessuna incontrata).

@@ -28,9 +28,9 @@
 - 16 Regioni su 21 migliorano per le visite specialistiche; Sicilia e altre regioni del Sud peggiorano (Agenas, I quadrimestre 2026). Il monitoraggio copre ancora solo le prestazioni del Piano 2019-2021: il nuovo Piano 2026-2028 deve estenderlo.
 
 ### B3. Crisi del personale
-- **Infermieri: 6,9 ogni 1.000 abitanti contro 9,2 della media OCSE** (2023; OCSE, *Health at a Glance 2025*; 6,9 anche nel 2024 secondo Eurostat hlth_rs_prs2); rapporto infermieri/medici circa 1,3 contro circa 2,4 OCSE (calcolo sugli stessi dati OCSE). Laureati in infermieristica: 16,4 ogni 100.000 abitanti contro 44,9 OCSE (2022, Gimbe; da verificare su OCSE).
+- **Infermiere e infermieri: 6,9 ogni 1.000 abitanti contro 9,2 della media OCSE** (2023; OCSE, *Health at a Glance 2025*; 6,9 anche nel 2024 secondo Eurostat hlth_rs_prs2); rapporto infermieri/medici circa 1,3 contro circa 2,4 OCSE (calcolo sugli stessi dati OCSE). Persone laureate in infermieristica: 16,4 ogni 100.000 abitanti contro 44,9 OCSE (2022, Gimbe; da verificare su OCSE).
 - **Medici di medicina generale: oltre 5.500 mancanti** (Gimbe, VIII Rapporto, ott. 2025; stima di fonte indipendente, da verificare su dati SISAC/Ministero).
-- I medici non mancano in termini assoluti: **5,4 medici praticanti ogni 1.000 abitanti contro 3,9 della media OCSE** (OCSE, *Health at a Glance 2025*; 5,75 nel 2024 secondo Eurostat hlth_rs_prs2). Il problema è la distribuzione per specialità (emergenza-urgenza, anestesia, medicina generale) e per territorio, più l'età media elevata (da verificare).
+- Le mediche e i medici non mancano in termini assoluti: **5,4 medici praticanti ogni 1.000 abitanti contro 3,9 della media OCSE** (OCSE, *Health at a Glance 2025*; 5,75 nel 2024 secondo Eurostat hlth_rs_prs2). Il problema è la distribuzione per specialità (emergenza-urgenza, anestesia, medicina generale) e per territorio, più l'età media elevata (da verificare).
 
 ### B4. Riforma territoriale incompiuta
 - Al 31/12/2025 solo **66 Case della Comunità pienamente operative su 1.715 programmate** (3,9%); 781 (45%) hanno almeno un servizio attivo. Ospedali di Comunità con almeno un servizio: 163 su 594 (Agenas, Report nazionale DM 77, II semestre 2025).
@@ -68,7 +68,7 @@
 
 **Costo e copertura:** 0,5–1 mld €/anno nei primi due anni (stima GovernAI; non esiste una stima ufficiale della misura), in parte assorbiti dalla riduzione delle prestazioni inappropriate. Termine di confronto ufficiale: il DDL bilancio 2027 consente alle Regioni 300 mln nel 2027 per prestazioni aggiuntive contro le liste d'attesa (art. 69, c. 4). Copertura: quota vincolata del FSN già destinata alle liste d'attesa + recupero di efficienza dalle agende uniche.
 
-**Vincitori e perdenti:** guadagnano i redditi medio-bassi che oggi pagano di tasca propria o rinunciano; guadagnano le aree del Sud con maggior ritardo. Perdono le ASL meno efficienti (pressione sui bilanci) e, in parte, i medici con forte attività intramoenia nelle strutture inadempienti. Il privato accreditato guadagna volumi, ma sotto regole di trasparenza.
+**Vincitori e perdenti:** guadagnano i redditi medio-bassi che oggi pagano di tasca propria o rinunciano; guadagnano le aree del Sud con maggior ritardo. Perdono le ASL meno efficienti (pressione sui bilanci) e, in parte, le mediche e i medici con forte attività intramoenia nelle strutture inadempienti. Il privato accreditato guadagna volumi, ma sotto regole di trasparenza.
 
 **Valutazione tre orizzonti:**
 
@@ -78,7 +78,7 @@
 | Medio | **+1** | Funziona se accompagnato dal governo dell'appropriatezza; altrimenti induce domanda e spesa | Media |
 | Lungo | **+1** | Rafforza la fiducia nel SSN universalistico; non risolve da solo la carenza di offerta | Bassa |
 
-**Impatto sostenibilità:** SDG 3 (salute), SDG 10 (disuguaglianze). Emissioni: neutro (possibile lieve aumento degli spostamenti se l'offerta alternativa è lontana: privilegiare la prossimità). Equità intergenerazionale: positivo, riduce spesa privata per famiglie con figli e anziani.
+**Impatto sostenibilità:** SDG 3 (salute), SDG 10 (disuguaglianze). Emissioni: neutro (possibile lieve aumento degli spostamenti se l'offerta alternativa è lontana: privilegiare la prossimità). Equità intergenerazionale: positivo, riduce spesa privata per famiglie con figli e persone anziane.
 
 **Rischi e mitigazioni:**
 - *Esplosione della domanda inappropriata* → audit sui prescrittori, RAO vincolanti, tetto di spesa per ASL con allarme precoce.
@@ -92,33 +92,33 @@
 
 ---
 
-### C2. Patto per gli infermieri e la medicina generale: più persone, più ruoli, meglio distribuite
+### C2. Patto per le infermiere e gli infermieri e la medicina generale: più persone, più ruoli, meglio distribuite
 
-**In una frase:** formare e trattenere più infermieri dando loro carriera, responsabilità cliniche e stipendi migliori nelle zone carenti, e far lavorare i medici di famiglia in squadra nelle Case della Comunità.
+**In una frase:** formare e trattenere più infermiere e infermieri dando loro carriera, responsabilità cliniche e stipendi migliori nelle zone carenti, e far lavorare i medici di famiglia in squadra nelle Case della Comunità.
 
 **Problema affrontato:** B3 (personale), B4 (territorio).
 
 **Opzioni considerate:**
 1. *Status quo* (aumenti contrattuali ordinari, reclutamento estero): non colma il divario con l'OCSE e rende l'Italia dipendente da altri paesi, con problemi etici di "drenaggio" dai paesi d'origine.
 2. *Aumento generalizzato degli stipendi*: costoso e poco mirato; non risolve il disinteresse per i corsi di laurea senza prospettive di carriera.
-3. *Pacchetto mirato* (scelta): carriera clinica e competenze avanzate per gli infermieri, incentivi territoriali selettivi, riforma del rapporto di lavoro dei medici di famiglia con opzioni a scelta.
+3. *Pacchetto mirato* (scelta): carriera clinica e competenze avanzate per le infermiere e gli infermieri, incentivi territoriali selettivi, riforma del rapporto di lavoro dei medici di famiglia con opzioni a scelta.
 
 **Meccanismo:**
-- **Infermieri:** legge delega per (a) la laurea magistrale a indirizzo clinico (infermiere di pratica avanzata, sul modello *nurse practitioner*) con prescrizione limitata di presidi e farmaci per la cronicità; (b) borse di studio per le lauree triennali con impegno a lavorare 3 anni nel SSN; (c) **indennità di area disagiata** (aree interne, Sud, pronto soccorso) finanziata a livello nazionale.
+- **Infermiere e infermieri:** legge delega per (a) la laurea magistrale a indirizzo clinico (infermiere di pratica avanzata, sul modello *nurse practitioner*) con prescrizione limitata di presidi e farmaci per la cronicità; (b) borse di studio per le lauree triennali con impegno a lavorare 3 anni nel SSN; (c) **indennità di area disagiata** (aree interne, Sud, pronto soccorso) finanziata a livello nazionale.
 - **Medicina generale:** due opzioni a scelta del medico, per superare lo stallo tra convenzione e dipendenza: (a) ingresso a ruolo dipendente nelle Case della Comunità; (b) mantenimento della convenzione con **obbligo di un monte ore nelle CdC** e lavoro in aggregazione (AFT). Il corso di formazione in medicina generale diventa scuola di specializzazione universitaria.
-- **Task shifting** regolato: attività oggi svolte dai medici (follow-up di cronici stabili, vaccinazioni, triage) affidate a infermieri e farmacisti con protocolli.
-- Tempi: legge delega entro 12 mesi, decreti attuativi entro 24; primi effetti sui laureati dopo 3–5 anni.
+- **Task shifting** regolato: attività oggi svolte dalle mediche e dai medici (follow-up di cronici stabili, vaccinazioni, triage) affidate a infermiere e infermieri e farmacisti con protocolli.
+- Tempi: legge delega entro 12 mesi, decreti attuativi entro 24; primi effetti sulle persone laureate dopo 3–5 anni.
 
 **Costo e copertura:** 1,5–2,5 mld €/anno a regime (stima GovernAI). Termine di confronto ufficiale: l'aumento dell'indennità di pronto soccorso nel DDL bilancio 2027 vale 380 mln/anno (art. 69, c. 6). Copertura: graduale rimodulazione delle agevolazioni fiscali sulle spese sanitarie e sui piani sanitari integrativi aziendali per i redditi più alti (si veda la sezione D sul conflitto con l'area Economia), più quota dell'incremento annuo del FSN.
 
-**Vincitori e perdenti:** guadagnano gli infermieri (in maggioranza donne), i pazienti cronici e le aree interne. Perdono parzialmente i medici di famiglia che preferiscono lo studio individuale; tensioni con gli ordini medici sul perimetro delle competenze. Distribuzione: favorevole al Sud e alle aree interne.
+**Vincitori e perdenti:** guadagnano le infermiere e gli infermieri (in maggioranza donne), i pazienti con malattie croniche e le aree interne. Perdono parzialmente i medici di famiglia che preferiscono lo studio individuale; tensioni con gli ordini medici sul perimetro delle competenze. Distribuzione: favorevole al Sud e alle aree interne.
 
 **Valutazione tre orizzonti:**
 
 | Orizzonte | Punteggio | Motivazione | Confidenza |
 |---|---|---|---|
 | Breve | **0** | Costi immediati, effetti sulla forza lavoro quasi nulli nei primi 2 anni; conflitti di categoria | Alta |
-| Medio | **+2** | Aumento dei laureati e riduzione delle dimissioni; Case della Comunità finalmente operative | Media |
+| Medio | **+2** | Aumento delle persone laureate e riduzione delle dimissioni; Case della Comunità finalmente operative | Media |
 | Lungo | **+3** | Capitale umano sanitario adeguato a una popolazione anziana; minor dipendenza dall'estero | Media |
 
 ⚠️ *Costo nel breve, beneficio nel lungo: tipica proposta che la politica rinvia.*
@@ -130,18 +130,18 @@
 - *Incentivi che spostano personale tra Regioni senza aumentarlo* → incentivi legati a nuovi posti e alla permanenza.
 - *Recupero di personale dall'estero non etico* → rispetto del Codice OMS sul reclutamento internazionale del personale sanitario.
 
-**Indicatori di successo:** infermieri per 1.000 abitanti (obiettivo 8 entro 2035); iscritti ai corsi di infermieristica rispetto ai posti; posti di medicina generale scoperti (obiettivo dimezzamento in 5 anni); tasso di abbandono del SSN.
+**Indicatori di successo:** infermiere e infermieri per 1.000 abitanti (obiettivo 8 entro 2035); iscritti ai corsi di infermieristica rispetto ai posti; posti di medicina generale scoperti (obiettivo dimezzamento in 5 anni); tasso di abbandono del SSN.
 **Clausola di revisione:** valutazione a 5 anni; se gli iscritti non crescono di almeno il 30%, si rivede il pacchetto economico.
 
-**Evidenze:** le *advanced practice nurses* in Regno Unito, Paesi Bassi e Stati Uniti mostrano esiti clinici comparabili ai medici per la cronicità (OCSE, *Nurses in advanced roles*, 2010 e aggiornamenti); i *Primary Care Networks* inglesi e i centri di salute spagnoli e portoghesi (USF) dimostrano l'efficacia del lavoro in équipe.
+**Evidenze:** le *advanced practice nurses* in Regno Unito, Paesi Bassi e Stati Uniti mostrano esiti clinici comparabili alle mediche e ai medici per la cronicità (OCSE, *Nurses in advanced roles*, 2010 e aggiornamenti); i *Primary Care Networks* inglesi e i centri di salute spagnoli e portoghesi (USF) dimostrano l'efficacia del lavoro in équipe.
 
 ---
 
 ### C3. Case della Comunità vive: "contratto di prossimità" e casa come primo luogo di cura
 
-**In una frase:** trasformare le Case della Comunità costruite col PNRR in luoghi dove trovi davvero medici, infermieri e assistenza a casa, con un finanziamento legato ai risultati.
+**In una frase:** trasformare le Case della Comunità costruite col PNRR in luoghi dove trovi davvero mediche e medici, infermiere e infermieri e assistenza a casa, con un finanziamento legato ai risultati.
 
-**Problema affrontato:** B4 (territorio), B5 (anziani), B2 (accessi impropri a PS e specialistica).
+**Problema affrontato:** B4 (territorio), B5 (persone anziane), B2 (accessi impropri a PS e specialistica).
 
 **Opzioni considerate:**
 1. *Status quo*: strutture formalmente consegnate ma vuote; costi fissi senza servizi.
@@ -157,7 +157,7 @@
 
 **Costo e copertura:** 1–2 mld €/anno a regime per il personale e la gestione (stima GovernAI; buona parte è il costo del personale di C2, da non contare due volte). Copertura: quota vincolata del FSN; risparmi da ricoveri evitabili e accessi impropri al Pronto soccorso (da documentare, non da usare come copertura ex ante).
 
-**Vincitori e perdenti:** guadagnano anziani, malati cronici, aree interne e periferie urbane, caregiver familiari (in prevalenza donne). Perdono le Regioni con scarsa capacità amministrativa (pressione e commissariamento parziale) e alcune strutture ospedaliere minori (spostamento di risorse).
+**Vincitori e perdenti:** guadagnano persone anziane, persone con malattie croniche, aree interne e periferie urbane, caregiver familiari (in prevalenza donne). Perdono le Regioni con scarsa capacità amministrativa (pressione e commissariamento parziale) e alcune strutture ospedaliere minori (spostamento di risorse).
 
 **Valutazione tre orizzonti:**
 
@@ -183,7 +183,7 @@
 
 ### C4. Budget di cura per la non autosufficienza: dalla indennità uguale per tutti al sostegno graduato
 
-**In una frase:** chi non è più autosufficiente riceve un sostegno proporzionato al bisogno, che può usare in denaro o, con un bonus, in servizi di qualità (badanti regolari, assistenza domiciliare, centri diurni).
+**In una frase:** chi non è più autosufficiente riceve un sostegno proporzionato al bisogno, che può usare in denaro o, con un bonus, in servizi di qualità (assistenti familiari regolari, assistenza domiciliare, centri diurni).
 
 **Problema affrontato:** B5 (non autosufficienza), B1 (spesa privata delle famiglie).
 
@@ -199,9 +199,9 @@
 - Rafforzamento della residenzialità solo per i casi più gravi, con standard minimi di personale nelle RSA.
 - Tempi: 18 mesi per il decreto; avvio graduale per nuove domande dal terzo anno.
 
-**Costo e copertura:** 1–3 mld €/anno aggiuntivi a regime, a seconda dell'ampiezza della maggiorazione (stima GovernAI). Copertura: riassorbimento dell'emersione del lavoro di cura (maggiori contributi e imposte); riordino delle misure frammentate per gli anziani. La "Carta valore" da 300 € per gli over 75 con pensione fino a 28.000 € prevista dal DDL bilancio 2027 vale 1.645 mln ma **solo per il 2027** (art. 53, c. 1): può finanziare l'avvio, non la spesa a regime.
+**Costo e copertura:** 1–3 mld €/anno aggiuntivi a regime, a seconda dell'ampiezza della maggiorazione (stima GovernAI). Copertura: riassorbimento dell'emersione del lavoro di cura (maggiori contributi e imposte); riordino delle misure frammentate per le persone anziane. La "Carta valore" da 300 € per gli over 75 con pensione fino a 28.000 € prevista dal DDL bilancio 2027 vale 1.645 mln ma **solo per il 2027** (art. 53, c. 1): può finanziare l'avvio, non la spesa a regime.
 
-**Vincitori e perdenti:** guadagnano le persone con bisogno grave e le loro famiglie (soprattutto le donne caregiver), i lavoratori di cura che emergono dal nero. Perdono, in prospettiva, i nuovi beneficiari con bisogno lieve (sostegno inferiore all'attuale accompagnamento). Distribuzione per età: favorevole agli anziani molto anziani; per reddito: neutra o progressiva se la maggiorazione è modulata con l'ISEE.
+**Vincitori e perdenti:** guadagnano le persone con bisogno grave e le loro famiglie (soprattutto le donne caregiver), le lavoratrici e i lavoratori di cura che emergono dal nero. Perdono, in prospettiva, i nuovi beneficiari con bisogno lieve (sostegno inferiore all'attuale accompagnamento). Distribuzione per età: favorevole alle persone molto anziane; per reddito: neutra o progressiva se la maggiorazione è modulata con l'ISEE.
 
 **Valutazione tre orizzonti:**
 
@@ -209,7 +209,7 @@
 |---|---|---|---|
 | Breve | **+1** | Dà una soluzione strutturale alla Prestazione universale, ora prorogata solo fino al 31/12/2027; costi contenuti per la gradualità | Media |
 | Medio | **+2** | Più servizi regolari, meno lavoro nero, valutazione più equa del bisogno | Media |
-| Lungo | **+2** | Sistema sostenibile per la crescita dei grandi anziani; spesa più mirata | Bassa |
+| Lungo | **+2** | Sistema sostenibile per la crescita delle persone molto anziane; spesa più mirata | Bassa |
 
 **Impatto sostenibilità:** SDG 3, SDG 5, SDG 8, SDG 10. Equità intergenerazionale: positiva se mirata (evita la crescita indiscriminata della spesa assistenziale), ma richiede attenzione al peso fiscale sulle generazioni giovani.
 
@@ -218,10 +218,10 @@
 - *Valutazioni disomogenee tra territori* → strumento nazionale unico, audit INPS a campione.
 - *Fuga dai servizi regolari* → maggiorazione sufficientemente attrattiva, voucher semplificati.
 
-**Indicatori di successo:** persone non autosufficienti con valutazione unica; quota di budget usata per servizi regolari; lavoratori domestici regolari (INPS); persone in lista d'attesa per RSA.
+**Indicatori di successo:** persone non autosufficienti con valutazione unica; quota di budget usata per servizi regolari; lavoratrici e lavoratori domestici regolari (INPS); persone in lista d'attesa per RSA.
 **Clausola di revisione:** valutazione a 3 anni con INPS e UPB; correzione dei livelli se la spesa supera le previsioni del 20%.
 
-**Evidenze:** la *Pflegeversicherung* tedesca (assicurazione per la non autosufficienza con livelli di bisogno e scelta tra denaro e servizi) e il sistema francese APA (assegno graduato per autonomia) offrono modelli consolidati; la Commissione per la riforma dell'assistenza agli anziani (2021-2022) e il Patto per un nuovo welfare sulla non autosufficienza in Italia hanno proposto soluzioni analoghe.
+**Evidenze:** la *Pflegeversicherung* tedesca (assicurazione per la non autosufficienza con livelli di bisogno e scelta tra denaro e servizi) e il sistema francese APA (assegno graduato per autonomia) offrono modelli consolidati; la Commissione per la riforma dell'assistenza alle persone anziane (2021-2022) e il Patto per un nuovo welfare sulla non autosufficienza in Italia hanno proposto soluzioni analoghe.
 
 ---
 
@@ -304,7 +304,7 @@
 - *Ricorsi delle aziende farmaceutiche* → transizione concordata, regole stabili e prevedibili.
 - *Gettito che si riduce se il consumo scende* → è il risultato desiderato; il vincolo di destinazione deve prevedere una base minima.
 
-**Indicatori di successo:** prevalenza di obesità infantile (OKkio alla Salute, ISS) e di fumatori (PASSI, ISS); copertura degli screening oncologici; scostamento tra spesa farmaceutica e budget; contenziosi pendenti.
+**Indicatori di successo:** prevalenza di obesità infantile (OKkio alla Salute, ISS) e di fumatrici e fumatori (PASSI, ISS); copertura degli screening oncologici; scostamento tra spesa farmaceutica e budget; contenziosi pendenti.
 **Clausola di revisione:** valutazione a 3 anni dell'effetto sui consumi e sulla spesa.
 
 **Evidenze:** la *Soft Drinks Industry Levy* del Regno Unito (2018) ha portato a una riduzione significativa dello zucchero nelle bevande grazie alla riformulazione (Public Health England, rapporti 2020); l'OMS raccomanda le tasse sulle bevande zuccherate e sul tabacco come interventi "best buy"; esperienze di *managed entry agreements* basati sugli esiti in Italia (registri AIFA) già esistono e vanno estese.

@@ -1,6 +1,6 @@
 # Sintesi del red team politico · 8 novembre 2026
 
-Quattro esperti di aree diverse hanno letto in modo indipendente GovernAI e il suo programma: centrodestra, centrosinistra, centro e area civica fuori dai partiti. Nessuno ha letto le revisioni degli altri. Sono agenti AI che rappresentano una sensibilità politica, non persone reali né portavoce di partiti: il passo successivo resta un confronto con persone vere.
+Quattro esperte ed esperti di aree diverse hanno letto in modo indipendente GovernAI e il suo programma: centrodestra, centrosinistra, centro e area civica fuori dai partiti. Nessuno ha letto le revisioni degli altri. Sono agenti AI che rappresentano una sensibilità politica, non persone reali né portavoce di partiti: il passo successivo resta un confronto con persone vere.
 
 Rapporti completi:
 - [centrodestra](2026-11-08_red_team_centrodestra.md)
@@ -30,7 +30,7 @@ Utilità e credibilità hanno lo stesso voto per tutte e quattro le aree. La neu
 
   Che le due ali lo vedano spostato verso l'altra è un segnale di equilibrio parziale. Il centro di gravità, però, è riformista-europeista: va detto apertamente, non negato.
 - **Chi risponde delle scelte?** Il panel è fatto solo di agenti AI. Anche il capo di governo è un agente, con circa 30 deroghe in una seduta. I membri che filtrano le richieste non hanno nome. Tutte le aree chiedono persone vere e una governance scritta.
-- **La partecipazione è promessa, non praticata.** Serve GitHub, le analisi pubblicate su richiesta dei cittadini sono zero e l'assemblea dei sorteggiati esiste solo dopo una legge.
+- **La partecipazione è promessa, non praticata.** Serve GitHub, le analisi pubblicate su richiesta delle cittadine e dei cittadini sono zero e l'assemblea dei sorteggiati esiste solo dopo una legge.
 
 ## 3. Le idee che uniscono
 
@@ -123,3 +123,5 @@ Alcuni riferimenti esterni dei rapporti sono segnati come da verificare prima di
 11. Concorrenza e liberalizzazioni; cuneo fiscale sul lavoro.
 12. Legge sulle lobby e conflitto di interessi; bilancio partecipativo.
 13. Pavimento per la spesa sanitaria con la regola di destinazione dell'evasione recuperata a consuntivo.
+
+*Testo rivisto il 9 novembre 2026 per un linguaggio inclusivo, senza cambiare il contenuto.*

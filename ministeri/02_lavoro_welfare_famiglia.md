@@ -12,7 +12,7 @@
 
 **Budget indicativo**: l'area governa la voce più grande della spesa pubblica. La spesa pensionistica vale il 15,2% del PIL nel 2025 (RGS, *Tendenze di medio-lungo periodo*, aggiornamento 2026, lug. 2026); l'AUU 19,7 mld nel 2025 (INPS, Osservatorio AUU); l'ADI 690 mila nuclei a giugno 2026 (INPS, Osservatorio ADI-SFL). Le prestazioni sociali in denaro della PA valgono 458,8 mld nel 2025, il 20,3% del PIL (Eurostat, gov_10a_main D62).
 
-**Vincoli europei rilevanti**: Patto di stabilità riformato (piano strutturale con tetto alla crescita della spesa netta: ogni proposta va coperta); Direttiva UE 2022/2041 sui salari minimi adeguati; Direttiva 2019/1158 su conciliazione vita-lavoro; Pilastro europeo dei diritti sociali (target 2030: occupazione 78%, –15 milioni di persone a rischio povertà); obiettivi di Barcellona (45% bambini 0–3 nei servizi entro 2030); Convenzione ONU sui diritti delle persone con disabilità; AI Act (uso di algoritmi nella gestione di prestazioni = alto rischio).
+**Vincoli europei rilevanti**: Patto di stabilità riformato (piano strutturale con tetto alla crescita della spesa netta: ogni proposta va coperta); Direttiva UE 2022/2041 sui salari minimi adeguati; Direttiva 2019/1158 su conciliazione vita-lavoro; Pilastro europeo dei diritti sociali (target 2030: occupazione 78%, –15 milioni di persone a rischio povertà); obiettivi di Barcellona (45% bambine e bambini 0–3 nei servizi entro 2030); Convenzione ONU sui diritti delle persone con disabilità; AI Act (uso di algoritmi nella gestione di prestazioni = alto rischio).
 
 ---
 
@@ -21,12 +21,12 @@
 ### B1. Crisi demografica strutturale
 - Nascite 2025: **355.772**, –3,8% sul 2024; decessi 651.830; fecondità **1,14 figli per donna** (1,18 nel 2024; 1,13 provvisorio gen-lug 2026) (ISTAT, *Natalità e fecondità 2025*, ott. 2026; Eurostat demo_gind).
 - Popolazione al 1° gennaio 2026: **58,94 milioni**, stabile solo grazie al saldo migratorio (Eurostat demo_gind su dati ISTAT).
-- Le previsioni ISTAT (base 1/1/2025, scenario mediano) indicano quasi **7 milioni di 15-64enni in meno al 2050**: la loro quota scende dal 63,4% al 55,3%, mentre gli over 65 salgono dal 24,7% al 34,5%. Il rapporto anziani/età lavorativa passa dal **39% al 62%**, cioè circa 3 anziani ogni 5 persone in età lavorativa (ISTAT, *Previsioni della popolazione*, ago. 2026; Eurostat EUROPOP2025: 63%). Il calo è in parte "già scritto": oggi le donne di 30-40 anni, che fanno oltre il 65% delle nascite, sono nate tra il 1985 e il 1995, quando la fecondità era già scesa da 1,45 a 1,19 (ISTAT, 2026).
+- Le previsioni ISTAT (base 1/1/2025, scenario mediano) indicano quasi **7 milioni di 15-64enni in meno al 2050**: la loro quota scende dal 63,4% al 55,3%, mentre gli over 65 salgono dal 24,7% al 34,5%. Il rapporto anziani/età lavorativa passa dal **39% al 62%**, cioè circa 3 persone anziane ogni 5 persone in età lavorativa (ISTAT, *Previsioni della popolazione*, ago. 2026; Eurostat EUROPOP2025: 63%). Il calo è in parte "già scritto": oggi le donne di 30-40 anni, che fanno oltre il 65% delle nascite, sono nate tra il 1985 e il 1995, quando la fecondità era già scesa da 1,45 a 1,19 (ISTAT, 2026).
 
 ### B2. Salari bassi e lavoro povero
 - Salari reali **6,1% sotto** il I trimestre 2021 al I trimestre 2026, il divario più ampio tra le grandi economie OCSE, con un nuovo calo previsto nel 2026 (OCSE, *Employment Outlook 2026*, lug. 2026). Retribuzioni contrattuali orarie reali: –8,8% a settembre 2025 (ISTAT) e **–10,2% a settembre 2026** rispetto a gennaio 2021, perché nel 2026 l'inflazione supera gli aumenti contrattuali (+2,5%) (elaborazione GovernAI su ISTAT, *Retribuzioni contrattuali lug-set 2026*, e HICP Eurostat).
 - Povertà assoluta al **14,3%** tra le famiglie con persona di riferimento operaia (ISTAT, *La povertà in Italia – 2025*, ott. 2026): il lavoro non protegge sempre dalla povertà.
-- Occupati a rischio povertà ("working poor"): **10,2%** nel 2025, contro l'8,3% UE (Eurostat EU-SILC, ilc_iw01).
+- Persone occupate a rischio povertà ("working poor"): **10,2%** nel 2025, contro l'8,3% UE (Eurostat EU-SILC, ilc_iw01).
 
 ### B3. Partecipazione al lavoro bassa, soprattutto per donne, giovani e Sud
 - Tasso di occupazione 15-64 **63,0%** (settembre 2026, ISTAT, dati provvisori). Sulla fascia 20-64 del target UE 2030 (78%) l'Italia è al **67,6%** nel 2025 (Eurostat lfsi_emp_a).
@@ -36,7 +36,7 @@
 ### B4. Povertà stabile su livelli alti, concentrata su minori e stranieri
 - **5,4 milioni** di persone in povertà assoluta (9,3% dei residenti), 2,1 milioni di famiglie (8,0%) nel 2025 (ISTAT, ott. 2026).
 - Minori in povertà assoluta: **1,136 milioni (12,5%)**; incidenza nelle famiglie di soli stranieri **29,4%** contro 5,9% di quelle di soli italiani (ISTAT, 2026).
-- L'ADI raggiunge 690 mila nuclei a giugno 2026, con un importo medio di 672 €/mese (INPS, Osservatorio ADI-SFL); i nuclei con almeno una mensilità da gennaio 2024 sono 1,02 milioni: molto meno dei 2,1 milioni di famiglie povere, anche per i requisiti categoriali (minori, disabili, over 60) che escludono i poveri "occupabili" senza carichi.
+- L'ADI raggiunge 690 mila nuclei a giugno 2026, con un importo medio di 672 €/mese (INPS, Osservatorio ADI-SFL); i nuclei con almeno una mensilità da gennaio 2024 sono 1,02 milioni: molto meno dei 2,1 milioni di famiglie povere, anche per i requisiti categoriali (minori, persone con disabilità, over 60) che escludono le persone povere "occupabili" senza carichi.
 
 ### B5. Sistema pensionistico: sostenibile sulla carta, fragile nel percorso
 - Spesa pensionistica **15,2% del PIL nel 2025**. Il picco atteso è **17,1% nel 2041**, stabile fino al 2044; poi la spesa scende al 16,2% nel 2050 e al 14,0% nel 2070. Il percorso dipende dalle ipotesi su produttività, occupazione e immigrazione. Con requisiti congelati, senza aggancio all'aspettativa di vita, il picco salirebbe al 18,0% nel 2043 (RGS, *Tendenze di medio-lungo periodo*, aggiornamento 2026, lug. 2026). OCSE: Italia e Grecia hanno la spesa pensionistica pubblica più alta dell'area, circa il 16% del PIL, contro una media OCSE dell'8,1% (*Pensions at a Glance 2025*).
@@ -44,7 +44,7 @@
 - La manovra 2027 (ddl approvato in CdM il 28 ottobre 2026, in esame alle Camere) non riforma il sistema. Prevede un fondo di circa 850 milioni l'anno (2,55 mld nel 2027-29) per l'uscita anticipata, con requisiti rinviati a un decreto, e proroga l'Ape sociale (fonti di stampa concordi; da verificare sul testo bollinato e sulla relazione tecnica).
 
 ### B6. Infanzia, conciliazione e disabilità: servizi carenti e frammentati
-- Copertura dei servizi per la prima infanzia **31,6 posti ogni 100 bambini** 0–2 anni nel 2023/24, con il Sud al 19,0% e le Isole al 19,5% (Centro 40,4%). Il 59,5% dei nidi ha liste d'attesa (ISTAT, *Offerta di nidi*, feb. 2026). Il LEP del 33% per comune o bacino è già previsto per legge entro il 2027 (L. 234/2021); il target UE 2030 è il 45%.
+- Copertura dei servizi per la prima infanzia **31,6 posti ogni 100 bambine e bambini** 0–2 anni nel 2023/24, con il Sud al 19,0% e le Isole al 19,5% (Centro 40,4%). Il 59,5% dei nidi ha liste d'attesa (ISTAT, *Offerta di nidi*, feb. 2026). Il LEP del 33% per comune o bacino è già previsto per legge entro il 2027 (L. 234/2021); il target UE 2030 è il 45%.
 - Persone con limitazioni gravi nelle attività abituali: **2,9 milioni** nel 2023 (ISTAT, dic. 2025). Tra i 15-64enni con limitazioni gravi è occupato solo il **32,5%**, contro il 58,9% delle persone senza limitazioni (ISTAT, dato 2021). Divario occupazionale per limitazioni gravi: 43,4 punti nel 2025 (Eurostat EU-SILC). Circa il 70% non riceve assistenza domiciliare sanitaria (stima, da verificare: fonte primaria non trovata).
 - La riforma della disabilità (d.lgs. 62/2024: valutazione di base unica, "progetto di vita") è in sperimentazione. Dal 1° marzo 2026 è estesa ad altre 40 province (DL 19/2026; INPS, msg. 635/2026); l'avvio su tutto il territorio è previsto dal 1° gennaio 2027 (DL 202/2024).
 
@@ -63,11 +63,11 @@
 2. *Salario minimo legale fisso per legge* (es. 9 €/ora): semplice ma rigido, esposto a promesse elettorali, rischio di schiacciamento della contrattazione. Scartata come strumento unico.
 3. *Estensione erga omnes dei minimi dei CCNL rappresentativi + soglia oraria di garanzia fissata da Commissione indipendente* (modello Low Pay Commission britannica, coerente con la Direttiva 2022/2041). **Scelta**: rispetta l'art. 36 e 39 Cost., valorizza le parti sociali, depoliticizza l'aggiornamento.
 
-**Meccanismo**: legge delega (6 mesi) + decreti attuativi. (a) Misurazione certificata della rappresentatività (dati INPS-CNEL su iscritti e votanti); (b) i minimi complessivi del CCNL più rappresentativo diventano il riferimento obbligatorio anche per gli appalti pubblici e i subappalti; (c) Commissione indipendente (parti sociali + esperti, segreteria ISTAT-CNEL) propone ogni anno una soglia oraria di garanzia, con criteri dichiarati (es. 50–60% del salario mediano, indicatori della Direttiva), che il governo può respingere solo motivando in Parlamento; (d) rafforzamento INL (+1.500 ispettori in 3 anni); (e) rinnovi contrattuali scaduti: indennità di vacanza contrattuale più incisiva dopo 12 mesi.
+**Meccanismo**: legge delega (6 mesi) + decreti attuativi. (a) Misurazione certificata della rappresentatività (dati INPS-CNEL su iscritti e votanti); (b) i minimi complessivi del CCNL più rappresentativo diventano il riferimento obbligatorio anche per gli appalti pubblici e i subappalti; (c) Commissione indipendente (parti sociali + esperte ed esperti, segreteria ISTAT-CNEL) propone ogni anno una soglia oraria di garanzia, con criteri dichiarati (es. 50–60% del salario mediano, indicatori della Direttiva), che il governo può respingere solo motivando in Parlamento; (d) rafforzamento INL (+1.500 ispettori in 3 anni); (e) rinnovi contrattuali scaduti: indennità di vacanza contrattuale più incisiva dopo 12 mesi.
 
 **Costo e copertura**: per lo Stato **~0,3–0,5 mld/anno** (ispettori, Commissione, maggior costo appalti; stima GovernAI: non esistono stime UPB/RGS su questo disegno). Effetto di gettito positivo per maggiori contributi e IRPEF. Copertura: recupero di evasione contributiva da controlli INL.
 
-**Vincitori e perdenti**: guadagnano i lavoratori a basso salario (servizi, logistica, vigilanza, pulizie, agricoltura), donne e giovani sovra-rappresentati; Mezzogiorno in termini di reddito. Perdono le imprese che competono su contratti al ribasso; rischio di più sommerso nelle aree a bassa produttività del Sud.
+**Vincitori e perdenti**: guadagnano le lavoratrici e i lavoratori a basso salario (servizi, logistica, vigilanza, pulizie, agricoltura), donne e giovani sovra-rappresentati; Mezzogiorno in termini di reddito. Perdono le imprese che competono su contratti al ribasso; rischio di più sommerso nelle aree a bassa produttività del Sud.
 
 **Valutazione tre orizzonti**
 
@@ -102,7 +102,7 @@
 
 **Costo e copertura**: **3–4,5 mld/anno a regime** (stima GovernAI). Spesa corrente nidi +1,5–2,5 mld. Congedi **+1,5–2 mld**: è la stima della relazione tecnica RGS sulla pdl "congedo paritario" (~3,2 mld/anno dal 2026 per 4-5 mesi ai padri, fino al 100%), riproporzionata a 3 mesi all'80%. Copertura: riordino dei bonus natalità frammentati (bonus mamme, carte, bonus nido trasformato in offerta), parte delle tax expenditures familiari, aumento contributivo dello 0,1–0,2% sulla CUAF (Cassa unica assegni familiari). L'avanzo strutturale della CUAF non è documentato da fonti primarie: risulta solo un saldo positivo della Gestione prestazioni temporanee INPS (12,9 mld nel 2024), che include la CUAF. Questa copertura va quindi dimostrata.
 
-**Vincitori e perdenti**: guadagnano madri lavoratrici e potenziali madri, bambini dei ceti bassi (effetti cognitivi documentati), Sud e aree interne, padri che vogliono stare con i figli. Perdono i beneficiari di bonus monetari che vengono riordinati; piccole imprese gestiscono l'assenza dei padri (mitigazione: sostituzione con sgravio).
+**Vincitori e perdenti**: guadagnano madri lavoratrici e potenziali madri, bambine e bambini dei ceti bassi (effetti cognitivi documentati), Sud e aree interne, padri che vogliono stare con i figli. Perdono i beneficiari di bonus monetari che vengono riordinati; piccole imprese gestiscono l'assenza dei padri (mitigazione: sostituzione con sgravio).
 
 **Valutazione tre orizzonti**
 
@@ -110,7 +110,7 @@
 |---|---|---|---|
 | Breve | +1 | Congedi subito; i posti nido richiedono tempo e personale | Media |
 | Medio | +2 | Più occupazione femminile, maggiore gettito, minore povertà infantile | Media |
-| Lungo | +2 | Capitale umano dei bambini; effetto moderato ma positivo sulla fecondità | Media/Bassa (sulla fecondità) |
+| Lungo | +2 | Capitale umano delle bambine e dei bambini; effetto moderato ma positivo sulla fecondità | Media/Bassa (sulla fecondità) |
 
 **Impatto sostenibilità**: SDG 4, 5, 8, 10. Emissioni neutre (attenzione agli edifici: standard NZEB). Fortemente positivo per l'equità intergenerazionale.
 
@@ -131,13 +131,13 @@
 **Opzioni considerate**
 1. *Status quo* (età legata all'aspettativa di vita, "quote" e uscite anticipate rinnovate anno per anno): incertezza continua, costi che si accumulano su debito e giovani. Scartata.
 2. *Nuove uscite anticipate generalizzate* (Quota 41, uscita a 64 anni per tutti): popolare nel breve, aggrava il picco 2040 e trasferisce costi alle generazioni future. Scartata (⚠️ tipico errore: + breve, – lungo).
-3. *Flessibilità solo attuariale + contributo di equità + pensione di garanzia*. **Scelta**: rende il sistema prevedibile, non scarica costi sui giovani, protegge i più deboli del contributivo.
+3. *Flessibilità solo attuariale + contributo di equità + pensione di garanzia*. **Scelta**: rende il sistema prevedibile, non scarica costi sui giovani, protegge le persone con redditi bassi o in condizioni di fragilità del contributivo.
 
 **Meccanismo**: (a) chiusura delle "quote" a scadenza; uscita flessibile da 64 anni **solo con calcolo interamente contributivo o riduzione attuariale** (neutrale per i conti), tutelando lavori gravosi/usuranti con elenco aggiornato su dati INAIL; (b) **mantenimento del collegamento automatico età–aspettativa di vita**, con meccanismo di salvaguardia per i lavori gravosi; (c) **contributo di equità** temporaneo (10 anni) sulla quota di pensione non coperta da contributi, solo per assegni sopra ~6 volte il minimo, progressivo, disegnato per superare il vaglio della Corte costituzionale (ragionevolezza, temporaneità, finalità solidaristica interna al sistema: cfr. sent. 173/2016, 234/2020); (d) **pensione di garanzia** per i contributivi puri: integrazione fino a una soglia minima (es. 1,5 volte l'assegno sociale) per chi ha almeno 20 anni di contributi, con valorizzazione dei periodi di cura, formazione e disoccupazione; (e) rilancio della previdenza complementare con adesione automatica (opt-out) per i neoassunti.
 
 **Costo e copertura**: il contributo di equità genera un gettito dell'ordine di **0,5–1 mld/anno** (stima GovernAI); la chiusura delle quote evita spese per 1–3 mld/anno rispetto al loro rinnovo (stima GovernAI; per confronto, il ddl bilancio 2027 stanzia ~850 mln/anno per l'uscita anticipata, secondo la stampa). La pensione di garanzia ha costi trascurabili oggi e crescenti dopo il 2035 (0,5–1,5 mld/anno, stima GovernAI): si accantona in un **fondo dedicato** alimentato dai risparmi.
 
-**Vincitori e perdenti**: guadagnano i giovani, i lavoratori discontinui, le donne con carriere interrotte, i contribuenti futuri. Perdono i lavoratori vicini alla pensione che contavano su uscite agevolate (soprattutto uomini del Centro-Nord con carriere lunghe) e i pensionati con assegni alti in parte non coperti da contributi.
+**Vincitori e perdenti**: guadagnano i giovani, le lavoratrici e i lavoratori discontinui, le donne con carriere interrotte, i contribuenti futuri. Perdono le lavoratrici e i lavoratori vicini alla pensione che contavano su uscite agevolate (soprattutto uomini del Centro-Nord con carriere lunghe) e le persone in pensione con assegni alti in parte non coperti da contributi.
 
 **Valutazione tre orizzonti** ⚠️ (negativo nel breve, positivo nel lungo)
 
@@ -149,7 +149,7 @@
 
 **Impatto sostenibilità**: SDG 1, 8, 10, 16. Emissioni neutre. È la proposta con il maggiore impatto positivo sull'equità intergenerazionale.
 
-**Rischi e mitigazioni**: ricorsi costituzionali sul contributo → disegno temporaneo, progressivo, destinato a finalità interne al sistema; blocco politico → introduzione con "clausola di trasparenza": pubblicazione annuale UPB del costo per generazione di ogni misura previdenziale; lavoratori usurati → elenco gravosi basato su evidenze INAIL e non su contrattazione politica.
+**Rischi e mitigazioni**: ricorsi costituzionali sul contributo → disegno temporaneo, progressivo, destinato a finalità interne al sistema; blocco politico → introduzione con "clausola di trasparenza": pubblicazione annuale UPB del costo per generazione di ogni misura previdenziale; lavoratrici e lavoratori usurati → elenco gravosi basato su evidenze INAIL e non su contrattazione politica.
 
 **Indicatori e revisione**: spesa pensionistica/PIL rispetto allo scenario RGS; età effettiva di uscita; tasso di sostituzione netto simulato per i nati 1980–2000; povertà degli over 65. Revisione ogni 5 anni con la verifica demografica ISTAT.
 
@@ -159,7 +159,7 @@
 
 ### C4. Reddito di inclusione universale con "lavoro che conviene"
 
-**In una frase**: chi è in povertà assoluta riceve un sostegno anche se non ha figli o disabili in casa, e se trova lavoro non perde subito tutto l'assegno.
+**In una frase**: chi è in povertà assoluta riceve un sostegno anche se non ha figli o persone con disabilità in casa, e se trova lavoro non perde subito tutto l'assegno.
 
 **Problema affrontato**: B4, B2, B3.
 
@@ -172,7 +172,7 @@
 
 **Costo e copertura**: **+2–3 mld/anno** rispetto alla spesa attuale per ADI/SFL (stima GovernAI; l'ADI annualizzata vale circa 5,6 mld, elaborazione su dati INPS di giugno 2026). Copertura: riordino di bonus e carte frammentate (es. carte acquisti), parte del gettito da contrasto all'evasione, risparmi dell'uscita dalle "quote" (C3).
 
-**Vincitori e perdenti**: guadagnano poveri adulti senza carichi, famiglie numerose, minori, lavoratori poveri, Sud. Perdono i contribuenti in termini di costo; rischio di percezione negativa ("assistenzialismo").
+**Vincitori e perdenti**: guadagnano poveri adulti senza carichi, famiglie numerose, minori, lavoratrici e lavoratori poveri, Sud. Perdono i contribuenti in termini di costo; rischio di percezione negativa ("assistenzialismo").
 
 **Valutazione tre orizzonti**
 
@@ -188,7 +188,7 @@
 
 **Indicatori e revisione**: incidenza della povertà assoluta (obiettivo: –2 punti in 4 anni); take-up tra gli aventi diritto; quota di beneficiari con reddito da lavoro dopo 12 mesi. Valutazione controfattuale INAPP/Banca d'Italia a 3 anni.
 
-**Evidenze**: Francia (Revenu de solidarité active con componente per lavoratori); Regno Unito (Universal Credit: decalage graduale, problemi di attuazione da evitare); Banca d'Italia e Caritas su limiti ADI/RdC.
+**Evidenze**: Francia (Revenu de solidarité active con componente per lavoratrici e lavoratori); Regno Unito (Universal Credit: decalage graduale, problemi di attuazione da evitare); Banca d'Italia e Caritas su limiti ADI/RdC.
 
 ---
 
@@ -256,7 +256,7 @@
 
 **Rischi e mitigazioni**: uso formalistico della valutazione → pubblicazione e audizione obbligatoria; strumentalizzazione del tema migratorio → dati ISTAT/INPS pubblici e scenari alternativi.
 
-**Indicatori e revisione**: numero di leggi con valutazione generazionale; tasso di occupazione degli stranieri regolari; saldo migratorio dei laureati italiani. Revisione al 2031.
+**Indicatori e revisione**: numero di leggi con valutazione generazionale; tasso di occupazione degli stranieri regolari; saldo migratorio delle persone laureate italiane. Revisione al 2031.
 
 **Evidenze**: contabilità generazionale (Auerbach-Kotlikoff); Galles (*Well-being of Future Generations Act* 2015); Canada (programmazione migratoria pluriennale per competenze); Germania (*Fachkräfteeinwanderungsgesetz*).
 
@@ -268,7 +268,7 @@
 2. **Imprese e Made in Italy / Agricoltura (conflitto)**: la soglia salariale (C1) aumenta i costi nei settori a bassa produttività (agricoltura, turismo, servizi) e al Sud; il congedo paterno (C2) pesa sulle micro-imprese. Sinergia: politiche industriali per la produttività.
 3. **Interno (conflitto valoriale)**: canali di ingresso per lavoro (C6) e requisito di residenza dell'ADI (C4) toccano la politica migratoria e la sicurezza. Serve una decisione politica esplicita.
 4. **Salute (sinergia/conflitto)**: progetto di vita (C5) e non autosufficienza richiedono integrazione socio-sanitaria e budget condivisi; rischio di scaricabarile tra ASL e Comuni.
-5. **Istruzione e Merito / Università (sinergia)**: nidi e 0–6 (C2), formazione educatori, contrasto ai NEET, formazione continua dei lavoratori anziani (necessaria per C3).
+5. **Istruzione e Merito / Università (sinergia)**: nidi e 0–6 (C2), formazione educatori, contrasto ai NEET, formazione continua delle lavoratrici e dei lavoratori anziani (necessaria per C3).
 6. **Affari regionali e Autonomie (conflitto)**: LEP per nidi e disabilità vanno definiti prima di qualunque autonomia differenziata, altrimenti si allargano i divari Nord-Sud.
 7. **Coesione/Sud (sinergia)**: C2, C4, C5 hanno effetti maggiori nel Mezzogiorno; possibile uso dei fondi di coesione per gli investimenti (non per la spesa corrente).
 8. **Ambiente e Transizione energetica (sinergia)**: transizione giusta (ammortizzatori e riqualificazione per settori fossili); nuovi nidi a basso consumo.

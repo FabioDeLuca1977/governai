@@ -1,7 +1,7 @@
 {
  "seduta": "2026-11-08",
  "motivo": "Prima seduta. Allerte attive: inflazione al 5,6% e in salita, debito/PIL in aumento, fiducia dei consumatori in calo, PIL fermo nel terzo trimestre.",
- "indirizzo": "Il Paese è in uno shock di prezzi di origine energetica con l'economia ferma e il debito in salita: la linea del governo è proteggere i redditi più esposti senza un euro di deficit. Prima si mette al sicuro tutto il nucleo robusto almeno in versione essenziale, poi si finanziano le priorità delle allerte solo con le rinunce offerte dai ministri e con coperture già nel programma, mai con risparmi attesi o entrate da certificare. La riforma dei sussidi ambientalmente dannosi già attivata come copertura deve restituire una parte visibile del gettito ai redditi bassi, perché la Carta vieta di spostare costi sui più deboli senza compensazione. Le misure nuove e incerte partono come piloti valutati, e quelle con nodi giuridici aperti (UPB, deroga IVA, paesaggio, residenza) partono solo con il testo corretto. Nessuna crescita della spesa per la Difesa finché il debito non torna sul percorso concordato in sede UE.",
+ "indirizzo": "Il Paese è in uno shock di prezzi di origine energetica con l'economia ferma e il debito in salita: la linea del governo è proteggere i redditi più esposti senza un euro di deficit. Prima si mette al sicuro tutto il nucleo robusto almeno in versione essenziale, poi si finanziano le priorità delle allerte solo con le rinunce offerte dai ministri e con coperture già nel programma, mai con risparmi attesi o entrate da certificare. La riforma dei sussidi ambientalmente dannosi già attivata come copertura deve restituire una parte visibile del gettito ai redditi bassi, perché la Carta vieta di spostare costi sulle persone con redditi bassi o in condizioni di fragilità senza compensazione. Le misure nuove e incerte partono come piloti valutati, e quelle con nodi giuridici aperti (UPB, deroga IVA, paesaggio, residenza) partono solo con il testo corretto. Nessuna crescita della spesa per la Difesa finché il debito non torna sul percorso concordato in sede UE.",
  "decisioni": [
   {
    "proposta": "02-C2",
@@ -56,7 +56,7 @@
    "variante": "ESSENZIALE",
    "decisione": "adottata",
    "regola": "nucleo",
-   "motivazione": "Proposta robusta, già nel programma: con la fine del PNRR tutela le borse di studio degli idonei (art. 34 Cost.) e raddoppia gli ITS. Il divario di laureati (31,1% contro 44,8% UE) è una delle leve di crescita di lungo periodo.",
+   "motivazione": "Proposta robusta, già nel programma: con la fine del PNRR tutela le borse di studio degli idonei (art. 34 Cost.) e raddoppia gli ITS. Il divario di persone laureate (31,1% contro 44,8% UE) è una delle leve di crescita di lungo periodo.",
    "deroga": false,
    "motivo_deroga": "",
    "risposta_opposizione": "",
@@ -146,7 +146,7 @@
    "variante": "ESSENZIALE",
    "decisione": "adottata",
    "regola": "deroga",
-   "motivazione": "Rinuncia offerta dall'area 01: il conto fiscale automatico parte da chi ha presentato il 730 e dai pensionati con sola CU, rinviando gli altri non dichiaranti. Resta nel nucleo robusto in versione essenziale e libera circa 0,15 mld di SPESE_FISCALI per finanziare 01-P8 ESSENZIALE.",
+   "motivazione": "Rinuncia offerta dall'area 01: il conto fiscale automatico parte da chi ha presentato il 730 e dalle persone in pensione con sola CU, rinviando gli altri non dichiaranti. Resta nel nucleo robusto in versione essenziale e libera circa 0,15 mld di SPESE_FISCALI per finanziare 01-P8 ESSENZIALE.",
    "deroga": true,
    "motivo_deroga": "Il motore aveva scelto la PIENA. Con le risorse generali in pareggio (10,49 su 10,50) la riduzione serve a finanziare la quota studio di 01-P8, che evita un costo senza compensazione sulle famiglie a basso reddito (linea rossa EQU); la proposta resta almeno essenziale, come chiede la regola 8.",
    "risposta_opposizione": "",
@@ -346,7 +346,7 @@
    "regola": "deroga",
    "motivazione": "Il programma attiva la riforma dei SAD come copertura (gasolio, IVA sul gas domestico, auto aziendali) ma lasciava il dividendo a ZERO: con inflazione al 5,6% e fiducia a -23,3 significa aumentare i prezzi senza restituzione visibile ai primi decili, contro la linea rossa EQU (art. 3 c.2 e art. 53 Cost.). Si adotta l'ESSENZIALE erogata solo sul gettito SAD accertato: prima il bonus clima per ISEE fino a 15.000 euro e per le aree interne senza trasporto pubblico; la quota di 0,4 mld per le categorie è trasformata in contributi agli investimenti di conversione con base verificata nel regolamento che sostituisce il GBER, in ABER o de minimis, e senza aiuti al funzionamento per la pesca. Calendario dal 2028 con ETS2 e clausola di sospensione sul prezzo del gasolio. Il fondo SAD resta nella capienza grazie alle rinunce di 03-P5 e 07-C3.",
    "deroga": true,
-   "motivo_deroga": "Il motore aveva scelto ZERO. La deroga serve a rispettare la linea rossa EQU, che il motore non vede quando la riforma SAD è usata come copertura senza la restituzione prevista dalla stessa proposta, e risponde all'allerta fiducia_in_calo sulla tempistica delle coperture che pesano sui consumatori. È finanziata dentro il fondo SAD con rinunce di altre misure, senza deficit.",
+   "motivo_deroga": "Il motore aveva scelto ZERO. La deroga serve a rispettare la linea rossa EQU, che il motore non vede quando la riforma SAD è usata come copertura senza la restituzione prevista dalla stessa proposta, e risponde all'allerta fiducia_in_calo sulla tempistica delle coperture che pesano sulle consumatrici e sui consumatori. È finanziata dentro il fondo SAD con rinunce di altre misure, senza deficit.",
    "risposta_opposizione": "Accolgo le due obiezioni. Sul fondo SAD: le altre richieste su quel fondo (04-P3 ESSENZIALE, 05-C3, la quota SAD di 02-C4) non sono adottate, e il dividendo si eroga solo nei limiti del gettito accertato, prima la quota per i redditi bassi; la Ragioneria stimerà il gettito accertabile 2028-2030. Sugli aiuti di Stato: niente compensazioni al funzionamento, la quota settoriale diventa contributo agli investimenti di conversione con base giuridica verificata, e per la pesca nulla di legato al carburante.",
    "scommessa": null,
    "esito_controlli": []
@@ -356,10 +356,10 @@
    "variante": "PILOTA",
    "decisione": "adottata",
    "regola": "deroga",
-   "motivazione": "Priorità dell'allerta inflazione_alta, oggi non finanziata: due terzi delle famiglie in povertà assoluta restano fuori dall'ADI. Senza coperture certe per 1,5 mld a regime l'ESSENZIALE non è finanziabile senza deficit (regola FUT); si avvia la PILOTA (0,1 mld), sperimentazione randomizzata in 12 ambiti con base di legge, per misurare take-up e inserimento lavorativo prima di scalare. Il requisito di residenza esenta lavoratori UE e familiari, soggiornanti di lungo periodo e titolari di protezione. Decisione sul beneficio sempre umana.",
+   "motivazione": "Priorità dell'allerta inflazione_alta, oggi non finanziata: due terzi delle famiglie in povertà assoluta restano fuori dall'ADI. Senza coperture certe per 1,5 mld a regime l'ESSENZIALE non è finanziabile senza deficit (regola FUT); si avvia la PILOTA (0,1 mld), sperimentazione randomizzata in 12 ambiti con base di legge, per misurare take-up e inserimento lavorativo prima di scalare. Il requisito di residenza esenta lavoratrici e lavoratori UE e familiari, soggiornanti di lungo periodo e titolari di protezione. Decisione sul beneficio sempre umana.",
    "deroga": true,
    "motivo_deroga": "Il motore non aveva incluso la proposta (scelta nel 3% delle combinazioni di pesi). È priorità dell'allerta inflazione_alta e la PILOTA costa 0,1 mld, finanziati dalle riduzioni di 02-C1 e 02-C6 offerte dalla stessa area; produce l'evidenza che manca per decidere la scala.",
-   "risposta_opposizione": "Obiezione accolta: non adottiamo l'ESSENZIALE finché le coperture per 1,5 mld non sono quantificate nella stessa legge di bilancio e validate dalla Ragioneria. Partiamo con il pilota randomizzato che l'opposizione stessa indica come prova sufficiente, e il testo sulla residenza viene corretto per escludere la discriminazione indiretta dei lavoratori UE e dei soggiornanti di lungo periodo.",
+   "risposta_opposizione": "Obiezione accolta: non adottiamo l'ESSENZIALE finché le coperture per 1,5 mld non sono quantificate nella stessa legge di bilancio e validate dalla Ragioneria. Partiamo con il pilota randomizzato che l'opposizione stessa indica come prova sufficiente, e il testo sulla residenza viene corretto per escludere la discriminazione indiretta delle lavoratrici e dei lavoratori UE e dei soggiornanti di lungo periodo.",
    "scommessa": null,
    "esito_controlli": []
   },
@@ -488,7 +488,7 @@
    "variante": "PILOTA",
    "decisione": "adottata",
    "regola": "deroga",
-   "motivazione": "Le Case della Comunità e le aree interne non funzionano senza personale: 6,9 infermieri per 1.000 abitanti contro 9,2 OCSE. La PILOTA (0,35 mld: 4 Regioni e aree interne, borse con vincolo SSN) misura l'effetto di indennità e borse prima di scalare, con SPESE_FISCALI 0,20 e ACCISE_SALUTE 0,15, che ha capienza libera. La pratica avanzata è limitata a protocolli sperimentali con base di legge.",
+   "motivazione": "Le Case della Comunità e le aree interne non funzionano senza personale: 6,9 infermiere e infermieri per 1.000 abitanti contro 9,2 OCSE. La PILOTA (0,35 mld: 4 Regioni e aree interne, borse con vincolo SSN) misura l'effetto di indennità e borse prima di scalare, con SPESE_FISCALI 0,20 e ACCISE_SALUTE 0,15, che ha capienza libera. La pratica avanzata è limitata a protocolli sperimentali con base di legge.",
    "deroga": true,
    "motivo_deroga": "Il motore non aveva incluso la proposta. La deroga si motiva con il Benessere e l'Equità territoriale e con la complementarità con 04-P6 e con gli investimenti PNRR già fatti nelle Case della Comunità, che il punteggio per singola proposta non vede. È l'ultima misura della lista: se i fondi non bastano la Ragioneria la taglia per prima.",
    "risposta_opposizione": "",
@@ -657,7 +657,7 @@
      "azione": "modificare",
      "proposta": "01-P8",
      "variante": "ESSENZIALE",
-     "motivazione": "Il programma del momento adotta la variante ZERO, cioè le abolizioni delle detrazioni del 19% (vita e infortuni, veterinarie, istruzione, interessi sui nuovi mutui) senza la compensazione: la scheda stessa avverte che la ZERO senza compensazione non ha senso. Con l'inflazione al 5,6% e la fiducia dei consumatori a -23,3 (allerte inflazione_alta e fiducia_in_calo), togliere la detrazione per istruzione alle famiglie a basso reddito senza la quota studio dell'Assegno unico violerebbe lo spirito della linea rossa EQU (costi sui più deboli senza compensazione). La variante ESSENZIALE (0,20 mld su SPESE_FISCALI) mantiene la quota studio, rimborsabile anche per gli incapienti, per l'ISEE fino a 20.000 €. Il costo è compensato dalle rinunce indicate sotto. Il gettito delle abolizioni sta nelle coperture FN01, FN02 e FN03: che siano attivate insieme alla misura è da verificare con la Ragioneria.",
+     "motivazione": "Il programma del momento adotta la variante ZERO, cioè le abolizioni delle detrazioni del 19% (vita e infortuni, veterinarie, istruzione, interessi sui nuovi mutui) senza la compensazione: la scheda stessa avverte che la ZERO senza compensazione non ha senso. Con l'inflazione al 5,6% e la fiducia dei consumatori a -23,3 (allerte inflazione_alta e fiducia_in_calo), togliere la detrazione per istruzione alle famiglie a basso reddito senza la quota studio dell'Assegno unico violerebbe lo spirito della linea rossa EQU (costi sulle persone con redditi bassi o in condizioni di fragilità senza compensazione). La variante ESSENZIALE (0,20 mld su SPESE_FISCALI) mantiene la quota studio, rimborsabile anche per gli incapienti, per l'ISEE fino a 20.000 €. Il costo è compensato dalle rinunce indicate sotto. Il gettito delle abolizioni sta nelle coperture FN01, FN02 e FN03: che siano attivate insieme alla misura è da verificare con la Ragioneria.",
      "pre_mortem": "Le detrazioni piccole sono molto diffuse, per esempio 5,3 milioni di beneficiari per le assicurazioni. Se la misura arriva da sola, senza 01-P7 (conto fiscale automatico) e con un'inflazione alta, diventa il simbolo di un aumento di tasse sul ceto medio. Il Parlamento ripristina le detrazioni e lascia solo il costo della quota studio.",
      "effetti_altri": [
       {
@@ -686,7 +686,7 @@
    ],
    "rinunce": [
     "01-P6 da PIENA a ESSENZIALE: si rinuncia al credito di riqualificazione delle strutture turistiche, ma restano la modulazione dell'imposta di soggiorno, il vincolo del 50% e i dati CIN (-0,10 mld/anno su RIALLOCAZIONE, fondo già oltre la capienza).",
-    "01-P7 da PIENA a ESSENZIALE: il conto fiscale automatico parte da chi ha presentato il 730 l'anno precedente e dai pensionati con sola CU, rinviando gli altri non dichiaranti (-0,15 mld/anno, quasi tutti su SPESE_FISCALI).",
+    "01-P7 da PIENA a ESSENZIALE: il conto fiscale automatico parte da chi ha presentato il 730 l'anno precedente e dalle persone in pensione con sola CU, rinviando gli altri non dichiaranti (-0,15 mld/anno, quasi tutti su SPESE_FISCALI).",
     "01-P5 da PIENA a ESSENZIALE, se COESIONE_2127 o SAD non bastano: solo consorzi e distretti energivori, senza quota SAD per il Centro-Nord (-0,20 mld/anno nel 2027-2028).",
     "01-P12 da PIENA a ESSENZIALE: si rinvia l'adempimento collaborativo semplificato per le medie imprese e la congruità estesa ai servizi (-0,02 mld/anno su RIALLOCAZIONE).",
     "01-P1 da PIENA a ESSENZIALE: valutazione generazionale su debito e coorti senza il conto clima, soglia allo 0,1% del PIL (-0,01 mld/anno).",
@@ -718,7 +718,7 @@
   },
   "02": {
    "area": "02",
-   "situazione": "L'inflazione al 5,6% (ottobre 2026, +4,3 punti sull'anno) supera di molto gli aumenti contrattuali (+2,5%): le retribuzioni contrattuali orarie reali sono al -10,2% rispetto a gennaio 2021 e il 10,2% degli occupati è a rischio di povertà (UE 8,3%). Il mercato del lavoro comincia a cedere con il PIL fermo nel terzo trimestre: disoccupazione al 6,3% (+0,4 punti sull'anno), under 25 al 19,9%, NEET al 13,3%. La povertà assoluta riguarda 5,4 milioni di persone (9,3%) e 1,136 milioni di minori, ma l'ADI raggiunge solo 690 mila nuclei su 2,1 milioni di famiglie povere; la fecondità è a 1,18 nel 2024 e scende a 1,14 nel 2025 secondo ISTAT. Con debito/PIL al 139,9% e risorse generali già impegnate (spesa 10,49 su 10,50 mld), ogni euro in più per i redditi bassi deve venire da coperture vere o da rinunce interne, mai dal deficit.",
+   "situazione": "L'inflazione al 5,6% (ottobre 2026, +4,3 punti sull'anno) supera di molto gli aumenti contrattuali (+2,5%): le retribuzioni contrattuali orarie reali sono al -10,2% rispetto a gennaio 2021 e il 10,2% delle persone occupate è a rischio di povertà (UE 8,3%). Il mercato del lavoro comincia a cedere con il PIL fermo nel terzo trimestre: disoccupazione al 6,3% (+0,4 punti sull'anno), under 25 al 19,9%, NEET al 13,3%. La povertà assoluta riguarda 5,4 milioni di persone (9,3%) e 1,136 milioni di minori, ma l'ADI raggiunge solo 690 mila nuclei su 2,1 milioni di famiglie povere; la fecondità è a 1,18 nel 2024 e scende a 1,14 nel 2025 secondo ISTAT. Con debito/PIL al 139,9% e risorse generali già impegnate (spesa 10,49 su 10,50 mld), ogni euro in più per i redditi bassi deve venire da coperture vere o da rinunce interne, mai dal deficit.",
    "richieste": [
     {
      "azione": "adottare",
@@ -785,7 +785,7 @@
      "azione": "adottare",
      "proposta": "02-C2",
      "variante": "ESSENZIALE",
-     "motivazione": "È nel nucleo robusto e va protetta da tagli: spesa corrente per i nidi solo negli ambiti sotto il LEP del 33% già previsto dalla L. 234/2021 (Sud a 19,0 posti ogni 100 bambini), gratuità per ISEE fino a 25.000 euro in quegli ambiti, congedo paterno a 1 mese dal 2028 e 2 mesi dal 2030. Con fecondità a 1,18 (2024) e 1,14 (2025) e occupazione femminile 20-64 al 58,0%, servizi e tempo condiviso sono la leva con più evidenze, più dei bonus monetari. L'obiettivo dichiarato è copertura e occupazione, non un numero di nascite. La sovrapposizione con il mese di congedo parentale per il padre del ddl bilancio 2027 è da verificare sul testo bollinato.",
+     "motivazione": "È nel nucleo robusto e va protetta da tagli: spesa corrente per i nidi solo negli ambiti sotto il LEP del 33% già previsto dalla L. 234/2021 (Sud a 19,0 posti ogni 100 bambine e bambini), gratuità per ISEE fino a 25.000 euro in quegli ambiti, congedo paterno a 1 mese dal 2028 e 2 mesi dal 2030. Con fecondità a 1,18 (2024) e 1,14 (2025) e occupazione femminile 20-64 al 58,0%, servizi e tempo condiviso sono la leva con più evidenze, più dei bonus monetari. L'obiettivo dichiarato è copertura e occupazione, non un numero di nascite. La sovrapposizione con il mese di congedo parentale per il padre del ddl bilancio 2027 è da verificare sul testo bollinato.",
      "pre_mortem": "Mancano educatori e capacità amministrativa nei Comuni del Sud: il fondo paga solo i posti effettivamente attivati, quindi le risorse restano inutilizzate e la copertura negli ambiti sotto soglia non sale come previsto.",
      "effetti_altri": [
       {
@@ -821,7 +821,7 @@
       {
        "area": "05",
        "segno": "-",
-       "effetto": "Senza incentivo al rientro dei giovani e riconoscimento rapido dei titoli si perde una leva per trattenere e attrarre laureati."
+       "effetto": "Senza incentivo al rientro dei giovani e riconoscimento rapido dei titoli si perde una leva per trattenere e attrarre persone laureate."
       },
       {
        "area": "07",
@@ -871,7 +871,7 @@
      "azione": "adottare",
      "proposta": "03-P4",
      "variante": "ESSENZIALE",
-     "motivazione": "È l'unica proposta dell'area nel nucleo robusto secondo il panel: per la regola 8 della Carta va finanziata almeno in versione essenziale prima di ottimizzare il resto. Con il debito in salita (139,9% del PIL) spostare spesa dall'emergenza alla prevenzione riduce una passività fiscale implicita (FUT, SIC): 1,28 milioni di persone vivono in aree a pericolosità da frana elevata e solo il 16% delle imprese ha la polizza catastrofale obbligatoria (IVASS, aprile 2026). La ESSENZIALE (0,80 mld: SAD 0,25, RIALLOCAZIONE 0,20, COESIONE_2127 0,25, TARIFFE 0,10) è già nel programma: chiedo di confermarla e non di salire alla PIENA, perché coesione e riallocazione non hanno margine. Lo schema assicurativo con opt-out e il premio calmierato per ISEE ≤ 15.000 € evitano costi sui più deboli senza compensazione (EQU).",
+     "motivazione": "È l'unica proposta dell'area nel nucleo robusto secondo il panel: per la regola 8 della Carta va finanziata almeno in versione essenziale prima di ottimizzare il resto. Con il debito in salita (139,9% del PIL) spostare spesa dall'emergenza alla prevenzione riduce una passività fiscale implicita (FUT, SIC): 1,28 milioni di persone vivono in aree a pericolosità da frana elevata e solo il 16% delle imprese ha la polizza catastrofale obbligatoria (IVASS, aprile 2026). La ESSENZIALE (0,80 mld: SAD 0,25, RIALLOCAZIONE 0,20, COESIONE_2127 0,25, TARIFFE 0,10) è già nel programma: chiedo di confermarla e non di salire alla PIENA, perché coesione e riallocazione non hanno margine. Lo schema assicurativo con opt-out e il premio calmierato per ISEE ≤ 15.000 € evitano costi sulle persone con redditi bassi o in condizioni di fragilità senza compensazione (EQU).",
      "pre_mortem": "La quota di 0,20 mld da riduzione della spesa emergenziale non si materializza: se la RGS non certifica il taglio, il fondo resta sottodimensionato e le nuove emergenze continuano a essere finanziate ex post. Secondo rischio: dal 2030 la quota di coesione (0,25) va sostituita con il ciclo 2028-34, la cui dotazione non è certa (QFP in negoziato).",
      "effetti_altri": [
       {
@@ -1026,7 +1026,7 @@
   },
   "04": {
    "area": "04",
-   "situazione": "Con l'inflazione al 5,6% (ottobre 2026, +1,4 punti sul mese e +4,3 sull'anno) i redditi reali di inquilini e pendolari si comprimono proprio dove l'area è già fragile: il 22,3% degli inquilini a prezzo di mercato spende oltre il 40% del reddito per la casa (2025, contro 18,5% UE) e il Fondo TPL ha perso circa il 38% in termini reali dal 2009. Il PIL è fermo (0,0% nel 2026-Q3), la produzione industriale scende a 92,8 e la fiducia dei consumatori è a -23,3 (-7,8 sull'anno): la chiusura del PNRR (24,2 mld di spesa che slittano oltre il 2026, quasi tutta la Missione 3) rischia di togliere un sostegno agli investimenti nel momento peggiore. Il debito sale a 139,9% del PIL (2026-Q2, +1,3 punti) e lo spread a 88,9 pb: ogni misura dell'area va finanziata senza deficit, e la capienza della coesione 2021-27 (2,00 mld) è già tutta impegnata. Tra le priorità dell'allerta inflazione, 04-P3 è oggi fuori dal programma.",
+   "situazione": "Con l'inflazione al 5,6% (ottobre 2026, +1,4 punti sul mese e +4,3 sull'anno) i redditi reali di inquiline e inquilini e pendolari si comprimono proprio dove l'area è già fragile: il 22,3% delle inquiline e degli inquilini a prezzo di mercato spende oltre il 40% del reddito per la casa (2025, contro 18,5% UE) e il Fondo TPL ha perso circa il 38% in termini reali dal 2009. Il PIL è fermo (0,0% nel 2026-Q3), la produzione industriale scende a 92,8 e la fiducia dei consumatori è a -23,3 (-7,8 sull'anno): la chiusura del PNRR (24,2 mld di spesa che slittano oltre il 2026, quasi tutta la Missione 3) rischia di togliere un sostegno agli investimenti nel momento peggiore. Il debito sale a 139,9% del PIL (2026-Q2, +1,3 punti) e lo spread a 88,9 pb: ogni misura dell'area va finanziata senza deficit, e la capienza della coesione 2021-27 (2,00 mld) è già tutta impegnata. Tra le priorità dell'allerta inflazione, 04-P3 è oggi fuori dal programma.",
    "richieste": [
     {
      "azione": "modificare",
@@ -1072,8 +1072,8 @@
      "azione": "adottare",
      "proposta": "04-P2",
      "variante": "ESSENZIALE",
-     "motivazione": "Priorità dell'allerta inflazione_alta, già nel programma del momento. Con affitti cresciuti del 13,9% nel 2010-2024 e il sovraccarico abitativo degli inquilini salito dal 19,4% al 22,3% in un anno, il recupero di 30.000 alloggi ERP vuoti e 50.000 contratti con Agenzie sociali per l'affitto aumenta l'offerta a canone concordato invece di sussidiare la domanda, che con l'inflazione verrebbe assorbita dai canoni (Benessere, Rispetto e diversità, Equità). Costo 0,48 mld, coperto da coesione OP4 (0,30) e da riduzione delle detrazioni edilizie non selettive (0,18). La cedolare secca al 5% per i contratti con le Agenzie è un'agevolazione fiscale: compatibilità con le regole sugli aiuti di Stato non rilevante (beneficiari persone fisiche), ma da verificare se i locatori sono imprese.",
-     "pre_mortem": "I cantieri ERP partono lentamente per la scarsa capacità tecnica degli enti gestori e i proprietari privati non si fidano delle Agenzie: a fine 2028 i contratti attivi restano molto sotto l'obiettivo e la riprogrammazione FESR non viene approvata in tempo.",
+     "motivazione": "Priorità dell'allerta inflazione_alta, già nel programma del momento. Con affitti cresciuti del 13,9% nel 2010-2024 e il sovraccarico abitativo delle inquiline e degli inquilini salito dal 19,4% al 22,3% in un anno, il recupero di 30.000 alloggi ERP vuoti e 50.000 contratti con Agenzie sociali per l'affitto aumenta l'offerta a canone concordato invece di sussidiare la domanda, che con l'inflazione verrebbe assorbita dai canoni (Benessere, Rispetto e diversità, Equità). Costo 0,48 mld, coperto da coesione OP4 (0,30) e da riduzione delle detrazioni edilizie non selettive (0,18). La cedolare secca al 5% per i contratti con le Agenzie è un'agevolazione fiscale: compatibilità con le regole sugli aiuti di Stato non rilevante (beneficiari persone fisiche), ma da verificare se i locatori sono imprese.",
+     "pre_mortem": "I cantieri ERP partono lentamente per la scarsa capacità tecnica degli enti gestori e le proprietarie e i proprietari privati non si fidano delle Agenzie: a fine 2028 i contratti attivi restano molto sotto l'obiettivo e la riprogrammazione FESR non viene approvata in tempo.",
      "effetti_altri": [
       {
        "area": "01",
@@ -1102,7 +1102,7 @@
      "azione": "adottare",
      "proposta": "04-P6",
      "variante": "ESSENZIALE",
-     "motivazione": "Proposta robusta: rientra nel nucleo che non dipende dai pesi dei valori e va finanziata per prima (regola 8 della Carta). Le aree interne del Mezzogiorno passerebbero da 7,1 a 6,0 milioni di abitanti al 2050 (ISTAT, agosto 2026). La ESSENZIALE (0,42 mld: 72 aree SNAI, 500 presidi multiservizio, indennità per circa 35.000 tra medici, infermieri e insegnanti) lega le risorse a obiettivi di servizio misurati (Equità, Bellezza, patrimonio e accoglienza, Benessere). L'indennità va definita in contrattazione entro un limite di spesa fissato per legge (art. 97 Cost.).",
+     "motivazione": "Proposta robusta: rientra nel nucleo che non dipende dai pesi dei valori e va finanziata per prima (regola 8 della Carta). Le aree interne del Mezzogiorno passerebbero da 7,1 a 6,0 milioni di abitanti al 2050 (ISTAT, agosto 2026). La ESSENZIALE (0,42 mld: 72 aree SNAI, 500 presidi multiservizio, indennità per circa 35.000 tra mediche e medici, infermiere e infermieri e insegnanti) lega le risorse a obiettivi di servizio misurati (Equità, Bellezza, patrimonio e accoglienza, Benessere). L'indennità va definita in contrattazione entro un limite di spesa fissato per legge (art. 97 Cost.).",
      "pre_mortem": "Il personale non accetta comunque gli incarichi nelle sedi periferiche e i presidi aprono senza operatori formati; le quote successive alla prima vengono erogate anche senza obiettivi raggiunti per pressione locale.",
      "effetti_altri": [
       {
@@ -1123,7 +1123,7 @@
       {
        "area": "09",
        "segno": "+",
-       "effetto": "Presidi multiservizio come punto unico dei servizi statali, in sinergia con 09-C3 (Tecnici della Repubblica)."
+       "effetto": "Presidi multiservizio come punto unico dei servizi statali, in sinergia con 09-C3 (Squadre tecniche della Repubblica)."
       },
       {
        "area": "09",
@@ -1197,13 +1197,13 @@
   },
   "05": {
    "area": "05",
-   "situazione": "Il quadro macro è sfavorevole: inflazione al 5,6% a ottobre 2026 (+1,4 punti sul mese, dato provvisorio), PIL fermo nel 2026-Q3 (0,0%), debito/PIL trimestrale al 139,9% (+1,3) e risorse generali già sature (spesa 10,49 contro gettito 10,50 mld), con RIALLOCAZIONE (4,41 contro 2,49) e RIORDINO_BONUS (1,21 contro 0,21) oltre la capienza e COESIONE_2127 esaurita (2,00 su 2,00). Gli indicatori dell'area restano in miglioramento ma fragili: NEET 15-29 al 13,3% nel 2025 (-1,9 punti, ancora quartultimi nell'UE) e disoccupazione under 25 al 19,9% a settembre 2026 (-0,4). L'apprendimento automatico segnala però che la spesa totale in R&S scende all'1,37% del PIL nel 2025 contro la base 1,41% anche senza intervento, mentre il programma del momento tiene la proposta sulla ricerca (05-C3) a ZERO. Con la chiusura del PNRR al 31/12/2026 si apre un precipizio di spesa su borse di studio e contratti di ricerca a tempo determinato, e la fecondità a 1,18 (2024) conferma un calo degli alunni che libera risorse sugli organici solo tramite turnover.",
+   "situazione": "Il quadro macro è sfavorevole: inflazione al 5,6% a ottobre 2026 (+1,4 punti sul mese, dato provvisorio), PIL fermo nel 2026-Q3 (0,0%), debito/PIL trimestrale al 139,9% (+1,3) e risorse generali già sature (spesa 10,49 contro gettito 10,50 mld), con RIALLOCAZIONE (4,41 contro 2,49) e RIORDINO_BONUS (1,21 contro 0,21) oltre la capienza e COESIONE_2127 esaurita (2,00 su 2,00). Gli indicatori dell'area restano in miglioramento ma fragili: NEET 15-29 al 13,3% nel 2025 (-1,9 punti, ancora quartultimi nell'UE) e disoccupazione under 25 al 19,9% a settembre 2026 (-0,4). L'apprendimento automatico segnala però che la spesa totale in R&S scende all'1,37% del PIL nel 2025 contro la base 1,41% anche senza intervento, mentre il programma del momento tiene la proposta sulla ricerca (05-C3) a ZERO. Con la chiusura del PNRR al 31/12/2026 si apre un precipizio di spesa su borse di studio e contratti di ricerca a tempo determinato, e la fecondità a 1,18 (2024) conferma un calo delle alunne e degli alunni che libera risorse sugli organici solo tramite turnover.",
    "richieste": [
     {
      "azione": "adottare",
      "proposta": "05-C1",
      "variante": "PIENA",
-     "motivazione": "Proposta robusta e a basso costo (0,25 mld a regime nel 2029, 0,03 nel 2027), coperta quasi per intero dal dividendo demografico della scuola (RIALLOCAZIONE 0,17, adeguamento degli organici al calo degli alunni solo tramite turnover) e per la parte di avvio dal FSE+. Interviene dove il beneficio marginale è più alto: abbandono precoce al 13,7% nelle Isole e al 10,1% tra i maschi (2025) contro l'8,2% nazionale, calo di 3 punti in matematica alla primaria (INVALSI 2026). Serve Apprendimento e cultura, Equità e Rispetto; l'allerta precoce che segnala ma non decide rispetta la linea rossa sull'AI (supervisione umana, AI Act). Il rifinanziamento oltre il 2030 è legato a una valutazione controfattuale, coerente con Fiducia e trasparenza.",
+     "motivazione": "Proposta robusta e a basso costo (0,25 mld a regime nel 2029, 0,03 nel 2027), coperta quasi per intero dal dividendo demografico della scuola (RIALLOCAZIONE 0,17, adeguamento degli organici al calo delle alunne e degli alunni solo tramite turnover) e per la parte di avvio dal FSE+. Interviene dove il beneficio marginale è più alto: abbandono precoce al 13,7% nelle Isole e al 10,1% tra i maschi (2025) contro l'8,2% nazionale, calo di 3 punti in matematica alla primaria (INVALSI 2026). Serve Apprendimento e cultura, Equità e Rispetto; l'allerta precoce che segnala ma non decide rispetta la linea rossa sull'AI (supervisione umana, AI Act). Il rifinanziamento oltre il 2030 è legato a una valutazione controfattuale, coerente con Fiducia e trasparenza.",
      "pre_mortem": "La RGS non certifica come risparmio nuovo l'adeguamento degli organici, perché in parte già scontato nei tendenziali (L. 207/2024, c. 828; nota MIM 10164/2026 nota solo da stampa, da verificare): la quota RIALLOCAZIONE da 0,17 non si materializza e la misura resta senza copertura stabile dopo la fine del FSE+ nel 2029. Secondo rischio: resistenza sindacale e difficoltà a reclutare educatori stabili nelle sedi disagiate.",
      "effetti_altri": [
       {
@@ -1238,8 +1238,8 @@
      "azione": "adottare",
      "proposta": "05-C4",
      "variante": "ESSENZIALE",
-     "motivazione": "Proposta robusta: i laureati 25-34 sono al 31,1% nel 2025 contro il 44,8% UE e il target del 45% al 2030. Con gli ultimi pagamenti PNRR al 31/12/2026 una parte delle borse (circa 150 mln su 708 nel 2025/26, fonte di stampa, da verificare) resta senza copertura e tornerebbero gli idonei non beneficiari: rinviare significa fare un passo indietro sul diritto allo studio (art. 34 Cost.). La ESSENZIALE (0,45 mld a regime) tutela le borse, raddoppia gli ITS e avvia le residenze, con un costo contenuto e in parte autofinanziato dal dividendo demografico. Serve Apprendimento e cultura, Equità e Futuro; ridurre i NEET (13,3%) è anche una leva di crescita in un PIL fermo.",
-     "pre_mortem": "La copertura su SPESE_FISCALI (0,22) slitta perché il riordino delle spese fiscali non viene deciso per legge, e i fondi di coesione per le residenze non ci sono dopo il 2029; in più gli ITS crescono di numero ma con qualità disomogenea, e i nuovi laureati emigrano se i salari dei giovani restano bassi.",
+     "motivazione": "Proposta robusta: le persone laureate 25-34 sono al 31,1% nel 2025 contro il 44,8% UE e il target del 45% al 2030. Con gli ultimi pagamenti PNRR al 31/12/2026 una parte delle borse (circa 150 mln su 708 nel 2025/26, fonte di stampa, da verificare) resta senza copertura e tornerebbero gli idonei non beneficiari: rinviare significa fare un passo indietro sul diritto allo studio (art. 34 Cost.). La ESSENZIALE (0,45 mld a regime) tutela le borse, raddoppia gli ITS e avvia le residenze, con un costo contenuto e in parte autofinanziato dal dividendo demografico. Serve Apprendimento e cultura, Equità e Futuro; ridurre i NEET (13,3%) è anche una leva di crescita in un PIL fermo.",
+     "pre_mortem": "La copertura su SPESE_FISCALI (0,22) slitta perché il riordino delle spese fiscali non viene deciso per legge, e i fondi di coesione per le residenze non ci sono dopo il 2029; in più gli ITS crescono di numero ma con qualità disomogenea, e le nuove persone laureate emigrano se i salari dei giovani restano bassi.",
      "effetti_altri": [
       {
        "area": "01",
@@ -1249,7 +1249,7 @@
       {
        "area": "01",
        "segno": "+",
-       "effetto": "Più diplomati ITS e laureati sostengono la produttività e la domanda di competenze delle imprese nel medio periodo."
+       "effetto": "Più diplomati ITS e persone laureate sostengono la produttività e la domanda di competenze delle imprese nel medio periodo."
       },
       {
        "area": "02",
@@ -1279,7 +1279,7 @@
      "azione": "modificare",
      "proposta": "05-C3",
      "variante": "ESSENZIALE",
-     "motivazione": "Il programma del momento tiene la ricerca a ZERO mentre la spesa in R&S scende all'1,37% del PIL nel 2025 (base 1,41%, UE 2,26%) anche senza intervento: è l'unico indicatore dell'area che l'apprendimento segnala in peggioramento. Con la fine del PNRR scadono tra 2026 e 2027 molti contratti di ricerca a tempo determinato (totale nazionale non disponibile da fonte ufficiale; DM MUR 193/2026 da verificare): senza un ponte si perde un capitale umano già formato e si aggrava la fuga dei laureati (-78.000 nel 2019-2024). La ESSENZIALE pesa poco nel triennio (0,20 / 0,40 / 0,60 mld nel 2027-29) ed è coperta da SPESE_FISCALI e SAD, che oggi hanno margine (4,30 contro 2,78 e 2,53 contro 1,54), quindi non a debito, come chiede la regola FUT. La clausola di revisione triennale (almeno 2 indicatori su 4 migliorati) protegge Fiducia e Futuro. Per non gravare sulle risorse generali, l'area offre in cambio le rinunce indicate (05-C6 e 05-C5 in ESSENZIALE, 05-C2 in PILOTA), che liberano circa 0,74 mld a regime, più del costo della ESSENZIALE fino al 2029.",
+     "motivazione": "Il programma del momento tiene la ricerca a ZERO mentre la spesa in R&S scende all'1,37% del PIL nel 2025 (base 1,41%, UE 2,26%) anche senza intervento: è l'unico indicatore dell'area che l'apprendimento segnala in peggioramento. Con la fine del PNRR scadono tra 2026 e 2027 molti contratti di ricerca a tempo determinato (totale nazionale non disponibile da fonte ufficiale; DM MUR 193/2026 da verificare): senza un ponte si perde un capitale umano già formato e si aggrava la fuga delle persone laureate (-78.000 nel 2019-2024). La ESSENZIALE pesa poco nel triennio (0,20 / 0,40 / 0,60 mld nel 2027-29) ed è coperta da SPESE_FISCALI e SAD, che oggi hanno margine (4,30 contro 2,78 e 2,53 contro 1,54), quindi non a debito, come chiede la regola FUT. La clausola di revisione triennale (almeno 2 indicatori su 4 migliorati) protegge Fiducia e Futuro. Per non gravare sulle risorse generali, l'area offre in cambio le rinunce indicate (05-C6 e 05-C5 in ESSENZIALE, 05-C2 in PILOTA), che liberano circa 0,74 mld a regime, più del costo della ESSENZIALE fino al 2029.",
      "pre_mortem": "Il sentiero viene tagliato nelle leggi di bilancio successive perché il beneficio arriva tra 10 e 20 anni mentre il costo è immediato; oppure il riordino delle spese fiscali e dei SAD, in un momento di fiducia dei consumatori in calo (-23,3), viene rinviato per ragioni di consenso e la copertura salta.",
      "effetti_altri": [
       {
@@ -1330,7 +1330,7 @@
       {
        "area": "02",
        "segno": "+",
-       "effetto": "Studenti con competenze critiche sull'AI, più preparati a un mercato del lavoro in cui le imprese che usano l'AI sono il 16,4%."
+       "effetto": "Studentesse e studenti con competenze critiche sull'AI, più preparati a un mercato del lavoro in cui le imprese che usano l'AI sono il 16,4%."
       }
      ],
      "scommessa": null
@@ -1368,7 +1368,7 @@
   },
   "06": {
    "area": "06",
-   "situazione": "Il cruscotto non ha un indicatore sanitario, ma il quadro macro pesa direttamente sull'area: inflazione al 5,6% a ottobre (+1,4 punti in un mese, +4,3 sull'anno) erode il valore reale di un FSN che dopo i +3,4 mld del 2027 (146,3 mld) cresce di meno di 1 mld l'anno e scende dal 6,14% al 5,98% del PIL nel 2028 (dossier 06, calcolo GovernAI). Con debito al 139,9% del PIL (+1,3 punti nel trimestre), PIL fermo nel Q3 e risorse generali già quasi esaurite (spesa 10,49 su gettito 10,50 mld), nessuna misura sanitaria può essere finanziata a debito né con risparmi attesi. Intanto i bisogni crescono: rinuncia alle cure per costo, distanza o attese al 2,5% nel 2025 (1,9% nel 2024), spesa privata delle famiglie a 42,4 mld (22,3%), solo 66 Case della Comunità su 1.715 pienamente operative e 6,9 infermieri per 1.000 abitanti contro 9,2 OCSE. Nel programma del momento l'area 06 ha solo C1 e C6 in variante ZERO: il rischio concreto è che le strutture PNRR, chiuse al 30/6/2026, restino muri senza servizi.",
+   "situazione": "Il cruscotto non ha un indicatore sanitario, ma il quadro macro pesa direttamente sull'area: inflazione al 5,6% a ottobre (+1,4 punti in un mese, +4,3 sull'anno) erode il valore reale di un FSN che dopo i +3,4 mld del 2027 (146,3 mld) cresce di meno di 1 mld l'anno e scende dal 6,14% al 5,98% del PIL nel 2028 (dossier 06, calcolo GovernAI). Con debito al 139,9% del PIL (+1,3 punti nel trimestre), PIL fermo nel Q3 e risorse generali già quasi esaurite (spesa 10,49 su gettito 10,50 mld), nessuna misura sanitaria può essere finanziata a debito né con risparmi attesi. Intanto i bisogni crescono: rinuncia alle cure per costo, distanza o attese al 2,5% nel 2025 (1,9% nel 2024), spesa privata delle famiglie a 42,4 mld (22,3%), solo 66 Case della Comunità su 1.715 pienamente operative e 6,9 infermiere e infermieri per 1.000 abitanti contro 9,2 OCSE. Nel programma del momento l'area 06 ha solo C1 e C6 in variante ZERO: il rischio concreto è che le strutture PNRR, chiuse al 30/6/2026, restino muri senza servizi.",
    "richieste": [
     {
      "azione": "adottare",
@@ -1420,7 +1420,7 @@
      "proposta": "06-C3",
      "variante": "ESSENZIALE",
      "motivazione": "Solo il 3,9% delle Case della Comunità è pienamente operativo e solo il 27,4% degli Ospedali di Comunità ha almeno un servizio; finita la spesa PNRR, senza fondi di gestione l'investimento già fatto va perso, che è il contrario della Responsabilità verso il futuro. La ESSENZIALE (0,8 mld a regime nel 2029, rampa 0,3-0,6-0,8) copre le 1.038 hub del target PNRR con quota a risultato e perequazione per il Sud (Equità, Benessere). Non usa il FSN né debito: SPESE_FISCALI 0,3 (capienza libera circa 1,5 mld), ACCISE_SALUTE 0,2 (capienza libera 0,42), RIALLOCAZIONE 0,3. Poiché il fondo RIALLOCAZIONE è già oltre capienza (4,41 su 2,49), chiedo che quella quota sia coperta attivando la misura R-SAN2 (tetto per legge alla spesa per beni e servizi non sanitari degli enti SSN, 0,3-0,5 mld, stima GovernAI) o, in subordine, SF-SAN1 (detrazione sanitaria decrescente tra 50.000 e 120.000 euro, gettito da verificare sul Rapporto spese fiscali). La PILOTA non è chiesta perché usa COESIONE_2127, già saturo (2,00 su 2,00).",
-     "pre_mortem": "Le Case restano senza personale: senza abbastanza infermieri e ore di medicina generale (C2), il fondo paga aperture formali e la quota a risultato non scatta; le Regioni in ritardo del Mezzogiorno non firmano i contratti di prossimità entro 12 mesi.",
+     "pre_mortem": "Le Case restano senza personale: senza abbastanza infermiere e infermieri e ore di medicina generale (C2), il fondo paga aperture formali e la quota a risultato non scatta; le Regioni in ritardo del Mezzogiorno non firmano i contratti di prossimità entro 12 mesi.",
      "effetti_altri": [
       {
        "area": "01",
@@ -1449,8 +1449,8 @@
      "azione": "adottare",
      "proposta": "06-C2",
      "variante": "PILOTA",
-     "motivazione": "C3 senza personale non funziona: l'Italia ha 6,9 infermieri per 1.000 abitanti contro 9,2 OCSE e un rapporto infermieri/medici di 1,2, mentre i posti di medicina generale scoperti sono oltre 5.500 (Gimbe, da verificare). Con le risorse generali esaurite chiedo la PILOTA (0,35 mld a regime: 4 Regioni e aree interne, 5.000 borse con vincolo SSN, pratica avanzata in 50 CdC), finanziata con SPESE_FISCALI 0,2 e ACCISE_SALUTE 0,15, senza debito. Misura presto l'effetto di indennità e borse prima di scalare alla ESSENZIALE (1,4 mld) quando i conti lo consentiranno. Valori: Benessere, Apprendimento e cultura, Equità territoriale. Nota: la parte sulla pratica avanzata richiede una delega legislativa che oggi non esiste (da verificare); nella PILOTA va limitata a protocolli sperimentali con base di legge.",
-     "pre_mortem": "Gli iscritti a infermieristica non crescono e l'indennità sposta infermieri tra aziende invece di aumentarli; il conflitto con gli ordini medici sul task shifting blocca la pratica avanzata nelle 50 Case pilota.",
+     "motivazione": "C3 senza personale non funziona: l'Italia ha 6,9 infermiere e infermieri per 1.000 abitanti contro 9,2 OCSE e un rapporto infermieri/medici di 1,2, mentre i posti di medicina generale scoperti sono oltre 5.500 (Gimbe, da verificare). Con le risorse generali esaurite chiedo la PILOTA (0,35 mld a regime: 4 Regioni e aree interne, 5.000 borse con vincolo SSN, pratica avanzata in 50 CdC), finanziata con SPESE_FISCALI 0,2 e ACCISE_SALUTE 0,15, senza debito. Misura presto l'effetto di indennità e borse prima di scalare alla ESSENZIALE (1,4 mld) quando i conti lo consentiranno. Valori: Benessere, Apprendimento e cultura, Equità territoriale. Nota: la parte sulla pratica avanzata richiede una delega legislativa che oggi non esiste (da verificare); nella PILOTA va limitata a protocolli sperimentali con base di legge.",
+     "pre_mortem": "Gli iscritti a infermieristica non crescono e l'indennità sposta infermiere e infermieri tra aziende invece di aumentarli; il conflitto con gli ordini medici sul task shifting blocca la pratica avanzata nelle 50 Case pilota.",
      "effetti_altri": [
       {
        "area": "05",
@@ -1481,7 +1481,7 @@
     "Rinuncia alla variante PIENA di 06-C6 (fondo prevenzione da 0,3 mld su ACCISE_SALUTE): resta la ZERO a costo nullo.",
     "Rinuncia a ogni variante finanziata di 06-C1: resta la ZERO, senza garanzia di erogazione pagata.",
     "Se i fondi non bastano, 06-C3 può scendere dalla ESSENZIALE alla PILOTA (0,15 mld) purché si liberi spazio su COESIONE_2127; 06-C2 resta in PILOTA come soglia minima, perché senza personale anche le Case della Comunità restano vuote.",
-    "Disponibilità a rinviare di sei mesi la quota di accise sui tabacchi delle coperture di area se il Consiglio giudica prioritario non pesare sui consumatori finché la fiducia è in calo, sostituendola con R-SAN2 o SF-SAN1."
+    "Disponibilità a rinviare di sei mesi la quota di accise sui tabacchi delle coperture di area se il Consiglio giudica prioritario non pesare sulle consumatrici e sui consumatori finché la fiducia è in calo, sostituendola con R-SAN2 o SF-SAN1."
    ],
    "previsioni_contesto": [
     {
@@ -1509,7 +1509,7 @@
   },
   "07": {
    "area": "07",
-   "situazione": "Il cruscotto non ha indicatori propri dell'area, ma i vincoli di finanza pubblica la toccano direttamente: debito al 139,9% del PIL nel 2026-Q2 (+1,3 punti in un trimestre), saldo di bilancio al -3,1% e interessi al 3,8% del PIL nel 2025, BTP decennale al 4,362% (+0,38) e spread a 88,9 pb (+8,8); l'allerta debito_in_salita chiede di sospendere 07-C5 e di rivedere la traiettoria della Difesa. Nei dati di settore il rischio principale è la fine del personale PNRR dell'Ufficio per il processo (circa 10.000 addetti finanziati fino al 30/6/2026), che ha portato il disposition time civile a 1.251 giorni nel I semestre 2026 (-50,2% sul 2019) e che senza stabilizzazione rischia di far risalire i tempi dal 2027. Le carceri sono al 128,8% della capienza regolamentare (66.063 detenuti per 51.295 posti al 30/9/2026, DAP), con rischio di nuove condanne CEDU ex art. 3. Il fondo RIALLOCAZIONE, da cui dipendono tutte le proposte dell'area, è sovrascritto (spesa 4,41 contro capienza 2,49 mld), quindi l'area deve concentrare le risorse sulle misure robuste e cedere sulle altre.",
+   "situazione": "Il cruscotto non ha indicatori propri dell'area, ma i vincoli di finanza pubblica la toccano direttamente: debito al 139,9% del PIL nel 2026-Q2 (+1,3 punti in un trimestre), saldo di bilancio al -3,1% e interessi al 3,8% del PIL nel 2025, BTP decennale al 4,362% (+0,38) e spread a 88,9 pb (+8,8); l'allerta debito_in_salita chiede di sospendere 07-C5 e di rivedere la traiettoria della Difesa. Nei dati di settore il rischio principale è la fine del personale PNRR dell'Ufficio per il processo (circa 10.000 addetti finanziati fino al 30/6/2026), che ha portato il disposition time civile a 1.251 giorni nel I semestre 2026 (-50,2% sul 2019) e che senza stabilizzazione rischia di far risalire i tempi dal 2027. Le carceri sono al 128,8% della capienza regolamentare (66.063 persone detenute per 51.295 posti al 30/9/2026, DAP), con rischio di nuove condanne CEDU ex art. 3. Il fondo RIALLOCAZIONE, da cui dipendono tutte le proposte dell'area, è sovrascritto (spesa 4,41 contro capienza 2,49 mld), quindi l'area deve concentrare le risorse sulle misure robuste e cedere sulle altre.",
    "richieste": [
     {
      "azione": "adottare",
@@ -1541,7 +1541,7 @@
      "proposta": "07-C2",
      "variante": "PIENA",
      "motivazione": "Proposta robusta, già nel programma. Il sovraffollamento al 128,8% sui posti regolamentari (139,7% sui posti effettivi secondo Antigone, fonte non governativa) espone lo Stato a ristori ex art. 35-ter o.p. (6.539 casi, dato di fonte secondaria) e a condanne CEDU. Un detenuto costa circa 178 euro al giorno; le misure di comunità costano una frazione e i dati disponibili, benché datati, indicano recidiva molto più bassa (circa 19-28% contro 68%). Serve Rispetto e diversità (art. 27 Cost.), Sicurezza senza controllo assoluto (meno recidiva con mezzi proporzionati) ed Equità. I risparmi da minori presenze non sono contati come copertura. Le assunzioni UEPE precedono l'allargamento dell'accesso.",
-     "pre_mortem": "Un reato grave commesso da un beneficiario di misura alternativa, con forte eco mediatica, blocca il decreto legislativo o ne svuota l'applicazione da parte della magistratura di sorveglianza; in parallelo la carenza di braccialetti elettronici e di funzionari UEPE rende la valutazione d'ufficio solo formale.",
+     "pre_mortem": "Un reato grave commesso da un beneficiario di misura alternativa, con forte eco mediatica, blocca il decreto legislativo o ne svuota l'applicazione da parte della magistratura di sorveglianza; in parallelo la carenza di braccialetti elettronici e di funzionarie e funzionari UEPE rende la valutazione d'ufficio solo formale.",
      "effetti_altri": [
       {
        "area": "03",
@@ -1556,12 +1556,12 @@
       {
        "area": "02",
        "segno": "+",
-       "effetto": "Più lavoro per detenuti ed ex detenuti tramite cooperative e imprese, con minore ricorso futuro a sostegni al reddito."
+       "effetto": "Più lavoro per persone detenute o che hanno scontato la pena tramite cooperative e imprese, con minore ricorso futuro a sostegni al reddito."
       },
       {
        "area": "06",
        "segno": "+",
-       "effetto": "Meno sovraffollamento riduce il carico sulla sanità penitenziaria e su salute mentale e autolesionismo (26,5 episodi ogni 100 detenuti)."
+       "effetto": "Meno sovraffollamento riduce il carico sulla sanità penitenziaria e su salute mentale e autolesionismo (26,5 episodi ogni 100 persone detenute)."
       }
      ],
      "scommessa": null
@@ -1628,7 +1628,7 @@
     }
    ],
    "rinunce": [
-    "07-C3 dalla PIENA alla ESSENZIALE (da 0,55 a 0,25 mld): si mantengono Osservatorio sul fabbisogno, asilo entro 6 mesi richiesto dal Patto UE, rimpatri volontari assistiti e tutori per i minori; il corso di italiano entro 3 mesi resta solo per titolari di protezione e lavoratori. Libera 0,10 di RIALLOCAZIONE e 0,20 di SAD.",
+    "07-C3 dalla PIENA alla ESSENZIALE (da 0,55 a 0,25 mld): si mantengono Osservatorio sul fabbisogno, asilo entro 6 mesi richiesto dal Patto UE, rimpatri volontari assistiti e tutori per i minori; il corso di italiano entro 3 mesi resta solo per titolari di protezione e lavoratrici e lavoratori. Libera 0,10 di RIALLOCAZIONE e 0,20 di SAD.",
     "07-C4 dalla PIENA alla ESSENZIALE (da 0,15 a 0,07 mld): fondo rotativo solo con prestiti, senza quota a fondo perduto per i piccoli Comuni.",
     "07-C6 fino alla PILOTA (0,03 mld, 3 Regioni) se anche la ESSENZIALE non è finanziabile.",
     "07-C2 dalla PIENA alla ESSENZIALE (0,25 mld) come ultima concessione: si rinuncia alle case di reinserimento e al recupero dei posti inagibili, non alle misure alternative, agli UEPE e alla statistica sulla recidiva.",
@@ -1702,7 +1702,7 @@
      "azione": "adottare",
      "proposta": "08-P3",
      "variante": "ESSENZIALE",
-     "motivazione": "E' l'unica misura dell'area con una scadenza imminente: per valere alle politiche 2027 il voto fuorisede deve essere legge entro pochi mesi. Non rimette in discussione la formula della l. 180/2026 (rispettando il principio di stabilita' della Commissione di Venezia) e introduce una clausola di stabilita' solo per il futuro, neutra rispetto agli attuali rapporti di forza. Serve CIT e RIS (rimuove un ostacolo di fatto al voto per studenti, lavoratori e persone in cura, art. 48 Cost.) a un costo di 0,015 mld. La PIENA e' esclusa dalle linee rosse e non la chiedo.",
+     "motivazione": "E' l'unica misura dell'area con una scadenza imminente: per valere alle politiche 2027 il voto fuorisede deve essere legge entro pochi mesi. Non rimette in discussione la formula della l. 180/2026 (rispettando il principio di stabilita' della Commissione di Venezia) e introduce una clausola di stabilita' solo per il futuro, neutra rispetto agli attuali rapporti di forza. Serve CIT e RIS (rimuove un ostacolo di fatto al voto per studentesse e studenti, lavoratrici e lavoratori e persone in cura, art. 48 Cost.) a un costo di 0,015 mld. La PIENA e' esclusa dalle linee rosse e non la chiedo.",
      "pre_mortem": "I tempi: senza un consenso ampio il DDL non viene approvato in tempo e le sezioni speciali con domanda telematica tramite ANPR non sono operative per le politiche 2027; resta da verificare se la l. 180/2026 disciplini gia' il voto fuorisede, nel qual caso la misura va ridotta a clausola di stabilita' e rapporto.",
      "effetti_altri": [
       {
@@ -1723,7 +1723,7 @@
       {
        "area": "05",
        "segno": "+",
-       "effetto": "Gli studenti universitari fuorisede, la categoria piu' numerosa, possono votare senza rientrare nel comune di residenza."
+       "effetto": "Le studentesse e gli studenti universitari fuorisede, la categoria piu' numerosa, possono votare senza rientrare nel comune di residenza."
       }
      ],
      "scommessa": null
@@ -1857,13 +1857,13 @@
      "azione": "adottare",
      "proposta": "09-C5",
      "variante": "PIENA",
-     "motivazione": "Proposta robusta per il panel. Gli obblighi dell'AI Act per i sistemi ad alto rischio dell'allegato III, tra cui l'accesso a prestazioni pubbliche, valgono dal 2/12/2027 (Reg. 2026/1744): servono albo, valutazione d'impatto e supervisione umana prima di quella data, non dopo. La parte permanente (0,10) sostituisce licenze IA acquistate singolarmente (R09-3), la facilitazione per gli over 65 (0,12) è su FSE+ fino al 2029 e non crea impegni permanenti senza copertura. Carta: Innovazione, Sicurezza senza controllo assoluto (linea rossa: nessuna decisione automatizzata sui diritti), Equità (54,3% di competenze digitali di base contro 60,4% UE, divario concentrato su anziani e Mezzogiorno).",
+     "motivazione": "Proposta robusta per il panel. Gli obblighi dell'AI Act per i sistemi ad alto rischio dell'allegato III, tra cui l'accesso a prestazioni pubbliche, valgono dal 2/12/2027 (Reg. 2026/1744): servono albo, valutazione d'impatto e supervisione umana prima di quella data, non dopo. La parte permanente (0,10) sostituisce licenze IA acquistate singolarmente (R09-3), la facilitazione per gli over 65 (0,12) è su FSE+ fino al 2029 e non crea impegni permanenti senza copertura. Carta: Innovazione, Sicurezza senza controllo assoluto (linea rossa: nessuna decisione automatizzata sui diritti), Equità (54,3% di competenze digitali di base contro 60,4% UE, divario concentrato su persone anziane e Mezzogiorno).",
      "pre_mortem": "L'albo resta formale: le amministrazioni non dichiarano la 'shadow AI' già in uso e le valutazioni d'impatto diventano moduli compilati senza verifica, finché un errore algoritmico su una prestazione (come il caso olandese) fa crollare la fiducia nell'intero programma.",
      "effetti_altri": [
       {
        "area": "05",
        "segno": "+",
-       "effetto": "Alfabetizzazione su IA e dati per dipendenti e cittadini; sinergia con 05-C6 AI a scuola."
+       "effetto": "Alfabetizzazione su IA e dati per dipendenti e cittadine e cittadini; sinergia con 05-C6 AI a scuola."
       },
       {
        "area": "08",
@@ -1979,9 +1979,9 @@
   "obiezioni": [
    {
     "proposta": "02-C4 ESSENZIALE",
-    "punto_debole": "Costo sottostimato nella copertura e problema giuridico europeo. A regime la misura costa 1,5 mld, ma la posizione copre con certezza solo 0,45 mld (02-C1 e 02-C6 ridotte); per il resto dice che 'va trovato' su SPESE_FISCALI e SAD, e negli effetti dichiara anche circa 0,5 mld di riordino dei bonus, un fondo già oltre la capienza. Il requisito di residenza di 2 anni è presentato come conforme a CGUE C-112/22, mentre la verifica UE lo giudica discriminazione indiretta se opposto a lavoratori UE e soggiornanti di lungo periodo.",
-    "prova": "Ordine del giorno, fondi contesi: RIORDINO_BONUS 1,21 di spesa contro 0,21 di capienza. giuridico/conformita.csv, riga 02-C4 UE: anche un requisito di 2 anni è discriminazione indiretta per lavoratori UE e soggiornanti di lungo periodo, e la Commissione ha contestato all'Italia un requisito biennale per l'Assegno unico. Riga 02-C4 COS: le quote coperte con riordino di spese fiscali o SAD vanno quantificate e disposte nello stesso atto (art. 81 c.3 Cost., art. 17 L. 196/2009, Corte cost. 26/2013); i risparmi contano solo ex post. Il bisogno è reale (ADI a 690 mila nuclei su 2,1 milioni di famiglie povere, dato della posizione 02): l'obiezione riguarda copertura e testo, non l'obiettivo.",
-    "cosa_cambierebbe_idea": "Un elenco di coperture per 1,5 mld a regime, quantificate nella stessa legge di bilancio su fondi con capienza libera e validate dalla Ragioneria, più un testo che esenti dal requisito di residenza lavoratori UE e familiari, soggiornanti di lungo periodo e titolari di protezione. In alternativa, i risultati di un pilota randomizzato (variante PILOTA) che mostrino take-up e inserimento lavorativo sufficienti a giustificare la scala."
+    "punto_debole": "Costo sottostimato nella copertura e problema giuridico europeo. A regime la misura costa 1,5 mld, ma la posizione copre con certezza solo 0,45 mld (02-C1 e 02-C6 ridotte); per il resto dice che 'va trovato' su SPESE_FISCALI e SAD, e negli effetti dichiara anche circa 0,5 mld di riordino dei bonus, un fondo già oltre la capienza. Il requisito di residenza di 2 anni è presentato come conforme a CGUE C-112/22, mentre la verifica UE lo giudica discriminazione indiretta se opposto a lavoratrici e lavoratori UE e soggiornanti di lungo periodo.",
+    "prova": "Ordine del giorno, fondi contesi: RIORDINO_BONUS 1,21 di spesa contro 0,21 di capienza. giuridico/conformita.csv, riga 02-C4 UE: anche un requisito di 2 anni è discriminazione indiretta per lavoratrici e lavoratori UE e soggiornanti di lungo periodo, e la Commissione ha contestato all'Italia un requisito biennale per l'Assegno unico. Riga 02-C4 COS: le quote coperte con riordino di spese fiscali o SAD vanno quantificate e disposte nello stesso atto (art. 81 c.3 Cost., art. 17 L. 196/2009, Corte cost. 26/2013); i risparmi contano solo ex post. Il bisogno è reale (ADI a 690 mila nuclei su 2,1 milioni di famiglie povere, dato della posizione 02): l'obiezione riguarda copertura e testo, non l'obiettivo.",
+    "cosa_cambierebbe_idea": "Un elenco di coperture per 1,5 mld a regime, quantificate nella stessa legge di bilancio su fondi con capienza libera e validate dalla Ragioneria, più un testo che esenti dal requisito di residenza lavoratrici e lavoratori UE e familiari, soggiornanti di lungo periodo e titolari di protezione. In alternativa, i risultati di un pilota randomizzato (variante PILOTA) che mostrino take-up e inserimento lavorativo sufficienti a giustificare la scala."
    },
    {
     "proposta": "03-P1 ESSENZIALE",
@@ -2004,7 +2004,7 @@
    {
     "proposta": "06-C3 ESSENZIALE",
     "punto_debole": "La copertura è incerta e l'effetto non è dimostrato senza personale. La quota di RIALLOCAZIONE (0,3) sarebbe coperta da R-SAN2, che nel menu delle coperture vale 0,20-0,40 mld, comporta una riduzione corrispondente del FSN e richiede l'intesa con le Regioni: è in parte una riallocazione dentro la sanità, non una risorsa nuova. Inoltre la variante copre 1.038 hub in tutto il Paese, mentre il personale (06-C2) è chiesto solo come PILOTA in 4 Regioni: il pre-mortem dello stesso ministero indica il rischio di pagare aperture formali. Il Fondo con dotazione richiede una legge; il DM può solo ripartirlo, previa intesa.",
-    "prova": "programma/coperture_menu.md, RA06 (R-SAN2): 0,20-0,40 mld, richiede intesa Stato-Regioni; programma/coperture_menu.csv: riduzione corrispondente del FSN. giuridico/conformita.csv, riga 06-C3 COS. Posizione 06: 66 Case della Comunità su 1.715 pienamente operative, 6,9 infermieri per 1.000 abitanti contro 9,2 OCSE.",
+    "prova": "programma/coperture_menu.md, RA06 (R-SAN2): 0,20-0,40 mld, richiede intesa Stato-Regioni; programma/coperture_menu.csv: riduzione corrispondente del FSN. giuridico/conformita.csv, riga 06-C3 COS. Posizione 06: 66 Case della Comunità su 1.715 pienamente operative, 6,9 infermiere e infermieri per 1.000 abitanti contro 9,2 OCSE.",
     "cosa_cambierebbe_idea": "Dati Agenas o regionali secondo cui la maggioranza delle 1.038 hub ha già personale sufficiente (infermieri di famiglia, ore di medicina generale), oppure R-SAN2 approvato in legge con intesa per almeno 0,3 mld. In quel caso l'ESSENZIALE è preferibile a una rampa più lenta."
    },
    {
@@ -2080,7 +2080,7 @@
    "id": "M004",
    "seduta": "2026-11-08",
    "area": "02",
-   "compito": "Depositare il testo di 02-C4 PILOTA con disegno randomizzato in 12 ambiti, indicatori di take-up e inserimento lavorativo e requisito di residenza che esenta lavoratori UE e familiari, soggiornanti di lungo periodo e titolari di protezione.",
+   "compito": "Depositare il testo di 02-C4 PILOTA con disegno randomizzato in 12 ambiti, indicatori di take-up e inserimento lavorativo e requisito di residenza che esenta lavoratrici e lavoratori UE e familiari, soggiornanti di lungo periodo e titolari di protezione.",
    "scadenza": "2027-01-31",
    "stato": "aperto"
   },
@@ -2104,7 +2104,7 @@
    "id": "M007",
    "seduta": "2026-11-08",
    "area": "05",
-   "compito": "Predisporre il decreto che finanzia il ponte per i ricercatori a tempo determinato PNRR in scadenza dentro i fondi PRIN/FIS esistenti, con il numero di contratti coperti.",
+   "compito": "Predisporre il decreto che finanzia il ponte per le ricercatrici e i ricercatori a tempo determinato PNRR in scadenza dentro i fondi PRIN/FIS esistenti, con il numero di contratti coperti.",
    "scadenza": "2026-12-31",
    "stato": "aperto"
   },

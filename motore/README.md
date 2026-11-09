@@ -33,6 +33,6 @@ Opzioni: `--n 20000` (numero di estrazioni), `--budget 4 10 18`, `--seed 42`. I 
 | `decidi.py` | Il motore |
 | `esito.md`, `esito_proposte.csv` | Risultati generati |
 
-## Quando arriveranno i pesi dell'assemblea dei cittadini
+## Quando arriveranno i pesi dell'assemblea civica
 
 Diventeranno lo scenario centrale, ma l'analisi di robustezza resta pubblica. Un buon governo deve sapere quanto le sue scelte dipendono dai pesi.

@@ -279,7 +279,7 @@
   {
    "id": "fiducia_in_calo",
    "messaggio": "Fiducia dei consumatori in netto calo sull'anno.",
-   "azione": "Segnale di rischio per i consumi; valutare la tempistica delle coperture che pesano sui consumatori (IVA, accise).",
+   "azione": "Segnale di rischio per i consumi; valutare la tempistica delle coperture che pesano sulle consumatrici e sui consumatori (IVA, accise).",
    "priorita": [],
    "sospendi": []
   }
@@ -333,7 +333,7 @@
    },
    {
     "id": "03-P1",
-    "titolo": "Dividendo climatico: riforma SAD restituita ai cittadini",
+    "titolo": "Dividendo climatico: riforma SAD restituita alla cittadinanza",
     "classe": "dipendente dai valori",
     "costo_medio_mld": 5.0,
     "valori_trainanti": "Responsabilità verso il futuro, Sicurezza senza controllo assoluto",
@@ -475,7 +475,7 @@
    },
    {
     "id": "06-C2",
-    "titolo": "Patto per infermieri e medicina generale",
+    "titolo": "Patto per il personale infermieristico e la medicina generale",
     "classe": "dipendente dai valori",
     "costo_medio_mld": 2.0,
     "valori_trainanti": "Benessere, Apprendimento e cultura",
@@ -566,7 +566,7 @@
    },
    {
     "id": "04-P3",
-    "titolo": "Prima il treno dei pendolari: fondo TPL e abbonamento unico",
+    "titolo": "Prima il treno di chi viaggia ogni giorno: fondo TPL e abbonamento unico",
     "classe": "dipendente dai valori",
     "costo_medio_mld": 2.25,
     "valori_trainanti": "Benessere, Equità",
@@ -827,7 +827,7 @@
    },
    {
     "id": "09-C3",
-    "titolo": "Tecnici della Repubblica: pool di competenze per i piccoli enti",
+    "titolo": "Squadre tecniche della Repubblica: pool di competenze per i piccoli enti",
     "classe": "robusta",
     "costo_medio_mld": 0.55,
     "valori_trainanti": NaN,
@@ -1102,7 +1102,7 @@
    },
    {
     "id": "01-P7",
-    "titolo": "Dichiarazione zero: lo Stato fa il conto, il cittadino controlla",
+    "titolo": "Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla",
     "classe": "robusta",
     "costo_medio_mld": 0.3,
     "valori_trainanti": NaN,
@@ -1179,7 +1179,7 @@
    },
    {
     "id": "05-C1",
-    "titolo": "Nessuno escluso: squadre di prossimita' contro la dispersione",
+    "titolo": "Nessuna esclusione: squadre di prossimita' contro la dispersione",
     "classe": "robusta",
     "costo_medio_mld": 0.25,
     "valori_trainanti": NaN,
@@ -1194,7 +1194,7 @@
    },
    {
     "id": "05-C4",
-    "titolo": "Piu' laureati e diplomati terziari: ITS, lauree professionalizzanti, residenze",
+    "titolo": "Piu' persone laureate e diplomati terziari: ITS, lauree professionalizzanti, residenze",
     "classe": "robusta",
     "costo_medio_mld": 0.65,
     "valori_trainanti": NaN,
@@ -1277,7 +1277,7 @@
    "id": "M004",
    "seduta": "2026-11-08",
    "area": "02",
-   "compito": "Depositare il testo di 02-C4 PILOTA con disegno randomizzato in 12 ambiti, indicatori di take-up e inserimento lavorativo e requisito di residenza che esenta lavoratori UE e familiari, soggiornanti di lungo periodo e titolari di protezione.",
+   "compito": "Depositare il testo di 02-C4 PILOTA con disegno randomizzato in 12 ambiti, indicatori di take-up e inserimento lavorativo e requisito di residenza che esenta lavoratrici e lavoratori UE e familiari, soggiornanti di lungo periodo e titolari di protezione.",
    "scadenza": "2027-01-31",
    "stato": "aperto",
    "chiuso_il": ""
@@ -1304,7 +1304,7 @@
    "id": "M007",
    "seduta": "2026-11-08",
    "area": "05",
-   "compito": "Predisporre il decreto che finanzia il ponte per i ricercatori a tempo determinato PNRR in scadenza dentro i fondi PRIN/FIS esistenti, con il numero di contratti coperti.",
+   "compito": "Predisporre il decreto che finanzia il ponte per le ricercatrici e i ricercatori a tempo determinato PNRR in scadenza dentro i fondi PRIN/FIS esistenti, con il numero di contratti coperti.",
    "scadenza": "2026-12-31",
    "stato": "aperto",
    "chiuso_il": ""
