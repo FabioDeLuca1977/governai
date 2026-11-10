@@ -42,7 +42,7 @@ id,proposta,nome,unita,direzione,base,periodo_base,obiettivo,valori,ultimo,perio
 03-P2-a,03-P2,Quota rinnovabili sulla domanda elettrica,%,su,41.1,2025,62.0,"FUT,INN",,,,,manuale
 03-P2-b,03-P2,Nuova capacità rinnovabile installata,GW/anno,su,7.19,2025,10.0,"FUT,INN",,,,,manuale
 03-P2-c,03-P2,Tempo medio di autorizzazione degli impianti in area idonea,giorni,giu,,,,"INN,FID",,,,,manuale
-03-P3-a,03-P3,Perdite idriche totali in distribuzione,%,giu,42.4,2022,33.0,"FUT,BEN",42.35002822987733,2022,0.005,,in osservazione
+03-P3-a,03-P3,Perdite idriche totali in distribuzione,%,giu,42.4,2022,33.0,"FUT,BEN",42.350028229877324,2022,0.005,,in osservazione
 03-P3-b,03-P3,Regioni con perdite oltre il 50%,regioni,giu,5.0,2022,0.0,"EQU,FUT",5.0,2022,-0.0,,in osservazione
 03-P3-c,03-P3,Acqua reflua riutilizzata in agricoltura,mln m3,su,,,,FUT,,,,,manuale
 03-P4-a,03-P4,Imprese con polizza catastrofale,% imprese,su,16.0,2026-04,80.0,"SIC,FUT",,,,,manuale
@@ -188,3 +188,7 @@ id,proposta,nome,unita,direzione,base,periodo_base,obiettivo,valori,ultimo,perio
 04-P8-c,04-P8,Costo pubblico per tonnellata di CO2 evitata nelle aste per i camion a zero emissioni,euro/tCO2,giu,,,150.0,"FUT,FID",,,,,manuale
 04-P9-a,04-P9,Citta' metropolitane con zona a emissioni zero per le merci deliberata,citta' (su 14),su,0.0,2026,14.0,"BEN,FUT,BPA",,,,,manuale
 04-P9-b,04-P9,Quota di furgoni elettrici sulle nuove immatricolazioni di veicoli commerciali leggeri,% immatricolazioni,su,4.4,2025,30.0,"FUT,BEN,INN",,,,,manuale
+09-C9-a,09-C9,Ore di lavoro liberate dall'AI e certificate da AgID e RGS,milioni di ore/anno,su,0.0,2026,5.0,"INN,FID",,,,,manuale
+09-C9-b,09-C9,Persone passate su base volontaria ad attività del catalogo di valore sociale,persone (cumulate),su,0.0,2026,2000.0,"BEN,EQU",,,,,manuale
+09-C9-c,09-C9,Posti certificati come non più necessari e non sostituiti al pensionamento,posti (cumulati),su,0.0,2026,1000.0,"FUT,FID",,,,,manuale
+09-C9-d,09-C9,"Licenziamenti, disponibilità o trasferimenti senza consenso legati alle missioni",persone,giu,0.0,2026,0.0,"RIS,CIT",,,,,manuale
