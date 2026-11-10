@@ -1,8 +1,10 @@
 {
- "data": "2026-11-09T15:47:07",
+ "data": "2026-11-10T09:00:18",
  "prima_esecuzione": false,
  "eurostat_aggiornati": [],
- "file_aggiornati": [],
+ "file_aggiornati": [
+  "https://www.camera.it/temiap/2026/07/16/OCD177-9133.pdf"
+ ],
  "documenti_nuovi": [
   {
    "pagina": "ISTAT - Home e comunicati",
@@ -11,35 +13,61 @@
     "05",
     "06"
    ],
-   "documento": "https://www.istat.it/documenti/sistema-informativo-6/"
+   "documento": "https://www.istat.it/evento/sedicesima-conferenza-nazionale-di-statistica/"
   },
   {
-   "pagina": "Corte dei conti",
+   "pagina": "Gazzetta Ufficiale",
    "aree": [
     "00",
-    "04"
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
    ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=2b1c4d96-eecd-4863-946a-e2a4f71726e4"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-09&numeroGazzetta=128"
   },
   {
-   "pagina": "Corte dei conti",
+   "pagina": "Gazzetta Ufficiale",
    "aree": [
     "00",
-    "04"
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
    ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=df6bf072-c88a-4eda-aa56-f5f5947aa1a7"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-09&numeroGazzetta=261"
   },
   {
-   "pagina": "Corte dei conti",
+   "pagina": "Gazzetta Ufficiale",
    "aree": [
     "00",
-    "04"
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
    ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=ffdaa75d-bd65-4a98-b5e5-068ff3adb288"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-09&numeroGazzetta=88"
   }
  ],
  "errori": [],
- "script": {},
+ "script": {
+  "03_ambiente.py": "ok"
+ },
  "serie_cambiate": [],
- "modalita": "nessun aggiornamento"
+ "modalita": "mirato"
 }

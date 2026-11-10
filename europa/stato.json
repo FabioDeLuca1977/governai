@@ -1,21 +1,21 @@
 {
- "aggiornato": "2026-11-09",
+ "aggiornato": "2026-11-10",
  "fonti": {
-  "cellar_gu_l": "ok: 4 atti nuovi dal 2026-11-01",
+  "cellar_gu_l": "ok: 0 atti nuovi dal 2026-11-02",
   "cellar_testi": "0/0 testi di direttive",
-  "cellar_direttive": "ok: 145 direttive con termine tra 2023-11-09 e 2028-11-09",
-  "cellar_proposte": "ok: 62 proposte dal 2026-09-10",
+  "cellar_direttive": "ok: 145 direttive con termine tra 2023-11-10 e 2028-11-10",
+  "cellar_proposte": "ok: 57 proposte dal 2026-09-11",
   "cellar_semestre": "ok: 16 documenti",
   "ecfin_edp": "ok: 9 passaggi",
   "eurinfra": "ok: 84 procedure (il sito dichiara 84)",
   "dpe_aggiornamenti": "ok: 10 aggiornamenti"
  },
- "ultima_esecuzione": "2026-11-09T09:21:44",
+ "ultima_esecuzione": "2026-11-10T09:06:01",
  "archivio": {
   "atti_gu_l": 777,
   "dal": "2026-09-09",
   "direttive_monitorate": 145,
-  "proposte_ue": 65,
+  "proposte_ue": 66,
   "testi": 5
  },
  "totali": {
@@ -34,9 +34,9 @@
  "per_area": {
   "01": {
    "nome": "Economia e imprese",
-   "novita_30g": 108,
+   "novita_30g": 111,
    "novita_30g_alta": 8,
-   "obblighi_30g": 35,
+   "obblighi_30g": 36,
    "opportunita_30g": 2,
    "vincoli_bilancio_30g": 0,
    "direttive_in_scadenza_12m": 13,
@@ -47,9 +47,9 @@
   },
   "02": {
    "nome": "Lavoro, welfare e famiglia",
-   "novita_30g": 18,
+   "novita_30g": 19,
    "novita_30g_alta": 2,
-   "obblighi_30g": 3,
+   "obblighi_30g": 4,
    "opportunita_30g": 0,
    "vincoli_bilancio_30g": 0,
    "direttive_in_scadenza_12m": 5,
@@ -60,7 +60,7 @@
   },
   "03": {
    "nome": "Ambiente, energia e agricoltura",
-   "novita_30g": 109,
+   "novita_30g": 110,
    "novita_30g_alta": 7,
    "obblighi_30g": 43,
    "opportunita_30g": 3,
@@ -73,9 +73,9 @@
   },
   "04": {
    "nome": "Infrastrutture e territori",
-   "novita_30g": 49,
+   "novita_30g": 50,
    "novita_30g_alta": 8,
-   "obblighi_30g": 17,
+   "obblighi_30g": 18,
    "opportunita_30g": 1,
    "vincoli_bilancio_30g": 0,
    "direttive_in_scadenza_12m": 6,
@@ -99,7 +99,7 @@
   },
   "06": {
    "nome": "Salute",
-   "novita_30g": 46,
+   "novita_30g": 47,
    "novita_30g_alta": 2,
    "obblighi_30g": 15,
    "opportunita_30g": 0,
@@ -121,7 +121,7 @@
    "direttive_scadute_senza_misure": 0,
    "direttive_con_infrazione": 5,
    "infrazioni_aperte": 7,
-   "proposte_ue_30g": 5
+   "proposte_ue_30g": 6
   },
   "08": {
    "nome": "Esteri, Europa e istituzioni",
@@ -134,7 +134,7 @@
    "direttive_scadute_senza_misure": 0,
    "direttive_con_infrazione": 3,
    "infrazioni_aperte": 5,
-   "proposte_ue_30g": 9
+   "proposte_ue_30g": 10
   },
   "09": {
    "nome": "PA e digitale",
