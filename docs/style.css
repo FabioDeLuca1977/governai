@@ -528,3 +528,44 @@ details.leggi[open] summary{ display:none; }
 .q-cella details.leggi{ display:block; }
 @media (max-width:599px){ .tela-testo{ font-size:var(--t-corpo); } .tela-cella{ padding:12px 14px; } }
 .nota .mono,.nota code,small .mono{ font-size:max(13px,.93em); }
+
+/* ---------- mappa dei ministeri (home) ---------- */
+.mappa{ display:grid; gap:20px; align-items:start; }
+@media (min-width:900px){ .mappa{ grid-template-columns:minmax(0,1.05fr) minmax(0,1fr); gap:32px; } .mappa-rete{ position:sticky; top:96px; } }
+.mappa-rete{ position:relative; width:100%; max-width:560px; margin:0 auto; aspect-ratio:1; }
+.mappa-rete > svg{ position:absolute; inset:0; width:100%; height:100%; overflow:visible; }
+.mappa-rete > svg line,.mappa-legenda line{ stroke-width:2; vector-effect:non-scaling-stroke; stroke-linecap:round; transition:opacity .2s, stroke-width .2s; }
+.rel-sinergia{ stroke:var(--c-favorevole); }
+.rel-tensione{ stroke:var(--c-attenzione); stroke-dasharray:6 5; }
+.rel-entrambe{ stroke:var(--c-accento); stroke-dasharray:12 4 2 4; }
+.mappa-rete > svg line{ opacity:.35; }
+.mappa-rete > svg line.attiva{ opacity:1; stroke-width:3.5; }
+.mappa-rete > svg line.spenta{ opacity:.08; }
+.nodo{ position:absolute; transform:translate(-50%,-50%); display:flex; flex-direction:column; align-items:center; gap:4px; width:clamp(72px,21%,112px); padding:8px 4px; border:1px solid var(--c-bordo); border-radius:var(--r-l); background:var(--c-superficie); color:var(--c-testo); cursor:pointer; box-shadow:var(--e-1); font:600 13px/1.2 var(--f-sans); text-align:center; transition:border-color .15s, opacity .2s, box-shadow .15s; }
+.nodo:hover{ border-color:var(--c-accento); box-shadow:var(--e-2); }
+.nodo-icona{ display:grid; place-items:center; width:36px; height:36px; border-radius:50%; background:var(--c-accento-tenue); color:var(--c-accento); }
+.nodo-icona svg{ width:20px; height:20px; }
+.nodo-nome{ hyphens:auto; overflow-wrap:anywhere; }
+.nodo[aria-pressed="true"]{ border:2px solid var(--c-accento); background:var(--c-accento-tenue); box-shadow:var(--e-2); z-index:2; }
+.nodo[aria-pressed="true"] .nodo-icona{ background:var(--c-accento); color:var(--c-su-accento); }
+.nodo.vicino{ border-color:var(--c-accento); }
+.nodo.lontano{ opacity:.45; }
+.mappa-centro{ position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); display:flex; flex-direction:column; align-items:center; gap:4px; width:26%; text-align:center; font:600 12px/1.25 var(--f-sans); color:var(--c-testo-2); text-decoration:none; }
+.mappa-centro svg{ width:22px; height:22px; color:var(--c-accento); }
+.mappa-centro:hover{ color:var(--c-accento); }
+.mappa-scheda h3{ font:600 var(--t-h2)/1.25 var(--f-serif); margin-top:4px; }
+.mappa-scheda h3:focus{ outline:none; }
+.mappa-scheda .etichetta{ display:flex; align-items:center; gap:6px; margin-top:14px; }
+.mappa-temi{ display:flex; flex-wrap:wrap; gap:6px; list-style:none; padding:0; margin:6px 0 14px; }
+.mappa-temi li{ padding:3px 10px; border-radius:999px; background:var(--c-superficie-2); font-size:14px; }
+.mappa-rel{ list-style:none; padding:0; margin:8px 0 0; display:grid; gap:10px; }
+.mappa-rel li{ padding:12px; border:1px solid var(--c-bordo); border-radius:var(--r-m); }
+.mappa-rel p{ margin:4px 0 0; font-size:15px; color:var(--c-testo-2); }
+.mappa-rel-testa{ display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-bottom:6px; }
+.mappa-vai{ display:inline-flex; align-items:center; gap:6px; min-height:32px; padding:0 10px; border:1px solid var(--c-bordo); border-radius:999px; background:var(--c-superficie); color:var(--c-accento); font-weight:600; cursor:pointer; }
+.mappa-vai:hover{ border-color:var(--c-accento); }
+.mappa-legenda{ display:flex; flex-wrap:wrap; gap:6px 16px; list-style:none; padding:0; margin:14px 0 8px; font-size:14px; color:var(--c-testo-2); }
+.mappa-legenda li{ display:flex; align-items:center; gap:6px; }
+.mappa-legenda svg{ width:40px; height:8px; }
+@media (max-width:599px){ .mappa-rete{ aspect-ratio:5/6; } .nodo{ font-size:11.5px; padding:6px 2px; } .nodo-icona{ width:30px; height:30px; } .nodo-icona svg{ width:17px; height:17px; } .mappa-centro{ font-size:11px; } }
+@media (prefers-reduced-motion:reduce){ .mappa-rete > svg line,.nodo{ transition:none; } }

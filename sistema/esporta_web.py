@@ -115,6 +115,18 @@ def obiettivi() -> list[dict]:
     return records(pd.read_csv(f)) if f.exists() else []
 
 
+def mappa() -> dict:
+    """Mappa dei ministeri per la home: temi e relazioni tra aree (programma/mappa_ministeri.yaml, dalle sezioni B e D dei dossier)."""
+    f = RADICE / "programma" / "mappa_ministeri.yaml"
+    if not f.exists():
+        return {}
+    m = yaml.safe_load(leggi(f)) or {}
+    dossier = {x.name[:2]: "ministeri/" + x.name for x in sorted((RADICE / "ministeri").glob("0*.md"))}
+    for k, a in (m.get("aree") or {}).items():
+        a["dossier"] = dossier.get(k, "")
+    return m
+
+
 def schema() -> dict:
     """Il programma in una pagina: missioni con perché, come, cosa misuriamo e chi ne beneficia (programma/schema.yaml).
     Gli indicatori sono presi da apprendimento/obiettivi.yaml, così base e traguardi restano quelli delle schede."""
@@ -281,6 +293,7 @@ def main() -> int:
         "analisi": analisi(),
         "obiettivi": obiettivi(),
         "schema": schema(),
+        "mappa": mappa(),
         "lezioni": leggi(RADICE / "apprendimento" / "lezioni.md"),
         "integrita": integrita(),
         "governo": governo(),

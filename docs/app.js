@@ -214,6 +214,77 @@
         ${s.proposte.length ? `<span class="mini-codici">Collegata a: ${s.proposte.map((c) => proposta(c) ? `<a href="${linkP(c)}">${c}</a>` : esc(c)).join("")}</span>` : ""}</span></li>`;
   }
 
+  // ---------- Mappa dei ministeri (home) ----------
+  const TIPO_REL = { sinergia: ["favorevole", "handshake", "Sinergia"], tensione: ["attenzione", "scale", "Tensione"], entrambe: ["", "arrow-left-right", "Sinergia e tensione"] };
+  const MAPPA = D.mappa || {};
+  const relazioniDi = (k) => (MAPPA.relazioni || []).filter((r) => r.aree.includes(k));
+  function mappaMinisteri(perArea) {
+    const aree = MAPPA.aree || {};
+    if (!Object.keys(aree).length) return `<section class="sezione" aria-labelledby="t-temi">
+        <div class="sezione-testa"><h2 id="t-temi">Le proposte per tema</h2><a href="#/programma">Tutte e ${D.proposte.length}</a></div>
+        <div class="temi">${perArea.map(([k, nome, c]) => `<a href="#/programma?tema=${k}">${esc(nome)}<span>${c}</span></a>`).join("")}</div></section>`;
+    const pos = {};
+    perArea.forEach(([k], i) => { const a = (-90 + i * 360 / perArea.length) * Math.PI / 180; pos[k] = [50 + 39 * Math.cos(a), 50 + 39 * Math.sin(a)]; });
+    const linee = (MAPPA.relazioni || []).filter((r) => pos[r.aree[0]] && pos[r.aree[1]]).map((r) => {
+      const [[x1, y1], [x2, y2]] = r.aree.map((k) => pos[k]);
+      return `<line class="rel-${esc(r.tipo)}" data-a="${r.aree[0]}" data-b="${r.aree[1]}" x1="${x1.toFixed(2)}" y1="${y1.toFixed(2)}" x2="${x2.toFixed(2)}" y2="${y2.toFixed(2)}"/>`;
+    }).join("");
+    const nodi = perArea.map(([k, nome, c]) => { const a = aree[k] || {}; return `<button type="button" class="nodo" data-ministero="${k}" aria-pressed="false" style="left:${pos[k][0].toFixed(2)}%;top:${pos[k][1].toFixed(2)}%"><span class="nodo-icona">${icona(a.icona || "landmark")}</span><span class="nodo-nome">${esc(a.breve || nome)}</span><span class="vh">: ${c} proposte, ${relazioniDi(k).length} collegamenti con altri ministeri</span></button>`; }).join("");
+    return `<section class="sezione" aria-labelledby="t-mappa">
+        <div class="sezione-testa"><h2 id="t-mappa">La mappa del governo</h2><a href="#/programma">Tutte le ${D.proposte.length} proposte</a></div>
+        <p class="nota" style="margin-top:-8px">Nove ministeri, i temi di cui si occupano e dove lavorano insieme o si contendono le risorse. Scegli un ministero per approfondire.</p>
+        <div class="mappa">
+          <div class="mappa-rete" id="mappa-rete">
+            <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" focusable="false">${linee}</svg>
+            <a class="mappa-centro" href="#/governo">${icona("users-round")}<span>Consiglio dei ministri</span></a>
+            ${nodi}
+          </div>
+          <div class="card mappa-scheda" id="mappa-scheda" aria-live="polite">${mappaScheda(null)}</div>
+        </div>
+      </section>`;
+  }
+  function mappaLegenda() {
+    return `<ul class="mappa-legenda" aria-label="Legenda dei collegamenti">${Object.entries(TIPO_REL).map(([t, [, , testo]]) => `<li><svg viewBox="0 0 40 8" aria-hidden="true"><line class="rel-${t}" x1="2" y1="4" x2="38" y2="4"/></svg>${testo}</li>`).join("")}</ul>`;
+  }
+  function mappaScheda(k) {
+    const aree = MAPPA.aree || {};
+    if (!k) return `<p class="etichetta">Come leggere la mappa</p>
+      <h3>Scegli un ministero</h3>
+      <p>Ogni ministero mostra i temi di cui si occupa, le sue proposte e i collegamenti con gli altri ministeri, ricavati dai dossier ministeriali.</p>
+      ${mappaLegenda()}
+      <p class="nota">Le linee indicano dove due ministeri lavorano sugli stessi problemi (sinergia) o dove le loro scelte si limitano a vicenda, di solito per le risorse (tensione).</p>`;
+    const a = aree[k] || {}, rel = relazioniDi(k), n = D.proposte.filter((p) => p.area === k).length;
+    const altro = (r) => r.aree[0] === k ? r.aree[1] : r.aree[0];
+    const ordine = { tensione: 0, entrambe: 1, sinergia: 2 };
+    rel.sort((x, y) => (ordine[x.tipo] ?? 3) - (ordine[y.tipo] ?? 3) || altro(x).localeCompare(altro(y)));
+    return `<p class="etichetta">${icona(a.icona || "landmark")} Ministero</p>
+      <h3 tabindex="-1" id="mappa-titolo">${esc(D.aree[k])}</h3>
+      ${a.domanda ? `<p>${esc(a.domanda)}</p>` : ""}
+      ${(a.temi || []).length ? `<p class="etichetta">Di che cosa si occupa</p><ul class="mappa-temi">${a.temi.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
+      <div class="azioni"><a class="btn s primario" href="#/programma?tema=${k}">Le ${n} proposte ${icona("arrow-right")}</a>${a.dossier ? `<span class="btn s">${ext(repo + "/blob/main/" + a.dossier, "Il dossier completo")}</span>` : ""}</div>
+      <p class="etichetta">Collegamenti con gli altri ministeri (${rel.length})</p>
+      ${rel.length ? `<ul class="mappa-rel">${rel.map((r) => { const o = altro(r), t = TIPO_REL[r.tipo] || TIPO_REL.entrambe; return `<li>
+        <div class="mappa-rel-testa">${chip(t)}<button type="button" class="mappa-vai" data-ministero="${o}">${icona((aree[o] || {}).icona || "landmark")}${esc((aree[o] || {}).breve || D.aree[o])}<span class="vh"> (apri questo ministero)</span></button></div>
+        <strong>${esc(r.tema)}</strong>
+        ${r.spiegazione ? `<p>${esc(r.spiegazione)}</p>` : ""}
+        ${(r.proposte || []).length ? `<div class="mini-codici">Proposte: ${r.proposte.map((c) => proposta(c) ? `<a href="${linkP(c)}" title="${esc(proposta(c).titolo)}">${c}</a>` : esc(c)).join("")}</div>` : ""}</li>`; }).join("")}</ul>` : `<p class="nota">Nessun collegamento indicato nei dossier.</p>`}
+      ${mappaLegenda()}`;
+  }
+  function mappaSeleziona(k, dalPannello) {
+    const rete = $("#mappa-rete"), scheda = $("#mappa-scheda");
+    if (!rete || !scheda) return;
+    const gia = rete.dataset.sel === k;
+    const sel = gia ? "" : k;
+    rete.dataset.sel = sel;
+    const vicini = new Set(sel ? relazioniDi(sel).flatMap((r) => r.aree) : []);
+    $$(".nodo", rete).forEach((b) => { b.setAttribute("aria-pressed", b.dataset.ministero === sel); b.classList.toggle("vicino", !!sel && b.dataset.ministero !== sel && vicini.has(b.dataset.ministero)); b.classList.toggle("lontano", !!sel && !vicini.has(b.dataset.ministero) && b.dataset.ministero !== sel); });
+    $$(":scope > svg > line", rete).forEach((l) => { const on = sel && (l.dataset.a === sel || l.dataset.b === sel); l.classList.toggle("attiva", !!on); l.classList.toggle("spenta", !!sel && !on); });
+    scheda.innerHTML = mappaScheda(sel || null);
+    icone();
+    if (dalPannello && sel) { $("#mappa-titolo").focus({ preventScroll: true }); if (innerWidth < 900) scheda.scrollIntoView({ block: "start", behavior: "smooth" }); }
+    else if (sel && innerWidth < 900) scheda.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  }
+
   // ---------- Oggi ----------
   function home() {
     const n = D.numeri || {};
@@ -254,6 +325,8 @@
         </div>
       </section>
 
+      ${mappaMinisteri(perArea)}
+
       <div class="griglia g2-d sezione">
         <section aria-labelledby="t-allerte">
           <div class="sezione-testa"><h2 id="t-allerte">Allerte attive (${ALLERTE.length})</h2><a href="#/dati/allerte">Tutte</a></div>
@@ -277,10 +350,6 @@
         <div class="card" style="padding-top:4px;padding-bottom:4px"><ul class="scadenze">${scad.map(rigaScadenza).join("")}</ul></div>
       </section>
 
-      <section class="sezione" aria-labelledby="t-temi">
-        <div class="sezione-testa"><h2 id="t-temi">Le proposte per tema</h2><a href="#/programma">Tutte e ${D.proposte.length}</a></div>
-        <div class="temi">${perArea.map(([k, nome, c]) => `<a href="#/programma?tema=${k}">${esc(nome)}<span>${c}</span></a>`).join("")}</div>
-      </section>
 
       <section class="sezione" aria-labelledby="t-solide">
         <div class="sezione-testa"><h2 id="t-solide">Il nucleo robusto: le più solide</h2><a href="#/programma?classe=robusta">Tutte e ${nucleo.length}</a></div>
@@ -1097,6 +1166,8 @@
       b.setAttribute("aria-expanded", "true"); icone(); return;
     }
     if (pop && !e.target.closest(".popover")) chiudiPop();
+    const mi = e.target.closest("[data-ministero]");
+    if (mi) { mappaSeleziona(mi.dataset.ministero, mi.classList.contains("mappa-vai")); return; }
     const f = e.target.closest("[data-filtro]");
     if (f) {
       $$("[data-filtro]").forEach((x) => x.setAttribute("aria-pressed", x === f));

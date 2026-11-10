@@ -1,0 +1,302 @@
+# Mappa dei ministeri: temi e relazioni con le altre aree, ricavati dalle sezioni B e D dei dossier ministeriali.
+# Per l'area 08 i temi vengono dai punti numerati di "B. Diagnosi"; l'area 09 include le proposte 09-C6…09-C9 (programma/schede/12_pa_produttiva.md).
+# Le relazioni con "Tutti i ministeri" (dossier 08 e 09) sono trasversali e non sono riportate come coppie.
+aree:
+  "01":
+    breve: Economia
+    icona: landmark
+    temi:
+      - Debito e interessi
+      - Fisco pesante ed evasione
+      - Produttività e imprese piccole
+      - Energia cara per le imprese
+      - Incentivi poco valutati
+      - Turismo e territori
+    domanda: "Come ridurre il peso del debito e far crescere imprese e produttività senza lasciare indietro i territori?"
+  "02":
+    breve: Lavoro e welfare
+    icona: users
+    temi:
+      - Calo delle nascite
+      - Salari bassi e lavoro povero
+      - Lavoro di donne, giovani, Sud
+      - Povertà di minori e famiglie
+      - Pensioni sostenibili nel tempo
+      - Infanzia, conciliazione e disabilità
+    domanda: "Come sostenere nascite, salari e pensioni in un Paese che invecchia e ha ancora molta povertà?"
+  "03":
+    breve: Ambiente
+    icona: leaf
+    temi:
+      - Emissioni di trasporti ed edifici
+      - Elettricità cara legata al gas
+      - Reti idriche e siccità
+      - Territorio fragile e consumo di suolo
+      - Rischi climatici non assicurati
+      - Sussidi dannosi e agricoltura
+    domanda: "Come tagliare emissioni e bollette proteggendo acqua, suolo e agricoltura da un clima che cambia?"
+  "04":
+    breve: Territori
+    icona: train-front
+    temi:
+      - Investimenti dopo il PNRR
+      - Fondi di coesione spesi lentamente
+      - Treni e trasporto locale
+      - Casa e affitti
+      - Aree interne che si spopolano
+      - Autonomia differenziata e LEP
+    domanda: "Come garantire casa, trasporti e servizi in tutti i territori quando finiscono i fondi del PNRR?"
+  "05":
+    breve: Istruzione
+    icona: graduation-cap
+    temi:
+      - Dispersione scolastica
+      - Competenze di base
+      - Poche lauree, poca ricerca
+      - Fuga dei cervelli
+      - NEET e primo lavoro
+      - Formazione continua e IA
+    domanda: "Come dare a ogni persona, a ogni età, le competenze per lavorare, fare ricerca e partecipare?"
+  "06":
+    breve: Salute
+    icona: heart-pulse
+    temi:
+      - Finanziamento della sanità pubblica
+      - Liste d'attesa
+      - Personale sanitario
+      - Sanità territoriale incompiuta
+      - Non autosufficienza e salute mentale
+      - Divari tra regioni
+    domanda: "Come garantire cure tempestive a tutte le persone, con personale sufficiente e meno divari tra regioni?"
+  "07":
+    breve: Giustizia e sicurezza
+    icona: scale
+    temi:
+      - Giustizia civile lenta
+      - Carceri sovraffollate
+      - Immigrazione e integrazione
+      - Beni confiscati alle mafie
+      - Spesa per la difesa
+      - Cybersicurezza
+    domanda: "Come avere giustizia rapida, carceri dignitose e sicurezza efficace, con una spesa sostenibile per i conti pubblici?"
+  "08":
+    breve: Esteri e UE
+    icona: globe
+    temi:
+      - Export e dazi
+      - Cooperazione allo sviluppo
+      - Bilancio UE e difesa comune
+      - Leggi fatte per decreto
+      - Partecipazione e regole elettorali
+      - IA nelle istituzioni
+    domanda: "Come far contare l'Italia in Europa e nel mondo e fare leggi migliori e più stabili?"
+  "09":
+    breve: PA digitale
+    icona: monitor-smartphone
+    temi:
+      - Ricambio e produttività del personale
+      - Piccoli enti senza tecnici
+      - Dati pubblici che non dialogano
+      - Cloud dopo il PNRR
+      - Cybersicurezza
+      - Competenze digitali
+    domanda: "Come avere una pubblica amministrazione competente, produttiva e digitale, che chieda i dati una volta sola?"
+relazioni:
+  - aree: ["01", "02"]
+    tipo: entrambe
+    tema: "Risorse pubbliche per famiglie, welfare e lavoro"
+    spiegazione: "Nidi, reddito di inclusione e disabilità costano 6-9 miliardi l'anno e vanno coperti. Le soglie dimensionali per le imprese toccano le tutele; il cuneo fiscale e il riordino dei bonus sono terreni comuni."
+    proposte: [02-C2, 02-C3, 02-C4, 02-C5, 01-P2, 01-P4]
+    fonti: ["ministeri/01_economia_imprese.md §D.1", "ministeri/01_economia_imprese.md §D.4", "ministeri/02_lavoro_welfare_famiglia.md §D.1", "ministeri/02_lavoro_welfare_famiglia.md §D.2"]
+  - aree: ["01", "03"]
+    tipo: entrambe
+    tema: "Sussidi ai carburanti e prezzo dell'energia"
+    spiegazione: "Ridurre gli sconti sul gasolio e i sussidi dannosi pesa su imprese e agricoltura e compete con altre priorità di bilancio. Contratti di lungo periodo sulle rinnovabili possono abbassare le bollette di tutte le imprese."
+    proposte: [03-P1, 03-P2, 03-P4, 01-P2, 01-P5]
+    fonti: ["ministeri/01_economia_imprese.md §D.2", "ministeri/01_economia_imprese.md §D.8", "ministeri/03_ambiente_energia_agricoltura.md §D.1", "ministeri/03_ambiente_energia_agricoltura.md §D.2"]
+  - aree: ["01", "04"]
+    tipo: entrambe
+    tema: "Spazio di bilancio per le opere dopo il PNRR"
+    spiegazione: "Le proposte su territori e trasporti costano 4-7,5 miliardi l'anno e chiedono coperture. Tassa di soggiorno e turismo lento possono finanziare casa e aree interne; sconti all'autotrasporto e competenze regionali sono punti delicati."
+    proposte: [04-P1, 04-P2, 04-P3, 04-P6, 01-P2, 01-P4, 01-P6]
+    fonti: ["ministeri/01_economia_imprese.md §D.5", "ministeri/01_economia_imprese.md §D.6", "ministeri/01_economia_imprese.md §D.8", "ministeri/04_infrastrutture_territori.md §D.1", "ministeri/04_infrastrutture_territori.md §D.3", "ministeri/04_infrastrutture_territori.md §D.8"]
+  - aree: ["01", "05"]
+    tipo: entrambe
+    tema: "Risparmi del calo demografico a scuola e ricerca"
+    spiegazione: "Il calo di alunne e alunni libera risorse: tagliare spesa o reinvestirle nella scuola? Più ricerca e lauree servono anche alle imprese; impianti rinnovabili e tutela del paesaggio vanno conciliati."
+    proposte: [05-C1, 05-C3, 05-C4, 01-P2, 01-P4, 01-P5]
+    fonti: ["ministeri/01_economia_imprese.md §D.2", "ministeri/01_economia_imprese.md §D.4", "ministeri/01_economia_imprese.md §D.10", "ministeri/05_istruzione_ricerca_cultura.md §D.1", "ministeri/05_istruzione_ricerca_cultura.md §D.3"]
+  - aree: ["01", "06"]
+    tipo: entrambe
+    tema: "Quanta spesa pubblica per la sanità"
+    spiegazione: "Il fondo sanitario scende in rapporto al PIL mentre personale, Case della Comunità e salute mentale chiedono risorse. Sugar tax, accise e budget del farmaco toccano le imprese; il riordino delle spese fiscali può finanziare cure mirate."
+    proposte: [06-C2, 06-C3, 06-C5, 06-C6, 01-P2]
+    fonti: ["ministeri/06_salute.md §D.1", "ministeri/06_salute.md §D.3", "ministeri/01_economia_imprese.md §D.4"]
+  - aree: ["01", "07"]
+    tipo: entrambe
+    tema: "Spesa per la difesa e spazio di bilancio"
+    spiegazione: "Avvicinarsi agli obiettivi NATO con un debito alto riduce lo spazio per altre priorità. Una giustizia più rapida e la lotta al riciclaggio aiutano credito e imprese, con garanzie sull'uso dei dati fiscali."
+    proposte: [07-C5, 07-C1, 01-P1, 01-P2, 01-P3]
+    fonti: ["ministeri/01_economia_imprese.md §D.3", "ministeri/01_economia_imprese.md §D.7", "ministeri/07_giustizia_interno_difesa.md §D.1", "ministeri/07_giustizia_interno_difesa.md §D.6", "ministeri/07_giustizia_interno_difesa.md §D.8"]
+  - aree: ["01", "08"]
+    tipo: entrambe
+    tema: "Cooperazione e contributi UE nel bilancio nazionale"
+    spiegazione: "Aiuto allo sviluppo e fondo europeo competono con altre spese, e i tempi UE condizionano IVA e aiuti di Stato. Beni pubblici europei e diversificazione dell'export possono ridurre costi nazionali e rischi per le imprese."
+    proposte: [08-P2, 08-P4, 08-P5, 08-P6, 01-P3, 01-P5]
+    fonti: ["ministeri/01_economia_imprese.md §D.9", "ministeri/08_esteri_europa_istituzioni.md §D"]
+  - aree: ["01", "09"]
+    tipo: entrambe
+    tema: "Spesa corrente del digitale dopo il PNRR"
+    spiegazione: "Pool tecnici, cloud e IA nella PA aggiungono spesa corrente quando finisce il PNRR. I risparmi certificati del digitale e dati aperti più verificabili possono aiutare i conti pubblici."
+    proposte: [09-C1, 09-C3, 09-C4, 09-C5]
+    fonti: ["ministeri/09_pa_digitale.md §D"]
+  - aree: ["02", "03"]
+    tipo: entrambe
+    tema: "Transizione giusta per chi lavora e per le famiglie"
+    spiegazione: "Ammortizzatori, formazione e bonus per famiglie vulnerabili accompagnano la transizione ecologica. Una soglia salariale può pesare sui costi dell'agricoltura."
+    proposte: [02-C1, 02-C2, 03-P1]
+    fonti: ["ministeri/02_lavoro_welfare_famiglia.md §D.2", "ministeri/02_lavoro_welfare_famiglia.md §D.8", "ministeri/03_ambiente_energia_agricoltura.md §D.6", "ministeri/03_ambiente_energia_agricoltura.md §D.8"]
+  - aree: ["02", "04"]
+    tipo: entrambe
+    tema: "LEP per nidi e disabilità prima dell'autonomia"
+    spiegazione: "Senza livelli essenziali finanziati l'autonomia differenziata può allargare i divari Nord-Sud. Casa accessibile, contributi affitto e fondi di coesione per investimenti sostengono famiglie e Mezzogiorno."
+    proposte: [02-C2, 02-C4, 02-C5, 04-P2, 04-P5, 04-P6]
+    fonti: ["ministeri/02_lavoro_welfare_famiglia.md §D.6", "ministeri/02_lavoro_welfare_famiglia.md §D.7", "ministeri/02_lavoro_welfare_famiglia.md §D.9", "ministeri/04_infrastrutture_territori.md §D.6"]
+  - aree: ["02", "05"]
+    tipo: entrambe
+    tema: "Formazione degli adulti e contrasto ai NEET"
+    spiegazione: "Nidi, NEET e formazione continua sono obiettivi comuni. Il conto personale di competenze richiede una regia condivisa tra scuola, università e politiche attive per evitare doppioni."
+    proposte: [05-C2, 02-C2, 02-C3]
+    fonti: ["ministeri/02_lavoro_welfare_famiglia.md §D.5", "ministeri/05_istruzione_ricerca_cultura.md §D.2"]
+  - aree: ["02", "06"]
+    tipo: entrambe
+    tema: "Non autosufficienza tra servizi sociali e sanità"
+    spiegazione: "Progetto di vita e budget di cura stanno tra INPS, Comuni e servizio sanitario: servono budget condivisi per evitare rimpalli. L'emersione del lavoro domestico aumenta contributi e tutele."
+    proposte: [06-C4, 02-C5]
+    fonti: ["ministeri/02_lavoro_welfare_famiglia.md §D.4", "ministeri/06_salute.md §D.2"]
+  - aree: ["02", "07"]
+    tipo: entrambe
+    tema: "Immigrazione e fabbisogno di lavoro"
+    spiegazione: "I flussi d'ingresso incidono su manodopera e pensioni e richiedono una scelta politica esplicita. La spesa per la difesa può ridurre quella sociale; il lavoro in carcere è un terreno comune."
+    proposte: [07-C3, 07-C2, 07-C5, 02-C3, 02-C4, 02-C6]
+    fonti: ["ministeri/02_lavoro_welfare_famiglia.md §D.3", "ministeri/07_giustizia_interno_difesa.md §D.2", "ministeri/07_giustizia_interno_difesa.md §D.3", "ministeri/07_giustizia_interno_difesa.md §D.7"]
+  - aree: ["02", "09"]
+    tipo: entrambe
+    tema: "IA e contratti nel lavoro pubblico"
+    spiegazione: "Carriera tecnica, automazione e IA nella PA richiedono di rinegoziare i contratti, con riqualificazione del personale. L'IA nelle prestazioni INPS è ad alto rischio e chiede trasparenza e controllo umano."
+    proposte: [09-C3, 09-C5, 09-C6, 09-C7, 09-C8, 09-C9]
+    fonti: ["ministeri/02_lavoro_welfare_famiglia.md §D.10", "ministeri/09_pa_digitale.md §D", "programma/schede/12_pa_produttiva.md"]
+  - aree: ["03", "04"]
+    tipo: entrambe
+    tema: "Consumo di suolo, casa e grandi opere"
+    spiegazione: "Stop alle costruzioni in aree a rischio e grandi opere a forte impatto si scontrano con domanda abitativa e cantieri. Trasporto pubblico, rigenerazione urbana e reti idriche sono obiettivi comuni; i sussidi all'autotrasporto restano delicati."
+    proposte: [03-P1, 03-P2, 03-P3, 03-P4, 04-P3, 04-P4]
+    fonti: ["ministeri/03_ambiente_energia_agricoltura.md §D.2", "ministeri/03_ambiente_energia_agricoltura.md §D.3", "ministeri/03_ambiente_energia_agricoltura.md §D.4", "ministeri/03_ambiente_energia_agricoltura.md §D.6", "ministeri/04_infrastrutture_territori.md §D.2", "ministeri/04_infrastrutture_territori.md §D.3"]
+  - aree: ["03", "05"]
+    tipo: entrambe
+    tema: "Impianti rinnovabili e tutela del paesaggio"
+    spiegazione: "Eolico e agrivoltaico possono scontrarsi con la tutela del paesaggio. Riqualificare scuole e residenze universitarie riduce i consumi, ma aprirle di più in edifici poco efficienti li aumenta."
+    proposte: [03-P2, 05-C4, 05-C5]
+    fonti: ["ministeri/03_ambiente_energia_agricoltura.md §D.3", "ministeri/05_istruzione_ricerca_cultura.md §D.7"]
+  - aree: ["03", "06"]
+    tipo: entrambe
+    tema: "Aria pulita, clima e salute"
+    spiegazione: "Meno ammoniaca dagli allevamenti e meno ondate di calore migliorano la salute, e anche la sanità deve ridurre le emissioni. Tasse su zucchero e tabacco possono toccare alcune filiere agricole."
+    proposte: [03-P5, 06-C6]
+    fonti: ["ministeri/03_ambiente_energia_agricoltura.md §D.5", "ministeri/06_salute.md §D.3", "ministeri/06_salute.md §D.8"]
+  - aree: ["03", "07"]
+    tipo: entrambe
+    tema: "Difesa e investimenti per il clima"
+    spiegazione: "Più spesa per la difesa rischia di togliere risorse agli investimenti climatici. Si sostengono a vicenda solo nella parte resiliente: reti elettriche e protezione civile."
+    proposte: [07-C5]
+    fonti: ["ministeri/07_giustizia_interno_difesa.md §D.2"]
+  - aree: ["03", "08"]
+    tipo: entrambe
+    tema: "Politica agricola, ETS e accordi commerciali"
+    spiegazione: "Negoziato sulla PAC, ETS2 e Fondo sociale per il clima sono terreni comuni. Accordi come il Mercosur, una PAC ridotta e i proventi ETS contesi tra cooperazione e transizione interna sono punti di tensione."
+    proposte: [03-P1, 03-P5, 08-P4, 08-P5, 08-P6]
+    fonti: ["ministeri/03_ambiente_energia_agricoltura.md §D.7", "ministeri/08_esteri_europa_istituzioni.md §D"]
+  - aree: ["03", "09"]
+    tipo: entrambe
+    tema: "Consumi elettrici di data center e IA"
+    spiegazione: "Data center e IA aumentano la domanda di elettricità e vanno resi coerenti con gli obiettivi climatici. Dati aperti su modelli climatici e valutazioni ambientali aiutano la transizione."
+    proposte: [09-C1, 09-C4]
+    fonti: ["ministeri/09_pa_digitale.md §D"]
+  - aree: ["04", "05"]
+    tipo: entrambe
+    tema: "Autonomia differenziata e divari nell'istruzione"
+    spiegazione: "L'autonomia sull'istruzione può allargare i divari senza LEP finanziati. Le strutture PNRR servono solo con personale; gli immobili pubblici sono contesi tra residenze studentesche e vendite; cultura e turismo lento sostengono le aree interne."
+    proposte: [04-P1, 04-P5, 04-P6, 05-C1, 05-C4]
+    fonti: ["ministeri/04_infrastrutture_territori.md §D.4", "ministeri/04_infrastrutture_territori.md §D.8", "ministeri/05_istruzione_ricerca_cultura.md §D.4", "ministeri/05_istruzione_ricerca_cultura.md §D.9"]
+  - aree: ["04", "06"]
+    tipo: entrambe
+    tema: "Personale per le Case della Comunità e divari regionali"
+    spiegazione: "Le Case della Comunità finanziate dal PNRR restano vuote senza personale sanitario. L'autonomia differenziata può ampliare i divari già visibili nella mobilità sanitaria tra regioni."
+    proposte: [04-P1, 04-P5, 06-C2, 06-C3]
+    fonti: ["ministeri/04_infrastrutture_territori.md §D.4", "ministeri/06_salute.md §D.4"]
+  - aree: ["04", "07"]
+    tipo: entrambe
+    tema: "Casa: sgomberi, beni confiscati e famiglie fragili"
+    spiegazione: "Sgomberi più rapidi possono scontrarsi con la tutela delle famiglie fragili. I beni confiscati possono diventare alloggi sociali; restano da chiarire controlli sulle grandi opere, oneri dei Comuni e sicurezza dei porti."
+    proposte: [04-P2, 04-P4, 04-P5, 07-C4, 07-C6]
+    fonti: ["ministeri/04_infrastrutture_territori.md §D.5", "ministeri/04_infrastrutture_territori.md §D.7", "ministeri/04_infrastrutture_territori.md §D.9", "ministeri/07_giustizia_interno_difesa.md §D.4", "ministeri/07_giustizia_interno_difesa.md §D.10"]
+  - aree: ["04", "08"]
+    tipo: tensione
+    tema: "Fondi di coesione nel nuovo bilancio UE"
+    spiegazione: "Il negoziato sul bilancio UE 2028-2034 può ridurre la coesione. Regioni e Parlamento chiedono un ruolo su autonomia e grandi opere; corridoi europei e investimenti esteri nei porti richiedono coordinamento."
+    proposte: [04-P4, 04-P5, 08-P1, 08-P4]
+    fonti: ["ministeri/04_infrastrutture_territori.md §D.7", "ministeri/04_infrastrutture_territori.md §D.9", "ministeri/08_esteri_europa_istituzioni.md §D"]
+  - aree: ["04", "09"]
+    tipo: entrambe
+    tema: "Squadre tecniche per enti locali e appalti"
+    spiegazione: "Pool tecnici e once-only toccano competenze di Regioni ed enti locali. Migliorano opere e uso dei fondi di coesione, ma gare centralizzate possono penalizzare piccole imprese locali."
+    proposte: [09-C2, 09-C3, 09-C4]
+    fonti: ["ministeri/09_pa_digitale.md §D"]
+  - aree: ["05", "06"]
+    tipo: sinergia
+    tema: "Salute mentale dei giovani e formazione sanitaria"
+    spiegazione: "Sport, educazione alimentare e salute mentale degli adolescenti uniscono scuola e prevenzione. Servono più posti in infermieristica e una formazione rinnovata in medicina generale."
+    proposte: [05-C5, 06-C2, 06-C5, 06-C6, 06-C9]
+    fonti: ["ministeri/05_istruzione_ricerca_cultura.md §D.6", "ministeri/06_salute.md §D.5", "ministeri/06_salute.md §D.6"]
+  - aree: ["05", "07"]
+    tipo: entrambe
+    tema: "Integrazione scolastica di ragazze e ragazzi migranti"
+    spiegazione: "Molti giovani arrivati da poco lasciano presto la scuola: servono raccordi con accoglienza e corsi di italiano. Istruzione in carcere e ricerca dual-use uniscono; la spesa per la difesa può ridurre quella per l'istruzione."
+    proposte: [05-C1, 07-C2, 07-C3, 07-C5]
+    fonti: ["ministeri/05_istruzione_ricerca_cultura.md §D.5", "ministeri/07_giustizia_interno_difesa.md §D.2", "ministeri/07_giustizia_interno_difesa.md §D.7", "ministeri/07_giustizia_interno_difesa.md §D.8"]
+  - aree: ["05", "09"]
+    tipo: entrambe
+    tema: "Competenze digitali e IA a scuola"
+    spiegazione: "Competenze digitali, laureate e laureati STEM e dati aperti per la ricerca sono obiettivi comuni. Allerta precoce e IA a scuola sono sistemi ad alto rischio e richiedono regole e controlli."
+    proposte: [05-C1, 05-C6, 09-C1, 09-C5]
+    fonti: ["ministeri/05_istruzione_ricerca_cultura.md §D.8", "ministeri/09_pa_digitale.md §D"]
+  - aree: ["06", "07"]
+    tipo: entrambe
+    tema: "Spesa per la difesa e servizi sanitari"
+    spiegazione: "Più spesa per la difesa rischia di ridurre quella sanitaria. Personale sanitario estero richiede canali regolari; salute mentale in carcere unisce; il fine vita coinvolge diritto penale e Corte costituzionale."
+    proposte: [06-C2, 07-C2, 07-C5]
+    fonti: ["ministeri/06_salute.md §D.7", "ministeri/06_salute.md §D.10", "ministeri/07_giustizia_interno_difesa.md §D.2", "ministeri/07_giustizia_interno_difesa.md §D.7"]
+  - aree: ["06", "09"]
+    tipo: sinergia
+    tema: "Fascicolo sanitario e dati interoperabili"
+    spiegazione: "Fascicolo elettronico, piattaforma delle liste d'attesa e telemedicina dipendono da sistemi regionali che dialogano. Le ASL rientrano nel perimetro di cloud e cybersicurezza pubblici."
+    proposte: [06-C1, 09-C2, 09-C4]
+    fonti: ["ministeri/06_salute.md §D.9", "ministeri/09_pa_digitale.md §D"]
+  - aree: ["07", "08"]
+    tipo: entrambe
+    tema: "Migrazioni, cooperazione allo sviluppo e difesa europea"
+    spiegazione: "Legare gli aiuti allo sviluppo al controllo dei flussi crea tensione con la cooperazione. Programmi comuni di difesa UE danno economie di scala ma toccano le scelte nazionali; le riforme istituzionali devono rispettare i limiti costituzionali."
+    proposte: [07-C3, 07-C5, 08-P1, 08-P3, 08-P4, 08-P5]
+    fonti: ["ministeri/07_giustizia_interno_difesa.md §D.5", "ministeri/08_esteri_europa_istituzioni.md §D"]
+  - aree: ["07", "09"]
+    tipo: entrambe
+    tema: "Cybersicurezza per i servizi digitali pubblici"
+    spiegazione: "Lo scudo cyber è la base per digitalizzare i servizi. Più dati condivisi pongono questioni di protezione dei dati personali, e la trasparenza va bilanciata con la sicurezza nazionale."
+    proposte: [07-C6, 09-C1, 09-C2, 09-C3, 09-C4]
+    fonti: ["ministeri/07_giustizia_interno_difesa.md §D.9", "ministeri/09_pa_digitale.md §D"]
+  - aree: ["08", "09"]
+    tipo: sinergia
+    tema: "Regole e infrastrutture per l'IA pubblica"
+    spiegazione: "La consulenza algoritmica pubblica richiede AgID, ACN e calcolo sovrano. Le regole dell'AI Act sui sistemi ad alto rischio riguardano anche le pubbliche amministrazioni."
+    proposte: [08-P1, 09-C1, 09-C5]
+    fonti: ["ministeri/08_esteri_europa_istituzioni.md §D"]
