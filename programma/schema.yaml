@@ -192,10 +192,10 @@ missioni:
     icona: landmark
     perche: "Uno Stato rapido, giusto e trasparente fa risparmiare tempo alle persone e alle imprese e rafforza la fiducia. L'AI aiuta, ma decidono le persone."
     valori: [FID, SIC, CIT]
-    come: "Tribunali più veloci, pene alternative per i reati minori, personale tecnico per i piccoli Comuni, AI nella PA con supervisione umana, appalti e dati aperti, leggi valutate prima del voto."
+    come: "Tribunali più veloci, pene alternative per i reati minori, personale tecnico per i piccoli Comuni, AI nella PA con supervisione umana, una squadra che toglie lavoro ripetitivo dagli uffici e sposta chi lo desidera verso servizi alle persone, appalti e dati aperti, leggi valutate prima del voto."
     sostenibilita: "Costi bassi, pagati con tagli di spesa e di personale amministrativo nei ministeri. Difesa al 3,5% del PIL e scudo cyber per i Comuni restano fuori; diverse misure sulla PA sono ridotte."
-    proposte: [07-C1, 07-C2, 07-C3, 07-C4, 07-C5, 07-C6, 08-P1, 08-P2, 08-P3, 08-P4, 08-P5, 08-P7, 09-C1, 09-C2, 09-C3, 09-C4, 09-C5, 09-C6, 09-C7, 09-C8]
-    indicatori: [07-C1-a, 07-C2-a, 09-C2-a, 09-C5-a]
+    proposte: [07-C1, 07-C2, 07-C3, 07-C4, 07-C5, 07-C6, 08-P1, 08-P2, 08-P3, 08-P4, 08-P5, 08-P7, 09-C1, 09-C2, 09-C3, 09-C4, 09-C5, 09-C6, 09-C7, 09-C8, 09-C9]
+    indicatori: [07-C1-a, 07-C2-a, 09-C2-a, 09-C5-a, 09-C9-a]
     chi:
       - gruppo: "Persone e imprese con una causa civile"
         quanti: "da stimare"
@@ -215,8 +215,13 @@ missioni:
       - gruppo: "Personale pubblico"
         quanti: "oltre 3,7 milioni di persone"
         fonte: "INPS, Osservatorio sui lavoratori pubblici, 11/11/2025 (scheda 09-C8)"
-        cosa_cambia: "Valutazione vera, formazione su AI e dati, automazione dei lavori ripetitivi in sperimentazione, con ricollocazione garantita."
-        proposte: [09-C6, 09-C7, 09-C5]
+        cosa_cambia: "Valutazione vera, formazione su AI e dati, una squadra che aiuta gli uffici a togliere il lavoro ripetitivo; chi lo desidera passa, con formazione pagata e nello stesso comune, a lavori utili alla comunità. Nessun licenziamento per l'automazione."
+        proposte: [09-C6, 09-C7, 09-C5, 09-C9]
+      - gruppo: "Persone che usano servizi sociali, CUP e sportelli pubblici nei territori con carenze di personale"
+        quanti: "da stimare (mancano ancora 1.126 assistenti sociali per il livello essenziale di 1 ogni 5.000 abitanti)"
+        fonte: "UPB, Flash 1/2025 (assistenti sociali); scheda 09-C9"
+        cosa_cambia: "Persone spostate su base volontaria da compiti ripetitivi a servizi sociali, sanità amministrativa, controlli e uffici giudiziari, con ore liberate misurate e pubblicate ente per ente."
+        proposte: [09-C9]
       - gruppo: "Comunità e associazioni che ricevono beni confiscati"
         quanti: "19.414 immobili confiscati ancora in gestione dello Stato"
         fonte: "ANBSC al 31/12/2025, dati/serie/07_anbsc_beni_confiscati.csv (scheda 07-C4)"
@@ -249,3 +254,4 @@ indicatori_semplici:
   07-C2-a: {nome: "Affollamento delle carceri"}
   09-C2-a: {nome: "Persone che usano i servizi pubblici online"}
   09-C5-a: {nome: "Persone con competenze digitali almeno di base"}
+  09-C9-a: {nome: "Ore di lavoro liberate dall'AI e certificate", unita: "milioni di ore l'anno", obiettivo_5a: 2.5}

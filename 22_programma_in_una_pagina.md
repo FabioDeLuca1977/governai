@@ -6,7 +6,7 @@
 |---|---|---|---|
 | Un Paese dove chi nasce, studia, lavora e invecchia trova servizi che funzionano, e dove le scelte di oggi non pesano sui conti delle generazioni future. | Ogni misura pagata senza deficit: tagli di spesa nei ministeri, meno sussidi dannosi e agevolazioni inefficaci, accise su tabacco e alcol. Le misure incerte partono come sperimentazioni. | Con indicatori pubblici, aggiornati ogni anno, con base e obiettivo a 5 anni: nidi, abbandono scolastico, persone laureate, ricerca, produttività, cure, acqua, giustizia. | Famiglie con bambine e bambini piccoli, studentesse e studenti delle scuole più fragili, giovani, imprese che innovano, chi vive in territori a rischio, chi paga le tasse e chi usa giustizia e servizi pubblici. |
 
-**I conti:** 9,16 mld l'anno di spesa nuova, 63 misure su 75, coperture per 7,37 mld al minimo più i fondi vincolati. Nuovo deficit: zero.
+**I conti:** 9,18 mld l'anno di spesa nuova, 63 misure su 76, coperture per 7,37 mld al minimo più i fondi vincolati. Nuovo deficit: zero.
 
 ## Ce l'avremo fatta se…
 
@@ -171,14 +171,14 @@
 
 - 01-P7 Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla (essenziale, 0,15 mld)
 - 01-P3 IVA in tempo reale (essenziale, 0,08 mld)
-- 01-P12 Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate (essenziale, 0,04 mld)
-- 04-P4 Nessuna grande opera senza prova dei numeri (piena, 0,03 mld)
+- 01-P12 Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate (piena, 0,06 mld)
 - 01-P2 Spese fiscali a scadenza (sunset 5 anni) (piena, 0,01 mld)
 - 01-P1 Bilancio generazionale: ogni legge dichiara chi paga e quando (solo regole, costo zero)
 - 01-P8 Meno scontrini: riordino delle detrazioni del 19% (solo regole, costo zero)
 - 01-P9 Una sola detrazione per il lavoro, senza scalini (solo regole, costo zero)
 - 01-P11 Lo scontrino che conviene: un incentivo mirato al posto di lotterie e cashback (solo regole, costo zero)
 - 02-C3 Patto previdenziale tra generazioni (solo regole, costo zero)
+- 04-P4 Nessuna grande opera senza prova dei numeri (solo regole, costo zero)
 - *Fuori da questa versione:* 01-P10 Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti
 
 **Sostenibilità.** Costa poco ed è pagata spostando spesa esistente. L'evasione recuperata non paga nuova spesa: riduce il deficit. Detrazioni e scontrini: solo riordino a costo zero. I controlli mirati restano fuori.
@@ -199,11 +199,11 @@
 
 ## Uno Stato che funziona, istituzioni aperte
 
-*18 misure su 20 · 1,35 mld l'anno*
+*18 misure su 21 · 1,37 mld l'anno*
 
 **Perché.** Uno Stato rapido, giusto e trasparente fa risparmiare tempo alle persone e alle imprese e rafforza la fiducia. L'AI aiuta, ma decidono le persone. *Valori: Fiducia e trasparenza, Sicurezza senza controllo assoluto, Cittadinanza responsabile.*
 
-**Come.** Tribunali più veloci, pene alternative per i reati minori, personale tecnico per i piccoli Comuni, AI nella PA con supervisione umana, appalti e dati aperti, leggi valutate prima del voto.
+**Come.** Tribunali più veloci, pene alternative per i reati minori, personale tecnico per i piccoli Comuni, AI nella PA con supervisione umana, una squadra che toglie lavoro ripetitivo dagli uffici e sposta chi lo desidera verso servizi alle persone, appalti e dati aperti, leggi valutate prima del voto.
 
 - 07-C1 Giustizia a regime: Ufficio per il processo e triage digitale (essenziale, 0,32 mld)
 - 07-C2 Pena utile: misure di comunità contro il sovraffollamento (essenziale, 0,25 mld)
@@ -212,10 +212,9 @@
 - 09-C5 AI nella PA con le mani sul volante (essenziale, 0,08 mld)
 - 09-C8 Staffetta delle competenze": il ricambio generazionale come occasione di riqualificazione (essenziale, 0,08 mld)
 - 07-C4 Dal bene confiscato al bene comune (essenziale, 0,07 mld)
+- 09-C9 Squadra per la produttività pubblica con l'AI: meno lavoro ripetitivo, più servizi alle persone (essenziale, 0,04 mld)
 - 09-C7 Automazione dei processi ripetitivi con riallocazione garantita (pilota, 0,02 mld)
 - 08-P1 Legge sulla consulenza algoritmica pubblica (essenziale, 0,01 mld)
-- 09-C1 Stato a vetro: infrastruttura aperta per l'analisi delle politiche (pilota, 0,01 mld)
-- 09-C6 Lavoro pubblico misurato e giusto": organizzazione, valutazione vera e responsabilità (essenziale, 0,01 mld)
 - 08-P2 Patto per la buona legge (piena, 0,01 mld)
 - 08-P7 Appalti a vetro: cruscotto pubblico dei rischi e dati aperti completi (piena, 0,01 mld)
 - 08-P3 Regole del gioco stabili (legge elettorale, voto fuorisede) (solo regole, costo zero)
@@ -223,7 +222,8 @@
 - 08-P5 Cooperazione che si misura: traiettoria APS (solo regole, costo zero)
 - 09-C2 Chiedilo una volta sola: once-only con rimborso automatico (solo regole, costo zero)
 - 09-C4 Cloud pubblico sostenibile e Patto per la manutenzione digitale (solo regole, costo zero)
-- *Fuori da questa versione:* 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea; 07-C6 Scudo cyber territoriale
+- 09-C6 Lavoro pubblico misurato e giusto": organizzazione, valutazione vera e responsabilità (solo regole, costo zero)
+- *Fuori da questa versione:* 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea; 07-C6 Scudo cyber territoriale; 09-C1 Stato a vetro: infrastruttura aperta per l'analisi delle politiche
 
 **Sostenibilità.** Costi bassi, pagati con tagli di spesa e di personale amministrativo nei ministeri. Difesa al 3,5% del PIL e scudo cyber per i Comuni restano fuori; diverse misure sulla PA sono ridotte.
 
@@ -233,13 +233,15 @@
 - **Affollamento delle carceri**: da 128,8% a **105%** in 5 anni (07-C2; base: DAP)
 - **Persone che usano i servizi pubblici online**: da 43,5% a **60%** in 5 anni (09-C2; base: Eurostat isoc_ciegi_ac)
 - **Persone con competenze digitali almeno di base**: da 54,27% a **72%** in 5 anni (09-C5; base: Eurostat (competenze digitali di base))
+- **Ore di lavoro liberate dall'AI e certificate**: da 0 milioni di ore l'anno a **2,5 milioni di ore l'anno** in 5 anni (09-C9; base: scheda (nessuna misura nazionale delle ore liberate))
 
 **Chi ne beneficia.**
 
 - **Persone e imprese con una causa civile** (da stimare): 4.500 addetti stabili nei tribunali più lenti: obiettivo da 1.789 a 1.400 giorni per una causa civile.
 - **Persone detenute e chi lavora nelle carceri** (66.063 persone detenute per 51.295 posti): Pene alternative per chi ha meno di 2 anni da scontare, 1.000 funzionarie e funzionari in più, braccialetti elettronici.
 - **Piccoli Comuni** (5.522 Comuni sotto i 5.000 abitanti (aiuto mirato a Mezzogiorno e aree interne)): 3.000 tra tecniche e tecnici condivisi per gare, progetti e informatica, e affiancamento di chi va in pensione.
-- **Personale pubblico** (oltre 3,7 milioni di persone): Valutazione vera, formazione su AI e dati, automazione dei lavori ripetitivi in sperimentazione, con ricollocazione garantita.
+- **Personale pubblico** (oltre 3,7 milioni di persone): Valutazione vera, formazione su AI e dati, una squadra che aiuta gli uffici a togliere il lavoro ripetitivo; chi lo desidera passa, con formazione pagata e nello stesso comune, a lavori utili alla comunità. Nessun licenziamento per l'automazione.
+- **Persone che usano servizi sociali, CUP e sportelli pubblici nei territori con carenze di personale** (da stimare (mancano ancora 1.126 assistenti sociali per il livello essenziale di 1 ogni 5.000 abitanti)): Persone spostate su base volontaria da compiti ripetitivi a servizi sociali, sanità amministrativa, controlli e uffici giudiziari, con ore liberate misurate e pubblicate ente per ente.
 - **Comunità e associazioni che ricevono beni confiscati** (19.414 immobili confiscati ancora in gestione dello Stato): Più beni restituiti all'uso sociale, con prestiti per ristrutturarli e dati aperti.
 
 ## Chi contribuisce

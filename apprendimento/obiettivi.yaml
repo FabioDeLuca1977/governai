@@ -3884,3 +3884,82 @@ obiettivi:
     base: 4,4% (2025, UNRAE)
     obiettivo_3a: 15%
     obiettivo_5a: 30%
+- id: 09-C9-a
+  proposta: 09-C9
+  nome: Ore di lavoro liberate dall'AI e certificate da AgID e RGS
+  unita: milioni di ore/anno
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: scheda (nessuna misura nazionale delle ore liberate)
+  obiettivo_3a: 1.5
+  obiettivo_5a: 5.0
+  obiettivi_per_variante:
+    3a: ≥ 1,5 milioni l'anno (PIENA); ≥ 0,75 (ESSENZIALE)
+    5a: ≥ 5 milioni l'anno (PIENA); ≥ 2,5 (ESSENZIALE)
+  misurazione: manuale
+  valori:
+  - INN
+  - FID
+  scheda:
+    base: 0 (2026, nessuna misura)
+    obiettivo_3a: ≥ 1,5 milioni l'anno (PIENA)
+    obiettivo_5a: ≥ 5 milioni l'anno (PIENA); metà nella ESSENZIALE
+- id: 09-C9-b
+  proposta: 09-C9
+  nome: Persone passate su base volontaria ad attività del catalogo di valore sociale
+  unita: persone (cumulate)
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: scheda (catalogo inesistente)
+  obiettivo_3a: 700.0
+  obiettivo_5a: 2000.0
+  misurazione: manuale
+  valori:
+  - BEN
+  - EQU
+  scheda:
+    base: 0 (2026)
+    obiettivo_3a: ≥ 700 cumulate
+    obiettivo_5a: ≥ 2.000 cumulate, di cui almeno metà nei territori con carenze
+- id: 09-C9-c
+  proposta: 09-C9
+  nome: Posti certificati come non più necessari e non sostituiti al pensionamento
+  unita: posti (cumulati)
+  direzione: su
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: scheda (nessuna certificazione)
+  obiettivo_3a: 300.0
+  obiettivo_5a: 1000.0
+  misurazione: manuale
+  valori:
+  - FUT
+  - FID
+  scheda:
+    base: 0 (2026)
+    obiettivo_3a: ≥ 300 cumulati
+    obiettivo_5a: ≥ 1.000 cumulati, mai oltre il 30% delle ore liberate
+- id: 09-C9-d
+  proposta: 09-C9
+  nome: Licenziamenti, disponibilità o trasferimenti senza consenso legati alle missioni
+  unita: persone
+  direzione: giu
+  base:
+    valore: 0.0
+    periodo: '2026'
+    fonte: scheda
+  obiettivo_3a: 0.0
+  obiettivo_5a: 0.0
+  misurazione: manuale
+  valori:
+  - RIS
+  - CIT
+  scheda:
+    base: '0'
+    obiettivo_3a: '0'
+    obiettivo_5a: '0'

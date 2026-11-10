@@ -82,7 +82,8 @@ def blocchi() -> dict[str, str]:
             f"{nucleo_coperto(selezione('intermedio')[0])} su {len(nucleo)}. Nessun aumento di tasse su casa, eredità, affitti "
             "e IVA, nessun contributo sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale "
             "nei ministeri. Per scelta politica entrano almeno in versione essenziale le sette misure su ricerca, "
-            "innovazione e logistica verde, al posto delle Case della Comunità (06-C3). Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni "
+            "innovazione e logistica verde, al posto delle Case della Comunità (06-C3), e la squadra per la produttività "
+            "pubblica con l'AI (09-C9) in versione essenziale. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni "
             "fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni "
             "(`programma/selezione_intermedio.md`)."]
           if (QUI / "selezione_intermedio.csv").exists() else []),

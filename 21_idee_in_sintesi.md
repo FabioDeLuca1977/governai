@@ -8,14 +8,14 @@ Uno Stato che funziona e conti onesti, per investire su famiglie, giovani e terr
 
 ## I numeri
 
-- **75 proposte** in 9 aree, valutate su **10 valori** dichiarati in una Carta.
+- **76 proposte** in 9 aree, valutate su **10 valori** dichiarati in una Carta.
 - **22 proposte formano il nucleo robusto**: restano tra le prioritarie con quasi ogni combinazione di pesi tra i valori, cioè con sensibilità politiche diverse.
 - Tre versioni del programma, **tutte senza deficit**:
 
 <!-- auto:totali -->
-- **Programma base: 8,24 mld l'anno**, 62 misure su 75, con 21 su 22 del nucleo robusto almeno in versione essenziale. Usa solo coperture a basso costo sociale.
-- **Programma completo: 13,51 mld l'anno**, 66 misure, nucleo robusto 22 su 22. Aggiunge coperture strutturali più impegnative.
-- **Programma intermedio: 9,16 mld l'anno**, 63 misure, nucleo robusto 20 su 22. Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Per scelta politica entrano almeno in versione essenziale le sette misure su ricerca, innovazione e logistica verde, al posto delle Case della Comunità (06-C3). Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
+- **Programma base: 8,24 mld l'anno**, 62 misure su 76, con 21 su 22 del nucleo robusto almeno in versione essenziale. Usa solo coperture a basso costo sociale.
+- **Programma completo: 13,52 mld l'anno**, 68 misure, nucleo robusto 22 su 22. Aggiunge coperture strutturali più impegnative.
+- **Programma intermedio: 9,18 mld l'anno**, 63 misure, nucleo robusto 20 su 22. Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Per scelta politica entrano almeno in versione essenziale le sette misure su ricerca, innovazione e logistica verde, al posto delle Case della Comunità (06-C3), e la squadra per la produttività pubblica con l'AI (09-C9) in versione essenziale. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
 - **Programma adottato dal governo ombra** (simulazione, `governo/`): 11,63 mld l'anno, 55 misure, coperture al minimo per 11,12 mld più i fondi vincolati.
 <!-- /auto:totali -->
 
@@ -63,6 +63,7 @@ Il panel le giudica tutte positive, ma le mette in coda: con la Carta attuale va
 - «Chiedilo una volta sola»: la PA non chiede di nuovo dati che ha già, e se sbaglia rimborsa (09-C2).
 - Squadre tecniche per i piccoli Comuni (09-C3), ricambio generazionale con trasmissione delle competenze (09-C8, *nucleo*).
 - AI nella PA con supervisione umana (09-C5, *nucleo*), valutazione vera del lavoro pubblico (09-C6).
+- Una squadra per la produttività pubblica con l'AI (09-C9): toglie lavoro ripetitivo dagli uffici, misura le ore liberate in un registro pubblico e sposta chi lo desidera, nello stesso comune e con formazione pagata, verso servizi sociali, sanità, controlli e uffici giudiziari. I posti non più necessari si riducono solo con i pensionamenti; nessun licenziamento. Entra nel programma intermedio per scelta politica.
 - Giustizia più veloce con l'Ufficio per il processo (07-C1, *nucleo*).
 - Appalti trasparenti con un cruscotto pubblico dei rischi (08-P7), beni confiscati restituiti alla comunità (07-C4, *nucleo*).
 
@@ -112,7 +113,7 @@ Sono scelte politiche: il sistema le presenta con il loro prezzo, non le prende.
 1. **A che cosa servono le coperture strutturali**: nuova spesa, meno tasse sul lavoro, un pavimento per la sanità o meno debito.
 2. **Quanto spendere per la Difesa**, sapendo che cosa costa in termini di altre misure.
 3. **Dividendo climatico**: restituire alla cittadinanza il gettito dei sussidi ambientali tagliati, o usarlo per i servizi.
-4. **Quanto investire su ricerca e innovazione**: con la Carta attuale il panel le mette in coda. Il programma intermedio le impone per scelta politica. Resta da decidere se cambiare la Carta, dando più peso alla crescita, o tenere la scelta come eccezione dichiarata.
+4. **Quanto investire su ricerca e innovazione**: con la Carta attuale il panel le mette in coda. Il programma intermedio le impone per scelta politica. Resta da decidere se cambiare la Carta, dando più peso alla crescita, o tenere la scelta come eccezione dichiarata. Lo stesso vale per la squadra per la produttività pubblica con l'AI (09-C9), imposta in versione essenziale.
 5. **Quali valori**: la Carta è un punto di partenza. Altre aree propongono di aggiungere famiglia, libertà economica, lavoro e solidarietà, crescita, sicurezza esterna.
 
 ## Per saperne di più

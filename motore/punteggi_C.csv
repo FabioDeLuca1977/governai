@@ -749,3 +749,13 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 01-P15,EQU,0,0,-1,B,no,"Venture capital e spin-off concentrati in pochi atenei del Nord; l'asimmetria dei rendimenti favorisce gli investitori privati"
 01-P15,SIC,0,0,0,A,no,"Nessun effetto rilevante sulla sicurezza"
 01-P15,CIT,0,0,0,M,no,"Nessun effetto rilevante su partecipazione o reciprocità"
+09-C9,RIS,0,1,1,M,no,"Mobilità sempre volontaria, nessuna valutazione delle singole persone e copia cartacea garantita a chi non usa il digitale"
+09-C9,FID,1,1,2,M,no,Registro pubblico delle efficienze con ore certificate e destinazioni del personale; in parte sovrapposto alla certificazione di 09-C7
+09-C9,INN,1,1,2,M,no,Strumenti open source riusabili portati dentro gli enti; rischio di reclutamento tecnico difficile come nel caso britannico
+09-C9,BEN,0,1,1,B,no,"Più persone nei servizi sociali, CUP e uffici giudiziari, ma numeri ricollocati piccoli rispetto alle carenze"
+09-C9,APC,0,1,1,M,no,Formazione retribuita per chi cambia attività e formazione diffusa del personale sui nuovi strumenti
+09-C9,BPA,0,0,0,M,no,Effetto trascurabile; il catalogo cita la tutela del patrimonio ma con numeri minimi
+09-C9,FUT,0,1,1,M,no,"Costo permanente coperto da tagli di spesa, coesione una tantum, risparmi contati solo ex post"
+09-C9,EQU,0,1,1,M,no,"Priorità ai territori con carenze e dati per genere; perdono imprese postali e di stampa, donne esposte con attenuazioni"
+09-C9,SIC,0,0,0,M,no,Divieto di monitoraggio individuale; nessun effetto netto rilevante sulla sicurezza
+09-C9,CIT,0,1,1,M,no,"Mappa delle attività costruita con chi lavora, confronto sindacale e convenzione con l'ente; reciprocità limitata"

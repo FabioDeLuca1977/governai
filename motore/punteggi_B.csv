@@ -749,3 +749,13 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 01-P13,EQU,0,1,1,M,no,Sposta il sostegno dalle grandi imprese a quelle sotto 50 addetti e alle giovani imprese
 01-P13,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza
 01-P13,CIT,0,0,0,M,no,Nessun effetto rilevante su partecipazione o responsabilità civica
+09-C9,RIS,0,1,1,M,no,"Mobilità volontaria, nessun licenziamento e misure solo aggregate tutelano chi lavora; perdono le imprese di posta, stampa e archiviazione"
+09-C9,FID,1,1,2,M,no,Registro pubblico per ente con ore certificate AgID/RGS; in parte duplica la trasparenza già prevista da 09-C7
+09-C9,INN,0,1,2,M,no,Strumenti riusabili e open source tra enti; reclutamento tecnico difficile e risparmi esteri finora stimati più che misurati
+09-C9,BEN,0,1,1,B,no,"Più personale verso servizi sociali, CUP e arretrati; benefici incerti e dipendenti da adesione volontaria e titoli richiesti"
+09-C9,APC,1,1,1,M,no,Formazione retribuita per migliaia di persone l'anno sui nuovi strumenti e riqualificazione verso attività del catalogo
+09-C9,BPA,0,0,0,M,no,"Tutela del patrimonio presente nel catalogo, ma effetto marginale su patrimonio, paesaggio e accoglienza"
+09-C9,FUT,0,0,1,B,no,Copertura permanente su R12-2 nuova e da censire; risparmi solo ex post e in parte sovrapposti a 09-C7
+09-C9,EQU,0,1,1,B,no,Priorità ai territori con carenze e dati per genere; nella ESSENZIALE comuni e aziende sanitarie restano esclusi
+09-C9,SIC,0,0,0,B,no,"Più sistemi di IA negli uffici aumentano la superficie di rischio, bilanciata da albo, divieto di monitoraggio e infrastruttura comune"
+09-C9,CIT,0,1,1,B,no,Confronto sindacale prima di ogni missione e registro aperto consultabile da cittadine e cittadini; partecipazione diretta limitata

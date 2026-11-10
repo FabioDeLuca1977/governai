@@ -749,3 +749,13 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 04-P9,EQU,0,-1,0,B,no,"Costi su microimprese e artigiani con furgoni vecchi; contributi e deroghe fino al 2033 compensano solo in parte"
 04-P9,SIC,0,0,0,M,no,"Controlli d'accesso analoghi alle ZTL esistenti; nessuna nuova sorveglianza rilevante"
 04-P9,CIT,0,0,0,B,no,"Piani della logistica nei PUMS; effetto modesto sulla partecipazione"
+09-C9,RIS,0,0,1,M,no,"Mobilità volontaria e niente licenziamenti; perdono però addetti di posta, stampa e archivi colpiti dal taglio R12-2"
+09-C9,FID,1,1,1,M,no,Registro aperto delle ore liberate e delle persone ricollocate; in gran parte duplica la certificazione già prevista da 09-C7
+09-C9,INN,1,1,2,M,no,Capacità operativa dentro gli enti e strumenti riusabili; sovrapposizione col centro di competenza di 09-C7 e rischio reclutamento tecnico
+09-C9,BEN,0,1,1,B,no,Più personale nei servizi alle persone se il catalogo funziona; effetto indiretto e incerto
+09-C9,APC,0,1,1,M,no,"Formazione retribuita per chi cambia attività e per il personale sugli strumenti, numeri contenuti"
+09-C9,BPA,0,0,0,M,no,Patrimonio presente nel catalogo ma con effetto marginale
+09-C9,FUT,0,0,1,B,no,Costo permanente coperto da tagli e risparmi solo ex post; rischio di struttura duplicata con 09-C7
+09-C9,EQU,0,1,1,M,no,Priorità ai territori con carenze e dati per genere; la ESSENZIALE esclude comuni e aziende sanitarie
+09-C9,SIC,0,0,0,M,no,Dati solo aggregati e divieto di monitoraggio delle persone; nessun effetto rilevante sulla sicurezza
+09-C9,CIT,0,0,1,B,no,Confronto sindacale e scelta volontaria delle persone; effetto civico limitato

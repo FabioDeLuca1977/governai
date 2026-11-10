@@ -17,7 +17,7 @@ L'interfaccia web pubblicata in `docs/` contiene:
 |---|---|
 | `00_metodo.md` | Metodo comune degli agenti ministeriali |
 | `01_carta_valori.md` | Carta dei 10 valori: Rispetto e diversità, Fiducia e trasparenza, Innovazione, Benessere, Apprendimento e cultura, Bellezza patrimonio e accoglienza, Responsabilità verso il futuro, Equità, Sicurezza senza controllo assoluto, Cittadinanza responsabile |
-| `ministeri/` | 9 dossier ministeriali e 75 proposte |
+| `ministeri/` | 9 dossier ministeriali e 76 proposte |
 | `dati/` | Base dati ufficiale: script di download (Eurostat, ISTAT, MEF, …), serie, verifiche di 334 cifre su fonte primaria, storico |
 | `registro/` | Registro unico delle coperture e vincolo di bilancio |
 | `motore/` | Panel di 3 valutatori indipendenti e analisi di robustezza ai valori (SMAA) |
