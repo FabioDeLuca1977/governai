@@ -1,8 +1,8 @@
 # Novità dall'Unione europea — ultimi 30 giorni
 
-*Aggiornato al 10/11/2026. Atti pubblicati nella Gazzetta ufficiale dell'UE, serie L, dal 11/10/2026; fonte: CELLAR (Ufficio delle pubblicazioni dell'UE). Generato da `europa/scarica_ue.py`: non modificare a mano.*
+*Aggiornato al 11/11/2026. Atti pubblicati nella Gazzetta ufficiale dell'UE, serie L, dal 12/10/2026; fonte: CELLAR (Ufficio delle pubblicazioni dell'UE). Generato da `europa/scarica_ue.py`: non modificare a mano.*
 
-In 30 giorni l'UE ha pubblicato **292 atti** nella serie L: 195 con impatto *informativo*, 89 con impatto *obbligo*, 8 con impatto *opportunità*.
+In 30 giorni l'UE ha pubblicato **312 atti** nella serie L: 213 con impatto *informativo*, 91 con impatto *obbligo*, 8 con impatto *opportunità*.
 
 Come leggere questa pagina:
 - **obbligo**: una direttiva da recepire con una legge o un decreto, oppure un regolamento o una decisione che si applica direttamente;
@@ -27,7 +27,7 @@ Elenco completo con stato e priorità in `europa/scadenze.csv`.
 
 ## 01 — Economia e imprese
 
-111 atti: 8 di rilevanza alta, 30 media, 73 bassa.
+115 atti: 8 di rilevanza alta, 30 media, 77 bassa.
 
 - **Regolamento 2026/2387** (21/10/2026, GU L del 03/11/2026) — Che istituisce il Programma per un’innovazione agile e rapida nel settore della difesa (AGILE) e che modifica i regolamenti (UE) 2024/795 e (UE) 2026/467 (Testo rilevante ai fini del SEE) · impatto: *opportunità*; proposte collegate: 01-P4, 07-C5 · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2387)
 - **Regolamento 2026/2382** (21/10/2026, GU L del 03/11/2026) — Che modifica i regolamenti (CE) n. 1907/2006, (CE) n. 1272/2008, (UE) n. 528/2012, (UE) 2019/1021 e (UE) 2021/697 per quanto riguarda la prontezza alla difesa e l’agevolazione degli investimenti nella difesa e delle condizioni per … · impatto: *opportunità*; proposte collegate: 07-C5 · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2382)
@@ -66,7 +66,7 @@ Rilevanza media:
 
 ## 03 — Ambiente, energia e agricoltura
 
-110 atti: 7 di rilevanza alta, 39 media, 64 bassa.
+119 atti: 7 di rilevanza alta, 41 media, 71 bassa.
 
 - **Decisione 2026/2494** (21/10/2026, GU L del 05/11/2026) — Relativa alla mobilitazione del Fondo di solidarietà dell’Unione europea per fornire assistenza a Malta e all’Italia in relazione alla tempesta Harry del gennaio 2026 e al Portogallo e alla Spagna a seguito delle tempeste di gennaio e … · impatto: *opportunità*; proposte collegate: 03-P4; **riguarda l'Italia** · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026D2494)
 - **Regolamento 2026/2473** (21/10/2026, GU L del 04/11/2026) — Che modifica il regolamento (UE) 2023/2124, relativo a talune disposizioni per la pesca nella zona di applicazione dell’accordo relativo alla Commissione generale per la pesca nel Mediterraneo (CGPM) · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2473)
@@ -77,6 +77,8 @@ Rilevanza media:
 - **Direttiva di esecuzione 2026/2250** (12/10/2026, GU L del 13/10/2026) — Che modifica la direttiva di esecuzione 2014/21/UE per quanto riguarda la produzione di tuberi-seme di patate pre-base ottenuti da seme botanico di patata di varietà di patate propagate mediante seme e l’allegato III della direttiva … · impatto: *obbligo*; recepimento entro il **31/12/2027** · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L2250)
 
 Rilevanza media:
+- **Regolamento di esecuzione 2026/2523** (09/11/2026, GU L del 10/11/2026) — Che modifica gli allegati IV, V e XIV del regolamento di esecuzione (UE) 2021/404 per quanto riguarda le voci relative al Sud Africa, al Canada, al Regno Unito e agli Stati Uniti negli elenchi di paesi terzi, territori o loro zone da cui è … · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2523)
+- **Regolamento delegato 2026/1830** (16/07/2026, GU L del 10/11/2026) — Che integra il regolamento (UE) 2016/2031 del Parlamento europeo e del Consiglio per quanto riguarda la procedura da seguire per la concessione di deroghe temporanee al divieto di cui all’articolo 40, paragrafo 1, e alle prescrizioni di … · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R1830)
 - **Regolamento di esecuzione 2026/2467** (05/11/2026, GU L del 06/11/2026) — Relativo alla compensazione finanziaria per i consumatori finali di combustibili e alle quote restituite per le emissioni non contemplate dal capo IV bis della direttiva 2003/87/CE del Parlamento europeo e del Consiglio · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2467)
 - **Decisione di esecuzione 2026/2468** (05/11/2026, GU L del 06/11/2026) — Che stabilisce le modalità di applicazione della direttiva (UE) 2024/2881 del Parlamento europeo e del Consiglio per quanto riguarda i dettagli tecnici della metodologia per determinare i contributi derivanti dalla risospensione del … · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026D2468)
 - **Regolamento delegato 2026/2400** (20/07/2026, GU L del 30/10/2026) — Che modifica il regolamento (UE) 2019/1241 del Parlamento europeo e del Consiglio eliminando le misure relative al Midsjöbank settentrionale · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2400)
@@ -87,13 +89,11 @@ Rilevanza media:
 - **Regolamento di esecuzione 2026/2466** (28/10/2026, GU L del 29/10/2026) — Che modifica gli allegati V e XIV del regolamento di esecuzione (UE) 2021/404 per quanto riguarda le voci relative al Canada, al Regno Unito e agli Stati Uniti negli elenchi di paesi terzi, territori o loro zone da cui è autorizzato … · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2466)
 - **Regolamento 2026/2412** (28/10/2026, GU L del 29/10/2026) — Che modifica l’allegato I del regolamento (UE) n. 10/2011 riguardante i materiali e gli oggetti di materia plastica destinati a venire a contatto con i prodotti alimentari · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2412)
 - **Regolamento delegato 2026/2398** (23/07/2026, GU L del 29/10/2026) — Che integra il regolamento (UE) 2016/1139 del Parlamento europeo e del Consiglio per quanto riguarda un’esenzione dall’attuazione dell’obbligo di sbarco per il salmone nel Mar Baltico per il periodo 2027-2029 · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2398)
-- **Regolamento di esecuzione 2026/2389** (28/10/2026, GU L del 29/10/2026) — Che modifica i regolamenti di esecuzione (UE) 2016/1239, (UE) 2020/761, (UE) 2020/1988 e (UE) 2025/1272 per consentire alle autorità emittenti dei paesi terzi di utilizzare ELAN su base volontaria durante il periodo transitorio · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2389)
-- **Regolamento 2026/2376** (28/10/2026, GU L del 29/10/2026) — Che modifica il regolamento (UE) 2022/1616 per quanto riguarda la gestione del registro dell’Unione, la documentazione di conformità, i metodi di prova e i documenti da presentare all’atto dell’immissione in libera pratica · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2376)
-- … e altri 27 atti di rilevanza media (vedi l'archivio).
+- … e altri 29 atti di rilevanza media (vedi l'archivio).
 
 ## 04 — Infrastrutture e territori
 
-50 atti: 8 di rilevanza alta, 11 media, 31 bassa.
+52 atti: 8 di rilevanza alta, 11 media, 33 bassa.
 
 - **Decisione 2026/2494** (21/10/2026, GU L del 05/11/2026) — Relativa alla mobilitazione del Fondo di solidarietà dell’Unione europea per fornire assistenza a Malta e all’Italia in relazione alla tempesta Harry del gennaio 2026 e al Portogallo e alla Spagna a seguito delle tempeste di gennaio e … · impatto: *opportunità*; proposte collegate: 03-P4; **riguarda l'Italia** · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026D2494)
 - **Regolamento 2026/2473** (21/10/2026, GU L del 04/11/2026) — Che modifica il regolamento (UE) 2023/2124, relativo a talune disposizioni per la pesca nella zona di applicazione dell’accordo relativo alla Commissione generale per la pesca nel Mediterraneo (CGPM) · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2473)
@@ -131,12 +131,14 @@ Rilevanza media:
 
 ## 06 — Salute
 
-47 atti: 2 di rilevanza alta, 13 media, 32 bassa.
+54 atti: 2 di rilevanza alta, 15 media, 37 bassa.
 
 - **Direttiva 2026/2450** (21/10/2026, GU L del 30/10/2026) — Che modifica la direttiva 2004/37/CE sulla protezione dei lavoratori contro i rischi derivanti da un'esposizione ad agenti cancerogeni, mutageni o a sostanze tossiche per la riproduzione durante il lavoro (Testo rilevante ai fini del SEE) · impatto: *obbligo*; recepimento entro il **20/11/2028**; proposte collegate: 06-C6 · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L2450)
 - **Direttiva di esecuzione 2026/2250** (12/10/2026, GU L del 13/10/2026) — Che modifica la direttiva di esecuzione 2014/21/UE per quanto riguarda la produzione di tuberi-seme di patate pre-base ottenuti da seme botanico di patata di varietà di patate propagate mediante seme e l’allegato III della direttiva … · impatto: *obbligo*; recepimento entro il **31/12/2027** · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026L2250)
 
 Rilevanza media:
+- **Regolamento di esecuzione 2026/2523** (09/11/2026, GU L del 10/11/2026) — Che modifica gli allegati IV, V e XIV del regolamento di esecuzione (UE) 2021/404 per quanto riguarda le voci relative al Sud Africa, al Canada, al Regno Unito e agli Stati Uniti negli elenchi di paesi terzi, territori o loro zone da cui è … · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2523)
+- **Regolamento delegato 2026/1830** (16/07/2026, GU L del 10/11/2026) — Che integra il regolamento (UE) 2016/2031 del Parlamento europeo e del Consiglio per quanto riguarda la procedura da seguire per la concessione di deroghe temporanee al divieto di cui all’articolo 40, paragrafo 1, e alle prescrizioni di … · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R1830)
 - **Regolamento delegato 2026/1829** (24/07/2026, GU L del 30/10/2026) — Che modifica gli allegati II e III del regolamento (CE) n. 853/2004 del Parlamento europeo e del Consiglio per quanto riguarda le norme specifiche in materia di igiene per i molluschi bivalvi vivi · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R1829)
 - **Regolamento di esecuzione 2026/2466** (28/10/2026, GU L del 29/10/2026) — Che modifica gli allegati V e XIV del regolamento di esecuzione (UE) 2021/404 per quanto riguarda le voci relative al Canada, al Regno Unito e agli Stati Uniti negli elenchi di paesi terzi, territori o loro zone da cui è autorizzato … · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2466)
 - **Regolamento 2026/2412** (28/10/2026, GU L del 29/10/2026) — Che modifica l’allegato I del regolamento (UE) n. 10/2011 riguardante i materiali e gli oggetti di materia plastica destinati a venire a contatto con i prodotti alimentari · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2412)
@@ -147,13 +149,11 @@ Rilevanza media:
 - **Regolamento 2026/2309** (16/10/2026, GU L del 19/10/2026) — Recante modifica dell’allegato del regolamento (UE) n. 231/2012 che stabilisce le specifiche degli additivi alimentari elencati negli allegati II e III del regolamento (CE) n. 1333/2008 del Parlamento europeo e del Consiglio, per quanto … · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2309)
 - **Regolamento 2026/2298** (16/10/2026, GU L del 19/10/2026) — Che modifica l’allegato II del regolamento (CE) n. 1333/2008 del Parlamento europeo e del Consiglio e l’allegato del regolamento (UE) n. 231/2012 della Commissione per quanto riguarda l’uso del curdlano · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2298)
 - **Regolamento 2026/2299** (15/10/2026, GU L del 16/10/2026) — Che modifica gli allegati II e III del regolamento (CE) n. 396/2005 del Parlamento europeo e del Consiglio per quanto riguarda i livelli massimi di residui di difenoconazolo in o su determinati prodotti · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2299)
-- **Regolamento 2026/2289** (15/10/2026, GU L del 16/10/2026) — Che modifica l’allegato II del regolamento (CE) n. 396/2005 del Parlamento europeo e del Consiglio per quanto riguarda i livelli massimi di residui di acequinocil, deltametrina, dodina, idrazide maleica, pinoxaden e protioconazolo in o su … · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2289)
-- **Regolamento di esecuzione 2026/2228** (14/10/2026, GU L del 15/10/2026) — Che modifica il regolamento di esecuzione (UE) 2021/405 per quanto riguarda gli elenchi dei paesi terzi o loro regioni da cui è autorizzato l’ingresso nell’Unione di partite di determinati animali e merci destinati al consumo umano in … · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2228)
-- … e altri 1 atti di rilevanza media (vedi l'archivio).
+- … e altri 3 atti di rilevanza media (vedi l'archivio).
 
 ## 07 — Giustizia, interno e difesa
 
-58 atti: 26 di rilevanza alta, 6 media, 26 bassa.
+60 atti: 26 di rilevanza alta, 6 media, 28 bassa.
 
 - **Decisione 2026/2484** (29/10/2026, GU L del 04/11/2026) — Che autorizza l’avvio di negoziati per accordi tra l’Unione europea e la Bolivia, il Canada, il Cile, la Costa Rica, l’Ecuador, gli Emirati arabi uniti, il Panama e il Perù sulla cooperazione tra l’Agenzia dell’Unione europea per la … · impatto: *obbligo*; proposte collegate: 07-C2 · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026D2484)
 - **Regolamento 2026/2387** (21/10/2026, GU L del 03/11/2026) — Che istituisce il Programma per un’innovazione agile e rapida nel settore della difesa (AGILE) e che modifica i regolamenti (UE) 2024/795 e (UE) 2026/467 (Testo rilevante ai fini del SEE) · impatto: *opportunità*; proposte collegate: 01-P4, 07-C5 · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2387)
@@ -192,7 +192,7 @@ Rilevanza media:
 
 ## 08 — Esteri, Europa e istituzioni
 
-130 atti: 29 di rilevanza alta, 15 media, 86 bassa.
+139 atti: 29 di rilevanza alta, 15 media, 95 bassa.
 
 - **Decisione 2026/2494** (21/10/2026, GU L del 05/11/2026) — Relativa alla mobilitazione del Fondo di solidarietà dell’Unione europea per fornire assistenza a Malta e all’Italia in relazione alla tempesta Harry del gennaio 2026 e al Portogallo e alla Spagna a seguito delle tempeste di gennaio e … · impatto: *opportunità*; proposte collegate: 03-P4; **riguarda l'Italia** · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026D2494)
 - **Regolamento 2026/2473** (21/10/2026, GU L del 04/11/2026) — Che modifica il regolamento (UE) 2023/2124, relativo a talune disposizioni per la pesca nella zona di applicazione dell’accordo relativo alla Commissione generale per la pesca nel Mediterraneo (CGPM) · impatto: *obbligo* · [EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026R2473)
@@ -274,6 +274,7 @@ Sono proposte in discussione: non obbligano ancora, ma anticipano obblighi futur
 - **Proposta di regolamento** COM(2026) 1030 (27/10/2026) — [solo in inglese] Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the European Border and Coast Guard (recast) · aree 07 · proposte collegate: 07-C3,07-C5 · [procedura](https://eur-lex.europa.eu/legal-content/IT/HIS/?uri=CELEX:52026PC1030)
 - **Proposta di regolamento** COM(2026) 730 (27/10/2026) — [solo in inglese] Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL establishing a framework to enhance climate resilience and amending Regulation (EU) 2018/1999 (European Climate Resilience Law) · aree 03 · proposte collegate: 03-P4 · [procedura](https://eur-lex.europa.eu/legal-content/IT/HIS/?uri=CELEX:52026PC0730)
 - **Proposta di regolamento** COM(2026) 608 (05/11/2026) — [solo in inglese] Proposal for a COUNCIL REGULATION fixing for 2027, and in some cases also for 2028 and 2029, the fishing opportunities for certain fish stocks, applicable in Union waters and, for Union fishing … · aree 03,04,08 · [procedura](https://eur-lex.europa.eu/legal-content/IT/HIS/?uri=CELEX:52026PC0608)
+- **Proposta di regolamento** COM(2026) 612 (10/11/2026) — Proposta di REGOLAMENTO DEL CONSIGLIO che modifica il regolamento (UE) 2021/2278 recante sospensione dei dazi della tariffa doganale comune di cui all'articolo 56, paragrafo 2, lettera c), del regolamento (UE) n. … · aree 01,03,08 · proposte collegate: 08-P6 · [procedura](https://eur-lex.europa.eu/legal-content/IT/HIS/?uri=CELEX:52026PC0612)
 - **Proposta di decisione** COM(2026) 545 (13/10/2026) — Proposta di DECISIONE DEL CONSIGLIO relativa alla conclusione dell'accordo di partenariato per una pesca sostenibile e del relativo protocollo di attuazione (2026-2030) tra l'Unione europea e la Repubblica di Maurizio · aree 03,04,08 · [procedura](https://eur-lex.europa.eu/legal-content/IT/HIS/?uri=CELEX:52026PC0545)
 - **Proposta di decisione** COM(2026) 544 (13/10/2026) — Proposta di DECISIONE DEL CONSIGLIO relativa alla firma e all'applicazione provvisoria dell'accordo di partenariato per una pesca sostenibile e del relativo protocollo di attuazione (2026-2030) tra l'Unione europea e la … · aree 03,04,08 · [procedura](https://eur-lex.europa.eu/legal-content/IT/HIS/?uri=CELEX:52026PC0544)
 - **Proposta di decisione** COM(2026) 549 (15/10/2026) — Proposta di DECISIONE DEL CONSIGLIO relativa alla firma dell'accordo tra l'Unione europea e la Repubblica del Perù su alcuni aspetti dei servizi aerei · aree 04,08 · [procedura](https://eur-lex.europa.eu/legal-content/IT/HIS/?uri=CELEX:52026PC0549)
@@ -284,7 +285,7 @@ Sono proposte in discussione: non obbligano ancora, ma anticipano obblighi futur
 - **Proposta di decisione** COM(2026) 586 (28/10/2026) — Proposta di DECISIONE DEL CONSIGLIO relativa alla posizione che deve essere adottata a nome dell'Unione europea in sede di Comitato misto SEE in merito a una modifica dell'allegato IV (Energia) e dell'allegato XXI … · aree 01,02,03,08 · proposte collegate: 01-P5 · [procedura](https://eur-lex.europa.eu/legal-content/IT/HIS/?uri=CELEX:52026PC0586)
 - **Proposta di decisione** COM(2026) 597 (05/11/2026) — Proposta di DECISIONE DEL CONSIGLIO relativa alla firma, a nome dell'Unione, della convenzione del Consiglio d'Europa per la protezione della professione di avvocato, per quanto riguarda le questioni non attinenti alla … · aree 01,07,08 · proposte collegate: 07-C2 · [procedura](https://eur-lex.europa.eu/legal-content/IT/HIS/?uri=CELEX:52026PC0597)
 - **Proposta di decisione** COM(2026) 594 (05/11/2026) — Proposta di DECISIONE DEL CONSIGLIO relativa alla firma, a nome dell'Unione, della convenzione del Consiglio d'Europa per la protezione della professione di avvocato, per quanto riguarda le questioni attinenti alla … · aree 07,08 · proposte collegate: 07-C2 · [procedura](https://eur-lex.europa.eu/legal-content/IT/HIS/?uri=CELEX:52026PC0594)
-- … e 6 proposte di rilevanza bassa (decisioni su posizioni in organismi internazionali, ecc.), in `europa/archivio/proposte_ue.csv`.
+- … e 7 proposte di rilevanza bassa (decisioni su posizioni in organismi internazionali, ecc.), in `europa/archivio/proposte_ue.csv`.
 
 ## Procedure d'infrazione
 

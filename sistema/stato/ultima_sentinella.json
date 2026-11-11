@@ -1,44 +1,26 @@
 {
- "data": "2026-11-10T14:38:53",
+ "data": "2026-11-11T09:07:53",
  "prima_esecuzione": false,
  "eurostat_aggiornati": [
-  "sts_inpr_m"
+  "namq_10_gdp"
  ],
  "file_aggiornati": [],
  "documenti_nuovi": [
   {
-   "pagina": "ISTAT - Home e comunicati",
-   "aree": [
-    "02",
-    "05",
-    "06"
-   ],
-   "documento": "https://www.istat.it/comunicato-stampa/catene-globali-del-valore-delle-medie-e-grandi-imprese-anni-2021-2023/"
-  },
-  {
-   "pagina": "ISTAT - Home e comunicati",
-   "aree": [
-    "02",
-    "05",
-    "06"
-   ],
-   "documento": "https://www.istat.it/comunicato-stampa/struttura-e-competitivita-delle-imprese-multinazionali-anno-2024/"
-  },
-  {
-   "pagina": "Corte dei conti",
+   "pagina": "Gazzetta Ufficiale",
    "aree": [
     "00",
-    "04"
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
    ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=1a2748e2-5bad-4126-b846-bd26b3f79086"
-  },
-  {
-   "pagina": "Corte dei conti",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=3989782c-c4b5-411f-a244-c5a3c61e1db6"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-10&numeroGazzetta=87"
   },
   {
    "pagina": "Gazzetta Ufficiale",
@@ -54,7 +36,7 @@
     "08",
     "09"
    ],
-   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/09/26G00218/sg"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-10&numeroGazzetta=130"
   },
   {
    "pagina": "Gazzetta Ufficiale",
@@ -70,7 +52,7 @@
     "08",
     "09"
    ],
-   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/09/26G00222/sg"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-10&numeroGazzetta=262"
   }
  ],
  "errori": [],

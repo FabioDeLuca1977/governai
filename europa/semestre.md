@@ -1,6 +1,6 @@
 # Semestre europeo e regole di bilancio: l'Italia
 
-*Aggiornato al 10/11/2026. Fonti: CELLAR (atti e documenti UE), DG ECFIN della Commissione (cronologia della procedura per disavanzo eccessivo). Le frasi tra virgolette sono citazioni testuali degli atti. Generato da `europa/scarica_ue.py`: non modificare a mano.*
+*Aggiornato al 11/11/2026. Fonti: CELLAR (atti e documenti UE), DG ECFIN della Commissione (cronologia della procedura per disavanzo eccessivo). Le frasi tra virgolette sono citazioni testuali degli atti. Generato da `europa/scarica_ue.py`: non modificare a mano.*
 
 ## Novità degli ultimi 90 giorni
 

@@ -1,42 +1,21 @@
 {
- "data": "2026-11-10",
+ "data": "2026-11-11",
  "compiti": [
   {
    "tipo": "documento_nuovo",
    "aree": [
-    "02",
-    "05",
-    "06"
-   ],
-   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/catene-globali-del-valore-delle-medie-e-grandi-imprese-anni-2021-2023/",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "02",
-    "05",
-    "06"
-   ],
-   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/struttura-e-competitivita-delle-imprese-multinazionali-anno-2024/",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
     "00",
-    "04"
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
    ],
-   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=1a2748e2-5bad-4126-b846-bd26b3f79086",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=3989782c-c4b5-411f-a244-c5a3c61e1db6",
+   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-10&numeroGazzetta=87",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
@@ -53,7 +32,7 @@
     "08",
     "09"
    ],
-   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/09/26G00218/sg",
+   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-10&numeroGazzetta=130",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
@@ -70,7 +49,7 @@
     "08",
     "09"
    ],
-   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/09/26G00222/sg",
+   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-10&numeroGazzetta=262",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   }
  ]

@@ -1,0 +1,197 @@
+DECRETO 13 ottobre 2026
+Modifica del decreto 14 gennaio 2025, con il quale e' stato istituito il Tavolo settoriale nell'ambito sanitario al fine di assicurare l'attuazione della direttiva (UE) 2022/2025.
+(GU Serie Generale n. 262 del 2026-11-10; https://www.gazzettaufficiale.it/eli/id/2026/11/10/26A05853/sg)
+
+IL MINISTRO DELLA SALUTE
+
+Visti gli articoli 32, 97, 117, comma 2, lettere d) e h), comma 3,
+e 118, comma 3 della Costituzione;
+Vista la legge 23 dicembre 1978, n. 833 e successive modificazioni,
+recante «Istituzione del Servizio sanitario nazionale»;
+Visto il decreto legislativo 30 dicembre 1992, n. 502 e successive
+modificazioni, recante «Riordino della disciplina in materia
+sanitaria, a norma dell'art. 1 della legge 23 ottobre 1992, n. 421»;
+Visto il decreto legislativo 19 giugno 1999, n. 229, recante «Norme
+per la razionalizzazione del Servizio sanitario nazionale, a norma
+dell'art. 1 della legge 30 novembre 1998, n. 419»;
+Visto il decreto-legge 14 giugno 2021, n. 82, convertito, con
+modificazioni, dalla legge 4 agosto 2021, n. 109, recante
+«Disposizioni urgenti in materia di cybersicurezza, definizione
+dell'architettura nazionale di cybersicurezza e istituzione
+dell'Agenzia per la cybersicurezza nazionale»;
+Visto il decreto-legge 27 gennaio 2022, n. 4, recante «Misure
+urgenti in materia di sostegno alle imprese e agli operatori
+economici, di lavoro, salute e servizi territoriali, connesse
+all'emergenza da COVID-19, nonche' per il contenimento degli effetti
+degli aumenti dei prezzi nel settore elettrico», convertito, con
+modificazioni, dalla legge 28 marzo 2022, n. 25, che ha attribuito
+all'Agenzia nazionale per i servizi sanitari regionali il ruolo di
+Agenzia nazionale per la sanita' digitale;
+Vista la direttiva (UE) 2022/2555, relativa a misure per un livello
+comune elevato di cybersicurezza nell'Unione, recante modifica del
+regolamento (UE) n. 910/2014 e della direttiva (UE) 2018/1972 e che
+abroga la direttiva (UE) 2016/1148;
+Visto il decreto del Presidente della Repubblica 21 ottobre 2022,
+con il quale il prof. Orazio Schillaci e' stato nominato Ministro
+della salute;
+Visto il decreto del Presidente del Consiglio dei ministri 30
+ottobre 2023, n. 196, recante «Regolamento di organizzazione del
+Ministero della salute»;
+Visto il decreto del Ministero della salute 21 novembre 2024,
+recante «Individuazione degli uffici di livello dirigenziale non
+generale del Ministero della salute»;
+Vista la legge 21 febbraio 2024, n. 15, recante «Delega al Governo
+per il recepimento delle direttive europee e l'attuazione di altri
+atti dell'Unione europea - legge di delegazione europea 2022-2023»;
+Vista la legge 28 giugno 2024, n. 90, recante «Disposizioni in
+materia di rafforzamento della cybersicurezza nazionale e di reati
+informatici»;
+Visto il decreto legislativo 4 settembre 2024, n. 138, recante il
+recepimento della citata direttiva (UE) 2022/2555 che all'art. 11,
+comma 2, lettera i) designa il Ministero della salute come Autorita'
+di settore NIS per l'ambito sanitario;
+Visto l'art. 11, comma 4, lettera f), del decreto legislativo n.
+138/2024, che attribuisce alle Autorita' di settore NIS il compito di
+provvedere all'istituzione e al coordinamento dei tavoli settoriali,
+al fine di contribuire all'efficace e coerente attuazione settoriale,
+nonche' al monitoraggio dell'attuazione del medesimo decreto;
+Visto il decreto del Ministro della salute 14 gennaio 2025, con il
+quale e' stato istituito il Tavolo settoriale nell'ambito sanitario
+al fine di assicurare l'attuazione della direttiva (UE) 2022/2555 in
+termini coerenti ed efficaci contribuendo cosi' ad elevare il livello
+di sicurezza informatica del settore della salute e dei sottosettori
+ad esso afferenti;
+Considerato, alla luce del regolamento di organizzazione del
+Ministero della salute, di cui al decreto del Presidente del
+Consiglio dei ministri n. 196 del 2023, e nelle more dell'adozione
+della normativa attuativa di cui all'art. 11 del decreto legislativo
+n. 138/2024, di dover modificare il citato decreto ministeriale,
+istitutivo del Tavolo settoriale nell'ambito sanitario, nella parte
+in cui ne definisce la composizione;
+Ritenuto, altresi', opportuno provvedere a disciplinare le
+modalita' di convocazione e le attivita' del Tavolo settoriale;
+
+Decreta:
+
+Art. 1
+
+Modifiche al decreto del Ministro della salute 14 gennaio 2025
+
+1. L'art. 2 del decreto del Ministro della salute 14 gennaio 2025
+e' sostituito dal seguente:
+«Art. 2 (Composizione del Tavolo settoriale). - 1. Il Tavolo
+settoriale permanente per l'attuazione della direttiva NIS 2 nei
+settori e sottosettori afferenti all'ambito sanitario, individuati
+secondo quanto stabilito dall'art. 11 del decreto legislativo 4
+settembre 2024, n. 138, e' composto da:
+a) il direttore generale dell'Unita' di missione per
+l'attuazione degli interventi del PNRR del Ministero della salute,
+competente in materia di digitalizzazione e sicurezza informatica,
+che esercita le funzioni di coordinatore del Tavolo;
+b) il direttore generale dell'Agenzia nazionale per i servizi
+sanitari regionali nella qualita' di Agenzia nazionale per la sanita'
+digitale;
+c) il Capo del Dipartimento per la trasformazione digitale
+della Presidenza del Consiglio dei ministri;
+d) il direttore amministrativo dell'Agenzia italiana del
+farmaco;
+e) il direttore generale della Direzione generale della
+programmazione e dell'edilizia sanitaria del Ministero della salute,
+competente in materia di programmazione sanitaria;
+f) il direttore generale della Direzione generale della
+prevenzione del Ministero della salute, competente in materia di
+prevenzione sanitaria;
+g) il direttore generale della Direzione generale delle
+emergenze sanitarie del Ministero della salute, competente in materia
+di emergenze sanitarie;
+h) il direttore generale della Direzione generale dei
+dispositivi medici e del farmaco del Ministero della salute,
+competente in materia di dispositivi medici, medico-diagnostici in
+vitro e farmaci;
+i) il direttore dell'Ufficio 5 «Cybersicurezza e infrastrutture
+ICT» dell'Unita' di missione per l'attuazione degli interventi del
+PNRR del Ministero della salute, competente in materia di ICT e
+cybersicurezza;
+j) il direttore dell'Ufficio 2 «Ufficio di statistica»
+dell'Unita' di missione per l'attuazione degli interventi del PNRR
+del Ministero della salute, competente in materia di statistica;
+k) il direttore dell'Ufficio 2 «Pianificazione nazionale e
+settoriale» della Direzione generale della programmazione e
+dell'edilizia sanitaria del Ministero della salute, competente in
+materia di pianificazione nazionale e settoriale;
+l) il direttore dell'Ufficio 3 «Dispositivi medici e
+dispositivi medici impiantabili attivi» della Direzione generale dei
+dispositivi medici e del farmaco del Ministero della salute,
+competente in materia di dispositivi medici e dispositivi medici
+impiantabili attivi;
+m) il direttore dell'Ufficio 4 «Dispostivi medico diagnostici
+in vitro» della Direzione generale dei dispositivi medici e del
+farmaco del Ministero della salute, competente in materia di
+dispositivi medico-diagnostici in vitro;
+n) il direttore dell'Ufficio 1 «Affari generali» del
+Dipartimento della salute umana, della salute animale e
+dell'ecosistema (One Health) e dei rapporti internazionali del
+Ministero della salute, competente per lo svolgimento delle funzioni
+di National Contact Point, di cui al decreto legislativo 4 marzo
+2014, n. 38, e di referente in materia di assistenza sanitaria
+transfrontaliera per le direzioni generali della Commissione europea;
+o) un rappresentante dell'Agenzia nazionale per i servizi
+sanitari regionali;
+p) due rappresentanti dell'Agenzia per la cybersicurezza
+nazionale;
+q) due rappresentanti designati dalla Conferenza delle regioni
+e delle Province autonome di Trento e di Bolzano.
+2. I componenti del Tavolo possono essere rappresentati da propri
+delegati.
+3. Le funzioni di segreteria del Tavolo saranno assicurate da tre
+unita' di personale in servizio presso l'Ufficio 5 «Cybersicurezza e
+infrastrutture ICT» dell'Unita' di missione per l'attuazione degli
+interventi del PNRR del Ministero della salute, competente in materia
+di ICT e sicurezza informatica.».
+2. Dopo l'art. 2 del decreto del Ministro della salute 14 gennaio
+2025 e' inserito il seguente articolo:
+«Art. 2-bis (Disciplina delle modalita' di convocazione e delle
+attivita' del tavolo settoriale). - 1. Il Tavolo settoriale puo'
+essere convocato dal coordinatore per deliberare sulle seguenti
+materie:
+a) pareri, proposte o contributi dell'Autorita' di settore da
+presentare all'Autorita' nazionale competente NIS ed al Tavolo
+nazionale, nelle materie di cui all'art. 11, comma 2, lett. i del
+decreto legislativo 4 settembre 2024, n. 138, nonche' per l'efficace
+attuazione della direttiva (UE) 2022/2555 e del decreto legislativo
+di recepimento della predetta;
+b) attivita' di competenza dell'Autorita' di settore, ai sensi
+del decreto legislativo 4 settembre 2024 n. 138, richieste
+dell'Autorita' nazionale competente NIS.
+2. Il Tavolo settoriale si riunisce in sede plenaria con la
+convocazione di tutti i componenti individuati, ai sensi dell'art. 2.
+3. Quando le materie e le attivita', oggetto della convocazione e
+sulle quali il Tavolo settoriale sia chiamato a pronunciarsi, siano
+di competenza soltanto di alcuni enti ed uffici, tra quelli
+individuati nell'art. 2, il Tavolo settoriale potra' riunirsi e
+deliberare senza la convocazione di tutti i componenti, previsti per
+la riunione plenaria.
+4. Qualora ne sia ravvisata l'opportunita', sulla base della
+titolarita' di specifiche competenze in relazione alle materie sulle
+quali il Tavolo settoriale sia chiamato a pronunciarsi; potranno
+essere convocati, anche in qualita' di componenti del Tavolo di
+settore, ulteriori enti o uffici anche di altre Direzioni generali
+del Ministero della salute, o loro delegati, individuati ai sensi del
+regolamento di organizzazione del Ministero della salute, diversi da
+quelli elencati all'art. 2, nonche', in sede consultiva, esperti
+qualificati o rappresentanti delle associazioni di categoria.
+5. Il Tavolo settoriale, che si riunisce presso la sede del
+Ministero della salute e/o in modalita' telematica, e' validamente
+costituito con la presenza della maggioranza dei convocati e le
+delibere sono adottate a maggioranza dei presenti.».
+
+Art. 2
+
+Disposizioni finali
+
+1. Il presente decreto e' trasmesso ai competenti organi di
+controllo e pubblicato nella Gazzetta Ufficiale della Repubblica
+italiana.
+Roma, 13 ottobre 2026
+
+Il Ministro: Schillaci

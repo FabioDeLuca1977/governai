@@ -1,7 +1,7 @@
 {
  "eurostat": {
   "ei_bsco_m": "29.10.2026",
-  "namq_10_gdp": "05.11.2026",
+  "namq_10_gdp": "10.11.2026",
   "nama_10_gdp": "05.11.2026",
   "edat_lfse_16": "30.10.2026",
   "edat_lfse_22": "30.10.2026",
@@ -299,7 +299,6 @@
    "https://www.istat.it/dati/statistiche-smart-da-big-data/",
    "https://www.istat.it/documenti/bando-di-gara/",
    "https://www.istat.it/documenti/concorso-o-selezione/",
-   "https://www.istat.it/documenti/infografiche/",
    "https://www.istat.it/documenti/newsletter/",
    "https://www.istat.it/documenti/notizia/",
    "https://www.istat.it/documenti/sistema-informativo-6/",
@@ -476,12 +475,12 @@
    "http://www.gazzettaufficiale.it/eli/id/2026/11/09/26G00218/sg",
    "http://www.gazzettaufficiale.it/eli/id/2026/11/09/26G00222/sg",
    "https://www.gazzettaufficiale.it/30giorni/serie_generale",
-   "https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-06&numeroGazzetta=86",
+   "https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-10&numeroGazzetta=87",
    "https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-09&numeroGazzetta=128",
    "https://www.gazzettaufficiale.it/gazzetta/corte_costituzionale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-04&numeroGazzetta=44",
-   "https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-07&numeroGazzetta=129",
+   "https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-10&numeroGazzetta=130",
    "https://www.gazzettaufficiale.it/gazzetta/regioni/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-07&numeroGazzetta=43",
-   "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-09&numeroGazzetta=261",
+   "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-10&numeroGazzetta=262",
    "https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-09&numeroGazzetta=88"
   ],
   "https://eur-lex.europa.eu/oj/direct-access.html": []

@@ -1,20 +1,17 @@
-# Bollettino GovernAI — 2026-11-10
+# Bollettino GovernAI — 2026-11-11
 
-*Generato automaticamente da `sistema/pipeline.py` alle 14:40. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 09:32. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
 - Modalità di aggiornamento: **mirato**
-- Dataset Eurostat aggiornati: sts_inpr_m
+- Dataset Eurostat aggiornati: namq_10_gdp
 - File ufficiali aggiornati: 0
 - Serie cambiate e archiviate in `dati/storico/`: nessuna
-- Documenti nuovi sulle pagine osservate: 6
-  - ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/catene-globali-del-valore-delle-medie-e-grandi-imprese-anni-2021-2023/
-  - ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/struttura-e-competitivita-delle-imprese-multinazionali-anno-2024/
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=1a2748e2-5bad-4126-b846-bd26b3f79086
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=3989782c-c4b5-411f-a244-c5a3c61e1db6
-  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/09/26G00218/sg
-  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/09/26G00222/sg
+- Documenti nuovi sulle pagine osservate: 3
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-10&numeroGazzetta=87
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-10&numeroGazzetta=130
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-10&numeroGazzetta=262
 
 ## 2. Cruscotto
 
@@ -58,25 +55,18 @@ Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
 
 ## 5. Revisione AI richiesta
 
-**6 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
-- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/catene-globali-del-valore-delle-medie-e-grandi-imprese-anni-2021-2023/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/struttura-e-competitivita-delle-imprese-multinazionali-anno-2024/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=1a2748e2-5bad-4126-b846-bd26b3f79086 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=3989782c-c4b5-411f-a244-c5a3c61e1db6 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/09/26G00218/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/09/26G00222/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+**3 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-10&numeroGazzetta=87 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-10&numeroGazzetta=130 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-10&numeroGazzetta=262 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
 
 ## Registro tecnico
 
-- sentinella: sentinella: mirato; Eurostat aggiornati 1, file 0, documenti nuovi 6, serie cambiate 0, errori 0
+- sentinella: sentinella: mirato; Eurostat aggiornati 1, file 0, documenti nuovi 3, serie cambiate 0, errori 0
 - apprendimento: 193 KPI, stati {'manuale': 147, 'in osservazione': 46}, aree calibrate 0
-- legislazione: archivio GU: 598 atti, 598 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
-- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
-- costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
+- legislazione: archivio GU: 621 atti, 621 con testo; nuovi 23; testi scaricati 23; richieste 107; errori 0
+- europa: europa: 797 atti GU L in archivio, 312 negli ultimi 30 giorni; 144 direttive con termine (23 critiche, 11 alte); 84 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 24
+- costituzione: 1 atti con forza di legge esaminati; con segnali alti 0
 - consiglio: 95 previsioni, 0 verificate oggi, 0 verificate in totale
 - verifica sedute: 2 attive, 2 confermate, 0 da riesaminare
 - modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
-
-## 6. Nota del livello AI
-
-Livello AI non eseguito: credenziali dell'API di Claude assenti (impostare la variabile d'ambiente ANTHROPIC_API_KEY).
