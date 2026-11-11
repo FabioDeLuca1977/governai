@@ -35,6 +35,7 @@ L'interfaccia web pubblicata in `docs/` contiene:
 | `apprendimento/` | Obiettivi misurabili, registro delle decisioni, esiti e calibrazione: il modello impara da successi e insuccessi |
 | `integrita/` | Catena di impronte crittografiche (stile blockchain) che rende visibile ogni manomissione |
 | `giuridico/` | Verifica di conformità fiscale, costituzionale ed europea di ogni misura e copertura; le incompatibilità sono linee rosse automatiche |
+| `comunita/` | Comunità su invito: gli iscritti discutono le proposte con altre persone e con l'AI (qui nessuno decide); regole, moderazione registrata, informativa privacy, database |
 | `analisi/` | Analisi su richiesta, avviate da una issue GitHub con l'etichetta "analisi" |
 | `sistema/` | Sistema dinamico: sentinella delle fonti ufficiali, cruscotto, allerte, programma del momento, livello AI, bollettini; `sincronizza.py` allinea la copia locale a GitHub |
 | `docs/` | Interfaccia web statica, pronta per GitHub Pages |

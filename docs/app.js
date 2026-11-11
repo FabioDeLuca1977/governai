@@ -71,6 +71,9 @@
   const schede = (voci, attiva) => `<nav class="schede" aria-label="Sezioni">${voci.map(([k, t, href, conta]) => `<a href="${href}" ${k === attiva ? 'aria-current="page"' : ""}>${esc(t)}${conta != null ? ` <span class="conta">${conta}</span>` : ""}</a>`).join("")}</nav>`;
   const vuoto = (testo) => `<p class="vuoto">${esc(testo)}</p>`;
   const repo = D.repo || "https://github.com/FabioDeLuca1977/governai";
+  // Comunità su invito (comunita.js): il programma resta pubblico, la discussione è per gli iscritti
+  const C = window.Comunita;
+  if (C) C.init({ md, D, icone: () => icone() });
 
   // ---------- testi generati ----------
   function sezioni(testo) {
@@ -367,8 +370,8 @@
       </section>
 
       <section class="sezione partecipa-box" aria-labelledby="t-partecipa">
-        <div><h2 id="t-partecipa">Hai un'idea o una domanda?</h2><p>Chiunque può proporre. Serve un account GitHub gratuito; una persona del progetto legge ogni richiesta.</p></div>
-        <a class="btn primario" href="#/partecipa">${icona("message-square-plus")}Proponi un'idea</a>
+        <div><h2 id="t-partecipa">Vuoi ragionarci insieme?</h2><p>Il programma è aperto a tutti. Nella comunità, su invito, si discutono le proposte con altre persone e con l'AI: qui nessuno decide, si prendono appunti e si migliorano le idee.</p></div>
+        <div class="azioni"><a class="btn primario" href="#/comunita">${icona("messages-square")}Entra nella comunità</a><a class="btn" href="#/partecipa">Altri modi di partecipare</a></div>
       </section>`;
   }
 
@@ -530,6 +533,7 @@
               <p>Dati ${del_(D.generato)} · anello n. ${D.integrita.ultimi[0].n} della catena di integrità · impronta <span class="impronta">${esc(D.integrita.ultimi[0].hash)}</span></p></div></details>
           </section>
           ${collegati.length ? `<section class="blocco"><h2>Collegato a</h2><ul class="mandati">${collegati.join("")}</ul></section>` : ""}
+          ${C ? C.sezione("proposta:" + id) : ""}
           <div class="azioni" style="margin-top:24px">${azioniCondividi()}</div>
         </article>
         ${indiceLaterale(voci, azioniCondividi())}
@@ -1029,8 +1033,10 @@
     const nuovoFile = (cartella, nome, testo) => `${repo}/new/main/${cartella}?filename=${encodeURIComponent(OGGI + "-" + nome + ".md")}&value=${encodeURIComponent(testo)}`;
     if (sel) return `<nav class="briciole" aria-label="Briciole di pane"><a href="#/partecipa">Partecipa</a><span aria-hidden="true">›</span><span aria-current="page">Analisi</span></nav><div class="md documento card">${md(sel.testo)}</div>`;
     return `<h1>Partecipa</h1>
-      <p class="risposta">GovernAI è un progetto aperto a scopo sociale: chiunque può proporre un problema, fare una domanda o segnalare un errore. Serve un account GitHub gratuito; una persona del progetto legge ogni richiesta prima che venga analizzata.</p>
-      <div class="griglia g3-d sezione">
+      <p class="risposta">GovernAI è un progetto aperto a scopo sociale. Il modo principale per partecipare è la <a href="#/comunita">comunità su invito</a>: si discutono le proposte, si prendono appunti, si confrontano idee con le altre persone e con l'AI. Chi ha un account GitHub può anche proporre analisi e segnalare errori direttamente nel repository.</p>
+      <div class="card comunita-porta sezione"><p>${icona("messages-square")} <strong>Comunità:</strong> aperta a ogni cittadino curioso, su invito, con regole pubbliche e moderazione registrata.</p><div class="azioni"><a class="btn primario s" href="#/comunita">Vai alla comunità</a><a class="btn s" href="#/comunita/richiedi">Chiedi un invito</a></div></div>
+      <h2 class="sezione">Con un account GitHub</h2>
+      <div class="griglia g3-d">
         <div class="card"><h2 style="font-size:20px">${icona("lightbulb")} Proponi un'idea</h2><p>Descrivi un problema o una proposta. GovernAI risponde con una diagnosi e tre opzioni, valutate sui valori della Carta con costi e coperture.</p><a class="btn primario" href="${repo}/issues/new?template=analisi.yml" target="_blank" rel="noopener">Proponi un'idea<span class="vh"> (si apre in una nuova scheda)</span></a></div>
         <div class="card"><h2 style="font-size:20px">${icona("message-circle-question")} Fai una domanda al Consiglio</h2><p>Il governo ombra si riunisce sulla tua domanda, con esperti, ministri e opposizione leale.</p><a class="btn" href="${esc(linkConsiglio())}" target="_blank" rel="noopener">Fai una domanda<span class="vh"> (si apre in una nuova scheda)</span></a></div>
         <div class="card"><h2 style="font-size:20px">${icona("flag")} Segnala un errore</h2><p>Un numero che non torna, una fonte sbagliata, un testo poco chiaro: ogni pagina ha il suo link per segnalarlo.</p><a class="btn" href="${repo}/issues/new" target="_blank" rel="noopener">Segnala un errore<span class="vh"> (si apre in una nuova scheda)</span></a></div>
@@ -1114,10 +1120,12 @@
       else if (b === "glossario") { html = glossario(); titolo = "Glossario"; }
       else { html = metodo(); titolo = "Metodo"; }
     } else if (a === "partecipa") { html = partecipa(b); titolo = "Partecipa"; }
+    else if (a === "comunita" && C) { html = C.vista(b, c); titolo = { entra: "Entra", invito: "Iscrizione", richiedi: "Chiedi un invito", profilo: "Profilo", moderazione: "Moderazione", registro: "Registro della moderazione", regole: "Regole della comunità" }[b] || "Comunità"; }
     else if (a === "cerca") { html = cerca(params); titolo = "Cerca"; }
     else { html = nonTrovato("L'indirizzo non corrisponde a nessuna pagina."); titolo = "Pagina non trovata"; }
     const voce = !a ? "oggi" : a;
     main.innerHTML = html;
+    if (C) C.monta(main);
     document.title = `${titolo} · GovernAI`;
     $$("[data-voce]").forEach((x) => { if (x.dataset.voce === voce) x.setAttribute("aria-current", "page"); else x.removeAttribute("aria-current"); });
     // comportamenti delle viste interattive

@@ -294,6 +294,7 @@ def main() -> int:
         "obiettivi": obiettivi(),
         "schema": schema(),
         "mappa": mappa(),
+        "comunita": {"regole": leggi(RADICE / "comunita" / "regole.md"), "privacy": leggi(RADICE / "comunita" / "privacy.md")},
         "lezioni": leggi(RADICE / "apprendimento" / "lezioni.md"),
         "integrita": integrita(),
         "governo": governo(),
