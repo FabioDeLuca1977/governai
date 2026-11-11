@@ -118,10 +118,10 @@
    "INN",
    "BEN"
   ],
-  "periodo": "2026-08",
-  "valore": 92.8,
-  "delta": -1.2,
-  "delta12": 0.2,
+  "periodo": "2026-09",
+  "valore": 94.1,
+  "delta": 1.1,
+  "delta12": -0.1,
   "provvisorio": false,
   "stato": "ok"
  },
