@@ -33,7 +33,7 @@
   const ERRORI = [
     [/signups not allowed|user not found/i, "Questa email non risulta iscritta. Per entrare serve un invito."],
     [/token has expired|invalid.*(otp|token)/i, "Codice non valido o scaduto: chiedine uno nuovo."],
-    [/link is invalid|has expired|otp_expired/i, "Il link di accesso non è valido o è scaduto: chiedine uno nuovo."],
+    [/link is invalid|has expired|otp_expired/i, "Il codice o il link di accesso non è valido o è scaduto: chiedine uno nuovo."],
     [/rate limit|too many|security purposes/i, "Troppi tentativi in poco tempo: aspetta qualche minuto e riprova."],
     [/failed to fetch|network/i, "Connessione non riuscita: controlla la rete e riprova."],
     [/nome_pubblico_check/, "Nome pubblico non valido: da 3 a 40 caratteri, con lettere, numeri, spazi, punto, trattino o apostrofo."],
@@ -104,7 +104,7 @@
       <h2 class="sezione" id="privacy">Informativa sul trattamento dei dati</h2><div class="md documento card">${ctx.md((ctx.D.comunita || {}).privacy || "")}</div>`;
     if (!ATTIVA) return `<h1>Comunità</h1>${inPreparazione}`;
     if (b === "entra") return `${briciole("Entra")}<h1>Entra nella comunità</h1>
-      <p class="risposta">Scrivi l'email con cui ti sei iscritto: ti mandiamo un link di accesso. Nessuna password da ricordare.</p>
+      <p class="risposta">Scrivi l'email con cui ti sei iscritto: ti mandiamo un codice di accesso. Nessuna password da ricordare.</p>
       <div data-c="entra" class="comunita-modulo"></div>`;
     if (b === "invito") return `${briciole("Iscrizione")}<h1>Hai ricevuto un invito</h1>
       <p class="risposta">Con l'iscrizione puoi discutere le proposte, prendere appunti con gli altri e segnalare errori. Qui nessuno decide: si ragiona insieme, persone e AI.</p>
@@ -173,8 +173,8 @@
       <div class="esito" aria-live="polite"></div></form>`;
   }
   const moduloCodice = (email) => `<form class="card" data-cform="verifica" data-email="${esc(email)}">
-      <p>Ti abbiamo scritto a <strong>${esc(email)}</strong>. Apri l'email e clicca il link di accesso: tornerai qui già collegato. Se l'email contiene invece un codice di 6 cifre, scrivilo qui sotto. Vale un'ora; se non trovi l'email, guarda nella posta indesiderata.</p>
-      <label class="campo">Codice di 6 cifre<input name="codice" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" required></label>
+      <p>Ti abbiamo scritto a <strong>${esc(email)}</strong>. Scrivi qui sotto il codice che trovi nell'email, oppure clicca il link nell'email: tornerai qui già collegato. Valgono un'ora; se non trovi l'email, guarda nella posta indesiderata.</p>
+      <label class="campo">Codice ricevuto via email<input name="codice" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6,8}" maxlength="8" required></label>
       <div class="azioni"><button class="btn primario" type="submit">Entra</button><button class="btn terziario s" type="button" data-cazione="altra-email">Usa un'altra email</button></div>
       <div class="esito" aria-live="polite"></div></form>`;
   async function montaEntra(el) {
@@ -195,7 +195,7 @@
     const p = haSessione() ? await mioProfilo() : null;
     if (p) { el.innerHTML = `<div class="avviso info"><p>Sei già iscritto come <strong>${esc(p.nome_pubblico)}</strong>.</p></div><div class="azioni sezione"><a class="btn primario" href="#/comunita">Vai alla comunità</a></div>`; return; }
     const u = haSessione() ? await utente() : null;
-    el.innerHTML = u ? moduloIscrizione(codice, u.email) : `<ol class="comunita-passi"><li><strong>Conferma la tua email</strong>: ti mandiamo un link di accesso.</li><li>Scegli il <strong>nome pubblico</strong> con cui compari nelle discussioni.</li></ol>${moduloEmail(true)}`;
+    el.innerHTML = u ? moduloIscrizione(codice, u.email) : `<ol class="comunita-passi"><li><strong>Conferma la tua email</strong>: ti mandiamo un codice di accesso.</li><li>Scegli il <strong>nome pubblico</strong> con cui compari nelle discussioni.</li></ol>${moduloEmail(true)}`;
   }
   const moduloIscrizione = (codice, email) => `<form class="card" data-cform="iscrizione" data-codice="${esc(codice)}">
       <p class="nota">Email confermata: ${esc(email)} (non viene mostrata agli altri).</p>

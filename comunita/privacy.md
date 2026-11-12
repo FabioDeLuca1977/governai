@@ -25,8 +25,8 @@ Non trattiamo altri dati: niente profilazione, niente pubblicità, niente cessio
 
 ## Chi altro tocca i dati
 
-- **Supabase** (database e accesso), come responsabile del trattamento, con dati conservati nell'Unione europea, regione [es. Francoforte]. Supabase Inc. ha sede negli Stati Uniti: il trasferimento è coperto dal suo accordo sul trattamento dei dati con clausole contrattuali standard.
-- **[Servizio email]**, per inviare il codice di accesso, come responsabile del trattamento.
+- **Supabase** (database e accesso), come responsabile del trattamento, con dati conservati nell'Unione europea, regione Europa (Francoforte, Germania). Supabase Inc. ha sede negli Stati Uniti: il trasferimento è coperto dal suo accordo sul trattamento dei dati con clausole contrattuali standard.
+- **Brevo** (Sendinblue SAS, Francia), per inviare le email con il codice di accesso, come responsabile del trattamento, con dati trattati nell'Unione europea.
 - **GitHub Pages** (ospita il sito) e **jsDelivr** (distribuisce la libreria di accesso) vedono l'indirizzo IP di chi visita, come ogni servizio web. La libreria di accesso si scarica solo quando entri nella comunità.
 
 ## Cosa resta nel tuo browser
