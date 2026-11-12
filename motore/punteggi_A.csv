@@ -759,3 +759,13 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 09-C9,EQU,0,1,1,M,no,Priorità ai territori con carenze e dati per genere; la ESSENZIALE esclude comuni e aziende sanitarie
 09-C9,SIC,0,0,0,M,no,Dati solo aggregati e divieto di monitoraggio delle persone; nessun effetto rilevante sulla sicurezza
 09-C9,CIT,0,0,1,B,no,Confronto sindacale e scelta volontaria delle persone; effetto civico limitato
+06-C10,RIS,0,0,1,M,no,"Nessun licenziamento e trasferimenti solo con consenso; sportelli esclusi tutelano chi non usa il digitale, beneficio diretto limitato"
+06-C10,FID,0,1,1,M,no,"Registro pubblico delle ore liberate e risparmi contati solo dopo certificazione; base dati sul personale ancora da verificare"
+06-C10,INN,0,1,2,M,no,"Automazione di processi ripetitivi riusabile, ma sistemi regionali frammentati e 0,5 mln per azienda rendono l'attuazione incerta"
+06-C10,BEN,0,1,1,B,no,"Più accoglienza e tempo per i pazienti solo se le Case della Comunità diventano operative; effetto indiretto"
+06-C10,APC,0,1,1,M,no,"Formazione retribuita per chi si riqualifica, ma numeri contenuti: 3.000 persone in cinque anni"
+06-C10,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza turistica
+06-C10,FUT,0,1,1,B,no,"Spesa contenuta, investimento su fondi di coesione temporanei e risparmi solo ex post; parte permanente su tagli ministeriali generici"
+06-C10,EQU,0,0,1,B,no,"Personale verso Case della Comunità e aree carenti, ma Regioni con meno capacità digitale rischiano di restare indietro"
+06-C10,SIC,0,0,0,M,no,"Dati sanitari trattati con regole AI e valutazione d'impatto; nessun effetto rilevante su sicurezza o controllo"
+06-C10,CIT,0,0,1,B,no,"Scelta volontaria e contrattazione sindacale; coinvolgimento civico della cittadinanza limitato"

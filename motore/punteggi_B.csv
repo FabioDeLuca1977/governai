@@ -759,3 +759,13 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 09-C9,EQU,0,1,1,B,no,Priorità ai territori con carenze e dati per genere; nella ESSENZIALE comuni e aziende sanitarie restano esclusi
 09-C9,SIC,0,0,0,B,no,"Più sistemi di IA negli uffici aumentano la superficie di rischio, bilanciata da albo, divieto di monitoraggio e infrastruttura comune"
 09-C9,CIT,0,1,1,B,no,Confronto sindacale prima di ogni missione e registro aperto consultabile da cittadine e cittadini; partecipazione diretta limitata
+06-C10,RIS,0,0,0,M,no,"Nessun licenziamento né trasferimento senza consenso; restano rischi per anziani e persone fragili se prenotazioni e disdette diventano automatiche"
+06-C10,FID,0,1,1,M,no,"Registro pubblico delle ore liberate e valutazione con l'UPB; risparmi contati solo dopo certificazione, ma base sul personale ancora da verificare"
+06-C10,INN,0,1,1,M,no,"Automazione di uffici ripetitivi utile, ma sistemi regionali frammentati e 0,5 mln per azienda rendono probabile un'attuazione lenta e disomogenea"
+06-C10,BEN,0,1,1,B,no,"Più accoglienza nelle Case della Comunità e meno lavoro ripetitivo; effetto sui pazienti limitato finché mancano medici e infermieri"
+06-C10,APC,0,1,1,M,no,"Formazione retribuita e percorso OSS per circa 3.000 persone in cinque anni: effetto positivo ma limitato a pochi"
+06-C10,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza turistica
+06-C10,FUT,0,0,1,B,no,"Parte permanente a carico dei ministeri e investimenti su coesione una tantum; benefici strutturali solo se l'automazione regge nel tempo"
+06-C10,EQU,0,0,1,B,no,"Personale verso Case della Comunità dove c'è carenza; nessuna priorità territoriale esplicita nella PIENA e sportelli esclusi a tutela dei non digitali"
+06-C10,SIC,0,0,0,B,no,"Più sistemi su dati sanitari sensibili aumentano il rischio informatico, bilanciato dalle regole di 09-C5 e dalla valutazione d'impatto"
+06-C10,CIT,0,0,1,B,no,"Adesione volontaria e contrattazione collettiva sui percorsi; nessun coinvolgimento diretto di pazienti e cittadinanza"

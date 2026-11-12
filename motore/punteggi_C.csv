@@ -759,3 +759,13 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 09-C9,EQU,0,1,1,M,no,"Priorità ai territori con carenze e dati per genere; perdono imprese postali e di stampa, donne esposte con attenuazioni"
 09-C9,SIC,0,0,0,M,no,Divieto di monitoraggio individuale; nessun effetto netto rilevante sulla sicurezza
 09-C9,CIT,0,1,1,M,no,"Mappa delle attività costruita con chi lavora, confronto sindacale e convenzione con l'ente; reciprocità limitata"
+06-C10,RIS,0,0,1,M,no,"Nessun trasferimento senza consenso e corso OSS retribuito; beneficio per i pazienti indiretto e cambio di mansione non sempre gradito"
+06-C10,FID,0,1,1,M,no,"Registro pubblico delle ore liberate e valutazione con l'UPB; base dei 60.000 amministrativi ancora da verificare sul primario"
+06-C10,INN,0,1,2,M,no,"Automazione del back-office sanitario utile ma in 110 aziende con sistemi regionali frammentati: primi effetti lenti e rischio di piloti che non scalano"
+06-C10,BEN,0,1,1,M,no,"Più accoglienza nelle Case della Comunità e più tempo dei medici per i pazienti, ma numeri piccoli e rischio di uffici sguarniti"
+06-C10,APC,0,1,1,M,no,"Formazione pagata per circa 3.000 persone e percorso OSS; effetto limitato a chi aderisce"
+06-C10,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza turistica"
+06-C10,FUT,0,1,1,M,no,"Investimento una tantum su coesione, parte permanente coperta da tagli e risorse spostate verso l'assistenza per una popolazione che invecchia"
+06-C10,EQU,0,0,1,M,no,"Accoglienza dove mancano servizi, ma meno concorsi amministrativi per i giovani e nessuna priorità territoriale nella variante piena"
+06-C10,SIC,0,0,0,M,no,"Più dati sanitari trattati in automatico aumentano il rischio cyber, bilanciato da regole AI e valutazione d'impatto"
+06-C10,CIT,0,0,1,B,no,"Percorsi definiti con la contrattazione collettiva e adesione volontaria; scarso coinvolgimento di cittadinanza e pazienti"

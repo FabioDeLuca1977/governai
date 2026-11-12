@@ -132,6 +132,14 @@
 
 ---
 
+## RP08: ricambio selettivo nei profili amministrativi generici del Servizio sanitario
+
+*Aggiunta il 12 novembre 2026 con la proposta 06-C10.* RP01 esclude la sanità; RP08 applica la stessa regola agli enti del SSN, con una differenza: il risparmio nasce dentro il Fondo sanitario, quindi diventa copertura statale solo riducendo per legge il finanziamento del SSN d'intesa con le Regioni (come RA06), e la legge di bilancio lo destina a personale infermieristico e Case della Comunità.
+
+**Ipotesi (stima GovernAI).** Circa 60.000 amministrativi (9,7% del personale SSN nel 2022, Annuario statistico del SSN, da verificare sul primario; totale 2023: 701.170, Agenas 2025), di cui il 70% in profili generici (circa 42.000). Uscite del 5-7% l'anno, quota non sostituita del 15-25% per 4 anni, costo di 40.000-45.000 € con oneri. **Gettito: 0,05-0,13 mld a regime (2031).** Esclusi profili tecnici, informatici e sportelli di prenotazione; clausola di salvaguardia sui tempi dei servizi.
+
+**Cosa non so.** Ripartizione per profilo ed età del ruolo amministrativo SSN: serve il Conto annuale RGS per ente.
+
 ## Cosa ho escluso e perché
 
 - **Tagli a stipendi, fondi accessori, buoni pasto**: violano i CCNL e l'art. 36, oppure colpiscono tutti senza distinguere.

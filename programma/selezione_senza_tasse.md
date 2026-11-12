@@ -18,11 +18,11 @@ Priorità al nucleo robusto (Carta, regola 7): **attiva**.
 
 | Voce | mld €/anno a regime |
 |---|---|
-| Spesa delle misure scelte | 4,94 |
+| Spesa delle misure scelte | 4,95 |
 | di cui su risorse generali | 2,80 |
 | Gettito minimo delle coperture attivate (risorse generali) | 2,80 |
 | Gettito minimo delle coperture attivate (totale) | 2,80 |
-| Proposte nel programma | 59 su 76 |
+| Proposte nel programma | 60 su 77 |
 
 La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i valori la stessa scelta rientra nel programma ottimo. Sopra l'80% la scelta non dipende dalla sensibilità politica.
 
@@ -30,6 +30,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 
 | Proposta | Titolo | Variante | Intensità | Costo | Robustezza |
 |---|---|---|---|---|---|
+| 05-C2 | Conto personale di competenze | ESSENZIALE | 0,5 | 0,45 | 100% |
 | 04-P6 | Restare e' possibile: servizi essenziali aree interne | ESSENZIALE | 0,6 | 0,42 | 100% |
 | 07-C2 | Pena utile: misure di comunita' contro il sovraffollamento | ESSENZIALE | 0,6 | 0,25 | 100% |
 | 07-C3 | Governance dei flussi migratori fondata sui dati | ESSENZIALE | 0,6 | 0,25 | 100% |
@@ -45,6 +46,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 09-C8 | Staffetta delle competenze": il ricambio generazionale come occasione di riqualificazione | ESSENZIALE | 0,4 | 0,08 | 100% |
 | 07-C4 | Dal bene confiscato al bene comune | ESSENZIALE | 0,6 | 0,07 | 100% |
 | 05-C10 | Rete nazionale per la ricerca applicata sul modello Fraunhofer | PILOTA | 0,1 | 0,05 | 100% |
+| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 100% |
 | 05-C8 | Biblioteche di comunita' | PILOTA | 0,1 | 0,03 | 100% |
 | 06-C9 | Equipe di benessere scolastico in rete con la Casa della Comunita' | PILOTA | 0,1 | 0,03 | 100% |
 | 05-C9 | Zaino culturale a scuola e tariffa sociale della cultura | PILOTA | 0,1 | 0,02 | 100% |
@@ -57,38 +59,37 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 02-C6 | Bilancio generazionale e strategia demografica | ZERO | 0,3 | 0,00 | 100% |
 | 03-P1 | Dividendo climatico: riforma SAD restituita alla cittadinanza | ZERO | 0,2 | 0,00 | 100% |
 | 04-P5 | LEP prima: autonomia differenziata reversibile | ZERO | 0,5 | 0,00 | 100% |
+| 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | ZERO | 0,2 | 0,00 | 100% |
 | 05-C6 | AI a scuola | ZERO | 0,2 | 0,00 | 100% |
 | 06-C1 | Tempo garantito o rimborso | ZERO | 0,2 | 0,00 | 100% |
+| 06-C6 | Dividendo della prevenzione e budget unico del farmaco | ZERO | 0,7 | 0,00 | 100% |
 | 08-P5 | Cooperazione che si misura: traiettoria APS | ZERO | 0,1 | 0,00 | 100% |
 | 09-C4 | Cloud pubblico sostenibile e Patto per la manutenzione digitale | ZERO | 0,1 | 0,00 | 100% |
-| 01-P11 | Lo scontrino che conviene: un incentivo mirato al posto di lotterie e cashback | ZERO | 0,1 | 0,00 | 100% |
-| 05-C2 | Conto personale di competenze | ESSENZIALE | 0,5 | 0,45 | 100% |
-| 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | ESSENZIALE | 0,6 | 0,15 | 100% |
-| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 100% |
-| 01-P2 | Spese fiscali a scadenza (sunset 5 anni) | PIENA | 1,0 | 0,01 | 100% |
-| 03-P2 | Elettricita' rinnovabile a prezzo rinnovabile (CfD) | ZERO | 0,5 | 0,00 | 100% |
-| 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | ZERO | 0,2 | 0,00 | 100% |
-| 06-C6 | Dividendo della prevenzione e budget unico del farmaco | ZERO | 0,7 | 0,00 | 100% |
-| 08-P4 | Beni pubblici europei: capacita' fiscale UE | PIENA | 1,0 | 0,00 | 100% |
 | 01-P9 | Una sola detrazione per il lavoro, senza scalini | ZERO | 0,2 | 0,00 | 100% |
+| 01-P11 | Lo scontrino che conviene: un incentivo mirato al posto di lotterie e cashback | ZERO | 0,1 | 0,00 | 100% |
+| 09-C9 | Squadra per la produttività pubblica con l'AI: meno lavoro ripetitivo, più servizi alle persone | PILOTA | 0,1 | 0,01 | 100% |
+| 03-P2 | Elettricita' rinnovabile a prezzo rinnovabile (CfD) | ZERO | 0,5 | 0,00 | 100% |
+| 05-C3 | Carriere della ricerca | ZERO | 0,1 | 0,00 | 100% |
+| 08-P4 | Beni pubblici europei: capacita' fiscale UE | PIENA | 1,0 | 0,00 | 100% |
+| 01-P2 | Spese fiscali a scadenza (sunset 5 anni) | PIENA | 1,0 | 0,01 | 100% |
+| 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | ZERO | 0,2 | 0,00 | 100% |
+| 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | ESSENZIALE | 0,6 | 0,15 | 99% |
 | 09-C5 | AI nella PA con le mani sul volante | ESSENZIALE | 0,6 | 0,08 | 99% |
-| 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | ZERO | 0,2 | 0,00 | 99% |
-| 05-C3 | Carriere della ricerca | ZERO | 0,1 | 0,00 | 99% |
-| 09-C9 | Squadra per la produttività pubblica con l'AI: meno lavoro ripetitivo, più servizi alle persone | PILOTA | 0,1 | 0,01 | 99% |
 | 07-C1 | Giustizia a regime: Ufficio per il processo e triage digitale | ESSENZIALE | 0,7 | 0,32 | 98% |
-| 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | ZERO | 0,3 | 0,00 | 98% |
-| 01-P8 | Meno scontrini: riordino delle detrazioni del 19% | ZERO | 0,4 | 0,00 | 97% |
-| 01-P12 | Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate | PIENA | 1,0 | 0,06 | 94% |
-| 04-P9 | Consegne pulite in citta': zone a emissioni zero per le merci | ZERO | 0,5 | 0,00 | 92% |
-| 08-P2 | Patto per la buona legge | PIENA | 1,0 | 0,01 | 90% |
-| 04-P4 | Nessuna grande opera senza prova dei numeri | PIENA | 1,0 | 0,03 | 82% |
-| 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | ZERO | 0,3 | 0,00 | 79% |
-| 03-P3 | Ogni goccia conta: reti idriche e riuso | PIENA | 1,0 | 1,15 | 76% |
-| 09-C1 | Stato a vetro: infrastruttura aperta per l'analisi delle politiche | PILOTA | 0,2 | 0,01 | 74% |
-| 09-C7 | Automazione dei processi ripetitivi con riallocazione garantita | PILOTA | 0,1 | 0,02 | 68% |
-| 09-C6 | Lavoro pubblico misurato e giusto": organizzazione, valutazione vera e responsabilità | PIENA | 1,0 | 0,03 | 62% |
-| 08-P1 | Legge sulla consulenza algoritmica pubblica | PIENA | 1,0 | 0,04 | 59% |
-| 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | ESSENZIALE | 0,7 | 0,01 | 28% |
+| 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | ZERO | 0,3 | 0,00 | 97% |
+| 01-P8 | Meno scontrini: riordino delle detrazioni del 19% | ZERO | 0,4 | 0,00 | 96% |
+| 04-P9 | Consegne pulite in citta': zone a emissioni zero per le merci | ZERO | 0,5 | 0,00 | 94% |
+| 01-P12 | Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate | PIENA | 1,0 | 0,06 | 92% |
+| 08-P2 | Patto per la buona legge | PIENA | 1,0 | 0,01 | 91% |
+| 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | ZERO | 0,3 | 0,00 | 80% |
+| 06-C10 | Meno burocrazia, più cura: automazione degli uffici sanitari e riqualificazione del personale amministrativo | PILOTA | 0,1 | 0,01 | 79% |
+| 09-C7 | Automazione dei processi ripetitivi con riallocazione garantita | PILOTA | 0,1 | 0,02 | 78% |
+| 09-C1 | Stato a vetro: infrastruttura aperta per l'analisi delle politiche | PILOTA | 0,2 | 0,01 | 78% |
+| 04-P4 | Nessuna grande opera senza prova dei numeri | PIENA | 1,0 | 0,03 | 77% |
+| 03-P3 | Ogni goccia conta: reti idriche e riuso | PIENA | 1,0 | 1,15 | 72% |
+| 09-C6 | Lavoro pubblico misurato e giusto": organizzazione, valutazione vera e responsabilità | PIENA | 1,0 | 0,03 | 58% |
+| 08-P1 | Legge sulla consulenza algoritmica pubblica | PIENA | 1,0 | 0,04 | 56% |
+| 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | ESSENZIALE | 0,7 | 0,01 | 30% |
 
 ## Coperture attivate
 
@@ -117,9 +118,9 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 
 Restano fuori perché, con le risorse disponibili, altre misure danno più valore per euro, oppure perché il loro effetto netto sui valori è negativo. *Rientrano se si trovano coperture aggiuntive.*
 
-- 01-P10 Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti (scelta in 0% delle combinazioni di pesi)
-- 01-P13 Un solo credito per la ricerca: stabile, piu' forte per le piccole imprese, certificato prima di spendere (scelta in 11% delle combinazioni di pesi)
-- 01-P4 Crescere conviene: eliminare i gradini dimensionali (scelta in 35% delle combinazioni di pesi)
+- 01-P10 Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti (scelta in 1% delle combinazioni di pesi)
+- 01-P13 Un solo credito per la ricerca: stabile, piu' forte per le piccole imprese, certificato prima di spendere (scelta in 14% delle combinazioni di pesi)
+- 01-P4 Crescere conviene: eliminare i gradini dimensionali (scelta in 32% delle combinazioni di pesi)
 - 02-C2 Nido esigibile + congedo paterno (scelta in 0% delle combinazioni di pesi)
 - 02-C4 Reddito di inclusione universale (scelta in 0% delle combinazioni di pesi)
 - 03-P4 Prevenire costa meno: fondo prevenzione e assicurazione catastrofale (scelta in 0% delle combinazioni di pesi)
@@ -131,7 +132,7 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 - 05-C4 Piu' persone con laurea o diploma terziario: ITS, lauree professionalizzanti, residenze (scelta in 2% delle combinazioni di pesi)
 - 06-C2 Patto per il personale infermieristico e la medicina generale (scelta in 0% delle combinazioni di pesi)
 - 06-C5 Salute mentale al 5% (scelta in 0% delle combinazioni di pesi)
-- 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea (scelta in 21% delle combinazioni di pesi)
+- 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea (scelta in 27% delle combinazioni di pesi)
 - 07-C6 Scudo cyber territoriale (scelta in 1% delle combinazioni di pesi)
 - 08-P6 Export resiliente (scelta in 0% delle combinazioni di pesi)
 
@@ -140,7 +141,7 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 | Fondo | Spesa | Gettito/capienza disponibile |
 |---|---|---|
 | ACCISE_SALUTE | 0,08 | 0,00 |
-| COESIONE_2127 | 1,84 | 2,00 |
+| COESIONE_2127 | 1,85 | 2,00 |
 | RIALLOCAZIONE | 1,71 | 2,49 |
 | RIORDINO_BONUS | 0,09 | 0,31 |
 | SAD | 0,37 | 0,00 |

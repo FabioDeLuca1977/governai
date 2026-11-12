@@ -435,3 +435,82 @@ Gli obiettivi sulle ore sono più prudenti di quelli della proposta d'origine (1
 - **Doppio conteggio con 06-C5**: se 06-C5 è adottata, gli psicologi di base si impiegano nelle équipe e il costo scende.
 
 **Fonti.** Svezia, Dir. 2024:30 *En förbättrad elevhälsa*, https://www.regeringen.se/contentassets/39b4dab4d3e54fbcac52d87ab94825c4/en-forbattrad-elevhalsa-dir.-202430.pdf; Agenas, Report nazionale DM 77, II semestre 2025 (in 06-C3 e `dati/verifiche/06_salute.md`); Ministero della Salute, spesa per la salute mentale (in 06-C5, da verificare sul Rapporto SISM); Eurostat edat_lfse_14 (`dati/serie/05_elet_18_24_sesso.csv`). Numero di studentesse e studenti delle secondarie: MIM, da verificare.
+
+---
+
+## 06-C10 — Meno burocrazia, più cura: automazione degli uffici sanitari e riqualificazione del personale amministrativo
+
+*Proposta nata il 12 novembre 2026 da una richiesta di chi guida il progetto: finanziare la sanità anche con progetti di innovazione che riducono nel tempo il costo del personale amministrativo e spostano le persone verso attività più utili. Confronto con i Paesi nordici in `benchmark/nord_europa_efficienza_spesa.md`. Si accompagna alla copertura RP08 (`programma/coperture_menu.csv`), che estende al Servizio sanitario il ricambio selettivo che RP01 applica ai ministeri. I giudizi sui valori spettano al panel.*
+
+**Problema in un dato.** Nel 2023 il Servizio sanitario nazionale aveva **701.170** dipendenti, di cui **277.138** infermieri (Agenas, *Il personale del SSN, dati 2023*, settembre 2025, tabella 2). Il personale del ruolo amministrativo era il **9,7%** nel 2022, circa **60.000 persone** (Ministero della Salute, Annuario statistico del SSN, ripreso dalla stampa specializzata; da verificare sul primario). Intanto le Case della Comunità mancano di personale di accoglienza e di segreteria: al 31/12/2025 solo **66 su 1.715** erano pienamente operative (Agenas, Report DM 77, II semestre 2025). Nelle aziende sanitarie molto lavoro d'ufficio è ripetitivo: prenotazioni e disdette, fatturazione e ticket, codifica delle schede di dimissione, protocollo.
+
+**Soluzione.** Tre parti, con una regola: **nessun licenziamento e nessuno spostamento senza consenso**.
+
+1. **Automazione degli uffici sanitari.** Un programma nazionale, guidato da Agenas con il Dipartimento per la trasformazione digitale, porta nelle aziende sanitarie strumenti già provati per prenotazioni, fatturazione, ticket, codifica e protocollo. Usa le regole e l'assistente condiviso di 09-C5 e il metodo di 09-C7. Le ore liberate sono misurate e pubblicate.
+2. **Ricambio selettivo per legge (copertura RP08).** Per quattro anni (2028-2031) le aziende sanitarie sostituiscono l'80% dei pensionamenti nei profili amministrativi generici invece del 100% (le stime di RP08 provano una quota tra il 75% e l'85%). Lo stanziamento corrispondente del Fondo sanitario è ridotto per legge, d'intesa con le Regioni, e la legge di bilancio lo destina a personale infermieristico e Case della Comunità (06-C2, 06-C3). Restano esclusi i profili tecnici, informatici e gli sportelli di prenotazione. Clausola di salvaguardia: se i tempi dei servizi amministrativi peggiorano oltre una soglia, l'azienda torna al 100%.
+3. **Riqualificazione volontaria.** Chi lo desidera passa, nella stessa provincia e con formazione pagata, a ruoli non clinici dove c'è carenza: accoglienza e prenotazioni nelle Case della Comunità, coordinamento amministrativo dei percorsi di cura nelle Case della Comunità, dove lavorano anche i medici di famiglia (che così hanno più tempo per i pazienti), oppure il percorso da operatore socio-sanitario. **Un amministrativo non può diventare infermiere senza la laurea**: chi vuole farlo ha la priorità nelle borse di 06-C2.
+
+**Non è una misura di grande risparmio.** I Paesi nordici spendono per il personale sanitario pubblico più dell'Italia (4,1% del PIL in Danimarca contro 2,0%: Eurostat, COFOG 2023). Le stime di risparmio della digitalizzazione si sono realizzate solo in parte (Rigsrevisionen 2016). Il guadagno principale è spostare lavoro dalla carta e dallo sportello alla cura e all'accoglienza.
+
+| Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
+|---|---|---|---|---|
+| PIENA | Automazione in tutte le aziende sanitarie; riqualificazione volontaria con formazione pagata; registro pubblico delle ore liberate | 0,03 / 0,08 / 0,10 → **0,04** (2030) | 1,0 | 2027-2029: COESIONE_2127 0,06 (investimento e formazione); a regime: RIALLOCAZIONE 0,04 |
+| ESSENZIALE | Stesso programma nelle aziende delle 8 Regioni con più personale amministrativo per abitante o con più Case della Comunità ferme | 0,02 / 0,04 / 0,05 → **0,02** (2030) | 0,5 | 2027-2029: COESIONE_2127 0,03; a regime: RIALLOCAZIONE 0,02 |
+| PILOTA | 10 aziende sanitarie in 4 Regioni, con valutazione delle ore liberate e delle persone ricollocate | 0,01 / 0,015 / 0,015 → 0,015 (2028) | 0,15 | COESIONE_2127 0,015 (FSE+ e FESR, temporaneo) |
+
+*Come è costruito il costo (stima GovernAI).* Le aziende sanitarie (ASL e aziende ospedaliere) sono circa 110. PIENA:
+- investimento in automazione e integrazione con il fascicolo sanitario, circa 0,5 mln per azienda in tre anni (0,055 in tutto);
+- formazione e accompagnamento per circa 3.000 persone in quattro anni, 5.000 € a persona (0,015 l'anno);
+- gestione, manutenzione e registro delle ore liberate, 0,03 l'anno, permanente.
+
+ESSENZIALE: circa metà delle aziende. La coesione copre solo investimenti e formazione una tantum, con spese entro il 31/12/2029, mai personale stabile: dal 2030 resta solo la parte permanente (0,04 nella PIENA, 0,02 nella ESSENZIALE), coperta da tagli indicati capitolo per capitolo.
+
+**Il risparmio non è qui**: sta nella copertura RP08, che taglia per legge le facoltà assunzionali e vale 0,05-0,13 mld l'anno a regime (2031). I risparmi dell'automazione oltre RP08 si contano solo dopo la certificazione ex post (art. 17 L. 196/2009).
+
+*Come è stimata RP08 (stima GovernAI).*
+- Circa 60.000 amministrativi, di cui il 70% in profili generici: circa 42.000 persone.
+- Uscite del 5-7% l'anno, con una quota non sostituita del 15-25% per 4 anni: 1.260-2.950 posti.
+- Costo di 40.000-45.000 € l'anno per posto, oneri compresi.
+- Risultato: 0,05-0,13 mld l'anno a regime. Da verificare sul Conto annuale RGS per profilo e azienda.
+
+**Articolato normativo essenziale**
+
+*Rivisto il 12 novembre 2026 dopo il controllo giuridico preventivo (`giuridico/conformita_SAN_PA.csv`: esito condizionato).*
+
+**Art. 1 (Finalità).** Al fine di ridurre il lavoro amministrativo ripetitivo negli enti del Servizio sanitario nazionale e di destinare risorse e personale all'assistenza, il presente articolo disciplina un programma di automazione degli uffici sanitari, una riduzione transitoria del limite di spesa per il personale amministrativo e la riqualificazione volontaria.
+
+**Art. 2 (Programma di automazione).** 1. L'Agenas, d'intesa con il Dipartimento per la trasformazione digitale e sentito il Garante per la protezione dei dati personali, adotta entro sei mesi un programma per l'automazione delle attività amministrative ripetitive degli enti del SSN (prenotazione e disdetta, fatturazione, ticket, supporto alla codifica, protocollo) [ESSENZIALE: negli enti delle Regioni individuate secondo i criteri del comma 4; PILOTA: in dieci enti di quattro Regioni]. 2. Il trattamento dei dati relativi alla salute avviene sulla base dell'articolo 2-sexies del decreto legislativo 30 giugno 2003, n. 196, previa valutazione d'impatto ai sensi dell'articolo 35 del regolamento (UE) 2016/679. Ogni strumento è classificato ai sensi del regolamento (UE) 2024/1689; per gli usi ad alto rischio è svolta la valutazione d'impatto sui diritti fondamentali di cui all'articolo 27. 3. Nessuna decisione su priorità di accesso, esenzioni o codifica delle schede di dimissione è adottata in modo automatico: la validazione resta a personale identificato. 4. Le Regioni della variante ESSENZIALE sono individuate con decreto del Ministro della salute, previa intesa in Conferenza Stato-Regioni, in base al personale amministrativo per abitante e alla quota di Case della Comunità non operative rilevate da Agenas. 5. Gli enti pubblicano ogni anno le ore di lavoro liberate e il loro nuovo impiego.
+
+**Art. 3 (Riduzione transitoria del limite di spesa per il personale amministrativo).** 1. Per gli anni dal 2028 al 2031 il limite di spesa per il personale degli enti del SSN di cui all'articolo 11 del decreto-legge 30 aprile 2019, n. 35, è ridotto degli importi indicati nella tabella allegata, per la componente relativa all'area e ai profili amministrativi individuati dal contratto collettivo nazionale del comparto Sanità. La stima di riferimento è la sostituzione dell'80% delle cessazioni dell'anno precedente. Restano esclusi i profili tecnici e informatici e il personale addetto agli sportelli di prenotazione. Il mancato rimpiazzo non costituisce eccedenza ai sensi degli articoli 33 e 34 del decreto legislativo 30 marzo 2001, n. 165. 2. Il livello del finanziamento del Servizio sanitario nazionale è ridotto per legge degli stessi importi, previa intesa in Conferenza Stato-Regioni sul riparto. Nello stesso atto le corrispondenti risorse sono destinate al personale infermieristico e alle Case della Comunità, in modo che la misura sia neutra per il finanziamento complessivo dell'assistenza. 3. Se i tempi dei servizi amministrativi di un ente peggiorano oltre la soglia fissata con decreto del Ministro della salute, previa intesa, secondo criteri di durata e accessibilità definiti dalla presente legge, la riduzione non si applica a quell'ente e la relativa quota è reintegrata a consuntivo. 4. Le Regioni a statuto speciale e le Province autonome concorrono secondo i rispettivi statuti e le norme di attuazione.
+
+**Art. 4 (Riqualificazione volontaria).** 1. In deroga all'articolo 30, comma 2, del decreto legislativo n. 165 del 2001, il personale amministrativo degli enti del SSN interessato dal programma non può essere trasferito senza il suo consenso. 2. Il personale può chiedere di essere assegnato, nella stessa provincia, a funzioni di accoglienza, prenotazione e coordinamento amministrativo dei percorsi di cura nelle Case della Comunità e nelle altre sedi del SSN. In alternativa può frequentare, con mantenimento della retribuzione, il corso di operatore socio-sanitario, secondo la disciplina regionale del titolo e con le procedure dell'articolo 52, comma 1-bis, del decreto legislativo n. 165 del 2001 e del contratto collettivo. 3. Con accordo in Conferenza Stato-Regioni sono definiti i corsi e i relativi posti.
+
+**Art. 5 (Valutazione).** L'Agenas, con l'Ufficio parlamentare di bilancio, valuta dopo 24 mesi le ore liberate, le persone riqualificate, i tempi dei servizi e i risparmi certificati. I risparmi ulteriori rispetto all'articolo 3 sono destinati all'assistenza solo dopo la certificazione.
+
+**Art. 6 (Copertura finanziaria).** 1. Agli oneri per investimenti e formazione, pari a 30 mln nel 2027, 80 mln nel 2028 e 100 mln nel 2029 [ESSENZIALE: 20, 40 e 50 mln; PILOTA: 10, 15 e 15 mln], si provvede a valere sul Programma nazionale Equità nella salute 2021-2027, per le Regioni in cui opera, e sui programmi regionali FESR e FSE+ 2021-2027, con spese ammissibili entro il 31 dicembre 2029. 2. Agli oneri permanenti, pari a 40 mln annui dal 2030 [ESSENZIALE: 20 mln], si provvede mediante corrispondente riduzione delle autorizzazioni di spesa per consumi intermedi dei ministeri indicate nell'allegato, verificata dalla Ragioneria generale dello Stato.
+
+**Cronoprogramma**
+
+| Fase | Ministero della Salute | Regioni | AGENAS | Aziende sanitarie |
+|---|---|---|---|---|
+| Primi 100 giorni | Norma in legge di bilancio; proposta di intesa sul ricambio selettivo e sulla riduzione del finanziamento | Mappano il personale amministrativo per profilo ed età | Censimento delle attività amministrative ripetitive | Nominano il responsabile del programma |
+| 12 mesi | Intesa approvata; decreto sulle soglie di salvaguardia | Accordi con i sindacati sui percorsi di riqualificazione | Programma di automazione e registro delle ore liberate | Prime automazioni attive; primi bandi di riqualificazione volontaria |
+| Fine legislatura | Valutazione pubblica a 24 mesi; risorse destinate a 06-C2 e 06-C3 | Personale riqualificato nelle Case della Comunità | Valutazione con l'UPB | Tempi amministrativi stabili o migliori |
+
+**Indicatori**
+
+| KPI | Base | Obiettivo 3 anni | Obiettivo 5 anni |
+|---|---|---|---|
+| Persone del ruolo amministrativo riqualificate in accoglienza, prenotazione e coordinamento nelle Case della Comunità o come OSS | 0 (nuovo programma) | 1.000 | 3.000 |
+| Ore di lavoro amministrativo liberate, pubblicate nel registro | n.d. (rilevazione dal primo anno) | rilevazione pubblica in tutti gli enti del programma | in crescita, certificate |
+| Risorse destinate a personale infermieristico e Case della Comunità dal ricambio selettivo | 0 | 0,03-0,07 mld | 0,05-0,13 mld |
+
+**Rischi e mitigazione**
+- **Uffici sguarniti**: clausola di salvaguardia sui tempi dei servizi; esclusi sportelli e profili tecnici.
+- **Riqualificazione solo sulla carta**: è volontaria e misurata; registro pubblico delle persone ricollocate.
+- **Risparmi gonfiati**: RP08 è un taglio di legge sulle facoltà assunzionali, non un risparmio sperato; gli altri risparmi si contano solo dopo la certificazione.
+- **Resistenza delle Regioni**: la riduzione del finanziamento richiede l'intesa; le risorse restano alla sanità.
+- **Sovrapposizione con 09-C7 e 09-C9**: stesse regole e stesso metodo; qui si lavora negli enti del SSN, che RP01 esclude.
+- **Personale già invecchiato**: dopo anni di blocco del turnover il margine è minore di quanto sembri; la quota non sostituita è prudente e temporanea.
+
+**Fonti.** Agenas, *Il personale del Servizio sanitario nazionale, dati 2023*, settembre 2025, https://www.agenas.gov.it/images/2025/personale_ssn/Rapporto_personale_ssn_2025.pdf (tabella 2); Ministero della Salute, Annuario statistico del SSN, quota del ruolo amministrativo, ripresa da Quotidiano Sanità, https://www.quotidianosanita.it/governo-e-parlamento/personale-ssn-tutti-i-numeri-struttura-per-struttura-l-annuario-del-ministero-della-salute/ (da verificare sul primario); Agenas, Report nazionale DM 77, II semestre 2025 (in 06-C3); Eurostat gov_10a_exp, COFOG 2023; Rigsrevisionen, *Digital Post*, 2016, https://uk.rigsrevisionen.dk/audits-reports-archive/2016/jan/report-on-the-savings-potential-of-approx-dkk-1-billion-annually-associated-with-the-transition-to-the-mandatory-public-digital-mailbox-digital-post; RGS, Conto annuale (base da verificare per profilo).

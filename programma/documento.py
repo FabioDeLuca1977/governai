@@ -81,9 +81,10 @@ def blocchi() -> dict[str, str]:
             f"{selezione('intermedio')[0].proposta_id.nunique()} misure, nucleo robusto "
             f"{nucleo_coperto(selezione('intermedio')[0])} su {len(nucleo)}. Nessun aumento di tasse su casa, eredità, affitti "
             "e IVA, nessun contributo sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale "
-            "nei ministeri. Per scelta politica entrano almeno in versione essenziale le sette misure su ricerca, "
-            "innovazione e logistica verde, al posto delle Case della Comunità (06-C3), e la squadra per la produttività "
-            "pubblica con l'AI (09-C9) in versione essenziale. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni "
+            "nei ministeri. Per scelta politica restano tutte le sette misure su ricerca, innovazione e logistica verde "
+            "(alcune in versione ridotta) e la squadra per la produttività pubblica con l'AI (09-C9) in versione essenziale; "
+            "dal 12 novembre 2026 entrano senza nuove tasse le Case della Comunità (06-C3), 500 squadre infermieristiche "
+            "di quartiere (06-C8) e la riqualificazione degli amministrativi della sanità (06-C10). Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni "
             "fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni "
             "(`programma/selezione_intermedio.md`)."]
           if (QUI / "selezione_intermedio.csv").exists() else []),
