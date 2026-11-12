@@ -6,7 +6,7 @@
 |---|---|---|---|
 | Un Paese dove chi nasce, studia, lavora e invecchia trova servizi che funzionano, e dove le scelte di oggi non pesano sui conti delle generazioni future. | Ogni misura pagata senza deficit: tagli di spesa nei ministeri, meno sussidi dannosi e agevolazioni inefficaci, accise su tabacco e alcol. Le misure incerte partono come sperimentazioni. | Con indicatori pubblici, aggiornati ogni anno, con base e obiettivo a 5 anni: nidi, abbandono scolastico, persone laureate, ricerca, produttività, cure, acqua, giustizia. | Famiglie con bambine e bambini piccoli, studentesse e studenti delle scuole più fragili, giovani, imprese che innovano, chi vive in territori a rischio, chi paga le tasse e chi usa giustizia e servizi pubblici. |
 
-**I conti:** 9,02 mld l'anno di spesa nuova, 65 misure su 77, coperture per 7,42 mld al minimo più i fondi vincolati. Nuovo deficit: zero.
+**I conti:** 9,03 mld l'anno di spesa nuova, 66 misure su 78, coperture per 7,42 mld al minimo più i fondi vincolati. Nuovo deficit: zero.
 
 ## Ce l'avremo fatta se…
 
@@ -201,7 +201,7 @@
 
 ## Uno Stato che funziona, istituzioni aperte
 
-*18 misure su 21 · 1,35 mld l'anno*
+*19 misure su 22 · 1,36 mld l'anno*
 
 **Perché.** Uno Stato rapido, giusto e trasparente fa risparmiare tempo alle persone e alle imprese e rafforza la fiducia. L'AI aiuta, ma decidono le persone. *Valori: Fiducia e trasparenza, Sicurezza senza controllo assoluto, Cittadinanza responsabile.*
 
@@ -217,6 +217,7 @@
 - 09-C9 Squadra per la produttività pubblica con l'AI: meno lavoro ripetitivo, più servizi alle persone (essenziale, 0,04 mld)
 - 09-C7 Automazione dei processi ripetitivi con riallocazione garantita (pilota, 0,02 mld)
 - 08-P1 Legge sulla consulenza algoritmica pubblica (essenziale, 0,01 mld)
+- 09-C10 Bandi pubblici con istruttoria assistita: domande compilate una volta, controlli in giorni invece che in mesi (pilota, 0,01 mld)
 - 08-P7 Appalti a vetro: cruscotto pubblico dei rischi e dati aperti completi (essenziale, 0,00 mld)
 - 08-P2 Patto per la buona legge (essenziale, 0,00 mld)
 - 08-P3 Regole del gioco stabili (legge elettorale, voto fuorisede) (solo regole, costo zero)

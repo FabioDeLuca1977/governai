@@ -359,3 +359,82 @@ Uso: PIENA 0,06 su RIALLOCAZIONE (R12-2 0,03 + RA13 0,03 su capitoli individuati
 - Danimarca: OSE, *Digiqualpub* Research Paper 53, 2023. Estonia: RIA, Bürokratt; servizi proattivi. Portogallo: SIMPLEX, rapporti di esecuzione (stampa).
 - Reg. UE 2024/1689 (AI Act), art. 5, 26, 27, allegato III; *Digital Omnibus* sull'IA (rinvio dell'allegato III al 2.12.2027; estremi da verificare in GUUE).
 - Normativa: d.lgs. 165/2001 artt. 6, 33, 55-bis, 55-quater, 55-quinquies, 55-sexies; d.lgs. 150/2009 e d.lgs. 74/2017; d.lgs. 116/2016; d.lgs. 75/2017; d.lgs. 118/2017; d.l. 80/2021 art. 6 (PIAO); l. 56/2019; l. 300/1970 art. 4; l. 132/2025.
+
+---
+
+## 09-C10 — Bandi pubblici con istruttoria assistita: domande compilate una volta, controlli in giorni invece che in mesi
+
+*Proposta del 12 novembre 2026, nata da un'esperienza diretta di chi guida il progetto in un ufficio regionale, descritta qui in forma anonima. I giudizi sui valori spettano al panel.*
+
+**Problema in un dato.** Al 31 agosto 2025 l'Italia aveva pagato l'**8,03%** dei 74,85 mld dei fondi strutturali europei 2021-2027 (FESR, FSE+, JTF, FEAMPA); gli impegni erano al 27,16% (RGS, *Monitoraggio politiche di coesione*, situazione al 31 agosto 2025, cap. 2). Le spese sono ammissibili solo fino al 2029. Gran parte della spesa passa da bandi: domande con molti moduli e allegati, controlli ripetitivi fatti a mano campo per campo, graduatorie che arrivano dopo mesi. Il programma GovernAI stesso usa circa 1,7 mld l'anno di coesione 2021-2027: se non si spende in tempo, si perde.
+
+**Soluzione.** Una libreria pubblica e aperta di strumenti per istruire i bandi, riusabile da Regioni, Comuni e ministeri, con tre pezzi.
+1. **Kit per chi presenta la domanda, facoltativo.** Cittadini, imprese e Comuni inseriscono i dati una volta sola; gli allegati escono già compilati e coerenti tra loro.
+2. **Strumento di controllo per il funzionario.** Esegue i controlli ripetitivi (anagrafica, caselle, quadro economico, ricalcolo dei punteggi definiti da regole, coerenza tra allegati). Segna in rosso ciò che non è conforme e in arancione ciò che va verificato. Ogni segnalazione apre il documento nel punto giusto e cita l'articolo del bando.
+3. **Un piccolo centro di competenza nazionale.** Prepara lo strumento per ogni nuovo bando a partire dal testo, fa le prove e forma i funzionari.
+
+Le regole sono quelle dell'esperienza da cui nasce:
+- fa fede solo il testo del bando, delle FAQ e dei modelli ufficiali: se una regola non è scritta lì, lo strumento non la inventa;
+- **decide sempre la persona**: il responsabile del procedimento istruisce, l'organo competente decide con motivazione propria; sui criteri discrezionali lo strumento non propone punteggi, e ogni scostamento dalle segnalazioni resta nel fascicolo;
+- quando un dato è incerto, per esempio la scrittura a mano, lo strumento non indovina: mostra l'immagine e chiede alla persona;
+- i documenti restano nei sistemi dell'ente.
+
+**Da dove nasce.** Nel novembre 2026, in un ufficio regionale che istruisce un bando di contributi, chi guida il progetto ha costruito uno strumento di questo tipo in tre giorni, con un assistente di programmazione basato sull'AI. Il tempo della persona è stato di circa 3-4 ore, soprattutto per leggere, verificare e decidere. Sono stati preparati 39 scenari di prova e una prova di carico con 200 domande e 4.000 allegati. **Non è ancora misurato** quanto tempo fa risparmiare nell'istruttoria reale: la scadenza del bando non era passata. Per questo la proposta parte misurando.
+
+| Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
+|---|---|---|---|---|
+| PIENA | Centro di competenza di circa 25 persone; strumenti per almeno 150 bandi l'anno di Regioni, ministeri e grandi Comuni; formazione; misura pubblica dei tempi | 0,02 / 0,05 / 0,06 → **0,04** (2030) | 1,0 | 2027-2029: assistenza tecnica del PN Capacità per la coesione fino a 0,03 l'anno, il resto RIALLOCAZIONE; a regime: RIALLOCAZIONE 0,04 |
+| ESSENZIALE | Centro di circa 12 persone; 50 bandi l'anno, con priorità ai programmi di coesione più in ritardo | 0,01 / 0,025 / 0,03 → **0,02** (2030) | 0,5 | 2027-2029: PN Capacità per la coesione fino a 0,015, il resto RIALLOCAZIONE; a regime: RIALLOCAZIONE 0,02 |
+| PILOTA | 10 bandi in 3 Regioni, con confronto dei tempi e degli errori rispetto a bandi simili istruiti a mano | 0,005 / 0,01 / 0,01 → 0,01 (2028) | 0,15 | COESIONE_2127 0,01 (temporaneo) |
+
+*Come è costruito il costo (stima GovernAI).*
+- PIENA: 25 persone per circa 75.000 € con oneri, cioè 0,019 l'anno; manutenzione della libreria e calcolo 0,01; formazione e accompagnamento degli enti 0,01. A regime circa 0,04.
+- Nel 2027-2029 si aggiungono lo sviluppo iniziale e la formazione, pagati con l'assistenza tecnica del PN Capacità per la coesione (fino a 0,03 l'anno, solo per i bandi cofinanziati e dopo la modifica del programma). Se la modifica non arriva, la misura parte come pilota.
+
+**Il risparmio non si conta come copertura.** Il beneficio atteso è triplo:
+- meno ore di controllo ripetitivo;
+- meno assistenza tecnica esterna per l'istruttoria;
+- soprattutto, fondi europei spesi in tempo invece che persi.
+
+Nessuno di questi effetti è una copertura finché non è misurato e certificato.
+
+**Quando serve davvero.** Gli strumenti entrano a regime intorno al 2028: per la coesione 2021-2027, che chiude nel 2029, possono aiutare solo gli ultimi bandi. Il beneficio maggiore è per il ciclo 2028-2034, che parte con le regole e gli strumenti già pronti invece di ripetere i ritardi di oggi.
+
+**Articolato normativo essenziale**
+
+*Rivisto il 12 novembre 2026 dopo il controllo giuridico preventivo (`giuridico/conformita_BANDI.csv`: esito condizionato).*
+
+**Art. 1 (Finalità).** Al fine di ridurre i tempi di istruttoria dei bandi pubblici di contributi e di accelerare l'attuazione dei programmi cofinanziati dall'Unione europea, il presente articolo istituisce una libreria pubblica di strumenti per la compilazione delle domande e l'istruttoria assistita.
+
+**Art. 2 (Centro di competenza e libreria).** 1. Presso il Dipartimento per la trasformazione digitale, d'intesa con il Dipartimento per le politiche di coesione e con l'AgID, è istituito un centro di competenza per l'istruttoria assistita dei bandi, con un contingente fino a 25 unità [ESSENZIALE: 12 unità] reclutate mediante comando da altre amministrazioni o con contratti a tempo determinato fino al 31 dicembre 2029, poi stabilizzabili nei limiti della copertura di cui all'articolo 5 [PILOTA: per dieci bandi in tre Regioni]. 2. Gli strumenti sono rilasciati con licenza aperta e messi a disposizione delle amministrazioni per il riuso, ai sensi degli articoli 68 e 69 del decreto legislativo 7 marzo 2005, n. 82. L'adesione delle Regioni e degli enti locali è volontaria.
+
+**Art. 3 (Garanzie del procedimento).** 1. Gli strumenti applicano esclusivamente le regole del bando e delle norme da esso richiamate, comprese le verifiche previste dalla legge (regolarità contributiva, documentazione antimafia, Registro nazionale degli aiuti di Stato); le FAQ servono solo a interpretare. 2. Prima dell'uso, la configurazione dello strumento per ciascun bando è approvata dal dirigente competente dell'amministrazione titolare e pubblicata insieme al bando. 3. Il responsabile del procedimento cura l'istruttoria e l'organo competente adotta il provvedimento con motivazione propria; nessuna esclusione è disposta senza soccorso istruttorio, ove ammesso, e senza la comunicazione dei motivi ostativi di cui all'articolo 10-bis della legge 7 agosto 1990, n. 241. 4. Sui criteri di valutazione discrezionali lo strumento non propone punteggi: eventuali elementi di confronto sono mostrati solo dopo il giudizio del valutatore. 5. Le segnalazioni, la configurazione e gli scostamenti decisi dal personale sono conservati nel fascicolo del procedimento e accessibili secondo la legge. 6. La compilazione con il kit è facoltativa per chi presenta la domanda.
+
+**Art. 4 (Dati, intelligenza artificiale e trasparenza).** 1. Il trattamento dei dati personali, compresi quelli relativi a condanne penali e reati e quelli appartenenti a categorie particolari, avviene nei sistemi dell'amministrazione titolare, nei limiti degli articoli 2-sexies e 2-octies del decreto legislativo 30 giugno 2003, n. 196, previa valutazione d'impatto ai sensi dell'articolo 35 del regolamento (UE) 2016/679 e sentito il Garante per la protezione dei dati personali sullo schema di linee guida. 2. Ogni componente degli strumenti è classificato ai sensi del regolamento (UE) 2024/1689; per i bandi rivolti a persone fisiche che rientrano nell'allegato III si applicano gli obblighi previsti per i sistemi ad alto rischio, compresa la valutazione d'impatto sui diritti fondamentali, salvo deroga documentata e registrata ai sensi dell'articolo 6, paragrafo 3. 3. I dati sull'uso degli strumenti sono pubblicati solo in forma aggregata, senza riferimento ai singoli dipendenti. 4. Per ogni bando l'amministrazione pubblica, ai sensi del decreto legislativo 14 marzo 2013, n. 33, i tempi di istruttoria, il numero di domande e, in forma aggregata, le segnalazioni confermate e smentite. Il Dipartimento per le politiche di coesione confronta i tempi con quelli di bandi analoghi istruiti senza gli strumenti.
+
+**Art. 5 (Copertura finanziaria).** 1. Agli oneri per lo sviluppo iniziale e la formazione, nel limite di 30 mln annui nel 2027-2029 [ESSENZIALE: 15 mln; PILOTA: 10 mln], si provvede a valere sulle risorse di assistenza tecnica del Programma nazionale Capacità per la coesione 2021-2027, previa modifica del programma ai sensi dell'articolo 24 del regolamento (UE) 2021/1060, con imputazione pro quota ai soli bandi cofinanziati e spese entro il 31 dicembre 2029; i programmi regionali concorrono solo con l'accordo delle rispettive autorità di gestione. Se la modifica del programma non è approvata, la misura si attua nella forma della sperimentazione. 2. Agli altri oneri, pari a 30 mln nel 2028 e nel 2029 e a 40 mln annui dal 2030 [ESSENZIALE: 10 mln nel 2028 e nel 2029 e 20 mln annui dal 2030], si provvede mediante corrispondente riduzione delle autorizzazioni di spesa per assistenza tecnica esterna e consulenze dei ministeri indicate nell'allegato, non condizionata a risparmi attesi.
+
+**Cronoprogramma**
+
+| Fase | Dipartimento trasformazione digitale | Politiche di coesione | Regioni e Comuni | AgID |
+|---|---|---|---|---|
+| Primi 100 giorni | Costituzione del centro di competenza; scelta dei primi bandi | Individua i programmi in maggiore ritardo di spesa; avvia la modifica del PN Capacità per la coesione | Si candidano con bandi in uscita | Linee guida su riuso, valutazione d'impatto e classificazione AI Act; parere del Garante |
+| 12 mesi | Primi strumenti in uso; libreria pubblica | Primo confronto dei tempi | Funzionari formati; kit per chi presenta la domanda | Verifica di conformità |
+| Fine legislatura | Libreria estesa a tutti i programmi | Valutazione pubblica; estensione solo con risultati | Istruttorie più rapide e misurate | Aggiornamento delle linee guida |
+
+**Indicatori**
+
+| KPI | Base | Obiettivo 3 anni | Obiettivo 5 anni |
+|---|---|---|---|
+| Pagamenti dei fondi strutturali 2021-2027 sul programmato | 8,03% (31/8/2025, RGS) | dato ufficiale annuale, con il contributo dei bandi assistiti misurato a parte | spesa completa entro il 2029 nei programmi che adottano gli strumenti |
+| Giorni tra la scadenza del bando e la graduatoria, nei bandi assistiti rispetto a bandi analoghi | n.d. (rilevazione dal primo anno) | −30% | −50% |
+| Segnalazioni dello strumento confermate dai funzionari | n.d. | pubblicate per ogni bando | pubblicate e in miglioramento |
+
+**Rischi e mitigazione**
+- **Errore che sembra vero**: lo strumento non legge ciò che è incerto e non decide; ogni segnalazione si verifica sul documento.
+- **Bandi troppo diversi tra loro**: si parte dai bandi ripetitivi (contributi, voucher, borse); per ognuno un set di prove con errori inseriti apposta.
+- **Dipendenza da un fornitore**: codice aperto e riuso tra amministrazioni.
+- **Risparmio gonfiato**: si misura e si pubblica, non si conta come copertura.
+- **Resistenze organizzative**: formazione e coinvolgimento dei funzionari fin dal primo bando; il loro lavoro passa dal controllo campo per campo alla gestione delle eccezioni.
+
+**Fonti.** RGS, *Monitoraggio politiche di coesione, programmazione 2021-2027*, situazione al 31 agosto 2025, https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/attivita_istituzionali/monitoraggio/rapporti_finanziari_ue/monitoraggio_politiche_di_coesione/2025-08-31/BMPC-31.08.2025.pdf (cap. 2, tabella 1); d.lgs. 82/2005, artt. 68-69; esperienza in un ufficio regionale, novembre 2026, descritta in forma anonima da chi guida il progetto.

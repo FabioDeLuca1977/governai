@@ -769,3 +769,13 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 06-C10,EQU,0,0,1,B,no,"Personale verso Case della Comunità e aree carenti, ma Regioni con meno capacità digitale rischiano di restare indietro"
 06-C10,SIC,0,0,0,M,no,"Dati sanitari trattati con regole AI e valutazione d'impatto; nessun effetto rilevante su sicurezza o controllo"
 06-C10,CIT,0,0,1,B,no,"Scelta volontaria e contrattazione sindacale; coinvolgimento civico della cittadinanza limitato"
+09-C10,RIS,0,1,1,M,no,"Decisione sempre umana e nessun provvedimento automatico; domande più semplici per chi ha meno strumenti, beneficio indiretto"
+09-C10,FID,1,2,2,M,no,"Regole solo dal testo del bando, scostamenti tracciati e tempi e segnalazioni pubblicati per ogni bando"
+09-C10,INN,1,2,2,M,no,"Libreria aperta e riusabile per l'istruttoria; risparmio di tempo non ancora misurato e bandi eterogenei"
+09-C10,BEN,0,1,1,B,no,"Contributi pagati prima a imprese e famiglie se i tempi calano davvero; effetto indiretto e non misurato"
+09-C10,APC,0,1,1,M,no,"Formazione dei funzionari sugli strumenti e sulla gestione delle eccezioni, numeri contenuti"
+09-C10,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
+09-C10,FUT,0,1,1,B,no,"Può evitare la perdita di fondi europei entro il 2029, ma il contributo è incerto; costo a regime su tagli a consulenze"
+09-C10,EQU,0,1,1,B,no,"Regioni del Sud più in ritardo nella spesa e piccoli richiedenti ne beneficiano, se gli enti meno capaci aderiscono"
+09-C10,SIC,0,0,0,M,no,"Documenti nei sistemi dell'ente, valutazione d'impatto e AI Act; nessuna profilazione né effetto sulla sicurezza"
+09-C10,CIT,0,1,1,B,no,"Dati inseriti una volta e risultati pubblici rendono più facile partecipare ai bandi; effetto civico limitato"

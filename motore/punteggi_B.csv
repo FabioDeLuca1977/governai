@@ -769,3 +769,13 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 06-C10,EQU,0,0,1,B,no,"Personale verso Case della Comunità dove c'è carenza; nessuna priorità territoriale esplicita nella PIENA e sportelli esclusi a tutela dei non digitali"
 06-C10,SIC,0,0,0,B,no,"Più sistemi su dati sanitari sensibili aumentano il rischio informatico, bilanciato dalle regole di 09-C5 e dalla valutazione d'impatto"
 06-C10,CIT,0,0,1,B,no,"Adesione volontaria e contrattazione collettiva sui percorsi; nessun coinvolgimento diretto di pazienti e cittadinanza"
+09-C10,RIS,0,1,1,M,no,"Decide sempre la persona e i casi incerti tornano al funzionario; resta il rischio che la fascia proposta orienti i criteri discrezionali"
+09-C10,FID,1,1,2,M,no,"Tempi, segnalazioni confermate o smentite e scostamenti pubblicati per bando, regole solo dal testo ufficiale e codice aperto"
+09-C10,INN,1,1,2,M,no,"Libreria aperta e riusabile semplifica l'istruttoria, ma il risparmio di tempo non è misurato e i bandi sono eterogenei"
+09-C10,BEN,0,1,1,B,no,"Domande più semplici e contributi erogati prima a imprese e cittadini; beneficio plausibile ma non ancora misurato"
+09-C10,APC,0,1,1,M,no,Formazione dei funzionari sul controllo per eccezioni: effetto positivo ma limitato a pochi
+09-C10,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
+09-C10,FUT,0,1,1,B,no,"Può evitare la perdita di fondi di coesione entro il 2029 e sostituire consulenze esterne, ma effetti non ancora dimostrati"
+09-C10,EQU,0,1,1,B,no,"Aiuta piccoli Comuni e imprese senza consulenti e programmi in ritardo, ma l'adesione volontaria può favorire gli enti già capaci"
+09-C10,SIC,0,0,0,B,no,"Più strumenti su dati personali aumentano il rischio informatico, bilanciato da dati nei sistemi dell'ente e valutazione d'impatto"
+09-C10,CIT,0,1,1,B,no,Rende più facile partecipare ai bandi per cittadini e imprese; nessun coinvolgimento diretto della cittadinanza nelle decisioni
