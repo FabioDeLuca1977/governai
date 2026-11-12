@@ -33,6 +33,7 @@
   const ERRORI = [
     [/signups not allowed|user not found/i, "Questa email non risulta iscritta. Per entrare serve un invito."],
     [/token has expired|invalid.*(otp|token)/i, "Codice non valido o scaduto: chiedine uno nuovo."],
+    [/link is invalid|has expired|otp_expired/i, "Il link di accesso non è valido o è scaduto: chiedine uno nuovo."],
     [/rate limit|too many|security purposes/i, "Troppi tentativi in poco tempo: aspetta qualche minuto e riprova."],
     [/failed to fetch|network/i, "Connessione non riuscita: controlla la rete e riprova."],
     [/nome_pubblico_check/, "Nome pubblico non valido: da 3 a 40 caratteri, con lettere, numeri, spazi, punto, trattino o apostrofo."],
@@ -57,8 +58,25 @@
   }
   const linkInvito = (codice) => `${location.origin}${location.pathname}#/comunita/invito/${codice}`;
   const RITORNO = "governai-ritorno";
-  const ricorda = () => { try { sessionStorage.setItem(RITORNO, location.hash); } catch (e) { /* non disponibile */ } };
-  const torna = () => { let h = ""; try { h = sessionStorage.getItem(RITORNO) || ""; sessionStorage.removeItem(RITORNO); } catch (e) { /* non disponibile */ } location.hash = h && !h.startsWith("#/comunita/entra") ? h : "#/comunita"; };
+  // localStorage e non sessionStorage: il link dell'email si apre spesso in un'altra scheda
+  const ricorda = () => { try { localStorage.setItem(RITORNO, location.hash); } catch (e) { /* non disponibile */ } };
+  const torna = () => { let h = ""; try { h = localStorage.getItem(RITORNO) || ""; localStorage.removeItem(RITORNO); } catch (e) { /* non disponibile */ } location.hash = h && !h.startsWith("#/comunita/entra") ? h : "#/comunita"; };
+
+  // Accesso dal link nell'email: Supabase torna al sito con i gettoni nell'indirizzo (#access_token=...).
+  // Si tolgono subito dall'indirizzo, prima che il sito disegni la pagina, e si apre la sessione.
+  let accesso = null;
+  if (ATTIVA && /(^#|&)(access_token|error_description)=/.test(location.hash)) {
+    const q = new URLSearchParams(location.hash.slice(1));
+    const rit = new URLSearchParams(location.search).get("ritorno");
+    if (rit && rit.startsWith("#/")) try { localStorage.setItem(RITORNO, rit); } catch (e) { /* non disponibile */ }
+    history.replaceState(null, "", location.pathname + "#/comunita/entra");
+    accesso = (async () => {
+      if (!q.get("access_token")) throw new Error(q.get("error_description") || "Il link di accesso non è valido o è scaduto.");
+      const c = await sdk();
+      const { error } = await c.auth.setSession({ access_token: q.get("access_token"), refresh_token: q.get("refresh_token") });
+      if (error) throw error;
+    })();
+  }
 
   // ---------- pezzi comuni ----------
   const errore = (testo) => `<div class="avviso alto" role="alert"><p>${esc(testo)}</p></div>`;
@@ -86,7 +104,7 @@
       <h2 class="sezione" id="privacy">Informativa sul trattamento dei dati</h2><div class="md documento card">${ctx.md((ctx.D.comunita || {}).privacy || "")}</div>`;
     if (!ATTIVA) return `<h1>Comunità</h1>${inPreparazione}`;
     if (b === "entra") return `${briciole("Entra")}<h1>Entra nella comunità</h1>
-      <p class="risposta">Scrivi l'email con cui ti sei iscritto: ti mandiamo un codice di 6 cifre. Nessuna password da ricordare.</p>
+      <p class="risposta">Scrivi l'email con cui ti sei iscritto: ti mandiamo un link di accesso. Nessuna password da ricordare.</p>
       <div data-c="entra" class="comunita-modulo"></div>`;
     if (b === "invito") return `${briciole("Iscrizione")}<h1>Hai ricevuto un invito</h1>
       <p class="risposta">Con l'iscrizione puoi discutere le proposte, prendere appunti con gli altri e segnalare errori. Qui nessuno decide: si ragiona insieme, persone e AI.</p>
@@ -151,15 +169,20 @@
   function moduloEmail(crea) {
     return `<form class="card" data-cform="otp" data-crea="${crea ? 1 : 0}">
       <label class="campo">Email<input name="email" type="email" required autocomplete="email"></label>
-      <div class="azioni"><button class="btn primario" type="submit">Mandami il codice</button></div>
+      <div class="azioni"><button class="btn primario" type="submit">Mandami l'email di accesso</button></div>
       <div class="esito" aria-live="polite"></div></form>`;
   }
   const moduloCodice = (email) => `<form class="card" data-cform="verifica" data-email="${esc(email)}">
-      <p>Ti abbiamo scritto a <strong>${esc(email)}</strong>. Il codice vale un'ora; se non lo trovi, guarda nella posta indesiderata.</p>
+      <p>Ti abbiamo scritto a <strong>${esc(email)}</strong>. Apri l'email e clicca il link di accesso: tornerai qui già collegato. Se l'email contiene invece un codice di 6 cifre, scrivilo qui sotto. Vale un'ora; se non trovi l'email, guarda nella posta indesiderata.</p>
       <label class="campo">Codice di 6 cifre<input name="codice" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" required></label>
       <div class="azioni"><button class="btn primario" type="submit">Entra</button><button class="btn terziario s" type="button" data-cazione="altra-email">Usa un'altra email</button></div>
       <div class="esito" aria-live="polite"></div></form>`;
   async function montaEntra(el) {
+    if (accesso) {
+      el.innerHTML = `<p class="nota" role="status">${icona("loader")} Accesso in corso…</p>`;
+      try { await accesso; accesso = null; profilo = undefined; torna(); return; }
+      catch (e) { accesso = null; el.innerHTML = errore(messaggio(e)); el.insertAdjacentHTML("beforeend", moduloEmail(false)); return; }
+    }
     if (haSessione() && await mioProfilo()) { torna(); return; }
     el.innerHTML = `${moduloEmail(false)}<p class="nota">Non sei iscritto? <a href="#/comunita/richiedi">Chiedi un invito</a>.</p>`;
   }
@@ -172,7 +195,7 @@
     const p = haSessione() ? await mioProfilo() : null;
     if (p) { el.innerHTML = `<div class="avviso info"><p>Sei già iscritto come <strong>${esc(p.nome_pubblico)}</strong>.</p></div><div class="azioni sezione"><a class="btn primario" href="#/comunita">Vai alla comunità</a></div>`; return; }
     const u = haSessione() ? await utente() : null;
-    el.innerHTML = u ? moduloIscrizione(codice, u.email) : `<ol class="comunita-passi"><li><strong>Conferma la tua email</strong> con un codice.</li><li>Scegli il <strong>nome pubblico</strong> con cui compari nelle discussioni.</li></ol>${moduloEmail(true)}`;
+    el.innerHTML = u ? moduloIscrizione(codice, u.email) : `<ol class="comunita-passi"><li><strong>Conferma la tua email</strong>: ti mandiamo un link di accesso.</li><li>Scegli il <strong>nome pubblico</strong> con cui compari nelle discussioni.</li></ol>${moduloEmail(true)}`;
   }
   const moduloIscrizione = (codice, email) => `<form class="card" data-cform="iscrizione" data-codice="${esc(codice)}">
       <p class="nota">Email confermata: ${esc(email)} (non viene mostrata agli altri).</p>
@@ -294,7 +317,8 @@
       } else if (tipo === "otp") {
         const email = String(dati.get("email")).trim().toLowerCase();
         const c = await sdk();
-        const { error } = await c.auth.signInWithOtp({ email, options: { shouldCreateUser: f.dataset.crea === "1" } });
+        ricorda();
+        const { error } = await c.auth.signInWithOtp({ email, options: { shouldCreateUser: f.dataset.crea === "1", emailRedirectTo: location.origin + location.pathname + "?ritorno=" + encodeURIComponent(location.hash) } });
         if (error) throw error;
         f.outerHTML = moduloCodice(email); $("[name=codice]").focus(); return;
       } else if (tipo === "verifica") {
