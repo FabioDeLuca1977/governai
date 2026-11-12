@@ -33,9 +33,9 @@ AREE = {"01": "Economia, Imprese, Turismo", "02": "Lavoro, Welfare, Famiglia", "
 SCENARI = [
     ("base", "Programma base", "Solo coperture a basso costo sociale", "selezione_livello1.csv"),
     ("completo", "Programma completo", "Con le coperture strutturali", "selezione_livello2.csv"),
-    ("intermedio", "Programma intermedio", "Nessun aumento di tasse su casa, eredità, affitti e IVA; più istruzione e servizi sociali; ricerca, innovazione, logistica verde e squadra per la produttività pubblica con l'AI imposte per scelta politica; restano accise su tabacco e alcol e il riordino di agevolazioni e sussidi dannosi", "selezione_intermedio.csv"),
-    ("momento", "Programma del momento", "Completo, adattato alle allerte attive", "selezione_momento.csv"),
-    ("dividendo", "Completo + dividendo climatico", "Restituzione compensativa di 1,2 mld del gettito SAD", "selezione_dividendo.csv"),
+    ("intermedio", "Programma intermedio", "Nessun aumento di tasse su casa, eredità, affitti e IVA; più istruzione e servizi sociali; ricerca, innovazione, logistica verde e squadra per la produttività pubblica con l'AI inserite per scelta politica; restano accise su tabacco e alcol e il riordino di agevolazioni e sussidi dannosi", "selezione_intermedio.csv"),
+    ("momento", "Completo adattato ai dati di oggi", "Il programma completo ricalcolato con le priorità delle allerte attive: cambia quando cambiano i dati e serve a vedere che cosa suggerirebbero, non è un impegno", "selezione_momento.csv"),
+    ("dividendo", "Completo + dividendo climatico", "Restituzione compensativa di 1,2 mld del gettito dal taglio dei sussidi ambientalmente dannosi (SAD)", "selezione_dividendo.csv"),
     ("difesa", "Completo + Difesa al 2,5%", "Traiettoria graduale della spesa militare (+9,1 mld)", "selezione_difesa.csv"),
 ]
 RE_SCHEDA = re.compile(r"^## (0[1-9]-[PC]\d{1,2})\b.*$", re.M)
@@ -80,17 +80,46 @@ def valori_carta() -> list[dict]:
     return out
 
 
-def scenario(file: Path) -> dict | None:
+# Fondi con un proprio vincolo (programma/ottimizza.py): la spesa che vi attinge oltre il gettito delle
+# coperture dello stesso fondo usa risorse già stanziate (capienza del registro), non nuove tasse né deficit.
+GENERALI = {"SAD", "SPESE_FISCALI", "ACCISE_SALUTE", "RIORDINO_BONUS", "RIALLOCAZIONE"}
+FUORI_BILANCIO = {"TARIFFE"}
+NOMI_FONDI = {"COESIONE_2127": "fondi europei di coesione 2021-2027", "COESIONE_2834": "fondi europei di coesione 2028-2034",
+              "FSN": "fondo sanitario nazionale", "PENSIONI": "risorse del sistema pensionistico", "FONDI_UE": "fondi europei",
+              "TASSA_SOGGIORNO": "tassa di soggiorno", "ETS2_FSC": "Fondo sociale per il clima (ETS2)"}
+
+
+def prelievi_varianti() -> pd.DataFrame:
+    """Una riga per variante e fondo: la somma dei prelievi di una variante è il suo costo."""
+    file = sorted((RADICE / "programma" / "varianti").glob("*.csv"))
+    v = pd.concat([pd.read_csv(f) for f in file], ignore_index=True)
+    v["chiave"] = v.proposta_id + ":" + v.variante.str.upper().str.strip()
+    v["fondo_id"] = v.fondo_id.str.upper().str.strip()
+    v["prelievo_regime"] = pd.to_numeric(v.prelievo_regime, errors="coerce").fillna(0.0)
+    return v[["chiave", "fondo_id", "prelievo_regime"]]
+
+
+def scenario(file: Path, prelievi: pd.DataFrame) -> dict | None:
     if not file.exists():
         return None
     s = pd.read_csv(file)
     v = s[(s.tipo == "variante") & (s.scelta == 1)]
     c = s[(s.tipo == "copertura") & (s.scelta == 1)]
+    # Come si paga la spesa: coperture nuove, risorse già stanziate nei fondi vincolati, tariffe fuori bilancio
+    usa = prelievi[prelievi.chiave.isin(v.chiave)].groupby("fondo_id").prelievo_regime.sum()
+    get = c.assign(fondo_id=c.fondo_id.str.upper().str.strip()).groupby("fondo_id").gettito_min.sum()
+    gia = {f: round(float(x - get.get(f, 0.0)), 2) for f, x in usa.items()
+           if f not in GENERALI | FUORI_BILANCIO and x - get.get(f, 0.0) > 0.005}
+    tariffe = round(float(usa[usa.index.isin(FUORI_BILANCIO)].sum()), 2)
+    spesa, gettito = round(float(v.costo_regime.sum()), 2), round(float(c.gettito_min.sum()), 2)
+    risorse = round(gettito + sum(gia.values()) + tariffe, 2)
     return {"misure": {r.proposta_id: {"variante": r.variante, "costo": round(float(r.costo_regime), 3),
                                        "robustezza": round(float(r.robustezza), 3)} for r in v.itertuples()},
             "coperture": sorted(c.chiave.tolist()),
-            "spesa": round(float(v.costo_regime.sum()), 2),
-            "gettito": round(float(c.gettito_min.sum()), 2)}
+            "spesa": spesa, "gettito": gettito,
+            "gia_stanziati": [{"fondo": f, "nome": NOMI_FONDI.get(f, f.lower()), "mld": x} for f, x in sorted(gia.items())],
+            "tariffe": tariffe, "risorse": risorse,
+            "deficit": round(max(0.0, spesa - risorse), 2), "margine": round(max(0.0, risorse - spesa), 2)}
 
 
 def repo_url() -> str:
@@ -246,9 +275,15 @@ def main() -> int:
 
     # Scenari del programma
     scen = []
+    prel = prelievi_varianti()
     for sid, nome, desc, f in SCENARI:
-        s = scenario(RADICE / "programma" / f)
+        s = scenario(RADICE / "programma" / f, prel)
         if s:
+            difesa = (s["misure"].get("07-C5") or {}).get("costo", 0)
+            if sid == "difesa" and difesa:  # senza questa riga il totale sembra contraddire i +9,1 mld
+                it = lambda x: f"{x:.1f}".replace(".", ",")
+                desc = (f"Spesa militare in crescita graduale, +{it(difesa)} mld l'anno a regime (2034). Per restare senza "
+                        f"deficit le altre misure scendono a {it(s['spesa'] - difesa)} mld l'anno")
             scen.append({"id": sid, "nome": nome, "descrizione": desc, **s})
 
     # Coperture
