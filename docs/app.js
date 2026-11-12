@@ -66,7 +66,7 @@
   const RIF_ID = (D.schema && D.schema.scenario) || "intermedio";
   const rif = scenario(RIF_ID); // versione di riferimento dei documenti: la stessa in ogni pagina
   // Da dove vengono i soldi: coperture nuove + risorse già stanziate nei fondi vincolati + tariffe (calcolato in sistema/esporta_web.py)
-  const fontiSoldi = (sc) => [`${nf(sc.gettito, 1)} da coperture nuove`, ...(sc.gia_stanziati || []).map((f) => `${nf(f.mld, 1)} da ${f.nome} già stanziati`),
+  const fontiSoldi = (sc) => [`${nf(sc.gettito, 1)} da coperture nuove`, ...(sc.gia_stanziati || []).map((f) => `${nf(f.mld, 1)} da ${f.nome} già stanziati${/2021-2027/.test(f.nome) ? " (fino al 2029)" : ""}`),
     ...(sc.tariffe ? [`${nf(sc.tariffe, 1)} da tariffe pagate da chi usa il servizio`] : [])].join(" + ");
   const linkP = (id) => `#/programma/${encodeURIComponent(id)}`;
   const linkSeduta = (id) => `#/governo/sedute/${encodeURIComponent(id)}`;
@@ -403,7 +403,7 @@
         <li><strong>Classe</strong>: <em>nucleo robusto</em> = conviene con quasi tutti i pesi tra i valori; <em>dipende dai valori</em> = entra solo con alcuni pesi, quindi è una scelta politica; <em>in coda</em> e <em>sfavorevole</em> = conviene poco o peggiora i valori.</li>
         <li><strong>Variante</strong>: <em>piena</em>, <em>essenziale</em> (ridotta), <em>pilota</em> (sperimentazione) o <em>zero</em> (solo regole, senza spesa).</li>
         <li><strong>Costo l'anno</strong>: stima GovernAI a regime, arrotondata.</li>
-        <li><strong>Robustezza</strong>: in quante combinazioni di pesi tra i valori la proposta entra nel programma con questa variante.</li>
+        <li><strong>Robustezza</strong>: in quante combinazioni di pesi tra i valori la proposta entra nel programma con questa variante. Per le misure inserite per <em>scelta politica</em> non si calcola: ci sono perché lo ha deciso chi guida il progetto.</li>
         <li><strong>Controlli</strong>: l'esito peggiore dei controlli su Costituzione, diritto europeo e fisco. <em>Richiede notifica</em> = va comunicata alla Commissione europea come aiuto di Stato prima di partire; <em>condizionato</em> = compatibile se rispetta alcune condizioni.</li></ul></details>
       <p class="nota" id="f-conta" role="status" aria-live="polite"></p>
       <div class="tabella-box"><table class="tabella a-card"><thead><tr><th>Proposta</th><th>Classe</th><th>Variante</th><th class="num">Costo l'anno</th><th>Robustezza</th><th>Controlli</th></tr></thead><tbody id="f-corpo"></tbody></table></div>`;
@@ -422,7 +422,7 @@
       html += `<tr class="${m ? "" : "esclusa"}"><td class="principale"><a class="riga" href="${linkP(p.id)}">${esc(tit(p.titolo))}</a> <span class="nota mono">${esc(p.id)}</span>${p.linea_rossa ? " " + chip(["critico", "octagon-x", "Linea rossa in alcune versioni"]) : ""}</td>
         <td data-etichetta="Classe">${chipClasse(p.classe)}</td><td data-etichetta="Variante">${misuratore(m && m.variante)}</td>
         <td class="num" data-etichetta="Costo l'anno">${m ? euro(m.costo) : "—"}</td>
-        <td data-etichetta="Robustezza">${m ? `<span class="robustezza" aria-hidden="true"><span style="width:${Math.round(m.robustezza * 100)}%"></span></span>${Math.round(m.robustezza * 100)}%` : "—"}</td>
+        <td data-etichetta="Robustezza">${!m ? "—" : m.imposta ? `<span class="nota">scelta politica</span>` : `<span class="robustezza" aria-hidden="true"><span style="width:${Math.round(m.robustezza * 100)}%"></span></span>${Math.round(m.robustezza * 100)}%`}</td>
         <td data-etichetta="Controlli">${peggiore ? chip(ESITO_GIUR[peggiore]) : chip(["", "circle-dashed", "Non valutato"])}</td></tr>`;
     }
     $("#f-corpo").innerHTML = html || `<tr><td colspan="6" class="vuoto">Nessuna proposta con questi filtri.</td></tr>`;
@@ -469,7 +469,7 @@
             <p class="etichetta">${esc(D.aree[p.area])} · ${esc(p.id)}</p>
             <h1>${esc(tit(p.titolo))}</h1>
             <div class="chips">${chipClasse(p.classe)}${p.linea_rossa ? chip(["critico", "octagon-x", "Linea rossa in alcune versioni"]) : ""}${peggiore ? chip(ESITO_GIUR[peggiore]) : ""}</div>
-            <div class="stato">Nel programma di riferimento: ${misuratore(m && m.variante)}${m ? `<span>· ${euro(m.costo)} l'anno · robustezza ${Math.round(m.robustezza * 100)}%</span>` : `<span>· non inclusa</span>`}</div>
+            <div class="stato">Nel programma di riferimento: ${misuratore(m && m.variante)}${m ? `<span>· ${euro(m.costo)} l'anno · ${m.imposta ? "inserita per scelta politica" : `robustezza ${Math.round(m.robustezza * 100)}%`}</span>` : `<span>· non inclusa</span>`}</div>
             ${indiceMobile(voci)}
           </header>
           ${p.linea_rossa ? `<div class="avviso critico" role="alert"><div class="avviso-titolo">${icona("octagon-x")}Linea rossa in alcune versioni</div><p>Almeno una versione di questa proposta supera una linea rossa della Carta dei valori ed è esclusa in automatico. Le altre versioni restano possibili: vedi le varianti e il programma.</p></div>` : ""}
@@ -684,9 +684,10 @@
         <div class="griglia g2 g4-d">
           <div class="card kpi"><p class="etichetta">Spesa nuova</p><p class="numero">${nf(sc.spesa, 1)}<small>mld/anno</small></p><p class="nota">a regime</p>${badge("stima", STIMA)}</div>
           <div class="card kpi"><p class="etichetta">Risorse</p><p class="numero">${nf(sc.risorse ?? sc.gettito, 1)}<small>mld/anno</small></p><p class="nota">${fontiSoldi(sc)}; gettito al minimo</p></div>
-          <div class="card kpi"><p class="etichetta">Nuovo deficit</p><p class="numero">${sc.deficit > 0 ? nf(sc.deficit, 1) : "0"}<small>mld</small></p><p class="nota">${sc.deficit > 0 ? "spesa non coperta" : `risorse meno spesa: margine di ${nf(sc.margine || 0, 1)} mld`}</p></div>
+          <div class="card kpi"><p class="etichetta">Nuovo deficit</p><p class="numero">${sc.deficit > 0 ? nf(sc.deficit, 1) : "0"}<small>mld</small></p><p class="nota">${sc.deficit > 0 ? "spesa non coperta" : `margine sulle risorse generali: ${nf(sc.margine_generali ?? sc.margine ?? 0, 1)} mld${sc.vincolati_non_usati > 0 ? ` (più ${nf(sc.vincolati_non_usati, 1)} di fondi vincolati non spostabili)` : ""}`}</p></div>
           <div class="card kpi"><p class="etichetta">Misure</p><p class="numero">${Object.keys(sc.misure).length}<small>su ${D.proposte.length}</small></p><p class="nota">in ${S.missioni.length} missioni; ${Object.values(sc.misure).filter((m) => m.variante === "ZERO").length} sono solo regole, a costo zero</p></div>
         </div>
+        ${sc.temporanei_2029 > 0 ? `<div class="avviso attenzione" style="margin-top:12px"><div class="avviso-titolo">${icona("hourglass")}${nf(sc.temporanei_2029, 1)} mld di questa spesa sono pagati con i fondi europei di coesione 2021-2027.</div><p>Le spese sono ammissibili solo fino al 2029: dopo vanno sostituite con altre coperture o le misure scendono di variante. Lo diciamo prima, non dopo.</p></div>` : ""}
       </section>
 
       ${(P.indicatori_chiave || []).length ? `<section class="sezione" aria-labelledby="t-chiave">

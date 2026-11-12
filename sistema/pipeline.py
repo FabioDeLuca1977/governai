@@ -367,6 +367,10 @@ def main() -> int:
     ok, msg = esegui(["esporta_web.py"], QUI)
     print(f"interfaccia web: {msg}" if ok else f"ERRORE interfaccia web: {msg}")
 
+    # 10. coerenza tra documenti, scenari e sito: segnala, non blocca la pubblicazione dei dati
+    ok, msg = esegui(["coerenza.py"], QUI)
+    print(f"coerenza: {msg}" if ok else f"ATTENZIONE coerenza: {msg}")
+
     return 0
 
 

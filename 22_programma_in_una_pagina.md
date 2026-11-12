@@ -75,14 +75,14 @@
 - 06-C6 Dividendo della prevenzione e budget unico del farmaco (solo regole, costo zero)
 - *Fuori da questa versione:* 06-C2 Patto per il personale infermieristico e la medicina generale; 06-C5 Salute mentale al 5%
 
-**Sostenibilità.** Resta la missione più debole e lo diciamo. Le Case della Comunità e le squadre di quartiere entrano senza nuove tasse, con un gradino in meno su alcune misure di scuola e innovazione e con il ricambio selettivo degli amministrativi della sanità. Il nuovo personale infermieristico e la salute mentale restano fuori; povertà e non autosufficienza solo sperimentali.
+**Sostenibilità.** Resta la missione più debole e lo diciamo. Le Case della Comunità e le squadre di quartiere entrano senza tasse in più oltre quelle già previste, con un gradino in meno su alcune misure di scuola e innovazione e con il ricambio selettivo degli amministrativi della sanità. Il nuovo personale infermieristico e la salute mentale restano fuori; povertà e non autosufficienza solo sperimentali.
 
 **Cosa misuriamo.**
 
 - **Persone che rinunciano a cure necessarie per costo, distanza o attesa**: da 2,5% a **1,5%** in 5 anni (06-C1; base: Eurostat hlth_silc_08)
 - **Quota della spesa sanitaria per la prevenzione**: da 4,5% a **5,5%** in 5 anni (06-C6; base: ISTAT-SHA via Eurostat hlth_sha11_hc (8,56 mld))
 - **Divario di occupazione tra persone con disabilità grave e le altre**: da 43,4 punti a **37 punti** in 5 anni (02-C5; base: Eurostat tepsr_sp200)
-- **Persone senza dimora ancora in casa dopo 12 mesi**: da da rilevare a **85%** in 5 anni (02-C7)
+- **Persone senza dimora ancora in casa dopo 12 mesi**: da un valore ancora da rilevare a **85%** in 5 anni (02-C7)
 
 **Chi ne beneficia.**
 
@@ -212,7 +212,7 @@
 - 07-C3 Governance dei flussi migratori fondata sui dati (essenziale, 0,25 mld)
 - 09-C3 Squadre tecniche della Repubblica: pool di competenze per i piccoli enti (essenziale, 0,22 mld)
 - 09-C5 AI nella PA con le mani sul volante (essenziale, 0,08 mld)
-- 09-C8 Staffetta delle competenze": il ricambio generazionale come occasione di riqualificazione (essenziale, 0,08 mld)
+- 09-C8 Staffetta delle competenze: il ricambio generazionale come occasione di riqualificazione (essenziale, 0,08 mld)
 - 07-C4 Dal bene confiscato al bene comune (essenziale, 0,07 mld)
 - 09-C9 Squadra per la produttività pubblica con l'AI: meno lavoro ripetitivo, più servizi alle persone (essenziale, 0,04 mld)
 - 09-C7 Automazione dei processi ripetitivi con riallocazione garantita (pilota, 0,02 mld)

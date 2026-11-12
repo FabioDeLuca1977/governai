@@ -63,7 +63,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 01-P11 | Lo scontrino che conviene: un incentivo mirato al posto di lotterie e cashback | ZERO | 0,1 | 0,00 | 100% |
 | 05-C4 | Piu' persone con laurea o diploma terziario: ITS, lauree professionalizzanti, residenze | ESSENZIALE | 0,6 | 0,45 | 99% |
 | 07-C1 | Giustizia a regime: Ufficio per il processo e triage digitale | ESSENZIALE | 0,7 | 0,32 | 99% |
-| 09-C8 | Staffetta delle competenze": il ricambio generazionale come occasione di riqualificazione | PIENA | 1,0 | 0,23 | 99% |
+| 09-C8 | Staffetta delle competenze: il ricambio generazionale come occasione di riqualificazione | PIENA | 1,0 | 0,23 | 99% |
 | 09-C5 | AI nella PA con le mani sul volante | PIENA | 1,0 | 0,22 | 99% |
 | 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | PIENA | 1,0 | 0,02 | 99% |
 | 01-P10 | Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti | PIENA | 1,0 | 0,10 | 99% |

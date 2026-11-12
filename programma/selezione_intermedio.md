@@ -56,7 +56,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 01-P3 | IVA in tempo reale | ESSENZIALE | 0,6 | 0,08 | 100% |
 | 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | ESSENZIALE | 0,6 | 0,08 | 100% |
 | 09-C5 | AI nella PA con le mani sul volante | ESSENZIALE | 0,6 | 0,08 | 100% |
-| 09-C8 | Staffetta delle competenze": il ricambio generazionale come occasione di riqualificazione | ESSENZIALE | 0,4 | 0,08 | 100% |
+| 09-C8 | Staffetta delle competenze: il ricambio generazionale come occasione di riqualificazione | ESSENZIALE | 0,4 | 0,08 | 100% |
 | 04-P9 | Consegne pulite in citta': zone a emissioni zero per le merci | PIENA | 1,0 | 0,07 | 100% |
 | 07-C4 | Dal bene confiscato al bene comune | ESSENZIALE | 0,6 | 0,07 | 100% |
 | 04-P7 | Dal porto al treno: piu' merci sul ferro | PILOTA | 0,3 | 0,06 | 100% |

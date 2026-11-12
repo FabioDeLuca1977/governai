@@ -67,7 +67,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 09-C9 | Squadra per la produttività pubblica con l'AI: meno lavoro ripetitivo, più servizi alle persone | PIENA | 1,0 | 0,09 | 99% |
 | 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | ZERO | 0,2 | 0,00 | 99% |
 | 08-P1 | Legge sulla consulenza algoritmica pubblica | PIENA | 1,0 | 0,04 | 99% |
-| 09-C8 | Staffetta delle competenze": il ricambio generazionale come occasione di riqualificazione | ESSENZIALE | 0,4 | 0,08 | 99% |
+| 09-C8 | Staffetta delle competenze: il ricambio generazionale come occasione di riqualificazione | ESSENZIALE | 0,4 | 0,08 | 99% |
 | 06-C8 | Squadre infermieristiche autonome di quartiere per l'ADI | PILOTA | 0,1 | 0,02 | 99% |
 | 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | ZERO | 0,4 | 0,00 | 98% |
 | 05-C8 | Biblioteche di comunita' | PILOTA | 0,1 | 0,03 | 98% |

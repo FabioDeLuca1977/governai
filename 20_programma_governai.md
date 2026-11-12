@@ -11,7 +11,7 @@ Due versioni del programma, entrambe finanziate senza deficit nello scenario pru
 <!-- auto:totali -->
 - **Programma base: 8,24 mld l'anno**, 61 misure su 77, con 21 su 22 del nucleo robusto almeno in versione essenziale. Usa solo coperture a basso costo sociale.
 - **Programma completo: 13,57 mld l'anno**, 68 misure, nucleo robusto 22 su 22. Aggiunge coperture strutturali più impegnative.
-- **Programma intermedio: 9,02 mld l'anno**, 65 misure, nucleo robusto 21 su 22. Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Per scelta politica restano tutte le sette misure su ricerca, innovazione e logistica verde (alcune in versione ridotta) e la squadra per la produttività pubblica con l'AI (09-C9) in versione essenziale; dal 12 novembre 2026 entrano senza nuove tasse le Case della Comunità (06-C3), 500 squadre infermieristiche di quartiere (06-C8) e la riqualificazione degli amministrativi della sanità (06-C10). Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
+- **Programma intermedio: 9,02 mld l'anno**, 65 misure, nucleo robusto 21 su 22. Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo straordinario sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Per scelta politica restano tutte le sette misure su ricerca, innovazione e logistica verde (alcune in versione ridotta) e la squadra per la produttività pubblica con l'AI (09-C9) in versione essenziale; dal 12 novembre 2026 entrano, senza tasse in più oltre quelle già nel programma, le Case della Comunità (06-C3), 500 squadre infermieristiche di quartiere (06-C8) e la riqualificazione degli amministrativi della sanità (06-C10). Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
 - **Programma adottato dal governo ombra** (simulazione, `governo/`): 11,63 mld l'anno, 55 misure, coperture al minimo per 11,12 mld più i fondi vincolati.
 <!-- /auto:totali -->
 
@@ -134,7 +134,7 @@ Costi in mld €/anno a regime. "—" = non inclusa. L'ultima colonna è la deci
 | 09-C5 | AI nella PA con le mani sul volante | **Nucleo** | Piena 0,22 | Piena 0,22 | Piena 0,22 |
 | 09-C6 | Lavoro pubblico misurato e giusto": organizzazione, valutazione vera e responsabilità | Valori | Piena 0,03 | Piena 0,03 | Piena 0,03 |
 | 09-C7 | Automazione dei processi ripetitivi con riallocazione garantita | Valori | Piena 0,20 | Piena 0,20 | Essenziale 0,07 |
-| 09-C8 | Staffetta delle competenze": il ricambio generazionale come occasione di riqualificazione | **Nucleo** | Essenziale 0,08 | Piena 0,23 | Essenziale 0,08 |
+| 09-C8 | Staffetta delle competenze: il ricambio generazionale come occasione di riqualificazione | **Nucleo** | Essenziale 0,08 | Piena 0,23 | Essenziale 0,08 |
 | 09-C9 | Squadra per la produttività pubblica con l'AI: meno lavoro ripetitivo, più servizi alle persone | Valori | Piena 0,09 | Piena 0,09 | — |
 | | **Totale** | | **8,24** | **13,57** | **11,63** |
 <!-- /auto:misure -->
@@ -242,17 +242,17 @@ Con la traiettoria al 2,5%:
 
 La verifica giuridica è «condizionata»: la legge deve derogare espressamente alle regole su eccedenze e trasferimenti (artt. 30, 33-34 d.lgs. 165/2001), rispettare l'AI Act e quantificare la nuova copertura R12-2 (posta, stampa e archivi cartacei dello Stato) su capitoli certificati dalla RGS.
 
-**6. La sanità senza nuove tasse.** Il 12 novembre 2026 chi guida il progetto ha chiesto di far entrare la sanità nel programma intermedio **senza nuove tasse**, perché giudica il sistema fiscale già iniquo, e di distribuire i sacrifici senza togliere troppo a nessuna funzione. Un agente ha studiato più combinazioni con l'ottimizzatore; la scelta è caduta sulla più equilibrata. Entrano:
+**6. La sanità senza tasse in più.** Il 12 novembre 2026 chi guida il progetto ha chiesto di far entrare la sanità nel programma intermedio **senza tasse in più oltre quelle già previste** (accise su tabacco, alcol e bevande zuccherate, forfettario, rivalutazione ridotta delle pensioni più alte), perché giudica il sistema fiscale già iniquo, e di distribuire i sacrifici senza togliere troppo a nessuna funzione. Un agente ha studiato più combinazioni con l'ottimizzatore; la scelta è caduta sulla più equilibrata. Entrano:
 - 06-C3 Case della Comunità vive, in versione essenziale (0,80 mld);
 - 06-C8 Squadre infermieristiche di quartiere, da pilota a essenziale: 500 squadre per l'assistenza a domicilio (0,10 mld);
 - 06-C10 Meno burocrazia, più cura, nuova proposta: automazione degli uffici sanitari e riqualificazione volontaria degli amministrativi (0,02 mld a regime), con la nuova copertura RP08 (ricambio selettivo degli amministrativi del SSN, 0,05-0,13 mld).
 
-Il prezzo, dichiarato: nessuna misura del nucleo robusto esce (22 su 22 nel programma), ma molte scendono di un gradino:
+Il prezzo, dichiarato: nessuna misura del nucleo robusto esce (tutte e 22 restano nel programma, 21 con spesa: 02-C5 è solo regole), ma molte scendono di un gradino:
 - **scuola**: 05-C4 più persone con laurea o diploma ITS e 05-C5 scuole aperte, da piena a essenziale;
 - **innovazione**: 05-C10 rete per la ricerca applicata, 04-P7 dal porto al treno e 01-P14 Sfide Italia diventano pilota; 01-P15 spin-off resta solo come regole; 04-P8 camion a zero emissioni scende a essenziale; restano pieni 01-P13 credito per la ricerca e 04-P9 consegne pulite;
 - **fisco e istituzioni**: 01-P12 da piena a essenziale; ritocchi minimi a 01-P2, 08-P2, 08-P7.
 
-Due limiti, dichiarati: il margine è nullo (le risorse generali coprono la spesa esatta) e il personale infermieristico nuovo (06-C2) resta fuori; il ricambio selettivo di RP08 cresce negli anni e potrà finanziarne una parte. Ricerca di confronto in `benchmark/nord_europa_efficienza_spesa.md`.
+Tre limiti, dichiarati: il margine sulle risorse generali è nullo (coprono la spesa esatta; il margine mostrato nei totali è di fondi vincolati non spostabili); circa 1,7 mld di spesa sono pagati con i fondi europei di coesione 2021-2027, che finiscono nel 2029 e andranno sostituiti; il personale infermieristico nuovo (06-C2) resta fuori, e senza di esso le Case della Comunità perdono efficacia; il ricambio selettivo di RP08 cresce negli anni e potrà finanziarne una parte. Ricerca di confronto in `benchmark/nord_europa_efficienza_spesa.md`.
 
 ## 7. Cosa manca e cosa fare dopo
 

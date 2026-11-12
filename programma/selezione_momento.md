@@ -73,7 +73,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 07-C4 | Dal bene confiscato al bene comune | PIENA | 1,0 | 0,15 | 99% |
 | 02-C6 | Bilancio generazionale e strategia demografica | ZERO | 0,3 | 0,00 | 99% |
 | 01-P8 | Meno scontrini: riordino delle detrazioni del 19% | ZERO | 0,4 | 0,00 | 99% |
-| 09-C8 | Staffetta delle competenze": il ricambio generazionale come occasione di riqualificazione | PIENA | 1,0 | 0,23 | 98% |
+| 09-C8 | Staffetta delle competenze: il ricambio generazionale come occasione di riqualificazione | PIENA | 1,0 | 0,23 | 98% |
 | 09-C3 | Squadre tecniche della Repubblica: pool di competenze per i piccoli enti | ESSENZIALE | 0,5 | 0,22 | 97% |
 | 01-P4 | Crescere conviene: eliminare i gradini dimensionali | ZERO | 0,2 | 0,01 | 97% |
 | 05-C9 | Zaino culturale a scuola e tariffa sociale della cultura | PIENA | 1,0 | 0,20 | 95% |

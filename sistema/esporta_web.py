@@ -33,7 +33,7 @@ AREE = {"01": "Economia, Imprese, Turismo", "02": "Lavoro, Welfare, Famiglia", "
 SCENARI = [
     ("base", "Programma base", "Solo coperture a basso costo sociale", "selezione_livello1.csv"),
     ("completo", "Programma completo", "Con le coperture strutturali", "selezione_livello2.csv"),
-    ("intermedio", "Programma intermedio", "Nessun aumento di tasse su casa, eredità, affitti e IVA; più istruzione e servizi sociali; ricerca, innovazione, logistica verde e squadra per la produttività pubblica con l'AI inserite per scelta politica; restano accise su tabacco e alcol e il riordino di agevolazioni e sussidi dannosi; dal 12 novembre 2026 entrano senza nuove tasse Case della Comunità, squadre infermieristiche di quartiere e riqualificazione degli amministrativi della sanità", "selezione_intermedio.csv"),
+    ("intermedio", "Programma intermedio", "Nessun aumento di tasse su casa, eredità, affitti e IVA; più istruzione e servizi sociali; ricerca, innovazione, logistica verde e squadra per la produttività pubblica con l'AI inserite per scelta politica; restano accise su tabacco e alcol e il riordino di agevolazioni e sussidi dannosi; dal 12 novembre 2026 entrano, senza tasse in più oltre quelle già previste, Case della Comunità, squadre infermieristiche di quartiere e riqualificazione degli amministrativi della sanità", "selezione_intermedio.csv"),
     ("momento", "Completo adattato ai dati di oggi", "Il programma completo ricalcolato con le priorità delle allerte attive: cambia quando cambiano i dati e serve a vedere che cosa suggerirebbero, non è un impegno", "selezione_momento.csv"),
     ("dividendo", "Completo + dividendo climatico", "Restituzione compensativa di 1,2 mld del gettito dal taglio dei sussidi ambientalmente dannosi (SAD)", "selezione_dividendo.csv"),
     ("difesa", "Completo + Difesa al 2,5%", "Traiettoria graduale della spesa militare (+9,1 mld)", "selezione_difesa.csv"),
@@ -113,13 +113,23 @@ def scenario(file: Path, prelievi: pd.DataFrame) -> dict | None:
     tariffe = round(float(usa[usa.index.isin(FUORI_BILANCIO)].sum()), 2)
     spesa, gettito = round(float(v.costo_regime.sum()), 2), round(float(c.gettito_min.sum()), 2)
     risorse = round(gettito + sum(gia.values()) + tariffe, 2)
+    # Margine vero: solo le risorse generali sono spostabili da una spesa all'altra; il resto è vincolato
+    margine_gen = round(float(get[get.index.isin(GENERALI)].sum() - usa[usa.index.isin(GENERALI)].sum()), 2)
+    # Spesa pagata con la coesione 2021-2027: le spese sono ammissibili solo fino al 2029, poi va sostituita
+    temporanei = round(float(usa.get("COESIONE_2127", 0.0)), 2)
+    # Varianti imposte per scelta politica (riga "Vincoli di scenario" del file .md dell'ottimizzatore)
+    vincoli = re.search(r"forzate \[([^\]]*)\]", leggi(file.with_suffix(".md")))
+    forzate = sorted(re.findall(r"'([^']+)'", vincoli.group(1))) if vincoli else []
     return {"misure": {r.proposta_id: {"variante": r.variante, "costo": round(float(r.costo_regime), 3),
-                                       "robustezza": round(float(r.robustezza), 3)} for r in v.itertuples()},
+                                       "robustezza": round(float(r.robustezza), 3),
+                                       **({"imposta": True} if r.chiave in forzate else {})} for r in v.itertuples()},
             "coperture": sorted(c.chiave.tolist()),
             "spesa": spesa, "gettito": gettito,
             "gia_stanziati": [{"fondo": f, "nome": NOMI_FONDI.get(f, f.lower()), "mld": x} for f, x in sorted(gia.items())],
             "tariffe": tariffe, "risorse": risorse,
-            "deficit": round(max(0.0, spesa - risorse), 2), "margine": round(max(0.0, risorse - spesa), 2)}
+            "deficit": round(max(0.0, spesa - risorse), 2), "margine": round(max(0.0, risorse - spesa), 2),
+            "margine_generali": max(margine_gen, 0.0), "vincolati_non_usati": round(max(0.0, risorse - spesa - max(margine_gen, 0.0)), 2),
+            "temporanei_2029": temporanei}
 
 
 def repo_url() -> str:

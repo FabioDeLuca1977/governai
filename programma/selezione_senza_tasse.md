@@ -43,7 +43,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 06-C4 | Budget di cura per la non autosufficienza | PILOTA | 0,1 | 0,10 | 100% |
 | 02-C7 | Housing First dopo il PNRR | ESSENZIALE | 0,6 | 0,09 | 100% |
 | 01-P3 | IVA in tempo reale | ESSENZIALE | 0,6 | 0,08 | 100% |
-| 09-C8 | Staffetta delle competenze": il ricambio generazionale come occasione di riqualificazione | ESSENZIALE | 0,4 | 0,08 | 100% |
+| 09-C8 | Staffetta delle competenze: il ricambio generazionale come occasione di riqualificazione | ESSENZIALE | 0,4 | 0,08 | 100% |
 | 07-C4 | Dal bene confiscato al bene comune | ESSENZIALE | 0,6 | 0,07 | 100% |
 | 05-C10 | Rete nazionale per la ricerca applicata sul modello Fraunhofer | PILOTA | 0,1 | 0,05 | 100% |
 | 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 100% |

@@ -39,7 +39,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 06-C3 | Case della Comunita' vive | ESSENZIALE | 0,6 | 0,80 | 100% |
 | 03-P3 | Ogni goccia conta: reti idriche e riuso | ESSENZIALE | 0,6 | 0,60 | 100% |
 | 05-C2 | Conto personale di competenze | ESSENZIALE | 0,5 | 0,45 | 100% |
-| 09-C8 | Staffetta delle competenze": il ricambio generazionale come occasione di riqualificazione | PIENA | 1,0 | 0,23 | 100% |
+| 09-C8 | Staffetta delle competenze: il ricambio generazionale come occasione di riqualificazione | PIENA | 1,0 | 0,23 | 100% |
 | 02-C7 | Housing First dopo il PNRR | PIENA | 1,0 | 0,15 | 100% |
 | 07-C4 | Dal bene confiscato al bene comune | PIENA | 1,0 | 0,15 | 100% |
 | 09-C9 | Squadra per la produttività pubblica con l'AI: meno lavoro ripetitivo, più servizi alle persone | PIENA | 1,0 | 0,09 | 100% |

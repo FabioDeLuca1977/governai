@@ -61,7 +61,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 01-P9 | Una sola detrazione per il lavoro, senza scalini | ZERO | 0,2 | 0,00 | 100% |
 | 01-P11 | Lo scontrino che conviene: un incentivo mirato al posto di lotterie e cashback | ZERO | 0,1 | 0,00 | 100% |
 | 05-C4 | Piu' persone con laurea o diploma terziario: ITS, lauree professionalizzanti, residenze | ESSENZIALE | 0,6 | 0,45 | 100% |
-| 09-C8 | Staffetta delle competenze": il ricambio generazionale come occasione di riqualificazione | PIENA | 1,0 | 0,23 | 100% |
+| 09-C8 | Staffetta delle competenze: il ricambio generazionale come occasione di riqualificazione | PIENA | 1,0 | 0,23 | 100% |
 | 02-C7 | Housing First dopo il PNRR | PIENA | 1,0 | 0,15 | 100% |
 | 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | PIENA | 1,0 | 0,02 | 100% |
 | 05-C3 | Carriere della ricerca | ZERO | 0,1 | 0,00 | 100% |

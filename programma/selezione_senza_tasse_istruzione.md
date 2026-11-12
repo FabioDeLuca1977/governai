@@ -39,7 +39,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 02-C7 | Housing First dopo il PNRR | ESSENZIALE | 0,6 | 0,09 | 100% |
 | 01-P3 | IVA in tempo reale | ESSENZIALE | 0,6 | 0,08 | 100% |
 | 05-C6 | AI a scuola | ESSENZIALE | 0,5 | 0,08 | 100% |
-| 09-C8 | Staffetta delle competenze": il ricambio generazionale come occasione di riqualificazione | ESSENZIALE | 0,4 | 0,08 | 100% |
+| 09-C8 | Staffetta delle competenze: il ricambio generazionale come occasione di riqualificazione | ESSENZIALE | 0,4 | 0,08 | 100% |
 | 07-C4 | Dal bene confiscato al bene comune | ESSENZIALE | 0,6 | 0,07 | 100% |
 | 08-P7 | Appalti a vetro: cruscotto pubblico dei rischi e dati aperti completi | PIENA | 1,0 | 0,01 | 100% |
 | 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | ZERO | 0,4 | 0,00 | 100% |
