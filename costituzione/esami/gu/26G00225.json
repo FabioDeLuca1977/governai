@@ -1,0 +1,200 @@
+{
+ "origine": "legislazione/archivio/testi/2026/26G00225.txt",
+ "data_riferimento": "2026-11-12",
+ "articoli": 29,
+ "alto": [
+  "12",
+  "18",
+  "21"
+ ],
+ "medio": [
+  "5",
+  "6",
+  "11",
+  "15",
+  "19",
+  "23"
+ ],
+ "rilievi": [
+  {
+   "art": "2",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "norma_ordinamentale_bilancio",
+   "livello": "basso",
+   "comma": "3",
+   "nota": "norma organizzatoria: estranea alla legge di bilancio se senza effetti finanziari"
+  },
+  {
+   "art": "5",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "fondo_soppresso_ridotto",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "definanziamento: corrispondenza funzioni-risorse (art. 119, quarto comma)"
+  },
+  {
+   "art": "6",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "statale_senza_intesa",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "atto statale in materia regionale senza intesa"
+  },
+  {
+   "art": "11",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "fondo_soppresso_ridotto",
+   "livello": "medio",
+   "comma": "2",
+   "nota": "definanziamento: corrispondenza funzioni-risorse (art. 119, quarto comma)"
+  },
+  {
+   "art": "12",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "alto",
+   "comma": "1",
+   "nota": "decorrenza 2016-08-24 anteriore alla data di riferimento 2026-11-12"
+  },
+  {
+   "art": "12",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "alto",
+   "comma": "2",
+   "nota": "decorrenza 2016-08-24 anteriore alla data di riferimento 2026-11-12"
+  },
+  {
+   "art": "12",
+   "rubrica": "",
+   "parametro": "ue_internazionale",
+   "segnale": "vantaggio_selettivo",
+   "livello": "medio",
+   "comma": "8",
+   "nota": "possibile vantaggio selettivo (artt. 107-108 TFUE); nessun richiamo a GBER, de minimis o autorizzazione della Commissione nell'articolo"
+  },
+  {
+   "art": "15",
+   "rubrica": "",
+   "parametro": "ue_internazionale",
+   "segnale": "vantaggio_selettivo",
+   "livello": "medio",
+   "comma": "6",
+   "nota": "possibile vantaggio selettivo (artt. 107-108 TFUE); nessun richiamo a GBER, de minimis o autorizzazione della Commissione nell'articolo"
+  },
+  {
+   "art": "18",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "fondo_regionale_ridotto",
+   "livello": "alto",
+   "comma": "1",
+   "nota": "fondo o risorse in materia regionale soppressi o ridotti: corrispondenza funzioni-risorse"
+  },
+  {
+   "art": "18",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "fondo_soppresso_ridotto",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "definanziamento: corrispondenza funzioni-risorse (art. 119, quarto comma)"
+  },
+  {
+   "art": "18",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "fondo_soppresso_ridotto",
+   "livello": "medio",
+   "comma": "4",
+   "nota": "definanziamento: corrispondenza funzioni-risorse (art. 119, quarto comma)"
+  },
+  {
+   "art": "18",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "poteri_sostitutivi",
+   "livello": "basso",
+   "comma": "3",
+   "nota": "verificare diffida, proporzionalita' e art. 8 L. 131/2003"
+  },
+  {
+   "art": "19",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "fondo_soppresso_ridotto",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "definanziamento: corrispondenza funzioni-risorse (art. 119, quarto comma)"
+  },
+  {
+   "art": "21",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "alto",
+   "comma": "3",
+   "nota": "decorrenza 2026-07-31 anteriore alla data di riferimento 2026-11-12"
+  },
+  {
+   "art": "21",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "alto",
+   "comma": "7",
+   "nota": "decorrenza 2026-07-31 anteriore alla data di riferimento 2026-11-12"
+  },
+  {
+   "art": "21",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "medio",
+   "comma": "10",
+   "nota": "decorrenza 2026-07-31 anteriore alla data di riferimento 2026-11-12"
+  },
+  {
+   "art": "21",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "medio",
+   "comma": "11",
+   "nota": "decorrenza 2026-07-31 anteriore alla data di riferimento 2026-11-12"
+  },
+  {
+   "art": "21",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "medio",
+   "comma": "12",
+   "nota": "decorrenza 2026-07-31 anteriore alla data di riferimento 2026-11-12"
+  },
+  {
+   "art": "21",
+   "rubrica": "",
+   "parametro": "decreti_legge",
+   "segnale": "dl_conversione",
+   "livello": "basso",
+   "comma": "12",
+   "nota": "modifica in sede di conversione: verificare il nesso"
+  },
+  {
+   "art": "23",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "decorrenza 2023-05-01 anteriore alla data di riferimento 2026-11-12"
+  }
+ ]
+}

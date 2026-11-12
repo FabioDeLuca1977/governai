@@ -1,22 +1,20 @@
-# Bollettino GovernAI — 2026-11-11
+# Bollettino GovernAI — 2026-11-12
 
-*Generato automaticamente da `sistema/pipeline.py` alle 13:56. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 09:04. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
 - Modalità di aggiornamento: **mirato**
-- Dataset Eurostat aggiornati: sts_inpr_m
+- Dataset Eurostat aggiornati: nama_10_gdp, nama_10_lp_ulc, namq_10_gdp
 - File ufficiali aggiornati: 0
-- Serie cambiate e archiviate in `dati/storico/`: 00c_produzione_industriale
-- Documenti nuovi sulle pagine osservate: 8
-  - MEF - Documenti di finanza pubblica: https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/Attivit--i/Contabilit_e_finanza_pubblica/DPB/2027/DPB-2027.pdf
-  - ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/nota-sullandamento-e-prospettive-delleconomia-italiana-anni-2026-2027-aggiornamento-novembre/
-  - ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/produzione-industriale-settembre-2026/
-  - ISTAT - Home e comunicati: https://www.istat.it/documenti/tavole-di-dati/
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=315f7dd2-2978-48a5-98d1-92e787d0d903
-  - Corte dei conti: https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=86fafcd2-c3ef-4cf3-9df8-e64b8a6e846b
-  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/10/26E06207/s4
-  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/10/26G00219/sg
+- Serie cambiate e archiviate in `dati/storico/`: nessuna
+- Documenti nuovi sulle pagine osservate: 6
+  - ISTAT - Home e comunicati: https://www.istat.it/documenti/microdati/
+  - ISTAT - Home e comunicati: https://www.istat.it/notizia/raccolta-manifestazione-interesse-per-accordo-collaborazione-progetto-informazione-statistica-territoriale-e-settoriale-politiche-di-coesione-2027-29/
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=db24e249-632b-4db2-accf-a9dd9d42f528
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-11&numeroGazzetta=129
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/corte_costituzionale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-11&numeroGazzetta=45
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-11&numeroGazzetta=263
 
 ## 2. Cruscotto
 
@@ -56,74 +54,25 @@
 
 ## 4. Programma del momento
 
-Il programma di riferimento (tutte le coperture, nucleo robusto prima) costa **13,52 mld/anno**; il programma adattato al momento costa **13,49 mld/anno**. Entrambi sono finanziati senza deficit.
-
-**Differenze rispetto al riferimento** (effetto delle allerte):
-
-- 01-P14: PILOTA → ESSENZIALE
-- 01-P5: ESSENZIALE → PIENA
-- 02-C1: ZERO → PIENA
-- 03-P5: ESSENZIALE → PILOTA
-- 04-P8: PIENA → ZERO
-- 05-C10: PILOTA → esclusa
-- 07-C2: PIENA → ESSENZIALE
-- 08-P6: PILOTA → esclusa
-
-**Cambiamenti rispetto al bollettino precedente:**
-
-- 01-P13: esclusa → ZERO
-- 01-P14: esclusa → ESSENZIALE
-- 01-P15: esclusa → PIENA
-- 02-C6: PIENA → ZERO
-- 02-C7: esclusa → PIENA
-- 03-P3: esclusa → ESSENZIALE
-- 03-P5: PIENA → PILOTA
-- 04-P2: ESSENZIALE → esclusa
-- 04-P7: esclusa → PILOTA
-- 04-P8: esclusa → ZERO
-- 04-P9: esclusa → PIENA
-- 05-C7: esclusa → ESSENZIALE
-- 05-C8: esclusa → PIENA
-- 05-C9: esclusa → PIENA
-- 06-C3: esclusa → ESSENZIALE
-- 06-C8: esclusa → PIENA
-- 06-C9: esclusa → PIENA
-- 07-C1: PIENA → ESSENZIALE
-- 07-C2: PIENA → ESSENZIALE
-- 07-C3: PIENA → ESSENZIALE
-- 08-P6: PILOTA → esclusa
-- 09-C2: PIENA → ESSENZIALE
-- 09-C3: PIENA → ESSENZIALE
-- 09-C9: esclusa → PIENA
-
-Dettaglio: `programma/selezione_momento.md`.
+Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
 
 ## 5. Revisione AI richiesta
 
-**8 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
-- [documento_nuovo] MEF - Documenti di finanza pubblica: https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/Attivit--i/Contabilit_e_finanza_pubblica/DPB/2027/DPB-2027.pdf → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/nota-sullandamento-e-prospettive-delleconomia-italiana-anni-2026-2027-aggiornamento-novembre/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/produzione-industriale-settembre-2026/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/documenti/tavole-di-dati/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=315f7dd2-2978-48a5-98d1-92e787d0d903 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=86fafcd2-c3ef-4cf3-9df8-e64b8a6e846b → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/10/26E06207/s4 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/10/26G00219/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+**6 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
+- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/documenti/microdati/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/notizia/raccolta-manifestazione-interesse-per-accordo-collaborazione-progetto-informazione-statistica-territoriale-e-settoriale-politiche-di-coesione-2027-29/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=db24e249-632b-4db2-accf-a9dd9d42f528 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-11&numeroGazzetta=129 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/corte_costituzionale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-11&numeroGazzetta=45 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-11&numeroGazzetta=263 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
 
 ## Registro tecnico
 
-- sentinella: sentinella: mirato; Eurostat aggiornati 1, file 0, documenti nuovi 8, serie cambiate 1, errori 0
+- sentinella: sentinella: mirato; Eurostat aggiornati 3, file 0, documenti nuovi 6, serie cambiate 0, errori 0
 - apprendimento: 193 KPI, stati {'manuale': 147, 'in osservazione': 46}, aree calibrate 0
-- legislazione: archivio GU: 621 atti, 621 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
-- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
-- costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
+- legislazione: archivio GU: 646 atti, 646 con testo; nuovi 25; testi scaricati 25; richieste 150; errori 0
+- europa: europa: 822 atti GU L in archivio, 323 negli ultimi 30 giorni; 144 direttive con termine (23 critiche, 11 alte); 84 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 24
+- costituzione: 2 atti con forza di legge esaminati; con segnali alti 1: decreto-legge n. 205/2026 (artt. 12, 18, 21)
 - consiglio: 95 previsioni, 0 verificate oggi, 0 verificate in totale
 - verifica sedute: 2 attive, 2 confermate, 0 da riesaminare
-- controlla.py: avvisi: 0  ->  bilancio.md
-- decidi.py: -> esito.md, esito_proposte.csv
-- ottimizza.py (riferimento): spesa 13.52  coperture 11.37  proposte 68/76  -> selezione_riferimento.md
-- ottimizza.py (momento): spesa 13.49  coperture 11.37  proposte 66/76  -> selezione_momento.md
-
-## 6. Nota del livello AI
-
-Livello AI non eseguito: credenziali dell'API di Claude assenti (impostare la variabile d'ambiente ANTHROPIC_API_KEY).
+- modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta

@@ -1,18 +1,21 @@
 {
- "data": "2026-11-11T13:54:22",
+ "data": "2026-11-12T09:00:09",
  "prima_esecuzione": false,
  "eurostat_aggiornati": [
-  "sts_inpr_m"
+  "nama_10_gdp",
+  "nama_10_lp_ulc",
+  "namq_10_gdp"
  ],
  "file_aggiornati": [],
  "documenti_nuovi": [
   {
-   "pagina": "MEF - Documenti di finanza pubblica",
+   "pagina": "ISTAT - Home e comunicati",
    "aree": [
-    "00",
-    "01"
+    "02",
+    "05",
+    "06"
    ],
-   "documento": "https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/Attivit--i/Contabilit_e_finanza_pubblica/DPB/2027/DPB-2027.pdf"
+   "documento": "https://www.istat.it/documenti/microdati/"
   },
   {
    "pagina": "ISTAT - Home e comunicati",
@@ -21,25 +24,7 @@
     "05",
     "06"
    ],
-   "documento": "https://www.istat.it/comunicato-stampa/nota-sullandamento-e-prospettive-delleconomia-italiana-anni-2026-2027-aggiornamento-novembre/"
-  },
-  {
-   "pagina": "ISTAT - Home e comunicati",
-   "aree": [
-    "02",
-    "05",
-    "06"
-   ],
-   "documento": "https://www.istat.it/comunicato-stampa/produzione-industriale-settembre-2026/"
-  },
-  {
-   "pagina": "ISTAT - Home e comunicati",
-   "aree": [
-    "02",
-    "05",
-    "06"
-   ],
-   "documento": "https://www.istat.it/documenti/tavole-di-dati/"
+   "documento": "https://www.istat.it/notizia/raccolta-manifestazione-interesse-per-accordo-collaborazione-progetto-informazione-statistica-territoriale-e-settoriale-politiche-di-coesione-2027-29/"
   },
   {
    "pagina": "Corte dei conti",
@@ -47,15 +32,7 @@
     "00",
     "04"
    ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=315f7dd2-2978-48a5-98d1-92e787d0d903"
-  },
-  {
-   "pagina": "Corte dei conti",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "documento": "https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=86fafcd2-c3ef-4cf3-9df8-e64b8a6e846b"
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=db24e249-632b-4db2-accf-a9dd9d42f528"
   },
   {
    "pagina": "Gazzetta Ufficiale",
@@ -71,7 +48,7 @@
     "08",
     "09"
    ],
-   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/10/26E06207/s4"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-11&numeroGazzetta=129"
   },
   {
    "pagina": "Gazzetta Ufficiale",
@@ -87,15 +64,32 @@
     "08",
     "09"
    ],
-   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/10/26G00219/sg"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/corte_costituzionale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-11&numeroGazzetta=45"
+  },
+  {
+   "pagina": "Gazzetta Ufficiale",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-11&numeroGazzetta=263"
   }
  ],
  "errori": [],
  "script": {
-  "00c_congiuntura.py": "ok"
+  "00_macro.py": "ok",
+  "00c_congiuntura.py": "ok",
+  "01_economia.py": "ok",
+  "bm_benchmark.py": "ok"
  },
- "serie_cambiate": [
-  "00c_produzione_industriale"
- ],
+ "serie_cambiate": [],
  "modalita": "mirato"
 }
