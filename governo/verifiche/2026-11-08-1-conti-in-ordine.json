@@ -2,10 +2,14 @@
  "seduta": "2026-11-08-1-conti-in-ordine",
  "verificata": "2026-11-12",
  "eta_giorni": 4,
- "esito": "confermata",
- "motivi": [],
+ "esito": "da riesaminare",
+ "motivi": [
+  "Spread IT-DE (punti base): 88.9 (2026-09) → 126.4 (2026-10)",
+  "allerta nuova: spread_in_salita"
+ ],
  "note": [
   "programma in vigore finanziabile senza deficit (spesa 12.25  coperture 11.47  proposte 67/76)"
  ],
- "titolo": "Conti in ordine senza tagliare i servizi essenziali"
+ "titolo": "Conti in ordine senza tagliare i servizi essenziali",
+ "riesame_accodato": "2026-11-12-riesame-2026-11-08-1-conti-in-ordine.md"
 }

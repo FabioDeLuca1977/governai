@@ -55,10 +55,10 @@
   "valori": [
    "FUT"
   ],
-  "periodo": "2026-09",
-  "valore": 4.362,
-  "delta": 0.376,
-  "delta12": 0.802,
+  "periodo": "2026-10",
+  "valore": 4.68,
+  "delta": 0.318,
+  "delta12": 1.238,
   "provvisorio": false,
   "stato": "ok"
  },
@@ -71,10 +71,10 @@
    "FUT",
    "FID"
   ],
-  "periodo": "2026-09",
-  "valore": 88.9,
-  "delta": 8.8,
-  "delta12": 1.9,
+  "periodo": "2026-10",
+  "valore": 126.4,
+  "delta": 37.5,
+  "delta12": 43.9,
   "provvisorio": false,
   "stato": "ok"
  },

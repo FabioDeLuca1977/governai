@@ -2,8 +2,11 @@
  "seduta": "2026-11-08",
  "verificata": "2026-11-12",
  "eta_giorni": 4,
- "esito": "confermata",
- "motivi": [],
+ "esito": "da riesaminare",
+ "motivi": [
+  "Spread IT-DE (punti base): 88.9 (2026-09) → 126.4 (2026-10)",
+  "allerta nuova: spread_in_salita"
+ ],
  "note": [],
  "titolo": "Prima seduta. Allerte attive: inflazione al 5,6% e in salita, debito/PIL in aumento, fiducia dei consumatori in calo, PIL fermo nel terzo trimestre."
 }
