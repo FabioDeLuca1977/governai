@@ -97,6 +97,24 @@ def controlla() -> list[str]:
         for voce in (x.get("dopo_2029") or {}).get("voci", []):
             if voce["esito"] == "da_decidere":
                 errori.append(f"programma/coesione_dopo_2029.csv: manca {voce['id']} ({voce['mld']} mld di coesione nell'intermedio)")
+    # 8. conteggi di varianti e coperture citati in README e nel documento di programma
+    import glob
+    n_var = int(pd.concat([pd.read_csv(f) for f in glob.glob(str(RADICE / "programma" / "varianti" / "*.csv"))])
+                .drop_duplicates(["proposta_id", "variante"]).shape[0])
+    n_cop = len(pd.read_csv(RADICE / "programma" / "coperture_menu.csv"))
+    for doc in ["README.md", "20_programma_governai.md"]:
+        t = leggi(doc)
+        for m in re.finditer(r"(\d+) varianti\b[^|\n]{0,60}?(\d+) misure di copertura", t):
+            if int(m.group(1)) != n_var or int(m.group(2)) != n_cop:
+                errori.append(f"{doc}: {m.group(1)} varianti e {m.group(2)} coperture citate, nei file sono {n_var} e {n_cop}")
+    # 9. punti numerati della sezione sulle scelte politiche del documento 20: nessun numero saltato
+    nums = [int(x) for x in re.findall(r"^\*\*(\d+)\. ", leggi("20_programma_governai.md"), re.M)]
+    if nums and nums != list(range(1, len(nums) + 1)):
+        errori.append(f"20_programma_governai.md: punti numerati non consecutivi {nums}")
+    # 10. dato di spesa dei fondi europei: un solo valore aggiornato nei documenti e nella scheda 09-C10
+    for rel in DOCUMENTI + ["programma/schede/12_pa_produttiva.md"]:
+        if "8,03%" in leggi(rel):
+            errori.append(f"{rel}: dato superato sui pagamenti dei fondi europei (8,03% al 2025)")
     rel_files = TESTI + ["revisioni/2026-11-08_analista_politico.md"]
     for rel in rel_files:
         t = leggi(rel)

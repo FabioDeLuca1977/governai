@@ -272,7 +272,7 @@ FONDI = [
     ("COESIONE_2834", "Risorse coesione del prossimo ciclo (QFP 2028-34)", 0.0, 3.0, 0.0, "incerta", "no", "si",
      "Commissione UE, proposta QFP 2028-34 (Fondo piani di partenariato 865 mld); stima IFEL per l'Italia 86,6 mld inclusa la PAC (fonte secondaria)",
      "stima GovernAI. Negoziato non concluso; la cifra italiana include PAC e Fondo clima ed è quindi in gran parte già prenotata. Spesa effettiva non prima del 2029. Nessun valore nei documenti di finanza pubblica"),
-    ("PENSIONI", "Rivalutazione ridotta delle pensioni più alte e risparmi dall'uscita dalle quote", 0.3, 1.0, 0.0, "permanente", "no", "si",
+    ("PENSIONI", "Contributo di equità sulle pensioni più alte e risparmi dall'uscita dalle quote", 0.3, 1.0, 0.0, "permanente", "no", "si",
      "verifica 02_lavoro.md (C3: nessuna stima ufficiale); DDL bilancio 2027 (proroga solo Ape sociale, 0,9 mld nel triennio)",
      "stima GovernAI solo per il contributo di equità sulle pensioni alte. Il DDL 2027 non proroga le quote: il risparmio dall'uscita è già nel tendenziale, quindi non è una risorsa nuova (capienza 0). Il gettito di un contributo è una DRM"),
     ("TASSA_SOGGIORNO", "Gettito aggiuntivo della tassa di soggiorno (Comuni)", 0.1, 0.4, 1.0, "permanente", "no", "si",

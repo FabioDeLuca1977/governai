@@ -33,7 +33,7 @@ AREE = {"01": "Economia, Imprese, Turismo", "02": "Lavoro, Welfare, Famiglia", "
 SCENARI = [
     ("base", "Programma base", "Solo coperture a basso costo sociale", "selezione_livello1.csv"),
     ("completo", "Programma completo", "Con le coperture strutturali", "selezione_livello2.csv"),
-    ("intermedio", "Programma intermedio", "Nessun aumento di tasse su casa, eredità, affitti e IVA; più istruzione e servizi sociali; ricerca, innovazione, logistica verde e squadra per la produttività pubblica con l'AI inserite per scelta politica; restano accise su tabacco e alcol e il riordino di agevolazioni e sussidi dannosi; dal 12 novembre 2026 entrano, senza tasse in più oltre quelle già previste, Case della Comunità, squadre infermieristiche di quartiere e riqualificazione degli amministrativi della sanità; dal 13 novembre il progetto di vita per le persone con disabilità parte come pilota sui fondi europei", "selezione_intermedio.csv"),
+    ("intermedio", "Programma intermedio", "Nessun aumento di tasse su casa, eredità, affitti e IVA; più istruzione e servizi sociali; ricerca, innovazione, logistica verde e squadra per la produttività pubblica con l'AI inserite per scelta politica; restano accise su tabacco e alcol e il riordino di agevolazioni e sussidi dannosi; dal 12 novembre 2026 entrano, senza tasse in più oltre quelle già previste, Case della Comunità, squadre infermieristiche di quartiere e riqualificazione degli amministrativi della sanità; dal 13 novembre il progetto di vita per le persone con disabilità e il personale infermieristico partono come pilota; 0,09 mld restano da parte per smettere di fumare e per il dopo 2029", "selezione_intermedio.csv"),
     ("momento", "Completo adattato ai dati di oggi", "Il programma completo ricalcolato con le priorità delle allerte attive: cambia quando cambiano i dati e serve a vedere che cosa suggerirebbero, non è un impegno", "selezione_momento.csv"),
     ("dividendo", "Completo + dividendo climatico", "Restituzione compensativa di 1,2 mld del gettito dal taglio dei sussidi ambientalmente dannosi (SAD)", "selezione_dividendo.csv"),
     ("difesa", "Completo + Difesa al 2,5%", "Traiettoria graduale della spesa militare (+9,1 mld)", "selezione_difesa.csv"),
@@ -377,6 +377,7 @@ def main() -> int:
                       "sintesi": leggi(RADICE / "21_idee_in_sintesi.md"),
                       "equita": leggi(RADICE / "23_equita_e_linguaggio.md") if (RADICE / "23_equita_e_linguaggio.md").exists() else "",
                       "metodo": leggi(RADICE / "00_metodo.md"),
+                      "garanzie": leggi(RADICE / "24_garanzie_e_responsabilita.md") if (RADICE / "24_garanzie_e_responsabilita.md").exists() else "",
                       "sistema": leggi(QUI / "README.md"),
                       "giuridico": leggi(RADICE / "giuridico" / "quadro.md"),
                       "confronto": leggi(RADICE / "benchmark" / "confronto.md"),

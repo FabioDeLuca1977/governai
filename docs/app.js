@@ -67,7 +67,8 @@
   const rif = scenario(RIF_ID); // versione di riferimento dei documenti: la stessa in ogni pagina
   // Da dove vengono i soldi: coperture nuove + risorse già stanziate nei fondi vincolati + tariffe (calcolato in sistema/esporta_web.py)
   const fontiSoldi = (sc) => [`${nf(sc.gettito, 1)} da coperture nuove`, ...(sc.gia_stanziati || []).map((f) => `${nf(f.mld, 1)} da ${f.nome} già stanziati${/2021-2027/.test(f.nome) ? " (fino al 2029)" : ""}`),
-    ...(sc.tariffe ? [`${nf(sc.tariffe, 1)} da tariffe pagate da chi usa il servizio`] : [])].join(" + ");
+    ...(sc.tariffe ? [`${nf(sc.tariffe, 1)} da tariffe pagate da chi usa il servizio`] : [])].join(" + ") +
+    (sc.risorse - sc.spesa > 0.05 ? ` (in tutto ${nf(sc.risorse, 1)} mld di risorse: ${nf(sc.risorse - sc.spesa, 1)} non sono spesi${sc.margine_generali > 0.005 ? `, di cui ${nf(sc.margine_generali, 2)} tenuti da parte` : ""}${sc.vincolati_non_usati > 0.005 ? ` e ${nf(sc.vincolati_non_usati, 2)} di fondi vincolati non spostabili` : ""})` : "");
   const linkP = (id) => `#/programma/${encodeURIComponent(id)}`;
   const linkSeduta = (id) => `#/governo/sedute/${encodeURIComponent(id)}`;
   const codici = (s) => String(s || "").replace(/\b(\d{2}-[PC]\d{1,2})\b/g, (m) => proposta(m) ? `<a href="${linkP(m)}">${m}</a>` : m);
@@ -1029,7 +1030,7 @@
   }
 
   // ---------- Metodo ----------
-  const DOCUMENTI = { programma: "Programma", metodo: "Metodo degli agenti", sistema: "Sistema dinamico", giuridico: "Quadro giuridico e UE", trasparenza: "Rischio negli appalti", legislazione: "Legislazione e redazione" };
+  const DOCUMENTI = { programma: "Programma", garanzie: "Garanzie e responsabilità", metodo: "Metodo degli agenti", sistema: "Sistema dinamico", giuridico: "Quadro giuridico e UE", trasparenza: "Rischio negli appalti", legislazione: "Legislazione e redazione" };
   const schedeMetodo = (k) => `<h1>Metodo</h1>${schede([["come", "Come funziona", "#/metodo"], ["carta", "Carta dei valori", "#/metodo/carta"], ["documenti", "Documenti", "#/metodo/documenti"], ["glossario", "Glossario", "#/metodo/glossario"]], k)}`;
   function metodo() {
     const n = D.numeri || {};

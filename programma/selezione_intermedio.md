@@ -2,7 +2,7 @@
 
 *Generato da `programma/ottimizza.py`. Tutto finanziato nello scenario prudente: niente deficit, niente risparmi non certificati, gettito minimo delle coperture.*
 
-Vincoli di scenario: forzate ['02-C2:ESSENZIALE', '05-C1:PIENA', '02-C4:PILOTA', '06-C4:PILOTA', '01-P13:PIENA', '04-P9:PIENA', '09-C9:ESSENZIALE', '03-P4:ESSENZIALE', '07-C1:ESSENZIALE', '04-P6:ESSENZIALE', '07-C2:ESSENZIALE', '07-C3:ESSENZIALE', '09-C3:ESSENZIALE', '05-C2:ESSENZIALE', '05-C7:ESSENZIALE', '01-P7:ESSENZIALE', '02-C7:ESSENZIALE', '07-C4:ESSENZIALE', '09-C5:ESSENZIALE', '09-C8:ESSENZIALE', '03-P3:ESSENZIALE', '01-P3:ESSENZIALE', '01-P12:ESSENZIALE', '06-C3:ESSENZIALE', '06-C8:ESSENZIALE', '06-C10:ESSENZIALE', '05-C4:ESSENZIALE', '05-C5:ESSENZIALE', '05-C10:PILOTA', '04-P7:PILOTA', '04-P8:ESSENZIALE', '01-P14:PILOTA', '01-P15:ZERO', '08-P1:ESSENZIALE', '02-C5:PILOTA'], escluse —, prioritarie per il momento ['05-C1', '05-C2', '05-C3', '05-C4', '05-C5', '05-C6', '05-C7', '05-C8', '05-C9', '02-C2', '02-C4', '02-C5', '02-C7', '06-C4', '06-C2', '06-C3', '06-C8', '06-C9'], coperture fino al livello tutti, coperture escluse RA11 SF01 SF11 SF12 SF13 SF14 FN01 FN03 SAD12 SAD14 PE01 PE02 SAD06 SAD07.
+Vincoli di scenario: forzate ['02-C2:ESSENZIALE', '05-C1:PIENA', '02-C4:PILOTA', '06-C4:PILOTA', '01-P13:ESSENZIALE', '04-P9:PIENA', '09-C9:ESSENZIALE', '03-P4:ESSENZIALE', '07-C1:ESSENZIALE', '04-P6:ESSENZIALE', '07-C2:ESSENZIALE', '07-C3:ESSENZIALE', '09-C3:ESSENZIALE', '05-C2:ESSENZIALE', '05-C7:ESSENZIALE', '01-P7:ESSENZIALE', '02-C7:ESSENZIALE', '07-C4:ESSENZIALE', '09-C5:ESSENZIALE', '09-C8:ESSENZIALE', '03-P3:ESSENZIALE', '01-P3:ESSENZIALE', '01-P12:ESSENZIALE', '06-C3:ESSENZIALE', '06-C8:ESSENZIALE', '06-C10:ESSENZIALE', '05-C4:ESSENZIALE', '05-C5:ESSENZIALE', '05-C10:PILOTA', '04-P7:PILOTA', '04-P8:ESSENZIALE', '01-P14:PILOTA', '01-P15:ZERO', '08-P1:ESSENZIALE', '02-C5:PILOTA', '09-C10:PILOTA', '06-C2:PILOTA'], escluse —, prioritarie per il momento ['05-C1', '05-C2', '05-C3', '05-C4', '05-C5', '05-C6', '05-C7', '05-C8', '05-C9', '02-C2', '02-C4', '02-C5', '02-C7', '06-C4', '06-C2', '06-C3', '06-C8', '06-C9'], coperture fino al livello tutti, coperture escluse RA11 SF01 SF11 SF12 SF13 SF14 FN01 FN03 SAD12 SAD14 PE01 PE02 SAD06 SAD07.
 
 Priorità al nucleo robusto (Carta, regola 7): **attiva**.
 
@@ -21,11 +21,12 @@ Priorità al nucleo robusto (Carta, regola 7): **attiva**.
 
 | Voce | mld €/anno a regime |
 |---|---|
-| Spesa delle misure scelte | 9,17 |
-| di cui su risorse generali | 7,01 |
-| Gettito minimo delle coperture attivate (risorse generali) | 7,01 |
+| Spesa delle misure scelte | 9,38 |
+| di cui su risorse generali | 7,22 |
+| Gettito minimo delle coperture attivate (risorse generali) | 7,31 |
+| di cui tenuto da parte e non speso (riserva: per lo scenario intermedio, smettere di fumare e dopo il 2029) | 0,09 |
 | Gettito minimo delle coperture attivate (totale) | 7,42 |
-| Proposte nel programma | 66 su 78 |
+| Proposte nel programma | 67 su 78 |
 
 La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i valori la stessa scelta rientra nel programma ottimo. Sopra l'80% la scelta non dipende dalla sensibilità politica.
 
@@ -40,14 +41,15 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 05-C2 | Conto personale di competenze | ESSENZIALE | 0,5 | 0,45 | 100% |
 | 05-C4 | Piu' persone con laurea o diploma terziario: ITS, lauree professionalizzanti, residenze | ESSENZIALE | 0,6 | 0,45 | 100% |
 | 04-P6 | Restare e' possibile: servizi essenziali aree interne | ESSENZIALE | 0,6 | 0,42 | 100% |
+| 06-C2 | Patto per il personale infermieristico e la medicina generale | PILOTA | 0,2 | 0,35 | 100% |
 | 07-C1 | Giustizia a regime: Ufficio per il processo e triage digitale | ESSENZIALE | 0,7 | 0,32 | 100% |
-| 01-P13 | Un solo credito per la ricerca: stabile, piu' forte per le piccole imprese, certificato prima di spendere | PIENA | 1,0 | 0,30 | 100% |
 | 05-C1 | Nessuna esclusione: squadre di prossimita' contro la dispersione | PIENA | 1,0 | 0,25 | 100% |
 | 07-C2 | Pena utile: misure di comunita' contro il sovraffollamento | ESSENZIALE | 0,6 | 0,25 | 100% |
 | 07-C3 | Governance dei flussi migratori fondata sui dati | ESSENZIALE | 0,6 | 0,25 | 100% |
 | 09-C3 | Squadre tecniche della Repubblica: pool di competenze per i piccoli enti | ESSENZIALE | 0,5 | 0,22 | 100% |
 | 05-C5 | Scuole aperte come presidi di comunita' | ESSENZIALE | 0,5 | 0,20 | 100% |
 | 05-C7 | Quota svantaggio nel finanziamento delle scuole | ESSENZIALE | 0,6 | 0,19 | 100% |
+| 01-P13 | Un solo credito per la ricerca: stabile, piu' forte per le piccole imprese, certificato prima di spendere | ESSENZIALE | 0,5 | 0,16 | 100% |
 | 02-C5 | Progetto di vita esigibile e lavoro per le persone con disabilita' | PILOTA | 0,3 | 0,15 | 100% |
 | 01-P7 | Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla | ESSENZIALE | 0,6 | 0,15 | 100% |
 | 02-C4 | Reddito di inclusione universale | PILOTA | 0,1 | 0,10 | 100% |
@@ -110,7 +112,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | RA14 | Codice degli incentivi: riordino completo, con abrogazione delle linee di incentivo alle imprese senza addizionalità dimostrata, oltre RA04 | RIALLOCAZIONE | 0,40 | Imprese beneficiarie di incentivi | 100% |
 | SF06 | Detrazione 19% delle spese sanitarie decrescente tra 50.000 e 120.000 € di reddito, salve disabilità, patologie croniche gravi e non autosufficienza (SF-SAN1, area 06) | SPESE_FISCALI | 0,35 | Contribuenti con reddito tra 50.000 e 120.000 € (azzerata oltre) | 100% |
 | SAD01 | Rimborso accise gasolio autotrasporto (EN.SI.19): esclusione Euro 5 dal 2028 e riduzione graduale di un terzo del rimborso per gli Euro 6; 25% del gettito a rinnovo flotte e intermodalità (Ferrobonus/Marebonus) | SAD | 0,30 | Imprese di autotrasporto merci (veicoli da 7,5 t) e passeggeri; in parte la clientela finale tramite i prezzi del trasporto | 100% |
-| PE04 | Perequazione differenziata dal 2030: rivalutazione al 50% (invece del 75%) sulla sola quota di pensione oltre 6 volte il minimo (proposta area 02) | PENSIONI | 0,30 | Persone in pensione con trattamento oltre circa 3.700 €/mese lordi | 81% |
+| PE04 | Perequazione differenziata per 5 anni (2030-2034), prorogabile con legge motivata: rivalutazione al 50% (invece del 75%) sulla sola quota di pensione oltre 6 volte il minimo; al 75% negli anni con inflazione oltre il 4%; mai cumulata con altri raffreddamenti (proposta area 02) | RIALLOCAZIONE | 0,30 | Persone in pensione con trattamento oltre circa 3.700 €/mese lordi | 100% |
 | FN02 | Abolizione dal 2028 delle detrazioni 19% per premi assicurativi vita e infortuni (salvi i premi per non autosufficienza e per la tutela di persone con disabilità grave) e per spese veterinarie | SPESE_FISCALI | 0,25 | Persone capienti titolari di polizze vita/infortuni o proprietarie di animali, distribuite su tutti i decili dal quarto in su | 100% |
 | RA06 | SSN: tetto di legge alla spesa per beni e servizi non sanitari degli enti, con gare centralizzate, e riduzione corrispondente del FSN (R-SAN2, area 06) | RIALLOCAZIONE | 0,20 | Fornitori non sanitari del SSN | 100% |
 | SF10 | Iperammortamento (L. 199/2025 c. 427-436): riduzione della maggiorazione base per investimenti non qualificati, mantenuta per 4.0, immateriali e transizione (proposta area 01) | SPESE_FISCALI | 0,20 | Imprese che investono in beni strumentali ordinari | 100% |
@@ -169,7 +171,6 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 - 04-P1 Patto di continuita' post-PNRR (scelta in 0% delle combinazioni di pesi)
 - 04-P2 Casa a canone giusto (scelta in 0% delle combinazioni di pesi)
 - 04-P3 Prima il treno di chi viaggia ogni giorno: fondo TPL e abbonamento unico (scelta in 0% delle combinazioni di pesi)
-- 06-C2 Patto per il personale infermieristico e la medicina generale (scelta in 0% delle combinazioni di pesi)
 - 06-C5 Salute mentale al 5% (scelta in 0% delle combinazioni di pesi)
 - 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea (scelta in 28% delle combinazioni di pesi)
 - 07-C6 Scudo cyber territoriale (scelta in 0% delle combinazioni di pesi)
@@ -180,14 +181,14 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 
 | Fondo | Spesa | Gettito/capienza disponibile |
 |---|---|---|
-| ACCISE_SALUTE | 0,33 | 0,97 |
+| ACCISE_SALUTE | 0,48 | 0,97 |
 | COESIONE_2127 | 1,90 | 2,00 |
-| PENSIONI | 0,00 | 0,30 |
-| RIALLOCAZIONE | 2,42 | 2,49 |
+| PENSIONI | 0,00 | 0,00 |
+| RIALLOCAZIONE | 2,41 | 2,79 |
 | RIORDINO_BONUS | 1,19 | 0,31 |
 | SAD | 0,72 | 1,69 |
-| SPESE_FISCALI | 2,35 | 1,55 |
+| SPESE_FISCALI | 2,42 | 1,55 |
 | TARIFFE | 0,27 | — |
 | TASSA_SOGGIORNO | 0,00 | 0,11 |
 
-Risorse generali (fungibili): spesa 7,01 ≤ gettito 7,01.
+Risorse generali (fungibili): spesa 7,22 ≤ gettito 7,31.

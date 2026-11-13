@@ -174,7 +174,8 @@ Legenda delle versioni (dal file `programma/selezione_intermedio.md`):
 | | 06-C8 Squadre infermieristiche di quartiere | ESSENZIALE (500 squadre) | Priorità alle Regioni con meno ore di assistenza a domicilio per assistito |
 | | 06-C10 Meno burocrazia, più cura | ESSENZIALE | Amministrativi verso l'accoglienza nelle Case della Comunità, su base volontaria |
 | | 06-C9 Benessere a scuola | PILOTA | |
-| | 06-C2 Personale infermieristico e medicina di famiglia; 06-C5 Salute mentale | FUORI | Senza nuovo personale le Case della Comunità rendono meno: resta la missione più debole |
+| | 06-C2 Personale infermieristico e medicina di famiglia | PILOTA (dal 13 novembre) | 4 Regioni, almeno 2 del Mezzogiorno, e aree interne: indennità di area disagiata, borse di studio, infermiere di pratica avanzata |
+| | 06-C5 Salute mentale | FUORI | Resta la lacuna più grande della missione salute |
 | **Persone detenute** | 07-C2 Pena utile: misure di comunità | ESSENZIALE | Obiettivo: affollamento da 128,8% a 105% in 5 anni |
 
 ### Il bilancio onesto
@@ -238,6 +239,17 @@ Tagli di spesa dei ministeri (RA13, RA01-RA09), riordino degli incentivi alle im
 | RP08 | Giovani candidate e candidati ai concorsi amministrativi della sanità (dal 12 novembre) | 0,05 | Esclusi sportelli e profili tecnici; risorse destinate a infermieri e Case della Comunità; ritorno al 100% se i servizi peggiorano |
 
 Tra le coperture neutre c'è anche **RB03**: la soglia del bonus per le lavoratrici madri scende da 40.000 a 32.000 euro di reddito (0,10 mld). Il panel la valuta neutra, ma riguarda il divario di genere e la segnaliamo.
+
+### Come si compensano, dal 13 novembre 2026
+
+Tre valutatori AI indipendenti hanno proposto le stesse regole, adottate da chi guida il progetto:
+
+- **Tabacco (AS01, AS02):** un importo pari al gettito va per legge alla sanità vicino a casa (Case della Comunità, squadre di quartiere, personale infermieristico), con priorità ai distretti più poveri. In più, **servizi gratuiti per smettere di fumare** per chi ha un ISEE basso, con farmaci gratuiti: 0,04 mld l'anno dal margine delle risorse generali. Chi fuma e ha un reddito basso paga di più nel breve periodo; è il gruppo che guadagna di più se smette.
+- **Bevande zuccherate (AS03):** nessuna compensazione in denaro; il peso medio è di pochi euro l'anno a persona.
+- **Gasolio (SAD13, SAD01, SAD02):** i fondi per il rinnovo delle flotte e il credito agricolo già previsti vanno prima alle piccole imprese, alla montagna, alle aree interne e alle isole. Le misure di logistica verde 04-P7 e 04-P8 restano, perché sono la compensazione del taglio al gasolio agevolato.
+- **Nessuna compensazione in denaro alle persone che fumano:** richiederebbe di profilare i comportamenti delle persone, che la Carta esclude.
+
+Resta vero che queste coperture pesano di più su chi ha meno. Le compensazioni lo attenuano, non lo annullano; senza una microsimulazione non sappiamo di quanto.
 
 PE03 (fine delle "quote" e di Opzione donna) ha punteggio −1 ma gettito zero, perché il risparmio è già nella legislazione vigente. La segnaliamo per trasparenza: chiude un'uscita anticipata usata soprattutto dalle donne.
 
@@ -373,7 +385,7 @@ Le regole che seguono hanno un limite chiaro: chiedono **rispetto e chiarezza**,
 - **Dati mancanti** nel repository: indice di Gini, divario retributivo di genere, lavoro di cura non pagato, occupazione per cittadinanza, povertà per ripartizione, persone che fumano per reddito.
 - **Punteggi EQU qualitativi**: li dà un panel con una rubrica comune. Sono utili, ma non sono misure.
 - **Tagli di spesa non ancora individuati** (RA13): l'effetto sull'equità dipende da dove si taglia.
-- **Lacune del programma**: inclusione lavorativa delle persone straniere, casa, salute mentale, nuovo personale infermieristico, progetto di vita delle persone con disabilità.
+- **Lacune del programma**: inclusione lavorativa delle persone straniere, casa, salute mentale, personale infermieristico oltre il pilota, progetto di vita delle persone con disabilità.
 - **Fondi che scadono**: dei circa 1,9 mld pagati con la coesione, 0,5 servono anche dopo il 2029 (prevenzione dei rischi, conto competenze, ponte contro la dispersione, staffetta nella PA) e oggi non hanno una copertura garantita; il resto sono investimenti che finiscono o sperimentazioni da valutare (`programma/coesione_dopo_2029.csv`). In tutto, circa 1,9 mld di spesa sono pagati con i fondi europei di coesione 2021-2027, ammessi fino al 2029; molte di queste misure riguardano territori e persone più fragili, e andranno rifinanziate.
 
 ### Scelte politiche che questo capitolo non prende

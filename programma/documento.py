@@ -95,7 +95,7 @@ def blocchi() -> dict[str, str]:
             "nei ministeri. Per scelta politica restano tutte le sette misure su ricerca, innovazione e logistica verde "
             "(alcune in versione ridotta) e la squadra per la produttività pubblica con l'AI (09-C9) in versione essenziale; "
             "dal 12 novembre 2026 entrano, senza tasse in più oltre quelle già nel programma, le Case della Comunità (06-C3), 500 squadre infermieristiche "
-            "di quartiere (06-C8) e la riqualificazione degli amministrativi della sanità (06-C10); dal 13 novembre il progetto di vita per le persone con disabilità (02-C5) parte come pilota sui fondi europei. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni "
+            "di quartiere (06-C8) e la riqualificazione degli amministrativi della sanità (06-C10); dal 13 novembre il progetto di vita per le persone con disabilità (02-C5) parte come pilota sui fondi europei e il personale infermieristico (06-C2) come pilota, con i risparmi sulla rivalutazione delle pensioni più alte e con il credito per la ricerca (01-P13) in versione essenziale; 0,09 mld di risorse generali restano da parte per smettere di fumare e per il dopo 2029. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni "
             "fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni "
             "(`programma/selezione_intermedio.md`)."]
           if (QUI / "selezione_intermedio.csv").exists() else []),

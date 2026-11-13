@@ -21,7 +21,7 @@ L'interfaccia web pubblicata in `docs/` contiene:
 | `dati/` | Base dati ufficiale: script di download (Eurostat, ISTAT, MEF, …), serie, verifiche di 334 cifre su fonte primaria, storico |
 | `registro/` | Registro unico delle coperture e vincolo di bilancio |
 | `motore/` | Panel di 3 valutatori indipendenti e analisi di robustezza ai valori (SMAA) |
-| `programma/` | 152 varianti, 59 misure di copertura, ottimizzatore senza deficit, schede pronte (articolato normativo, cronoprogramma, indicatori) |
+| `programma/` | 233 varianti, 72 misure di copertura, ottimizzatore senza deficit, schede pronte (articolato normativo, cronoprogramma, indicatori) |
 | `20_programma_governai.md` | Il programma completo: versioni base, completa e intermedia, tutte senza deficit, verificate giuridicamente |
 | `21_idee_in_sintesi.md` | Le idee in dieci minuti |
 | `22_programma_in_una_pagina.md` | Il programma in una pagina: perché, come, cosa misuriamo, chi ne beneficia (generato da `programma/schema.yaml`) |

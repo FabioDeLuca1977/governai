@@ -6,7 +6,7 @@
 |---|---|---|---|
 | Un Paese dove chi nasce, studia, lavora e invecchia trova servizi che funzionano, e dove le scelte di oggi non pesano sui conti delle generazioni future. | Ogni misura pagata senza deficit: tagli di spesa nei ministeri, meno sussidi dannosi (tra cui il gasolio agevolato per autotrasporto e agricoltura) e agevolazioni inefficaci, accise su tabacco, alcol e bevande zuccherate, forfettario più alto tra 50.000 e 85.000 euro di ricavi e rivalutazione ridotta delle pensioni più alte dal 2030. Le misure incerte partono come sperimentazioni. | Con indicatori pubblici, aggiornati ogni anno, con base e obiettivo a 5 anni: nidi, abbandono scolastico, persone laureate, ricerca, produttività, cure, acqua, giustizia. | Famiglie con bambine e bambini piccoli, studentesse e studenti delle scuole più fragili, giovani, imprese che innovano, chi vive in territori a rischio, chi paga le tasse e chi usa giustizia e servizi pubblici. |
 
-**I conti:** 9,17 mld l'anno di spesa nuova, 66 misure su 78, coperture per 7,42 mld al minimo più i fondi vincolati. Nuovo deficit: zero.
+**I conti:** 9,38 mld l'anno di spesa nuova, 67 misure su 78, coperture per 7,42 mld al minimo più i fondi vincolati. Nuovo deficit: zero.
 
 ## Ce l'avremo fatta se…
 
@@ -58,13 +58,14 @@
 
 ## Cura e protezione quando serve
 
-*9 misure su 11 · 1,36 mld l'anno*
+*10 misure su 11 · 1,71 mld l'anno*
 
 **Perché.** Nessuna persona deve rinunciare a curarsi o restare sola quando è fragile: chi ha una malattia, le persone anziane non autosufficienti, le persone con disabilità, chi vive in strada. *Valori: Benessere, Equità, Rispetto e diversità.*
 
 **Come.** Case della Comunità che funzionano, squadre infermieristiche di quartiere per l'assistenza a casa, meno burocrazia negli uffici sanitari, regole per accorciare le attese, Housing First (prima una casa, poi il resto) e sperimentazioni su povertà e non autosufficienza.
 
 - 06-C3 Case della Comunità vive (essenziale, 0,80 mld)
+- 06-C2 Patto per il personale infermieristico e la medicina generale (pilota, 0,35 mld)
 - 02-C5 Progetto di vita esigibile e lavoro per le persone con disabilità (pilota, 0,15 mld)
 - 02-C4 Reddito di inclusione universale (pilota, 0,10 mld)
 - 06-C4 Budget di cura per la non autosufficienza (pilota, 0,10 mld)
@@ -73,9 +74,9 @@
 - 06-C10 Meno burocrazia, più cura: automazione degli uffici sanitari e riqualificazione del personale amministrativo (essenziale, 0,02 mld)
 - 06-C1 Tempo garantito o rimborso (solo regole, costo zero)
 - 06-C6 Dividendo della prevenzione e budget unico del farmaco (solo regole, costo zero)
-- *Fuori da questa versione:* 06-C2 Patto per il personale infermieristico e la medicina generale; 06-C5 Salute mentale al 5%
+- *Fuori da questa versione:* 06-C5 Salute mentale al 5%
 
-**Sostenibilità.** Resta la missione più debole e lo diciamo. Le Case della Comunità e le squadre di quartiere entrano senza tasse in più oltre quelle già previste, con un gradino in meno su alcune misure di scuola e innovazione e con il ricambio selettivo degli amministrativi della sanità. Il nuovo personale infermieristico e la salute mentale restano fuori; povertà e non autosufficienza solo sperimentali.
+**Sostenibilità.** Resta la missione più debole e lo diciamo. Le Case della Comunità e le squadre di quartiere entrano senza tasse in più oltre quelle già previste, con un gradino in meno su alcune misure di scuola e innovazione e con il ricambio selettivo degli amministrativi della sanità. Dal 13 novembre il nuovo personale infermieristico entra come pilota, con i risparmi sulle pensioni più alte; la salute mentale resta fuori; povertà e non autosufficienza solo sperimentali.
 
 **Cosa misuriamo.**
 
@@ -94,13 +95,13 @@
 
 ## Lavoro, ricerca e imprese che crescono
 
-*8 misure su 10 · 0,53 mld l'anno*
+*8 misure su 10 · 0,39 mld l'anno*
 
 **Perché.** Produttività e salari sono fermi da anni. Più ricerca e innovazione nelle imprese, soprattutto piccole, servono a creare lavoro migliore e pagato meglio. *Valori: Innovazione, Responsabilità verso il futuro, Apprendimento e cultura.*
 
 **Come.** Un solo credito d'imposta per la ricerca, stabile e più forte per le piccole imprese; la pubblica amministrazione (PA) compra innovazione; un fondo per le imprese tecnologiche; centri di ricerca al servizio delle imprese.
 
-- 01-P13 Un solo credito per la ricerca: stabile, più forte per le piccole imprese, certificato prima di spendere (piena, 0,30 mld)
+- 01-P13 Un solo credito per la ricerca: stabile, più forte per le piccole imprese, certificato prima di spendere (essenziale, 0,16 mld)
 - 01-P5 Energia a prezzo stabile per le PMI (PPA rinnovabili) (essenziale, 0,15 mld)
 - 05-C10 Rete nazionale per la ricerca applicata sul modello Fraunhofer (pilota, 0,05 mld)
 - 01-P14 Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi (pilota, 0,03 mld)
@@ -257,7 +258,7 @@
 | RA14 Codice degli incentivi: riordino completo, con abrogazione delle linee di incentivo alle imprese senza addizionalità dimostrata, oltre RA04 | Imprese beneficiarie di incentivi | 0,40 |
 | SF06 Detrazione 19% delle spese sanitarie decrescente tra 50.000 e 120.000 € di reddito, salve disabilità, patologie croniche gravi e non autosufficienza (SF-SAN1, area 06) | Contribuenti con reddito tra 50.000 e 120.000 € (azzerata oltre) | 0,35 |
 | SAD01 Rimborso accise gasolio autotrasporto (EN.SI.19): esclusione Euro 5 dal 2028 e riduzione graduale di un terzo del rimborso per gli Euro 6; 25% del gettito a rinnovo flotte e intermodalità (Ferrobonus/Marebonus) | Imprese di autotrasporto merci (veicoli da 7,5 t) e passeggeri; in parte la clientela finale tramite i prezzi del trasporto | 0,30 |
-| PE04 Perequazione differenziata dal 2030: rivalutazione al 50% (invece del 75%) sulla sola quota di pensione oltre 6 volte il minimo (proposta area 02) | Persone in pensione con trattamento oltre circa 3.700 €/mese lordi | 0,30 |
+| PE04 Perequazione differenziata per 5 anni (2030-2034), prorogabile con legge motivata: rivalutazione al 50% (invece del 75%) sulla sola quota di pensione oltre 6 volte il minimo; al 75% negli anni con inflazione oltre il 4%; mai cumulata con altri raffreddamenti (proposta area 02) | Persone in pensione con trattamento oltre circa 3.700 €/mese lordi | 0,30 |
 | FN02 Abolizione dal 2028 delle detrazioni 19% per premi assicurativi vita e infortuni (salvi i premi per non autosufficienza e per la tutela di persone con disabilità grave) e per spese veterinarie | Persone capienti titolari di polizze vita/infortuni o proprietarie di animali, distribuite su tutti i decili dal quarto in su | 0,25 |
 | RA06 SSN: tetto di legge alla spesa per beni e servizi non sanitari degli enti, con gare centralizzate, e riduzione corrispondente del FSN (R-SAN2, area 06) | Fornitori non sanitari del SSN | 0,20 |
 | SF10 Iperammortamento (L. 199/2025 c. 427-436): riduzione della maggiorazione base per investimenti non qualificati, mantenuta per 4.0, immateriali e transizione (proposta area 01) | Imprese che investono in beni strumentali ordinari | 0,20 |
