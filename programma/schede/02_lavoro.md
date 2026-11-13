@@ -272,7 +272,7 @@ La quota a carico della riforma SAD compensa le famiglie povere per l'aumento de
 |---|---|---|---|---|
 | PIENA | Tutto, compresi il LEP domiciliare e il rafforzamento del «Dopo di noi» | 0,4 / 0,9 / 1,5 / **1,5** (2029) | 1 | RIALLOCAZIONE 0,5 + SPESE_FISCALI 0,5 + ACCISE_SALUTE 0,5 |
 | **ESSENZIALE** | Progetto di vita ovunque dal 2027 con circa 3.000 unità di personale per le UVM; budget di progetto; accomodamento ragionevole; LEP domiciliare dal 2030 | 0,3 / 0,6 / 0,8 / **0,8** (2029) | 0,6 | RIALLOCAZIONE 0,4 + ACCISE_SALUTE 0,4 |
-| PILOTA | Avvio nazionale dal 2027 come già previsto; personale per le UVM (circa 750 unità) e budget di progetto aggiuntivo solo nel quarto degli ambiti con meno servizi; ovunque la riforma del collocamento mirato; valutazione controfattuale nel 2029 | 0,05 / 0,10 / 0,15 / **0,15** (2029) | 0,35 | COESIONE_2127 0,15 (FSE+, fino al 2029) |
+| PILOTA | Avvio nazionale dal 2027 come già previsto; personale a tempo determinato fino al 2029 per le UVM (circa 750 unità) e budget di progetto aggiuntivo solo nel quarto degli ambiti con meno servizi; ovunque la riforma del collocamento mirato; valutazione controfattuale nel 2029 | 0,05 / 0,10 / 0,15 / **0,15** (2029) | 0,35 | COESIONE_2127 0,15 (FSE+, fino al 2029) |
 | ZERO | Solo riforma del collocamento mirato e fusione amministrativa dei fondi | 0 | 0,25 | invarianza |
 
 **Articolato normativo essenziale (variante ESSENZIALE, decreto legislativo integrativo del d.lgs. 62/2024)**
@@ -293,12 +293,12 @@ La quota a carico della riforma SAD compensa le famiglie povere per l'aumento de
 
 - la riforma parte ovunque dal 2027, come già prevede la legge, e il collocamento mirato diventa effettivo in tutta Italia;
 - personale dedicato e budget di progetto aggiuntivo vanno al quarto degli ambiti con meno servizi, dove il divario è più grande;
-- è pagata con il Fondo sociale europeo 2021-2027 fino al 2029, d'intesa con le autorità di gestione; resta da verificare che il personale sia una spesa ammissibile;
+- è pagata con il Fondo sociale europeo 2021-2027 fino al 2029, d'intesa con le autorità di gestione. Il personale delle unità di valutazione è assunto **a tempo determinato fino al 2029**: il FSE+ può pagarlo a queste condizioni (obiettivo ESO4.11, avviso agli ambiti come l'Avviso 3/2016, costi standard, nessun doppio finanziamento con Fondo non autosufficienze, Fondo povertà o PNRR; il budget di progetto paga servizi, non denaro), mentre il programma non usa fondi europei per personale stabile (`benchmark/fondi_coesione_bandi.md`);
 - nel 2029 una valutazione controfattuale confronta gli ambiti pilota con gli altri su progetti attivati, tempi e occupazione; con risultati positivi la misura passa a essenziale nella legge di bilancio 2030, quando i fondi europei finiscono e va comunque deciso come proseguire.
 
 Il prezzo è dichiarato: per tre anni in tre ambiti su quattro il progetto di vita resta un diritto senza personale e risorse aggiuntive.
 
-**Articolato per la variante PILOTA.** Agli articoli 2 e 3 si sostituisce: «Per gli anni 2027-2029 il contributo per il personale delle unità di valutazione e il Fondo per il budget di progetto sono assegnati agli ambiti territoriali sociali del quartile con la minore spesa sociale per persona con disabilità, nel limite di 0,15 mld annui a valere sul Programma nazionale Inclusione e lotta alla povertà 2021-2027, previa verifica di ammissibilità con l'autorità di gestione. Entro il 30 giugno 2029 l'INAPP valuta gli effetti confrontando gli ambiti assegnatari con ambiti analoghi non assegnatari.» L'articolo 6 si adegua di conseguenza.
+**Articolato per la variante PILOTA.** Agli articoli 2 e 3 si sostituisce: «Per gli anni 2027-2029 il contributo per il personale delle unità di valutazione e il Fondo per il budget di progetto sono assegnati agli ambiti territoriali sociali del quartile con la minore spesa sociale per persona con disabilità, nel limite di 0,15 mld annui a valere sul Programma nazionale Inclusione e lotta alla povertà 2021-2027 o sui programmi regionali FSE+, d'intesa con le autorità di gestione. Il personale è assunto con contratti a tempo determinato di durata non superiore al 31 dicembre 2029; il Fondo finanzia servizi e non trasferimenti monetari e non si cumula con il Fondo per le non autosufficienze, il Fondo povertà o il PNRR per le stesse spese. Entro il 30 giugno 2029 l'INAPP valuta gli effetti confrontando gli ambiti assegnatari con ambiti analoghi non assegnatari.» L'articolo 6 si adegua di conseguenza.
 
 **Cronoprogramma**
 - **Primi 100 giorni.** Schema di decreto legislativo integrativo. Il Ministero per le disabilità e l'INPS consolidano i risultati della sperimentazione nelle province, estesa dal 1/3/2026.
