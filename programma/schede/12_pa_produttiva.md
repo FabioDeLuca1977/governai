@@ -366,7 +366,7 @@ Uso: PIENA 0,06 su RIALLOCAZIONE (R12-2 0,03 + RA13 0,03 su capitoli individuati
 
 *Proposta del 12 novembre 2026, nata da un'esperienza diretta di chi guida il progetto in un ufficio regionale, descritta qui in forma anonima. I giudizi sui valori spettano al panel.*
 
-**Problema in un dato** (ultimo bollettino RGS consultato; va aggiornato con il monitoraggio 2026). Al 31 agosto 2025 l'Italia aveva pagato l'**8,03%** dei 74,85 mld dei fondi strutturali europei 2021-2027 (FESR, FSE+, JTF, FEAMPA); gli impegni erano al 27,16% (RGS, *Monitoraggio politiche di coesione*, situazione al 31 agosto 2025, cap. 2). Le spese sono ammissibili solo fino al 2029. Gran parte della spesa passa da bandi: domande con molti moduli e allegati, controlli ripetitivi fatti a mano campo per campo, graduatorie che arrivano dopo mesi. Il programma GovernAI stesso usa circa 1,7 mld l'anno di coesione 2021-2027: se non si spende in tempo, si perde.
+**Problema in un dato.** Al 31 agosto 2026 l'Italia aveva pagato il **14,78%** dei 73,83 mld dei fondi strutturali europei 2021-2027 (FESR, FSE+, JTF, FEAMPA); gli impegni erano al 38,20% (RGS, *Monitoraggio politiche di coesione*, situazione al 31 agosto 2026; i dati di attuazione sono quelli trasmessi al 31 dicembre 2025). Secondo la Commissione europea (Cohesion Open Data, agosto 2026) l'Italia ha dichiarato spese per il 19,1% contro il 24,5% della media UE: è tra i quattro Stati membri più indietro. Le spese sono ammissibili fino al 2029, o al 2030 per i programmi che hanno spostato almeno il 10% sulle nuove priorità della revisione di medio termine (reg. (UE) 2025/1914). Gran parte della spesa passa da bandi: domande con molti moduli e allegati, controlli ripetitivi fatti a mano campo per campo, graduatorie che arrivano dopo mesi. Il programma GovernAI stesso usa circa 1,9 mld l'anno di coesione 2021-2027: se non si spende in tempo, si perde.
 
 **Soluzione.** Una libreria pubblica e aperta di strumenti per istruire i bandi, riusabile da Regioni, Comuni e ministeri, con tre pezzi.
 1. **Kit per chi presenta la domanda, facoltativo.** Cittadini, imprese e Comuni inseriscono i dati una volta sola; gli allegati escono già compilati e coerenti tra loro.
@@ -404,7 +404,9 @@ Nessuno di questi effetti è una copertura finché non è misurato e certificato
 
 **Eccezione dichiarata alla regola del nucleo.** 09-C10 è nel nucleo robusto, che il programma finanzia almeno in versione essenziale. Il 13 novembre 2026 chi guida il progetto ha scelto di tenerla pilota: la versione essenziale costa 0,02 mld l'anno di risorse generali, oggi senza margine, e il risparmio di tempo non è ancora misurato. Passa a essenziale nella prima legge di bilancio dopo la valutazione del pilota, affidata a soggetti diversi da chi ha costruito lo strumento, se i tempi di istruttoria scendono di almeno un terzo senza più ricorsi o errori.
 
-**Quando serve davvero.** Gli strumenti entrano a regime intorno al 2028: per la coesione 2021-2027, che chiude nel 2029, possono aiutare solo gli ultimi bandi. Il beneficio maggiore è per il ciclo 2028-2034, che parte con le regole e gli strumenti già pronti invece di ripetere i ritardi di oggi.
+**Dove provarla per prima.** Oltre ai bandi regionali, un buon banco di prova sono i Contratti di sviluppo gestiti da Invitalia: secondo la Corte dei conti (delib. 46/2025/CCC) sui 2,0 mld assegnati con il FSC ne erano stati pagati circa 70 mln al 31 luglio 2025, e alcune fasi durano molto oltre i tempi previsti. I tempi per fase sono già misurati, quindi l'effetto dell'istruttoria assistita si può confrontare. Il Codice degli incentivi (d.lgs. 184/2025, art. 13) chiede già compilazione guidata e controllo automatico dei requisiti: 09-C10 ne è l'attuazione concreta (`benchmark/invitalia_incentivi_imprese.md`, `benchmark/fondi_coesione_bandi.md`).
+
+**Quando serve davvero.** Gli strumenti entrano a regime intorno al 2028: per la coesione 2021-2027, che chiude nel 2029 (2030 per alcuni programmi), possono aiutare solo gli ultimi bandi. Il beneficio maggiore è per il ciclo 2028-2034, che parte con le regole e gli strumenti già pronti invece di ripetere i ritardi di oggi.
 
 **Articolato normativo essenziale**
 
@@ -432,7 +434,7 @@ Nessuno di questi effetti è una copertura finché non è misurato e certificato
 
 | KPI | Base | Obiettivo 3 anni | Obiettivo 5 anni |
 |---|---|---|---|
-| Pagamenti dei fondi strutturali 2021-2027 sul programmato | 8,03% (31/8/2025, RGS) | dato ufficiale annuale, con il contributo dei bandi assistiti misurato a parte | spesa completa entro il 2029 nei programmi che adottano gli strumenti |
+| Pagamenti dei fondi strutturali 2021-2027 sul programmato | 14,78% (31/8/2026, RGS; dati al 31/12/2025) | dato ufficiale annuale, con il contributo dei bandi assistiti misurato a parte | spesa completa entro il 2029 nei programmi che adottano gli strumenti |
 | Giorni tra la scadenza del bando e la graduatoria, nei bandi assistiti rispetto a bandi analoghi | n.d. (rilevazione dal primo anno) | −30% | −50% |
 | Segnalazioni dello strumento confermate dai funzionari | n.d. | pubblicate per ogni bando | pubblicate e in miglioramento |
 

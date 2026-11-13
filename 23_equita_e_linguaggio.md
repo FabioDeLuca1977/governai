@@ -374,7 +374,7 @@ Le regole che seguono hanno un limite chiaro: chiedono **rispetto e chiarezza**,
 - **Punteggi EQU qualitativi**: li dà un panel con una rubrica comune. Sono utili, ma non sono misure.
 - **Tagli di spesa non ancora individuati** (RA13): l'effetto sull'equità dipende da dove si taglia.
 - **Lacune del programma**: inclusione lavorativa delle persone straniere, casa, salute mentale, nuovo personale infermieristico, progetto di vita delle persone con disabilità.
-- **Fondi che scadono**: circa 1,9 mld di spesa sono pagati con i fondi europei di coesione 2021-2027, ammessi fino al 2029; molte di queste misure riguardano territori e persone più fragili, e andranno rifinanziate.
+- **Fondi che scadono**: dei circa 1,9 mld pagati con la coesione, 0,5 servono anche dopo il 2029 (prevenzione dei rischi, conto competenze, ponte contro la dispersione, staffetta nella PA) e oggi non hanno una copertura garantita; il resto sono investimenti che finiscono o sperimentazioni da valutare (`programma/coesione_dopo_2029.csv`). In tutto, circa 1,9 mld di spesa sono pagati con i fondi europei di coesione 2021-2027, ammessi fino al 2029; molte di queste misure riguardano territori e persone più fragili, e andranno rifinanziate.
 
 ### Scelte politiche che questo capitolo non prende
 

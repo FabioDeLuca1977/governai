@@ -294,6 +294,18 @@
     else if (sel && innerWidth < 900) scheda.scrollIntoView({ block: "nearest", behavior: "smooth" });
   }
 
+  // Spesa pagata con la coesione 2021-2027: che cosa succede dopo il 2029, misura per misura
+  function avvisoDopo2029(sc) {
+    const d = sc.dopo_2029 || {};
+    const nome = (id) => (D.proposte.find((p) => p.id === id) || {}).titolo || id;
+    const gruppo = (es) => (d.voci || []).filter((x) => x.esito === es);
+    const riga = (x) => `<li><a href="#/programma/${encodeURIComponent(x.id)}">${esc(x.id)}</a> ${esc(nome(x.id))}: ${euro(x.mld)}. ${esc(x.motivo.charAt(0).toUpperCase() + x.motivo.slice(1))}${x.successore ? `. <strong>Dopo il 2029:</strong> ${esc(x.successore)}` : ""}</li>`;
+    const blocco = (es, titolo) => gruppo(es).length ? `<p><strong>${titolo}</strong></p><ul>${gruppo(es).map(riga).join("")}</ul>` : "";
+    return `<div class="avviso attenzione" style="margin-top:12px"><div class="avviso-titolo">${icona("hourglass")}${nf(sc.temporanei_2029, 1)} mld di questa spesa sono pagati con i fondi europei di coesione 2021-2027, ammessi fino al 2029.</div>
+      <p>Per ogni misura diciamo prima che cosa succede dopo: <strong>${nf(d.fine || 0, 2)} mld finiscono</strong> perché sono investimenti fatti una volta; <strong>${nf(d.valutazione || 0, 2)} mld sono sperimentazioni</strong> che proseguono solo con una valutazione positiva e risorse nuove; <strong>${nf(d.successore || 0, 2)} mld servono anche dopo</strong> e hanno bisogno di un fondo che li sostituisca. Il successore indicato è soprattutto il ciclo europeo 2028-2034, i cui importi per l'Italia non sono ancora noti: oggi la loro copertura dopo il 2029 non è garantita. Senza nuove decisioni, dal 2030 la spesa del programma scende quindi a circa ${nf(sc.spesa - (d.fine || 0) - (d.valutazione || 0), 1)} mld l'anno, di cui ${nf(d.successore || 0, 1)} da rifinanziare.${d.da_decidere > 0 ? ` <strong>${nf(d.da_decidere, 2)} mld non sono ancora classificati.</strong>` : ""}</p>
+      <details><summary>Misura per misura</summary>${blocco("successore", "Servono anche dopo il 2029")}${blocco("valutazione", "Sperimentazioni")}${blocco("fine", "Finiscono nel 2029")}${blocco("da_decidere", "Da classificare")}</details></div>`;
+  }
+
   // Misure del nucleo sotto la versione essenziale, con lo stato della scelta (programma/schema.yaml)
   function eccezioniNucleo(sc) {
     const ecc = (D.schema && D.schema.eccezioni_nucleo) || {};
@@ -700,7 +712,7 @@
           <div class="card kpi"><p class="etichetta">Nuovo deficit</p><p class="numero">${sc.deficit > 0 ? nf(sc.deficit, 1) : "0"}<small>mld</small></p><p class="nota">${sc.deficit > 0 ? "spesa non coperta" : `margine sulle risorse generali: ${nf(sc.margine_generali ?? sc.margine ?? 0, 1)} mld${sc.vincolati_non_usati > 0 ? ` (più ${nf(sc.vincolati_non_usati, 1)} di fondi vincolati non spostabili)` : ""}`}</p></div>
           <div class="card kpi"><p class="etichetta">Misure</p><p class="numero">${Object.keys(sc.misure).length}<small>su ${D.proposte.length}</small></p><p class="nota">in ${S.missioni.length} missioni; ${Object.values(sc.misure).filter((m) => m.variante === "ZERO").length} sono solo regole, a costo zero</p></div>
         </div>
-        ${sc.temporanei_2029 > 0 ? `<div class="avviso attenzione" style="margin-top:12px"><div class="avviso-titolo">${icona("hourglass")}${nf(sc.temporanei_2029, 1)} mld di questa spesa sono pagati con i fondi europei di coesione 2021-2027.</div><p>Le spese sono ammissibili solo fino al 2029: dopo vanno sostituite con altre coperture o le misure scendono di variante. Lo diciamo prima, non dopo.</p></div>` : ""}
+        ${sc.temporanei_2029 > 0 ? avvisoDopo2029(sc) : ""}
       </section>
 
       ${(P.indicatori_chiave || []).length ? `<section class="sezione" aria-labelledby="t-chiave">

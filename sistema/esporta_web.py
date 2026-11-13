@@ -99,6 +99,29 @@ def prelievi_varianti() -> pd.DataFrame:
     return v[["chiave", "fondo_id", "prelievo_regime"]]
 
 
+def dopo_2029(v: pd.DataFrame, prelievi: pd.DataFrame) -> dict:
+    """Che cosa succede dopo il 2029 alla spesa pagata con la coesione 2021-2027 (programma/coesione_dopo_2029.csv).
+    Le varianti PILOTA finiscono con una valutazione; per le altre il file dice se la spesa finisce o ha un successore."""
+    f = RADICE / "programma" / "coesione_dopo_2029.csv"
+    regole = pd.read_csv(f).set_index("proposta_id") if f.exists() else pd.DataFrame()
+    pr = prelievi[(prelievi.fondo_id == "COESIONE_2127") & prelievi.chiave.isin(v.chiave)].groupby("chiave").prelievo_regime.sum()
+    voci, tot = [], {"fine": 0.0, "valutazione": 0.0, "successore": 0.0, "da_decidere": 0.0}
+    for chiave, mld in pr.items():
+        if mld <= 0:
+            continue
+        pid, var = chiave.split(":")
+        if var == "PILOTA":
+            esito, succ, motivo = "valutazione", "", "sperimentazione: finisce nel 2029 e prosegue solo con una valutazione positiva e risorse nuove"
+        elif pid in regole.index:
+            r = regole.loc[pid]
+            esito, succ, motivo = r.esito, ("" if pd.isna(r.successore) else r.successore), r.motivo
+        else:
+            esito, succ, motivo = "da_decidere", "", "non ancora classificata"
+        tot[esito] += float(mld)
+        voci.append({"id": pid, "variante": var, "mld": round(float(mld), 3), "esito": esito, "successore": succ, "motivo": motivo})
+    return {**{k: round(x, 2) for k, x in tot.items()}, "voci": sorted(voci, key=lambda x: (x["esito"], -x["mld"]))}
+
+
 def scenario(file: Path, prelievi: pd.DataFrame) -> dict | None:
     if not file.exists():
         return None
@@ -129,7 +152,7 @@ def scenario(file: Path, prelievi: pd.DataFrame) -> dict | None:
             "tariffe": tariffe, "risorse": risorse,
             "deficit": round(max(0.0, spesa - risorse), 2), "margine": round(max(0.0, risorse - spesa), 2),
             "margine_generali": max(margine_gen, 0.0), "vincolati_non_usati": round(max(0.0, risorse - spesa - max(margine_gen, 0.0)), 2),
-            "temporanei_2029": temporanei}
+            "temporanei_2029": temporanei, "dopo_2029": dopo_2029(v, prelievi)}
 
 
 def repo_url() -> str:

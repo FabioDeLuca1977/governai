@@ -91,6 +91,12 @@ def controlla() -> list[str]:
             n = int(m.group(2) or m.group(3) or m.group(4))
             if n != n_nucleo:
                 errori.append(f"{doc}:{t.count(chr(10), 0, m.start()) + 1}: nucleo robusto citato con {n} misure, il motore ne conta {n_nucleo}")
+    # 7. ogni spesa dell'intermedio pagata con la coesione 2021-2027 deve dire che cosa succede dopo il 2029
+    if m_dati := re.search(r"window\.GOVERNAI = (\{.*\});?\s*$", dati, re.S):
+        x = {s["id"]: s for s in json.loads(m_dati.group(1).rstrip(";")).get("scenari", [])}.get("intermedio") or {}
+        for voce in (x.get("dopo_2029") or {}).get("voci", []):
+            if voce["esito"] == "da_decidere":
+                errori.append(f"programma/coesione_dopo_2029.csv: manca {voce['id']} ({voce['mld']} mld di coesione nell'intermedio)")
     rel_files = TESTI + ["revisioni/2026-11-08_analista_politico.md"]
     for rel in rel_files:
         t = leggi(rel)
