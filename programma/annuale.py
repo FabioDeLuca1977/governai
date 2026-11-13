@@ -185,7 +185,7 @@ def piano(etichetta: str = "intermedio") -> dict | None:
         rinv_nucleo = sum(x * (1 - fatt[gr(p)]) for p, x in mis.items() if p in nucleo_carta)
         anni.append({"anno": r.anno, "prevista": round(prevista, 2), "avviata": round(avviata, 2),
                      "gettito": r.gettito_generali, "fumo": fumo, "riserva": riserva, "ponte_ue": 0.0,
-                     "quota_riforme": round(fatt["g1"], 2), "quota_nucleo": round(fatt["g2"], 2), "quota_altre": round(fatt["g3"], 2),
+                     "quota_riforme": round(fatt["g1"], 2) + 0.0, "quota_nucleo": round(fatt["g2"], 2) + 0.0, "quota_altre": round(fatt["g3"], 2) + 0.0,
                      "rinviata": round(prevista - avviata, 2), "rinviata_nucleo": round(rinv_nucleo, 2),
                      "coesione_rinviata": round(coe_extra, 2)})
         for p, x in mis.items():

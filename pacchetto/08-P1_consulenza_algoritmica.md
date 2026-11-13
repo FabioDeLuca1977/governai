@@ -1,8 +1,8 @@
 # 08-P1 — Valutazione d'impatto pubblica con l'intelligenza artificiale presso l'Ufficio parlamentare di bilancio
 
-*Testo preparato da un agente AI per GovernAI il 13 novembre 2026, a partire dalle schede e dai controlli giuridici del programma. Non è stato rivisto da una persona esperta: va verificato prima di essere presentato.*
+*Testo preparato da un agente AI per GovernAI il 13 novembre 2026 e rivisto da un altro agente AI lo stesso giorno, a partire dalle schede e dai controlli giuridici del programma. Non è stato rivisto da una persona esperta: va verificato prima di essere presentato.*
 
-Variante del programma intermedio: **ESSENZIALE** (intensità 0,6). È una sezione di valutazione algoritmica **dentro l'Ufficio parlamentare di bilancio (UPB)**, di circa 30 unità. La valutazione d'impatto pubblica (VIP-AI) riguarda solo la legge di bilancio, i decreti-legge e i disegni di legge con oneri sopra lo 0,1% del PIL. C'è un'Assemblea civica di 100 persone sorteggiate, con una sessione l'anno. Il *comply or explain* vale solo per la legge di bilancio. Costo: 6 milioni nel 2027, 12 nel 2028, 15 dal 2029. Nel calendario di avvio è tra le riforme a costo quasi zero che partono subito. Fonti interne: `programma/schede/08_esteri.md` (08-P1), `programma/varianti/08_esteri.csv`, `giuridico/conformita*.csv` (righe 08-P1, ambiti COS e UE), `giuridico/note_COS.md`, `programma/coperture_menu.csv` (RA03), `dati/verifiche/08_esteri.md`.
+Variante del programma intermedio: **ESSENZIALE** (intensità 0,6). È una sezione di valutazione algoritmica **dentro l'Ufficio parlamentare di bilancio (UPB)**, di circa 30 unità. La valutazione d'impatto pubblica (VIP-AI) riguarda solo la legge di bilancio, i decreti-legge e i disegni di legge con oneri sopra lo 0,1% del PIL. C'è un'Assemblea civica di 100 persone sorteggiate, con una sessione l'anno. Il *comply or explain* vale solo per la legge di bilancio. Costo: 6 milioni nel 2027, 12 nel 2028, 15 l'anno dal 2029 al 2032, cioè fino alla scadenza della sperimentazione quinquennale. Nel calendario di avvio è tra le riforme a costo quasi zero che partono subito. Fonti interne: `programma/schede/08_esteri.md` (08-P1), `programma/varianti/08_esteri.csv`, `giuridico/conformita*.csv` (righe 08-P1, ambiti COS e UE), `giuridico/note_COS.md`, `programma/coperture_menu.csv` (RA03), `dati/verifiche/08_esteri.md`.
 
 Nota di trasparenza: GovernAI è un programma costruito con agenti di intelligenza artificiale. La misura riguarda l'uso dell'AI nelle istituzioni. Chi la presenta deve poter dire che non favorisce alcun fornitore né alcun progetto: per questo il testo impone codice aperto, infrastruttura sotto giurisdizione UE e la possibilità di cambiare modello.
 
@@ -12,8 +12,8 @@ Nota di trasparenza: GovernAI è un programma costruito con agenti di intelligen
 
 - **Che cosa fa.** Dentro l'UPB nasce una sezione che usa sistemi di intelligenza artificiale, sotto la responsabilità di persone, per pubblicare una valutazione d'impatto (VIP-AI) dei provvedimenti più pesanti: legge di bilancio, decreti-legge, disegni di legge con oneri sopra lo 0,1% del PIL. La VIP-AI dice chi guadagna e chi perde (per reddito, territorio, età, genere), che effetti ci sono nel breve, medio e lungo periodo e con quale incertezza. Non dà raccomandazioni e non vincola nessuno. Un'Assemblea civica di 100 persone sorteggiate fissa ogni anno i pesi tra i valori usati di base. Sulla legge di bilancio il Governo spiega per iscritto perché ignora gli effetti negativi di lungo periodo segnalati.
 - **Perché.** Nessuna norma disciplina l'uso dell'AI per valutare le leggi: chi la configura, con quali pesi, con quale trasparenza, chi ne risponde. Le regole europee e nazionali ora ci sono (AI Act, L. 132/2025, d.lgs. 179/2026), ma riguardano i sistemi in generale, non l'analisi delle politiche pubbliche.
-- **Costo.** 6 milioni nel 2027, 12 nel 2028, 15 dal 2029. Coperti riducendo le spese per studi e consulenze esterne dei ministeri.
-- **Veicolo consigliato.** Proposta di legge autonoma che modifica la L. 243/2012. **Va approvata a maggioranza assoluta** dei componenti di ciascuna Camera (art. 81, sesto comma, Cost.; art. 1, comma 2, L. 243/2012). Non può andare nella legge di bilancio (norma ordinamentale; serve la maggioranza assoluta).
+- **Costo.** 6 milioni nel 2027, 12 nel 2028, 15 l'anno dal 2029 al 2032. Coperti con il fondo speciale di parte corrente del Ministero dell'economia (Tabella A). Nel programma GovernAI questa somma è una quota della riduzione delle consulenze dei ministeri (copertura RA03), non una spesa in più.
+- **Veicolo consigliato.** Proposta di legge autonoma che modifica la L. 243/2012. **Va approvata a maggioranza assoluta** dei componenti di ciascuna Camera (art. 81, sesto comma, Cost.; art. 1, comma 2, L. 243/2012). Non può andare nella legge di bilancio: è una norma ordinamentale, vietata nella prima sezione dall'[art. 21, comma 1-quinquies, L. 196/2009](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2009-12-31;196~art21), e serve la maggioranza assoluta.
 - **Chi la può presentare.** Ogni parlamentare o gruppo; meglio una proposta firmata da più gruppi, anche di opposizione, dopo un'intesa con i Presidenti delle Camere. Anche il Governo, come disegno di legge.
 - **Tempi.** Presentazione subito; approvazione nel 2027; prima VIP-AI sul disegno di legge di bilancio per il 2028 (ottobre 2027), in forma sperimentale; requisiti AI Act a regime prima del 2 dicembre 2027.
 
@@ -42,7 +42,7 @@ Gli strumenti di AI sono già usati negli uffici pubblici per scrivere e analizz
 3. **Garanzie sul sistema.** Conformità volontaria ai requisiti dell'AI Act per l'alto rischio; valutazione d'impatto sui diritti fondamentali; codice, istruzioni e pesi pubblici; infrastruttura sotto giurisdizione UE; firma di un funzionario; audit annuale.
 4. **Assemblea civica** di 100 persone sorteggiate, una sessione l'anno. Fissa i pesi di base tra i valori e il tasso di sconto tra generazioni. Non vincola Camere e Governo.
 5. **Comply or explain sulla legge di bilancio.** Sul modello dell'art. 18, comma 3, già vigente.
-6. **Durata quinquennale** con valutazione indipendente.
+6. **Durata di cinque anni, fino al 31 dicembre 2032**, con valutazione indipendente dopo due anni. Anche la spesa si ferma al 2032.
 
 ### Articolo per articolo
 
@@ -72,7 +72,7 @@ Gli strumenti di AI sono già usati negli uffici pubblici per scrivere e analizz
 
 1. Alla legge 24 dicembre 2012, n. 243, sono apportate le seguenti modificazioni:
 
-a) all'articolo 17, comma 4, è aggiunto, in fine, il seguente periodo: «A decorrere dal 2027 il limite di cui al periodo precedente è elevato a settanta unità, delle quali fino a trenta assegnate alla sezione di cui all'articolo 18-bis.»;
+a) all'articolo 17, comma 4, è aggiunto, in fine, il seguente periodo: «Per gli anni dal 2027 al 2032 il limite di cui al periodo precedente è elevato a settanta unità, delle quali fino a trenta assegnate alla sezione di cui all'articolo 18-bis.»;
 
 b) all'articolo 18, comma 1, dopo la lettera b) è inserita la seguente: «b-bis) valutazione d'impatto pubblica dei provvedimenti di cui all'articolo 18-bis;»;
 
@@ -116,7 +116,7 @@ Art. 18-quater *(Motivazione sulla legge di bilancio)*. — 1. Se la VIP-AI sul 
 
 2. L'omissione della relazione è registrata e pubblicata dall'Ufficio. Non incide sulla validità né sull'efficacia della legge.»;
 
-d) all'articolo 19, dopo il comma 1 è inserito il seguente: «1-bis. Per le funzioni di cui agli articoli 18-bis, 18-ter e 18-quater è autorizzata l'ulteriore spesa, in favore di ciascuna Camera, di 3 milioni di euro per l'anno 2027, di 6 milioni di euro per l'anno 2028 e di 7,5 milioni di euro annui a decorrere dall'anno 2029. Le somme sono trasferite ai bilanci delle Camere e sono destinate all'Ufficio.».
+d) all'articolo 19, dopo il comma 1 è inserito il seguente: «1-bis. Per le funzioni di cui agli articoli 18-bis, 18-ter e 18-quater è autorizzata l'ulteriore spesa, in favore di ciascuna Camera, di 3 milioni di euro per l'anno 2027, di 6 milioni di euro per l'anno 2028 e di 7,5 milioni di euro per ciascuno degli anni dal 2029 al 2032. Le somme sono trasferite ai bilanci delle Camere e sono destinate all'Ufficio.».
 
 **Art. 3** *(Raccordo con la disciplina dell'intelligenza artificiale e autonomia delle Camere)*
 
@@ -128,17 +128,17 @@ d) all'articolo 19, dopo il comma 1 è inserito il seguente: «1-bis. Per le fun
 
 1. Al termine del secondo anno di applicazione, la Corte dei conti e un comitato accademico indipendente, nominato d'intesa dai Presidenti delle Camere, trasmettono alle Camere una valutazione della qualità, dell'utilità e dei costi delle VIP-AI.
 
-2. Gli articoli 18-bis, 18-ter e 18-quater della legge n. 243 del 2012 cessano di avere efficacia il 31 dicembre del quinto anno successivo a quello di entrata in vigore della presente legge, salvo conferma con legge approvata ai sensi dell'articolo 81, sesto comma, della Costituzione.
+2. Gli articoli 18-bis, 18-ter e 18-quater della legge n. 243 del 2012 cessano di avere efficacia il 31 dicembre 2032, salvo conferma con legge approvata ai sensi dell'articolo 81, sesto comma, della Costituzione, che provvede anche alla relativa copertura finanziaria.
 
 **Art. 5** *(Copertura finanziaria)*
 
-1. Agli oneri derivanti dall'articolo 2, comma 1, lettera d), pari a 6 milioni di euro per l'anno 2027, a 12 milioni di euro per l'anno 2028 e a 15 milioni di euro annui a decorrere dall'anno 2029, si provvede mediante corrispondente riduzione degli stanziamenti di competenza e di cassa relativi a studi, consulenze e incarichi esterni iscritti negli stati di previsione dei Ministeri, nella misura indicata, per ciascun Ministero, nell'allegato A alla presente legge.
+1. Agli oneri derivanti dall'articolo 2, comma 1, lettera d), pari a 6 milioni di euro per l'anno 2027, a 12 milioni di euro per l'anno 2028 e a 15 milioni di euro per ciascuno degli anni dal 2029 al 2032, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2027-2029, nell'ambito del programma «Fondi di riserva e speciali» della missione «Fondi da ripartire» dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2027, allo scopo parzialmente utilizzando l'accantonamento relativo al medesimo Ministero.
 
 2. Il Ministro dell'economia e delle finanze è autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio.
 
-*Allegato A — Riduzioni per Ministero (milioni di euro, 2027 / 2028 / dal 2029): da compilare con la Ragioneria generale dello Stato sui capitoli di studi e consulenze (dato da acquisire per capitolo).*
+*Nota di drafting.* La formula va adeguata al bilancio triennale vigente alla data di presentazione. La capienza dell'accantonamento del Ministero dell'economia e delle finanze nella Tabella A (voce «Interventi diversi»; disegno di legge di bilancio 2027-2029, A.C. 3174) è da concordare con la Ragioneria generale dello Stato. Per gli anni 2030-2032, fuori dal triennio, la formula si appoggia, secondo la prassi, sull'importo del terzo anno dell'accantonamento: la Ragioneria può chiedere di indicarlo in modo espresso. L'allegato con le riduzioni per Ministero, presente nella prima stesura, è stato tolto: vedi relazione tecnica, art. 5.
 
-> **Verifiche sul testo vigente (Normattiva, 13 novembre 2026):** L. 243/2012, art. 1, comma 2 (modifica solo espressa), art. 17, comma 4 (30 unità nei primi tre anni, poi 40), art. 18 (commi 1-7, lett. a-f al comma 1; comma 3 sul confronto con il Governo; comma 5 sul comitato scientifico; comma 7 sull'accesso alle banche dati, con equiparazione agli enti SISTAN), art. 19, comma 1 (3 milioni per ciascuna Camera dal 2014). L. 132/2025, artt. 14 e 20. Restano [da verificare sul testo vigente]: il testo ufficiale del Reg. (UE) 2026/1744 in GUUE e del d.lgs. 179/2026 in GU; che non esistano già gli artt. 18-bis, 18-ter, 18-quater e il comma 19, 1-bis nella L. 243/2012; l'attuale art. 14 L. 246/2005 sull'AIR.
+> **Verifiche sul testo vigente (Normattiva, 13 novembre 2026):** L. 243/2012, art. 1, comma 2 (modifica solo espressa), art. 17, comma 4 (30 unità nei primi tre anni, poi 40), art. 18 (commi 1-7, lett. a-f al comma 1; comma 3 sul confronto con il Governo; comma 5 sul comitato scientifico; comma 7 sull'accesso alle banche dati, con equiparazione agli enti SISTAN), art. 19, comma 1 (3 milioni per ciascuna Camera dal 2014). L. 132/2025, artt. 14 e 20. Restano [da verificare sul testo vigente]: il testo ufficiale del Reg. (UE) 2026/1744 in GUUE e del d.lgs. 179/2026 in GU; che non esistano già gli artt. 18-bis, 18-ter, 18-quater e il comma 19, 1-bis nella L. 243/2012; la capienza dell'accantonamento MEF nella Tabella A; l'attuale art. 14 L. 246/2005 sull'AIR.
 
 ---
 
@@ -148,25 +148,29 @@ d) all'articolo 19, dopo il comma 1 è inserito il seguente: «1-bis. Per le fun
 
 **Art. 2.**
 - *Lett. a), b), c).* Definiscono funzioni e limiti di personale. La spesa che ne deriva è contenuta nella dotazione della lett. d). Senza la dotazione aggiuntiva le assunzioni non possono essere effettuate.
-- *Lett. d) (dotazione).* Autorizzazione di spesa di 6 milioni nel 2027, 12 nel 2028 e 15 dal 2029, ripartita a metà tra le Camere. La somma è trasferita ai bilanci delle Camere, non imposta su di essi (condizione COS). Composizione a regime, stima GovernAI bottom-up della variante ESSENZIALE: il dettaglio non è nella scheda e va ricostruito con l'UPB (dato da acquisire). Le voci della variante PIENA (`programma/varianti/08_esteri.csv`) danno un riferimento: personale a 0,1 milioni per unità; calcolo su infrastruttura UE; Assemblea (indennità, viaggi, facilitazione, sorteggio certificato); audit e prove di robustezza; convenzioni; riserva. Con circa 30 unità, il personale a regime vale circa 3 milioni. La gradualità 2027-2028 tiene conto dei tempi di reclutamento e della prima sessione dell'Assemblea. È un limite di spesa: la dotazione non può essere superata.
+- *Lett. d) (dotazione).* Autorizzazione di spesa di 6 milioni nel 2027, 12 nel 2028 e 15 per ciascuno degli anni dal 2029 al 2032, ripartita a metà tra le Camere. La somma è trasferita ai bilanci delle Camere, non imposta su di essi (condizione COS). Composizione a regime, stima GovernAI bottom-up della variante ESSENZIALE: il dettaglio non è nella scheda e va ricostruito con l'UPB (dato da acquisire). Le voci della variante PIENA (`programma/varianti/08_esteri.csv`) danno un riferimento: personale a 0,1 milioni per unità; calcolo su infrastruttura UE; Assemblea (indennità, viaggi, facilitazione, sorteggio certificato); audit e prove di robustezza; convenzioni; riserva. Con circa 30 unità, il personale a regime vale circa 3 milioni. La gradualità 2027-2028 tiene conto dei tempi di reclutamento e della prima sessione dell'Assemblea. È un limite di spesa: la dotazione non può essere superata. Il limite di personale (lett. a) vale fino al 2032, come la spesa: il reclutamento va fatto con contratti a tempo determinato o con comandi di durata coerente (da concordare con l'UPB).
 
 **Art. 3.** Raccordo. Nessun effetto.
 
 **Art. 4.** La valutazione della Corte dei conti rientra nei compiti istituzionali. Il comitato accademico opera senza compensi (da precisare nell'atto di nomina). Nessun onere.
 
-**Art. 5 (copertura).** Riduzione degli stanziamenti per studi, consulenze e incarichi esterni dei ministeri, pari a 6, 12 e 15 milioni. Base di riferimento: circa 189 milioni impegnati nel 2025 sui capitoli di consulenza dello Stato (OpenBDAP-RGS, Rendiconto 2025, ricerca per parole chiave con perimetro probabilmente sottostimato; `programma/coperture_menu.csv`, RA03). A regime la riduzione vale circa l'8% di quella base. **Avvertenza sul doppio conteggio:** nel programma la copertura RA03 (tetto del 20% alle consulenze) assorbe questa riduzione. Se RA03 è approvata nella legge di bilancio, i 15 milioni vanno contati dentro RA03 e non in aggiunta. Copertura di riserva se la Ragioneria non certifica la riduzione per capitolo: riduzione del Fondo per esigenze indifferibili (art. 1, comma 200, L. 190/2014) [da verificare la capienza].
+**Art. 5 (copertura).** Riduzione del fondo speciale di parte corrente (Tabella A), accantonamento del Ministero dell'economia e delle finanze, per 6, 12 e 15 milioni nel triennio 2027-2029 e 15 milioni nel 2030, 2031 e 2032. L'onere finisce nel 2032 perché la norma cessa di avere efficacia il 31 dicembre 2032 (art. 4, comma 2): per questo la copertura non è più «a decorrere». Una conferma oltre il 2032 richiede una nuova legge con la sua copertura.
+
+- **Perché non c'è più l'allegato con le riduzioni per Ministero.** La prima stesura copriva l'onere tagliando i capitoli di studi e consulenze dei ministeri, con un allegato da compilare. Sul Rendiconto 2025 (OpenBDAP-RGS, `dati/raw/00b_openbdap_rendiconto_2025_spese_capitolo.csv`) i 30 capitoli dello Stato dedicati agli «incarichi di studio e consulenza» hanno impegni per 0,53 milioni e previsioni definitive per 1,2 milioni in tutto. Non bastano a coprire 6-15 milioni. Le altre spese per consulenze stanno dentro capitoli generici (acquisto di beni e servizi), dove l'importo per Ministero non si legge dai dati pubblici. Un allegato per Ministero, quindi, non si può compilare con dati verificabili: serve una formula standard.
+- **Rapporto con il programma GovernAI (nessun doppio conteggio).** Nel programma l'onere di 08-P1 è pagato dalla copertura RA03 (tetto del 20% alle spese per consulenze, studi e auto di servizio dei ministeri, 0,05-0,08 miliardi l'anno; `programma/coperture_menu.csv`, riga RA03). I 6-15 milioni sono una **quota di RA03 già contata**, non una copertura in più. In pratica: la legge di bilancio che applica RA03 alimenta anche l'accantonamento del Ministero dell'economia in Tabella A per almeno l'importo di questa legge. Se RA03 non viene approvata, la copertura resta valida ma pesa sugli altri usi del fondo speciale.
+- **Avvertenza sul dato di base di RA03 (da verificare).** RA03 parte da «consulenze 189 milioni impegnati nel 2025», trovati cercando parole chiave nei nomi dei capitoli. Nella stessa ricerca il capitolo più grande è il cap. 3845 del MEF, compensi ai centri di assistenza fiscale (216,9 milioni impegnati), che non è una spesa per consulenze. La base di RA03 va ricontrollata prima di usarla in una relazione tecnica.
 
 **Prospetto riepilogativo (milioni di euro; segno + = peggioramento del saldo, − = miglioramento)**
 
 | Voce | Saldo netto da finanziare 2027 | 2028 | 2029 | Fabbisogno 2027 | 2028 | 2029 | Indebitamento netto 2027 | 2028 | 2029 |
 |---|---|---|---|---|---|---|---|---|---|
 | Art. 2, lett. d) — maggiori spese (dotazione UPB) | +6 | +12 | +15 | +6 | +12 | +15 | +6 | +12 | +15 |
-| Art. 5 — minori spese (consulenze ministeri) | −6 | −12 | −15 | −6 | −12 | −15 | −6 | −12 | −15 |
+| Art. 5 — riduzione del fondo speciale di parte corrente (accantonamento MEF) | −6 | −12 | −15 | −6 | −12 | −15 | −6 | −12 | −15 |
 | **Saldo** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** | **0** |
 
-Ipotesi: la spesa delle Camere rientra nel conto consolidato delle amministrazioni pubbliche, quindi l'effetto è uguale sui tre saldi. Anche la riduzione delle consulenze è considerata spesa che si sarebbe realizzata nell'anno. La Ragioneria potrebbe applicare coefficienti di realizzo diversi (da verificare).
+Ipotesi: la spesa delle Camere rientra nel conto consolidato delle amministrazioni pubbliche, quindi l'effetto è uguale sui tre saldi. La riduzione del fondo speciale ha effetto uguale e di segno opposto sui tre saldi. Negli anni 2030-2032, fuori dal prospetto, maggiori spese e riduzione valgono 15 milioni l'anno e il saldo resta zero; dal 2033 la spesa cessa.
 
-Coerenza con il programma: variante ESSENZIALE di 08-P1, costi 0,006 / 0,012 / 0,015 miliardi (2027 / 2028 / 2029), fondo RIALLOCAZIONE (`programma/varianti/08_esteri.csv`). Nel calendario di avvio (`programma/annuale_intermedio.md`) le riforme a costo quasi zero partono al 100% dal 2027.
+Coerenza con il programma: variante ESSENZIALE di 08-P1, costi 0,006 / 0,012 / 0,015 miliardi (2027 / 2028 / 2029), fondo RIALLOCAZIONE (`programma/varianti/08_esteri.csv`), pagati da RA03. Il programma tiene 0,015 miliardi anche dopo il 2032: è un'ipotesi prudente, che presuppone la conferma della misura. Nel calendario di avvio (`programma/annuale_intermedio.md`) le riforme a costo quasi zero partono al 100% dal 2027.
 
 ---
 
@@ -205,7 +209,7 @@ Coerenza con il programma: variante ESSENZIALE di 08-P1, costi 0,006 / 0,012 / 0
 
 **Chi ne beneficia.** Parlamentari di maggioranza e di opposizione (informazione indipendente e tempestiva); cittadine e cittadini (sanno chi guadagna e chi perde); generazioni future (orizzonte lungo esplicito).
 
-**Chi ne sopporta i costi.** Il bilancio dello Stato, per 15 milioni a regime, compensati da minori consulenze esterne dei ministeri: ne sopportano il costo le società di consulenza. Il Governo ha un onere di motivazione in più sulla legge di bilancio.
+**Chi ne sopporta i costi.** Il bilancio dello Stato, per 15 milioni l'anno dal 2029 al 2032, a valere sul fondo speciale. Nel programma GovernAI la somma viene dalla riduzione delle consulenze esterne dei ministeri (RA03): ne sopportano il costo le società di consulenza. Il Governo ha un onere di motivazione in più sulla legge di bilancio.
 
 ---
 
@@ -215,7 +219,7 @@ Coerenza con il programma: variante ESSENZIALE di 08-P1, costi 0,006 / 0,012 / 0
 - **Maggioranza assoluta.** Serve un consenso largo: conviene una proposta firmata da più gruppi. È anche il modo migliore per evitare che la misura sembri di parte.
 - **Obiezione "lo decide l'algoritmo".** *Risposta:* nessuna valutazione è vincolante; non ci sono raccomandazioni; ogni VIP-AI è firmata da una persona; la sensibilità ai pesi è pubblica; i pesi li fissa un'Assemblea di persone sorteggiate, non i tecnici.
 - **Obiezione "l'UPB diventa politico".** *Risposta:* l'UPB valuta già l'impatto dei provvedimenti e ha già un meccanismo di confronto con il Governo (art. 18, comma 3). La VIP-AI descrive effetti e non giudica le scelte. Il Consiglio dell'UPB resta nominato come oggi.
-- **Obiezione "costa e non serve".** *Risposta:* 15 milioni a regime, coperti tagliando consulenze esterne; durata di cinque anni con valutazione della Corte dei conti dopo due.
+- **Obiezione "costa e non serve".** *Risposta:* 15 milioni l'anno al massimo, con copertura sul fondo speciale; nel programma li paga il taglio delle consulenze esterne; durata fino al 2032, con valutazione della Corte dei conti dopo due anni.
 - **Rischi di attuazione.**
   - Reclutamento di 30 persone qualificate: il 2027 è un anno di avvio.
   - Prima VIP-AI sul bilancio 2028 in forma sperimentale.
@@ -226,5 +230,5 @@ Coerenza con il programma: variante ESSENZIALE di 08-P1, costi 0,006 / 0,012 / 0
   - Regolamento dell'UPB sull'Assemblea (con ISTAT e Garante).
   - Modifiche ai regolamenti parlamentari o pareri delle Giunte per il regolamento.
   - Valutazione d'impatto sui diritti fondamentali prima dell'esercizio.
-  - Allegato A sulle consulenze, con la Ragioneria.
+  - Capienza dell'accantonamento MEF in Tabella A, con la Ragioneria.
   - Dopo la valutazione biennale, scegliere se passare alla variante PIENA: ufficio autonomo, VIP-AI su richiesta delle minoranze, comply or explain su tutti gli atti valutati.

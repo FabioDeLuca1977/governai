@@ -1,6 +1,6 @@
 # 09-C10 (art. 5) — Tempi e valutazione degli incentivi alle imprese
 
-*Testo preparato da un agente AI per GovernAI il 13 novembre 2026, a partire dalle schede e dai controlli giuridici del programma. Non è stato rivisto da una persona esperta: va verificato prima di essere presentato.*
+*Testo preparato da un agente AI per GovernAI il 13 novembre 2026 e rivisto da un altro agente AI lo stesso giorno, a partire dalle schede e dai controlli giuridici del programma. Non è stato rivisto da una persona esperta: va verificato prima di essere presentato.*
 
 Fonti interne: `programma/schede/12_pa_produttiva.md` (09-C10, art. 5), `benchmark/invitalia_incentivi_imprese.md`, `giuridico/conformita_BANDI.csv` (righe 5 e 6, esito *condizionato*, condizioni recepite). Questo testo riguarda **solo l'articolo 5** di 09-C10. Il resto della misura (libreria per l'istruttoria assistita dei bandi, centro di competenza) ha costi propri ed è nel programma intermedio in versione PILOTA; non è qui.
 
@@ -11,9 +11,9 @@ Fonti interne: `programma/schede/12_pa_produttiva.md` (09-C10, art. 5), `benchma
 - **Che cosa fa.** Tre regole per gli incentivi alle imprese delle amministrazioni centrali, scritte come modifiche al Codice degli incentivi ([d.lgs. 27 novembre 2025, n. 184](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2025-11-27;184)): (1) almeno il 20% del compenso del gestore (per esempio Invitalia) dipende dal rispetto dei tempi di ogni fase; (2) ogni tre mesi si pubblicano per ogni incentivo domande, tempi per fase, importi concessi ed erogati, revoche; (3) gli incentivi con più di 100 milioni hanno una valutazione d'impatto pubblicata entro quattro anni, altrimenti non ricevono nuove risorse con atti amministrativi. La relazione tecnica delle leggi che li rifinanziano dice che cosa ha mostrato la valutazione.
 - **Perché.** Il problema non è quanto costa gestire gli incentivi (il compenso ha già un tetto del 2%), ma la loro lentezza: per i Contratti di sviluppo la determinazione arriva in 135 giorni contro i 30 previsti. Inoltre non ci sono valutazioni pubblicate sui risultati degli strumenti di oggi.
 - **Costo.** Zero per la finanza pubblica. Il compenso e le valutazioni si pagano già con la dotazione di ogni incentivo (art. 7 del Codice).
-- **Veicolo consigliato.** Proposta di legge autonoma (5 articoli). In alternativa, emendamento a un decreto-legge in conversione su imprese o incentivi, se il contenuto è omogeneo. Non va nella legge di bilancio: sono norme ordinamentali senza effetti finanziari, vietate dall'art. 21, c. 1-quinquies, [L. 196/2009](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2009-12-31;196).
+- **Veicolo consigliato.** Proposta di legge autonoma (5 articoli). In alternativa, emendamento a un decreto-legge in conversione su imprese o incentivi, se il contenuto è omogeneo. Non va nella legge di bilancio: sono norme ordinamentali senza effetti finanziari, vietate nella prima sezione della legge di bilancio dall'[art. 21, comma 1-quinquies, L. 196/2009](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2009-12-31;196~art21).
 - **Chi la può presentare.** Ogni parlamentare o gruppo, il Governo, i Consigli regionali, il CNEL (art. 71 Cost.).
-- **Tempi.** Si presenta subito (è tra le riforme a costo quasi zero che partono per prime). Gli effetti arrivano a scaglioni: dati trimestrali dal primo trimestre dopo l'entrata in vigore; convenzioni in house adeguate entro il 31/12/2027; prime valutazioni obbligatorie entro il 31/12/2028.
+- **Tempi.** Si presenta subito, perché l'art. 5 è a costo zero. Il pilota della libreria per l'istruttoria assistita, che non è in questo testo, segue invece il calendario di avvio del programma (5, 10 e 10 milioni sui fondi di coesione). Gli effetti arrivano a scaglioni: dati trimestrali dal primo trimestre dopo l'entrata in vigore; convenzioni in house adeguate entro il 31/12/2027; prime valutazioni obbligatorie entro il 31/12/2028.
 
 ---
 
@@ -91,7 +91,7 @@ Tre regole, a costo zero, scritte come **modifica testuale del Codice**, come ch
 
 ---
 
-## 4. Relazione tecnica (art. 17, c. 3, L. 196/2009)
+## 4. Relazione tecnica (art. 17, comma 3, L. 196/2009)
 
 **Art. 1 (compenso legato ai tempi).** Nessun effetto sui saldi. Il corrispettivo dei gestori è già posto a carico delle risorse stanziate per ciascun incentivo (art. 7, c. 2, del Codice), entro il tetto del 2% (art. 7, c. 5). La norma cambia solo il modo in cui una parte del corrispettivo si calcola. Non aumenta né il tetto né le autorizzazioni di spesa. Le somme non riconosciute e le penali restano nella dotazione dell'incentivo (nuovo c. 5-ter): non sono un risparmio per il bilancio e **non si contano come copertura**. Sul fabbisogno e sull'indebitamento netto può cambiare il momento della spesa: per esempio, una somma non pagata al gestore va alle imprese in un altro anno. L'effetto non è quantificabile ex ante ed è comunque compreso nell'autorizzazione di spesa già scontata nei tendenziali. L'adeguamento delle convenzioni lo fanno gli uffici dei ministeri responsabili con il personale in servizio: è attività ordinaria di gestione dei contratti.
 
@@ -106,7 +106,7 @@ Tre regole, a costo zero, scritte come **modifica testuale del Codice**, come ch
 
 **Art. 4 (relazione tecnica).** Nessun effetto: è una regola di procedura per gli uffici che preparano le relazioni tecniche.
 
-**Art. 5.** Clausola di invarianza. Gli elementi a dimostrazione (art. 17, cc. 6-bis e 7, L. 196/2009) sono quelli indicati sopra per ciascun articolo.
+**Art. 5.** Clausola di invarianza. Gli elementi a dimostrazione ([art. 17, comma 6-bis, L. 196/2009](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2009-12-31;196~art17)) sono quelli indicati sopra per ciascun articolo.
 
 **Prospetto riepilogativo (milioni di euro)**
 

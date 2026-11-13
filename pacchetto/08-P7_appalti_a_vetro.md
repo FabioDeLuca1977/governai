@@ -1,6 +1,6 @@
 # 08-P7 — Appalti a vetro: cruscotto pubblico dei rischi e dati aperti completi (variante ESSENZIALE)
 
-*Testo preparato da un agente AI per GovernAI il 13 novembre 2026, a partire dalle schede e dai controlli giuridici del programma. Non è stato rivisto da una persona esperta: va verificato prima di essere presentato.*
+*Testo preparato da un agente AI per GovernAI il 13 novembre 2026 e rivisto da un altro agente AI lo stesso giorno, a partire dalle schede e dai controlli giuridici del programma. Non è stato rivisto da una persona esperta: va verificato prima di essere presentato.*
 
 Fonti interne:
 - `programma/schede/13_integrita.md` (08-P7);
@@ -22,7 +22,7 @@ Fonti interne:
 
   Gli indicatori sono confrontati con l'atteso nazionale per lo stesso tipo di contratti e hanno un intervallo di confidenza. Accanto c'è un indicatore della completezza dei dati che l'ente deve già trasmettere. Gli indicatori valutano enti e procedure, mai persone. Non servono a sanzionare né a escludere imprese. Ogni ente può pubblicare le proprie osservazioni.
 - **Perché.** Nel 2024 il 54,8% delle procedure con confronto competitivo valutabili è stato aggiudicato con una sola offerta. Il numero di offerte è noto solo per circa 56.000 procedure non dirette su 191.000. Chi comunica meno sembra meno a rischio.
-- **Costo.** 2 mln (2027), 3 mln (2028), 3 mln (2029) per l'ANAC, coperti con il fondo speciale di parte corrente. In alternativa, la riallocazione indicata dal programma.
+- **Costo.** 2 mln (2027), 3 mln (2028), 3 mln (2029) per l'ANAC, coperti con il fondo speciale di parte corrente (Tabella A), accantonamento del Ministero dell'economia e delle finanze, da concordare con la Ragioneria. Nel programma è una quota delle riduzioni di spesa dei ministeri già contate (fondo RIALLOCAZIONE), non una spesa in più.
 - **Veicolo consigliato.**
   1. **Atto amministrativo**: delibera ANAC, adottabile subito nei poteri sulla Banca dati nazionale dei contratti pubblici (art. 23 [d.lgs. 36/2023](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36)). È la via scelta dal programma; lo schema è nella parte B.
   2. Per chi siede in Parlamento: **proposta di legge breve** (parte A), che dà base stabile al cruscotto e fissa le garanzie richieste dal controllo giuridico, e **risoluzione in commissione** (parte C) per sollecitare l'avvio.
@@ -79,7 +79,7 @@ Fonti interne:
 2. Agli oneri di cui al comma 1, pari a 2 milioni di euro per l'anno 2027 e a 3 milioni di euro annui a decorrere dall'anno 2028, si provvede mediante corrispondente riduzione dello stanziamento del fondo speciale di parte corrente iscritto, ai fini del bilancio triennale 2027-2029, nell'ambito del programma «Fondi di riserva e speciali» della missione «Fondi da ripartire» dello stato di previsione del Ministero dell'economia e delle finanze per l'anno 2027, allo scopo parzialmente utilizzando l'accantonamento relativo al medesimo Ministero. [Da adeguare al bilancio triennale vigente alla data di presentazione e alla capienza dell'accantonamento.]
 3. Il Ministro dell'economia e delle finanze è autorizzato ad apportare, con propri decreti, le occorrenti variazioni di bilancio.
 
-*Variante di copertura coerente con il programma GovernAI (RIALLOCAZIONE).* In alternativa al c. 2: «… si provvede mediante corrispondente riduzione delle autorizzazioni di spesa per incarichi di consulenza, studi e ricerche delle amministrazioni centrali indicate nell'allegato» (allegato da compilare: capitoli e importi sono un dato da acquisire su OpenBDAP).
+*Accantonamento e rapporto con il programma GovernAI.* L'accantonamento usato è quello del Ministero dell'economia e delle finanze nella Tabella A (voce «Interventi diversi»; disegno di legge di bilancio 2027-2029, A.C. 3174). La capienza è da concordare con la Ragioneria generale dello Stato; se quell'accantonamento non basta, si può usare quello di un altro Ministero indicato dalla Ragioneria. Nel programma GovernAI l'onere è pagato dal fondo RIALLOCAZIONE (riduzioni di spese dei ministeri, tra cui RA03, tetto alle consulenze; `programma/varianti/13_integrita.csv` e `programma/coperture_menu.csv`): la legge di bilancio che applica quelle riduzioni alimenta anche il fondo speciale. I 2-3 milioni sono quindi una quota di coperture già contate, non una copertura in più. La variante con allegato di riduzioni per Ministero, presente nella prima stesura, è stata tolta: i capitoli dello Stato dedicati agli incarichi di studio e consulenza hanno impegni 2025 per 0,53 milioni in tutto (OpenBDAP-RGS, Rendiconto 2025) e non permettono di compilare un allegato con dati verificabili.
 
 *Variante a invarianza.* Se l'ANAC conferma di poter assorbire il costo nel proprio bilancio, l'art. 2 si sostituisce con: «Dall'attuazione della presente legge non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. L'ANAC provvede con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente.» In questo caso la relazione tecnica deve dimostrare la capienza, che è un dato da acquisire.
 
@@ -113,7 +113,7 @@ Fonti interne:
 
 ---
 
-## 4. Relazione tecnica (art. 17, c. 3, L. 196/2009) — parte A
+## 4. Relazione tecnica (art. 17, comma 3, L. 196/2009) — parte A
 
 **Art. 1.** Gli oneri sono quelli dell'ANAC per il calcolo, la pubblicazione, la gestione delle osservazioni e la manutenzione del cruscotto, quantificati all'art. 2. Le stazioni appaltanti non sopportano oneri nuovi: l'indicatore di completezza misura obblighi già esistenti (c. 9-ter) e le osservazioni sono facoltative.
 
@@ -122,8 +122,8 @@ Fonti interne:
 - **Profilo:** 2 mln nel primo anno di avvio parziale, 3 mln a regime.
 - **Dati da acquisire:** ripartizione tra personale e servizi; costo unitario delle figure; quota già coperta dai progetti ANAC esistenti.
 - **Natura:** spesa corrente. L'ANAC è nel conto delle amministrazioni pubbliche (elenco ISTAT S13; da verificare), quindi il trasferimento e la spesa pesano in egual misura su saldo netto da finanziare, fabbisogno e indebitamento netto.
-- **Copertura:** riduzione di pari importo del fondo speciale di parte corrente (Tabella A), con effetti uguali e di segno opposto sui tre saldi.
-- **Rapporto con il programma GovernAI:** nel programma la copertura è RIALLOCAZIONE (riduzione di spese dei ministeri, in particolare consulenze). La variante di copertura con allegato la rende operativa. La capienza dei capitoli è un dato da acquisire. Il beneficio atteso da più concorrenza e prezzi più bassi **non è contato come copertura**.
+- **Copertura:** riduzione di pari importo del fondo speciale di parte corrente (Tabella A), accantonamento del Ministero dell'economia e delle finanze, con effetti uguali e di segno opposto sui tre saldi. Onere permanente: dal 2030 la copertura si appoggia sul terzo anno dell'accantonamento, secondo la prassi.
+- **Rapporto con il programma GovernAI:** nel programma la copertura è il fondo RIALLOCAZIONE (riduzioni di spese dei ministeri, tra cui le consulenze, RA03). La riduzione del fondo speciale è una quota di quelle coperture già contate, non in aggiunta (vedi la nota sotto l'art. 2). Il beneficio atteso da più concorrenza e prezzi più bassi **non è contato come copertura**.
 
 **Prospetto riepilogativo (milioni di euro; + peggioramento, − miglioramento del saldo)**
 
@@ -210,7 +210,7 @@ Fonti interne:
 
 **Da verificare prima della presentazione**
 - Testo vigente degli artt. 23 e 28 del d.lgs. 36/2023 dopo il 31/12/2024.
-- Accantonamento capiente del fondo speciale di parte corrente nel bilancio triennale vigente.
+- Capienza dell'accantonamento del Ministero dell'economia e delle finanze nella Tabella A del bilancio triennale vigente (da concordare con la Ragioneria).
 - Inclusione dell'ANAC nell'elenco ISTAT S13.
 - Elenco e stato dei 17 indicatori del progetto ANAC «Misurare la corruzione».
 - Capienza del bilancio ANAC per la via a invarianza.

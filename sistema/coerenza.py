@@ -129,6 +129,39 @@ def controlla() -> list[str]:
     m = re.search(r"Scenario di riferimento: intermedio \(`programma/selezione_intermedio\.md`\), ([\d,]+) mld", leggi("23_equita_e_linguaggio.md"))
     if m and abs(numero(m.group(1)) - round(spesa, 1)) > 0.05:
         errori.append(f"23_equita_e_linguaggio.md: intermedio a {m.group(1)} mld nell'intestazione, la selezione dice {spesa}")
+    # 13. "Primi 100 giorni" del documento 20: ogni misura citata deve essere nel programma intermedio
+    sel_i = pd.read_csv(RADICE / "programma" / "selezione_intermedio.csv")
+    mis_i = set(sel_i[(sel_i.tipo == "variante") & (sel_i.scelta == 1)].proposta_id)
+    t20 = leggi("20_programma_governai.md")
+    m = re.search(r"## 5\. Primi 100 giorni(.*?)\n## 6\.", t20, re.S)
+    if m:
+        for pid in sorted(set(re.findall(r"\b(\d{2}-[PC]\d+)\b", m.group(1)))):
+            if pid not in mis_i:
+                errori.append(f"20_programma_governai.md, Primi 100 giorni: cita {pid}, che non è nel programma intermedio")
+    # 14. anni di avvio citati ("parte solo nel 2034", "partono solo nel 2034") coerenti con il calendario di avvio
+    try:
+        sys.path.insert(0, str(RADICE / "programma"))
+        import annuale
+        pi = annuale.piano("intermedio") or {}
+        inizio = {k: next((a for a, q in sorted(v["anni"].items()) if q > 0.005), None)
+                  for k, v in (pi.get("misure") or {}).items() if v.get("gruppo") == "g3" and v.get("spesa_max", 0) > 0.005}
+        anni_tardi = set(a for a in inizio.values() if a)
+        for rel in ["programma/schema.yaml", "programma/profili.yaml", "22_programma_in_una_pagina.md", "20_programma_governai.md"]:
+            for m in re.finditer(r"partono? solo nel (\d{4})|cominciano (?:solo )?nel (\d{4})", leggi(rel)):
+                anno = int(m.group(1) or m.group(2))
+                if anni_tardi and anno not in anni_tardi:
+                    errori.append(f"{rel}: anno di avvio {anno} citato, il calendario dice {sorted(anni_tardi)}")
+    except Exception as e:  # il calcolo annuale non deve bloccare gli altri controlli
+        errori.append(f"programma/annuale.py: calendario non calcolabile ({e})")
+    # 15. pacchetto "pronto domani": misure nel programma e link dell'indice esistenti
+    pac = RADICE / "pacchetto"
+    if pac.exists():
+        for f in pac.glob("*.md"):
+            if f.name != "README.md" and f.stem.split("_")[0] not in mis_i:
+                errori.append(f"pacchetto/{f.name}: la misura non è nel programma intermedio")
+        for link in re.findall(r"\]\(([^)]+\.md)\)", leggi("pacchetto/README.md")):
+            if not (pac / link).exists():
+                errori.append(f"pacchetto/README.md: link a {link}, file inesistente")
     # 11. profili "Che cosa cambia per me": misure e coperture citate devono essere nel programma intermedio
     fp = RADICE / "programma" / "profili.yaml"
     if fp.exists():

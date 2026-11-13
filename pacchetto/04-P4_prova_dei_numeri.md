@@ -1,6 +1,6 @@
 # 04-P4 — Nessuna grande opera senza prova dei numeri (variante ZERO)
 
-*Testo preparato da un agente AI per GovernAI il 13 novembre 2026, a partire dalle schede e dai controlli giuridici del programma. Non è stato rivisto da una persona esperta: va verificato prima di essere presentato.*
+*Testo preparato da un agente AI per GovernAI il 13 novembre 2026 e rivisto da un altro agente AI lo stesso giorno, a partire dalle schede e dai controlli giuridici del programma. Non è stato rivisto da una persona esperta: va verificato prima di essere presentato.*
 
 Fonti interne: `programma/schede/04_infrastrutture.md` (04-P4); `programma/varianti/04_infrastrutture.csv`; `programma/selezione_intermedio.csv` (variante scelta: **ZERO**); `giuridico/conformita.csv` (04-P4 COS: *richiede_notifica* per la parte UPB; 04-P4 UE: compatibile; 04-P4:ZERO COS: compatibile); `apprendimento/obiettivi.yaml` (04-P4-a, b, c).
 
@@ -13,7 +13,7 @@ Fonti interne: `programma/schede/04_infrastrutture.md` (04-P4); `programma/varia
 - **Che cosa fa.** Per ogni opera pubblica di costo complessivo superiore a 500 milioni, finanziata in tutto o in parte dallo Stato o assistita da garanzia statale, impone di pubblicare in formato aperto l'analisi costi-benefici, il confronto con le alternative, il modello di calcolo e i dati, prima dell'approvazione del progetto o della delibera CIPESS. Il nucleo di valutazione verifica che l'analisi sia completa. Se l'esito è negativo e si decide di procedere, il Consiglio dei ministri o l'organo che approva motiva la scelta e la trasmette alle Camere.
 - **Perché.** Oggi per le grandi opere non c'è un'analisi costi-benefici pubblica e confrontabile con le alternative. Quasi tutta la Missione 3 del PNRR rientra nei 24,2 mld di spesa che slittano oltre il 2026 (Corte dei conti, maggio 2026).
 - **Costo.** Zero. Si pubblicano analisi che la legge già chiede ai ministeri ([d.lgs. 228/2011](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-12-29;228)) e che stanno nei documenti di progetto; le verifiche le fanno i nuclei esistenti.
-- **Veicolo consigliato.** Proposta di legge autonoma (4 articoli), che modifica l'art. 38 del [d.lgs. 33/2013](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33) sulla trasparenza delle opere pubbliche. In alternativa, emendamento a un decreto-legge su infrastrutture o contratti pubblici, se il contenuto è omogeneo. Non va nella legge di bilancio, perché è una norma ordinamentale.
+- **Veicolo consigliato.** Proposta di legge autonoma (4 articoli), che modifica l'art. 38 del [d.lgs. 33/2013](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2013-03-14;33) sulla trasparenza delle opere pubbliche. In alternativa, emendamento a un decreto-legge su infrastrutture o contratti pubblici, se il contenuto è omogeneo. Non va nella legge di bilancio, perché è una norma ordinamentale: l'[art. 21, comma 1-quinquies, L. 196/2009](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2009-12-31;196~art21) lo vieta.
 - **Chi la può presentare.** Ogni parlamentare o gruppo, il Governo, i Consigli regionali, il CNEL (art. 71 Cost.).
 - **Tempi.** Presentazione subito: è tra le riforme a costo quasi zero. Pubblicazione per le opere in istruttoria entro 90 giorni dall'entrata in vigore; per le nuove opere, prima dell'approvazione del progetto.
 
@@ -90,7 +90,7 @@ Entro sessanta giorni dalla pubblicazione, il nucleo di valutazione e verifica d
 
 ---
 
-## 4. Relazione tecnica (art. 17, c. 3, L. 196/2009)
+## 4. Relazione tecnica (art. 17, comma 3, L. 196/2009)
 
 **Art. 1.** Nessun effetto sui saldi.
 - Per le opere dei ministeri, l'analisi costi-benefici è già dovuta ai sensi del d.lgs. 228/2011 (art. 1). Per le altre opere sopra soglia, gli elementi richiesti (documento delle alternative, stima dei costi, ipotesi di domanda) fanno già parte della progettazione di fattibilità (d.lgs. 36/2023, art. 41 e allegato I.7) e sono pagati nel quadro economico dell'opera, cioè con autorizzazioni di spesa già esistenti.
@@ -102,7 +102,16 @@ Entro sessanta giorni dalla pubblicazione, il nucleo di valutazione e verifica d
 
 **Art. 3.** Nessun effetto. La pubblicazione riguarda documenti esistenti. Per le opere senza analisi basta una dichiarazione: la norma non obbliga a commissionare nuove analisi per le opere in istruttoria.
 
-**Art. 4.** Clausola di invarianza, dimostrata come sopra (art. 17, cc. 6-bis e 7, L. 196/2009).
+**Art. 4.** Clausola di invarianza. Gli elementi a dimostrazione richiesti dall'[art. 17, comma 6-bis, L. 196/2009](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2009-12-31;196~art17) sono nella tabella che segue.
+
+| Elemento | Che cosa sappiamo | Fonte o dove chiederlo |
+|---|---|---|
+| Chi fa il lavoro oggi | L'analisi costi-benefici e il documento delle alternative li redigono l'amministrazione o il concessionario nella progettazione (d.lgs. 228/2011; d.lgs. 36/2023, art. 41). La verifica la fanno i nuclei di valutazione e verifica degli investimenti pubblici dei ministeri (L. 144/1999, art. 1) e, per le opere al CIPESS, il nucleo che opera presso la Presidenza del Consiglio | Norme citate |
+| Risorse già in bilancio (unità gestionali) | Per i nuclei dei ministeri esistono capitoli dedicati. Esempio: Ministero delle infrastrutture e dei trasporti, cap. 1483 «Spese per il funzionamento del nucleo di valutazione e verifica degli investimenti pubblici», impegni 2025 di 0,04 milioni. Il resto del lavoro è svolto da personale di ruolo, pagato sui capitoli di personale dei ministeri. Il nucleo presso la Presidenza del Consiglio è nel bilancio della Presidenza, non nel rendiconto dello Stato | OpenBDAP-RGS, Rendiconto 2025 per capitolo (`dati/raw/00b_openbdap_rendiconto_2025_spese_capitolo.csv`); bilancio della Presidenza del Consiglio: dato da acquisire |
+| Quante opere | Numero di opere sopra 500 milioni approvate ogni anno: dato da acquisire | MIT (Allegato infrastrutture al documento di finanza pubblica), banca dati BDAP-MOP, ANAC (Banca dati nazionale dei contratti pubblici) |
+| Quanto lavoro in più | Per l'amministrazione: caricare in «Amministrazione trasparente» documenti già prodotti e il foglio di calcolo. Per il nucleo: una nota di verifica per opera, entro 60 giorni. Giornate di lavoro per nota: dato da acquisire | Nuclei di valutazione del MIT e della Presidenza del Consiglio |
+| Perché si assorbe | (i) Le analisi sono già pagate nel quadro economico dell'opera; (ii) le opere sopra soglia sono poche; (iii) la nota verifica completezza e metodo, non rifà l'analisi; (iv) l'art. 3 non obbliga a commissionare nuove analisi per le opere in istruttoria | Testo della proposta |
+| Limite dichiarato | Il capitolo del nucleo del MIT è molto piccolo. Se le note richiedono esperti esterni, il costo non si assorbe: in quel caso si passa alla variante ESSENZIALE, con copertura espressa | Da verificare con la Ragioneria e con il MIT |
 
 **Prospetto riepilogativo (milioni di euro)**
 

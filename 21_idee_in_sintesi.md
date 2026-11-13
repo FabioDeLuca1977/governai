@@ -1,6 +1,6 @@
 # Le idee di GovernAI in sintesi
 
-*8 novembre 2026, aggiornato il 12 novembre 2026. Una panoramica per chi ha dieci minuti: che cosa propone GovernAI, quanto costa, chi paga, che cosa unisce e che cosa divide. Il dettaglio è nel programma (`20_programma_governai.md`) e nelle schede di ogni proposta.*
+*8 novembre 2026, aggiornato il 13 novembre 2026. Una panoramica per chi ha dieci minuti: che cosa propone GovernAI, quanto costa, chi paga, che cosa unisce e che cosa divide. Il dettaglio è nel programma (`20_programma_governai.md`) e nelle schede di ogni proposta.*
 
 ## In una frase
 
@@ -19,6 +19,7 @@ Uno Stato che funziona e conti onesti, per investire su famiglie, giovani e terr
 - **Programma adottato dal governo ombra** (simulazione, `governo/`): 11,63 mld l'anno, 55 misure, coperture al minimo per 11,12 mld più i fondi vincolati.
 <!-- /auto:totali -->
 
+- **Senza deficit anche anno per anno, ma più lento.** Molte coperture crescono piano, quindi un calendario di avvio fa partire subito le 28 riforme a costo quasi zero e il resto dal 2028: il nucleo robusto è a pieno dal 2034. Il 2027 è un anno di preparazione (`programma/annuale_intermedio.md`).
 - **Coperture contate al minimo**: nessun risparmio non certificato e nessun recupero di evasione usato per pagare nuova spesa. L'evasione recuperata va a ridurre il deficit.
 
 ## Otto direttrici
@@ -73,7 +74,7 @@ Il panel le giudica tutte positive, ma le mette in coda: con la Carta attuale va
 - Difesa cibernetica per i Comuni (07-C6).
 - Difesa (07-C5): il panel giudica sfavorevole il percorso al 3,5% del PIL senza deficit, perché toglierebbe risorse a quasi tutto il resto; il programma presenta le opzioni con il loro prezzo.
 
-**8. Istituzioni aperte e uso pubblico dell'AI.** Una legge sulla consulenza algoritmica pubblica, con un ufficio indipendente presso le Camere e un'assemblea civica di persone sorteggiate che fissa i pesi tra i valori (08-P1). Dati e modelli delle politiche pubbliche aperti a tutti (09-C1). Regole elettorali stabili e voto per chi studia o lavora fuori sede (08-P3).
+**8. Istituzioni aperte e uso pubblico dell'AI.** Una legge sulla consulenza algoritmica pubblica, con una sezione indipendente di valutazione d'impatto presso l'Ufficio parlamentare di bilancio e un'assemblea civica di persone sorteggiate che fissa i pesi tra i valori (08-P1). Dati e modelli delle politiche pubbliche aperti a tutti (09-C1). Regole elettorali stabili e voto per chi studia o lavora fuori sede (08-P3).
 
 ## Chi paga
 

@@ -17,7 +17,7 @@ Due versioni del programma, entrambe finanziate senza deficit nello scenario pru
 
 - **Il nucleo robusto viene prima.** Sono le misure (oggi 23) prioritarie con quasi ogni combinazione di pesi tra i valori: si finanziano almeno in versione essenziale prima di ottimizzare il resto. Le eccezioni sono dichiarate una per una: 09-C10 resta pilota per scelta finché il pilota non ne misura i risparmi; 02-C5 (progetto di vita per le persone con disabilità) è pilota nel quarto degli ambiti con meno servizi, perché la versione essenziale costa 0,8 mld l'anno di risorse generali, oggi tutte impegnate.
 - **L'eccezione del programma base è il nido (02-C2).** È l'unica misura del nucleo che il base non finanzia. La sua versione essenziale costa 2,0 mld l'anno e si paga con il riordino dei bonus familiari e delle spese fiscali. Nel base queste risorse non bastano, anche perché la linea rossa sull'equità esclude la soppressione del bonus lavoratrici madri (RB05). Entra nel programma completo e nella decisione del governo ombra.
-- **L'impianto istituzionale costa poco**: legge sulla consulenza algoritmica pubblica (08-P1), "Stato a vetro" (09-C1), bilancio generazionale (01-P1), spese fiscali a scadenza (01-P2), valutazione indipendente delle grandi opere (04-P4).
+- **L'impianto istituzionale costa poco**: legge sulla consulenza algoritmica pubblica (08-P1), bilancio generazionale (01-P1), una scheda di valutazione pubblica per ogni spesa fiscale (01-P2), prova dei numeri per le grandi opere (04-P4), appalti a vetro (08-P7). Sono tra le 28 riforme a costo quasi zero che partono subito; sei hanno già un testo pronto (`pacchetto/`).
 - **Restano decisioni politiche**, presentate con il loro prezzo (§6): la traiettoria della Difesa, il dividendo climatico, l'adozione delle coperture strutturali.
 
 ## 2. Come è stato costruito
@@ -150,7 +150,7 @@ Il dettaglio di ogni variante è nelle schede. La robustezza della selezione al 
 
 ## 4. Le coperture
 
-Il dettaglio è in `programma/coperture_menu.csv`: 63 misure con gettito, chi paga, fonte ed effetto sui dieci valori. I valori sono in mld €/anno, gettito minimo.
+Il dettaglio è in `programma/coperture_menu.csv`: 72 misure con gettito, chi paga, fonte ed effetto sui dieci valori. I valori sono in mld €/anno, gettito minimo.
 
 <!-- auto:coperture -->
 | Fondo | Programma base | Programma completo |
@@ -187,20 +187,19 @@ Il resto della spesa si finanzia con fondi già vincolati: coesione 2021-27 (sol
 
 ## 5. Primi 100 giorni
 
-Ogni scheda riporta il cronoprogramma dettagliato: 100 giorni, 12 mesi, fine legislatura, con chi fa cosa. In sintesi:
+Ogni scheda riporta il cronoprogramma dettagliato: 100 giorni, 12 mesi, fine legislatura, con chi fa cosa. Il calendario di avvio (punto 7 di "Cosa manca") dice che il 2027 è un anno di preparazione: la spesa vera parte dal 2028, quando rendono le coperture. Quindi i primi 100 giorni servono a fare le regole che costano poco e ad approvare le coperture. In sintesi:
 
-1. **Legge GovernAI** (08-P1) e **Stato a vetro** (09-C1) in Consiglio dei ministri. Nascono l'Ufficio per la consulenza algoritmica presso le Camere, il registro pubblico delle analisi e l'assemblea civica di persone sorteggiate, che fisserà i pesi tra i valori.
+1. **Le riforme a costo quasi zero, subito.** Partono per intero le 28 misure che costano al massimo 20 milioni l'anno. Sei hanno già un testo pronto da presentare, nel pacchetto "pronto domani" (`pacchetto/`): tempi e valutazione degli incentivi alle imprese (09-C10, art. 5), prova dei numeri per le grandi opere (04-P4), appalti a vetro (08-P7), "chiedilo una volta sola" (09-C2), una scheda di valutazione per ogni spesa fiscale (01-P2) e la legge sulla consulenza algoritmica pubblica (08-P1), con una sezione di valutazione d'impatto presso l'Ufficio parlamentare di bilancio.
 2. **Legge di bilancio**:
-   - i fondi delle misure del nucleo;
-   - le coperture del livello scelto, contate al minimo e con il profilo annuale;
-   - la regola "nessun rinnovo automatico" per le misure temporanee;
-   - il bilancio generazionale allegato a ogni provvedimento (01-P1).
-3. **Decreti attuativi**:
-   - piattaforma "tempo garantito" per le liste d'attesa;
-   - soglie di carenza del personale sanitario;
-   - elenco degli ambiti con meno del 33% di posti al nido;
-   - censimento degli alloggi pubblici vuoti.
-4. **Disegni di legge delega**: salario minimo contrattuale, patto previdenziale, riordino degli incentivi.
+   - le coperture del livello scelto, contate al minimo e con il loro profilo anno per anno;
+   - i fondi delle misure del nucleo, con il calendario di avvio: nessun anno in deficit;
+   - il vincolo del gettito del tabacco alla sanità vicino a casa e i servizi per smettere di fumare dal 2028;
+   - la regola "nessun rinnovo automatico" per le misure temporanee e il bilancio generazionale allegato a ogni provvedimento (01-P1).
+3. **Decreti attuativi e avvisi**:
+   - piattaforma "tempo garantito" per le liste d'attesa (06-C1);
+   - elenco degli ambiti con meno di 33 posti al nido ogni 100 bambine e bambini (02-C2);
+   - avvisi per le sperimentazioni pagate con i fondi europei, che devono partire subito per dare risultati entro il 2029 (02-C5, 06-C4, 09-C10 e le altre).
+4. **Disegni di legge delega**: salario minimo contrattuale (02-C1) e patto previdenziale (02-C3), nella versione "solo regole".
 
 ## 6. Le decisioni politiche che restano
 
@@ -248,7 +247,7 @@ La verifica giuridica è «condizionata»: la legge deve derogare espressamente 
 - 06-C8 Squadre infermieristiche di quartiere, da pilota a essenziale: 500 squadre per l'assistenza a domicilio (0,10 mld);
 - 06-C10 Meno burocrazia, più cura, nuova proposta: automazione degli uffici sanitari e riqualificazione volontaria degli amministrativi (0,02 mld a regime), con la nuova copertura RP08 (ricambio selettivo degli amministrativi del SSN, 0,05-0,13 mld).
 
-Il prezzo, dichiarato: nessuna misura del nucleo robusto esce (tutte e 22 restano nel programma, 21 con spesa: 02-C5 era allora solo regole, dal 13 novembre è pilota), ma molte scendono di un gradino:
+Il prezzo, dichiarato: nessuna misura del nucleo robusto esce (tutte e 22 di allora restano nel programma, 21 con spesa: 02-C5 era allora solo regole, dal 13 novembre è pilota), ma molte scendono di un gradino:
 - **scuola**: 05-C4 più persone con laurea o diploma ITS e 05-C5 scuole aperte, da piena a essenziale;
 - **innovazione**: 05-C10 rete per la ricerca applicata, 04-P7 dal porto al treno e 01-P14 Sfide Italia diventano pilota; 01-P15 spin-off resta solo come regole; 04-P8 camion a zero emissioni scende a essenziale; resta piena 04-P9 consegne pulite; 01-P13 credito per la ricerca, piena fino al 13 novembre, scende a essenziale per far posto al personale infermieristico (punto 10);
 - **fisco e istituzioni**: 01-P12 da piena a essenziale; ritocchi minimi a 01-P2, 08-P2, 08-P7.
@@ -279,7 +278,7 @@ Il programma intermedio passa a **9,38 mld l'anno e 67 misure**, sempre senza ta
 
 ## 7. Cosa manca e cosa fare dopo
 
-- **Conti anno per anno: lo scarto degli anni di passaggio.** Dal 13 novembre 2026 `programma/annuale.py` rifà il conto per ogni anno dal 2027 al 2035 (`programma/annuale_intermedio.md`). Il vincolo "senza deficit" vale a regime, ma alcune coperture crescono piano: il taglio del gasolio agevolato per l'autotrasporto (SAD13, 0,8 mld) arriva al pieno in 8 anni, la rivalutazione ridotta delle pensioni più alte (PE04, 0,3 mld) in 6. Con l'ipotesi prudente le risorse generali sono scoperte dal 2027 al 2034; con quella favorevole, coperture attive dal primo anno, lo sono dal 2029 al 2033, fino a 0,5 mld l'anno e circa 1,3 mld in tutto. **Scelta del 13 novembre 2026: un calendario di avvio**, corretto dopo il secondo giro di revisione. Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno, con l'ipotesi prudente, tenendo da parte i servizi per smettere di fumare (0,04 mld dal 2028) e la riserva per il dopo 2029 (0,05 mld dal 2030). I fondi europei 2021-2027 pagano solo spese una tantum, non spesa corrente. Partono subito, per intero, le 28 riforme a costo quasi zero (al massimo 20 milioni l'anno ciascuna), compresa la legge sulla consulenza algoritmica pubblica (08-P1). Il 2027 è un anno di preparazione: quasi tutte le coperture rendono dal 2028, quindi il nucleo robusto parte al 4% nel 2027, al 69% nel 2028 e all'87% nel 2029, ed è a pieno dal 2034; le sperimentazioni, la compensazione dell'autotrasporto (04-P8) e le squadre di quartiere (06-C8) seguono lo stesso passo. Le altre misure (01-P13, 04-P9, 09-C9) cominciano nel 2034 e sono a pieno nel 2035. Negli anni di passaggio slittano circa 7,6 mld di spesa, **di cui 5,7 del nucleo**: nessun anno chiude in deficit, ma il programma arriva a regime più tardi di quanto promettono le singole schede. Le stime vanno verificate con la Ragioneria.
+- **Conti anno per anno: lo scarto degli anni di passaggio.** Dal 13 novembre 2026 `programma/annuale.py` rifà il conto per ogni anno dal 2027 al 2035 (`programma/annuale_intermedio.md`). Il vincolo "senza deficit" vale a regime, ma alcune coperture crescono piano: il taglio del gasolio agevolato per l'autotrasporto (SAD13, 0,8 mld) arriva al pieno in 8 anni, la rivalutazione ridotta delle pensioni più alte (PE04, 0,3 mld) in 6. Con l'ipotesi prudente le risorse generali sono scoperte dal 2027 al 2034; con quella favorevole, coperture attive dal primo anno, lo sono dal 2029 al 2033, fino a 0,5 mld l'anno e circa 1,3 mld in tutto. **Scelta del 13 novembre 2026: un calendario di avvio**, corretto dopo il secondo giro di revisione. Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno, con l'ipotesi prudente, tenendo da parte i servizi per smettere di fumare (0,04 mld dal 2028) e la riserva per il dopo 2029 (0,05 mld dal 2030). I fondi europei 2021-2027 pagano solo spese una tantum, non spesa corrente. Partono subito, per intero, le 28 riforme a costo quasi zero (al massimo 20 milioni l'anno ciascuna), compresa la legge sulla consulenza algoritmica pubblica (08-P1). Il 2027 è un anno di preparazione: quasi tutte le coperture rendono dal 2028, quindi il nucleo robusto parte al 4% nel 2027, al 69% nel 2028 e all'87% nel 2029, ed è a pieno dal 2034; le sperimentazioni, la compensazione dell'autotrasporto (04-P8) e le squadre di quartiere (06-C8) seguono lo stesso passo. Attenzione: le tre sperimentazioni pagate con le risorse generali (personale infermieristico 06-C2, reddito di inclusione 02-C4, merci sul treno 04-P7) partono quindi di fatto nel 2028, e la loro valutazione arriverà nel 2030-2031, non in tempo per le decisioni del 2029; le sperimentazioni pagate con i fondi europei partono invece subito. Restano due attriti da decidere: il congedo del papà (un mese dal 2028, due dal 2030) dipende dalla quota di 02-C2 avviata, e le zone a emissioni zero per le merci (04-P9) arrivano nel 2030, prima dei contributi, che partono nel 2034. Sulla coesione slittano anche 0,06 mld di spese una tantum del 2029, oltre la capienza. Le altre misure (01-P13, 04-P9, 09-C9) cominciano nel 2034 e sono a pieno nel 2035. Negli anni di passaggio slittano circa 7,6 mld di spesa, **di cui 5,7 del nucleo**: nessun anno chiude in deficit, ma il programma arriva a regime più tardi di quanto promettono le singole schede. Le stime vanno verificate con la Ragioneria.
 - **Costi stimati, non certificati.** I costi delle varianti e molti gettiti sono "stime GovernAI". Il passo successivo è la verifica con la Ragioneria o con l'UPB, e microsimulazioni distributive su microdati, che richiedono un accesso istituzionale.
 - **Doppioni da escludere.** Le spese fiscali del menu vanno confrontate voce per voce con la lista dei 7,37 mld già nel Piano strutturale.
 - **Utilità delle varianti.** È calcolata come intensità × utilità della proposta piena. Il panel dovrebbe valutare direttamente le varianti essenziali e le misure di copertura.

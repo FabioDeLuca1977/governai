@@ -1,6 +1,6 @@
 # 01-P2 — Spese fiscali: ogni agevolazione con la sua scheda di valutazione pubblica
 
-*Testo preparato da un agente AI per GovernAI il 13 novembre 2026, a partire dalle schede e dai controlli giuridici del programma. Non è stato rivisto da una persona esperta: va verificato prima di essere presentato.*
+*Testo preparato da un agente AI per GovernAI il 13 novembre 2026 e rivisto da un altro agente AI lo stesso giorno, a partire dalle schede e dai controlli giuridici del programma. Non è stato rivisto da una persona esperta: va verificato prima di essere presentato.*
 
 Variante del programma intermedio: **ZERO**. Dice la scheda: «solo scheda di valutazione obbligatoria, senza scadenza». La clausola di scadenza quinquennale (varianti PIENA ed ESSENZIALE) **non** è in questo testo. Fonti interne: `programma/schede/01_economia.md` (01-P2), `programma/varianti/01_economia.csv`, `giuridico/conformita*.csv` (righe 01-P2, ambiti COS, FIS e UE), `giuridico/note_FIS.md`, `dati/verifiche/01_economia.md`.
 
@@ -11,7 +11,7 @@ Variante del programma intermedio: **ZERO**. Dice la scheda: «solo scheda di va
 - **Che cosa fa.** Obbliga a pubblicare, per ogni spesa fiscale (detrazioni, esenzioni, crediti d'imposta, regimi di favore), una scheda di valutazione: a che cosa serve, quanto costa, chi ne beneficia per fasce di reddito e territorio, se funziona, quali alternative ci sono. Le schede coprono tutte le misure in tre anni e si aggiornano almeno ogni cinque. Ogni agevolazione nuova o prorogata deve dichiarare il suo obiettivo e come si misura.
 - **Perché.** Le spese fiscali erariali sono 573 e valgono 129,7 miliardi nel 2026 (MEF). Il loro numero cresce, e quasi nessuna ha una valutazione pubblica di efficacia. Il Piano strutturale di bilancio chiede già 7,37 miliardi di riordino: servono dati per scegliere che cosa tagliare.
 - **Costo.** Zero. Lavorano la Commissione già esistente (d.lgs. 160/2015, senza compensi) e il Dipartimento delle finanze, con gli strumenti che già usa.
-- **Veicolo consigliato.** Proposta di legge autonoma, breve (4 articoli), che modifica l'art. 21 della L. 196/2009. In alternativa, emendamento a un decreto-legge in materia fiscale in conversione, se la Presidenza lo ritiene omogeneo. Non la legge di bilancio: è una norma ordinamentale, e l'art. 21, comma 1-ter, L. 196/2009 la esclude [da verificare sul testo vigente].
+- **Veicolo consigliato.** Proposta di legge autonoma, breve (4 articoli), che modifica l'art. 21 della L. 196/2009. In alternativa, emendamento a un decreto-legge in materia fiscale in conversione, se la Presidenza lo ritiene omogeneo. Non la legge di bilancio: è una norma ordinamentale, e l'[art. 21, comma 1-quinquies, L. 196/2009](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2009-12-31;196~art21) vieta norme di carattere ordinamentale o organizzatorio nella prima sezione del disegno di legge di bilancio.
 - **Chi la può presentare.** Ogni parlamentare o gruppo; il Governo (MEF) anche come collegato.
 - **Tempi.** Prime schede (un terzo delle misure) nel rapporto allegato al disegno di legge di bilancio per il 2028 (ottobre 2027); tutte le misure entro il rapporto allegato al bilancio 2030.
 
@@ -83,7 +83,7 @@ g) una valutazione sintetica motivata dell'efficacia della misura rispetto al su
 
 1. Dall'attuazione della presente legge non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni interessate provvedono agli adempimenti previsti con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente.
 
-> **Verifiche sul testo vigente (Normattiva, 13 novembre 2026):** l'art. 21 L. 196/2009 contiene i commi 11-bis (rapporto sulle spese fiscali) e 11-ter (emissione di titoli di Stato): per questo i nuovi commi sono numerati 11-bis.1, 11-bis.2 e 11-bis.3. Verificato anche l'art. 1, comma 4, d.lgs. 160/2015 (Commissione di quindici componenti, senza compensi). Il richiamo all'art. 1, comma 1, lett. l-ter), CAD (dati di tipo aperto) e il comma 1-ter dell'art. 21 L. 196/2009 (contenuto della legge di bilancio) sono [da verificare sul testo vigente], anche alla luce delle modifiche alla L. 196/2009 per la nuova governance economica europea.
+> **Verifiche sul testo vigente (Normattiva, 13 novembre 2026):** l'art. 21 L. 196/2009 contiene i commi 11-bis (rapporto sulle spese fiscali) e 11-ter (emissione di titoli di Stato): per questo i nuovi commi sono numerati 11-bis.1, 11-bis.2 e 11-bis.3. Verificato anche l'art. 1, comma 4, d.lgs. 160/2015 (Commissione di quindici componenti, senza compensi). Verificato anche l'art. 21, comma 1-quinquies, L. 196/2009: è il comma che vieta nella prima sezione della legge di bilancio le norme di delega e quelle di carattere ordinamentale o organizzatorio (il comma 1-ter elenca invece il contenuto ammesso). Il richiamo all'art. 1, comma 1, lett. l-ter), CAD (dati di tipo aperto) è [da verificare sul testo vigente], come le eventuali modifiche alla L. 196/2009 per la nuova governance economica europea.
 
 ---
 
@@ -99,6 +99,17 @@ g) una valutazione sintetica motivata dell'efficacia della misura rispetto al su
 **Art. 3.** La Commissione opera già senza compensi né rimborsi (art. 1, comma 4, d.lgs. 160/2015). Gli accordi con ISTAT, università ed enti di ricerca sono a titolo gratuito. Nessun onere.
 
 **Art. 4.** Clausola di invarianza.
+
+**Elementi a dimostrazione dell'invarianza ([art. 17, comma 6-bis, L. 196/2009](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2009-12-31;196~art17)).** La norma chiede di indicare le risorse già in bilancio e le unità gestionali che finanziano il lavoro.
+
+| Elemento | Che cosa sappiamo | Fonte o dove chiederlo |
+|---|---|---|
+| Chi fa il lavoro oggi | Il rapporto annuale sulle spese fiscali è redatto dalla Commissione dell'art. 1, comma 4, d.lgs. 160/2015 (15 componenti, senza compensi né rimborsi), con il supporto del Dipartimento delle finanze del MEF | d.lgs. 160/2015; ufficio del DF che cura il rapporto: dato da acquisire presso il Dipartimento delle finanze |
+| Persone che lavorano oggi al rapporto | Dato da acquisire | Dipartimento delle finanze (richiesta formale o interrogazione a risposta scritta); in sede di esame, relazione tecnica del MEF |
+| Risorse già in bilancio (unità gestionali) | Stato di previsione MEF, programma «Regolazione e coordinamento del sistema della fiscalità», centro di responsabilità Dipartimento delle finanze. Impegni 2025: cap. 3501 (competenze del personale) 36,3 milioni; cap. 3547 (studio e ricerca in materia tributaria e fiscale) 1,0 milioni; cap. 7762 (sviluppo dei servizi automatizzati del sistema informatico) 45,0 milioni | OpenBDAP-RGS, Rendiconto 2025 per capitolo (`dati/raw/00b_openbdap_rendiconto_2025_spese_capitolo.csv`, colonna «Totale CP») |
+| Quanto lavoro in più | Circa 190 schede l'anno nei rapporti allegati ai bilanci 2028, 2029 e 2030, preparati tra il 2027 e il 2029 (un terzo di 573 misure), poi solo gli aggiornamenti almeno quinquennali (circa 115 l'anno, se le misure restano 573). Per ogni scheda, le lett. b) e f) riprendono dati già nel rapporto; il lavoro nuovo è nelle lett. a), c), d), e), g). Ore di lavoro per scheda: dato da acquisire | Calcolo su 573 misure (MEF, Rapporto spese fiscali 2025); stima delle ore da chiedere al Dipartimento delle finanze sulla base del rapporto 2025 |
+| Perché si assorbe | (i) Le stime di costo e l'elenco dei beneficiari sono già prodotti per il rapporto; (ii) la distribuzione per decili usa i modelli di microsimulazione esistenti e vale «ove i dati lo consentano»; (iii) le valutazioni di efficacia (lett. d) si riportano dove esistono, non si commissionano; (iv) il calendario su tre rapporti distribuisce il carico; (v) ISTAT, università ed enti di ricerca collaborano a titolo gratuito (art. 3) | Testo della proposta |
+| Limite dichiarato | Se le ore per scheda, moltiplicate per 190, superano la capacità del personale in servizio, l'invarianza non regge e la qualità delle lett. d) e g) scende. In quel caso il passo è la segreteria tecnica della variante PIENA, con copertura espressa | Da verificare con la Ragioneria in sede di bollinatura |
 
 **Chi lo fa e con che cosa.** Il Dipartimento delle finanze e la Commissione per il rapporto, con le risorse esistenti. La variante PIENA del programma prevedeva 5 milioni nel 2027 e 10 milioni dal 2028 per una segreteria tecnica e un laboratorio dati. La variante ZERO non li prevede: la qualità e il numero delle valutazioni di efficacia (lett. d e g) dipenderanno dalla capacità del Dipartimento. Va dichiarato in sede di esame (vedi Note).
 
@@ -133,7 +144,7 @@ Coerenza con il programma: variante ZERO di 01-P2, costo 0 in tutti gli anni (`p
 
 | Indicatore | Base | Obiettivo a 3 anni | Obiettivo a 5 anni |
 |---|---|---|---|
-| Quota di misure con scheda di valutazione pubblica (indicatore diretto di questa variante) | circa 0% (2026) | 60% (la legge chiede almeno due terzi entro il rapporto 2029) | 100% |
+| Quota di misure con scheda di valutazione pubblica (indicatore diretto di questa variante) | circa 0% (2026) | almeno due terzi (lo chiede la legge entro il rapporto 2029; `obiettivi.yaml` indica 60%, da allineare) | 100% |
 | Numero di spese fiscali erariali (indicatore di contesto) | 573 (2026, MEF, RSF 2025) | ≤ 490 | ≤ 400 |
 | Riordino conseguito rispetto all'obiettivo del Piano (indicatore di contesto) | 0 su 7,37 mld | ≥ 50% | 100% |
 

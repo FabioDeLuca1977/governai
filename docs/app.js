@@ -8,7 +8,7 @@
   const $$ = (s, el = document) => [...el.querySelectorAll(s)];
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   // Costo annuo arrotondato: sotto il miliardo in milioni (multipli di 5), sopra con un decimale
-  const euro = (x) => x == null ? "—" : !+x ? "costo zero" : x < 0.9975 ? `${Math.max(5, Math.round(x * 200) * 5)} mln` : `${(+x).toLocaleString("it-IT", { minimumFractionDigits: 1, maximumFractionDigits: 1 })} mld`;
+  const euro = (x) => x == null ? "—" : !+x ? "costo zero" : x < 0.0475 ? `${Math.max(1, Math.round(x * 1000))} mln` : x < 0.9975 ? `${Math.round(x * 200) * 5} mln` : `${(+x).toLocaleString("it-IT", { minimumFractionDigits: 1, maximumFractionDigits: 1 })} mld`;
   const nf = (n, d = 2) => n == null || n === "" || Number.isNaN(+n) ? "—" : Number(n).toLocaleString("it-IT", { minimumFractionDigits: d, maximumFractionDigits: d });
   const MESI = ["gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"];
   const MESI_LUNGHI = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"];
@@ -826,7 +826,7 @@
     }
     return `${schedeProgramma("pronto")}
       <p class="risposta">Testi che una parlamentare, un parlamentare o un ufficio legislativo potrebbe presentare domani: misure a costo zero o quasi, già passate dal controllo giuridico preventivo. Per ognuna: scheda in breve, relazione illustrativa, articolato, relazione tecnica, analisi tecnico-normativa e d'impatto, note per chi presenta.</p>
-      <div class="griglia g2-d">${P.map((x) => { const pr = proposta(x.id) || {}; const m = rif.misure[x.id]; return `<div class="card"><p class="etichetta"><a href="#/programma/pronto?misura=${encodeURIComponent(x.id)}">${icona("file-text")}${esc(x.id)} · ${esc(tit(pr.titolo || x.id))}</a></p><p class="nota">${m ? `${esc(m.variante.toLowerCase())}${m.costo > 0 ? `, ${euro(m.costo)} l'anno` : ", costo zero"}` : ""}</p><div class="md">${md(breve(x.testo).split("\n").slice(0, 4).join("\n"))}</div><p><a class="btn s" href="#/programma/pronto?misura=${encodeURIComponent(x.id)}">Leggi il testo completo ${icona("arrow-right")}</a></p></div>`; }).join("")}</div>
+      <div class="griglia g2-d">${P.map((x) => { const pr = proposta(x.id) || {}; const m = rif.misure[x.id]; return `<div class="card"><p class="etichetta"><a href="#/programma/pronto?misura=${encodeURIComponent(x.id)}">${icona("file-text")}${esc(((x.testo.match(/^#\s+(.+)$/m) || [])[1]) || (x.id + " · " + tit(pr.titolo || x.id)))}</a></p><div class="md">${md(breve(x.testo).split("\n").slice(0, 4).join("\n"))}</div><p><a class="btn s" href="#/programma/pronto?misura=${encodeURIComponent(x.id)}">Leggi il testo completo ${icona("arrow-right")}</a></p></div>`; }).join("")}</div>
       <p class="nota" style="margin-top:16px">Testi preparati da agenti AI il 13 novembre 2026 a partire dalle schede e dai controlli giuridici del programma; non sono stati rivisti da una persona esperta.</p>`;
   }
 

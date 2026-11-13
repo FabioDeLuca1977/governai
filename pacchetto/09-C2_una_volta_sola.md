@@ -1,6 +1,6 @@
 # 09-C2 — "Chiedilo una volta sola": il diritto a non fornire due volte i dati che lo Stato ha già
 
-*Testo preparato da un agente AI per GovernAI il 13 novembre 2026, a partire dalle schede e dai controlli giuridici del programma. Non è stato rivisto da una persona esperta: va verificato prima di essere presentato.*
+*Testo preparato da un agente AI per GovernAI il 13 novembre 2026 e rivisto da un altro agente AI lo stesso giorno, a partire dalle schede e dai controlli giuridici del programma. Non è stato rivisto da una persona esperta: va verificato prima di essere presentato.*
 
 Variante del programma intermedio: **ZERO** (solo regole, nessun fondo dedicato; indennizzo dopo 36 mesi). Fonti interne: `programma/schede/09_pa_digitale.md` (09-C2), `programma/varianti/09_pa_digitale.csv`, `giuridico/conformita*.csv` (righe 09-C2, ambiti COS e UE), `giuridico/note_COS.md`, `dati/verifiche/09_pa_digitale.md`.
 
@@ -42,7 +42,7 @@ Il collo di bottiglia non è la tecnologia ma l'incentivo: oggi chiedere il docu
 - **Art. 2** inserisce nel CAD l'art. 50-quinquies: elenco dei procedimenti, data di passaggio, divieto di richiesta, indennizzo, tetto, imputazione all'ente titolare quando l'inadempimento è suo, cruscotto, consultazione degli accessi, rettifica.
 - **Art. 3** coordina l'art. 43 del d.P.R. 445/2000 con il nuovo articolo.
 - **Art. 4** prevede la relazione al Parlamento e la revisione a 48 mesi.
-- **Art. 5** contiene la clausola di invarianza finanziaria.
+- **Art. 5** contiene la clausola di invarianza finanziaria e una clausola di salvaguardia sugli indennizzi: monitoraggio annuale e, se gli indennizzi crescono troppo, riduzione degli importi o rinvio delle date con decreto.
 
 ---
 
@@ -92,9 +92,13 @@ d) la data a decorrere dalla quale i dati sono acquisiti esclusivamente tramite 
 
 1. Entro quarantotto mesi dalla data di entrata in vigore della presente legge, il Ministro delegato per l'innovazione tecnologica e la transizione digitale trasmette alle Camere una relazione sull'attuazione dell'articolo 50-quinquies del decreto legislativo n. 82 del 2005, con l'indicazione, per ciascuna categoria di enti, dei procedimenti adeguati, degli indennizzi corrisposti e delle cause dei ritardi, ai fini di eventuali interventi di supporto agli enti di minori dimensioni.
 
-**Art. 5** *(Clausola di invarianza finanziaria)*
+**Art. 5** *(Clausola di invarianza finanziaria e di salvaguardia)*
 
 1. Dall'attuazione della presente legge non devono derivare nuovi o maggiori oneri a carico della finanza pubblica. Le amministrazioni interessate provvedono agli adempimenti previsti con le risorse umane, strumentali e finanziarie disponibili a legislazione vigente.
+
+2. Le amministrazioni tenute al pagamento degli indennizzi di cui all'articolo 50-quinquies, comma 4, del decreto legislativo 7 marzo 2005, n. 82, comunicano al Dipartimento per la trasformazione digitale della Presidenza del Consiglio dei ministri, entro il 31 gennaio di ciascun anno, il numero e l'importo degli indennizzi corrisposti nell'anno precedente. Il Dipartimento trasmette i dati al Ministero dell'economia e delle finanze, che provvede al monitoraggio dei relativi effetti sui saldi di finanza pubblica, anche ai fini dell'articolo 17, comma 12, della legge 31 dicembre 2009, n. 196.
+
+3. Qualora dal monitoraggio di cui al comma 2 emergano o siano in procinto di verificarsi scostamenti tali da pregiudicare il conseguimento degli obiettivi di finanza pubblica, con decreto del Presidente del Consiglio dei ministri, su proposta del Ministro dell'economia e delle finanze, di concerto con il Ministro delegato per l'innovazione tecnologica e la transizione digitale, sentita la Conferenza unificata, sono ridotti, nella misura necessaria, gli importi dell'indennizzo di cui all'articolo 50-quinquies, comma 4, o il limite di cui al comma 6 del medesimo articolo, ovvero è differita, per i procedimenti interessati, la data di decorrenza dell'indennizzo. Lo schema di decreto è trasmesso alle Camere per il parere delle Commissioni competenti per materia e per i profili finanziari, che si esprimono entro quindici giorni.
 
 > **Verifiche sul testo vigente (Normattiva, 13 novembre 2026):** nel CAD esistono gli artt. 50-ter (commi 1, 2, 2-bis, 3-8) e 50-quater (dati generati nei servizi in concessione); l'art. 50-quinquies è libero. L'art. 43 d.P.R. 445/2000 ha i commi 1-6, senza comma 1-bis. Il riferimento all'art. 5, comma 2, CAD per pagoPA è [da verificare sul testo vigente].
 
@@ -112,9 +116,24 @@ d) la data a decorrere dalla quale i dati sono acquisiti esclusivamente tramite 
 - *Comma 9 (consultazione degli accessi).* Attuazione **progressiva** e «nei limiti delle informazioni di tracciatura disponibili»: se la tracciatura non registra la persona interessata, la funzione si attiva con le evoluzioni già programmate della Piattaforma e del punto di accesso telematico. Nessun onere aggiuntivo; resta da verificare con il DTD la fattibilità tecnica (dato da acquisire).
 - *Commi 10-11.* Usano la Piattaforma e il sistema tecnico UE già esistenti. Nessun onere.
 
+**Elementi a dimostrazione dell'invarianza ([art. 17, comma 6-bis, L. 196/2009](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2009-12-31;196~art17)).**
+
+| Elemento | Che cosa sappiamo | Fonte o dove chiederlo |
+|---|---|---|
+| Chi fa il lavoro oggi | La PDND è gestita dalla Presidenza del Consiglio dei ministri (art. 50-ter, comma 2, CAD), tramite il Dipartimento per la trasformazione digitale (DTD); il ruolo della società PagoPA S.p.A. nella gestione tecnica è da verificare; il Dipartimento della funzione pubblica concorre al decreto; ogni amministrazione si accredita alla PDND ed espone le proprie basi dati (obbligo già vigente) | [Art. 50-ter CAD](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-03-07;82~art50ter) |
+| Risorse già in bilancio | DTD: bilancio autonomo della Presidenza del Consiglio, non nel rendiconto dello Stato (importi: dato da acquisire sul bilancio di previsione della Presidenza). Gestione tecnica della PDND: contratti o convenzioni in essere del DTD (importo annuo: dato da acquisire presso il DTD). Adeguamento degli enti: fondi PNRR della Missione 1, Componente 1 (9,75 miliardi in tutto per la digitalizzazione della PA, PNRR 2021; quota per l'integrazione con la PDND: dato da acquisire su PA digitale 2026) | `dati/verifiche/09_pa_digitale.md`, riga 12; DTD |
+| Quanto lavoro in più | Un decreto con l'elenco (una volta); un cruscotto trimestrale costruito su dati di tracciatura già raccolti; la relazione a 48 mesi. Per gli enti, nessun obbligo nuovo: il divieto di chiedere dati già disponibili esiste dal 2000 | Testo della proposta; art. 43 d.P.R. 445/2000 |
+| Volumi | Numero annuo di pratiche per procedimento e quota già acquisita via PDND: dato da acquisire. Oggi la PDND conta oltre 9.400 enti aderenti, 14.000 servizi, 1,1 miliardi di scambi (31 maggio 2026) | DTD (statistiche di uso della PDND); ISTAT o Ministero dell'interno per anagrafe e residenze; INPS per l'ISEE |
+| Perché si assorbe | (i) Le infrastrutture esistono e sono già finanziate; (ii) le date di passaggio arrivano tra il 12° e il 36° mese, dentro i cicli di aggiornamento dei sistemi degli enti; (iii) l'indennizzo si paga solo se l'ente viola un obbligo già vigente, e ha un tetto; (iv) la clausola di salvaguardia (art. 5, commi 2-3) corregge eventuali scostamenti | Testo della proposta |
+| Limite dichiarato | Il costo per i piccoli comuni di integrare i propri sistemi con la PDND dopo la fine del PNRR non è stimato | Da verificare con ANCI e DTD |
+
 **Art. 3.** Coordinamento. Nessun effetto.
 **Art. 4.** Relazione predisposta dal DTD con dati già disponibili. Nessun onere.
-**Art. 5.** Clausola di invarianza.
+**Art. 5.** Comma 1: clausola di invarianza. Commi 2-3: clausola di salvaguardia sugli indennizzi.
+- *Perché serve.* L'indennizzo è un onere eventuale degli enti, oggi non quantificabile, con un tetto alto: lo 0,5% delle spese correnti di ogni amministrazione. Il tetto rende l'onere finito per ciascun ente, ma la somma dei tetti di tutte le amministrazioni è grande (importo da calcolare sui rendiconti: dato da acquisire, Ragioneria e BDAP). La Ragioneria potrebbe quindi chiedere uno strumento di correzione.
+- *Che cosa fa.* Le amministrazioni comunicano ogni anno gli indennizzi pagati; il MEF li monitora. Se gli indennizzi crescono oltre quanto i saldi possono sopportare, un decreto riduce gli importi o il tetto, o rinvia le date. La correzione agisce sulla causa della spesa e non costa nulla allo Stato.
+- *Rapporto con l'art. 17, comma 12, L. 196/2009.* Dopo la riforma del 2016 il comma 12 ([testo vigente](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2009-12-31;196~art17)) prevede il monitoraggio degli oneri delle leggi con «previsioni di spesa», e i commi 12-bis-12-quater le misure correttive. Quella procedura riduce gli stanziamenti dei ministeri e si adatta male a un onere che grava sui bilanci di comuni, regioni ed enti. Per questo il testo prevede una correzione specifica, collegata al monitoraggio del comma 12. Se la Ragioneria preferisce, si può trasformare l'onere in «previsione di spesa» con la procedura dei commi 12-12-quater.
+- *Alternative meno costose da valutare in sede politica.* Abbassare il tetto (per esempio allo 0,1% delle spese correnti) o partire con l'indennizzo solo per le amministrazioni centrali.
 
 **Prospetto riepilogativo (milioni di euro)**
 
@@ -168,6 +187,6 @@ Avvertenza: con la variante ZERO la scheda attribuisce intensità 0,3; gli obiet
 - **Obiezione "costa agli enti".** *Risposta:* costa solo a chi viola un obbligo vigente dal 2000 e finanziato con il PNRR. L'obiettivo dichiarato è che gli indennizzi tendano a zero.
 - **Obiezione "sorveglianza".** *Risposta:* nessuna banca dati unica; scambi puntuali con base giuridica pubblicata; la persona vede chi ha consultato i suoi dati.
 - **Rischio di attuazione.** Senza fondi (variante ZERO) i piccoli enti arrivano in ritardo. Il passaggio successivo naturale è la variante ESSENZIALE (30 procedimenti con supporto finanziato), quando ci sono risorse. La relazione a 48 mesi (art. 4) serve a decidere.
-- **Rischio Ragioneria.** L'indennizzo potrebbe essere contestato in sede di bollinatura (vedi relazione tecnica). Tenere pronta la versione di ripiego (sanzione sulla retribuzione di risultato).
+- **Rischio Ragioneria.** L'indennizzo potrebbe essere contestato in sede di bollinatura (vedi relazione tecnica). Il testo contiene già una clausola di salvaguardia (art. 5, commi 2-3). Tenere pronta anche la versione di ripiego (sanzione sulla retribuzione di risultato).
 - **Alleanze possibili.** Associazioni dei consumatori e delle imprese (semplificazione), Ordini professionali (commercialisti, consulenti del lavoro), comunità degli sviluppatori della PA.
 - **Passaggi successivi.** Decreto con l'elenco entro 6 mesi (intesa in Conferenza unificata, parere Garante, AgID); linee guida AgID sulla rettifica; primo cruscotto entro 12 mesi; relazione a 48 mesi.

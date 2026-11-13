@@ -198,6 +198,14 @@ def una_pagina() -> str | None:
     v = sel[(sel.tipo == "variante") & (sel.scelta == 1)].set_index("proposta_id")
     c = sel[(sel.tipo == "copertura") & (sel.scelta == 1) & (sel.gettito_min > 0)].sort_values("gettito_min", ascending=False)
 
+    try:  # anno di inizio delle misure che partono tardi con il calendario di avvio (programma/annuale.py)
+        import annuale
+        pi = annuale.piano(s["scenario"]) or {}
+        inizio = {k: next((a for a, q in sorted(m["anni"].items()) if q > 0.005), 2027)
+                  for k, m in (pi.get("misure") or {}).items() if m.get("gruppo") == "g3"}
+    except Exception:
+        inizio = {}
+
     def unita(o, sem):
         u = str(sem.get("unita", o.get("unita") or ""))
         return "" if not u else "%" if u == "%" else "% " + u[1:].strip() if u.startswith("%") else " " + u
@@ -211,7 +219,16 @@ def una_pagina() -> str | None:
         da = f"{n(base)}{u}" if base is not None else "un valore ancora da rilevare"
         a = f"{n(t5)}{u}" if t5 is not None else str((o.get("scheda") or {}).get("obiettivo_5a") or "—")
         fonte = (o.get("base") or {}).get("fonte")
-        return f"- **{sem.get('nome', o['nome'])}**: da {da} a **{a}** in 5 anni ({o['proposta']}{'; base: ' + fonte if fonte else ''})"
+        pid = o["proposta"]
+        if pid not in v.index:
+            nota = " — *la misura non è in questa versione del programma: l'obiettivo non è garantito*"
+        elif str(v.loc[pid].variante if not isinstance(v.loc[pid], pd.DataFrame) else v.loc[pid].variante.iloc[0]).upper() == "ZERO":
+            nota = " — *in questa versione la misura è solo regole, senza spesa: raggiungere l'obiettivo dipende da come vengono applicate*"
+        elif inizio.get(pid, 2027) >= 2030:
+            nota = f" — *con il calendario di avvio la misura parte nel {inizio[pid]}: l'obiettivo va oltre i 5 anni*"
+        else:
+            nota = ""
+        return f"- **{sem.get('nome', o['nome'])}**: da {da} a **{a}** in 5 anni ({pid}{'; base: ' + fonte if fonte else ''}){nota}"
 
     P = s["programma"]
     out = ["# Il programma in una pagina", "",

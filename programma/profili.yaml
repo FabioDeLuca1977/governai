@@ -10,14 +10,14 @@ profili:
     titolo: "Famiglia con una bambina o un bambino sotto i 3 anni"
     icona: baby
     chi: "Le famiglie con figlie e figli sotto i 3 anni: circa 1,1 milioni di bambine e bambini. Oggi ci sono 31,6 posti al nido ogni 100, solo 19 al Sud (ISTAT, Offerta di nidi 2023/24)."
-    in_breve: "Più posti al nido dove oggi mancano, gratis con un ISEE (indicatore della situazione economica) fino a 25.000 euro. Il congedo del papà sale a un mese nel 2028 e a due mesi nel 2030."
+    in_breve: "Più posti al nido dove oggi mancano, gratis con un ISEE (indicatore della situazione economica) fino a 25.000 euro. Il congedo del papà sale a un mese e poi a due, con tempi che dipendono dal calendario di avvio."
     guadagna:
       - proposta: 02-C2
         testo: "Versione essenziale. Lo Stato paga il personale dei nidi solo negli ambiti con meno di 33 posti ogni 100 bambine e bambini. Sono circa 60-70 mila posti in più, soprattutto al Sud e nelle aree interne."
       - proposta: 02-C2
         testo: "In quegli ambiti il nido è gratis per le famiglie con un ISEE fino a 25.000 euro. Per loro la gratuità prende il posto del bonus nido."
       - proposta: 02-C2
-        testo: "Congedo di paternità: da 10 giorni a un mese dal 2028, a due mesi dal 2030. È pagato all'80% dello stipendio e non si può cedere all'altro genitore."
+        testo: "Congedo di paternità: da 10 giorni a un mese, poi a due mesi, pagato all'80% dello stipendio e non cedibile. La scheda prevede il 2028 e il 2030, ma con il calendario di avvio nel 2028 parte solo il 69% della spesa per nido e congedo: le date possono slittare."
       - proposta: 02-C2
         testo: "Il congedo vale anche per chi lavora in proprio e per chi è iscritto alla Gestione separata dell'INPS (Istituto nazionale della previdenza sociale)."
     paga:
@@ -179,7 +179,7 @@ profili:
       - proposta: 01-P13
         testo: "Versione essenziale. Un solo credito d'imposta per la ricerca, con aliquota del 12% per le imprese sotto i 50 addetti. Il progetto è certificato prima di spendere."
       - proposta: 04-P9
-        testo: "Zone a emissioni zero per le merci nelle 14 città metropolitane dal 2030, con 4 anni di preavviso. Contributi per cargo bike e ricarica alle microimprese."
+        testo: "Zone a emissioni zero per le merci nelle 14 città metropolitane dal 2030, con 4 anni di preavviso. Contributi per cargo bike e ricarica alle microimprese, che però con il calendario di avvio partono solo nel 2034: è un attrito ancora da decidere."
       - proposta: 01-P5
         testo: "Versione essenziale. Garanzia pubblica per contratti lunghi di energia rinnovabile a prezzo stabile, solo per consorzi e distretti che consumano molta energia."
       - proposta: 05-C10

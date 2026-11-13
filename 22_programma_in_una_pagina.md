@@ -13,9 +13,9 @@
 - **Posti al nido ogni 100 bambine e bambini sotto i 3 anni**: da 31,6 a **40** in 5 anni (02-C2; base: ISTAT)
 - **Giovani che lasciano presto la scuola, nelle Isole**: da 13,7% a **9,5%** in 5 anni (05-C1; base: Eurostat edat_lfse_16)
 - **Persone tra 25 e 34 anni con laurea o diploma ITS**: da 31,1% a **35%** in 5 anni (05-C4; base: Eurostat edat_lfse_03)
-- **Spesa delle imprese in ricerca e sviluppo**: da 0,8% PIL a **0,9% PIL** in 5 anni (01-P13; base: Eurostat rd_e_gerdtot (settore BES))
-- **Produttività: PIL per ora lavorata**: da 100,4 (2015 = 100) a **104 (2015 = 100)** in 5 anni (01-P4; base: Eurostat nama_10_lp_ulc)
-- **Persone che rinunciano a cure necessarie per costo, distanza o attesa**: da 2,5% a **1,5%** in 5 anni (06-C1; base: Eurostat hlth_silc_08)
+- **Spesa delle imprese in ricerca e sviluppo**: da 0,8% PIL a **0,9% PIL** in 5 anni (01-P13; base: Eurostat rd_e_gerdtot (settore BES)) — *con il calendario di avvio la misura parte nel 2034: l'obiettivo va oltre i 5 anni*
+- **Produttività: PIL per ora lavorata**: da 100,4 (2015 = 100) a **104 (2015 = 100)** in 5 anni (01-P4; base: Eurostat nama_10_lp_ulc) — *la misura non è in questa versione del programma: l'obiettivo non è garantito*
+- **Persone che rinunciano a cure necessarie per costo, distanza o attesa**: da 2,5% a **1,5%** in 5 anni (06-C1; base: Eurostat hlth_silc_08) — *in questa versione la misura è solo regole, senza spesa: raggiungere l'obiettivo dipende da come vengono applicate*
 - **Acqua persa dalle reti idriche**: da 42,4% a **33%** in 5 anni (03-P3; base: ISTAT; misura annuale ARERA-RQTI M1)
 - **Durata di una causa civile nei tre gradi**: da 1.789 giorni a **1.400 giorni** in 5 anni (07-C1; base: Min. Giustizia)
 
@@ -80,8 +80,8 @@
 
 **Cosa misuriamo.**
 
-- **Persone che rinunciano a cure necessarie per costo, distanza o attesa**: da 2,5% a **1,5%** in 5 anni (06-C1; base: Eurostat hlth_silc_08)
-- **Quota della spesa sanitaria per la prevenzione**: da 4,5% a **5,5%** in 5 anni (06-C6; base: ISTAT-SHA via Eurostat hlth_sha11_hc (8,56 mld))
+- **Persone che rinunciano a cure necessarie per costo, distanza o attesa**: da 2,5% a **1,5%** in 5 anni (06-C1; base: Eurostat hlth_silc_08) — *in questa versione la misura è solo regole, senza spesa: raggiungere l'obiettivo dipende da come vengono applicate*
+- **Quota della spesa sanitaria per la prevenzione**: da 4,5% a **5,5%** in 5 anni (06-C6; base: ISTAT-SHA via Eurostat hlth_sha11_hc (8,56 mld)) — *in questa versione la misura è solo regole, senza spesa: raggiungere l'obiettivo dipende da come vengono applicate*
 - **Divario di occupazione tra persone con disabilità grave e le altre**: da 43,4 punti a **37 punti** in 5 anni (02-C5; base: Eurostat tepsr_sp200)
 - **Persone senza dimora ancora in casa dopo 12 mesi**: da un valore ancora da rilevare a **85%** in 5 anni (02-C7)
 
@@ -115,14 +115,14 @@
 
 **Cosa misuriamo.**
 
-- **Spesa delle imprese in ricerca e sviluppo**: da 0,8% PIL a **0,9% PIL** in 5 anni (01-P13; base: Eurostat rd_e_gerdtot (settore BES))
-- **Produttività: PIL per ora lavorata**: da 100,4 (2015 = 100) a **104 (2015 = 100)** in 5 anni (01-P4; base: Eurostat nama_10_lp_ulc)
-- **Capitale di rischio investito nelle nuove imprese**: da 0,07% PIL a **0,13% PIL** in 5 anni (01-P15; base: EY, Venture Capital Barometer 2025 (fonte non ufficiale))
-- **Potere d'acquisto dei salari rispetto a gennaio 2021**: da -10,2% a **-3%** in 5 anni (02-C1; base: ISTAT + HICP, elaborazione GovernAI)
+- **Spesa delle imprese in ricerca e sviluppo**: da 0,8% PIL a **0,9% PIL** in 5 anni (01-P13; base: Eurostat rd_e_gerdtot (settore BES)) — *con il calendario di avvio la misura parte nel 2034: l'obiettivo va oltre i 5 anni*
+- **Produttività: PIL per ora lavorata**: da 100,4 (2015 = 100) a **104 (2015 = 100)** in 5 anni (01-P4; base: Eurostat nama_10_lp_ulc) — *la misura non è in questa versione del programma: l'obiettivo non è garantito*
+- **Capitale di rischio investito nelle nuove imprese**: da 0,07% PIL a **0,13% PIL** in 5 anni (01-P15; base: EY, Venture Capital Barometer 2025 (fonte non ufficiale)) — *in questa versione la misura è solo regole, senza spesa: raggiungere l'obiettivo dipende da come vengono applicate*
+- **Potere d'acquisto dei salari rispetto a gennaio 2021**: da -10,2% a **-3%** in 5 anni (02-C1; base: ISTAT + HICP, elaborazione GovernAI) — *in questa versione la misura è solo regole, senza spesa: raggiungere l'obiettivo dipende da come vengono applicate*
 
 **Chi ne beneficia.**
 
-- **Imprese che fanno ricerca, soprattutto quelle sotto i 50 addetti** (da stimare): Credito più alto, al 12%, per le imprese sotto i 50 addetti; progetto certificato prima di spendere; parte solo nel 2033 con il calendario di avvio.
+- **Imprese che fanno ricerca, soprattutto quelle sotto i 50 addetti** (da stimare): Credito più alto, al 12%, per le imprese sotto i 50 addetti; progetto certificato prima di spendere; parte solo nel 2034 con il calendario di avvio.
 - **Ricercatrici e ricercatori, università e nuove imprese nate dalla ricerca** (86 spin-off nel 2023; 750 dottorati industriali l'anno previsti): Fondo di fondi da 750 milioni con capitale privato, 130 prove di fattibilità l'anno, 8 centri di ricerca applicata.
 - **Piccole imprese e startup che vendono innovazione alla PA** (circa 200 contratti di prima fase e 40 di seconda fase l'anno): Gare in tre fasi su salute, territorio ed energia: la PA paga prototipi e poi li compra.
 - **Imprese che consumano molta energia** (da stimare): Garanzia pubblica per contratti lunghi di energia rinnovabile a prezzo stabile, per consorzi e distretti.
@@ -154,7 +154,7 @@
 - **Acqua persa dalle reti idriche**: da 42,4% a **33%** in 5 anni (03-P3; base: ISTAT; misura annuale ARERA-RQTI M1)
 - **Imprese assicurate contro le catastrofi naturali**: da 16% a **80%** in 5 anni (03-P4; base: IVASS)
 - **Merci trasportate in treno**: da 11,6% a **13%** in 5 anni (04-P7; base: Eurostat tran_hv_frmod (tra_mode RAIL, geo IT))
-- **Emissioni di gas serra dei trasporti**: da 113,3 Mt CO2eq a **103 Mt CO2eq** in 5 anni (03-P1; base: Eurostat env_air_gge (CRF1A3, trasporti))
+- **Emissioni di gas serra dei trasporti**: da 113,3 Mt CO2eq a **103 Mt CO2eq** in 5 anni (03-P1; base: Eurostat env_air_gge (CRF1A3, trasporti)) — *in questa versione la misura è solo regole, senza spesa: raggiungere l'obiettivo dipende da come vengono applicate*
 
 **Chi ne beneficia.**
 
@@ -189,9 +189,9 @@
 **Cosa misuriamo.**
 
 - **IVA evasa ogni anno**: da 34,4 mld € a **28,5 mld €** in 5 anni (01-P3; base: MEF, Relazione evasione 2026)
-- **Agevolazioni fiscali in vigore**: da 573 a **400** in 5 anni (01-P2; base: MEF, Rapporto spese fiscali 2025)
-- **Leggi importanti con il conto per le generazioni future**: da 0% a **100%** in 5 anni (01-P1; base: scheda (nessun obbligo vigente))
-- **Grandi opere con valutazione indipendente pubblica**: da 0% a **100%** in 5 anni (04-P4)
+- **Agevolazioni fiscali in vigore**: da 573 a **400** in 5 anni (01-P2; base: MEF, Rapporto spese fiscali 2025) — *in questa versione la misura è solo regole, senza spesa: raggiungere l'obiettivo dipende da come vengono applicate*
+- **Leggi importanti con il conto per le generazioni future**: da 0% a **100%** in 5 anni (01-P1; base: scheda (nessun obbligo vigente)) — *in questa versione la misura è solo regole, senza spesa: raggiungere l'obiettivo dipende da come vengono applicate*
+- **Grandi opere con valutazione indipendente pubblica**: da 0% a **100%** in 5 anni (04-P4) — *in questa versione la misura è solo regole, senza spesa: raggiungere l'obiettivo dipende da come vengono applicate*
 
 **Chi ne beneficia.**
 
@@ -235,9 +235,9 @@
 
 - **Durata di una causa civile nei tre gradi**: da 1.789 giorni a **1.400 giorni** in 5 anni (07-C1; base: Min. Giustizia)
 - **Affollamento delle carceri**: da 128,8% a **105%** in 5 anni (07-C2; base: DAP)
-- **Persone che usano i servizi pubblici online**: da 43,5% a **60%** in 5 anni (09-C2; base: Eurostat isoc_ciegi_ac)
+- **Persone che usano i servizi pubblici online**: da 43,5% a **60%** in 5 anni (09-C2; base: Eurostat isoc_ciegi_ac) — *in questa versione la misura è solo regole, senza spesa: raggiungere l'obiettivo dipende da come vengono applicate*
 - **Persone con competenze digitali almeno di base**: da 54,27% a **72%** in 5 anni (09-C5; base: Eurostat (competenze digitali di base))
-- **Ore di lavoro liberate dall'AI e certificate**: da 0 milioni di ore l'anno a **2,5 milioni di ore l'anno** in 5 anni (09-C9; base: scheda (nessuna misura nazionale delle ore liberate))
+- **Ore di lavoro liberate dall'AI e certificate**: da 0 milioni di ore l'anno a **2,5 milioni di ore l'anno** in 5 anni (09-C9; base: scheda (nessuna misura nazionale delle ore liberate)) — *con il calendario di avvio la misura parte nel 2034: l'obiettivo va oltre i 5 anni*
 
 **Chi ne beneficia.**
 
