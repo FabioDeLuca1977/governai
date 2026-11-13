@@ -1,4 +1,4 @@
-# Lezioni apprese — aggiornate al 12/11/2026
+# Lezioni apprese — aggiornate al 13/11/2026
 
 *Parte generata da `apprendimento/valuta.py`. Il livello AI aggiunge sotto le sue interpretazioni.*
 

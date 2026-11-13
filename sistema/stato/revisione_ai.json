@@ -1,5 +1,5 @@
 {
- "data": "2026-11-12",
+ "data": "2026-11-13",
  "compiti": [
   {
    "tipo": "documento_nuovo",
@@ -7,66 +7,15 @@
     "00",
     "01",
     "02",
-    "06"
-   ],
-   "dettaglio": "UPB - Ufficio parlamentare di bilancio: https://www.upbilancio.it/it/audizione-nellambito-dellesame-del-ddl-di-bilancio-per-il-2027/",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "02",
+    "03",
+    "04",
     "05",
-    "06"
+    "06",
+    "07",
+    "08",
+    "09"
    ],
-   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/audizioni/esame-del-disegno-di-legge-recante-bilancio-di-previsione-dello-stato-per-lanno-finanziario-2027-e-bilancio-pluriennale-per-il-triennio-2027-2029/",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "02",
-    "05",
-    "06"
-   ],
-   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/soddisfazione-dei-cittadini-anno-2025/",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "02",
-    "05",
-    "06"
-   ],
-   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/documenti/audizioni/",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=08fd4569-7adc-4a23-beeb-2897ba0668c6",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=19e8ac4b-c136-492d-8867-a3d39c9031bb",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=eaa845e5-ebd7-4373-a6f6-4124efe40f37",
+   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=131",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
@@ -83,26 +32,25 @@
     "08",
     "09"
    ],
-   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/11/26G00225/sg",
+   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=264",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
-   "tipo": "variazione_rilevante",
-   "aree": [],
-   "dettaglio": "Rendimento titoli decennali IT (%): 4.362 (2026-09) → 4.68 (2026-10)",
-   "cosa_fare": "Valutare se cambiano diagnosi, costi o priorità delle proposte collegate."
-  },
-  {
-   "tipo": "variazione_rilevante",
-   "aree": [],
-   "dettaglio": "Spread IT-DE (punti base): 88.9 (2026-09) → 126.4 (2026-10)",
-   "cosa_fare": "Valutare se cambiano diagnosi, costi o priorità delle proposte collegate."
-  },
-  {
-   "tipo": "nuova_allerta",
-   "aree": [],
-   "dettaglio": "Spread in aumento di oltre 30 punti base in un mese.",
-   "cosa_fare": "Monitoraggio rafforzato; nessuna nuova spesa permanente finché non rientra."
+   "tipo": "documento_nuovo",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=89",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   }
  ]
 }

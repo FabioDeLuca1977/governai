@@ -1,71 +1,31 @@
 {
- "data": "2026-11-12T14:55:35",
+ "data": "2026-11-13T09:00:14",
  "prima_esecuzione": false,
  "eurostat_aggiornati": [
-  "irt_lt_mcby_m"
+  "demo_pjan",
+  "demo_pjangroup",
+  "gov_10q_ggdebt",
+  "migr_pop1ctz"
  ],
- "file_aggiornati": [],
+ "file_aggiornati": [
+  "https://www.camera.it/temiap/2026/07/16/OCD177-9133.pdf"
+ ],
  "documenti_nuovi": [
   {
-   "pagina": "UPB - Ufficio parlamentare di bilancio",
+   "pagina": "Gazzetta Ufficiale",
    "aree": [
     "00",
     "01",
     "02",
-    "06"
-   ],
-   "documento": "https://www.upbilancio.it/it/audizione-nellambito-dellesame-del-ddl-di-bilancio-per-il-2027/"
-  },
-  {
-   "pagina": "ISTAT - Home e comunicati",
-   "aree": [
-    "02",
+    "03",
+    "04",
     "05",
-    "06"
+    "06",
+    "07",
+    "08",
+    "09"
    ],
-   "documento": "https://www.istat.it/audizioni/esame-del-disegno-di-legge-recante-bilancio-di-previsione-dello-stato-per-lanno-finanziario-2027-e-bilancio-pluriennale-per-il-triennio-2027-2029/"
-  },
-  {
-   "pagina": "ISTAT - Home e comunicati",
-   "aree": [
-    "02",
-    "05",
-    "06"
-   ],
-   "documento": "https://www.istat.it/comunicato-stampa/soddisfazione-dei-cittadini-anno-2025/"
-  },
-  {
-   "pagina": "ISTAT - Home e comunicati",
-   "aree": [
-    "02",
-    "05",
-    "06"
-   ],
-   "documento": "https://www.istat.it/documenti/audizioni/"
-  },
-  {
-   "pagina": "Corte dei conti",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=08fd4569-7adc-4a23-beeb-2897ba0668c6"
-  },
-  {
-   "pagina": "Corte dei conti",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=19e8ac4b-c136-492d-8867-a3d39c9031bb"
-  },
-  {
-   "pagina": "Corte dei conti",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=eaa845e5-ebd7-4373-a6f6-4124efe40f37"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=131"
   },
   {
    "pagina": "Gazzetta Ufficiale",
@@ -81,15 +41,33 @@
     "08",
     "09"
    ],
-   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/11/26G00225/sg"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=264"
+  },
+  {
+   "pagina": "Gazzetta Ufficiale",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=89"
   }
  ],
  "errori": [],
  "script": {
-  "00c_congiuntura.py": "ok"
+  "00_macro.py": "ok",
+  "00c_congiuntura.py": "ok",
+  "03_ambiente.py": "ok",
+  "05_istruzione.py": "ok",
+  "07_giustizia.py": "ok"
  },
- "serie_cambiate": [
-  "00c_rendimenti_decennali"
- ],
+ "serie_cambiate": [],
  "modalita": "mirato"
 }
