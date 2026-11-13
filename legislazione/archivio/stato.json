@@ -32,13 +32,13 @@
   "2026-11-11#263",
   "2026-11-12#264"
  ],
- "ultima_esecuzione": "2026-11-13T09:05:09",
+ "ultima_esecuzione": "2026-11-13T14:22:01",
  "ultima": {
-  "fascicoli_nuovi": 1,
-  "atti_nuovi": 24,
+  "fascicoli_nuovi": 0,
+  "atti_nuovi": 0,
   "da_normattiva": 0,
-  "testi_scaricati": 24,
-  "richieste": 106,
+  "testi_scaricati": 0,
+  "richieste": 2,
   "errori": []
  },
  "totale_atti": 670,

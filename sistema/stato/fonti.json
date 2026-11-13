@@ -1,7 +1,7 @@
 {
  "eurostat": {
   "ei_bsco_m": "29.10.2026",
-  "namq_10_gdp": "11.11.2026",
+  "namq_10_gdp": "13.11.2026",
   "nama_10_gdp": "11.11.2026",
   "edat_lfse_16": "30.10.2026",
   "edat_lfse_22": "30.10.2026",
@@ -44,7 +44,7 @@
   "ilc_iw01": "20.10.2026",
   "ilc_lvho07c": "29.10.2026",
   "sbs_sc_ovw": "30.09.2026",
-  "sts_inpr_m": "11.11.2026",
+  "sts_inpr_m": "13.11.2026",
   "tour_occ_nim": "04.11.2026",
   "tour_occ_ninat": "12.10.2026",
   "env_air_gge": "02.06.2026",
@@ -287,7 +287,7 @@
    "https://www.istat.it/comunicati-e-analisi/statistiche-sperimentali/sperimentazioni-su-big-data/",
    "https://www.istat.it/comunicato-stampa/catene-globali-del-valore-delle-medie-e-grandi-imprese-anni-2021-2023/",
    "https://www.istat.it/comunicato-stampa/commercio-al-dettaglio-settembre-2026/",
-   "https://www.istat.it/comunicato-stampa/fiducia-dei-consumatori-e-delle-imprese-ottobre-2026/",
+   "https://www.istat.it/comunicato-stampa/commercio-con-lestero-e-prezzi-allimport-settembre-2026/",
    "https://www.istat.it/comunicato-stampa/la-tratta-di-esseri-umani-in-italia-anni-2021-2025/",
    "https://www.istat.it/comunicato-stampa/livelli-di-istruzione-e-ritorni-occupazionali-anno-2025/",
    "https://www.istat.it/comunicato-stampa/nota-sullandamento-e-prospettive-delleconomia-italiana-anni-2026-2027-aggiornamento-novembre/",
@@ -361,9 +361,9 @@
    "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=db24e249-632b-4db2-accf-a9dd9d42f528",
    "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=eaa845e5-ebd7-4373-a6f6-4124efe40f37",
    "https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa",
+   "https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=4348523a-6a91-4fc2-8fc8-00f2bd4c1768",
    "https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=58186e50-e1d4-425f-bf66-15da02a362db",
    "https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=86fafcd2-c3ef-4cf3-9df8-e64b8a6e846b",
-   "https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=aa3bd2e4-c2e0-46d7-88fc-1d9a08836c7f",
    "https://www.corteconti.it/Home/Attivita/RapportiInternazionali",
    "https://www.corteconti.it/Home/CulturaGiuridica/PubblicazioniProcuraGenerale",
    "https://www.corteconti.it/Home/Documenti",
@@ -460,7 +460,6 @@
    "https://www.nato.int/en/about-us/official-texts-and-resources/NATO-archives/publicly-disclosed-nato-documents"
   ],
   "https://www.gazzettaufficiale.it/": [
-   "http://www.gazzettaufficiale.it/eli/id/2026/10/23/26G00216/sg",
    "http://www.gazzettaufficiale.it/eli/id/2026/10/24/26G00210/sg",
    "http://www.gazzettaufficiale.it/eli/id/2026/10/26/26G00211/sg",
    "http://www.gazzettaufficiale.it/eli/id/2026/10/26/26G00212/sg",
@@ -476,6 +475,7 @@
    "http://www.gazzettaufficiale.it/eli/id/2026/11/10/26E06207/s4",
    "http://www.gazzettaufficiale.it/eli/id/2026/11/10/26G00219/sg",
    "http://www.gazzettaufficiale.it/eli/id/2026/11/11/26G00225/sg",
+   "http://www.gazzettaufficiale.it/eli/id/2026/11/12/26G00221/sg",
    "https://www.gazzettaufficiale.it/30giorni/serie_generale",
    "https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-10&numeroGazzetta=87",
    "https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-11&numeroGazzetta=129",

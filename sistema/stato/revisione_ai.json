@@ -4,18 +4,20 @@
   {
    "tipo": "documento_nuovo",
    "aree": [
-    "00",
-    "01",
     "02",
-    "03",
-    "04",
     "05",
-    "06",
-    "07",
-    "08",
-    "09"
+    "06"
    ],
-   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=131",
+   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/commercio-con-lestero-e-prezzi-allimport-settembre-2026/",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  },
+  {
+   "tipo": "documento_nuovo",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=4348523a-6a91-4fc2-8fc8-00f2bd4c1768",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
@@ -32,24 +34,7 @@
     "08",
     "09"
    ],
-   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=264",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "00",
-    "01",
-    "02",
-    "03",
-    "04",
-    "05",
-    "06",
-    "07",
-    "08",
-    "09"
-   ],
-   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=89",
+   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/12/26G00221/sg",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   }
  ]

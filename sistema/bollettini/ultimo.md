@@ -1,17 +1,17 @@
 # Bollettino GovernAI — 2026-11-13
 
-*Generato automaticamente da `sistema/pipeline.py` alle 09:06. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 14:23. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
 - Modalità di aggiornamento: **mirato**
-- Dataset Eurostat aggiornati: demo_pjan, demo_pjangroup, gov_10q_ggdebt, migr_pop1ctz
-- File ufficiali aggiornati: 1
+- Dataset Eurostat aggiornati: namq_10_gdp, sts_inpr_m
+- File ufficiali aggiornati: 0
 - Serie cambiate e archiviate in `dati/storico/`: nessuna
 - Documenti nuovi sulle pagine osservate: 3
-  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=131
-  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=264
-  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=89
+  - ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/commercio-con-lestero-e-prezzi-allimport-settembre-2026/
+  - Corte dei conti: https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=4348523a-6a91-4fc2-8fc8-00f2bd4c1768
+  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/12/26G00221/sg
 
 ## 2. Cruscotto
 
@@ -59,17 +59,21 @@ Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
 ## 5. Revisione AI richiesta
 
 **3 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
-- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=131 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=264 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=89 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/commercio-con-lestero-e-prezzi-allimport-settembre-2026/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=4348523a-6a91-4fc2-8fc8-00f2bd4c1768 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/12/26G00221/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
 
 ## Registro tecnico
 
-- sentinella: sentinella: mirato; Eurostat aggiornati 4, file 1, documenti nuovi 3, serie cambiate 0, errori 0
+- sentinella: sentinella: mirato; Eurostat aggiornati 2, file 0, documenti nuovi 3, serie cambiate 0, errori 0
 - apprendimento: 193 KPI, stati {'manuale': 147, 'in osservazione': 46}, aree calibrate 0
-- legislazione: archivio GU: 670 atti, 670 con testo; nuovi 24; testi scaricati 24; richieste 106; errori 0
-- europa: europa: 841 atti GU L in archivio, 322 negli ultimi 30 giorni; 144 direttive con termine (23 critiche, 11 alte); 84 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 24
-- costituzione: 1 atti con forza di legge esaminati; con segnali alti 1: legge n. 206/2026 (artt. 2)
+- legislazione: archivio GU: 670 atti, 670 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
+- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
+- costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
 - consiglio: 95 previsioni, 0 verificate oggi, 8 verificate in totale
 - verifica sedute: 2 attive, 0 confermate, 2 da riesaminare
 - modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
+
+## 6. Nota del livello AI
+
+Livello AI non eseguito: credenziali dell'API di Claude assenti (impostare la variabile d'ambiente ANTHROPIC_API_KEY).
