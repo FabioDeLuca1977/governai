@@ -295,16 +295,32 @@
     else if (sel && innerWidth < 900) scheda.scrollIntoView({ block: "nearest", behavior: "smooth" });
   }
 
+  // Calendario di avvio: la spesa sulle risorse generali segue il gettito di ogni anno, con un ponte di fondi UE nel 2027-29
+  function calendarioAvvio(sc) {
+    const c = sc.calendario || {};
+    if (!(c.anni || []).length) return "";
+    const pct = (x) => `${Math.round(x * 100)}%`;
+    const nome = (id) => (D.proposte.find((p) => p.id === id) || {}).titolo || id;
+    const lista = Object.entries(c.pieno_dal || {}).sort((a, b) => a[1] - b[1] || a[0].localeCompare(b[0]));
+    const gruppi = {};
+    lista.forEach(([id, a]) => { (gruppi[a] = gruppi[a] || []).push(id); });
+    const tab = `<div class="tabella-box"><table class="tabella"><thead><tr><th>Anno</th><th>Spesa prevista</th><th>Avviata</th><th>di cui ponte fondi UE</th><th>Rinviata</th><th>Nucleo, sperimentazioni, 04-P8 e 06-C8</th><th>Altre misure</th></tr></thead><tbody>${c.anni.map((x) => `<tr><td>${x.anno}</td><td>${nf(x.prevista, 2)}</td><td>${nf(x.avviata, 2)}</td><td>${nf(x.ponte_ue, 2)}</td><td>${nf(x.rinviata, 2)}</td><td>${pct(x.quota_nucleo)}</td><td>${pct(x.quota_altre)}</td></tr>`).join("")}</tbody></table></div>`;
+    return `<p><strong>Come si chiude: un calendario di avvio</strong> (scelta del 13 novembre 2026). Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno, con l'ipotesi prudente, più un ponte con i fondi europei 2021-2027 ancora liberi nel 2027-2029 (${nf(c.ponte_totale, 1)} mld in tutto). Partono prima le misure del nucleo robusto, le sperimentazioni, la compensazione dell'autotrasporto per il taglio del gasolio agevolato (04-P8) e le squadre infermieristiche di quartiere (06-C8); le altre partono più tardi, tutte nello stesso modo. Negli anni di passaggio slittano in tutto ${nf(c.rinviata_totale, 1)} mld di spesa: nessun anno chiude in deficit.</p>
+      <details><summary>Calendario anno per anno e misure che partono più tardi</summary>${tab}${Object.entries(gruppi).map(([a, ids]) => `<p><strong>A pieno dal ${a}:</strong> ${ids.map((id) => `<a href="#/programma/${encodeURIComponent(id)}">${esc(id)}</a> ${esc(nome(id))}`).join("; ")}</p>`).join("")}</details>`;
+  }
+
   // Conti anno per anno 2027-2035 (programma/annuale.py): il vincolo "senza deficit" vale a regime, qui si vede ogni anno
   function avvisoAnnuale(sc) {
     const a = sc.annuale || [];
     const neg = a.filter((x) => x.saldo < -0.005), negf = a.filter((x) => x.saldo_favorevole < -0.005);
     const segno = (x) => (x < -0.005 ? `<strong>${nf(x, 2)}</strong>` : nf(x, 2));
     const tab = `<div class="tabella-box"><table class="tabella"><thead><tr><th>Anno</th><th>Spesa</th><th>Risorse generali: spesa</th><th>Gettito</th><th>Saldo (prudente)</th><th>Saldo (favorevole)</th></tr></thead><tbody>${a.map((x) => `<tr><td>${x.anno}</td><td>${nf(x.spesa, 2)}</td><td>${nf(x.spesa_generali, 2)}</td><td>${nf(x.gettito_generali, 2)}</td><td>${segno(x.saldo)}</td><td>${segno(x.saldo_favorevole)}</td></tr>`).join("")}</tbody></table></div>`;
-    const titolo = neg.length ? `Anno per anno i conti non tornano ancora: negli anni di passaggio mancano fino a ${nf(-Math.min(...neg.map((x) => x.saldo)), 1)} mld.` : "Anno per anno le risorse generali coprono la spesa.";
-    return `<div class="avviso ${neg.length ? "attenzione" : ""}" style="margin-top:12px"><div class="avviso-titolo">${icona("calendar")}${titolo}</div>
-      <p>"Senza deficit" è verificato a regime, quando tutte le coperture rendono a pieno. Alcune però crescono piano: il taglio graduale del gasolio agevolato per l'autotrasporto arriva al pieno in 8 anni, la rivalutazione ridotta delle pensioni più alte in 6. Intanto le spese partono prima. ${negf.length ? `Anche con l'ipotesi favorevole, coperture attive dal primo anno, restano scoperti ${negf.map((x) => x.anno).join(", ")}, per ${nf(-negf.reduce((t, x) => t + x.saldo_favorevole, 0), 1)} mld in tutto.` : ""} Va deciso come chiudere questo scarto: è scritto tra le scelte aperte.</p>
-      <details><summary>Tabella 2027-2035 (mld di euro)</summary>${tab}<p class="nota">Stima di <code>programma/annuale.py</code>: spese anno per anno dalle varianti, coperture che crescono in modo lineare fino all'anno di regime. Da verificare con la Ragioneria.</p></details></div>`;
+    const cal = (sc.calendario || {}).anni || [];
+    const titolo = !neg.length ? "Anno per anno le risorse generali coprono la spesa." : cal.length ? `Anno per anno: senza calendario mancherebbero fino a ${nf(-Math.min(...neg.map((x) => x.saldo)), 1)} mld; con il calendario di avvio i conti tornano ogni anno.` : `Anno per anno i conti non tornano ancora: negli anni di passaggio mancano fino a ${nf(-Math.min(...neg.map((x) => x.saldo)), 1)} mld.`;
+    return `<div class="avviso ${neg.length && !cal.length ? "attenzione" : ""}" style="margin-top:12px"><div class="avviso-titolo">${icona("calendar")}${titolo}</div>
+      <p>"Senza deficit" è verificato a regime, quando tutte le coperture rendono a pieno. Alcune però crescono piano: il taglio graduale del gasolio agevolato per l'autotrasporto arriva al pieno in 8 anni, la rivalutazione ridotta delle pensioni più alte in 6. Intanto le spese partono prima. ${negf.length ? `Anche con l'ipotesi favorevole, coperture attive dal primo anno, restano scoperti ${negf.map((x) => x.anno).join(", ")}, per ${nf(-negf.reduce((t, x) => t + x.saldo_favorevole, 0), 1)} mld in tutto.` : ""}${cal.length ? "" : " Va deciso come chiudere questo scarto: è scritto tra le scelte aperte."}</p>
+      ${calendarioAvvio(sc)}
+      <details><summary>Tabella 2027-2035 senza calendario (mld di euro)</summary>${tab}<p class="nota">Stima di <code>programma/annuale.py</code>: spese anno per anno dalle varianti, coperture che crescono in modo lineare fino all'anno di regime. Da verificare con la Ragioneria.</p></details></div>`;
   }
 
   // Spesa pagata con la coesione 2021-2027: che cosa succede dopo il 2029, misura per misura

@@ -20,3 +20,21 @@
 - Anche con l'ipotesi favorevole restano scoperti 2029, 2030, 2031, 2032, 2033: massimo 0,54 mld, in tutto 1,31 mld.
 - Dal 2030 vanno rifinanziati 0,50 mld l'anno di spesa oggi pagata con la coesione 2021-2027.
 - Alcuni fondi vincolati non bastano in qualche anno: colonna `scoperto_vincolati` nel calcolo.
+
+## Calendario di avvio (scelta del 13 novembre 2026)
+
+Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno (ipotesi prudente) più un ponte con i fondi europei di coesione 2021-2027 ancora liberi nel 2027-2029. Prima il nucleo robusto, le sperimentazioni, la compensazione dell'autotrasporto (04-P8) e le squadre di quartiere (06-C8), poi le altre misure in proporzione alla spesa prevista.
+
+| Anno | Spesa prevista sulle risorse generali | Spesa avviata | di cui ponte fondi UE | Rinviata | Quota avviata: primo gruppo | Quota avviata: altre misure |
+|---|---|---|---|---|---|---|
+| 2027 | 2,73 | 1,15 | 1,01 | 1,58 | 43% | 0% |
+| 2028 | 5,03 | 3,62 | 0,18 | 1,41 | 74% | 0% |
+| 2029 | 6,55 | 5,60 | 0,00 | 0,95 | 88% | 0% |
+| 2030 | 7,22 | 6,41 | 0,00 | 0,81 | 92% | 0% |
+| 2031 | 7,22 | 6,68 | 0,00 | 0,54 | 96% | 0% |
+| 2032 | 7,22 | 6,86 | 0,00 | 0,36 | 99% | 0% |
+| 2033 | 7,22 | 7,01 | 0,00 | 0,21 | 100% | 19% |
+| 2034 | 7,22 | 7,16 | 0,00 | 0,06 | 100% | 77% |
+| 2035 | 7,22 | 7,22 | 0,00 | 0,00 | 100% | 100% |
+
+In tutto: 1,19 mld di ponte con i fondi europei e 5,92 mld di spesa rinviata negli anni di passaggio.

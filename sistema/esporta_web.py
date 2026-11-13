@@ -139,6 +139,22 @@ def annuale(file_sel: str) -> list[dict]:
             for r, f in zip(t.itertuples(), tf.itertuples())]
 
 
+def calendario(file_sel: str) -> dict:
+    """Calendario di avvio (programma/annuale.py, scelta del 13 novembre 2026)."""
+    try:
+        sys.path.insert(0, str(RADICE / "programma"))
+        import annuale as an
+        p = an.piano(file_sel.removeprefix("selezione_").removesuffix(".csv"))
+    except Exception:
+        return {}
+    if not p:
+        return {}
+    rinv = {k: min(v["anni"].values()) for k, v in p["misure"].items() if not v["nucleo"]}
+    primo = {k: next((a for a, q in sorted(v["anni"].items()) if q >= 0.999), None) for k, v in p["misure"].items() if not v["nucleo"] and v.get("spesa_max", 0) > 0.005}
+    return {"anni": p["anni"], "ponte_totale": p["ponte_totale"], "rinviata_totale": p["rinviata_totale"],
+            "pieno_dal": {k: a for k, a in primo.items() if a and a > 2027 and rinv.get(k, 1) < 0.999}}
+
+
 def scenario(file: Path, prelievi: pd.DataFrame) -> dict | None:
     if not file.exists():
         return None
@@ -334,7 +350,7 @@ def main() -> int:
                 it = lambda x: f"{x:.1f}".replace(".", ",")
                 desc = (f"Spesa militare in crescita graduale, +{it(difesa)} mld l'anno a regime (2034). Per restare senza "
                         f"deficit le altre misure scendono a {it(s['spesa'] - difesa)} mld l'anno")
-            scen.append({"id": sid, "nome": nome, "descrizione": desc, **s, "annuale": annuale(f)})
+            scen.append({"id": sid, "nome": nome, "descrizione": desc, **s, "annuale": annuale(f), "calendario": calendario(f)})
 
     # Coperture
     menu = pd.read_csv(RADICE / "programma" / "coperture_menu.csv")

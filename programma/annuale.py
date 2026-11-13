@@ -85,9 +85,10 @@ def conti(etichetta: str = "intermedio", anticipo: int = 0) -> pd.DataFrame | No
     cap = {r.fondo_id.upper(): float(pd.to_numeric(r.capienza_min, errors="coerce") or 0.0) for r in reg.itertuples()}
     fondi_menu = set(cop.fondo_id) | set(pd.read_csv(QUI / "coperture_menu.csv").fondo_id.str.upper().str.strip())
 
-    righe = []
+    righe, gen_mis = [], {}
     for y in ANNI:
         spesa = {}
+        gen_mis[y] = {}
         da_rifinanziare = 0.0
         for chiave, g in v.groupby("chiave"):
             r0 = g.iloc[0]
@@ -108,6 +109,9 @@ def conti(etichetta: str = "intermedio", anticipo: int = 0) -> pd.DataFrame | No
                         da_rifinanziare += quota
                     continue
                 spesa[fid] = spesa.get(fid, 0.0) + quota
+                if fid in GENERALI:
+                    pid = chiave.split(":")[0]
+                    gen_mis[y][pid] = gen_mis[y].get(pid, 0.0) + quota
             if extra and y <= 2029:
                 spesa[COESIONE] = spesa.get(COESIONE, 0.0) + extra
         gett = {}
@@ -127,7 +131,51 @@ def conti(etichetta: str = "intermedio", anticipo: int = 0) -> pd.DataFrame | No
                       "gettito_generali": round(ge_gen, 2), "saldo_generali": round(ge_gen - sp_gen, 2),
                       "coesione": round(spesa.get(COESIONE, 0.0), 2), "da_rifinanziare": round(da_rifinanziare, 2),
                       "scoperto_vincolati": round(vincolati, 2)})
-    return pd.DataFrame(righe)
+    t = pd.DataFrame(righe)
+    t.attrs["gen_mis"] = gen_mis
+    return t
+
+
+def piano(etichetta: str = "intermedio") -> dict | None:
+    """Calendario di avvio (scelta del 13 novembre 2026): ogni anno la spesa sulle risorse generali non supera
+    il gettito dell'anno (ipotesi prudente) più un ponte con i fondi europei di coesione 2021-2027 ancora liberi
+    nel 2027-2029 (fino alla capienza annua del registro). Le risorse vanno prima al nucleo robusto, poi alle
+    altre misure, in proporzione alla spesa prevista: chi parte più tardi lo fa per lo stesso motivo. Le sperimentazioni
+    (varianti PILOTA) stanno nel primo gruppo, perché devono produrre la valutazione in tempo per le decisioni del 2029."""
+    t = conti(etichetta)
+    if t is None:
+        return None
+    esito = pd.read_csv(RADICE / "motore" / "esito_proposte.csv")
+    sel = pd.read_csv(QUI / f"selezione_{etichetta}.csv")
+    piloti = set(sel[(sel.tipo == "variante") & (sel.scelta == 1) & (sel.variante.str.upper() == "PILOTA")].proposta_id)
+    # prima il nucleo robusto (Carta, regola 7) e le sperimentazioni, che devono produrre la valutazione entro il 2029
+    # e, per scelta del 13 novembre 2026, la compensazione dell'autotrasporto per il taglio del gasolio agevolato (04-P8)
+    # e le squadre infermieristiche di quartiere (06-C8), che fanno rendere le Case della Comunità
+    PRIMA = {"04-P8", "06-C8"}
+    nucleo = set(esito.proposta_id[esito.classe == "robusta"]) | piloti | PRIMA
+    reg = pd.read_csv(RADICE / "registro" / "fondi.csv").set_index("fondo_id")
+    cap_coe = float(reg.loc[COESIONE, "capienza_min"]) if COESIONE in reg.index else 0.0
+    anni, quote = [], {}
+    for r in t.itertuples():
+        mis = t.attrs["gen_mis"][r.anno]
+        ponte = max(0.0, cap_coe - r.coesione) if r.anno <= 2029 else 0.0
+        disponibile = r.gettito_generali + ponte
+        sp_n = sum(x for p, x in mis.items() if p in nucleo)
+        sp_a = sum(x for p, x in mis.items() if p not in nucleo)
+        f_n = min(1.0, disponibile / sp_n) if sp_n > 0 else 1.0
+        f_a = min(1.0, max(0.0, disponibile - sp_n * f_n) / sp_a) if sp_a > 0 else 1.0
+        avviata = sp_n * f_n + sp_a * f_a
+        ponte_usato = max(0.0, avviata - r.gettito_generali)
+        anni.append({"anno": r.anno, "prevista": round(sp_n + sp_a, 2), "avviata": round(avviata, 2),
+                     "gettito": r.gettito_generali, "ponte_ue": round(ponte_usato, 2),
+                     "quota_nucleo": round(f_n, 2), "quota_altre": round(f_a, 2),
+                     "rinviata": round(sp_n + sp_a - avviata, 2)})
+        for p, x in mis.items():
+            q = quote.setdefault(p, {"nucleo": p in nucleo, "anni": {}})
+            q["anni"][r.anno] = round(f_n if p in nucleo else f_a, 2)
+            q["spesa_max"] = round(max(q.get("spesa_max", 0.0), x), 3)
+    return {"anni": anni, "misure": quote, "ponte_totale": round(sum(a["ponte_ue"] for a in anni), 2),
+            "rinviata_totale": round(sum(a["rinviata"] for a in anni), 2)}
 
 
 def num(x: float, d: int = 2) -> str:
@@ -161,13 +209,34 @@ def rapporto(etichetta: str, t: pd.DataFrame, tf: pd.DataFrame) -> str:
     return "\n".join(out) + "\n"
 
 
+def calendario_md(pi: dict | None) -> str:
+    if not pi:
+        return ""
+    righe = ["", "## Calendario di avvio (scelta del 13 novembre 2026)", "",
+             "Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno (ipotesi prudente) più un ponte "
+             "con i fondi europei di coesione 2021-2027 ancora liberi nel 2027-2029. Prima il nucleo robusto, le "
+             "sperimentazioni, la compensazione dell'autotrasporto (04-P8) e le squadre di quartiere (06-C8), poi le altre misure in proporzione alla spesa prevista.", "",
+             "| Anno | Spesa prevista sulle risorse generali | Spesa avviata | di cui ponte fondi UE | Rinviata | "
+             "Quota avviata: primo gruppo | Quota avviata: altre misure |",
+             "|---|---|---|---|---|---|---|"]
+    for a in pi["anni"]:
+        righe.append(f"| {a['anno']} | {num(a['prevista'])} | {num(a['avviata'])} | {num(a['ponte_ue'])} | "
+                     f"{num(a['rinviata'])} | {a['quota_nucleo']:.0%} | {a['quota_altre']:.0%} |")
+    righe += ["", f"In tutto: {num(pi['ponte_totale'])} mld di ponte con i fondi europei e "
+                  f"{num(pi['rinviata_totale'])} mld di spesa rinviata negli anni di passaggio.", ""]
+    return "\n".join(righe)
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     for e in (sys.argv[1:] or ["intermedio"]):
         t = conti(e)
         if t is None:
             print(f"{e}: selezione non trovata"); continue
-        (QUI / f"annuale_{e}.md").write_text(rapporto(e, t, conti(e, anticipo=1)), encoding="utf-8")
+        testo = rapporto(e, t, conti(e, anticipo=1))
+        pi = piano(e)
+        testo += calendario_md(piano(e))
+        (QUI / f"annuale_{e}.md").write_text(testo, encoding="utf-8")
         neg = t[t.saldo_generali < -0.005]
         print(f"{e}: " + (f"scoperto sulle risorse generali in {', '.join(map(str, neg.anno))} "
                           f"(massimo {-neg.saldo_generali.min():.2f} mld)" if len(neg) else "nessun anno scoperto"))
