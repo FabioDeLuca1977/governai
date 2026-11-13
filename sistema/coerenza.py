@@ -115,6 +115,19 @@ def controlla() -> list[str]:
     for rel in DOCUMENTI + ["programma/schede/12_pa_produttiva.md"]:
         if "8,03%" in leggi(rel):
             errori.append(f"{rel}: dato superato sui pagamenti dei fondi europei (8,03% al 2025)")
+    # 11. profili "Che cosa cambia per me": misure e coperture citate devono essere nel programma intermedio
+    fp = RADICE / "programma" / "profili.yaml"
+    if fp.exists():
+        import yaml
+        sel = pd.read_csv(RADICE / "programma" / "selezione_intermedio.csv")
+        mis = set(sel[(sel.tipo == "variante") & (sel.scelta == 1)].proposta_id)
+        for prof in (yaml.safe_load(fp.read_text(encoding="utf-8")) or {}).get("profili", []):
+            for g in prof.get("guadagna", []):
+                if g.get("proposta") not in mis:
+                    errori.append(f"programma/profili.yaml: {prof['id']} cita {g.get('proposta')}, che non è nel programma intermedio")
+            for c in prof.get("paga", []):
+                if c.get("copertura") not in coperture:
+                    errori.append(f"programma/profili.yaml: {prof['id']} cita {c.get('copertura')}, copertura non attiva nell'intermedio")
     rel_files = TESTI + ["revisioni/2026-11-08_analista_politico.md"]
     for rel in rel_files:
         t = leggi(rel)

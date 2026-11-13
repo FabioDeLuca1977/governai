@@ -437,7 +437,7 @@
   }
 
   // ---------- Programma ----------
-  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
+  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
 
   function elenco(params) {
     const sc = scenario(params.get("scenario") || RIF_ID);
@@ -763,6 +763,44 @@
         </tbody></table></div>
       </section>
       <div class="azioni" style="margin-top:24px"><a class="btn primario" href="#/programma">Tutte le ${D.proposte.length} proposte ${icona("arrow-right")}</a>${azioniCondividi()}</div>`;
+  }
+
+  // Che cosa cambia per me: profili tipo (programma/profili.yaml), con stato e tempi presi dal programma di riferimento
+  function perMe(params) {
+    const P = D.profili || [];
+    if (!P.length) return `${schedeProgramma("per-me")}${vuoto("I profili non sono ancora disponibili.")}`;
+    const sel = P.find((p) => p.id === params.get("profilo")) || null;
+    const cal = (rif.calendario || {}).pieno_dal || {};
+    const cop = Object.fromEntries((D.coperture || []).map((c) => [c.misura_id, c]));
+    const attive = new Set(rif.coperture || []);
+    const LIV = { PIENA: "versione piena", ESSENZIALE: "versione essenziale", PILOTA: "solo sperimentazione", ZERO: "solo regole, a costo zero" };
+    const scheda = (p) => `<a class="card profilo ${sel && sel.id === p.id ? "attivo" : ""}" href="#/programma/per-me?profilo=${encodeURIComponent(p.id)}" ${sel && sel.id === p.id ? 'aria-current="true"' : ""}><p class="etichetta">${icona(p.icona || "user")}${esc(p.titolo)}</p><p class="nota">${esc(p.in_breve || "")}</p></a>`;
+    const voceG = (g) => {
+      const pr = proposta(g.proposta) || {};
+      const m = rif.misure[g.proposta];
+      const quando = m && cal[g.proposta] ? ` · comincia nel 2033, a pieno dal ${cal[g.proposta]}` : "";
+      const stato = m ? `${LIV[m.variante] || esc(m.variante.toLowerCase())}${m.costo > 0 ? `, ${euro(m.costo)} l'anno` : ""}${quando}` : "non è nel programma di riferimento";
+      return `<li><p><a href="${linkP(g.proposta)}"><strong>${esc(tit(pr.titolo || g.proposta))}</strong></a> <span class="nota">(${esc(g.proposta)} · ${stato})</span></p><p>${esc(g.testo)}</p></li>`;
+    };
+    const voceP = (x) => {
+      const c = cop[x.copertura] || {};
+      return `<li><p><strong>${esc(x.copertura)}</strong> <span class="nota">${attive.has(x.copertura) ? `${c.gettito_min ? `${euro(c.gettito_min)} l'anno in tutto, ` : ""}attiva nel programma di riferimento` : "non attiva nel programma di riferimento"}</span></p><p>${esc(x.testo)}</p></li>`;
+    };
+    const dettaglio = sel ? `<section class="sezione" aria-labelledby="t-profilo"><h2 id="t-profilo">${icona(sel.icona || "user")}${esc(sel.titolo)}</h2>
+        <p class="risposta">${esc(sel.in_breve || "")}</p>
+        ${sel.chi ? `<p class="nota">${esc(sel.chi)}</p>` : ""}
+        <div class="griglia g2-d">
+          <div class="card"><h3>${icona("circle-plus")}Che cosa ci guadagni</h3><ul class="voci-profilo">${(sel.guadagna || []).map(voceG).join("") || "<li>Nessuna misura dedicata.</li>"}</ul></div>
+          <div class="card"><h3>${icona("circle-minus")}Che cosa ti può costare</h3><ul class="voci-profilo">${(sel.paga || []).map(voceP).join("") || "<li>Nessuna copertura che ti riguardi direttamente.</li>"}</ul></div>
+        </div>
+        ${(sel.da_sapere || []).length ? `<div class="avviso" style="margin-top:12px"><div class="avviso-titolo">${icona("info")}Da sapere</div><ul>${sel.da_sapere.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></div>` : ""}
+      </section>` : "";
+    return `${schedeProgramma("per-me")}
+      <p class="risposta">Scegli il profilo più vicino a te: vedi che cosa ti dà il <strong>${esc(rif.nome ? rif.nome.toLowerCase() : "programma di riferimento")}</strong>, che cosa ti può costare e che cosa è ancora incerto. Le misure partono in modo graduale tra il 2027 e il 2035, secondo il <a href="#/programma/una-pagina">calendario di avvio</a>.</p>
+      ${dettaglio}
+      ${sel ? `<h2 style="margin-top:24px">Altri profili</h2>` : ""}<div class="griglia g2 g4-d">${P.filter((p) => !sel || p.id !== sel.id).map(scheda).join("")}</div>
+      <p class="nota" style="margin-top:16px">Testi scritti da un agente AI a partire dai dati del programma (<code>programma/profili.yaml</code>); stato, costi e tempi sono letti dal programma di riferimento e si aggiornano da soli. Sono profili tipo: per sapere quanto cambia in euro per ciascuna famiglia serve una microsimulazione, che non abbiamo ancora.</p>
+      <div class="azioni" style="margin-top:24px"><a class="btn primario" href="#/programma/una-pagina">Il programma in una pagina ${icona("arrow-right")}</a>${azioniCondividi()}</div>`;
   }
 
   function equita() {
@@ -1166,6 +1204,7 @@
       else if (b === "sintesi") { html = sintesi(); titolo = "Le idee in sintesi"; }
       else if (b === "equita") { html = equita(); titolo = "Equità e linguaggio inclusivo"; }
       else if (b === "una-pagina") { html = unaPagina(params); titolo = "Il programma in una pagina"; }
+      else if (b === "per-me") { html = perMe(params); titolo = "Che cosa cambia per me"; }
       else { html = elenco(params); titolo = "Programma"; }
     } else if (a === "governo") {
       if (b === "sedute" && c) { html = schedaSeduta(c); titolo = "Seduta " + del_(c); }

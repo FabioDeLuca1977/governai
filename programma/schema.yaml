@@ -44,9 +44,9 @@ missioni:
         cosa_cambia: "Tutor, educatori e mediatori contro l'abbandono, 250 € in più per ogni alunna o alunno, scuole aperte il pomeriggio e d'estate."
         proposte: [05-C1, 05-C7, 05-C5]
       - gruppo: "Giovani che studiano dopo il diploma"
-        quanti: "circa 33.400 persone iscritte agli ITS oggi, verso circa 100.000; persone idonee alla borsa da stimare"
+        quanti: "circa 33.400 persone iscritte agli ITS oggi, verso circa 66.000; persone idonee alla borsa da stimare"
         fonte: "Scheda 05-C4 e obiettivo 05-C4-b (iscrizioni ITS al 1/2/2026)"
-        cosa_cambia: "Borsa di studio garantita a tutte le persone idonee, ITS triplicati, nuove residenze universitarie a canone legato all'ISEE."
+        cosa_cambia: "Borsa di studio garantita a tutte le persone idonee, iscrizioni agli ITS raddoppiate (circa 66.000), nuove residenze universitarie su immobili pubblici."
         proposte: [05-C4]
       - gruppo: "Persone adulte senza diploma e giovani oltre i 25 anni che non studiano né lavorano"
         quanti: "da stimare"
@@ -108,7 +108,7 @@ missioni:
       - gruppo: "Imprese che fanno ricerca, soprattutto quelle sotto i 50 addetti"
         quanti: "da stimare"
         fonte: "da stimare (obiettivo 01-P13-c senza base nel repo)"
-        cosa_cambia: "Credito unico stabile per 5 anni: 10%, 13% sotto i 50 addetti; progetto certificato prima di spendere."
+        cosa_cambia: "Credito più alto, al 12%, per le imprese sotto i 50 addetti; progetto certificato prima di spendere; parte solo nel 2033 con il calendario di avvio."
         proposte: [01-P13, 01-P4]
       - gruppo: "Ricercatrici e ricercatori, università e nuove imprese nate dalla ricerca"
         quanti: "86 spin-off nel 2023; 750 dottorati industriali l'anno previsti"
@@ -159,7 +159,7 @@ missioni:
       - gruppo: "Imprese di autotrasporto e logistica"
         quanti: "da stimare"
         fonte: "da stimare"
-        cosa_cambia: "Aste per circa 1.000 camion a zero emissioni l'anno e più ferrovia, in cambio dell'uscita dal rimborso sul gasolio."
+        cosa_cambia: "Aste per circa 600 camion a zero emissioni l'anno e gare per la ricarica nel Mezzogiorno, in cambio dell'uscita graduale dal rimborso sul gasolio."
         proposte: [04-P7, 04-P8]
       - gruppo: "Residenti e negozi delle 14 città metropolitane"
         quanti: "da stimare"

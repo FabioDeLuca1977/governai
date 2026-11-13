@@ -394,6 +394,8 @@ def main() -> int:
         "analisi": analisi(),
         "obiettivi": obiettivi(),
         "schema": schema(),
+        "profili": (yaml.safe_load(leggi(RADICE / "programma" / "profili.yaml")) or {}).get("profili", [])
+                   if (RADICE / "programma" / "profili.yaml").exists() else [],
         "mappa": mappa(),
         "comunita": {"regole": leggi(RADICE / "comunita" / "regole.md"), "privacy": leggi(RADICE / "comunita" / "privacy.md")},
         "lezioni": leggi(RADICE / "apprendimento" / "lezioni.md"),

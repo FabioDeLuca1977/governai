@@ -1,0 +1,285 @@
+# Contenuti della pagina "Che cosa cambia per me" (scenario intermedio). Generato il 13/11/2026 da un agente AI dalle fonti del repository.
+# Fonti: programma/selezione_intermedio.md e .csv (variante scelta e coperture attive), programma/annuale_intermedio.md (calendario di avvio),
+# programma/varianti/*.csv, programma/schede/*.md, programma/coperture_menu.csv, programma/coesione_dopo_2029.csv,
+# 20_programma_governai.md, 22_programma_in_una_pagina.md, 23_equita_e_linguaggio.md. Stime GovernAI non certificate.
+# Calendario di avvio (annuale_intermedio.md): il "primo gruppo" (nucleo robusto, sperimentazioni, 04-P8, 06-C8) parte nel 2027
+# al 43% della spesa prevista, 74% nel 2028, 88% nel 2029, 100% dal 2033; le altre misure sulle risorse generali partono nel 2033
+# (19%), 77% nel 2034, 100% nel 2035. Le misure pagate solo con fondi europei 2021-2027 partono nel 2027 e durano fino al 2029.
+profili:
+  - id: famiglia-figli-piccoli
+    titolo: "Famiglia con una bambina o un bambino sotto i 3 anni"
+    icona: baby
+    chi: "Le famiglie con figlie e figli sotto i 3 anni: circa 1,1 milioni di bambine e bambini. Oggi ci sono 31,6 posti al nido ogni 100, solo 19 al Sud (ISTAT, Offerta di nidi 2023/24)."
+    in_breve: "Più posti al nido dove oggi mancano, gratis con un ISEE (indicatore della situazione economica) fino a 25.000 euro. Il congedo del papà sale a un mese nel 2028 e a due mesi nel 2030."
+    guadagna:
+      - proposta: 02-C2
+        testo: "Versione essenziale. Lo Stato paga il personale dei nidi solo negli ambiti con meno di 33 posti ogni 100 bambine e bambini. Sono circa 60-70 mila posti in più, soprattutto al Sud e nelle aree interne."
+      - proposta: 02-C2
+        testo: "In quegli ambiti il nido è gratis per le famiglie con un ISEE fino a 25.000 euro. Per loro la gratuità prende il posto del bonus nido."
+      - proposta: 02-C2
+        testo: "Congedo di paternità: da 10 giorni a un mese dal 2028, a due mesi dal 2030. È pagato all'80% dello stipendio e non si può cedere all'altro genitore."
+      - proposta: 02-C2
+        testo: "Il congedo vale anche per chi lavora in proprio e per chi è iscritto alla Gestione separata dell'INPS (Istituto nazionale della previdenza sociale)."
+    paga:
+      - copertura: RB02
+        testo: "Il bonus di 1.000 euro per ogni nuova nascita resta solo con un ISEE fino a 25.000 euro, come aumento dell'Assegno unico nel primo anno. Chi ha un ISEE tra 25.000 e 40.000 euro lo perde."
+      - copertura: RB03
+        testo: "Il bonus per le lavoratrici madri con due o più figli scende di soglia: pieno fino a 32.000 euro di reddito, poi cala fino a sparire a 40.000 euro."
+    da_sapere:
+      - "Il nido gratis e i posti in più valgono solo negli ambiti sotto 33 posti ogni 100. Dove l'offerta è già più alta non cambia nulla."
+      - "La versione piena non c'è: 33 posti ovunque, nido gratis fino a 30.000 euro di ISEE e tre mesi di congedo per il papà. Si deciderà dopo la valutazione del 2029."
+      - "Calendario di avvio: il nido è nel primo gruppo. Nel 2027 parte il 43% della spesa prevista, nel 2028 il 74%, tutta dal 2033. I posti possono quindi arrivare più piano."
+      - "Il congedo si perde se non viene usato entro 12 mesi dalla nascita."
+      - "La misura non promette più nascite: gli obiettivi sono i posti al nido e il lavoro delle donne."
+
+  - id: scuola-e-studio
+    titolo: "Studentessa o studente in una scuola o in un territorio fragile, e chi studia dopo il diploma"
+    icona: graduation-cap
+    chi: "Circa 0,7 milioni di alunne e alunni nel 10% di scuole più svantaggiate, fino a 1,4 milioni nelle 1.500 scuole con squadre. Gli ITS oggi hanno circa 33.400 iscrizioni (Il programma in una pagina)."
+    in_breve: "Nelle scuole più fragili arrivano tutor, educatori e mediatori, 250 euro in più per alunna o alunno e scuole aperte il pomeriggio. Dopo il diploma, borsa di studio garantita a chi ne ha diritto per merito e reddito."
+    guadagna:
+      - proposta: 05-C1
+        testo: "Versione piena. Squadre di tutor, educatrici, educatori e mediatori contro l'abbandono nelle circa 1.500 scuole più fragili. Tutoraggio in matematica alla primaria."
+      - proposta: 05-C1
+        testo: "Per chi arriva in Italia tra 16 e 24 anni ci sono percorsi ponte nei CPIA, i centri per l'istruzione degli adulti. Un sistema di allerta segnala presto chi rischia di lasciare."
+      - proposta: 05-C7
+        testo: "Versione essenziale. Ogni scuola statale del 10% più svantaggiato riceve 250 euro in più per alunna o alunno. Il 70% va speso in interventi che hanno dato prova di funzionare."
+      - proposta: 05-C5
+        testo: "Versione essenziale. Le stesse circa 1.500 scuole più fragili restano aperte oltre l'orario delle lezioni, come luoghi per tutta la comunità."
+      - proposta: 05-C4
+        testo: "Versione essenziale. Borsa di studio garantita a tutte le persone idonee dopo il diploma. Le iscrizioni agli ITS, le scuole tecniche superiori, raddoppiano fino a circa 66.000."
+      - proposta: 05-C4
+        testo: "Nuove residenze per chi studia su immobili pubblici, con un affitto legato all'ISEE, l'indicatore della situazione economica: 1 miliardo in 10 anni."
+      - proposta: 06-C2
+        testo: "Solo in prova, in 4 Regioni e nelle aree interne: 5.000 borse di studio per chi studia infermieristica, con l'impegno a lavorare poi nel servizio sanitario pubblico."
+      - proposta: 06-C9
+        testo: "Solo in prova: équipe per il benessere psicologico in 100 reti di scuole di 4 Regioni, collegate alla Casa della Comunità."
+      - proposta: 05-C8
+        testo: "Solo in prova in 3 Regioni: biblioteche di comunità e 200 scuole con una biblioteca in rete."
+      - proposta: 05-C9
+        testo: "Solo in prova in 3 Regioni: zaino culturale per tutte le classi e prezzi ridotti per la cultura nei capoluoghi, secondo l'ISEE."
+      - proposta: 05-C6
+        testo: "Solo regole: nessun voto, ammissione o orientamento deciso da un sistema automatico. L'uso critico dell'intelligenza artificiale entra nell'educazione civica."
+    paga:
+      - copertura: RB01
+        testo: "La Carta Valore per chi ha appena preso il diploma resta solo alle famiglie con un ISEE fino a 35.000 euro. Sopra questa soglia non spetta più."
+      - copertura: SF08
+        testo: "La detrazione del 19% per lo sport di ragazze e ragazzi tra 5 e 18 anni sparisce. Al suo posto c'è sport gratuito a scuola. Oggi il beneficio medio è di 46 euro."
+    da_sapere:
+      - "Squadre, 250 euro e scuole aperte valgono solo per le scuole più svantaggiate. Le altre 1.500 scuole che la versione piena avrebbe aperto restano fuori."
+      - "Gli ITS raddoppiano invece di triplicare e le residenze sono meno di quelle della versione piena."
+      - "Biblioteche, zaino culturale e benessere psicologico sono solo prove in 3-4 Regioni. Si estendono solo se la valutazione è positiva."
+      - "Calendario di avvio: queste misure sono nel primo gruppo. Nel 2027 parte il 43% della spesa prevista, nel 2028 il 74%, tutta dal 2033."
+      - "Una parte delle squadre contro l'abbandono è pagata con fondi europei che finiscono nel 2029. Dopo serve il nuovo ciclo europeo 2028-2034: oggi non è garantito."
+
+  - id: giovani-lavoro
+    titolo: "Giovane che cerca lavoro o partecipa ai concorsi pubblici"
+    icona: briefcase
+    chi: "In Italia il 13,3% delle persone tra 15 e 29 anni non studia e non lavora, il 22,8% in Sicilia (Eurostat 2025)."
+    in_breve: "Chi ha più di 25 anni e non studia né lavora riceve una dote di 900 euro per la formazione. Nei concorsi pubblici ci sono meno posti amministrativi generici e più posti tecnici."
+    guadagna:
+      - proposta: 05-C2
+        testo: "Versione essenziale. Dote di 900 euro per corsi certificati. Spetta a chi ha più di 25 anni e non studia né lavora, e a chi non ha il diploma. Spetta anche a chi fa un lavoro che l'intelligenza artificiale può sostituire."
+      - proposta: 05-C2
+        testo: "I CPIA, i centri per l'istruzione degli adulti, offrono corsi serali su lettura, calcolo e uso dell'intelligenza artificiale."
+      - proposta: 09-C8
+        testo: "Versione essenziale. Nella pubblica amministrazione, chi entra viene affiancato da chi sta per andare in pensione, su circa 2.250 posti critici l'anno."
+      - proposta: 09-C3
+        testo: "Versione essenziale. 3.000 figure tecniche condivise tra i Comuni sotto i 5.000 abitanti del Mezzogiorno e delle aree interne. Priorità a chi ha già lavorato bene sui progetti del Piano nazionale di ripresa e resilienza (PNRR)."
+      - proposta: 02-C1
+        testo: "Solo regole: il salario del contratto più rappresentativo diventa il riferimento per tutto il settore, anche negli appalti. Non c'è una soglia fissata per legge."
+      - proposta: 02-C3
+        testo: "Solo regole: chi viene assunto entra in automatico nella pensione integrativa del suo contratto, ma può rinunciare."
+      - proposta: 01-P1
+        testo: "Solo regole: la legge di bilancio dovrà mostrare in una tabella quanto pesa su ogni generazione."
+    paga:
+      - copertura: RP01
+        testo: "Dal 2028 al 2031 ministeri ed enti nazionali sostituiscono il 75-85% di chi va in pensione nei profili amministrativi generici. Ci sono meno posti ai concorsi, soprattutto al Sud."
+      - copertura: RP08
+        testo: "Lo stesso vale per i profili amministrativi generici delle aziende sanitarie, dal 2028 al 2031. I risparmi vanno a infermiere, infermieri e Case della Comunità."
+      - copertura: RA07
+        testo: "Una quota delle nuove assunzioni pubbliche va a profili tecnici come informatica, appalti e progettazione, invece che a profili generici."
+    da_sapere:
+      - "Nei ministeri il taglio non tocca scuola, università, ricerca, cultura, giustizia, Interno, agenzie fiscali, sicurezza e servizi sociali."
+      - "Nelle aziende sanitarie sono esclusi i profili tecnici, informatici e gli sportelli di prenotazione."
+      - "Se i tempi dei servizi peggiorano oltre una soglia, l'ufficio torna a sostituire tutte le persone che vanno in pensione."
+      - "Non c'è una dote di formazione per tutte e tutti: la versione piena, con 300 euro di base, è fuori."
+      - "La parte della dote pagata con fondi europei finisce nel 2029. Dopo serve il nuovo ciclo europeo 2028-2034, oggi non garantito."
+      - "Restano fuori dal programma la casa a canone giusto (04-P2) e i treni per chi viaggia ogni giorno (04-P3)."
+
+  - id: persone-anziane-cura
+    titolo: "Persona anziana non autosufficiente e chi se ne prende cura"
+    icona: heart-handshake
+    chi: "Circa 243.000 persone sono in lista d'attesa per una RSA, residenza sanitaria assistenziale (dato da verificare). L'assistenza a casa dà in media 14 ore l'anno per persona (Rapporto OASI 2025)."
+    in_breve: "Più assistenza a casa con 500 squadre di infermiere e infermieri di quartiere e Case della Comunità aperte. Il budget di cura è solo una prova in 20 ambiti."
+    guadagna:
+      - proposta: 06-C8
+        testo: "Versione essenziale. 500 squadre di infermiere e infermieri di quartiere per l'assistenza a casa, nelle Regioni dove oggi ce n'è meno. Sono pagate per le ore di cura, non per le visite."
+      - proposta: 06-C3
+        testo: "Versione essenziale. Fondi per far funzionare 1.038 Case della Comunità, con sportello sociale insieme al Comune. Obiettivo: assistenza a casa per il 10% delle persone dai 65 anni in su."
+      - proposta: 06-C4
+        testo: "Solo in prova, in 20 ambiti territoriali per 3 anni, almeno 10 al Sud. Una sola valutazione del bisogno e un budget di cura, più alto se paga un'assistente familiare con contratto regolare."
+      - proposta: 06-C2
+        testo: "Solo in prova, in 4 Regioni e nelle aree interne: infermiere e infermieri di pratica avanzata in 50 Case della Comunità."
+      - proposta: 06-C1
+        testo: "Solo regole: un'agenda unica per prenotare visite ed esami, anche nel privato accreditato, e una chiamata attiva per ridurre gli appuntamenti persi."
+    paga:
+      - copertura: SF06
+        testo: "Con un reddito tra 50.000 e 120.000 euro la detrazione del 19% sulle spese sanitarie scende. Le spese per la non autosufficienza sono escluse dal taglio."
+      - copertura: FN02
+        testo: "Dal 2028 non si detraggono più i premi delle polizze vita e infortuni. Restano detraibili quelle per la non autosufficienza."
+    da_sapere:
+      - "Il budget di cura per tutte e tutti non c'è: c'è solo la prova in 20 ambiti, pagata con fondi europei fino al 2029. Dopo si decide in base alla valutazione."
+      - "Chi oggi riceve l'indennità di accompagnamento non perde nulla."
+      - "Calendario di avvio: squadre di quartiere e Case della Comunità sono nel primo gruppo. Nel 2027 parte il 43% della spesa prevista, nel 2028 il 74%, tutta dal 2033."
+      - "Non c'è un rimborso automatico se l'attesa per una visita è troppo lunga."
+      - "La salute mentale (06-C5) resta fuori dal programma."
+
+  - id: persone-con-disabilita
+    titolo: "Persona con disabilità e la sua famiglia"
+    icona: accessibility
+    chi: "In Italia 2,9 milioni di persone hanno limitazioni gravi (ISTAT 2023). Lavorano molto meno delle altre: 43,4 punti di differenza nel tasso di occupazione (Eurostat 2025)."
+    in_breve: "Il collocamento mirato al lavoro diventa più efficace ovunque. Il progetto di vita ha personale e budget in più solo nel quarto degli ambiti con meno servizi, in prova fino al 2029."
+    guadagna:
+      - proposta: 02-C5
+        testo: "In tutta Italia: una banca dati dei posti di lavoro riservati ancora scoperti e sanzioni automatiche per le aziende che non assumono."
+      - proposta: 02-C5
+        testo: "Solo in prova: nel quarto degli ambiti con meno servizi, circa 750 persone in più valutano i bisogni e c'è un budget di progetto aggiuntivo, fino al 2029."
+      - proposta: 02-C5
+        testo: "La riforma del progetto di vita parte ovunque dal 2027, come già prevede la legge. Il budget non può ridurre le prestazioni che la persona riceve già."
+      - proposta: 09-C2
+        testo: "Solo regole: diritto a non consegnare di nuovo documenti che un ufficio pubblico ha già. L'indennizzo arriva solo dopo 36 mesi."
+    paga:
+      - copertura: SF06
+        testo: "Con un reddito tra 50.000 e 120.000 euro la detrazione del 19% sulle spese sanitarie scende. Le spese legate alla disabilità sono escluse dal taglio."
+      - copertura: FN02
+        testo: "Dal 2028 non si detraggono più i premi delle polizze vita e infortuni. Restano detraibili quelle per la tutela di persone con disabilità grave."
+    da_sapere:
+      - "Per tre anni, in tre ambiti su quattro, il progetto di vita resta un diritto senza personale e risorse in più. È un prezzo dichiarato."
+      - "Il personale è assunto a tempo determinato e pagato con fondi europei fino al 2029. Nel 2029 una valutazione decide se passare alla versione essenziale."
+      - "La versione essenziale, con circa 3.000 persone per la valutazione in tutti gli ambiti, non è nello scenario."
+      - "La salute mentale (06-C5) resta fuori dal programma."
+
+  - id: piccole-imprese
+    titolo: "Piccola impresa, autotrasporto o azienda agricola"
+    icona: truck
+    chi: "In Italia ci sono circa 1,13 milioni di aziende agricole (ISTAT 2020) e circa 2 milioni di contribuenti nel regime forfetario (Rapporto sulle spese fiscali). Nel 2025 i nuovi camion pesanti a zero emissioni erano solo 80 (dati ICCT)."
+    in_breve: "Autotrasporto e agricoltura perdono il gasolio agevolato entro il 2035, con aiuti per mezzi puliti. Le piccole partite IVA hanno dichiarazioni precompilate e rate automatiche."
+    guadagna:
+      - proposta: 01-P12
+        testo: "Versione essenziale. Dichiarazione precompilata per le piccole partite IVA, rate automatiche online, sanzioni proporzionate. Nessun condono."
+      - proposta: 01-P3
+        testo: "Versione essenziale. Rimborsi IVA più rapidi per chi è affidabile, grazie ai dati delle fatture elettroniche. Blocco dei crediti IVA sospetti."
+      - proposta: 04-P8
+        testo: "Versione essenziale. Aste per contributi su circa 600 camion pesanti a zero emissioni l'anno. Gare per la ricarica dei camion solo nel Mezzogiorno."
+      - proposta: 04-P8
+        testo: "Gli sconti sui pedaggi vanno solo ai camion Euro VI e a zero emissioni."
+      - proposta: 04-P7
+        testo: "Solo in prova: un fondo di 50 milioni l'anno per portare più merci sul treno, più uno sportello unico per le dogane."
+      - proposta: 01-P13
+        testo: "Versione essenziale. Un solo credito d'imposta per la ricerca, con aliquota del 12% per le imprese sotto i 50 addetti. Il progetto è certificato prima di spendere."
+      - proposta: 04-P9
+        testo: "Zone a emissioni zero per le merci nelle 14 città metropolitane dal 2030, con 4 anni di preavviso. Contributi per cargo bike e ricarica alle microimprese."
+      - proposta: 01-P5
+        testo: "Versione essenziale. Garanzia pubblica per contratti lunghi di energia rinnovabile a prezzo stabile, solo per consorzi e distretti che consumano molta energia."
+      - proposta: 05-C10
+        testo: "Solo in prova fino al 2029: voucher per le piccole e medie imprese che comprano servizi da 5 centri di ricerca, almeno 2 al Sud."
+    paga:
+      - copertura: SAD13
+        testo: "Entro il 2035 finiscono il rimborso del gasolio per l'autotrasporto e lo sconto sul gasolio agricolo. Una parte dei soldi aiuta a rinnovare i mezzi e sostiene i redditi agricoli."
+      - copertura: SAD01
+        testo: "Dal 2028 niente rimborso del gasolio per i camion Euro 5. Per gli Euro 6 il rimborso cala di un terzo, piano piano. Un quarto del gettito va a nuovi mezzi e intermodalità."
+      - copertura: SAD02
+        testo: "L'accisa sul gasolio agricolo sale in 5 anni dal 22% al 40% di quella normale. Le piccole aziende e la montagna hanno un credito per mezzi a basse emissioni."
+      - copertura: SF02
+        testo: "Nel regime forfetario l'imposta sale dal 15% al 20%, solo sulla parte di reddito legata ai ricavi tra 50.000 e 85.000 euro. Sotto i 50.000 euro non cambia nulla."
+      - copertura: RA14
+        testo: "Gli incentivi alle imprese che non dimostrano di funzionare vengono aboliti con un nuovo Codice degli incentivi."
+      - copertura: RA04
+        testo: "Le linee di incentivo alle imprese senza una valutazione positiva sono tagliate del 3-5%."
+      - copertura: SF10
+        testo: "La maggiorazione per gli investimenti in beni ordinari scende. Resta per digitale, beni immateriali e transizione verde."
+      - copertura: RA01
+        testo: "Le amministrazioni centrali comprano di più con gare centralizzate e prezzi di riferimento. In parte pesa sulle piccole imprese locali che vendono alla pubblica amministrazione."
+    da_sapere:
+      - "Il taglio del gasolio agevolato arriva piano: SAD13 va a pieno solo nel 2035. Le tappe sono annunciate con 12 mesi di anticipo."
+      - "Parte del costo può passare alla clientela finale, tramite i prezzi dei trasporti."
+      - "Calendario di avvio: il credito per la ricerca (01-P13) e i contributi per le consegne pulite (04-P9) partono solo nel 2033 e sono a pieno nel 2035."
+      - "Gli aiuti per i camion a zero emissioni (04-P8) sono nel primo gruppo: nel 2027 parte il 43% della spesa prevista, tutta dal 2033."
+      - "I fondi per rinnovare flotte e il credito agricolo vanno prima alle piccole imprese, alla montagna, alle aree interne e alle isole."
+      - "La garanzia sull'energia (01-P5) e i voucher per la ricerca (05-C10) sono pagati con fondi europei fino al 2029."
+      - "La misura per togliere i gradini che tengono piccole le imprese (01-P4) resta fuori dal programma."
+
+  - id: pensioni
+    titolo: "Persona in pensione, anche con una pensione alta (oltre circa 3.700 euro lordi al mese)"
+    icona: landmark
+    chi: "Circa 1 milione di persone ha una pensione sopra 6 volte il minimo, cioè circa 3.700 euro lordi al mese. È una stima GovernAI su dati 2025 dell'INPS, l'ente delle pensioni. La spesa per pensioni è il 15,2% del prodotto interno lordo (Ragioneria generale dello Stato)."
+    in_breve: "Per chi ha una pensione alta, dal 2030 al 2034 la parte sopra 3.700 euro cresce meno con l'inflazione. Per tutte e tutti, dichiarazione dei redditi già pronta e più assistenza vicino a casa."
+    guadagna:
+      - proposta: 01-P7
+        testo: "Versione essenziale. Chi ha solo la pensione e la Certificazione Unica riceve la dichiarazione già fatta. Vale se non la contesta, e i rimborsi sono automatici."
+      - proposta: 06-C8
+        testo: "Versione essenziale. 500 squadre di infermiere e infermieri di quartiere per l'assistenza a casa, nelle Regioni dove oggi ce n'è meno."
+      - proposta: 06-C3
+        testo: "Versione essenziale. Fondi per far funzionare 1.038 Case della Comunità vicino a casa. Obiettivo: assistenza a casa per il 10% delle persone dai 65 anni in su."
+      - proposta: 06-C1
+        testo: "Solo regole: un'agenda unica per prenotare visite ed esami, anche nel privato accreditato, e una chiamata attiva per non perdere gli appuntamenti."
+      - proposta: 02-C3
+        testo: "Solo regole, per chi deve ancora andare in pensione: si può uscire prima, con una riduzione calcolata sul costo vero dell'anticipo. Regole più leggere per i lavori gravosi."
+    paga:
+      - copertura: PE04
+        testo: "Dal 2030 al 2034 la parte di pensione sopra circa 3.700 euro lordi al mese si rivaluta al 50% dell'inflazione invece del 75%. Con inflazione oltre il 4% resta al 75%."
+      - copertura: PE03
+        testo: "Niente nuove quote né Opzione donna: chi vuole uscire prima lo fa con il calcolo contributivo. Il risparmio è già nelle leggi in vigore."
+      - copertura: SF06
+        testo: "Con un reddito tra 50.000 e 120.000 euro la detrazione del 19% sulle spese sanitarie scende, fino a sparire. Restano salve disabilità, malattie croniche gravi e non autosufficienza."
+      - copertura: SF07
+        testo: "Con un reddito oltre 75.000 euro si deduce di meno per i contributi ai fondi sanitari integrativi."
+      - copertura: FN02
+        testo: "Dal 2028 non si detraggono più i premi delle polizze vita e infortuni e le spese veterinarie. Restano detraibili le polizze per non autosufficienza e disabilità grave."
+    da_sapere:
+      - "La rivalutazione ridotta tocca solo la parte di pensione sopra 6 volte il minimo. Sotto questa soglia non cambia nulla."
+      - "Dura 5 anni. Può essere prorogata solo con una nuova legge motivata e non si somma ad altri tagli sulla rivalutazione."
+      - "Non c'è nessun contributo straordinario sulle pensioni."
+      - "Il risparmio paga la prova sul personale infermieristico (06-C2) e una riserva per il dopo 2029."
+      - "La chiusura di Opzione donna riguarda un'uscita usata soprattutto dalle donne. La pensione di garanzia per chi ha carriere discontinue è rinviata."
+
+  - id: sud-aree-interne-montagna
+    titolo: "Chi vive al Sud, in un'area interna o in montagna"
+    icona: mountain
+    chi: "Nelle aree interne vivono 13,3 milioni di persone. Nel Mezzogiorno potrebbero scendere da 7,1 a 6,0 milioni entro il 2050 (ISTAT, previsioni 2025)."
+    in_breve: "Nelle aree interne arrivano 500 presidi con più servizi e trasporto a chiamata. Molte misure su nidi, scuole, salute e piccoli Comuni vanno prima dove i servizi mancano."
+    guadagna:
+      - proposta: 04-P6
+        testo: "Versione essenziale. Contratti di area nelle 72 aree della Strategia per le aree interne: 500 presidi con più servizi in un solo punto e trasporto a chiamata."
+      - proposta: 04-P6
+        testo: "Un'indennità per circa 35.000 persone tra personale medico, infermieristico e docente di ruolo che lavora nei comuni più lontani dai servizi."
+      - proposta: 02-C2
+        testo: "I nuovi posti al nido, gratis fino a 25.000 euro di ISEE (indicatore della situazione economica), vanno negli ambiti sotto 33 posti ogni 100: soprattutto Sud e aree interne."
+      - proposta: 09-C3
+        testo: "3.000 tecniche e tecnici condivisi aiutano i Comuni sotto i 5.000 abitanti del Mezzogiorno e delle aree interne con gare, progetti e informatica."
+      - proposta: 07-C1
+        testo: "4.500 addetti stabili all'Ufficio per il processo nei tribunali più lenti, soprattutto nel Mezzogiorno."
+      - proposta: 06-C2
+        testo: "Solo in prova, in 4 Regioni, almeno 2 del Mezzogiorno, e nelle aree interne: indennità al personale infermieristico che resta e borse di studio in infermieristica."
+      - proposta: 03-P3
+        testo: "Versione essenziale. Fondi europei per rifare le reti idriche solo nelle Regioni che perdono più della metà dell'acqua."
+      - proposta: 03-P4
+        testo: "Versione essenziale. Un fondo di 0,6 miliardi l'anno per i Comuni più a rischio di frane e alluvioni. Polizza per la casa con adesione automatica e uscita libera."
+      - proposta: 09-C5
+        testo: "Aiuto a usare i servizi pubblici digitali solo nelle aree interne e nel Mezzogiorno."
+    paga:
+      - copertura: SAD10
+        testo: "In montagna e nelle isole lo sconto sul gasolio e sul GPL da riscaldamento sparisce in 4 anni. Al suo posto c'è un contributo per pompe di calore e stufe efficienti."
+      - copertura: SAD02
+        testo: "L'accisa sul gasolio agricolo sale in 5 anni dal 22% al 40% di quella normale. Le aziende di montagna e le piccole aziende hanno un credito per mezzi puliti."
+      - copertura: RP01
+        testo: "Dal 2028 al 2031 ci sono meno posti nei concorsi per profili amministrativi generici di ministeri ed enti nazionali, soprattutto al Sud."
+      - copertura: SAD09
+        testo: "Metà dei contributi agli impianti di risalita diventa un fondo per adattare il turismo di montagna al clima. L'altra metà è risparmiata."
+    da_sapere:
+      - "Chi ha un ISEE fino a 15.000 euro mantiene lo sconto sul gasolio e sul GPL da riscaldamento."
+      - "Gli investimenti nelle aree interne, nelle reti idriche e nella ricarica dei camion al Sud sono pagati con fondi europei che finiscono nel 2029."
+      - "Calendario di avvio: le misure del primo gruppo partono nel 2027 al 43% della spesa prevista, nel 2028 al 74%, tutte dal 2033."
+      - "Le rotte aeree e marittime di continuità territoriale con le isole non pagano le nuove accise sui carburanti (SAD03, SAD04)."
+      - "Restano fuori i treni per chi viaggia ogni giorno (04-P3) e la casa a canone giusto (04-P2). Resta fuori anche il patto per le opere dopo il PNRR, il Piano nazionale di ripresa (04-P1)."

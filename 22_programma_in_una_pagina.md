@@ -52,7 +52,7 @@
 
 - **Famiglie con figlie e figli sotto i 3 anni** (circa 1,1 milioni di bambine e bambini): Circa 60-70 mila posti nido in più dove mancano, gratis fino a un ISEE (indicatore della situazione economica equivalente) di 25.000 €; congedo papà di 2 mesi.
 - **Alunne e alunni delle scuole più fragili** (circa 0,7 milioni tra alunne e alunni (10% di scuole più svantaggiate), fino a 1,4 milioni nelle 1.500 scuole con squadre): Tutor, educatori e mediatori contro l'abbandono, 250 € in più per ogni alunna o alunno, scuole aperte il pomeriggio e d'estate.
-- **Giovani che studiano dopo il diploma** (circa 33.400 persone iscritte agli ITS oggi, verso circa 100.000; persone idonee alla borsa da stimare): Borsa di studio garantita a tutte le persone idonee, ITS triplicati, nuove residenze universitarie a canone legato all'ISEE.
+- **Giovani che studiano dopo il diploma** (circa 33.400 persone iscritte agli ITS oggi, verso circa 66.000; persone idonee alla borsa da stimare): Borsa di studio garantita a tutte le persone idonee, iscrizioni agli ITS raddoppiate (circa 66.000), nuove residenze universitarie su immobili pubblici.
 - **Persone adulte senza diploma e giovani oltre i 25 anni che non studiano né lavorano** (da stimare): Dote di 900 € per corsi certificati e scuole serali per adulti (CPIA) su lettura, calcolo e uso dell'AI.
 - **Studentesse, studenti e famiglie nelle Regioni della sperimentazione su cultura e benessere** (da stimare (3-4 Regioni)): Solo sperimentazione: biblioteche di comunità, zaino culturale, psicologi a scuola. Si estende se la valutazione è positiva.
 
@@ -122,7 +122,7 @@
 
 **Chi ne beneficia.**
 
-- **Imprese che fanno ricerca, soprattutto quelle sotto i 50 addetti** (da stimare): Credito unico stabile per 5 anni: 10%, 13% sotto i 50 addetti; progetto certificato prima di spendere.
+- **Imprese che fanno ricerca, soprattutto quelle sotto i 50 addetti** (da stimare): Credito più alto, al 12%, per le imprese sotto i 50 addetti; progetto certificato prima di spendere; parte solo nel 2033 con il calendario di avvio.
 - **Ricercatrici e ricercatori, università e nuove imprese nate dalla ricerca** (86 spin-off nel 2023; 750 dottorati industriali l'anno previsti): Fondo di fondi da 750 milioni con capitale privato, 130 prove di fattibilità l'anno, 8 centri di ricerca applicata.
 - **Piccole imprese e startup che vendono innovazione alla PA** (circa 200 contratti di prima fase e 40 di seconda fase l'anno): Gare in tre fasi su salute, territorio ed energia: la PA paga prototipi e poi li compra.
 - **Imprese che consumano molta energia** (da stimare): Garanzia pubblica per contratti lunghi di energia rinnovabile a prezzo stabile, per consorzi e distretti.
@@ -161,7 +161,7 @@
 - **Chi vive nelle zone a rischio frana** (1,28 milioni di persone in aree a pericolosità elevata e molto elevata): Fondo di prevenzione sui Comuni più a rischio e polizza casa con adesione automatica e uscita libera.
 - **Residenti delle regioni che perdono più acqua** (da stimare (5 regioni con perdite oltre il 50%)): Obiettivi vincolanti sulle perdite, gestori più grandi e fondi europei per rifare le reti.
 - **Abitanti delle aree interne** (13,3 milioni di persone (intervento in 72 aree progetto)): 500 presidi con più servizi, trasporto a chiamata, indennità per circa 35.000 persone tra personale medico, infermieristico e docente.
-- **Imprese di autotrasporto e logistica** (da stimare): Aste per circa 1.000 camion a zero emissioni l'anno e più ferrovia, in cambio dell'uscita dal rimborso sul gasolio.
+- **Imprese di autotrasporto e logistica** (da stimare): Aste per circa 600 camion a zero emissioni l'anno e gare per la ricarica nel Mezzogiorno, in cambio dell'uscita graduale dal rimborso sul gasolio.
 - **Residenti e negozi delle 14 città metropolitane** (da stimare): Consegne a emissioni zero dal 2030, con 4 anni di preavviso e regole uguali in tutta Italia.
 
 ## Fisco semplice e conti onesti

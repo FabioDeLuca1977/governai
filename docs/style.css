@@ -599,3 +599,11 @@ details.leggi[open] summary{ display:none; }
 .interv-azioni .btn{ min-height:36px; }
 .comunita-modulo .spunta,form.card .spunta{ align-items:flex-start; font-weight:400; }
 .comunita-modulo .spunta input,form.card .spunta input{ flex:none; margin-top:2px; }
+
+/* Che cosa cambia per me */
+a.card.profilo{ display:block; text-decoration:none; color:inherit; }
+a.card.profilo:hover{ border-color:var(--c-bordo-forte); }
+a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento-tenue); }
+.voci-profilo{ margin:8px 0 0; padding-left:18px; }
+.voci-profilo li{ margin-bottom:12px; }
+.voci-profilo li p{ margin:2px 0; }
