@@ -24,7 +24,7 @@ import pandas as pd
 QUI = Path(__file__).resolve().parent
 RADICE = QUI.parent
 DOCUMENTI = ["20_programma_governai.md", "21_idee_in_sintesi.md", "22_programma_in_una_pagina.md"]
-TESTI = DOCUMENTI + ["programma/schema.yaml", "sistema/esporta_web.py", "docs/app.js"]
+TESTI = DOCUMENTI + ["23_equita_e_linguaggio.md", "programma/schema.yaml", "sistema/esporta_web.py", "docs/app.js"]
 
 
 def leggi(rel: str) -> str:
@@ -73,9 +73,26 @@ def controlla() -> list[str]:
                        "una copertura sulle pensioni (PE) è attiva: scrivere «nessun contributo straordinario sulle pensioni»"))
     regole += [(r"revision[ei][^.\n]{0,160}in modo indipendente(?![^.\n]{0,160}\bAI\b)",
                 "le revisioni sono di agenti AI: dirlo"),
-               (r"\bda da\b", "refuso «da da»"),
-               (r"Staffetta delle competenze\": ", "virgolette sbilanciate nel titolo di 09-C8")]
-    for rel in TESTI:
+               (r"(analisi politica|revisione) indipendente(?![^.\n]{0,120}\bAI\b)",
+                "le revisioni sono di agenti AI: dirlo"),
+               (r"\bda da\b", "refuso «da da»")]
+
+    # 5. titoli delle proposte con virgolette sbilanciate (si propagano a scenari, documenti e sito)
+    for r in pd.read_csv(RADICE / "motore" / "proposte.csv").itertuples():
+        if str(r.titolo).count('"') % 2:
+            errori.append(f"motore/proposte.csv: virgolette sbilanciate nel titolo di {r.proposta_id}")
+
+    # 6. numero delle misure del nucleo robusto citato nei documenti
+    esito = pd.read_csv(RADICE / "motore" / "esito_proposte.csv")
+    n_nucleo = int((esito.classe == "robusta").sum())
+    for doc in DOCUMENTI:
+        t = leggi(doc)
+        for m in re.finditer(r"nucleo robusto (\d+) su (\d+)|Sono le misure \(oggi (\d+)\)|Sono le (\d+) misure prioritarie", t):
+            n = int(m.group(2) or m.group(3) or m.group(4))
+            if n != n_nucleo:
+                errori.append(f"{doc}:{t.count(chr(10), 0, m.start()) + 1}: nucleo robusto citato con {n} misure, il motore ne conta {n_nucleo}")
+    rel_files = TESTI + ["revisioni/2026-11-08_analista_politico.md"]
+    for rel in rel_files:
         t = leggi(rel)
         for pat, msg in regole:
             for m in re.finditer(pat, t, re.I):

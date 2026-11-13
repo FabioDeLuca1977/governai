@@ -53,7 +53,7 @@ Tutti gli importi sono in **miliardi di euro all'anno, a regime**, salvo diversa
 | `FSN` | Incremento programmato del Fondo sanitario nazionale |
 | `COESIONE_2127` | Risorse coesione 2021–27 (FSC, FESR, FSE+) non ancora impegnate |
 | `COESIONE_2834` | Risorse coesione del prossimo ciclo (QFP 2028–34) |
-| `PENSIONI` | Contributo di equità e risparmi dall'uscita dalle "quote" |
+| `PENSIONI` | Rivalutazione ridotta delle pensioni più alte e risparmi dall'uscita dalle "quote" |
 | `TASSA_SOGGIORNO` | Gettito aggiuntivo della tassa di soggiorno (Comuni) |
 | `ACCISE_SALUTE` | Accise e tasse su prodotti nocivi (tabacco, bevande zuccherate) |
 | `RIORDINO_BONUS` | Riordino di bonus e carte frammentati |

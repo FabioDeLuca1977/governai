@@ -87,7 +87,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 06-C4 | Budget di cura per la non autosufficienza | PILOTA | 0,1 | 0,10 | 74% |
 | 03-P3 | Ogni goccia conta: reti idriche e riuso | ESSENZIALE | 0,6 | 0,60 | 68% |
 | 08-P1 | Legge sulla consulenza algoritmica pubblica | PIENA | 1,0 | 0,04 | 52% |
-| 09-C6 | Lavoro pubblico misurato e giusto": organizzazione, valutazione vera e responsabilità | PIENA | 1,0 | 0,03 | 48% |
+| 09-C6 | Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità | PIENA | 1,0 | 0,03 | 48% |
 | 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | ESSENZIALE | 0,7 | 0,01 | 33% |
 
 ## Coperture attivate

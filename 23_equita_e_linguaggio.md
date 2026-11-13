@@ -1,15 +1,16 @@
 # GovernAI — Equità e linguaggio inclusivo
 
-*Capitolo del programma, 9 novembre 2026. Scenario di riferimento: intermedio (`programma/selezione_intermedio.md`). Tutti i numeri vengono da file del repository, con la fonte indicata. Dove un dato manca, lo scriviamo: "dato da acquisire".*
+*Capitolo del programma, scritto il 9 novembre 2026 e aggiornato il 12 novembre 2026 dopo le scelte sulla sanità e sui bandi. Scenario di riferimento: intermedio (`programma/selezione_intermedio.md`), 9,0 mld l'anno. Tutti i numeri vengono da file del repository, con la fonte indicata. Dove un dato manca, lo scriviamo: "dato da acquisire".*
 
 ## In breve
 
 - L'equità per GovernAI è un **criterio di valutazione**: ogni proposta deve dire chi guadagna e chi perde, per reddito, territorio, genere, età, disabilità e origine.
 - In Italia i divari più grandi sono tra **territori**, tra **chi ha un lavoro stabile e chi no**, tra **famiglie italiane e straniere** e tra **persone con e senza disabilità**.
 - Il programma intermedio interviene su quasi tutti i divari, ma spesso in **versione ridotta o sperimentale**. Lo diciamo in modo esplicito.
-- Circa il 30% del gettito delle coperture viene da prelievi **regressivi**, cioè che pesano di più su chi ha meno. Alcuni sono compensati, altri no.
+- Dal 12 novembre entrano le **Case della Comunità** e le **squadre infermieristiche di quartiere**, che aiutano soprattutto chi vive lontano dai servizi e chi è anziano o fragile. Il prezzo è un gradino in meno su due misure di scuola con forte effetto sull'equità (ITS e scuole aperte): **l'equità non guadagna in assoluto, si sposta dalla scuola alla salute**.
+- Circa il 30% del gettito delle coperture (2,3 mld su 7,4) viene da prelievi **regressivi**, cioè che pesano di più su chi ha meno. Alcuni sono compensati, altri no. La scelta di non aggiungere tasse non ha cambiato questa quota.
 - Non abbiamo ancora una **microsimulazione per decili di reddito**. Senza, nessun giudizio sull'equità complessiva è definitivo.
-- Proponiamo **cinque regole di metodo** a costo quasi zero e **dieci indicatori di divario**.
+- Proponiamo **cinque regole di metodo** a costo quasi zero e **undici indicatori di divario**.
 - Proponiamo regole di **linguaggio chiaro e inclusivo** per lo Stato, e le applichiamo per prime in questo testo.
 
 ---
@@ -151,38 +152,59 @@ Legenda delle versioni (dal file `programma/selezione_intermedio.md`):
 | | 04-P2 Casa a canone giusto | FUORI | Il divario dell'affitto resta senza risposta |
 | **Territorio** | 04-P6 Servizi essenziali nelle aree interne | ESSENZIALE | 500 presidi e indennità per circa 35.000 persone tra personale medico, infermieristico e docente |
 | | 05-C1 Squadre contro la dispersione; 05-C7 Quota svantaggio alle scuole | PIENA; ESSENZIALE | Risorse alle scuole più fragili, molte al Sud |
+| | 05-C5 Scuole aperte come presidi di comunità | ESSENZIALE | Scesa da piena il 12 novembre per far posto alla sanità: restano le circa 1.500 scuole del quinto più fragile, si perdono le altre 1.500 |
 | | 09-C3 Squadre tecniche della Repubblica per i piccoli Comuni | ESSENZIALE | Aiuto mirato a Mezzogiorno e aree interne |
 | | 04-P5 LEP prima dell'autonomia differenziata | ZERO | Regole sui livelli essenziali; il fabbisogno aggiuntivo non è finanziato |
 | | 03-P3 Reti idriche | ESSENZIALE | 5 regioni perdono oltre metà dell'acqua |
 | | 04-P3 Treni per pendolari | FUORI | |
+| | 09-C10 Bandi pubblici con istruttoria assistita | PILOTA (10 bandi) | Domande più semplici per piccoli Comuni e imprese senza consulenti; utile alle Regioni in ritardo di spesa dei fondi europei, se aderiscono |
 | **Genere** | 02-C2 Nido esigibile e congedo paterno | ESSENZIALE | 60-70 mila posti in più, gratis fino a ISEE 25.000 euro; 2 mesi ai padri invece di 3 |
 | | 02-C6 Bilancio generazionale e strategia demografica | ZERO | Obiettivi su occupazione femminile, senza spesa |
 | | 06-C4 Budget di cura per la non autosufficienza | PILOTA | Il lavoro di cura pesa soprattutto sulle donne: solo 20 ambiti |
 | **Generazioni** | 01-P1 Bilancio generazionale; 02-C3 Patto previdenziale | ZERO | Trasparenza su chi paga e quando |
-| | 05-C4 Più persone laureate e ITS | PIENA | Borsa garantita a chi ne ha diritto |
+| | 05-C4 Più persone laureate e ITS | ESSENZIALE | Scesa da piena il 12 novembre: borsa garantita resta, crescono meno i posti ITS e le residenze |
 | | 05-C2 Conto personale di competenze | ESSENZIALE | Dote di 900 euro per adulti |
 | **Disabilità** | 02-C5 Progetto di vita e lavoro | ZERO | Collocamento mirato con banca dati e sanzioni; il progetto di vita pieno è rinviato |
 | **Origine** | 07-C3 Governance dei flussi fondata sui dati | ESSENZIALE | Più orientata a ingressi e rimpatri che all'inclusione |
 | | 05-C1 Mediatori nelle scuole fragili | PIENA | Effetto indiretto |
 | | Misura specifica per l'inclusione lavorativa delle persone straniere | assente | **Lacuna del programma** |
 | **Salute** | 06-C1 Tempo garantito; 06-C6 Prevenzione | ZERO | Nessun rimborso automatico in questo scenario |
-| | 06-C8 Squadre infermieristiche di quartiere; 06-C9 Benessere a scuola | PILOTA | |
-| | 06-C2 Personale; 06-C3 Case della Comunità; 06-C5 Salute mentale | FUORI | È la missione più debole, come dice `programma/schema.yaml` |
+| | 06-C3 Case della Comunità vive | ESSENZIALE | Entrata il 12 novembre: servizi di base vicino a casa, utili soprattutto nelle aree con pochi servizi |
+| | 06-C8 Squadre infermieristiche di quartiere | ESSENZIALE (500 squadre) | Priorità alle Regioni con meno ore di assistenza a domicilio per assistito |
+| | 06-C10 Meno burocrazia, più cura | ESSENZIALE | Amministrativi verso l'accoglienza nelle Case della Comunità, su base volontaria |
+| | 06-C9 Benessere a scuola | PILOTA | |
+| | 06-C2 Personale infermieristico e medicina di famiglia; 06-C5 Salute mentale | FUORI | Senza nuovo personale le Case della Comunità rendono meno: resta la missione più debole |
 | **Persone detenute** | 07-C2 Pena utile: misure di comunità | ESSENZIALE | Obiettivo: affollamento da 128,8% a 105% in 5 anni |
 
 ### Il bilancio onesto
 
-- **Pieno** dove l'equità passa dalla scuola: dispersione, ITS, scuole aperte.
-- **Ridotto** dove servono molti soldi: nidi, aree interne, Housing First.
-- **Sperimentale** dove l'incertezza è alta: povertà, non autosufficienza, cure a domicilio.
-- **Fuori** su casa, trasporto di chi viaggia ogni giorno, personale sanitario e salute mentale.
+- **Pieno** dove l'equità passa dalla scuola più fragile: squadre contro la dispersione.
+- **Ridotto** dove servono molti soldi: nidi, aree interne, Housing First, ITS e scuole aperte, Case della Comunità e cure a domicilio.
+- **Sperimentale** dove l'incertezza è alta: povertà, non autosufficienza, bandi con istruttoria assistita.
+- **Fuori** su casa, trasporto di chi viaggia ogni giorno, nuovo personale sanitario e salute mentale.
 - **Lacune vere**: inclusione lavorativa delle persone straniere, divario salariale di genere, progetto di vita per le persone con disabilità.
+
+### Le scelte del 12 novembre, viste dall'equità
+
+Per far entrare la sanità **senza tasse in più oltre quelle già previste**, alcune misure sono scese di un gradino. Il conto, con i punteggi di equità del panel (EQU, media dei tre valutatori, da −3 a +3):
+
+| Che cosa cambia | Spesa (mld) | EQU | Spesa × EQU | Effetto sull'equità |
+|---|---|---|---|---|
+| Entra 06-C3 Case della Comunità (essenziale) | +0,80 | +1,7 | +1,34 | Servizi di base vicino a casa, soprattutto dove oggi mancano |
+| 06-C8 Squadre di quartiere da pilota a essenziale | +0,08 | +0,7 | +0,05 | Più ore di assistenza a casa nelle Regioni più indietro |
+| Entrano 06-C10 (essenziale) e 09-C10 (pilota) | +0,03 | +0,3; +0,7 | +0,01 | Effetti indiretti: più accoglienza, domande di contributo più semplici |
+| 05-C4 ITS e lauree professionalizzanti da piena a essenziale | −0,40 | +2,0 | −0,80 | Meno posti ITS e residenze per chi studia dopo il diploma; la borsa garantita resta |
+| 05-C5 Scuole aperte da piena a essenziale | −0,20 | +1,7 | −0,33 | Restano aperte le circa 1.500 scuole del quinto più fragile; si perdono le altre 1.500 |
+| 05-C10, 01-P12, 01-P2, 08-P7 scendono di un gradino | −0,19 | da +0,3 a +1,3 | −0,09 | Ricerca applicata, riscossione, agevolazioni a scadenza, appalti trasparenti |
+| 01-P14, 01-P15, 04-P7, 04-P8, 08-P2 scendono di un gradino | −0,28 | da −0,3 a 0 | +0,04 | Effetto sull'equità nullo o lievemente positivo |
+
+**Bilancio**: sommando spesa per punteggio, il guadagno (circa +1,4) supera di poco la perdita (circa −1,2). L'equità complessiva resta quindi all'incirca la stessa, con un leggero vantaggio, ma cambia chi ne beneficia: più le persone anziane, fragili e chi vive lontano dai servizi; meno chi studia dopo il diploma e le scuole fragili fuori dal quinto più svantaggiato. È una scelta politica, e la dichiariamo. Le scuole più svantaggiate restano protette da 05-C1 (piena), 05-C7 e 05-C5 (essenziali). Il calcolo è indicativo: i punteggi EQU sono giudizi qualitativi, non misure.
 
 ---
 
 ## 4. Chi paga: l'equità delle coperture
 
-Lo scenario intermedio attiva coperture per un gettito minimo di **7,37 miliardi** l'anno a regime. Le abbiamo classificate con il punteggio EQU del panel (colonna `EQU` in `programma/selezione_intermedio.csv`) e con la colonna `chi_paga`. Le somme sono un nostro calcolo sul file.
+Lo scenario intermedio attiva coperture per un gettito minimo di **7,42 miliardi** l'anno a regime. Le abbiamo classificate con il punteggio EQU del panel (colonna `EQU` in `programma/selezione_intermedio.csv`) e con la colonna `chi_paga`. Le somme sono un nostro calcolo sul file.
 
 ### Coperture progressive (pesano di più su chi ha di più): circa 1,5 miliardi
 
@@ -195,13 +217,13 @@ Lo scenario intermedio attiva coperture per un gettito minimo di **7,37 miliardi
 | SAD05 | Auto aziendali a combustione | 0,15 | +1 |
 | SAD03 | Passeggeri dei voli nazionali, escluse le rotte di continuità con le isole | 0,12 | +1 |
 | RB02, RB01 | Bonus nuovi nati e Carta Valore solo sotto una soglia ISEE | 0,13 | +1 |
-| SF03, SF08, SF09, RA10, FN04 | Armatori, seconde case, grandi litiganti, premi di produttività oltre 50.000 euro | 0,19 | +1 |
+| SF03, SF08, SF09, RA10, FN04 | Armatori, detrazione per lo sport dei ragazzi oltre una soglia di reddito, seconde case, grandi litiganti, premi di produttività oltre 50.000 euro | 0,19 | +1 |
 
 ### Coperture neutre o non classificabili: circa 3,6 miliardi
 
 Tagli di spesa dei ministeri (RA13, RA01-RA09), riordino degli incentivi alle imprese (RA14, RA04), patent box (SF16), detrazioni per polizze vita e animali (FN02). L'effetto distributivo dipende da **quali programmi** si tagliano. Per RA13 la colonna `chi_paga` dice: "da individuare". È un rischio: un taglio lineare può colpire servizi usati da chi ha meno.
 
-### Coperture regressive (pesano di più su chi ha meno): circa 2,2 miliardi, il 30%
+### Coperture regressive (pesano di più su chi ha meno): circa 2,3 miliardi, il 30%
 
 | Codice | Chi paga | Gettito min. (mld) | Compensazione prevista |
 |---|---|---|---|
@@ -212,6 +234,9 @@ Tagli di spesa dei ministeri (RA13, RA01-RA09), riordino degli incentivi alle im
 | SAD02 | Aziende agricole che usano gasolio agevolato | 0,15 | Credito per piccole aziende e montagna |
 | SAD10 | Famiglie in montagna e nelle isole che si scaldano a gasolio o GPL | 0,02 | Contributo per pompe di calore; salvaguardia per ISEE fino a 15.000 euro |
 | RP01 | Giovani candidate e candidati ai concorsi generici, soprattutto al Sud | 0,04 | Esclusi servizi sociali e sportelli; ritorno al 100% se i tempi dei servizi peggiorano |
+| RP08 | Giovani candidate e candidati ai concorsi amministrativi della sanità (dal 12 novembre) | 0,05 | Esclusi sportelli e profili tecnici; risorse destinate a infermieri e Case della Comunità; ritorno al 100% se i servizi peggiorano |
+
+Tra le coperture neutre c'è anche **RB03**: la soglia del bonus per le lavoratrici madri scende da 40.000 a 32.000 euro di reddito (0,10 mld). Il panel la valuta neutra, ma riguarda il divario di genere e la segnaliamo.
 
 PE03 (fine delle "quote" e di Opzione donna) ha punteggio −1 ma gettito zero, perché il risparmio è già nella legislazione vigente. La segnaliamo per trasparenza: chiude un'uscita anticipata usata soprattutto dalle donne.
 
@@ -335,7 +360,7 @@ Le regole che seguono hanno un limite chiaro: chiedono **rispetto e chiarezza**,
 
 **Costo stimato (stima GovernAI, ordine di grandezza):** circa **10-20 milioni di euro l'anno** per 3 anni, poi una manutenzione più bassa. La stima si basa su un costo ipotizzato di 50-100 mila euro per modulo (riscrittura, prova con chi usa i servizi, traduzioni, adeguamento dei sistemi). Non ci sono fonti ufficiali nel repository: va verificata.
 
-**Da dove viene il denaro:** RIALLOCAZIONE, cioè una quota dei risparmi su consulenze e assistenza tecnica esterna (RA03, RA08). Il fondo RIALLOCAZIONE nello scenario intermedio è quasi tutto impegnato (spesa 2,43 su capienza 2,44 mld). Quindi la misura entra solo **al posto di qualcos'altro** o con una copertura nuova. Per questo la proponiamo al panel e **non** la inseriamo nel programma.
+**Da dove viene il denaro:** RIALLOCAZIONE, cioè una quota dei risparmi su consulenze e assistenza tecnica esterna (RA03, RA08). Nello scenario intermedio le risorse generali, di cui RIALLOCAZIONE fa parte, coprono la spesa senza margine. Quindi la misura entra solo **al posto di qualcos'altro** o con una copertura nuova. Per questo la proponiamo al panel e **non** la inseriamo nel programma.
 
 ---
 
@@ -347,7 +372,8 @@ Le regole che seguono hanno un limite chiaro: chiedono **rispetto e chiarezza**,
 - **Dati mancanti** nel repository: indice di Gini, divario retributivo di genere, lavoro di cura non pagato, occupazione per cittadinanza, povertà per ripartizione, persone che fumano per reddito.
 - **Punteggi EQU qualitativi**: li dà un panel con una rubrica comune. Sono utili, ma non sono misure.
 - **Tagli di spesa non ancora individuati** (RA13): l'effetto sull'equità dipende da dove si taglia.
-- **Lacune del programma**: inclusione lavorativa delle persone straniere, casa, salute mentale, progetto di vita delle persone con disabilità.
+- **Lacune del programma**: inclusione lavorativa delle persone straniere, casa, salute mentale, nuovo personale infermieristico, progetto di vita delle persone con disabilità.
+- **Fondi che scadono**: circa 1,7 mld di spesa sono pagati con i fondi europei di coesione 2021-2027, ammessi fino al 2029; molte di queste misure riguardano territori e persone più fragili, e andranno rifinanziate.
 
 ### Scelte politiche che questo capitolo non prende
 

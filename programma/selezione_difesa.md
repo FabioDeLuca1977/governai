@@ -88,7 +88,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 08-P2 | Patto per la buona legge | PIENA | 1,0 | 0,01 | 79% |
 | 04-P4 | Nessuna grande opera senza prova dei numeri | PIENA | 1,0 | 0,03 | 73% |
 | 07-C2 | Pena utile: misure di comunita' contro il sovraffollamento | ESSENZIALE | 0,6 | 0,25 | 72% |
-| 09-C6 | Lavoro pubblico misurato e giusto": organizzazione, valutazione vera e responsabilità | ESSENZIALE | 0,6 | 0,01 | 63% |
+| 09-C6 | Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità | ESSENZIALE | 0,6 | 0,01 | 63% |
 | 01-P12 | Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate | PIENA | 1,0 | 0,06 | 57% |
 | 03-P3 | Ogni goccia conta: reti idriche e riuso | ESSENZIALE | 0,6 | 0,60 | 56% |
 | 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | ZERO | 0,3 | 0,00 | 54% |

@@ -1,6 +1,6 @@
 # Le idee di GovernAI in sintesi
 
-*8 novembre 2026. Una panoramica per chi ha dieci minuti: che cosa propone GovernAI, quanto costa, chi paga, che cosa unisce e che cosa divide. Il dettaglio è nel programma (`20_programma_governai.md`) e nelle schede di ogni proposta.*
+*8 novembre 2026, aggiornato il 12 novembre 2026. Una panoramica per chi ha dieci minuti: che cosa propone GovernAI, quanto costa, chi paga, che cosa unisce e che cosa divide. Il dettaglio è nel programma (`20_programma_governai.md`) e nelle schede di ogni proposta.*
 
 ## In una frase
 

@@ -92,7 +92,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 09-C4 | Cloud pubblico sostenibile e Patto per la manutenzione digitale | ZERO | 0,1 | 0,00 | 100% |
 | 01-P9 | Una sola detrazione per il lavoro, senza scalini | ZERO | 0,2 | 0,00 | 100% |
 | 01-P11 | Lo scontrino che conviene: un incentivo mirato al posto di lotterie e cashback | ZERO | 0,1 | 0,00 | 100% |
-| 09-C6 | Lavoro pubblico misurato e giusto": organizzazione, valutazione vera e responsabilità | ZERO | 0,3 | 0,00 | 100% |
+| 09-C6 | Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità | ZERO | 0,3 | 0,00 | 100% |
 | 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | ESSENZIALE | 0,6 | 0,15 | 100% |
 | 03-P2 | Elettricita' rinnovabile a prezzo rinnovabile (CfD) | ZERO | 0,5 | 0,00 | 100% |
 | 06-C6 | Dividendo della prevenzione e budget unico del farmaco | ZERO | 0,7 | 0,00 | 100% |

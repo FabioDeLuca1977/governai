@@ -7,7 +7,7 @@ versione: '2026-11-09'
 scenario: intermedio
 programma:
   perche: "Un Paese dove chi nasce, studia, lavora e invecchia trova servizi che funzionano, e dove le scelte di oggi non pesano sui conti delle generazioni future."
-  come: "Ogni misura pagata senza deficit: tagli di spesa nei ministeri, meno sussidi dannosi e agevolazioni inefficaci, accise su tabacco e alcol. Le misure incerte partono come sperimentazioni."
+  come: "Ogni misura pagata senza deficit: tagli di spesa nei ministeri, meno sussidi dannosi (tra cui il gasolio agevolato per autotrasporto e agricoltura) e agevolazioni inefficaci, accise su tabacco, alcol e bevande zuccherate, forfettario più alto tra 50.000 e 85.000 euro di ricavi e rivalutazione ridotta delle pensioni più alte dal 2030. Le misure incerte partono come sperimentazioni."
   cosa: "Con indicatori pubblici, aggiornati ogni anno, con base e obiettivo a 5 anni: nidi, abbandono scolastico, persone laureate, ricerca, produttività, cure, acqua, giustizia."
   chi: "Famiglie con bambine e bambini piccoli, studentesse e studenti delle scuole più fragili, giovani, imprese che innovano, chi vive in territori a rischio, chi paga le tasse e chi usa giustizia e servizi pubblici."
   indicatori_chiave: [02-C2-b, 05-C1-a, 05-C4-a, 01-P13-a, 01-P4-c, 06-C1-a, 03-P3-a, 07-C1-a]

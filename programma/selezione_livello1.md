@@ -61,7 +61,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 09-C4 | Cloud pubblico sostenibile e Patto per la manutenzione digitale | ZERO | 0,1 | 0,00 | 100% |
 | 01-P9 | Una sola detrazione per il lavoro, senza scalini | ZERO | 0,2 | 0,00 | 100% |
 | 01-P11 | Lo scontrino che conviene: un incentivo mirato al posto di lotterie e cashback | ZERO | 0,1 | 0,00 | 100% |
-| 09-C6 | Lavoro pubblico misurato e giusto": organizzazione, valutazione vera e responsabilità | PIENA | 1,0 | 0,03 | 100% |
+| 09-C6 | Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità | PIENA | 1,0 | 0,03 | 100% |
 | 06-C6 | Dividendo della prevenzione e budget unico del farmaco | ZERO | 0,7 | 0,00 | 100% |
 | 08-P4 | Beni pubblici europei: capacita' fiscale UE | PIENA | 1,0 | 0,00 | 100% |
 | 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | ZERO | 0,2 | 0,00 | 100% |

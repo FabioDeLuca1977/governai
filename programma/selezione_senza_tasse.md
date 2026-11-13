@@ -88,7 +88,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 04-P4 | Nessuna grande opera senza prova dei numeri | PIENA | 1,0 | 0,03 | 80% |
 | 08-P1 | Legge sulla consulenza algoritmica pubblica | ESSENZIALE | 0,6 | 0,01 | 67% |
 | 09-C1 | Stato a vetro: infrastruttura aperta per l'analisi delle politiche | PILOTA | 0,2 | 0,01 | 66% |
-| 09-C6 | Lavoro pubblico misurato e giusto": organizzazione, valutazione vera e responsabilità | ESSENZIALE | 0,6 | 0,01 | 61% |
+| 09-C6 | Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità | ESSENZIALE | 0,6 | 0,01 | 61% |
 | 03-P3 | Ogni goccia conta: reti idriche e riuso | PIENA | 1,0 | 1,15 | 56% |
 | 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | ESSENZIALE | 0,7 | 0,01 | 41% |
 

@@ -4,7 +4,7 @@
 
 | Perché | Come | Cosa misuriamo | Chi ne beneficia |
 |---|---|---|---|
-| Un Paese dove chi nasce, studia, lavora e invecchia trova servizi che funzionano, e dove le scelte di oggi non pesano sui conti delle generazioni future. | Ogni misura pagata senza deficit: tagli di spesa nei ministeri, meno sussidi dannosi e agevolazioni inefficaci, accise su tabacco e alcol. Le misure incerte partono come sperimentazioni. | Con indicatori pubblici, aggiornati ogni anno, con base e obiettivo a 5 anni: nidi, abbandono scolastico, persone laureate, ricerca, produttività, cure, acqua, giustizia. | Famiglie con bambine e bambini piccoli, studentesse e studenti delle scuole più fragili, giovani, imprese che innovano, chi vive in territori a rischio, chi paga le tasse e chi usa giustizia e servizi pubblici. |
+| Un Paese dove chi nasce, studia, lavora e invecchia trova servizi che funzionano, e dove le scelte di oggi non pesano sui conti delle generazioni future. | Ogni misura pagata senza deficit: tagli di spesa nei ministeri, meno sussidi dannosi (tra cui il gasolio agevolato per autotrasporto e agricoltura) e agevolazioni inefficaci, accise su tabacco, alcol e bevande zuccherate, forfettario più alto tra 50.000 e 85.000 euro di ricavi e rivalutazione ridotta delle pensioni più alte dal 2030. Le misure incerte partono come sperimentazioni. | Con indicatori pubblici, aggiornati ogni anno, con base e obiettivo a 5 anni: nidi, abbandono scolastico, persone laureate, ricerca, produttività, cure, acqua, giustizia. | Famiglie con bambine e bambini piccoli, studentesse e studenti delle scuole più fragili, giovani, imprese che innovano, chi vive in territori a rischio, chi paga le tasse e chi usa giustizia e servizi pubblici. |
 
 **I conti:** 9,03 mld l'anno di spesa nuova, 66 misure su 78, coperture per 7,42 mld al minimo più i fondi vincolati. Nuovo deficit: zero.
 
@@ -225,7 +225,7 @@
 - 08-P5 Cooperazione che si misura: traiettoria APS (solo regole, costo zero)
 - 09-C2 Chiedilo una volta sola: once-only con rimborso automatico (solo regole, costo zero)
 - 09-C4 Cloud pubblico sostenibile e Patto per la manutenzione digitale (solo regole, costo zero)
-- 09-C6 Lavoro pubblico misurato e giusto": organizzazione, valutazione vera e responsabilità (solo regole, costo zero)
+- 09-C6 Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità (solo regole, costo zero)
 - *Fuori da questa versione:* 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea; 07-C6 Scudo cyber territoriale; 09-C1 Stato a vetro: infrastruttura aperta per l'analisi delle politiche
 
 **Sostenibilità.** Costi bassi, pagati con tagli di spesa e di personale amministrativo nei ministeri. Difesa al 3,5% del PIL e scudo cyber per i Comuni restano fuori; diverse misure sulla PA sono ridotte.

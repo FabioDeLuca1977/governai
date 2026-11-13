@@ -46,7 +46,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 06-C10 | Meno burocrazia, più cura: automazione degli uffici sanitari e riqualificazione del personale amministrativo | PIENA | 1,0 | 0,04 | 100% |
 | 09-C10 | Bandi pubblici con istruttoria assistita: domande compilate una volta, controlli in giorni invece che in mesi | PIENA | 1,0 | 0,04 | 100% |
 | 08-P1 | Legge sulla consulenza algoritmica pubblica | PIENA | 1,0 | 0,04 | 100% |
-| 09-C6 | Lavoro pubblico misurato e giusto": organizzazione, valutazione vera e responsabilità | PIENA | 1,0 | 0,03 | 100% |
+| 09-C6 | Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità | PIENA | 1,0 | 0,03 | 100% |
 | 04-P4 | Nessuna grande opera senza prova dei numeri | PIENA | 1,0 | 0,03 | 100% |
 | 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | ESSENZIALE | 0,6 | 0,01 | 100% |
 | 01-P2 | Spese fiscali a scadenza (sunset 5 anni) | PIENA | 1,0 | 0,01 | 100% |

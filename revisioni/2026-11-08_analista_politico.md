@@ -1,6 +1,6 @@
 # GovernAI visto da un analista politico
 
-*Revisione indipendente, 8 novembre 2026. Prospettiva: scienza politica, sistema partitico italiano, comunicazione politica, civic tech, politiche pubbliche.*
+*Revisione scritta da un agente AI a cui è stato chiesto di ragionare come un analista politico esterno, 8 novembre 2026; non è la revisione di una persona. Prospettiva: scienza politica, sistema partitico italiano, comunicazione politica, civic tech, politiche pubbliche.*
 
 *Legenda: **[Fatto]** = verificato nei documenti del progetto; **[Valutazione]** = giudizio dell'autore; **[Ipotesi]** = previsione o lettura probabile, non verificata. Le cifre di contesto citate dai documenti (inflazione al 5,6%, DL 62/2026, d.lgs. 147/2026, esito del referendum di marzo 2026 e simili) sono riportate come le scrivono i documenti: non le ho verificate in modo indipendente.*
 

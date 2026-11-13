@@ -15,7 +15,7 @@ Due versioni del programma, entrambe finanziate senza deficit nello scenario pru
 - **Programma adottato dal governo ombra** (simulazione, `governo/`): 11,63 mld l'anno, 55 misure, coperture al minimo per 11,12 mld più i fondi vincolati.
 <!-- /auto:totali -->
 
-- **Il nucleo robusto viene prima.** Sono le 22 misure prioritarie con quasi ogni combinazione di pesi tra i valori: si finanziano almeno in versione essenziale prima di ottimizzare il resto.
+- **Il nucleo robusto viene prima.** Sono le misure (oggi 23) prioritarie con quasi ogni combinazione di pesi tra i valori: si finanziano almeno in versione essenziale prima di ottimizzare il resto.
 - **L'eccezione del programma base è il nido (02-C2).** È l'unica misura del nucleo che il base non finanzia. La sua versione essenziale costa 2,0 mld l'anno e si paga con il riordino dei bonus familiari e delle spese fiscali. Nel base queste risorse non bastano, anche perché la linea rossa sull'equità esclude la soppressione del bonus lavoratrici madri (RB05). Entra nel programma completo e nella decisione del governo ombra.
 - **L'impianto istituzionale costa poco**: legge sulla consulenza algoritmica pubblica (08-P1), "Stato a vetro" (09-C1), bilancio generazionale (01-P1), spese fiscali a scadenza (01-P2), valutazione indipendente delle grandi opere (04-P4).
 - **Restano decisioni politiche**, presentate con il loro prezzo (§6): la traiettoria della Difesa, il dividendo climatico, l'adozione delle coperture strutturali.
@@ -132,7 +132,7 @@ Costi in mld €/anno a regime. "—" = non inclusa. L'ultima colonna è la deci
 | 09-C3 | Squadre tecniche della Repubblica: pool di competenze per i piccoli enti | **Nucleo** | Essenziale 0,22 | Essenziale 0,22 | Essenziale 0,22 |
 | 09-C4 | Cloud pubblico sostenibile e Patto per la manutenzione digitale | Coda | Zero 0,00 | Zero 0,00 | Essenziale 0,12 |
 | 09-C5 | AI nella PA con le mani sul volante | **Nucleo** | Essenziale 0,08 | Piena 0,22 | Piena 0,22 |
-| 09-C6 | Lavoro pubblico misurato e giusto": organizzazione, valutazione vera e responsabilità | Valori | Piena 0,03 | Piena 0,03 | Piena 0,03 |
+| 09-C6 | Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità | Valori | Piena 0,03 | Piena 0,03 | Piena 0,03 |
 | 09-C7 | Automazione dei processi ripetitivi con riallocazione garantita | Valori | Piena 0,20 | Piena 0,20 | Essenziale 0,07 |
 | 09-C8 | Staffetta delle competenze: il ricambio generazionale come occasione di riqualificazione | **Nucleo** | Essenziale 0,08 | Piena 0,23 | Essenziale 0,08 |
 | 09-C9 | Squadra per la produttività pubblica con l'AI: meno lavoro ripetitivo, più servizi alle persone | Valori | Piena 0,09 | Piena 0,09 | — |
@@ -159,7 +159,7 @@ Il dettaglio è in `programma/coperture_menu.csv`: 63 misure con gettito, chi pa
 | Riallocazione interna al bilancio del ministero | 1,57 | 2,69 |
 | Riforma dei sussidi ambientalmente dannosi riformabili a livello nazionale | 1,08 | 2,53 |
 | Accise e tasse su prodotti nocivi (tabacco, bevande zuccherate) | 0,97 | 0,97 |
-| Contributo di equità e risparmi dall'uscita dalle quote | 0,41 | 0,41 |
+| Rivalutazione ridotta delle pensioni più alte e risparmi dall'uscita dalle quote | 0,41 | 0,41 |
 | Riordino di bonus e carte frammentati | 0,31 | 0,21 |
 | Gettito aggiuntivo della tassa di soggiorno (Comuni) | 0,11 | 0,11 |
 | **Totale coperture nuove (gettito minimo)** | **6,15** | **11,42** |
@@ -262,5 +262,5 @@ Tre limiti, dichiarati: il margine sulle risorse generali è nullo (coprono la s
 - **Costi stimati, non certificati.** I costi delle varianti e molti gettiti sono "stime GovernAI". Il passo successivo è la verifica con la Ragioneria o con l'UPB, e microsimulazioni distributive su microdati, che richiedono un accesso istituzionale.
 - **Doppioni da escludere.** Le spese fiscali del menu vanno confrontate voce per voce con la lista dei 7,37 mld già nel Piano strutturale.
 - **Utilità delle varianti.** È calcolata come intensità × utilità della proposta piena. Il panel dovrebbe valutare direttamente le varianti essenziali e le misure di copertura.
-- **Proposte escluse ma di valore.** Salute mentale, non autosufficienza e reddito di inclusione restano fuori per mancanza di risorse certificate, non perché siano di poco valore.
-- **Revisione esterna.** Una prima analisi politica indipendente è in `revisioni/2026-11-08_analista_politico.md`. Serve ora una revisione critica di persone con orientamenti politici diversi, e un confronto tra i punteggi degli agenti e quelli di un panel di persone.
+- **Proposte escluse o ridotte, ma di valore.** Salute mentale e nuovo personale infermieristico restano fuori; non autosufficienza e reddito di inclusione sono solo sperimentazioni. Il motivo è la mancanza di risorse certificate, non il poco valore.
+- **Revisione esterna.** Una prima analisi politica, scritta da un agente AI, è in `revisioni/2026-11-08_analista_politico.md`. Serve ora una revisione critica di persone con orientamenti politici diversi, e un confronto tra i punteggi degli agenti e quelli di un panel di persone.
