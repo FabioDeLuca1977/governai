@@ -5,6 +5,17 @@
 # "da stimare" = il numero non c'è nei file del repo.
 versione: '2026-11-09'
 scenario: intermedio
+# Misure del nucleo robusto che nello scenario di riferimento restano sotto la versione essenziale.
+# "dichiarata" = eccezione scelta da chi guida il progetto; "aperta" = scelta politica non ancora fatta.
+eccezioni_nucleo:
+  09-C10:
+    stato: dichiarata
+    data: '2026-11-13'
+    motivo: "resta pilota finché il pilota non misura il tempo risparmiato; passa a essenziale (0,02 mld l'anno) nella prima legge di bilancio dopo una valutazione affidata a soggetti diversi da chi ha costruito lo strumento, se i tempi di istruttoria scendono di almeno un terzo senza più ricorsi o errori"
+  02-C5:
+    stato: aperta
+    data: '2026-11-13'
+    motivo: "oggi solo nella versione a costo zero (collocamento mirato), senza il progetto di vita esigibile ovunque: la versione essenziale non trova risorse generali, ed è una scelta ancora da fare"
 programma:
   perche: "Un Paese dove chi nasce, studia, lavora e invecchia trova servizi che funzionano, e dove le scelte di oggi non pesano sui conti delle generazioni future."
   come: "Ogni misura pagata senza deficit: tagli di spesa nei ministeri, meno sussidi dannosi (tra cui il gasolio agevolato per autotrasporto e agricoltura) e agevolazioni inefficaci, accise su tabacco, alcol e bevande zuccherate, forfettario più alto tra 50.000 e 85.000 euro di ricavi e rivalutazione ridotta delle pensioni più alte dal 2030. Le misure incerte partono come sperimentazioni."

@@ -294,6 +294,19 @@
     else if (sel && innerWidth < 900) scheda.scrollIntoView({ block: "nearest", behavior: "smooth" });
   }
 
+  // Misure del nucleo sotto la versione essenziale, con lo stato della scelta (programma/schema.yaml)
+  function eccezioniNucleo(sc) {
+    const ecc = (D.schema && D.schema.eccezioni_nucleo) || {};
+    const fuori = D.proposte.filter((p) => p.classe === "robusta" && !(sc.misure[p.id] && ["PIENA", "ESSENZIALE"].includes(sc.misure[p.id].variante)));
+    if (!fuori.length) return "";
+    const voce = (p) => {
+      const e = ecc[p.id];
+      const stato = !e ? "non ancora spiegata" : e.stato === "dichiarata" ? "eccezione dichiarata: " + e.motivo : "scelta aperta: " + e.motivo;
+      return `<a href="#/programma/${encodeURIComponent(p.id)}" title="${esc(stato)}">${esc(p.id)}</a> ${e && e.stato === "dichiarata" ? "(eccezione dichiarata)" : "(scelta aperta)"}`;
+    };
+    return `; sotto: ${fuori.map(voce).join(", ")}`;
+  }
+
   // ---------- Oggi ----------
   function home() {
     const n = D.numeri || {};
@@ -329,7 +342,7 @@
       <section class="sezione" aria-label="Il giorno in quattro numeri" style="margin-top:32px">
         <div class="griglia g2 g4-d">
           <div class="card kpi"><p class="etichetta"><a href="#/programma/una-pagina">Programma di riferimento</a></p><p class="numero">${nf(rif.spesa, 1)}<small>mld/anno</small></p><p class="nota">${rif.deficit > 0 ? `deficit ${nf(rif.deficit, 1)} mld` : "senza deficit"} · le ${D.scenari.length} versioni vanno da ${nf(Math.min(...spese), 1)} a ${nf(Math.max(...spese), 1)} mld</p>${badge("stima", STIMA)}</div>
-          <div class="card kpi"><p class="etichetta">Misure incluse</p><p class="numero">${Object.keys(rif.misure).length}<small>su ${D.proposte.length}</small></p><p class="nota">nucleo robusto finanziato: ${coperto} su ${nucleo.length}</p></div>
+          <div class="card kpi"><p class="etichetta">Misure incluse</p><p class="numero">${Object.keys(rif.misure).length}<small>su ${D.proposte.length}</small></p><p class="nota">nucleo robusto finanziato: ${coperto} su ${nucleo.length}${eccezioniNucleo(rif)}</p></div>
           <div class="card kpi"><p class="etichetta">Cifre verificate</p><p class="numero">${n.cifre_verificate}</p><p class="nota">controllate una per una su fonte primaria</p></div>
           <div class="card kpi"><p class="etichetta">Serie di dati</p><p class="numero">${n.serie}</p><p class="nota">aggiornate ogni giorno da fonti ufficiali</p></div>
         </div>
@@ -390,7 +403,7 @@
     const nucleo = D.proposte.filter((p) => p.classe === "robusta");
     const coperto = nucleo.filter((p) => sc.misure[p.id] && ["PIENA", "ESSENZIALE"].includes(sc.misure[p.id].variante)).length;
     return `${schedeProgramma("proposte")}
-      <p class="risposta">Nel <strong>${esc(sc.nome.toLowerCase())}</strong> entrano ${Object.keys(sc.misure).length} misure su ${D.proposte.length}, per ${nf(sc.spesa, 1)} mld l'anno ${sc.deficit > 0 ? `con ${nf(sc.deficit, 1)} mld di deficit` : "senza deficit"} ${badge("stima", STIMA)}: ${fontiSoldi(sc)}. Il nucleo robusto è finanziato per ${coperto} su ${nucleo.length}.</p>
+      <p class="risposta">Nel <strong>${esc(sc.nome.toLowerCase())}</strong> entrano ${Object.keys(sc.misure).length} misure su ${D.proposte.length}, per ${nf(sc.spesa, 1)} mld l'anno ${sc.deficit > 0 ? `con ${nf(sc.deficit, 1)} mld di deficit` : "senza deficit"} ${badge("stima", STIMA)}: ${fontiSoldi(sc)}. Il nucleo robusto è finanziato almeno in versione essenziale per ${coperto} su ${nucleo.length}${eccezioniNucleo(sc)}.</p>
       <div class="segmenti" role="group" aria-label="Scenario">${D.scenari.map((x) => `<button type="button" data-scenario="${x.id}" aria-pressed="${x.id === sc.id}" title="${esc(x.descrizione)}">${esc(x.nome)}</button>`).join("")}</div>
       <p class="nota" style="margin-top:8px">${esc(sc.descrizione)}.</p>
       <form class="filtri-barra" role="search" onsubmit="return false">

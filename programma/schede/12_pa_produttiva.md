@@ -402,6 +402,8 @@ Le regole sono quelle dell'esperienza da cui nasce:
 
 Nessuno di questi effetti è una copertura finché non è misurato e certificato.
 
+**Eccezione dichiarata alla regola del nucleo.** 09-C10 è nel nucleo robusto, che il programma finanzia almeno in versione essenziale. Il 13 novembre 2026 chi guida il progetto ha scelto di tenerla pilota: la versione essenziale costa 0,02 mld l'anno di risorse generali, oggi senza margine, e il risparmio di tempo non è ancora misurato. Passa a essenziale nella prima legge di bilancio dopo la valutazione del pilota, affidata a soggetti diversi da chi ha costruito lo strumento, se i tempi di istruttoria scendono di almeno un terzo senza più ricorsi o errori.
+
 **Quando serve davvero.** Gli strumenti entrano a regime intorno al 2028: per la coesione 2021-2027, che chiude nel 2029, possono aiutare solo gli ultimi bandi. Il beneficio maggiore è per il ciclo 2028-2034, che parte con le regole e gli strumenti già pronti invece di ripetere i ritardi di oggi.
 
 **Articolato normativo essenziale**

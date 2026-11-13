@@ -56,6 +56,15 @@ def variante(v: pd.DataFrame, pid: str) -> str:
     return f"{r.variante.capitalize()} {num(r.costo_regime)}"
 
 
+def eccezioni_testo() -> str:
+    """Misure del nucleo sotto la versione essenziale nell'intermedio, con lo stato della scelta (programma/schema.yaml)."""
+    import yaml
+    ecc = (yaml.safe_load((QUI / "schema.yaml").read_text(encoding="utf-8")) or {}).get("eccezioni_nucleo") or {}
+    parti = [f"{k} {'per eccezione dichiarata' if v.get('stato') == 'dichiarata' else 'per una scelta ancora aperta'}"
+             for k, v in ecc.items()]
+    return f" (sotto la versione essenziale: {', '.join(parti)})" if parti else ""
+
+
 def blocchi() -> dict[str, str]:
     esito = pd.read_csv(RADICE / "motore" / "esito_proposte.csv").set_index("proposta_id")
     prop = pd.read_csv(RADICE / "motore" / "proposte.csv")
@@ -79,7 +88,7 @@ def blocchi() -> dict[str, str]:
         f"nucleo robusto {nucleo_coperto(vc)} su {len(nucleo)}. Aggiunge coperture strutturali più impegnative.",
         *([f"- **Programma intermedio: {num(selezione('intermedio')[0].costo_regime.sum())} mld l'anno**, "
             f"{selezione('intermedio')[0].proposta_id.nunique()} misure, nucleo robusto "
-            f"{nucleo_coperto(selezione('intermedio')[0])} su {len(nucleo)}. Nessun aumento di tasse su casa, eredità, affitti "
+            f"{nucleo_coperto(selezione('intermedio')[0])} su {len(nucleo)}{eccezioni_testo()}. Nessun aumento di tasse su casa, eredità, affitti "
             "e IVA, nessun contributo straordinario sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale "
             "nei ministeri. Per scelta politica restano tutte le sette misure su ricerca, innovazione e logistica verde "
             "(alcune in versione ridotta) e la squadra per la produttività pubblica con l'AI (09-C9) in versione essenziale; "
