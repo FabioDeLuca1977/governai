@@ -21,7 +21,7 @@ Priorità al nucleo robusto (Carta, regola 7): **attiva**.
 
 | Voce | mld €/anno a regime |
 |---|---|
-| Spesa delle misure scelte | 12,87 |
+| Spesa delle misure scelte | 13,02 |
 | di cui su risorse generali | 11,00 |
 | Gettito minimo delle coperture attivate (risorse generali) | 11,00 |
 | Gettito minimo delle coperture attivate (totale) | 11,52 |
@@ -38,6 +38,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 09-C3 | Squadre tecniche della Repubblica: pool di competenze per i piccoli enti | ESSENZIALE | 0,5 | 0,22 | 100% |
 | 05-C5 | Scuole aperte come presidi di comunita' | ESSENZIALE | 0,5 | 0,20 | 100% |
 | 05-C7 | Quota svantaggio nel finanziamento delle scuole | ESSENZIALE | 0,6 | 0,19 | 100% |
+| 02-C5 | Progetto di vita esigibile e lavoro per le persone con disabilita' | PILOTA | 0,3 | 0,15 | 100% |
 | 06-C3 | Case della Comunita' vive | PILOTA | 0,1 | 0,15 | 100% |
 | 01-P7 | Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla | ESSENZIALE | 0,6 | 0,15 | 100% |
 | 05-C1 | Nessuna esclusione: squadre di prossimita' contro la dispersione | ESSENZIALE | 0,6 | 0,13 | 100% |
@@ -59,7 +60,6 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 08-P7 | Appalti a vetro: cruscotto pubblico dei rischi e dati aperti completi | PIENA | 1,0 | 0,01 | 100% |
 | 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | ZERO | 0,4 | 0,00 | 100% |
 | 02-C1 | Salario minimo contrattuale garantito | ZERO | 0,3 | 0,00 | 100% |
-| 02-C5 | Progetto di vita esigibile e lavoro per le persone con disabilita' | ZERO | 0,2 | 0,00 | 100% |
 | 02-C6 | Bilancio generazionale e strategia demografica | ZERO | 0,3 | 0,00 | 100% |
 | 03-P1 | Dividendo climatico: riforma SAD restituita alla cittadinanza | ZERO | 0,2 | 0,00 | 100% |
 | 04-P5 | LEP prima: autonomia differenziata reversibile | ZERO | 0,5 | 0,00 | 100% |
@@ -86,7 +86,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 08-P1 | Legge sulla consulenza algoritmica pubblica | ESSENZIALE | 0,6 | 0,01 | 83% |
 | 09-C10 | Bandi pubblici con istruttoria assistita: domande compilate una volta, controlli in giorni invece che in mesi | PIENA | 1,0 | 0,04 | 80% |
 | 08-P2 | Patto per la buona legge | PIENA | 1,0 | 0,01 | 79% |
-| 04-P4 | Nessuna grande opera senza prova dei numeri | PIENA | 1,0 | 0,03 | 73% |
+| 04-P4 | Nessuna grande opera senza prova dei numeri | PIENA | 1,0 | 0,03 | 74% |
 | 07-C2 | Pena utile: misure di comunita' contro il sovraffollamento | ESSENZIALE | 0,6 | 0,25 | 72% |
 | 09-C6 | Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità | ESSENZIALE | 0,6 | 0,01 | 63% |
 | 01-P12 | Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate | PIENA | 1,0 | 0,06 | 57% |
@@ -195,7 +195,7 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 | Fondo | Spesa | Gettito/capienza disponibile |
 |---|---|---|
 | ACCISE_SALUTE | 0,88 | 0,97 |
-| COESIONE_2127 | 1,35 | 2,00 |
+| COESIONE_2127 | 1,51 | 2,00 |
 | PENSIONI | 0,35 | 0,41 |
 | RIALLOCAZIONE | 2,63 | 2,69 |
 | RIORDINO_BONUS | 0,89 | 0,31 |

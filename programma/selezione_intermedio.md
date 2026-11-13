@@ -2,7 +2,7 @@
 
 *Generato da `programma/ottimizza.py`. Tutto finanziato nello scenario prudente: niente deficit, niente risparmi non certificati, gettito minimo delle coperture.*
 
-Vincoli di scenario: forzate ['02-C2:ESSENZIALE', '05-C1:PIENA', '02-C4:PILOTA', '06-C4:PILOTA', '01-P13:PIENA', '04-P9:PIENA', '09-C9:ESSENZIALE', '03-P4:ESSENZIALE', '07-C1:ESSENZIALE', '04-P6:ESSENZIALE', '07-C2:ESSENZIALE', '07-C3:ESSENZIALE', '09-C3:ESSENZIALE', '05-C2:ESSENZIALE', '05-C7:ESSENZIALE', '01-P7:ESSENZIALE', '02-C7:ESSENZIALE', '07-C4:ESSENZIALE', '09-C5:ESSENZIALE', '09-C8:ESSENZIALE', '03-P3:ESSENZIALE', '01-P3:ESSENZIALE', '01-P12:ESSENZIALE', '06-C3:ESSENZIALE', '06-C8:ESSENZIALE', '06-C10:ESSENZIALE', '05-C4:ESSENZIALE', '05-C5:ESSENZIALE', '05-C10:PILOTA', '04-P7:PILOTA', '04-P8:ESSENZIALE', '01-P14:PILOTA', '01-P15:ZERO', '08-P1:ESSENZIALE'], escluse —, prioritarie per il momento ['05-C1', '05-C2', '05-C3', '05-C4', '05-C5', '05-C6', '05-C7', '05-C8', '05-C9', '02-C2', '02-C4', '02-C5', '02-C7', '06-C4', '06-C2', '06-C3', '06-C8', '06-C9'], coperture fino al livello tutti, coperture escluse RA11 SF01 SF11 SF12 SF13 SF14 FN01 FN03 SAD12 SAD14 PE01 PE02 SAD06 SAD07.
+Vincoli di scenario: forzate ['02-C2:ESSENZIALE', '05-C1:PIENA', '02-C4:PILOTA', '06-C4:PILOTA', '01-P13:PIENA', '04-P9:PIENA', '09-C9:ESSENZIALE', '03-P4:ESSENZIALE', '07-C1:ESSENZIALE', '04-P6:ESSENZIALE', '07-C2:ESSENZIALE', '07-C3:ESSENZIALE', '09-C3:ESSENZIALE', '05-C2:ESSENZIALE', '05-C7:ESSENZIALE', '01-P7:ESSENZIALE', '02-C7:ESSENZIALE', '07-C4:ESSENZIALE', '09-C5:ESSENZIALE', '09-C8:ESSENZIALE', '03-P3:ESSENZIALE', '01-P3:ESSENZIALE', '01-P12:ESSENZIALE', '06-C3:ESSENZIALE', '06-C8:ESSENZIALE', '06-C10:ESSENZIALE', '05-C4:ESSENZIALE', '05-C5:ESSENZIALE', '05-C10:PILOTA', '04-P7:PILOTA', '04-P8:ESSENZIALE', '01-P14:PILOTA', '01-P15:ZERO', '08-P1:ESSENZIALE', '02-C5:PILOTA'], escluse —, prioritarie per il momento ['05-C1', '05-C2', '05-C3', '05-C4', '05-C5', '05-C6', '05-C7', '05-C8', '05-C9', '02-C2', '02-C4', '02-C5', '02-C7', '06-C4', '06-C2', '06-C3', '06-C8', '06-C9'], coperture fino al livello tutti, coperture escluse RA11 SF01 SF11 SF12 SF13 SF14 FN01 FN03 SAD12 SAD14 PE01 PE02 SAD06 SAD07.
 
 Priorità al nucleo robusto (Carta, regola 7): **attiva**.
 
@@ -21,7 +21,7 @@ Priorità al nucleo robusto (Carta, regola 7): **attiva**.
 
 | Voce | mld €/anno a regime |
 |---|---|
-| Spesa delle misure scelte | 9,03 |
+| Spesa delle misure scelte | 9,17 |
 | di cui su risorse generali | 7,01 |
 | Gettito minimo delle coperture attivate (risorse generali) | 7,01 |
 | Gettito minimo delle coperture attivate (totale) | 7,42 |
@@ -48,6 +48,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 09-C3 | Squadre tecniche della Repubblica: pool di competenze per i piccoli enti | ESSENZIALE | 0,5 | 0,22 | 100% |
 | 05-C5 | Scuole aperte come presidi di comunita' | ESSENZIALE | 0,5 | 0,20 | 100% |
 | 05-C7 | Quota svantaggio nel finanziamento delle scuole | ESSENZIALE | 0,6 | 0,19 | 100% |
+| 02-C5 | Progetto di vita esigibile e lavoro per le persone con disabilita' | PILOTA | 0,3 | 0,15 | 100% |
 | 01-P7 | Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla | ESSENZIALE | 0,6 | 0,15 | 100% |
 | 02-C4 | Reddito di inclusione universale | PILOTA | 0,1 | 0,10 | 100% |
 | 06-C4 | Budget di cura per la non autosufficienza | PILOTA | 0,1 | 0,10 | 100% |
@@ -79,7 +80,6 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | ZERO | 0,2 | 0,00 | 100% |
 | 02-C1 | Salario minimo contrattuale garantito | ZERO | 0,3 | 0,00 | 100% |
 | 02-C3 | Patto previdenziale tra generazioni | ZERO | 0,5 | 0,00 | 100% |
-| 02-C5 | Progetto di vita esigibile e lavoro per le persone con disabilita' | ZERO | 0,2 | 0,00 | 100% |
 | 02-C6 | Bilancio generazionale e strategia demografica | ZERO | 0,3 | 0,00 | 100% |
 | 03-P1 | Dividendo climatico: riforma SAD restituita alla cittadinanza | ZERO | 0,2 | 0,00 | 100% |
 | 04-P4 | Nessuna grande opera senza prova dei numeri | ZERO | 0,3 | 0,00 | 100% |
@@ -181,7 +181,7 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 | Fondo | Spesa | Gettito/capienza disponibile |
 |---|---|---|
 | ACCISE_SALUTE | 0,33 | 0,97 |
-| COESIONE_2127 | 1,75 | 2,00 |
+| COESIONE_2127 | 1,90 | 2,00 |
 | PENSIONI | 0,00 | 0,30 |
 | RIALLOCAZIONE | 2,42 | 2,49 |
 | RIORDINO_BONUS | 1,19 | 0,31 |

@@ -71,14 +71,14 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 07-C4 | Dal bene confiscato al bene comune | PIENA | 1,0 | 0,15 | 98% |
 | 03-P2 | Elettricita' rinnovabile a prezzo rinnovabile (CfD) | PIENA | 1,0 | 0,15 | 97% |
 | 01-P10 | Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti | PIENA | 1,0 | 0,10 | 97% |
-| 02-C6 | Bilancio generazionale e strategia demografica | ZERO | 0,3 | 0,00 | 97% |
 | 05-C4 | Piu' persone con laurea o diploma terziario: ITS, lauree professionalizzanti, residenze | ESSENZIALE | 0,6 | 0,45 | 96% |
+| 02-C6 | Bilancio generazionale e strategia demografica | ZERO | 0,3 | 0,00 | 96% |
 | 05-C6 | AI a scuola | PIENA | 1,0 | 0,22 | 95% |
 | 05-C9 | Zaino culturale a scuola e tariffa sociale della cultura | PIENA | 1,0 | 0,20 | 95% |
 | 09-C7 | Automazione dei processi ripetitivi con riallocazione garantita | PIENA | 1,0 | 0,20 | 94% |
 | 07-C3 | Governance dei flussi migratori fondata sui dati | ESSENZIALE | 0,6 | 0,25 | 93% |
 | 05-C5 | Scuole aperte come presidi di comunita' | PIENA | 1,0 | 0,40 | 91% |
-| 01-P13 | Un solo credito per la ricerca: stabile, piu' forte per le piccole imprese, certificato prima di spendere | ZERO | 0,2 | 0,01 | 91% |
+| 01-P13 | Un solo credito per la ricerca: stabile, piu' forte per le piccole imprese, certificato prima di spendere | ZERO | 0,2 | 0,01 | 90% |
 | 02-C3 | Patto previdenziale tra generazioni | ESSENZIALE | 0,8 | 0,35 | 88% |
 | 04-P9 | Consegne pulite in citta': zone a emissioni zero per le merci | PIENA | 1,0 | 0,07 | 87% |
 | 01-P7 | Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla | PIENA | 1,0 | 0,30 | 87% |
@@ -88,8 +88,8 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | PIENA | 1,0 | 0,10 | 84% |
 | 09-C3 | Squadre tecniche della Repubblica: pool di competenze per i piccoli enti | ESSENZIALE | 0,5 | 0,22 | 83% |
 | 05-C8 | Biblioteche di comunita' | PIENA | 1,0 | 0,33 | 79% |
-| 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | PIENA | 1,0 | 0,15 | 77% |
-| 07-C6 | Scudo cyber territoriale | PIENA | 1,0 | 0,35 | 70% |
+| 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | PIENA | 1,0 | 0,15 | 78% |
+| 07-C6 | Scudo cyber territoriale | PIENA | 1,0 | 0,35 | 69% |
 | 05-C7 | Quota svantaggio nel finanziamento delle scuole | ESSENZIALE | 0,6 | 0,19 | 66% |
 | 06-C9 | Equipe di benessere scolastico in rete con la Casa della Comunita' | PIENA | 1,0 | 0,20 | 61% |
 | 07-C2 | Pena utile: misure di comunita' contro il sovraffollamento | PIENA | 1,0 | 0,45 | 57% |
@@ -97,7 +97,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | PIENA | 1,0 | 0,15 | 49% |
 | 04-P7 | Dal porto al treno: piu' merci sul ferro | PILOTA | 0,3 | 0,06 | 41% |
 | 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | ESSENZIALE | 0,6 | 0,14 | 38% |
-| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 34% |
+| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 35% |
 | 05-C10 | Rete nazionale per la ricerca applicata sul modello Fraunhofer | PILOTA | 0,1 | 0,05 | 21% |
 | 03-P5 | Contratto agro-climatico | ESSENZIALE | 0,6 | 0,25 | 15% |
 
@@ -141,7 +141,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | RA09 | Spesa ICT corrente delle amministrazioni centrali -4/6%: dismissione dei CED residui, licenze duplicate, accordi quadro Consip (R09-3, area 09) | RIALLOCAZIONE | 0,12 | Fornitori di hosting e licenze legacy | 100% |
 | TS01 | Imposta di soggiorno: tetto massimo +2 €/notte nei comuni ad alta intensità turistica, con vincolo di destinazione a casa per residenti, trasporti e patrimonio | TASSA_SOGGIORNO | 0,10 | Chi pernotta nei comuni ad alta pressione turistica | 100% |
 | SAD08 | Abolizione di quattro SAD energetici minori: deduzione forfetaria gestori carburanti (EN.SI.18), accisa ridotta gas grandi consumatori (EN.SI.20), GPL industriale (EN.SI.15), esenzione oli lubrificanti (EN.SI.03) | SAD | 0,10 | Gestori di impianti di distribuzione, grandi consumatori industriali di gas, imprese gomma/plastica | 100% |
-| RB02 | Bonus nuovi nati 1.000 € (360 mln/anno, ISEE ≤40.000 €) assorbito in una maggiorazione dell'Assegno unico nel primo anno di vita per ISEE ≤25.000 € | RIORDINO_BONUS | 0,08 | Famiglie con una nuova nascita e ISEE tra 25.000 e 40.000 € | 79% |
+| RB02 | Bonus nuovi nati 1.000 € (360 mln/anno, ISEE ≤40.000 €) assorbito in una maggiorazione dell'Assegno unico nel primo anno di vita per ISEE ≤25.000 € | RIORDINO_BONUS | 0,08 | Famiglie con una nuova nascita e ISEE tra 25.000 e 40.000 € | 78% |
 | SF05 | Abrogazione delle spese fiscali minori e senza valutazione (fascia 10-20 mln e parte delle misure sotto 10 mln), con clausola di scadenza per le nuove | SPESE_FISCALI | 0,08 | Chi beneficia di agevolazioni minori e frammentate | 100% |
 | RA02 | Locazioni passive: piano di rientro negli immobili pubblici accelerato, obiettivo -20% dei canoni entro il 2030 | RIALLOCAZIONE | 0,08 | Soggetti privati che affittano immobili alla PA | 100% |
 | RB04 | Carta del docente: quota di circa 150 € vincolata alla formazione su AI e didattica, al posto di acquisti liberi (proposta area 05) | RIORDINO_BONUS | 0,08 | Docenti di ruolo e supplenti annuali (minor libertà d'uso) | 92% |
@@ -185,7 +185,7 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 - 06-C4 Budget di cura per la non autosufficienza (scelta in 4% delle combinazioni di pesi)
 - 06-C5 Salute mentale al 5% (scelta in 0% delle combinazioni di pesi)
 - 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea (scelta in 29% delle combinazioni di pesi)
-- 08-P6 Export resiliente (scelta in 43% delle combinazioni di pesi)
+- 08-P6 Export resiliente (scelta in 44% delle combinazioni di pesi)
 
 ## Uso dei fondi
 

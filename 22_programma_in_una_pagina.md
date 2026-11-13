@@ -6,7 +6,7 @@
 |---|---|---|---|
 | Un Paese dove chi nasce, studia, lavora e invecchia trova servizi che funzionano, e dove le scelte di oggi non pesano sui conti delle generazioni future. | Ogni misura pagata senza deficit: tagli di spesa nei ministeri, meno sussidi dannosi (tra cui il gasolio agevolato per autotrasporto e agricoltura) e agevolazioni inefficaci, accise su tabacco, alcol e bevande zuccherate, forfettario più alto tra 50.000 e 85.000 euro di ricavi e rivalutazione ridotta delle pensioni più alte dal 2030. Le misure incerte partono come sperimentazioni. | Con indicatori pubblici, aggiornati ogni anno, con base e obiettivo a 5 anni: nidi, abbandono scolastico, persone laureate, ricerca, produttività, cure, acqua, giustizia. | Famiglie con bambine e bambini piccoli, studentesse e studenti delle scuole più fragili, giovani, imprese che innovano, chi vive in territori a rischio, chi paga le tasse e chi usa giustizia e servizi pubblici. |
 
-**I conti:** 9,03 mld l'anno di spesa nuova, 66 misure su 78, coperture per 7,42 mld al minimo più i fondi vincolati. Nuovo deficit: zero.
+**I conti:** 9,17 mld l'anno di spesa nuova, 66 misure su 78, coperture per 7,42 mld al minimo più i fondi vincolati. Nuovo deficit: zero.
 
 ## Ce l'avremo fatta se…
 
@@ -58,19 +58,19 @@
 
 ## Cura e protezione quando serve
 
-*9 misure su 11 · 1,21 mld l'anno*
+*9 misure su 11 · 1,36 mld l'anno*
 
 **Perché.** Nessuna persona deve rinunciare a curarsi o restare sola quando è fragile: chi ha una malattia, le persone anziane non autosufficienti, le persone con disabilità, chi vive in strada. *Valori: Benessere, Equità, Rispetto e diversità.*
 
 **Come.** Case della Comunità che funzionano, squadre infermieristiche di quartiere per l'assistenza a casa, meno burocrazia negli uffici sanitari, regole per accorciare le attese, Housing First (prima una casa, poi il resto) e sperimentazioni su povertà e non autosufficienza.
 
 - 06-C3 Case della Comunità vive (essenziale, 0,80 mld)
+- 02-C5 Progetto di vita esigibile e lavoro per le persone con disabilità (pilota, 0,15 mld)
 - 02-C4 Reddito di inclusione universale (pilota, 0,10 mld)
 - 06-C4 Budget di cura per la non autosufficienza (pilota, 0,10 mld)
 - 06-C8 Squadre infermieristiche autonome di quartiere per l'ADI (essenziale, 0,10 mld)
 - 02-C7 Housing First dopo il PNRR (essenziale, 0,09 mld)
 - 06-C10 Meno burocrazia, più cura: automazione degli uffici sanitari e riqualificazione del personale amministrativo (essenziale, 0,02 mld)
-- 02-C5 Progetto di vita esigibile e lavoro per le persone con disabilità (solo regole, costo zero)
 - 06-C1 Tempo garantito o rimborso (solo regole, costo zero)
 - 06-C6 Dividendo della prevenzione e budget unico del farmaco (solo regole, costo zero)
 - *Fuori da questa versione:* 06-C2 Patto per il personale infermieristico e la medicina generale; 06-C5 Salute mentale al 5%
@@ -88,7 +88,7 @@
 
 - **Persone che aspettano visite ed esami** (il 2,5% delle persone dai 16 anni in su ha rinunciato a cure nel 2025; numero assoluto da stimare): Agenda unica delle prenotazioni anche con il privato accreditato, richiamo attivo; nessun rimborso automatico in questo scenario.
 - **Persone senza dimora** (96.197 persone iscritte in anagrafe; 6.000 in Housing First nelle 14 città metropolitane): Una casa con contratto proprio e un'équipe stabile che accompagna, anche dopo la fine dei fondi del PNRR (Piano nazionale di ripresa e resilienza).
-- **Persone con disabilità grave** (circa 2,9 milioni di persone con limitazioni gravi): Collocamento mirato con banca dati dei posti scoperti e sanzioni automatiche; il progetto di vita pieno è rinviato.
+- **Persone con disabilità grave** (circa 2,9 milioni di persone con limitazioni gravi): Collocamento mirato con banca dati dei posti scoperti e sanzioni automatiche ovunque; progetto di vita con personale e budget dedicati nel quarto degli ambiti con meno servizi, in sperimentazione fino al 2029.
 - **Persone anziane non autosufficienti e chi le assiste** (da stimare (circa 243.000 persone in lista d'attesa per una RSA, residenza sanitaria assistenziale, dato da verificare)): 500 squadre infermieristiche di quartiere per l'assistenza a casa nelle Regioni con meno ore per assistito; budget di cura solo in sperimentazione in 20 ambiti.
 - **Famiglie in povertà assoluta** (2,1 milioni di famiglie, 5,4 milioni di persone): Solo una sperimentazione in 12 ambiti del reddito di inclusione universale; per ora nessun cambiamento generale.
 

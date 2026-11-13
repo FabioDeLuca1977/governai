@@ -74,8 +74,8 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 01-P10 | Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti | PIENA | 1,0 | 0,10 | 98% |
 | 05-C4 | Piu' persone con laurea o diploma terziario: ITS, lauree professionalizzanti, residenze | ESSENZIALE | 0,6 | 0,45 | 97% |
 | 05-C6 | AI a scuola | PIENA | 1,0 | 0,22 | 96% |
-| 02-C6 | Bilancio generazionale e strategia demografica | ZERO | 0,3 | 0,00 | 96% |
 | 09-C7 | Automazione dei processi ripetitivi con riallocazione garantita | PIENA | 1,0 | 0,20 | 96% |
+| 02-C6 | Bilancio generazionale e strategia demografica | ZERO | 0,3 | 0,00 | 96% |
 | 05-C1 | Nessuna esclusione: squadre di prossimita' contro la dispersione | PIENA | 1,0 | 0,25 | 95% |
 | 07-C3 | Governance dei flussi migratori fondata sui dati | ESSENZIALE | 0,6 | 0,25 | 93% |
 | 05-C9 | Zaino culturale a scuola e tariffa sociale della cultura | PIENA | 1,0 | 0,20 | 93% |
@@ -94,12 +94,12 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 05-C7 | Quota svantaggio nel finanziamento delle scuole | ESSENZIALE | 0,6 | 0,19 | 69% |
 | 07-C6 | Scudo cyber territoriale | PIENA | 1,0 | 0,35 | 67% |
 | 07-C2 | Pena utile: misure di comunita' contro il sovraffollamento | PIENA | 1,0 | 0,45 | 59% |
-| 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | PIENA | 1,0 | 0,15 | 59% |
 | 06-C9 | Equipe di benessere scolastico in rete con la Casa della Comunita' | PIENA | 1,0 | 0,20 | 58% |
+| 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | PIENA | 1,0 | 0,15 | 58% |
 | 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | ESSENZIALE | 0,6 | 0,15 | 55% |
-| 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | ESSENZIALE | 0,6 | 0,14 | 47% |
-| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 34% |
+| 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | ESSENZIALE | 0,6 | 0,14 | 48% |
 | 04-P7 | Dal porto al treno: piu' merci sul ferro | PILOTA | 0,3 | 0,06 | 33% |
+| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 33% |
 | 05-C10 | Rete nazionale per la ricerca applicata sul modello Fraunhofer | PILOTA | 0,1 | 0,05 | 23% |
 | 03-P5 | Contratto agro-climatico | ESSENZIALE | 0,6 | 0,25 | 20% |
 
@@ -129,7 +129,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | SF16 | Nuovo patent box (art. 6 DL 146/2021): nessun nuovo ingresso dal 2027 e uscita graduale per chi è già nel regime; risorse vincolate al credito unico per la ricerca (01-P13) | SPESE_FISCALI | 0,20 | Imprese con redditi da beni immateriali, in prevalenza con almeno 500 addetti (ISTAT) | 99% |
 | SF12 | Agevolazioni prima casa (registro 2%, catastale fissa) limitate agli acquisti fino a 400.000 €; sopra si applica l'aliquota ordinaria sulla parte eccedente | SPESE_FISCALI | 0,20 | Chi acquista una prima casa di valore alto | 100% |
 | RA05 | Abrogazione della riduzione del payback farmaceutico per le aziende che investono (DDL 2027 art. 71; R-SAN1, area 06) | RIALLOCAZIONE | 0,16 | Industria farmaceutica | 98% |
-| SAD02 | Gasolio agricolo (EN.SI.21): accisa dal 22% al 40% dell'aliquota normale in 5 anni, con credito per piccole aziende e montagna (mezzi a basse emissioni, biometano) | SAD | 0,15 | Aziende agricole, florovivaistiche, silvicole e della pesca in acque interne che usano gasolio agevolato | 93% |
+| SAD02 | Gasolio agricolo (EN.SI.21): accisa dal 22% al 40% dell'aliquota normale in 5 anni, con credito per piccole aziende e montagna (mezzi a basse emissioni, biometano) | SAD | 0,15 | Aziende agricole, florovivaistiche, silvicole e della pesca in acque interne che usano gasolio agevolato | 92% |
 | RA04 | Trasferimenti correnti alle imprese: taglio del 3-5% delle linee di incentivo senza valutazione d'impatto positiva (esclusi i contratti di servizio di TPL, ferrovie e servizio postale), in attuazione del Codice degli incentivi | RIALLOCAZIONE | 0,15 | Imprese beneficiarie di incentivi correnti | 100% |
 | AS03 | Sugar tax: raddoppio delle aliquote dal 2029, dopo il primo anno di applicazione | ACCISE_SALUTE | 0,15 | Chi consuma bevande zuccherate; produttori (spinta a riformulare) | 99% |
 | SAD05 | Auto aziendali (TR.SI.04a): fine del regime transitorio per i contratti ante 2025 dal 2028 e percentuale imponibile dal 50% al 60% per i veicoli a combustione | SAD | 0,15 | Personale dipendente con auto aziendale a uso promiscuo; imprese (costo del welfare aziendale) | 100% |

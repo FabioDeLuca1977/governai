@@ -74,8 +74,8 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 01-P8 | Meno scontrini: riordino delle detrazioni del 19% | ZERO | 0,4 | 0,00 | 99% |
 | 07-C4 | Dal bene confiscato al bene comune | PIENA | 1,0 | 0,15 | 98% |
 | 01-P10 | Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti | PIENA | 1,0 | 0,10 | 98% |
+| 01-P4 | Crescere conviene: eliminare i gradini dimensionali | ZERO | 0,2 | 0,01 | 98% |
 | 01-P3 | IVA in tempo reale | PIENA | 1,0 | 0,15 | 97% |
-| 01-P4 | Crescere conviene: eliminare i gradini dimensionali | ZERO | 0,2 | 0,01 | 97% |
 | 05-C7 | Quota svantaggio nel finanziamento delle scuole | ESSENZIALE | 0,6 | 0,19 | 97% |
 | 09-C4 | Cloud pubblico sostenibile e Patto per la manutenzione digitale | ZERO | 0,1 | 0,00 | 96% |
 | 03-P2 | Elettricita' rinnovabile a prezzo rinnovabile (CfD) | PIENA | 1,0 | 0,15 | 96% |
@@ -87,20 +87,20 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 04-P9 | Consegne pulite in citta': zone a emissioni zero per le merci | PIENA | 1,0 | 0,07 | 87% |
 | 07-C2 | Pena utile: misure di comunita' contro il sovraffollamento | ESSENZIALE | 0,6 | 0,25 | 83% |
 | 05-C9 | Zaino culturale a scuola e tariffa sociale della cultura | PIENA | 1,0 | 0,20 | 82% |
-| 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | PIENA | 1,0 | 0,10 | 74% |
+| 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | PIENA | 1,0 | 0,10 | 75% |
 | 01-P7 | Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla | PIENA | 1,0 | 0,30 | 69% |
 | 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | ESSENZIALE | 0,6 | 0,15 | 63% |
-| 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | ZERO | 0,2 | 0,00 | 58% |
+| 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | ZERO | 0,2 | 0,00 | 59% |
 | 06-C8 | Squadre infermieristiche autonome di quartiere per l'ADI | PIENA | 1,0 | 0,25 | 57% |
 | 05-C5 | Scuole aperte come presidi di comunita' | PIENA | 1,0 | 0,40 | 56% |
-| 03-P5 | Contratto agro-climatico | PILOTA | 0,1 | 0,05 | 55% |
-| 05-C10 | Rete nazionale per la ricerca applicata sul modello Fraunhofer | PILOTA | 0,1 | 0,05 | 46% |
+| 07-C6 | Scudo cyber territoriale | PILOTA | 0,2 | 0,03 | 52% |
+| 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | PIENA | 1,0 | 0,15 | 46% |
 | 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | ESSENZIALE | 0,6 | 0,14 | 45% |
 | 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 44% |
 | 05-C8 | Biblioteche di comunita' | ESSENZIALE | 0,5 | 0,14 | 43% |
-| 06-C9 | Equipe di benessere scolastico in rete con la Casa della Comunita' | PILOTA | 0,1 | 0,03 | 39% |
-| 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | ESSENZIALE | 0,7 | 0,05 | 38% |
-| 07-C6 | Scudo cyber territoriale | ESSENZIALE | 0,6 | 0,18 | 20% |
+| 06-C9 | Equipe di benessere scolastico in rete con la Casa della Comunita' | PILOTA | 0,1 | 0,03 | 38% |
+| 04-P1 | Patto di continuita' post-PNRR | PILOTA | 0,2 | 0,09 | 36% |
+| 04-P7 | Dal porto al treno: piu' merci sul ferro | PILOTA | 0,3 | 0,06 | 28% |
 | 08-P6 | Export resiliente | PILOTA | 0,1 | 0,03 | 12% |
 
 ## Coperture attivate
@@ -180,10 +180,10 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 Restano fuori perché, con le risorse disponibili, altre misure danno più valore per euro, oppure perché il loro effetto netto sui valori è negativo. *Rientrano se si trovano coperture aggiuntive.*
 
 - 02-C4 Reddito di inclusione universale (scelta in 0% delle combinazioni di pesi)
-- 04-P1 Patto di continuita' post-PNRR (scelta in 36% delle combinazioni di pesi)
+- 03-P5 Contratto agro-climatico (scelta in 55% delle combinazioni di pesi)
 - 04-P2 Casa a canone giusto (scelta in 1% delle combinazioni di pesi)
 - 04-P3 Prima il treno di chi viaggia ogni giorno: fondo TPL e abbonamento unico (scelta in 0% delle combinazioni di pesi)
-- 04-P7 Dal porto al treno: piu' merci sul ferro (scelta in 62% delle combinazioni di pesi)
+- 05-C10 Rete nazionale per la ricerca applicata sul modello Fraunhofer (scelta in 46% delle combinazioni di pesi)
 - 06-C2 Patto per il personale infermieristico e la medicina generale (scelta in 0% delle combinazioni di pesi)
 - 06-C4 Budget di cura per la non autosufficienza (scelta in 4% delle combinazioni di pesi)
 - 06-C5 Salute mentale al 5% (scelta in 0% delle combinazioni di pesi)
@@ -196,10 +196,10 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 | ACCISE_SALUTE | 0,85 | 0,97 |
 | COESIONE_2127 | 1,99 | 2,00 |
 | PENSIONI | 0,35 | 0,41 |
-| RIALLOCAZIONE | 4,25 | 2,69 |
+| RIALLOCAZIONE | 4,32 | 2,69 |
 | RIORDINO_BONUS | 1,21 | 0,21 |
-| SAD | 1,89 | 2,53 |
-| SPESE_FISCALI | 2,70 | 4,50 |
+| SAD | 1,94 | 2,53 |
+| SPESE_FISCALI | 2,58 | 4,50 |
 | TARIFFE | 0,32 | — |
 | TASSA_SOGGIORNO | 0,00 | 0,11 |
 

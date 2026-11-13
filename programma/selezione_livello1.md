@@ -82,20 +82,20 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | ESSENZIALE | 0,6 | 0,15 | 92% |
 | 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | PIENA | 1,0 | 0,02 | 90% |
 | 06-C9 | Equipe di benessere scolastico in rete con la Casa della Comunita' | PILOTA | 0,1 | 0,03 | 88% |
-| 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | ESSENZIALE | 0,6 | 0,01 | 87% |
+| 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | ESSENZIALE | 0,6 | 0,01 | 86% |
 | 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 86% |
 | 05-C1 | Nessuna esclusione: squadre di prossimita' contro la dispersione | ESSENZIALE | 0,6 | 0,13 | 84% |
-| 03-P3 | Ogni goccia conta: reti idriche e riuso | ESSENZIALE | 0,6 | 0,60 | 82% |
+| 03-P3 | Ogni goccia conta: reti idriche e riuso | ESSENZIALE | 0,6 | 0,60 | 83% |
 | 01-P4 | Crescere conviene: eliminare i gradini dimensionali | ZERO | 0,2 | 0,01 | 80% |
-| 05-C10 | Rete nazionale per la ricerca applicata sul modello Fraunhofer | PILOTA | 0,1 | 0,05 | 76% |
+| 05-C10 | Rete nazionale per la ricerca applicata sul modello Fraunhofer | PILOTA | 0,1 | 0,05 | 77% |
 | 02-C7 | Housing First dopo il PNRR | ESSENZIALE | 0,6 | 0,09 | 76% |
 | 09-C1 | Stato a vetro: infrastruttura aperta per l'analisi delle politiche | PIENA | 1,0 | 0,07 | 73% |
 | 01-P13 | Un solo credito per la ricerca: stabile, piu' forte per le piccole imprese, certificato prima di spendere | ZERO | 0,2 | 0,01 | 68% |
 | 09-C7 | Automazione dei processi ripetitivi con riallocazione garantita | PIENA | 1,0 | 0,20 | 67% |
 | 04-P9 | Consegne pulite in citta': zone a emissioni zero per le merci | ZERO | 0,5 | 0,00 | 59% |
 | 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | PIENA | 1,0 | 0,35 | 58% |
-| 01-P10 | Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti | PIENA | 1,0 | 0,10 | 58% |
-| 09-C5 | AI nella PA con le mani sul volante | ESSENZIALE | 0,6 | 0,08 | 50% |
+| 01-P10 | Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti | PIENA | 1,0 | 0,10 | 57% |
+| 09-C5 | AI nella PA con le mani sul volante | ESSENZIALE | 0,6 | 0,08 | 48% |
 
 ## Coperture attivate
 
@@ -147,7 +147,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | PE02 | Estensione del contributo PE01 alla fascia tra 80.000 e 100.000 € con aliquota 5%, stessi 3 anni e stessa base retributiva | PENSIONI | 0,03 | Persone in pensione con trattamenti tra 80.000 e 100.000 € lordi annui | 70% |
 | SAD04 | Accisa sui carburanti della navigazione marittima nazionale (EN.SI.05b), esclusi collegamenti in continuità territoriale e pesca | SAD | 0,03 | Armatori di linee nazionali non OSP, crociere e trasporto turistico nazionale | 96% |
 | SAD09 | Contributi agli impianti di risalita (AL.SD.17): metà riconvertita in un fondo per l'adattamento del turismo montano, metà risparmiata | SAD | 0,02 | Gestori di impianti di risalita e comprensori sciistici | 100% |
-| SAD10 | Gasolio e GPL da riscaldamento nelle zone svantaggiate (EN.SI.22a/b): agevolazione sostituita in 4 anni da un contributo per pompe di calore e biomassa efficiente, con salvaguardia per ISEE ≤15.000 € | SAD | 0,02 | Famiglie in zone montane, Sardegna e isole minori che si scaldano con gasolio o GPL | 76% |
+| SAD10 | Gasolio e GPL da riscaldamento nelle zone svantaggiate (EN.SI.22a/b): agevolazione sostituita in 4 anni da un contributo per pompe di calore e biomassa efficiente, con salvaguardia per ISEE ≤15.000 € | SAD | 0,02 | Famiglie in zone montane, Sardegna e isole minori che si scaldano con gasolio o GPL | 75% |
 | RP03 | Uffici di diretta collaborazione dei ministri, strutture di missione e strutture commissariali: tetto di spesa del 20% sotto il 2025 per indennità di diretta collaborazione, consulenze e collaborazioni esterne, personale comandato e funzionamento; organici massimi fissati e pubblicati. Non tocca le consulenze già in RA03 | RIALLOCAZIONE | 0,02 | Consulenze e collaborazioni esterne dei vertici politici; personale che perde l'indennità di diretta collaborazione | 100% |
 | RP05 | Sedi degli uffici civili dello Stato: standard di spazio per addetto con lavoro agile e postazioni condivise, sedi uniche territoriali (più uffici statali nello stesso immobile) e rilascio degli immobili in eccesso; taglio dei capitoli di utenze, pulizia, vigilanza e manutenzione ordinaria. Non tocca i canoni (già in RA02) né le sedi di scuole, università, musei, biblioteche, archivi, servizi sociali e sanitari | RIALLOCAZIONE | 0,01 | Fornitori di pulizia, vigilanza e manutenzione; personale che perde la postazione fissa | 100% |
 | RP02 | Dirigenza: riduzione dell'8-12% dei posti di funzione dirigenziale di seconda fascia nei ministeri e negli enti pubblici non economici nazionali, accorpando gli uffici piccoli; i posti si sopprimono solo quando si liberano. Limite più basso agli incarichi dirigenziali a esterni (art. 19 c. 6 d.lgs. 165/2001). Esclusi MiC, MIM, MUR e le strutture sanitarie, sociali e di soccorso | RIALLOCAZIONE | 0,01 | Personale funzionario che aspira a incarichi dirigenziali; incarichi dirigenziali esterni non rinnovati | 100% |
@@ -167,7 +167,7 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 - 04-P3 Prima il treno di chi viaggia ogni giorno: fondo TPL e abbonamento unico (scelta in 0% delle combinazioni di pesi)
 - 04-P7 Dal porto al treno: piu' merci sul ferro (scelta in 0% delle combinazioni di pesi)
 - 06-C2 Patto per il personale infermieristico e la medicina generale (scelta in 0% delle combinazioni di pesi)
-- 06-C4 Budget di cura per la non autosufficienza (scelta in 39% delle combinazioni di pesi)
+- 06-C4 Budget di cura per la non autosufficienza (scelta in 38% delle combinazioni di pesi)
 - 06-C5 Salute mentale al 5% (scelta in 0% delle combinazioni di pesi)
 - 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea (scelta in 28% delle combinazioni di pesi)
 - 07-C6 Scudo cyber territoriale (scelta in 21% delle combinazioni di pesi)

@@ -13,9 +13,9 @@ eccezioni_nucleo:
     data: '2026-11-13'
     motivo: "resta pilota finché il pilota non misura il tempo risparmiato; passa a essenziale (0,02 mld l'anno) nella prima legge di bilancio dopo una valutazione affidata a soggetti diversi da chi ha costruito lo strumento, se i tempi di istruttoria scendono di almeno un terzo senza più ricorsi o errori"
   02-C5:
-    stato: aperta
+    stato: dichiarata
     data: '2026-11-13'
-    motivo: "oggi solo nella versione a costo zero (collocamento mirato), senza il progetto di vita esigibile ovunque: la versione essenziale non trova risorse generali, ed è una scelta ancora da fare"
+    motivo: "pilota sui fondi europei fino al 2029: personale e budget di progetto nel quarto degli ambiti con meno servizi, collocamento mirato riformato ovunque; la versione essenziale costa 0,8 mld l'anno di risorse generali, oggi tutte impegnate; con una valutazione positiva nel 2029 passa a essenziale nella legge di bilancio 2030"
 programma:
   perche: "Un Paese dove chi nasce, studia, lavora e invecchia trova servizi che funzionano, e dove le scelte di oggi non pesano sui conti delle generazioni future."
   come: "Ogni misura pagata senza deficit: tagli di spesa nei ministeri, meno sussidi dannosi (tra cui il gasolio agevolato per autotrasporto e agricoltura) e agevolazioni inefficaci, accise su tabacco, alcol e bevande zuccherate, forfettario più alto tra 50.000 e 85.000 euro di ricavi e rivalutazione ridotta delle pensioni più alte dal 2030. Le misure incerte partono come sperimentazioni."
@@ -82,7 +82,7 @@ missioni:
       - gruppo: "Persone con disabilità grave"
         quanti: "circa 2,9 milioni di persone con limitazioni gravi"
         fonte: "ISTAT 2023, scheda 02-C5"
-        cosa_cambia: "Collocamento mirato con banca dati dei posti scoperti e sanzioni automatiche; il progetto di vita pieno è rinviato."
+        cosa_cambia: "Collocamento mirato con banca dati dei posti scoperti e sanzioni automatiche ovunque; progetto di vita con personale e budget dedicati nel quarto degli ambiti con meno servizi, in sperimentazione fino al 2029."
         proposte: [02-C5]
       - gruppo: "Persone anziane non autosufficienti e chi le assiste"
         quanti: "da stimare (circa 243.000 persone in lista d'attesa per una RSA, residenza sanitaria assistenziale, dato da verificare)"

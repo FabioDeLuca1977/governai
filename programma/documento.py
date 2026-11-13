@@ -60,9 +60,11 @@ def eccezioni_testo() -> str:
     """Misure del nucleo sotto la versione essenziale nell'intermedio, con lo stato della scelta (programma/schema.yaml)."""
     import yaml
     ecc = (yaml.safe_load((QUI / "schema.yaml").read_text(encoding="utf-8")) or {}).get("eccezioni_nucleo") or {}
-    parti = [f"{k} {'per eccezione dichiarata' if v.get('stato') == 'dichiarata' else 'per una scelta ancora aperta'}"
-             for k, v in ecc.items()]
-    return f" (sotto la versione essenziale: {', '.join(parti)})" if parti else ""
+    dich = [k for k, v in ecc.items() if v.get("stato") == "dichiarata"]
+    aperte = [k for k, v in ecc.items() if v.get("stato") != "dichiarata"]
+    parti = ([f"{' e '.join(dich)} per {'eccezione dichiarata' if len(dich) == 1 else 'eccezioni dichiarate'}"] if dich else []) + \
+            ([f"{' e '.join(aperte)} per {'una scelta ancora aperta' if len(aperte) == 1 else 'scelte ancora aperte'}"] if aperte else [])
+    return f" (sotto la versione essenziale: {'; '.join(parti)})" if parti else ""
 
 
 def blocchi() -> dict[str, str]:
@@ -93,7 +95,7 @@ def blocchi() -> dict[str, str]:
             "nei ministeri. Per scelta politica restano tutte le sette misure su ricerca, innovazione e logistica verde "
             "(alcune in versione ridotta) e la squadra per la produttività pubblica con l'AI (09-C9) in versione essenziale; "
             "dal 12 novembre 2026 entrano, senza tasse in più oltre quelle già nel programma, le Case della Comunità (06-C3), 500 squadre infermieristiche "
-            "di quartiere (06-C8) e la riqualificazione degli amministrativi della sanità (06-C10). Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni "
+            "di quartiere (06-C8) e la riqualificazione degli amministrativi della sanità (06-C10); dal 13 novembre il progetto di vita per le persone con disabilità (02-C5) parte come pilota sui fondi europei. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni "
             "fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni "
             "(`programma/selezione_intermedio.md`)."]
           if (QUI / "selezione_intermedio.csv").exists() else []),

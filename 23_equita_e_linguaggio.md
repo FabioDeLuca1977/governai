@@ -1,12 +1,13 @@
 # GovernAI — Equità e linguaggio inclusivo
 
-*Capitolo del programma, scritto il 9 novembre 2026 e aggiornato il 12 novembre 2026 dopo le scelte sulla sanità e sui bandi. Scenario di riferimento: intermedio (`programma/selezione_intermedio.md`), 9,0 mld l'anno. Tutti i numeri vengono da file del repository, con la fonte indicata. Dove un dato manca, lo scriviamo: "dato da acquisire".*
+*Capitolo del programma, scritto il 9 novembre 2026 e aggiornato il 12 e il 13 novembre 2026 dopo le scelte sulla sanità, sui bandi e sulla disabilità. Scenario di riferimento: intermedio (`programma/selezione_intermedio.md`), 9,2 mld l'anno. Tutti i numeri vengono da file del repository, con la fonte indicata. Dove un dato manca, lo scriviamo: "dato da acquisire".*
 
 ## In breve
 
 - L'equità per GovernAI è un **criterio di valutazione**: ogni proposta deve dire chi guadagna e chi perde, per reddito, territorio, genere, età, disabilità e origine.
 - In Italia i divari più grandi sono tra **territori**, tra **chi ha un lavoro stabile e chi no**, tra **famiglie italiane e straniere** e tra **persone con e senza disabilità**.
 - Il programma intermedio interviene su quasi tutti i divari, ma spesso in **versione ridotta o sperimentale**. Lo diciamo in modo esplicito.
+- Dal 13 novembre il **progetto di vita per le persone con disabilità** (02-C5) passa dalla sola riforma del collocamento a un pilota con personale e budget nel quarto degli ambiti con meno servizi, pagato con fondi europei fino al 2029 e senza togliere risorse ad altre misure.
 - Dal 12 novembre entrano le **Case della Comunità** e le **squadre infermieristiche di quartiere**, che aiutano soprattutto chi vive lontano dai servizi e chi è anziano o fragile. Il prezzo è un gradino in meno su due misure di scuola con forte effetto sull'equità (ITS e scuole aperte): **l'equità non guadagna in assoluto, si sposta dalla scuola alla salute**.
 - Circa il 30% del gettito delle coperture (2,3 mld su 7,4) viene da prelievi **regressivi**, cioè che pesano di più su chi ha meno. Alcuni sono compensati, altri no. La scelta di non aggiungere tasse non ha cambiato questa quota.
 - Non abbiamo ancora una **microsimulazione per decili di reddito**. Senza, nessun giudizio sull'equità complessiva è definitivo.
@@ -164,7 +165,7 @@ Legenda delle versioni (dal file `programma/selezione_intermedio.md`):
 | **Generazioni** | 01-P1 Bilancio generazionale; 02-C3 Patto previdenziale | ZERO | Trasparenza su chi paga e quando |
 | | 05-C4 Più persone laureate e ITS | ESSENZIALE | Scesa da piena il 12 novembre: borsa garantita resta, crescono meno i posti ITS e le residenze |
 | | 05-C2 Conto personale di competenze | ESSENZIALE | Dote di 900 euro per adulti |
-| **Disabilità** | 02-C5 Progetto di vita e lavoro | ZERO | Collocamento mirato con banca dati e sanzioni; il progetto di vita pieno è rinviato |
+| **Disabilità** | 02-C5 Progetto di vita e lavoro | PILOTA (dal 13 novembre) | Collocamento mirato con banca dati e sanzioni ovunque; personale e budget di progetto solo nel quarto degli ambiti con meno servizi, fino al 2029: negli altri il progetto di vita resta senza risorse aggiuntive |
 | **Origine** | 07-C3 Governance dei flussi fondata sui dati | ESSENZIALE | Più orientata a ingressi e rimpatri che all'inclusione |
 | | 05-C1 Mediatori nelle scuole fragili | PIENA | Effetto indiretto |
 | | Misura specifica per l'inclusione lavorativa delle persone straniere | assente | **Lacuna del programma** |
@@ -373,7 +374,7 @@ Le regole che seguono hanno un limite chiaro: chiedono **rispetto e chiarezza**,
 - **Punteggi EQU qualitativi**: li dà un panel con una rubrica comune. Sono utili, ma non sono misure.
 - **Tagli di spesa non ancora individuati** (RA13): l'effetto sull'equità dipende da dove si taglia.
 - **Lacune del programma**: inclusione lavorativa delle persone straniere, casa, salute mentale, nuovo personale infermieristico, progetto di vita delle persone con disabilità.
-- **Fondi che scadono**: circa 1,7 mld di spesa sono pagati con i fondi europei di coesione 2021-2027, ammessi fino al 2029; molte di queste misure riguardano territori e persone più fragili, e andranno rifinanziate.
+- **Fondi che scadono**: circa 1,9 mld di spesa sono pagati con i fondi europei di coesione 2021-2027, ammessi fino al 2029; molte di queste misure riguardano territori e persone più fragili, e andranno rifinanziate.
 
 ### Scelte politiche che questo capitolo non prende
 
