@@ -443,7 +443,7 @@
   }
 
   // ---------- Programma ----------
-  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
+  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["pronto", "Pronto domani", "#/programma/pronto"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
 
   function elenco(params) {
     const sc = scenario(params.get("scenario") || RIF_ID);
@@ -808,6 +808,26 @@
       ${sel ? `<h2 style="margin-top:24px">Altri profili</h2>` : ""}<div class="griglia g2 g4-d">${P.filter((p) => !sel || p.id !== sel.id).map(scheda).join("")}</div>
       <p class="nota" style="margin-top:16px">Testi scritti da un agente AI a partire dai dati del programma (<code>programma/profili.yaml</code>); stato, costi e tempi sono letti dal programma di riferimento e si aggiornano da soli. Sono profili tipo: per sapere quanto cambia in euro per ciascuna famiglia serve una microsimulazione, che non abbiamo ancora.</p>
       <div class="azioni" style="margin-top:24px"><a class="btn primario" href="#/programma/una-pagina">Il programma in una pagina ${icona("arrow-right")}</a>${azioniCondividi()}</div>`;
+  }
+
+  // Pacchetto "pronto domani": testi in formato parlamentare per misure a costo zero o quasi (cartella pacchetto/)
+  function prontoDomani(params) {
+    const P = D.pacchetto || [];
+    if (!P.length) return `${schedeProgramma("pronto")}${vuoto("Il pacchetto non è ancora disponibile.")}`;
+    const sel = P.find((x) => x.id === params.get("misura"));
+    const breve = (t) => { const m = t.match(/##+\s*1\.?\s*Scheda in breve[^\n]*\n([\s\S]*?)(?=\n##+\s)/i); return m ? m[1].trim() : ""; };
+    if (sel) {
+      const pr = proposta(sel.id) || {};
+      return `${schedeProgramma("pronto")}
+        <p><a href="#/programma/pronto">${icona("arrow-left")}Tutto il pacchetto</a></p>
+        <div class="avviso" style="margin:12px 0"><div class="avviso-titolo">${icona("triangle-alert")}Testo preparato da agenti AI</div><p>Va verificato da una persona esperta prima di essere presentato. Il testo sorgente è <code>${esc(sel.file)}</code>${D.repo ? `, ${ext(D.repo + "/blob/main/" + sel.file, "su GitHub")}` : ""}.</p></div>
+        <div class="md documento">${md(sel.testo)}</div>
+        <div class="azioni" style="margin-top:24px"><a class="btn" href="${linkP(sel.id)}">Scheda della misura ${esc(sel.id)}</a>${azioniCondividi()}</div>`;
+    }
+    return `${schedeProgramma("pronto")}
+      <p class="risposta">Testi che una parlamentare, un parlamentare o un ufficio legislativo potrebbe presentare domani: misure a costo zero o quasi, già passate dal controllo giuridico preventivo. Per ognuna: scheda in breve, relazione illustrativa, articolato, relazione tecnica, analisi tecnico-normativa e d'impatto, note per chi presenta.</p>
+      <div class="griglia g2-d">${P.map((x) => { const pr = proposta(x.id) || {}; const m = rif.misure[x.id]; return `<div class="card"><p class="etichetta"><a href="#/programma/pronto?misura=${encodeURIComponent(x.id)}">${icona("file-text")}${esc(x.id)} · ${esc(tit(pr.titolo || x.id))}</a></p><p class="nota">${m ? `${esc(m.variante.toLowerCase())}${m.costo > 0 ? `, ${euro(m.costo)} l'anno` : ", costo zero"}` : ""}</p><div class="md">${md(breve(x.testo).split("\n").slice(0, 4).join("\n"))}</div><p><a class="btn s" href="#/programma/pronto?misura=${encodeURIComponent(x.id)}">Leggi il testo completo ${icona("arrow-right")}</a></p></div>`; }).join("")}</div>
+      <p class="nota" style="margin-top:16px">Testi preparati da agenti AI il 13 novembre 2026 a partire dalle schede e dai controlli giuridici del programma; non sono stati rivisti da una persona esperta.</p>`;
   }
 
   function equita() {
@@ -1212,6 +1232,7 @@
       else if (b === "equita") { html = equita(); titolo = "Equità e linguaggio inclusivo"; }
       else if (b === "una-pagina") { html = unaPagina(params); titolo = "Il programma in una pagina"; }
       else if (b === "per-me") { html = perMe(params); titolo = "Che cosa cambia per me"; }
+      else if (b === "pronto") { html = prontoDomani(params); titolo = "Pronto domani"; }
       else { html = elenco(params); titolo = "Programma"; }
     } else if (a === "governo") {
       if (b === "sedute" && c) { html = schedaSeduta(c); titolo = "Seduta " + del_(c); }

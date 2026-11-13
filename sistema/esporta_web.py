@@ -397,6 +397,9 @@ def main() -> int:
         "analisi": analisi(),
         "obiettivi": obiettivi(),
         "schema": schema(),
+        "pacchetto": [{"id": f.stem.split("_")[0], "file": f"pacchetto/{f.name}", "testo": leggi(f)}
+                      for f in sorted((RADICE / "pacchetto").glob("*.md")) if f.name != "README.md"]
+                     if (RADICE / "pacchetto").exists() else [],
         "profili": (yaml.safe_load(leggi(RADICE / "programma" / "profili.yaml")) or {}).get("profili", [])
                    if (RADICE / "programma" / "profili.yaml").exists() else [],
         "mappa": mappa(),
