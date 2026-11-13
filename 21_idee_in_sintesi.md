@@ -8,8 +8,8 @@ Uno Stato che funziona e conti onesti, per investire su famiglie, giovani e terr
 
 ## I numeri
 
-- **76 proposte** in 9 aree, valutate su **10 valori** dichiarati in una Carta.
-- **22 proposte formano il nucleo robusto**: restano tra le prioritarie con quasi ogni combinazione di pesi tra i valori, cioè con sensibilità politiche diverse.
+- **78 proposte** in 9 aree, valutate su **10 valori** dichiarati in una Carta.
+- **23 proposte formano il nucleo robusto**: restano tra le prioritarie con quasi ogni combinazione di pesi tra i valori, cioè con sensibilità politiche diverse.
 - Tre versioni del programma, **tutte senza deficit**:
 
 <!-- auto:totali -->

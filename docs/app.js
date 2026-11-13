@@ -301,12 +301,18 @@
     if (!(c.anni || []).length) return "";
     const pct = (x) => `${Math.round(x * 100)}%`;
     const nome = (id) => (D.proposte.find((p) => p.id === id) || {}).titolo || id;
-    const lista = Object.entries(c.pieno_dal || {}).sort((a, b) => a[1] - b[1] || a[0].localeCompare(b[0]));
     const gruppi = {};
-    lista.forEach(([id, a]) => { (gruppi[a] = gruppi[a] || []).push(id); });
-    const tab = `<div class="tabella-box"><table class="tabella"><thead><tr><th>Anno</th><th>Spesa prevista</th><th>Avviata</th><th>di cui ponte fondi UE</th><th>Rinviata</th><th>Nucleo, sperimentazioni, 04-P8 e 06-C8</th><th>Altre misure</th></tr></thead><tbody>${c.anni.map((x) => `<tr><td>${x.anno}</td><td>${nf(x.prevista, 2)}</td><td>${nf(x.avviata, 2)}</td><td>${nf(x.ponte_ue, 2)}</td><td>${nf(x.rinviata, 2)}</td><td>${pct(x.quota_nucleo)}</td><td>${pct(x.quota_altre)}</td></tr>`).join("")}</tbody></table></div>`;
-    return `<p><strong>Come si chiude: un calendario di avvio</strong> (scelta del 13 novembre 2026). Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno, con l'ipotesi prudente, più un ponte con i fondi europei 2021-2027 ancora liberi nel 2027-2029 (${nf(c.ponte_totale, 1)} mld in tutto). Partono prima le misure del nucleo robusto, le sperimentazioni, la compensazione dell'autotrasporto per il taglio del gasolio agevolato (04-P8) e le squadre infermieristiche di quartiere (06-C8); le altre partono più tardi, tutte nello stesso modo. Negli anni di passaggio slittano in tutto ${nf(c.rinviata_totale, 1)} mld di spesa: nessun anno chiude in deficit.</p>
-      <details><summary>Calendario anno per anno e misure che partono più tardi</summary>${tab}${Object.entries(gruppi).map(([a, ids]) => `<p><strong>A pieno dal ${a}:</strong> ${ids.map((id) => `<a href="#/programma/${encodeURIComponent(id)}">${esc(id)}</a> ${esc(nome(id))}`).join("; ")}</p>`).join("")}</details>`;
+    Object.entries(c.pieno_dal || {}).sort((a, b) => a[1] - b[1] || a[0].localeCompare(b[0])).forEach(([id, a]) => { (gruppi[a] = gruppi[a] || []).push(id); });
+    const a1 = c.anni[0] || {}, a2 = c.anni[1] || {};
+    const tab = `<div class="tabella-box"><table class="tabella"><thead><tr><th>Anno</th><th>Spesa prevista</th><th>Avviata</th><th>Rinviata</th><th>di cui nucleo</th><th>Riforme a costo quasi zero</th><th>Nucleo, sperimentazioni, 04-P8 e 06-C8</th><th>Altre misure</th></tr></thead><tbody>${c.anni.map((x) => `<tr><td>${x.anno}</td><td>${nf(x.prevista, 2)}</td><td>${nf(x.avviata, 2)}</td><td>${nf(x.rinviata, 2)}</td><td>${nf(x.rinviata_nucleo, 2)}</td><td>${pct(x.quota_riforme)}</td><td>${pct(x.quota_nucleo)}</td><td>${pct(x.quota_altre)}</td></tr>`).join("")}</tbody></table></div>`;
+    return `<p><strong>Come si chiude: un calendario di avvio</strong> (scelte del 13 novembre 2026). Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno, con l'ipotesi prudente, tenendo da parte i servizi per smettere di fumare dal 2028 e la riserva per il dopo 2029 dal 2030. I fondi europei 2021-2027 pagano solo spese una tantum, non spesa corrente.</p>
+      <ul>
+        <li><strong>Partono subito, per intero, le ${(c.riforme_subito || []).length} riforme a costo quasi zero</strong> (al massimo 20 milioni l'anno ciascuna).</li>
+        <li><strong>Il ${a1.anno} è un anno di preparazione:</strong> quasi tutte le coperture rendono dal ${a2.anno}, quindi il nucleo robusto parte al ${pct(a1.quota_nucleo)} e arriva al ${pct(a2.quota_nucleo)} nel ${a2.anno}; è a pieno dal ${c.nucleo_pieno || "—"}.</li>
+        <li><strong>Le altre misure partono dopo</strong>, tutte nello stesso modo.</li>
+        <li>Negli anni di passaggio slittano ${nf(c.rinviata_totale, 1)} mld di spesa, <strong>di cui ${nf(c.rinviata_nucleo, 1)} del nucleo</strong>: nessun anno chiude in deficit, ma il programma arriva a regime più tardi.</li>
+      </ul>
+      <details><summary>Calendario anno per anno e misure che partono più tardi</summary>${tab}${Object.entries(gruppi).map(([a, ids]) => `<p><strong>A pieno dal ${a}:</strong> ${ids.map((id) => `<a href="#/programma/${encodeURIComponent(id)}">${esc(id)}</a> ${esc(nome(id))}${c.inizio && c.inizio[id] ? ` (comincia nel ${c.inizio[id]})` : ""}`).join("; ")}</p>`).join("")}</details>`;
   }
 
   // Conti anno per anno 2027-2035 (programma/annuale.py): il vincolo "senza deficit" vale a regime, qui si vede ogni anno
@@ -778,7 +784,8 @@
     const voceG = (g) => {
       const pr = proposta(g.proposta) || {};
       const m = rif.misure[g.proposta];
-      const quando = m && cal[g.proposta] ? ` · comincia nel 2033, a pieno dal ${cal[g.proposta]}` : "";
+      const ini = ((rif.calendario || {}).inizio || {})[g.proposta];
+      const quando = m && cal[g.proposta] ? ` · comincia nel ${ini || "—"}, a pieno dal ${cal[g.proposta]}` : "";
       const stato = m ? `${LIV[m.variante] || esc(m.variante.toLowerCase())}${m.costo > 0 ? `, ${euro(m.costo)} l'anno` : ""}${quando}` : "non è nel programma di riferimento";
       return `<li><p><a href="${linkP(g.proposta)}"><strong>${esc(tit(pr.titolo || g.proposta))}</strong></a> <span class="nota">(${esc(g.proposta)} · ${stato})</span></p><p>${esc(g.testo)}</p></li>`;
     };

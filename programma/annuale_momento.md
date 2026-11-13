@@ -21,20 +21,20 @@
 - Dal 2030 vanno rifinanziati 0,53 mld l'anno di spesa oggi pagata con la coesione 2021-2027.
 - Alcuni fondi vincolati non bastano in qualche anno: colonna `scoperto_vincolati` nel calcolo.
 
-## Calendario di avvio (scelta del 13 novembre 2026)
+## Calendario di avvio (scelte del 13 novembre 2026)
 
-Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno (ipotesi prudente) più un ponte con i fondi europei di coesione 2021-2027 ancora liberi nel 2027-2029. Prima il nucleo robusto, le sperimentazioni, la compensazione dell'autotrasporto (04-P8) e le squadre di quartiere (06-C8), poi le altre misure in proporzione alla spesa prevista.
+Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno (ipotesi prudente), al netto dei servizi per smettere di fumare (0,04 mld dal 2028) e della riserva per il dopo 2029 (0,05 mld dal 2030). Partono subito le riforme a costo quasi zero; poi il nucleo robusto, le sperimentazioni, 04-P8 e 06-C8; poi le altre misure. I fondi europei 2021-2027 pagano solo spese una tantum, non spesa corrente.
 
-| Anno | Spesa prevista sulle risorse generali | Spesa avviata | di cui ponte fondi UE | Rinviata | Quota avviata: primo gruppo | Quota avviata: altre misure |
-|---|---|---|---|---|---|---|
-| 2027 | 4,62 | 0,82 | 0,68 | 3,80 | 24% | 0% |
-| 2028 | 8,31 | 5,14 | 0,00 | 3,17 | 85% | 0% |
-| 2029 | 10,48 | 8,88 | 0,00 | 1,60 | 100% | 38% |
-| 2030 | 11,27 | 10,00 | 0,00 | 1,27 | 100% | 52% |
-| 2031 | 11,19 | 10,52 | 0,00 | 0,67 | 100% | 74% |
-| 2032 | 11,19 | 10,75 | 0,00 | 0,44 | 100% | 83% |
-| 2033 | 11,19 | 10,90 | 0,00 | 0,29 | 100% | 89% |
-| 2034 | 11,19 | 11,05 | 0,00 | 0,14 | 100% | 95% |
-| 2035 | 11,19 | 11,19 | 0,00 | 0,00 | 100% | 100% |
+| Anno | Spesa prevista sulle risorse generali | Spesa avviata | Rinviata | di cui nucleo | Riforme a costo quasi zero | Nucleo e primo gruppo | Altre misure |
+|---|---|---|---|---|---|---|---|
+| 2027 | 4,62 | 0,14 | 4,48 | 3,13 | 100% | 2% | 0% |
+| 2028 | 8,31 | 5,10 | 3,21 | 0,98 | 100% | 83% | 0% |
+| 2029 | 10,48 | 8,84 | 1,64 | 0,00 | 100% | 100% | 34% |
+| 2030 | 11,27 | 9,91 | 1,36 | 0,00 | 100% | 100% | 47% |
+| 2031 | 11,19 | 10,43 | 0,76 | 0,00 | 100% | 100% | 69% |
+| 2032 | 11,19 | 10,66 | 0,53 | 0,00 | 100% | 100% | 79% |
+| 2033 | 11,19 | 10,81 | 0,38 | 0,00 | 100% | 100% | 85% |
+| 2034 | 11,19 | 10,96 | 0,23 | 0,00 | 100% | 100% | 91% |
+| 2035 | 11,19 | 11,11 | 0,08 | 0,00 | 100% | 100% | 97% |
 
-In tutto: 0,68 mld di ponte con i fondi europei e 11,38 mld di spesa rinviata negli anni di passaggio.
+In tutto slittano 12,67 mld di spesa negli anni di passaggio, di cui 4,11 del nucleo robusto; sulla coesione slittano 0,98 mld di spese una tantum oltre la capienza.

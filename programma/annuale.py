@@ -137,45 +137,65 @@ def conti(etichetta: str = "intermedio", anticipo: int = 0) -> pd.DataFrame | No
 
 
 def piano(etichetta: str = "intermedio") -> dict | None:
-    """Calendario di avvio (scelta del 13 novembre 2026): ogni anno la spesa sulle risorse generali non supera
-    il gettito dell'anno (ipotesi prudente) più un ponte con i fondi europei di coesione 2021-2027 ancora liberi
-    nel 2027-2029 (fino alla capienza annua del registro). Le risorse vanno prima al nucleo robusto, poi alle
-    altre misure, in proporzione alla spesa prevista: chi parte più tardi lo fa per lo stesso motivo. Le sperimentazioni
-    (varianti PILOTA) stanno nel primo gruppo, perché devono produrre la valutazione in tempo per le decisioni del 2029."""
+    """Calendario di avvio (scelte del 13 novembre 2026, corrette dopo il secondo giro di revisione).
+
+    Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno (ipotesi prudente), al netto di:
+    - 0,04 mld per i servizi gratuiti per smettere di fumare, dal primo anno dell'accisa sul tabacco (2028);
+    - 0,05 mld di riserva per le misure pagate con i fondi europei dopo il 2029, accantonati dal 2030.
+    Ordine di avvio, in tre gruppi:
+    1. riforme a costo quasi zero (al massimo 20 milioni l'anno sulle risorse generali): partono subito per intero;
+    2. nucleo robusto (Carta, regola 7), sperimentazioni (devono produrre la valutazione entro il 2029), compensazione
+       dell'autotrasporto per il taglio del gasolio agevolato (04-P8) e squadre infermieristiche di quartiere (06-C8);
+    3. le altre misure, tutte nella stessa proporzione.
+    I fondi europei 2021-2027 non fanno da ponte per la spesa corrente: possono pagare solo spese una tantum, già
+    contate sulla coesione. Se in un anno la spesa sulla coesione supera la capienza del registro, l'eccedenza slitta."""
     t = conti(etichetta)
     if t is None:
         return None
     esito = pd.read_csv(RADICE / "motore" / "esito_proposte.csv")
     sel = pd.read_csv(QUI / f"selezione_{etichetta}.csv")
     piloti = set(sel[(sel.tipo == "variante") & (sel.scelta == 1) & (sel.variante.str.upper() == "PILOTA")].proposta_id)
-    # prima il nucleo robusto (Carta, regola 7) e le sperimentazioni, che devono produrre la valutazione entro il 2029
-    # e, per scelta del 13 novembre 2026, la compensazione dell'autotrasporto per il taglio del gasolio agevolato (04-P8)
-    # e le squadre infermieristiche di quartiere (06-C8), che fanno rendere le Case della Comunità
+    nucleo_carta = set(esito.proposta_id[esito.classe == "robusta"])
     PRIMA = {"04-P8", "06-C8"}
-    nucleo = set(esito.proposta_id[esito.classe == "robusta"]) | piloti | PRIMA
+    gruppo2 = nucleo_carta | piloti | PRIMA
+    massimo = {}
+    for y in ANNI:
+        for p, x in t.attrs["gen_mis"][y].items():
+            massimo[p] = max(massimo.get(p, 0.0), x)
+    gruppo1 = {p for p, x in massimo.items() if x <= 0.02 + 1e-9}
+    gruppo2 -= gruppo1
     reg = pd.read_csv(RADICE / "registro" / "fondi.csv").set_index("fondo_id")
     cap_coe = float(reg.loc[COESIONE, "capienza_min"]) if COESIONE in reg.index else 0.0
     anni, quote = [], {}
     for r in t.itertuples():
         mis = t.attrs["gen_mis"][r.anno]
-        ponte = max(0.0, cap_coe - r.coesione) if r.anno <= 2029 else 0.0
-        disponibile = r.gettito_generali + ponte
-        sp_n = sum(x for p, x in mis.items() if p in nucleo)
-        sp_a = sum(x for p, x in mis.items() if p not in nucleo)
-        f_n = min(1.0, disponibile / sp_n) if sp_n > 0 else 1.0
-        f_a = min(1.0, max(0.0, disponibile - sp_n * f_n) / sp_a) if sp_a > 0 else 1.0
-        avviata = sp_n * f_n + sp_a * f_a
-        ponte_usato = max(0.0, avviata - r.gettito_generali)
-        anni.append({"anno": r.anno, "prevista": round(sp_n + sp_a, 2), "avviata": round(avviata, 2),
-                     "gettito": r.gettito_generali, "ponte_ue": round(ponte_usato, 2),
-                     "quota_nucleo": round(f_n, 2), "quota_altre": round(f_a, 2),
-                     "rinviata": round(sp_n + sp_a - avviata, 2)})
+        fumo = 0.04 if r.anno >= 2028 else 0.0
+        riserva = 0.05 if r.anno >= 2030 else 0.0
+        disp = max(0.0, r.gettito_generali - fumo - riserva)
+        fatt = {}
+        for k, g in (("g1", gruppo1), ("g2", gruppo2), ("g3", None)):
+            dom = sum(x for p, x in mis.items() if (p in g if g is not None else p not in gruppo1 | gruppo2))
+            f = min(1.0, disp / dom) if dom > 0 else 1.0
+            fatt[k] = f
+            disp -= dom * f
+        gr = lambda p: "g1" if p in gruppo1 else ("g2" if p in gruppo2 else "g3")
+        avviata = sum(x * fatt[gr(p)] for p, x in mis.items())
+        prevista = sum(mis.values())
+        coe_extra = max(0.0, r.coesione - cap_coe) if r.anno <= 2029 else 0.0
+        rinv_nucleo = sum(x * (1 - fatt[gr(p)]) for p, x in mis.items() if p in nucleo_carta)
+        anni.append({"anno": r.anno, "prevista": round(prevista, 2), "avviata": round(avviata, 2),
+                     "gettito": r.gettito_generali, "fumo": fumo, "riserva": riserva, "ponte_ue": 0.0,
+                     "quota_riforme": round(fatt["g1"], 2), "quota_nucleo": round(fatt["g2"], 2), "quota_altre": round(fatt["g3"], 2),
+                     "rinviata": round(prevista - avviata, 2), "rinviata_nucleo": round(rinv_nucleo, 2),
+                     "coesione_rinviata": round(coe_extra, 2)})
         for p, x in mis.items():
-            q = quote.setdefault(p, {"nucleo": p in nucleo, "anni": {}})
-            q["anni"][r.anno] = round(f_n if p in nucleo else f_a, 2)
+            q = quote.setdefault(p, {"nucleo": p in gruppo1 | gruppo2, "gruppo": gr(p), "anni": {}})
+            q["anni"][r.anno] = round(fatt[gr(p)], 2)
             q["spesa_max"] = round(max(q.get("spesa_max", 0.0), x), 3)
-    return {"anni": anni, "misure": quote, "ponte_totale": round(sum(a["ponte_ue"] for a in anni), 2),
-            "rinviata_totale": round(sum(a["rinviata"] for a in anni), 2)}
+    tot = lambda k: round(sum(a[k] for a in anni), 2)
+    return {"anni": anni, "misure": quote, "ponte_totale": 0.0, "rinviata_totale": tot("rinviata"),
+            "rinviata_nucleo": tot("rinviata_nucleo"), "coesione_rinviata": tot("coesione_rinviata"),
+            "riforme_subito": sorted(gruppo1)}
 
 
 def num(x: float, d: int = 2) -> str:
@@ -212,18 +232,18 @@ def rapporto(etichetta: str, t: pd.DataFrame, tf: pd.DataFrame) -> str:
 def calendario_md(pi: dict | None) -> str:
     if not pi:
         return ""
-    righe = ["", "## Calendario di avvio (scelta del 13 novembre 2026)", "",
-             "Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno (ipotesi prudente) più un ponte "
-             "con i fondi europei di coesione 2021-2027 ancora liberi nel 2027-2029. Prima il nucleo robusto, le "
-             "sperimentazioni, la compensazione dell'autotrasporto (04-P8) e le squadre di quartiere (06-C8), poi le altre misure in proporzione alla spesa prevista.", "",
-             "| Anno | Spesa prevista sulle risorse generali | Spesa avviata | di cui ponte fondi UE | Rinviata | "
-             "Quota avviata: primo gruppo | Quota avviata: altre misure |",
-             "|---|---|---|---|---|---|---|"]
+    righe = ["", "## Calendario di avvio (scelte del 13 novembre 2026)", "",
+             "Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno (ipotesi prudente), al netto dei servizi "
+             "per smettere di fumare (0,04 mld dal 2028) e della riserva per il dopo 2029 (0,05 mld dal 2030). Partono subito le "
+             "riforme a costo quasi zero; poi il nucleo robusto, le sperimentazioni, 04-P8 e 06-C8; poi le altre misure. I fondi "
+             "europei 2021-2027 pagano solo spese una tantum, non spesa corrente.", "",
+             "| Anno | Spesa prevista sulle risorse generali | Spesa avviata | Rinviata | di cui nucleo | Riforme a costo quasi zero | Nucleo e primo gruppo | Altre misure |",
+             "|---|---|---|---|---|---|---|---|"]
     for a in pi["anni"]:
-        righe.append(f"| {a['anno']} | {num(a['prevista'])} | {num(a['avviata'])} | {num(a['ponte_ue'])} | "
-                     f"{num(a['rinviata'])} | {a['quota_nucleo']:.0%} | {a['quota_altre']:.0%} |")
-    righe += ["", f"In tutto: {num(pi['ponte_totale'])} mld di ponte con i fondi europei e "
-                  f"{num(pi['rinviata_totale'])} mld di spesa rinviata negli anni di passaggio.", ""]
+        righe.append(f"| {a['anno']} | {num(a['prevista'])} | {num(a['avviata'])} | {num(a['rinviata'])} | {num(a['rinviata_nucleo'])} | "
+                     f"{a['quota_riforme']:.0%} | {a['quota_nucleo']:.0%} | {a['quota_altre']:.0%} |")
+    righe += ["", f"In tutto slittano {num(pi['rinviata_totale'])} mld di spesa negli anni di passaggio, di cui {num(pi['rinviata_nucleo'])} "
+                  f"del nucleo robusto; sulla coesione slittano {num(pi['coesione_rinviata'])} mld di spese una tantum oltre la capienza.", ""]
     return "\n".join(righe)
 
 

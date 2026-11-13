@@ -3,8 +3,8 @@
 # programma/varianti/*.csv, programma/schede/*.md, programma/coperture_menu.csv, programma/coesione_dopo_2029.csv,
 # 20_programma_governai.md, 22_programma_in_una_pagina.md, 23_equita_e_linguaggio.md. Stime GovernAI non certificate.
 # Calendario di avvio (annuale_intermedio.md): il "primo gruppo" (nucleo robusto, sperimentazioni, 04-P8, 06-C8) parte nel 2027
-# al 43% della spesa prevista, 74% nel 2028, 88% nel 2029, 100% dal 2033; le altre misure sulle risorse generali partono nel 2033
-# (19%), 77% nel 2034, 100% nel 2035. Le misure pagate solo con fondi europei 2021-2027 partono nel 2027 e durano fino al 2029.
+# al 4% della spesa prevista (il 2027 è un anno di preparazione), 69% nel 2028, 87% nel 2029, 100% dal 2034; le riforme a costo
+# quasi zero partono subito; le altre misure sulle risorse generali partono nel 2034 e sono a pieno nel 2035. Le misure pagate solo con fondi europei 2021-2027 partono nel 2027 e durano fino al 2029.
 profili:
   - id: famiglia-figli-piccoli
     titolo: "Famiglia con una bambina o un bambino sotto i 3 anni"
@@ -28,7 +28,7 @@ profili:
     da_sapere:
       - "Il nido gratis e i posti in più valgono solo negli ambiti sotto 33 posti ogni 100. Dove l'offerta è già più alta non cambia nulla."
       - "La versione piena non c'è: 33 posti ovunque, nido gratis fino a 30.000 euro di ISEE e tre mesi di congedo per il papà. Si deciderà dopo la valutazione del 2029."
-      - "Calendario di avvio: il nido è nel primo gruppo. Nel 2027 parte il 43% della spesa prevista, nel 2028 il 74%, tutta dal 2033. I posti possono quindi arrivare più piano."
+      - "Calendario di avvio: il nido è nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 69% della spesa prevista, tutta dal 2034. I posti possono quindi arrivare più piano."
       - "Il congedo si perde se non viene usato entro 12 mesi dalla nascita."
       - "La misura non promette più nascite: gli obiettivi sono i posti al nido e il lavoro delle donne."
 
@@ -69,7 +69,7 @@ profili:
       - "Squadre, 250 euro e scuole aperte valgono solo per le scuole più svantaggiate. Le altre 1.500 scuole che la versione piena avrebbe aperto restano fuori."
       - "Gli ITS raddoppiano invece di triplicare e le residenze sono meno di quelle della versione piena."
       - "Biblioteche, zaino culturale e benessere psicologico sono solo prove in 3-4 Regioni. Si estendono solo se la valutazione è positiva."
-      - "Calendario di avvio: queste misure sono nel primo gruppo. Nel 2027 parte il 43% della spesa prevista, nel 2028 il 74%, tutta dal 2033."
+      - "Calendario di avvio: queste misure sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 69% della spesa prevista, tutta dal 2034."
       - "Una parte delle squadre contro l'abbandono è pagata con fondi europei che finiscono nel 2029. Dopo serve il nuovo ciclo europeo 2028-2034: oggi non è garantito."
 
   - id: giovani-lavoro
@@ -131,7 +131,7 @@ profili:
     da_sapere:
       - "Il budget di cura per tutte e tutti non c'è: c'è solo la prova in 20 ambiti, pagata con fondi europei fino al 2029. Dopo si decide in base alla valutazione."
       - "Chi oggi riceve l'indennità di accompagnamento non perde nulla."
-      - "Calendario di avvio: squadre di quartiere e Case della Comunità sono nel primo gruppo. Nel 2027 parte il 43% della spesa prevista, nel 2028 il 74%, tutta dal 2033."
+      - "Calendario di avvio: squadre di quartiere e Case della Comunità sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 69% della spesa prevista, tutta dal 2034."
       - "Non c'è un rimborso automatico se l'attesa per una visita è troppo lunga."
       - "La salute mentale (06-C5) resta fuori dal programma."
 
@@ -204,8 +204,8 @@ profili:
     da_sapere:
       - "Il taglio del gasolio agevolato arriva piano: SAD13 va a pieno solo nel 2035. Le tappe sono annunciate con 12 mesi di anticipo."
       - "Parte del costo può passare alla clientela finale, tramite i prezzi dei trasporti."
-      - "Calendario di avvio: il credito per la ricerca (01-P13) e i contributi per le consegne pulite (04-P9) partono solo nel 2033 e sono a pieno nel 2035."
-      - "Gli aiuti per i camion a zero emissioni (04-P8) sono nel primo gruppo: nel 2027 parte il 43% della spesa prevista, tutta dal 2033."
+      - "Calendario di avvio: il credito per la ricerca (01-P13) e i contributi per le consegne pulite (04-P9) partono solo nel 2034 e sono a pieno nel 2035."
+      - "Gli aiuti per i camion a zero emissioni (04-P8) sono nel primo gruppo: nel 2028 parte il 69% della spesa prevista, tutta dal 2034."
       - "I fondi per rinnovare flotte e il credito agricolo vanno prima alle piccole imprese, alla montagna, alle aree interne e alle isole."
       - "La garanzia sull'energia (01-P5) e i voucher per la ricerca (05-C10) sono pagati con fondi europei fino al 2029."
       - "La misura per togliere i gradini che tengono piccole le imprese (01-P4) resta fuori dal programma."
@@ -280,6 +280,6 @@ profili:
     da_sapere:
       - "Chi ha un ISEE fino a 15.000 euro mantiene lo sconto sul gasolio e sul GPL da riscaldamento."
       - "Gli investimenti nelle aree interne, nelle reti idriche e nella ricarica dei camion al Sud sono pagati con fondi europei che finiscono nel 2029."
-      - "Calendario di avvio: le misure del primo gruppo partono nel 2027 al 43% della spesa prevista, nel 2028 al 74%, tutte dal 2033."
+      - "Calendario di avvio: le misure del primo gruppo partono nel 2028 al 69% della spesa prevista, tutte dal 2034; il 2027 è un anno di preparazione."
       - "Le rotte aeree e marittime di continuità territoriale con le isole non pagano le nuove accise sui carburanti (SAD03, SAD04)."
       - "Restano fuori i treni per chi viaggia ogni giorno (04-P3) e la casa a canone giusto (04-P2). Resta fuori anche il patto per le opere dopo il PNRR, il Piano nazionale di ripresa (04-P1)."

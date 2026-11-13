@@ -149,10 +149,13 @@ def calendario(file_sel: str) -> dict:
         return {}
     if not p:
         return {}
-    rinv = {k: min(v["anni"].values()) for k, v in p["misure"].items() if not v["nucleo"]}
-    primo = {k: next((a for a, q in sorted(v["anni"].items()) if q >= 0.999), None) for k, v in p["misure"].items() if not v["nucleo"] and v.get("spesa_max", 0) > 0.005}
-    return {"anni": p["anni"], "ponte_totale": p["ponte_totale"], "rinviata_totale": p["rinviata_totale"],
-            "pieno_dal": {k: a for k, a in primo.items() if a and a > 2027 and rinv.get(k, 1) < 0.999}}
+    tardi = {k: v for k, v in p["misure"].items() if v.get("gruppo") == "g3" and v.get("spesa_max", 0) > 0.005}
+    inizio = {k: next((a for a, q in sorted(v["anni"].items()) if q > 0.005), None) for k, v in tardi.items()}
+    pieno = {k: next((a for a, q in sorted(v["anni"].items()) if q >= 0.999), None) for k, v in tardi.items()}
+    nucleo_pieno = next((a["anno"] for a in p["anni"] if a["quota_nucleo"] >= 0.995), None)
+    return {"anni": p["anni"], "rinviata_totale": p["rinviata_totale"], "rinviata_nucleo": p["rinviata_nucleo"],
+            "coesione_rinviata": p["coesione_rinviata"], "riforme_subito": p["riforme_subito"], "nucleo_pieno": nucleo_pieno,
+            "pieno_dal": {k: a for k, a in pieno.items() if a}, "inizio": {k: a for k, a in inizio.items() if a}}
 
 
 def scenario(file: Path, prelievi: pd.DataFrame) -> dict | None:

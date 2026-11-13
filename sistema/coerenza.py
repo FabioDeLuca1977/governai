@@ -115,6 +115,20 @@ def controlla() -> list[str]:
     for rel in DOCUMENTI + ["programma/schede/12_pa_produttiva.md"]:
         if "8,03%" in leggi(rel):
             errori.append(f"{rel}: dato superato sui pagamenti dei fondi europei (8,03% al 2025)")
+    # 12. numero di proposte e di misure del nucleo citati nei testi; spesa dell'intermedio nell'intestazione di 23
+    n_prop = len(pd.read_csv(RADICE / "motore" / "proposte.csv"))
+    for rel in ["README.md"] + DOCUMENTI:
+        t = leggi(rel)
+        for m in re.finditer(r"\*\*(\d+) proposte\*\*|dossier ministeriali e (\d+) proposte", t):
+            n = int(m.group(1) or m.group(2))
+            if n != n_prop:
+                errori.append(f"{rel}: {n} proposte citate, in motore/proposte.csv sono {n_prop}")
+        for m in re.finditer(r"\*\*(\d+) proposte formano il nucleo robusto", t):
+            if int(m.group(1)) != n_nucleo:
+                errori.append(f"{rel}: nucleo di {m.group(1)} proposte citato, il motore ne conta {n_nucleo}")
+    m = re.search(r"Scenario di riferimento: intermedio \(`programma/selezione_intermedio\.md`\), ([\d,]+) mld", leggi("23_equita_e_linguaggio.md"))
+    if m and abs(numero(m.group(1)) - round(spesa, 1)) > 0.05:
+        errori.append(f"23_equita_e_linguaggio.md: intermedio a {m.group(1)} mld nell'intestazione, la selezione dice {spesa}")
     # 11. profili "Che cosa cambia per me": misure e coperture citate devono essere nel programma intermedio
     fp = RADICE / "programma" / "profili.yaml"
     if fp.exists():
