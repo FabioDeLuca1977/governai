@@ -279,6 +279,7 @@ Il programma intermedio passa a **9,38 mld l'anno e 67 misure**, sempre senza ta
 
 ## 7. Cosa manca e cosa fare dopo
 
+- **Conti anno per anno: lo scarto degli anni di passaggio.** Dal 13 novembre 2026 `programma/annuale.py` rifà il conto per ogni anno dal 2027 al 2035 (`programma/annuale_intermedio.md`). Il vincolo "senza deficit" vale a regime, ma alcune coperture crescono piano: il taglio del gasolio agevolato per l'autotrasporto (SAD13, 0,8 mld) arriva al pieno in 8 anni, la rivalutazione ridotta delle pensioni più alte (PE04, 0,3 mld) in 6. Con l'ipotesi prudente le risorse generali sono scoperte dal 2027 al 2034; con quella favorevole, coperture attive dal primo anno, lo sono dal 2029 al 2033, fino a 0,5 mld l'anno e circa 1,3 mld in tutto. È una scelta da fare: far partire più piano alcune spese, anticipare alcune coperture o usare per gli anni di passaggio una parte della riserva e dei fondi europei. Le stime vanno verificate con la Ragioneria.
 - **Costi stimati, non certificati.** I costi delle varianti e molti gettiti sono "stime GovernAI". Il passo successivo è la verifica con la Ragioneria o con l'UPB, e microsimulazioni distributive su microdati, che richiedono un accesso istituzionale.
 - **Doppioni da escludere.** Le spese fiscali del menu vanno confrontate voce per voce con la lista dei 7,37 mld già nel Piano strutturale.
 - **Utilità delle varianti.** È calcolata come intensità × utilità della proposta piena. Il panel dovrebbe valutare direttamente le varianti essenziali e le misure di copertura.

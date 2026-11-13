@@ -355,7 +355,10 @@ def main() -> int:
             ok, msg = esegui(["revisione_ai.py"], QUI, timeout=3600)
             print(f"livello AI: {msg}" if ok else f"ERRORE livello AI: {msg}")
 
-    # 7-bis. tabelle del documento di programma, generate dagli stessi risultati
+    # 7-bis. conti anno per anno degli scenari e tabelle del documento di programma
+    ok, msg = esegui(["annuale.py", "intermedio", "livello1", "livello2", "riferimento", "momento", "dividendo",
+                      "difesa", "senza_tasse", "senza_tasse_istruzione"], RADICE / "programma")
+    print(f"conti anno per anno: {msg}" if ok else f"ERRORE conti anno per anno: {msg}")
     ok, msg = esegui(["documento.py"], RADICE / "programma")
     print(f"documento di programma: {msg}" if ok else f"ERRORE documento di programma: {msg}")
 

@@ -295,6 +295,18 @@
     else if (sel && innerWidth < 900) scheda.scrollIntoView({ block: "nearest", behavior: "smooth" });
   }
 
+  // Conti anno per anno 2027-2035 (programma/annuale.py): il vincolo "senza deficit" vale a regime, qui si vede ogni anno
+  function avvisoAnnuale(sc) {
+    const a = sc.annuale || [];
+    const neg = a.filter((x) => x.saldo < -0.005), negf = a.filter((x) => x.saldo_favorevole < -0.005);
+    const segno = (x) => (x < -0.005 ? `<strong>${nf(x, 2)}</strong>` : nf(x, 2));
+    const tab = `<div class="tabella-box"><table class="tabella"><thead><tr><th>Anno</th><th>Spesa</th><th>Risorse generali: spesa</th><th>Gettito</th><th>Saldo (prudente)</th><th>Saldo (favorevole)</th></tr></thead><tbody>${a.map((x) => `<tr><td>${x.anno}</td><td>${nf(x.spesa, 2)}</td><td>${nf(x.spesa_generali, 2)}</td><td>${nf(x.gettito_generali, 2)}</td><td>${segno(x.saldo)}</td><td>${segno(x.saldo_favorevole)}</td></tr>`).join("")}</tbody></table></div>`;
+    const titolo = neg.length ? `Anno per anno i conti non tornano ancora: negli anni di passaggio mancano fino a ${nf(-Math.min(...neg.map((x) => x.saldo)), 1)} mld.` : "Anno per anno le risorse generali coprono la spesa.";
+    return `<div class="avviso ${neg.length ? "attenzione" : ""}" style="margin-top:12px"><div class="avviso-titolo">${icona("calendar")}${titolo}</div>
+      <p>"Senza deficit" è verificato a regime, quando tutte le coperture rendono a pieno. Alcune però crescono piano: il taglio graduale del gasolio agevolato per l'autotrasporto arriva al pieno in 8 anni, la rivalutazione ridotta delle pensioni più alte in 6. Intanto le spese partono prima. ${negf.length ? `Anche con l'ipotesi favorevole, coperture attive dal primo anno, restano scoperti ${negf.map((x) => x.anno).join(", ")}, per ${nf(-negf.reduce((t, x) => t + x.saldo_favorevole, 0), 1)} mld in tutto.` : ""} Va deciso come chiudere questo scarto: è scritto tra le scelte aperte.</p>
+      <details><summary>Tabella 2027-2035 (mld di euro)</summary>${tab}<p class="nota">Stima di <code>programma/annuale.py</code>: spese anno per anno dalle varianti, coperture che crescono in modo lineare fino all'anno di regime. Da verificare con la Ragioneria.</p></details></div>`;
+  }
+
   // Spesa pagata con la coesione 2021-2027: che cosa succede dopo il 2029, misura per misura
   function avvisoDopo2029(sc) {
     const d = sc.dopo_2029 || {};
@@ -714,6 +726,7 @@
           <div class="card kpi"><p class="etichetta">Misure</p><p class="numero">${Object.keys(sc.misure).length}<small>su ${D.proposte.length}</small></p><p class="nota">in ${S.missioni.length} missioni; ${Object.values(sc.misure).filter((m) => m.variante === "ZERO").length} sono solo regole, a costo zero</p></div>
         </div>
         ${sc.temporanei_2029 > 0 ? avvisoDopo2029(sc) : ""}
+        ${(sc.annuale || []).length ? avvisoAnnuale(sc) : ""}
       </section>
 
       ${(P.indicatori_chiave || []).length ? `<section class="sezione" aria-labelledby="t-chiave">
