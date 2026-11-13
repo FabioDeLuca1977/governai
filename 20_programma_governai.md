@@ -9,9 +9,9 @@
 Due versioni del programma, entrambe finanziate senza deficit nello scenario prudente: gettito minimo delle coperture, nessun risparmio non certificato, nessun recupero di evasione usato come copertura. Accanto, il programma che il governo ombra ha adottato nella seduta «Conti in ordine» (simulazione: le decisioni non sono in vigore).
 
 <!-- auto:totali -->
-- **Programma base: 8,17 mld l'anno**, 66 misure su 78, con 22 su 23 del nucleo robusto almeno in versione essenziale. Usa solo coperture a basso costo sociale.
-- **Programma completo: 13,52 mld l'anno**, 68 misure, nucleo robusto 23 su 23. Aggiunge coperture strutturali più impegnative.
-- **Programma intermedio: 9,38 mld l'anno**, 67 misure, nucleo robusto 21 su 23 (sotto la versione essenziale: 09-C10 e 02-C5 per eccezioni dichiarate). Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo straordinario sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Per scelta politica restano tutte le sette misure su ricerca, innovazione e logistica verde (alcune in versione ridotta) e la squadra per la produttività pubblica con l'AI (09-C9) in versione essenziale; dal 12 novembre 2026 entrano, senza tasse in più oltre quelle già nel programma, le Case della Comunità (06-C3), 500 squadre infermieristiche di quartiere (06-C8) e la riqualificazione degli amministrativi della sanità (06-C10); dal 13 novembre il progetto di vita per le persone con disabilità (02-C5) parte come pilota sui fondi europei e il personale infermieristico (06-C2) come pilota, con i risparmi sulla rivalutazione delle pensioni più alte e con il credito per la ricerca (01-P13) in versione essenziale; 0,09 mld di risorse generali restano da parte per smettere di fumare e per il dopo 2029. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
+- **Programma base: 8,16 mld l'anno**, 66 misure su 78, con 22 su 23 del nucleo robusto almeno in versione essenziale. Usa solo coperture a basso costo sociale.
+- **Programma completo: 13,49 mld l'anno**, 70 misure, nucleo robusto 23 su 23. Aggiunge coperture strutturali più impegnative.
+- **Programma intermedio: 9,38 mld l'anno**, 67 misure, nucleo robusto 21 su 23 (sotto la versione essenziale: 09-C10 e 02-C5 per eccezioni dichiarate). Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo straordinario sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Per scelta politica restano tutte le sette misure su ricerca, innovazione e logistica verde (alcune in versione ridotta) e la squadra per la produttività pubblica con l'AI (09-C9) in versione essenziale; dal 12 novembre 2026 entrano, senza tasse in più oltre quelle già nel programma, le Case della Comunità (06-C3), 500 squadre infermieristiche di quartiere (06-C8) e la riqualificazione degli amministrativi della sanità (06-C10); dal 13 novembre il progetto di vita per le persone con disabilità (02-C5) parte come pilota sui fondi europei e il personale infermieristico (06-C2) come pilota, con i risparmi sulla rivalutazione delle pensioni più alte e con il credito per la ricerca (01-P13) in versione essenziale; 0,06 mld di risorse generali restano da parte per smettere di fumare e per il dopo 2029. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
 - **Programma adottato dal governo ombra** (simulazione, `governo/`): 11,63 mld l'anno, 55 misure, coperture al minimo per 11,12 mld più i fondi vincolati.
 <!-- /auto:totali -->
 
@@ -64,7 +64,7 @@ Costi in mld €/anno a regime. "—" = non inclusa. L'ultima colonna è la deci
 | 01-P11 | Lo scontrino che conviene: un incentivo mirato al posto di lotterie e cashback | Coda | Zero 0,00 | Zero 0,00 | Zero 0,00 |
 | 01-P12 | Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate | **Nucleo** | Piena 0,06 | Piena 0,06 | Essenziale 0,04 |
 | 01-P13 | Un solo credito per la ricerca: stabile, più forte per le piccole imprese, certificato prima di spendere | Coda | Zero 0,01 | Zero 0,01 | — |
-| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | Coda | Pilota 0,03 | Piena 0,20 | — |
+| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | Coda | Pilota 0,03 | Pilota 0,03 | — |
 | 01-P15 | Dalla scoperta all'impresa: prove di fattibilità, regole per gli spin-off, fondo di fondi deep tech | Coda | Zero 0,00 | Piena 0,10 | — |
 | **Lavoro, Welfare, Famiglia** | [schede](programma/schede/02_lavoro.md) | | | | |
 | 02-C1 | Salario minimo contrattuale garantito | Valori | Zero 0,00 | Zero 0,00 | Essenziale 0,20 |
@@ -76,10 +76,10 @@ Costi in mld €/anno a regime. "—" = non inclusa. L'ultima colonna è la deci
 | 02-C7 | Housing First dopo il PNRR | **Nucleo** | Piena 0,15 | Piena 0,15 | — |
 | **Ambiente, Energia, Agricoltura** | [schede](programma/schede/03_ambiente.md) | | | | |
 | 03-P1 | Dividendo climatico: riforma SAD restituita alla cittadinanza | Valori | Zero 0,00 | Zero 0,00 | Essenziale 1,20 |
-| 03-P2 | Elettricità rinnovabile a prezzo rinnovabile (CfD) | Valori | Zero 0,00 | Piena 0,15 | Essenziale 0,07 |
+| 03-P2 | Elettricità rinnovabile a prezzo rinnovabile (CfD) | Valori | Essenziale 0,07 | Piena 0,15 | Essenziale 0,07 |
 | 03-P3 | Ogni goccia conta: reti idriche e riuso | **Nucleo** | Essenziale 0,60 | Essenziale 0,60 | — |
 | 03-P4 | Prevenire costa meno: fondo prevenzione e assicurazione catastrofale | **Nucleo** | Essenziale 0,80 | Essenziale 0,80 | Essenziale 0,80 |
-| 03-P5 | Contratto agro-climatico | Valori | — | Pilota 0,05 | Pilota 0,05 |
+| 03-P5 | Contratto agro-climatico | Valori | — | Essenziale 0,25 | Pilota 0,05 |
 | **Infrastrutture e Territori** | [schede](programma/schede/04_infrastrutture.md) | | | | |
 | 04-P1 | Patto di continuità post-PNRR | Coda | — | — | — |
 | 04-P2 | Casa a canone giusto | Valori | — | — | Essenziale 0,48 |
@@ -87,8 +87,8 @@ Costi in mld €/anno a regime. "—" = non inclusa. L'ultima colonna è la deci
 | 04-P4 | Nessuna grande opera senza prova dei numeri | Valori | Piena 0,03 | Piena 0,03 | Piena 0,03 |
 | 04-P5 | LEP prima: autonomia differenziata reversibile | Valori | Zero 0,00 | Zero 0,00 | Zero 0,00 |
 | 04-P6 | Restare è possibile: servizi essenziali aree interne | **Nucleo** | Essenziale 0,42 | Essenziale 0,42 | Essenziale 0,42 |
-| 04-P7 | Dal porto al treno: più merci sul ferro | Coda | — | Piena 0,27 | — |
-| 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | Coda | Zero 0,00 | Essenziale 0,08 | — |
+| 04-P7 | Dal porto al treno: più merci sul ferro | Coda | — | Pilota 0,06 | — |
+| 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | Coda | Zero 0,00 | Piena 0,15 | — |
 | 04-P9 | Consegne pulite in città: zone a emissioni zero per le merci | Coda | Piena 0,07 | Piena 0,07 | — |
 | **Istruzione, Ricerca, Cultura** | [schede](programma/schede/05_istruzione.md) | | | | |
 | 05-C1 | Nessuna esclusione: squadre di prossimità contro la dispersione | **Nucleo** | Piena 0,25 | Piena 0,25 | Piena 0,25 |
@@ -100,7 +100,7 @@ Costi in mld €/anno a regime. "—" = non inclusa. L'ultima colonna è la deci
 | 05-C7 | Quota svantaggio nel finanziamento delle scuole | **Nucleo** | Essenziale 0,19 | Piena 0,43 | — |
 | 05-C8 | Biblioteche di comunità | Valori | Pilota 0,03 | Piena 0,33 | — |
 | 05-C9 | Zaino culturale a scuola e tariffa sociale della cultura | Valori | Pilota 0,02 | Piena 0,20 | — |
-| 05-C10 | Rete nazionale per la ricerca applicata sul modello Fraunhofer | Coda | Pilota 0,05 | — | — |
+| 05-C10 | Rete nazionale per la ricerca applicata sul modello Fraunhofer | Coda | Pilota 0,05 | Pilota 0,05 | — |
 | **Salute** | [schede](programma/schede/06_salute.md) | | | | |
 | 06-C1 | Tempo garantito o rimborso | Valori | Zero 0,00 | Zero 0,00 | Zero 0,00 |
 | 06-C2 | Patto per il personale infermieristico e la medicina generale | Valori | — | — | Pilota 0,35 |
@@ -115,7 +115,7 @@ Costi in mld €/anno a regime. "—" = non inclusa. L'ultima colonna è la deci
 | 07-C1 | Giustizia a regime: Ufficio per il processo e triage digitale | **Nucleo** | Essenziale 0,32 | Essenziale 0,32 | Essenziale 0,32 |
 | 07-C2 | Pena utile: misure di comunità contro il sovraffollamento | **Nucleo** | Essenziale 0,25 | Piena 0,45 | Essenziale 0,25 |
 | 07-C3 | Governance dei flussi migratori fondata sui dati | **Nucleo** | Essenziale 0,25 | Essenziale 0,25 | Essenziale 0,25 |
-| 07-C4 | Dal bene confiscato al bene comune | **Nucleo** | Piena 0,15 | Piena 0,15 | Essenziale 0,07 |
+| 07-C4 | Dal bene confiscato al bene comune | **Nucleo** | Essenziale 0,07 | Piena 0,15 | Essenziale 0,07 |
 | 07-C5 | Difesa: percorso NATO 3,5% vincolato a efficienza europea | Sfav. · linea rossa in alcune versioni | — | — | — |
 | 07-C6 | Scudo cyber territoriale | Valori | Pilota 0,03 | Piena 0,35 | Essenziale 0,18 |
 | **Esteri, Europa, Istituzioni** | [schede](programma/schede/08_esteri.md) | | | | |
@@ -124,7 +124,7 @@ Costi in mld €/anno a regime. "—" = non inclusa. L'ultima colonna è la deci
 | 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | Valori | Essenziale 0,01 | Essenziale 0,01 | Essenziale 0,01 |
 | 08-P4 | Beni pubblici europei: capacità fiscale UE | Coda | Piena 0,00 | Piena 0,00 | Piena 0,00 |
 | 08-P5 | Cooperazione che si misura: traiettoria APS | Coda | Zero 0,00 | Zero 0,00 | Zero 0,00 |
-| 08-P6 | Export resiliente | Coda | — | — | — |
+| 08-P6 | Export resiliente | Coda | — | Pilota 0,03 | — |
 | 08-P7 | Appalti a vetro: cruscotto pubblico dei rischi e dati aperti completi | Valori | Piena 0,01 | Piena 0,01 | Piena 0,01 |
 | **PA e Digitale** | [schede](programma/schede/09_pa_digitale.md) | | | | |
 | 09-C1 | Stato a vetro: infrastruttura aperta per l'analisi delle politiche | Valori | Piena 0,07 | Piena 0,07 | Essenziale 0,04 |
@@ -137,7 +137,7 @@ Costi in mld €/anno a regime. "—" = non inclusa. L'ultima colonna è la deci
 | 09-C8 | Staffetta delle competenze: il ricambio generazionale come occasione di riqualificazione | **Nucleo** | Essenziale 0,08 | Piena 0,23 | Essenziale 0,08 |
 | 09-C9 | Squadra per la produttività pubblica con l'AI: meno lavoro ripetitivo, più servizi alle persone | Valori | Piena 0,09 | Piena 0,09 | — |
 | 09-C10 | Bandi pubblici con istruttoria assistita: domande compilate una volta, controlli in giorni invece che in mesi | **Nucleo** | Piena 0,04 | Piena 0,04 | — |
-| | **Totale** | | **8,17** | **13,52** | **11,63** |
+| | **Totale** | | **8,16** | **13,49** | **11,63** |
 <!-- /auto:misure -->
 
 Come leggere le varianti:
@@ -156,13 +156,13 @@ Il dettaglio è in `programma/coperture_menu.csv`: 72 misure con gettito, chi pa
 | Fondo | Programma base | Programma completo |
 |---|---|---|
 | Riordino delle spese fiscali oltre quanto già previsto nel Piano strutturale di bilancio | 1,70 | 4,50 |
-| Riallocazione interna al bilancio del ministero | 1,87 | 2,99 |
+| Riallocazione interna al bilancio del ministero | 1,84 | 2,96 |
 | Riforma dei sussidi ambientalmente dannosi riformabili a livello nazionale | 1,08 | 2,53 |
 | Accise e tasse su prodotti nocivi (tabacco, bevande zuccherate) | 0,97 | 0,97 |
 | Riordino di bonus e carte frammentati | 0,31 | 0,21 |
 | Contributo di equità sulle pensioni più alte e risparmi dall'uscita dalle quote | 0,11 | 0,11 |
 | Gettito aggiuntivo della tassa di soggiorno (Comuni) | 0,11 | 0,11 |
-| **Totale coperture nuove (gettito minimo)** | **6,15** | **11,42** |
+| **Totale coperture nuove (gettito minimo)** | **6,12** | **11,39** |
 <!-- /auto:coperture -->
 
 Il resto della spesa si finanzia con fondi già vincolati: coesione 2021-27 (solo investimenti una tantum), tariffe del servizio idrico e corrispettivi GSE.
@@ -216,15 +216,15 @@ Il sistema non decide al posto della cittadinanza. Su questi punti presenta le o
 Con la traiettoria al 2,5%:
 
 <!-- auto:difesa -->
-- **Escono (10):** 01-P4 Crescere conviene: eliminare i gradini dimensionali; 01-P10 Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti; 01-P13 Un solo credito per la ricerca: stabile, più forte per le piccole imprese, certificato prima di spendere; 02-C2 Nido esigibile + congedo paterno; 03-P4 Prevenire costa meno: fondo prevenzione e assicurazione catastrofale; 03-P5 Contratto agro-climatico; 04-P7 Dal porto al treno: più merci sul ferro; 05-C4 Più persone con laurea o diploma terziario: ITS, lauree professionalizzanti, residenze; 07-C1 Giustizia a regime: Ufficio per il processo e triage digitale; 07-C6 Scudo cyber territoriale.
-- **Cambiano variante (33):** 01-P1 piena → essenziale; 01-P3 piena → essenziale; 01-P6 piena → zero; 01-P7 piena → essenziale; 01-P14 piena → pilota; 01-P15 piena → zero; 02-C5 essenziale → pilota; 02-C7 piena → essenziale; 03-P2 piena → zero; 03-P3 essenziale → piena; 04-P8 essenziale → zero; 04-P9 piena → zero; 05-C1 piena → essenziale; 05-C2 essenziale → pilota; 05-C5 piena → essenziale; 05-C6 piena → zero; 05-C7 piena → essenziale; 05-C8 piena → pilota; 05-C9 piena → pilota; 06-C3 essenziale → pilota; 06-C8 piena → pilota; 06-C9 piena → pilota; 06-C10 piena → pilota; 07-C2 piena → essenziale; 07-C4 piena → essenziale; 08-P3 essenziale → zero; 09-C1 piena → pilota; 09-C2 essenziale → zero; 09-C5 piena → essenziale; 09-C6 piena → essenziale; 09-C7 piena → pilota; 09-C8 piena → essenziale; 09-C9 piena → pilota.
+- **Escono (11):** 01-P4 Crescere conviene: eliminare i gradini dimensionali; 01-P10 Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti; 01-P13 Un solo credito per la ricerca: stabile, più forte per le piccole imprese, certificato prima di spendere; 02-C2 Nido esigibile + congedo paterno; 03-P4 Prevenire costa meno: fondo prevenzione e assicurazione catastrofale; 03-P5 Contratto agro-climatico; 04-P7 Dal porto al treno: più merci sul ferro; 05-C4 Più persone con laurea o diploma terziario: ITS, lauree professionalizzanti, residenze; 07-C1 Giustizia a regime: Ufficio per il processo e triage digitale; 07-C6 Scudo cyber territoriale; 08-P6 Export resiliente.
+- **Cambiano variante (31):** 01-P3 piena → essenziale; 01-P6 piena → zero; 01-P7 piena → essenziale; 01-P15 piena → zero; 02-C5 essenziale → pilota; 02-C7 piena → essenziale; 03-P2 piena → zero; 04-P8 piena → zero; 04-P9 piena → zero; 05-C1 piena → essenziale; 05-C2 essenziale → pilota; 05-C5 piena → essenziale; 05-C6 piena → zero; 05-C7 piena → essenziale; 05-C8 piena → pilota; 05-C9 piena → pilota; 06-C3 essenziale → pilota; 06-C8 piena → pilota; 06-C9 piena → pilota; 06-C10 piena → pilota; 07-C2 piena → essenziale; 07-C4 piena → essenziale; 08-P1 piena → essenziale; 08-P3 essenziale → zero; 09-C1 piena → pilota; 09-C2 essenziale → zero; 09-C5 piena → essenziale; 09-C6 piena → essenziale; 09-C7 piena → pilota; 09-C8 piena → essenziale; 09-C9 piena → pilota.
 <!-- /auto:difesa -->
 
 **2. Dividendo climatico.** L'ottimizzatore usa il gettito dei sussidi dannosi per i servizi e non per il dividendo. Imporre il dividendo compensativo per redditi bassi e settori esposti (1,2 mld) cambia il programma completo così:
 
 <!-- auto:dividendo -->
-- **Escono (1):** 04-P7 Dal porto al treno: più merci sul ferro.
-- **Cambiano variante (8):** 01-P14 piena → pilota; 03-P1 zero → essenziale; 04-P8 essenziale → piena; 05-C7 piena → essenziale; 05-C8 piena → essenziale; 06-C9 piena → essenziale; 07-C2 piena → essenziale; 07-C6 piena → essenziale.
+- **Escono (2):** 03-P5 Contratto agro-climatico; 08-P6 Export resiliente.
+- **Cambiano variante (6):** 03-P1 zero → essenziale; 05-C7 piena → essenziale; 05-C8 piena → essenziale; 06-C9 piena → essenziale; 07-C2 piena → essenziale; 07-C6 piena → essenziale.
 <!-- /auto:dividendo -->
 
 **3. Coperture strutturali** (programma completo, circa 5,3 mld in più del base). Le pagano soprattutto chi possiede case di valore alto, chi affitta a canone libero, chi eredita patrimoni oltre 500.000 € per erede, le famiglie capienti con spese di istruzione privata, l'autotrasporto e l'agricoltura (fino al 2035), chi consuma gas (con un bonus per i redditi bassi). È la scelta più politica del programma: il sistema la presenta, non la impone.
@@ -269,16 +269,16 @@ Senza nuove decisioni, dal 2030 la spesa del programma intermedio scende quindi 
 
 - **Un prelievo senza scopo ora ha uno scopo.** La rivalutazione ridotta delle pensioni più alte (PE04, solo sulla quota oltre circa 3.700 euro lordi al mese, dal 2030) era nel programma ma andava in un fondo che non pagava nulla. Ora va alle risorse generali: 0,30 mld a regime, circa 0,1 il primo anno.
 - **Entra il personale infermieristico, come pilota (06-C2, 0,35 mld).** In 4 Regioni, almeno 2 del Mezzogiorno, e nelle aree interne: indennità di area disagiata, 5.000 borse di studio con vincolo di servizio nel SSN, infermiere di pratica avanzata in 50 Case della Comunità, valutazione Agenas a 30 mesi. Il prezzo: il credito unico per la ricerca (01-P13) scende da pieno a essenziale. Tutti e tre i valutatori sono arrivati a questa scelta.
-- **Un margine vero, con una destinazione.** Le risorse generali ora hanno 0,09 mld non spesi: 0,04 per servizi gratuiti per smettere di fumare per chi ha un ISEE basso, 0,05 di riserva per le misure pagate con fondi europei dopo il 2029.
+- **Un margine vero, con una destinazione.** Le risorse generali ora hanno 0,06 mld non spesi: 0,04 per servizi gratuiti per smettere di fumare per chi ha un ISEE basso, 0,02 di riserva per le misure pagate con fondi europei dopo il 2029. Erano 0,09, con una riserva di 0,05: la sera del 13 novembre una verifica sul rendiconto dello Stato ha mostrato che la copertura sulle consulenze (RA03) rendeva circa 0,02 mld, non 0,05.
 - **Le accise su tabacco e bevande restano, ma tornano a chi le paga.** Un importo pari al gettito del tabacco va per legge alla sanità vicino a casa (Case della Comunità, squadre di quartiere, personale infermieristico), con priorità ai distretti più poveri. Nessuna compensazione in denaro, che richiederebbe di schedare chi fuma. Le compensazioni già previste sul gasolio vanno prima alle piccole imprese, alla montagna, alle aree interne e alle isole.
-- **Dopo il 2029, la regola si decide ora.** Entro il 30 settembre 2029 la Ragioneria certifica i fondi europei del ciclo 2028-2034 misura per misura. Se mancano, si usa in quest'ordine: la riserva di 0,05; il gettito delle coperture oltre il minimo, solo se certificato; poi le misure scendono di versione, nell'ordine 03-P4, 05-C2, 05-C1.
+- **Dopo il 2029, la regola si decide ora.** Entro il 30 settembre 2029 la Ragioneria certifica i fondi europei del ciclo 2028-2034 misura per misura. Se mancano, si usa in quest'ordine: la riserva di 0,02; il gettito delle coperture oltre il minimo, solo se certificato; poi le misure scendono di versione, nell'ordine 03-P4, 05-C2, 05-C1.
 - **Garanzie e responsabilità.** Una persona responsabile con nome firma ogni scelta politica e il suo prezzo; un comitato di garanzia di 7 persone, scelte per sorteggio tra persone idonee, controlla le regole e non il programma (`24_garanzie_e_responsabilita.md`).
 
 Il programma intermedio passa a **9,38 mld l'anno e 67 misure**, sempre senza tasse in più oltre quelle già previste e senza deficit. Due avvertenze. Il controllo giuridico preventivo ritiene compatibile, a condizioni, l'uso dei risparmi sulle pensioni per la sanità (Corte cost. 19/2025 ha già ammesso usi fuori dal sistema pensionistico): durata 2030-2034 con verifica INPS-MEF al Parlamento, motivazione esplicita, mai cumulata con altri raffreddamenti, rivalutazione al 75% negli anni con inflazione oltre il 4% (`giuridico/conformita_COS.csv`). L'ottimizzatore ragiona sull'anno in cui le coperture rendono a pieno: PE04 rende 0,1 nel 2030 e 0,3 solo dal 2035, quindi negli anni di passaggio i conti vanno verificati anno per anno.
 
 ## 7. Cosa manca e cosa fare dopo
 
-- **Conti anno per anno: lo scarto degli anni di passaggio.** Dal 13 novembre 2026 `programma/annuale.py` rifà il conto per ogni anno dal 2027 al 2035 (`programma/annuale_intermedio.md`). Il vincolo "senza deficit" vale a regime, ma alcune coperture crescono piano: il taglio del gasolio agevolato per l'autotrasporto (SAD13, 0,8 mld) arriva al pieno in 8 anni, la rivalutazione ridotta delle pensioni più alte (PE04, 0,3 mld) in 6. Con l'ipotesi prudente le risorse generali sono scoperte dal 2027 al 2034; con quella favorevole, coperture attive dal primo anno, lo sono dal 2029 al 2033, fino a 0,5 mld l'anno e circa 1,3 mld in tutto. **Scelta del 13 novembre 2026: un calendario di avvio**, corretto dopo il secondo giro di revisione. Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno, con l'ipotesi prudente, tenendo da parte i servizi per smettere di fumare (0,04 mld dal 2028) e la riserva per il dopo 2029 (0,05 mld dal 2030). I fondi europei 2021-2027 pagano solo spese una tantum, non spesa corrente. Partono subito, per intero, le 28 riforme a costo quasi zero (al massimo 20 milioni l'anno ciascuna), compresa la legge sulla consulenza algoritmica pubblica (08-P1). Il 2027 è un anno di preparazione: quasi tutte le coperture rendono dal 2028, quindi il nucleo robusto parte al 4% nel 2027, al 69% nel 2028 e all'87% nel 2029, ed è a pieno dal 2034; le sperimentazioni, la compensazione dell'autotrasporto (04-P8) e le squadre di quartiere (06-C8) seguono lo stesso passo. Attenzione: le tre sperimentazioni pagate con le risorse generali (personale infermieristico 06-C2, reddito di inclusione 02-C4, merci sul treno 04-P7) partono quindi di fatto nel 2028, e la loro valutazione arriverà nel 2030-2031, non in tempo per le decisioni del 2029; le sperimentazioni pagate con i fondi europei partono invece subito. Restano due attriti da decidere: il congedo del papà (un mese dal 2028, due dal 2030) dipende dalla quota di 02-C2 avviata, e le zone a emissioni zero per le merci (04-P9) arrivano nel 2030, prima dei contributi, che partono nel 2034. Sulla coesione slittano anche 0,06 mld di spese una tantum del 2029, oltre la capienza. Le altre misure (01-P13, 04-P9, 09-C9) cominciano nel 2034 e sono a pieno nel 2035. Negli anni di passaggio slittano circa 7,6 mld di spesa, **di cui 5,7 del nucleo**: nessun anno chiude in deficit, ma il programma arriva a regime più tardi di quanto promettono le singole schede. Le stime vanno verificate con la Ragioneria.
+- **Conti anno per anno: lo scarto degli anni di passaggio.** Dal 13 novembre 2026 `programma/annuale.py` rifà il conto per ogni anno dal 2027 al 2035 (`programma/annuale_intermedio.md`). Il vincolo "senza deficit" vale a regime, ma alcune coperture crescono piano: il taglio del gasolio agevolato per l'autotrasporto (SAD13, 0,8 mld) arriva al pieno in 8 anni, la rivalutazione ridotta delle pensioni più alte (PE04, 0,3 mld) in 6. Con l'ipotesi prudente le risorse generali sono scoperte dal 2027 al 2034; con quella favorevole, coperture attive dal primo anno, lo sono dal 2029 al 2033, fino a 0,5 mld l'anno e circa 1,3 mld in tutto. **Scelta del 13 novembre 2026: un calendario di avvio**, corretto dopo il secondo giro di revisione. Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno, con l'ipotesi prudente, tenendo da parte i servizi per smettere di fumare (0,04 mld dal 2028) e la riserva per il dopo 2029 (0,02 mld dal 2030). I fondi europei 2021-2027 pagano solo spese una tantum, non spesa corrente. Partono subito, per intero, le 28 riforme a costo quasi zero (al massimo 20 milioni l'anno ciascuna), compresa la legge sulla consulenza algoritmica pubblica (08-P1). Il 2027 è un anno di preparazione: quasi tutte le coperture rendono dal 2028, quindi il nucleo robusto parte al 4% nel 2027, al 68% nel 2028 e all'87% nel 2029, ed è a pieno dal 2034; le sperimentazioni, la compensazione dell'autotrasporto (04-P8) e le squadre di quartiere (06-C8) seguono lo stesso passo. Attenzione: le tre sperimentazioni pagate con le risorse generali (personale infermieristico 06-C2, reddito di inclusione 02-C4, merci sul treno 04-P7) partono quindi di fatto nel 2028, e la loro valutazione arriverà nel 2030-2031, non in tempo per le decisioni del 2029; le sperimentazioni pagate con i fondi europei partono invece subito. Restano due attriti da decidere: il congedo del papà (un mese dal 2028, due dal 2030) dipende dalla quota di 02-C2 avviata, e le zone a emissioni zero per le merci (04-P9) arrivano nel 2030, prima dei contributi, che partono nel 2034. Sulla coesione slittano anche 0,06 mld di spese una tantum del 2029, oltre la capienza. Le altre misure (01-P13, 04-P9, 09-C9) cominciano nel 2034 e sono a pieno nel 2035. Negli anni di passaggio slittano circa 7,7 mld di spesa, **di cui 5,7 del nucleo**: nessun anno chiude in deficit, ma il programma arriva a regime più tardi di quanto promettono le singole schede. Le stime vanno verificate con la Ragioneria.
 - **Costi stimati, non certificati.** I costi delle varianti e molti gettiti sono "stime GovernAI". Il passo successivo è la verifica con la Ragioneria o con l'UPB, e microsimulazioni distributive su microdati, che richiedono un accesso istituzionale.
 - **Doppioni da escludere.** Le spese fiscali del menu vanno confrontate voce per voce con la lista dei 7,37 mld già nel Piano strutturale.
 - **Utilità delle varianti.** È calcolata come intensità × utilità della proposta piena. Il panel dovrebbe valutare direttamente le varianti essenziali e le misure di copertura.

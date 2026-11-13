@@ -141,7 +141,8 @@ def piano(etichetta: str = "intermedio") -> dict | None:
 
     Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno (ipotesi prudente), al netto di:
     - 0,04 mld per i servizi gratuiti per smettere di fumare, dal primo anno dell'accisa sul tabacco (2028);
-    - 0,05 mld di riserva per le misure pagate con i fondi europei dopo il 2029, accantonati dal 2030.
+    - 0,02 mld di riserva per le misure pagate con i fondi europei dopo il 2029, accantonati dal 2030 (0,05 fino alla
+      correzione della copertura RA03 del 13 novembre 2026).
     Ordine di avvio, in tre gruppi:
     1. riforme a costo quasi zero (al massimo 20 milioni l'anno sulle risorse generali): partono subito per intero;
     2. nucleo robusto (Carta, regola 7), sperimentazioni (devono produrre la valutazione entro il 2029), compensazione
@@ -170,7 +171,7 @@ def piano(etichetta: str = "intermedio") -> dict | None:
     for r in t.itertuples():
         mis = t.attrs["gen_mis"][r.anno]
         fumo = 0.04 if r.anno >= 2028 else 0.0
-        riserva = 0.05 if r.anno >= 2030 else 0.0
+        riserva = 0.02 if r.anno >= 2030 else 0.0
         disp = max(0.0, r.gettito_generali - fumo - riserva)
         fatt = {}
         for k, g in (("g1", gruppo1), ("g2", gruppo2), ("g3", None)):
@@ -234,7 +235,7 @@ def calendario_md(pi: dict | None) -> str:
         return ""
     righe = ["", "## Calendario di avvio (scelte del 13 novembre 2026)", "",
              "Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno (ipotesi prudente), al netto dei servizi "
-             "per smettere di fumare (0,04 mld dal 2028) e della riserva per il dopo 2029 (0,05 mld dal 2030). Partono subito le "
+             "per smettere di fumare (0,04 mld dal 2028) e della riserva per il dopo 2029 (0,02 mld dal 2030). Partono subito le "
              "riforme a costo quasi zero; poi il nucleo robusto, le sperimentazioni, 04-P8 e 06-C8; poi le altre misure. I fondi "
              "europei 2021-2027 pagano solo spese una tantum, non spesa corrente.", "",
              "| Anno | Spesa prevista sulle risorse generali | Spesa avviata | Rinviata | di cui nucleo | Riforme a costo quasi zero | Nucleo e primo gruppo | Altre misure |",

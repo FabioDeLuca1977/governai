@@ -18,10 +18,10 @@ Priorità al nucleo robusto (Carta, regola 7): **attiva**.
 
 | Voce | mld €/anno a regime |
 |---|---|
-| Spesa delle misure scelte | 4,57 |
-| di cui su risorse generali | 2,80 |
-| Gettito minimo delle coperture attivate (risorse generali) | 2,80 |
-| Gettito minimo delle coperture attivate (totale) | 2,80 |
+| Spesa delle misure scelte | 4,54 |
+| di cui su risorse generali | 2,77 |
+| Gettito minimo delle coperture attivate (risorse generali) | 2,77 |
+| Gettito minimo delle coperture attivate (totale) | 2,77 |
 | Proposte nel programma | 61 su 78 |
 
 La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i valori la stessa scelta rientra nel programma ottimo. Sopra l'80% la scelta non dipende dalla sensibilità politica.
@@ -37,6 +37,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 09-C3 | Squadre tecniche della Repubblica: pool di competenze per i piccoli enti | ESSENZIALE | 0,5 | 0,22 | 100% |
 | 05-C5 | Scuole aperte come presidi di comunita' | ESSENZIALE | 0,5 | 0,20 | 100% |
 | 05-C7 | Quota svantaggio nel finanziamento delle scuole | ESSENZIALE | 0,6 | 0,19 | 100% |
+| 02-C5 | Progetto di vita esigibile e lavoro per le persone con disabilita' | PILOTA | 0,3 | 0,15 | 100% |
 | 06-C3 | Case della Comunita' vive | PILOTA | 0,1 | 0,15 | 100% |
 | 01-P7 | Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla | ESSENZIALE | 0,6 | 0,15 | 100% |
 | 05-C1 | Nessuna esclusione: squadre di prossimita' contro la dispersione | ESSENZIALE | 0,6 | 0,13 | 100% |
@@ -62,35 +63,34 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 01-P9 | Una sola detrazione per il lavoro, senza scalini | ZERO | 0,2 | 0,00 | 100% |
 | 01-P11 | Lo scontrino che conviene: un incentivo mirato al posto di lotterie e cashback | ZERO | 0,1 | 0,00 | 100% |
 | 07-C1 | Giustizia a regime: Ufficio per il processo e triage digitale | ESSENZIALE | 0,7 | 0,32 | 100% |
-| 02-C5 | Progetto di vita esigibile e lavoro per le persone con disabilita' | PILOTA | 0,3 | 0,15 | 100% |
 | 03-P2 | Elettricita' rinnovabile a prezzo rinnovabile (CfD) | ZERO | 0,5 | 0,00 | 100% |
 | 06-C6 | Dividendo della prevenzione e budget unico del farmaco | ZERO | 0,7 | 0,00 | 100% |
 | 08-P4 | Beni pubblici europei: capacita' fiscale UE | PIENA | 1,0 | 0,00 | 100% |
+| 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | ZERO | 0,3 | 0,00 | 100% |
 | 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | ESSENZIALE | 0,6 | 0,15 | 100% |
 | 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | ZERO | 0,2 | 0,00 | 100% |
 | 05-C3 | Carriere della ricerca | ZERO | 0,1 | 0,00 | 100% |
 | 05-C8 | Biblioteche di comunita' | PILOTA | 0,1 | 0,03 | 99% |
-| 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | ZERO | 0,3 | 0,00 | 99% |
+| 06-C4 | Budget di cura per la non autosufficienza | PILOTA | 0,1 | 0,10 | 99% |
 | 01-P8 | Meno scontrini: riordino delle detrazioni del 19% | ZERO | 0,4 | 0,00 | 99% |
-| 06-C4 | Budget di cura per la non autosufficienza | PILOTA | 0,1 | 0,10 | 98% |
+| 09-C7 | Automazione dei processi ripetitivi con riallocazione garantita | PILOTA | 0,1 | 0,02 | 98% |
 | 04-P9 | Consegne pulite in citta': zone a emissioni zero per le merci | ZERO | 0,5 | 0,00 | 98% |
-| 09-C10 | Bandi pubblici con istruttoria assistita: domande compilate una volta, controlli in giorni invece che in mesi | PIENA | 1,0 | 0,04 | 97% |
+| 05-C9 | Zaino culturale a scuola e tariffa sociale della cultura | PILOTA | 0,1 | 0,02 | 96% |
+| 05-C10 | Rete nazionale per la ricerca applicata sul modello Fraunhofer | PILOTA | 0,1 | 0,05 | 96% |
+| 06-C9 | Equipe di benessere scolastico in rete con la Casa della Comunita' | PILOTA | 0,1 | 0,03 | 96% |
 | 06-C8 | Squadre infermieristiche autonome di quartiere per l'ADI | PILOTA | 0,1 | 0,02 | 96% |
-| 05-C10 | Rete nazionale per la ricerca applicata sul modello Fraunhofer | PILOTA | 0,1 | 0,05 | 95% |
-| 06-C9 | Equipe di benessere scolastico in rete con la Casa della Comunita' | PILOTA | 0,1 | 0,03 | 94% |
-| 05-C9 | Zaino culturale a scuola e tariffa sociale della cultura | PILOTA | 0,1 | 0,02 | 93% |
-| 09-C7 | Automazione dei processi ripetitivi con riallocazione garantita | PILOTA | 0,1 | 0,02 | 93% |
-| 06-C10 | Meno burocrazia, più cura: automazione degli uffici sanitari e riqualificazione del personale amministrativo | PILOTA | 0,1 | 0,01 | 90% |
-| 08-P2 | Patto per la buona legge | PIENA | 1,0 | 0,01 | 89% |
-| 01-P12 | Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate | PIENA | 1,0 | 0,06 | 88% |
-| 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | ZERO | 0,3 | 0,00 | 88% |
-| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 87% |
-| 04-P4 | Nessuna grande opera senza prova dei numeri | PIENA | 1,0 | 0,03 | 79% |
-| 09-C1 | Stato a vetro: infrastruttura aperta per l'analisi delle politiche | PILOTA | 0,2 | 0,01 | 66% |
-| 09-C6 | Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità | ESSENZIALE | 0,6 | 0,01 | 59% |
-| 03-P3 | Ogni goccia conta: reti idriche e riuso | ESSENZIALE | 0,6 | 0,60 | 55% |
-| 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | ESSENZIALE | 0,7 | 0,01 | 40% |
-| 08-P1 | Legge sulla consulenza algoritmica pubblica | PIENA | 1,0 | 0,04 | 33% |
+| 06-C10 | Meno burocrazia, più cura: automazione degli uffici sanitari e riqualificazione del personale amministrativo | PILOTA | 0,1 | 0,01 | 95% |
+| 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | ZERO | 0,3 | 0,00 | 93% |
+| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 90% |
+| 08-P1 | Legge sulla consulenza algoritmica pubblica | ESSENZIALE | 0,6 | 0,01 | 88% |
+| 04-P4 | Nessuna grande opera senza prova dei numeri | PIENA | 1,0 | 0,03 | 84% |
+| 08-P2 | Patto per la buona legge | PIENA | 1,0 | 0,01 | 83% |
+| 09-C10 | Bandi pubblici con istruttoria assistita: domande compilate una volta, controlli in giorni invece che in mesi | PIENA | 1,0 | 0,04 | 82% |
+| 03-P3 | Ogni goccia conta: reti idriche e riuso | ESSENZIALE | 0,6 | 0,60 | 69% |
+| 09-C6 | Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità | ESSENZIALE | 0,6 | 0,01 | 69% |
+| 09-C1 | Stato a vetro: infrastruttura aperta per l'analisi delle politiche | PILOTA | 0,2 | 0,01 | 60% |
+| 01-P12 | Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate | PIENA | 1,0 | 0,06 | 58% |
+| 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | ZERO | 0,3 | 0,00 | 49% |
 
 ## Coperture attivate
 
@@ -111,17 +111,17 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | RB04 | Carta del docente: quota di circa 150 € vincolata alla formazione su AI e didattica, al posto di acquisti liberi (proposta area 05) | RIORDINO_BONUS | 0,08 | Docenti di ruolo e supplenti annuali (minor libertà d'uso) | 100% |
 | RA02 | Locazioni passive: piano di rientro negli immobili pubblici accelerato, obiettivo -20% dei canoni entro il 2030 | RIALLOCAZIONE | 0,08 | Soggetti privati che affittano immobili alla PA | 100% |
 | RB01 | Carta Valore per i neodiplomati (180 mln/anno, universale): limite ISEE 35.000 € come per la vecchia Carta cultura | RIORDINO_BONUS | 0,05 | Persone neodiplomate di famiglie con ISEE oltre 35.000 € | 100% |
-| RA03 | Consulenze, studi, auto di servizio e rappresentanza: tetto del 20% sotto la spesa 2025 dei capitoli dedicati | RIALLOCAZIONE | 0,05 | Consulenze esterne, società di noleggio | 100% |
 | RA10 | Contributo unificato maggiorato per i litiganti seriali (oltre 500 cause l'anno) (proposta area 07) | RIALLOCAZIONE | 0,05 | Grandi litiganti: banche, assicurazioni, società di recupero crediti, utilities | 100% |
 | RA08 | Assistenza tecnica e studi d'impatto esterni sostituiti dai pool tecnici e dall'infrastruttura pubblica, oltre RA03 (R09-2, area 09) | RIALLOCAZIONE | 0,03 | Società di consulenza e assistenza tecnica | 100% |
+| RA03 | Consulenze, studi, auto di servizio e rappresentanza: tetto del 20% sotto la spesa 2025 dei capitoli dedicati | RIALLOCAZIONE | 0,02 | Consulenze esterne, società di noleggio | 100% |
 
 ## Proposte non incluse
 
 Restano fuori perché, con le risorse disponibili, altre misure danno più valore per euro, oppure perché il loro effetto netto sui valori è negativo. *Rientrano se si trovano coperture aggiuntive.*
 
 - 01-P10 Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti (scelta in 0% delle combinazioni di pesi)
-- 01-P13 Un solo credito per la ricerca: stabile, piu' forte per le piccole imprese, certificato prima di spendere (scelta in 3% delle combinazioni di pesi)
-- 01-P4 Crescere conviene: eliminare i gradini dimensionali (scelta in 17% delle combinazioni di pesi)
+- 01-P13 Un solo credito per la ricerca: stabile, piu' forte per le piccole imprese, certificato prima di spendere (scelta in 0% delle combinazioni di pesi)
+- 01-P4 Crescere conviene: eliminare i gradini dimensionali (scelta in 6% delle combinazioni di pesi)
 - 02-C2 Nido esigibile + congedo paterno (scelta in 0% delle combinazioni di pesi)
 - 02-C4 Reddito di inclusione universale (scelta in 0% delle combinazioni di pesi)
 - 03-P4 Prevenire costa meno: fondo prevenzione e assicurazione catastrofale (scelta in 0% delle combinazioni di pesi)
@@ -134,7 +134,7 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 - 06-C2 Patto per il personale infermieristico e la medicina generale (scelta in 0% delle combinazioni di pesi)
 - 06-C5 Salute mentale al 5% (scelta in 0% delle combinazioni di pesi)
 - 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea (scelta in 28% delle combinazioni di pesi)
-- 07-C6 Scudo cyber territoriale (scelta in 1% delle combinazioni di pesi)
+- 07-C6 Scudo cyber territoriale (scelta in 0% delle combinazioni di pesi)
 - 08-P6 Export resiliente (scelta in 0% delle combinazioni di pesi)
 
 ## Uso dei fondi
@@ -143,10 +143,10 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 |---|---|---|
 | ACCISE_SALUTE | 0,08 | 0,00 |
 | COESIONE_2127 | 1,60 | 2,00 |
-| RIALLOCAZIONE | 1,71 | 2,49 |
+| RIALLOCAZIONE | 1,68 | 2,46 |
 | RIORDINO_BONUS | 0,09 | 0,31 |
 | SAD | 0,37 | 0,00 |
 | SPESE_FISCALI | 0,55 | 0,00 |
 | TARIFFE | 0,17 | — |
 
-Risorse generali (fungibili): spesa 2,80 ≤ gettito 2,80.
+Risorse generali (fungibili): spesa 2,77 ≤ gettito 2,77.

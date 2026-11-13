@@ -206,7 +206,7 @@ Per far entrare la sanità **senza tasse in più oltre quelle già previste**, a
 
 ## 4. Chi paga: l'equità delle coperture
 
-Lo scenario intermedio attiva coperture per un gettito minimo di **7,42 miliardi** l'anno a regime. Le abbiamo classificate con il punteggio EQU del panel (colonna `EQU` in `programma/selezione_intermedio.csv`) e con la colonna `chi_paga`. Le somme sono un nostro calcolo sul file.
+Lo scenario intermedio attiva coperture per un gettito minimo di **7,39 miliardi** l'anno a regime. Le abbiamo classificate con il punteggio EQU del panel (colonna `EQU` in `programma/selezione_intermedio.csv`) e con la colonna `chi_paga`. Le somme sono un nostro calcolo sul file.
 
 ### Coperture progressive (pesano di più su chi ha di più): circa 1,5 miliardi
 

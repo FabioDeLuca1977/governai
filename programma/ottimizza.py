@@ -297,7 +297,7 @@ def main() -> int:
             f"| Spesa delle misure scelte | {num(spesa)} |",
             f"| di cui su risorse generali | {num(gen_spesa)} |",
             f"| Gettito minimo delle coperture attivate (risorse generali) | {num(gen_gettito)} |",
-            *([f"| di cui tenuto da parte e non speso (riserva: per lo scenario intermedio, smettere di fumare e dopo il 2029) | {num(a.riserva)} |"] if a.riserva > 0 else []),
+            *([f"| di cui tenuto da parte e non speso (riserva: per lo scenario intermedio, 0,04 per smettere di fumare e 0,02 per il dopo 2029) | {num(a.riserva)} |"] if a.riserva > 0 else []),
             f"| Gettito minimo delle coperture attivate (totale) | {num(attive.gettito_min.sum())} |",
             f"| Proposte nel programma | {usate.proposta_id.nunique()} su {chiavi.proposta_id.nunique()} |", "",
             "La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i valori la stessa scelta "

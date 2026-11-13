@@ -23,9 +23,9 @@ Priorità al nucleo robusto (Carta, regola 7): **attiva**.
 |---|---|
 | Spesa delle misure scelte | 9,38 |
 | di cui su risorse generali | 7,22 |
-| Gettito minimo delle coperture attivate (risorse generali) | 7,31 |
-| di cui tenuto da parte e non speso (riserva: per lo scenario intermedio, smettere di fumare e dopo il 2029) | 0,09 |
-| Gettito minimo delle coperture attivate (totale) | 7,42 |
+| Gettito minimo delle coperture attivate (risorse generali) | 7,28 |
+| di cui tenuto da parte e non speso (riserva: per lo scenario intermedio, 0,04 per smettere di fumare e 0,02 per il dopo 2029) | 0,06 |
+| Gettito minimo delle coperture attivate (totale) | 7,39 |
 | Proposte nel programma | 67 su 78 |
 
 La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i valori la stessa scelta rientra nel programma ottimo. Sopra l'80% la scelta non dipende dalla sensibilità politica.
@@ -138,18 +138,18 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | RA02 | Locazioni passive: piano di rientro negli immobili pubblici accelerato, obiettivo -20% dei canoni entro il 2030 | RIALLOCAZIONE | 0,08 | Soggetti privati che affittano immobili alla PA | 100% |
 | SF05 | Abrogazione delle spese fiscali minori e senza valutazione (fascia 10-20 mln e parte delle misure sotto 10 mln), con clausola di scadenza per le nuove | SPESE_FISCALI | 0,08 | Chi beneficia di agevolazioni minori e frammentate | 100% |
 | AS04 | Superalcolici: accisa sull'alcol etilico +20% (birra e vino esclusi); integra AS-SAN2 dell'area 06 | ACCISE_SALUTE | 0,07 | Chi consuma superalcolici; produttori | 100% |
-| SF09 | Detrazioni edilizie: aliquota ridotta per le unità diverse dall'abitazione principale non locate a canone concordato (proposta area 04) | SPESE_FISCALI | 0,05 | Chi ristruttura una seconda casa di proprietà | 100% |
-| RA03 | Consulenze, studi, auto di servizio e rappresentanza: tetto del 20% sotto la spesa 2025 dei capitoli dedicati | RIALLOCAZIONE | 0,05 | Consulenze esterne, società di noleggio | 100% |
 | RP08 | Ricambio selettivo nei profili amministrativi generici degli enti del Servizio sanitario nazionale: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni invece del 100%, con riduzione per legge del finanziamento del SSN d'intesa con le Regioni e destinazione in legge di bilancio a personale infermieristico e Case della Comunità (06-C2, 06-C3). Esclusi profili tecnici, informatici e sportelli di prenotazione; clausola di salvaguardia sui tempi dei servizi. Completa RP01, che esclude la sanità (proposta 06-C10) | RIALLOCAZIONE | 0,05 | Giovani che si candidano ai concorsi amministrativi delle aziende sanitarie; uffici amministrativi che lavorano con meno persone | 100% |
+| SF09 | Detrazioni edilizie: aliquota ridotta per le unità diverse dall'abitazione principale non locate a canone concordato (proposta area 04) | SPESE_FISCALI | 0,05 | Chi ristruttura una seconda casa di proprietà | 100% |
+| RA10 | Contributo unificato maggiorato per i litiganti seriali (oltre 500 cause l'anno) (proposta area 07) | RIALLOCAZIONE | 0,05 | Grandi litiganti: banche, assicurazioni, società di recupero crediti, utilities | 100% |
 | SF03 | Tonnage tax e credito d'imposta armatoriale: rimodulazione con coefficienti legati a emissioni e bandiera UE, tetto al beneficio | SPESE_FISCALI | 0,05 | Imprese armatoriali | 100% |
 | RB01 | Carta Valore per i neodiplomati (180 mln/anno, universale): limite ISEE 35.000 € come per la vecchia Carta cultura | RIORDINO_BONUS | 0,05 | Persone neodiplomate di famiglie con ISEE oltre 35.000 € | 100% |
 | SF04 | Cooperative: esclusione degli utili a riserva indivisibile ridotta dal 90% al 70% per le cooperative con ricavi oltre 50 mln €; invariata per le altre | SPESE_FISCALI | 0,05 | Grandi cooperative (consumo, servizi, agroalimentare) | 100% |
-| RA10 | Contributo unificato maggiorato per i litiganti seriali (oltre 500 cause l'anno) (proposta area 07) | RIALLOCAZIONE | 0,05 | Grandi litiganti: banche, assicurazioni, società di recupero crediti, utilities | 100% |
-| RP01 | Turnover selettivo nei profili amministrativi generici di ministeri ed enti pubblici non economici nazionali: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni di quei profili invece del 100%, con taglio corrispondente delle facoltà assunzionali e degli stanziamenti. Esclusi: scuola, università, ricerca e cultura (MIM, MUR, MiC), giustizia, Interno, agenzie fiscali, sanità, sicurezza e soccorso, servizi sociali e inclusione (compresi gli sportelli e le prestazioni di inclusione INPS e la DG inclusione del Ministero del lavoro). Esclusa la quota riservata ai profili tecnici da RA07 | RIALLOCAZIONE | 0,04 | Giovani che si candidano ai concorsi per profili amministrativi generici (meno posti, soprattutto al Sud); uffici di supporto che lavorano con meno persone | 100% |
 | SF08 | Detrazione 19% per lo sport di ragazze e ragazzi 5-18 anni sostituita da offerta sportiva gratuita a scuola (proposta area 05) | SPESE_FISCALI | 0,04 | Famiglie che detraggono iscrizioni a palestre e associazioni sportive | 100% |
+| RP01 | Turnover selettivo nei profili amministrativi generici di ministeri ed enti pubblici non economici nazionali: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni di quei profili invece del 100%, con taglio corrispondente delle facoltà assunzionali e degli stanziamenti. Esclusi: scuola, università, ricerca e cultura (MIM, MUR, MiC), giustizia, Interno, agenzie fiscali, sanità, sicurezza e soccorso, servizi sociali e inclusione (compresi gli sportelli e le prestazioni di inclusione INPS e la DG inclusione del Ministero del lavoro). Esclusa la quota riservata ai profili tecnici da RA07 | RIALLOCAZIONE | 0,04 | Giovani che si candidano ai concorsi per profili amministrativi generici (meno posti, soprattutto al Sud); uffici di supporto che lavorano con meno persone | 100% |
+| RP06 | Enti previdenziali e assicurativi nazionali (INPS, INAIL) e altri EPNE: riduzione del 4% della spesa per beni e servizi rispetto al 2025, con versamento al bilancio dello Stato in aggiunta ai versamenti già previsti dalla L. 160/2019. Esclusi gli sportelli, i servizi per l'inclusione e le spese per prestazioni | RIALLOCAZIONE | 0,03 | Fornitori degli enti (ICT, servizi, logistica) | 100% |
 | RA08 | Assistenza tecnica e studi d'impatto esterni sostituiti dai pool tecnici e dall'infrastruttura pubblica, oltre RA03 (R09-2, area 09) | RIALLOCAZIONE | 0,03 | Società di consulenza e assistenza tecnica | 100% |
 | SAD04 | Accisa sui carburanti della navigazione marittima nazionale (EN.SI.05b), esclusi collegamenti in continuità territoriale e pesca | SAD | 0,03 | Armatori di linee nazionali non OSP, crociere e trasporto turistico nazionale | 100% |
-| RP06 | Enti previdenziali e assicurativi nazionali (INPS, INAIL) e altri EPNE: riduzione del 4% della spesa per beni e servizi rispetto al 2025, con versamento al bilancio dello Stato in aggiunta ai versamenti già previsti dalla L. 160/2019. Esclusi gli sportelli, i servizi per l'inclusione e le spese per prestazioni | RIALLOCAZIONE | 0,03 | Fornitori degli enti (ICT, servizi, logistica) | 100% |
+| RA03 | Consulenze, studi, auto di servizio e rappresentanza: tetto del 20% sotto la spesa 2025 dei capitoli dedicati | RIALLOCAZIONE | 0,02 | Consulenze esterne, società di noleggio | 100% |
 | SAD09 | Contributi agli impianti di risalita (AL.SD.17): metà riconvertita in un fondo per l'adattamento del turismo montano, metà risparmiata | SAD | 0,02 | Gestori di impianti di risalita e comprensori sciistici | 100% |
 | SAD10 | Gasolio e GPL da riscaldamento nelle zone svantaggiate (EN.SI.22a/b): agevolazione sostituita in 4 anni da un contributo per pompe di calore e biomassa efficiente, con salvaguardia per ISEE ≤15.000 € | SAD | 0,02 | Famiglie in zone montane, Sardegna e isole minori che si scaldano con gasolio o GPL | 100% |
 | RP07 | Società e organismi partecipati: attuazione obbligatoria del Testo unico (d.lgs. 175/2016), con commissario ad acta, per le società senza dipendenti o con più amministratori che dipendenti, con fatturato sotto 1 mln o in perdita 4 anni su 5; amministratore unico e tetti ai compensi. Una quota dei risparmi certificati degli enti territoriali va alla finanza pubblica con intesa in Conferenza unificata. Esclusi i servizi pubblici locali essenziali e gli organismi dei servizi sociali | RIALLOCAZIONE | 0,02 | Componenti dei consigli di amministrazione e degli organi delle società chiuse o fuse; enti territoriali che cedono una quota dei risparmi | 100% |
@@ -184,11 +184,11 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 | ACCISE_SALUTE | 0,48 | 0,97 |
 | COESIONE_2127 | 1,90 | 2,00 |
 | PENSIONI | 0,00 | 0,00 |
-| RIALLOCAZIONE | 2,41 | 2,79 |
+| RIALLOCAZIONE | 2,41 | 2,76 |
 | RIORDINO_BONUS | 1,19 | 0,31 |
 | SAD | 0,72 | 1,69 |
 | SPESE_FISCALI | 2,42 | 1,55 |
 | TARIFFE | 0,27 | — |
 | TASSA_SOGGIORNO | 0,00 | 0,11 |
 
-Risorse generali (fungibili): spesa 7,22 ≤ gettito 7,31.
+Risorse generali (fungibili): spesa 7,22 ≤ gettito 7,28.
