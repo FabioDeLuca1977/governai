@@ -1,0 +1,99 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md)
+id: manovra-2027-banche-assicurazioni-energia
+titolo: "Più tasse su banche, assicurazioni e imprese dell'energia, e imposta raddoppiata sugli acquisti di azioni"
+atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, artt. 15, 16, 18, 19, 20 e 21 (Titolo II, Capo III)"
+tipo: legge di bilancio
+data: 2026-10-30
+stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026"
+fonte: "https://documenti.camera.it/apps/commonServices/getDocumento.ashx?sezione=lavori&tipoDoc=testo_pdl&idlegislatura=19&codice=leg.19.pdl.camera.3174.19PDL0221150"
+tema: "01"
+in_breve: "Banche, assicurazioni e imprese dell'energia pagano circa 3,8 miliardi in più nel 2027, in parte solo come anticipo; chi compra azioni italiane paga 1,4 miliardi l'anno in più. È la principale copertura della manovra."
+cosa_fa:
+  - "Art. 18: per il 2027 e il 2028 l'addizionale IRES delle banche sale di 3 punti (dal 3,5% al 6,5%) e le assicurazioni pagano una nuova addizionale di 3 punti; c'è una franchigia di 200.000 euro. Il comma 2 porta all'1,285% dal 2026 il limite dell'imposta sulle riserve matematiche dei rami vita."
+  - "Art. 19: ai fini IRAP banche e assicurazioni possono dedurre solo il 30% (oggi il 90%) delle spese amministrative e degli ammortamenti, in modo permanente, con franchigia di 90.000 euro. Le spese di pubblicità di banche e imprese dell'energia si deducono in tre anni. Nel 2027 gli interessi passivi delle banche si deducono al 96% invece che al 97%."
+  - "Art. 20: le banche rinviano al 2028-2029 una quota di deduzioni di vecchie perdite su crediti e avviamenti prevista per il 2027 (attività per imposte anticipate): lo Stato incassa prima, ma non di più."
+  - "Art. 21: l'IRAP delle imprese che estraggono petrolio e gas, producono e vendono elettricità e gas e trasportano gas sale di 5 punti nel 2027 (al posto dei 2 del d.l. 21/2026) e di 3 punti nel 2028 e 2029; il comma 4 vieta di scaricare l'aumento sui prezzi."
+  - "Art. 15: l'imposta sugli acquisti di azioni italiane raddoppia dallo 0,4% allo 0,8%, e dallo 0,04% allo 0,08% per le operazioni ad alta frequenza, in modo permanente."
+  - "Art. 16: le fondazioni di origine bancaria e gli altri enti non commerciali pagano l'IRES sul 55% degli utili ricevuti invece che sul 50%."
+numeri:
+  - voce: "Addizionale IRES banche e assicurazioni (art. 18)"
+    valore: "+783,7 mln nel 2027 e +694,6 mln nel 2028 (banche 554,1 e 463,2; assicurazioni 229,6 e 231,4); zero dal 2029"
+    fonte: "Relazione tecnica A.C. 3174, art. 18"
+  - voce: "IRAP: deduzione delle spese amministrative al 30% (art. 19, cc. 1-2)"
+    valore: "+1.329 mln nel 2027, +1.545 mln nel 2028, +1.192 mln nel 2029, circa +1.150 mln l'anno dal 2030, permanente (banche circa 1.016, assicurazioni circa 137 a regime); base di spese coinvolte circa 35 mld"
+    fonte: "Relazione tecnica A.C. 3174, art. 19"
+  - voce: "Pubblicità in tre anni e interessi passivi al 96% (art. 19, cc. 3 e 5)"
+    valore: "Pubblicità: +38,6 mln nel 2027, +32,2 nel 2028; interessi: +254,8 mln nel 2028"
+    fonte: "Relazione tecnica A.C. 3174, art. 19"
+  - voce: "Rinvio delle deduzioni delle banche (art. 20)"
+    valore: "+868 mln nel 2027, -434 mln nel 2029 e -434 mln nel 2030: effetto netto zero, è un anticipo"
+    fonte: "Relazione tecnica A.C. 3174, art. 20"
+  - voce: "IRAP imprese dell'energia (art. 21)"
+    valore: "+734,2 mln nel 2027, +873,8 nel 2028, +895,5 nel 2029, +125,9 nel 2030 (saldi e acconti)"
+    fonte: "Relazione tecnica A.C. 3174, art. 21"
+  - voce: "Imposta sulle transazioni finanziarie raddoppiata (art. 15)"
+    valore: "+1.380 mln l'anno dal 2027, permanente (gettito 2026 stimato in 1.380 mln)"
+    fonte: "Relazione tecnica A.C. 3174, art. 15"
+  - voce: "Fondazioni bancarie ed enti non commerciali (art. 16)"
+    valore: "+16,1 mln nel 2027, +21,5 mln l'anno dopo"
+    fonte: "Relazione tecnica A.C. 3174, art. 16"
+  - voce: "Totale di questa scheda"
+    valore: "circa +5,1 mld nel 2027, +4,8 mld nel 2028, +3,1 mld nel 2029 (somma nostra; senza l'imposta sulle azioni: circa 3,8, 3,4 e 1,7 mld)"
+    fonte: "Elaborazione dell'Osservatorio sulla relazione tecnica; coerente con le «misure a carico del settore finanziario» del DPB: 0,21% del PIL nel 2027, 0,13% nel 2028, 0,10% nel 2029"
+chi_guadagna:
+  - "Il bilancio pubblico, e quindi chi riceve le misure finanziate dalla manovra (famiglie, lavoratori, Difesa, imprese)."
+  - "Gli istituti di moneta elettronica, le società di gestione dei fondi e le società di intermediazione mobiliare: sono esclusi dagli aumenti su IRES e IRAP."
+  - "Le banche e assicurazioni piccole, grazie alle franchigie di 200.000 e 90.000 euro."
+chi_paga:
+  - "Le grandi banche e le grandi compagnie di assicurazione: la parte maggiore dei 3,8 mld nel 2027; l'aumento IRAP è permanente."
+  - "Le imprese dell'energia (estrazione di petrolio e gas, produzione, vendita e trasporto di elettricità e gas): circa 0,7-0,9 mld l'anno per tre anni, dopo un aumento già nel 2026."
+  - "Risparmiatori, fondi comuni e fondi pensione che comprano azioni di società italiane: 1,4 mld l'anno; chi compra in Borsa paga 8 euro ogni 1.000 euro invece di 4."
+  - "Forse anche i clienti: famiglie e imprese possono pagare una parte con commissioni, tassi e polizze più cari o bollette più alte, se il divieto di scaricare i costi non viene controllato."
+  - "Le piccole imprese che dipendono dal credito bancario, se il maggior costo permanente passa nei tassi."
+  - "Gli azionisti delle banche, delle assicurazioni e delle imprese dell'energia, tra cui lo Stato e gli enti locali soci di imprese energetiche, con dividendi più bassi."
+rischi_giuridici: "Art. 21: dubbio serio (artt. 3, 53 e 41 Cost.). L'IRAP colpisce il valore della produzione e non l'extraprofitto, e il divieto di scaricare i costi (comma 4) non ha né controlli né sanzioni: è il difetto che la Corte ha censurato nel 2015 per la «Robin tax» (sent. 10/2015). La sent. 111/2024 ha invece ritenuto legittimo, salvo il calcolo della base imponibile (comma 3), il contributo straordinario e temporaneo sulle imprese dell'energia del d.l. 21/2022: un prelievo settoriale è ammesso se ragionevole e temporaneo; il rischio dell'art. 21 dipende dalla mancanza di controlli sulla traslazione e dal fatto che colpisce il valore della produzione. Artt. 18 e 19: rischio basso. Attenzione: l'esame tratta l'art. 19 come temporaneo, ma la deduzione IRAP al 30% vale «a decorrere» dal 2027, cioè per sempre; va riesaminato su questo punto. Fonte: costituzione/esami/AC3174_manovra_2027.md, punto 1."
+valori:
+  - valore: EQU
+    segno: "+"
+    perche: "Chiede un contributo a settori che hanno avuto margini alti negli ultimi anni con i tassi e i prezzi dell'energia, invece che a lavoro e consumi; ma l'IRAP dell'art. 19 resta anche quando i margini scendono."
+  - valore: FUT
+    segno: "="
+    perche: "Copre la manovra con entrate in gran parte certe; ma 0,9 mld del 2027 sono un anticipo che torna indietro nel 2029-2030, le addizionali IRES finiscono nel 2028 e un prelievo permanente sulle banche va giudicato anche per gli effetti su credito e investimenti."
+  - valore: FID
+    segno: "-"
+    perche: "Prelievi cambiati ogni anno, anticipi presentati come entrate e un divieto di traslazione che nessuno controlla rendono le regole meno prevedibili e meno trasparenti."
+  - valore: INN
+    segno: "-"
+    perche: "Raddoppiare l'imposta sugli acquisti di azioni rende meno conveniente investire nelle imprese italiane quotate, in un mercato dei capitali già piccolo."
+  - valore: BEN
+    segno: "="
+    perche: "Se i costi passano sui clienti, l'effetto su famiglie e imprese può annullare in parte il beneficio delle misure che finanzia; oggi non si sa."
+  - valore: CIT
+    segno: "-"
+    perche: "L'imposta sulle azioni pesa anche sul piccolo risparmio e sui fondi pensione, cioè su chi si prepara il futuro da solo; il possesso diretto di azioni è però concentrato nelle famiglie con più patrimonio (Banca d'Italia, Indagine sui bilanci delle famiglie, da verificare), e il peso sui fondi pensione si può evitare con un'esenzione."
+bilancio: "È giusto chiedere di più a settori con margini alti, ed è un pregio che la copertura non pesi su lavoro e consumi; ma 0,9 mld del 2027 sono solo un anticipo, l'aumento IRAP sulle banche è permanente anche se i margini sono ciclici, l'imposta sulle azioni colpisce i risparmiatori più che le banche e il prelievo sull'energia, senza controlli sui prezzi, può essere pagato dai clienti ed è esposto a ricorsi."
+governai:
+  proposte: [03-P2, 01-P2, 01-P1]
+  confronto: "GovernAI non usa banche, assicurazioni e imprese dell'energia come copertura: è una scelta di prudenza, ma anche un vuoto, perché non dice se questi settori contribuiscono in modo giusto. Sull'energia propone una via strutturale invece di un'imposta: contratti per differenza a due vie che restituiscono in bolletta i ricavi oltre una soglia (03-P2, nel programma intermedio solo nella versione regolatoria). La valutazione a 30 anni (01-P1) obbligherebbe a dire che l'art. 20 è un anticipo e non un'entrata. GovernAI però non ha ancora stimato quanto le sue coperture si scarichino sui prezzi: lo stesso difetto che segnaliamo qui."
+cosa_cambieremmo:
+  - "Art. 21: sostituire l'aumento IRAP con un contributo temporaneo sul margine che supera la media 2015-2019, oppure affidare all'ARERA il controllo del divieto di traslazione, con separazione contabile e sanzioni."
+  - "Art. 19: dichiarare nel titolo e nella relazione che l'aumento IRAP è permanente, o mettere una scadenza con valutazione."
+  - "Art. 20: presentarlo nei documenti come anticipo di cassa, con il conto dei 868 mln che tornano indietro nel 2029-2030."
+  - "Art. 15: esentare gli acquisti dentro piani di risparmio a lungo termine e fondi pensione, o ritornare allo 0,4% per i piccoli importi."
+  - "Pubblicare ogni anno, con la Banca d'Italia e l'ARERA, l'andamento di commissioni, tassi e prezzi dell'energia, per verificare se i costi passano ai clienti."
+domande_aperte:
+  - "Quanta parte del prelievo passerà ai clienti con commissioni, tassi, polizze e bollette?"
+  - "Il raddoppio dell'imposta sulle azioni ridurrà gli scambi? La relazione tecnica assume gettito pieno, senza effetti sui volumi."
+  - "Come si coprono dal 2029 le spese permanenti della manovra quando le addizionali finiscono?"
+fonti:
+  - "A.C. 3174, Tomo II, artt. 15-21 (costituzione/testi/AC3174_articolato.txt)"
+  - "A.C. 3174, relazione tecnica, artt. 15, 16, 18, 19, 20, 21 (dati/raw/00b_ddl_bilancio_2027_AC3174_relazioni.txt)"
+  - "MEF, Documento programmatico di bilancio 2027, tabella I.6-1 (dati/raw/00b_mef_dpb_2027.txt)"
+  - "Esame di costituzionalità GovernAI: costituzione/esami/AC3174_manovra_2027.md, punto 1"
+  - "Corte costituzionale, sent. 10/2015 e 111/2024 (verificate su dati.cortecostituzionale.it con costituzione/giurisprudenza.py)"
+  - "GovernAI: programma/schede/03_ambiente.md (03-P2), programma/selezione_intermedio.csv"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

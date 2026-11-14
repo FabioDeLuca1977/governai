@@ -1,0 +1,100 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md)
+id: manovra-2027-scuola-universita
+titolo: "Scuola e università: meno posti per il calo degli alunni, buono paritarie, fine dei dipartimenti di eccellenza"
+atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, art. 66, commi 5 e 9, e artt. 104, 106, 107 e 108 (l'art. 105 sui libri digitali è stato stralciato il 4/11/2026)"
+tipo: legge di bilancio
+data: 2026-10-30
+stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026. L'art. 105 prosegue in un disegno di legge separato (A.C. 3174-ter)"
+fonte: "https://www.camera.it/leg19/126?tab=&leg=19&idDocumento=3174"
+tema: "05"
+in_breve: "Dal settembre 2027 la scuola perde 4.925 posti di docenza e 2.049 posti di personale ATA, per il calo degli alunni. I risparmi vanno allo Stato e non restano alla scuola. All'università finisce il premio ai dipartimenti di eccellenza: dal 2028 i 271 mln l'anno vanno a progetti strategici degli atenei, ripartiti con i criteri del fondo ordinario."
+cosa_fa:
+  - "Art. 66, c. 5: dall'anno scolastico 2027/28 l'organico dell'autonomia scende di altri 4.925 posti, dopo i 5.660 già tagliati dalla legge di bilancio 2025; il personale amministrativo, tecnico e ausiliario (ATA) perde 2.049 posti."
+  - "Art. 66, c. 9: i risparmi dei commi 1-6, compresa la scuola, sono versati al bilancio dello Stato e «restano acquisiti all'erario»."
+  - "Art. 104: proroga al 2027 il buono fino a 1.500 euro per chi frequenta una scuola paritaria secondaria di primo grado o il primo biennio delle superiori, con ISEE fino a 30.000 euro: 20 mln."
+  - "Art. 106: proroga al 2028-2029 il credito d'imposta del 75% per le fondazioni bancarie che versano al Fondo per la povertà educativa minorile, con un limite di 6 mln l'anno."
+  - "Art. 107: dal 2028 abolisce il programma dei Dipartimenti di eccellenza; i 271 mln l'anno vanno a progetti strategici delle università statali, ripartiti con le modalità del fondo ordinario. Crea dal 2029 un Programma nazionale talenti per giovani ricercatori (15 mln l'anno)."
+  - "Art. 108: riunisce in un'unica voce i fondi per le università; cambia il calcolo del limite alle spese di personale; dal 2028 porta conservatori e accademie (AFAM) in tesoreria unica e nel sistema dei pagamenti tracciati SIOPE+."
+  - "Art. 105 (stralciato): obbligava gli editori a vendere una versione digitale stampabile dei libri di testo a metà prezzo."
+numeri:
+  - voce: "Posti tagliati nella scuola dal 2027/28"
+    valore: "4.925 posti di docenza e 2.049 posti ATA, in aggiunta ai 5.660 posti di docenza tagliati dalla legge di bilancio 2025"
+    fonte: "Testo art. 66, c. 5, A.C. 3174; relazione tecnica art. 66"
+  - voce: "Risparmi attribuiti alla scuola"
+    valore: "83,9 mln nel 2027 e 251,7 mln l'anno dal 2028"
+    fonte: "Relazione tecnica A.C. 3174, art. 66, tabella dei risparmi"
+  - voce: "Calo delle nascite"
+    valore: "Da 485.780 nati (2015) a 355.435 (2025): -26,8%"
+    fonte: "ISTAT/Eurostat, in programma/schede/05_istruzione.md"
+  - voce: "Buono per le scuole paritarie"
+    valore: "Fino a 1.500 euro per studente, ISEE fino a 30.000 euro; 20 mln nel 2027"
+    fonte: "Relazione tecnica A.C. 3174, art. 104"
+  - voce: "Dipartimenti di eccellenza"
+    valore: "271 mln l'anno dal 2028 a progetti strategici degli atenei, ripartiti con i criteri del fondo ordinario; restano gli impegni del ciclo 2023-2027"
+    fonte: "Relazione tecnica A.C. 3174, art. 107"
+  - voce: "Programma nazionale talenti"
+    valore: "15 mln l'anno dal 2029, con cofinanziamento del 50% a carico dell'ateneo per i contratti post-dottorato"
+    fonte: "Testo art. 107, cc. 4-5, A.C. 3174"
+chi_guadagna:
+  - "Il bilancio dello Stato: circa 252 mln l'anno dal 2028 dal taglio dei posti."
+  - "Famiglie con ISEE medio-basso che scelgono una scuola paritaria: fino a 1.500 euro."
+  - "Scuole paritarie: più iscrizioni sostenute."
+  - "Università con più studenti o meno risultati di ricerca: i criteri del fondo ordinario, che hanno una quota premiale meno mirata, distribuiscono i 271 mln in modo più largo."
+  - "Un piccolo numero di giovani ricercatrici e ricercatori selezionati: borse post-dottorato e periodi all'estero dal 2029."
+chi_paga:
+  - "Personale precario della scuola, docenti e ATA: meno posti in organico vuol dire meno immissioni in ruolo e meno supplenze."
+  - "Alunne e alunni, soprattutto nelle scuole già in difficoltà: il calo demografico poteva servire a classi più piccole e a più tempo pieno, e invece diventa risparmio."
+  - "Scuole del Mezzogiorno e delle aree interne, se il calo degli alunni vi è maggiore: rischiano più accorpamenti (da verificare sul decreto di riparto)."
+  - "I dipartimenti universitari che avevano vinto il premio di eccellenza e chi ci lavora: perdono un finanziamento selettivo di cinque anni."
+  - "Le università, che devono pagare metà dei contratti del Programma talenti con il proprio bilancio."
+  - "La fiscalità generale: 20 mln per il buono paritarie."
+rischi_giuridici: "Rischio basso, a condizione (costituzione/esami/AC3174_manovra_2027.md, tabella del punto 7): il taglio regge se è motivato dal calo demografico e non tocca i posti di sostegno (sent. 80/2010, che ha dichiarato illegittimo un tetto ai posti di sostegno) e, per prudenza, il tempo pieno; il riparto per regione deve passare per la Conferenza unificata (sent. 223/2023, che ha dichiarato illegittima la norma sul dimensionamento scolastico della L. 197/2022 nella parte in cui non prevedeva il parere della Conferenza). Da verificare su Normattiva il testo vigente dell'art. 1, c. 828, L. 207/2024. Il buono paritarie va alle famiglie e non alle scuole: in questa forma è compatibile con l'art. 33 Cost. L'art. 105 è stato stralciato per il contenuto non finanziario."
+valori:
+  - valore: FUT
+    segno: "+"
+    perche: "Adegua l'organico al numero reale di alunni e riduce spesa permanente, invece di aggiungere debito."
+  - valore: APC
+    segno: "-"
+    perche: "I risparmi lasciano la scuola: non c'è nessun reinvestimento in tutoraggio, tempo pieno o lotta alla dispersione."
+  - valore: EQU
+    segno: "-"
+    perche: "Il taglio non tiene conto, per legge, di dove la dispersione e i divari sono più alti; il riparto è rinviato a un decreto."
+  - valore: RIS
+    segno: "="
+    perche: "Il buono per le paritarie allarga la libertà di scelta educativa delle famiglie con ISEE fino a 30.000 euro, ma non di chi non può pagare la parte di retta che resta."
+  - valore: INN
+    segno: "-"
+    perche: "Finisce un premio selettivo per dipartimento; i fondi seguono i criteri del fondo ordinario, che hanno una quota premiale meno mirata."
+  - valore: INN
+    segno: "+"
+    perche: "Il Programma talenti aiuta a trattenere giovani ricercatori, anche se con importi piccoli."
+  - valore: FID
+    segno: "+"
+    perche: "Tesoreria unica e pagamenti tracciati per conservatori e accademie rendono i conti più verificabili."
+bilancio: "Va bene adeguare la scuola al calo degli alunni senza licenziare nessuno, e tracciare meglio i conti di università e AFAM. Non va bene che tutto il risparmio della scuola vada allo Stato, che il taglio non tenga conto per legge di dove i divari sono più alti e che si chiuda il premio alla ricerca di qualità senza una valutazione."
+governai:
+  proposte: [05-C1, 05-C7, 05-C4, 05-C3]
+  confronto: "GovernAI usa anch'esso il calo degli alunni: in 05-C1 e 05-C4 adegua l'organico dei posti comuni, solo con le uscite per pensione, per un importo stimato fino a circa 0,30 mld l'anno. Ma lo reinveste nell'istruzione: tutor nelle 1.500 scuole più fragili, borse di studio garantite e ITS. La manovra invece lo porta al bilancio generale. GovernAI ha però lo stesso limite di fondo: anche il suo programma toglie posti nelle classi; e la sua stima del risparmio non è ancora certificata. 05-C7 aggiunge risorse alle scuole più svantaggiate senza toccare l'organico. Sul buono paritarie GovernAI non ha una proposta. Sull'università GovernAI (05-C3) chiede bandi stabili e un'agenzia della ricerca, ma non ha una posizione sui dipartimenti di eccellenza: è una lacuna."
+cosa_cambieremmo:
+  - "Lasciare alla scuola almeno metà dei 252 mln l'anno di risparmio, vincolata a tutoraggio e tempo pieno nelle scuole con più dispersione."
+  - "Ripartire il taglio in base al calo reale degli alunni per provincia, escludendo sostegno, tempo pieno e scuole delle aree interne, con intesa in Conferenza unificata."
+  - "Pubblicare prima del taglio una stima delle classi che supereranno i limiti di alunni per classe."
+  - "Valutare il programma dei Dipartimenti di eccellenza 2018-2027 prima di chiuderlo, e tenere almeno una quota del fondo ordinario legata ai risultati della ricerca."
+  - "Accompagnare il buono paritarie con un rapporto pubblico su chi lo riceve, per reddito e territorio, prima di prorogarlo ancora."
+domande_aperte:
+  - "In quali regioni e ordini di scuola cadono i 4.925 posti? Il decreto di riparto non c'è ancora."
+  - "Il taglio dei posti ATA peserà sulle segreterie già sotto organico per le pratiche del PNRR?"
+  - "Il buono paritarie del 2026 quante famiglie ha raggiunto, e con quale ISEE?"
+  - "Con quali criteri il fondo ordinario distribuirà i 271 mln dei dipartimenti: quota premiale o quota base?"
+fonti:
+  - "Testo A.C. 3174, artt. 66 e 104-108: costituzione/testi/AC3174_articolato.txt"
+  - "Relazione illustrativa e relazione tecnica A.C. 3174, artt. 66 e 104-108: dati/raw/00b_ddl_bilancio_2027_AC3174_relazioni.txt"
+  - "Esame di costituzionalità GovernAI, tabella del punto 7 e punto 8 (stralcio del 4/11/2026): costituzione/esami/AC3174_manovra_2027.md"
+  - "Schede GovernAI 05-C1, 05-C3, 05-C4, 05-C7: programma/schede/05_istruzione.md"
+  - "Programma intermedio GovernAI: programma/selezione_intermedio.csv"
+  - "Corte costituzionale, sentenze 80/2010 e 223/2023 (verificate su dati.cortecostituzionale.it con costituzione/giurisprudenza.py)"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

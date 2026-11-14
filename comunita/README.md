@@ -50,6 +50,14 @@ Le registrazioni ai servizi le fa il titolare del progetto. Le chiavi segrete no
    Poi entra dal sito (*Comunità → Entra*) e crea i primi inviti dal profilo.
 9. **Completa `privacy.md`**: titolare, contatto, servizio email, regione; poi fallo rivedere da un consulente privacy prima di aprire.
 
+## Aggiornamenti del database
+
+Quando il sito aggiunge un nuovo tipo di discussione serve un piccolo aggiornamento del database. Si esegue una volta nell'*SQL Editor* il file indicato; rieseguire tutto `schema.sql` produce lo stesso effetto.
+
+| Data | File | Che cosa fa |
+|---|---|---|
+| 14/11/2026 | `migrazioni/2026-11-14_atti_del_governo.sql` | Permette la discussione sotto ogni atto della pagina *Governo di oggi* |
+
 ## Nominare altri moderatori
 
 Dall'*SQL Editor*, sempre con una motivazione che finisce nel registro:

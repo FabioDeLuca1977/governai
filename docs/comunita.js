@@ -93,10 +93,11 @@
   const nomeTema = (t) => {
     if (TEMI[t]) return TEMI[t];
     const p = t.match(/^proposta:(.+)$/); if (p) { const x = (ctx.D.proposte || []).find((q) => q.id === p[1]); return x ? `${p[1]} · ${x.titolo}` : p[1]; }
+    const o = t.match(/^atto:(.+)$/); if (o) { const x = (((ctx.D.osservatorio || {}).atti) || []).find((q) => q.id === o[1]); return x ? `Governo di oggi · ${x.titolo}` : t; }
     const a = t.match(/^area:(\d{2})$/); if (a) { const x = ((ctx.D.mappa || {}).aree || {})[a[1]]; return x ? `Ministero: ${x.breve || a[1]}` : t; }
     return t;
   };
-  const linkTema = (t) => { const p = t.match(/^proposta:(.+)$/); return p ? `#/programma/${encodeURIComponent(p[1])}` : `#/comunita/tema/${encodeURIComponent(t)}`; };
+  const linkTema = (t) => { const p = t.match(/^proposta:(.+)$/); if (p) return `#/programma/${encodeURIComponent(p[1])}`; const o = t.match(/^atto:(.+)$/); return o ? `#/osservatorio/${encodeURIComponent(o[1])}` : `#/comunita/tema/${encodeURIComponent(t)}`; };
 
   // ---------- viste (HTML subito, i dati arrivano dopo in monta) ----------
   function vista(b, c) {

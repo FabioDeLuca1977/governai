@@ -1,0 +1,92 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md). Scritto da un agente AI; non rivisto da una persona esperta.
+id: manovra-2027-payback-farmaci-dispositivi
+titolo: "Farmaci e dispositivi medici: tetti più alti, sconto a chi investe, debito 2019-2023 pagato in parte dallo Stato"
+atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, art. 71, art. 72 e art. 73"
+tipo: legge di bilancio
+data: 2026-10-30
+stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026"
+fonte: "https://www.camera.it/leg19/126?leg=19&idDocumento=3174"
+tema: "06"
+in_breve: "Quando la spesa per farmaci e dispositivi supera il tetto, le imprese restituiscono una parte alle Regioni (il «payback»). La manovra alza i tetti, riduce fino a 160 milioni l'anno il ripiano delle imprese farmaceutiche che investono in Italia e chiude il conto dei dispositivi medici 2019-2023: circa 4 miliardi, di cui 1,4 pagati dallo Stato."
+cosa_fa:
+  - "Dal 2028 alza dello 0,2% il tetto per gli acquisti diretti di farmaci da parte di ospedali e aziende sanitarie, che arriva al 9% del fondo sanitario (art. 71, c. 1)."
+  - "Riduce fino a 160 milioni l'anno, dal 2027 e già per il 2026, il ripiano dovuto dalle imprese farmaceutiche che fanno investimenti aggiuntivi in Italia; un fondo dello Stato rimborsa le Regioni (art. 71, c. 2-7)."
+  - "Criteri e importi dello sconto li decidono un decreto ministeriale e il Ministero delle imprese, non la legge (art. 71, c. 4-5)."
+  - "Per il 2027-2029 usa fino a 70 milioni l'anno del fondo per i farmaci innovativi per dare subito, prima della decisione sul rimborso, farmaci per malattie gravi senza alternative; se poi il farmaco non viene rimborsato, l'impresa deve garantire la cura gratis fino a 12 mesi (art. 72)."
+  - "Alza dal 2027 il tetto per i dispositivi medici al 4,7% del fondo sanitario (art. 73, c. 1)."
+  - "Per gli sforamenti dei dispositivi medici del 2019-2023 fissa ora i tetti regionali uguali a quello nazionale, certifica gli importi entro il 31 marzo 2027 e fa pagare le imprese a rate dal 2027 al 2031; lo Stato paga 350 milioni l'anno dal 2028 al 2031 (art. 73, c. 2-6)."
+numeri:
+  - voce: "Costo del tetto farmaceutico più alto"
+    valore: "circa 292 mln l'anno dal 2028, dentro l'aumento del fondo sanitario"
+    fonte: "Relazione tecnica A.C. 3174, art. 71"
+  - voce: "Sconto sul ripiano per chi investe"
+    valore: "fino a 160 mln l'anno dal 2027, pagati dal bilancio dello Stato"
+    fonte: "Relazione tecnica A.C. 3174, art. 71, c. 2-8"
+  - voce: "Sforamento degli acquisti diretti di farmaci nel 2025"
+    valore: "4,77 mld oltre il tetto dell'8,3%; ripiano delle imprese 2,38 mld"
+    fonte: "AIFA, consuntivo 2025, in programma/schede/06_salute.md (06-C6)"
+  - voce: "Accesso anticipato ai farmaci innovativi"
+    valore: "fino a 70 mln l'anno nel 2027-2029, tolti ad altre finalità dello stesso fondo"
+    fonte: "Relazione tecnica A.C. 3174, art. 72"
+  - voce: "Costo del tetto dei dispositivi al 4,7%"
+    valore: "circa 146 mln l'anno dal 2027, dentro l'aumento del fondo sanitario"
+    fonte: "Relazione tecnica A.C. 3174, art. 73"
+  - voce: "Ripiano dei dispositivi medici 2019-2023"
+    valore: "circa 4 mld in tutto; Stato 1,4 mld (35%), in rate da 350 mln nel 2028-2031; imprese circa 2,6 mld (65%)"
+    fonte: "Relazione tecnica A.C. 3174, art. 73; esame GovernAI, par. 3"
+chi_guadagna:
+  - "Industria farmaceutica: tetto più alto per circa 292 milioni l'anno e sconto fino a 160 milioni per le imprese che investono in Italia, probabilmente quelle con più capacità di investimento (stima: i criteri li fissa il decreto)."
+  - "Fornitori di dispositivi medici del SSN: lo Stato copre 1,4 miliardi del loro debito 2019-2023 e il tetto futuro sale, così gli sforamenti si riducono."
+  - "Regioni: hanno finalmente certezza sugli incassi 2019-2023, con le rate delle imprese e il contributo statale."
+  - "Pazienti con malattie gravi senza alternative: possono avere prima alcuni farmaci nuovi."
+chi_paga:
+  - "Contribuenti: 1,4 miliardi per i dispositivi e 160 milioni l'anno per lo sconto alle imprese farmaceutiche, senza un controllo indipendente sugli investimenti premiati."
+  - "Il resto del SSN: dell'aumento del fondo sanitario, circa 146 milioni nel 2027 e 440 l'anno dal 2028 vanno a farmaci e dispositivi già consumati oltre i vecchi tetti, invece che a personale o a nuove prestazioni."
+  - "Imprese fornitrici di dispositivi: pagano circa 2,6 miliardi su fatture fino a otto anni fa, con regole dei tetti regionali fissate solo adesso; per le più piccole il peso in rapporto al fatturato è maggiore."
+  - "Altre finalità del fondo per i farmaci innovativi: perdono 70 milioni l'anno."
+rischi_giuridici: "Dubbio serio su due punti (costituzione/esami/AC3174_manovra_2027.md, par. 3 e 6). Art. 73: prelievo su cinque anni passati, con tetti regionali fissati ora e concorso dello Stato al 35%, contro il 52% del 2015-2018; la Corte costituzionale ha respinto i dubbi sul payback 2015-2018 anche considerando quel concorso dello Stato (sent. 140/2024, questioni non fondate). Art. 71: lo sconto legato a investimenti «stabilmente localizzati» in Italia è un probabile aiuto di Stato e può ostacolare la libertà di stabilimento (artt. 107-108 e 49 TFUE); manca la clausola di notifica o di esenzione UE."
+valori:
+  - valore: FID
+    segno: "+"
+    perche: "Chiudere dopo anni il contenzioso sul payback 2019-2023, con importi certificati e un calendario, rende più prevedibili i conti delle Regioni e delle imprese."
+  - valore: FID
+    segno: "-"
+    perche: "Lo sconto alle imprese farmaceutiche è deciso con criteri fuori dalla legge e senza valutazione pubblica degli investimenti premiati."
+  - valore: EQU
+    segno: "-"
+    perche: "Il vantaggio va probabilmente a poche imprese con più capacità di investimento, pagato da tutti; per i dispositivi pesa di più sulle piccole imprese, senza un limite legato al fatturato."
+  - valore: BEN
+    segno: "+"
+    perche: "L'accesso anticipato ai farmaci per malattie gravi aiuta pazienti senza alternative, con tutele se il farmaco poi non viene rimborsato."
+  - valore: INN
+    segno: "="
+    perche: "Attirare produzione e ricerca farmaceutica ha valore per il lavoro qualificato e la sicurezza degli approvvigionamenti, ma uno sconto sul ripiano non garantisce investimenti che non ci sarebbero stati comunque."
+  - valore: FUT
+    segno: "-"
+    perche: "Alzare i tetti senza riformarli sposta la spesa dal personale ai beni e non risolve la causa degli sforamenti ripetuti."
+bilancio: "Bene chiudere il conto 2019-2023 dei dispositivi a rate, alzare tetti che erano irrealistici e anticipare i farmaci per malattie gravi. Non bene lo sconto selettivo alle imprese farmaceutiche che investono, con criteri decisi dal Governo e rischio di aiuto di Stato, e una quota dello Stato sul debito dei dispositivi più bassa di quella già ritenuta proporzionata."
+governai:
+  proposte: ["06-C6"]
+  confronto: "GovernAI propone di abrogare lo sconto dell'art. 71 e usa quei 160 milioni come copertura del proprio programma (RA05). Propone anche un budget unico del farmaco al posto dei tetti separati, con contratti legati ai risultati di salute (06-C6); nel programma intermedio entra solo la parte a costo zero, che richiede però un lavoro tecnico di AIFA non ancora pronto e accordi con l'industria. Limiti di GovernAI: non ha una proposta propria sui dispositivi medici né sul debito 2019-2023; la copertura RA05 vale solo se il Parlamento abroga lo sconto; il budget unico parte dal 2028 e non toglie i ricorsi già in corso."
+cosa_cambieremmo:
+  - "Togliere lo sconto dell'art. 71 sul ripiano o, se lo si vuole tenere, mettere i criteri nella legge, renderli neutrali rispetto al Paese dell'investimento, notificarlo alla Commissione UE e non applicarlo al 2026."
+  - "Portare il contributo dello Stato sul payback dei dispositivi al 52%, come nel 2015-2018, oppure motivarlo con dati sui margini delle imprese."
+  - "Mettere un tetto annuo per impresa in rapporto al fatturato verso il SSN e una soglia di esclusione per le microimprese."
+  - "Pubblicare per ogni impresa gli importi di ripiano dovuti e versati e, per lo sconto, gli investimenti dichiarati e verificati."
+  - "Avviare la riforma dei tetti verso un budget unico con acquisti centralizzati e biosimilari, così che i tetti non si sforino ogni anno."
+domande_aperte:
+  - "Quanto valgono in realtà gli sforamenti dei dispositivi 2019-2023 per Regione, prima della certificazione del 31 marzo 2027?"
+  - "Quante imprese farmaceutiche avranno lo sconto e con quali investimenti?"
+  - "La Commissione UE considererà lo sconto un aiuto di Stato da notificare?"
+fonti:
+  - "A.C. 3174, articolato, artt. 71-73: costituzione/testi/AC3174_articolato.txt"
+  - "A.C. 3174, relazione tecnica, artt. 71-73: dati/raw/00b_ddl_bilancio_2027_AC3174_relazioni.txt"
+  - "Esame di costituzionalità GovernAI: costituzione/esami/AC3174_manovra_2027.md"
+  - "AIFA, consuntivo della spesa farmaceutica 2025: dati/serie/06_aifa_spesa_farmaceutica_2025.csv"
+  - "Schede GovernAI area salute: programma/schede/06_salute.md; coperture: programma/selezione_intermedio.csv (RA05)"
+  - "Corte costituzionale, sentenza 140/2024 (verificata su dati.cortecostituzionale.it con costituzione/giurisprudenza.py)"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

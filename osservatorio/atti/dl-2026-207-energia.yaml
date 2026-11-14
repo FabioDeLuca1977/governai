@@ -1,0 +1,95 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md). Scritto da un agente AI; non rivisto da una persona esperta.
+id: dl-2026-207-energia
+titolo: "Bollette: si rimborsa una parte del costo del gas alle centrali, e il conto passa a chi vende elettricità"
+atto: "Decreto-legge 13 novembre 2026, n. 207, artt. 1-2 (modifica gli artt. 4, 6 e 9 del DL 21/2026, convertito dalla L. 49/2026)"
+tipo: decreto-legge
+data: 2026-11-13
+stato: "In vigore dal 14 novembre 2026; da convertire in legge entro il 12 gennaio 2027"
+fonte: "https://www.gazzettaufficiale.it/eli/id/2026/11/13/26G00227/sg"
+tema: "03"
+in_breve: "Il decreto rafforza i rimborsi alle centrali a gas, perché offrano elettricità a prezzi più bassi, e fa pagare il costo soprattutto a chi vende elettricità a prezzi legati al mercato del giorno. Secondo stime riportate dalla stampa, il risparmio è piccolo per le famiglie e maggiore per le imprese che consumano molta energia. Il decreto non ha una relazione con numeri ufficiali su costi e beneficiari."
+cosa_fa:
+  - "Entro 30 giorni l'ARERA scrive le regole per riconoscere chi trattiene capacità produttiva per alzare i prezzi e quali comportamenti sono abusi di mercato, in base al regolamento (UE) 1227/2011 (art. 1, lett. b, nuovo comma 1)."
+  - "Dal 1° gennaio 2027 alle centrali a gas si rimborsano anche altre voci della tariffa di trasporto del gas. Il costo si recupera con componenti sui prelievi di elettricità (nuovo comma 2)."
+  - "Un secondo rimborso alle centrali a gas, deciso dall'ARERA per non più di 18 mesi. Ogni giorno non può superare la differenza tra il prezzo del gas sul mercato all'ingrosso TTF e 58,9 euro per MWh. Si riduce nelle ore in cui il prezzo non lo fissa una centrale rimborsata (nuovo comma 3)."
+  - "Il secondo rimborso è pagato da chi risponde degli sbilanciamenti, in proporzione all'elettricità prelevata. Sono esclusi: l'energia dei contratti a termine firmati prima del decreto e prodotta da rinnovabili senza incentivi entrate in esercizio dal 2017; l'energia comprata all'ingrosso a prezzo fisso prima del decreto, nella quantità necessaria a servire clienti con contratti a prezzo fisso; gli accumuli e i servizi ancillari. Per l'energia rinnovabile venduta a prezzo fisso il corrispettivo non supera 15 euro per MWh (nuovi commi 3-bis, 3-quinquies)."
+  - "Chi paga il corrispettivo non può scaricarlo sui clienti, salvo che sui contratti legati al prezzo del giorno (nuovo comma 3-sexies)."
+  - "Entro il 30 novembre 2026 l'ARERA decide come usare le risorse già versate alla Cassa per i servizi energetici e ambientali per ridurre gli oneri nelle bollette del gas, nei limiti di quelle risorse; il testo non indica l'anno dello sconto (art. 1, lett. c)."
+  - "Abroga i commi 12 e 13 dell'art. 4 del DL 21/2026 (art. 1, lett. a); il testo del decreto non dice che cosa prevedevano."
+numeri:
+  - voce: "Soglia del secondo rimborso"
+    valore: "58,9 euro per MWh di gas; il rimborso giornaliero non supera il prezzo TTF del giorno meno questa soglia"
+    fonte: "DL 207/2026, art. 1, nuovo comma 3 dell'art. 6 del DL 21/2026"
+  - voce: "Prezzo del gas all'ingrosso alla data del decreto"
+    valore: "82,2 euro per MWh (stampa, non da fonte ufficiale)"
+    fonte: "L'Espresso, 10 novembre 2026"
+  - voce: "Durata massima del secondo rimborso"
+    valore: "18 mesi"
+    fonte: "DL 207/2026, art. 1"
+  - voce: "Tetto del corrispettivo sull'energia rinnovabile a prezzo fisso"
+    valore: "15 euro per MWh"
+    fonte: "DL 207/2026, art. 1, nuovo comma 3-quinquies"
+  - voce: "Effetto atteso sul prezzo finale dell'energia"
+    valore: "meno 4-5% secondo il ministero competente; circa 17 euro l'anno per una famiglia secondo un centro studi indipendente (stime riportate dalla stampa)"
+    fonte: "L'Espresso, 10 novembre 2026"
+  - voce: "Costo per i produttori di elettricità, insieme alla legge di bilancio"
+    valore: "6-7 mld secondo l'associazione dei produttori (stima di parte)"
+    fonte: "L'Espresso, 10 novembre 2026"
+  - voce: "Prezzo unico nazionale dell'elettricità"
+    valore: "115,32 euro per MWh nel 2025, +6,3% sul 2024"
+    fonte: "GME, serie 03_pun_gme citata in programma/schede/03_ambiente.md"
+  - voce: "Costo del secondo rimborso per il sistema elettrico"
+    valore: "non quantificato; il decreto lo pone a carico degli operatori con corrispettivi fissati dall'ARERA, non del bilancio dello Stato, e non ha una clausola di copertura con oneri anno per anno"
+    fonte: "DL 207/2026, art. 1, nuovo comma 3-bis; costituzione/esami/gu/26G00227.md, controllo sulla copertura"
+chi_guadagna:
+  - "Imprese che consumano molta energia e clienti con contratti legati al prezzo del giorno: vedono per primi il calo del prezzo all'ingrosso."
+  - "Famiglie: guadagnano poco e più tardi; chi ha un contratto a prezzo fisso lo vede solo alla scadenza."
+  - "Centrali a gas: ricevono i rimborsi, anche se in cambio devono offrire a prezzi più bassi."
+  - "Clienti del gas: una riduzione degli oneri in bolletta, nei limiti delle risorse già versate, con regole ARERA entro il 30 novembre 2026."
+chi_paga:
+  - "Venditori e operatori che rispondono degli sbilanciamenti: pagano il secondo rimborso e non possono scaricarlo sui contratti a prezzo fisso."
+  - "Produttori da fonti rinnovabili e idroelettriche già in esercizio: con un prezzo all'ingrosso più basso guadagnano meno, e una parte paga il corrispettivo fino a 15 euro per MWh."
+  - "Tutti i consumatori di elettricità: pagano il primo rimborso attraverso le componenti sui prelievi."
+  - "Il clima e chi verrà dopo: si riduce il costo di bruciare gas proprio quando serve un segnale di prezzo a favore delle rinnovabili."
+rischi_giuridici: "Lo screening automatico (costituzione/esami/gu/26G00227.md) segnala un rischio medio sull'art. 1 per la data del 1° gennaio 2017. È probabilmente un falso allarme: quella data serve a escludere dal prelievo alcuni contratti, non a colpire il passato. Il dubbio di affidamento per i contratti a prezzo fisso già firmati è in gran parte risolto dal nuovo comma 3-bis, lett. b): è esclusa dal corrispettivo l'energia comprata a prezzo fisso prima del decreto per servire clienti a prezzo fisso. Resta da verificare che l'esclusione copra tutti i casi, perché chi paga il corrispettivo non può scaricarlo su quei contratti. La Corte costituzionale ammette modifiche di questo tipo se sono prevedibili e ragionevoli: ha respinto i dubbi sulla rimodulazione degli incentivi al fotovoltaico (sent. 16/2017). Sul fronte europeo pesano due punti. I rimborsi a un solo tipo di centrali, pagati con componenti tariffarie, possono essere aiuti di Stato (artt. 107-108 TFUE): il decreto parla di aiuti di Stato nelle premesse, ma non dice se la misura è stata notificata alla Commissione. Inoltre il controllo sulle offerte deve restare nei limiti del regolamento (UE) 1227/2011. Il controllo sulla copertura segnala oneri non quantificati anno per anno (art. 81 Cost.); il costo del secondo rimborso è però posto a carico degli operatori, non del bilancio dello Stato."
+valori:
+  - valore: BEN
+    segno: "+"
+    perche: "Abbassa un po' il prezzo dell'elettricità, soprattutto per le imprese energivore, per le quali il prezzo dell'energia pesa sulla tenuta di produzione e lavoro; riduce gli oneri nelle bollette del gas."
+  - valore: FUT
+    segno: "-"
+    perche: "Rende più conveniente usare il gas per produrre elettricità e toglie margini alle rinnovabili, che sono la soluzione stabile al caro bollette."
+  - valore: EQU
+    segno: "-"
+    perche: "Il beneficio cresce con i consumi: va soprattutto alle grandi imprese; le famiglie con redditi bassi ricevono pochi euro e nessun aiuto mirato."
+  - valore: FID
+    segno: "-"
+    perche: "Cambia per decreto regole convertite in legge sette mesi prima, senza numeri ufficiali su costi e beneficiari. Le nuove regole ARERA contro gli abusi di mercato sono invece un passo verso la trasparenza."
+bilancio: "Va bene il controllo più severo sugli abusi di mercato e l'idea di far arrivare in bolletta il costo basso delle rinnovabili. Non va bene farlo con un sussidio temporaneo al gas, di costo ignoto, che pesa su venditori e produttori in modo poco prevedibile e aiuta poco le famiglie."
+governai:
+  proposte: [03-P2, 01-P5, 03-P1]
+  confronto: "GovernAI punta allo stesso obiettivo con strumenti stabili: contratti per differenza a due vie sulle nuove rinnovabili, con gli extra-ricavi restituiti in bolletta (03-P2), e contratti di lungo periodo per le piccole imprese con una garanzia pubblica (01-P5). Questi strumenti scollegano davvero il prezzo dell'elettricità da quello del gas, invece di sussidiare il gas. Ma GovernAI ha tre limiti. Primo, agisce solo sui nuovi impianti e dà effetti in anni, non nel 2027. Secondo, il programma intermedio sceglie la variante minima di 03-P2, senza il gruppo di acquisto a prezzo di costo per le famiglie vulnerabili, e la variante minima di 03-P1, senza dividendo climatico. Terzo, il programma completo alza il prezzo del gas per chi lo consuma. Davanti a un picco del prezzo del gas oggi, GovernAI non ha una risposta pronta."
+cosa_cambieremmo:
+  - "Allegare in conversione una relazione tecnica con il costo per anno, chi lo paga e l'effetto atteso per tipo di cliente."
+  - "Far pubblicare all'ARERA ogni mese i rimborsi pagati, i corrispettivi raccolti e l'effetto sul prezzo all'ingrosso, in formato aperto."
+  - "Prevedere una valutazione indipendente prima della scadenza dei 18 mesi, senza proroghe automatiche."
+  - "Spostare una parte delle risorse sul bonus sociale per le famiglie con redditi bassi, invece di uno sconto uguale per tutti i consumi."
+  - "Verificare che l'esclusione del comma 3-bis copra tutti i contratti a prezzo fisso già firmati e comunicare alla Commissione europea la misura come aiuto di Stato, se lo è."
+  - "Avviare insieme la strada stabile: contratti per differenza a due vie per le nuove rinnovabili e per il potenziamento degli impianti esistenti, come permette il regolamento (UE) 2024/1747."
+domande_aperte:
+  - "Quanto costerà in tutto il secondo rimborso, e quanto pagheranno venditori, produttori rinnovabili e clienti?"
+  - "Che cosa prevedevano i commi 12 e 13 dell'art. 4 del DL 21/2026, ora abrogati?"
+  - "La misura è stata notificata alla Commissione europea come aiuto di Stato?"
+  - "Il gas rimborsato farà crescere le esportazioni di elettricità verso altri Paesi, con un beneficio pagato dai consumatori italiani?"
+  - "Come si somma il risparmio con i nuovi oneri in bolletta a favore delle imprese energivore previsti dalla legge di bilancio?"
+fonti:
+  - "Decreto-legge 13 novembre 2026, n. 207, GU n. 265 del 13/11/2026, https://www.gazzettaufficiale.it/eli/id/2026/11/13/26G00227/sg (testo in legislazione/archivio/testi/2026/26G00227.txt)"
+  - "Screening costituzionale automatico, costituzione/esami/gu/26G00227.md"
+  - "Corte costituzionale, sentenza 16/2017 (verificata su dati.cortecostituzionale.it con costituzione/giurisprudenza.py)"
+  - "L'Espresso, «Decreto bollette», 10 novembre 2026, https://lespresso.it/c/politica/2026/11/10/decreto-bollette-approvazione-cosa-prevede-cosa-cambia/65805 (stime di ministero, centro studi e associazioni riportate dalla stampa)"
+  - "Programma GovernAI, programma/schede/03_ambiente.md (03-P1, 03-P2) e programma/schede/01_economia.md (01-P5); varianti scelte in programma/selezione_intermedio.csv"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

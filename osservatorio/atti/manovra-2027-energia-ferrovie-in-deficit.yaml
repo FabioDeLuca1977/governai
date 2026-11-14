@@ -1,0 +1,101 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md). Scritto da un agente AI; non rivisto da una persona esperta.
+id: manovra-2027-energia-ferrovie-in-deficit
+titolo: "Energia e ferrovie in deficit con la clausola UE; dal 2029 una parte del costo passa sulle bollette"
+atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, artt. 76, 77, 78, 79, 80, 81, 82, 83 e 84"
+tipo: legge di bilancio
+data: 2026-10-30
+stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026. L'attivazione della clausola da parte del Consiglio UE era attesa all'ECOFIN di novembre 2026."
+fonte: "https://www.camera.it/leg19/126?leg=19&idDocumento=3174"
+tema: "03"
+in_breve: "Circa 10,6 miliardi nel 2027-2028 sono spesi in disavanzo grazie alla clausola europea per la sicurezza energetica: ferrovie, sconti sull'elettricità per le imprese, fotovoltaico, edifici pubblici più efficienti, biometano. Dal 2029 una parte del costo passa sulle bollette di tutti. Le imprese aiutate devono investire in energia pulita almeno quanto ricevono."
+cosa_fa:
+  - "Autorizza gli interventi degli artt. 77-83 «tenuto conto» della clausola di salvaguardia nazionale del regolamento UE 2024/1263, con un monitoraggio mensile della Ragioneria (art. 76)."
+  - "Finanzia la rete ferroviaria: 600 milioni nel 2027 e 970 nel 2028 per manutenzione straordinaria; 2.190 e 1.670 milioni per investimenti, tra cui 1.600 milioni per la variante del Terzo valico dei Giovi, 500 per l'accesso al Brennero a Trento e 1.450 per sicurezza e tecnologia (art. 77)."
+  - "Per le centrali idroelettriche esistenti: 800 milioni nel 2028-2030 per la manutenzione dei bacini e contratti ventennali a prezzo di costo con il GSE per il 50-80% dell'energia prodotta; i guadagni riducono gli oneri in bolletta (art. 78)."
+  - "Contributi fino al 40% dell'investimento per 3 GW di nuovi impianti fotovoltaici fino a 1 MW: 800 milioni nel 2028 e 200 l'anno nel 2029-2030 (art. 79)."
+  - "Riqualificazione energetica pagata per intero, con almeno il 30% di energia in meno: 600 milioni per ospedali, 650 per scuole, 200 per università, ricerca e conservatori, 150 per piscine e palaghiaccio (art. 80)."
+  - "Incentivi con gare al biometano: contributo fino al 40% dell'investimento (100 milioni nel 2028, 300 l'anno nel 2029-2030) e un incentivo sulla produzione pagato dalle tariffe del gas (art. 81)."
+  - "Per le imprese che consumano molta energia: compensazione fino al 50% del prezzo all'ingrosso sul 50% dei consumi, per tre anni, con 1.000 milioni nel 2028, 800 nel 2029 e 700 nel 2030 (art. 82)."
+  - "Per le piccole e medie imprese: stesso meccanismo con 1.000 milioni nel 2027, 1.430 nel 2028, 600 nel 2029 e 500 nel 2030 (art. 83)."
+  - "Le imprese aiutate devono investire almeno quanto ricevono in rinnovabili, accumuli, efficienza ed elettrificazione; il GSE controlla e recupera l'aiuto se non lo fanno (artt. 82-83)."
+  - "Crea un'unità di missione al Ministero dell'ambiente per gestire il Piano sociale per il clima finanziato dall'UE (art. 84)."
+numeri:
+  - voce: "Spesa sul bilancio dello Stato negli artt. 77-83"
+    valore: "circa 3,8 mld nel 2027 e 6,8 mld nel 2028 (somma degli stanziamenti fatta dall'Osservatorio)"
+    fonte: "A.C. 3174, artt. 77-83; relazione tecnica, artt. 77-83"
+  - voce: "Spazio della clausola per la sicurezza energetica"
+    valore: "0,3 punti di PIL l'anno nel 2027 e nel 2028"
+    fonte: "UPB, audizione sul DPFP 2026 (dati/raw/00b_upb_audizione_dpfp_2026.txt)"
+  - voce: "Costo spostato sulle bollette elettriche dal 2029"
+    valore: "circa 1,6 mld nel 2029 e 1,4 mld nel 2030 (artt. 79, 82 e 83), più 0,3 mld l'anno sulle tariffe del gas per il biometano e un incentivo sulla produzione non quantificato"
+    fonte: "A.C. 3174, artt. 79, 81, 82 e 83"
+  - voce: "Spesa dello Stato oltre la fine della clausola"
+    valore: "0,8 mld l'anno nel 2029-2030 per idroelettrico ed edifici pubblici; 390 mln nel 2029 e 500 mln nel 2030 per Terzo valico e Messina-Catania dentro il contratto di programma"
+    fonte: "A.C. 3174, artt. 77, c. 6, 78 e 80"
+  - voce: "Minori incentivi futuri grazie ai contributi al fotovoltaico"
+    valore: "circa 89 mln l'anno in meno di oneri per il sistema elettrico"
+    fonte: "Relazione tecnica A.C. 3174, art. 79"
+  - voce: "Prezzo medio all'ingrosso dell'elettricità (PUN)"
+    valore: "115,32 euro/MWh nel 2025, +6,3% sul 2024"
+    fonte: "GME, in programma/schede/03_ambiente.md (03-P2)"
+chi_guadagna:
+  - "Imprese che consumano molta energia e piccole e medie imprese: sconti sull'elettricità per circa 6 miliardi in quattro anni, in cambio di investimenti verdi."
+  - "Il gestore della rete ferroviaria e le imprese di costruzione delle grandi opere: 5,4 miliardi nel 2027-2028, con la possibilità di spostare le risorse tra opere con un decreto. Delle opere indicate per nome, 2,1 mld vanno a Terzo valico e Brennero, al Nord, e 310 mln a Napoli-Bari e Messina-Catania, al Sud (art. 77, c. 2)."
+  - "Ospedali, scuole, università e piscine pubbliche: lavori di efficienza pagati per intero, con bollette più basse dopo."
+  - "Produttori di fotovoltaico e di biometano e il settore agricolo che produce biogas."
+  - "Chi paga la bolletta, nel lungo periodo: i contratti a prezzo di costo sull'idroelettrico riportano in bolletta una parte dei guadagni dei concessionari."
+chi_paga:
+  - "Le generazioni future: la spesa del 2027-2028 è fatta in deficit e aumenta il debito. Il debito arriva al 138,5% del PIL nel 2027 soprattutto per la cassa dei crediti dei bonus edilizi degli anni passati (MEF, DPB 2027, par. I.7)."
+  - "Famiglie e imprese con la bolletta elettrica: dal 2029 pagano con gli oneri di sistema parte degli sconti alle imprese, circa 1,4-1,6 miliardi l'anno."
+  - "Chi usa il gas: paga in tariffa gli incentivi al biometano, per un importo non ancora noto."
+  - "Concessionari degli impianti idroelettrici: vendono gran parte dell'energia a prezzo di costo invece che a prezzo di mercato."
+rischi_giuridici: "Dubbio da chiudere (costituzione/esami/AC3174_manovra_2027.md, par. 2; art. 81, secondo comma, Cost. e art. 6 L. 243/2012). Le Camere hanno approvato il 13 ottobre 2026 le risoluzioni sulla Relazione ex art. 6 L. 243/2012 (DPB 2027, nota 20): va verificato che gli importi per anno rientrino in quelli autorizzati, e la norma dovrebbe richiamarli. Gli oneri del 2029-2030 vanno oltre il periodo della clausola e richiedono una copertura ordinaria. Gli aiuti degli artt. 81, 82 e 83 sono efficaci solo dopo l'autorizzazione della Commissione UE (art. 108 TFUE)."
+valori:
+  - valore: FUT
+    segno: "-"
+    perche: "Si spende in deficit e dal 2029 si scarica una parte del costo sulle bollette, senza una copertura stabile."
+  - valore: FUT
+    segno: "+"
+    perche: "Rinnovabili, efficienza degli edifici pubblici e ferrovie riducono emissioni e dipendenza dal gas negli anni futuri."
+  - valore: INN
+    segno: "+"
+    perche: "Gli aiuti alle imprese sono legati a investimenti in elettrificazione, accumuli ed efficienza, con verifica e recupero."
+  - valore: EQU
+    segno: "-"
+    perche: "Gli sconti vanno alle imprese, mentre dal 2029 pagano anche le famiglie in bolletta, comprese quelle con redditi bassi; la parte ferroviaria con nome e cognome va soprattutto a opere del Nord."
+  - valore: FID
+    segno: "-"
+    perche: "Grandi somme ferroviarie si possono spostare tra opere con un decreto e non risulta una valutazione costi-benefici pubblica della variante del Terzo valico (da verificare)."
+  - valore: BEN
+    segno: "+"
+    perche: "Ospedali e scuole più efficienti e una rete ferroviaria mantenuta migliorano servizi usati ogni giorno."
+  - valore: SIC
+    segno: "+"
+    perche: "Più produzione nazionale da rinnovabili, idroelettrico e biometano riduce il rischio di crisi di approvvigionamento."
+bilancio: "Bene il vincolo che obbliga le imprese aiutate a investire in energia pulita, i contratti a prezzo di costo sull'idroelettrico e l'efficienza di ospedali e scuole. Non bene finanziare in deficit anche spese ferroviarie già programmate, spostare dal 2029 una parte del costo sulle bollette di tutti e assegnare miliardi a grandi opere senza una valutazione indipendente."
+governai:
+  proposte: ["03-P2", "01-P5", "04-P4", "03-P1", "04-P8"]
+  confronto: "GovernAI non finanzia nuova spesa in deficit: su questo punto il disegno di legge non rispetta la regola che GovernAI applica a se stesso. Sui contenuti ci sono somiglianze: GovernAI propone contratti per differenza a due vie che riportano in bolletta i guadagni oltre il costo (03-P2), come fa l'art. 78 per l'idroelettrico; e contratti di lungo periodo per le PMI con una garanzia pubblica (01-P5), al posto di sconti temporanei in bolletta. Chiede una valutazione indipendente per ogni opera oltre 500 milioni (04-P4), che servirebbe al Terzo valico. GovernAI va nella direzione opposta sui sussidi: riduce agevolazioni ai combustibili fossili, anche l'accisa ridotta per i grandi consumatori di gas (SAD08). Limiti di GovernAI: la sua offerta per l'energia nel programma intermedio vale circa 0,15 mld (01-P5 essenziale) e non risponde a un aumento improvviso dei prezzi; le sue riduzioni dei sussidi fanno salire i costi di alcune imprese nel breve periodo; i treni per i pendolari (04-P3) sono rimasti in gran parte fuori."
+cosa_cambieremmo:
+  - "Richiamare nell'art. 76 la deliberazione delle Camere con data e importi per anno, e ridurre gli stanziamenti se il Consiglio UE attiva la clausola per importi minori."
+  - "Indicare ora una copertura ordinaria per gli oneri del 2029-2030, invece di spostarli sugli oneri di sistema delle bollette."
+  - "Se una parte resta in bolletta, escludere le famiglie con il bonus sociale e farla pagare in proporzione ai consumi delle imprese beneficiarie."
+  - "Sottoporre la variante del Terzo valico e l'accesso al Brennero a un'analisi costi-benefici pubblica e limitare gli spostamenti tra opere a decisioni motivate e comunicate al Parlamento."
+  - "Trasformare una parte degli sconti alle PMI in contratti di lungo periodo con impianti rinnovabili, con garanzia pubblica, che restano dopo il 2030."
+  - "Pubblicare l'elenco delle imprese aiutate, gli importi e gli investimenti verificati dal GSE."
+domande_aperte:
+  - "Quali importi per anno hanno autorizzato le Camere il 13 ottobre 2026, e il Consiglio UE ha attivato la clausola?"
+  - "Quanto peseranno sulle bollette delle famiglie gli oneri dal 2029 e l'incentivo al biometano pagato dalle tariffe del gas?"
+  - "Perché spese ferroviarie già programmate sono finanziate con una clausola per la sicurezza energetica?"
+fonti:
+  - "A.C. 3174, articolato, artt. 76-84: costituzione/testi/AC3174_articolato.txt"
+  - "A.C. 3174, relazione tecnica, artt. 76-84: dati/raw/00b_ddl_bilancio_2027_AC3174_relazioni.txt"
+  - "Esame di costituzionalità GovernAI: costituzione/esami/AC3174_manovra_2027.md e AC3174_screening.md"
+  - "MEF, Documento programmatico di bilancio 2027: dati/raw/00b_mef_dpb_2027.txt"
+  - "UPB, audizione sul DPFP 2026: dati/raw/00b_upb_audizione_dpfp_2026.txt"
+  - "Schede GovernAI: programma/schede/03_ambiente.md, programma/schede/01_economia.md, programma/schede/04_infrastrutture.md"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

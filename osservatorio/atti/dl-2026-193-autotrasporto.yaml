@@ -1,0 +1,104 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md). Scritto da un agente AI; non rivisto da una persona esperta.
+id: dl-2026-193-autotrasporto
+titolo: "Altri aiuti contro il caro gasolio a camion, agricoltura e pesca, più norme estranee al tema"
+atto: "Decreto-legge 23 ottobre 2026, n. 193, artt. 1-11; disegno di legge di conversione A.S. 2074"
+tipo: decreto-legge
+data: 2026-10-23
+stato: "In vigore dal 24 ottobre 2026; all'esame del Senato (A.S. 2074); da convertire in legge entro il 22 dicembre 2026"
+fonte: "https://www.gazzettaufficiale.it/eli/id/2026/10/23/26G00216/sg"
+tema: "04"
+in_breve: "Il decreto spende 322 milioni nel 2026 e 60 nel 2027 per compensare il caro carburante di autotrasporto, agricoltura e pesca, e per altre spese. Rinvia il contributo sui piccoli pacchi venduti online e contiene anche norme su straordinari di polizia e rendicontazione di sostenibilità."
+cosa_fa:
+  - "Autotrasporto: il credito d'imposta sul gasolio di marzo-agosto 2026 cresce di 66,4 milioni. Un nuovo credito fino a 60 milioni copre le spese dal 1° settembre al 5 ottobre 2026 e si usa in compensazione entro il 2027 (art. 1, commi 1-2)."
+  - "Rinvia ancora, dal 1° ottobre 2026 (data fissata dal d.l. 38/2026) al 1° gennaio 2027, il contributo sulle spedizioni di modico valore vendute con il commercio elettronico; costo 61,25 milioni (art. 1, comma 3)."
+  - "Sopprime alcune misure del d.l. 162/2026 (art. 1, commi 4 e 5, e art. 4) e ne riduce gli oneri del 2026 da 611,8 a 549,8 milioni, cioè di 62 milioni (art. 1, comma 4)."
+  - "Il ministero dei trasporti pubblica ogni tre mesi le quote minime e massime del costo del carburante nel prezzo del trasporto. Per i contratti non scritti le quote minime sono obbligatorie in fattura (art. 2)."
+  - "Le imprese di autotrasporto possono sospendere le rate di locazione finanziaria dei veicoli da novembre 2026 a marzo 2027, senza costi per lo Stato (art. 3)."
+  - "Nei contratti di logistica, al trasferimento delle merci si applicano sempre le regole del contratto di trasporto e non quelle dell'appalto (art. 4, nuovo art. 1677-bis c.c.)."
+  - "Nasce la lettera di vettura elettronica nazionale: dal 9 luglio 2027 le autorità di controllo accettano i dati digitali delle piattaforme europee eFTI (art. 5)."
+  - "Agricoltura: contributo a fondo perduto del 20% della spesa per carburante dal 1° giugno al 15 ottobre 2026, fino a 0,45 euro al litro, entro 60 milioni; 14,4 milioni per i sistemi informatici dell'AGEA (art. 6)."
+  - "Pesca e acquacoltura: contributo fino al 10% della spesa per carburante nello stesso periodo, entro 10 milioni (art. 7)."
+  - "50 milioni per pagare straordinari già svolti dalle Forze di polizia (art. 8)."
+  - "Esonera dalla rendicontazione di sostenibilità, per il 2026 e il 2027, le imprese con ricavi fino a 450 milioni o fino a 1.000 dipendenti in media (art. 10). Il testo non cita una base europea: va verificata nella relazione A.S. 2074."
+numeri:
+  - voce: "Oneri totali"
+    valore: "322,05 milioni nel 2026 e 60 milioni nel 2027 (fabbisogno)"
+    fonte: "DL 193/2026, art. 9, comma 1"
+  - voce: "Credito per il gasolio dell'autotrasporto"
+    valore: "126,4 milioni nel 2026 (66,4 + 60)"
+    fonte: "DL 193/2026, art. 1, commi 1, 2 e 5"
+  - voce: "Platea dell'aiuto agricolo precedente usata per la stima"
+    valore: "138.227 domande ammesse su 142.725; costi riconosciuti 517,4 milioni; stima per il nuovo periodo 121 milioni di litri, fabbisogno massimo 54,5 milioni"
+    fonte: "Relazione tecnica, A.S. 2074, art. 6"
+  - voce: "Coperture principali"
+    valore: "158,65 milioni dal fondo dell'art. 1-quater del DL 137/2020; 62 milioni dal Fondo per gli interventi strutturali di politica economica; 40 milioni tolti al credito per i fertilizzanti agricoli; 30 milioni dal fondo di riassicurazione dei rischi; 60 milioni nel 2027 dal fondo dell'art. 27, comma 17, del DL 34/2020"
+    fonte: "DL 193/2026, art. 9"
+  - voce: "Sussidio esistente: rimborso dell'accisa sul gasolio per l'autotrasporto"
+    valore: "1.282,6 milioni nel 2025"
+    fonte: "MASE, Catalogo dei sussidi ambientalmente dannosi, VIII ed. (EN.SI.19), citato in programma/coperture_menu.csv"
+  - voce: "Sussidio esistente: gasolio agricolo agevolato"
+    valore: "1.080,1 milioni nel 2025"
+    fonte: "MASE, Catalogo dei sussidi ambientalmente dannosi, VIII ed. (EN.SI.21), citato in programma/coperture_menu.csv"
+  - voce: "Parco veicoli dell'autotrasporto merci"
+    valore: "oltre 600.000 veicoli industriali"
+    fonte: "Relazione tecnica, A.S. 2074, art. 3 (dato di settore)"
+chi_guadagna:
+  - "Imprese di autotrasporto: 126,4 milioni di credito d'imposta, la sospensione delle rate e una quota minima di costo del carburante garantita nei contratti non scritti. Il credito cresce con il gasolio consumato, quindi va di più a chi ha più camion."
+  - "Imprese agricole (circa 138.000 nella misura precedente) e della pesca: 70 milioni a fondo perduto, esenti da imposte."
+  - "Piattaforme di commercio elettronico, in gran parte con sede fuori dall'UE, e i loro clienti: il contributo sui pacchi di modico valore slitta ancora."
+  - "Imprese medio-grandi sotto le nuove soglie: risparmiano i costi della rendicontazione di sostenibilità."
+  - "Personale delle Forze di polizia: riceve il pagamento di straordinari già svolti."
+chi_paga:
+  - "Tutti i contribuenti: la spesa è coperta tagliando fondi di bilancio che servivano ad altre priorità."
+  - "Le stesse imprese agricole in parte: 40 milioni vengono tolti al credito per i fertilizzanti."
+  - "Società di locazione finanziaria: anticipano liquidità per cinque mesi, con gli interessi a carico delle imprese."
+  - "Committenti del trasporto, e alla fine chi compra le merci: le quote minime del costo del carburante alzano i prezzi dei contratti non scritti."
+  - "Chi guida i camion e chi lavora nella logistica: la nuova regola sul contratto di trasporto può ridurre la responsabilità del committente per salari e contributi prevista negli appalti (da verificare)."
+  - "Negozi italiani che competono con le vendite a distanza dall'estero; e il clima, per il sostegno al gasolio."
+  - "Chi lavora nelle imprese esonerate, chi vi investe e le comunità vicine: per due anni avranno meno informazioni pubbliche su impatti ambientali e sociali."
+rischi_giuridici: "Lo screening automatico (costituzione/esami/gu/26G00216.md) segnala un rischio medio sull'art. 1: il credito per il gasolio è un vantaggio a imprese selezionate (artt. 107-108 TFUE) e il testo non richiama la base europea. Per agricoltura e pesca il decreto richiama invece il Quadro temporaneo sugli aiuti di Stato per la crisi in Medio Oriente. L'art. 2 merita attenzione: nel 2014 la Corte di giustizia UE ha giudicato contrari alla concorrenza i costi minimi dell'autotrasporto fissati per via pubblica (cause riunite C-184/13 e altre, API). Le quote minime obbligatorie per i contratti non scritti vanno quindi lette come semplici riferimenti. Sul piano costituzionale, gli artt. 8 (straordinari di polizia) e 10 (rendicontazione di sostenibilità) sono estranei al titolo. La Corte chiede che il decreto-legge abbia un contenuto omogeneo (sent. 22/2012 e 32/2014). Il controllo automatico sulla copertura segnala per errore che manca la clausola di copertura: c'è, all'art. 9."
+valori:
+  - valore: BEN
+    segno: "+"
+    perche: "Dà liquidità subito a piccole imprese colpite dal prezzo dei carburanti e protegge i piccoli vettori nei contratti non scritti."
+  - valore: INN
+    segno: "+"
+    perche: "La lettera di vettura elettronica riduce la carta, rende tracciabili i subaffidamenti e aiuta i controlli."
+  - valore: FUT
+    segno: "-"
+    perche: "Aggiunge circa 200 milioni di sostegno al gasolio, coperti con fondi presi ad altre spese, senza alcuna condizione per passare a mezzi meno inquinanti."
+  - valore: EQU
+    segno: "-"
+    perche: "L'aiuto è proporzionale al carburante consumato, non al bisogno: va di più alle imprese più grandi e ai consumi più alti."
+  - valore: FID
+    segno: "-"
+    perche: "Mette insieme materie diverse, rinvia ancora un'entrata già decisa e aggiunge un altro decreto sul caro carburanti a quelli già approvati nel 2026."
+bilancio: "Vanno bene la lettera di vettura digitale, la sospensione delle rate senza costi pubblici, l'aiuto rapido ai più piccoli, il pagamento di straordinari già svolti dalle Forze di polizia e un minore onere di rendicontazione per le imprese medie, anche se queste ultime due norme sono fuori tema. Non vanno bene un nuovo sussidio al gasolio senza condizioni né criteri di bisogno, le quote minime di prezzo a rischio di contrasto con il diritto UE e le norme estranee al titolo."
+governai:
+  proposte: [04-P8, 03-P1]
+  confronto: "Il decreto va nella direzione opposta a GovernAI. Il programma intermedio usa come coperture proprio questi sussidi. SAD01 toglie il rimborso del gasolio ai camion Euro 5 dal 2028 e riduce di un terzo quello degli Euro 6, con il 25% del gettito al rinnovo delle flotte (0,3-0,5 mld). SAD02 porta l'accisa sul gasolio agricolo dal 22% al 40% di quella normale in cinque anni (0,15-0,2 mld). SAD13 esce del tutto entro il 2035 (0,8-1,1 mld). In cambio GovernAI finanzia i camion a zero emissioni con aste (04-P8, circa 600 l'anno). Il punto debole di GovernAI è lo stesso che ha portato al decreto: quando il gasolio sale per una crisi esterna, togliere i sussidi colpisce imprese che non hanno alternative pronte. GovernAI prevede una clausola di sospensione legata ai prezzi dei carburanti (governance di 03-P1), ma non dice quanto costerebbe né come coprirla. Eppure conta quel gettito come copertura di nuova spesa: in una crisi si aprirebbe un buco. Inoltre le stime GovernAI sulle imprese colpite sono in parte non verificate."
+cosa_cambieremmo:
+  - "Legare ogni nuovo aiuto alla classe ambientale dei mezzi (Euro VI e zero emissioni) o a un impegno a rinnovare la flotta."
+  - "Mettere un tetto per impresa e dare di più a chi ha pochi veicoli, invece di pagare in proporzione al gasolio consumato."
+  - "Sostituire i decreti ripetuti con una regola fissa per le crisi dei carburanti: automatica, temporanea, decrescente e con il costo stimato in anticipo."
+  - "Scrivere che le quote del costo del carburante sono valori di riferimento non vincolanti, per non violare le regole UE sulla concorrenza."
+  - "Mantenere in modo esplicito la responsabilità del committente per salari e contributi dei lavoratori nella logistica."
+  - "Per il futuro, mettere norme come gli artt. 8 e 10 in provvedimenti coerenti, senza ritardare il pagamento degli straordinari già svolti; fissare una data certa per il contributo sui pacchi."
+  - "Pubblicare in formato aperto i beneficiari di tutti gli aiuti per i carburanti del 2026, per classe di impresa e territorio."
+domande_aperte:
+  - "Quante imprese di autotrasporto ricevono il credito, e come si distribuisce per numero di veicoli?"
+  - "Quanto è costato in tutto il sostegno ai carburanti nel 2026, sommando i decreti 33, 38, 63, 157, 162 e 193?"
+  - "La nuova regola sui contratti di logistica toglie davvero la responsabilità del committente per salari e contributi?"
+  - "Che effetto ha avuto il taglio di 40 milioni al credito per i fertilizzanti sulle aziende agricole che lo aspettavano?"
+fonti:
+  - "Decreto-legge 23 ottobre 2026, n. 193, GU n. 247 del 23/10/2026, https://www.gazzettaufficiale.it/eli/id/2026/10/23/26G00216/sg (testo in legislazione/archivio/testi/2026/26G00216.txt)"
+  - "Senato, A.S. 2074, relazione illustrativa e relazione tecnica, 23 ottobre 2026"
+  - "Corte costituzionale, sentenze 22/2012 e 32/2014 (verificate su dati.cortecostituzionale.it con costituzione/giurisprudenza.py)"
+  - "Screening costituzionale automatico, costituzione/esami/gu/26G00216.md"
+  - "Corte di giustizia UE, 4 settembre 2014, cause riunite C-184/13 e altre (API), costi minimi dell'autotrasporto"
+  - "Coperture GovernAI SAD01, SAD02, SAD13, programma/coperture_menu.csv; proposta 04-P8, programma/schede/04_infrastrutture.md; 03-P1, programma/schede/03_ambiente.md"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

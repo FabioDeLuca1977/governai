@@ -1,0 +1,101 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md). Scritto da un agente AI; non rivisto da una persona esperta.
+id: dl-2026-185-ex-ilva
+titolo: "Ex ILVA: reddito protetto per chi lavora nell'acciaieria e nell'indotto, incentivi a chi assume, altoforni caldi"
+atto: "Decreto-legge 16 ottobre 2026, n. 185, artt. 1-11"
+tipo: decreto-legge
+data: 2026-10-16
+stato: "In vigore dal 17 ottobre 2026; da convertire in legge entro il 15 dicembre 2026"
+fonte: "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26G00208/sg"
+tema: "02"
+in_breve: "Mentre la vendita dell'acciaieria è ancora aperta e un giudice ha sospeso l'area a caldo, il decreto integra il reddito di lavoratrici e lavoratori dell'ex ILVA e dell'indotto e dà incentivi alle imprese che li assumono. Gli impianti possono restare caldi fino alla decisione della Cassazione, non oltre il 15 dicembre 2026. Una parte della spesa è coperta riducendo il Fondo sociale per occupazione e formazione."
+cosa_fa:
+  - "Indotto: dal 1° ottobre 2026 al 30 giugno 2027 l'INPS paga un'integrazione al reddito, pari alla cassa integrazione, con contributi figurativi. Vale per chi lavora in imprese che dipendono da un'acciaieria in amministrazione straordinaria per oltre il 50% del fatturato del biennio, con certificazione dei commissari. L'impresa non paga il contributo addizionale e il periodo non si conta nella durata massima (art. 1)."
+  - "Dipendenti di Acciaierie d'Italia in cassa integrazione straordinaria nel 2026 e 2027: integrazione del trattamento, anche per la formazione sulle bonifiche, e possibilità di lavori di pubblica utilità nel 2027 (art. 2)."
+  - "Condizioni per chi riceve il sostegno: iscrizione alla piattaforma pubblica per il lavoro e firma del patto di servizio. Il sostegno si perde se si rifiuta senza motivo un corso o un'offerta congrua, cioè entro 50 km o 80 minuti con i mezzi pubblici e con un livello non inferiore di oltre il 20% (artt. 1 e 2)."
+  - "Chi assume a tempo indeterminato, entro il 2027, un dipendente di Acciaierie d'Italia o di ILVA non paga i contributi fino a 8.000 euro l'anno per 24 mesi. Riceve anche 20.000 euro in due rate, se mantiene il lavoratore per 48 mesi e non ha licenziato nei sei mesi prima (art. 3)."
+  - "I commissari possono tenere caldi gli altoforni, per non comprometterne in modo irreparabile il funzionamento, fino alla motivazione della Cassazione sul ricorso contro l'inibitoria dell'area a caldo, e comunque non oltre il 15 dicembre 2026. Il monitoraggio delle emissioni continua (art. 4)."
+  - "Un piano degli investimenti privati sopra i 10 milioni nelle aree ex ILVA, con un commissario senza compenso. Le aree non usate per produrre possono essere vendute separatamente; i contratti di sviluppo seguono la procedura accelerata; si chiede di assumere prima gli ex lavoratori (artt. 5 e 6)."
+  - "Nasce il distretto Brindisi-Taranto per le tecnologie a zero emissioni nette (regolamento UE 2024/1735), con procedure semplificate e un unico punto di contatto (art. 7)."
+  - "Il prestito pubblico ad Acciaierie d'Italia previsto dal DL 133/2026 sale da 100,5 a 141 milioni (art. 8); 1 milione l'anno dal 2027 al centro di ricerca Tecnopolo mediterraneo (art. 9); più fondi per l'APE sociale nel 2027-2029 (art. 10)."
+numeri:
+  - voce: "Integrazione al reddito per l'indotto"
+    valore: "27,3 milioni nel 2026 e 56,1 milioni nel 2027, a esaurimento"
+    fonte: "DL 185/2026, art. 1, comma 8"
+  - voce: "Integrazione per i dipendenti di Acciaierie d'Italia"
+    valore: "15 milioni nel 2026 e 30 milioni nel 2027; 10 milioni nel 2027 per i lavori di pubblica utilità"
+    fonte: "DL 185/2026, art. 2"
+  - voce: "Incentivi a chi assume"
+    valore: "esonero fino a 8.000 euro l'anno per 24 mesi più 20.000 euro per lavoratore; oneri 0,13 milioni nel 2026, 15,4 nel 2027, 20,83 nel 2028, 17,6 nel 2029"
+    fonte: "DL 185/2026, art. 3"
+  - voce: "Taglio al Fondo sociale per occupazione e formazione"
+    valore: "circa 143 milioni nel 2026-2027 per gli artt. 1 e 2 (83,4 + 45 + 14,3) e circa 70 milioni nel 2026-2031 per l'art. 3: in tutto circa 213 milioni"
+    fonte: "DL 185/2026, artt. 1, comma 11; 2, commi 2 e 5; 3, comma 8 (somma dell'Osservatorio)"
+  - voce: "Prestito ad Acciaierie d'Italia"
+    valore: "+40,5 milioni, da 100,5 a 141 milioni nel 2026, dentro il prestito di salvataggio fino a 390,8 milioni autorizzato dalla Commissione UE il 9 febbraio 2026"
+    fonte: "DL 185/2026, art. 8; Camera, tema «L'ex ILVA di Taranto», aggiornato al 14 ottobre 2026"
+  - voce: "Debiti di Acciaierie d'Italia"
+    valore: "passivo ammesso 1.580 milioni, più domande tardive per 648 milioni"
+    fonte: "Camera, tema «L'ex ILVA di Taranto», 2026"
+  - voce: "Soldi pubblici degli ultimi anni"
+    valore: "tra gli altri 680 milioni nel 2023, prestito ponte da 320 a 420 milioni nel 2024, 250 milioni nel 2025"
+    fonte: "Camera, tema «L'ex ILVA di Taranto», 2026"
+chi_guadagna:
+  - "Lavoratrici e lavoratori dell'indotto e di Acciaierie d'Italia: reddito protetto e contributi figurativi fino a metà 2027."
+  - "Imprese dell'indotto: non pagano il contributo addizionale sulla cassa integrazione."
+  - "Imprese che assumono ex lavoratori: fino a 36.000 euro per persona tra esonero e contributo."
+  - "La procedura di amministrazione straordinaria e i futuri acquirenti: più liquidità e aree vendibili separatamente. Tenere caldi gli impianti ne preserva il valore per la vendita, e quindi le possibilità di recupero per creditori e Stato."
+  - "Chi investe nel distretto Brindisi-Taranto: procedure più veloci."
+  - "Chi chiede l'APE sociale nel 2027-2029: più risorse, anche se il tema non c'entra con il decreto."
+chi_paga:
+  - "Lavoratrici e lavoratori in crisi di altre imprese e territori: il Fondo sociale per occupazione e formazione si riduce."
+  - "Contribuenti: prestiti a un'impresa insolvente con un passivo di 1,58 mld, che potrebbero non tornare."
+  - "Chi vive a Taranto: l'incertezza sulla salute dura ancora; il decreto mantiene il monitoraggio delle emissioni anche durante il riscaldo."
+  - "Ambiente: nel distretto i progetti sono considerati di interesse pubblico prevalente rispetto ad alcune tutele europee, nei limiti posti dal diritto UE."
+  - "La Regione Puglia: sul distretto è solo «sentita», salvo l'intesa sui regimi di sostegno."
+rischi_giuridici: "Lo screening automatico (costituzione/esami/gu/26G00208.md) segnala in modo medio due punti, che sono probabilmente falsi allarmi. La data del 1° ottobre 2026 (art. 1) è favorevole ai lavoratori. Il richiamo a un decreto ministeriale (art. 2) non tocca materie regionali. Il punto più delicato è un altro: l'art. 4 regola gli impianti mentre è pendente in Cassazione un giudizio civile, promosso da residenti, che ha sospeso l'area a caldo. La norma non autorizza la produzione: consente il solo riscaldo, per non compromettere in modo irreparabile gli impianti, fino al 15 dicembre 2026, e mantiene il monitoraggio delle emissioni. Va però letta alla luce della sent. 58/2018, che ha dichiarato illegittima una norma (art. 3 del d.l. 92/2015) che consentiva di proseguire l'attività dell'impianto sequestrato senza bilanciare la tutela della salute. Contano anche la sent. 85/2013, che ha respinto i dubbi sul d.l. 207/2012 ammettendo un bilanciamento solo temporaneo, e la condanna dell'Italia da parte della Corte europea dei diritti dell'uomo per la violazione degli artt. 8 e 13 della Convenzione nel caso Cordella e altri c. Italia (24 gennaio 2019, ricorsi 54414/13 e 54264/15). L'APE sociale (art. 10) è estranea al titolo (omogeneità, sent. 22/2012). I prestiti devono restare nel prestito di salvataggio autorizzato dalla Commissione UE (artt. 107-108 TFUE). Il controllo sulla copertura segnala una clausola di invarianza accanto a oneri quantificati nell'art. 1: va chiarita."
+valori:
+  - valore: BEN
+    segno: "+"
+    perche: "Evita la caduta del reddito di molte famiglie (il numero non è dichiarato) in un territorio con pochi altri posti di lavoro."
+  - valore: BEN
+    segno: "-"
+    perche: "Tenere caldi gli altoforni mentre la Cassazione decide prolunga per chi vive a Taranto l'incertezza su emissioni e salute, dopo la condanna della Corte europea dei diritti dell'uomo (Cordella, 2019)."
+  - valore: CIT
+    segno: "+"
+    perche: "Il sostegno chiede in cambio formazione e disponibilità a offerte di lavoro ragionevoli: diritti e doveri insieme. Un'offerta a 80 minuti di distanza pesa però di più su chi ha figli o familiari da assistere."
+  - valore: EQU
+    segno: "-"
+    perche: "Tutele più ricche solo per alcune crisi, pagate con il fondo che serve a tutti i lavoratori in difficoltà."
+  - valore: FUT
+    segno: "-"
+    perche: "Altri soldi pubblici a un'impresa insolvente senza un piano industriale certo; il distretto per le tecnologie pulite è invece un segnale positivo."
+  - valore: FID
+    segno: "-"
+    perche: "Un altro decreto sull'ex ILVA, con norme estranee al titolo, una norma sugli impianti adottata mentre è pendente un giudizio e nessun conto pubblico di quanto è stato speso in tutto."
+bilancio: "Va bene proteggere il reddito di chi rischia il lavoro, chiedendo formazione in cambio, e va bene puntare su un distretto per le tecnologie pulite. Non vanno bene una misura ancora caso per caso, pagata in parte con il fondo per altre crisi, i nuovi prestiti senza un piano e senza un conto totale, e l'intervento sugli impianti mentre decide la Cassazione."
+governai:
+  proposte: [01-P1, 05-C2, 04-P4]
+  confronto: "GovernAI non ha una proposta sull'ex ILVA né una politica per le crisi industriali: è una lacuna vera. Alcune regole del programma aiuterebbero. La valutazione generazionale (01-P1) obbligherebbe a dire quanto costa nel tempo ogni nuovo intervento e chi lo paga. Il conto personale per formarsi (05-C2) darebbe a ogni lavoratore un diritto alla formazione, invece di corsi legati a un singolo decreto. La valutazione indipendente delle grandi spese (04-P4, sopra i 500 milioni) potrebbe applicarsi anche ai salvataggi industriali, ma oggi riguarda le opere pubbliche. GovernAI chiede reciprocità tra sostegno e impegno, come fa il decreto. Ma il suo reddito di inclusione con «lavoro che conviene» (02-C4) è uscito dal programma intermedio, e il programma non dice come trattare i lavoratori di un grande impianto che chiude."
+cosa_cambieremmo:
+  - "Pubblicare un conto unico e aggiornato di tutti i soldi pubblici dati all'ex ILVA dal 2012, con le possibilità di recupero."
+  - "Sostituire le norme caso per caso con una regola generale per l'indotto delle grandi crisi, uguale in tutta Italia."
+  - "Non ridurre il Fondo sociale per occupazione e formazione senza dire quali altre crisi restano scoperte."
+  - "Valutare dopo un anno quante assunzioni sono davvero aggiuntive grazie ai 36.000 euro per lavoratore."
+  - "Pubblicare ogni giorno i dati sulle emissioni durante il riscaldo degli impianti, con l'agenzia regionale per l'ambiente e l'Istituto superiore di sanità."
+  - "Chiedere l'intesa con la Regione sul distretto Brindisi-Taranto e togliere l'APE sociale dal decreto."
+domande_aperte:
+  - "Quanti lavoratori dell'indotto rispettano la soglia del 50% del fatturato, e quante imprese?"
+  - "Che cosa ha deciso la Cassazione dopo l'udienza di ottobre 2026 sull'inibitoria dell'area a caldo?"
+  - "Come si conclude la vendita, con offerte vincolanti attese per l'8 novembre 2026?"
+  - "I prestiti ad Acciaierie d'Italia saranno restituiti, e con quale priorità rispetto agli altri creditori?"
+fonti:
+  - "Decreto-legge 16 ottobre 2026, n. 185, GU n. 241 del 16/10/2026, https://www.gazzettaufficiale.it/eli/id/2026/10/16/26G00208/sg (testo in legislazione/archivio/testi/2026/26G00208.txt)"
+  - "Camera dei deputati, Documentazione parlamentare, «L'ex ILVA di Taranto: focus su vicende societarie, finanziamenti statali, profili ambientali e tutela occupazionale», aggiornato al 14 ottobre 2026, https://www.camera.it/temiap/documentazione/temi/pdf/1484465.pdf"
+  - "Screening costituzionale automatico, costituzione/esami/gu/26G00208.md"
+  - "Corte costituzionale, sentenze 85/2013, 58/2018 e 22/2012 (verificate su dati.cortecostituzionale.it con costituzione/giurisprudenza.py); Corte europea dei diritti dell'uomo, Cordella e altri c. Italia, ricorsi 54414/13 e 54264/15, sentenza del 24 gennaio 2019, https://hudoc.echr.coe.int/eng?i=001-189421"
+  - "Programma GovernAI, programma/schede/01_economia.md (01-P1), 05_istruzione.md (05-C2), 04_infrastrutture.md (04-P4), 02_lavoro.md (02-C4)"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

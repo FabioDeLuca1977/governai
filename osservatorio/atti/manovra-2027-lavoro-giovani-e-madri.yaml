@@ -1,0 +1,103 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md). Scritto da un agente AI; non rivisto da una persona esperta.
+id: manovra-2027-lavoro-giovani-e-madri
+titolo: "Famiglie e lavoro: bonus stabile per le madri, un mese in più di congedo all'80%, sconti di un anno ai giovani"
+atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, artt. 42, 43, 44, 45, 57, 58, 59, 60 e 65"
+tipo: legge di bilancio
+data: 2026-10-30
+stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026"
+fonte: "https://www.camera.it/leg19/126?leg=19&idDocumento=3174"
+tema: "02"
+in_breve: "Le misure per le famiglie diventano stabili: 100 euro al mese a circa un milione di madri lavoratrici con almeno due figli e un mese in più di congedo parentale pagato all'80%. Le misure per il lavoro restano invece di un solo anno: sgravi per chi assume, un'imposta ridotta all'1%, al posto dell'IRPEF, sugli aumenti di stipendio dei giovani, un'aliquota del 15% sul salario accessorio pubblico."
+cosa_fa:
+  - "Bonus di 100 euro al mese, esente da tasse e contributi, alle madri lavoratrici dipendenti e autonome con due o più figli e reddito di lavoro fino a 40.000 euro, dal 2027 senza scadenza; esclude il lavoro domestico. Con due figli il bonus si ferma quando il secondo compie 10 anni; con tre o più, ai 18 anni del più piccolo (art. 57)."
+  - "Congedo parentale all'80% dello stipendio: da tre a quattro mesi, cinque per il secondo figlio e sei dal terzo, per chi finisce il congedo di maternità o paternità dopo il 2026 (art. 59)."
+  - "Conto di risparmio per ogni nato dal 2027, con 100 euro l'anno dallo Stato fino a 18 anni, gestito dall'INPS e investito da Cassa depositi e prestiti; i versamenti dei familiari si detraggono al 19% fino a 1.000 euro (art. 58)."
+  - "Fino a 500 euro al mese per tre mesi per baby-sitter o nido ai genitori lavoratori autonomi, al posto del congedo, nel limite di 15 milioni l'anno (art. 60)."
+  - "Proroga al 2027 gli sgravi contributivi per chi assume a tempo indeterminato donne, giovani e lavoratrici e lavoratori nella ZES del Mezzogiorno, e per chi stabilizza contratti a termine (art. 42)."
+  - "Per il 2027 le imprese deducono l'80% in più del costo delle madri neoassunte e il 40% in più per i giovani sotto i 36 anni (art. 43)."
+  - "Per il 2027 i dipendenti privati nati dopo il 1997 con reddito fino a 28.000 euro pagano l'1% invece dell'IRPEF sull'aumento di stipendio rispetto all'anno prima, fino a 2.500 euro (art. 44)."
+  - "Per il 2027 i beni e servizi dati dal datore di lavoro sono esenti fino a 2.000 euro anche per chi ha meno di 31 anni (art. 45)."
+  - "Per il 2027 il salario accessorio dei dipendenti pubblici non dirigenti con reddito fino a 50.000 euro è tassato al 15% fino a 800 euro (art. 65)."
+numeri:
+  - voce: "Bonus madri lavoratrici"
+    valore: "1.070 mln l'anno dal 2027 per circa 993.000 donne; si abroga un esonero da 300 mln già previsto"
+    fonte: "Relazione tecnica A.C. 3174, art. 57"
+  - voce: "Congedo parentale all'80% per un mese in più"
+    valore: "88 mln nel 2027, 259 nel 2028, 330 nel 2029, 575 nel 2036"
+    fonte: "Relazione tecnica A.C. 3174, art. 59"
+  - voce: "Conto «Valore nuovi nati»"
+    valore: "36 mln nel 2027, poi cresce fino a 642 mln l'anno nel 2044"
+    fonte: "Relazione tecnica A.C. 3174, art. 58"
+  - voce: "Proroga degli sgravi per le assunzioni"
+    valore: "216 mln nel 2027, 426 nel 2028, 225 nel 2029; circa 32.100 donne assunte stimate"
+    fonte: "Relazione tecnica A.C. 3174, art. 42"
+  - voce: "Deduzione maggiorata per madri e giovani assunti"
+    valore: "410 mln, tutti nel 2028; nel 2024 la misura precedente è stata usata solo per il 14% delle nuove assunzioni stabili"
+    fonte: "Relazione tecnica A.C. 3174, art. 43"
+  - voce: "Imposta ridotta all'1% sugli aumenti dei giovani"
+    valore: "378 mln nel 2027 e 74 mln nel 2028"
+    fonte: "Relazione tecnica A.C. 3174, art. 44"
+  - voce: "Salario accessorio pubblico al 15%"
+    valore: "359 mln nel 2027 e 60 mln nel 2028, per circa 3 milioni di dipendenti"
+    fonte: "Relazione tecnica A.C. 3174, art. 65"
+chi_guadagna:
+  - "Madri lavoratrici con due o più figli e reddito fino a 40.000 euro: 1.200 euro l'anno, in modo stabile."
+  - "Genitori dipendenti: un mese in più di congedo pagato bene, di più per il secondo e il terzo figlio."
+  - "Imprese che assumono a tempo indeterminato donne, giovani o nel Mezzogiorno: meno contributi e meno tasse per un anno."
+  - "Giovani dipendenti privati con stipendio basso che ricevono un aumento: pagano quasi zero tasse su quella parte nel 2027."
+  - "Dipendenti pubblici non dirigenti: meno tasse sul salario accessorio."
+  - "Famiglie con nuovi nati, in particolare quelle che possono versare sul conto e detrarre."
+chi_paga:
+  - "La fiscalità generale: circa 2,2 miliardi nel 2027 tra tutte le misure, 1,9 al netto dell'esonero da 300 milioni abrogato (somma dell'Osservatorio sulle relazioni tecniche)."
+  - "Le madri con un solo figlio, quelle disoccupate o con lavoro domestico: non ricevono il bonus; con due figli il bonus finisce ai 10 anni del secondo."
+  - "Chi lavora ed è nato prima del 1998, con lo stesso stipendio basso: per lo stesso aumento pagano l'IRPEF piena."
+  - "Il bilancio futuro: il bonus madri e il conto per i nuovi nati sono spese permanenti e crescenti, senza una copertura dedicata; il conto è però un risparmio a favore di chi nasce."
+rischi_giuridici: "Rischio basso secondo l'esame di GovernAI (costituzione/esami/AC3174_manovra_2027.md, par. 7): le decorrenze dell'art. 42 favoriscono chi lavora. Da motivare, sul piano dell'uguaglianza tributaria (artt. 3 e 53 Cost.), le aliquote diverse a parità di reddito in base all'anno di nascita (art. 44) o al datore pubblico (art. 65). Gli sgravi territoriali vanno inquadrati nelle regole UE sugli aiuti di Stato."
+valori:
+  - valore: BEN
+    segno: "+"
+    perche: "Più reddito per circa un milione di madri e più tempo pagato con i figli piccoli."
+  - valore: FUT
+    segno: "+"
+    perche: "Congedi più lunghi per il secondo e il terzo figlio e un conto di risparmio per ogni nato guardano alla demografia, con una fecondità a 1,14 figli per donna."
+  - valore: FUT
+    segno: "-"
+    perche: "Le misure sul lavoro sono di un solo anno e si rinnovano ogni volta: costano senza dare certezze a chi assume."
+  - valore: EQU
+    segno: "-"
+    perche: "Aliquote diverse per lo stesso reddito secondo l'età, il settore o il numero di figli; il bonus lascia fuori madri con redditi bassi non da lavoro."
+  - valore: FID
+    segno: "-"
+    perche: "Si aggiungono altri regimi fiscali temporanei, con regole di incompatibilità complesse, che rendono il fisco meno comprensibile."
+  - valore: RIS
+    segno: "+"
+    perche: "Il congedo più lungo per figlio e il voucher per gli autonomi riconoscono situazioni familiari diverse."
+  - valore: CIT
+    segno: "="
+    perche: "Gli aiuti sono trasferimenti di denaro; mancano servizi, come il nido, che rendono le famiglie più autonome nella scelta di lavorare."
+bilancio: "Bene rendere stabili il bonus per le madri e il congedo all'80%: danno certezza alle famiglie. Non bene la serie di sconti fiscali di un solo anno su giovani, assunzioni e dipendenti pubblici, che costano molto, si sovrappongono e non hanno una valutazione dei risultati; i servizi per l'infanzia restano fuori."
+governai:
+  proposte: ["02-C2", "02-C1", "01-P2", "01-P9", "02-C6"]
+  confronto: "GovernAI punta sui servizi più che sui bonus: nido garantito negli ambiti sotto il 33% di posti e congedo di paternità vero, di un mese dal 2028 e due dal 2030 (02-C2, 2 mld a regime). Sul bonus madri GovernAI è d'accordo nel tenerlo, ma propone di abbassare la soglia da 40.000 a 32.000 euro con un'uscita graduale (RB03) e usa il risparmio come copertura. Chiede che ogni agevolazione fiscale abbia una scadenza e una valutazione (01-P2) e una sola detrazione per il lavoro (01-P9): due regole che le misure di un anno del disegno di legge non rispettano. Limiti di GovernAI: il congedo di paternità parte solo nel 2028 e la sua stima di costo, 1,2 mld, è incerta; il nido richiede anni di assunzioni; il taglio della soglia del bonus toglie qualcosa a madri con redditi medi."
+cosa_cambieremmo:
+  - "Far uscire il bonus madri in modo graduale tra 32.000 e 40.000 euro, invece di un taglio netto a 40.000 euro, ed estenderlo alle lavoratrici domestiche."
+  - "Riservare almeno un mese del congedo all'80% al padre, non trasferibile."
+  - "Sostituire gli sconti di un anno sulle assunzioni con uno sgravio stabile e più piccolo, valutato dopo tre anni con dati INPS pubblici."
+  - "Non introdurre l'imposta ridotta all'1% per età: usare le stesse risorse per alzare la detrazione per il lavoro dei redditi bassi, per tutti."
+  - "Usare parte delle risorse per posti nido nei territori sotto soglia, dove le madri lavorano di meno."
+domande_aperte:
+  - "Il bonus da 100 euro aumenta davvero l'occupazione delle madri, o premia chi lavora già?"
+  - "Quante imprese useranno la deduzione maggiorata, visto che nel 2024 l'ha usata solo il 14% delle assunzioni?"
+  - "Come sarà investito il conto per i nuovi nati e con quali costi di gestione?"
+  - "Come si distribuiscono per territorio il bonus madri e gli sgravi per le assunzioni? (dati INPS, da verificare)"
+fonti:
+  - "A.C. 3174, articolato, artt. 42-45, 57-60 e 65: costituzione/testi/AC3174_articolato.txt"
+  - "A.C. 3174, relazione tecnica, stessi articoli: dati/raw/00b_ddl_bilancio_2027_AC3174_relazioni.txt"
+  - "Esame di costituzionalità GovernAI: costituzione/esami/AC3174_manovra_2027.md"
+  - "ISTAT, Natalità e fecondità 2025: dati/raw/02_istat_natalita_fecondita_2025.txt"
+  - "Schede GovernAI area lavoro: programma/schede/02_lavoro.md; copertura RB03: programma/selezione_intermedio.csv"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

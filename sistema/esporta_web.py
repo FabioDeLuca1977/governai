@@ -139,6 +139,28 @@ def annuale(file_sel: str) -> list[dict]:
             for r, f in zip(t.itertuples(), tf.itertuples())]
 
 
+def osservatorio() -> dict:
+    """Osservatorio sul governo di oggi (osservatorio/): metodo e commenti agli atti, uno per file YAML."""
+    cart = RADICE / "osservatorio"
+    if not cart.exists():
+        return {}
+    atti = []
+    for f in sorted((cart / "atti").glob("*.yaml")):
+        try:
+            x = yaml.safe_load(f.read_text(encoding="utf-8")) or {}
+        except Exception:
+            continue
+        if x.get("id"):
+            x["data"] = str(x.get("data", ""))
+            for r in x.get("revisioni") or []:
+                r["data"] = str(r.get("data", ""))
+            x["file"] = f"osservatorio/atti/{f.name}"
+            atti.append(x)
+    ordine = {"legge di bilancio": 0, "decreto-legge": 1, "legge": 2, "decreto legislativo": 3}
+    atti.sort(key=lambda x: (ordine.get(x.get("tipo"), 9), x.get("tema", ""), x["id"]))
+    return {"metodo": leggi(cart / "metodo.md"), "atti": atti}
+
+
 def calendario(file_sel: str) -> dict:
     """Calendario di avvio (programma/annuale.py, scelta del 13 novembre 2026)."""
     try:
@@ -402,6 +424,7 @@ def main() -> int:
                      if (RADICE / "pacchetto").exists() else [],
         "profili": (yaml.safe_load(leggi(RADICE / "programma" / "profili.yaml")) or {}).get("profili", [])
                    if (RADICE / "programma" / "profili.yaml").exists() else [],
+        "osservatorio": osservatorio(),
         "mappa": mappa(),
         "comunita": {"regole": leggi(RADICE / "comunita" / "regole.md"), "privacy": leggi(RADICE / "comunita" / "privacy.md")},
         "lezioni": leggi(RADICE / "apprendimento" / "lezioni.md"),

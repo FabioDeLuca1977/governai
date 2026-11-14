@@ -1,0 +1,93 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md)
+id: manovra-2027-lep-tpl-regioni
+titolo: "Servizi essenziali: livelli sociali senza soldi nuovi, Fondo per il trasporto locale sostituito da quota IRPEF"
+atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, artt. 119 e 131-134; Sezione II, programma 13.6; d.lgs. 7 agosto 2026, n. 147, art. 33 (soppressione del Fondo TPL)"
+tipo: legge di bilancio
+data: 2026-10-30
+stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026. Il decreto che fissa la quota IRPEF delle Regioni va adottato d'intesa entro il 31 dicembre 2026"
+fonte: "https://www.camera.it/leg19/126?tab=&leg=19&idDocumento=3174"
+tema: "04"
+in_breve: "Dal 2027 i 5,26 mld del Fondo per autobus e treni regionali non sono più un trasferimento: le Regioni ricevono una quota dell'IRPEF. Per i livelli essenziali dei servizi sociali e dell'assistenza ad alunne e alunni con disabilità, Regioni e Comuni devono «concorrere» con i soldi che hanno già."
+cosa_fa:
+  - "Il d.lgs. 147/2026 (art. 33) sopprime dal 2027 il Fondo nazionale per il trasporto pubblico locale (5.259,6 mln l'anno) e lo sostituisce con una compartecipazione delle Regioni a statuto ordinario al gettito IRPEF; l'aliquota la fissa un decreto del Presidente del Consiglio d'intesa con le Regioni."
+  - "La manovra ne prende atto: -5 mld sul programma 13.6 (mobilità locale), e le somme compaiono nel nuovo fondo per la compartecipazione IRPEF delle Regioni (programma 3.7)."
+  - "Art. 119, lett. b): il fondo per le regolazioni della compartecipazione sale da 50 a 150 mln l'anno. Il riparto segue una proposta delle Regioni o, in mancanza, capacità fiscale, costi standard e livelli adeguati di servizio del trasporto locale."
+  - "Art. 119, lett. a): le Regioni possono usare fino al 2029 i vecchi scaglioni per l'addizionale IRPEF."
+  - "Art. 131: per i livelli essenziali degli ambiti sociali e per l'assistenza all'autonomia e alla comunicazione di alunne e alunni con disabilità, Regioni ed enti locali «concorrono» con le risorse già nei loro bilanci; il taglio dei trasferimenti come sanzione è sostituito dal potere sostitutivo dello Stato."
+  - "Artt. 132-134: la Commissione tecnica per i fabbisogni standard prepara il metodo per tutti i livelli essenziali; i ministeri li monitorano; se un ente non li garantisce, c'è prima un piano concordato, poi la diffida e il commissario."
+numeri:
+  - voce: "Fondo TPL soppresso"
+    valore: "5.259,6 mln l'anno, sostituiti da una compartecipazione IRPEF di pari importo iniziale"
+    fonte: "d.lgs. 147/2026, art. 33; esame GovernAI, punto 5"
+  - voce: "Variazione sul programma della mobilità locale"
+    valore: "-5 mld rispetto all'assestato 2026; la missione dei rapporti con gli enti territoriali sale di 8,7 mld"
+    fonte: "Relazione illustrativa A.C. 3174, Sezione II, missioni 3 e 13"
+  - voce: "Fondo per le regolazioni della compartecipazione"
+    valore: "Da 50 a 150 mln l'anno; maggiore onere di 100 mln l'anno dal 2028"
+    fonte: "Relazione tecnica A.C. 3174, art. 119"
+  - voce: "Risorse nuove per i livelli essenziali sociali e per l'assistenza ad alunne e alunni con disabilità"
+    valore: "Nessuna: la relazione tecnica dice che le norme non hanno effetti finanziari"
+    fonte: "Relazione tecnica A.C. 3174, art. 131"
+  - voce: "Supporto tecnico ai livelli essenziali"
+    valore: "Un ufficio dirigenziale alla Ragioneria: 176.045 euro nel 2027 e 186.432 euro l'anno dal 2028"
+    fonte: "Testo art. 132, c. 4, A.C. 3174"
+  - voce: "Fondo TPL in termini reali"
+    valore: "Circa -38% nel 2026 rispetto al 2009 (stima di un'associazione ambientalista, non replicata)"
+    fonte: "Legambiente, Pendolaria 2025, in dati/verifiche/04_infrastrutture.md"
+chi_guadagna:
+  - "Regioni: più autonomia sulle entrate; la quota IRPEF cresce con i redditi, mentre il Fondo era fermo in euro."
+  - "Regioni con redditi più alti: se il riparto seguirà la capacità fiscale, ricevono di più dalla crescita del gettito."
+  - "Lo Stato centrale: non deve più decidere ogni anno l'importo del Fondo, e per i livelli essenziali sociali non mette soldi nuovi."
+  - "Alunne e alunni con disabilità e persone che usano i servizi sociali: il metodo comune, il monitoraggio e il potere sostitutivo rendono i livelli essenziali più esigibili."
+chi_paga:
+  - "Regioni del Sud e con redditi bassi: la quota IRPEF cresce meno dove i redditi crescono meno; senza perequazione piena il divario nel trasporto locale può crescere."
+  - "Pendolari e aziende di trasporto locale: se il decreto sull'aliquota arriva in ritardo, dal 1° gennaio 2027 manca una norma che garantisca i soldi mese per mese."
+  - "Comuni e ambiti sociali con bilanci deboli: devono garantire i livelli essenziali con le risorse che hanno già, senza una stima di quanto serve."
+  - "Famiglie di alunne e alunni con disabilità nei territori più poveri: il livello essenziale rischia di restare scritto ma non finanziato."
+rischi_giuridici: "Due dubbi seri (costituzione/esami/AC3174_manovra_2027.md, punti 4 e 5). TPL: il passaggio alla quota IRPEF attua l'art. 119 Cost., ma se il decreto non arriva entro l'anno le Regioni perdono il trasferimento senza avere la quota: manca una clausola di continuità. LEP: chiedere agli enti di garantire i livelli essenziali con le sole risorse disponibili, senza quantificarne il costo e senza integrazione dello Stato, contrasta con i principi delle sent. 192/2024 (sull'autonomia differenziata: i livelli essenziali vanno definiti e finanziati prima) e 220/2021 (che ha respinto un ricorso regionale ma ha richiamato il legislatore a definire e finanziare i livelli essenziali); la sent. 182/2026 (depositata il 3/11/2026) ha dichiarato illegittimi i commi 707 e 708 della L. 199/2025 nella parte in cui non prevedono l'intesa in Conferenza unificata, e il testo non la recepisce. Artt. 132-134: rischio basso."
+valori:
+  - valore: FID
+    segno: "+"
+    perche: "Un metodo unico per i livelli essenziali, affidato alla Commissione tecnica, con monitoraggio e correttivi concordati, rende le regole più chiare e verificabili."
+  - valore: EQU
+    segno: "-"
+    perche: "Senza una stima del fabbisogno e senza fondi nuovi, i territori più poveri rischiano di non raggiungere i livelli essenziali."
+  - valore: RIS
+    segno: "+"
+    perche: "La quota IRPEF rispetta l'autonomia delle Regioni su una materia che la Costituzione affida a loro."
+  - valore: RIS
+    segno: "-"
+    perche: "I diritti di alunne e alunni con disabilità dipendono ancora dal bilancio del Comune in cui vivono."
+  - valore: BEN
+    segno: "-"
+    perche: "Un vuoto di cassa a inizio 2027 può ridurre corse e servizi per chi viaggia ogni giorno."
+  - valore: FUT
+    segno: "="
+    perche: "Nessun costo nuovo oggi, ma il rischio è che il costo dei livelli essenziali si scopra più avanti, quando sarà più difficile coprirlo."
+bilancio: "Va bene dare alle Regioni un'entrata propria che cresce nel tempo e fissare un metodo comune per i livelli essenziali. Non va bene lasciare scoperto il passaggio del Fondo TPL e chiedere ai territori di garantire diritti essenziali senza dire quanto costano e chi paga la differenza."
+governai:
+  proposte: [04-P5, 04-P3, 02-C5]
+  confronto: "GovernAI condivide l'ordine «prima i livelli essenziali quantificati e finanziati, poi l'autonomia» (04-P5). Ma nel programma intermedio 04-P5 è solo metodo, senza soldi: lo stesso limite della manovra. Sul trasporto locale GovernAI proponeva di indicizzare il Fondo TPL all'inflazione e di ripartirlo su posti-km e puntualità (04-P3). La proposta non è nel programma intermedio per mancanza di risorse, e la versione piena era già segnalata come a rischio costituzionale. Ora che il Fondo non c'è più, va riscritta: lo strumento giusto diventa il riparto della quota IRPEF e i livelli adeguati di servizio. Su alunne e alunni con disabilità GovernAI ha solo un pilota del progetto di vita (02-C5), finanziato con fondi europei."
+cosa_cambieremmo:
+  - "Aggiungere all'art. 119 la clausola di continuità proposta dall'esame: fino al decreto sull'aliquota, ogni mese un dodicesimo delle risorse 2026 del Fondo TPL, con conguaglio."
+  - "Dopo il comma 711 della L. 199/2025: la Commissione tecnica quantifica entro il 30 giugno 2027 il costo dei livelli essenziali; se le risorse non bastano, la legge di bilancio integra."
+  - "Recepire nel testo l'intesa in Conferenza unificata richiesta dalla sent. 182/2026, e l'intesa anche per il decreto sui dati dell'art. 133."
+  - "Legare una parte della quota IRPEF per il trasporto ai posti-km offerti e alla puntualità, con un fondo perequativo per le Regioni con capacità fiscale bassa."
+  - "Pubblicare ogni anno, Regione per Regione, quanto si spende per il trasporto locale e per i livelli essenziali sociali, e quanto manca."
+domande_aperte:
+  - "Il decreto che fissa l'aliquota della quota IRPEF sarà adottato entro il 31 dicembre 2026?"
+  - "La quota IRPEF di ciascuna Regione sarà pari, nel 2027, a quanto riceveva dal Fondo nel 2026?"
+  - "Quanto costa davvero garantire ovunque l'assistenza all'autonomia e alla comunicazione per alunne e alunni con disabilità?"
+fonti:
+  - "Testo A.C. 3174, artt. 119 e 131-134: costituzione/testi/AC3174_articolato.txt"
+  - "Relazione illustrativa e relazione tecnica A.C. 3174, artt. 119 e 131-132, Sezione II: dati/raw/00b_ddl_bilancio_2027_AC3174_relazioni.txt"
+  - "Esame di costituzionalità GovernAI, punti 4 e 5: costituzione/esami/AC3174_manovra_2027.md"
+  - "d.lgs. 147/2026, art. 33: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2026;147"
+  - "Schede GovernAI 04-P3 e 04-P5: programma/schede/04_infrastrutture.md; verifica dei dati: dati/verifiche/04_infrastrutture.md"
+  - "Programma intermedio GovernAI: programma/selezione_intermedio.csv"
+  - "Corte costituzionale, sentenze 192/2024, 220/2021 e 182/2026 (verificate su dati.cortecostituzionale.it con costituzione/giurisprudenza.py)"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

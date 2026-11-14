@@ -93,8 +93,8 @@ kbd{ font:600 12px var(--f-mono); border:1px solid var(--c-bordo); border-bottom
 .striscia>div{ max-width:1264px; margin:0 auto; padding:6px var(--margine); display:flex; flex-wrap:wrap; gap:4px 16px; justify-content:space-between; }
 
 /* barra in basso (mobile) */
-.nav-basso{ position:fixed; z-index:20; left:0; right:0; bottom:0; display:grid; grid-template-columns:repeat(5,1fr); background:var(--c-superficie); border-top:1px solid var(--c-bordo); padding-bottom:env(safe-area-inset-bottom); }
-.nav-basso a{ position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:3px; height:64px; color:var(--c-testo-2); text-decoration:none; font-size:13px; font-weight:600; }
+.nav-basso{ position:fixed; z-index:20; left:0; right:0; bottom:0; display:grid; grid-template-columns:repeat(6,1fr); background:var(--c-superficie); border-top:1px solid var(--c-bordo); padding-bottom:env(safe-area-inset-bottom); }
+.nav-basso a{ position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:3px; height:64px; color:var(--c-testo-2); text-decoration:none; font-size:12px; font-weight:600; }
 .nav-basso svg{ width:24px; height:24px; }
 .nav-basso a[aria-current="page"]{ color:var(--c-accento); font-weight:700; }
 .nav-basso a[aria-current="page"]::before{ content:""; position:absolute; top:0; left:25%; right:25%; height:3px; border-radius:0 0 3px 3px; background:var(--c-accento); }

@@ -1,0 +1,95 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md)
+id: manovra-2027-evasione-crediti
+titolo: "Ritenuta del 2% tra imprese, meno compensazioni per chi ha debiti col fisco, crediti Superbonus 2023 in dieci anni"
+atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, artt. 35, 36, 37, 38, 39 e 40 (Titolo II, Capo V)"
+tipo: legge di bilancio
+data: 2026-10-30
+stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026"
+fonte: "https://documenti.camera.it/apps/commonServices/getDocumento.ashx?sezione=lavori&tipoDoc=testo_pdl&idlegislatura=19&codice=leg.19.pdl.camera.3174.19PDL0221150"
+tema: "01"
+in_breve: "Le imprese che pagano fatture ad altre imprese tratterranno l'1% nel 2028 e il 2% dal 2029 come acconto di imposta. I crediti del Superbonus 2023 da usare nel 2027 (20,5 miliardi) si potranno usare in dieci anni. Le imposte sulla plastica monouso e sulle bevande zuccherate slittano al 1° luglio 2027."
+cosa_fa:
+  - "Art. 35: l'impresa o il professionista che paga una fattura elettronica a un'altra impresa o a un professionista trattiene una ritenuta d'acconto dell'1% nel 2028 e del 2% dal 2029 (oggi previste 0,5% e 1%)."
+  - "Art. 36: chi ha debiti fiscali scaduti oltre 30.000 euro (oggi 50.000), senza rate o sospensioni, non può usare crediti in compensazione finché non paga."
+  - "Art. 37, comma 1: le rate 2027 dei crediti del Superbonus per spese del 2023, ceduti o scontati in fattura, si dividono in dieci rate annuali."
+  - "Art. 37, commi 2-3: controllo automatico dei crediti dell'autotrasporto prima della compensazione; chi ha la partita IVA chiusa d'ufficio non può comprare né vendere crediti."
+  - "Art. 38: incrocio delle banche dati per trovare le auto senza assicurazione obbligatoria, con parere del Garante privacy; targhe personalizzate a pagamento dal 1° marzo 2027 (imprese 10.000 euro fino al 31 maggio 2027, poi 5.000; persone 1.000 euro, poi 500), con gettito a un fondo per le strade dei Comuni fino a 50.000 abitanti."
+  - "Art. 39: la detrazione per le donazioni ai partiti scende dal 26% al 19%."
+  - "Art. 40: le imposte su plastica monouso e bevande zuccherate partono dal 1° luglio 2027 invece che dal 1° gennaio."
+numeri:
+  - voce: "Ritenuta sui pagamenti tra imprese (art. 35)"
+    valore: "+734,5 mln nel 2028 e +1.469 mln l'anno dal 2029 (IRPEF 584, IRES 885 a regime)"
+    fonte: "Relazione tecnica A.C. 3174, art. 35"
+  - voce: "Blocco delle compensazioni da 30.000 euro di debito (art. 36)"
+    valore: "+100 mln l'anno dal 2027"
+    fonte: "Relazione tecnica A.C. 3174, art. 36"
+  - voce: "Crediti Superbonus 2023 in dieci rate (art. 37, c. 1)"
+    valore: "Compensazioni attese nel 2027: 20.537 mln. Con dieci rate, circa 18,5 mld in meno di uscite di cassa nel 2027 e circa 2,05 mld in più l'anno nel 2028-2036 (stima nostra); nessun effetto sul deficit, già contato nel 2023"
+    fonte: "Relazione tecnica A.C. 3174, art. 37; calcolo dell'Osservatorio"
+  - voce: "Detrazione per le donazioni ai partiti (art. 39)"
+    valore: "+2,6 mln nel 2028 e +1,5 mln l'anno dopo; oggi la detrazione costa 5,7 mln"
+    fonte: "Relazione tecnica A.C. 3174, art. 39"
+  - voce: "Rinvio delle imposte sulla plastica e sulle bevande zuccherate a luglio 2027 (art. 40)"
+    valore: "-146,1 mln (plastica) e -170,1 mln (bevande) nel 2027, recuperati in parte nel 2028"
+    fonte: "Relazione tecnica A.C. 3174, art. 40"
+  - voce: "Contesto: crediti fiscali e debito"
+    valore: "Il debito sale al 138,5% del PIL nel 2027 «in larga misura» per la cassa dei crediti dei bonus edilizi"
+    fonte: "MEF, DPB 2027, par. I.7"
+chi_guadagna:
+  - "Lo Stato e le generazioni future: circa 18,5 mld di cassa in meno da trovare nel 2027, quindi meno titoli di Stato da emettere quell'anno; dal 2029 circa 1,5 mld l'anno anticipati dalle ritenute."
+  - "Le imprese che pagano le tasse: meno concorrenza da chi non dichiara o non versa, se la ritenuta funziona."
+  - "Chi viaggia: più controlli sulle auto non assicurate riducono i danni non risarciti."
+  - "I produttori di bevande zuccherate e di plastica monouso: sei mesi in più senza imposta; è un nuovo rinvio di imposte istituite nel 2019 (L. 160/2019) e mai applicate."
+chi_paga:
+  - "Banche, Poste, assicurazioni e imprese che hanno comprato crediti del Superbonus 2023 o li hanno ricevuti con lo sconto in fattura: aspettano fino a dieci anni per usare crediti che contavano di usare nel 2027; per le imprese edili piccole è un problema di liquidità."
+  - "Imprese e professionisti con margini bassi (commercio all'ingrosso, subappalti, logistica): una ritenuta del 2% sui ricavi può superare le imposte dovute e trasformarsi in crediti da recuperare."
+  - "Chi ha debiti fiscali scaduti tra 30.000 e 50.000 euro: non può più compensarli con i crediti."
+  - "I partiti: ricevono donazioni con un vantaggio fiscale minore."
+  - "La salute: il rinvio dell'imposta sulle bevande zuccherate rinvia un'imposta che serve a ridurre il consumo di zuccheri."
+rischi_giuridici: "Gli artt. 35-40 non sono tra i segnali dell'esame (costituzione/esami/AC3174_screening.md). L'Osservatorio segnala un punto da esaminare: l'art. 37, comma 1, cambia in peggio i tempi di uso di crediti già acquistati, cioè un affidamento di chi li ha comprati (artt. 3 e 41 Cost.); un intervento simile sui crediti già maturati andrebbe motivato e reso proporzionato. Per la ritenuta dell'art. 35, verificare la compatibilità con la direttiva IVA e con il divieto di oneri sproporzionati."
+valori:
+  - valore: FID
+    segno: "+"
+    perche: "Ritenuta, blocco delle compensazioni e incrocio dei dati colpiscono l'evasione e le frodi sui crediti senza condoni."
+  - valore: FID
+    segno: "-"
+    perche: "Cambiare i tempi di crediti già comprati e rinviare ancora le imposte sulla plastica e sulle bevande zuccherate rende le regole meno affidabili."
+  - valore: FUT
+    segno: "+"
+    perche: "Meno cassa da trovare nel 2027 e meno debito nel breve; il costo resta, ma è distribuito nel tempo."
+  - valore: EQU
+    segno: "+"
+    perche: "Se recupera evasione, rende il prelievo più giusto verso chi paga; se anticipa imposte già dovute, pesa sulla liquidità di chi è in regola."
+  - valore: INN
+    segno: "-"
+    perche: "La ritenuta del 2% toglie liquidità alle piccole imprese con margini bassi e aggiunge adempimenti."
+  - valore: SIC
+    segno: "+"
+    perche: "L'incrocio dei dati sulle auto non assicurate è mirato e passa dal parere del Garante privacy."
+  - valore: BEN
+    segno: "-"
+    perche: "Il rinvio dell'imposta sulle bevande zuccherate ritarda una misura di salute pubblica."
+bilancio: "Gli strumenti contro l'evasione e le frodi vanno nella direzione giusta e sono mirati; ma la ritenuta del 2% rischia di pesare su chi ha margini bassi e non evade, lo spostamento dei crediti del Superbonus su dieci anni cambia le regole a chi li ha già comprati, e il nuovo rinvio delle imposte sulla plastica e sulle bevande zuccherate indebolisce la credibilità."
+governai:
+  proposte: [01-P3, 01-P10, 01-P12, 01-P2]
+  confronto: "GovernAI condivide l'uso dei dati già disponibili contro l'evasione: l'IVA in tempo reale con blocco dei crediti sospetti (01-P3, nucleo robusto) è vicina agli artt. 36 e 37. GovernAI però prevede anche rimborsi rapidi per chi è affidabile, che qui mancano, e controlli mirati con garanzie (01-P10), che nel programma intermedio non è entrata: un limite. La regola GovernAI è di non usare il recupero di evasione per pagare spesa nuova, mentre la manovra conta la ritenuta come copertura; GovernAI però non ha stimato quanto recupera, quindi non può dire che la sua via renda di più. GovernAI vuole partire con l'imposta sulle bevande zuccherate e raddoppiarla dal 2029 (copertura AS03): qui il Governo la rinvia."
+cosa_cambieremmo:
+  - "Art. 35: esentare dalla ritenuta chi ha un indice di affidabilità alto o margini sotto una soglia, e rimborsare entro 90 giorni i crediti che la ritenuta genera."
+  - "Art. 37: applicare le dieci rate solo ai crediti comprati dopo una certa data, o lasciare a chi li possiede la scelta tra rate più lunghe e un interesse."
+  - "Art. 40: fissare per legge una data definitiva per le imposte sulla plastica e sulle bevande zuccherate, senza altri rinvii."
+  - "Pubblicare ogni anno quanto gettito viene davvero dalle ritenute e quanto torna indietro come rimborso."
+domande_aperte:
+  - "Quanti crediti fiscali creerà la ritenuta del 2% per le imprese in perdita o con margini bassi? La relazione tecnica non lo dice."
+  - "Chi possiede oggi i 20,5 mld di crediti del 2023, e in che misura? Banche, Poste, imprese edili, famiglie?"
+  - "La ritenuta riduce davvero l'evasione o anticipa solo imposte che sarebbero state pagate comunque?"
+fonti:
+  - "A.C. 3174, Tomo II, artt. 35-40 (costituzione/testi/AC3174_articolato.txt)"
+  - "A.C. 3174, relazione tecnica, artt. 35-40 (dati/raw/00b_ddl_bilancio_2027_AC3174_relazioni.txt)"
+  - "MEF, Documento programmatico di bilancio 2027, par. I.7 (dati/raw/00b_mef_dpb_2027.txt)"
+  - "Esame di costituzionalità GovernAI: costituzione/esami/AC3174_screening.md"
+  - "GovernAI: programma/schede/11_evasione.md (01-P10, 01-P12), programma/selezione_intermedio.csv (01-P3, AS03)"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

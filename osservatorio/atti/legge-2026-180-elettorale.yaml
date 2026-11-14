@@ -1,0 +1,99 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md). Scritto da un agente AI; non rivisto da una persona esperta.
+id: legge-2026-180-elettorale
+titolo: "Nuova legge elettorale: proporzionale con premio a chi supera il 42%, preferenze e voto per chi vive fuori sede"
+atto: "Legge 9 ottobre 2026, n. 180, artt. 1-9 e allegati (ripubblicata con note nella GU n. 247 del 23/10/2026); progetto A.C. 2822-B"
+tipo: legge
+data: 2026-10-09
+stato: "In vigore dal 24 ottobre 2026; si applica alle prossime elezioni politiche, attese entro il 2027"
+fonte: "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26G00201/sg"
+tema: "08"
+in_breve: "La legge elimina i collegi uninominali, restituisce fino a tre preferenze e dà un premio di 70 seggi alla Camera e 35 al Senato a chi supera il 42% in entrambe le Camere, con un tetto al 55% circa dei seggi. Introduce il voto fuori sede strutturale e quadruplica le firme richieste ai partiti nuovi. La Camera l'ha approvata con 227 sì su 400, oltre la maggioranza assoluta ma sotto i tre quinti."
+cosa_fa:
+  - "I seggi si assegnano con metodo proporzionale a liste e coalizioni; spariscono i collegi uninominali, salvo Valle d'Aosta e Trentino-Alto Adige (art. 1, commi 1-3; art. 2)."
+  - "Chi vota può dare fino a tre preferenze, a candidati di sesso diverso; il capolista è eletto per primo senza preferenze. Le liste hanno 7 candidati in ordine alternato di genere (art. 1, commi 1 e 8)."
+  - "Premio di governabilità: 70 seggi alla Camera e 35 al Senato alla lista o coalizione più votata. Scatta solo se è la stessa nelle due Camere e se supera il 42% dei voti validi in ciascuna. Senza queste condizioni non c'è premio e non c'è ballottaggio (art. 1, comma 1, lett. d, e comma 22; art. 2)."
+  - "Tetto: chi riceve il premio non può avere più di 220 seggi su 400 alla Camera e 113 su 200 al Senato, esclusi quelli dell'Estero (art. 1, comma 1, lett. d; art. 2)."
+  - "I seggi del premio vanno a liste circoscrizionali apposite, senza preferenze, decise dai partiti (art. 1, comma 8, lett. e)."
+  - "Le liste devono indicare il nome della persona proposta come Presidente del Consiglio; le liste coalizzate indicano lo stesso nome. Restano ferme le prerogative del Presidente della Repubblica (art. 1, comma 6)."
+  - "Firme per presentare le liste: per i partiti nuovi salgono da 1.500-2.000 a 6.000-7.000 per collegio; restano 1.500-2.000 per chi ha un gruppo o una componente di gruppo in almeno una Camera; resta ferma l'esenzione già prevista dal testo unico. Per le prime elezioni conta la situazione al 31 dicembre 2025 (art. 1, comma 8; art. 5)."
+  - "Un candidato può presentarsi in non più di cinque collegi plurinominali, come già prima, e in una sola lista del premio (art. 1, comma 10)."
+  - "Voto fuori sede strutturale per politiche, europee e referendum. Vale per chi studia o lavora per almeno nove mesi in un'altra regione, per chi si cura per almeno tre mesi in un'altra regione e per chi lo assiste. Si vota per i candidati del luogo di domicilio (art. 8)."
+  - "Estero: per la Camera le ripartizioni diventano due; per il Senato l'Estero è un'unica circoscrizione (art. 6); nuove regole per il voto per corrispondenza (art. 7)."
+numeri:
+  - voce: "Soglia per il premio"
+    valore: "42% dei voti validi, nella stessa coalizione, sia alla Camera sia al Senato"
+    fonte: "L. 180/2026, art. 1, comma 22; art. 2"
+  - voce: "Premio e tetto"
+    valore: "Camera: 70 seggi, massimo 220 su 400 (55%); Senato: 35 seggi, massimo 113 su 200 (56,5%). Il tetto esclude i seggi dell'Estero: sui seggi assegnati in Italia la quota è più alta (circa 56% alla Camera e 58% al Senato, con 8 e 4 seggi Estero; calcolo dell'Osservatorio, da verificare)"
+    fonte: "L. 180/2026, art. 1, comma 1, lett. d; art. 2, comma 1"
+  - voce: "Soglia di sbarramento"
+    valore: "3% nazionale per le liste, come nella legge precedente; per le coalizioni resta la soglia del testo unico (10% nella legge precedente, da verificare sul testo coordinato)"
+    fonte: "L. 180/2026, art. 1, comma 22, lett. e; d.P.R. 361/1957, art. 83"
+  - voce: "Firme per collegio"
+    valore: "6.000-7.000 per i partiti nuovi; 1.500-2.000 per i partiti con un gruppo parlamentare"
+    fonte: "L. 180/2026, art. 1, comma 8, lett. a e b"
+  - voce: "Voto finale alla Camera"
+    valore: "227 sì, 164 no (8 ottobre 2026); i tre quinti dei 400 deputati sono 240"
+    fonte: "Stampa (Il Sole 24 Ore, Websim), ottobre 2026"
+  - voce: "Affluenza alle politiche 2022"
+    valore: "63,9%, il minimo storico"
+    fonte: "Eligendo, citato in programma/schede/08_esteri.md"
+  - voce: "Costo"
+    valore: "nessun onere nuovo dichiarato (clausola di invarianza), salvo l'art. 7 per l'Estero"
+    fonte: "L. 180/2026, art. 9"
+chi_guadagna:
+  - "Chi vota fuori sede per studio, lavoro o cura, e chi assiste un familiare malato lontano da casa: può votare senza tornare a casa."
+  - "Chi vota: può scegliere fino a tre candidati e sa prima chi ogni coalizione propone come Presidente del Consiglio."
+  - "Le coalizioni più grandi: con il 42% dei voti possono arrivare al 55% dei seggi. Premio con soglia e tetto favorisce governi stabili per l'intera legislatura."
+  - "I partiti già presenti in Parlamento: la legge quadruplica le firme solo per i nuovi; chi ha un gruppo in almeno una Camera ne raccoglie un quarto, e l'esenzione già prevista resta; per le prime elezioni i requisiti sono fissati al 31 dicembre 2025."
+  - "I vertici dei partiti: scelgono i capilista e i candidati delle liste del premio senza preferenze; le candidature multiple fino a cinque collegi esistevano già."
+  - "Chi si candida con più risorse e reti personali: le preferenze premiano chi può fare campagna da solo."
+chi_paga:
+  - "Partiti nuovi e piccoli: firme quadruple (novità della legge), obbligo di presentarsi in metà delle circoscrizioni e soglia del 3% (già in vigore)."
+  - "Chi vota liste sotto soglia: il suo voto non elegge nessuno."
+  - "Chi vota per la minoranza, se scatta il premio: il suo voto pesa meno in seggi."
+  - "I territori: i fuori sede votano i candidati del luogo dove vivono, quindi le città universitarie contano di più e i luoghi di origine contano di meno."
+  - "Italiane e italiani all'estero: circoscrizioni più grandi e meno vicine."
+rischi_giuridici: "Lo screening automatico (costituzione/esami/gu/26G00201.md e 26A05611.md) non trova rilievi alti. Segnala in modo medio la soppressione di una delega (art. 4) e la sanzione penale per chi vota due volte per corrispondenza (art. 7): sono rischi bassi. Ad avviso di questo commento contano altri punti. (1) Il premio con soglia e tetto sembra in linea con la giurisprudenza. La Corte ha dichiarato illegittimo il premio senza una soglia minima di voti (sent. 1/2014), ha accettato il premio alla lista con il 40% e ha dichiarato illegittimo il ballottaggio (sent. 35/2017). (2) Il premio al Senato è calcolato sul voto nazionale. Va verificato con l'elezione «a base regionale» dell'art. 57: è un dubbio serio. (3) Le liste del premio sono senza preferenze. La sent. 1/2014 ha dichiarato illegittime liste lunghe senza possibilità di preferenza; liste corte e conoscibili sono ammesse. Va verificata la lunghezza effettiva. (4) La sent. 35/2017 ha escluso la libera scelta del collegio da parte di chi è eletto in più collegi. Va verificato quale criterio applica ora il testo unico. (5) Le firme diverse tra partiti già in Parlamento e partiti nuovi, con requisiti fissati a una data passata, toccano l'uguaglianza delle forze politiche (artt. 3, 48 e 49). (6) La legge rischia di applicarsi a meno di dodici mesi dal voto, contro il Codice di buona condotta in materia elettorale della Commissione di Venezia (2002). Non è un vincolo giuridico, ma è un principio riconosciuto."
+valori:
+  - valore: CIT
+    segno: "+"
+    perche: "Preferenze, nome del candidato alla guida del Governo e voto fuori sede danno a chi vota più scelta e più possibilità di partecipare."
+  - valore: RIS
+    segno: "+"
+    perche: "L'alternanza di genere nelle liste e nelle preferenze, e il voto per chi si cura o assiste un familiare lontano, tengono conto di situazioni diverse."
+  - valore: FID
+    segno: "-"
+    perche: "Regole cambiate con la maggioranza assoluta ma senza i tre quinti (227 sì su 400), a circa un anno dal voto, con firme quadruplicate solo per i partiti nuovi."
+  - valore: EQU
+    segno: "-"
+    perche: "Firme quadruple per i nuovi, soglia del 3% e premio fino al 55% dei seggi con il 42% dei voti riducono il peso di molti voti; in cambio il premio favorisce governi stabili."
+bilancio: "Vanno bene il voto fuori sede strutturale, le preferenze con alternanza di genere, il tetto ai seggi e l'obbligo di superare il 42% in entrambe le Camere, che evita maggioranze diverse tra Camera e Senato. Non vanno bene le regole sulle firme a favore dei partiti già in Parlamento, le liste del premio senza preferenze e l'approvazione senza i tre quinti a circa un anno dalle elezioni."
+governai:
+  proposte: [08-P3]
+  confronto: "La legge realizza già una parte di 08-P3: voto fuori sede per studio, lavoro e cura alle politiche, europee e referendum. Su un punto fa meglio di GovernAI, perché include chi assiste un familiare. La differenza principale: la legge fa votare i candidati del luogo di domicilio, mentre GovernAI prevede sezioni speciali per votare i candidati del proprio territorio. La scelta di GovernAI protegge il legame con il territorio, ma costa 15-25 milioni l'anno. La legge non contiene nulla della clausola di stabilità di GovernAI (nessuna modifica nei 12 mesi prima del voto; leggi senza i 3/5 applicate dalla legislatura dopo la prossima): questa legge stessa sarebbe stata rinviata. GovernAI ha tre difetti. Non giudica premio e preferenze per scelta («la formula è decisa»), quindi tace sul punto che conta di più per la rappresentanza. Nel programma intermedio sceglie la variante minima, senza voto fuori sede né voto anticipato. La sua scheda chiede ancora di «verificare se la l. 180/2026 disciplina il voto fuori sede», quindi va aggiornata. Inoltre una clausola di stabilità in legge ordinaria può essere cancellata dalla maggioranza successiva, come la scheda stessa ammette."
+cosa_cambieremmo:
+  - "Stesse firme per tutti i partiti, con la firma digitale sulla piattaforma pubblica già usata per referendum e leggi di iniziativa popolare."
+  - "Pubblicare prima del voto simulazioni ufficiali del riparto dei seggi su almeno tre scenari, come prevede 08-P3."
+  - "Fissare per legge un criterio oggettivo per chi è eletto in più collegi, non la scelta del candidato o del partito."
+  - "Lasciare a chi vota fuori sede la scelta tra i candidati del domicilio e quelli della residenza."
+  - "Tetti di spesa e rendiconti pubblici per le campagne sulle preferenze, per evitare voto di scambio e disparità di mezzi."
+  - "Una clausola di stabilità per il futuro: le prossime modifiche agli elementi fondamentali solo con i 3/5 o dalla legislatura successiva."
+domande_aperte:
+  - "In quale data si voterà, e quanti mesi passeranno davvero tra l'entrata in vigore e le elezioni?"
+  - "Il premio nazionale al Senato è compatibile con l'art. 57 della Costituzione?"
+  - "Quante persone useranno il voto fuori sede, e i Comuni con molti studenti avranno abbastanza sezioni?"
+  - "Con i sondaggi attuali, quante volte una coalizione supererebbe il 42% in entrambe le Camere?"
+  - "Quante donne saranno capolista? Il capolista è eletto senza preferenze: da lì dipende gran parte dell'equilibrio di genere tra gli eletti."
+fonti:
+  - "Legge 9 ottobre 2026, n. 180, GU n. 235 del 9/10/2026, https://www.gazzettaufficiale.it/eli/id/2026/10/09/26G00201/sg; ripubblicazione con note, GU n. 247 del 23/10/2026, https://www.gazzettaufficiale.it/eli/id/2026/10/23/26A05611/sg (testi in legislazione/archivio/testi/2026/)"
+  - "Screening costituzionale automatico, costituzione/esami/gu/26G00201.md e costituzione/esami/gu/26A05611.md"
+  - "Corte costituzionale, sentenze 1/2014 e 35/2017 (verificate su dati.cortecostituzionale.it con costituzione/giurisprudenza.py)"
+  - "Commissione di Venezia, Codice di buona condotta in materia elettorale, 2002"
+  - "Il Sole 24 Ore e Websim, ottobre 2026, sul voto finale (stampa)"
+  - "Programma GovernAI, 08-P3, programma/schede/08_esteri.md; variante scelta in programma/selezione_intermedio.csv"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

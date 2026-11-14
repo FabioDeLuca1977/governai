@@ -1,0 +1,84 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md)
+id: manovra-2027-comuni-debiti-avanzo
+titolo: "Comuni in difficoltà: debito con lo Stato cancellato ma pagato fino al 2051; avanzo più libero per chi è prudente"
+atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, artt. 123, 124, 125 e 126 (con richiami agli artt. 127-129)"
+tipo: legge di bilancio
+data: 2026-10-30
+stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026. Per l'art. 124 i Comuni devono deliberare entro il 1° marzo 2027"
+fonte: "https://www.camera.it/leg19/126?tab=&leg=19&idDocumento=3174"
+tema: "04"
+in_breve: "Lo Stato cancella 2,84 mld di prestiti fatti ai grandi Comuni in difficoltà, ma questi continuano a versare ogni anno la stessa cifra fino al 2051. Per la relazione tecnica l'effetto sui conti pubblici è neutro. In più ci sono 400 mln per i Comuni in dissesto e una regola che lascia usare prima l'avanzo a chi ha fatto previsioni prudenti."
+cosa_fa:
+  - "Art. 123: fondo di 200 mln l'anno nel 2028 e nel 2029 per ripianare il disavanzo dei Comuni in dissesto, in riequilibrio o con accordi di ripiano, in proporzione al debito per anticipazioni di liquidità."
+  - "Art. 124: dal 2027 cancella il debito verso lo Stato per le anticipazioni di liquidità dei Comuni sopra 20.000 abitanti in difficoltà. In cambio il Comune versa ogni anno, fino al 2051, una somma pari alla rata, e accetta un tetto all'uso dell'avanzo. Il fondo che accantonava quel debito sparisce dal bilancio."
+  - "Art. 125: i Comuni capoluogo con accordi di ripiano possono anticipare il ripiano e poi rallentarlo negli anni dopo."
+  - "Art. 126: i Comuni e le Regioni che negli ultimi tre anni hanno avuto avanzi pari o superiori alle previsioni possono usare l'avanzo libero presunto già al bilancio di previsione. L'avanzo non può più pagare spese fisse come personale di ruolo, contratti di servizio, affitti e interessi."
+  - "Artt. 127-129: regole più strette sul controllo degli obiettivi di finanza pubblica; i contratti di partenariato pubblico-privato contano come debito dell'ente."
+numeri:
+  - voce: "Debito cancellato (art. 124)"
+    valore: "2,84 mld di capitale e 0,53 mld di interessi, in tutto 3,37 mld fino al 2051; rata di circa 157 mln l'anno"
+    fonte: "Relazione tecnica A.C. 3174, art. 124, piano di ammortamento"
+  - voce: "Effetto sui conti pubblici (art. 124)"
+    valore: "Neutro: i versamenti dei Comuni compensano le rate non più pagate"
+    fonte: "Relazione tecnica A.C. 3174, art. 124"
+  - voce: "Fondo per gli enti in dissesto (art. 123)"
+    valore: "200 mln nel 2028 e 200 mln nel 2029"
+    fonte: "Relazione tecnica A.C. 3174, art. 123"
+  - voce: "Comuni beneficiari dell'art. 125"
+    valore: "Capoluoghi di città metropolitana con disavanzo oltre 700 euro per abitante e capoluoghi di provincia oltre 500 euro (rendiconto 2020)"
+    fonte: "Relazione illustrativa A.C. 3174, art. 125"
+chi_guadagna:
+  - "Amministrazioni dei grandi Comuni in difficoltà: il bilancio non deve più accantonare il debito per anticipazioni, quindi il risultato di amministrazione migliora sulla carta."
+  - "Comuni in dissesto o in riequilibrio: 400 mln dallo Stato nel 2028-2029 per ridurre il disavanzo."
+  - "Fornitori di questi Comuni: un ente meno in crisi paga con meno ritardi."
+  - "Comuni e Regioni con i conti prudenti: possono usare prima l'avanzo per investimenti e spese una tantum."
+chi_paga:
+  - "Chi paga le tasse in tutta Italia: 400 mln per i disavanzi di pochi enti, senza una diagnosi pubblica delle cause, che possono essere gestionali o strutturali (bassa riscossione, poche entrate proprie, regole contabili cambiate)."
+  - "I Comuni che non hanno chiesto anticipazioni: non ricevono nulla."
+  - "La trasparenza dei conti: un debito diventa un «versamento» annuale fino al 2051, e il bilancio del Comune sembra più sano di quanto è."
+  - "Chi vive nei Comuni beneficiari: resta vincolato per 25 anni a un tetto sull'uso dell'avanzo, deciso oggi."
+  - "Chi vive nei Comuni in dissesto: paga spesso addizionali e tariffe al massimo e riceve servizi ridotti; la norma non migliora subito i servizi."
+rischi_giuridici: "L'esame di costituzionalità di GovernAI non ha esaminato gli artt. 123-126 (costituzione/esami/AC3174_manovra_2027.md). Segnala rischio basso per gli artt. 128 e 129. Punti da verificare: il decreto sugli importi dell'art. 124 è d'intesa con la Conferenza Stato-città, coerente con l'autonomia finanziaria (art. 119 Cost.); il recupero forzoso sulle giacenze di tesoreria (art. 124, cc. 4-5) deve rispettare le risorse per le funzioni fondamentali. Resta da valutare se Eurostat e la Corte dei conti considereranno i versamenti annuali come debito."
+valori:
+  - valore: FID
+    segno: "-"
+    perche: "Il debito non sparisce ma cambia nome; un lettore del bilancio comunale vede meno debito di quello che c'è."
+  - valore: FID
+    segno: "+"
+    perche: "L'art. 126 premia chi fa previsioni realistiche e vieta di pagare spese fisse con l'avanzo: è una buona regola di prudenza."
+  - valore: EQU
+    segno: "-"
+    perche: "Aiuta i Comuni in crisi, che sono spesso al Sud e hanno servizi deboli, ma senza condizioni sui servizi e senza nulla per chi è stato virtuoso."
+  - valore: BEN
+    segno: "+"
+    perche: "Un Comune con meno disavanzo può pagare i fornitori e mantenere i servizi di base."
+  - valore: FUT
+    segno: "="
+    perche: "L'effetto sui conti pubblici è neutro, ma l'impegno dura fino al 2051 e lega le amministrazioni future."
+  - valore: CIT
+    segno: "-"
+    perche: "Nessun obbligo di spiegare a chi vive nel Comune perché il debito si è formato e come si eviterà di nuovo."
+bilancio: "Va bene il premio alla prudenza dell'art. 126 e il divieto di usare l'avanzo per spese fisse. Non va bene presentare come cancellazione un debito che si continua a pagare fino al 2051, né dare 400 mln a pochi enti senza obiettivi di servizio e senza una diagnosi pubblica delle cause."
+governai:
+  proposte: [09-C3, 04-P5, 01-P1]
+  confronto: "GovernAI non ha una proposta sui debiti dei Comuni in crisi: è una lacuna del programma. Ha però 3.000 tecnici in squadre per i piccoli Comuni del Sud e delle aree interne (09-C3), che aiutano a gestire meglio, ma non toccano i grandi Comuni dell'art. 124. GovernAI chiede di quantificare prima i servizi essenziali (04-P5) e di dire sempre chi paga e quando (01-P1): con questo metro, l'art. 124 dovrebbe mostrare il debito per quello che è. Anche GovernAI tratta i Comuni soprattutto come esecutori dei suoi progetti, e poco come enti con problemi di bilancio propri."
+cosa_cambieremmo:
+  - "Scrivere nell'art. 124 che il versamento annuale resta un debito verso lo Stato e va indicato in nota al bilancio comunale fino al 2051."
+  - "Legare il fondo dell'art. 123 a un piano pubblico con obiettivi sui servizi, sulla riscossione delle entrate e sui tempi di pagamento dei fornitori, verificato ogni anno."
+  - "Pubblicare l'elenco dei Comuni beneficiari e gli importi, con le cause del disavanzo accertate dalla Corte dei conti."
+  - "Riservare una quota del fondo ai piccoli Comuni in difficoltà, oggi esclusi perché sotto i 20.000 abitanti."
+  - "Accompagnare gli enti beneficiari con le squadre tecniche per la riscossione, sul modello di 09-C3."
+domande_aperte:
+  - "Quali e quanti Comuni rientrano nell'art. 124? L'elenco viene dal tavolo tecnico della L. 199/2025 e non è pubblico nella relazione."
+  - "Eurostat considererà i versamenti fino al 2051 come debito dei Comuni?"
+  - "Il tavolo tecnico sui Comuni in difficoltà proporrà una riforma stabile, o arriveranno altri interventi caso per caso?"
+fonti:
+  - "Testo A.C. 3174, artt. 123-129: costituzione/testi/AC3174_articolato.txt"
+  - "Relazione illustrativa e relazione tecnica A.C. 3174, artt. 123-126: dati/raw/00b_ddl_bilancio_2027_AC3174_relazioni.txt"
+  - "Esame di costituzionalità GovernAI, tabella del punto 7: costituzione/esami/AC3174_manovra_2027.md"
+  - "Schede GovernAI 09-C3 (programma/schede/09_pa_digitale.md), 04-P5 (programma/schede/04_infrastrutture.md), 01-P1 (programma/schede/01_economia.md)"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

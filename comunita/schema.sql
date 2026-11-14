@@ -56,12 +56,17 @@ create table if not exists public.interventi (
   id             bigint generated always as identity primary key,
   autore         uuid not null references public.profili(id) on delete cascade,
   tema           text not null
-                 check (tema ~ '^(generale|metodo|proposta:[0-9]{2}-[PC][0-9]{1,2}|area:[0-9]{2}|scenario:[a-z0-9-]{1,40})$'),
+                 check (tema ~ '^(generale|metodo|proposta:[0-9]{2}-[PC][0-9]{1,2}|area:[0-9]{2}|scenario:[a-z0-9-]{1,40}|atto:[a-z0-9-]{1,60})$'),
   risponde_a     bigint references public.interventi(id) on delete set null,
   testo          text not null check (char_length(btrim(testo)) between 2 and 4000),
   stato          text not null default 'in_revisione' check (stato in ('visibile', 'in_revisione', 'nascosto')),
   creato_at      timestamptz not null default now()
 );
+-- 14/11/2026: discussione sugli atti del governo di oggi (tema "atto:<id>", osservatorio/atti/).
+-- Aggiorna il vincolo anche sui database creati prima: si può rieseguire.
+alter table public.interventi drop constraint if exists interventi_tema_check;
+alter table public.interventi add constraint interventi_tema_check
+  check (tema ~ '^(generale|metodo|proposta:[0-9]{2}-[PC][0-9]{1,2}|area:[0-9]{2}|scenario:[a-z0-9-]{1,40}|atto:[a-z0-9-]{1,60})$');
 create index if not exists interventi_tema on public.interventi (tema, creato_at);
 create index if not exists interventi_autore on public.interventi (autore, creato_at);
 

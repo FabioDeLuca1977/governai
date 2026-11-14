@@ -1,0 +1,98 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md). Scritto da un agente AI; non rivisto da una persona esperta.
+id: dl-2026-205-campi-flegrei
+titolo: "Campi Flegrei: un commissario per dieci anni e un miliardo per case ed edifici pubblici più sicuri"
+atto: "Decreto-legge 11 novembre 2026, n. 205, artt. 1-28"
+tipo: decreto-legge
+data: 2026-11-11
+stato: "In vigore dal 12 novembre 2026; da convertire in legge entro il 10 gennaio 2027"
+fonte: "https://www.gazzettaufficiale.it/eli/id/2026/11/11/26G00225/sg"
+tema: "03"
+in_breve: "Dopo le scosse del 2024-2026, il decreto affida al presidente della Regione Campania, fino al 2036, la guida degli interventi nell'area del bradisismo. Gli dà 100 milioni l'anno per dieci anni, per riparare e rendere più sicuri edifici privati e pubblici. La copertura viene da fondi per la ricostruzione e la prevenzione in altre zone; fino al 2036 i creditori del commissario non possono avviare esecuzioni."
+cosa_fa:
+  - "Il presidente della Regione Campania è commissario fino al 31 dicembre 2036, senza compenso. Subentra al commissario precedente e alle funzioni di Regione e dei Comuni di Napoli, Pozzuoli, Bacoli e Monte di Procida. Può emanare ordinanze anche in deroga alle leggi, con motivazione (art. 1)."
+  - "Una struttura di supporto di 93 persone, di cui 12 dirigenti (art. 2)."
+  - "Due fondi da 50 milioni l'anno ciascuno dal 2027 al 2036: uno per gli edifici privati, uno per edifici pubblici, infrastrutture e servizi (art. 5)."
+  - "Fino alla fine della gestione commissariale nessun creditore può avviare esecuzioni sulle contabilità del commissario, e i pignoramenti sono inefficaci (art. 5, comma 5)."
+  - "Nella zona di intervento si consuma nuovo suolo solo in casi eccezionali, se non si può recuperare l'edificato esistente (art. 9)."
+  - "Contributi per le case sgomberate pagati al metro quadro, con i costi della ricostruzione del Centro Italia 2016. Decisione in 60 giorni, controlli su almeno il 15% delle domande, al netto delle assicurazioni. Servono un titolo edilizio valido o una sanatoria già ottenuta (artt. 11-12)."
+  - "Sanatorie in 60 giorni per i lavori fatti prima del 1° agosto 2026. I condoni del 1985, 1994 e 2003 ancora aperti si chiudono con priorità in 90 giorni. Il contributo arriva solo se la sanatoria va a buon fine; multe e oblazioni restano a carico del proprietario (art. 13)."
+  - "Chi vuole può usare il contributo per comprare casa o terreno fuori dalla zona a rischio, senza superare il costo della riparazione; l'area lasciata va al Comune (art. 14)."
+  - "Per la riduzione della vulnerabilità sismica il contributo sale dal 70% al 100% per chi ha un reddito sotto 28.000 euro, esclusa la casa, anche per le domande già decise (art. 16)."
+  - "Inoltre: 30 milioni per spostare case popolari di Pozzuoli (art. 15, nuovo art. 13-ter del DL 144/2026), 10 milioni per le chiese (art. 20), sospensione di tasse e contributi per chi è stato sgomberato (art. 21). Ci sono anche norme su Niscemi in Sicilia (art. 26) e su Bagnoli (art. 27)."
+numeri:
+  - voce: "Fondi per la prevenzione e la riparazione"
+    valore: "100 milioni l'anno dal 2027 al 2036, 1 mld in dieci anni"
+    fonte: "DL 205/2026, art. 5, commi 1 e 9"
+  - voce: "Copertura dei fondi"
+    valore: "2027-2029 tagliando il Fondo per la ricostruzione della L. 40/2025; 2030-2036 tagliando il fondo dell'art. 1, comma 644, della L. 207/2024"
+    fonte: "DL 205/2026, art. 8, comma 2"
+  - voce: "Costo della struttura commissariale"
+    valore: "1,82 milioni nel 2026, 10,88 nel 2027, 11,43 l'anno dal 2028 al 2036"
+    fonte: "DL 205/2026, art. 8, comma 1"
+  - voce: "Spese prese dai fondi nazionali di prevenzione sismica (Casa Italia)"
+    valore: "30,08 milioni nel 2027-2029 per le case popolari e 10 milioni nel 2027-2028 per le chiese"
+    fonte: "DL 205/2026, art. 15 (nuovo art. 13-ter del DL 144/2026) e art. 20"
+  - voce: "Contributo per i redditi bassi"
+    valore: "100% invece del 70% sotto 28.000 euro di reddito imponibile"
+    fonte: "DL 205/2026, art. 16"
+  - voce: "Bagnoli-Coroglio"
+    valore: "stesso totale di 1,1 mld, anticipato: 200 milioni nel 2026 e 300 l'anno nel 2027-2029 (prima 100, 200, 400, 400)"
+    fonte: "DL 205/2026, art. 27"
+  - voce: "Scosse richiamate dal decreto"
+    valore: "20 maggio 2024 (magnitudo 4,4), 13 e 15 marzo 2025, maggio-settembre 2025, 21 maggio 2026, 31 luglio e 1° agosto 2026"
+    fonte: "DL 205/2026, premesse e art. 11"
+chi_guadagna:
+  - "Famiglie con casa danneggiata o fragile nella zona di intervento, soprattutto con redditi bassi (contributo al 100%)."
+  - "Chi sceglie di trasferirsi fuori dalla zona a rischio: può usare il contributo per comprare altrove."
+  - "Proprietari con condoni o sanatorie aperti: le pratiche si chiudono in tempi certi."
+  - "Regione Campania: guida tutti gli interventi per dieci anni."
+  - "Professionisti e imprese edili della zona: lavori finanziati per dieci anni, con onorari fino al 10% dei lavori."
+  - "Enti religiosi proprietari di chiese danneggiate: 10 milioni."
+chi_paga:
+  - "Altre zone colpite da disastri: si taglia il Fondo per la ricostruzione della L. 40/2025 per 100 milioni l'anno nel 2027-2029."
+  - "La prevenzione sismica nel resto d'Italia: circa 40 milioni tolti ai fondi del Dipartimento Casa Italia."
+  - "Imprese e persone che vantano crediti verso il commissario: per anni non possono riscuotere con la forza."
+  - "Chi rispetta le regole edilizie: in zona di massimo rischio vulcanico, edifici condonati possono ricevere contributi pubblici; è un rischio se servono ad ampliarli e non a renderli sicuri."
+rischi_giuridici: "Lo screening automatico (costituzione/esami/gu/26G00225.md) segnala tre rischi alti (artt. 12, 18, 21) e sei medi. Quelli sugli artt. 12 e 21 sono probabilmente falsi allarmi: le date passate sono quelle delle scosse, e le sospensioni dei termini favoriscono chi è colpito. Sugli artt. 5, 6, 18 e 19 conta il rapporto con Regione e Comuni. Qui il rischio è basso, perché il commissario è lo stesso presidente della Regione, ma va garantito che le funzioni comunali tolte abbiano risorse. Ad avviso di questo commento il punto più debole non è segnalato dallo screening. Il blocco delle esecuzioni e l'inefficacia dei pignoramenti fino al 2036 (art. 5, comma 5) toccano il diritto di agire in giudizio e il giusto processo (artt. 24 e 111; art. 6 CEDU). La Corte costituzionale ha già dichiarato illegittimo un blocco simile delle esecuzioni contro le aziende sanitarie della Campania, prorogato nel tempo (sent. 186/2013, sull'art. 1, comma 51, della L. 220/2010): è un dubbio serio. Le ordinanze in deroga per dieci anni sono ammesse solo se motivate e nei limiti dei principi generali, come prevede l'art. 1, comma 6. Le norme su Niscemi e su Bagnoli sono poco omogenee con il titolo (sent. 22/2012). Gli aiuti alle attività economiche richiedono la base europea sugli aiuti di Stato (art. 15)."
+valori:
+  - valore: SIC
+    segno: "+"
+    perche: "Va nella direzione della prevenzione: finanzia per dieci anni la riduzione della vulnerabilità di case ed edifici pubblici in un'area a rischio vulcanico e sismico, e permette di trasferirsi."
+  - valore: EQU
+    segno: "+"
+    perche: "Il contributo al 100% per i redditi sotto 28.000 euro aiuta chi non potrebbe pagare la propria parte."
+  - valore: FUT
+    segno: "+"
+    perche: "Limita il consumo di nuovo suolo e premia chi lascia la zona più esposta, riducendo il rischio per chi verrà dopo."
+  - valore: FID
+    segno: "-"
+    perche: "Il denaro è tolto al Fondo per la ricostruzione di altre zone colpite e alla prevenzione nazionale, indicati nel decreto, senza dire quali interventi altrove slittano; i creditori non possono riscuotere."
+  - valore: RIS
+    segno: "+"
+    perche: "Il trasferimento è volontario e si può affidare la domanda all'inquilino: si rispetta la scelta delle persone."
+bilancio: "Vanno bene un piano decennale con risorse certe, il contributo pieno per i redditi bassi, il limite al consumo di suolo, il trasferimento volontario e i controlli sulle domande. Non vanno bene la copertura presa da altre zone colpite da disastri, il blocco dei creditori fino al 2036, i contributi a edifici condonati in zona di massimo rischio senza vincolarli alla sola messa in sicurezza, e le norme estranee al titolo."
+governai:
+  proposte: [03-P4, 09-C3]
+  confronto: "GovernAI propone un fondo nazionale per la prevenzione dei rischi naturali, assegnato in base a una graduatoria del rischio e non dell'emergenza. Lo accompagna con uno schema assicurativo per le case con adesione automatica, il divieto di costruire nelle aree a rischio più alto e nessun indennizzo agli edifici abusivi o condonati (03-P4, versione essenziale nel programma intermedio). Prevede anche squadre tecniche per i piccoli Comuni (09-C3). Il decreto invece finanzia una sola area, prendendo i soldi ad altre, e accetta i condoni. Ma anche GovernAI ha dei limiti. La sua versione essenziale vale 0,6 mld l'anno per tutta Italia, concentrati soprattutto su frane e alluvioni. Una parte della copertura viene dai fondi di coesione e finisce nel 2030. La regola «nessun indennizzo ai condonati» potrebbe lasciare famiglie in case pericolose senza aiuto per rinforzarle. E GovernAI non ha una proposta specifica per il rischio vulcanico."
+cosa_cambieremmo:
+  - "Togliere il blocco delle esecuzioni, o limitarlo alle sole somme vincolate ai lavori e per un tempo breve."
+  - "Coprire i 100 milioni l'anno con risorse nuove o con un taglio dichiarato, non con i fondi per la ricostruzione di altre zone colpite."
+  - "Nella zona di massimo rischio, dare il contributo agli edifici condonati solo per renderli sicuri o per trasferirsi, mai per ampliarli."
+  - "Rendere il trasferimento più conveniente della riparazione nelle aree a rischio più alto, invece di fissarlo allo stesso tetto."
+  - "Pubblicare in formato aperto, ogni sei mesi, domande, contributi, tempi e controlli, edificio per edificio e senza dati personali."
+  - "Affiancare uno schema assicurativo per le case, come in 03-P4, e togliere dal decreto le norme su Niscemi."
+domande_aperte:
+  - "Quante persone vivono nella zona di intervento, e quanti edifici sono stati sgomberati?"
+  - "Bastano 50 milioni l'anno per le case private, rispetto alle domande già presentate?"
+  - "Quali ricostruzioni in corso nel resto d'Italia perdono risorse con il taglio al Fondo della L. 40/2025?"
+  - "Quanti condoni aperti riguardano edifici nella zona di intervento?"
+fonti:
+  - "Decreto-legge 11 novembre 2026, n. 205, GU n. 263 del 11/11/2026, https://www.gazzettaufficiale.it/eli/id/2026/11/11/26G00225/sg (testo in legislazione/archivio/testi/2026/26G00225.txt)"
+  - "Screening costituzionale automatico, costituzione/esami/gu/26G00225.md"
+  - "Corte costituzionale, sentenze 186/2013 e 22/2012 (verificate su dati.cortecostituzionale.it con costituzione/giurisprudenza.py)"
+  - "Programma GovernAI, programma/schede/03_ambiente.md (03-P4) e programma/schede/09_pa_digitale.md (09-C3); varianti scelte in programma/selezione_intermedio.csv"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

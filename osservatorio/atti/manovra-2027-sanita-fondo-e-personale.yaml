@@ -1,0 +1,90 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md). Scritto da un agente AI; non rivisto da una persona esperta.
+id: manovra-2027-sanita-fondo-e-personale
+titolo: "Sanità: 2,4 miliardi l'anno in più, circa sei decimi già destinati a tariffe, pronto soccorso e liste d'attesa"
+atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, art. 69 (commi 1-7), art. 74 e art. 70"
+tipo: legge di bilancio
+data: 2026-10-30
+stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026. L'art. 69, comma 8 (documento con la tariffa per chi riceve una prestazione), è stato stralciato il 4/11/2026 e prosegue come A.C. 3174-ter."
+fonte: "https://www.camera.it/leg19/126?leg=19&idDocumento=3174"
+tema: "06"
+in_breve: "Il fondo sanitario sale di 2,4 miliardi l'anno. Circa 1,4 miliardi hanno già una destinazione per legge: tariffe degli ospedali, indennità del pronto soccorso, ore in più contro le liste d'attesa, tetti di spesa. In rapporto al PIL il fondo sanitario scende dal 6,1% del 2027 a circa il 6,0% del 2028; il dato del 2029 è ancora da verificare."
+cosa_fa:
+  - "Aumenta il finanziamento del Servizio sanitario nazionale (SSN) di 2.365 milioni nel 2027, 2.352 nel 2028 e 2.399 dal 2029 (art. 69, c. 1)."
+  - "Vincola 500 milioni l'anno all'aumento delle tariffe pagate per i ricoveri ospedalieri per acuti (c. 2)."
+  - "Dà 100 milioni, solo per il 2027, all'assistenza per Alzheimer e demenze (c. 3)."
+  - "Permette alle Regioni di pagare nel 2027 ore in più a medici (213 milioni) e infermieri e altro personale sanitario (87 milioni) per ridurre le liste d'attesa (c. 4)."
+  - "Aumenta di 380 milioni l'anno l'indennità per chi lavora nel pronto soccorso: 114 milioni per i medici, 266 per il personale del comparto (c. 6)."
+  - "Stanzia 100 milioni nel 2027 per pagare le cause sul buono pasto del personale sanitario (c. 5)."
+  - "Lascia alle Regioni una quota libera di 138 milioni nel 2027, 236 nel 2028 e 273 nel 2029, anche per l'inflazione (c. 7)."
+  - "Alza di 3 punti il tetto di spesa per gli acquisti dalle strutture private accreditate, per pagare le nuove tariffe di riabilitazione, lungodegenza e specialistica (art. 74)."
+  - "Cambia la quota sanitaria dei lavoratori frontalieri in Svizzera: una cifra fissa tra 30 e 150 euro al mese decisa dalla Regione, con sanzione del 100% se non si paga (art. 70)."
+numeri:
+  - voce: "Aumento del fondo sanitario"
+    valore: "2.365 mln nel 2027, 2.352 nel 2028, 2.399 dal 2029"
+    fonte: "A.C. 3174, art. 69, c. 1; relazione tecnica, art. 69"
+  - voce: "Quote già vincolate nel 2027"
+    valore: "circa 1.440 mln su 2.365 (61%): tariffe ospedaliere 500, pronto soccorso 380, ore aggiuntive 300 (che le Regioni possono pagare dalla quota indistinta, entro tetti regionali), tetto dei dispositivi medici circa 146, Alzheimer 100, dipendenze 15. In più 138 mln di quota libera per le Regioni (calcolo dell'Osservatorio)"
+    fonte: "A.C. 3174, art. 69, cc. 2-7; relazione tecnica A.C. 3174, artt. 69, 73 e 75"
+  - voce: "Dal 2028, quota per il tetto della spesa farmaceutica"
+    valore: "circa 292 mln l'anno presi dallo stesso aumento"
+    fonte: "Relazione tecnica A.C. 3174, art. 71"
+  - voce: "Fondo sanitario in rapporto al PIL"
+    valore: "6,14% nel 2026, 6,11% nel 2027, 5,98% nel 2028, 5,87% nel 2029 (il livello 2029 non è ancora verificato)"
+    fonte: "Serie GovernAI dati/serie/06_fsn_pil.csv, su PIL tendenziale del DPFP 2026"
+  - voce: "Effetto delle nuove tariffe sui privati accreditati"
+    valore: "365 mln l'anno, pagati con fondi già stanziati (350 mln dal 2026 e 183 mln dal 2027)"
+    fonte: "Relazione tecnica A.C. 3174, art. 74"
+chi_guadagna:
+  - "Medici e infermieri del pronto soccorso: 380 milioni l'anno in più di indennità, in modo stabile."
+  - "Personale sanitario dipendente che accetta turni in più: fino a 300 milioni nel 2027."
+  - "Ospedali pubblici e privati accreditati che fanno ricoveri per acuti: tariffe più alte per 500 milioni l'anno."
+  - "Strutture private accreditate di riabilitazione, lungodegenza e specialistica: il tetto più alto evita che le nuove tariffe riducano il numero di prestazioni comprate."
+  - "Regioni e Province autonome: una quota libera e, per le autonomie speciali, l'accesso ai 300 milioni senza cofinanziamento."
+  - "Pazienti in lista d'attesa e persone con demenza, se le Regioni usano davvero le risorse per prestazioni in più."
+chi_paga:
+  - "La fiscalità generale: l'aumento è nel saldo della manovra."
+  - "Le persone che lavorano in Svizzera e vivono vicino al confine: una quota fissa fino a 150 euro al mese, uguale per redditi diversi."
+  - "Chi usa il SSN negli anni successivi: il fondo sanitario in rapporto al PIL scende, mentre la popolazione invecchia."
+  - "Le strutture pubbliche: il tetto più alto per i privati accreditati (art. 74) è permanente e non chiede in cambio di mettere le agende nel CUP; può spostare offerta verso il privato accreditato."
+rischi_giuridici: "Rischio basso secondo l'esame di GovernAI (costituzione/esami/AC3174_manovra_2027.md, par. 7): l'aumento del fondo rafforza i livelli essenziali e le quote vincolate sono principi di coordinamento. Per l'art. 70 va motivata la quota fissa al posto di quella legata al reddito (artt. 3 e 53 Cost.) e va verificata la compatibilità con l'accordo Italia-Svizzera sui frontalieri."
+valori:
+  - valore: BEN
+    segno: "+"
+    perche: "Pronto soccorso più pagato e ore in più contro le attese sono bisogni reali e immediati."
+  - valore: EQU
+    segno: "-"
+    perche: "Le ore aggiuntive sono ripartite per tabella, senza legame con le Regioni dove le attese sono più lunghe; la quota fissa dei frontalieri pesa di più su chi guadagna meno."
+  - valore: FUT
+    segno: "-"
+    perche: "Il fondo sanitario in rapporto al PIL scende proprio mentre cresce il numero di persone anziane."
+  - valore: FID
+    segno: "-"
+    perche: "Non ci sono obiettivi misurabili per i 300 milioni contro le liste d'attesa né l'obbligo di pubblicare i risultati; la norma sulla trasparenza delle tariffe è stata stralciata."
+  - valore: RIS
+    segno: "+"
+    perche: "Le risorse per Alzheimer e demenze riconoscono una fragilità spesso lasciata alle famiglie, anche se valgono un solo anno."
+bilancio: "Bene l'indennità stabile per il pronto soccorso e le risorse per le tariffe ferme da anni. Non bene che circa sei decimi dell'aumento siano già vincolati per legge, lasciando poco margine alle Regioni per nuovi servizi, che le ore contro le attese durino un anno senza obiettivi misurati, che il tetto più alto per i privati accreditati non chieda nulla in cambio e che la sanità perda peso sul PIL."
+governai:
+  proposte: ["06-C1", "06-C3", "06-C8", "06-C2", "06-C10"]
+  confronto: "GovernAI parte dallo stesso fondo sanitario del disegno di legge e lo considera già tutto destinato: non trova nuovo spazio nel fondo. Aggiunge, con altre coperture, le Case della Comunità (06-C3, 0,8 mld) e 500 squadre infermieristiche di quartiere (06-C8, 0,1 mld). Sulle liste d'attesa propone regole che danno al paziente un'alternativa automatica se il CUP non rispetta i tempi (06-C1), ma nel programma intermedio solo nella versione a costo zero, senza rimborso garantito. Il piano per il personale infermieristico (06-C2) è uscito dal programma il 13 novembre per mancanza di coperture certificate. Anche GovernAI quindi non riporta la sanità al 6,1% del PIL: è il punto più debole del suo programma, e lo dichiara."
+cosa_cambieremmo:
+  - "Dare i 300 milioni per le ore aggiuntive in base alle attese misurate per Regione (dati AGENAS), con obiettivi di riduzione pubblici e recupero delle somme non usate."
+  - "Legare l'aumento del tetto per i privati accreditati all'obbligo di mettere tutte le loro agende nel CUP unico regionale."
+  - "Per i frontalieri, tenere una quota legata al reddito dentro la forbice di 30-150 euro, invece di una cifra uguale per tutti."
+  - "Pubblicare ogni anno, per Regione, come sono stati spesi i 2,4 miliardi e con quali risultati sulle attese e sul pronto soccorso."
+  - "Approvare in tempi brevi, nel provvedimento stralciato A.C. 3174-ter, il documento che dice al paziente quanto costa la prestazione ricevuta."
+domande_aperte:
+  - "Quanti milioni dell'aumento restano davvero liberi per le Regioni dopo i rinnovi dei contratti e l'inflazione?"
+  - "Le ore aggiuntive del 2027 riducono le attese o spostano solo il problema all'anno dopo?"
+  - "Il livello del fondo sanitario nel 2029 a legislazione vigente non è stato ancora verificato su fonte primaria."
+fonti:
+  - "A.C. 3174, articolato, artt. 69, 70 e 74: costituzione/testi/AC3174_articolato.txt"
+  - "A.C. 3174, relazione tecnica, artt. 69-75: dati/raw/00b_ddl_bilancio_2027_AC3174_relazioni.txt"
+  - "Esame di costituzionalità GovernAI: costituzione/esami/AC3174_manovra_2027.md"
+  - "Serie del fondo sanitario sul PIL: dati/serie/06_fsn_pil.csv"
+  - "Schede GovernAI area salute: programma/schede/06_salute.md"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

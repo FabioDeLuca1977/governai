@@ -1,0 +1,97 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md)
+id: manovra-2027-revisione-spesa-rinvii
+titolo: "Tagli ai ministeri, investimenti rinviati al 2030-2032, prevenzione sismica degli edifici pubblici diluita"
+atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, artt. 135, 136 e 137, con allegati 5, 6 e 7; artt. 116 e 118 (calamità ed emergenze)"
+tipo: legge di bilancio
+data: 2026-10-30
+stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026"
+fonte: "https://www.camera.it/leg19/126?tab=&leg=19&idDocumento=3174"
+tema: "01"
+in_breve: "I ministeri tagliano circa 0,24-0,26 mld l'anno di spesa corrente e rinviano al 2030-2032 investimenti per 1,2-1,8 mld l'anno. Si tolgono 100 mln l'anno all'Assegno di inclusione perché non spesi. Il fondo per rendere sicuri contro i terremoti gli edifici pubblici scende da 60 a 30 mln l'anno, spalmato fino al 2030."
+cosa_fa:
+  - "Art. 135, c. 1: riduce gli stanziamenti in conto capitale dei ministeri nel 2027-2029 e li aumenta nel 2030-2032 (allegati 5 e 6). I ministri possono spostare le somme tra programmi, con decreto del MEF."
+  - "Art. 135, c. 2: taglia la spesa corrente dei ministeri secondo l'allegato 7 (234 mln nel 2027, 242 nel 2028, 265 dal 2029); la Presidenza del Consiglio versa 60 mln l'anno allo Stato."
+  - "Art. 135, c. 3: 30 mln di liquidità dell'ENIT tornano allo Stato nel 2027."
+  - "Art. 135, c. 4: riduce di 100 mln l'anno la spesa per l'Assegno di inclusione, «senza compromissione» delle prestazioni secondo il monitoraggio."
+  - "Art. 135, cc. 5-9: riordina il Fondo unico giustizia e il gratuito patrocinio (filtro sulle domande infondate; tavolo per usare l'ISEE come criterio di accesso)."
+  - "Art. 136: proroga al 2027 i piani di analisi e valutazione della spesa previsti dal Piano strutturale di bilancio."
+  - "Art. 137: +120 mln l'anno nel 2027-2028 al fondo per le finalità istituzionali delle amministrazioni; 1,9 mld nel 2027 al fondo per pagare le sentenze e i contenziosi nazionali ed europei."
+  - "Art. 116: il fondo per ridurre la vulnerabilità sismica degli edifici pubblici passa da 60 mln l'anno nel 2027-2028 a 30 mln l'anno nel 2027-2030: stesso totale, tempi più lunghi."
+  - "Art. 118: il Fondo per le emergenze nazionali può usare somme non spese degli anni passati fino a 50 mln nel 2027, 100 nel 2028 e 150 nel 2029."
+numeri:
+  - voce: "Investimenti dei ministeri spostati in avanti (art. 135, c. 1)"
+    valore: "Saldo netto da finanziare: -1.627 mln nel 2027, -1.238 nel 2028, -1.834 nel 2029. Deficit: -334, -866, -1.025 mln"
+    fonte: "Relazione tecnica A.C. 3174, prospetto degli effetti, art. 135"
+  - voce: "Taglio della spesa corrente dei ministeri (art. 135, c. 2)"
+    valore: "234,1 mln nel 2027, 241,5 nel 2028, 264,8 dal 2029, più 60 mln l'anno dalla Presidenza del Consiglio"
+    fonte: "Relazione tecnica A.C. 3174, prospetto degli effetti, art. 135"
+  - voce: "Assegno di inclusione"
+    valore: "-100 mln l'anno dal 2027"
+    fonte: "Relazione tecnica A.C. 3174, art. 135, c. 4"
+  - voce: "Peso della revisione della spesa sui saldi"
+    valore: "0,05% del PIL nel 2027, 0,08% nel 2028 e nel 2029"
+    fonte: "MEF, DPB 2027, Tabella I.6-1"
+  - voce: "Fondo per i contenziosi"
+    valore: "1,9 mld nel 2027 (0,08% del PIL)"
+    fonte: "Relazione tecnica A.C. 3174, art. 137; DPB 2027, Tabella I.6-1"
+  - voce: "Prevenzione sismica degli edifici pubblici (art. 116)"
+    valore: "Da 60+60 mln nel 2027-2028 a 30 mln l'anno nel 2027-2030"
+    fonte: "Testo art. 116 A.C. 3174"
+chi_guadagna:
+  - "Il bilancio dello Stato nel 2027-2029: meno deficit negli anni dei vincoli UE più stretti."
+  - "Chi vince cause contro lo Stato, in Italia e davanti alle corti europee: 1,9 mld già pronti per pagare."
+  - "Le amministrazioni centrali: +120 mln l'anno nel 2027-2028 per le loro finalità, e libertà di scegliere dove tagliare."
+  - "Il bilancio della giustizia, se il filtro sul gratuito patrocinio colpisce solo domande davvero infondate (la relazione non dà dati su quante siano)."
+chi_paga:
+  - "Chi aspetta opere pubbliche dei ministeri: strade, edifici, impianti partono più tardi, e i costi spesso salgono con il tempo."
+  - "Il governo del 2030-2032: eredita 1,2-1,8 mld l'anno di investimenti rinviati, in aggiunta ai suoi."
+  - "Scuole, uffici e ospedali pubblici nelle zone sismiche: i lavori di sicurezza si spalmano su quattro anni invece di due."
+  - "Le persone in povertà, in futuro: oggi i 100 mln dell'Assegno non sono usati, ma il taglio riduce il margine se le domande crescono."
+  - "Chi chiede il gratuito patrocinio: più requisiti e più controlli prima di essere ammesso."
+rischi_giuridici: "L'esame di costituzionalità di GovernAI non segnala problemi sugli artt. 135-137 e 116-118 (costituzione/esami/AC3174_manovra_2027.md). Punto di attenzione: l'art. 135, c. 4 regge solo se il taglio non riduce prestazioni già dovute per legge; se le domande crescono, servirà un rifinanziamento. Il nuovo filtro sul gratuito patrocinio deve restare compatibile con il diritto di difesa di chi non ha mezzi (art. 24 Cost.)."
+valori:
+  - valore: FUT
+    segno: "+"
+    perche: "Tagli permanenti di spesa corrente e meno deficit nel 2027-2029, in linea con il percorso concordato con l'UE."
+  - valore: FUT
+    segno: "-"
+    perche: "Spostare investimenti e prevenzione sismica in avanti carica il conto sugli anni dopo e allunga l'esposizione al rischio."
+  - valore: SIC
+    segno: "-"
+    perche: "Il fondo per la sicurezza sismica degli edifici pubblici scende da 60 a 30 mln l'anno e si allunga di due anni, mentre le emergenze si pagano con i residui."
+  - valore: FID
+    segno: "-"
+    perche: "I tagli sono negli allegati e i ministri possono spostarli tra programmi: chi legge la legge non sa che cosa si taglia davvero."
+  - valore: FID
+    segno: "+"
+    perche: "Il taglio dell'Assegno si basa sul monitoraggio della spesa effettiva, e il fondo per i contenziosi rende visibile un rischio prima nascosto."
+  - valore: EQU
+    segno: "="
+    perche: "I 100 mln dell'Assegno non spesi non tolgono nulla oggi, ma si toglie a un fondo per le famiglie in povertà senza chiedersi perché molte non lo chiedono; il filtro sul gratuito patrocinio, se mal calibrato, può escludere chi non ha mezzi."
+bilancio: "Va bene tagliare spesa corrente in modo permanente e mettere da parte i soldi per i contenziosi. Non va bene che il risparmio maggiore venga dal rinvio degli investimenti e della prevenzione sismica, e che i tagli non dicano in chiaro quali programmi colpiscono."
+governai:
+  proposte: [RA13, RP01, RP02, RP05, 03-P4, 01-P1]
+  confronto: "GovernAI usa la revisione della spesa dei ministeri come copertura: in più di quanto già previsto dal Governo, un altro 0,05% del PIL con analisi a base zero (RA13), turnover parziale nei profili amministrativi (RP01), meno posti di dirigente (RP02), sedi più piccole (RP05). Quindi GovernAI conta sullo stesso strumento della manovra, e anche il suo risparmio è incerto: dopo la verifica del 13-14 novembre 2026 diverse coperture sono state ridotte. A differenza della manovra, GovernAI non rinvia investimenti per far quadrare i conti, e chiede un fondo stabile per prevenire frane e alluvioni assegnato per rischio (03-P4, nucleo robusto). Non ha però una voce sulla prevenzione sismica degli edifici pubblici: è un vuoto da colmare."
+cosa_cambieremmo:
+  - "Pubblicare con la legge l'elenco dei programmi tagliati e rinviati, ministero per ministero, con l'effetto atteso sui servizi."
+  - "Escludere dal rinvio dell'art. 135, c. 1 le opere di sicurezza: scuole, ospedali, prevenzione sismica e idrogeologica."
+  - "Riportare il fondo dell'art. 116 a 60 mln l'anno nel 2027-2028, coprendolo con una parte dei 120 mln dell'art. 137, c. 1."
+  - "Accompagnare il taglio all'Assegno di inclusione con un'analisi pubblica di chi ne avrebbe diritto e non lo chiede."
+  - "Dire per quali sentenze serve il fondo da 1,9 mld e quali rischi di contenzioso restano scoperti."
+  - "Collegare i piani di valutazione della spesa (art. 136) ai tagli dell'anno dopo, con risultati pubblici."
+domande_aperte:
+  - "Quali opere dei ministeri slittano al 2030-2032? Gli allegati 5 e 6 non sono stati letti in dettaglio in questo commento."
+  - "Quanti edifici pubblici in zona sismica restano senza intervento per lo spostamento dei fondi?"
+  - "A quali contenziosi si riferisce il fondo da 1,9 mld?"
+  - "Il Governo che verrà dopo il 2029 avrà spazio per gli investimenti rinviati?"
+fonti:
+  - "Testo A.C. 3174, artt. 116, 118, 135-137: costituzione/testi/AC3174_articolato.txt"
+  - "Relazione illustrativa e relazione tecnica A.C. 3174, artt. 135-137 e prospetto degli effetti: dati/raw/00b_ddl_bilancio_2027_AC3174_relazioni.txt"
+  - "MEF, Documento programmatico di bilancio 2027, Tabella I.6-1: dati/raw/00b_mef_dpb_2027.txt"
+  - "Esame di costituzionalità GovernAI: costituzione/esami/AC3174_manovra_2027.md"
+  - "Coperture GovernAI RA13, RP01, RP02, RP05: programma/selezione_intermedio.csv; scheda 03-P4: programma/schede/03_ambiente.md"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

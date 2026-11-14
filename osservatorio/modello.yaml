@@ -1,0 +1,38 @@
+# Modello di commento (vedi osservatorio/metodo.md). Testi in italiano semplice, frasi brevi.
+id: manovra-2027-esempio            # minuscole, cifre e trattini, max 60 caratteri
+titolo: "Che cosa fa, in parole semplici"
+atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, art. 21 e artt. 18-19"
+tipo: legge di bilancio              # legge di bilancio | decreto-legge | legge | decreto legislativo
+data: 2026-10-30
+stato: "All'esame della Camera; approvazione entro il 31 dicembre 2026"
+fonte: "https://documenti.camera.it/..."
+tema: "01"                           # area del programma: 01 economia ... 09 PA e digitale
+in_breve: "Una o due frasi per chi ha un minuto."
+cosa_fa:
+  - "Primo contenuto principale."
+numeri:
+  - voce: "Gettito o costo"
+    valore: "1,2 mld l'anno nel 2027-2029"
+    fonte: "Relazione tecnica A.C. 3174, art. 21"
+chi_guadagna:
+  - "Categoria, con il perché."
+chi_paga:
+  - "Categoria, con il perché."
+rischi_giuridici: "Esito dei controlli (costituzione, UE), con rinvio a costituzione/esami/AC3174_manovra_2027.md se pertinente."
+valori:
+  - valore: FID                      # RIS FID INN BEN APC BPA FUT EQU SIC CIT
+    segno: "+"                       # + | - | =
+    perche: "Motivo in una frase."
+bilancio: "Nel complesso: che cosa va bene, che cosa no."
+governai:
+  proposte: [01-P5]                  # id del programma GovernAI sullo stesso problema (possono essere vuoti)
+  confronto: "Confronto onesto, compresi i difetti o i limiti di GovernAI."
+cosa_cambieremmo:
+  - "Correttivo concreto."
+domande_aperte:
+  - "Ciò che non si sa ancora."
+fonti:
+  - "Titolo della fonte, URL o percorso nel repository"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."

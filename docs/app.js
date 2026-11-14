@@ -830,6 +830,52 @@
       <p class="nota" style="margin-top:16px">Testi preparati da agenti AI il 13 novembre 2026 a partire dalle schede e dai controlli giuridici del programma; non sono stati rivisti da una persona esperta.</p>`;
   }
 
+  // Osservatorio sul governo di oggi (cartella osservatorio/): commenti di GovernAI agli atti del Governo in carica
+  const SEGNO = { "+": ["favorevole", "circle-plus", "a favore"], "-": ["critico", "circle-minus", "contro"], "=": ["info", "circle-dot", "neutro"] };
+  const TIPI_ATTO = [["tutti", "Tutti"], ["legge di bilancio", "Legge di bilancio 2027"], ["decreto-legge", "Decreti-legge"], ["legge", "Leggi"], ["decreto legislativo", "Decreti legislativi"]];
+  function osservatorio(id, params) {
+    const O = D.osservatorio || {}, A = O.atti || [];
+    const testa = `<h1>Il governo di oggi</h1>
+      <p class="risposta">Che cosa stanno facendo il Governo e il Parlamento per la fine del 2026 e per il 2027, commentato con lo stesso metro che GovernAI usa per sé: prima i fatti e i numeri, poi un giudizio sui valori della Carta, chiedendosi sempre chi ci guadagna e chi paga. Nessun partito, nessun favoritismo.</p>`;
+    const avviso = `<div class="avviso" style="margin:12px 0"><div class="avviso-titolo">${icona("triangle-alert")}Commenti scritti e rivisti da agenti AI</div><p>Non sono ancora stati rivisti da una persona esperta. Il metodo è pubblico: <a href="#/osservatorio/metodo">come scriviamo i commenti</a>. Se trovi un errore, <a href="#/partecipa">segnalalo</a>.</p></div>`;
+    if (id === "metodo") return `${testa}<p><a href="#/osservatorio">${icona("arrow-left")}Tutti gli atti</a></p><div class="md documento">${md((O.metodo || "").replace(/^# .*\n/, ""))}</div>`;
+    if (!A.length) return `${testa}${vuoto("I commenti non sono ancora disponibili.")}`;
+    const segni = (x) => { const v = x.valori || []; const n = (g) => v.filter((y) => y.segno === g).length; return `<div class="chips">${n("+") ? chip(["favorevole", "circle-plus", `${n("+")} valori a favore`]) : ""}${n("-") ? chip(["critico", "circle-minus", `${n("-")} contro`]) : ""}</div>`; };
+    const sel = id && A.find((x) => x.id === id);
+    if (sel) {
+      const voce = (y) => md(String(y)).replace(/^\s*<p>/, "").replace(/<\/p>\s*$/, "");
+      const lista = (t, v) => (v && v.length) ? `<section class="sezione"><h2>${esc(t)}</h2><ul>${v.map((y) => `<li>${voce(y)}</li>`).join("")}</ul></section>` : "";
+      const g = sel.governai || {};
+      return `<p><a href="#/osservatorio">${icona("arrow-left")}Tutti gli atti</a></p>
+        <p class="etichetta">${esc(sel.tipo || "")}${sel.tema && D.aree[sel.tema] ? " · " + esc(D.aree[sel.tema]) : ""}</p>
+        <h1>${esc(sel.titolo)}</h1>
+        <p class="nota">${esc(sel.atto || "")}${sel.data ? " · " + esc(dataBreve(sel.data)) : ""}${sel.stato ? " · " + esc(sel.stato) : ""}${sel.fonte ? " · " + ext(sel.fonte, "testo ufficiale") : ""}</p>
+        <p class="risposta">${esc(sel.in_breve || "")}</p>
+        ${avviso}
+        <h2 class="sezione" style="margin-top:24px">I fatti</h2>
+        ${lista("Che cosa fa", sel.cosa_fa)}
+        ${(sel.numeri || []).length ? `<section class="sezione"><h2>I numeri</h2><div class="tabella-box"><table class="tabella a-card"><thead><tr><th>Voce</th><th>Valore</th><th>Fonte</th></tr></thead><tbody>${sel.numeri.map((n) => `<tr><td class="principale">${esc(n.voce)}</td><td data-etichetta="Valore">${esc(n.valore)}</td><td data-etichetta="Fonte" class="nota">${esc(n.fonte || "")}</td></tr>`).join("")}</tbody></table></div></section>` : ""}
+        <div class="griglia g2-d">${(sel.chi_guadagna || []).length ? `<div class="card"><p class="etichetta">${icona("trending-up")}Chi ci guadagna</p><ul>${sel.chi_guadagna.map((y) => `<li>${esc(y)}</li>`).join("")}</ul></div>` : ""}${(sel.chi_paga || []).length ? `<div class="card"><p class="etichetta">${icona("wallet")}Chi paga</p><ul>${sel.chi_paga.map((y) => `<li>${esc(y)}</li>`).join("")}</ul></div>` : ""}</div>
+        ${sel.rischi_giuridici ? `<section class="sezione"><h2>Rischi giuridici</h2><div class="md">${md(String(sel.rischi_giuridici))}</div></section>` : ""}
+        <h2 class="sezione" style="margin-top:24px">Il giudizio sui valori</h2>
+        ${(sel.valori || []).length ? `<ul class="mandati">${sel.valori.map((v) => `<li>${chip(SEGNO[v.segno] ? [SEGNO[v.segno][0], SEGNO[v.segno][1], nomeValore(v.valore) + ": " + SEGNO[v.segno][2]] : ["info", "circle-dot", nomeValore(v.valore)])}<br>${esc(v.perche || "")}</li>`).join("")}</ul>` : ""}
+        ${sel.bilancio ? `<div class="card" style="margin-top:12px"><p class="etichetta">${icona("scale")}Nel complesso</p><p>${esc(sel.bilancio)}</p></div>` : ""}
+        <section class="sezione"><h2>GovernAI sullo stesso problema</h2>${(g.proposte || []).length ? `<div class="chips">${g.proposte.map((q) => proposta(q) ? `<a class="chip info" href="${linkP(q)}">${icona("list-checks")}${esc(q)} · ${esc(tit(proposta(q).titolo))}</a>` : `<a class="chip info" href="#/programma/coperture">${icona("coins")}Copertura ${esc(q)}</a>`).join("")}</div>` : ""}<p>${esc(g.confronto || "")}</p></section>
+        ${lista("Che cosa cambieremmo", sel.cosa_cambieremmo)}
+        ${lista("Domande ancora aperte", sel.domande_aperte)}
+        ${(sel.fonti || []).length ? `<details class="sezione"><summary>Fonti</summary><ul>${sel.fonti.map((f) => { const u = String(f).match(/https?:\/\/\S+/); return `<li class="nota">${u ? esc(String(f).replace(u[0], "").replace(/[,:;\s(]+$/, "")) + " " + ext(u[0].replace(/[).,;]+$/, ""), "link") : esc(f)}</li>`; }).join("")}</ul></details>` : ""}
+        ${(sel.revisioni || []).length ? `<p class="nota">${sel.revisioni.map((r) => `${esc(dataBreve(r.data))}: ${esc(r.nota)}`).join(" · ")} Sorgente: <code>${esc(sel.file)}</code>${D.repo ? `, ${ext(D.repo + "/blob/main/" + sel.file, "su GitHub")}` : ""}.</p>` : ""}
+        <div class="azioni" style="margin-top:16px">${azioniCondividi()}</div>
+        ${C ? C.sezione("atto:" + sel.id, "Discussione fra iscritti su questo atto") : ""}`;
+    }
+    const tipo = params.get("tipo") || "tutti";
+    const vis = A.filter((x) => tipo === "tutti" || x.tipo === tipo);
+    return `${testa}${avviso}
+      <nav class="schede" aria-label="Tipo di atto">${TIPI_ATTO.filter(([k]) => k === "tutti" || A.some((x) => x.tipo === k)).map(([k, t]) => `<a href="#/osservatorio${k === "tutti" ? "" : "?tipo=" + encodeURIComponent(k)}" ${k === tipo ? 'aria-current="page"' : ""}>${esc(t)} <span class="conta">${k === "tutti" ? A.length : A.filter((x) => x.tipo === k).length}</span></a>`).join("")}</nav>
+      <div class="griglia g2-d">${vis.map((x) => `<a class="card" href="#/osservatorio/${encodeURIComponent(x.id)}"><p class="etichetta">${esc(x.atto || x.tipo || "")}</p><h3 class="titolo-card">${esc(x.titolo)}</h3><p class="nota">${esc(x.in_breve || "")}</p>${segni(x)}${x.bilancio ? `<p class="nota"><strong>Nel complesso:</strong> ${esc(x.bilancio)}</p>` : ""}</a>`).join("")}</div>
+      <p class="nota" style="margin-top:16px"><a href="#/osservatorio/metodo">Il metodo</a> · ${A.length} atti commentati · ultimo aggiornamento ${esc(dataBreve(A.flatMap((x) => (x.revisioni || []).map((r) => r.data)).sort().pop() || ""))}</p>`;
+  }
+
   function equita() {
     return `${schedeProgramma("equita")}
       <div class="md documento">${md((D.documenti.equita || "*Capitolo non ancora disponibile.*").replace(/^# .*\n/, ""))}</div>
@@ -1234,6 +1280,8 @@
       else if (b === "per-me") { html = perMe(params); titolo = "Che cosa cambia per me"; }
       else if (b === "pronto") { html = prontoDomani(params); titolo = "Pronto domani"; }
       else { html = elenco(params); titolo = "Programma"; }
+    } else if (a === "osservatorio") {
+      html = osservatorio(b, params); titolo = b && b !== "metodo" ? tit((((D.osservatorio || {}).atti || []).find((x) => x.id === b) || {}).titolo || "Atto") : "Il governo di oggi";
     } else if (a === "governo") {
       if (b === "sedute" && c) { html = schedaSeduta(c); titolo = "Seduta " + del_(c); }
       else if (b === "decisioni") { html = decisioniInVigore(); titolo = "Esiti ancora validi"; }

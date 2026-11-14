@@ -1,0 +1,90 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md)
+id: manovra-2027-bollo-auto
+titolo: "Niente bollo, per sempre, su un'auto a benzina o gasolio fino a 80 kW per persona; lo Stato rimborsa le Regioni"
+atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, art. 3"
+tipo: legge di bilancio
+data: 2026-10-30
+stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026. Sostituisce l'esenzione per il solo 2027 del d.l. 162/2026, art. 2"
+fonte: "https://documenti.camera.it/apps/commonServices/getDocumento.ashx?sezione=lavori&tipoDoc=testo_pdl&idlegislatura=19&codice=leg.19.pdl.camera.3174.19PDL0221150"
+tema: "03"
+in_breve: "Dal 2027 ogni persona non paga il bollo su un'auto a benzina o gasolio fino a 80 kW (o su una moto o un motorino). Costa circa 2,3 miliardi l'anno senza scadenza, pagati dallo Stato alle Regioni."
+cosa_fa:
+  - "Esenta dalla tassa automobilistica le persone fisiche per un solo veicolo assicurato: un'auto a benzina o gasolio, anche ibrida, fino a 80 kW; se non c'è, una moto a benzina; se non c'è, un motorino."
+  - "Se si hanno più auto, l'esenzione va a quella meno potente. Non c'è nessun limite di reddito o di ISEE."
+  - "Rende permanente l'esenzione che il d.l. 162/2026 prevedeva solo per il 2027."
+  - "Lo Stato versa alle Regioni e alle Province autonome 2.293,5 mln nel 2027, 2.316,2 nel 2028, 2.338,8 nel 2029 e 2.361,5 mln l'anno dal 2030."
+  - "Le famiglie con più di tre figli, di cui almeno uno minorenne, ricevono dall'INPS un rimborso del bollo fino a 385,71 euro per un'auto da 6 a 9 posti fino a 133 kW (18,3 mln l'anno)."
+  - "Il registro delle auto (PRA) e il Ministero delle infrastrutture incrociano i dati su proprietà e assicurazione."
+numeri:
+  - voce: "Costo per lo Stato (compensazione alle Regioni)"
+    valore: "2.293,5 mln nel 2027, 2.316,2 nel 2028, 2.338,8 nel 2029, 2.361,5 mln l'anno dal 2030, senza termine"
+    fonte: "A.C. 3174, art. 3, comma 8"
+  - voce: "Perdita di gettito stimata"
+    valore: "2.362 mln l'anno; il bollo pagato dalle persone sulle auto fino a 80 kW (esclusa l'elettrica) vale 2.500 mln; dal 2028 si aggiunge una quota prudenziale per chi sposterà la proprietà delle auto in famiglia per avere più esenzioni"
+    fonte: "Relazione tecnica A.C. 3174, art. 3"
+  - voce: "Contributo per famiglie numerose"
+    valore: "18,342 mln l'anno dal 2027, fino a 385,71 euro per famiglia"
+    fonte: "A.C. 3174, art. 3, comma 14"
+  - voce: "Peso sui conti"
+    valore: "Circa 0,1% del PIL l'anno, permanente. Il debito pubblico sale al 138,5% del PIL nel 2027, soprattutto per la cassa dei crediti dei bonus edilizi degli anni passati, non per questa misura"
+    fonte: "Elaborazione dell'Osservatorio; MEF, DPB 2027, par. I.7"
+  - voce: "Risparmio per persona"
+    valore: "Il bollo di un'auto fino a 80 kW è in genere di poche centinaia di euro l'anno, secondo tariffa regionale, potenza e classe; valore medio non pubblicato nella relazione tecnica"
+    fonte: "Stima dell'Osservatorio, da verificare sulle tariffe regionali"
+chi_guadagna:
+  - "La grande maggioranza delle famiglie con un'auto a benzina o gasolio di potenza media o piccola, a prescindere dal reddito."
+  - "Chi vive in aree interne e periferie senza trasporto pubblico e deve usare l'auto ogni giorno."
+  - "Famiglie con più di tre figli e un'auto grande da 6-9 posti."
+  - "In misura minore i produttori e i venditori di auto a combustione, perché tenerle costa un po' meno."
+chi_paga:
+  - "Tutti i contribuenti e le generazioni future: 2,3 mld l'anno per sempre. Nel 2027-2029 è coperta dentro i saldi della manovra, non da una fonte dedicata; dal 2029 alcune entrate che la coprono (addizionali sulle banche) finiscono."
+  - "Chi non ha l'auto non riceve nulla da questa misura; tra loro ci sono anche persone anziane e con redditi bassi (da verificare sulle statistiche ISTAT sulle famiglie senza auto)."
+  - "Chi ha scelto un'auto elettrica: non riceve nulla in più, perché l'esenzione va solo a benzina e gasolio; le auto elettriche hanno però già un'esenzione per i primi cinque anni e poi una riduzione, con regole regionali diverse (da verificare sul testo vigente)."
+  - "Le Regioni: perdono un tributo proprio e ricevono un trasferimento statale; la loro autonomia fiscale si riduce."
+  - "L'ambiente: la misura è un nuovo sussidio alle auto a combustione, mentre l'Italia deve ridurre le emissioni dei trasporti."
+rischi_giuridici: "Rischio basso. La compensazione integrale alle Regioni rispetta l'art. 119 Cost.; per il riparto con decreto sarebbe preferibile l'intesa in Conferenza al semplice parere (costituzione/esami/AC3174_manovra_2027.md, punto 7, e AC3174_screening.md, segnale medio su regioni). Nessun problema UE noto: non è un aiuto a imprese."
+valori:
+  - valore: BEN
+    segno: "+"
+    perche: "Un risparmio annuo concreto e semplice per milioni di famiglie, senza domande da presentare."
+  - valore: EQU
+    segno: "-"
+    perche: "Non guarda al reddito: va anche a chi sta bene ed esclude chi non ha l'auto; aiuta però le aree senza trasporto pubblico."
+  - valore: FUT
+    segno: "-"
+    perche: "Minore entrata permanente di 2,3 mld l'anno senza una copertura dedicata e stabile, e sussidio alle auto a benzina e gasolio, contro gli obiettivi sul clima (art. 9 Cost.)."
+  - valore: RIS
+    segno: "-"
+    perche: "Toglie alle Regioni un tributo proprio e lo trasforma in un trasferimento: meno autonomia locale."
+  - valore: FID
+    segno: "+"
+    perche: "Regole di scelta del veicolo chiare, esenzione stabile e automatica, senza domande, e incrocio dei dati su proprietà e assicurazione, che aiuta anche a trovare le auto non assicurate."
+  - valore: BPA
+    segno: "="
+    perche: "Aiuta un po' chi vive nelle aree interne, ma non cambia i servizi che le rendono vivibili."
+bilancio: "È un aiuto semplice e molto diffuso, utile a chi vive dove l'auto è necessaria; ed è stabile, a differenza dei bonus di un anno; ma costa 2,3 miliardi l'anno per sempre senza una copertura dedicata, non guarda al reddito, sussidia le auto a combustione e toglie autonomia alle Regioni. Con la stessa cifra si potrebbe aiutare di più chi ha bisogno."
+governai:
+  proposte: [03-P1, 01-P2, 04-P3, 04-P6]
+  confronto: "GovernAI fa il contrario: riduce i sussidi dannosi per l'ambiente (coperture SAD) e per regola non finanzia spesa corrente in deficit. Ma è onesto dire che GovernAI non restituisce nulla alle famiglie: nel programma intermedio il dividendo climatico (03-P1) è nella versione a zero, e i treni per chi viaggia ogni giorno (04-P3) sono fuori per mancanza di risorse; quindi chi dipende dall'auto non ha da GovernAI un'alternativa pronta. Le aree interne sono coperte solo con i servizi essenziali (04-P6). La clausola di scadenza delle agevolazioni (01-P2) imporrebbe di rivalutare l'esenzione ogni cinque anni."
+cosa_cambieremmo:
+  - "Mettere una soglia di ISEE (per esempio 30.000 euro) o un tetto all'importo esente: il costo scenderebbe e l'aiuto andrebbe a chi ne ha più bisogno."
+  - "Coordinare l'esenzione con quella già prevista per le auto elettriche ed estenderla alle ibride ricaricabili, per non premiare la combustione."
+  - "Mettere una scadenza (per esempio 2029) con valutazione prima del rinnovo."
+  - "Destinare una parte della somma, per chi non ha l'auto, a un abbonamento al trasporto pubblico a tariffa sociale."
+  - "Riparto alle Regioni con intesa in Conferenza e garanzia che la compensazione cresca con il parco auto."
+domande_aperte:
+  - "Con quali risorse si paga dal 2029, quando finiscono le addizionali temporanee, una minore entrata di 2,3 mld l'anno? La manovra non indica una copertura dedicata."
+  - "Quanti nuclei sposteranno la proprietà delle auto tra familiari per avere più esenzioni? La relazione tecnica non lo quantifica."
+  - "Qual è la distribuzione del beneficio per fascia di reddito e per territorio? Non è pubblicata."
+fonti:
+  - "A.C. 3174, Tomo II, art. 3 (costituzione/testi/AC3174_articolato.txt)"
+  - "A.C. 3174, relazione tecnica, art. 3, e relazione al bilancio, par. II.1 (dati/raw/00b_ddl_bilancio_2027_AC3174_relazioni.txt)"
+  - "UPB, audizione sul DPFP 2026, sul bollo auto nel d.l. 162/2026 (dati/raw/00b_upb_audizione_dpfp_2026.txt)"
+  - "MEF, Documento programmatico di bilancio 2027 (dati/raw/00b_mef_dpb_2027.txt)"
+  - "Esame di costituzionalità GovernAI: costituzione/esami/AC3174_manovra_2027.md"
+  - "GovernAI: programma/coperture_menu.csv (SAD), programma/selezione_intermedio.csv (03-P1, 04-P3)"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

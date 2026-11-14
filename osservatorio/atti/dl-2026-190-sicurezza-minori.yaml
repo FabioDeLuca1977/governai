@@ -1,0 +1,95 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md). Scritto da un agente AI; non rivisto da una persona esperta.
+id: dl-2026-190-sicurezza-minori
+titolo: "Pene più alte per la violenza nelle manifestazioni, minori presunti capaci dai 14 anni, multe ai genitori"
+atto: "Decreto-legge 22 ottobre 2026, n. 190, artt. 1-10; disegno di legge di conversione A.C. 3159"
+tipo: decreto-legge
+data: 2026-10-22
+stato: "In vigore dal 23 ottobre 2026; all'esame del Parlamento (A.C. 3159); da convertire in legge entro il 21 dicembre 2026"
+fonte: "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26G00214/sg"
+tema: "07"
+in_breve: "Dopo i gravi incidenti di Milano di ottobre 2026, il decreto crea un reato per la violenza di gruppo nelle manifestazioni, cambia la regola sulla responsabilità penale di chi ha tra 14 e 18 anni, multa i genitori e allarga il trattenimento negli uffici di polizia. Il costo dichiarato è di 4,9 milioni per 500 militari in più a Milano."
+cosa_fa:
+  - "Chi ha tra 14 e 18 anni si presume capace di intendere e di volere, salvo prova contraria. Oggi il giudice deve accertarlo caso per caso (art. 1, comma 1, art. 98 c.p.)."
+  - "Nuovo reato di violenza organizzata nelle manifestazioni: gruppo di almeno cinque persone che usa o lancia oggetti atti a offendere, con pericolo concreto per le persone e danni alle cose. Pena da 2 a 5 anni e multa da 10.000 a 20.000 euro. Per chi organizza, promuove o incita, anche in rete, da 4 a 12 anni (art. 1, comma 4, art. 420-bis c.p.)."
+  - "Aggravanti per devastazione, saccheggio e attentato a impianti di pubblica utilità durante le manifestazioni e per il danneggiamento di gruppo (art. 1, commi 2, 3 e 6)."
+  - "Arresto differito, entro 48 ore, sulla base di video e foto, anche per questi reati e anche per i minori (artt. 2 e 3)."
+  - "Per chi ha 16 anni o più, nelle misure cautelari il giudice non deve più tenere conto dell'esigenza di non interrompere il percorso educativo; misure cautelari anche per i nuovi reati (art. 3)."
+  - "Se tanti arresti lo richiedono, magistrati di altri uffici sono applicati entro 24 ore, senza aspettare il parere del consiglio giudiziario (art. 4)."
+  - "Il genitore del minore che partecipa a certi reati, anche se non imputabile, paga una sanzione da 500 a 1.000 euro, da 1.000 a 2.000 se il fatto si ripete, salvo provi di non aver potuto impedirlo. Il prefetto può anche ordinargli di risarcire i danni ai beni pubblici, calcolati sugli atti (art. 5)."
+  - "Il questore può vietare per un anno di radunarsi in luoghi indicati, anche a chi ha almeno 14 anni. Vale per chi ha avuto misure di prevenzione o condanne, anche non definitive, nei cinque anni precedenti (art. 6)."
+  - "Accompagnamento e trattenimento negli uffici di polizia anche durante operazioni di prevenzione in luoghi affollati, per esempio le zone della vita notturna. Servono «specifiche e concrete circostanze di tempo e di luogo e di elementi di fatto» e un «fondato motivo» di ritenere che la persona ponga in essere condotte di concreto pericolo. Tra gli elementi di fatto possono contare il possesso di oggetti atti a offendere o precedenti e segnalazioni di polizia degli ultimi cinque anni per alcuni reati (contro la persona o il patrimonio, droga, porto di armi, violenza nelle manifestazioni). Si applicano le regole di durata e garanzia dei commi 2, 3 e 3-bis dell'art. 11-bis del d.l. 59/1978 (art. 7)."
+  - "500 militari in più a Milano fino al 31 dicembre 2026, con acquisti in somma urgenza (art. 8)."
+numeri:
+  - voce: "Costo dichiarato"
+    valore: "4.933.831 euro nel 2026 per i 500 militari; per il resto si dichiara che non c'è nessun costo nuovo"
+    fonte: "DL 190/2026, artt. 8 e 9"
+  - voce: "Pena per la violenza organizzata nelle manifestazioni"
+    valore: "da 2 a 5 anni e multa da 10.000 a 20.000 euro; da 4 a 12 anni per chi organizza o incita"
+    fonte: "DL 190/2026, art. 1, comma 4"
+  - voce: "Sanzione ai genitori"
+    valore: "da 500 a 1.000 euro; da 1.000 a 2.000 euro se il fatto si ripete"
+    fonte: "DL 190/2026, art. 5"
+  - voce: "Divieto di radunarsi"
+    valore: "fino a 1 anno, dai 14 anni, per chi ha precedenti negli ultimi 5 anni"
+    fonte: "DL 190/2026, art. 6"
+  - voce: "Dati sulla criminalità minorile allegati al decreto"
+    valore: "nessuno nel testo del decreto, che richiama solo i «gravi incidenti» di Milano (art. 8); la relazione illustrativa non è ancora nel repository e va verificata"
+    fonte: "DL 190/2026, art. 8; relazione illustrativa A.C. 3159 (da verificare)"
+chi_guadagna:
+  - "Commercianti e proprietari di beni danneggiati negli scontri: aggravanti più alte e un decreto ingiuntivo più facile per farsi risarcire (art. 5, comma 7)."
+  - "Forze di polizia e uffici giudiziari: più strumenti per identificare, arrestare e gestire molti arresti insieme."
+  - "Stato, Regioni e Comuni: possono recuperare dai genitori i danni ai beni pubblici."
+  - "Chi manifesta in modo pacifico, se il nuovo reato riduce la violenza di gruppo nei cortei."
+  - "Chi subisce aggressioni e rapine da gruppi di minori, spesso altri ragazzi e ragazze, se le misure riducono questi reati."
+chi_paga:
+  - "Ragazze e ragazzi tra 14 e 18 anni: presunzione di capacità, misure cautelari più dure dai 16 anni, divieti del questore e trattenimenti."
+  - "Genitori, soprattutto quelli con redditi bassi: la sanzione va da 500 a 1.000 euro, ma non è legata al reddito e pesa di più su chi ha meno."
+  - "Persone con precedenti o segnalazioni di polizia per alcuni reati: possono essere trattenute se ci sono elementi di fatto e un fondato motivo di pericolo concreto, con una formula ampia sui luoghi e sul peso delle sole segnalazioni."
+  - "Chi incita, anche in rete, alla violenza di gruppo nei cortei: pena da 4 a 12 anni, da misurare sulla proporzionalità e sulla libertà di espressione."
+  - "La giustizia minorile e i contribuenti: nuovi reati e nuovi processi hanno costi che il decreto dichiara pari a zero."
+rischi_giuridici: "Lo screening automatico (costituzione/esami/gu/26G00214.md) segnala rischi medi sugli artt. 1, 3, 6 e 7. Ad avviso di questo commento ci sono dubbi seri su tre punti. (1) La presunzione di capacità dei minori (art. 1, comma 1) contrasta con il principio di responsabilità personale e con il fine rieducativo della pena (art. 27). Contrasta anche con la protezione della gioventù (art. 31, secondo comma). La Corte costituzionale ha più volte escluso automatismi per i minori: ha escluso l'ergastolo per chi era minorenne (sent. 168/1994) e le preclusioni automatiche ai benefici per i condannati minorenni (sent. 263/2019). La direttiva (UE) 2016/800 chiede una valutazione individuale di ogni minore indagato. Lo stesso vale per l'art. 3 sui ragazzi di 16 e 17 anni. (2) Il trattenimento in ufficio di polizia (art. 7) è una restrizione della libertà personale. L'art. 13 la ammette solo in casi eccezionali indicati con precisione dalla legge. La norma chiede circostanze di fatto concrete e un «fondato motivo» di pericolo, e rinvia alle garanzie dei commi 2, 3 e 3-bis. Restano vaghi il riferimento a «luoghi caratterizzati da un consistente afflusso di persone» e il peso che possono avere le sole segnalazioni di polizia, che non sono accertamenti di un giudice. La Corte ha già dichiarato illegittimi presupposti troppo generici per le misure di prevenzione personali (sent. 24/2019). (3) Il risarcimento liquidato dal prefetto «sulla base degli atti», che vale come prova per un decreto ingiuntivo provvisoriamente esecutivo, solleva dubbi sul diritto di difesa (artt. 24 e 111). Rischio più basso: il divieto di radunarsi (art. 6) incide sulle libertà di circolazione e di riunione (artt. 16 e 17), ma è limitato nel tempo e nei luoghi. La pena per chi incita (art. 420-bis, terzo comma) va misurata sulla proporzionalità e sulla libertà di espressione (artt. 3, 21 e 27)."
+valori:
+  - valore: SIC
+    segno: "+"
+    perche: "Il reato di violenza organizzata e l'arresto differito con i video colpiscono condotte di gruppo precise e pericolose, con il controllo del giudice."
+  - valore: RIS
+    segno: "-"
+    perche: "La presunzione di capacità e gli automatismi trattano ragazze e ragazzi come una categoria, non come persone da valutare una per una; il trattenimento con presupposti ampi, che possono basarsi anche su segnalazioni di polizia, riduce la libertà personale."
+  - valore: EQU
+    segno: "-"
+    perche: "Le sanzioni fisse ai genitori e i controlli nei luoghi affollati pesano di più sulle famiglie in povertà e sulle periferie."
+  - valore: FID
+    segno: "-"
+    perche: "Si cambia il diritto penale per decreto pochi giorni dopo i fatti, senza dati nel testo e dichiarando costo zero per nuovi reati e processi."
+  - valore: BEN
+    segno: "+"
+    perche: "Chi subisce danni da saccheggi e devastazioni ottiene un risarcimento più rapido."
+bilancio: "Va bene colpire la violenza organizzata nei cortei con un reato preciso, l'arresto differito con prove video e un risarcimento più rapido per i danneggiati. Non vanno bene la presunzione di capacità dei minori, gli automatismi cautelari, il trattenimento con presupposti ampi e le multe ai genitori non proporzionate al reddito. Manca del tutto un investimento nella prevenzione: scuola, educatori e servizi nelle periferie."
+governai:
+  proposte: [05-C1, 05-C5, 07-C2]
+  confronto: "GovernAI investe sulla prevenzione: squadre di prossimità contro la dispersione scolastica (05-C1, in versione piena nel programma intermedio) e scuole aperte come presidi di comunità (05-C5). Queste misure agiscono su cause come la dispersione scolastica e il degrado delle periferie. Non usano automatismi e rispettano la Carta. Ma GovernAI ha un limite serio: non ha una proposta per la violenza organizzata nelle manifestazioni, né per la giustizia minorile, né per chi subisce danni da saccheggi. I suoi effetti arrivano in anni, non domani. Le misure di comunità (07-C2) riguardano le pene brevi degli adulti, non i minori. Su questo tema GovernAI oggi non offre una risposta immediata a chi si sente insicuro."
+cosa_cambieremmo:
+  - "Togliere la presunzione di capacità dei minori, oppure limitarla a reati gravi e precisi, con una valutazione della personalità sempre obbligatoria."
+  - "Mantenere per i ragazzi di 16 e 17 anni l'obbligo di tenere conto del percorso educativo nelle misure cautelari."
+  - "Limitare il trattenimento in ufficio a chi porta oggetti atti a offendere o ha condanne, escludendo le sole segnalazioni di polizia, definire meglio i luoghi e presentare un rapporto annuale al Parlamento."
+  - "Rendere la sanzione ai genitori proporzionata al reddito e convertibile in un percorso di sostegno educativo; lasciare la stima dei danni al giudice civile."
+  - "Per i minori, chiedere una condanna definitiva o la convalida del giudice prima del divieto di radunarsi."
+  - "Finanziare educatori di strada e scuole aperte nelle periferie delle grandi città, con una valutazione dei risultati dopo due anni."
+  - "Quantificare i costi per la giustizia minorile invece della clausola di costo zero."
+domande_aperte:
+  - "Quanti minori sono stati coinvolti nei disordini di Milano, e qual è l'andamento dei reati commessi da minori negli ultimi dieci anni (Ministero dell'interno, ISTAT)?"
+  - "Il comma 3-ter rinvia ai commi 2, 3 e 3-bis dell'art. 11-bis del d.l. 59/1978, che regolano durata e garanzie del trattenimento: qual è la durata massima nel testo vigente (da verificare su Normattiva)?"
+  - "Quante persone saranno raggiunte dai divieti del questore, e quante sono minorenni?"
+  - "Il Parlamento modificherà in conversione la presunzione di capacità dei minori?"
+fonti:
+  - "Decreto-legge 22 ottobre 2026, n. 190, GU n. 246 del 22/10/2026, https://www.gazzettaufficiale.it/eli/id/2026/10/22/26G00214/sg (testo in legislazione/archivio/testi/2026/26G00214.txt)"
+  - "Camera dei deputati, A.C. 3159, relazione illustrativa e relazione tecnica, 22 ottobre 2026, https://documenti.camera.it/leg19/pdl/pdf/leg.19.pdl.camera.3159.19PDL0219630.pdf"
+  - "Screening costituzionale automatico, costituzione/esami/gu/26G00214.md"
+  - "Direttiva (UE) 2016/800 sulle garanzie procedurali per i minori indagati o imputati"
+  - "Corte costituzionale, sentenze 168/1994, 263/2019 e 24/2019 (verificate su dati.cortecostituzionale.it con costituzione/giurisprudenza.py)"
+  - "Programma GovernAI, programma/schede/05_istruzione.md (05-C1, 05-C5) e programma/schede/07_giustizia.md (07-C2)"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

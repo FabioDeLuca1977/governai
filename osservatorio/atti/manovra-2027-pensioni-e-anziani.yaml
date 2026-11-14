@@ -1,0 +1,99 @@
+# Commento dell'Osservatorio (vedi osservatorio/metodo.md). Scritto da un agente AI; non rivisto da una persona esperta.
+id: manovra-2027-pensioni-e-anziani
+titolo: "Pensioni 2027: meno adeguamento sopra quattro volte il minimo, carta da 300 euro dai 75 anni, fondo da 850 milioni"
+atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, artt. 50, 51, 52, 53, 54 e 55"
+tipo: legge di bilancio
+data: 2026-10-30
+stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026"
+fonte: "https://www.camera.it/leg19/126?leg=19&idDocumento=3174"
+tema: "02"
+in_breve: "Nel 2027 le pensioni sopra quattro volte il minimo crescono meno dell'inflazione: lo Stato risparmia 0,9 miliardi netti l'anno, in modo permanente. Una parte finanzia, per un solo anno, una carta da 300 euro per spese sanitarie a 5,5 milioni di persone con 75 anni e più. Un fondo da 850 milioni l'anno per uscire prima dal lavoro sarà regolato da una legge successiva."
+cosa_fa:
+  - "Adeguamento delle pensioni al costo della vita nel 2027: pieno fino a 4 volte il minimo INPS, poi 85%, 53%, 47%, 37% e 32% secondo l'importo totale della pensione, non per fasce. Una clausola di salvaguardia attribuisce comunque l'aumento fino al limite di ogni soglia maggiorato della rivalutazione, così chi la supera di poco non scende sotto chi sta appena al di qua (art. 55)."
+  - "Carta da 300 euro nel 2027 per beni e prestazioni sanitarie a chi ha almeno 75 anni e pensioni fino a 28.000 euro lordi l'anno; non è reddito e non conta nell'ISEE (art. 53, c. 1-2)."
+  - "Proroga al 2027 la prestazione universale per le persone anziane non autosufficienti e alza la soglia ISEE da 6.000 a 12.000 euro (art. 53, c. 3)."
+  - "Istituisce un fondo da 850 milioni l'anno nel 2027-2029 per misure di uscita dal lavoro e ammortizzatori, da disciplinare con una legge successiva (art. 52)."
+  - "Proroga l'APE sociale al 2027, con età minima a 63 anni e 6 mesi (art. 51)."
+  - "Riduce i tempi di pagamento della liquidazione (TFS) per i dipendenti pubblici che vanno in pensione per limiti di età: da 9 a 6 mesi nel 2028, a 3 nel 2029, subito dal 2030; dal 2031 alza la prima rata (art. 50)."
+  - "Conferma per chi matura la pensione anticipata nel 2027 la possibilità di restare al lavoro e ricevere in busta paga i propri contributi, esenti da tasse (art. 54)."
+numeri:
+  - voce: "Risparmio dal minore adeguamento delle pensioni"
+    valore: "1.476 mln lordi l'anno nel 2027-2029 (885 netti), ancora 1.337 lordi nel 2036: l'effetto è permanente"
+    fonte: "Relazione tecnica A.C. 3174, art. 55"
+  - voce: "Peso delle pensioni sopra 4 volte il minimo"
+    valore: "circa il 45% del monte pensioni (345 mld nel 2026); inflazione di riferimento 2,8%"
+    fonte: "Relazione tecnica A.C. 3174, art. 55"
+  - voce: "Carta per chi ha 75 anni e più"
+    valore: "1.645 mln nel 2027, solo per un anno; circa 5,46 milioni di persone"
+    fonte: "Relazione tecnica A.C. 3174, art. 53 (Casellario dei pensionati 2025)"
+  - voce: "Fondo per l'uscita dal lavoro"
+    valore: "850 mln l'anno nel 2027, 2028 e 2029, senza regole di utilizzo"
+    fonte: "A.C. 3174, art. 52"
+  - voce: "APE sociale"
+    valore: "circa 27.000 accessi nel 2027; 180 mln nel 2027, 370 nel 2028, 350 nel 2029, fino al 2032"
+    fonte: "Relazione tecnica A.C. 3174, art. 51"
+  - voce: "Prestazione universale per non autosufficienti"
+    valore: "136 mln nel 2027 per circa 20.000 beneficiari; finora circa 7.000 domande, accolte al 61%"
+    fonte: "Relazione tecnica A.C. 3174, art. 53, c. 3"
+  - voce: "Liquidazione più veloce per i dipendenti pubblici"
+    valore: "0 nel 2027, 280 mln nel 2028, 582 nel 2029, 948 nel 2030 (netti)"
+    fonte: "Relazione tecnica A.C. 3174, art. 50"
+chi_guadagna:
+  - "Persone con 75 anni e più e pensioni medio-basse: 300 euro per spese sanitarie nel 2027."
+  - "Dipendenti pubblici che vanno in pensione per età: la liquidazione arriva prima, come sollecitato dalla Corte costituzionale nella sent. 130/2023, che ha dichiarato inammissibili le questioni sul differimento ma ha chiesto al legislatore di intervenire."
+  - "Lavoratrici e lavoratori in condizioni difficili vicini alla pensione: APE sociale per un altro anno."
+  - "Persone anziane non autosufficienti con ISEE fino a 12.000 euro: possono chiedere la prestazione universale."
+  - "Conti pubblici nel lungo periodo: il minore adeguamento riduce la spesa per pensioni ogni anno."
+chi_paga:
+  - "Persone in pensione con assegni sopra 4 volte il minimo (circa 2.400 euro lordi al mese, stima): perdono una parte dell'adeguamento per sempre, perché gli anni successivi partono da una base più bassa. Interventi simili ci sono già stati con la L. 197/2022 (art. 1, c. 309) e la L. 213/2023 (art. 1, c. 135), esaminati dalla Corte nelle sent. 19/2025 e 52/2026."
+  - "Chi ha un assegno sopra 5 volte il minimo: ha il 53% di adeguamento su tutto l'importo invece dell'85%; la clausola di salvaguardia evita che chi supera di poco la soglia resti sotto chi sta appena al di qua, ma il salto, attenuato, resta."
+  - "La fiscalità generale per la carta per chi ha 75 anni e più, la liquidazione anticipata e il fondo da 850 milioni."
+rischi_giuridici: "Rischio basso secondo l'esame di GovernAI (costituzione/esami/AC3174_manovra_2027.md, par. 7): il taglio graduato e annuale dell'adeguamento è già stato ritenuto legittimo (sent. 19/2025 e 52/2026), ma la sent. 234/2020 avverte che la ripetizione rende il controllo più severo. La norma vale per il solo 2027, ma l'effetto sulla base è permanente. Rischio medio segnalato dallo screening per l'art. 50 (AC3174_screening.md). Il fondo dell'art. 52 rinvia a una legge futura: non pone problemi di costituzionalità, ma di trasparenza."
+valori:
+  - valore: FUT
+    segno: "+"
+    perche: "Il minore adeguamento produce un risparmio permanente su una spesa che salirà al 17,1% del PIL nel 2041-44 (RGS)."
+  - valore: FUT
+    segno: "-"
+    perche: "Una parte del risparmio permanente paga una spesa di un solo anno, la carta, e il fondo da 850 milioni senza regole può diventare una nuova uscita anticipata senza costo vero."
+  - valore: EQU
+    segno: "+"
+    perche: "Protegge per intero le pensioni basse e aiuta le persone anziane con redditi medio-bassi."
+  - valore: EQU
+    segno: "-"
+    perche: "Il taglio si applica all'importo totale e non per fasce: la clausola di salvaguardia attenua il salto alle soglie, ma sopra di esse tutto l'importo è adeguato alla percentuale più bassa."
+  - valore: FID
+    segno: "-"
+    perche: "Cambiare ogni anno le regole di adeguamento e stanziare un fondo senza contenuto rende il sistema meno prevedibile."
+  - valore: BEN
+    segno: "+"
+    perche: "La liquidazione più veloce e la soglia ISEE più alta per la non autosufficienza rispondono a bisogni reali."
+  - valore: RIS
+    segno: "="
+    perche: "La carta aiuta, ma 300 euro una volta non cambiano l'accesso alle cure per chi è fragile; un servizio stabile farebbe di più."
+bilancio: "Bene proteggere le pensioni basse, pagare prima la liquidazione pubblica e aprire la prestazione per i non autosufficienti. Non bene un taglio con effetto permanente costruito sull'importo totale invece che per fasce, anche se attenuato da una clausola alle soglie, una carta di un solo anno pagata con un risparmio per sempre e 850 milioni l'anno stanziati senza dire per che cosa."
+governai:
+  proposte: ["02-C3", "06-C4", "02-C6"]
+  confronto: "Anche GovernAI tocca l'adeguamento delle pensioni più alte, ma in modo diverso: dal 2030, per 5 anni, adeguamento al 50% solo sulla parte di pensione oltre 6 volte il minimo (PE04, 0,3-0,5 mld). Colpisce meno persone e solo la quota alta, ma è la stessa categoria a pagare, e lo fa per più anni. Per l'uscita dal lavoro GovernAI propone una flessibilità con il calcolo del costo vero della scelta, da 64 anni (02-C3), e usa proprio il fondo da 850 milioni del disegno di legge per anticipare la cassa: quindi dipende da questo stanziamento. Chiude le «quote» e Opzione donna (PE03). Sulla non autosufficienza GovernAI ha solo un budget di cura sperimentale in 20 ambiti (06-C4); non propone una carta per le persone anziane. Nel programma intermedio la pensione di garanzia per chi ha carriere discontinue non c'è: è un limite di GovernAI."
+cosa_cambieremmo:
+  - "Applicare le percentuali di adeguamento per fasce di importo, come per le aliquote IRPEF, e non sull'importo totale; il guadagno di equità è però limitato, perché la clausola di salvaguardia già attenua i salti."
+  - "Restituire in tutto o in parte, dal 2028, l'adeguamento perso nel 2027, così che il taglio non resti nella base per sempre."
+  - "Dare al fondo da 850 milioni regole subito: uscita flessibile con calcolo attuariale e tutela dei lavori gravosi, oppure ridurlo e usare i soldi per la non autosufficienza."
+  - "Al posto della carta di un anno, rafforzare l'assistenza domiciliare e la prestazione universale, con una domanda semplice e d'ufficio per chi ha già i requisiti INPS."
+  - "Pubblicare ogni anno quante persone anziane usano la carta e per quali spese."
+domande_aperte:
+  - "Che cosa finanzierà il fondo da 850 milioni l'anno, e con quale legge?"
+  - "Quante persone useranno davvero la carta e in quali negozi e strutture, visto che il decreto attuativo deve ancora definirli?"
+  - "Perché la prestazione universale per i non autosufficienti riceve così poche domande?"
+fonti:
+  - "A.C. 3174, articolato, artt. 50-55: costituzione/testi/AC3174_articolato.txt"
+  - "A.C. 3174, relazione tecnica, artt. 50-55: dati/raw/00b_ddl_bilancio_2027_AC3174_relazioni.txt"
+  - "Esame di costituzionalità GovernAI: costituzione/esami/AC3174_manovra_2027.md e AC3174_screening.md"
+  - "RGS, Tendenze di medio-lungo periodo del sistema pensionistico, 2026: dati/raw/02_rgs_tendenze_pensioni_2026.txt"
+  - "Corte costituzionale, sentenze 19/2025, 52/2026, 234/2020 e 130/2023 (verificate su dati.cortecostituzionale.it con costituzione/giurisprudenza.py)"
+  - "Schede GovernAI area lavoro: programma/schede/02_lavoro.md; coperture PE03 e PE04: programma/selezione_intermedio.csv"
+revisioni:
+  - data: 2026-11-14
+    nota: "Scritto da un agente AI; non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."

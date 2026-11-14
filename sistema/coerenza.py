@@ -175,6 +175,45 @@ def controlla() -> list[str]:
             for c in prof.get("paga", []):
                 if c.get("copertura") not in coperture:
                     errori.append(f"programma/profili.yaml: {prof['id']} cita {c.get('copertura')}, copertura non attiva nell'intermedio")
+    # 16. osservatorio sul governo di oggi: campi obbligatori, codici dei valori e delle proposte, linguaggio
+    fo = RADICE / "osservatorio" / "atti"
+    if fo.exists():
+        import yaml
+        valori_ok = {"RIS", "FID", "INN", "BEN", "APC", "BPA", "FUT", "EQU", "SIC", "CIT"}
+        prop_ok = set(pd.read_csv(RADICE / "motore" / "proposte.csv").proposta_id) | set(pd.read_csv(RADICE / "programma" / "coperture_menu.csv").misura_id)
+        obbligatori = ["id", "titolo", "atto", "tipo", "data", "stato", "fonte", "in_breve", "cosa_fa", "numeri",
+                       "chi_guadagna", "chi_paga", "valori", "bilancio", "governai", "fonti", "revisioni"]
+        partiti = re.compile(r"\b(Fratelli d'Italia|Lega|Forza Italia|Partito democratico|PD|Movimento 5 Stelle|M5S|"
+                             r"Italia Viva|AVS|Alleanza Verdi|maggioranza di (centro)?destra|opposizione di (centro)?sinistra|"
+                             r"centrodestra|centrosinistra)\b")
+        visti = set()
+        for f in sorted(fo.glob("*.yaml")):
+            rel = f"osservatorio/atti/{f.name}"
+            try:
+                x = yaml.safe_load(f.read_text(encoding="utf-8")) or {}
+            except Exception as e:
+                errori.append(f"{rel}: YAML non leggibile ({e})")
+                continue
+            if x.get("id") != f.stem or not re.fullmatch(r"[a-z0-9-]{1,60}", str(x.get("id", ""))):
+                errori.append(f"{rel}: id assente, non valido o diverso dal nome del file")
+            if x.get("id") in visti:
+                errori.append(f"{rel}: id ripetuto")
+            visti.add(x.get("id"))
+            for k in obbligatori:
+                if not x.get(k):
+                    errori.append(f"{rel}: manca il campo «{k}»")
+            segni = [v.get("segno") for v in x.get("valori") or []]
+            for v in x.get("valori") or []:
+                if v.get("valore") not in valori_ok or v.get("segno") not in ("+", "-", "="):
+                    errori.append(f"{rel}: valore o segno non valido ({v.get('valore')} {v.get('segno')})")
+            if segni and ("+" not in segni or "-" not in segni):
+                errori.append(f"{rel}: solo giudizi dello stesso segno sui valori: va riletto (metodo, regola 5)")
+            for q in (x.get("governai") or {}).get("proposte") or []:
+                if q not in prop_ok:
+                    errori.append(f"{rel}: proposta o copertura GovernAI {q} inesistente")
+            testo = yaml.safe_dump(x, allow_unicode=True)
+            for m in partiti.finditer(testo):
+                errori.append(f"{rel}: nome di partito o di schieramento «{m.group(0)}» (metodo, regola 6)")
     rel_files = TESTI + ["revisioni/2026-11-08_analista_politico.md"]
     for rel in rel_files:
         t = leggi(rel)
