@@ -309,7 +309,7 @@
       <ul>
         <li><strong>Partono subito, per intero, le ${(c.riforme_subito || []).length} riforme a costo quasi zero</strong> (al massimo 20 milioni l'anno ciascuna).</li>
         <li><strong>Il ${a1.anno} è un anno di preparazione:</strong> quasi tutte le coperture rendono dal ${a2.anno}, quindi il nucleo robusto parte al ${pct(a1.quota_nucleo)} e arriva al ${pct(a2.quota_nucleo)} nel ${a2.anno}; è a pieno dal ${c.nucleo_pieno || "—"}.</li>
-        <li><strong>Le altre misure partono dopo</strong>, tutte nello stesso modo.</li>
+        ${Object.keys(c.pieno_dal || {}).length ? `<li><strong>Le altre misure partono dopo</strong>, tutte nello stesso modo.</li>` : `<li><strong>Non ci sono altre misure da rinviare:</strong> dopo la verifica delle coperture il programma contiene il nucleo, le sperimentazioni e le riforme a costo quasi zero.</li>`}
         <li>Negli anni di passaggio slittano ${nf(c.rinviata_totale, 1)} mld di spesa, <strong>di cui ${nf(c.rinviata_nucleo, 1)} del nucleo</strong>: nessun anno chiude in deficit, ma il programma arriva a regime più tardi.</li>
       </ul>
       <details><summary>Calendario anno per anno e misure che partono più tardi</summary>${tab}${Object.entries(gruppi).map(([a, ids]) => `<p><strong>A pieno dal ${a}:</strong> ${ids.map((id) => `<a href="#/programma/${encodeURIComponent(id)}">${esc(id)}</a> ${esc(nome(id))}${c.inizio && c.inizio[id] ? ` (comincia nel ${c.inizio[id]})` : ""}`).join("; ")}</p>`).join("")}</details>`;

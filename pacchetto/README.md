@@ -17,6 +17,8 @@ Ogni file contiene, nell'ordine: scheda in breve, relazione illustrativa, artico
 
 ## Prima di presentarli
 
+- Dopo la verifica delle coperture della sera del 13 novembre, il programma intermedio sceglie per 01-P2 la versione piena (scadenza quinquennale delle spese fiscali) e per 08-P7 la versione piena. I testi del pacchetto restano quelli della versione minima, a costo zero o quasi: sono il primo passo, compatibile con la versione piena.
+
 - Ogni file elenca i riferimenti da verificare sul testo vigente e i dati da acquisire.
 - Le relazioni tecniche delle misure a costo zero (01-P2, 04-P4, 09-C2) indicano chi fa il lavoro, con quali capitoli di bilancio e quali dati mancano, come chiede l'[art. 17, comma 6-bis, L. 196/2009](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2009-12-31;196~art17). I dati mancanti vanno chiesti alle amministrazioni prima della bollinatura.
 - Le coperture di 08-P1 e 08-P7 sul fondo speciale non si sommano alle coperture del programma: nel programma GovernAI quelle somme sono una quota delle riduzioni di spesa dei ministeri già contate (per 08-P1, la riduzione delle consulenze RA03).

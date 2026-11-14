@@ -1,6 +1,6 @@
 # GovernAI — Equità e linguaggio inclusivo
 
-*Capitolo del programma, scritto il 9 novembre 2026 e aggiornato il 12 e il 13 novembre 2026 dopo le scelte sulla sanità, sui bandi e sulla disabilità. Scenario di riferimento: intermedio (`programma/selezione_intermedio.md`), 9,4 mld l'anno. Tutti i numeri vengono da file del repository, con la fonte indicata. Dove un dato manca, lo scriviamo: "dato da acquisire".*
+*Capitolo del programma, scritto il 9 novembre 2026 e aggiornato il 12 e il 13 novembre 2026 dopo le scelte sulla sanità, sui bandi e sulla disabilità. Scenario di riferimento: intermedio (`programma/selezione_intermedio.md`), 8,6 mld l'anno (9,4 prima della verifica delle coperture della sera del 13 novembre). Tutti i numeri vengono da file del repository, con la fonte indicata. Dove un dato manca, lo scriviamo: "dato da acquisire".*
 
 ## In breve
 
@@ -9,7 +9,7 @@
 - Il programma intermedio interviene su quasi tutti i divari, ma spesso in **versione ridotta o sperimentale**. Lo diciamo in modo esplicito.
 - Dal 13 novembre il **progetto di vita per le persone con disabilità** (02-C5) passa dalla sola riforma del collocamento a un pilota con personale e budget nel quarto degli ambiti con meno servizi, pagato con fondi europei fino al 2029 e senza togliere risorse ad altre misure.
 - Dal 12 novembre entrano le **Case della Comunità** e le **squadre infermieristiche di quartiere**, che aiutano soprattutto chi vive lontano dai servizi e chi è anziano o fragile. Il prezzo è un gradino in meno su due misure di scuola con forte effetto sull'equità (ITS e scuole aperte): **l'equità non guadagna in assoluto, si sposta dalla scuola alla salute**.
-- Circa il 30% del gettito delle coperture (2,3 mld su 7,4) viene da prelievi **regressivi**, cioè che pesano di più su chi ha meno. Alcuni sono compensati, altri no. La scelta di non aggiungere tasse non ha cambiato questa quota.
+- Circa un terzo del gettito delle coperture (2,3 mld su 6,7) viene da prelievi **regressivi**, cioè che pesano di più su chi ha meno. Alcuni sono compensati, altri no. La scelta di non aggiungere tasse non ha cambiato questa quota.
 - Non abbiamo ancora una **microsimulazione per decili di reddito**. Senza, nessun giudizio sull'equità complessiva è definitivo.
 - Proponiamo **cinque regole di metodo** a costo quasi zero e **undici indicatori di divario**.
 - Proponiamo regole di **linguaggio chiaro e inclusivo** per lo Stato, e le applichiamo per prime in questo testo.
@@ -147,7 +147,7 @@ Legenda delle versioni (dal file `programma/selezione_intermedio.md`):
 
 | Divario | Misure nel programma | Versione | Onestà sui limiti |
 |---|---|---|---|
-| **Povertà** | 02-C4 Reddito di inclusione universale | PILOTA (12 ambiti) | Per ora nessun cambiamento generale per 5,4 milioni di persone |
+| **Povertà** | 02-C4 Reddito di inclusione universale | FUORI (dal 13 novembre sera) | Per ora nessun cambiamento generale per 5,4 milioni di persone |
 | | 02-C7 Housing First dopo il PNRR | ESSENZIALE | Circa 6.000 persone senza dimora in casa, su 96.197 |
 | | 02-C1 Salario minimo contrattuale | ZERO | Solo regole: nessuna soglia di legge, nessuna nuova ispezione |
 | | 04-P2 Casa a canone giusto | FUORI | Il divario dell'affitto resta senza risposta |
@@ -174,7 +174,7 @@ Legenda delle versioni (dal file `programma/selezione_intermedio.md`):
 | | 06-C8 Squadre infermieristiche di quartiere | ESSENZIALE (500 squadre) | Priorità alle Regioni con meno ore di assistenza a domicilio per assistito |
 | | 06-C10 Meno burocrazia, più cura | ESSENZIALE | Amministrativi verso l'accoglienza nelle Case della Comunità, su base volontaria |
 | | 06-C9 Benessere a scuola | PILOTA | |
-| | 06-C2 Personale infermieristico e medicina di famiglia | PILOTA (dal 13 novembre) | 4 Regioni, almeno 2 del Mezzogiorno, e aree interne: indennità di area disagiata, borse di studio, infermiere di pratica avanzata |
+| | 06-C2 Personale infermieristico e medicina di famiglia | FUORI | Entrato come pilota il 13 novembre, uscito la sera stessa dopo la verifica delle coperture: primo della lista se arrivano risorse certificate |
 | | 06-C5 Salute mentale | FUORI | Resta la lacuna più grande della missione salute |
 | **Persone detenute** | 07-C2 Pena utile: misure di comunità | ESSENZIALE | Obiettivo: affollamento da 128,8% a 105% in 5 anni |
 
@@ -206,7 +206,7 @@ Per far entrare la sanità **senza tasse in più oltre quelle già previste**, a
 
 ## 4. Chi paga: l'equità delle coperture
 
-Lo scenario intermedio attiva coperture per un gettito minimo di **7,39 miliardi** l'anno a regime. Le abbiamo classificate con il punteggio EQU del panel (colonna `EQU` in `programma/selezione_intermedio.csv`) e con la colonna `chi_paga`. Le somme sono un nostro calcolo sul file.
+Lo scenario intermedio attiva coperture per un gettito minimo di **6,67 miliardi** l'anno a regime, dopo la verifica sul rendiconto dello Stato della sera del 13 novembre (prima erano 7,42). Le abbiamo classificate con il punteggio EQU del panel (colonna `EQU` in `programma/selezione_intermedio.csv`) e con la colonna `chi_paga`. Le somme sono un nostro calcolo sul file.
 
 ### Coperture progressive (pesano di più su chi ha di più): circa 1,5 miliardi
 
@@ -225,7 +225,7 @@ Lo scenario intermedio attiva coperture per un gettito minimo di **7,39 miliardi
 
 Tagli di spesa dei ministeri (RA13, RA01-RA09), riordino degli incentivi alle imprese (RA14, RA04), patent box (SF16), detrazioni per polizze vita e animali (FN02). L'effetto distributivo dipende da **quali programmi** si tagliano. Per RA13 la colonna `chi_paga` dice: "da individuare". È un rischio: un taglio lineare può colpire servizi usati da chi ha meno.
 
-### Coperture regressive (pesano di più su chi ha meno): circa 2,3 miliardi, il 30%
+### Coperture regressive (pesano di più su chi ha meno): circa 2,3 miliardi, circa un terzo
 
 | Codice | Chi paga | Gettito min. (mld) | Compensazione prevista |
 |---|---|---|---|
