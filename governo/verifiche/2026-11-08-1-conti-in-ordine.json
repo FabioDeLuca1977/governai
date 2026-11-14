@@ -1,14 +1,13 @@
 {
  "seduta": "2026-11-08-1-conti-in-ordine",
- "verificata": "2026-11-13",
- "eta_giorni": 5,
+ "verificata": "2026-11-14",
+ "eta_giorni": 6,
  "esito": "da riesaminare",
  "motivi": [
   "Spread IT-DE (punti base): 88.9 (2026-09) → 126.4 (2026-10)",
-  "allerta nuova: spread_in_salita"
+  "allerta nuova: spread_in_salita",
+  "il programma in vigore non è più finanziabile senza deficit con i dati di oggi"
  ],
- "note": [
-  "programma in vigore finanziabile senza deficit (spesa 12.26  coperture 11.52  proposte 69/78)"
- ],
+ "note": [],
  "titolo": "Conti in ordine senza tagliare i servizi essenziali"
 }

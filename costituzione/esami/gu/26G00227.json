@@ -1,0 +1,20 @@
+{
+ "origine": "legislazione/archivio/testi/2026/26G00227.txt",
+ "data_riferimento": "2026-11-14",
+ "articoli": 2,
+ "alto": [],
+ "medio": [
+  "1"
+ ],
+ "rilievi": [
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "medio",
+   "comma": "3",
+   "nota": "decorrenza 2017-01-01 anteriore alla data di riferimento 2026-11-14"
+  }
+ ]
+}

@@ -1,0 +1,357 @@
+DETERMINA 4 novembre 2026
+Classificazione, ai sensi dell'articolo 12, comma 5, della legge 8 novembre 2012, n. 189, del medicinale per uso umano, a base di teplizumab, «Teizeild». (Determina n. 1542/2026).
+(GU Serie Generale n. 265 del 2026-11-13; https://www.gazzettaufficiale.it/eli/id/2026/11/13/26A05903/sg)
+
+IL PRESIDENTE
+
+Visti gli articoli 8 e 9 del decreto legislativo 30 luglio 1999, n.
+300;
+Visto l'art. 48 del decreto-legge 30 settembre 2003, n. 269,
+convertito dalla legge 24 novembre 2003, n. 326, che istituisce
+l'Agenzia italiana del farmaco;
+Visto il decreto del Ministro della salute di concerto con i
+Ministri della funzione pubblica e dell'economia e finanze del 20
+settembre 2004, n. 245: «Regolamento recante norme
+sull'organizzazione e il funzionamento dell'Agenzia italiana del
+farmaco, a norma dell'art. 48, comma 13, del decreto-legge 30
+settembre 2003, n. 269, convertito, con modificazioni, dalla legge 24
+novembre 2003, n. 326», come da ultimo modificato dal decreto del
+Ministro della salute, di concerto con i Ministri della funzione
+pubblica e dell'economia e delle finanze 8 gennaio 2024, n. 3,
+pubblicato nella Gazzetta Ufficiale - Serie generale - n. 11 del 15
+gennaio 2024;
+Visto il vigente regolamento di funzionamento e ordinamento del
+personale dell'Agenzia italiana del farmaco, adottato dal consiglio
+di amministrazione con deliberazione del 17 settembre 2025, n. 52,
+approvato, ai sensi dell'art. 22, commi 3 e 4, del decreto del
+Ministro della salute 20 settembre 2004, n. 245, dal Ministro della
+salute di concerto con il Ministro dell'economia e delle finanze e il
+Ministro per la pubblica amministrazione e pubblicato sul sito
+istituzionale dell'AIFA (comunicazione nella Gazzetta Ufficiale della
+Repubblica italiana - Serie generale - n. 220 del 22 settembre 2025);
+Visto il decreto del Ministro della salute 5 aprile 2024 con cui, a
+decorrere dalla data dello stesso, il prof. Robert Giovanni Nistico'
+e' stato nominato Presidente del consiglio di amministrazione
+dell'Agenzia italiana del farmaco, ai sensi dell'art. 7 del citato
+decreto del Ministro della salute 20 settembre 2004, n. 245 e
+successive modificazioni ed integrazioni;
+Visto il decreto del Ministro della salute 9 febbraio 2024 di
+nomina del dott. Pierluigi Russo quale direttore tecnico-scientifico
+dell'Agenzia italiana del farmaco, ai sensi dell'art. 10-bis del
+citato decreto del Ministro della salute 20 settembre 2004, n. 245 e
+successive modificazioni ed integrazioni;
+Vista la legge 24 dicembre 1993, n. 537, recante «Interventi
+correttivi di finanza pubblica» e successive modificazioni ed
+integrazioni, con particolare riferimento all'art. 8, comma 10,
+lettera c);
+Visto il regolamento (CE) n. 726/2004 del Parlamento europeo e del
+Consiglio del 31 marzo 2004, che istituisce procedure comunitarie per
+l'autorizzazione e la vigilanza dei medicinali per uso umano e
+veterinario e che istituisce l'Agenzia europea per i medicinali;
+Visto il decreto legislativo 24 aprile 2006, n. 219, pubblicato
+nella Gazzetta Ufficiale della Repubblica italiana n. 142 del 21
+giugno 2006, concernente l'attuazione della direttiva 2001/83/CE e
+successive modificazioni ed integrazioni, relativa ad un codice
+comunitario concernente i medicinali per uso umano, nonche' della
+direttiva 2003/94/CE;
+Visto il regolamento (CE) n. 1234/2008 e successive modificazioni
+ed integrazioni della Commissione europea del 24 novembre 2008,
+concernente l'esame delle variazioni dei termini delle autorizzazioni
+all'immissione in commercio di medicinali per uso umano e di
+medicinali veterinari;
+Visto il regolamento (CE) n. 1901/2006 del Parlamento europeo e del
+Consiglio del 12 dicembre 2006 sui prodotti medicinali per uso
+pediatrico, recante modifica del regolamento (CEE) n. 1768/92, della
+direttiva 2001/20/CE e del regolamento (CE) n. 726/2004;
+Visto il decreto-legge 13 settembre 2012, n. 158, convertito, con
+modificazioni dalla legge 8 novembre 2012, n. 189, recante
+«Disposizioni urgenti per promuovere lo sviluppo del Paese mediante
+un piu' alto livello di tutela della salute» e, in particolare,
+l'art. 12, comma 5;
+Visto l'art. 18 della legge 5 agosto 2022, n. 118, recante «Legge
+annuale per il mercato e la concorrenza 2021» che, in particolare,
+per i medicinali di cui al comma 3, prevede la presentazione da parte
+della ditta titolare di una domanda di classificazione, di cui al
+comma 1 della legge 8 novembre 2012, n. 189, entro trenta giorni
+successivi alla loro autorizzazione all'immissione in commercio;
+Visto il decreto legislativo 6 febbraio 2025, n. 10, recante
+«Adeguamento della normativa nazionale alle disposizioni del
+regolamento delegato (UE) 2016/161 della Commissione del 2 ottobre
+2015, che integra la direttiva 2001/83/CE del Parlamento europeo e
+del Consiglio stabilendo norme dettagliate sulle caratteristiche di
+sicurezza che figurano sull'imballaggio dei medicinali per uso umano»
+e in particolare l'art. 4, comma 7 nella parte in cui prevede, nel
+termine di trenta giorni dalla data di entrata in vigore del suddetto
+decreto legislativo, che l'AIFA adotti le istruzioni applicative
+relative alle procedure di rilascio dell'A.I.C. e alle modalita' per
+adempiere agli obblighi previsti dall'art. 4, anche con riguardo ai
+medicinali di importazione e distribuzione parallela;
+Visto il decreto del Ministro della salute del 6 marzo 2025,
+recante «Specifiche tecniche dell'identificativo univoco "Data
+Matrix" dei medicinali ad uso umano di cui al regolamento delegato
+(UE) 2016/161, in attuazione dell'art. 3, comma 3, del decreto
+legislativo 6 febbraio 2025, n. 10», pubblicato nella Gazzetta
+Ufficiale della Repubblica italiana del 10 aprile 2025, n. 84;
+Visto il decreto del Ministro della salute, di concerto con il
+Ministro dell'economia e delle finanze, del 20 maggio 2025, recante
+«Disciplina del dispositivo, contenente le caratteristiche tecniche e
+grafiche e delle informazioni nel medesimo contenute», pubblicato
+nella Gazzetta Ufficiale della Repubblica italiana del 9 luglio 2025,
+n. 157;
+Considerata la determina AIFA n. 56 del 17 luglio 2025 di adozione
+delle istruzioni applicative relative alle procedure di rilascio
+dell'A.I.C. e alle modalita' per adempiere agli obblighi previsti
+dall'art. 4, comma 7, del decreto legislativo 6 febbraio 2025, n. 10,
+anche relativamente ai medicinali di importazione e distribuzione
+parallela;
+Vista la opinione positiva del Comitato per i medicinali per uso
+umano (CHMP) dell'EMA EMADOC-1700519818-3330134 del 23 luglio 2026,
+relativa alla approvazione della variazione EMA/VR/0000339235 del
+medicinale per uso umano «Teizeild» (Teplizumab), che autorizza
+l'immissione in commercio della nuova confezione n. EU/1/25/1998/004;
+Vista l'istanza della societa' Sanofi S.r.l., rappresentante locale
+della societa' Sanofi Winthrop Industrie, titolare
+dell'autorizzazione all'immissione in commercio del medicinale
+«Teizeild» (Teplizumab), pervenuta a questa agenzia con prot. n.
+0112986-31/08/2026-AIFA-A, con la quale e' stata richiesta la
+autorizzazione alla immissione in commercio della nuova confezione
+del suddetto medicinale, nelle more della pubblicazione della
+decisione della Commissione europea nella Gazzetta Ufficiale
+dell'Unione europea;
+Considerato il parere sul regime di classificazione ai fini della
+fornitura espresso, su proposta dell'Ufficio procedure centralizzate,
+dalla Commissione scientifica ed economica (CSE) di AIFA in data 12 -
+16 ottobre 2026;
+Visti gli atti di ufficio;
+
+Determina:
+
+1. Nelle more della pubblicazione nella Gazzetta Ufficiale
+dell'Unione europea della decisione della Commissione, relativa alla
+autorizzazione all'immissione in commercio della nuova confezione
+corredata di numero di A.I.C. e classificazione ai fini della
+fornitura del seguente medicinale per uso umano: TEIZEILD, descritta
+in dettaglio nell'allegato, che forma parte integrante del presente
+provvedimento, e' collocata in apposita sezione della classe, di cui
+all'art. 12, comma 5, della legge 8 novembre 2012, n. 189, denominata
+classe C(nn), dedicata ai farmaci non ancora valutati ai fini della
+rimborsabilita'.
+2. Per i medicinali, di cui al comma 3 dell'art. 12 del
+decreto-legge 13 settembre 2012, n. 158, convertito dalla legge 8
+novembre 2012, n. 189, di collocazione nella classe C(nn) di cui alla
+presente determina, che non ottemperino alla presentazione della
+domanda di classificazione in fascia di rimborsabilita' entro il
+termine di trenta giorni dal sollecito inviato dall'AIFA, ai sensi
+dell'art. 18 della legge 5 agosto 2022, n. 118, verra' data
+informativa sul sito internet istituzionale dell'AIFA e sara'
+applicato l'allineamento al prezzo piu' basso all'interno del quarto
+livello del sistema di classificazione anatomico terapeutico chimico
+(ATC).
+3. Il titolare dell'A.I.C., ai sensi dell'art. 21-bis, comma 1,
+lettera a) e d), della direttiva 2001/83/CE e dell'art. 5, comma 1,
+lettera a) e d), del decreto ministeriale 30 aprile 2015, prima
+dell'inizio della commercializzazione sul territorio italiano del
+medicinale/della nuova confezione deve avere ottemperato, ove
+previsto dalla decisione della Commissione europea, alle condizioni o
+limitazioni per quanto riguarda l'uso sicuro ed efficace del
+medicinale, ottenendo la preventiva approvazione delle misure
+aggiuntive di minimizzazione del rischio. Fatti salvi gli stampati,
+il contenuto e il formato delle misure sopra indicate - liberamente
+accessibili e consultabili sui siti istituzionali dell'Agenzia
+europea del medicinali (EMA) e della Commissione europea al «Public
+Health - Union Register of Medicinal Products» - sono soggetti alla
+preventiva approvazione del competente ufficio di AIFA, unitamente ai
+mezzi di comunicazione, alle modalita' di distribuzione e a qualsiasi
+altro aspetto inerente alla misura aggiuntiva di minimizzazione del
+rischio prevista, con obbligo di distribuzione del titolare
+dell'autorizzazione all'immissione in commercio.
+4. Il titolare dell'A.I.C., ai fini della commercializzazione sul
+territorio italiano del medicinale/della nuova confezione e'
+responsabile del rispetto degli obblighi informativi di cui dall'art.
+73 «Etichettatura» del decreto legislativo n. 219/2006 e successive
+modificazioni ed integrazioni, relativo alle indicazioni e agli
+strumenti che devono comparire sull'imballaggio esterno o, in
+mancanza dello stesso, sul confezionamento primario dei medicinali.
+5. Il titolare dell'A.I.C., prima dell'inizio della
+commercializzazione sul territorio italiano della nuova confezione,
+deve comunicare all'AIFA Servizio on-line
+https://www.aifa.gov.it/comunicazione-prima-commercializzazione - il
+prezzo ex factory, il prezzo al pubblico e la data di inizio della
+commercializzazione del medicinale/della nuova confezione (art. 34,
+comma 5, decreto legislativo n. 219/2006 e successive modificazioni
+ed integrazioni e art. 12, comma 5, legge n. 189/2012 e successive
+modificazioni ed integrazioni).
+6. Qualora si riscontri che il titolare abbia immesso in commercio
+il medicinale in violazione degli obblighi e delle condizioni di cui
+ai precedenti commi, ricorrendone i presupposti e salvo il caso che
+il fatto costituisca reato, verranno applicate le sanzioni previste
+dal decreto legislativo n. 219/2006 e successive modificazioni ed
+integrazioni.
+7. La presente determina entra in vigore il giorno successivo alla
+sua pubblicazione nella Gazzetta Ufficiale della Repubblica italiana.
+8. I successivi provvedimenti di classificazione e rimborsabilita',
+ai sensi dell'art. 8, comma 10, della legge 24 dicembre 1993, n. 537,
+verranno pubblicati unicamente sul portale «Trovanorme» accessibile
+dal sito istituzionale dell'Agenzia sviluppato in collaborazione con
+l'Istituto Poligrafico e Zecca dello Stato, dei quali sara' dato
+avviso nella Gazzetta Ufficiale della Repubblica italiana.
+Roma, 4 novembre 2026
+
+Il Presidente: Nistico'
+
+(Allegato)
+
+Allegato
+Inserimento, in accordo all'art. 12, comma 5, della legge n.
+189/2012, in apposita sezione (denominata classe C (nn)) dedicata ai
+farmaci non ancora valutati ai fini della rimborsabilita' nelle more
+della presentazione da parte dell'azienda interessata di una domanda
+di diversa classificazione. Le informazioni riportate di seguito
+costituiscono un estratto degli allegati alla decisione della
+Commissione europea relativa all'autorizzazione all'immissione in
+commercio del farmaco. Si rimanda quindi alla versione integrale di
+tali allegati.
+Nuove confezioni
+TEIZEILD;
+principio attivo: teplizumab;
+codice procedura: EMA/VR/0000339235;
+codice ATC: A10XX01;
+titolare: Sanofi Winthrop Industrie.
+- Medicinale sottoposto a monitoraggio addizionale. Cio'
+permettera' la rapida identificazione di nuove informazioni sulla
+sicurezza. Agli operatori sanitari e' richiesto di segnalare
+qualsiasi reazione avversa sospetta. Vedere paragrafo 4.8 per
+informazioni sulle modalita' di segnalazione delle reazioni avverse.
+Indicazioni terapeutiche
+«Teizeild» e' indicato per ritardare l'insorgenza del diabete di
+tipo 1 (T1D) allo stadio 3 in pazienti adulti e pediatrici di eta'
+pari o superiore a 8 anni con T1D allo stadio 2.
+Modo di somministrazione
+«Teizeild» deve essere somministrato da un operatore sanitario
+con accesso a un adeguato supporto medico per gestire potenziali
+reazioni avverse gravi.
+Valutazione di laboratorio e vaccinazione prima dell'inizio:
+prima di iniziare «Teizeild», e' necessario eseguire emocromo
+completo e valutazione degli enzimi epatici;
+l'uso di «Teizeild» non e' raccomandato in pazienti con (vedere
+paragrafo 4.4):
+conta linfocitaria inferiore a 1,0 × 109 linfociti/L;
+emoglobina inferiore a 100 g/L;
+conta piastrinica inferiore a 100 × 109 piastrine/L;
+conta assoluta dei neutrofili inferiore a 1,5 × 109
+neutrofili/L;
+livelli elevati di alanina aminotransferasi (ALT) o aspartato
+aminotransferasi (AST) superiori a 2 volte il limite superiore della
+norma (upper limit of normal, ULN) o bilirubina superiore a 1,5 volte
+l'ULN;
+evidenza clinica o di laboratorio di infezione acuta da virus
+di Epstein-Barr (EBV) o citomegalovirus (CMV);
+infezione grave attiva o infezione cronica attiva ad
+esclusione delle infezioni cutanee localizzate.
+Tutte le vaccinazioni relative alla fascia d'eta' devono essere
+somministrate prima di iniziare «Teizeild» (vedere il paragrafo 4.4
+per una guida dettagliata).
+Pretrattamento.
+Il pretrattamento deve essere utilizzato prima dell'infusione di
+«Teizeild» per i primi cinque giorni di somministrazione con: (1) un
+farmaco anti-infiammatorio non steroideo (FANS) o paracetamolo, (2)
+un antistaminico e (3) potrebbe essere considerato l'uso di un
+antiemetico (vedere paragrafo 4.4). Dosi aggiuntive di pretrattamento
+devono essere somministrate se necessario.
+«Teizeild» deve essere somministrato mediante infusione
+endovenosa per un minimo di trenta minuti.
+Due dosi non devono essere somministrate lo stesso giorno.
+Per le istruzioni sulla preparazione del medicinale prima della
+somministrazione, vedere paragrafo 6.6 e alla fine del foglio
+illustrativo.
+Confezioni autorizzate:
+EU/1/25/1998/004 - A.I.C.: 052768049 in base 32: 1LBC9K - 1
+mg/ml - concentrato per soluzione per infusione - uso endovenoso -
+flaconcino (vetro) 0,5 ml - 1 flaconcino.
+Altre condizioni e requisiti dell'autorizzazione all'immissione in
+commercio.
+Rapporti periodici di aggiornamento sulla sicurezza (PSUR): i
+requisiti per la presentazione degli PSUR per questo medicinale sono
+definiti nell'elenco delle date di riferimento per l'Unione europea
+(elenco EURD) di cui all'art. 107-quater, paragrafo 7, della
+direttiva 2001/83/CE e successive modifiche, pubblicato sul sito web
+dell'Agenzia europea per i medicinali.
+Il titolare dell'autorizzazione all'immissione in commercio deve
+presentare il primo PSUR per questo medicinale entro sei mesi
+successivi all'autorizzazione.
+Condizioni o limitazioni per quanto riguarda l'uso sicuro ed efficace
+del medicinale
+Piano di gestione del rischio (RMP): il titolare
+dell'autorizzazione all'immissione in commercio deve effettuare le
+attivita' e le azioni di farmacovigilanza richieste e dettagliate nel
+RMP approvato e presentato nel modulo 1.8.2 dell'autorizzazione
+all'immissione in commercio e in ogni successivo aggiornamento
+approvato del RMP.
+Il RMP aggiornato deve essere presentato:
+su richiesta dell'Agenzia europea dei medicinali;
+ogni volta che il sistema di gestione del rischio e'
+modificato, in particolare a seguito del ricevimento di nuove
+informazioni che possono portare a un cambiamento significativo del
+profilo beneficio/rischio o a seguito del raggiungimento di un
+importante obiettivo (di farmacovigilanza o di minimizzazione del
+rischio).
+Misure aggiuntive di minimizzazione del rischio: prima del lancio
+di «Teizeild» in ogni Stato membro, il titolare dell'autorizzazione
+all'immissione in commercio deve concordare i contenuti e il formato
+del programma formativo, inclusi i mezzi di comunicazione, le
+modalita' di distribuzione e qualsiasi altro aspetto del programma,
+con l'Autorita' nazionale competente.
+Il programma educativo mira a fornire informazioni relative ai
+rischi associati all'uso di «Teizeild» e a come gestirli.
+Il titolare dell'autorizzazione all'immissione in commercio deve
+garantire che in ogni Stato membro in cui «Teizeild» e'
+commercializzato, tutti gli operatori sanitari (HCP) e i
+pazienti/caregiver per i quali si prevede di prescrivere, dispensare
+e utilizzare «Teizeild» abbiano accesso a/ricevano i seguenti
+strumenti di consulenza educativa/di sicurezza da diffondere
+attraverso enti professionali:
+guida per la minimizzazione del rischio per gli operatori
+sanitari: guida per gli operatori sanitari;
+guida per la minimizzazione del rischio per i pazienti: guida
+per il paziente.
+Guida per gli operatori sanitari
+L'obiettivo e' garantire (alla prescrizione e all'inizio del
+trattamento con teplizumab) una conversazione tra gli operatori
+sanitari che prescrivono/trattano e il/la paziente/rappresentante
+legale su informazioni specifiche e raccomandazioni importanti
+relative al trattamento con teplizumab. Queste sono relative ai
+seguenti problemi di sicurezza:
+sindrome da rilascio di citochine;
+linfopenia;
+infezioni gravi.
+La Guida HCP include i seguenti elementi chiave:
+informazioni relative alla necessita' di premedicare i
+pazienti, per monitorare l'emocromo totale, gli enzimi epatici prima,
+durante o dopo il trattamento;
+linee guida per la vaccinazione prima o dopo il trattamento.
+Guida per il paziente
+L'obiettivo di questa guida e' quello di informare i pazienti
+trattati con teplizumab e il loro rappresentante legale sui rischi
+correlati all'uso di teplizumab e che siano in grado di riconoscere i
+segni e i sintomi indicativi di tali rischi.
+Al momento dell'inizio del trattamento, la guida del paziente
+sara' fornita dagli operatori sanitari al paziente/rappresentante
+legale (che il paziente deve conservare e potra' condividere con
+altri operatori sanitari coinvolti nel trattamento). Gli operatori
+sanitari possono scaricare questa guida del paziente nei Paesi, ove
+disponibile. La guida del paziente aiuta il paziente a identificare i
+seguenti problemi di sicurezza:
+sindrome da rilascio di citochine;
+linfopenia;
+infezioni gravi.
+La guida del paziente include i seguenti elementi chiave:
+informazioni per istruire il paziente sui segni/sintomi che
+potrebbero essere indicativi di questi rischi da segnalare
+immediatamente al medico o all'infermiere se si verificano;
+linee guida per la vaccinazione prima o dopo il trattamento;
+raccomandazione per i pazienti/il rappresentante legale di
+leggere attentamente il foglio illustrativo (FI).
+Regime di fornitura: medicinale soggetto a prescrizione medica
+limitativa, da rinnovare volta per volta, vendibile al pubblico su
+prescrizione di centri ospedalieri o di specialisti - endocrinologo,
+internista, pediatra (RNRL).

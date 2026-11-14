@@ -1,5 +1,5 @@
 {
- "ultima_data_gu": "2026-11-13",
+ "ultima_data_gu": "2026-11-14",
  "inizio": "2026-09-09",
  "infrazioni_prima_esecuzione": "2026-11-08",
  "dpe_aggiornamenti": [
@@ -40,12 +40,12 @@
    "url": "https://www.affarieuropei.gov.it/it/attivita/procedure-dinfrazione/stato-delle-infrazioni/infrazioni-11-dicembre-2025/"
   }
  ],
- "ultima_esecuzione": "2026-11-13T09:05:59",
+ "ultima_esecuzione": "2026-11-14T09:06:59",
  "fonti": {
-  "cellar_gu_l": "ok: 15 atti nuovi dal 2026-11-05",
+  "cellar_gu_l": "ok: 0 atti nuovi dal 2026-11-06",
   "cellar_testi": "0/0 testi di direttive",
-  "cellar_direttive": "ok: 145 direttive con termine tra 2023-11-13 e 2028-11-13",
-  "cellar_proposte": "ok: 54 proposte dal 2026-09-14",
+  "cellar_direttive": "ok: 145 direttive con termine tra 2023-11-14 e 2028-11-14",
+  "cellar_proposte": "ok: 54 proposte dal 2026-09-15",
   "cellar_semestre": "ok: 16 documenti",
   "ecfin_edp": "ok: 9 passaggi",
   "eurinfra": "ok: 84 procedure (il sito dichiara 84)",

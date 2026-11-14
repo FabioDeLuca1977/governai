@@ -1,17 +1,18 @@
-# Bollettino GovernAI — 2026-11-13
+# Bollettino GovernAI — 2026-11-14
 
-*Generato automaticamente da `sistema/pipeline.py` alle 14:23. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 09:07. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
-- Modalità di aggiornamento: **mirato**
-- Dataset Eurostat aggiornati: namq_10_gdp, sts_inpr_m
+- Modalità di aggiornamento: **completo**
+- Dataset Eurostat aggiornati: demo_find, demo_pjan, demo_pjangroup, migr_pop1ctz
 - File ufficiali aggiornati: 0
-- Serie cambiate e archiviate in `dati/storico/`: nessuna
-- Documenti nuovi sulle pagine osservate: 3
-  - ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/commercio-con-lestero-e-prezzi-allimport-settembre-2026/
-  - Corte dei conti: https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=4348523a-6a91-4fc2-8fc8-00f2bd4c1768
-  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/12/26G00221/sg
+- Serie cambiate e archiviate in `dati/storico/`: 02_fecondita_tft, 02_prestazioni_sociali_denaro, 08_commercio_it_partner, popolazione
+- Documenti nuovi sulle pagine osservate: 4
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=f255dd1a-164a-45eb-b5b4-a71cebea5199
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=88
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=130
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=265
 
 ## 2. Cruscotto
 
@@ -54,26 +55,56 @@
 
 ## 4. Programma del momento
 
-Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
+Il programma di riferimento (tutte le coperture, nucleo robusto prima) costa **12,18 mld/anno**; il programma adattato al momento costa **12,19 mld/anno**. Entrambi sono finanziati senza deficit.
+
+**Differenze rispetto al riferimento** (effetto delle allerte):
+
+- 01-P5: ESSENZIALE → PIENA
+- 01-P6: PIENA → ESSENZIALE
+- 02-C1: ZERO → PIENA
+- 03-P5: PILOTA → esclusa
+- 05-C10: esclusa → PILOTA
+- 05-C5: PIENA → ESSENZIALE
+- 06-C9: PILOTA → ESSENZIALE
+- 07-C6: ESSENZIALE → PILOTA
+- 09-C2: ESSENZIALE → ZERO
+
+**Cambiamenti rispetto al bollettino precedente:**
+
+- 01-P14: ESSENZIALE → PILOTA
+- 01-P6: PIENA → ESSENZIALE
+- 02-C3: ESSENZIALE → ZERO
+- 03-P5: PILOTA → esclusa
+- 04-P1: esclusa → PILOTA
+- 05-C10: esclusa → PILOTA
+- 05-C5: PIENA → ESSENZIALE
+- 05-C8: PIENA → ESSENZIALE
+- 06-C10: esclusa → PIENA
+- 06-C9: PIENA → ESSENZIALE
+- 07-C6: PIENA → PILOTA
+- 09-C10: esclusa → PIENA
+- 09-C2: ESSENZIALE → ZERO
+
+Dettaglio: `programma/selezione_momento.md`.
 
 ## 5. Revisione AI richiesta
 
-**3 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
-- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/commercio-con-lestero-e-prezzi-allimport-settembre-2026/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=4348523a-6a91-4fc2-8fc8-00f2bd4c1768 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/12/26G00221/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+**4 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=f255dd1a-164a-45eb-b5b4-a71cebea5199 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=88 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=130 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=265 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
 
 ## Registro tecnico
 
-- sentinella: sentinella: mirato; Eurostat aggiornati 2, file 0, documenti nuovi 3, serie cambiate 0, errori 0
+- sentinella: sentinella: completo; Eurostat aggiornati 4, file 0, documenti nuovi 4, serie cambiate 4, errori 0
 - apprendimento: 193 KPI, stati {'manuale': 147, 'in osservazione': 46}, aree calibrate 0
-- legislazione: archivio GU: 670 atti, 670 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
-- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
-- costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
+- legislazione: archivio GU: 687 atti, 687 con testo; nuovi 17; testi scaricati 17; richieste 78; errori 0
+- europa: europa: 857 atti GU L in archivio, 315 negli ultimi 30 giorni; 144 direttive con termine (23 critiche, 11 alte); 84 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 24
+- costituzione: 1 atti con forza di legge esaminati; con segnali alti 0
 - consiglio: 95 previsioni, 0 verificate oggi, 8 verificate in totale
 - verifica sedute: 2 attive, 0 confermate, 2 da riesaminare
-- modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
-
-## 6. Nota del livello AI
-
-Livello AI non eseguito: credenziali dell'API di Claude assenti (impostare la variabile d'ambiente ANTHROPIC_API_KEY).
+- controlla.py: avvisi: 0  ->  bilancio.md
+- decidi.py: -> esito.md, esito_proposte.csv
+- ottimizza.py (riferimento): spesa 12.18  coperture 10.10  proposte 69/78  -> selezione_riferimento.md
+- ottimizza.py (momento): spesa 12.19  coperture 10.10  proposte 69/78  -> selezione_momento.md
