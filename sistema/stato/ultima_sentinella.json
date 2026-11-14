@@ -1,21 +1,24 @@
 {
- "data": "2026-11-14T09:00:06",
+ "data": "2026-11-14T13:17:27",
  "prima_esecuzione": false,
- "eurostat_aggiornati": [
-  "demo_find",
-  "demo_pjan",
-  "demo_pjangroup",
-  "migr_pop1ctz"
- ],
+ "eurostat_aggiornati": [],
  "file_aggiornati": [],
  "documenti_nuovi": [
   {
-   "pagina": "Corte dei conti",
+   "pagina": "Gazzetta Ufficiale",
    "aree": [
     "00",
-    "04"
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
    ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=f255dd1a-164a-45eb-b5b4-a71cebea5199"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-14&numeroGazzetta=132"
   },
   {
    "pagina": "Gazzetta Ufficiale",
@@ -31,7 +34,7 @@
     "08",
     "09"
    ],
-   "documento": "https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=88"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/regioni/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-14&numeroGazzetta=44"
   },
   {
    "pagina": "Gazzetta Ufficiale",
@@ -47,46 +50,13 @@
     "08",
     "09"
    ],
-   "documento": "https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=130"
-  },
-  {
-   "pagina": "Gazzetta Ufficiale",
-   "aree": [
-    "00",
-    "01",
-    "02",
-    "03",
-    "04",
-    "05",
-    "06",
-    "07",
-    "08",
-    "09"
-   ],
-   "documento": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=265"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-14&numeroGazzetta=266"
   }
  ],
  "errori": [],
- "script": {
-  "00_macro.py": "ok",
-  "00b_bilancio.py": "ok",
-  "00c_congiuntura.py": "ok",
-  "01_economia.py": "ok",
-  "02_lavoro.py": "ok",
-  "03_ambiente.py": "ok",
-  "04_infrastrutture.py": "ok",
-  "05_istruzione.py": "ok",
-  "06_salute.py": "ok",
-  "07_giustizia.py": "ok",
-  "08_esteri.py": "ok",
-  "09_pa_digitale.py": "ok",
-  "bm_benchmark.py": "ok"
- },
+ "script": {},
  "serie_cambiate": [
-  "02_fecondita_tft",
-  "02_prestazioni_sociali_denaro",
-  "08_commercio_it_partner",
-  "popolazione"
+  "obi_export_quote_mercati"
  ],
- "modalita": "completo"
+ "modalita": "nessun aggiornamento"
 }

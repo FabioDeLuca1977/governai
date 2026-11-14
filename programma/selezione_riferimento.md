@@ -70,17 +70,17 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 08-P4 | Beni pubblici europei: capacita' fiscale UE | PIENA | 1,0 | 0,00 | 99% |
 | 01-P8 | Meno scontrini: riordino delle detrazioni del 19% | ZERO | 0,4 | 0,00 | 99% |
 | 05-C1 | Nessuna esclusione: squadre di prossimita' contro la dispersione | PIENA | 1,0 | 0,25 | 99% |
+| 01-P3 | IVA in tempo reale | PIENA | 1,0 | 0,15 | 99% |
 | 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | ESSENZIALE | 0,6 | 0,01 | 99% |
 | 09-C5 | AI nella PA con le mani sul volante | PIENA | 1,0 | 0,22 | 98% |
-| 01-P3 | IVA in tempo reale | PIENA | 1,0 | 0,15 | 98% |
 | 07-C4 | Dal bene confiscato al bene comune | PIENA | 1,0 | 0,15 | 98% |
 | 01-P10 | Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti | PIENA | 1,0 | 0,10 | 97% |
 | 01-P4 | Crescere conviene: eliminare i gradini dimensionali | ZERO | 0,2 | 0,01 | 97% |
 | 05-C7 | Quota svantaggio nel finanziamento delle scuole | ESSENZIALE | 0,6 | 0,19 | 96% |
 | 03-P2 | Elettricita' rinnovabile a prezzo rinnovabile (CfD) | PIENA | 1,0 | 0,15 | 95% |
 | 09-C7 | Automazione dei processi ripetitivi con riallocazione garantita | PIENA | 1,0 | 0,20 | 92% |
+| 01-P13 | Un solo credito per la ricerca: stabile, piu' forte per le piccole imprese, certificato prima di spendere | ZERO | 0,2 | 0,01 | 92% |
 | 05-C6 | AI a scuola | PIENA | 1,0 | 0,22 | 91% |
-| 01-P13 | Un solo credito per la ricerca: stabile, piu' forte per le piccole imprese, certificato prima di spendere | ZERO | 0,2 | 0,01 | 91% |
 | 09-C4 | Cloud pubblico sostenibile e Patto per la manutenzione digitale | ZERO | 0,1 | 0,00 | 91% |
 | 05-C9 | Zaino culturale a scuola e tariffa sociale della cultura | PIENA | 1,0 | 0,20 | 90% |
 | 04-P9 | Consegne pulite in citta': zone a emissioni zero per le merci | PIENA | 1,0 | 0,07 | 87% |
@@ -88,18 +88,18 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | PIENA | 1,0 | 0,10 | 73% |
 | 01-P7 | Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla | PIENA | 1,0 | 0,30 | 71% |
 | 05-C5 | Scuole aperte come presidi di comunita' | PIENA | 1,0 | 0,40 | 66% |
-| 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | ESSENZIALE | 0,6 | 0,15 | 62% |
+| 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | ESSENZIALE | 0,6 | 0,15 | 63% |
 | 06-C8 | Squadre infermieristiche autonome di quartiere per l'ADI | PIENA | 1,0 | 0,25 | 59% |
 | 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | ZERO | 0,2 | 0,00 | 59% |
 | 03-P5 | Contratto agro-climatico | PILOTA | 0,1 | 0,05 | 57% |
-| 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | PIENA | 1,0 | 0,15 | 52% |
-| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 46% |
-| 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | ESSENZIALE | 0,6 | 0,14 | 44% |
+| 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | PIENA | 1,0 | 0,15 | 53% |
+| 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | ESSENZIALE | 0,6 | 0,14 | 45% |
+| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 45% |
 | 04-P1 | Patto di continuita' post-PNRR | PILOTA | 0,2 | 0,09 | 41% |
 | 05-C8 | Biblioteche di comunita' | ESSENZIALE | 0,5 | 0,14 | 39% |
-| 06-C9 | Equipe di benessere scolastico in rete con la Casa della Comunita' | PILOTA | 0,1 | 0,03 | 37% |
+| 06-C9 | Equipe di benessere scolastico in rete con la Casa della Comunita' | PILOTA | 0,1 | 0,03 | 36% |
 | 04-P7 | Dal porto al treno: piu' merci sul ferro | PILOTA | 0,3 | 0,06 | 31% |
-| 07-C6 | Scudo cyber territoriale | ESSENZIALE | 0,6 | 0,18 | 27% |
+| 07-C6 | Scudo cyber territoriale | ESSENZIALE | 0,6 | 0,18 | 28% |
 
 ## Coperture attivate
 
@@ -147,7 +147,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | RB01 | Carta Valore per i neodiplomati (180 mln/anno, universale): limite ISEE 35.000 € come per la vecchia Carta cultura | RIORDINO_BONUS | 0,05 | Persone neodiplomate di famiglie con ISEE oltre 35.000 € | 97% |
 | SF09 | Detrazioni edilizie: aliquota ridotta per le unità diverse dall'abitazione principale non locate a canone concordato (proposta area 04) | SPESE_FISCALI | 0,05 | Chi ristruttura una seconda casa di proprietà | 100% |
 | SF04 | Cooperative: esclusione degli utili a riserva indivisibile ridotta dal 90% al 70% per le cooperative con ricavi oltre 50 mln €; invariata per le altre | SPESE_FISCALI | 0,05 | Grandi cooperative (consumo, servizi, agroalimentare) | 100% |
-| RP08 | Ricambio selettivo nei profili amministrativi generici degli enti del Servizio sanitario nazionale: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni invece del 100%, con riduzione per legge del finanziamento del SSN d'intesa con le Regioni e destinazione in legge di bilancio a personale infermieristico e Case della Comunità (06-C2, 06-C3). Esclusi profili tecnici, informatici e sportelli di prenotazione; clausola di salvaguardia sui tempi dei servizi. Completa RP01, che esclude la sanità (proposta 06-C10) | RIALLOCAZIONE | 0,05 | Giovani che si candidano ai concorsi amministrativi delle aziende sanitarie; uffici amministrativi che lavorano con meno persone | 81% |
+| RP08 | Ricambio selettivo nei profili amministrativi generici degli enti del Servizio sanitario nazionale: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni invece del 100%, con riduzione per legge del finanziamento del SSN d'intesa con le Regioni e destinazione in legge di bilancio a personale infermieristico e Case della Comunità (06-C2, 06-C3). Esclusi profili tecnici, informatici e sportelli di prenotazione; clausola di salvaguardia sui tempi dei servizi. Completa RP01, che esclude la sanità (proposta 06-C10) | RIALLOCAZIONE | 0,05 | Giovani che si candidano ai concorsi amministrativi delle aziende sanitarie; uffici amministrativi che lavorano con meno persone | 82% |
 | SF03 | Tonnage tax e credito d'imposta armatoriale: rimodulazione con coefficienti legati a emissioni e bandiera UE, tetto al beneficio | SPESE_FISCALI | 0,05 | Imprese armatoriali | 100% |
 | RP01 | Turnover selettivo nei profili amministrativi generici di ministeri ed enti pubblici non economici nazionali: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni di quei profili invece del 100%, con taglio corrispondente delle facoltà assunzionali e degli stanziamenti. Esclusi: scuola, università, ricerca e cultura (MIM, MUR, MiC), giustizia, Interno, agenzie fiscali, sanità, sicurezza e soccorso, servizi sociali e inclusione (compresi gli sportelli e le prestazioni di inclusione INPS e la DG inclusione del Ministero del lavoro). Esclusa la quota riservata ai profili tecnici da RA07 | RIALLOCAZIONE | 0,04 | Giovani che si candidano ai concorsi per profili amministrativi generici (meno posti, soprattutto al Sud); uffici di supporto che lavorano con meno persone | 78% |
 | SF08 | Detrazione 19% per lo sport di ragazze e ragazzi 5-18 anni sostituita da offerta sportiva gratuita a scuola (proposta area 05) | SPESE_FISCALI | 0,04 | Famiglie che detraggono iscrizioni a palestre e associazioni sportive | 86% |
@@ -180,12 +180,12 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 - 02-C4 Reddito di inclusione universale (scelta in 0% delle combinazioni di pesi)
 - 04-P2 Casa a canone giusto (scelta in 3% delle combinazioni di pesi)
 - 04-P3 Prima il treno di chi viaggia ogni giorno: fondo TPL e abbonamento unico (scelta in 0% delle combinazioni di pesi)
-- 05-C10 Rete nazionale per la ricerca applicata sul modello Fraunhofer (scelta in 42% delle combinazioni di pesi)
+- 05-C10 Rete nazionale per la ricerca applicata sul modello Fraunhofer (scelta in 41% delle combinazioni di pesi)
 - 06-C2 Patto per il personale infermieristico e la medicina generale (scelta in 0% delle combinazioni di pesi)
 - 06-C4 Budget di cura per la non autosufficienza (scelta in 9% delle combinazioni di pesi)
 - 06-C5 Salute mentale al 5% (scelta in 0% delle combinazioni di pesi)
 - 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea (scelta in 29% delle combinazioni di pesi)
-- 08-P6 Export resiliente (scelta in 20% delle combinazioni di pesi)
+- 08-P6 Export resiliente (scelta in 22% delle combinazioni di pesi)
 
 ## Uso dei fondi
 

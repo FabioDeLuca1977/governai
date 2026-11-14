@@ -1,0 +1,269 @@
+{
+ "origine": "legislazione/archivio/testi/2026/26G00224.txt",
+ "data_riferimento": "2026-12-02",
+ "articoli": 28,
+ "alto": [],
+ "medio": [
+  "14",
+  "2",
+  "7",
+  "8",
+  "9",
+  "10",
+  "17"
+ ],
+ "rilievi": [
+  {
+   "art": "14",
+   "rubrica": "Decreti legislativi",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega",
+   "livello": "medio",
+   "comma": "",
+   "nota": "delega: oggetto, principi e criteri, termine"
+  },
+  {
+   "art": "2",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "medio",
+   "comma": "2",
+   "nota": "decorrenza 2016-01-01 anteriore alla data di riferimento 2026-12-02"
+  },
+  {
+   "art": "6",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "3",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "6",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "7",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "7",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "statale_senza_intesa",
+   "livello": "medio",
+   "comma": "5",
+   "nota": "atto statale in materia regionale senza intesa"
+  },
+  {
+   "art": "7",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "3",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "7",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "4",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "8",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "10",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "8",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "10",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "9",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "4",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "9",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "statale_senza_intesa",
+   "livello": "medio",
+   "comma": "14",
+   "nota": "atto statale in materia regionale senza intesa"
+  },
+  {
+   "art": "9",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "statale_senza_intesa",
+   "livello": "medio",
+   "comma": "15",
+   "nota": "atto statale in materia regionale senza intesa"
+  },
+  {
+   "art": "9",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "4",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "9",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "8",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "9",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "9",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "9",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "10",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "9",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "11",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "9",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "12",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "10",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "statale_senza_intesa",
+   "livello": "medio",
+   "comma": "16",
+   "nota": "atto statale in materia regionale senza intesa"
+  },
+  {
+   "art": "10",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "11",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "10",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "12",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "10",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "13",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "10",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "14",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "16",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "3",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "17",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "17",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "1",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "22",
+   "rubrica": "",
+   "parametro": "decreti_legge",
+   "segnale": "dl_conversione",
+   "livello": "basso",
+   "comma": "2",
+   "nota": "modifica in sede di conversione: verificare il nesso"
+  },
+  {
+   "art": "24",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "2-bis",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  }
+ ]
+}

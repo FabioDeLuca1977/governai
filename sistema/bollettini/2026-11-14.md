@@ -1,18 +1,17 @@
 # Bollettino GovernAI — 2026-11-14
 
-*Generato automaticamente da `sistema/pipeline.py` alle 09:07. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 13:20. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
-- Modalità di aggiornamento: **completo**
-- Dataset Eurostat aggiornati: demo_find, demo_pjan, demo_pjangroup, migr_pop1ctz
+- Modalità di aggiornamento: **nessun aggiornamento**
+- Dataset Eurostat aggiornati: nessuno
 - File ufficiali aggiornati: 0
-- Serie cambiate e archiviate in `dati/storico/`: 02_fecondita_tft, 02_prestazioni_sociali_denaro, 08_commercio_it_partner, popolazione
-- Documenti nuovi sulle pagine osservate: 4
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=f255dd1a-164a-45eb-b5b4-a71cebea5199
-  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=88
-  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=130
-  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=265
+- Serie cambiate e archiviate in `dati/storico/`: obi_export_quote_mercati
+- Documenti nuovi sulle pagine osservate: 3
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-14&numeroGazzetta=132
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/regioni/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-14&numeroGazzetta=44
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-14&numeroGazzetta=266
 
 ## 2. Cruscotto
 
@@ -71,36 +70,23 @@ Il programma di riferimento (tutte le coperture, nucleo robusto prima) costa **1
 
 **Cambiamenti rispetto al bollettino precedente:**
 
-- 01-P14: ESSENZIALE → PILOTA
-- 01-P6: PIENA → ESSENZIALE
-- 02-C3: ESSENZIALE → ZERO
-- 03-P5: PILOTA → esclusa
-- 04-P1: esclusa → PILOTA
-- 05-C10: esclusa → PILOTA
-- 05-C5: PIENA → ESSENZIALE
-- 05-C8: PIENA → ESSENZIALE
-- 06-C10: esclusa → PIENA
-- 06-C9: PIENA → ESSENZIALE
-- 07-C6: PIENA → PILOTA
-- 09-C10: esclusa → PIENA
-- 09-C2: ESSENZIALE → ZERO
+- nessuno
 
 Dettaglio: `programma/selezione_momento.md`.
 
 ## 5. Revisione AI richiesta
 
-**4 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=f255dd1a-164a-45eb-b5b4-a71cebea5199 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=88 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=130 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=265 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+**3 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-14&numeroGazzetta=132 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/regioni/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-14&numeroGazzetta=44 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-14&numeroGazzetta=266 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
 
 ## Registro tecnico
 
-- sentinella: sentinella: completo; Eurostat aggiornati 4, file 0, documenti nuovi 4, serie cambiate 4, errori 0
+- sentinella: sentinella: nessun aggiornamento; Eurostat aggiornati 0, file 0, documenti nuovi 3, serie cambiate 1, errori 0
 - apprendimento: 193 KPI, stati {'manuale': 147, 'in osservazione': 46}, aree calibrate 0
-- legislazione: archivio GU: 687 atti, 687 con testo; nuovi 17; testi scaricati 17; richieste 78; errori 0
-- europa: europa: 857 atti GU L in archivio, 315 negli ultimi 30 giorni; 144 direttive con termine (23 critiche, 11 alte); 84 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 24
+- legislazione: archivio GU: 699 atti, 699 con testo; nuovi 12; testi scaricati 12; richieste 89; errori 0
+- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
 - costituzione: 1 atti con forza di legge esaminati; con segnali alti 0
 - consiglio: 95 previsioni, 0 verificate oggi, 8 verificate in totale
 - verifica sedute: 2 attive, 0 confermate, 2 da riesaminare
@@ -108,3 +94,7 @@ Dettaglio: `programma/selezione_momento.md`.
 - decidi.py: -> esito.md, esito_proposte.csv
 - ottimizza.py (riferimento): spesa 12.18  coperture 10.10  proposte 69/78  -> selezione_riferimento.md
 - ottimizza.py (momento): spesa 12.19  coperture 10.10  proposte 69/78  -> selezione_momento.md
+
+## 6. Nota del livello AI
+
+Livello AI non eseguito: credenziali dell'API di Claude assenti (impostare la variabile d'ambiente ANTHROPIC_API_KEY).

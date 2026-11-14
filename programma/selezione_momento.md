@@ -72,8 +72,8 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 05-C3 | Carriere della ricerca | ZERO | 0,1 | 0,00 | 99% |
 | 08-P4 | Beni pubblici europei: capacita' fiscale UE | PIENA | 1,0 | 0,00 | 99% |
 | 01-P8 | Meno scontrini: riordino delle detrazioni del 19% | ZERO | 0,4 | 0,00 | 99% |
+| 05-C7 | Quota svantaggio nel finanziamento delle scuole | ESSENZIALE | 0,6 | 0,19 | 98% |
 | 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | ESSENZIALE | 0,6 | 0,01 | 98% |
-| 05-C7 | Quota svantaggio nel finanziamento delle scuole | ESSENZIALE | 0,6 | 0,19 | 97% |
 | 09-C8 | Staffetta delle competenze: il ricambio generazionale come occasione di riqualificazione | PIENA | 1,0 | 0,23 | 97% |
 | 07-C4 | Dal bene confiscato al bene comune | PIENA | 1,0 | 0,15 | 96% |
 | 01-P10 | Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti | PIENA | 1,0 | 0,10 | 96% |
@@ -92,13 +92,13 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | PIENA | 1,0 | 0,10 | 66% |
 | 07-C6 | Scudo cyber territoriale | PILOTA | 0,2 | 0,03 | 60% |
 | 09-C7 | Automazione dei processi ripetitivi con riallocazione garantita | PIENA | 1,0 | 0,20 | 59% |
-| 01-P7 | Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla | PIENA | 1,0 | 0,30 | 53% |
+| 01-P7 | Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla | PIENA | 1,0 | 0,30 | 54% |
 | 05-C5 | Scuole aperte come presidi di comunita' | ESSENZIALE | 0,5 | 0,20 | 49% |
-| 05-C8 | Biblioteche di comunita' | ESSENZIALE | 0,5 | 0,14 | 49% |
+| 05-C8 | Biblioteche di comunita' | ESSENZIALE | 0,5 | 0,14 | 48% |
 | 06-C8 | Squadre infermieristiche autonome di quartiere per l'ADI | PIENA | 1,0 | 0,25 | 42% |
 | 04-P7 | Dal porto al treno: piu' merci sul ferro | PILOTA | 0,3 | 0,06 | 41% |
-| 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | ESSENZIALE | 0,7 | 0,05 | 41% |
-| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 31% |
+| 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | ESSENZIALE | 0,7 | 0,05 | 40% |
+| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 32% |
 | 06-C9 | Equipe di benessere scolastico in rete con la Casa della Comunita' | ESSENZIALE | 0,5 | 0,08 | 18% |
 | 04-P1 | Patto di continuita' post-PNRR | PILOTA | 0,2 | 0,09 | 15% |
 | 05-C10 | Rete nazionale per la ricerca applicata sul modello Fraunhofer | PILOTA | 0,1 | 0,05 | 15% |
@@ -180,7 +180,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 Restano fuori perché, con le risorse disponibili, altre misure danno più valore per euro, oppure perché il loro effetto netto sui valori è negativo. *Rientrano se si trovano coperture aggiuntive.*
 
 - 02-C4 Reddito di inclusione universale (scelta in 0% delle combinazioni di pesi)
-- 03-P5 Contratto agro-climatico (scelta in 47% delle combinazioni di pesi)
+- 03-P5 Contratto agro-climatico (scelta in 46% delle combinazioni di pesi)
 - 04-P2 Casa a canone giusto (scelta in 41% delle combinazioni di pesi)
 - 04-P3 Prima il treno di chi viaggia ogni giorno: fondo TPL e abbonamento unico (scelta in 0% delle combinazioni di pesi)
 - 06-C2 Patto per il personale infermieristico e la medicina generale (scelta in 0% delle combinazioni di pesi)

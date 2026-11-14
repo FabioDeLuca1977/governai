@@ -480,9 +480,9 @@
    "https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=88",
    "https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=130",
    "https://www.gazzettaufficiale.it/gazzetta/corte_costituzionale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-11&numeroGazzetta=45",
-   "https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=131",
-   "https://www.gazzettaufficiale.it/gazzetta/regioni/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-07&numeroGazzetta=43",
-   "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-13&numeroGazzetta=265",
+   "https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-14&numeroGazzetta=132",
+   "https://www.gazzettaufficiale.it/gazzetta/regioni/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-14&numeroGazzetta=44",
+   "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-14&numeroGazzetta=266",
    "https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-12&numeroGazzetta=89"
   ],
   "https://eur-lex.europa.eu/oj/direct-access.html": []
@@ -599,7 +599,7 @@
   "deficit_pil": "1f770a1c00f5c0dc9b47df7df09f6bf3fbe96b015960bb12f7a03d9762475d95",
   "obi_aps_quota_rifugiati": "b03a14b75d469a1cf744afecaa485a4996345337115612dafd56aca1e04c63c1",
   "obi_disposition_time_annuale": "9d122dc3058e8c41b85889ead37b4861bf84e12b88ec7a15638d430488a33074",
-  "obi_export_quote_mercati": "ca973b02f287f080baeea39333ef4a32cae851b730901836711c180b85deee0b",
+  "obi_export_quote_mercati": "59b1a56709ba38e16b632cdf753055a6e762574e527342d233d5807909185fa9",
   "obi_presenze_quota_lug_ago": "1c7bcf0df296877b40ec99643d959501976ce2303d1912b753d5dd1c3d7bf449",
   "obi_rapporto_infermieri_medici": "8a249d2b79c42a0606c6d9f4a615aa822550c107b2c2a7924bd9cbc874fc6e03",
   "obi_regioni_perdite_oltre_50": "bfa4b2f4715bd634e285118b1b7ddcb99b60306b241f72f6d3857e24fd71b321",
