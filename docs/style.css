@@ -87,7 +87,7 @@ kbd{ font:600 12px var(--f-mono); border:1px solid var(--c-bordo); border-bottom
   .link-servizio:hover,.link-servizio[aria-current="page"]{ color:var(--c-accento); }
   .tema{ display:grid; }
 }
-@media (min-width:900px) and (max-width:1120px){ .nav-princ svg{ display:none; } .cerca{ min-width:44px; } .cerca .etichetta-cerca{ display:none; } }
+@media (min-width:900px) and (max-width:1340px){ .nav-princ svg{ display:none; } .cerca{ min-width:44px; } .cerca .etichetta-cerca{ display:none; } }
 .striscia{ background:var(--c-superficie-2); border-bottom:1px solid var(--c-bordo); font-size:13px; color:var(--c-testo-2); }
 @media (max-width:599px){ .striscia span:last-child{ display:none; } }
 .striscia>div{ max-width:1264px; margin:0 auto; padding:6px var(--margine); display:flex; flex-wrap:wrap; gap:4px 16px; justify-content:space-between; }
@@ -607,3 +607,66 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 .voci-profilo{ margin:8px 0 0; padding-left:18px; }
 .voci-profilo li{ margin-bottom:12px; }
 .voci-profilo li p{ margin:2px 0; }
+
+/* ---------- Osservatorio: infografica ---------- */
+.sv{ display:inline-block; vertical-align:middle; }
+.sv i{ position:relative; display:block; width:18px; height:18px; border-radius:4px; background:var(--g-traccia); }
+.sv.p i{ background:var(--g-positivo); } .sv.n i{ background:var(--g-negativo); } .sv.z i{ background:var(--g-zero); }
+.sv.nt i{ background:transparent; border:1px dashed var(--c-bordo-forte); }
+.sv i::after{ content:""; position:absolute; inset:0; margin:auto; width:10px; height:8px; background:var(--c-superficie); }
+.sv.p i::after{ clip-path:polygon(50% 0,100% 100%,0 100%); }
+.sv.n i::after{ clip-path:polygon(0 0,100% 0,50% 100%); }
+.sv.z i::after{ width:6px; height:6px; border-radius:50%; }
+.sv.nt i::after{ display:none; }
+.striscia-valori{ display:grid; grid-template-columns:repeat(10,minmax(0,1fr)); gap:3px; max-width:300px; margin:12px 0 8px; }
+.striscia-valori .sv,.striscia-valori .sv i{ display:block; width:100%; }
+.striscia-valori .sv i{ height:16px; }
+.striscia-valori.con-nomi{ max-width:none; gap:6px; }
+.striscia-valori.con-nomi .sv i{ height:30px; }
+.striscia-valori.con-nomi .sv i::after{ width:12px; height:10px; }
+.striscia-valori.con-nomi .sv.z i::after{ width:8px; height:8px; }
+.sv-col{ display:flex; flex-direction:column; align-items:stretch; gap:4px; min-width:0; }
+.sv-col b{ font:600 11px/1.15 var(--f-sans); color:var(--c-testo-2); text-align:center; overflow-wrap:anywhere; }
+@media (max-width:599px){ .striscia-valori.con-nomi{ grid-template-columns:repeat(5,minmax(0,1fr)); row-gap:10px; } }
+.legenda-valori{ display:flex; flex-wrap:wrap; align-items:center; gap:4px 6px; margin:8px 0 12px; }
+.legenda-valori .sv{ margin-left:8px; } .legenda-valori .sv:first-child{ margin-left:0; }
+.legenda-valori .sv i{ width:14px; height:14px; } .legenda-valori .sv i::after{ width:8px; height:6px; } .legenda-valori .sv.z i::after{ width:5px; height:5px; }
+.atto-card .titolo-card{ margin:4px 0 0; }
+.riga2{ display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; margin:0; }
+.riassunto h2{ margin-top:0; }
+.riassunto .grande{ font-size:var(--t-corpo-l, 19px); line-height:1.45; margin:0; }
+.riassunto-cifre{ display:flex; flex-wrap:wrap; gap:12px; margin:16px 0; }
+.cifra{ display:flex; align-items:baseline; gap:8px; padding:8px 14px; border:1px solid var(--c-bordo); border-radius:var(--r-m); color:var(--c-testo); text-decoration:none; }
+.cifra:hover{ border-color:var(--c-accento); }
+.cifra .numero{ margin:0; font-size:28px; }
+.nel-complesso{ border-top:1px solid var(--c-bordo); padding-top:12px; }
+.nel-complesso p:last-child{ margin:4px 0 0; }
+.numeri-atto .fonte-num{ display:block; font-weight:400; margin-top:2px; font-size:13px; }
+.numeri-atto .valore-num{ font-weight:600; }
+.bilancia{ display:grid; gap:16px; }
+@media (min-width:700px){ .bilancia{ grid-template-columns:1fr 1fr; } }
+.piatto{ border:1px solid var(--c-bordo); border-top:4px solid var(--g-positivo); border-radius:var(--r-l); padding:12px 16px; background:var(--c-superficie); }
+.piatto.paga{ border-top-color:var(--g-negativo); }
+.piatto ul{ margin:8px 0; padding-left:18px; } .piatto li{ margin:6px 0; }
+.piatto details summary{ cursor:pointer; font-weight:600; color:var(--c-accento); min-height:36px; display:flex; align-items:center; }
+.giudizi{ list-style:none; padding:0; margin:0; display:grid; gap:4px; }
+.giudizi li{ display:flex; gap:12px; align-items:flex-start; padding:10px 0; border-bottom:1px solid var(--c-bordo); }
+.giudizi li .sv{ flex:none; margin-top:3px; } .giudizi li .sv i{ width:24px; height:24px; }
+.giudizi p{ margin:0; } .giudizio-nome{ margin-bottom:2px !important; }
+.quadro-valori h2{ margin-top:0; }
+.qv{ display:grid; gap:4px; margin-top:12px; }
+.qv-riga{ display:grid; grid-template-columns:minmax(84px,120px) 1fr 1fr; align-items:center; gap:0; font-size:14px; }
+.qv-testa span{ font-size:12px; color:var(--c-testo-2); } .qv-testa span:nth-child(2){ text-align:right; padding-right:8px; } .qv-testa span:nth-child(3){ padding-left:8px; }
+.qv-nome{ font-weight:600; padding-right:8px; }
+.qv-neg,.qv-pos{ display:flex; align-items:center; height:22px; gap:4px; }
+.qv-neg{ flex-direction:row-reverse; border-right:1px solid var(--g-zero); }
+.qv-neg>span,.qv-pos>span{ display:block; height:16px; }
+.qv-neg>span{ background:var(--g-negativo); border-radius:3px 0 0 3px; }
+.qv-pos>span{ background:var(--g-positivo); border-radius:0 3px 3px 0; }
+.qv b{ font:600 13px var(--f-sans); color:var(--c-testo-2); }
+.matrice-valori th,.matrice-valori td{ padding:4px; text-align:center; }
+.matrice-valori thead th{ font-size:11px; font-weight:600; color:var(--c-testo-2); vertical-align:bottom; }
+.matrice-valori tbody th{ text-align:left; font-weight:400; font-size:14px; min-width:220px; }
+.matrice-valori .sv i{ width:20px; height:20px; }
+#governai .chip{ white-space:normal; height:auto; text-align:left; padding-top:4px; padding-bottom:4px; }
+.nel-complesso .etichetta svg,.piatto .etichetta svg{ margin-right:6px; vertical-align:-2px; }

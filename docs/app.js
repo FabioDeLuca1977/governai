@@ -831,48 +831,103 @@
   }
 
   // Osservatorio sul governo di oggi (cartella osservatorio/): commenti di GovernAI agli atti del Governo in carica
-  const SEGNO = { "+": ["favorevole", "circle-plus", "a favore"], "-": ["critico", "circle-minus", "contro"], "=": ["info", "circle-dot", "neutro"] };
+  const SEGNO = { "+": ["p", "a favore"], "-": ["n", "contro"], "=": ["z", "neutro"] };
+  const BREVE_V = { RIS: "Rispetto", FID: "Fiducia", INN: "Innovazione", BEN: "Benessere", APC: "Cultura", BPA: "Bellezza", FUT: "Futuro", EQU: "Equità", SIC: "Sicurezza", CIT: "Cittadinanza" };
   const TIPI_ATTO = [["tutti", "Tutti"], ["legge di bilancio", "Legge di bilancio 2027"], ["decreto-legge", "Decreti-legge"], ["legge", "Leggi"], ["decreto legislativo", "Decreti legislativi"]];
+  const tessera = (segno, extra = "") => `<span class="sv ${SEGNO[segno] ? SEGNO[segno][0] : "nt"}" ${extra}><i aria-hidden="true"></i></span>`;
+  // striscia dei 10 valori nell'ordine della Carta: triangolo su = a favore, giù = contro, punto = neutro, tratteggio = non toccato
+  function strisciaValori(x, conNomi) {
+    const m = Object.fromEntries((x.valori || []).map((v) => [v.valore, v.segno]));
+    const desc = D.valori.map((v) => `${v.nome}: ${SEGNO[m[v.id]] ? SEGNO[m[v.id]][1] : "non toccato"}`).join("; ");
+    return `<div class="striscia-valori${conNomi ? " con-nomi" : ""}" role="img" aria-label="Giudizio sui valori della Carta. ${esc(desc)}">${D.valori.map((v) => `<span class="sv-col" title="${esc(v.nome)}: ${SEGNO[m[v.id]] ? SEGNO[m[v.id]][1] : "non toccato"}">${tessera(m[v.id])}${conNomi ? `<b>${esc(BREVE_V[v.id] || v.id)}</b>` : ""}</span>`).join("")}</div>`;
+  }
+  const legendaValori = () => `<p class="legenda-valori nota" aria-hidden="true">${tessera("+")} a favore ${tessera("-")} contro ${tessera("=")} neutro ${tessera("")} non toccato <span>· caselle nell'ordine della Carta: ${D.valori.map((v) => esc(BREVE_V[v.id] || v.id)).join(", ")}</span></p>`;
+  // divide "Soggetto: resto" per mettere in evidenza il gruppo
+  const gruppo = (t) => { const k = String(t).indexOf(": "); return k > 0 && k < 90 ? `<strong>${esc(String(t).slice(0, k))}</strong>: ${esc(String(t).slice(k + 2))}` : esc(t); };
+  const colonnaBilancia = (cls, ic, titolo, v) => { const a = v.slice(0, 3), b = v.slice(3); return `<div class="piatto ${cls}"><p class="etichetta">${icona(ic)}${esc(titolo)} <span class="conta">${v.length}</span></p><ul>${a.map((y) => `<li>${gruppo(y)}</li>`).join("")}</ul>${b.length ? `<details><summary>Altri ${b.length}</summary><ul>${b.map((y) => `<li>${gruppo(y)}</li>`).join("")}</ul></details>` : ""}</div>`; };
+  function quadroValori(A) {
+    const n = A.length;
+    const righe = D.valori.map((v) => { const c = (g) => A.filter((x) => (x.valori || []).some((y) => y.valore === v.id && y.segno === g)).length; return { v, piu: c("+"), meno: c("-") }; });
+    const barre = righe.map((r) => `<div class="qv-riga"><span class="qv-nome">${esc(BREVE_V[r.v.id] || r.v.nome)}</span><span class="qv-neg"><span style="width:${r.meno / n * 100}%"></span><b>${r.meno || ""}</b></span><span class="qv-pos"><span style="width:${r.piu / n * 100}%"></span><b>${r.piu || ""}</b></span></div>`).join("");
+    const matrice = `<div class="tabella-box"><table class="tabella matrice-valori"><caption class="vh">Giudizio di ogni atto su ogni valore</caption><thead><tr><th scope="col">Atto</th>${D.valori.map((v) => `<th scope="col" title="${esc(v.nome)}"><span>${esc(BREVE_V[v.id] || v.id)}</span></th>`).join("")}</tr></thead><tbody>${A.map((x) => { const m = Object.fromEntries((x.valori || []).map((y) => [y.valore, y.segno])); return `<tr><th scope="row"><a href="#/osservatorio/${encodeURIComponent(x.id)}">${esc(x.titolo)}</a></th>${D.valori.map((v) => `<td>${tessera(m[v.id], `role="img" aria-label="${esc(v.nome)}: ${SEGNO[m[v.id]] ? SEGNO[m[v.id]][1] : "non toccato"}"`)}</td>`).join("")}</tr>`; }).join("")}</tbody></table></div>`;
+    return `<section class="card quadro-valori" aria-labelledby="h-quadro"><h2 id="h-quadro">Il quadro: ${n} atti sui 10 valori</h2>
+      <p class="nota">Per ogni valore della Carta, quanti atti lo peggiorano (a sinistra) e quanti lo migliorano (a destra), secondo i nostri commenti.</p>
+      <div class="qv"><div class="qv-riga qv-testa" aria-hidden="true"><span></span><span>contro</span><span>a favore</span></div>${barre}</div>
+      <details class="sezione"><summary>Atto per atto</summary>${legendaValori()}${matrice}</details></section>`;
+  }
   function osservatorio(id, params) {
     const O = D.osservatorio || {}, A = O.atti || [];
-    const testa = `<h1>Il governo di oggi</h1>
-      <p class="risposta">Che cosa stanno facendo il Governo e il Parlamento per la fine del 2026 e per il 2027, commentato con lo stesso metro che GovernAI usa per sé: prima i fatti e i numeri, poi un giudizio sui valori della Carta, chiedendosi sempre chi ci guadagna e chi paga. Nessun partito, nessun favoritismo.</p>`;
-    const avviso = `<div class="avviso" style="margin:12px 0"><div class="avviso-titolo">${icona("triangle-alert")}Commenti scritti e rivisti da agenti AI</div><p>Non sono ancora stati rivisti da una persona esperta. Il metodo è pubblico: <a href="#/osservatorio/metodo">come scriviamo i commenti</a>. Se trovi un errore, <a href="#/partecipa">segnalalo</a>.</p></div>`;
-    if (id === "metodo") return `${testa}<p><a href="#/osservatorio">${icona("arrow-left")}Tutti gli atti</a></p><div class="md documento">${md((O.metodo || "").replace(/^# .*\n/, ""))}</div>`;
+    const testa = `<h1>Osservatorio sul governo di oggi</h1>
+      <p class="risposta testo-lettura">Che cosa stanno facendo il Governo e il Parlamento per la fine del 2026 e per il 2027, commentato con lo stesso metro che GovernAI usa per sé: prima i fatti, poi un giudizio sui valori della Carta, chiedendosi sempre chi ci guadagna e chi paga. Nessun partito, nessun favoritismo.</p>`;
+    const avviso = `<div class="avviso" style="margin:16px 0"><div class="avviso-titolo">${icona("triangle-alert")}Commenti scritti e rivisti da agenti AI</div><p>Non sono ancora stati rivisti da una persona esperta. Il metodo è pubblico: <a href="#/osservatorio/metodo">come scriviamo i commenti</a>. Se trovi un errore, <a href="#/partecipa">segnalalo</a>.</p></div>`;
+    if (id === "metodo") return `<p><a href="#/osservatorio">${icona("arrow-left")}Tutti gli atti</a></p><h1>Il metodo dell'Osservatorio</h1><div class="md documento testo-lettura">${md((O.metodo || "").replace(/^# .*\n/, ""))}</div>`;
     if (!A.length) return `${testa}${vuoto("I commenti non sono ancora disponibili.")}`;
-    const segni = (x) => { const v = x.valori || []; const n = (g) => v.filter((y) => y.segno === g).length; return `<div class="chips">${n("+") ? chip(["favorevole", "circle-plus", `${n("+")} valori a favore`]) : ""}${n("-") ? chip(["critico", "circle-minus", `${n("-")} contro`]) : ""}</div>`; };
     const sel = id && A.find((x) => x.id === id);
     if (sel) {
       const voce = (y) => md(String(y)).replace(/^\s*<p>/, "").replace(/<\/p>\s*$/, "");
-      const lista = (t, v) => (v && v.length) ? `<section class="sezione"><h2>${esc(t)}</h2><ul>${v.map((y) => `<li>${voce(y)}</li>`).join("")}</ul></section>` : "";
-      const g = sel.governai || {};
-      return `<p><a href="#/osservatorio">${icona("arrow-left")}Tutti gli atti</a></p>
-        <p class="etichetta">${esc(sel.tipo || "")}${sel.tema && D.aree[sel.tema] ? " · " + esc(D.aree[sel.tema]) : ""}</p>
-        <h1>${esc(sel.titolo)}</h1>
-        <p class="nota">${esc(sel.atto || "")}${sel.data ? " · " + esc(dataBreve(sel.data)) : ""}${sel.stato ? " · " + esc(sel.stato) : ""}${sel.fonte ? " · " + ext(sel.fonte, "testo ufficiale") : ""}</p>
-        <p class="risposta">${esc(sel.in_breve || "")}</p>
-        ${avviso}
-        <h2 class="sezione" style="margin-top:24px">I fatti</h2>
-        ${lista("Che cosa fa", sel.cosa_fa)}
-        ${(sel.numeri || []).length ? `<section class="sezione"><h2>I numeri</h2><div class="tabella-box"><table class="tabella a-card"><thead><tr><th>Voce</th><th>Valore</th><th>Fonte</th></tr></thead><tbody>${sel.numeri.map((n) => `<tr><td class="principale">${esc(n.voce)}</td><td data-etichetta="Valore">${esc(n.valore)}</td><td data-etichetta="Fonte" class="nota">${esc(n.fonte || "")}</td></tr>`).join("")}</tbody></table></div></section>` : ""}
-        <div class="griglia g2-d">${(sel.chi_guadagna || []).length ? `<div class="card"><p class="etichetta">${icona("trending-up")}Chi ci guadagna</p><ul>${sel.chi_guadagna.map((y) => `<li>${esc(y)}</li>`).join("")}</ul></div>` : ""}${(sel.chi_paga || []).length ? `<div class="card"><p class="etichetta">${icona("wallet")}Chi paga</p><ul>${sel.chi_paga.map((y) => `<li>${esc(y)}</li>`).join("")}</ul></div>` : ""}</div>
-        ${sel.rischi_giuridici ? `<section class="sezione"><h2>Rischi giuridici</h2><div class="md">${md(String(sel.rischi_giuridici))}</div></section>` : ""}
-        <h2 class="sezione" style="margin-top:24px">Il giudizio sui valori</h2>
-        ${(sel.valori || []).length ? `<ul class="mandati">${sel.valori.map((v) => `<li>${chip(SEGNO[v.segno] ? [SEGNO[v.segno][0], SEGNO[v.segno][1], nomeValore(v.valore) + ": " + SEGNO[v.segno][2]] : ["info", "circle-dot", nomeValore(v.valore)])}<br>${esc(v.perche || "")}</li>`).join("")}</ul>` : ""}
-        ${sel.bilancio ? `<div class="card" style="margin-top:12px"><p class="etichetta">${icona("scale")}Nel complesso</p><p>${esc(sel.bilancio)}</p></div>` : ""}
-        <section class="sezione"><h2>GovernAI sullo stesso problema</h2>${(g.proposte || []).length ? `<div class="chips">${g.proposte.map((q) => proposta(q) ? `<a class="chip info" href="${linkP(q)}">${icona("list-checks")}${esc(q)} · ${esc(tit(proposta(q).titolo))}</a>` : `<a class="chip info" href="#/programma/coperture">${icona("coins")}Copertura ${esc(q)}</a>`).join("")}</div>` : ""}<p>${esc(g.confronto || "")}</p></section>
-        ${lista("Che cosa cambieremmo", sel.cosa_cambieremmo)}
-        ${lista("Domande ancora aperte", sel.domande_aperte)}
-        ${(sel.fonti || []).length ? `<details class="sezione"><summary>Fonti</summary><ul>${sel.fonti.map((f) => { const u = String(f).match(/https?:\/\/\S+/); return `<li class="nota">${u ? esc(String(f).replace(u[0], "").replace(/[,:;\s(]+$/, "")) + " " + ext(u[0].replace(/[).,;]+$/, ""), "link") : esc(f)}</li>`; }).join("")}</ul></details>` : ""}
-        ${(sel.revisioni || []).length ? `<p class="nota">${sel.revisioni.map((r) => `${esc(dataBreve(r.data))}: ${esc(r.nota)}`).join(" · ")} Sorgente: <code>${esc(sel.file)}</code>${D.repo ? `, ${ext(D.repo + "/blob/main/" + sel.file, "su GitHub")}` : ""}.</p>` : ""}
-        <div class="azioni" style="margin-top:16px">${azioniCondividi()}</div>
-        ${C ? C.sezione("atto:" + sel.id, "Discussione fra iscritti su questo atto") : ""}`;
+      const lista = (v) => `<ul class="testo-lettura">${v.map((y) => `<li>${voce(y)}</li>`).join("")}</ul>`;
+      const g = sel.governai || {}, val = sel.valori || [], cg = sel.chi_guadagna || [], cp = sel.chi_paga || [];
+      const conta = (x) => val.filter((y) => y.segno === x).length;
+      const voci = [["in-30", "In 30 secondi"], ["fatti", "I fatti"], ["chi", "Chi guadagna, chi paga"], ...(sel.rischi_giuridici ? [["rischi", "Rischi giuridici"]] : []), ["giudizio", "Il giudizio sui valori"], ["governai", "GovernAI sullo stesso tema"], ...((sel.cosa_cambieremmo || []).length ? [["cambieremmo", "Che cosa cambieremmo"]] : []), ...((sel.fonti || []).length ? [["fonti", "Fonti"]] : []), ["discussione", "Discussione"]];
+      const ordine = ["+", "-", "="];
+      const giudizio = [...val].sort((a, b) => ordine.indexOf(a.segno) - ordine.indexOf(b.segno));
+      return `<nav class="briciole" aria-label="Briciole di pane"><a href="#/osservatorio">Osservatorio</a><span aria-hidden="true">›</span><a href="#/osservatorio?tipo=${encodeURIComponent(sel.tipo || "")}">${esc(sel.tipo || "")}</a></nav>
+      <div class="con-indice">
+        <article>
+          <header class="intestazione">
+            <p class="etichetta">${esc(sel.tipo || "")}${sel.tema && D.aree[sel.tema] ? " · " + esc(D.aree[sel.tema]) : ""}</p>
+            <h1>${esc(sel.titolo)}</h1>
+            <p class="nota">${esc(sel.atto || "")}${sel.data ? " · " + esc(dataBreve(sel.data)) : ""}${sel.stato ? " · " + esc(sel.stato) : ""}${sel.fonte ? " · " + ext(sel.fonte, "testo ufficiale") : ""}</p>
+            ${indiceMobile(voci)}
+          </header>
+          <section class="card riassunto blocco" id="in-30" aria-labelledby="h-30" style="margin-top:0">
+            <h2 id="h-30">In 30 secondi</h2>
+            <p class="testo-lettura grande">${esc(sel.in_breve || "")}</p>
+            <p class="etichetta" style="margin-top:16px">Il giudizio sui 10 valori della Carta</p>
+            ${strisciaValori(sel, true)}
+            <p class="nota">${conta("+")} a favore · ${conta("-")} contro${conta("=") ? ` · ${conta("=")} neutri` : ""} · ${D.valori.length - val.length} non toccati. <a href="#giudizio" data-ancora>Il perché di ogni giudizio</a></p>
+            <div class="riassunto-cifre">
+              <a href="#chi" data-ancora class="cifra"><span class="numero">${cg.length}</span><span>gruppi ci guadagnano</span></a>
+              <a href="#chi" data-ancora class="cifra"><span class="numero">${cp.length}</span><span>gruppi pagano</span></a>
+            </div>
+            ${sel.bilancio ? `<div class="nel-complesso"><p class="etichetta">${icona("scale")}Nel complesso</p><p class="testo-lettura">${esc(sel.bilancio)}</p></div>` : ""}
+          </section>
+          ${avviso}
+          <section class="blocco" id="fatti" aria-labelledby="h-fatti">
+            <h2 id="h-fatti">I fatti</h2>
+            ${(sel.cosa_fa || []).length ? `<h3>Che cosa fa</h3>${lista(sel.cosa_fa)}` : ""}
+            ${(sel.numeri || []).length ? `<h3>I numeri</h3><div class="tabella-box"><table class="tabella a-card numeri-atto"><thead><tr><th>Voce</th><th>Valore</th></tr></thead><tbody>${sel.numeri.map((n) => `<tr><td class="principale">${esc(n.voce)}${n.fonte ? `<span class="nota fonte-num">${esc(n.fonte)}</span>` : ""}</td><td data-etichetta="Valore" class="valore-num">${esc(n.valore)}</td></tr>`).join("")}</tbody></table></div>` : ""}
+          </section>
+          <section class="blocco" id="chi" aria-labelledby="h-chi">
+            <h2 id="h-chi">Chi ci guadagna e chi paga</h2>
+            <div class="bilancia">${colonnaBilancia("guadagna", "trending-up", "Ci guadagna", cg)}${colonnaBilancia("paga", "wallet", "Paga", cp)}</div>
+          </section>
+          ${sel.rischi_giuridici ? `<section class="blocco" id="rischi" aria-labelledby="h-rischi"><h2 id="h-rischi">Rischi giuridici</h2><div class="md testo-lettura">${md(String(sel.rischi_giuridici))}</div></section>` : ""}
+          <section class="blocco" id="giudizio" aria-labelledby="h-giudizio">
+            <h2 id="h-giudizio">Il giudizio sui valori</h2>
+            <ul class="giudizi">${giudizio.map((v) => `<li class="${SEGNO[v.segno] ? SEGNO[v.segno][0] : ""}">${tessera(v.segno)}<div><p class="giudizio-nome"><strong>${esc(nomeValore(v.valore))}</strong> <span class="nota">${SEGNO[v.segno] ? SEGNO[v.segno][1] : ""}</span></p><p class="testo-lettura">${esc(v.perche || "")}</p></div></li>`).join("")}</ul>
+          </section>
+          <section class="blocco" id="governai" aria-labelledby="h-governai">
+            <h2 id="h-governai">GovernAI sullo stesso tema</h2>
+            ${(g.proposte || []).length ? `<div class="chips">${g.proposte.map((q) => proposta(q) ? `<a class="chip info" href="${linkP(q)}">${icona("list-checks")}${esc(q)} · ${esc(tit(proposta(q).titolo))}</a>` : `<a class="chip info" href="#/programma/coperture">${icona("coins")}${esc(q)} · copertura</a>`).join("")}</div>` : ""}
+            <p class="testo-lettura">${esc(g.confronto || "")}</p>
+          </section>
+          ${(sel.cosa_cambieremmo || []).length ? `<section class="blocco" id="cambieremmo" aria-labelledby="h-camb"><h2 id="h-camb">Che cosa cambieremmo</h2>${lista(sel.cosa_cambieremmo)}</section>` : ""}
+          ${(sel.domande_aperte || []).length ? `<section class="blocco" aria-labelledby="h-dom"><h2 id="h-dom">Domande ancora aperte</h2>${lista(sel.domande_aperte)}</section>` : ""}
+          ${(sel.fonti || []).length ? `<details class="blocco" id="fonti"><summary>Fonti (${sel.fonti.length})</summary><ul>${sel.fonti.map((f) => { const u = String(f).match(/https?:\/\/\S+/); return `<li class="nota">${u ? esc(String(f).replace(u[0], "").replace(/[,:;\s(]+$/, "")) + " " + ext(u[0].replace(/[).,;]+$/, ""), "link") : esc(f)}</li>`; }).join("")}</ul></details>` : ""}
+          ${(sel.revisioni || []).length ? `<p class="nota">${sel.revisioni.map((r) => `${esc(dataBreve(r.data))}: ${esc(r.nota)}`).join(" · ")} Sorgente: <code>${esc(sel.file)}</code>${D.repo ? `, ${ext(D.repo + "/blob/main/" + sel.file, "su GitHub")}` : ""}.</p>` : ""}
+          <div id="discussione">${C ? C.sezione("atto:" + sel.id, "Discussione fra iscritti su questo atto") : ""}</div>
+        </article>
+        ${indiceLaterale(voci, azioniCondividi())}
+      </div>`;
     }
     const tipo = params.get("tipo") || "tutti";
     const vis = A.filter((x) => tipo === "tutti" || x.tipo === tipo);
     return `${testa}${avviso}
+      ${quadroValori(vis)}
       <nav class="schede" aria-label="Tipo di atto">${TIPI_ATTO.filter(([k]) => k === "tutti" || A.some((x) => x.tipo === k)).map(([k, t]) => `<a href="#/osservatorio${k === "tutti" ? "" : "?tipo=" + encodeURIComponent(k)}" ${k === tipo ? 'aria-current="page"' : ""}>${esc(t)} <span class="conta">${k === "tutti" ? A.length : A.filter((x) => x.tipo === k).length}</span></a>`).join("")}</nav>
-      <div class="griglia g2-d">${vis.map((x) => `<a class="card" href="#/osservatorio/${encodeURIComponent(x.id)}"><p class="etichetta">${esc(x.atto || x.tipo || "")}</p><h3 class="titolo-card">${esc(x.titolo)}</h3><p class="nota">${esc(x.in_breve || "")}</p>${segni(x)}${x.bilancio ? `<p class="nota"><strong>Nel complesso:</strong> ${esc(x.bilancio)}</p>` : ""}</a>`).join("")}</div>
+      ${legendaValori()}
+      <div class="griglia g2-d">${vis.map((x) => `<a class="card atto-card" href="#/osservatorio/${encodeURIComponent(x.id)}"><p class="etichetta">${esc(x.tipo || "")}${x.tema && D.aree[x.tema] ? " · " + esc(D.aree[x.tema]) : ""}</p><h3 class="titolo-card">${esc(x.titolo)}</h3>${strisciaValori(x, false)}<p class="nota riga2">${esc(x.in_breve || "")}</p></a>`).join("")}</div>
       <p class="nota" style="margin-top:16px"><a href="#/osservatorio/metodo">Il metodo</a> · ${A.length} atti commentati · ultimo aggiornamento ${esc(dataBreve(A.flatMap((x) => (x.revisioni || []).map((r) => r.data)).sort().pop() || ""))}</p>`;
   }
 
@@ -1281,7 +1336,7 @@
       else if (b === "pronto") { html = prontoDomani(params); titolo = "Pronto domani"; }
       else { html = elenco(params); titolo = "Programma"; }
     } else if (a === "osservatorio") {
-      html = osservatorio(b, params); titolo = b && b !== "metodo" ? tit((((D.osservatorio || {}).atti || []).find((x) => x.id === b) || {}).titolo || "Atto") : "Il governo di oggi";
+      html = osservatorio(b, params); titolo = b && b !== "metodo" ? tit((((D.osservatorio || {}).atti || []).find((x) => x.id === b) || {}).titolo || "Atto") : b === "metodo" ? "Il metodo dell'Osservatorio" : "Osservatorio sul governo di oggi";
     } else if (a === "governo") {
       if (b === "sedute" && c) { html = schedaSeduta(c); titolo = "Seduta " + del_(c); }
       else if (b === "decisioni") { html = decisioniInVigore(); titolo = "Esiti ancora validi"; }
