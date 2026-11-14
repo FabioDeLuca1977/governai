@@ -8,6 +8,19 @@ stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembr
 fonte: "https://www.camera.it/leg19/126?tab=&leg=19&idDocumento=3174"
 tema: "01"
 in_breve: "I ministeri tagliano circa 0,24-0,26 mld l'anno di spesa corrente e rinviano al 2030-2032 investimenti per 1,2-1,8 mld l'anno. Si tolgono 100 mln l'anno all'Assegno di inclusione perché non spesi. Il fondo per rendere sicuri contro i terremoti gli edifici pubblici scende da 60 a 30 mln l'anno, spalmato fino al 2030."
+cifre_chiave:
+  - numero: "1.627"
+    unita: "mln"
+    etichetta: "di investimenti dei ministeri rinviati, nel 2027"
+    fonte: "Relazione tecnica A.C. 3174, prospetto degli effetti, art. 135"
+  - numero: "234"
+    unita: "mln"
+    etichetta: "di spesa corrente dei ministeri tagliata nel 2027"
+    fonte: "Relazione tecnica A.C. 3174, prospetto degli effetti, art. 135"
+  - numero: "100"
+    unita: "mln l'anno"
+    etichetta: "in meno all'Assegno di inclusione, perché non spesi"
+    fonte: "Relazione tecnica A.C. 3174, art. 135, c. 4"
 cosa_fa:
   - "Art. 135, c. 1: riduce gli stanziamenti in conto capitale dei ministeri nel 2027-2029 e li aumenta nel 2030-2032 (allegati 5 e 6). I ministri possono spostare le somme tra programmi, con decreto del MEF."
   - "Art. 135, c. 2: taglia la spesa corrente dei ministeri secondo l'allegato 7 (234 mln nel 2027, 242 nel 2028, 265 dal 2029); la Presidenza del Consiglio versa 60 mln l'anno allo Stato."
@@ -95,3 +108,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

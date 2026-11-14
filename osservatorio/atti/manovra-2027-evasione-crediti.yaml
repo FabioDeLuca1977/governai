@@ -8,6 +8,19 @@ stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembr
 fonte: "https://documenti.camera.it/apps/commonServices/getDocumento.ashx?sezione=lavori&tipoDoc=testo_pdl&idlegislatura=19&codice=leg.19.pdl.camera.3174.19PDL0221150"
 tema: "01"
 in_breve: "Le imprese che pagano fatture ad altre imprese tratterranno l'1% nel 2028 e il 2% dal 2029 come acconto di imposta. I crediti del Superbonus 2023 da usare nel 2027 (20,5 miliardi) si potranno usare in dieci anni. Le imposte sulla plastica monouso e sulle bevande zuccherate slittano al 1° luglio 2027."
+cifre_chiave:
+  - numero: "1.469"
+    unita: "mln l'anno"
+    etichetta: "dalla ritenuta sui pagamenti tra imprese, dal 2029"
+    fonte: "Relazione tecnica A.C. 3174, art. 35"
+  - numero: "20,5"
+    unita: "mld"
+    etichetta: "di crediti Superbonus 2023 da usare in dieci anni"
+    fonte: "Relazione tecnica A.C. 3174, art. 37"
+  - numero: "100"
+    unita: "mln l'anno"
+    etichetta: "dal blocco delle compensazioni a chi ha debiti fiscali"
+    fonte: "Relazione tecnica A.C. 3174, art. 36"
 cosa_fa:
   - "Art. 35: l'impresa o il professionista che paga una fattura elettronica a un'altra impresa o a un professionista trattiene una ritenuta d'acconto dell'1% nel 2028 e del 2% dal 2029 (oggi previste 0,5% e 1%)."
   - "Art. 36: chi ha debiti fiscali scaduti oltre 30.000 euro (oggi 50.000), senza rate o sospensioni, non può usare crediti in compensazione finché non paga."
@@ -93,3 +106,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

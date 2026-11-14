@@ -8,6 +8,15 @@ stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembr
 fonte: "https://www.camera.it/leg19/126?tab=&leg=19&idDocumento=3174"
 tema: "04"
 in_breve: "Dal 2027 i 5,26 mld del Fondo per autobus e treni regionali non sono più un trasferimento: le Regioni ricevono una quota dell'IRPEF. Per i livelli essenziali dei servizi sociali e dell'assistenza ad alunne e alunni con disabilità, Regioni e Comuni devono «concorrere» con i soldi che hanno già."
+cifre_chiave:
+  - numero: "5,26"
+    unita: "mld l'anno"
+    etichetta: "del fondo per autobus e treni, ora quota dell'IRPEF"
+    fonte: "d.lgs. 147/2026, art. 33; esame GovernAI, punto 5"
+  - numero: "100"
+    unita: "mln l'anno"
+    etichetta: "in più dal 2028 per il fondo che corregge le quote"
+    fonte: "Relazione tecnica A.C. 3174, art. 119"
 cosa_fa:
   - "Il d.lgs. 147/2026 (art. 33) sopprime dal 2027 il Fondo nazionale per il trasporto pubblico locale (5.259,6 mln l'anno) e lo sostituisce con una compartecipazione delle Regioni a statuto ordinario al gettito IRPEF; l'aliquota la fissa un decreto del Presidente del Consiglio d'intesa con le Regioni."
   - "La manovra ne prende atto: -5 mld sul programma 13.6 (mobilità locale), e le somme compaiono nel nuovo fondo per la compartecipazione IRPEF delle Regioni (programma 3.7)."
@@ -91,3 +100,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

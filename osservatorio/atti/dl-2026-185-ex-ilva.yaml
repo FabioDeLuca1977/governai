@@ -8,6 +8,19 @@ stato: "In vigore dal 17 ottobre 2026; da convertire in legge entro il 15 dicemb
 fonte: "https://www.gazzettaufficiale.it/eli/id/2026/10/16/26G00208/sg"
 tema: "02"
 in_breve: "Mentre la vendita dell'acciaieria è ancora aperta e un giudice ha sospeso l'area a caldo, il decreto integra il reddito di lavoratrici e lavoratori dell'ex ILVA e dell'indotto e dà incentivi alle imprese che li assumono. Gli impianti possono restare caldi fino alla decisione della Cassazione, non oltre il 15 dicembre 2026. Una parte della spesa è coperta riducendo il Fondo sociale per occupazione e formazione."
+cifre_chiave:
+  - numero: "56,1"
+    unita: "mln nel 2027"
+    etichetta: "per l'integrazione al reddito dei lavoratori dell'indotto"
+    fonte: "DL 185/2026, art. 1, comma 8"
+  - numero: "141"
+    unita: "mln"
+    etichetta: "di prestito pubblico ad Acciaierie d'Italia (prima 100,5)"
+    fonte: "DL 185/2026, art. 8"
+  - numero: "213"
+    unita: "mln"
+    etichetta: "circa, tolti al Fondo sociale (somma dell'osservatorio)"
+    fonte: "DL 185/2026, artt. 1, comma 11; 2, commi 2 e 5; 3, comma 8 (somma dell'Osservatorio)"
 cosa_fa:
   - "Indotto: dal 1° ottobre 2026 al 30 giugno 2027 l'INPS paga un'integrazione al reddito, pari alla cassa integrazione, con contributi figurativi. Vale per chi lavora in imprese che dipendono da un'acciaieria in amministrazione straordinaria per oltre il 50% del fatturato del biennio, con certificazione dei commissari. L'impresa non paga il contributo addizionale e il periodo non si conta nella durata massima (art. 1)."
   - "Dipendenti di Acciaierie d'Italia in cassa integrazione straordinaria nel 2026 e 2027: integrazione del trattamento, anche per la formazione sulle bonifiche, e possibilità di lavori di pubblica utilità nel 2027 (art. 2)."
@@ -99,3 +112,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

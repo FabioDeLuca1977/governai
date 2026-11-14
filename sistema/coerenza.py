@@ -211,6 +211,13 @@ def controlla() -> list[str]:
             for q in (x.get("governai") or {}).get("proposte") or []:
                 if q not in prop_ok:
                     errori.append(f"{rel}: proposta o copertura GovernAI {q} inesistente")
+            # cifre chiave: ognuna con fonte, e la cifra deve comparire nel testo dello stesso commento
+            altro = yaml.safe_dump({k: v for k, v in x.items() if k != "cifre_chiave"}, allow_unicode=True)
+            for c in x.get("cifre_chiave") or []:
+                if not (c.get("numero") and c.get("etichetta") and c.get("fonte")):
+                    errori.append(f"{rel}: cifra chiave senza numero, etichetta o fonte")
+                elif not all(q in altro for q in re.split(r"\s*[-–]\s*", str(c["numero"]).strip()) if q):  # un intervallo "2-5": ogni estremo
+                    errori.append(f"{rel}: la cifra chiave «{c['numero']}» non compare nei numeri o nel testo del commento")
             testo = yaml.safe_dump(x, allow_unicode=True)
             for m in partiti.finditer(testo):
                 errori.append(f"{rel}: nome di partito o di schieramento «{m.group(0)}» (metodo, regola 6)")

@@ -8,6 +8,15 @@ stato: "In vigore dal 14 novembre 2026; da convertire in legge entro il 12 genna
 fonte: "https://www.gazzettaufficiale.it/eli/id/2026/11/13/26G00227/sg"
 tema: "03"
 in_breve: "Il decreto rafforza i rimborsi alle centrali a gas, perché offrano elettricità a prezzi più bassi, e fa pagare il costo soprattutto a chi vende elettricità a prezzi legati al mercato del giorno. Secondo stime riportate dalla stampa, il risparmio è piccolo per le famiglie e maggiore per le imprese che consumano molta energia. Il decreto non ha una relazione con numeri ufficiali su costi e beneficiari."
+cifre_chiave:
+  - numero: "58,9"
+    unita: "euro/MWh"
+    etichetta: "prezzo del gas oltre cui scatta il secondo rimborso"
+    fonte: "DL 207/2026, art. 1, nuovo comma 3 dell'art. 6 del DL 21/2026"
+  - numero: "18"
+    unita: "mesi"
+    etichetta: "durata massima del secondo rimborso alle centrali a gas"
+    fonte: "DL 207/2026, art. 1"
 cosa_fa:
   - "Entro 30 giorni l'ARERA scrive le regole per riconoscere chi trattiene capacità produttiva per alzare i prezzi e quali comportamenti sono abusi di mercato, in base al regolamento (UE) 1227/2011 (art. 1, lett. b, nuovo comma 1)."
   - "Dal 1° gennaio 2027 alle centrali a gas si rimborsano anche altre voci della tariffa di trasporto del gas. Il costo si recupera con componenti sui prelievi di elettricità (nuovo comma 2)."
@@ -93,3 +102,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

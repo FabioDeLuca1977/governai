@@ -8,6 +8,19 @@ stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembr
 fonte: "https://www.camera.it/leg19/126?tab=&leg=19&idDocumento=3174"
 tema: "07"
 in_breve: "La manovra aumenta la spesa per la difesa di circa 5,3 mld nel 2027 e 5,8 mld nel 2028, in gran parte in deficit. Lo consente la clausola nazionale delle regole UE. Una parte della spesa però resta per sempre, anche quando la clausola finisce."
+cifre_chiave:
+  - numero: "5,3"
+    unita: "mld"
+    etichetta: "in più per la difesa nel 2027 (circa 5,8 nel 2028)"
+    fonte: "Relazione illustrativa A.C. 3174, quadro generale (Difesa)"
+  - numero: "0,19"
+    unita: "% del PIL"
+    etichetta: "di deficit in più nel 2027 per la difesa"
+    fonte: "MEF, Documento programmatico di bilancio 2027, Tabella I.6-1"
+  - numero: "0,6"
+    unita: "mld l'anno"
+    etichetta: "circa, di spesa che resta dopo la clausola (somma nostra)"
+    fonte: "Testo artt. 92-93 A.C. 3174; elenco dei rifinanziamenti della Sezione II nella relazione tecnica; somma dell'Osservatorio"
 cosa_fa:
   - "Art. 91: autorizza gli interventi degli artt. 92-95 «tenuto conto» della richiesta di attivare la clausola nazionale (art. 26 del Reg. UE 2024/1263) e della raccomandazione della Commissione dell'8/10/2026."
   - "Art. 92: crea un fondo per le Forze di riserva della difesa e per nuove capacità: 26 mln nel 2027, 423 mln nel 2028, 435 mln nel 2029, poi 218 mln l'anno per sempre dal 2032. In più 206 mln l'anno nel 2027-2028 e 171 mln l'anno dal 2029 per i servizi operativi."
@@ -93,3 +106,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

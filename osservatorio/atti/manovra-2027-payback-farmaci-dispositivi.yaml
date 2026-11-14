@@ -8,6 +8,19 @@ stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembr
 fonte: "https://www.camera.it/leg19/126?leg=19&idDocumento=3174"
 tema: "06"
 in_breve: "Quando la spesa per farmaci e dispositivi supera il tetto, le imprese restituiscono una parte alle Regioni (il «payback»). La manovra alza i tetti, riduce fino a 160 milioni l'anno il ripiano delle imprese farmaceutiche che investono in Italia e chiude il conto dei dispositivi medici 2019-2023: circa 4 miliardi, di cui 1,4 pagati dallo Stato."
+cifre_chiave:
+  - numero: "4"
+    unita: "mld"
+    etichetta: "circa, il conto dei dispositivi medici 2019-2023"
+    fonte: "Relazione tecnica A.C. 3174, art. 73; esame GovernAI, par. 3"
+  - numero: "1,4"
+    unita: "mld"
+    etichetta: "di questo conto pagati dallo Stato, nel 2028-2031"
+    fonte: "Relazione tecnica A.C. 3174, art. 73; esame GovernAI, par. 3"
+  - numero: "160"
+    unita: "mln l'anno"
+    etichetta: "al massimo di sconto alle case farmaceutiche che investono"
+    fonte: "Relazione tecnica A.C. 3174, art. 71, c. 2-8"
 cosa_fa:
   - "Dal 2028 alza dello 0,2% il tetto per gli acquisti diretti di farmaci da parte di ospedali e aziende sanitarie, che arriva al 9% del fondo sanitario (art. 71, c. 1)."
   - "Riduce fino a 160 milioni l'anno, dal 2027 e già per il 2026, il ripiano dovuto dalle imprese farmaceutiche che fanno investimenti aggiuntivi in Italia; un fondo dello Stato rimborsa le Regioni (art. 71, c. 2-7)."
@@ -90,3 +103,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

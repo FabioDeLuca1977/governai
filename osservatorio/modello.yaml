@@ -8,6 +8,11 @@ stato: "All'esame della Camera; approvazione entro il 31 dicembre 2026"
 fonte: "https://documenti.camera.it/..."
 tema: "01"                           # area del programma: 01 economia ... 09 PA e digitale
 in_breve: "Una o due frasi per chi ha un minuto."
+cifre_chiave:                        # 2 o 3 cifre in grande in testa alla scheda, prese da numeri/cosa_fa/in_breve con la stessa fonte; ometti se non ce ne sono
+  - numero: "2,4"                    # solo la cifra, virgola decimale italiana, max ~7 caratteri
+    unita: "mld l'anno"              # unità breve
+    etichetta: "in più al fondo sanitario dal 2027"   # max ~60 caratteri; scrivi "stima" o "somma nostra" se non è un dato ufficiale
+    fonte: "Relazione tecnica A.C. 3174, art. 69"
 cosa_fa:
   - "Primo contenuto principale."
 numeri:

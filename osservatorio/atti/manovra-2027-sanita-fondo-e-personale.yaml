@@ -8,6 +8,19 @@ stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembr
 fonte: "https://www.camera.it/leg19/126?leg=19&idDocumento=3174"
 tema: "06"
 in_breve: "Il fondo sanitario sale di 2,4 miliardi l'anno. Circa 1,4 miliardi hanno già una destinazione per legge: tariffe degli ospedali, indennità del pronto soccorso, ore in più contro le liste d'attesa, tetti di spesa. In rapporto al PIL il fondo sanitario scende dal 6,1% del 2027 a circa il 6,0% del 2028; il dato del 2029 è ancora da verificare."
+cifre_chiave:
+  - numero: "2,4"
+    unita: "mld l'anno"
+    etichetta: "in più al fondo sanitario dal 2027"
+    fonte: "A.C. 3174, art. 69, c. 1; relazione tecnica, art. 69"
+  - numero: "1,4"
+    unita: "mld"
+    etichetta: "circa, già con una destinazione per legge nel 2027"
+    fonte: "A.C. 3174, art. 69, cc. 2-7; relazione tecnica A.C. 3174, artt. 69, 73 e 75"
+  - numero: "5,98"
+    unita: "% del PIL"
+    etichetta: "il fondo sanitario nel 2028 (6,11% nel 2027)"
+    fonte: "Serie GovernAI dati/serie/06_fsn_pil.csv, su PIL tendenziale del DPFP 2026"
 cosa_fa:
   - "Aumenta il finanziamento del Servizio sanitario nazionale (SSN) di 2.365 milioni nel 2027, 2.352 nel 2028 e 2.399 dal 2029 (art. 69, c. 1)."
   - "Vincola 500 milioni l'anno all'aumento delle tariffe pagate per i ricoveri ospedalieri per acuti (c. 2)."
@@ -88,3 +101,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

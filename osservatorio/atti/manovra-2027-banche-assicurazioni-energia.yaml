@@ -8,6 +8,19 @@ stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembr
 fonte: "https://documenti.camera.it/apps/commonServices/getDocumento.ashx?sezione=lavori&tipoDoc=testo_pdl&idlegislatura=19&codice=leg.19.pdl.camera.3174.19PDL0221150"
 tema: "01"
 in_breve: "Banche, assicurazioni e imprese dell'energia pagano circa 3,8 miliardi in più nel 2027, in parte solo come anticipo; chi compra azioni italiane paga 1,4 miliardi l'anno in più. È la principale copertura della manovra."
+cifre_chiave:
+  - numero: "3,8"
+    unita: "mld"
+    etichetta: "nel 2027 da banche, assicurazioni ed energia (somma nostra)"
+    fonte: "Elaborazione dell'Osservatorio sulla relazione tecnica A.C. 3174"
+  - numero: "1,4"
+    unita: "mld l'anno"
+    etichetta: "in più sugli acquisti di azioni italiane, permanente"
+    fonte: "Relazione tecnica A.C. 3174, art. 15"
+  - numero: "868"
+    unita: "mln"
+    etichetta: "incassati nel 2027 solo come anticipo, resi nel 2029-2030"
+    fonte: "Relazione tecnica A.C. 3174, art. 20"
 cosa_fa:
   - "Art. 18: per il 2027 e il 2028 l'addizionale IRES delle banche sale di 3 punti (dal 3,5% al 6,5%) e le assicurazioni pagano una nuova addizionale di 3 punti; c'è una franchigia di 200.000 euro. Il comma 2 porta all'1,285% dal 2026 il limite dell'imposta sulle riserve matematiche dei rami vita."
   - "Art. 19: ai fini IRAP banche e assicurazioni possono dedurre solo il 30% (oggi il 90%) delle spese amministrative e degli ammortamenti, in modo permanente, con franchigia di 90.000 euro. Le spese di pubblicità di banche e imprese dell'energia si deducono in tre anni. Nel 2027 gli interessi passivi delle banche si deducono al 96% invece che al 97%."
@@ -97,3 +110,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

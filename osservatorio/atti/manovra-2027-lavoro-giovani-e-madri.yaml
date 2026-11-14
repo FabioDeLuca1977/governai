@@ -8,6 +8,19 @@ stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembr
 fonte: "https://www.camera.it/leg19/126?leg=19&idDocumento=3174"
 tema: "02"
 in_breve: "Le misure per le famiglie diventano stabili: 100 euro al mese a circa un milione di madri lavoratrici con almeno due figli e un mese in più di congedo parentale pagato all'80%. Le misure per il lavoro restano invece di un solo anno: sgravi per chi assume, un'imposta ridotta all'1%, al posto dell'IRPEF, sugli aumenti di stipendio dei giovani, un'aliquota del 15% sul salario accessorio pubblico."
+cifre_chiave:
+  - numero: "1.070"
+    unita: "mln l'anno"
+    etichetta: "per il bonus alle madri lavoratrici, senza scadenza"
+    fonte: "Relazione tecnica A.C. 3174, art. 57"
+  - numero: "993.000"
+    unita: "donne"
+    etichetta: "circa, ricevono il bonus da 100 euro al mese"
+    fonte: "Relazione tecnica A.C. 3174, art. 57"
+  - numero: "216"
+    unita: "mln"
+    etichetta: "nel 2027 per gli sgravi a chi assume, prorogati di un anno"
+    fonte: "Relazione tecnica A.C. 3174, art. 42"
 cosa_fa:
   - "Bonus di 100 euro al mese, esente da tasse e contributi, alle madri lavoratrici dipendenti e autonome con due o più figli e reddito di lavoro fino a 40.000 euro, dal 2027 senza scadenza; esclude il lavoro domestico. Con due figli il bonus si ferma quando il secondo compie 10 anni; con tre o più, ai 18 anni del più piccolo (art. 57)."
   - "Congedo parentale all'80% dello stipendio: da tre a quattro mesi, cinque per il secondo figlio e sei dal terzo, per chi finisce il congedo di maternità o paternità dopo il 2026 (art. 59)."
@@ -101,3 +114,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

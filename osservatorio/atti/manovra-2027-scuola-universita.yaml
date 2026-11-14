@@ -8,6 +8,19 @@ stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembr
 fonte: "https://www.camera.it/leg19/126?tab=&leg=19&idDocumento=3174"
 tema: "05"
 in_breve: "Dal settembre 2027 la scuola perde 4.925 posti di docenza e 2.049 posti di personale ATA, per il calo degli alunni. I risparmi vanno allo Stato e non restano alla scuola. All'università finisce il premio ai dipartimenti di eccellenza: dal 2028 i 271 mln l'anno vanno a progetti strategici degli atenei, ripartiti con i criteri del fondo ordinario."
+cifre_chiave:
+  - numero: "4.925"
+    unita: "posti"
+    etichetta: "di docenza in meno dal 2027/28, più 2.049 posti ATA"
+    fonte: "Testo art. 66, c. 5, A.C. 3174; relazione tecnica art. 66"
+  - numero: "251,7"
+    unita: "mln l'anno"
+    etichetta: "di risparmi sulla scuola che vanno allo Stato, dal 2028"
+    fonte: "Relazione tecnica A.C. 3174, art. 66, tabella dei risparmi"
+  - numero: "271"
+    unita: "mln l'anno"
+    etichetta: "dai dipartimenti di eccellenza a progetti degli atenei"
+    fonte: "Relazione tecnica A.C. 3174, art. 107"
 cosa_fa:
   - "Art. 66, c. 5: dall'anno scolastico 2027/28 l'organico dell'autonomia scende di altri 4.925 posti, dopo i 5.660 già tagliati dalla legge di bilancio 2025; il personale amministrativo, tecnico e ausiliario (ATA) perde 2.049 posti."
   - "Art. 66, c. 9: i risparmi dei commi 1-6, compresa la scuola, sono versati al bilancio dello Stato e «restano acquisiti all'erario»."
@@ -98,3 +111,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

@@ -8,6 +8,19 @@ stato: "All'esame della Camera (A.C. 3174-bis, dopo lo stralcio del 4/11/2026); 
 fonte: "https://documenti.camera.it/apps/commonServices/getDocumento.ashx?sezione=lavori&tipoDoc=testo_pdl&idlegislatura=19&codice=leg.19.pdl.camera.3174.19PDL0221150"
 tema: "01"
 in_breve: "Per il solo 2027 l'aliquota del 33% si allarga fino a 55.000 euro di reddito, gli aumenti dei contratti rinnovati pagano un'imposta ridotta al 5%, al posto dell'IRPEF, per chi nel settore privato guadagna fino a 33.000 euro e il lavoro notturno e festivo paga il 15%. Il regime forfettario sale in modo permanente da 85.000 a 100.000 euro di ricavi. Costo nel 2027: circa 2,6 miliardi."
+cifre_chiave:
+  - numero: "2,6"
+    unita: "mld"
+    etichetta: "circa, di minori imposte nel 2027 (somma nostra)"
+    fonte: "Elaborazione dell'Osservatorio sulla relazione tecnica A.C. 3174"
+  - numero: "3,2"
+    unita: "milioni"
+    etichetta: "di contribuenti con lo scaglione al 33% allargato"
+    fonte: "Relazione tecnica A.C. 3174, art. 9"
+  - numero: "100.000"
+    unita: "euro"
+    etichetta: "nuovo tetto di ricavi del forfettario, permanente"
+    fonte: "Relazione tecnica A.C. 3174, art. 9"
 cosa_fa:
   - "Art. 9, comma 1: solo per il 2027 il secondo scaglione IRPEF (33%) arriva a 55.000 euro invece di 50.000. Chi supera i 55.000 euro risparmia al massimo 500 euro (5.000 euro tassati al 33% invece che al 43%)."
   - "Art. 6: gli aumenti di stipendio pagati nel 2027 per rinnovi dei contratti firmati dal 2024 al 2027 pagano un'imposta del 5% al posto di IRPEF e addizionali, per chi nel 2026 ha avuto un reddito da lavoro dipendente fino a 33.000 euro. La norma vale «soltanto ai lavoratori del settore privato»."
@@ -96,3 +109,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

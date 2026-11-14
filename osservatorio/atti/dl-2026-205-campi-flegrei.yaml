@@ -8,6 +8,19 @@ stato: "In vigore dal 12 novembre 2026; da convertire in legge entro il 10 genna
 fonte: "https://www.gazzettaufficiale.it/eli/id/2026/11/11/26G00225/sg"
 tema: "03"
 in_breve: "Dopo le scosse del 2024-2026, il decreto affida al presidente della Regione Campania, fino al 2036, la guida degli interventi nell'area del bradisismo. Gli dà 100 milioni l'anno per dieci anni, per riparare e rendere più sicuri edifici privati e pubblici. La copertura viene da fondi per la ricostruzione e la prevenzione in altre zone; fino al 2036 i creditori del commissario non possono avviare esecuzioni."
+cifre_chiave:
+  - numero: "1"
+    unita: "mld"
+    etichetta: "nel 2027-2036 per riparare e rendere sicuri gli edifici"
+    fonte: "DL 205/2026, art. 5, commi 1 e 9"
+  - numero: "11,43"
+    unita: "mln l'anno"
+    etichetta: "costo della struttura del commissario dal 2028 al 2036"
+    fonte: "DL 205/2026, art. 8, comma 1"
+  - numero: "100"
+    unita: "%"
+    etichetta: "contributo per chi ha un reddito sotto 28.000 euro (era 70%)"
+    fonte: "DL 205/2026, art. 16"
 cosa_fa:
   - "Il presidente della Regione Campania è commissario fino al 31 dicembre 2036, senza compenso. Subentra al commissario precedente e alle funzioni di Regione e dei Comuni di Napoli, Pozzuoli, Bacoli e Monte di Procida. Può emanare ordinanze anche in deroga alle leggi, con motivazione (art. 1)."
   - "Una struttura di supporto di 93 persone, di cui 12 dirigenti (art. 2)."
@@ -96,3 +109,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

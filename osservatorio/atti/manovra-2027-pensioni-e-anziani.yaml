@@ -8,6 +8,19 @@ stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembr
 fonte: "https://www.camera.it/leg19/126?leg=19&idDocumento=3174"
 tema: "02"
 in_breve: "Nel 2027 le pensioni sopra quattro volte il minimo crescono meno dell'inflazione: lo Stato risparmia 0,9 miliardi netti l'anno, in modo permanente. Una parte finanzia, per un solo anno, una carta da 300 euro per spese sanitarie a 5,5 milioni di persone con 75 anni e più. Un fondo da 850 milioni l'anno per uscire prima dal lavoro sarà regolato da una legge successiva."
+cifre_chiave:
+  - numero: "0,9"
+    unita: "mld l'anno"
+    etichetta: "risparmiati, netti, adeguando meno le pensioni più alte"
+    fonte: "Relazione tecnica A.C. 3174, art. 55"
+  - numero: "5,5"
+    unita: "milioni"
+    etichetta: "di persone dai 75 anni con la carta da 300 euro, solo 2027"
+    fonte: "Relazione tecnica A.C. 3174, art. 53 (Casellario dei pensionati 2025)"
+  - numero: "850"
+    unita: "mln l'anno"
+    etichetta: "nel 2027-2029 per uscire prima dal lavoro, regole da fare"
+    fonte: "A.C. 3174, art. 52"
 cosa_fa:
   - "Adeguamento delle pensioni al costo della vita nel 2027: pieno fino a 4 volte il minimo INPS, poi 85%, 53%, 47%, 37% e 32% secondo l'importo totale della pensione, non per fasce. Una clausola di salvaguardia attribuisce comunque l'aumento fino al limite di ogni soglia maggiorato della rivalutazione, così chi la supera di poco non scende sotto chi sta appena al di qua (art. 55)."
   - "Carta da 300 euro nel 2027 per beni e prestazioni sanitarie a chi ha almeno 75 anni e pensioni fino a 28.000 euro lordi l'anno; non è reddito e non conta nell'ISEE (art. 53, c. 1-2)."
@@ -97,3 +110,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

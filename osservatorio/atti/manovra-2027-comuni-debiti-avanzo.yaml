@@ -8,6 +8,19 @@ stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembr
 fonte: "https://www.camera.it/leg19/126?tab=&leg=19&idDocumento=3174"
 tema: "04"
 in_breve: "Lo Stato cancella 2,84 mld di prestiti fatti ai grandi Comuni in difficoltà, ma questi continuano a versare ogni anno la stessa cifra fino al 2051. Per la relazione tecnica l'effetto sui conti pubblici è neutro. In più ci sono 400 mln per i Comuni in dissesto e una regola che lascia usare prima l'avanzo a chi ha fatto previsioni prudenti."
+cifre_chiave:
+  - numero: "2,84"
+    unita: "mld"
+    etichetta: "di prestiti dello Stato ai grandi Comuni cancellati"
+    fonte: "Relazione tecnica A.C. 3174, art. 124, piano di ammortamento"
+  - numero: "157"
+    unita: "mln l'anno"
+    etichetta: "che i Comuni continuano a versare fino al 2051"
+    fonte: "Relazione tecnica A.C. 3174, art. 124, piano di ammortamento"
+  - numero: "200"
+    unita: "mln l'anno"
+    etichetta: "nel 2028 e nel 2029 per i Comuni in dissesto"
+    fonte: "Relazione tecnica A.C. 3174, art. 123"
 cosa_fa:
   - "Art. 123: fondo di 200 mln l'anno nel 2028 e nel 2029 per ripianare il disavanzo dei Comuni in dissesto, in riequilibrio o con accordi di ripiano, in proporzione al debito per anticipazioni di liquidità."
   - "Art. 124: dal 2027 cancella il debito verso lo Stato per le anticipazioni di liquidità dei Comuni sopra 20.000 abitanti in difficoltà. In cambio il Comune versa ogni anno, fino al 2051, una somma pari alla rata, e accetta un tetto all'uso dell'avanzo. Il fondo che accantonava quel debito sparisce dal bilancio."
@@ -82,3 +95,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

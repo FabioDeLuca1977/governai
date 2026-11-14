@@ -69,6 +69,18 @@
   const fontiSoldi = (sc) => [`${nf(sc.gettito, 1)} da coperture nuove`, ...(sc.gia_stanziati || []).map((f) => `${nf(f.mld, 1)} da ${f.nome} già stanziati${/2021-2027/.test(f.nome) ? " (fino al 2029)" : ""}`),
     ...(sc.tariffe ? [`${nf(sc.tariffe, 1)} da tariffe pagate da chi usa il servizio`] : [])].join(" + ") +
     (sc.risorse - sc.spesa > 0.05 ? ` (in tutto ${nf(sc.risorse, 1)} mld di risorse: ${nf(sc.risorse - sc.spesa, 1)} non sono spesi${sc.margine_generali > 0.005 ? `, di cui ${nf(sc.margine_generali, 2)} tenuti da parte` : ""}${sc.vincolati_non_usati > 0.005 ? ` e ${nf(sc.vincolati_non_usati, 2)} di fondi vincolati non spostabili` : ""})` : "");
+  // Barre impilate sulla stessa scala: da dove vengono i soldi di ogni versione, con la spesa segnata da una linea
+  function barreSoldi(scs, titolo = true) {
+    const max = Math.max(...scs.map((x) => Math.max(x.risorse ?? x.gettito, x.spesa)));
+    const parti = (x) => [["nuove", x.gettito, "coperture nuove"], ...(x.gia_stanziati || []).map((f) => ["stanziati", f.mld, `${f.nome} già stanziati`]), ...(x.tariffe ? [["tariffe", x.tariffe, "tariffe pagate da chi usa il servizio"]] : [])];
+    const riga = (x) => { const tot = x.risorse ?? x.gettito; const desc = parti(x).map(([, v, t]) => `${nf(v, 1)} da ${t}`).join(", ");
+      return `<div class="bs-riga"><span class="bs-nome">${esc(x.nome)}${x.id === RIF_ID ? ` <span class="nota">riferimento</span>` : ""}</span>
+        <span class="bs-barra" role="img" aria-label="${esc(x.nome)}: ${nf(tot, 1)} mld di risorse (${esc(desc)}); spesa ${nf(x.spesa, 1)} mld">${parti(x).map(([k, v, t]) => `<span class="bs-${k}" style="width:${(v / max * 100).toFixed(2)}%" title="${esc(nf(v, 1) + " mld da " + t)}">${v / max > 0.1 ? nf(v, 1) : ""}</span>`).join("")}<span class="bs-spesa" style="left:${(x.spesa / max * 100).toFixed(2)}%" title="spesa ${nf(x.spesa, 1)} mld"></span></span>
+        <span class="bs-tot">${nf(x.spesa, 1)} <span class="nota">spesa</span></span></div>`; };
+    return `<div class="barre-soldi">${titolo ? `<p class="etichetta">Da dove vengono i soldi, in miliardi l'anno</p>` : ""}
+      <p class="bs-legenda nota" aria-hidden="true"><span><i class="bs-nuove"></i>coperture nuove</span><span><i class="bs-stanziati"></i>fondi europei già stanziati</span><span><i class="bs-tariffe"></i>tariffe</span><span><i class="bs-linea"></i>spesa</span></p>
+      ${scs.map(riga).join("")}</div>`;
+  }
   const linkP = (id) => `#/programma/${encodeURIComponent(id)}`;
   const linkSeduta = (id) => `#/governo/sedute/${encodeURIComponent(id)}`;
   const codici = (s) => String(s || "").replace(/\b(\d{2}-[PC]\d{1,2})\b/g, (m) => proposta(m) ? `<a href="${linkP(m)}">${m}</a>` : m);
@@ -242,9 +254,10 @@
     const nodi = perArea.map(([k, nome, c]) => { const a = aree[k] || {}; return `<button type="button" class="nodo" data-ministero="${k}" aria-pressed="false" style="left:${pos[k][0].toFixed(2)}%;top:${pos[k][1].toFixed(2)}%"><span class="nodo-icona">${icona(a.icona || "landmark")}</span><span class="nodo-nome">${esc(a.breve || nome)}</span><span class="vh">: ${c} proposte, ${relazioniDi(k).length} collegamenti con altri ministeri</span></button>`; }).join("");
     return `<section class="sezione" aria-labelledby="t-mappa">
         <div class="sezione-testa"><h2 id="t-mappa">La mappa del governo</h2><a href="#/programma">Tutte le ${D.proposte.length} proposte</a></div>
-        <p class="nota" style="margin-top:-8px">Nove ministeri, i temi di cui si occupano e dove lavorano insieme o si contendono le risorse. Scegli un ministero per approfondire.</p>
+        <p class="nota" style="margin-top:-8px">Nove ministeri, i temi di cui si occupano e dove lavorano insieme o si contendono le risorse. Passa sopra un ministero per vedere i suoi collegamenti, sceglilo per approfondire.</p>
         <div class="mappa">
           <div class="mappa-rete" id="mappa-rete">
+            <style>${perArea.map(([k]) => `.mappa-rete:not([data-sel]):has(.nodo[data-ministero="${k}"]:hover) line[data-a="${k}"],.mappa-rete:not([data-sel]):has(.nodo[data-ministero="${k}"]:hover) line[data-b="${k}"],.mappa-rete[data-sel=""]:has(.nodo[data-ministero="${k}"]:hover) line[data-a="${k}"],.mappa-rete[data-sel=""]:has(.nodo[data-ministero="${k}"]:hover) line[data-b="${k}"]{opacity:1;stroke-width:3.5}`).join("")}</style>
             <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" focusable="false">${linee}</svg>
             <a class="mappa-centro" href="#/governo">${icona("users-round")}<span>Consiglio dei ministri</span></a>
             ${nodi}
@@ -394,6 +407,8 @@
           <div class="card kpi"><p class="etichetta">Serie di dati</p><p class="numero">${n.serie}</p><p class="nota">aggiornate ogni giorno da fonti ufficiali</p></div>
         </div>
       </section>
+
+      ${osservatorioHome()}
 
       ${mappaMinisteri(perArea)}
 
@@ -627,7 +642,8 @@
     const punti = (c) => `<span class="punti" role="img" aria-label="${D.valori.map((v) => v.nome + " " + (c[v.id] > 0 ? "+" : "") + c[v.id]).join(", ")}">${D.valori.map((v) => `<span class="${c[v.id] > 0 ? "p" : c[v.id] < 0 ? "n" : ""}"></span>`).join("")}</span>`;
     return `${schedeProgramma("coperture")}
       <p class="risposta">Il programma si finanzia con ${D.coperture.length} coperture concrete: un registro unico impedisce di contare due volte gli stessi soldi. Nel programma di riferimento ne sono attive ${mom.size}.</p>
-      <div class="griglia g2 g4-d">${D.scenari.map((s) => `<div class="card kpi"><p class="etichetta">${esc(s.nome)}</p><p class="numero">${nf(s.spesa, 1)}<small>mld/anno</small></p><p class="nota">${s.id === RIF_ID ? "<strong>riferimento</strong> · " : ""}${s.coperture.length} coperture · ${fontiSoldi(s)} · deficit ${s.deficit > 0 ? nf(s.deficit, 1) + " mld" : "zero"}</p></div>`).join("")}</div>
+      <div class="griglia g2 g4-d">${D.scenari.map((s) => `<div class="card kpi"><p class="etichetta">${esc(s.nome)}</p><p class="numero">${nf(s.spesa, 1)}<small>mld/anno</small></p><p class="nota">${s.id === RIF_ID ? "<strong>riferimento</strong> · " : ""}${s.coperture.length} coperture · deficit ${s.deficit > 0 ? nf(s.deficit, 1) + " mld" : "zero"}</p></div>`).join("")}</div>
+      <div class="card" style="margin-top:16px">${barreSoldi(D.scenari)}<details class="leggi"><summary>Il dettaglio in parole</summary><ul>${D.scenari.map((x) => `<li class="nota"><strong>${esc(x.nome)}:</strong> ${fontiSoldi(x)}</li>`).join("")}</ul></details></div>
       <p style="margin-top:12px">${badge("stima", STIMA)} <span class="nota">Gettito minimo delle coperture: programma base ${nf(tot(base))} mld, completo ${nf(tot(comp))} mld.</span></p>
       <form class="filtri-barra" role="search" onsubmit="return false">
         <label class="campo largo">Cerca<input type="search" id="c-cerca" placeholder="es. gasolio, IVA, tabacco"></label>
@@ -743,10 +759,11 @@
         <div class="sezione-testa"><h2 id="t-conti">I conti in una riga</h2><a href="#/programma/coperture">Come si paga</a></div>
         <div class="griglia g2 g4-d">
           <div class="card kpi"><p class="etichetta">Spesa nuova</p><p class="numero">${nf(sc.spesa, 1)}<small>mld/anno</small></p><p class="nota">a regime</p>${badge("stima", STIMA)}</div>
-          <div class="card kpi"><p class="etichetta">Risorse</p><p class="numero">${nf(sc.risorse ?? sc.gettito, 1)}<small>mld/anno</small></p><p class="nota">${fontiSoldi(sc)}; gettito al minimo</p></div>
+          <div class="card kpi"><p class="etichetta">Risorse</p><p class="numero">${nf(sc.risorse ?? sc.gettito, 1)}<small>mld/anno</small></p><p class="nota">coperture nuove, fondi europei già stanziati e tariffe, con il gettito al minimo: il dettaglio è nelle barre qui sotto</p></div>
           <div class="card kpi"><p class="etichetta">Nuovo deficit</p><p class="numero">${sc.deficit > 0 ? nf(sc.deficit, 1) : "0"}<small>mld</small></p><p class="nota">${sc.deficit > 0 ? "spesa non coperta" : `margine sulle risorse generali: ${nf(sc.margine_generali ?? sc.margine ?? 0, 1)} mld${sc.vincolati_non_usati > 0 ? ` (più ${nf(sc.vincolati_non_usati, 1)} di fondi vincolati non spostabili)` : ""}`}</p></div>
           <div class="card kpi"><p class="etichetta">Misure</p><p class="numero">${Object.keys(sc.misure).length}<small>su ${D.proposte.length}</small></p><p class="nota">in ${S.missioni.length} missioni; ${Object.values(sc.misure).filter((m) => m.variante === "ZERO").length} sono solo regole, a costo zero</p></div>
         </div>
+        <div class="card" style="margin-top:16px">${barreSoldi([sc])}<details class="leggi"><summary>Il dettaglio in parole</summary><p class="nota">${fontiSoldi(sc)}.</p></details></div>
         ${sc.temporanei_2029 > 0 ? avvisoDopo2029(sc) : ""}
         ${(sc.annuale || []).length ? avvisoAnnuale(sc) : ""}
       </section>
@@ -765,7 +782,7 @@
         <div class="sezione-testa"><h2 id="t-contribuisce">Chi contribuisce</h2><a href="#/programma/coperture">Tutte le coperture</a></div>
         <p class="nota" style="margin-top:-8px">Le coperture attive in questa versione, dalla più grande. Ogni euro di spesa ha una copertura certa: niente deficit, niente recupero di evasione non ancora incassato.</p>
         <div class="tabella-box"><table class="tabella a-card"><thead><tr><th>Copertura</th><th>Chi paga o rinuncia</th><th class="num">Gettito minimo</th></tr></thead><tbody>
-          ${cop.map((c) => `<tr><td class="principale"><span class="mono nota">${esc(c.misura_id)}</span><br>${esc(c.descrizione)}</td><td data-etichetta="Chi paga">${esc(c.chi_paga)}</td><td class="num" data-etichetta="Gettito minimo">${nf(c.gettito_min)} mld</td></tr>`).join("")}
+          ${cop.map((c) => `<tr><td class="principale"><span class="mono nota">${esc(c.misura_id)}</span><br>${esc(c.descrizione)}</td><td data-etichetta="Chi paga">${esc(c.chi_paga)}</td><td class="num" data-etichetta="Gettito minimo"><span class="barretta" aria-hidden="true"><span style="width:${(c.gettito_min / cop[0].gettito_min * 100).toFixed(1)}%"></span></span>${nf(c.gettito_min)} mld</td></tr>`).join("")}
         </tbody></table></div>
       </section>
       <div class="azioni" style="margin-top:24px"><a class="btn primario" href="#/programma">Tutte le ${D.proposte.length} proposte ${icona("arrow-right")}</a>${azioniCondividi()}</div>`;
@@ -845,14 +862,31 @@
   // divide "Soggetto: resto" per mettere in evidenza il gruppo
   const gruppo = (t) => { const k = String(t).indexOf(": "); return k > 0 && k < 90 ? `<strong>${esc(String(t).slice(0, k))}</strong>: ${esc(String(t).slice(k + 2))}` : esc(t); };
   const colonnaBilancia = (cls, ic, titolo, v) => { const a = v.slice(0, 3), b = v.slice(3); return `<div class="piatto ${cls}"><p class="etichetta">${icona(ic)}${esc(titolo)} <span class="conta">${v.length}</span></p><ul>${a.map((y) => `<li>${gruppo(y)}</li>`).join("")}</ul>${b.length ? `<details><summary>Altri ${b.length}</summary><ul>${b.map((y) => `<li>${gruppo(y)}</li>`).join("")}</ul></details>` : ""}</div>`; };
+  function barreValori(A) {
+    const n = A.length || 1;
+    const righe = D.valori.map((v) => { const c = (g) => A.filter((x) => (x.valori || []).some((y) => y.valore === v.id && y.segno === g)).length; return { v, piu: c("+"), meno: c("-") }; });
+    return `<div class="qv"><div class="qv-riga qv-testa" aria-hidden="true"><span></span><span>contro</span><span>a favore</span></div>${righe.map((r) => `<div class="qv-riga" role="img" aria-label="${esc(r.v.nome)}: ${r.meno} atti contro, ${r.piu} a favore"><span class="qv-nome" aria-hidden="true">${esc(BREVE_V[r.v.id] || r.v.nome)}</span><span class="qv-neg" aria-hidden="true"><span style="width:${r.meno / n * 100}%"></span><b>${r.meno || ""}</b></span><span class="qv-pos" aria-hidden="true"><span style="width:${r.piu / n * 100}%"></span><b>${r.piu || ""}</b></span></div>`).join("")}</div>`;
+  }
+  function osservatorioHome() {
+    const A = (D.osservatorio || {}).atti || [];
+    if (!A.length) return "";
+    const recenti = [...A].sort((a, b) => String(b.data).localeCompare(String(a.data)) || (a.tipo === "legge di bilancio") - (b.tipo === "legge di bilancio")).slice(0, 3);
+    return `<section class="sezione" aria-labelledby="t-osserv">
+        <div class="sezione-testa"><h2 id="t-osserv">Il governo di oggi, con il nostro metro</h2><a href="#/osservatorio">Tutti i ${A.length} atti</a></div>
+        <p class="nota" style="margin-top:-8px">Legge di bilancio 2027 e decreti di fine 2026, commentati su fatti e valori: chi ci guadagna, chi paga. Nessun partito.</p>
+        <div class="griglia g2-d">
+          <a class="card" href="#/osservatorio"><p class="etichetta">I ${A.length} atti sui 10 valori della Carta</p>${barreValori(A)}</a>
+          <div class="osserv-recenti">${recenti.map((x) => `<a class="card atto-card" href="#/osservatorio/${encodeURIComponent(x.id)}"><p class="etichetta">${esc(x.tipo || "")}</p><h3 class="titolo-card">${esc(x.titolo)}</h3>${strisciaValori(x, false)}</a>`).join("")}</div>
+        </div>
+      </section>`;
+  }
   function quadroValori(A) {
     const n = A.length;
-    const righe = D.valori.map((v) => { const c = (g) => A.filter((x) => (x.valori || []).some((y) => y.valore === v.id && y.segno === g)).length; return { v, piu: c("+"), meno: c("-") }; });
-    const barre = righe.map((r) => `<div class="qv-riga"><span class="qv-nome">${esc(BREVE_V[r.v.id] || r.v.nome)}</span><span class="qv-neg"><span style="width:${r.meno / n * 100}%"></span><b>${r.meno || ""}</b></span><span class="qv-pos"><span style="width:${r.piu / n * 100}%"></span><b>${r.piu || ""}</b></span></div>`).join("");
+    const barre = barreValori(A);
     const matrice = `<div class="tabella-box"><table class="tabella matrice-valori"><caption class="vh">Giudizio di ogni atto su ogni valore</caption><thead><tr><th scope="col">Atto</th>${D.valori.map((v) => `<th scope="col" title="${esc(v.nome)}"><span>${esc(BREVE_V[v.id] || v.id)}</span></th>`).join("")}</tr></thead><tbody>${A.map((x) => { const m = Object.fromEntries((x.valori || []).map((y) => [y.valore, y.segno])); return `<tr><th scope="row"><a href="#/osservatorio/${encodeURIComponent(x.id)}">${esc(x.titolo)}</a></th>${D.valori.map((v) => `<td>${tessera(m[v.id], `role="img" aria-label="${esc(v.nome)}: ${SEGNO[m[v.id]] ? SEGNO[m[v.id]][1] : "non toccato"}"`)}</td>`).join("")}</tr>`; }).join("")}</tbody></table></div>`;
     return `<section class="card quadro-valori" aria-labelledby="h-quadro"><h2 id="h-quadro">Il quadro: ${n} atti sui 10 valori</h2>
       <p class="nota">Per ogni valore della Carta, quanti atti lo peggiorano (a sinistra) e quanti lo migliorano (a destra), secondo i nostri commenti.</p>
-      <div class="qv"><div class="qv-riga qv-testa" aria-hidden="true"><span></span><span>contro</span><span>a favore</span></div>${barre}</div>
+      ${barre}
       <details class="sezione"><summary>Atto per atto</summary>${legendaValori()}${matrice}</details></section>`;
   }
   function osservatorio(id, params) {
@@ -883,6 +917,7 @@
           <section class="card riassunto blocco" id="in-30" aria-labelledby="h-30" style="margin-top:0">
             <h2 id="h-30">In 30 secondi</h2>
             <p class="testo-lettura grande">${esc(sel.in_breve || "")}</p>
+            ${(sel.cifre_chiave || []).length ? `<div class="cifre-chiave">${sel.cifre_chiave.map((c) => `<div class="cifra-k"><p class="numero">${esc(c.numero)}<small>${esc(c.unita || "")}</small></p><p class="cifra-etichetta">${esc(c.etichetta || "")}</p>${c.fonte ? `<p class="nota cifra-fonte">${esc(c.fonte)}</p>` : ""}</div>`).join("")}</div>` : ""}
             <p class="etichetta" style="margin-top:16px">Il giudizio sui 10 valori della Carta</p>
             ${strisciaValori(sel, true)}
             <p class="nota">${conta("+")} a favore · ${conta("-")} contro${conta("=") ? ` · ${conta("=")} neutri` : ""} · ${D.valori.length - val.length} non toccati. <a href="#giudizio" data-ancora>Il perché di ogni giudizio</a></p>

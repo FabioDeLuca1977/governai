@@ -8,6 +8,19 @@ stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembr
 fonte: "https://documenti.camera.it/apps/commonServices/getDocumento.ashx?sezione=lavori&tipoDoc=testo_pdl&idlegislatura=19&codice=leg.19.pdl.camera.3174.19PDL0221150"
 tema: "01"
 in_breve: "Lo Stato ricava circa 0,75 miliardi nel 2027 dai giochi: prorogando fino al 2029 le concessioni senza gara, raddoppiando la puntata massima delle slot e aggiungendo un'estrazione del Lotto. Chiude anche con uno sconto e senza interessi un vecchio debito dei concessionari."
+cifre_chiave:
+  - numero: "0,75"
+    unita: "mld"
+    etichetta: "circa, incassati dai giochi nel 2027 (somma nostra)"
+    fonte: "Elaborazione dell'Osservatorio; MEF, DPB 2027, tabella I.6-1"
+  - numero: "281"
+    unita: "mln l'anno"
+    etichetta: "da proroghe senza gara di scommesse e apparecchi, 2027-29"
+    fonte: "Relazione tecnica A.C. 3174, art. 26"
+  - numero: "2"
+    unita: "euro"
+    etichetta: "nuova puntata massima delle slot (prima 1 euro)"
+    fonte: "Relazione tecnica A.C. 3174, art. 23"
 cosa_fa:
   - "Art. 23: sulle slot dei bar e delle sale (AWP) la puntata massima passa da 1 a 2 euro e la vincita massima da 100 a 200 euro. Il prelievo sale al 25% sulle AWP e al 9,6% sulle videolotterie (VLT); scende al 20% per le AWP che restituiscono in vincite almeno il 70%, in attesa del passaggio al gioco da remoto."
   - "Art. 26: proroga al 31/12/2029 le concessioni delle scommesse su rete fisica e delle reti degli apparecchi, che scadono a fine 2026, a fronte di un pagamento per ogni diritto o apparecchio."
@@ -96,3 +109,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

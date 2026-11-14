@@ -8,6 +8,19 @@ stato: "In vigore dal 23 ottobre 2026; all'esame del Parlamento (A.C. 3159); da 
 fonte: "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26G00214/sg"
 tema: "07"
 in_breve: "Dopo i gravi incidenti di Milano di ottobre 2026, il decreto crea un reato per la violenza di gruppo nelle manifestazioni, cambia la regola sulla responsabilità penale di chi ha tra 14 e 18 anni, multa i genitori e allarga il trattenimento negli uffici di polizia. Il costo dichiarato è di 4,9 milioni per 500 militari in più a Milano."
+cifre_chiave:
+  - numero: "4,9"
+    unita: "mln"
+    etichetta: "costo dichiarato, per 500 militari in più a Milano nel 2026"
+    fonte: "DL 190/2026, artt. 8 e 9"
+  - numero: "2-5"
+    unita: "anni"
+    etichetta: "di carcere per la violenza di gruppo nelle manifestazioni"
+    fonte: "DL 190/2026, art. 1, comma 4"
+  - numero: "2.000"
+    unita: "euro"
+    etichetta: "sanzione massima ai genitori, se il fatto si ripete"
+    fonte: "DL 190/2026, art. 5"
 cosa_fa:
   - "Chi ha tra 14 e 18 anni si presume capace di intendere e di volere, salvo prova contraria. Oggi il giudice deve accertarlo caso per caso (art. 1, comma 1, art. 98 c.p.)."
   - "Nuovo reato di violenza organizzata nelle manifestazioni: gruppo di almeno cinque persone che usa o lancia oggetti atti a offendere, con pericolo concreto per le persone e danni alle cose. Pena da 2 a 5 anni e multa da 10.000 a 20.000 euro. Per chi organizza, promuove o incita, anche in rete, da 4 a 12 anni (art. 1, comma 4, art. 420-bis c.p.)."
@@ -93,3 +106,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

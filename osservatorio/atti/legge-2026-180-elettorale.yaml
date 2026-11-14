@@ -8,6 +8,19 @@ stato: "In vigore dal 24 ottobre 2026; si applica alle prossime elezioni politic
 fonte: "https://www.gazzettaufficiale.it/eli/id/2026/10/09/26G00201/sg"
 tema: "08"
 in_breve: "La legge elimina i collegi uninominali, restituisce fino a tre preferenze e dà un premio di 70 seggi alla Camera e 35 al Senato a chi supera il 42% in entrambe le Camere, con un tetto al 55% circa dei seggi. Introduce il voto fuori sede strutturale e quadruplica le firme richieste ai partiti nuovi. La Camera l'ha approvata con 227 sì su 400, oltre la maggioranza assoluta ma sotto i tre quinti."
+cifre_chiave:
+  - numero: "42"
+    unita: "%"
+    etichetta: "dei voti, in entrambe le Camere, per avere il premio"
+    fonte: "L. 180/2026, art. 1, comma 22; art. 2"
+  - numero: "70"
+    unita: "seggi"
+    etichetta: "di premio alla Camera (35 al Senato)"
+    fonte: "L. 180/2026, art. 1, comma 1, lett. d; art. 2, comma 1"
+  - numero: "220"
+    unita: "seggi su 400"
+    etichetta: "al massimo alla Camera per chi ha il premio (55%)"
+    fonte: "L. 180/2026, art. 1, comma 1, lett. d; art. 2, comma 1"
 cosa_fa:
   - "I seggi si assegnano con metodo proporzionale a liste e coalizioni; spariscono i collegi uninominali, salvo Valle d'Aosta e Trentino-Alto Adige (art. 1, commi 1-3; art. 2)."
   - "Chi vota può dare fino a tre preferenze, a candidati di sesso diverso; il capolista è eletto per primo senza preferenze. Le liste hanno 7 candidati in ordine alternato di genere (art. 1, commi 1 e 8)."
@@ -97,3 +110,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

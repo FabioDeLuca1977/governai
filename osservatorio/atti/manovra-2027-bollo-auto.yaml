@@ -8,6 +8,15 @@ stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembr
 fonte: "https://documenti.camera.it/apps/commonServices/getDocumento.ashx?sezione=lavori&tipoDoc=testo_pdl&idlegislatura=19&codice=leg.19.pdl.camera.3174.19PDL0221150"
 tema: "03"
 in_breve: "Dal 2027 ogni persona non paga il bollo su un'auto a benzina o gasolio fino a 80 kW (o su una moto o un motorino). Costa circa 2,3 miliardi l'anno senza scadenza, pagati dallo Stato alle Regioni."
+cifre_chiave:
+  - numero: "2,3"
+    unita: "mld l'anno"
+    etichetta: "costo per lo Stato, senza scadenza"
+    fonte: "A.C. 3174, art. 3, comma 8"
+  - numero: "80"
+    unita: "kW"
+    etichetta: "potenza massima dell'auto esentata, senza limiti di reddito"
+    fonte: "A.C. 3174, art. 3, comma 8"
 cosa_fa:
   - "Esenta dalla tassa automobilistica le persone fisiche per un solo veicolo assicurato: un'auto a benzina o gasolio, anche ibrida, fino a 80 kW; se non c'è, una moto a benzina; se non c'è, un motorino."
   - "Se si hanno più auto, l'esenzione va a quella meno potente. Non c'è nessun limite di reddito o di ISEE."
@@ -88,3 +97,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

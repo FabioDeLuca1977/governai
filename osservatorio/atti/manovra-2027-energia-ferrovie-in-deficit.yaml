@@ -8,6 +8,19 @@ stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembr
 fonte: "https://www.camera.it/leg19/126?leg=19&idDocumento=3174"
 tema: "03"
 in_breve: "Circa 10,6 miliardi nel 2027-2028 sono spesi in disavanzo grazie alla clausola europea per la sicurezza energetica: ferrovie, sconti sull'elettricità per le imprese, fotovoltaico, edifici pubblici più efficienti, biometano. Dal 2029 una parte del costo passa sulle bollette di tutti. Le imprese aiutate devono investire in energia pulita almeno quanto ricevono."
+cifre_chiave:
+  - numero: "10,6"
+    unita: "mld"
+    etichetta: "circa, spesi in deficit nel 2027-2028 (somma nostra)"
+    fonte: "A.C. 3174, artt. 77-83; relazione tecnica, artt. 77-83"
+  - numero: "1,6"
+    unita: "mld"
+    etichetta: "circa, spostati sulle bollette elettriche nel 2029"
+    fonte: "A.C. 3174, artt. 79, 81, 82 e 83"
+  - numero: "0,3"
+    unita: "punti di PIL"
+    etichetta: "l'anno: spazio della clausola UE per l'energia, 2027-2028"
+    fonte: "UPB, audizione sul DPFP 2026 (dati/raw/00b_upb_audizione_dpfp_2026.txt)"
 cosa_fa:
   - "Autorizza gli interventi degli artt. 77-83 «tenuto conto» della clausola di salvaguardia nazionale del regolamento UE 2024/1263, con un monitoraggio mensile della Ragioneria (art. 76)."
   - "Finanzia la rete ferroviaria: 600 milioni nel 2027 e 970 nel 2028 per manutenzione straordinaria; 2.190 e 1.670 milioni per investimenti, tra cui 1.600 milioni per la variante del Terzo valico dei Giovi, 500 per l'accesso al Brennero a Trento e 1.450 per sicurezza e tecnologia (art. 77)."
@@ -99,3 +112,5 @@ revisioni:
     nota: "Scritto da un agente AI; non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
+  - data: 2026-11-14
+    nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."

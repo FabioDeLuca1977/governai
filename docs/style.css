@@ -538,7 +538,7 @@ details.leggi[open] summary{ display:none; }
 .rel-sinergia{ stroke:var(--c-favorevole); }
 .rel-tensione{ stroke:var(--c-attenzione); stroke-dasharray:6 5; }
 .rel-entrambe{ stroke:var(--c-accento); stroke-dasharray:12 4 2 4; }
-.mappa-rete > svg line{ opacity:.35; }
+.mappa-rete > svg line{ opacity:.13; }
 .mappa-rete > svg line.attiva{ opacity:1; stroke-width:3.5; }
 .mappa-rete > svg line.spenta{ opacity:.08; }
 .nodo{ position:absolute; transform:translate(-50%,-50%); display:flex; flex-direction:column; align-items:center; gap:4px; width:clamp(72px,21%,112px); padding:8px 4px; border:1px solid var(--c-bordo); border-radius:var(--r-l); background:var(--c-superficie); color:var(--c-testo); cursor:pointer; box-shadow:var(--e-1); font:600 13px/1.2 var(--f-sans); text-align:center; transition:border-color .15s, opacity .2s, box-shadow .15s; }
@@ -670,3 +670,32 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 .matrice-valori .sv i{ width:20px; height:20px; }
 #governai .chip{ white-space:normal; height:auto; text-align:left; padding-top:4px; padding-bottom:4px; }
 .nel-complesso .etichetta svg,.piatto .etichetta svg{ margin-right:6px; vertical-align:-2px; }
+
+/* barre: da dove vengono i soldi */
+.barre-soldi{ display:grid; gap:8px; }
+.bs-legenda{ display:flex; flex-wrap:wrap; gap:4px 16px; margin:0 0 4px; }
+.bs-legenda span{ display:inline-flex; align-items:center; gap:6px; }
+.bs-legenda i{ display:inline-block; width:12px; height:12px; border-radius:2px; }
+.bs-legenda i.bs-linea{ width:3px; height:14px; background:var(--c-testo); border-radius:0; }
+.bs-riga{ display:grid; grid-template-columns:minmax(120px,220px) 1fr 84px; align-items:center; gap:12px; }
+@media (max-width:599px){ .bs-riga{ grid-template-columns:1fr 64px; } .bs-nome{ grid-column:1 / -1; } }
+.bs-nome{ font-weight:600; font-size:15px; }
+.bs-barra{ position:relative; display:flex; height:26px; background:var(--g-traccia); border-radius:4px; }
+.bs-barra>span:not(.bs-spesa){ display:flex; align-items:center; justify-content:center; height:100%; font:600 12px var(--f-sans); color:#fff; overflow:hidden; }
+.bs-nuove{ background:var(--g-serie); } .bs-stanziati{ background:var(--g-positivo); } .bs-tariffe{ background:var(--g-zero); }
+.bs-barra>span:first-child{ border-radius:4px 0 0 4px; }
+.bs-spesa{ position:absolute; top:-4px; bottom:-4px; width:3px; margin-left:-1px; background:var(--c-testo); border-radius:1px; }
+.bs-tot{ font:700 16px var(--f-sans); text-align:right; }
+:root[data-theme="dark"] .bs-barra>span:not(.bs-spesa){ color:#12171C; }
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]) .bs-barra>span:not(.bs-spesa){ color:#12171C; } }
+.barretta{ display:inline-block; width:56px; height:8px; margin-right:8px; background:var(--g-traccia); border-radius:2px; vertical-align:middle; }
+.barretta span{ display:block; height:100%; background:var(--g-serie); border-radius:2px; }
+.osserv-recenti{ display:grid; gap:12px; }
+.osserv-recenti .card{ padding:14px 16px; }
+.cifre-chiave{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:12px; margin:16px 0 4px; }
+.cifra-k{ border-left:3px solid var(--g-serie); padding:2px 0 2px 12px; }
+.cifra-k .numero{ margin:0; }
+.cifra-etichetta{ margin:2px 0 0; font-size:15px; line-height:1.35; }
+.cifra-fonte{ margin:2px 0 0; font-size:12px; }
+.mappa-rete{ margin:16px auto 64px; }
+@media (max-width:599px){ .mappa-rete{ margin:24px auto 56px; } }
