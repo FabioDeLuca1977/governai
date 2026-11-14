@@ -17,7 +17,7 @@ Ogni file contiene, nell'ordine: scheda in breve, relazione illustrativa, artico
 
 ## Prima di presentarli
 
-- Dopo la verifica delle coperture della sera del 13 novembre, il programma intermedio sceglie per 01-P2 la versione piena (scadenza quinquennale delle spese fiscali) e per 08-P7 la versione piena. I testi del pacchetto restano quelli della versione minima, a costo zero o quasi: sono il primo passo, compatibile con la versione piena.
+- Dopo la verifica delle coperture della sera del 13 novembre, il programma intermedio sceglie per 01-P2 la versione piena (scadenza quinquennale delle spese fiscali) e per 08-P7 la versione piena. I testi del pacchetto restano quelli della versione minima, a costo zero o quasi: sono il primo passo, compatibile con la versione piena. Dal 14 novembre, dopo la verifica delle ultime otto coperture, il programma sceglie la versione piena anche per 04-P4 (un ufficio di valutazione presso l'UPB, 25 milioni l'anno), che con il calendario di avvio parte solo nel 2035: fino ad allora vale il testo del pacchetto.
 
 - Ogni file elenca i riferimenti da verificare sul testo vigente e i dati da acquisire.
 - Le relazioni tecniche delle misure a costo zero (01-P2, 04-P4, 09-C2) indicano chi fa il lavoro, con quali capitoli di bilancio e quali dati mancano, come chiede l'[art. 17, comma 6-bis, L. 196/2009](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2009-12-31;196~art17). I dati mancanti vanno chiesti alle amministrazioni prima della bollinatura.

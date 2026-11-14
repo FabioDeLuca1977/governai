@@ -93,7 +93,7 @@ def blocchi() -> dict[str, str]:
             f"{nucleo_coperto(selezione('intermedio')[0])} su {len(nucleo)}{eccezioni_testo()}. Nessun aumento di tasse su casa, eredità, affitti "
             "e IVA, nessun contributo straordinario sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale "
             "nei ministeri. Dopo la verifica delle coperture della sera del 13 novembre 2026 restano il nucleo robusto, "
-            "le squadre infermieristiche di quartiere (06-C8) e la compensazione dell'autotrasporto (04-P8); "
+            "le squadre infermieristiche di quartiere (06-C8) e la compensazione dell'autotrasporto (04-P8); dopo la verifica delle ultime otto coperture, il 14 novembre, l'Ufficio per il processo (07-C1) e il governo dei flussi migratori (07-C3) passano a pilota; "
             "dal 12 novembre 2026 entrano, senza tasse in più oltre quelle già nel programma, le Case della Comunità (06-C3), 500 squadre infermieristiche "
             "di quartiere (06-C8) e la riqualificazione degli amministrativi della sanità (06-C10); dal 13 novembre il progetto di vita per le persone con disabilità (02-C5) parte come pilota sui fondi europei mentre il personale infermieristico (06-C2), il credito per la ricerca (01-P13), il pilota del reddito di inclusione (02-C4) e le merci sul treno (04-P7) escono; 0,06 mld di risorse generali restano da parte per smettere di fumare e per il dopo 2029. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni "
             "fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni "
@@ -224,6 +224,8 @@ def una_pagina() -> str | None:
             nota = " — *la misura non è in questa versione del programma: l'obiettivo non è garantito*"
         elif str(v.loc[pid].variante if not isinstance(v.loc[pid], pd.DataFrame) else v.loc[pid].variante.iloc[0]).upper() == "ZERO":
             nota = " — *in questa versione la misura è solo regole, senza spesa: raggiungere l'obiettivo dipende da come vengono applicate*"
+        elif str(v.loc[pid].variante if not isinstance(v.loc[pid], pd.DataFrame) else v.loc[pid].variante.iloc[0]).upper() == "PILOTA":
+            nota = " — *in questa versione la misura è un pilota: l'obiettivo nazionale vale solo se il pilota funziona e viene esteso*"
         elif inizio.get(pid, 2027) >= 2030:
             nota = f" — *con il calendario di avvio la misura parte nel {inizio[pid]}: l'obiettivo va oltre i 5 anni*"
         else:

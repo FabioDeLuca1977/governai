@@ -1,6 +1,6 @@
 # GovernAI — Equità e linguaggio inclusivo
 
-*Capitolo del programma, scritto il 9 novembre 2026 e aggiornato il 12 e il 13 novembre 2026 dopo le scelte sulla sanità, sui bandi e sulla disabilità. Scenario di riferimento: intermedio (`programma/selezione_intermedio.md`), 8,6 mld l'anno (9,4 prima della verifica delle coperture della sera del 13 novembre). Tutti i numeri vengono da file del repository, con la fonte indicata. Dove un dato manca, lo scriviamo: "dato da acquisire".*
+*Capitolo del programma, scritto il 9 novembre 2026 e aggiornato il 12, il 13 e il 14 novembre 2026 dopo le scelte sulla sanità, sui bandi e sulla disabilità. Scenario di riferimento: intermedio (`programma/selezione_intermedio.md`), 8,3 mld l'anno (9,4 prima delle verifiche delle coperture del 13 e del 14 novembre). Tutti i numeri vengono da file del repository, con la fonte indicata. Dove un dato manca, lo scriviamo: "dato da acquisire".*
 
 ## In breve
 
@@ -9,7 +9,7 @@
 - Il programma intermedio interviene su quasi tutti i divari, ma spesso in **versione ridotta o sperimentale**. Lo diciamo in modo esplicito.
 - Dal 13 novembre il **progetto di vita per le persone con disabilità** (02-C5) passa dalla sola riforma del collocamento a un pilota con personale e budget nel quarto degli ambiti con meno servizi, pagato con fondi europei fino al 2029 e senza togliere risorse ad altre misure.
 - Dal 12 novembre entrano le **Case della Comunità** e le **squadre infermieristiche di quartiere**, che aiutano soprattutto chi vive lontano dai servizi e chi è anziano o fragile. Il prezzo è un gradino in meno su due misure di scuola con forte effetto sull'equità (ITS e scuole aperte): **l'equità non guadagna in assoluto, si sposta dalla scuola alla salute**.
-- Circa un terzo del gettito delle coperture (2,3 mld su 6,7) viene da prelievi **regressivi**, cioè che pesano di più su chi ha meno. Alcuni sono compensati, altri no. La scelta di non aggiungere tasse non ha cambiato questa quota.
+- Più di un terzo del gettito delle coperture (2,3 mld su 6,3) viene da prelievi **regressivi**, cioè che pesano di più su chi ha meno. Alcuni sono compensati, altri no. La scelta di non aggiungere tasse non ha cambiato questa quota.
 - Non abbiamo ancora una **microsimulazione per decili di reddito**. Senza, nessun giudizio sull'equità complessiva è definitivo.
 - Proponiamo **cinque regole di metodo** a costo quasi zero e **undici indicatori di divario**.
 - Proponiamo regole di **linguaggio chiaro e inclusivo** per lo Stato, e le applichiamo per prime in questo testo.
@@ -166,7 +166,7 @@ Legenda delle versioni (dal file `programma/selezione_intermedio.md`):
 | | 05-C4 Più persone laureate e ITS | ESSENZIALE | Scesa da piena il 12 novembre: borsa garantita resta, crescono meno i posti ITS e le residenze |
 | | 05-C2 Conto personale di competenze | ESSENZIALE | Dote di 900 euro per adulti |
 | **Disabilità** | 02-C5 Progetto di vita e lavoro | PILOTA (dal 13 novembre) | Collocamento mirato con banca dati e sanzioni ovunque; personale e budget di progetto solo nel quarto degli ambiti con meno servizi, fino al 2029: negli altri il progetto di vita resta senza risorse aggiuntive |
-| **Origine** | 07-C3 Governance dei flussi fondata sui dati | ESSENZIALE | Più orientata a ingressi e rimpatri che all'inclusione |
+| **Origine** | 07-C3 Governance dei flussi fondata sui dati | PILOTA (dal 14 novembre) | Solo osservatorio sul fabbisogno e asilo entro 6 mesi in 3 Commissioni; rimpatri volontari, tutori per i minori soli e corsi di italiano tornano con risorse certificate |
 | | 05-C1 Mediatori nelle scuole fragili | PIENA | Effetto indiretto |
 | | Misura specifica per l'inclusione lavorativa delle persone straniere | assente | **Lacuna del programma** |
 | **Salute** | 06-C1 Tempo garantito; 06-C6 Prevenzione | ZERO | Nessun rimborso automatico in questo scenario |
@@ -206,7 +206,7 @@ Per far entrare la sanità **senza tasse in più oltre quelle già previste**, a
 
 ## 4. Chi paga: l'equità delle coperture
 
-Lo scenario intermedio attiva coperture per un gettito minimo di **6,67 miliardi** l'anno a regime, dopo la verifica sul rendiconto dello Stato della sera del 13 novembre (prima erano 7,42). Le abbiamo classificate con il punteggio EQU del panel (colonna `EQU` in `programma/selezione_intermedio.csv`) e con la colonna `chi_paga`. Le somme sono un nostro calcolo sul file.
+Lo scenario intermedio attiva coperture per un gettito minimo di **6,30 miliardi** l'anno a regime, dopo le verifiche del 13 e del 14 novembre (prima erano 7,42). Le abbiamo classificate con il punteggio EQU del panel (colonna `EQU` in `programma/selezione_intermedio.csv`) e con la colonna `chi_paga`. Le somme sono un nostro calcolo sul file.
 
 ### Coperture progressive (pesano di più su chi ha di più): circa 1,5 miliardi
 
@@ -219,13 +219,13 @@ Lo scenario intermedio attiva coperture per un gettito minimo di **6,67 miliardi
 | SAD05 | Auto aziendali a combustione | 0,15 | +1 |
 | SAD03 | Passeggeri dei voli nazionali, escluse le rotte di continuità con le isole | 0,12 | +1 |
 | RB02, RB01 | Bonus nuovi nati e Carta Valore solo sotto una soglia ISEE | 0,13 | +1 |
-| SF03, SF08, SF09, RA10, FN04 | Armatori, detrazione per lo sport dei ragazzi oltre una soglia di reddito, seconde case, grandi litiganti, premi di produttività oltre 50.000 euro | 0,19 | +1 |
+| SF03, SF08, SF09, RA10, FN04 | Armatori, detrazione per lo sport dei ragazzi oltre una soglia di reddito, seconde case, grandi litiganti, premi di produttività oltre 50.000 euro | 0,16 | +1 |
 
-### Coperture neutre o non classificabili: circa 3,6 miliardi
+### Coperture neutre o non classificabili: circa 2,6 miliardi
 
 Tagli di spesa dei ministeri (RA13, RA01-RA09), riordino degli incentivi alle imprese (RA14, RA04), patent box (SF16), detrazioni per polizze vita e animali (FN02). L'effetto distributivo dipende da **quali programmi** si tagliano. Per RA13 la colonna `chi_paga` dice: "da individuare". È un rischio: un taglio lineare può colpire servizi usati da chi ha meno.
 
-### Coperture regressive (pesano di più su chi ha meno): circa 2,3 miliardi, circa un terzo
+### Coperture regressive (pesano di più su chi ha meno): circa 2,3 miliardi, più di un terzo
 
 | Codice | Chi paga | Gettito min. (mld) | Compensazione prevista |
 |---|---|---|---|
