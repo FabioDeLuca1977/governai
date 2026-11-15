@@ -374,3 +374,145 @@ profili:
   - 'Calendario di avvio: le misure del primo gruppo partono nel 2028 al 71% della spesa prevista, all''87% nel 2029, tutte dal 2034; il 2027 è un anno di preparazione.'
   - Le rotte aeree e marittime di continuità territoriale con le isole non pagano le nuove accise sui carburanti (SAD03, SAD04).
   - Restano fuori i treni per chi viaggia ogni giorno (04-P3) e la casa a canone giusto (04-P2). Resta fuori anche il patto per le opere dopo il PNRR, il Piano nazionale di ripresa (04-P1).
+- id: dipendente-reddito-medio
+  titolo: Lavoratrice o lavoratore dipendente con un reddito medio
+  icona: wallet
+  chi: 'Qui: chi lavora da dipendente con circa 1.500-1.800 euro netti al mese, cioè circa 25.000-32.000 euro lordi l''anno. In Italia lavorano circa 24 milioni di persone (Eurostat 2025). Le retribuzioni dei contratti, tolto l''aumento dei prezzi, valgono il 10,2% in meno di gennaio 2021 (settembre 2026, elaborazione GovernAI su dati ISTAT ed Eurostat). Nel repository non c''è un dato su quante persone hanno questo reddito.'
+  in_breve: 'Per te il programma cambia poco: nessun euro in più garantito in busta paga, perché detrazione unica e salario di riferimento sono solo regole. Guadagni qualcosa se diventi papà (congedo di un mese, poi due) o se il tuo lavoro può essere sostituito dall''intelligenza artificiale (dote di 900 euro per la formazione).'
+  in_30_secondi:
+    esempi:
+    - testo: In busta paga non arriva nessun euro in più garantito. La detrazione unica per il lavoro unisce tre strumenti a parità di importi; anche la versione piena, non scelta, non cambierebbe nulla sotto i 32.000 euro.
+      fonte: programma/selezione_intermedio.md, 01-P9 e 02-C1 in variante ZERO (solo regole); programma/varianti/10_fisco_semplice.csv, 01-P9 (la variante PIENA è a parità di importo fino a 32.000 euro)
+      stima: false
+    - testo: Se diventi papà e guadagni 2.300 euro lordi al mese, un mese di congedo pagato all'80% vale circa 1.840 euro lordi. Oggi i giorni sono 10.
+      fonte: programma/varianti/02_lavoro.csv, 02-C2 variante ESSENZIALE (congedo all'80%); calcolo GovernAI 2.300 × 80% su uno stipendio di esempio
+      stima: true
+    - testo: 'Dal 2028 non detrai più polizze vita e infortuni e spese veterinarie: oggi il vantaggio medio è di 53 e 45 euro l''anno.'
+      fonte: programma/coperture_menu.csv, FN02 (MEF, Rapporto annuale sulle spese fiscali 2025)
+      stima: false
+    - testo: 'Se fumi un pacchetto al giorno, dal 2029 spendi circa 0,50 euro in più a pacchetto: circa 180 euro l''anno.'
+      fonte: programma/coperture_menu.csv, AS01 (circa 0,50 euro a pacchetto, in due tappe nel 2028 e nel 2029); calcolo GovernAI 0,50 × 365 giorni
+      stima: true
+    quando: Le regole su salario e pensione integrativa partono subito; congedo, dote e dichiarazione già fatta partono nel 2028 al 71% della spesa prevista, all'87% nel 2029, tutti dal 2034; polizze e auto aziendali cambiano dal 2028, le sigarette nel 2028 e nel 2029.
+  guadagna:
+  - proposta: 02-C1
+    testo: 'Solo regole: il salario del contratto più rappresentativo del settore diventa il riferimento per tutte e tutti, anche negli appalti. Conta se oggi ti applicano un contratto firmato da organizzazioni poco rappresentative. Non c''è una soglia fissata per legge.'
+  - proposta: 01-P9
+    testo: 'Solo regole: le tre voci che oggi riducono l''IRPEF (l''imposta sul reddito) di chi lavora da dipendente diventano una sola formula, con gli stessi importi. Busta paga e dichiarazione diventano più semplici, non più ricche.'
+  - proposta: 01-P7
+    testo: 'Versione essenziale. Se l''anno prima hai presentato il 730, ricevi la dichiarazione già fatta: vale se non la contesti e i rimborsi sono automatici. Chi lavora e ha solo la Certificazione Unica, senza 730, resta fuori.'
+  - proposta: 02-C2
+    testo: Versione essenziale. Congedo di paternità da 10 giorni a un mese, poi a due mesi, pagato all'80% dello stipendio e non cedibile. La scheda prevede il 2028 e il 2030, ma con il calendario di avvio le date possono slittare.
+  - proposta: 05-C2
+    testo: Versione essenziale. Dote di 900 euro per corsi certificati se fai un lavoro che l'intelligenza artificiale può sostituire, o se non hai il diploma. Nei CPIA, i centri per l'istruzione degli adulti, ci sono corsi serali su lettura, calcolo e uso dell'intelligenza artificiale.
+  - proposta: 02-C3
+    testo: 'Solo regole: chi viene assunto entra in automatico nella pensione integrativa del suo contratto, ma può rinunciare. Si può andare in pensione prima, con una riduzione calcolata sul costo vero dell''anticipo.'
+  - proposta: 09-C6
+    testo: Versione piena, se lavori in un ufficio pubblico. Ogni ufficio pubblica 3-5 indicatori sul servizio, le valutazioni più alte vanno al massimo al 30% del personale e prima di un procedimento per scarso rendimento c'è un piano di miglioramento. Vietati dati biometrici, riconoscimento delle emozioni e valutazioni automatiche.
+  paga:
+  - copertura: FN02
+    testo: Dal 2028 non si detraggono più i premi delle polizze vita e infortuni e le spese veterinarie. Restano detraibili le polizze per non autosufficienza e disabilità grave.
+  - copertura: SAD05
+    testo: Se hai un'auto aziendale a benzina o gasolio che usi anche per te, dal 2028 la parte tassata in busta paga sale dal 50% al 60%. Finisce anche il regime transitorio per i contratti firmati prima del 2025.
+  - copertura: AS01
+    testo: 'Se fumi: circa 0,50 euro in più a pacchetto di sigarette, in due tappe nel 2028 e nel 2029. Sale anche l''accisa su tabacco riscaldato e sigarette elettroniche (AS02).'
+  - copertura: PE03
+    testo: 'Niente nuove quote né Opzione donna: chi vuole lasciare prima il lavoro lo fa con il calcolo contributivo. Il risparmio è già nelle leggi in vigore.'
+  da_sapere:
+  - Sotto i 50.000 euro di reddito non cambiano la detrazione del 19% sulle spese sanitarie (SF06) né l'imposta ridotta sui premi di produttività (FN04).
+  - La versione essenziale della detrazione unica, che riduceva il salto di imposta tra 32.000 e 44.000 euro, non è nello scenario. In ogni caso non avrebbe cambiato nulla sotto i 32.000 euro.
+  - Il salario minimo con una soglia oraria e più ispettori del lavoro (versioni piena ed essenziale di 02-C1) non è nello scenario.
+  - Il congedo retribuito di 40 ore l'anno per formarsi, per chi lavora senza diploma, è solo nella versione piena di 05-C2, che non è nello scenario. Una parte della dote è pagata con fondi europei che finiscono nel 2029.
+  - 'Calendario di avvio: congedo, dote e dichiarazione già fatta sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 71% della spesa prevista, l''87% nel 2029, tutta dal 2034. Le regole per il lavoro pubblico (09-C6) partono solo nel 2034.'
+  - Restano fuori dal programma la casa a canone giusto (04-P2) e i treni per chi viaggia ogni giorno (04-P3).
+- id: pensione-bassa
+  titolo: Persona con una pensione bassa
+  icona: hand-coins
+  chi: 'Qui: chi ha una pensione sotto circa 1.000 euro al mese, anche integrata al minimo. Nel repository non c''è ancora un dato ufficiale su quante persone sono in questa situazione. La scheda sul fisco conta 11,3 milioni di persone incapienti: pagano così poca IRPEF, l''imposta sul reddito, che non possono usare le detrazioni.'
+  in_breve: 'Per te il programma cambia poco: la pensione non aumenta e la pensione minima resta com''è, ma nessun taglio la tocca. Arrivano più assistenza a casa, Case della Comunità aperte e, se paghi l''IRPEF, la dichiarazione già fatta con rimborsi automatici.'
+  in_30_secondi:
+    esempi:
+    - testo: 'Con una pensione di 900 euro al mese la rivalutazione resta quella di oggi: la riduzione tocca solo la parte di pensione sopra circa 3.700 euro lordi al mese.'
+      fonte: programma/coperture_menu.csv, PE04; programma/selezione_intermedio.csv, 02-C8 variante PIENA (correttore solo sulla quota oltre 6 volte il minimo)
+      stima: false
+    - testo: La pensione minima non aumenta. La pensione di garanzia è rinviata e, nella versione piena, varrebbe solo dal 2036 e per chi ha il primo contributo dopo il 1995.
+      fonte: programma/selezione_intermedio.csv, 02-C3 variante ZERO (pensione di garanzia rinviata); programma/schede/02_lavoro.md, 02-C3 art. 4
+      stima: false
+    - testo: 'Con la sola pensione, la dichiarazione già fatta ti rende in media 10-40 euro l''anno, di più con molte spese mediche. Vale solo se paghi l''IRPEF: se non la paghi, non cambia nulla.'
+      fonte: programma/schede/10_fisco_semplice.md, tabella per decili (stima GovernAI per il 30% delle famiglie con il reddito più basso, calcolata sulla versione piena di 01-P7); programma/varianti/10_fisco_semplice.csv, 01-P7 ESSENZIALE (comprende chi ha una pensione e la sola Certificazione Unica)
+      stima: true
+    - testo: Se vivi in montagna o in un'isola e ti scaldi a gasolio o GPL, con un ISEE fino a 15.000 euro lo sconto resta. Sopra sparisce in 4 anni, con un contributo per la pompa di calore.
+      fonte: programma/coperture_menu.csv, SAD10 (l'importo dello sconto per litro non è nei file del repository)
+      stima: false
+    quando: Il 2027 è di preparazione; dichiarazione già fatta, squadre di quartiere e Case della Comunità partono nel 2028 al 71% della spesa prevista, all'87% nel 2029, tutte dal 2034. La rivalutazione delle pensioni basse non cambia in nessun anno.
+  guadagna:
+  - proposta: 01-P7
+    testo: Versione essenziale. Chi ha solo la pensione e la Certificazione Unica riceve la dichiarazione già fatta. Vale se non la contesta, e i rimborsi sono automatici. Serve solo a chi paga l'IRPEF.
+  - proposta: 06-C8
+    testo: Versione essenziale. 500 squadre di infermiere e infermieri di quartiere per l'assistenza a casa, nelle Regioni dove oggi ce n'è meno. Sono pagate per le ore di cura, non per le visite.
+  - proposta: 06-C3
+    testo: 'Versione essenziale. Fondi per far funzionare 1.038 Case della Comunità, con sportello sociale insieme al Comune. Obiettivo: assistenza a casa per il 10% delle persone dai 65 anni in su.'
+  - proposta: 06-C4
+    testo: Solo in prova, in 20 ambiti territoriali per 3 anni, almeno 10 al Sud. Se non sei più autosufficiente, una sola valutazione del bisogno e un budget di cura.
+  - proposta: 06-C1
+    testo: 'Solo regole: un''agenda unica per prenotare visite ed esami, anche nel privato accreditato, e una chiamata attiva per non perdere gli appuntamenti.'
+  - proposta: 02-C8
+    testo: Versione piena, a costo zero. Se la spesa per pensioni supera le previsioni, un correttore riduce per al massimo 3 anni la rivalutazione della sola parte di pensione oltre circa 3.700 euro lordi al mese. Le pensioni basse restano fuori.
+  paga:
+  - copertura: AS01
+    testo: 'Se fumi: circa 0,50 euro in più a pacchetto di sigarette, in due tappe nel 2028 e nel 2029. Con un pacchetto al giorno sono circa 180 euro l''anno, che pesano di più su chi ha un reddito basso.'
+  - copertura: FN02
+    testo: Dal 2028 non si detraggono più polizze vita e infortuni e spese veterinarie. Tocca solo chi paga abbastanza IRPEF da usare le detrazioni. Restano detraibili le polizze per non autosufficienza e disabilità grave.
+  - copertura: SAD10
+    testo: In montagna, in Sardegna e nelle isole minori lo sconto sul gasolio e sul GPL da riscaldamento sparisce in 4 anni, con un contributo per pompe di calore e stufe efficienti. Con un ISEE fino a 15.000 euro lo sconto resta.
+  da_sapere:
+  - 'La pensione minima e le pensioni basse non aumentano: nel programma non c''è nessuna misura che le alzi.'
+  - La pensione di garanzia per chi ha carriere discontinue (02-C3) è rinviata a una legge futura con copertura. Anche nella versione piena varrebbe dal 2036 e solo per chi ha il primo contributo dopo il 1995.
+  - Il reddito di inclusione universale (02-C4) resta fuori dal programma.
+  - Non c'è nessun contributo straordinario sulle pensioni. La rivalutazione ridotta dal 2030 al 2034 (PE04) tocca solo la parte sopra circa 3.700 euro lordi al mese.
+  - 'Il budget di cura per tutte e tutti non c''è: c''è solo la prova in 20 ambiti, pagata con fondi europei fino al 2029. Non c''è un rimborso automatico se l''attesa per una visita è troppo lunga.'
+  - 'Calendario di avvio: dichiarazione già fatta, squadre di quartiere e Case della Comunità sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 71% della spesa prevista, l''87% nel 2029, tutta dal 2034.'
+  - Restano fuori dal programma la casa a canone giusto (04-P2) e la salute mentale (06-C5).
+- id: nati-all-estero
+  titolo: Persona nata all'estero che vive e lavora in Italia
+  icona: globe
+  chi: 'In Italia risiedono circa 5,37 milioni di persone con cittadinanza straniera: 1,37 milioni di altri paesi dell''Unione europea e 4,00 milioni di paesi fuori dall''Unione. Lavorano 2,58 milioni di persone con cittadinanza straniera, il 10,7% di chi lavora (Eurostat 2025). Le famiglie di sole persone straniere sono in povertà assoluta nel 29,4% dei casi, contro il 5,9% delle famiglie di sole persone italiane (ISTAT 2025). Questi dati contano la cittadinanza, non il paese di nascita.'
+  in_breve: 'Il programma fa poco di specifico per te: una prova per decidere le domande di asilo in 6 mesi, percorsi per chi arriva tra 16 e 24 anni e una dote di 900 euro per adulti senza diploma. Non interviene su cittadinanza, permessi di soggiorno e riconoscimento dei titoli di studio.'
+  in_30_secondi:
+    esempi:
+    - testo: Se non hai il diploma, o fai un lavoro che l'intelligenza artificiale può sostituire, ricevi una dote di 900 euro per corsi certificati. La scheda non dice come contano i titoli presi all'estero.
+      fonte: programma/varianti/05_istruzione.csv, 05-C2 variante ESSENZIALE; programma/schede/05_istruzione.md, 05-C2 (nessuna regola sui titoli esteri)
+      stima: false
+    - testo: 'Per circa 10.000 ragazze e ragazzi arrivati da poco tra 16 e 24 anni ci sono percorsi ponte di due anni tra CPIA e formazione professionale: circa 3.000 euro di spesa per ogni giovane.'
+      fonte: 'programma/varianti/05_istruzione.csv, 05-C1 variante PIENA (nota: ponte CPIA circa 10.000 giovani × 3.000 euro = 0,03 mld); programma/schede/05_istruzione.md, 05-C1 art. 4'
+      stima: true
+    - testo: La domanda di asilo va decisa entro 6 mesi solo in 3 Commissioni territoriali su circa 40, in prova.
+      fonte: 'programma/varianti/07_giustizia.csv, 07-C3 variante PILOTA (nota: 3 Commissioni su circa 40)'
+      stima: false
+    - testo: 'Il corso di italiano garantito entro 3 mesi dall''arrivo non c''è: era nelle versioni piena ed essenziale di 07-C3, che non sono nello scenario.'
+      fonte: programma/varianti/07_giustizia.csv, 07-C3 (corso di italiano solo nelle varianti PIENA ed ESSENZIALE); programma/selezione_intermedio.md (07-C3 PILOTA)
+      stima: false
+    quando: Il 2027 è di preparazione; la prova sull'asilo, l'Osservatorio, i percorsi ponte e la dote partono nel 2028 al 71% della spesa prevista, all'87% nel 2029, tutti dal 2034. La Strategia demografica è una regola e parte subito.
+  guadagna:
+  - proposta: 07-C3
+    testo: Solo in prova. La domanda di protezione internazionale (asilo) è decisa entro 6 mesi in 3 Commissioni territoriali, con una valutazione. Un Osservatorio indipendente pubblica ogni anno il fabbisogno di lavoro per settore e territorio e quante autorizzazioni al lavoro dall'estero (nulla osta) diventano davvero un contratto.
+  - proposta: 05-C1
+    testo: Versione piena. Per chi arriva in Italia tra 16 e 24 anni ci sono percorsi ponte tra i CPIA, i centri per l'istruzione degli adulti, e la formazione professionale. Nelle circa 1.500 scuole più fragili lavorano anche mediatrici e mediatori culturali.
+  - proposta: 05-C2
+    testo: Versione essenziale. Dote di 900 euro per corsi certificati per chi non ha il diploma, per chi ha più di 25 anni e non studia né lavora, e per chi fa un lavoro che l'intelligenza artificiale può sostituire. Nei CPIA ci sono corsi serali su lettura, calcolo e uso dell'intelligenza artificiale.
+  - proposta: 02-C6
+    testo: 'Solo regole: il Governo adotta una Strategia demografica di dieci anni con obiettivi pubblici e riferisce ogni anno al Parlamento. Secondo la scheda, tra gli obiettivi c''è l''integrazione di lavoratrici e lavoratori con cittadinanza straniera.'
+  paga:
+  - copertura: AS01
+    testo: 'Come per tutte e tutti, se fumi: circa 0,50 euro in più a pacchetto di sigarette, in due tappe nel 2028 e nel 2029.'
+  - copertura: FN02
+    testo: 'Come per tutte e tutti: dal 2028 non si detraggono più polizze vita e infortuni e spese veterinarie.'
+  da_sapere:
+  - 'Il programma non interviene su cittadinanza, permessi di soggiorno e loro rinnovo: nessuna delle 83 proposte tratta questi temi.'
+  - Il riconoscimento rapido dei titoli di studio presi all'estero era solo nella versione piena di 02-C6, che non è nello scenario. Lo stesso vale per la programmazione degli ingressi per lavoro ogni tre anni (versione essenziale di 02-C6).
+  - Nella versione scelta di 07-C3 restano fuori il corso di italiano entro 3 mesi, l'accoglienza diffusa nei Comuni (sistema SAI), i rimpatri volontari assistiti e le tutrici e i tutori per i minori arrivati soli. Tornano solo con risorse certificate.
+  - Il programma stesso indica come una sua lacuna la mancanza di una misura per il lavoro delle persone straniere.
+  - La riduzione a due anni del requisito di residenza per l'Assegno di inclusione fa parte del reddito di inclusione universale (02-C4), che resta fuori dal programma.
+  - 'Le altre misure, come nido, congedo e Case della Comunità, non sono pensate in modo specifico per chi è nato all''estero: le schede non dicono se cambiano i requisiti di accesso di oggi.'
+  - 'I percorsi ponte e una parte della dote sono pagati con fondi europei che finiscono nel 2029. Dopo serve il nuovo ciclo europeo 2028-2034: oggi non è garantito.'
+  - 'Calendario di avvio: prova sull''asilo, percorsi ponte e dote sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 71% della spesa prevista, l''87% nel 2029, tutta dal 2034.'
