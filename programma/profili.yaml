@@ -1,10 +1,11 @@
-# Contenuti della pagina "Che cosa cambia per me" (scenario intermedio). Generato il 13/11/2026 da un agente AI dalle fonti del repository.
+# Contenuti della pagina "Che cosa cambia per me" (scenario intermedio). Generato il 13/11/2026 da un agente AI dalle fonti del repository;
+# aggiornato il 15/11/2026 con le coperture nuove (benchmark/risparmi_*.md) e il calendario ricalcolato.
 # Fonti: programma/selezione_intermedio.md e .csv (variante scelta e coperture attive), programma/annuale_intermedio.md (calendario di avvio),
 # programma/varianti/*.csv, programma/schede/*.md, programma/coperture_menu.csv, programma/coesione_dopo_2029.csv,
 # 20_programma_governai.md, 22_programma_in_una_pagina.md, 23_equita_e_linguaggio.md. Stime GovernAI non certificate.
 # Calendario di avvio (annuale_intermedio.md): il "primo gruppo" (nucleo robusto, sperimentazioni, 04-P8, 06-C8) parte nel 2027
-# al 3% della spesa prevista (il 2027 è un anno di preparazione), 71% nel 2028, 87% nel 2029, 100% dal 2034; le riforme a costo
-# quasi zero partono subito; quattro misure (01-P10, 04-P4, 09-C1, 09-C6) partono solo nel 2034 e sono a pieno nel 2035. Le misure pagate solo con fondi europei 2021-2027 partono nel 2027 e durano fino al 2029.
+# al 3% della spesa prevista (il 2027 è un anno di preparazione), 73% nel 2028, 94% nel 2029, 95% nel 2030, 100% dal 2031; le riforme a costo
+# quasi zero partono subito; quattro misure (01-P10, 04-P4, 09-C1, 09-C6) partono solo nel 2031 (14%) e sono a pieno dal 2032. Le misure pagate solo con fondi europei 2021-2027 partono nel 2027 e durano fino al 2029.
 profili:
 - id: famiglia-figli-piccoli
   titolo: Famiglia con una bambina o un bambino sotto i 3 anni
@@ -19,32 +20,26 @@ profili:
     - testo: Con uno stipendio di 2.000 euro lordi al mese, il papà ha un mese di congedo pagato circa 1.600 euro lordi, cioè l'80%. Oggi i giorni sono 10.
       fonte: programma/varianti/02_lavoro.csv, 02-C2 variante ESSENZIALE (congedo all'80%); calcolo GovernAI 2.000 × 80% su uno stipendio di esempio
       stima: true
-    - testo: Con un ISEE di 30.000 euro perdi il bonus di 1.000 euro per una nuova nascita. Resta, dentro l'Assegno unico, solo fino a 25.000 euro di ISEE.
-      fonte: programma/coperture_menu.csv, RB02
+    - testo: 'Il bonus di 1.000 euro per ogni nuova nascita e il bonus per le lavoratrici madri restano come oggi: nel programma intermedio non cambiano.'
+      fonte: programma/selezione_intermedio.md (RB02 e RB03 non attive dal 15/11/2026); programma/coperture_menu.csv, RB02 e RB03
       stima: false
-    - testo: Una madre che lavora, con due figli e 36.000 euro di reddito, riceve circa 50 euro al mese invece di 100, se il bonus cala in modo lineare.
-      fonte: 'programma/coperture_menu.csv, RB03 (uscita graduale tra 32.000 e 40.000 euro); osservatorio/atti/manovra-2027-lavoro-giovani-e-madri.yaml (bonus di 100 euro al mese, DDL bilancio 2027 art. 57); calcolo GovernAI a metà della fascia'
-      stima: true
-    quando: Il 2027 è di preparazione; nel 2028 cambiano i bonus e parte il 71% della spesa per nido e congedo, nel 2029 l'87%, tutta dal 2034.
+    quando: Il 2027 è di preparazione; nel 2028 parte il 73% della spesa per nido e congedo, nel 2029 il 94%, tutta dal 2031. I bonus per le nascite e per le madri non cambiano.
   guadagna:
   - proposta: 02-C2
     testo: Versione essenziale. Lo Stato paga il personale dei nidi solo negli ambiti con meno di 33 posti ogni 100 bambine e bambini. Sono circa 60-70 mila posti in più, soprattutto al Sud e nelle aree interne.
   - proposta: 02-C2
     testo: In quegli ambiti il nido è gratis per le famiglie con un ISEE fino a 25.000 euro. Per loro la gratuità prende il posto del bonus nido.
   - proposta: 02-C2
-    testo: 'Congedo di paternità: da 10 giorni a un mese, poi a due mesi, pagato all''80% dello stipendio e non cedibile. La scheda prevede il 2028 e il 2030, ma con il calendario di avvio nel 2028 parte solo il 71% della spesa per nido e congedo: le date possono slittare.'
+    testo: 'Congedo di paternità: da 10 giorni a un mese, poi a due mesi, pagato all''80% dello stipendio e non cedibile. La scheda prevede il 2028 e il 2030, ma con il calendario di avvio nel 2028 parte solo il 73% della spesa per nido e congedo: le date possono slittare.'
   - proposta: 02-C2
     testo: Il congedo vale anche per chi lavora in proprio e per chi è iscritto alla Gestione separata dell'INPS (Istituto nazionale della previdenza sociale).
-  paga:
-  - copertura: RB02
-    testo: Il bonus di 1.000 euro per ogni nuova nascita resta solo con un ISEE fino a 25.000 euro, come aumento dell'Assegno unico nel primo anno. Chi ha un ISEE tra 25.000 e 40.000 euro lo perde.
-  - copertura: RB03
-    testo: 'Il bonus per le lavoratrici madri con due o più figli scende di soglia: pieno fino a 32.000 euro di reddito, poi cala fino a sparire a 40.000 euro.'
+  paga: []
   da_sapere:
   - Il nido gratis e i posti in più valgono solo negli ambiti sotto 33 posti ogni 100. Dove l'offerta è già più alta non cambia nulla.
   - 'La versione piena non c''è: 33 posti ovunque, nido gratis fino a 30.000 euro di ISEE e tre mesi di congedo per il papà. Si deciderà dopo la valutazione del 2029.'
-  - 'Calendario di avvio: il nido è nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 71% della spesa prevista, l''87% nel 2029, tutta dal 2034. I posti possono quindi arrivare più piano.'
+  - 'Calendario di avvio: il nido è nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 73% della spesa prevista, il 94% nel 2029, tutta dal 2031. I posti possono quindi arrivare più piano.'
   - Il congedo si perde se non viene usato entro 12 mesi dalla nascita.
+  - 'Bonus nascita e bonus per le lavoratrici madri restano come oggi. Le coperture che li riducevano (RB02 e RB03) sono uscite dal programma il 15 novembre 2026: le nuove coperture trovate con la ricerca dei risparmi bastano senza toccarli.'
   - 'La misura non promette più nascite: gli obiettivi sono i posti al nido e il lavoro delle donne.'
 - id: scuola-e-studio
   titolo: Studentessa o studente in una scuola o in un territorio fragile, e chi studia dopo il diploma
@@ -65,7 +60,7 @@ profili:
     - testo: La borsa di studio resta garantita a chi è idoneo anche quando finiscono i fondi PNRR, che oggi pagano circa 150 dei 708 milioni delle borse.
       fonte: programma/schede/05_istruzione.md, 05-C4 (dato di stampa, da verificare)
       stima: false
-    quando: Il 2027 è di preparazione; nel 2028 parte il 71% della spesa prevista, nel 2029 l'87%, tutta dal 2034, mentre le prove con fondi europei vanno dal 2027 al 2029.
+    quando: Il 2027 è di preparazione; nel 2028 parte il 73% della spesa prevista, nel 2029 il 94%, tutta dal 2031, mentre le prove con fondi europei vanno dal 2027 al 2029.
   guadagna:
   - proposta: 05-C1
     testo: Versione piena. Squadre di tutor, educatrici, educatori e mediatori contro l'abbandono nelle circa 1.500 scuole più fragili. Tutoraggio in matematica alla primaria.
@@ -96,7 +91,7 @@ profili:
   - Squadre, 250 euro e scuole aperte valgono solo per le scuole più svantaggiate. Le altre 1.500 scuole che la versione piena avrebbe aperto restano fuori.
   - Gli ITS raddoppiano invece di triplicare e le residenze sono meno di quelle della versione piena.
   - Biblioteche, zaino culturale e benessere psicologico sono solo prove in 3-4 Regioni. Si estendono solo se la valutazione è positiva.
-  - 'Calendario di avvio: queste misure sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 71% della spesa prevista, l''87% nel 2029, tutta dal 2034.'
+  - 'Calendario di avvio: queste misure sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 73% della spesa prevista, il 94% nel 2029, tutta dal 2031.'
   - 'Una parte delle squadre contro l''abbandono è pagata con fondi europei che finiscono nel 2029. Dopo serve il nuovo ciclo europeo 2028-2034: oggi non è garantito.'
 - id: giovani-lavoro
   titolo: Giovane che cerca lavoro o partecipa ai concorsi pubblici
@@ -114,7 +109,7 @@ profili:
     - testo: 'Per la busta paga il programma dà solo regole: la detrazione unica per il lavoro e il salario del contratto di riferimento non portano euro in più garantiti.'
       fonte: programma/selezione_intermedio.md, 01-P9 e 02-C1 in variante ZERO (solo regole)
       stima: false
-    quando: Le regole su salario e pensione integrativa partono subito; la dote parte nel 2028 al 71% della spesa prevista, all'87% nel 2029, tutta dal 2034.
+    quando: Le regole su salario e pensione integrativa partono subito; la dote parte nel 2028 al 73% della spesa prevista, al 94% nel 2029, tutta dal 2031.
   guadagna:
   - proposta: 05-C2
     testo: Versione essenziale. Dote di 900 euro per corsi certificati. Spetta a chi ha più di 25 anni e non studia né lavora, e a chi non ha il diploma. Spetta anche a chi fa un lavoro che l'intelligenza artificiale può sostituire.
@@ -160,7 +155,7 @@ profili:
     - testo: 'Fuori dai 20 ambiti di prova non arrivano euro in più per la cura: le squadre di quartiere danno ore di assistenza, non soldi.'
       fonte: programma/varianti/06_salute.csv, 06-C4 variante PILOTA e 06-C8 variante ESSENZIALE
       stima: false
-    quando: Il 2027 è di preparazione; squadre di quartiere e Case della Comunità partono nel 2028 al 71% della spesa prevista, all'87% nel 2029, tutte dal 2034.
+    quando: Il 2027 è di preparazione; squadre di quartiere e Case della Comunità partono nel 2028 al 73% della spesa prevista, al 94% nel 2029, tutte dal 2031.
   guadagna:
   - proposta: 06-C8
     testo: Versione essenziale. 500 squadre di infermiere e infermieri di quartiere per l'assistenza a casa, nelle Regioni dove oggi ce n'è meno. Sono pagate per le ore di cura, non per le visite.
@@ -178,7 +173,7 @@ profili:
   da_sapere:
   - 'Il budget di cura per tutte e tutti non c''è: c''è solo la prova in 20 ambiti, pagata con fondi europei fino al 2029. Dopo si decide in base alla valutazione.'
   - Chi oggi riceve l'indennità di accompagnamento non perde nulla.
-  - 'Calendario di avvio: squadre di quartiere e Case della Comunità sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 71% della spesa prevista, l''87% nel 2029, tutta dal 2034.'
+  - 'Calendario di avvio: squadre di quartiere e Case della Comunità sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 73% della spesa prevista, il 94% nel 2029, tutta dal 2031.'
   - Non c'è un rimborso automatico se l'attesa per una visita è troppo lunga.
   - La salute mentale (06-C5) resta fuori dal programma.
 - id: persone-con-disabilita
@@ -236,7 +231,7 @@ profili:
     - testo: Per comprare un camion pesante a zero emissioni il contributo medio è di circa 80.000 euro, con un'asta per circa 600 camion l'anno.
       fonte: programma/varianti/04_infrastrutture.csv, 04-P8 variante ESSENZIALE (nota)
       stima: true
-    quando: Il forfetario cambia dal 2028; precompilata, rate e aiuti per i camion partono nel 2028 al 71% della spesa prevista, tutti dal 2034; il gasolio agevolato cala per tappe fino al 2035.
+    quando: Il forfetario cambia dal 2028; precompilata, rate e aiuti per i camion partono nel 2028 al 73% della spesa prevista, tutti dal 2031; il gasolio agevolato cala per tappe fino al 2035.
   guadagna:
   - proposta: 01-P12
     testo: Versione essenziale. Dichiarazione precompilata per le piccole partite IVA, rate automatiche online, sanzioni proporzionate. Nessun condono.
@@ -269,11 +264,17 @@ profili:
     testo: La maggiorazione per gli investimenti in beni ordinari scende. Resta per digitale, beni immateriali e transizione verde.
   - copertura: RA01
     testo: Le amministrazioni centrali comprano di più con gare centralizzate e prezzi di riferimento. In parte pesa sulle piccole imprese locali che vendono alla pubblica amministrazione.
+  - copertura: RA21
+    testo: Il Fondo di garanzia non garantisce più i prestiti ordinari alle imprese più solide, che il credito lo hanno già. Restano garantiti start-up, microimprese e investimenti per la transizione.
+  - copertura: SAD21
+    testo: Se guidi un taxi a benzina o gasolio, l'accisa ridotta sul carburante finisce. Per 3 anni al suo posto c'è un contributo per passare a un taxi elettrico. Le tariffe le decidono i Comuni.
+  - copertura: SF25
+    testo: Le società agricole di capitali e le cooperative con più di 1 milione di euro di ricavi pagano le imposte sull'utile vero, non più sul reddito catastale. Per le aziende agricole familiari e sotto 1 milione non cambia nulla.
   da_sapere:
   - 'Il taglio del gasolio agevolato arriva piano: SAD13 va a pieno solo nel 2035. Le tappe sono annunciate con 12 mesi di anticipo.'
   - Parte del costo può passare alla clientela finale, tramite i prezzi dei trasporti.
   - Dopo la verifica delle coperture della sera del 13 novembre sono usciti dal programma il credito per la ricerca (01-P13), le merci sul treno (04-P7) e i contributi per le consegne pulite (04-P9).
-  - 'Gli aiuti per i camion a zero emissioni (04-P8) sono nel primo gruppo: nel 2028 parte il 71% della spesa prevista, l''87% nel 2029, tutta dal 2034.'
+  - 'Gli aiuti per i camion a zero emissioni (04-P8) sono nel primo gruppo: nel 2028 parte il 73% della spesa prevista, il 94% nel 2029, tutta dal 2031.'
   - I fondi per rinnovare flotte e il credito agricolo vanno prima alle piccole imprese, alla montagna, alle aree interne e alle isole.
   - La garanzia sull'energia (01-P5) e i voucher per la ricerca (05-C10) sono pagati con fondi europei fino al 2029.
   - La misura per togliere i gradini che tengono piccole le imprese (01-P4) resta fuori dal programma.
@@ -296,7 +297,7 @@ profili:
     - testo: 'Dal 2028 non detrai più polizze vita e infortuni e spese veterinarie: oggi il vantaggio medio è di 53 e 45 euro l''anno.'
       fonte: programma/coperture_menu.csv, FN02 (MEF, Rapporto annuale sulle spese fiscali 2025)
       stima: false
-    quando: Nel 2028 cambiano le detrazioni e partono dichiarazione già pronta e assistenza a casa, al 71% della spesa prevista, tutte dal 2034; la rivalutazione ridotta vale dal 2030 al 2034.
+    quando: Nel 2028 cambiano le detrazioni e partono dichiarazione già pronta e assistenza a casa, al 73% della spesa prevista, tutte dal 2031; la rivalutazione ridotta vale dal 2030 al 2034.
   guadagna:
   - proposta: 01-P7
     testo: Versione essenziale. Chi ha solo la pensione e la Certificazione Unica riceve la dichiarazione già fatta. Vale se non la contesta, e i rimborsi sono automatici.
@@ -341,7 +342,7 @@ profili:
     - testo: Con un ISEE fino a 15.000 euro lo sconto sul gasolio e sul GPL da riscaldamento resta. Sopra sparisce in 4 anni, con un contributo per la pompa di calore.
       fonte: programma/coperture_menu.csv, SAD10 (l'importo dello sconto per litro non è nei file del repository)
       stima: false
-    quando: Il 2027 è di preparazione; nidi, presidi e squadre tecniche partono nel 2028 al 71% della spesa prevista, all'87% nel 2029, tutti dal 2034; gli investimenti con fondi europei vanno dal 2027 al 2029.
+    quando: Il 2027 è di preparazione; nidi, presidi e squadre tecniche partono nel 2028 al 73% della spesa prevista, al 94% nel 2029, tutti dal 2031; gli investimenti con fondi europei vanno dal 2027 al 2029.
   guadagna:
   - proposta: 04-P6
     testo: 'Versione essenziale. Contratti di area nelle 72 aree della Strategia per le aree interne: 500 presidi con più servizi in un solo punto e trasporto a chiamata.'
@@ -368,10 +369,12 @@ profili:
     testo: Dal 2028 al 2031 ci sono meno posti nei concorsi per profili amministrativi generici di ministeri ed enti nazionali, soprattutto al Sud.
   - copertura: SAD09
     testo: Metà dei contributi agli impianti di risalita diventa un fondo per adattare il turismo di montagna al clima. L'altra metà è risparmiata.
+  - copertura: RA51
+    testo: I contributi dello Stato alle TV e alle radio locali scendono di un quarto o di un terzo dal 2028. Il resto va solo a chi fa informazione locale con giornalisti assunti; niente a chi trasmette soprattutto televendite.
   da_sapere:
   - Chi ha un ISEE fino a 15.000 euro mantiene lo sconto sul gasolio e sul GPL da riscaldamento.
   - Gli investimenti nelle aree interne, nelle reti idriche e nella ricarica dei camion al Sud sono pagati con fondi europei che finiscono nel 2029.
-  - 'Calendario di avvio: le misure del primo gruppo partono nel 2028 al 71% della spesa prevista, all''87% nel 2029, tutte dal 2034; il 2027 è un anno di preparazione.'
+  - 'Calendario di avvio: le misure del primo gruppo partono nel 2028 al 73% della spesa prevista, alil 94% nel 2029, tutte dal 2031; il 2027 è un anno di preparazione.'
   - Le rotte aeree e marittime di continuità territoriale con le isole non pagano le nuove accise sui carburanti (SAD03, SAD04).
   - Restano fuori i treni per chi viaggia ogni giorno (04-P3) e la casa a canone giusto (04-P2). Resta fuori anche il patto per le opere dopo il PNRR, il Piano nazionale di ripresa (04-P1).
 - id: dipendente-reddito-medio
@@ -393,7 +396,7 @@ profili:
     - testo: 'Se fumi un pacchetto al giorno, dal 2029 spendi circa 0,50 euro in più a pacchetto: circa 180 euro l''anno.'
       fonte: programma/coperture_menu.csv, AS01 (circa 0,50 euro a pacchetto, in due tappe nel 2028 e nel 2029); calcolo GovernAI 0,50 × 365 giorni
       stima: true
-    quando: Le regole su salario e pensione integrativa partono subito; congedo, dote e dichiarazione già fatta partono nel 2028 al 71% della spesa prevista, all'87% nel 2029, tutti dal 2034; polizze e auto aziendali cambiano dal 2028, le sigarette nel 2028 e nel 2029.
+    quando: Le regole su salario e pensione integrativa partono subito; congedo, dote e dichiarazione già fatta partono nel 2028 al 73% della spesa prevista, al 94% nel 2029, tutti dal 2031; polizze e auto aziendali cambiano dal 2028, le sigarette nel 2028 e nel 2029.
   guadagna:
   - proposta: 02-C1
     testo: 'Solo regole: il salario del contratto più rappresentativo del settore diventa il riferimento per tutte e tutti, anche negli appalti. Conta se oggi ti applicano un contratto firmato da organizzazioni poco rappresentative. Non c''è una soglia fissata per legge.'
@@ -418,13 +421,15 @@ profili:
     testo: 'Se fumi: circa 0,50 euro in più a pacchetto di sigarette, in due tappe nel 2028 e nel 2029. Sale anche l''accisa su tabacco riscaldato e sigarette elettroniche (AS02).'
   - copertura: PE03
     testo: 'Niente nuove quote né Opzione donna: chi vuole lasciare prima il lavoro lo fa con il calcolo contributivo. Il risparmio è già nelle leggi in vigore.'
+  - copertura: RA52
+    testo: 'Dal 2029 lo Stato paga ai CAF la metà per i 730 precompilati inviati senza nessuna modifica. C''è il rischio che il CAF ti chieda la differenza. Resta gratuita l''assistenza dell''Agenzia delle entrate.'
   da_sapere:
-  - Sotto i 50.000 euro di reddito non cambiano la detrazione del 19% sulle spese sanitarie (SF06) né l'imposta ridotta sui premi di produttività (FN04).
+  - Sotto i 50.000 euro di reddito non cambiano la detrazione del 19% sulle spese sanitarie (SF06), l'imposta ridotta sui premi di produttività (FN04) e la deduzione dei contributi al fondo pensione (SF22).
   - Restano le detrazioni del 19% per le spese di istruzione dei figli e per gli interessi sul mutuo della prima casa, anche per i mutui nuovi: in questo scenario le coperture che le toglierebbero (FN01, FN03) non ci sono.
   - La versione essenziale della detrazione unica, che riduceva il salto di imposta tra 32.000 e 44.000 euro, non è nello scenario. In ogni caso non avrebbe cambiato nulla sotto i 32.000 euro.
   - Il salario minimo con una soglia oraria e più ispettori del lavoro (versioni piena ed essenziale di 02-C1) non è nello scenario.
   - Il congedo retribuito di 40 ore l'anno per formarsi, per chi lavora senza diploma, è solo nella versione piena di 05-C2, che non è nello scenario. Una parte della dote è pagata con fondi europei che finiscono nel 2029.
-  - 'Calendario di avvio: congedo, dote e dichiarazione già fatta sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 71% della spesa prevista, l''87% nel 2029, tutta dal 2034. Le regole per il lavoro pubblico (09-C6) partono solo nel 2034.'
+  - 'Calendario di avvio: congedo, dote e dichiarazione già fatta sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 73% della spesa prevista, il 94% nel 2029, tutta dal 2031. Le regole per il lavoro pubblico (09-C6) partono solo nel 2031 e sono a pieno nel 2032.'
   - Restano fuori dal programma la casa a canone giusto (04-P2) e i treni per chi viaggia ogni giorno (04-P3).
 - id: pensione-bassa
   titolo: Persona con una pensione bassa
@@ -445,7 +450,7 @@ profili:
     - testo: Se vivi in montagna o in un'isola e ti scaldi a gasolio o GPL, con un ISEE fino a 15.000 euro lo sconto resta. Sopra sparisce in 4 anni, con un contributo per la pompa di calore.
       fonte: programma/coperture_menu.csv, SAD10 (l'importo dello sconto per litro non è nei file del repository)
       stima: false
-    quando: Il 2027 è di preparazione; dichiarazione già fatta, squadre di quartiere e Case della Comunità partono nel 2028 al 71% della spesa prevista, all'87% nel 2029, tutte dal 2034. La rivalutazione delle pensioni basse non cambia in nessun anno.
+    quando: Il 2027 è di preparazione; dichiarazione già fatta, squadre di quartiere e Case della Comunità partono nel 2028 al 73% della spesa prevista, al 94% nel 2029, tutte dal 2031. La rivalutazione delle pensioni basse non cambia in nessun anno.
   guadagna:
   - proposta: 01-P7
     testo: Versione essenziale. Chi ha solo la pensione e la Certificazione Unica riceve la dichiarazione già fatta. Vale se non la contesta, e i rimborsi sono automatici. Serve solo a chi paga l'IRPEF.
@@ -466,13 +471,15 @@ profili:
     testo: Dal 2028 non si detraggono più polizze vita e infortuni e spese veterinarie. Tocca solo chi paga abbastanza IRPEF da usare le detrazioni. Restano detraibili le polizze per non autosufficienza e disabilità grave.
   - copertura: SAD10
     testo: In montagna, in Sardegna e nelle isole minori lo sconto sul gasolio e sul GPL da riscaldamento sparisce in 4 anni, con un contributo per pompe di calore e stufe efficienti. Con un ISEE fino a 15.000 euro lo sconto resta.
+  - copertura: RA52
+    testo: 'Dal 2029 lo Stato paga ai CAF la metà per i 730 precompilati inviati senza nessuna modifica. C''è il rischio che il CAF ti chieda la differenza: pesa di più su chi è anziano o usa poco internet. Resta gratuita l''assistenza dell''Agenzia delle entrate, e con la dichiarazione già fatta (01-P7) il 730 può non servire.'
   da_sapere:
   - 'La pensione minima e le pensioni basse non aumentano: nel programma non c''è nessuna misura che le alzi.'
   - La pensione di garanzia per chi ha carriere discontinue (02-C3) è rinviata a una legge futura con copertura. Anche nella versione piena varrebbe dal 2036 e solo per chi ha il primo contributo dopo il 1995.
   - Il reddito di inclusione universale (02-C4) resta fuori dal programma.
   - Non c'è nessun contributo straordinario sulle pensioni. La rivalutazione ridotta dal 2030 al 2034 (PE04) tocca solo la parte sopra circa 3.700 euro lordi al mese.
   - 'Il budget di cura per tutte e tutti non c''è: c''è solo la prova in 20 ambiti, pagata con fondi europei fino al 2029. Non c''è un rimborso automatico se l''attesa per una visita è troppo lunga.'
-  - 'Calendario di avvio: dichiarazione già fatta, squadre di quartiere e Case della Comunità sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 71% della spesa prevista, l''87% nel 2029, tutta dal 2034.'
+  - 'Calendario di avvio: dichiarazione già fatta, squadre di quartiere e Case della Comunità sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 73% della spesa prevista, il 94% nel 2029, tutta dal 2031.'
   - Restano fuori dal programma la casa a canone giusto (04-P2) e la salute mentale (06-C5).
 - id: nati-all-estero
   titolo: Persona nata all'estero che vive e lavora in Italia
@@ -493,7 +500,7 @@ profili:
     - testo: 'Il corso di italiano garantito entro 3 mesi dall''arrivo non c''è: era nelle versioni piena ed essenziale di 07-C3, che non sono nello scenario.'
       fonte: programma/varianti/07_giustizia.csv, 07-C3 (corso di italiano solo nelle varianti PIENA ed ESSENZIALE); programma/selezione_intermedio.md (07-C3 PILOTA)
       stima: false
-    quando: Il 2027 è di preparazione; la prova sull'asilo, l'Osservatorio, i percorsi ponte e la dote partono nel 2028 al 71% della spesa prevista, all'87% nel 2029, tutti dal 2034. La Strategia demografica è una regola e parte subito.
+    quando: Il 2027 è di preparazione; la prova sull'asilo, l'Osservatorio, i percorsi ponte e la dote partono nel 2028 al 73% della spesa prevista, al 94% nel 2029, tutti dal 2031. La Strategia demografica è una regola e parte subito.
   guadagna:
   - proposta: 07-C3
     testo: Solo in prova. La domanda di protezione internazionale (asilo) è decisa entro 6 mesi in 3 Commissioni territoriali, con una valutazione. Un Osservatorio indipendente pubblica ogni anno il fabbisogno di lavoro per settore e territorio e quante autorizzazioni al lavoro dall'estero (nulla osta) diventano davvero un contratto.
@@ -508,6 +515,8 @@ profili:
     testo: 'Come per tutte e tutti, se fumi: circa 0,50 euro in più a pacchetto di sigarette, in due tappe nel 2028 e nel 2029.'
   - copertura: FN02
     testo: 'Come per tutte e tutti: dal 2028 non si detraggono più polizze vita e infortuni e spese veterinarie.'
+  - copertura: SF20
+    testo: 'Cambia solo per chi si trasferisce in Italia dal 2028 e usa il regime per lavoratrici e lavoratori impatriati, pensato per redditi alti: la parte di reddito esente scende dal 50% al 30% (dal 60% al 40% con figli minori) e il tetto da 600.000 a 300.000 euro. Per chi è già nel regime non cambia nulla.'
   da_sapere:
   - 'Il programma non interviene su cittadinanza, permessi di soggiorno e loro rinnovo: nessuna delle 83 proposte tratta questi temi.'
   - Il riconoscimento rapido dei titoli di studio presi all'estero era solo nella versione piena di 02-C6, che non è nello scenario. Lo stesso vale per la programmazione degli ingressi per lavoro ogni tre anni (versione essenziale di 02-C6).
@@ -516,4 +525,4 @@ profili:
   - La riduzione a due anni del requisito di residenza per l'Assegno di inclusione fa parte del reddito di inclusione universale (02-C4), che resta fuori dal programma.
   - 'Le altre misure, come nido, congedo e Case della Comunità, non sono pensate in modo specifico per chi è nato all''estero: le schede non dicono se cambiano i requisiti di accesso di oggi.'
   - 'I percorsi ponte e una parte della dote sono pagati con fondi europei che finiscono nel 2029. Dopo serve il nuovo ciclo europeo 2028-2034: oggi non è garantito.'
-  - 'Calendario di avvio: prova sull''asilo, percorsi ponte e dote sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 71% della spesa prevista, l''87% nel 2029, tutta dal 2034.'
+  - 'Calendario di avvio: prova sull''asilo, percorsi ponte e dote sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 73% della spesa prevista, il 94% nel 2029, tutta dal 2031.'

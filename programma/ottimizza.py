@@ -136,7 +136,10 @@ def costruisci(var: pd.DataFrame, menu: pd.DataFrame, cap: dict[str, float]):
 
 # FN01 toglie la detrazione per istruzione: per la scheda 10_fisco_semplice e per la nota della copertura
 # "va attivata con 01-P8 (quota studio)", altrimenti pesa su famiglie a reddito medio-basso senza compensazione.
-LEGAMI = {"FN01": ["01-P8:PIENA", "01-P8:ESSENZIALE"]}
+# SAD22 libera proventi delle aste ETS, vincolati dalla direttiva a finalità climatiche: conta solo se finanzia
+# i treni per chi viaggia ogni giorno (04-P3), scelta del 15/11/2026.
+LEGAMI = {"FN01": ["01-P8:PIENA", "01-P8:ESSENZIALE"],
+          "SAD22": ["04-P3:PIENA", "04-P3:ESSENZIALE", "04-P3:PILOTA"]}
 
 RE_COMPENSAZIONE = re.compile(r"compens|salvaguard|ISEE|esclus|esent|franchigia", re.I)
 

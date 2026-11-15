@@ -4,20 +4,20 @@
 
 | Anno | Spesa | di cui risorse generali | Gettito risorse generali | Saldo risorse generali (prudente) | Saldo (favorevole) | Coesione 2021-27 | Da rifinanziare dopo il 2029 |
 |---|---|---|---|---|---|---|---|
-| 2027 | 4,85 | 3,52 | 0,10 | **−3,42** | 1,09 | 1,18 | 0,00 |
-| 2028 | 9,58 | 7,09 | 4,61 | **−2,48** | 0,83 | 2,22 | 0,00 |
-| 2029 | 11,88 | 9,17 | 7,92 | **−1,25** | −0,34 | 2,39 | 0,00 |
-| 2030 | 10,34 | 10,02 | 8,83 | **−1,20** | −0,68 | 0,00 | 0,56 |
-| 2031 | 10,34 | 10,02 | 9,35 | **−0,68** | −0,45 | 0,00 | 0,56 |
-| 2032 | 10,34 | 10,02 | 9,58 | **−0,45** | −0,30 | 0,00 | 0,56 |
-| 2033 | 10,34 | 10,02 | 9,73 | **−0,30** | −0,15 | 0,00 | 0,56 |
-| 2034 | 10,34 | 10,02 | 9,88 | **−0,15** | 0,00 | 0,00 | 0,56 |
-| 2035 | 10,34 | 10,02 | 10,03 | **0,00** | 0,00 | 0,00 | 0,56 |
+| 2027 | 5,22 | 3,87 | 0,10 | **−3,77** | 1,01 | 1,20 | 0,00 |
+| 2028 | 10,40 | 7,92 | 4,89 | **−3,03** | 0,60 | 2,21 | 0,00 |
+| 2029 | 13,06 | 10,32 | 8,52 | **−1,80** | −0,36 | 2,43 | 0,00 |
+| 2030 | 11,54 | 11,22 | 9,96 | **−1,27** | −0,72 | 0,00 | 0,56 |
+| 2031 | 11,54 | 11,22 | 10,51 | **−0,72** | −0,46 | 0,00 | 0,56 |
+| 2032 | 11,54 | 11,22 | 10,76 | **−0,46** | −0,30 | 0,00 | 0,56 |
+| 2033 | 11,54 | 11,22 | 10,93 | **−0,30** | −0,15 | 0,00 | 0,56 |
+| 2034 | 11,54 | 11,22 | 11,08 | **−0,15** | 0,00 | 0,00 | 0,56 |
+| 2035 | 11,54 | 11,22 | 11,23 | **0,00** | 0,00 | 0,00 | 0,56 |
 
 ## In breve
 
-- **Anni scoperti sulle risorse generali: 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034.** Lo scoperto massimo è di 3,42 mld (2027); in tutto 9,93 mld negli anni scoperti (ipotesi prudente).
-- Anche con l'ipotesi favorevole restano scoperti 2029, 2030, 2031, 2032, 2033: massimo 0,68 mld, in tutto 1,92 mld.
+- **Anni scoperti sulle risorse generali: 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034.** Lo scoperto massimo è di 3,77 mld (2027); in tutto 11,50 mld negli anni scoperti (ipotesi prudente).
+- Anche con l'ipotesi favorevole restano scoperti 2029, 2030, 2031, 2032, 2033: massimo 0,72 mld, in tutto 1,99 mld.
 - Dal 2030 vanno rifinanziati 0,56 mld l'anno di spesa oggi pagata con la coesione 2021-2027.
 - Alcuni fondi vincolati non bastano in qualche anno: colonna `scoperto_vincolati` nel calcolo.
 
@@ -27,14 +27,14 @@ Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno (ipote
 
 | Anno | Spesa prevista sulle risorse generali | Spesa avviata | Rinviata | di cui nucleo | Riforme a costo quasi zero | Nucleo e primo gruppo | Altre misure |
 |---|---|---|---|---|---|---|---|
-| 2027 | 3,52 | 0,10 | 3,42 | 2,96 | 100% | 1% | 0% |
-| 2028 | 7,09 | 4,57 | 2,52 | 0,86 | 100% | 84% | 0% |
-| 2029 | 9,17 | 7,88 | 1,29 | 0,00 | 100% | 100% | 40% |
-| 2030 | 10,02 | 8,77 | 1,25 | 0,00 | 100% | 100% | 47% |
-| 2031 | 10,02 | 9,29 | 0,73 | 0,00 | 100% | 100% | 69% |
-| 2032 | 10,02 | 9,52 | 0,51 | 0,00 | 100% | 100% | 79% |
-| 2033 | 10,02 | 9,67 | 0,35 | 0,00 | 100% | 100% | 85% |
-| 2034 | 10,02 | 9,82 | 0,20 | 0,00 | 100% | 100% | 91% |
-| 2035 | 10,02 | 9,97 | 0,06 | 0,00 | 100% | 100% | 98% |
+| 2027 | 3,87 | 0,10 | 3,77 | 3,02 | 100% | 1% | 0% |
+| 2028 | 7,92 | 4,85 | 3,07 | 0,89 | 100% | 84% | 0% |
+| 2029 | 10,32 | 8,48 | 1,84 | 0,00 | 100% | 100% | 32% |
+| 2030 | 11,22 | 9,90 | 1,32 | 0,00 | 100% | 100% | 54% |
+| 2031 | 11,22 | 10,45 | 0,77 | 0,00 | 100% | 100% | 73% |
+| 2032 | 11,22 | 10,70 | 0,52 | 0,00 | 100% | 100% | 82% |
+| 2033 | 11,22 | 10,87 | 0,35 | 0,00 | 100% | 100% | 88% |
+| 2034 | 11,22 | 11,02 | 0,21 | 0,00 | 100% | 100% | 93% |
+| 2035 | 11,22 | 11,17 | 0,05 | 0,00 | 100% | 100% | 98% |
 
-In tutto slittano 10,33 mld di spesa negli anni di passaggio, di cui 3,82 del nucleo robusto; sulla coesione slittano 0,61 mld di spese una tantum oltre la capienza.
+In tutto slittano 11,90 mld di spesa negli anni di passaggio, di cui 3,91 del nucleo robusto; sulla coesione slittano 0,64 mld di spese una tantum oltre la capienza.

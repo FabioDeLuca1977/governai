@@ -1,6 +1,6 @@
 # GovernAI — Equità e linguaggio inclusivo
 
-*Capitolo del programma, scritto il 9 novembre 2026 e aggiornato il 12, il 13 e il 14 novembre 2026 dopo le scelte sulla sanità, sui bandi e sulla disabilità. Scenario di riferimento: intermedio (`programma/selezione_intermedio.md`), 8,4 mld l'anno (9,4 prima delle verifiche delle coperture del 13 e del 14 novembre). Tutti i numeri vengono da file del repository, con la fonte indicata. Dove un dato manca, lo scriviamo: "dato da acquisire".*
+*Capitolo del programma, scritto il 9 novembre 2026 e aggiornato il 12, il 13, il 14 e il 15 novembre 2026 dopo le scelte sulla sanità, sui bandi, sulla disabilità e sulle coperture nuove. Scenario di riferimento: intermedio (`programma/selezione_intermedio.md`), 8,4 mld l'anno (9,4 prima delle verifiche delle coperture del 13 e del 14 novembre). Tutti i numeri vengono da file del repository, con la fonte indicata. Dove un dato manca, lo scriviamo: "dato da acquisire".*
 
 ## In breve
 
@@ -9,7 +9,7 @@
 - Il programma intermedio interviene su quasi tutti i divari, ma spesso in **versione ridotta o sperimentale**. Lo diciamo in modo esplicito.
 - Dal 13 novembre il **progetto di vita per le persone con disabilità** (02-C5) passa dalla sola riforma del collocamento a un pilota con personale e budget nel quarto degli ambiti con meno servizi, pagato con fondi europei fino al 2029 e senza togliere risorse ad altre misure.
 - Dal 12 novembre entrano le **Case della Comunità** e le **squadre infermieristiche di quartiere**, che aiutano soprattutto chi vive lontano dai servizi e chi è anziano o fragile. Il prezzo è un gradino in meno su due misure di scuola con forte effetto sull'equità (ITS e scuole aperte): **l'equità non guadagna in assoluto, si sposta dalla scuola alla salute**.
-- Più di un terzo del gettito delle coperture (2,3 mld su 6,3) viene da prelievi **regressivi**, cioè che pesano di più su chi ha meno. Alcuni sono compensati, altri no. La scelta di non aggiungere tasse non ha cambiato questa quota.
+- Circa un terzo del gettito delle coperture (2,3 mld su 6,95) viene da prelievi **regressivi**, cioè che pesano di più su chi ha meno. Alcuni sono compensati, altri no. La scelta di non aggiungere tasse non ha cambiato questa quota; le coperture nuove del 15 novembre l'hanno abbassata un po', da più di un terzo a circa un terzo, e hanno lasciato come oggi il bonus nascita e il bonus per le lavoratrici madri.
 - Non abbiamo ancora una **microsimulazione per decili di reddito**. Senza, nessun giudizio sull'equità complessiva è definitivo.
 - Proponiamo **cinque regole di metodo** a costo quasi zero e **undici indicatori di divario**.
 - Proponiamo regole di **linguaggio chiaro e inclusivo** per lo Stato, e le applichiamo per prime in questo testo.
@@ -206,9 +206,9 @@ Per far entrare la sanità **senza tasse in più oltre quelle già previste**, a
 
 ## 4. Chi paga: l'equità delle coperture
 
-Lo scenario intermedio attiva coperture per un gettito minimo di **6,30 miliardi** l'anno a regime, dopo le verifiche del 13 e del 14 novembre (prima erano 7,42). Le abbiamo classificate con il punteggio EQU del panel (colonna `EQU` in `programma/selezione_intermedio.csv`) e con la colonna `chi_paga`. Le somme sono un nostro calcolo sul file.
+Lo scenario intermedio attiva 70 coperture per un gettito minimo di **6,95 miliardi** l'anno a regime, dopo le verifiche del 13 e del 14 novembre e le 17 coperture nuove entrate il 15 novembre (erano 6,45 prima delle coperture nuove e 7,42 prima delle verifiche). Dal 15 novembre non ci sono più il bonus nascita solo sotto 25.000 euro di ISEE (RB02) e il bonus per le lavoratrici madri ridotto tra 32.000 e 40.000 euro (RB03): quei bonus restano come oggi. Le abbiamo classificate con il punteggio EQU del panel (colonna `EQU` in `programma/selezione_intermedio.csv`) e con la colonna `chi_paga`. Le somme sono un nostro calcolo sul file.
 
-### Coperture progressive (pesano di più su chi ha di più): circa 1,5 miliardi
+### Coperture progressive (pesano di più su chi ha di più): circa 1,8 miliardi
 
 | Codice | Chi paga | Gettito min. (mld) | EQU |
 |---|---|---|---|
@@ -218,14 +218,20 @@ Lo scenario intermedio attiva coperture per un gettito minimo di **6,30 miliardi
 | SF02 | Forfettari con ricavi tra 50.000 e 85.000 euro | 0,20 | +1 |
 | SAD05 | Auto aziendali a combustione | 0,15 | +1 |
 | SAD03 | Passeggeri dei voli nazionali, escluse le rotte di continuità con le isole | 0,12 | +1 |
-| RB02, RB01 | Bonus nuovi nati e Carta Valore solo sotto una soglia ISEE | 0,13 | +1 |
+| RB01 | Carta Valore solo sotto una soglia ISEE | 0,05 | +1 |
 | SF03, SF08, SF09, RA10, FN04 | Armatori, detrazione per lo sport dei ragazzi oltre una soglia di reddito, seconde case, grandi litiganti, premi di produttività oltre 50.000 euro | 0,16 | +1 |
+| SF22 | Persone iscritte ai fondi pensione con reddito oltre 50.000 euro (risparmio d'imposta al massimo del 33%; dal 15 novembre) | 0,15 | +1 |
+| SF21 | Chi ha risparmi medio-alti e aprirebbe un nuovo Piano individuale di risparmio dal 2028; i piani già aperti non cambiano (dal 15 novembre) | 0,08 | +1 |
+| SF20 | Chi si trasferisce in Italia dal 2028 con redditi di lavoro alti (regime impatriati meno generoso; dal 15 novembre) | 0,05 | +1 |
+| SF25, RA32, SF26, SF24 | Società agricole di capitali sopra 1 milione di ricavi, concessionari degli stabilimenti balneari, compensi sportivi di chi ha altri redditi oltre 35.000 euro, rimborsi forfetari a chi ha cariche elettive (dal 15 novembre) | 0,12 | +1 |
 
-### Coperture neutre o non classificabili: circa 2,6 miliardi
+### Coperture neutre o non classificabili: circa 2,9 miliardi
 
 Tagli di spesa dei ministeri (RA13, RA01-RA09), riordino degli incentivi alle imprese (RA14, RA04), patent box (SF16), detrazioni per polizze vita e animali (FN02). L'effetto distributivo dipende da **quali programmi** si tagliano. Per RA13 la colonna `chi_paga` dice: "da individuare". È un rischio: un taglio lineare può colpire servizi usati da chi ha meno.
 
-### Coperture regressive (pesano di più su chi ha meno): circa 2,3 miliardi, più di un terzo
+Dal 15 novembre si aggiungono coperture nuove che il panel valuta neutre, per circa 0,27 mld: libera professione dei medici del SSN tassata al 100% (SF23, 0,10), regole sugli incentivi alle imprese che non spendono, sulle garanzie alle PMI più solide e sui compensi ai gestori (RA20, RA21, RA22), liquidità pubblica alle Poste (RA31), veicoli sequestrati (RA33), sovvenzioni all'ippica (RA50), contributi a TV e radio locali (RA51) e un pacchetto di sussidi energetici minori, compresa l'accisa ridotta per i taxi (SAD21).
+
+### Coperture regressive (pesano di più su chi ha meno): circa 2,3 miliardi, circa un terzo
 
 | Codice | Chi paga | Gettito min. (mld) | Compensazione prevista |
 |---|---|---|---|
@@ -237,8 +243,9 @@ Tagli di spesa dei ministeri (RA13, RA01-RA09), riordino degli incentivi alle im
 | SAD10 | Famiglie in montagna e nelle isole che si scaldano a gasolio o GPL | 0,02 | Contributo per pompe di calore; salvaguardia per ISEE fino a 15.000 euro |
 | RP01 | Giovani candidate e candidati ai concorsi generici, soprattutto al Sud | 0,04 | Esclusi servizi sociali e sportelli; ritorno al 100% se i tempi dei servizi peggiorano |
 | RP08 | Giovani candidate e candidati ai concorsi amministrativi della sanità (dal 12 novembre) | 0,05 | Esclusi sportelli e profili tecnici; risorse destinate a infermieri e Case della Comunità; ritorno al 100% se i servizi peggiorano |
+| RA52 | Chi fa il 730 precompilato al CAF senza modifiche: il CAF può chiedere una parte del compenso dimezzato. Pesa un po' di più su persone anziane e con poche competenze digitali (dal 15 novembre) | 0,01 | Resta gratuito il canale assistito dell'Agenzia delle entrate; compenso invariato per le dichiarazioni modificate |
 
-Tra le coperture neutre c'è anche **RB03**: la soglia del bonus per le lavoratrici madri scende da 40.000 a 32.000 euro di reddito (0,10 mld). Il panel la valuta neutra, ma riguarda il divario di genere e la segnaliamo.
+Fino al 14 novembre tra le coperture c'erano anche **RB02** (bonus nascita solo sotto 25.000 euro di ISEE) e **RB03** (bonus per le lavoratrici madri ridotto tra 32.000 e 40.000 euro di reddito), che riguardavano le famiglie con figli e il divario di genere. Dal 15 novembre non servono più: quei bonus restano come oggi.
 
 ### Come si compensano, dal 13 novembre 2026
 
