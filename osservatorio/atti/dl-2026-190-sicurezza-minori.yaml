@@ -7,7 +7,7 @@ data: 2026-10-22
 stato: "In vigore dal 23 ottobre 2026; all'esame del Parlamento (A.C. 3159); da convertire in legge entro il 21 dicembre 2026"
 fonte: "https://www.gazzettaufficiale.it/eli/id/2026/10/22/26G00214/sg"
 tema: "07"
-in_breve: "Dopo i gravi incidenti di Milano di ottobre 2026, il decreto crea un reato per la violenza di gruppo nelle manifestazioni, cambia la regola sulla responsabilità penale di chi ha tra 14 e 18 anni, multa i genitori e allarga il trattenimento negli uffici di polizia. Il costo dichiarato è di 4,9 milioni per 500 militari in più a Milano."
+in_breve: "Il decreto arriva dopo i gravi incidenti di Milano di ottobre 2026. Crea un reato per la violenza di gruppo nelle manifestazioni e cambia la regola sulla responsabilità penale di chi ha tra 14 e 18 anni. Multa anche i genitori e allarga il trattenimento negli uffici di polizia. Il costo dichiarato è di 4,9 milioni per 500 militari in più a Milano."
 cifre_chiave:
   - numero: "4,9"
     unita: "mln"
@@ -49,7 +49,7 @@ numeri:
     valore: "nessuno nel testo del decreto, che richiama solo i «gravi incidenti» di Milano (art. 8); la relazione illustrativa non è ancora nel repository e va verificata"
     fonte: "DL 190/2026, art. 8; relazione illustrativa A.C. 3159 (da verificare)"
 chi_guadagna:
-  - "Commercianti e proprietari di beni danneggiati negli scontri: aggravanti più alte e un decreto ingiuntivo più facile per farsi risarcire (art. 5, comma 7)."
+  - "Chi ha un negozio o possiede beni danneggiati negli scontri: aggravanti più alte e un decreto ingiuntivo più facile per farsi risarcire (art. 5, comma 7)."
   - "Forze di polizia e uffici giudiziari: più strumenti per identificare, arrestare e gestire molti arresti insieme."
   - "Stato, Regioni e Comuni: possono recuperare dai genitori i danni ai beni pubblici."
   - "Chi manifesta in modo pacifico, se il nuovo reato riduce la violenza di gruppo nei cortei."
@@ -59,7 +59,7 @@ chi_paga:
   - "Genitori, soprattutto quelli con redditi bassi: la sanzione va da 500 a 1.000 euro, ma non è legata al reddito e pesa di più su chi ha meno."
   - "Persone con precedenti o segnalazioni di polizia per alcuni reati: possono essere trattenute se ci sono elementi di fatto e un fondato motivo di pericolo concreto, con una formula ampia sui luoghi e sul peso delle sole segnalazioni."
   - "Chi incita, anche in rete, alla violenza di gruppo nei cortei: pena da 4 a 12 anni, da misurare sulla proporzionalità e sulla libertà di espressione."
-  - "La giustizia minorile e i contribuenti: nuovi reati e nuovi processi hanno costi che il decreto dichiara pari a zero."
+  - "La giustizia minorile e chi paga le tasse: nuovi reati e nuovi processi hanno costi che il decreto dichiara pari a zero."
 rischi_giuridici: "Lo screening automatico (costituzione/esami/gu/26G00214.md) segnala rischi medi sugli artt. 1, 3, 6 e 7. Ad avviso di questo commento ci sono dubbi seri su tre punti. (1) La presunzione di capacità dei minori (art. 1, comma 1) contrasta con il principio di responsabilità personale e con il fine rieducativo della pena (art. 27). Contrasta anche con la protezione della gioventù (art. 31, secondo comma). La Corte costituzionale ha più volte escluso automatismi per i minori: ha escluso l'ergastolo per chi era minorenne (sent. 168/1994) e le preclusioni automatiche ai benefici per i condannati minorenni (sent. 263/2019). La direttiva (UE) 2016/800 chiede una valutazione individuale di ogni minore indagato. Lo stesso vale per l'art. 3 sui ragazzi di 16 e 17 anni. (2) Il trattenimento in ufficio di polizia (art. 7) è una restrizione della libertà personale. L'art. 13 la ammette solo in casi eccezionali indicati con precisione dalla legge. La norma chiede circostanze di fatto concrete e un «fondato motivo» di pericolo, e rinvia alle garanzie dei commi 2, 3 e 3-bis. Restano vaghi il riferimento a «luoghi caratterizzati da un consistente afflusso di persone» e il peso che possono avere le sole segnalazioni di polizia, che non sono accertamenti di un giudice. La Corte ha già dichiarato illegittimi presupposti troppo generici per le misure di prevenzione personali (sent. 24/2019). (3) Il risarcimento liquidato dal prefetto «sulla base degli atti», che vale come prova per un decreto ingiuntivo provvisoriamente esecutivo, solleva dubbi sul diritto di difesa (artt. 24 e 111). Rischio più basso: il divieto di radunarsi (art. 6) incide sulle libertà di circolazione e di riunione (artt. 16 e 17), ma è limitato nel tempo e nei luoghi. La pena per chi incita (art. 420-bis, terzo comma) va misurata sulla proporzionalità e sulla libertà di espressione (artt. 3, 21 e 27)."
 valori:
   - valore: SIC
@@ -77,7 +77,7 @@ valori:
   - valore: BEN
     segno: "+"
     perche: "Chi subisce danni da saccheggi e devastazioni ottiene un risarcimento più rapido."
-bilancio: "Va bene colpire la violenza organizzata nei cortei con un reato preciso, l'arresto differito con prove video e un risarcimento più rapido per i danneggiati. Non vanno bene la presunzione di capacità dei minori, gli automatismi cautelari, il trattenimento con presupposti ampi e le multe ai genitori non proporzionate al reddito. Manca del tutto un investimento nella prevenzione: scuola, educatori e servizi nelle periferie."
+bilancio: "Va bene colpire la violenza organizzata nei cortei con un reato preciso, l'arresto differito con prove video e un risarcimento più rapido per i danneggiati. Non vanno bene la presunzione di capacità dei minori e gli automatismi cautelari. Non vanno bene neppure il trattenimento con presupposti ampi e le multe ai genitori non proporzionate al reddito. Manca del tutto un investimento nella prevenzione: scuola, educatori e servizi nelle periferie."
 governai:
   proposte: [05-C1, 05-C5, 07-C2]
   confronto: "GovernAI investe sulla prevenzione: squadre di prossimità contro la dispersione scolastica (05-C1, in versione piena nel programma intermedio) e scuole aperte come presidi di comunità (05-C5). Queste misure agiscono su cause come la dispersione scolastica e il degrado delle periferie. Non usano automatismi e rispettano la Carta. Ma GovernAI ha un limite serio: non ha una proposta per la violenza organizzata nelle manifestazioni, né per la giustizia minorile, né per chi subisce danni da saccheggi. I suoi effetti arrivano in anni, non domani. Le misure di comunità (07-C2) riguardano le pene brevi degli adulti, non i minori. Su questo tema GovernAI oggi non offre una risposta immediata a chi si sente insicuro."
@@ -90,7 +90,7 @@ cosa_cambieremmo:
   - "Finanziare educatori di strada e scuole aperte nelle periferie delle grandi città, con una valutazione dei risultati dopo due anni."
   - "Quantificare i costi per la giustizia minorile invece della clausola di costo zero."
 domande_aperte:
-  - "Quanti minori sono stati coinvolti nei disordini di Milano, e qual è l'andamento dei reati commessi da minori negli ultimi dieci anni (Ministero dell'interno, ISTAT)?"
+  - "Quanti minori sono stati coinvolti nei disordini di Milano, e qual è l'andamento dei reati commessi da minori negli ultimi dieci anni (Ministero dell'interno, ISTAT, l'Istituto nazionale di statistica)?"
   - "Il comma 3-ter rinvia ai commi 2, 3 e 3-bis dell'art. 11-bis del d.l. 59/1978, che regolano durata e garanzie del trattenimento: qual è la durata massima nel testo vigente (da verificare su Normattiva)?"
   - "Quante persone saranno raggiunte dai divieti del questore, e quante sono minorenni?"
   - "Il Parlamento modificherà in conversione la presunzione di capacità dei minori?"
@@ -108,3 +108,5 @@ revisioni:
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."
+  - data: 2026-11-15
+    nota: "Linguaggio più chiaro e inclusivo, sigle spiegate (revisione di comunicazione inclusiva)."

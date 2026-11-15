@@ -1,13 +1,13 @@
 # Commento dell'Osservatorio (vedi osservatorio/metodo.md)
 id: manovra-2027-giochi
 titolo: "Giochi: puntate doppie sulle slot, concessioni prorogate al 2029 senza gara, più Lotto, sconto ai concessionari"
-atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, artt. 23, 25, 26, 27, 28, 29 e 32 (Titolo II, Capo IV)"
+atto: "DDL (disegno di legge) di bilancio 2027-2029, A.C. 3174-bis, artt. 23, 25, 26, 27, 28, 29 e 32 (Titolo II, Capo IV)"
 tipo: legge di bilancio
 data: 2026-10-30
 stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026"
 fonte: "https://documenti.camera.it/apps/commonServices/getDocumento.ashx?sezione=lavori&tipoDoc=testo_pdl&idlegislatura=19&codice=leg.19.pdl.camera.3174.19PDL0221150"
 tema: "01"
-in_breve: "Lo Stato ricava circa 0,75 miliardi nel 2027 dai giochi: prorogando fino al 2029 le concessioni senza gara, raddoppiando la puntata massima delle slot e aggiungendo un'estrazione del Lotto. Chiude anche con uno sconto e senza interessi un vecchio debito dei concessionari."
+in_breve: "Lo Stato ricava circa 0,75 miliardi nel 2027 dai giochi. Proroga fino al 2029 le concessioni senza gara, raddoppia la puntata massima delle slot e aggiunge un'estrazione del Lotto. Chiude anche con uno sconto e senza interessi un vecchio debito dei concessionari."
 cifre_chiave:
   - numero: "0,75"
     unita: "mld"
@@ -49,7 +49,7 @@ numeri:
     valore: "Sconto massimo 17,85 mln (20% di 89,47 mln), più gli interessi maturati, a cui lo Stato rinuncia (importo non indicato); incasso stimato 71,6 mln nel 2027"
     fonte: "Relazione tecnica A.C. 3174, art. 32"
   - voce: "Totale di questa scheda"
-    valore: "circa +0,75 mld nel 2027 (somma nostra); il DPB indica per i giochi lo 0,03% del PIL nel 2027 e nel 2028 e lo 0,02% nel 2029"
+    valore: "circa +0,75 mld nel 2027 (somma nostra); il DPB (Documento programmatico di bilancio) indica per i giochi lo 0,03% del PIL nel 2027 e nel 2028 e lo 0,02% nel 2029"
     fonte: "Elaborazione dell'Osservatorio; MEF, DPB 2027, tabella I.6-1"
 chi_guadagna:
   - "I concessionari delle scommesse, degli apparecchi, del bingo e delle lotterie istantanee: tengono le concessioni fino al 2029 senza gara, pagando un corrispettivo; per il bingo è la settima proroga dal 2017 (art. 27, c. 2)."
@@ -63,7 +63,7 @@ chi_paga:
   - "Le persone con un problema di gioco e le loro famiglie, che sono una quota rilevante di chi gioca alle slot; i costi sociali e sanitari ricadono anche sul Servizio sanitario e sui Comuni."
   - "Le imprese che vorrebbero entrare nel mercato con una gara: la concorrenza viene rinviata ancora."
   - "Chi ha pagato per intero: lo sconto e la rinuncia agli interessi vanno a chi non ha versato il prelievo del 2015."
-rischi_giuridici: "Rischio basso per la Costituzione; profilo UE da verificare. Le proroghe tecniche in attesa di gara sono ammesse se brevi e motivate; ripetute, possono violare la libertà di stabilimento e di servizi (artt. 49 e 56 TFUE). Per il bingo, la Corte di giustizia UE (20 marzo 2025, cause riunite C-728/22, C-729/22 e C-730/22, richiamata nella relazione tecnica) ha giudicato contraria alla direttiva 2014/23/UE una proroga unilaterale con canone fisso uguale per tutti e altre condizioni non conformi all'art. 43; l'indennità legata al fatturato risponde a quel punto, ma la ripetizione delle proroghe resta un rischio. La definizione agevolata dell'art. 32 è volontaria e non tocca in modo autoritativo i giudizi in corso. Fonte: costituzione/esami/AC3174_manovra_2027.md, punto 7."
+rischi_giuridici: "Rischio basso per la Costituzione; profilo UE da verificare. Le proroghe tecniche in attesa di gara sono ammesse se brevi e motivate; ripetute, possono violare la libertà di stabilimento e di servizi (artt. 49 e 56 del Trattato sul funzionamento dell'Unione europea, TFUE). Per il bingo, la Corte di giustizia UE (20 marzo 2025, cause riunite C-728/22, C-729/22 e C-730/22, richiamata nella relazione tecnica) ha giudicato contraria alla direttiva 2014/23/UE una proroga unilaterale con canone fisso uguale per tutti e altre condizioni non conformi all'art. 43; l'indennità legata al fatturato risponde a quel punto, ma la ripetizione delle proroghe resta un rischio. La definizione agevolata dell'art. 32 è volontaria e non tocca in modo autoritativo i giudizi in corso. Fonte: costituzione/esami/AC3174_manovra_2027.md, punto 7."
 valori:
   - valore: BEN
     segno: "-"
@@ -83,7 +83,7 @@ valori:
   - valore: CIT
     segno: "-"
     perche: "Lo Stato aumenta l'offerta di gioco che deve regolare, con un'estrazione in più e puntate più alte."
-bilancio: "Regolare le sale di videogiochi e incassare dai concessionari per l'uso delle concessioni va bene; ma raddoppiare le puntate delle slot e aggiungere estrazioni fa pagare le entrate soprattutto a chi gioca ed è più fragile, e un'altra proroga senza gara con lo sconto senza interessi sui debiti premia i concessionari a scapito della concorrenza e della parità di trattamento con chi ha pagato."
+bilancio: "Regolare le sale di videogiochi e incassare dai concessionari per l'uso delle concessioni va bene. Ma raddoppiare le puntate delle slot e aggiungere estrazioni fa pagare le entrate soprattutto a chi gioca ed è più fragile. E un'altra proroga senza gara, con lo sconto senza interessi sui debiti, premia i concessionari. Ne soffrono la concorrenza e la parità di trattamento con chi ha pagato."
 governai:
   proposte: [01-P12, 01-P2]
   confronto: "Il programma GovernAI non ha una proposta sul gioco pubblico: è un vuoto, perché è un settore che vale miliardi di prelievo e ha costi sociali rilevanti. GovernAI esclude i condoni (01-P12, nucleo robusto): lo sconto dell'art. 32 è una forma ridotta di condono e non passerebbe questa regola. GovernAI usa invece accise su tabacco, alcol e bevande zuccherate motivate dalla salute; un ragionamento simile sul gioco non c'è ancora."
@@ -111,3 +111,5 @@ revisioni:
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."
+  - data: 2026-11-15
+    nota: "Linguaggio più chiaro e inclusivo, sigle spiegate (revisione di comunicazione inclusiva)."

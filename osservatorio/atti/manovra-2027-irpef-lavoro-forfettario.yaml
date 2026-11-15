@@ -1,13 +1,13 @@
 # Commento dell'Osservatorio (vedi osservatorio/metodo.md)
 id: manovra-2027-irpef-lavoro-forfettario
 titolo: "IRPEF al 33% fino a 55.000 euro nel 2027, imposta ridotta al 5% sugli aumenti, forfettario fino a 100.000 euro"
-atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, artt. 6, 7 e 9 (collegato: art. 10)"
+atto: "DDL (disegno di legge) di bilancio 2027-2029, A.C. 3174-bis, artt. 6, 7 e 9 (collegato: art. 10)"
 tipo: legge di bilancio
 data: 2026-10-30
 stato: "All'esame della Camera (A.C. 3174-bis, dopo lo stralcio del 4/11/2026); approvazione entro il 31 dicembre 2026"
 fonte: "https://documenti.camera.it/apps/commonServices/getDocumento.ashx?sezione=lavori&tipoDoc=testo_pdl&idlegislatura=19&codice=leg.19.pdl.camera.3174.19PDL0221150"
 tema: "01"
-in_breve: "Per il solo 2027 l'aliquota del 33% si allarga fino a 55.000 euro di reddito, gli aumenti dei contratti rinnovati pagano un'imposta ridotta al 5%, al posto dell'IRPEF, per chi nel settore privato guadagna fino a 33.000 euro e il lavoro notturno e festivo paga il 15%. Il regime forfettario sale in modo permanente da 85.000 a 100.000 euro di ricavi. Costo nel 2027: circa 2,6 miliardi."
+in_breve: "Per il solo 2027 l'aliquota del 33% si allarga fino a 55.000 euro di reddito. Sugli aumenti dei contratti rinnovati, chi lavora nel privato e guadagna fino a 33.000 euro paga un'imposta ridotta al 5% invece dell'IRPEF, l'imposta sul reddito. Il lavoro notturno e festivo paga il 15%. Il regime forfettario sale in modo permanente da 85.000 a 100.000 euro di ricavi. Costo nel 2027: circa 2,6 miliardi."
 cifre_chiave:
   - numero: "2,6"
     unita: "mld"
@@ -15,7 +15,7 @@ cifre_chiave:
     fonte: "Elaborazione dell'Osservatorio sulla relazione tecnica A.C. 3174"
   - numero: "3,2"
     unita: "milioni"
-    etichetta: "di contribuenti con lo scaglione al 33% allargato"
+    etichetta: "di persone con lo scaglione al 33% allargato"
     fonte: "Relazione tecnica A.C. 3174, art. 9"
   - numero: "100.000"
     unita: "euro"
@@ -25,24 +25,24 @@ cosa_fa:
   - "Art. 9, comma 1: solo per il 2027 il secondo scaglione IRPEF (33%) arriva a 55.000 euro invece di 50.000. Chi supera i 55.000 euro risparmia al massimo 500 euro (5.000 euro tassati al 33% invece che al 43%)."
   - "Art. 6: gli aumenti di stipendio pagati nel 2027 per rinnovi dei contratti firmati dal 2024 al 2027 pagano un'imposta del 5% al posto di IRPEF e addizionali, per chi nel 2026 ha avuto un reddito da lavoro dipendente fino a 33.000 euro. La norma vale «soltanto ai lavoratori del settore privato»."
   - "Art. 7: per il 2026 e il 2027 le indennità per lavoro notturno, festivo e a turni, fino a 1.500 euro l'anno, pagano il 15%, per chi ha redditi da lavoro dipendente fino a 40.000 euro nel settore privato."
-  - "Art. 9, comma 2: dal 2027, in modo permanente, il regime forfettario (imposta del 15% sul reddito stimato) vale fino a 100.000 euro di ricavi invece di 85.000; sopra 85.000 euro si paga comunque l'IVA. Si esce dal regime nello stesso anno sopra 115.000 euro."
+  - "Art. 9, comma 2: dal 2027, in modo permanente, il regime forfettario (imposta del 15% sul reddito stimato) vale fino a 100.000 euro di ricavi invece di 85.000; sopra 85.000 euro si paga comunque l'IVA (imposta sul valore aggiunto). Si esce dal regime nello stesso anno sopra 115.000 euro."
   - "Art. 9, comma 3: solo per il 2027 può restare nel forfettario anche chi ha un reddito da lavoro dipendente fino a 35.000 euro (oggi 30.000)."
-  - "Art. 10: dividendi delle azioni date ai dipendenti al posto dei premi di risultato esenti al 50% fino a 1.500 euro, per il 2025-2027."
+  - "Art. 10: dividendi delle azioni date al personale dipendente al posto dei premi di risultato esenti al 50% fino a 1.500 euro, per il 2025-2027."
 numeri:
   - voce: "Scaglione IRPEF fino a 55.000 euro (art. 9, c. 1)"
-    valore: "-1.434 mln di gettito di competenza, solo 2027; in cassa -1.166 mln nel 2027, -496 mln nel 2028, +212 mln nel 2029; circa 3,2 milioni di contribuenti coinvolti"
+    valore: "-1.434 mln di gettito di competenza, solo 2027; in cassa -1.166 mln nel 2027, -496 mln nel 2028, +212 mln nel 2029; circa 3,2 milioni di persone coinvolte"
     fonte: "Relazione tecnica A.C. 3174, art. 9"
   - voce: "Imposta del 5% sugli aumenti contrattuali (art. 6)"
-    valore: "-984 mln di competenza nel 2027; in cassa -873 mln nel 2027 e -120 mln nel 2028; platea stimata in circa 6,4 milioni di dipendenti privati con contratto rinnovato, più circa 0,9 milioni con contratto scaduto; aumento medio considerato 780 euro"
+    valore: "-984 mln di competenza nel 2027; in cassa -873 mln nel 2027 e -120 mln nel 2028; platea stimata in circa 6,4 milioni di persone dipendenti nel privato con contratto rinnovato, più circa 0,9 milioni con contratto scaduto; aumento medio considerato 780 euro"
     fonte: "Relazione tecnica A.C. 3174, art. 6"
   - voce: "Notturno, festivo e turni al 15% (art. 7)"
     valore: "-259 mln nel 2027 e -45 mln nel 2028"
     fonte: "Relazione tecnica A.C. 3174, art. 7"
   - voce: "Forfettario fino a 100.000 euro (art. 9, c. 2), permanente"
-    valore: "-263 mln nel 2027, -330 mln nel 2028, -323 mln l'anno dal 2029, contributi INPS compresi; circa 41.000 persone in più nel regime"
+    valore: "-263 mln nel 2027, -330 mln nel 2028, -323 mln l'anno dal 2029, contributi INPS (Istituto nazionale della previdenza sociale) compresi; circa 41.000 persone in più nel regime"
     fonte: "Relazione tecnica A.C. 3174, art. 9"
   - voce: "Forfettario con lavoro dipendente fino a 35.000 euro (art. 9, c. 3)"
-    valore: "-69 mln nel 2027 e -134 mln nel 2028; circa 52.200 contribuenti"
+    valore: "-69 mln nel 2027 e -134 mln nel 2028; circa 52.200 persone"
     fonte: "Relazione tecnica A.C. 3174, art. 9"
   - voce: "Totale delle misure di questa scheda, in cassa"
     valore: "circa -2,6 mld nel 2027 e -1,1 mld nel 2028 (somma nostra delle tabelle della relazione tecnica)"
@@ -54,21 +54,21 @@ numeri:
     valore: "Ogni punto di inflazione in più porta circa 1,6 mld di IRPEF in più, perché gli scaglioni non si adeguano ai prezzi"
     fonte: "UPB, audizione sul DPFP 2026, nota 109 (dati/raw/00b_upb_audizione_dpfp_2026.txt)"
 chi_guadagna:
-  - "Chi ha un reddito sopra 50.000 euro (circa 3,2 milioni di persone, la fascia alta dei contribuenti): fino a 500 euro, solo nel 2027. Riduce per un anno il salto all'aliquota del 43%, che in Italia scatta a un reddito relativamente basso nel confronto europeo (da verificare su dati OCSE), e restituisce una parte del drenaggio fiscale."
-  - "Dipendenti privati con reddito fino a 33.000 euro e contratto rinnovato: pagano meno tasse sull'aumento. Premia il rinnovo dei contratti, quindi indirettamente anche i sindacati e le associazioni datoriali che li firmano."
+  - "Chi ha un reddito sopra 50.000 euro (circa 3,2 milioni di persone, la fascia alta di chi paga le tasse): fino a 500 euro, solo nel 2027. Riduce per un anno il salto all'aliquota del 43%, che in Italia scatta a un reddito relativamente basso nel confronto europeo (da verificare su dati OCSE, l'Organizzazione per la cooperazione e lo sviluppo economico), e restituisce una parte del drenaggio fiscale."
+  - "Chi lavora da dipendente nel privato, con reddito fino a 33.000 euro e contratto rinnovato: paga meno tasse sull'aumento. Premia il rinnovo dei contratti, quindi indirettamente anche i sindacati e le associazioni datoriali che li firmano."
   - "Chi lavora di notte, nei festivi o a turni con reddito fino a 40.000 euro: sanità privata, industria, logistica, commercio."
   - "Circa 41.000 persone che lavorano in proprio o come professioniste, con ricavi tra 85.000 e 100.000 euro, in modo permanente."
 chi_paga:
-  - "Tutti i contribuenti e chi verrà dopo: la misura è un minore gettito di circa 2,6 mld nel 2027, coperto dentro i saldi complessivi della manovra e non da una copertura dedicata."
+  - "Tutte le persone che pagano le tasse e chi verrà dopo: la misura è un minore gettito di circa 2,6 mld nel 2027, coperto dentro i saldi complessivi della manovra e non da una copertura dedicata."
   - "Chi ha redditi bassi o non lavora: non riceve nulla dallo scaglione e poco o nulla dagli aumenti contrattuali (persone con redditi così bassi da non pagare IRPEF, cioè incapienti, persone in povertà, chi ha contratti non rinnovati)."
-  - "Dipendenti pubblici con reddito fino a 33.000 euro: l'imposta ridotta sugli aumenti esclude per legge i rinnovi del pubblico impiego."
+  - "Il personale pubblico con reddito fino a 33.000 euro: l'imposta ridotta sugli aumenti esclude per legge i rinnovi del pubblico impiego."
   - "Pensionate e pensionati: esclusi dagli artt. 6 e 7 e coinvolti dallo scaglione solo sopra 50.000 euro."
-  - "Dipendenti e autonomi in regime ordinario con ricavi o redditi simili a chi è nel forfettario: a parità di reddito pagano molto di più (un dipendente a 90.000 euro ha un'aliquota marginale del 43%, un forfettario paga il 15% sul reddito stimato)."
+  - "Chi lavora da dipendente o in autonomia in regime ordinario, con ricavi o redditi simili a chi è nel forfettario: a parità di reddito paga molto di più (con 90.000 euro da dipendente l'aliquota marginale è del 43%, chi è nel forfettario paga il 15% sul reddito stimato)."
 rischi_giuridici: "L'esame di costituzionalità non segnala gli artt. 7 e 9; l'art. 6 è a rischio basso perché la retroattività è a favore di chi lavora (costituzione/esami/AC3174_manovra_2027.md, punto 7). Resta un tema di uguaglianza (artt. 3 e 53 Cost.) per la distanza crescente tra forfettario e regime ordinario a parità di reddito: oggi non c'è un precedente in termini, ma la questione si allarga con la soglia a 100.000 euro."
 valori:
   - valore: BEN
     segno: "+"
-    perche: "Più reddito netto nel 2027 per milioni di dipendenti, con un aiuto al potere d'acquisto dopo l'inflazione dell'energia."
+    perche: "Più reddito netto nel 2027 per milioni di persone dipendenti, con un aiuto al potere d'acquisto dopo l'inflazione dell'energia."
   - valore: CIT
     segno: "+"
     perche: "L'imposta ridotta sugli aumenti premia il rinnovo dei contratti collettivi e il lavoro a turni, cioè la contrattazione e il lavoro dichiarato."
@@ -84,7 +84,7 @@ valori:
   - valore: INN
     segno: "-"
     perche: "Una soglia alta e un salto di imposta forte a 100.000 euro scoraggiano la crescita delle piccole attività sopra la soglia."
-bilancio: "Va bene sostenere i salari bassi legando lo sconto ai rinnovi dei contratti, e restituire una parte del drenaggio fiscale al ceto medio; non va bene farlo con la parte maggiore della spesa concentrata sopra 50.000 euro e per un solo anno, escludere i dipendenti pubblici dall'imposta ridotta sugli aumenti e allargare in modo permanente il forfettario, che premia pochi e rende il fisco meno uguale."
+bilancio: "Va bene sostenere i salari bassi legando lo sconto ai rinnovi dei contratti, e restituire una parte del drenaggio fiscale al ceto medio. Non va bene farlo con la parte maggiore della spesa concentrata sopra 50.000 euro e per un solo anno. Non va bene escludere il personale pubblico dall'imposta ridotta sugli aumenti. E non va bene allargare in modo permanente il forfettario, che premia pochi e rende il fisco meno uguale."
 governai:
   proposte: [01-P9, 01-P7, 01-P2, 02-C1]
   confronto: "GovernAI propone una sola detrazione per il lavoro senza scalini (01-P9), ma nel programma intermedio solo nella versione a costo zero, che riordina e non abbassa le tasse: sul potere d'acquisto del ceto medio GovernAI oggi non offre nulla di paragonabile, ed è un limite. Sul forfettario va nella direzione opposta: la copertura SF02 alza al 20% l'imposta sui ricavi tra 50.000 e 85.000 euro. Il legame con i contratti più rappresentativi (art. 6) è coerente con 02-C1. La clausola di scadenza e la valutazione delle spese fiscali (01-P2) si applicherebbe a tutte queste agevolazioni. Neanche GovernAI restituisce il drenaggio fiscale: è un altro limite dichiarato."
@@ -95,7 +95,7 @@ cosa_cambieremmo:
   - "Pubblicare con la legge una tabella per fascia di reddito (decili) di chi guadagna e quanto, come fa la relazione tecnica solo per il totale."
 domande_aperte:
   - "Che cosa succede nel 2028: lo scaglione a 55.000 euro sarà prorogato? Con quale copertura?"
-  - "Come si distribuisce il beneficio dello scaglione e del forfettario per genere e per area geografica? (statistiche MEF sulle dichiarazioni, da verificare)"
+  - "Come si distribuisce il beneficio dello scaglione e del forfettario per genere e per area geografica? (statistiche del Ministero dell'economia e delle finanze, MEF, sulle dichiarazioni, da verificare)"
   - "Quanti dei nuovi ingressi nel forfettario dichiarano ricavi appena sotto la soglia? Serve un controllo dell'Agenzia delle entrate a due anni."
 fonti:
   - "A.C. 3174, Tomo II, artt. 6, 7, 9 e 10 (costituzione/testi/AC3174_articolato.txt)"
@@ -111,3 +111,5 @@ revisioni:
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."
+  - data: 2026-11-15
+    nota: "Linguaggio più chiaro e inclusivo, sigle spiegate (revisione di comunicazione inclusiva)."

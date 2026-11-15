@@ -83,7 +83,7 @@
   const esito = (el, testo, tipo = "favorevole") => { if (el) el.innerHTML = `<div class="avviso ${tipo}" role="status"><p>${esc(testo)}</p></div>`; };
   const attesa = `<p class="nota" role="status">${icona("loader")} Caricamento…</p>`;
   const briciole = (pagina) => `<nav class="briciole" aria-label="Briciole di pane"><a href="#/comunita">Comunità</a><span aria-hidden="true">›</span><span aria-current="page">${esc(pagina)}</span></nav>`;
-  const porta = (testo = "La discussione è riservata agli iscritti, che entrano su invito. Il programma, i dati e i controlli restano leggibili da tutti.") => `
+  const porta = (testo = "La discussione è riservata alle persone iscritte, che entrano su invito. Il programma, i dati e i controlli restano leggibili da tutti.") => `
     <div class="card comunita-porta">
       <p>${icona("lock")} ${esc(testo)}</p>
       <div class="azioni"><a class="btn primario s" href="#/comunita/entra" data-cazione="ricorda">Entra</a><a class="btn s" href="#/comunita/richiedi">Chiedi un invito</a><a class="btn terziario s" href="#/comunita/regole">Regole</a></div>
@@ -105,18 +105,18 @@
       <h2 class="sezione" id="privacy">Informativa sul trattamento dei dati</h2><div class="md documento card">${ctx.md((ctx.D.comunita || {}).privacy || "")}</div>`;
     if (!ATTIVA) return `<h1>Comunità</h1>${inPreparazione}`;
     if (b === "entra") return `${briciole("Entra")}<h1>Entra nella comunità</h1>
-      <p class="risposta">Scrivi l'email con cui ti sei iscritto: ti mandiamo un codice di accesso. Nessuna password da ricordare.</p>
+      <p class="risposta">Scrivi l'email usata per l'iscrizione: ti mandiamo un codice di accesso. Nessuna password da ricordare.</p>
       <div data-c="entra" class="comunita-modulo"></div>`;
     if (b === "invito") return `${briciole("Iscrizione")}<h1>Hai ricevuto un invito</h1>
       <p class="risposta">Con l'iscrizione puoi discutere le proposte, prendere appunti con gli altri e segnalare errori. Qui nessuno decide: si ragiona insieme, persone e AI.</p>
       <div data-c="invito" data-codice="${esc(c || "")}" class="comunita-modulo"></div>`;
     if (b === "richiedi") return `${briciole("Chiedi un invito")}<h1>Chiedi un invito</h1>
-      <p class="risposta">La comunità è aperta a ogni cittadino curioso. Si entra su invito per tenere la discussione rispettosa: dicci in due righe perché ti interessa. Un moderatore esamina la richiesta secondo le <a href="#/comunita/regole">regole pubbliche</a>.</p>
+      <p class="risposta">La comunità è aperta a ogni cittadino curioso. Si entra su invito per tenere la discussione rispettosa: dicci in due righe perché ti interessa. Una persona del gruppo di moderazione esamina la richiesta secondo le <a href="#/comunita/regole">regole pubbliche</a>.</p>
       <form class="card comunita-modulo" data-cform="richiedi">
         <label class="campo">Nome e cognome (non viene pubblicato)<input name="nome" required minlength="2" maxlength="80" autocomplete="name"></label>
         <label class="campo">Email<input name="email" type="email" required maxlength="200" autocomplete="email"></label>
         <label class="campo">Perché vuoi partecipare<textarea name="motivazione" required minlength="20" maxlength="1500" rows="4"></textarea></label>
-        <label class="spunta"><input type="checkbox" name="consenso" required><span>Ho letto l'<a href="#/comunita/regole" target="_blank">informativa</a> e acconsento al trattamento dei miei dati per esaminare la richiesta.</span></label>
+        <label class="spunta"><input type="checkbox" name="consenso" required><span>Ho letto l'<a href="#/comunita/regole" target="_blank" rel="noopener">informativa<span class="vh"> (si apre in una nuova scheda)</span></a> e acconsento al trattamento dei miei dati per esaminare la richiesta.</span></label>
         <div class="azioni"><button class="btn primario" type="submit">Invia la richiesta</button></div>
         <div class="esito" aria-live="polite"></div>
       </form>`;
@@ -124,7 +124,7 @@
     if (b === "moderazione") return `${briciole("Moderazione")}<h1>Moderazione</h1>
       <p class="risposta">Ogni azione richiede una motivazione e finisce nel <a href="#/comunita/registro">registro pubblico</a>. Si modera il comportamento, non le opinioni.</p><div data-c="moderazione">${attesa}</div>`;
     if (b === "registro") return `${briciole("Registro della moderazione")}<h1>Registro della moderazione</h1>
-      <p class="risposta">Tutte le azioni dei moderatori e delle regole automatiche, con il motivo. Visibile a ogni iscritto.</p><div data-c="registro">${attesa}</div>`;
+      <p class="risposta">Tutte le azioni di moderazione e delle regole automatiche, con il motivo. Visibile a ogni persona iscritta.</p><div data-c="registro">${attesa}</div>`;
     if (b === "tema" && c) return `${briciole(nomeTema(c))}<h1>${esc(nomeTema(c))}</h1><section data-c="discussione" data-tema="${esc(c)}"></section>`;
     return `<h1>Comunità</h1>
       <p class="risposta">Uno spazio per ragionare sul programma: si discute, si prendono appunti, si confrontano idee con le altre persone e con l'AI. <strong>Qui nessuno decide</strong>, nemmeno chi ha avviato il progetto: le idee migliori diventano proposte che passano dagli stessi controlli di tutte le altre.</p>
@@ -132,7 +132,7 @@
   }
 
   // Sezione di discussione da inserire in altre pagine (scheda proposta, ministeri).
-  const sezione = (tema, titolo = "Discussione fra iscritti") => `<section class="sezione" aria-labelledby="t-disc"><div class="sezione-testa"><h2 id="t-disc">${esc(titolo)}</h2><a href="#/comunita/regole">Regole</a></div><div data-c="discussione" data-tema="${esc(tema)}"></div></section>`;
+  const sezione = (tema, titolo = "Discussione della comunità") => `<section class="sezione" aria-labelledby="t-disc"><div class="sezione-testa"><h2 id="t-disc">${esc(titolo)}</h2><a href="#/comunita/regole">Regole</a></div><div data-c="discussione" data-tema="${esc(tema)}"></div></section>`;
 
   // ---------- riempimento asincrono ----------
   function monta(radice) {
@@ -146,9 +146,9 @@
   }
 
   async function montaHome(el) {
-    if (!haSessione()) { el.innerHTML = porta("Per partecipare serve un invito. Chi è già iscritto entra con la propria email."); return; }
+    if (!haSessione()) { el.innerHTML = porta("Per partecipare serve un invito. Chi ha già un account entra con la propria email."); return; }
     const p = await mioProfilo();
-    if (!p) { el.innerHTML = porta("Hai confermato l'email ma non risulti iscritto: per iscriverti apri il link d'invito che hai ricevuto."); return; }
+    if (!p) { el.innerHTML = porta("Hai confermato l'email ma non risulta un'iscrizione a tuo nome: per iscriverti apri il link d'invito che hai ricevuto."); return; }
     const ultimi = await rpc("ultimi", { p_limite: 15 });
     el.innerHTML = `
       ${statoProfilo(p)}
@@ -162,7 +162,7 @@
       </section>`;
   }
   const statoProfilo = (p) => `<div class="card comunita-io">
-      <p><strong>${esc(p.nome_pubblico)}</strong> · ${p.stato === "prova" ? `in prova: i tuoi interventi compaiono dopo una revisione (${p.approvati} su 3 approvati)` : p.stato === "attivo" ? "iscritto" : "account sospeso"}${p.moderatore ? " · moderatore" : ""}</p>
+      <p><strong>${esc(p.nome_pubblico)}</strong> · ${p.stato === "prova" ? `in prova: i tuoi interventi compaiono dopo una revisione (${p.approvati} su 3 approvati)` : p.stato === "attivo" ? "iscrizione attiva" : "account sospeso"}${p.moderatore ? " · gruppo di moderazione" : ""}</p>
       <div class="azioni"><a class="btn s" href="#/comunita/profilo">${icona("user-round")}Profilo e inviti</a>${p.moderatore ? `<a class="btn s" href="#/comunita/moderazione">${icona("shield")}Moderazione</a>` : ""}<button class="btn terziario s" type="button" data-cazione="esci">Esci</button></div>
     </div>`;
 
@@ -174,7 +174,7 @@
       <div class="esito" aria-live="polite"></div></form>`;
   }
   const moduloCodice = (email) => `<form class="card" data-cform="verifica" data-email="${esc(email)}">
-      <p>Ti abbiamo scritto a <strong>${esc(email)}</strong>. Scrivi qui sotto il codice che trovi nell'email, oppure clicca il link nell'email: tornerai qui già collegato. Valgono un'ora; se non trovi l'email, guarda nella posta indesiderata.</p>
+      <p>Ti abbiamo scritto a <strong>${esc(email)}</strong>. Scrivi qui sotto il codice che trovi nell'email, oppure apri il link nell'email: tornerai qui con l'accesso già fatto. Il codice e il link valgono un'ora; se non trovi l'email, guarda nella posta indesiderata.</p>
       <label class="campo">Codice ricevuto via email<input name="codice" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6,8}" maxlength="8" required></label>
       <div class="azioni"><button class="btn primario" type="submit">Entra</button><button class="btn terziario s" type="button" data-cazione="altra-email">Usa un'altra email</button></div>
       <div class="esito" aria-live="polite"></div></form>`;
@@ -185,7 +185,7 @@
       catch (e) { accesso = null; el.innerHTML = errore(messaggio(e)); el.insertAdjacentHTML("beforeend", moduloEmail(false)); return; }
     }
     if (haSessione() && await mioProfilo()) { torna(); return; }
-    el.innerHTML = `${moduloEmail(false)}<p class="nota">Non sei iscritto? <a href="#/comunita/richiedi">Chiedi un invito</a>.</p>`;
+    el.innerHTML = `${moduloEmail(false)}<p class="nota">Non hai ancora un account? <a href="#/comunita/richiedi">Chiedi un invito</a>.</p>`;
   }
   async function montaInvito(el) {
     const codice = el.dataset.codice;
@@ -194,7 +194,7 @@
       return;
     }
     const p = haSessione() ? await mioProfilo() : null;
-    if (p) { el.innerHTML = `<div class="avviso info"><p>Sei già iscritto come <strong>${esc(p.nome_pubblico)}</strong>.</p></div><div class="azioni sezione"><a class="btn primario" href="#/comunita">Vai alla comunità</a></div>`; return; }
+    if (p) { el.innerHTML = `<div class="avviso info"><p>Hai già un account con il nome <strong>${esc(p.nome_pubblico)}</strong>.</p></div><div class="azioni sezione"><a class="btn primario" href="#/comunita">Vai alla comunità</a></div>`; return; }
     const u = haSessione() ? await utente() : null;
     el.innerHTML = u ? moduloIscrizione(codice, u.email) : `<ol class="comunita-passi"><li><strong>Conferma la tua email</strong>: ti mandiamo un codice di accesso.</li><li>Scegli il <strong>nome pubblico</strong> con cui compari nelle discussioni.</li></ol>${moduloEmail(true)}`;
   }
@@ -202,8 +202,8 @@
       <p class="nota">Email confermata: ${esc(email)} (non viene mostrata agli altri).</p>
       <label class="campo">Nome pubblico (da 3 a 40 caratteri; puoi usare uno pseudonimo)<input name="nome" required minlength="3" maxlength="40" pattern="[\\p{L}\\p{N}][\\p{L}\\p{N} ._'\\-]*" autocomplete="nickname"></label>
       <label class="spunta"><input type="checkbox" name="eta" required><span>Ho almeno 14 anni.</span></label>
-      <label class="spunta"><input type="checkbox" name="regole" required><span>Accetto le <a href="#/comunita/regole" target="_blank">regole della comunità</a>.</span></label>
-      <label class="spunta"><input type="checkbox" name="consenso" required><span>Ho letto l'<a href="#/comunita/regole" target="_blank">informativa</a>. Acconsento esplicitamente al trattamento dei miei dati, compreso il fatto che l'iscrizione può rivelare un interesse politico (art. 9 del GDPR).</span></label>
+      <label class="spunta"><input type="checkbox" name="regole" required><span>Accetto le <a href="#/comunita/regole" target="_blank" rel="noopener">regole della comunità<span class="vh"> (si apre in una nuova scheda)</span></a>.</span></label>
+      <label class="spunta"><input type="checkbox" name="consenso" required><span>Ho letto l'<a href="#/comunita/regole" target="_blank" rel="noopener">informativa<span class="vh"> (si apre in una nuova scheda)</span></a>. Acconsento esplicitamente al trattamento dei miei dati, compreso il fatto che l'iscrizione può rivelare un interesse politico (art. 9 del GDPR).</span></label>
       <div class="azioni"><button class="btn primario" type="submit">Iscriviti</button></div>
       <div class="esito" aria-live="polite"></div></form>`;
 
@@ -213,10 +213,10 @@
     const inviti = await rpc("miei_inviti");
     el.innerHTML = `${statoProfilo(p)}
       <section class="sezione"><div class="sezione-testa"><h2>I tuoi inviti</h2><span class="nota">${p.inviti_residui} disponibili</span></div>
-        <p class="nota">Ogni invito è personale e vale 30 giorni. Chi entra risulta invitato da te: invita persone che rispetteranno le regole.${p.invitato_da ? ` Tu sei entrato con l'invito di ${esc(p.invitato_da)}.` : ""}</p>
+        <p class="nota">Ogni invito è personale e vale 30 giorni. Il tuo nome resta legato a chi entra con il tuo invito: invita persone che rispetteranno le regole.${p.invitato_da ? ` Ti ha invitato ${esc(p.invitato_da)}.` : ""}</p>
         ${p.stato === "attivo" && p.inviti_residui > 0 ? `<div class="azioni"><button class="btn primario s" type="button" data-cazione="crea-invito">${icona("send")}Crea un invito</button></div>` : p.stato === "prova" ? `<p class="nota">Potrai invitare altre persone dopo il periodo di prova.</p>` : ""}
         <div class="esito" id="esito-invito" aria-live="polite"></div>
-        ${inviti.length ? `<ul class="risultati comunita-inviti">${inviti.map((i) => `<li><div><strong>${i.usato ? `Usato da ${esc(i.invitato || "un iscritto")}` : i.revocato ? "Revocato" : new Date(i.scade_at) < new Date() ? "Scaduto" : "Da usare"}</strong><small>creato il ${quando(i.creato_at)}</small></div>
+        ${inviti.length ? `<ul class="risultati comunita-inviti">${inviti.map((i) => `<li><div><strong>${i.usato ? `Usato da ${esc(i.invitato || "una persona iscritta")}` : i.revocato ? "Revocato" : new Date(i.scade_at) < new Date() ? "Scaduto" : "Da usare"}</strong><small>creato il ${quando(i.creato_at)}</small></div>
           ${!i.usato && !i.revocato && new Date(i.scade_at) > new Date() ? `<div class="azioni"><button class="btn s" type="button" data-cazione="copia-invito" data-codice="${esc(i.codice)}">Copia il link</button><button class="btn terziario s" type="button" data-cazione="revoca-invito" data-codice="${esc(i.codice)}">Revoca</button></div>` : ""}</li>`).join("")}</ul>` : ""}
       </section>
       <section class="sezione"><div class="sezione-testa"><h2>I tuoi dati</h2><a href="#/comunita/regole">Informativa</a></div>
@@ -227,7 +227,7 @@
 
   async function montaModerazione(el) {
     const p = haSessione() ? await mioProfilo(true) : null;
-    if (!p || !p.moderatore) { el.innerHTML = errore("Questa pagina è riservata ai moderatori."); return; }
+    if (!p || !p.moderatore) { el.innerHTML = errore("Questa pagina è riservata al gruppo di moderazione."); return; }
     const [coda, richieste] = await Promise.all([rpc("da_moderare"), rpc("richieste_in_attesa")]);
     const motivo = (id) => `<label class="campo largo">Motivo (finisce nel registro)<input name="motivo" required minlength="3" maxlength="500" data-per="${id}"></label>`;
     el.innerHTML = `
@@ -245,10 +245,10 @@
           <div class="filtri-barra">${motivo(r.id)}<button class="btn primario s" name="azione" value="si">Accogli</button><button class="btn s" name="azione" value="no">Non accogliere</button></div>
           <div class="esito" aria-live="polite"></div></form>`).join("") : `<p class="nota">Nessuna richiesta in attesa.</p>`}
       </section>
-      <section class="sezione"><div class="sezione-testa"><h2>Sospendere o riattivare un iscritto</h2></div>
+      <section class="sezione"><div class="sezione-testa"><h2>Sospendere o riattivare una persona iscritta</h2></div>
         <form class="card" data-cform="sospendi">
           <div class="filtri-barra"><label class="campo">Nome pubblico<input name="nome" required></label><label class="campo largo">Motivo<input name="motivo" required minlength="3" maxlength="500"></label></div>
-          <label class="spunta"><input type="checkbox" name="ramo"><span>Azzera anche gli inviti di chi lo ha invitato</span></label>
+          <label class="spunta"><input type="checkbox" name="ramo"><span>Azzera anche gli inviti di chi l'ha invitata</span></label>
           <div class="azioni"><button class="btn s" name="azione" value="sospendi">Sospendi</button><button class="btn s" name="azione" value="riattiva">Riattiva</button></div>
           <div class="esito" aria-live="polite"></div></form>
       </section>`;
@@ -269,7 +269,7 @@
     el.innerHTML = attesa;
     try {
       const p = await mioProfilo();
-      if (!p) { el.innerHTML = porta("Hai confermato l'email ma non risulti iscritto: apri il link d'invito che hai ricevuto."); return; }
+      if (!p) { el.innerHTML = porta("Hai confermato l'email ma non risulta un'iscrizione a tuo nome: apri il link d'invito che hai ricevuto."); return; }
       if (p.stato === "sospeso") { el.innerHTML = errore("Il tuo account è sospeso: puoi leggere il motivo nel registro della moderazione."); return; }
       const voci = await rpc("leggi", { p_tema: el.dataset.tema });
       const figli = {}; voci.forEach((v) => { (figli[v.risponde_a || 0] = figli[v.risponde_a || 0] || []).push(v); });
@@ -286,7 +286,7 @@
           <div class="interv-spazio"></div>
           ${(figli[v.id] || []).length ? `<ul class="interv-lista">${figli[v.id].map((f) => albero(f, liv + 1)).join("")}</ul>` : ""}
         </li>`;
-      el.innerHTML = `${p.stato === "prova" ? `<div class="avviso info"><p>Sei nel periodo di prova: i tuoi interventi compaiono a tutti dopo la revisione di un moderatore.</p></div>` : ""}
+      el.innerHTML = `${p.stato === "prova" ? `<div class="avviso info"><p>Sei nel periodo di prova: i tuoi interventi compaiono a tutti dopo la revisione del gruppo di moderazione.</p></div>` : ""}
         ${radici.length ? `<ul class="interv-lista">${radici.map((v) => albero(v, 1)).join("")}</ul>` : `<p class="nota">Nessun intervento ancora. Apri tu la discussione: un dubbio, un dato da verificare, un'idea per migliorare la proposta.</p>`}
         ${moduloScrivi()}`;
     } catch (e) { el.innerHTML = errore(messaggio(e)); }
@@ -298,7 +298,7 @@
       <div class="esito" aria-live="polite"></div></form>`;
   const moduloSegnala = (id) => `<form class="card comunita-scrivi" data-cform="segnala" data-id="${id}">
       <label class="campo">Perché lo segnali<select name="motivo" required><option value="">Scegli…</option><option value="offesa">Offende una persona</option><option value="odio">Incita all'odio o discrimina</option><option value="spam">Pubblicità o spam</option><option value="dati_personali">Contiene dati personali di altri</option><option value="falso">Afferma il falso in modo deliberato</option><option value="fuori_tema">Fuori tema</option></select></label>
-      <label class="campo">Nota per i moderatori (facoltativa)<input name="nota" maxlength="500"></label>
+      <label class="campo">Nota per chi modera (facoltativa)<input name="nota" maxlength="500"></label>
       <div class="azioni"><button class="btn primario s" type="submit">Segnala</button><button class="btn terziario s" type="button" data-cazione="annulla">Annulla</button></div>
       <div class="esito" aria-live="polite"></div></form>`;
   const ricarica = (el) => { const d = el.closest('[data-c="discussione"]'); if (d) montaDiscussione(d); };
@@ -329,14 +329,14 @@
         profilo = undefined;
         const box = f.closest('[data-c="invito"]');
         if (box) { f.outerHTML = moduloIscrizione(box.dataset.codice, f.dataset.email); $("[name=nome]").focus(); return; }
-        if (!(await mioProfilo())) { esito(out, "Email confermata, ma non risulti iscritto: per iscriverti apri il link d'invito.", "attenzione"); return; }
+        if (!(await mioProfilo())) { esito(out, "Email confermata, ma non risulta un'iscrizione a tuo nome: per iscriverti apri il link d'invito.", "attenzione"); return; }
         torna(); return;
       } else if (tipo === "iscrizione") {
         await rpc("usa_invito", { p_codice: f.dataset.codice, p_nome: String(dati.get("nome")).trim(), p_consenso: dati.get("consenso") === "on" });
         profilo = undefined; location.hash = "#/comunita"; return;
       } else if (tipo === "scrivi") {
         const r = await rpc("scrivi", { p_tema: f.closest('[data-c="discussione"]').dataset.tema, p_testo: dati.get("testo"), p_risponde_a: f.dataset.risponde ? +f.dataset.risponde : null });
-        if (r.stato !== "visibile") { f.reset(); esito(out, "Ricevuto: comparirà a tutti dopo la revisione di un moderatore.", "info"); }
+        if (r.stato !== "visibile") { f.reset(); esito(out, "Ricevuto: comparirà a tutti dopo la revisione del gruppo di moderazione.", "info"); }
         ricarica(f); return;
       } else if (tipo === "segnala") {
         await rpc("segnala", { p_id: +f.dataset.id, p_motivo: dati.get("motivo"), p_nota: dati.get("nota") || null });

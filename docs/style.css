@@ -447,7 +447,7 @@ details.richiudibile>.corpo{ padding:0 16px 16px; }
 .classifica a{ color:var(--c-testo); font-weight:600; text-decoration:none; }
 .classifica a:hover{ color:var(--c-accento); text-decoration:underline; }
 .punti{ display:inline-flex; gap:2px; vertical-align:middle; }
-.punti span{ width:8px; height:8px; border-radius:2px; background:var(--g-traccia); }
+.punti span{ display:inline-flex; align-items:center; justify-content:center; width:12px; height:12px; border-radius:2px; background:var(--g-traccia); color:var(--c-superficie); font-size:11px; font-weight:700; line-height:1; }
 .punti span.p{ background:var(--g-positivo); } .punti span.n{ background:var(--g-negativo); }
 
 /* metodo */
@@ -702,3 +702,6 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 .accesso{ gap:6px; max-width:200px; }
 .accesso span{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 @media (max-width:599px){ .accesso{ max-width:140px; } }
+.sv.m i{ background:linear-gradient(135deg,var(--g-positivo) 50%,var(--g-negativo) 50%); }
+.sv.m i::after{ width:8px; height:2px; clip-path:none; }
+.legenda-valori .sv.m i::after{ width:6px; }

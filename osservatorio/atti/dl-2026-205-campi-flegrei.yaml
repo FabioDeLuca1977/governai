@@ -28,10 +28,10 @@ cosa_fa:
   - "Fino alla fine della gestione commissariale nessun creditore può avviare esecuzioni sulle contabilità del commissario, e i pignoramenti sono inefficaci (art. 5, comma 5)."
   - "Nella zona di intervento si consuma nuovo suolo solo in casi eccezionali, se non si può recuperare l'edificato esistente (art. 9)."
   - "Contributi per le case sgomberate pagati al metro quadro, con i costi della ricostruzione del Centro Italia 2016. Decisione in 60 giorni, controlli su almeno il 15% delle domande, al netto delle assicurazioni. Servono un titolo edilizio valido o una sanatoria già ottenuta (artt. 11-12)."
-  - "Sanatorie in 60 giorni per i lavori fatti prima del 1° agosto 2026. I condoni del 1985, 1994 e 2003 ancora aperti si chiudono con priorità in 90 giorni. Il contributo arriva solo se la sanatoria va a buon fine; multe e oblazioni restano a carico del proprietario (art. 13)."
+  - "Sanatorie in 60 giorni per i lavori fatti prima del 1° agosto 2026. I condoni del 1985, 1994 e 2003 ancora aperti si chiudono con priorità in 90 giorni. Il contributo arriva solo se la sanatoria va a buon fine; multe e oblazioni restano a carico di chi possiede l'immobile (art. 13)."
   - "Chi vuole può usare il contributo per comprare casa o terreno fuori dalla zona a rischio, senza superare il costo della riparazione; l'area lasciata va al Comune (art. 14)."
   - "Per la riduzione della vulnerabilità sismica il contributo sale dal 70% al 100% per chi ha un reddito sotto 28.000 euro, esclusa la casa, anche per le domande già decise (art. 16)."
-  - "Inoltre: 30 milioni per spostare case popolari di Pozzuoli (art. 15, nuovo art. 13-ter del DL 144/2026), 10 milioni per le chiese (art. 20), sospensione di tasse e contributi per chi è stato sgomberato (art. 21). Ci sono anche norme su Niscemi in Sicilia (art. 26) e su Bagnoli (art. 27)."
+  - "Inoltre: 30 milioni per spostare case popolari di Pozzuoli (art. 15, nuovo art. 13-ter del decreto-legge (DL) 144/2026), 10 milioni per le chiese (art. 20), sospensione di tasse e contributi per chi è stato sgomberato (art. 21). Ci sono anche norme su Niscemi in Sicilia (art. 26) e su Bagnoli (art. 27)."
 numeri:
   - voce: "Fondi per la prevenzione e la riparazione"
     valore: "100 milioni l'anno dal 2027 al 2036, 1 mld in dieci anni"
@@ -57,7 +57,7 @@ numeri:
 chi_guadagna:
   - "Famiglie con casa danneggiata o fragile nella zona di intervento, soprattutto con redditi bassi (contributo al 100%)."
   - "Chi sceglie di trasferirsi fuori dalla zona a rischio: può usare il contributo per comprare altrove."
-  - "Proprietari con condoni o sanatorie aperti: le pratiche si chiudono in tempi certi."
+  - "Chi possiede immobili con condoni o sanatorie aperti: le pratiche si chiudono in tempi certi."
   - "Regione Campania: guida tutti gli interventi per dieci anni."
   - "Professionisti e imprese edili della zona: lavori finanziati per dieci anni, con onorari fino al 10% dei lavori."
   - "Enti religiosi proprietari di chiese danneggiate: 10 milioni."
@@ -66,7 +66,7 @@ chi_paga:
   - "La prevenzione sismica nel resto d'Italia: circa 40 milioni tolti ai fondi del Dipartimento Casa Italia."
   - "Imprese e persone che vantano crediti verso il commissario: per anni non possono riscuotere con la forza."
   - "Chi rispetta le regole edilizie: in zona di massimo rischio vulcanico, edifici condonati possono ricevere contributi pubblici; è un rischio se servono ad ampliarli e non a renderli sicuri."
-rischi_giuridici: "Lo screening automatico (costituzione/esami/gu/26G00225.md) segnala tre rischi alti (artt. 12, 18, 21) e sei medi. Quelli sugli artt. 12 e 21 sono probabilmente falsi allarmi: le date passate sono quelle delle scosse, e le sospensioni dei termini favoriscono chi è colpito. Sugli artt. 5, 6, 18 e 19 conta il rapporto con Regione e Comuni. Qui il rischio è basso, perché il commissario è lo stesso presidente della Regione, ma va garantito che le funzioni comunali tolte abbiano risorse. Ad avviso di questo commento il punto più debole non è segnalato dallo screening. Il blocco delle esecuzioni e l'inefficacia dei pignoramenti fino al 2036 (art. 5, comma 5) toccano il diritto di agire in giudizio e il giusto processo (artt. 24 e 111; art. 6 CEDU). La Corte costituzionale ha già dichiarato illegittimo un blocco simile delle esecuzioni contro le aziende sanitarie della Campania, prorogato nel tempo (sent. 186/2013, sull'art. 1, comma 51, della L. 220/2010): è un dubbio serio. Le ordinanze in deroga per dieci anni sono ammesse solo se motivate e nei limiti dei principi generali, come prevede l'art. 1, comma 6. Le norme su Niscemi e su Bagnoli sono poco omogenee con il titolo (sent. 22/2012). Gli aiuti alle attività economiche richiedono la base europea sugli aiuti di Stato (art. 15)."
+rischi_giuridici: "Lo screening automatico (costituzione/esami/gu/26G00225.md) segnala tre rischi alti (artt. 12, 18, 21) e sei medi. Quelli sugli artt. 12 e 21 sono probabilmente falsi allarmi: le date passate sono quelle delle scosse, e le sospensioni dei termini favoriscono chi è colpito. Sugli artt. 5, 6, 18 e 19 conta il rapporto con Regione e Comuni. Qui il rischio è basso, perché il commissario è lo stesso presidente della Regione, ma va garantito che le funzioni comunali tolte abbiano risorse. Ad avviso di questo commento il punto più debole non è segnalato dallo screening. Il blocco delle esecuzioni e l'inefficacia dei pignoramenti fino al 2036 (art. 5, comma 5) toccano il diritto di agire in giudizio e il giusto processo (artt. 24 e 111; art. 6 della Convenzione europea dei diritti dell'uomo, CEDU). La Corte costituzionale ha già dichiarato illegittimo un blocco simile delle esecuzioni contro le aziende sanitarie della Campania, prorogato nel tempo (sent. 186/2013, sull'art. 1, comma 51, della L. 220/2010): è un dubbio serio. Le ordinanze in deroga per dieci anni sono ammesse solo se motivate e nei limiti dei principi generali, come prevede l'art. 1, comma 6. Le norme su Niscemi e su Bagnoli sono poco omogenee con il titolo (sent. 22/2012). Gli aiuti alle attività economiche richiedono la base europea sugli aiuti di Stato (art. 15)."
 valori:
   - valore: SIC
     segno: "+"
@@ -83,7 +83,7 @@ valori:
   - valore: RIS
     segno: "+"
     perche: "Il trasferimento è volontario e si può affidare la domanda all'inquilino: si rispetta la scelta delle persone."
-bilancio: "Vanno bene un piano decennale con risorse certe, il contributo pieno per i redditi bassi, il limite al consumo di suolo, il trasferimento volontario e i controlli sulle domande. Non vanno bene la copertura presa da altre zone colpite da disastri, il blocco dei creditori fino al 2036, i contributi a edifici condonati in zona di massimo rischio senza vincolarli alla sola messa in sicurezza, e le norme estranee al titolo."
+bilancio: "Vanno bene un piano decennale con risorse certe e il contributo pieno per i redditi bassi. Vanno bene anche il limite al consumo di suolo, il trasferimento volontario e i controlli sulle domande. Non vanno bene la copertura presa da altre zone colpite da disastri e il blocco dei creditori fino al 2036. Non vanno bene neppure i contributi a edifici condonati in zona di massimo rischio, se non sono vincolati alla sola messa in sicurezza. Né vanno bene le norme estranee al titolo."
 governai:
   proposte: [03-P4, 09-C3]
   confronto: "GovernAI propone un fondo nazionale per la prevenzione dei rischi naturali, assegnato in base a una graduatoria del rischio e non dell'emergenza. Lo accompagna con uno schema assicurativo per le case con adesione automatica, il divieto di costruire nelle aree a rischio più alto e nessun indennizzo agli edifici abusivi o condonati (03-P4, versione essenziale nel programma intermedio). Prevede anche squadre tecniche per i piccoli Comuni (09-C3). Il decreto invece finanzia una sola area, prendendo i soldi ad altre, e accetta i condoni. Ma anche GovernAI ha dei limiti. La sua versione essenziale vale 0,6 mld l'anno per tutta Italia, concentrati soprattutto su frane e alluvioni. Una parte della copertura viene dai fondi di coesione e finisce nel 2030. La regola «nessun indennizzo ai condonati» potrebbe lasciare famiglie in case pericolose senza aiuto per rinforzarle. E GovernAI non ha una proposta specifica per il rischio vulcanico."
@@ -111,3 +111,5 @@ revisioni:
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."
+  - data: 2026-11-15
+    nota: "Linguaggio più chiaro e inclusivo, sigle spiegate (revisione di comunicazione inclusiva)."

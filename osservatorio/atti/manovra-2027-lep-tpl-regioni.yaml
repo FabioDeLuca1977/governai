@@ -1,13 +1,13 @@
 # Commento dell'Osservatorio (vedi osservatorio/metodo.md)
 id: manovra-2027-lep-tpl-regioni
 titolo: "Servizi essenziali: livelli sociali senza soldi nuovi, Fondo per il trasporto locale sostituito da quota IRPEF"
-atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, artt. 119 e 131-134; Sezione II, programma 13.6; d.lgs. 7 agosto 2026, n. 147, art. 33 (soppressione del Fondo TPL)"
+atto: "DDL (disegno di legge) di bilancio 2027-2029, A.C. 3174-bis, artt. 119 e 131-134; Sezione II, programma 13.6; decreto legislativo (d.lgs.) 7 agosto 2026, n. 147, art. 33 (soppressione del Fondo per il trasporto pubblico locale, TPL)"
 tipo: legge di bilancio
 data: 2026-10-30
-stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026. Il decreto che fissa la quota IRPEF delle Regioni va adottato d'intesa entro il 31 dicembre 2026"
+stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026. Il decreto che fissa la quota IRPEF (imposta sul reddito delle persone fisiche) delle Regioni va adottato d'intesa entro il 31 dicembre 2026"
 fonte: "https://www.camera.it/leg19/126?tab=&leg=19&idDocumento=3174"
 tema: "04"
-in_breve: "Dal 2027 i 5,26 mld del Fondo per autobus e treni regionali non sono più un trasferimento: le Regioni ricevono una quota dell'IRPEF. Per i livelli essenziali dei servizi sociali e dell'assistenza ad alunne e alunni con disabilità, Regioni e Comuni devono «concorrere» con i soldi che hanno già."
+in_breve: "Dal 2027 i 5,26 mld del Fondo per autobus e treni regionali non sono più un trasferimento: le Regioni ricevono una quota dell'IRPEF. Ci sono poi i livelli essenziali dei servizi sociali e dell'assistenza ad alunne e alunni con disabilità. Per garantirli, Regioni e Comuni devono «concorrere» con i soldi che hanno già."
 cifre_chiave:
   - numero: "5,26"
     unita: "mld l'anno"
@@ -53,7 +53,7 @@ chi_paga:
   - "Pendolari e aziende di trasporto locale: se il decreto sull'aliquota arriva in ritardo, dal 1° gennaio 2027 manca una norma che garantisca i soldi mese per mese."
   - "Comuni e ambiti sociali con bilanci deboli: devono garantire i livelli essenziali con le risorse che hanno già, senza una stima di quanto serve."
   - "Famiglie di alunne e alunni con disabilità nei territori più poveri: il livello essenziale rischia di restare scritto ma non finanziato."
-rischi_giuridici: "Due dubbi seri (costituzione/esami/AC3174_manovra_2027.md, punti 4 e 5). TPL: il passaggio alla quota IRPEF attua l'art. 119 Cost., ma se il decreto non arriva entro l'anno le Regioni perdono il trasferimento senza avere la quota: manca una clausola di continuità. LEP: chiedere agli enti di garantire i livelli essenziali con le sole risorse disponibili, senza quantificarne il costo e senza integrazione dello Stato, contrasta con i principi delle sent. 192/2024 (sull'autonomia differenziata: i livelli essenziali vanno definiti e finanziati prima) e 220/2021 (che ha respinto un ricorso regionale ma ha richiamato il legislatore a definire e finanziare i livelli essenziali); la sent. 182/2026 (depositata il 3/11/2026) ha dichiarato illegittimi i commi 707 e 708 della L. 199/2025 nella parte in cui non prevedono l'intesa in Conferenza unificata, e il testo non la recepisce. Artt. 132-134: rischio basso."
+rischi_giuridici: "Due dubbi seri (costituzione/esami/AC3174_manovra_2027.md, punti 4 e 5). TPL: il passaggio alla quota IRPEF attua l'art. 119 Cost., ma se il decreto non arriva entro l'anno le Regioni perdono il trasferimento senza avere la quota: manca una clausola di continuità. LEP (livelli essenziali delle prestazioni): chiedere agli enti di garantire i livelli essenziali con le sole risorse disponibili, senza quantificarne il costo e senza integrazione dello Stato, contrasta con i principi delle sent. 192/2024 (sull'autonomia differenziata: i livelli essenziali vanno definiti e finanziati prima) e 220/2021 (che ha respinto un ricorso regionale ma ha richiamato il legislatore a definire e finanziare i livelli essenziali); la sent. 182/2026 (depositata il 3/11/2026) ha dichiarato illegittimi i commi 707 e 708 della L. 199/2025 nella parte in cui non prevedono l'intesa in Conferenza unificata, e il testo non la recepisce. Artt. 132-134: rischio basso."
 valori:
   - valore: FID
     segno: "+"
@@ -73,7 +73,7 @@ valori:
   - valore: FUT
     segno: "="
     perche: "Nessun costo nuovo oggi, ma il rischio è che il costo dei livelli essenziali si scopra più avanti, quando sarà più difficile coprirlo."
-bilancio: "Va bene dare alle Regioni un'entrata propria che cresce nel tempo e fissare un metodo comune per i livelli essenziali. Non va bene lasciare scoperto il passaggio del Fondo TPL e chiedere ai territori di garantire diritti essenziali senza dire quanto costano e chi paga la differenza."
+bilancio: "Va bene dare alle Regioni un'entrata propria che cresce nel tempo e fissare un metodo comune per i livelli essenziali. Non va bene lasciare scoperto il passaggio del Fondo TPL. E non va bene chiedere ai territori di garantire diritti essenziali senza dire quanto costano e chi paga la differenza."
 governai:
   proposte: [04-P5, 04-P3, 02-C5]
   confronto: "GovernAI condivide l'ordine «prima i livelli essenziali quantificati e finanziati, poi l'autonomia» (04-P5). Ma nel programma intermedio 04-P5 è solo metodo, senza soldi: lo stesso limite della manovra. Sul trasporto locale GovernAI proponeva di indicizzare il Fondo TPL all'inflazione e di ripartirlo su posti-km e puntualità (04-P3). La proposta non è nel programma intermedio per mancanza di risorse, e la versione piena era già segnalata come a rischio costituzionale. Ora che il Fondo non c'è più, va riscritta: lo strumento giusto diventa il riparto della quota IRPEF e i livelli adeguati di servizio. Su alunne e alunni con disabilità GovernAI ha solo un pilota del progetto di vita (02-C5), finanziato con fondi europei."
@@ -102,3 +102,5 @@ revisioni:
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."
+  - data: 2026-11-15
+    nota: "Linguaggio più chiaro e inclusivo, sigle spiegate (revisione di comunicazione inclusiva)."

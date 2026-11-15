@@ -1,13 +1,13 @@
 # Commento dell'Osservatorio (vedi osservatorio/metodo.md). Scritto da un agente AI; non rivisto da una persona esperta.
 id: manovra-2027-payback-farmaci-dispositivi
 titolo: "Farmaci e dispositivi medici: tetti più alti, sconto a chi investe, debito 2019-2023 pagato in parte dallo Stato"
-atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, art. 71, art. 72 e art. 73"
+atto: "DDL (disegno di legge) di bilancio 2027-2029, A.C. 3174-bis, art. 71, art. 72 e art. 73"
 tipo: legge di bilancio
 data: 2026-10-30
 stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026"
 fonte: "https://www.camera.it/leg19/126?leg=19&idDocumento=3174"
 tema: "06"
-in_breve: "Quando la spesa per farmaci e dispositivi supera il tetto, le imprese restituiscono una parte alle Regioni (il «payback»). La manovra alza i tetti, riduce fino a 160 milioni l'anno il ripiano delle imprese farmaceutiche che investono in Italia e chiude il conto dei dispositivi medici 2019-2023: circa 4 miliardi, di cui 1,4 pagati dallo Stato."
+in_breve: "Quando la spesa per farmaci e dispositivi supera il tetto, le imprese restituiscono una parte alle Regioni (il «payback»). La manovra alza i tetti e riduce fino a 160 milioni l'anno il ripiano, cioè la restituzione, delle imprese farmaceutiche che investono in Italia. Chiude anche il conto dei dispositivi medici 2019-2023: circa 4 miliardi, di cui 1,4 pagati dallo Stato."
 cifre_chiave:
   - numero: "4"
     unita: "mld"
@@ -49,15 +49,15 @@ numeri:
     fonte: "Relazione tecnica A.C. 3174, art. 73; esame GovernAI, par. 3"
 chi_guadagna:
   - "Industria farmaceutica: tetto più alto per circa 292 milioni l'anno e sconto fino a 160 milioni per le imprese che investono in Italia, probabilmente quelle con più capacità di investimento (stima: i criteri li fissa il decreto)."
-  - "Fornitori di dispositivi medici del SSN: lo Stato copre 1,4 miliardi del loro debito 2019-2023 e il tetto futuro sale, così gli sforamenti si riducono."
+  - "Fornitori di dispositivi medici del Servizio sanitario nazionale (SSN): lo Stato copre 1,4 miliardi del loro debito 2019-2023 e il tetto futuro sale, così gli sforamenti si riducono."
   - "Regioni: hanno finalmente certezza sugli incassi 2019-2023, con le rate delle imprese e il contributo statale."
   - "Pazienti con malattie gravi senza alternative: possono avere prima alcuni farmaci nuovi."
 chi_paga:
-  - "Contribuenti: 1,4 miliardi per i dispositivi e 160 milioni l'anno per lo sconto alle imprese farmaceutiche, senza un controllo indipendente sugli investimenti premiati."
+  - "Chi paga le tasse: 1,4 miliardi per i dispositivi e 160 milioni l'anno per lo sconto alle imprese farmaceutiche, senza un controllo indipendente sugli investimenti premiati."
   - "Il resto del SSN: dell'aumento del fondo sanitario, circa 146 milioni nel 2027 e 440 l'anno dal 2028 vanno a farmaci e dispositivi già consumati oltre i vecchi tetti, invece che a personale o a nuove prestazioni."
   - "Imprese fornitrici di dispositivi: pagano circa 2,6 miliardi su fatture fino a otto anni fa, con regole dei tetti regionali fissate solo adesso; per le più piccole il peso in rapporto al fatturato è maggiore."
   - "Altre finalità del fondo per i farmaci innovativi: perdono 70 milioni l'anno."
-rischi_giuridici: "Dubbio serio su due punti (costituzione/esami/AC3174_manovra_2027.md, par. 3 e 6). Art. 73: prelievo su cinque anni passati, con tetti regionali fissati ora e concorso dello Stato al 35%, contro il 52% del 2015-2018; la Corte costituzionale ha respinto i dubbi sul payback 2015-2018 anche considerando quel concorso dello Stato (sent. 140/2024, questioni non fondate). Art. 71: lo sconto legato a investimenti «stabilmente localizzati» in Italia è un probabile aiuto di Stato e può ostacolare la libertà di stabilimento (artt. 107-108 e 49 TFUE); manca la clausola di notifica o di esenzione UE."
+rischi_giuridici: "Dubbio serio su due punti (costituzione/esami/AC3174_manovra_2027.md, par. 3 e 6). Art. 73: prelievo su cinque anni passati, con tetti regionali fissati ora e concorso dello Stato al 35%, contro il 52% del 2015-2018; la Corte costituzionale ha respinto i dubbi sul payback 2015-2018 anche considerando quel concorso dello Stato (sent. 140/2024, questioni non fondate). Art. 71: lo sconto legato a investimenti «stabilmente localizzati» in Italia è un probabile aiuto di Stato e può ostacolare la libertà di stabilimento (artt. 107-108 e 49 del Trattato sul funzionamento dell'Unione europea, TFUE); manca la clausola di notifica o di esenzione UE."
 valori:
   - valore: FID
     segno: "+"
@@ -77,10 +77,10 @@ valori:
   - valore: FUT
     segno: "-"
     perche: "Alzare i tetti senza riformarli sposta la spesa dal personale ai beni e non risolve la causa degli sforamenti ripetuti."
-bilancio: "Bene chiudere il conto 2019-2023 dei dispositivi a rate, alzare tetti che erano irrealistici e anticipare i farmaci per malattie gravi. Non bene lo sconto selettivo alle imprese farmaceutiche che investono, con criteri decisi dal Governo e rischio di aiuto di Stato, e una quota dello Stato sul debito dei dispositivi più bassa di quella già ritenuta proporzionata."
+bilancio: "Bene chiudere il conto 2019-2023 dei dispositivi a rate, alzare tetti che erano irrealistici e anticipare i farmaci per malattie gravi. Non bene lo sconto selettivo alle imprese farmaceutiche che investono, con criteri decisi dal Governo e rischio di aiuto di Stato. Non bene neppure una quota dello Stato sul debito dei dispositivi più bassa di quella già ritenuta proporzionata."
 governai:
   proposte: ["06-C6"]
-  confronto: "GovernAI propone di abrogare lo sconto dell'art. 71 e usa quei 160 milioni come copertura del proprio programma (RA05). Propone anche un budget unico del farmaco al posto dei tetti separati, con contratti legati ai risultati di salute (06-C6); nel programma intermedio entra solo la parte a costo zero, che richiede però un lavoro tecnico di AIFA non ancora pronto e accordi con l'industria. Limiti di GovernAI: non ha una proposta propria sui dispositivi medici né sul debito 2019-2023; la copertura RA05 vale solo se il Parlamento abroga lo sconto; il budget unico parte dal 2028 e non toglie i ricorsi già in corso."
+  confronto: "GovernAI propone di abrogare lo sconto dell'art. 71 e usa quei 160 milioni come copertura del proprio programma (RA05). Propone anche un budget unico del farmaco al posto dei tetti separati, con contratti legati ai risultati di salute (06-C6); nel programma intermedio entra solo la parte a costo zero, che richiede però un lavoro tecnico di AIFA (Agenzia italiana del farmaco) non ancora pronto e accordi con l'industria. Limiti di GovernAI: non ha una proposta propria sui dispositivi medici né sul debito 2019-2023; la copertura RA05 vale solo se il Parlamento abroga lo sconto; il budget unico parte dal 2028 e non toglie i ricorsi già in corso."
 cosa_cambieremmo:
   - "Togliere lo sconto dell'art. 71 sul ripiano o, se lo si vuole tenere, mettere i criteri nella legge, renderli neutrali rispetto al Paese dell'investimento, notificarlo alla Commissione UE e non applicarlo al 2026."
   - "Portare il contributo dello Stato sul payback dei dispositivi al 52%, come nel 2015-2018, oppure motivarlo con dati sui margini delle imprese."
@@ -105,3 +105,5 @@ revisioni:
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."
+  - data: 2026-11-15
+    nota: "Linguaggio più chiaro e inclusivo, sigle spiegate (revisione di comunicazione inclusiva)."

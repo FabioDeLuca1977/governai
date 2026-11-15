@@ -375,6 +375,19 @@ Le regole che seguono hanno un limite chiaro: chiedono **rispetto e chiarezza**,
 
 **Da dove viene il denaro:** RIALLOCAZIONE, cioè una quota dei risparmi su consulenze e assistenza tecnica esterna (RA03, RA08). Nello scenario intermedio le risorse generali, di cui RIALLOCAZIONE fa parte, coprono la spesa senza margine. Quindi la misura entra solo **al posto di qualcos'altro** o con una copertura nuova. Per questo la proponiamo al panel e **non** la inseriamo nel programma.
 
+### Regole di stile per i testi del sito e dell'Osservatorio (15/11/2026)
+
+Vengono dalla revisione della comunicazione inclusiva del 15 novembre 2026 (`revisioni/2026-11-15_comunicazione_inclusiva.md`). Valgono per il sito, l'Osservatorio, i profili e la comunità, oltre che per i documenti del programma.
+
+1. **I codici non fanno da titolo.** Codici come 02-C2, SAD13 o FUT stanno nella nota, mai nel titolo o all'inizio della riga. Il titolo dice che cosa cambia.
+2. **Una sigla si spiega in ogni pagina.** Si scioglie la prima volta che compare in ogni pagina o atto, non solo nel documento principale. Una sigla nuova entra anche nel glossario.
+3. **"In 30 secondi" ha un tetto.** Al massimo 3 frasi di 20 parole, senza sigle e con un solo numero per frase.
+4. **I gruppi si nominano con le persone.** Si scrive "chi lavora nell'indotto", "il personale medico e infermieristico", "le persone non autosufficienti". Questo vale anche per i campi `chi_guadagna` e `chi_paga`.
+5. **Le persone non sono un costo.** Si scrive "il costo del lavoro", "la spesa per l'assistenza", mai "il costo delle madri" o "il peso dei pensionati".
+6. **La platea è chi vive in Italia.** Si scrive "le persone che vivono in Italia", non "i cittadini" o "chi vota", salvo quando il diritto riguarda davvero solo chi ha la cittadinanza, come il voto. *Da decidere:* l'applicazione di questa regola al criterio dell'Osservatorio ("il benessere di chi vota", `osservatorio/metodo.md`) e alla regola di accesso della comunità ("ogni cittadino curioso") è una scelta politica, rimessa al progetto.
+7. **Il significato non sta solo nel colore.** Ogni segno colorato ha anche una forma o un testo, e un giudizio misto si mostra come misto.
+8. **I link dicono dove portano.** Niente "clicca" e niente "qui". Si scrive "apri", "vai a" o "leggi" seguito dal nome della pagina, e si avvisa quando il link apre una nuova scheda.
+
 ---
 
 ## 8. Che cosa resta aperto

@@ -1,7 +1,7 @@
 # Commento dell'Osservatorio (vedi osservatorio/metodo.md)
 id: manovra-2027-evasione-crediti
 titolo: "Ritenuta del 2% tra imprese, meno compensazioni per chi ha debiti col fisco, crediti Superbonus 2023 in dieci anni"
-atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, artt. 35, 36, 37, 38, 39 e 40 (Titolo II, Capo V)"
+atto: "DDL (disegno di legge) di bilancio 2027-2029, A.C. 3174-bis, artt. 35, 36, 37, 38, 39 e 40 (Titolo II, Capo V)"
 tipo: legge di bilancio
 data: 2026-10-30
 stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026"
@@ -25,13 +25,13 @@ cosa_fa:
   - "Art. 35: l'impresa o il professionista che paga una fattura elettronica a un'altra impresa o a un professionista trattiene una ritenuta d'acconto dell'1% nel 2028 e del 2% dal 2029 (oggi previste 0,5% e 1%)."
   - "Art. 36: chi ha debiti fiscali scaduti oltre 30.000 euro (oggi 50.000), senza rate o sospensioni, non può usare crediti in compensazione finché non paga."
   - "Art. 37, comma 1: le rate 2027 dei crediti del Superbonus per spese del 2023, ceduti o scontati in fattura, si dividono in dieci rate annuali."
-  - "Art. 37, commi 2-3: controllo automatico dei crediti dell'autotrasporto prima della compensazione; chi ha la partita IVA chiusa d'ufficio non può comprare né vendere crediti."
+  - "Art. 37, commi 2-3: controllo automatico dei crediti dell'autotrasporto prima della compensazione; chi ha la partita IVA (il numero fiscale legato all'imposta sul valore aggiunto) chiusa d'ufficio non può comprare né vendere crediti."
   - "Art. 38: incrocio delle banche dati per trovare le auto senza assicurazione obbligatoria, con parere del Garante privacy; targhe personalizzate a pagamento dal 1° marzo 2027 (imprese 10.000 euro fino al 31 maggio 2027, poi 5.000; persone 1.000 euro, poi 500), con gettito a un fondo per le strade dei Comuni fino a 50.000 abitanti."
   - "Art. 39: la detrazione per le donazioni ai partiti scende dal 26% al 19%."
   - "Art. 40: le imposte su plastica monouso e bevande zuccherate partono dal 1° luglio 2027 invece che dal 1° gennaio."
 numeri:
   - voce: "Ritenuta sui pagamenti tra imprese (art. 35)"
-    valore: "+734,5 mln nel 2028 e +1.469 mln l'anno dal 2029 (IRPEF 584, IRES 885 a regime)"
+    valore: "+734,5 mln nel 2028 e +1.469 mln l'anno dal 2029 (IRPEF, l'imposta sul reddito delle persone, 584; IRES, l'imposta sul reddito delle società, 885 a regime)"
     fonte: "Relazione tecnica A.C. 3174, art. 35"
   - voce: "Blocco delle compensazioni da 30.000 euro di debito (art. 36)"
     valore: "+100 mln l'anno dal 2027"
@@ -82,7 +82,7 @@ valori:
   - valore: BEN
     segno: "-"
     perche: "Il rinvio dell'imposta sulle bevande zuccherate ritarda una misura di salute pubblica."
-bilancio: "Gli strumenti contro l'evasione e le frodi vanno nella direzione giusta e sono mirati; ma la ritenuta del 2% rischia di pesare su chi ha margini bassi e non evade, lo spostamento dei crediti del Superbonus su dieci anni cambia le regole a chi li ha già comprati, e il nuovo rinvio delle imposte sulla plastica e sulle bevande zuccherate indebolisce la credibilità."
+bilancio: "Gli strumenti contro l'evasione e le frodi vanno nella direzione giusta e sono mirati. Ma la ritenuta del 2% rischia di pesare su chi ha margini bassi e non evade. Lo spostamento dei crediti del Superbonus su dieci anni cambia le regole a chi li ha già comprati. E il nuovo rinvio delle imposte sulla plastica e sulle bevande zuccherate indebolisce la credibilità."
 governai:
   proposte: [01-P3, 01-P10, 01-P12, 01-P2]
   confronto: "GovernAI condivide l'uso dei dati già disponibili contro l'evasione: l'IVA in tempo reale con blocco dei crediti sospetti (01-P3, nucleo robusto) è vicina agli artt. 36 e 37. GovernAI però prevede anche rimborsi rapidi per chi è affidabile, che qui mancano, e controlli mirati con garanzie (01-P10), che nel programma intermedio non è entrata: un limite. La regola GovernAI è di non usare il recupero di evasione per pagare spesa nuova, mentre la manovra conta la ritenuta come copertura; GovernAI però non ha stimato quanto recupera, quindi non può dire che la sua via renda di più. GovernAI vuole partire con l'imposta sulle bevande zuccherate e raddoppiarla dal 2029 (copertura AS03): qui il Governo la rinvia."
@@ -108,3 +108,5 @@ revisioni:
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."
+  - data: 2026-11-15
+    nota: "Linguaggio più chiaro e inclusivo, sigle spiegate (revisione di comunicazione inclusiva)."

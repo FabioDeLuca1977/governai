@@ -50,7 +50,7 @@
 
 **Chi ne beneficia.**
 
-- **Famiglie con figlie e figli sotto i 3 anni** (circa 1,1 milioni di bambine e bambini): Circa 60-70 mila posti nido in più dove mancano, gratis fino a un ISEE (indicatore della situazione economica equivalente) di 25.000 €; congedo papà di 2 mesi.
+- **Famiglie con figlie e figli sotto i 3 anni** (circa 1,1 milioni di bambine e bambini): Circa 60-70 mila posti nido in più dove mancano, gratis fino a un ISEE (indicatore della situazione economica equivalente) di 25.000 €; congedo paterno di 2 mesi.
 - **Alunne e alunni delle scuole più fragili** (circa 0,7 milioni tra alunne e alunni (10% di scuole più svantaggiate), fino a 1,4 milioni nelle 1.500 scuole con squadre): Tutor, educatori e mediatori contro l'abbandono, 250 € in più per ogni alunna o alunno, scuole aperte il pomeriggio e d'estate.
 - **Giovani che studiano dopo il diploma** (circa 33.400 persone iscritte agli ITS oggi, verso circa 66.000; persone idonee alla borsa da stimare): Borsa di studio garantita a tutte le persone idonee, iscrizioni agli ITS raddoppiate (circa 66.000), nuove residenze universitarie su immobili pubblici.
 - **Persone adulte senza diploma e giovani oltre i 25 anni che non studiano né lavorano** (da stimare): Dote di 900 € per corsi certificati e scuole serali per adulti (CPIA) su lettura, calcolo e uso dell'AI.

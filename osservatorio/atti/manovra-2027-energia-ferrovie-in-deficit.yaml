@@ -1,13 +1,13 @@
 # Commento dell'Osservatorio (vedi osservatorio/metodo.md). Scritto da un agente AI; non rivisto da una persona esperta.
 id: manovra-2027-energia-ferrovie-in-deficit
 titolo: "Energia e ferrovie in deficit con la clausola UE; dal 2029 una parte del costo passa sulle bollette"
-atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, artt. 76, 77, 78, 79, 80, 81, 82, 83 e 84"
+atto: "DDL (disegno di legge) di bilancio 2027-2029, A.C. 3174-bis, artt. 76, 77, 78, 79, 80, 81, 82, 83 e 84"
 tipo: legge di bilancio
 data: 2026-10-30
-stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026. L'attivazione della clausola da parte del Consiglio UE era attesa all'ECOFIN di novembre 2026."
+stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026. L'attivazione della clausola da parte del Consiglio UE era attesa all'ECOFIN (il Consiglio dei ministri dell'economia e delle finanze dell'UE) di novembre 2026."
 fonte: "https://www.camera.it/leg19/126?leg=19&idDocumento=3174"
 tema: "03"
-in_breve: "Circa 10,6 miliardi nel 2027-2028 sono spesi in disavanzo grazie alla clausola europea per la sicurezza energetica: ferrovie, sconti sull'elettricità per le imprese, fotovoltaico, edifici pubblici più efficienti, biometano. Dal 2029 una parte del costo passa sulle bollette di tutti. Le imprese aiutate devono investire in energia pulita almeno quanto ricevono."
+in_breve: "Circa 10,6 miliardi nel 2027-2028 sono spesi in disavanzo grazie alla clausola europea per la sicurezza energetica. Vanno a ferrovie, sconti sull'elettricità per le imprese, fotovoltaico, edifici pubblici più efficienti e biometano. Dal 2029 una parte del costo passa sulle bollette di tutti. Le imprese aiutate devono investire in energia pulita almeno quanto ricevono."
 cifre_chiave:
   - numero: "10,6"
     unita: "mld"
@@ -24,8 +24,8 @@ cifre_chiave:
 cosa_fa:
   - "Autorizza gli interventi degli artt. 77-83 «tenuto conto» della clausola di salvaguardia nazionale del regolamento UE 2024/1263, con un monitoraggio mensile della Ragioneria (art. 76)."
   - "Finanzia la rete ferroviaria: 600 milioni nel 2027 e 970 nel 2028 per manutenzione straordinaria; 2.190 e 1.670 milioni per investimenti, tra cui 1.600 milioni per la variante del Terzo valico dei Giovi, 500 per l'accesso al Brennero a Trento e 1.450 per sicurezza e tecnologia (art. 77)."
-  - "Per le centrali idroelettriche esistenti: 800 milioni nel 2028-2030 per la manutenzione dei bacini e contratti ventennali a prezzo di costo con il GSE per il 50-80% dell'energia prodotta; i guadagni riducono gli oneri in bolletta (art. 78)."
-  - "Contributi fino al 40% dell'investimento per 3 GW di nuovi impianti fotovoltaici fino a 1 MW: 800 milioni nel 2028 e 200 l'anno nel 2029-2030 (art. 79)."
+  - "Per le centrali idroelettriche esistenti: 800 milioni nel 2028-2030 per la manutenzione dei bacini e contratti ventennali a prezzo di costo con il GSE (Gestore dei servizi energetici, società pubblica) per il 50-80% dell'energia prodotta; i guadagni riducono gli oneri in bolletta (art. 78)."
+  - "Contributi fino al 40% dell'investimento per 3 GW (gigawatt) di nuovi impianti fotovoltaici fino a 1 MW (megawatt): 800 milioni nel 2028 e 200 l'anno nel 2029-2030 (art. 79)."
   - "Riqualificazione energetica pagata per intero, con almeno il 30% di energia in meno: 600 milioni per ospedali, 650 per scuole, 200 per università, ricerca e conservatori, 150 per piscine e palaghiaccio (art. 80)."
   - "Incentivi con gare al biometano: contributo fino al 40% dell'investimento (100 milioni nel 2028, 300 l'anno nel 2029-2030) e un incentivo sulla produzione pagato dalle tariffe del gas (art. 81)."
   - "Per le imprese che consumano molta energia: compensazione fino al 50% del prezzo all'ingrosso sul 50% dei consumi, per tre anni, con 1.000 milioni nel 2028, 800 nel 2029 e 700 nel 2030 (art. 82)."
@@ -58,11 +58,11 @@ chi_guadagna:
   - "Produttori di fotovoltaico e di biometano e il settore agricolo che produce biogas."
   - "Chi paga la bolletta, nel lungo periodo: i contratti a prezzo di costo sull'idroelettrico riportano in bolletta una parte dei guadagni dei concessionari."
 chi_paga:
-  - "Le generazioni future: la spesa del 2027-2028 è fatta in deficit e aumenta il debito. Il debito arriva al 138,5% del PIL nel 2027 soprattutto per la cassa dei crediti dei bonus edilizi degli anni passati (MEF, DPB 2027, par. I.7)."
+  - "Le generazioni future: la spesa del 2027-2028 è fatta in deficit e aumenta il debito. Il debito arriva al 138,5% del PIL nel 2027 soprattutto per la cassa dei crediti dei bonus edilizi degli anni passati (Ministero dell'economia e delle finanze, MEF, Documento programmatico di bilancio, DPB, 2027, par. I.7)."
   - "Famiglie e imprese con la bolletta elettrica: dal 2029 pagano con gli oneri di sistema parte degli sconti alle imprese, circa 1,4-1,6 miliardi l'anno."
   - "Chi usa il gas: paga in tariffa gli incentivi al biometano, per un importo non ancora noto."
   - "Concessionari degli impianti idroelettrici: vendono gran parte dell'energia a prezzo di costo invece che a prezzo di mercato."
-rischi_giuridici: "Dubbio da chiudere (costituzione/esami/AC3174_manovra_2027.md, par. 2; art. 81, secondo comma, Cost. e art. 6 L. 243/2012). Le Camere hanno approvato il 13 ottobre 2026 le risoluzioni sulla Relazione ex art. 6 L. 243/2012 (DPB 2027, nota 20): va verificato che gli importi per anno rientrino in quelli autorizzati, e la norma dovrebbe richiamarli. Gli oneri del 2029-2030 vanno oltre il periodo della clausola e richiedono una copertura ordinaria. Gli aiuti degli artt. 81, 82 e 83 sono efficaci solo dopo l'autorizzazione della Commissione UE (art. 108 TFUE)."
+rischi_giuridici: "Dubbio da chiudere (costituzione/esami/AC3174_manovra_2027.md, par. 2; art. 81, secondo comma, Cost. e art. 6 L. 243/2012). Le Camere hanno approvato il 13 ottobre 2026 le risoluzioni sulla Relazione ex art. 6 L. 243/2012 (DPB 2027, nota 20): va verificato che gli importi per anno rientrino in quelli autorizzati, e la norma dovrebbe richiamarli. Gli oneri del 2029-2030 vanno oltre il periodo della clausola e richiedono una copertura ordinaria. Gli aiuti degli artt. 81, 82 e 83 sono efficaci solo dopo l'autorizzazione della Commissione UE (art. 108 del Trattato sul funzionamento dell'Unione europea, TFUE)."
 valori:
   - valore: FUT
     segno: "-"
@@ -85,10 +85,10 @@ valori:
   - valore: SIC
     segno: "+"
     perche: "Più produzione nazionale da rinnovabili, idroelettrico e biometano riduce il rischio di crisi di approvvigionamento."
-bilancio: "Bene il vincolo che obbliga le imprese aiutate a investire in energia pulita, i contratti a prezzo di costo sull'idroelettrico e l'efficienza di ospedali e scuole. Non bene finanziare in deficit anche spese ferroviarie già programmate, spostare dal 2029 una parte del costo sulle bollette di tutti e assegnare miliardi a grandi opere senza una valutazione indipendente."
+bilancio: "Bene il vincolo che obbliga le imprese aiutate a investire in energia pulita. Bene anche i contratti a prezzo di costo sull'idroelettrico e l'efficienza di ospedali e scuole. Non bene finanziare in deficit anche spese ferroviarie già programmate e spostare dal 2029 una parte del costo sulle bollette di tutti. Non bene, infine, assegnare miliardi a grandi opere senza una valutazione indipendente."
 governai:
   proposte: ["03-P2", "01-P5", "04-P4", "03-P1", "04-P8"]
-  confronto: "GovernAI non finanzia nuova spesa in deficit: su questo punto il disegno di legge non rispetta la regola che GovernAI applica a se stesso. Sui contenuti ci sono somiglianze: GovernAI propone contratti per differenza a due vie che riportano in bolletta i guadagni oltre il costo (03-P2), come fa l'art. 78 per l'idroelettrico; e contratti di lungo periodo per le PMI con una garanzia pubblica (01-P5), al posto di sconti temporanei in bolletta. Chiede una valutazione indipendente per ogni opera oltre 500 milioni (04-P4), che servirebbe al Terzo valico. GovernAI va nella direzione opposta sui sussidi: riduce agevolazioni ai combustibili fossili, anche l'accisa ridotta per i grandi consumatori di gas (SAD08). Limiti di GovernAI: la sua offerta per l'energia nel programma intermedio vale circa 0,15 mld (01-P5 essenziale) e non risponde a un aumento improvviso dei prezzi; le sue riduzioni dei sussidi fanno salire i costi di alcune imprese nel breve periodo; i treni per i pendolari (04-P3) sono rimasti in gran parte fuori."
+  confronto: "GovernAI non finanzia nuova spesa in deficit: su questo punto il disegno di legge non rispetta la regola che GovernAI applica a se stesso. Sui contenuti ci sono somiglianze: GovernAI propone contratti per differenza a due vie che riportano in bolletta i guadagni oltre il costo (03-P2), come fa l'art. 78 per l'idroelettrico; e contratti di lungo periodo per le PMI (piccole e medie imprese) con una garanzia pubblica (01-P5), al posto di sconti temporanei in bolletta. Chiede una valutazione indipendente per ogni opera oltre 500 milioni (04-P4), che servirebbe al Terzo valico. GovernAI va nella direzione opposta sui sussidi: riduce agevolazioni ai combustibili fossili, anche l'accisa ridotta per le imprese che consumano molto gas (SAD08). Limiti di GovernAI: la sua offerta per l'energia nel programma intermedio vale circa 0,15 mld (01-P5 essenziale) e non risponde a un aumento improvviso dei prezzi; le sue riduzioni dei sussidi fanno salire i costi di alcune imprese nel breve periodo; i treni per i pendolari (04-P3) sono rimasti in gran parte fuori."
 cosa_cambieremmo:
   - "Richiamare nell'art. 76 la deliberazione delle Camere con data e importi per anno, e ridurre gli stanziamenti se il Consiglio UE attiva la clausola per importi minori."
   - "Indicare ora una copertura ordinaria per gli oneri del 2029-2030, invece di spostarli sugli oneri di sistema delle bollette."
@@ -114,3 +114,5 @@ revisioni:
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."
+  - data: 2026-11-15
+    nota: "Linguaggio più chiaro e inclusivo, sigle spiegate (revisione di comunicazione inclusiva)."

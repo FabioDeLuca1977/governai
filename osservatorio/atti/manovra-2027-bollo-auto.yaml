@@ -1,7 +1,7 @@
 # Commento dell'Osservatorio (vedi osservatorio/metodo.md)
 id: manovra-2027-bollo-auto
 titolo: "Niente bollo, per sempre, su un'auto a benzina o gasolio fino a 80 kW per persona; lo Stato rimborsa le Regioni"
-atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, art. 3"
+atto: "DDL (disegno di legge) di bilancio 2027-2029, A.C. 3174-bis, art. 3"
 tipo: legge di bilancio
 data: 2026-10-30
 stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026. Sostituisce l'esenzione per il solo 2027 del d.l. 162/2026, art. 2"
@@ -19,10 +19,10 @@ cifre_chiave:
     fonte: "A.C. 3174, art. 3, comma 8"
 cosa_fa:
   - "Esenta dalla tassa automobilistica le persone fisiche per un solo veicolo assicurato: un'auto a benzina o gasolio, anche ibrida, fino a 80 kW; se non c'è, una moto a benzina; se non c'è, un motorino."
-  - "Se si hanno più auto, l'esenzione va a quella meno potente. Non c'è nessun limite di reddito o di ISEE."
+  - "Se si hanno più auto, l'esenzione va a quella meno potente. Non c'è nessun limite di reddito o di ISEE (l'indicatore della situazione economica della famiglia)."
   - "Rende permanente l'esenzione che il d.l. 162/2026 prevedeva solo per il 2027."
   - "Lo Stato versa alle Regioni e alle Province autonome 2.293,5 mln nel 2027, 2.316,2 nel 2028, 2.338,8 nel 2029 e 2.361,5 mln l'anno dal 2030."
-  - "Le famiglie con più di tre figli, di cui almeno uno minorenne, ricevono dall'INPS un rimborso del bollo fino a 385,71 euro per un'auto da 6 a 9 posti fino a 133 kW (18,3 mln l'anno)."
+  - "Le famiglie con più di tre figli, di cui almeno uno minorenne, ricevono dall'INPS (Istituto nazionale della previdenza sociale) un rimborso del bollo fino a 385,71 euro per un'auto da 6 a 9 posti fino a 133 kW (18,3 mln l'anno)."
   - "Il registro delle auto (PRA) e il Ministero delle infrastrutture incrociano i dati su proprietà e assicurazione."
 numeri:
   - voce: "Costo per lo Stato (compensazione alle Regioni)"
@@ -46,8 +46,8 @@ chi_guadagna:
   - "Famiglie con più di tre figli e un'auto grande da 6-9 posti."
   - "In misura minore i produttori e i venditori di auto a combustione, perché tenerle costa un po' meno."
 chi_paga:
-  - "Tutti i contribuenti e le generazioni future: 2,3 mld l'anno per sempre. Nel 2027-2029 è coperta dentro i saldi della manovra, non da una fonte dedicata; dal 2029 alcune entrate che la coprono (addizionali sulle banche) finiscono."
-  - "Chi non ha l'auto non riceve nulla da questa misura; tra loro ci sono anche persone anziane e con redditi bassi (da verificare sulle statistiche ISTAT sulle famiglie senza auto)."
+  - "Tutte le persone che pagano le tasse e le generazioni future: 2,3 mld l'anno per sempre. Nel 2027-2029 è coperta dentro i saldi della manovra, non da una fonte dedicata; dal 2029 alcune entrate che la coprono (addizionali sulle banche) finiscono."
+  - "Chi non ha l'auto non riceve nulla da questa misura; tra loro ci sono anche persone anziane e con redditi bassi (da verificare sulle statistiche dell'ISTAT, l'Istituto nazionale di statistica, sulle famiglie senza auto)."
   - "Chi ha scelto un'auto elettrica: non riceve nulla in più, perché l'esenzione va solo a benzina e gasolio; le auto elettriche hanno però già un'esenzione per i primi cinque anni e poi una riduzione, con regole regionali diverse (da verificare sul testo vigente)."
   - "Le Regioni: perdono un tributo proprio e ricevono un trasferimento statale; la loro autonomia fiscale si riduce."
   - "L'ambiente: la misura è un nuovo sussidio alle auto a combustione, mentre l'Italia deve ridurre le emissioni dei trasporti."
@@ -71,7 +71,7 @@ valori:
   - valore: BPA
     segno: "="
     perche: "Aiuta un po' chi vive nelle aree interne, ma non cambia i servizi che le rendono vivibili."
-bilancio: "È un aiuto semplice e molto diffuso, utile a chi vive dove l'auto è necessaria; ed è stabile, a differenza dei bonus di un anno; ma costa 2,3 miliardi l'anno per sempre senza una copertura dedicata, non guarda al reddito, sussidia le auto a combustione e toglie autonomia alle Regioni. Con la stessa cifra si potrebbe aiutare di più chi ha bisogno."
+bilancio: "È un aiuto semplice e molto diffuso, utile a chi vive dove l'auto è necessaria. Ed è stabile, a differenza dei bonus di un anno. Ma costa 2,3 miliardi l'anno per sempre senza una copertura dedicata. Non guarda al reddito, sussidia le auto a combustione e toglie autonomia alle Regioni. Con la stessa cifra si potrebbe aiutare di più chi ha bisogno."
 governai:
   proposte: [03-P1, 01-P2, 04-P3, 04-P6]
   confronto: "GovernAI fa il contrario: riduce i sussidi dannosi per l'ambiente (coperture SAD) e per regola non finanzia spesa corrente in deficit. Ma è onesto dire che GovernAI non restituisce nulla alle famiglie: nel programma intermedio il dividendo climatico (03-P1) è nella versione a zero, e i treni per chi viaggia ogni giorno (04-P3) sono fuori per mancanza di risorse; quindi chi dipende dall'auto non ha da GovernAI un'alternativa pronta. Le aree interne sono coperte solo con i servizi essenziali (04-P6). La clausola di scadenza delle agevolazioni (01-P2) imporrebbe di rivalutare l'esenzione ogni cinque anni."
@@ -99,3 +99,5 @@ revisioni:
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."
+  - data: 2026-11-15
+    nota: "Linguaggio più chiaro e inclusivo, sigle spiegate (revisione di comunicazione inclusiva)."

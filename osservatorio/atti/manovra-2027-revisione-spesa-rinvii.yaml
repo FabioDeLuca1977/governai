@@ -1,7 +1,7 @@
 # Commento dell'Osservatorio (vedi osservatorio/metodo.md)
 id: manovra-2027-revisione-spesa-rinvii
 titolo: "Tagli ai ministeri, investimenti rinviati al 2030-2032, prevenzione sismica degli edifici pubblici diluita"
-atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, artt. 135, 136 e 137, con allegati 5, 6 e 7; artt. 116 e 118 (calamità ed emergenze)"
+atto: "DDL (disegno di legge) di bilancio 2027-2029, A.C. 3174-bis, artt. 135, 136 e 137, con allegati 5, 6 e 7; artt. 116 e 118 (calamità ed emergenze)"
 tipo: legge di bilancio
 data: 2026-10-30
 stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026"
@@ -22,11 +22,11 @@ cifre_chiave:
     etichetta: "in meno all'Assegno di inclusione, perché non spesi"
     fonte: "Relazione tecnica A.C. 3174, art. 135, c. 4"
 cosa_fa:
-  - "Art. 135, c. 1: riduce gli stanziamenti in conto capitale dei ministeri nel 2027-2029 e li aumenta nel 2030-2032 (allegati 5 e 6). I ministri possono spostare le somme tra programmi, con decreto del MEF."
+  - "Art. 135, c. 1: riduce gli stanziamenti in conto capitale dei ministeri nel 2027-2029 e li aumenta nel 2030-2032 (allegati 5 e 6). I ministri possono spostare le somme tra programmi, con decreto del Ministero dell'economia e delle finanze (MEF)."
   - "Art. 135, c. 2: taglia la spesa corrente dei ministeri secondo l'allegato 7 (234 mln nel 2027, 242 nel 2028, 265 dal 2029); la Presidenza del Consiglio versa 60 mln l'anno allo Stato."
-  - "Art. 135, c. 3: 30 mln di liquidità dell'ENIT tornano allo Stato nel 2027."
+  - "Art. 135, c. 3: 30 mln di liquidità dell'ENIT (Agenzia nazionale del turismo) tornano allo Stato nel 2027."
   - "Art. 135, c. 4: riduce di 100 mln l'anno la spesa per l'Assegno di inclusione, «senza compromissione» delle prestazioni secondo il monitoraggio."
-  - "Art. 135, cc. 5-9: riordina il Fondo unico giustizia e il gratuito patrocinio (filtro sulle domande infondate; tavolo per usare l'ISEE come criterio di accesso)."
+  - "Art. 135, cc. 5-9: riordina il Fondo unico giustizia e il gratuito patrocinio (filtro sulle domande infondate; tavolo per usare l'ISEE, l'indicatore della situazione economica della famiglia, come criterio di accesso)."
   - "Art. 136: proroga al 2027 i piani di analisi e valutazione della spesa previsti dal Piano strutturale di bilancio."
   - "Art. 137: +120 mln l'anno nel 2027-2028 al fondo per le finalità istituzionali delle amministrazioni; 1,9 mld nel 2027 al fondo per pagare le sentenze e i contenziosi nazionali ed europei."
   - "Art. 116: il fondo per ridurre la vulnerabilità sismica degli edifici pubblici passa da 60 mln l'anno nel 2027-2028 a 30 mln l'anno nel 2027-2030: stesso totale, tempi più lunghi."
@@ -81,7 +81,7 @@ valori:
   - valore: EQU
     segno: "="
     perche: "I 100 mln dell'Assegno non spesi non tolgono nulla oggi, ma si toglie a un fondo per le famiglie in povertà senza chiedersi perché molte non lo chiedono; il filtro sul gratuito patrocinio, se mal calibrato, può escludere chi non ha mezzi."
-bilancio: "Va bene tagliare spesa corrente in modo permanente e mettere da parte i soldi per i contenziosi. Non va bene che il risparmio maggiore venga dal rinvio degli investimenti e della prevenzione sismica, e che i tagli non dicano in chiaro quali programmi colpiscono."
+bilancio: "Va bene tagliare spesa corrente in modo permanente e mettere da parte i soldi per i contenziosi. Non va bene che il risparmio maggiore venga dal rinvio degli investimenti e della prevenzione sismica. E non va bene che i tagli non dicano in chiaro quali programmi colpiscono."
 governai:
   proposte: [RA13, RP01, RP02, RP05, 03-P4, 01-P1]
   confronto: "GovernAI usa la revisione della spesa dei ministeri come copertura: in più di quanto già previsto dal Governo, un altro 0,05% del PIL con analisi a base zero (RA13), turnover parziale nei profili amministrativi (RP01), meno posti di dirigente (RP02), sedi più piccole (RP05). Quindi GovernAI conta sullo stesso strumento della manovra, e anche il suo risparmio è incerto: dopo la verifica del 13-14 novembre 2026 diverse coperture sono state ridotte. A differenza della manovra, GovernAI non rinvia investimenti per far quadrare i conti, e chiede un fondo stabile per prevenire frane e alluvioni assegnato per rischio (03-P4, nucleo robusto). Non ha però una voce sulla prevenzione sismica degli edifici pubblici: è un vuoto da colmare."
@@ -110,3 +110,5 @@ revisioni:
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."
+  - data: 2026-11-15
+    nota: "Linguaggio più chiaro e inclusivo, sigle spiegate (revisione di comunicazione inclusiva)."

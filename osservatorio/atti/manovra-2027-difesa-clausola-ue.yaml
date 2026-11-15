@@ -1,13 +1,13 @@
 # Commento dell'Osservatorio (vedi osservatorio/metodo.md)
 id: manovra-2027-difesa-clausola-ue
 titolo: "Più spesa per la difesa nel 2027 e nel 2028, pagata in deficit grazie alla clausola nazionale UE"
-atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, artt. 91-95 e rifinanziamenti della Sezione II (Ministero della difesa)"
+atto: "DDL (disegno di legge) di bilancio 2027-2029, A.C. 3174-bis, artt. 91-95 e rifinanziamenti della Sezione II (Ministero della difesa)"
 tipo: legge di bilancio
 data: 2026-10-30
-stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026. L'attivazione della clausola da parte del Consiglio UE era attesa all'ECOFIN di novembre"
+stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026. L'attivazione della clausola da parte del Consiglio UE era attesa all'ECOFIN (il Consiglio dei ministri dell'economia e delle finanze dell'UE) di novembre"
 fonte: "https://www.camera.it/leg19/126?tab=&leg=19&idDocumento=3174"
 tema: "07"
-in_breve: "La manovra aumenta la spesa per la difesa di circa 5,3 mld nel 2027 e 5,8 mld nel 2028, in gran parte in deficit. Lo consente la clausola nazionale delle regole UE. Una parte della spesa però resta per sempre, anche quando la clausola finisce."
+in_breve: "La manovra aumenta la spesa per la difesa di circa 5,3 mld nel 2027 e 5,8 mld nel 2028, in gran parte in deficit. Lo consente la clausola nazionale delle regole UE, che permette di spendere di più per la difesa senza violare le regole sul deficit. Una parte della spesa però resta per sempre, anche quando la clausola finisce."
 cifre_chiave:
   - numero: "5,3"
     unita: "mld"
@@ -57,7 +57,7 @@ chi_paga:
   - "Le altre politiche pubbliche: dal 2029 circa 0,6 mld l'anno di costi fissi restano senza la clausola e andranno trovati in altri capitoli, senza dire quali; nello stesso disegno di legge il fondo sanitario in rapporto al PIL scende."
   - "Chi partecipa ai concorsi dell'Arma senza essere stato ausiliario: fino al 30% dei posti è riservato."
   - "Comunità locali e Comuni dove sorgono le nuove caserme: le opere seguono le deroghe urbanistiche e la dichiarazione di urgenza, con meno voce per il territorio."
-rischi_giuridici: "Dubbio da chiudere sul deficit, dubbio serio sugli oneri permanenti (costituzione/esami/AC3174_manovra_2027.md, punto 2). Le regole UE non bastano: per spendere in deficit serve l'autorizzazione delle Camere a maggioranza assoluta (art. 81 Cost.; L. 243/2012, art. 6). Le risoluzioni sulla Relazione sono state approvate il 13/10/2026 (DPB 2027, nota 20), ma l'art. 91 non le richiama: va verificato che gli importi per anno rientrino in quelli autorizzati e vanno richiamati nella norma. Gli oneri dal 2029 in poi non possono stare in uno scostamento temporaneo: serve copertura ordinaria (art. 81, terzo comma). La figura del carabiniere ausiliario è una norma di ordinamento dentro la legge di bilancio."
+rischi_giuridici: "Dubbio da chiudere sul deficit, dubbio serio sugli oneri permanenti (costituzione/esami/AC3174_manovra_2027.md, punto 2). Le regole UE non bastano: per spendere in deficit serve l'autorizzazione delle Camere a maggioranza assoluta (art. 81 Cost.; L. 243/2012, art. 6). Le risoluzioni sulla Relazione sono state approvate il 13/10/2026 (Documento programmatico di bilancio, DPB, 2027, nota 20), ma l'art. 91 non le richiama: va verificato che gli importi per anno rientrino in quelli autorizzati e vanno richiamati nella norma. Gli oneri dal 2029 in poi non possono stare in uno scostamento temporaneo: serve copertura ordinaria (art. 81, terzo comma). La figura del carabiniere ausiliario è una norma di ordinamento dentro la legge di bilancio."
 valori:
   - valore: SIC
     segno: "+"
@@ -77,7 +77,7 @@ valori:
   - valore: EQU
     segno: "-"
     perche: "Il costo futuro ricade su tutti; il beneficio di sicurezza è di tutti, quello economico immediato è concentrato su alcune imprese e territori."
-bilancio: "Va bene rafforzare la sicurezza con il monitoraggio delle nuove caserme e l'attenzione agli impegni europei e NATO. Non va bene che sia pagata quasi tutta in deficit, senza richiamo esplicito al voto delle Camere, senza dire quali programmi finanzia il fondo da 2,6 mld e che lasci costi permanenti dopo il 2028 senza copertura."
+bilancio: "Va bene rafforzare la sicurezza con il monitoraggio delle nuove caserme e l'attenzione agli impegni europei e con la NATO (l'Alleanza atlantica). Non va bene che sia pagata quasi tutta in deficit, senza richiamo esplicito al voto delle Camere. Non va bene che non dica quali programmi finanzia il fondo da 2,6 mld e che lasci costi permanenti dopo il 2028 senza copertura."
 governai:
   proposte: [07-C5]
   confronto: "GovernAI vuole una legge decennale sulla difesa, ogni aumento coperto da tagli o entrate, nessun deficit e nessun uso della clausola nazionale, e una relazione annuale verificata dalla Corte dei conti. Su questi punti è più rigoroso della manovra. Ma ha un difetto serio, che va detto: il programma intermedio non sceglie nessuna delle tre varianti di 07-C5, quindi non finanzia alcun aumento. La difesa resta circa al 2,1% del PIL, lontano dal 3,5% promesso alla NATO. Anche la variante piena non sarebbe finanziabile: costerebbe 32 mld l'anno nel 2035, più di tutte le coperture del programma. GovernAI evita il debito ma lascia aperto il costo di credibilità verso gli alleati e il rischio per la sicurezza. La manovra almeno fa una scelta; GovernAI la rinvia al Parlamento."
@@ -92,7 +92,7 @@ domande_aperte:
   - "Quali importi per anno hanno autorizzato le Camere il 13/10/2026, e coprono tutte le spese degli artt. 92-95 e della Sezione II?"
   - "Il Consiglio UE ha attivato la clausola, e per quale importo?"
   - "Quali programmi di armamento finanzia il fondo di investimento (2,6 mld l'anno), e quanti sono comuni con altri Paesi UE?"
-  - "Come si pagherà la difesa dopo il 2028? Lo ha chiesto anche l'Ufficio parlamentare di bilancio sul DPFP (stima riportata dalla stampa, da verificare sul testo dell'audizione)."
+  - "Come si pagherà la difesa dopo il 2028? Lo ha chiesto anche l'Ufficio parlamentare di bilancio sul DPFP, il Documento programmatico di finanza pubblica (stima riportata dalla stampa, da verificare sul testo dell'audizione)."
 fonti:
   - "Testo A.C. 3174, artt. 91-95: costituzione/testi/AC3174_articolato.txt"
   - "Relazione illustrativa e relazione tecnica A.C. 3174, artt. 91-95, elenco dei rifinanziamenti della Sezione II e prospetto degli effetti: dati/raw/00b_ddl_bilancio_2027_AC3174_relazioni.txt"
@@ -108,3 +108,5 @@ revisioni:
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."
+  - data: 2026-11-15
+    nota: "Linguaggio più chiaro e inclusivo, sigle spiegate (revisione di comunicazione inclusiva)."

@@ -1,13 +1,13 @@
 # Commento dell'Osservatorio (vedi osservatorio/metodo.md)
 id: manovra-2027-comuni-debiti-avanzo
 titolo: "Comuni in difficoltà: debito con lo Stato cancellato ma pagato fino al 2051; avanzo più libero per chi è prudente"
-atto: "DDL di bilancio 2027-2029, A.C. 3174-bis, artt. 123, 124, 125 e 126 (con richiami agli artt. 127-129)"
+atto: "DDL (disegno di legge) di bilancio 2027-2029, A.C. 3174-bis, artt. 123, 124, 125 e 126 (con richiami agli artt. 127-129)"
 tipo: legge di bilancio
 data: 2026-10-30
 stato: "All'esame della Camera (A.C. 3174-bis); approvazione entro il 31 dicembre 2026. Per l'art. 124 i Comuni devono deliberare entro il 1° marzo 2027"
 fonte: "https://www.camera.it/leg19/126?tab=&leg=19&idDocumento=3174"
 tema: "04"
-in_breve: "Lo Stato cancella 2,84 mld di prestiti fatti ai grandi Comuni in difficoltà, ma questi continuano a versare ogni anno la stessa cifra fino al 2051. Per la relazione tecnica l'effetto sui conti pubblici è neutro. In più ci sono 400 mln per i Comuni in dissesto e una regola che lascia usare prima l'avanzo a chi ha fatto previsioni prudenti."
+in_breve: "Lo Stato cancella 2,84 mld di prestiti fatti ai grandi Comuni in difficoltà. Ma questi Comuni continuano a versare ogni anno la stessa cifra fino al 2051. Per la relazione tecnica l'effetto sui conti pubblici è neutro. In più ci sono 400 mln per i Comuni in dissesto e una regola che lascia usare prima l'avanzo a chi ha fatto previsioni prudenti."
 cifre_chiave:
   - numero: "2,84"
     unita: "mld"
@@ -61,7 +61,7 @@ valori:
     perche: "L'art. 126 premia chi fa previsioni realistiche e vieta di pagare spese fisse con l'avanzo: è una buona regola di prudenza."
   - valore: EQU
     segno: "-"
-    perche: "Aiuta i Comuni in crisi, che sono spesso al Sud e hanno servizi deboli, ma senza condizioni sui servizi e senza nulla per chi è stato virtuoso."
+    perche: "Aiuta i Comuni con forti debiti, molti nel Mezzogiorno, dove i servizi sono più scarsi, ma senza condizioni sui servizi e senza nulla per i Comuni con i conti in ordine."
   - valore: BEN
     segno: "+"
     perche: "Un Comune con meno disavanzo può pagare i fornitori e mantenere i servizi di base."
@@ -71,10 +71,10 @@ valori:
   - valore: CIT
     segno: "-"
     perche: "Nessun obbligo di spiegare a chi vive nel Comune perché il debito si è formato e come si eviterà di nuovo."
-bilancio: "Va bene il premio alla prudenza dell'art. 126 e il divieto di usare l'avanzo per spese fisse. Non va bene presentare come cancellazione un debito che si continua a pagare fino al 2051, né dare 400 mln a pochi enti senza obiettivi di servizio e senza una diagnosi pubblica delle cause."
+bilancio: "Va bene il premio alla prudenza dell'art. 126 e il divieto di usare l'avanzo per spese fisse. Non va bene presentare come cancellazione un debito che si continua a pagare fino al 2051. Né va bene dare 400 mln a pochi enti senza obiettivi di servizio e senza una diagnosi pubblica delle cause."
 governai:
   proposte: [09-C3, 04-P5, 01-P1]
-  confronto: "GovernAI non ha una proposta sui debiti dei Comuni in crisi: è una lacuna del programma. Ha però 3.000 tecnici in squadre per i piccoli Comuni del Sud e delle aree interne (09-C3), che aiutano a gestire meglio, ma non toccano i grandi Comuni dell'art. 124. GovernAI chiede di quantificare prima i servizi essenziali (04-P5) e di dire sempre chi paga e quando (01-P1): con questo metro, l'art. 124 dovrebbe mostrare il debito per quello che è. Anche GovernAI tratta i Comuni soprattutto come esecutori dei suoi progetti, e poco come enti con problemi di bilancio propri."
+  confronto: "GovernAI non ha una proposta sui debiti dei Comuni in crisi: è una lacuna del programma. Ha però 3.000 figure tecniche in squadre per i piccoli Comuni del Sud e delle aree interne (09-C3), che aiutano a gestire meglio, ma non toccano i grandi Comuni dell'art. 124. GovernAI chiede di quantificare prima i servizi essenziali (04-P5) e di dire sempre chi paga e quando (01-P1): con questo metro, l'art. 124 dovrebbe mostrare il debito per quello che è. Anche GovernAI tratta i Comuni soprattutto come esecutori dei suoi progetti, e poco come enti con problemi di bilancio propri."
 cosa_cambieremmo:
   - "Scrivere nell'art. 124 che il versamento annuale resta un debito verso lo Stato e va indicato in nota al bilancio comunale fino al 2051."
   - "Legare il fondo dell'art. 123 a un piano pubblico con obiettivi sui servizi, sulla riscossione delle entrate e sui tempi di pagamento dei fornitori, verificato ogni anno."
@@ -97,3 +97,5 @@ revisioni:
     nota: "Rivisto da due agenti AI con sensibilità politiche diverse; correzioni applicate da un terzo agente AI. Non rivisto da una persona esperta."
   - data: 2026-11-14
     nota: "Aggiunte le cifre chiave, prese dai numeri già presenti."
+  - data: 2026-11-15
+    nota: "Linguaggio più chiaro e inclusivo, sigle spiegate (revisione di comunicazione inclusiva)."
