@@ -490,3 +490,207 @@ Le imprese mantengono i diritti di proprietà intellettuale; lo Stato ha una lic
 **Rischi e mitigazione.** *Il fondo pubblico sostituisce i privati invece di attirarli* → almeno il 60% privato per ogni fondo; la letteratura trova effetti positivi soprattutto quando il capitale pubblico accompagna quello privato (Brander, Du e Hellmann 2015). *Prima perdita come regalo ai privati* → tetto di 300 mln, gestori selezionati con gara, rendimenti pubblici che tornano al fondo. *Spin-off "di facciata"* → indicatore sulle spin-off ancora attive dopo cinque anni e con ricavi. *Doppio conteggio con 01-P4 e RA04* (incentivi MIMIT a bassa addizionalità) → la riduzione del Fondo per la crescita sostenibile è aggiuntiva a quelle di 01-P4 e RA04 e va verificata dall'agente coperture. *Classificazione statistica* → prudenzialmente tutto a deficit, quindi tutto coperto.
 
 **Fonti.** Netval, 20° Rapporto, 2025, https://www.iris.santannapisa.it/retrieve/bfef2339-d16a-48ff-8362-d845383e7898/rapportonetval2025-e64d.pdf; EY, Venture Capital Barometer 2025 (via StartupItalia), https://startupitalia.eu/startup/ey-venture-capital-barometer-2025-italia/; Bain & Company, comunicato 2026, https://www.bain.com/it/about-bain/media-center/press-releases/italy/2023222/Venture-capital-in-italia-il-2025-e-un-anno-record-sostenuto-dai-mega-deal/; CDP Venture Capital, Piano strategico 2024-2028 (8 mld in gestione, fondo deep tech 500 mln), https://www.cdpventurecapital.it/resources/cms/documents/PianoStrategico_2428.pdf; FEI, European Tech Champions Initiative, https://www.eif.org/etci/index.htm; Brander, Du, Hellmann, *The Effects of Government-Sponsored Venture Capital: International Evidence*, Review of Finance 2015; OpenBDAP-RGS, Rendiconto 2025, capp. 7476 e 7483 MIMIT, 7344 (Fondo venture capital, 5 mln). Da verificare: classificazione Eurostat della quota di prima perdita; stato dell'adesione italiana a ETCI 2.0 e allo Scaleup Europe Fund.
+
+---
+
+## 01-P16 — Tetti di spesa triennali per ministero, con riserva e regola sulle entrate inattese
+
+**Tipo.** Proposta nuova. Non duplica nulla: RA13 è una copertura (un obiettivo di risparmio), l'art. 22-bis della L. 196/2009 fissa obiettivi di spesa per ministero ma non un tetto alla spesa totale di ciascuno (portata dell'art. 22-bis vigente **da verificare** sul testo). 01-P16 trasforma quegli obiettivi in tetti e dà a RA13 e RP01 una cornice stabile.
+
+**Problema in un dato.** Nel 2025 la spesa netta è cresciuta dell'**1,5%** contro un tetto dell'**1,3%** (Commissione UE, citata nella raccomandazione del Consiglio del 10/7/2026, `europa/semestre.md`). La deviazione cumulata è dello **0,1% del PIL, circa 2,4 mld** (UPB, `dati/verifiche/00_vincolo_bilancio.md`). Il tetto UE vale per il totale. Nessuna regola nazionale dice a ogni ministero quanto può spendere nei tre anni.
+
+**Soluzione.**
+- La legge di bilancio fissa per tre anni un tetto di spesa netta per ogni ministero. La somma dei tetti è coerente con il percorso UE di spesa netta.
+- Una parte del percorso non è assegnata: è una **riserva** per gli imprevisti (0,1-0,15% del PIL, costruita in modo graduale). Se non si usa, migliora il saldo.
+- Le **entrate superiori alle previsioni** che non vengono da nuove leggi non finanziano spese nuove né tagli di tasse. Vanno a ridurre deficit e debito.
+- Chi vuole superare un tetto lo dice in Parlamento, con un voto motivato e una nota dell'UPB.
+
+**Perché funziona altrove.** Svezia (tetto dal 1997, con margine di bilancio) e Paesi Bassi (dal 1994, entrate in più non spese) hanno ridotto il debito per decenni. La Finlandia mostra il limite: il tetto non basta se l'economia non cresce (rapporto di benchmark, sezione 2; Governo svedese, *The Swedish fiscal policy framework*).
+
+**Varianti**
+
+| Variante | Contenuto | Costo 2027 / 2028 / 2029 / regime | Intensità | Copertura |
+|---|---|---|---|---|
+| PIENA | Tetti per ministero nella L. 243/2012 (legge rinforzata); riserva 0,05% del PIL nel 2028, 0,1% nel 2029, 0,15% dal 2030; regola sulle entrate inattese; superamento solo con legge motivata e nota UPB | 0,001 / 0,003 / 0,003 / **0,003** (2028) | 1 | RIALLOCAZIONE 0,003 |
+| ESSENZIALE | Stesse regole nella L. 196/2009 (legge ordinaria, rafforzando l'art. 22-bis); riserva 0,1% del PIL dal 2029; superamento con relazione motivata del Governo | 0,001 / 0,002 / 0,002 / **0,002** | 0,6 | RIALLOCAZIONE 0,002 |
+| ZERO | Tetti indicativi per ministero pubblicati nel Documento di finanza pubblica; monitoraggio trimestrale RGS degli scostamenti; regola sulle entrate inattese come indirizzo | 0 | 0,3 | invarianza |
+
+**Costo: da dove viene (stima GovernAI).** Un'unità RGS di 10-15 persone per i tetti e il monitoraggio trimestrale (circa 0,1 mln per persona con oneri, più 1 mln di sistemi): 2-3 mln l'anno. La riserva **non è un costo**: è una parte del percorso UE che non si assegna in anticipo.
+
+**Coperture.** Il costo diretto si copre con la riduzione delle spese di funzionamento del MEF effettivamente sostenute (consulenze, locazioni passive), non con residui. **La proposta non genera risparmi da contare.** Rende più probabili quelli di RA13 e RP01, ma non li aumenta.
+
+**Chi guadagna e chi paga.**
+- *Guadagnano* le generazioni giovani e chi pagherà gli interessi futuri (3,8% del PIL nel 2025, 4,3% previsto nel 2027: MEF, DPB 2027). Guadagnano anche i ministeri che programmano, perché sanno prima quanto avranno.
+- *Pagano* in flessibilità: il Parlamento in sessione di bilancio, i ministeri che oggi ottengono fondi in corso d'anno, chi chiede tagli di tasse finanziati da entrate inattese.
+
+**Articolato normativo essenziale** (variante PIENA; disegno di legge a maggioranza assoluta, modifica della L. 243/2012 e della L. 196/2009)
+
+> **Art. 1 (Tetti triennali di spesa).** 1. Nella legge 24 dicembre 2012, n. 243, dopo l'articolo 5 è inserito il seguente: «Art. 5-bis. – 1. La legge di bilancio stabilisce, per ciascuno dei tre anni del periodo di riferimento, il limite massimo della spesa netta di ciascun Ministero, in coerenza con il percorso della spesa netta definito ai sensi del regolamento (UE) 2024/1263. 2. Una quota del percorso, pari ad almeno lo 0,1 per cento del prodotto interno lordo, non è assegnata ed è iscritta in un fondo di riserva per spese impreviste. 3. Il limite di un Ministero può essere superato solo con legge, motivata e corredata di una nota dell'Ufficio parlamentare di bilancio, che indica la compensazione con altri limiti o con la riserva.»
+>
+> **Art. 2 (Entrate inattese).** 1. Le maggiori entrate rispetto alle previsioni del Documento di finanza pubblica che non derivano da provvedimenti legislativi sono destinate al miglioramento dell'indebitamento netto e alla riduzione del debito. Non possono coprire nuove o maggiori spese né riduzioni di entrate. 2. È coordinata con il comma 1 la disciplina del Fondo per la riduzione della pressione fiscale (art. 1, comma 431, L. 147/2013; disciplina vigente **da verificare**).
+>
+> **Art. 3 (Monitoraggio).** 1. La Ragioneria generale dello Stato pubblica ogni trimestre, per ciascun Ministero, la spesa rispetto al limite. 2. Il Ministero che supera il limite presenta entro trenta giorni un piano di rientro.
+>
+> **Art. 4 (Copertura).** 1. Agli oneri, pari a 1 milione per il 2027 e a 3 milioni annui dal 2028, si provvede con la riduzione delle spese di funzionamento del Ministero dell'economia e delle finanze, con esclusione delle spese obbligatorie.
+
+**Rischi giuridici**
+- **Art. 81 Cost.** Nessun conflitto: la regola rafforza l'equilibrio (c. 1) e la copertura (c. 3). Il tetto non sostituisce la copertura dei singoli atti.
+- **L. 243/2012, legge rinforzata (art. 81, c. 6).** Si modifica solo in modo espresso e a maggioranza assoluta (sent. 88/2014, nel registro verificato `costituzione/giurisprudenza_verificata.json`). È il motivo della variante PIENA: una regola nella sola L. 196/2009 (ESSENZIALE) può essere derogata da qualunque legge ordinaria successiva, compresa la legge di bilancio. Che i tetti per ministero rientrino nelle «norme fondamentali» che la L. cost. 1/2012 (art. 5) riserva alla L. 243/2012 è plausibile ma **da verificare** con il costituzionalista del progetto.
+- **Regolamenti parlamentari (art. 64 Cost.).** La legge non può vincolare da sola le procedure delle Camere sugli emendamenti. Il voto motivato per superare un tetto richiede una modifica coordinata dei regolamenti di Camera e Senato.
+- **Regole UE.** Il regolamento (UE) 2024/1263 fissa già il percorso di spesa netta su 4-7 anni. Le entrate inattese oggi non creano spazio sul tetto UE, perché la spesa netta è calcolata al netto delle sole misure discrezionali di entrata. La regola nazionale serve quindi soprattutto se le regole UE cambiano o se si attiva una clausola di deroga. La direttiva 2011/85/UE, modificata dalla direttiva (UE) 2024/1265, chiede quadri di bilancio a medio termine nazionali (recepimento italiano **da verificare**).
+
+**Altri rischi e mitigazioni**
+- *Deroghe ogni anno:* superamento solo con legge motivata e nota UPB; elenco pubblico delle deroghe.
+- *Tetti che spingono a spostare spesa fuori bilancio (società, fondi, crediti d'imposta):* il tetto è sulla spesa netta in contabilità nazionale, non sugli stanziamenti.
+- *Emergenze:* riserva, più la clausola generale UE di deroga.
+
+**Cronoprogramma**
+- *Primi 100 giorni:* ddl con 01-P17 (stesso testo "conti pubblici"); RGS prepara la ripartizione per ministero sul percorso 2028-2030.
+- *Entro 12 mesi:* approvazione a maggioranza assoluta; prima legge di bilancio con tetti (2028-2030); modifica dei regolamenti parlamentari.
+- *Entro fine legislatura:* due cicli completi; relazione della Corte dei conti sul rispetto dei tetti.
+
+**Indicatori**
+
+| KPI | Base (dato, anno, fonte) | Obiettivo 3 anni | Obiettivo 5 anni |
+|---|---|---|---|
+| Crescita della spesa netta rispetto al tetto UE | 1,5% contro 1,3%, 2025 (Commissione UE) | entro il tetto ogni anno | entro il tetto ogni anno, deviazione cumulata riassorbita |
+| Ministeri entro il proprio tetto | non misurato, 2026 (nessun tetto) | ≥ 80% | 100% o deroga votata |
+| Entrate inattese destinate al deficit | nessuna regola, 2026 | 100% | 100% |
+
+---
+
+## 01-P17 — UPB più forte: revisioni indipendenti, accesso ai dati, "rispetta o spiega", analisi volontaria dei programmi elettorali
+
+**Tipo.** Proposta nuova, che unisce le idee B e C. La parte C (programmi elettorali) è separabile: è la variante PILOTA. Si integra con le altre funzioni UPB già nel programma (01-P1, 02-C3 art. 5 c. 2, 04-P4, 08-P1). Va in **un solo disegno di legge "UPB"**, come chiede l'esame costituzionale (`costituzione/esami/governai_conti_2027_2029.md`, sezione 4).
+
+**Problema in un dato.** L'UPB può avere **al massimo 40 persone** (art. 17, c. 4, L. 243/2012) e ha una dotazione di **6 mln l'anno** (3 mln per ciascuna Camera, art. 19; UPB, rendiconto 2020). La spagnola AIReF ha esaminato **108 mld di spesa** nel primo ciclo di revisioni 2018-2021 (Hacienda, note al Consiglio dei ministri). In Italia il principio "rispetta o spiega" vale solo sulle previsioni macroeconomiche (art. 18, c. 3, L. 243/2012). Non vale sulle raccomandazioni di spesa.
+
+**Soluzione.**
+- **Revisioni indipendenti.** L'UPB rivede ogni anno 2-3 aree di spesa (15-25 mld in tutto) e presenta opzioni, non scelte.
+- **Accesso ai dati.** Le amministrazioni rispondono alle richieste dell'UPB entro 30 giorni. Il rifiuto va motivato.
+- **Rispetta o spiega.** Il Governo risponde entro 3 mesi a ogni raccomandazione: la accetta o spiega perché no.
+- **Programmi elettorali.** Ogni forza politica, se vuole, chiede all'UPB una stima pubblica di costi e coperture del proprio programma, con un metodo unico pubblicato prima. Nessuna classifica, solo numeri. GovernAI si impegna a chiederla per primo.
+
+**Perché funziona altrove.** Spagna: AIReF (LO 6/2013), revisioni della spesa su incarico del Governo; secondo la stessa AIReF le proposte sono state recepite solo in parte (fonte secondaria). Paesi Bassi: il CPB stima i programmi elettorali (*Keuzes in Kaart*). L'edizione 2023 è l'undicesima e ha coperto 8 partiti; l'edizione 2027-2030, pubblicata il 10/10/2025, ne ha coperti 10 (CPB, ricerca del 15/11/2026; anno di avvio **da verificare**).
+
+**Varianti**
+
+| Variante | Contenuto | Costo 2027 / 2028 / 2029 / regime | Intensità | Copertura |
+|---|---|---|---|---|
+| PIENA | 2-3 revisioni l'anno (15-25 mld); accesso ai dati con obbligo di risposta; rispetta o spiega in 3 mesi; analisi dei programmi elettorali; circa 30 persone in più all'UPB e un nucleo di monitoraggio RGS | 0,002 / 0,005 / 0,006 / **0,006** (2029) | 1 | RIALLOCAZIONE 0,006 |
+| ESSENZIALE | 1 revisione l'anno (8-10 mld); rispetta o spiega; analisi dei programmi elettorali; circa 12-15 persone in più | 0,001 / 0,0025 / 0,0025 / **0,0025** | 0,55 | RIALLOCAZIONE 0,0025 |
+| PILOTA | Solo analisi volontaria dei programmi elettorali e rispetta o spiega sulle valutazioni UPB già esistenti | 0 / 0,0005 / 0,0005 / **0,0005** | 0,25 | RIALLOCAZIONE 0,0005 |
+| ZERO | Solo rispetta o spiega sulle valutazioni UPB già esistenti (estensione dell'art. 18, c. 3) | 0 | 0,15 | invarianza |
+
+**Costo: da dove viene (stima GovernAI).**
+- Personale: 25-35 persone × 150.000 € medi con oneri (ipotesi del rapporto di benchmark) = 4-5 mln; nucleo RGS di 5 persone, 0,5 mln.
+- Programmi elettorali: 1-2 mln per ciclo, cioè circa 0,3-0,4 mln l'anno.
+- **Attenzione alla dimensione dell'UPB.** 01-P1 (circa 10 persone), 08-P1 (sezione fino a 30 persone) e 04-P4 aggiungono già funzioni. Con la PIENA l'UPB passerebbe da 40 a circa 100 persone. Il tetto di 40 dell'art. 17 va alzato nella stessa legge. Serve un piano di assunzioni graduale, altrimenti la qualità cala.
+
+**Coperture.** Riduzione delle spese di funzionamento del MEF; l'aumento della dotazione UPB passa per la legge di bilancio (art. 19 L. 243/2012). **I risparmi delle revisioni non sono una copertura.** Ordine di grandezza, solo indicativo (rapporto di benchmark): rivedere 20 mld, trovare il 10% di margine e realizzarne un terzo vale 0,2-0,7 mld dopo 3-4 anni. Possono entrare in RA13 solo dopo che la legge di bilancio ha davvero tagliato gli stanziamenti.
+
+**Chi guadagna e chi paga.**
+- *Guadagnano* contribuenti e utenti dei servizi (spesa più efficace); chi vota (programmi confrontabili); il Parlamento (più informazioni indipendenti).
+- *Pagano* i beneficiari di spese senza risultati dimostrati; il Governo, che perde il controllo esclusivo sui numeri; le forze politiche che promettono senza coperture.
+
+**Articolato normativo essenziale** (variante PIENA; disegno di legge a maggioranza assoluta, modifica della L. 243/2012)
+
+> **Art. 1 (Revisioni indipendenti della spesa).** 1. All'articolo 18 della legge 24 dicembre 2012, n. 243, è aggiunto il seguente comma: «L'Ufficio effettua ogni anno la revisione di almeno due aree di spesa, individuate dal Consiglio dell'Ufficio sentite le Commissioni bilancio. Per ciascuna area presenta più opzioni, con i loro effetti finanziari e distributivi, senza indicare una scelta.»
+>
+> **Art. 2 (Accesso ai dati).** 1. Le amministrazioni pubbliche forniscono all'Ufficio, entro trenta giorni dalla richiesta, i dati e le informazioni necessari, anche in forma individuale e pseudonimizzata, nel rispetto del regolamento (UE) 2016/679. Il rifiuto è motivato e comunicato alle Commissioni bilancio.
+>
+> **Art. 3 (Rispetta o spiega).** 1. Il Governo, entro tre mesi dalla pubblicazione di una raccomandazione dell'Ufficio, comunica alle Camere se intende conformarsi o le ragioni per cui non lo fa.
+>
+> **Art. 4 (Programmi elettorali).** 1. Ogni partito o gruppo politico organizzato che presenta candidature alle elezioni della Camera dei deputati può chiedere all'Ufficio, entro il termine fissato dal Consiglio, la stima dei costi e delle coperture del proprio programma. 2. Il metodo è pubblicato almeno dodici mesi prima della scadenza naturale della legislatura. 3. Le stime sono pubblicate insieme, almeno quindici giorni prima del voto, senza classifiche.
+>
+> **Art. 5 (Personale e dotazione).** 1. All'articolo 17, comma 4, le parole «quaranta unità» sono sostituite dalle seguenti: «settanta unità» (cifra da coordinare con 01-P1, 04-P4 e 08-P1). 2. La dotazione dell'articolo 19 è incrementata di 5 milioni di euro annui dal 2029, con riduzione delle spese di funzionamento del Ministero dell'economia e delle finanze.
+
+**Rischi giuridici**
+- **L. 243/2012 e art. 81, c. 6 Cost.** Ogni nuova funzione si scrive in modo espresso nella L. 243/2012, a maggioranza assoluta (sent. 88/2014). Va fuori dalla legge di bilancio, che non può contenere norme ordinamentali (art. 21, c. 1-quinquies, L. 196/2009, richiamato nell'esame costituzionale del progetto).
+- **Autonomia delle Camere (art. 64 Cost.).** L'UPB è un organo presso le Camere: compiti e personale vanno concordati con gli Uffici di presidenza (per 08-P1 l'esame cita le sent. 129/1981 e 120/2014, non nel registro verificato: **da verificare**).
+- **Programmi elettorali e parità di trattamento (artt. 3, 49 Cost.).** L'adesione è volontaria e il metodo è uguale per tutti. Il rischio è la politicizzazione dell'UPB: per questo nessuna classifica e metodo pubblicato un anno prima. **Per le elezioni del 2027 la legge non arriverebbe in tempo.** GovernAI può chiedere una verifica volontaria a un soggetto indipendente, ma non è questa misura.
+- **Regole UE.** La direttiva (UE) 2024/1265 rafforza le istituzioni di bilancio indipendenti e introduce il principio "rispetta o spiega" sulle loro valutazioni (articolo e stato di recepimento **da verificare**). Il regolamento (UE) 473/2013 chiede organismi indipendenti di controllo. La proposta va nella stessa direzione e la estende alla spesa.
+- **Protezione dei dati.** L'accesso a dati individuali richiede finalità limitate, pseudonimizzazione e valutazione d'impatto (art. 35 GDPR).
+
+**Altri rischi e mitigazioni**
+- *Conflitto di ruolo (chi controlla non decide):* le revisioni si fermano alle opzioni.
+- *Raccomandazioni ignorate (caso spagnolo):* rispetta o spiega con termine e pubblicazione delle risposte.
+- *Sovraccarico prima del voto:* calendario fisso e personale dedicato.
+
+**Cronoprogramma**
+- *Primi 100 giorni:* ddl unico "UPB e conti pubblici" (con 01-P16, 01-P1, 04-P4, 08-P1); intesa con le presidenze delle Camere.
+- *Entro 12 mesi:* approvazione; primo bando di assunzione; scelta delle prime due aree.
+- *Entro fine legislatura:* almeno 4 revisioni pubblicate con risposte del Governo; metodo per i programmi elettorali pubblicato 12 mesi prima del voto.
+
+**Indicatori**
+
+| KPI | Base (dato, anno, fonte) | Obiettivo 3 anni | Obiettivo 5 anni |
+|---|---|---|---|
+| Spesa esaminata da revisioni indipendenti, cumulata | 0, 2026 | ≥ 30 mld | ≥ 60 mld |
+| Raccomandazioni con risposta motivata del Governo entro 3 mesi | 0%, 2026 (nessun obbligo) | 100% | 100% |
+| Forze politiche che chiedono la stima del programma | 0, 2026 | primo ciclo preparato | ≥ 3 alle prime elezioni utili |
+| Risparmi delle revisioni tagliati per legge e certificati a consuntivo | 0, 2026 | da misurare | ≥ 0,2 mld/anno (indicativo, non copertura) |
+
+---
+
+## 01-P18 — Registro mensile dei redditi Entrate-INPS (rafforzamento di 01-P7)
+
+**Tipo.** Rafforzamento di **01-P7** (conto fiscale annuale), di **09-C2** (once-only) e di **02-C4 art. 3** (aggiornamento automatico dell'Assegno di inclusione). Ha un id proprio perché ha un costo proprio e va valutato a parte. **Non ha senso senza 01-P7 o 02-C4.**
+
+**Problema in un dato.** L'ISEE si calcola sui redditi del **secondo anno precedente** (DPCM 159/2013 e successive modifiche; testo vigente **da verificare**). Chi perde il lavoro o ha redditi che cambiano riceve Assegno unico e Assegno di inclusione calcolati su una situazione vecchia di due anni, salvo ISEE corrente su domanda. L'ADI raggiunge **690 mila nuclei** (INPS, giugno 2026, da `programma/schede/02_lavoro.md`). In Finlandia il registro dei redditi è in tempo reale dal 2019: il datore di lavoro comunica ogni pagamento entro pochi giorni (termine di 5 giorni **da verificare**).
+
+**Soluzione.**
+- I sostituti d'imposta trasmettono **ogni mese** redditi e ritenute per persona, in un solo flusso. Si parte da UniEmens, che è già mensile per i contributi, e si unisce con i dati della Certificazione Unica.
+- Il registro è condiviso tra Agenzia delle entrate e INPS. Alimenta il conto fiscale di 01-P7.
+- Ogni mese aggiorna Assegno unico, Assegno di inclusione e ISEE corrente, senza nuova domanda.
+- Accessi tracciati. Ogni persona vede chi ha usato i suoi dati (come in 09-C2).
+
+**Varianti**
+
+| Variante | Contenuto | Costo 2027 / 2028 / 2029 / picco | Intensità | Copertura |
+|---|---|---|---|---|
+| PIENA | Flusso mensile unico per tutti i sostituti (lavoro dipendente, pensioni, assimilati); CU abolita per chi è nel registro; aggiornamento mensile di AUU, ADI e ISEE corrente; alimenta 01-P7 | 0,02 / 0,04 / 0,035 / **0,04** (2028); 0,015 dal 2030 | 1 | COESIONE_2127 0,025 (una tantum) + RIALLOCAZIONE 0,015 |
+| ESSENZIALE | Arricchisce UniEmens con le ritenute fiscali per persona; CU resta; aggiornamento mensile solo di ADI e ISEE corrente | 0,01 / 0,025 / 0,02 / **0,025** (2028); 0,01 dal 2030 | 0,55 | COESIONE_2127 0,015 + RIALLOCAZIONE 0,01 |
+| PILOTA | Uso dei dati UniEmens già esistenti per aggiornare ogni mese l'ADI (decalage di 02-C4) | 0,005 / 0,005 / 0,005 / **0,005** | 0,15 | RIALLOCAZIONE 0,005 |
+
+**Costo: da dove viene (stima GovernAI, dal rapporto di benchmark).** 0,05-0,10 mld una tantum e 0,01-0,02 mld l'anno di gestione. Ipotesi: dimensione italiana circa 10 volte quella finlandese, con riuso di UniEmens, PDND e fatturazione elettronica. Il costo finlandese di partenza è **da verificare**. Restano fuori, e vanno misurati, i costi di adeguamento dei software paghe per le imprese.
+
+**Coperture.** Investimento iniziale con fondi di coesione 2021-27, obiettivo strategico 1, digitalizzazione della PA (come per 09-C2); gestione con riduzione della spesa ICT corrente di Agenzia delle entrate e INPS. **Non si contano** i minori pagamenti indebiti di prestazioni e i minori recuperi: sono certificabili solo dopo.
+
+**Chi guadagna e chi paga.**
+- *Guadagnano* le famiglie con redditi variabili o che perdono il lavoro, che oggi ricevono prestazioni in ritardo o sbagliate e poi devono restituirle. Guadagnano CAF e cittadini, con meno documenti da portare.
+- *Pagano* i datori di lavoro e i consulenti del lavoro, per l'adeguamento dei software. Le piccole imprese più delle grandi. Paga, in termini di riservatezza, chiunque abbia i dati in un registro più ricco: per questo servono garanzie forti.
+
+**Articolato normativo essenziale** (disegno di legge; modifica del d.P.R. 600/1973 e del d.lgs. 175/2014)
+
+> **Art. 1 (Registro mensile dei redditi).** 1. A decorrere dal 1° gennaio 2029 i sostituti d'imposta trasmettono mensilmente, con un unico flusso telematico all'INPS e all'Agenzia delle entrate, i compensi corrisposti, le ritenute operate e i contributi dovuti per ciascun percipiente. 2. Per i percipienti inclusi nel flusso, la certificazione unica di cui all'articolo 4, comma 6-ter, del d.P.R. 22 luglio 1998, n. 322, non è più dovuta. *(Comma 2 solo variante PIENA.)*
+>
+> **Art. 2 (Uso dei dati).** 1. I dati del registro sono usati esclusivamente per: a) il conto fiscale annuale (01-P7); b) il calcolo e l'aggiornamento mensile dell'Assegno unico e universale, dell'Assegno di inclusione e dell'ISEE corrente; c) le statistiche ufficiali, in forma anonima. 2. Ogni altro uso richiede una legge.
+>
+> **Art. 3 (Garanzie).** 1. Gli accessi sono tracciati; ogni persona può consultare l'elenco delle amministrazioni che hanno usato i suoi dati. 2. Nessuna riduzione di prestazione è disposta senza comunicazione e senza possibilità di correggere i dati entro trenta giorni. 3. Il trattamento è preceduto da valutazione d'impatto ai sensi dell'articolo 35 del regolamento (UE) 2016/679, sentito il Garante.
+>
+> **Art. 4 (Copertura).** 1. Agli oneri, pari a 20 milioni per il 2027, 40 milioni per il 2028, 35 milioni per il 2029 e 15 milioni annui dal 2030, si provvede per la parte di investimento con le risorse della politica di coesione 2021-2027, obiettivo strategico 1, previa riprogrammazione, e per la parte di gestione con la riduzione della spesa ICT corrente dell'INPS e dell'Agenzia delle entrate.
+
+**Rischi giuridici**
+- **Art. 81 Cost.** Copertura certa per la gestione; quella con i fondi di coesione dipende dalla riprogrammazione con la Commissione UE. Se non arriva, si ripiega sulla PILOTA.
+- **Protezione dei dati (artt. 2, 3 Cost.; art. 8 CEDU; GDPR artt. 5, 6, 25, 35).** Un registro mensile per persona è un trattamento massivo: regge con base di legge, finalità chiuse, minimizzazione e controllo umano. L'esame costituzionale del progetto richiama la sent. 20/2019 sul bilanciamento tra trasparenza e riservatezza (non nel registro verificato: **da verificare**). Coerenza con le garanzie di 01-P10.
+- **Statuto del contribuente (L. 212/2000).** Nuovi adempimenti solo con congruo preavviso (art. 3; verifica del termine **da verificare**) e senza chiedere dati già posseduti (art. 6, c. 4).
+- **Regole UE.** Nessun vincolo diretto; coerente con il regolamento (UE) 2024/903 sull'interoperabilità e con il principio once-only.
+
+**Altri rischi e mitigazioni**
+- *Errori che riducono le prestazioni:* contraddittorio di 30 giorni; nessuna riduzione automatica senza comunicazione.
+- *Costi per le piccole imprese:* riuso di UniEmens, nessun dato nuovo oltre le ritenute per persona; avvio graduale.
+- *Progetto IT grande:* PILOTA prima, PIENA solo dopo la prova.
+
+**Cronoprogramma**
+- *Primi 100 giorni:* tavolo Entrate-INPS-Sogei; valutazione d'impatto con il Garante; PILOTA sull'ADI con i dati UniEmens.
+- *Entro 12 mesi:* legge; specifiche del flusso unico; consultazione dei consulenti del lavoro.
+- *Entro fine legislatura:* flusso mensile obbligatorio dal 2029; aggiornamento mensile di AUU e ADI; primo conto fiscale 01-P7 alimentato dal registro.
+
+**Indicatori**
+
+| KPI | Base (dato, anno, fonte) | Obiettivo 3 anni | Obiettivo 5 anni |
+|---|---|---|---|
+| Ritardo tra cambio di reddito e aggiornamento della prestazione (AUU, ADI) | fino a 24 mesi, 2026 (ISEE sul secondo anno precedente) | ≤ 2 mesi per l'ADI | ≤ 2 mesi per AUU e ADI |
+| Importi di AUU e ADI pagati in eccesso e poi recuperati | base INPS da acquisire | -30% | -50% |
+| Sostituti d'imposta nel flusso mensile unico | 0%, 2026 | 50% | 100% |

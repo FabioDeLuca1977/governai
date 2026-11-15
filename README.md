@@ -17,11 +17,11 @@ L'interfaccia web pubblicata in `docs/` contiene:
 |---|---|
 | `00_metodo.md` | Metodo comune degli agenti ministeriali |
 | `01_carta_valori.md` | Carta dei 10 valori: Rispetto e diversità, Fiducia e trasparenza, Innovazione, Benessere, Apprendimento e cultura, Bellezza patrimonio e accoglienza, Responsabilità verso il futuro, Equità, Sicurezza senza controllo assoluto, Cittadinanza responsabile |
-| `ministeri/` | 9 dossier ministeriali e 78 proposte |
+| `ministeri/` | 9 dossier ministeriali e 83 proposte |
 | `dati/` | Base dati ufficiale: script di download (Eurostat, ISTAT, MEF, …), serie, verifiche di 334 cifre su fonte primaria, storico |
 | `registro/` | Registro unico delle coperture e vincolo di bilancio |
 | `motore/` | Panel di 3 valutatori indipendenti e analisi di robustezza ai valori (SMAA) |
-| `programma/` | 233 varianti, 72 misure di copertura, ottimizzatore senza deficit, schede pronte (articolato normativo, cronoprogramma, indicatori) |
+| `programma/` | 249 varianti, 73 misure di copertura, ottimizzatore senza deficit, schede pronte (articolato normativo, cronoprogramma, indicatori) |
 | `20_programma_governai.md` | Il programma completo: versioni base, completa e intermedia, tutte senza deficit, verificate giuridicamente |
 | `21_idee_in_sintesi.md` | Le idee in dieci minuti |
 | `22_programma_in_una_pagina.md` | Il programma in una pagina: perché, come, cosa misuriamo, chi ne beneficia (generato da `programma/schema.yaml`) |

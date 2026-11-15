@@ -6,7 +6,7 @@
 |---|---|---|---|
 | Un Paese dove chi nasce, studia, lavora e invecchia trova servizi che funzionano, e dove le scelte di oggi non pesano sui conti delle generazioni future. | Ogni misura pagata senza deficit: tagli di spesa nei ministeri, meno sussidi dannosi (tra cui il gasolio agevolato per autotrasporto e agricoltura) e agevolazioni inefficaci, accise su tabacco, alcol e bevande zuccherate, forfettario più alto tra 50.000 e 85.000 euro di ricavi e rivalutazione ridotta delle pensioni più alte dal 2030. Le misure incerte partono come sperimentazioni. | Con indicatori pubblici, aggiornati ogni anno, con base e obiettivo a 5 anni: nidi, abbandono scolastico, persone laureate, ricerca, produttività, cure, acqua, giustizia. | Famiglie con bambine e bambini piccoli, studentesse e studenti delle scuole più fragili, giovani, imprese che innovano, chi vive in territori a rischio, chi paga le tasse e chi usa giustizia e servizi pubblici. |
 
-**I conti:** 8,26 mld l'anno di spesa nuova, 63 misure su 78, coperture per 6,30 mld al minimo più i fondi vincolati. Nuovo deficit: zero.
+**I conti:** 8,43 mld l'anno di spesa nuova, 70 misure su 83, coperture per 6,45 mld al minimo più i fondi vincolati. Nuovo deficit: zero.
 
 ## Ce l'avremo fatta se…
 
@@ -162,7 +162,7 @@
 
 ## Fisco semplice e conti onesti
 
-*10 misure su 11 · 0,32 mld l'anno*
+*11 misure su 11 · 0,37 mld l'anno*
 
 **Perché.** Pagare le tasse deve essere semplice e giusto. Ogni scelta pubblica deve dire chi paga e quando, senza scaricare debiti sulle generazioni future. *Valori: Fiducia e trasparenza, Responsabilità verso il futuro, Equità.*
 
@@ -170,6 +170,7 @@
 
 - 01-P7 Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla (essenziale, 0,15 mld)
 - 01-P3 IVA in tempo reale (essenziale, 0,08 mld)
+- 01-P10 Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti (essenziale, 0,06 mld)
 - 01-P12 Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate (essenziale, 0,04 mld)
 - 04-P4 Nessuna grande opera senza prova dei numeri (piena, 0,03 mld)
 - 01-P1 Bilancio generazionale: ogni legge dichiara chi paga e quando (essenziale, 0,01 mld)
@@ -178,7 +179,6 @@
 - 01-P9 Una sola detrazione per il lavoro, senza scalini (solo regole, costo zero)
 - 01-P11 Lo scontrino che conviene: un incentivo mirato al posto di lotterie e cashback (solo regole, costo zero)
 - 02-C3 Patto previdenziale tra generazioni (solo regole, costo zero)
-- *Fuori da questa versione:* 01-P10 Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti
 
 **Sostenibilità.** Costa poco ed è pagata spostando spesa esistente. L'evasione recuperata non paga nuova spesa: riduce il deficit. Detrazioni e scontrini: solo riordino a costo zero. I controlli mirati restano fuori.
 
@@ -187,7 +187,7 @@
 - **IVA evasa ogni anno**: da 34,4 mld € a **28,5 mld €** in 5 anni (01-P3; base: MEF, Relazione evasione 2026)
 - **Agevolazioni fiscali in vigore**: da 573 a **400** in 5 anni (01-P2; base: MEF, Rapporto spese fiscali 2025)
 - **Leggi importanti con il conto per le generazioni future**: da 0% a **100%** in 5 anni (01-P1; base: scheda (nessun obbligo vigente))
-- **Grandi opere con valutazione indipendente pubblica**: da 0% a **100%** in 5 anni (04-P4) — *con il calendario di avvio la misura parte nel 2035: l'obiettivo va oltre i 5 anni*
+- **Grandi opere con valutazione indipendente pubblica**: da 0% a **100%** in 5 anni (04-P4) — *con il calendario di avvio la misura parte nel 2034: l'obiettivo va oltre i 5 anni*
 
 **Chi ne beneficia.**
 
@@ -198,7 +198,7 @@
 
 ## Uno Stato che funziona, istituzioni aperte
 
-*19 misure su 22 · 0,94 mld l'anno*
+*20 misure su 22 · 1,01 mld l'anno*
 
 **Perché.** Uno Stato rapido, giusto e trasparente fa risparmiare tempo alle persone e alle imprese e rafforza la fiducia. L'AI aiuta, ma decidono le persone. *Valori: Fiducia e trasparenza, Sicurezza senza controllo assoluto, Cittadinanza responsabile.*
 
@@ -210,6 +210,7 @@
 - 09-C5 AI nella PA con le mani sul volante (essenziale, 0,08 mld)
 - 09-C8 Staffetta delle competenze: il ricambio generazionale come occasione di riqualificazione (essenziale, 0,08 mld)
 - 07-C4 Dal bene confiscato al bene comune (essenziale, 0,07 mld)
+- 09-C1 Stato a vetro: infrastruttura aperta per l'analisi delle politiche (piena, 0,07 mld)
 - 07-C3 Governance dei flussi migratori fondata sui dati (pilota, 0,04 mld)
 - 09-C6 Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità (piena, 0,03 mld)
 - 09-C7 Automazione dei processi ripetitivi con riallocazione garantita (pilota, 0,02 mld)
@@ -223,7 +224,7 @@
 - 08-P5 Cooperazione che si misura: traiettoria APS (solo regole, costo zero)
 - 09-C2 Chiedilo una volta sola: once-only con rimborso automatico (solo regole, costo zero)
 - 09-C4 Cloud pubblico sostenibile e Patto per la manutenzione digitale (solo regole, costo zero)
-- *Fuori da questa versione:* 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea; 07-C6 Scudo cyber territoriale; 09-C1 Stato a vetro: infrastruttura aperta per l'analisi delle politiche
+- *Fuori da questa versione:* 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea; 07-C6 Scudo cyber territoriale
 
 **Sostenibilità.** Costi bassi, pagati con tagli di spesa e di personale amministrativo nei ministeri. Difesa al 3,5% del PIL e scudo cyber per i Comuni restano fuori; diverse misure sulla PA sono ridotte.
 
@@ -252,36 +253,37 @@
 | AS01 Sigarette: ulteriore componente specifica di accisa di 25 € per 1.000 sigarette (circa 0,50 € a pacchetto) in due tappe 2028-2029, oltre a quanto già previsto da L. 199/2025 e DDL 2027 | Chi fuma (prelievo regressivo); filiera del tabacco | 0,60 |
 | RA13 Revisione strutturale della spesa dei ministeri: ulteriori 0,05% del PIL oltre quanto già nel DPB, con analisi a base zero dei programmi e tagli selettivi | Chi beneficia dei programmi tagliati (da individuare) | 0,40 |
 | SF06 Detrazione 19% delle spese sanitarie decrescente tra 50.000 e 120.000 € di reddito, salve disabilità, patologie croniche gravi e non autosufficienza (SF-SAN1, area 06) | Contribuenti con reddito tra 50.000 e 120.000 € (azzerata oltre) | 0,35 |
-| PE04 Perequazione differenziata per 5 anni (2030-2034), prorogabile con legge motivata: rivalutazione al 50% (invece del 75%) sulla sola quota di pensione oltre 6 volte il minimo; al 75% negli anni con inflazione oltre il 4%; mai cumulata con altri raffreddamenti (proposta area 02) | Persone in pensione con trattamento oltre circa 3.700 €/mese lordi | 0,30 |
 | SAD01 Rimborso accise gasolio autotrasporto (EN.SI.19): esclusione Euro 5 dal 2028 e riduzione graduale di un terzo del rimborso per gli Euro 6; 25% del gettito a rinnovo flotte e intermodalità (Ferrobonus/Marebonus) | Imprese di autotrasporto merci (veicoli da 7,5 t) e passeggeri; in parte la clientela finale tramite i prezzi del trasporto | 0,30 |
+| PE04 Perequazione differenziata per 5 anni (2030-2034), prorogabile con legge motivata: rivalutazione al 50% (invece del 75%) sulla sola quota di pensione oltre 6 volte il minimo; al 75% negli anni con inflazione oltre il 4%; mai cumulata con altri raffreddamenti (proposta area 02) | Persone in pensione con trattamento oltre circa 3.700 €/mese lordi | 0,30 |
 | FN02 Abolizione dal 2028 delle detrazioni 19% per premi assicurativi vita e infortuni (salvi i premi per non autosufficienza e per la tutela di persone con disabilità grave) e per spese veterinarie | Persone capienti titolari di polizze vita/infortuni o proprietarie di animali, distribuite su tutti i decili dal quarto in su | 0,25 |
 | RA14 Codice degli incentivi: riordino completo, con abrogazione delle linee di incentivo alle imprese senza addizionalità dimostrata, oltre RA04 | Imprese beneficiarie di incentivi | 0,20 |
-| SF16 Nuovo patent box (art. 6 DL 146/2021): nessun nuovo ingresso dal 2027 e uscita graduale per chi è già nel regime; risorse vincolate al credito unico per la ricerca (01-P13) | Imprese con redditi da beni immateriali, in prevalenza con almeno 500 addetti (ISTAT) | 0,20 |
 | SF10 Iperammortamento (L. 199/2025 c. 427-436): riduzione della maggiorazione base per investimenti non qualificati, mantenuta per 4.0, immateriali e transizione (proposta area 01) | Imprese che investono in beni strumentali ordinari | 0,20 |
+| SF16 Nuovo patent box (art. 6 DL 146/2021): nessun nuovo ingresso dal 2027 e uscita graduale per chi è già nel regime; risorse vincolate al credito unico per la ricerca (01-P13) | Imprese con redditi da beni immateriali, in prevalenza con almeno 500 addetti (ISTAT) | 0,20 |
 | SF02 Regime forfetario: aliquota sostitutiva 20% (invece di 15%) sul reddito corrispondente ai ricavi tra 50.000 e 85.000 €; nessun cambio sotto 50.000 € né alla soglia IVA | Lavoratrici e lavoratori autonomi e piccole imprese forfetarie con ricavi tra 50.000 e 85.000 € | 0,20 |
 | RA05 Abrogazione della riduzione del payback farmaceutico per le aziende che investono (DDL 2027 art. 71; R-SAN1, area 06) | Industria farmaceutica | 0,16 |
+| RA15 Incentivi all'assunzione (esoneri contributivi e linee di spesa del Ministero del lavoro) senza effetto aggiuntivo dimostrato: riduzione per le sole assunzioni successive all'entrata in vigore, dopo valutazione controfattuale INAPP-INPS; esclusi gli incentivi per persone con disabilità e il collocamento mirato; al netto della quota già usata da 02-C1 (0,10-0,15); vincolata a 02-C9 | Imprese che assumono giovani, donne o nelle ZES e che avrebbero assunto comunque; in parte le persone assunte, se l'incentivo era traslato sui salari | 0,15 |
 | AS03 Sugar tax: raddoppio delle aliquote dal 2029, dopo il primo anno di applicazione | Chi consuma bevande zuccherate; produttori (spinta a riformulare) | 0,15 |
-| SAD05 Auto aziendali (TR.SI.04a): fine del regime transitorio per i contratti ante 2025 dal 2028 e percentuale imponibile dal 50% al 60% per i veicoli a combustione | Personale dipendente con auto aziendale a uso promiscuo; imprese (costo del welfare aziendale) | 0,15 |
 | AS02 Tabacco riscaldato e sigarette elettroniche: accisa avvicinata a quella delle sigarette tradizionali equivalenti (dal livello attuale a circa il 60-70%) | Chi consuma prodotti da inalazione senza combustione | 0,15 |
 | SAD02 Gasolio agricolo (EN.SI.21): accisa dal 22% al 40% dell'aliquota normale in 5 anni, con credito per piccole aziende e montagna (mezzi a basse emissioni, biometano) | Aziende agricole, florovivaistiche, silvicole e della pesca in acque interne che usano gasolio agevolato | 0,15 |
+| SAD05 Auto aziendali (TR.SI.04a): fine del regime transitorio per i contratti ante 2025 dal 2028 e percentuale imponibile dal 50% al 60% per i veicoli a combustione | Personale dipendente con auto aziendale a uso promiscuo; imprese (costo del welfare aziendale) | 0,15 |
 | SAD03 Accisa sul cherosene dei voli nazionali (EN.SI.04b) al 50% dell'aliquota normale in 3 anni; esenti le rotte in continuità territoriale (OSP) con Sardegna, Sicilia e isole minori | Compagnie aeree e chi viaggia sui voli nazionali non OSP | 0,12 |
-| SAD08 Abolizione di quattro SAD energetici minori: deduzione forfetaria gestori carburanti (EN.SI.18), accisa ridotta gas grandi consumatori (EN.SI.20), GPL industriale (EN.SI.15), esenzione oli lubrificanti (EN.SI.03) | Gestori di impianti di distribuzione, grandi consumatori industriali di gas, imprese gomma/plastica | 0,10 |
-| RA06 SSN: tetto di legge alla spesa per beni e servizi non sanitari degli enti, con gare centralizzate, e riduzione corrispondente del FSN (R-SAN2, area 06) | Fornitori non sanitari del SSN | 0,10 |
 | TS01 Imposta di soggiorno: tetto massimo +2 €/notte nei comuni ad alta intensità turistica, con vincolo di destinazione a casa per residenti, trasporti e patrimonio | Chi pernotta nei comuni ad alta pressione turistica | 0,10 |
-| RA07 Riserva di una quota delle facoltà assunzionali da turnover ai profili tecnici (ICT, appalti, progettazione) al posto dei profili amministrativi generici (R09-1, area 09) | Chi si candida a profili generici; uffici che non sostituiscono il personale | 0,10 |
+| SAD08 Abolizione di quattro SAD energetici minori: deduzione forfetaria gestori carburanti (EN.SI.18), accisa ridotta gas grandi consumatori (EN.SI.20), GPL industriale (EN.SI.15), esenzione oli lubrificanti (EN.SI.03) | Gestori di impianti di distribuzione, grandi consumatori industriali di gas, imprese gomma/plastica | 0,10 |
 | RB03 Bonus lavoratrici madri (DDL 2027 art. 57): soglia di reddito da 40.000 a 32.000 € con uscita graduale fino a 40.000 € | Lavoratrici madri con 2 o più figli e reddito tra 32.000 e 40.000 € | 0,10 |
+| RA06 SSN: tetto di legge alla spesa per beni e servizi non sanitari degli enti, con gare centralizzate, e riduzione corrispondente del FSN (R-SAN2, area 06) | Fornitori non sanitari del SSN | 0,10 |
+| RA07 Riserva di una quota delle facoltà assunzionali da turnover ai profili tecnici (ICT, appalti, progettazione) al posto dei profili amministrativi generici (R09-1, area 09) | Chi si candida a profili generici; uffici che non sostituiscono il personale | 0,10 |
 | SF05 Abrogazione delle spese fiscali minori e senza valutazione (fascia 10-20 mln e parte delle misure sotto 10 mln), con clausola di scadenza per le nuove | Chi beneficia di agevolazioni minori e frammentate | 0,08 |
 | RB02 Bonus nuovi nati 1.000 € (360 mln/anno, ISEE ≤40.000 €) assorbito in una maggiorazione dell'Assegno unico nel primo anno di vita per ISEE ≤25.000 € | Famiglie con una nuova nascita e ISEE tra 25.000 e 40.000 € | 0,08 |
 | RB04 Carta del docente: quota di circa 150 € vincolata alla formazione su AI e didattica, al posto di acquisti liberi (proposta area 05) | Docenti di ruolo e supplenti annuali (minor libertà d'uso) | 0,08 |
 | SF07 Fondi sanitari integrativi: deducibilità dei contributi (3.615,20 €) decrescente oltre 75.000 € di reddito, e stesso limite per i piani sanitari aziendali esenti (SF-SAN2, area 06) | Persone iscritte ai fondi sanitari con reddito oltre 75.000 € | 0,08 |
 | RA01 Acquisti centralizzati: obbligo Consip/soggetti aggregatori esteso a nuove categorie merceologiche per le amministrazioni centrali, con prezzi di riferimento vincolanti e taglio corrispondente degli stanziamenti | Fornitori della PA (prezzi più bassi), in parte PMI locali | 0,07 |
 | AS04 Superalcolici: accisa sull'alcol etilico +20% (birra e vino esclusi); integra AS-SAN2 dell'area 06 | Chi consuma superalcolici; produttori | 0,07 |
-| RP08 Ricambio selettivo nei profili amministrativi generici degli enti del Servizio sanitario nazionale: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni invece del 100%, con riduzione per legge del finanziamento del SSN d'intesa con le Regioni e destinazione in legge di bilancio a personale infermieristico e Case della Comunità (06-C2, 06-C3). Esclusi profili tecnici, informatici e sportelli di prenotazione; clausola di salvaguardia sui tempi dei servizi. Completa RP01, che esclude la sanità (proposta 06-C10) | Giovani che si candidano ai concorsi amministrativi delle aziende sanitarie; uffici amministrativi che lavorano con meno persone | 0,05 |
 | RA12 Fondo Nuove Competenze e quota del contributo 0,30% non destinata ai fondi interprofessionali confluiscono nel Conto competenze (proposta area 05) | Imprese e personale che oggi usano il Fondo Nuove Competenze | 0,05 |
+| RP08 Ricambio selettivo nei profili amministrativi generici degli enti del Servizio sanitario nazionale: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni invece del 100%, con riduzione per legge del finanziamento del SSN d'intesa con le Regioni e destinazione in legge di bilancio a personale infermieristico e Case della Comunità (06-C2, 06-C3). Esclusi profili tecnici, informatici e sportelli di prenotazione; clausola di salvaguardia sui tempi dei servizi. Completa RP01, che esclude la sanità (proposta 06-C10) | Giovani che si candidano ai concorsi amministrativi delle aziende sanitarie; uffici amministrativi che lavorano con meno persone | 0,05 |
 | RB01 Carta Valore per i neodiplomati (180 mln/anno, universale): limite ISEE 35.000 € come per la vecchia Carta cultura | Persone neodiplomate di famiglie con ISEE oltre 35.000 € | 0,05 |
 | SF09 Detrazioni edilizie: aliquota ridotta per le unità diverse dall'abitazione principale non locate a canone concordato (proposta area 04) | Chi ristruttura una seconda casa di proprietà | 0,05 |
-| SF03 Tonnage tax e credito d'imposta armatoriale: rimodulazione con coefficienti legati a emissioni e bandiera UE, tetto al beneficio | Imprese armatoriali | 0,05 |
 | SF04 Cooperative: esclusione degli utili a riserva indivisibile ridotta dal 90% al 70% per le cooperative con ricavi oltre 50 mln €; invariata per le altre | Grandi cooperative (consumo, servizi, agroalimentare) | 0,05 |
+| SF03 Tonnage tax e credito d'imposta armatoriale: rimodulazione con coefficienti legati a emissioni e bandiera UE, tetto al beneficio | Imprese armatoriali | 0,05 |
 | RP01 Turnover selettivo nei profili amministrativi generici di ministeri ed enti pubblici non economici nazionali: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni di quei profili invece del 100%, con taglio corrispondente delle facoltà assunzionali e degli stanziamenti. Esclusi: scuola, università, ricerca e cultura (MIM, MUR, MiC), giustizia, Interno, agenzie fiscali, sanità, sicurezza e soccorso, servizi sociali e inclusione (compresi gli sportelli e le prestazioni di inclusione INPS e la DG inclusione del Ministero del lavoro). Esclusa la quota riservata ai profili tecnici da RA07 | Giovani che si candidano ai concorsi per profili amministrativi generici (meno posti, soprattutto al Sud); uffici di supporto che lavorano con meno persone | 0,04 |
 | RA09 Spesa ICT corrente delle amministrazioni centrali -4/6%: dismissione dei CED residui, licenze duplicate, accordi quadro Consip (R09-3, area 09) | Fornitori di hosting e licenze legacy | 0,04 |
 | SF08 Detrazione 19% per lo sport di ragazze e ragazzi 5-18 anni sostituita da offerta sportiva gratuita a scuola (proposta area 05) | Famiglie che detraggono iscrizioni a palestre e associazioni sportive | 0,04 |

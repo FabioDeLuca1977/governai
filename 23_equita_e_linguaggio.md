@@ -1,6 +1,6 @@
 # GovernAI — Equità e linguaggio inclusivo
 
-*Capitolo del programma, scritto il 9 novembre 2026 e aggiornato il 12, il 13 e il 14 novembre 2026 dopo le scelte sulla sanità, sui bandi e sulla disabilità. Scenario di riferimento: intermedio (`programma/selezione_intermedio.md`), 8,3 mld l'anno (9,4 prima delle verifiche delle coperture del 13 e del 14 novembre). Tutti i numeri vengono da file del repository, con la fonte indicata. Dove un dato manca, lo scriviamo: "dato da acquisire".*
+*Capitolo del programma, scritto il 9 novembre 2026 e aggiornato il 12, il 13 e il 14 novembre 2026 dopo le scelte sulla sanità, sui bandi e sulla disabilità. Scenario di riferimento: intermedio (`programma/selezione_intermedio.md`), 8,4 mld l'anno (9,4 prima delle verifiche delle coperture del 13 e del 14 novembre). Tutti i numeri vengono da file del repository, con la fonte indicata. Dove un dato manca, lo scriviamo: "dato da acquisire".*
 
 ## In breve
 

@@ -448,3 +448,162 @@ Il modello viene dalla Finlandia (senza dimora di lungo periodo circa −70% tra
 - *Coperture incerte*: le misure su spese fiscali e bilancio del Ministero vanno individuate dall'agente coperture; senza di esse resta la PILOTA.
 
 **Fonti.** fio.PSD, *Country profile Italia* (censimento ISTAT al 31/12/2021), https://www.fiopsd.org/wp-content/uploads/2023/03/IT_Country_Profile_IT.pdf; Ministero del Lavoro, PNRR M5C2 inv. 1.3, https://www.lavoro.gov.it/strumenti-e-servizi/Attuazione-Interventi-PNRR/Pagine/M5C2-inv-1-3.aspx; Varke/ARA, *Homeless people 2024*, https://www.varke.fi/en/statistics/homelessness/homeless-people-2024; DIHAL, *Un chez-soi d'abord*, https://www.info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2018_05_presentation_ppt_generale_ucsdb.pdf; OpenBDAP-RGS, Rendiconto 2025, Ministero del Lavoro cap. 3550 (Fondo povertà, 611 mln).
+
+---
+
+## 02-C8 — Aggancio protetto e correttore automatico e temporaneo sulla spesa pensionistica
+
+**Tipo.** Due parti.
+- **Parte 1, protezione dell'aggancio:** integrazione di **02-C3**. Nuovo art. 2-bis nel testo di 02-C3, che oggi conferma l'aggancio (art. 2, c. 2) ma non lo protegge.
+- **Parte 2, correttore:** proposta nuova. Usa lo stesso disegno di **PE04** (rivalutazione ridotta sulla sola quota di pensione oltre 6 volte il minimo), ma lo fa scattare solo se serve. **Non si somma a PE04.** Negli anni in cui PE04 è in vigore (2030-2034, se scelta) il correttore non tocca la stessa quota.
+
+**Problema in un dato.** La spesa pensionistica è al **15,2% del PIL** nel 2025 e sale al picco del **17,1%** nel 2041-44. Senza l'aggancio all'aspettativa di vita il picco sarebbe del **18,0%** (RGS, *Tendenze di medio-lungo periodo*, aggiornamento 2026, da `programma/schede/02_lavoro.md`). L'aggancio è già stato attenuato: per la L. 199/2025 l'aumento è di 1 mese nel 2027 e di 3 mesi in tutto nel 2028 (fonte secondaria in `benchmark/programmi/lavoro_welfare.csv`; costo nella relazione tecnica **da verificare**). Oggi nessuna regola obbliga a coprire queste scelte per tutta la durata dei loro effetti.
+
+**Soluzione.**
+- **Aggancio protetto.** Una legge che sospende o riduce l'aggancio, o apre nuove uscite anticipate, deve indicare la copertura **dentro il sistema pensionistico** e **per tutti gli anni** in cui produce effetti, non solo per tre. L'UPB ne stima il costo per generazione.
+- **Correttore automatico e temporaneo.** Ogni anno la RGS confronta la spesa pensionistica prevista per i tre anni successivi con uno scenario di riferimento fissato per legge. Se lo scarto supera **0,2 punti di PIL** per due previsioni di fila, e non dipende dal ciclo economico, scatta il correttore:
+  - la rivalutazione della sola quota di pensione **oltre 6 volte il minimo** (circa 3.700 € lordi al mese) passa dal 75% al **50%**;
+  - mai sotto il 50% e mai un blocco totale; al 75% negli anni con inflazione oltre il 4%;
+  - dura al massimo **3 anni** per volta, poi decade da solo;
+  - non si somma ad altri raffreddamenti sulla stessa quota: si applica il più favorevole.
+
+**Un limite da dire con chiarezza.** Il correttore **non chiude lo scarto**: è un primo argine e un segnale. Calcolo (stima GovernAI): quota di pensioni oltre 6 volte il minimo 20-24 mld l'anno (nota di PE04, `programma/coperture_menu.csv`); inflazione 1,8-2%; riduzione di 25 punti della rivalutazione. Risparmio: **0,09-0,12 mld il primo anno, 0,27-0,36 mld al terzo anno**. Lo scarto che fa scattare il correttore vale invece 0,2 punti di PIL, circa **4,7 mld** (PIL 2026 di 2.326 mld). Il correttore ne copre il **2-8%**. Il resto deve arrivare da una scelta del Parlamento: per questo la variante ESSENZIALE punta sull'obbligo di proporre una correzione, e il correttore scatta solo se il Parlamento non decide.
+
+**Perché funziona altrove.** Svezia: "freno" automatico se gli impegni del sistema superano le attività, scattato più volte dopo il 2008 (anni **da verificare**). Danimarca: età rivista ogni 5 anni; con la legge del 22/5/2025 arriva a 70 anni dal 2040 (fonte secondaria). La Spagna ha fatto il contrario nel 2021-2023 e l'AIReF ne valuta ora la regola di spesa.
+
+**Varianti**
+
+| Variante | Contenuto | Costo 2027 / 2028 / 2029 / regime | Intensità | Copertura |
+|---|---|---|---|---|
+| PIENA | Aggancio protetto in L. 243/2012 (legge rinforzata) + correttore automatico come sopra, con validazione UPB dello scarto | 0 / 0 / 0 / **0** | 1 | invarianza (risparmio eventuale 0,1-0,36, **non copertura**) |
+| ESSENZIALE | Aggancio protetto in L. 196/2009 + correttore "semi-automatico": se c'è lo scarto, il Governo presenta entro il Documento di finanza pubblica una correzione interna al sistema pensionistico; se il Parlamento non la approva entro la legge di bilancio, si applica il correttore | 0 / 0 / 0 / **0** | 0,6 | invarianza |
+| ZERO | Solo aggancio protetto in L. 196/2009 (testo per 02-C3) e confronto annuale pubblico RGS-UPB con lo scenario di riferimento | 0 | 0,3 | invarianza |
+
+I costi amministrativi (calcoli RGS e INPS) rientrano nelle attività ordinarie: stima GovernAI trascurabile.
+
+**Coperture.** Nessuna richiesta. Il risparmio del correttore è **solo eventuale**: scatta solo se c'è lo scarto, quindi **non va nel menu delle coperture** e non finanzia nulla. Se scatta, va al deficit.
+
+**Chi guadagna e chi paga.**
+- *Guadagnano* le generazioni giovani e chi entra oggi nel lavoro, che pagherebbero lo scarto con più contributi o più debito. Guadagna chi va in pensione con assegni bassi: il correttore non lo tocca.
+- *Pagano*, **solo se il correttore scatta**, le persone con pensioni oltre 6 volte il minimo: circa 1 milione (stima GovernAI in PE04; 477.654 sopra 5.000 € al mese, INPS 2025, fonte secondaria). Perdono al massimo un quarto della rivalutazione sulla sola parte oltre la soglia. Esempio (stima GovernAI): pensione di 5.000 € lordi al mese, quota oltre soglia circa 1.300 €, inflazione 2%: circa 6,5 € lordi al mese in meno il primo anno, che restano negli anni successivi.
+- *Pagano* in flessibilità i governi futuri: un allentamento dell'aggancio deve trovare la copertura dentro le pensioni.
+
+**Articolato normativo essenziale** (variante PIENA)
+
+> **Art. 1 (Aggancio protetto; nuovo art. 2-bis di 02-C3).** 1. Le disposizioni che sospendono o riducono l'adeguamento dei requisiti all'aspettativa di vita, di cui all'articolo 12 del decreto-legge 31 maggio 2010, n. 78, o che introducono nuove forme di accesso anticipato al pensionamento, indicano la copertura degli oneri per tutti gli anni in cui producono effetti, mediante minori spese o maggiori entrate del sistema previdenziale obbligatorio. 2. Le disposizioni sono corredate di una valutazione dell'Ufficio parlamentare di bilancio sul costo per coorte di nascita. *(Nella PIENA il comma 1 è inserito nella L. 243/2012.)*
+>
+> **Art. 2 (Scenario di riferimento).** 1. Lo scenario di riferimento della spesa pensionistica in rapporto al prodotto interno lordo potenziale è quello del rapporto della Ragioneria generale dello Stato sulle tendenze di medio-lungo periodo del 2026, aggiornato solo per gli effetti di leggi coperte ai sensi dell'articolo 1.
+>
+> **Art. 3 (Correttore temporaneo).** 1. Se per due previsioni annuali consecutive la spesa pensionistica prevista per uno dei tre anni successivi supera lo scenario di riferimento di oltre 0,2 punti di prodotto interno lordo potenziale, e l'Ufficio parlamentare di bilancio conferma che lo scarto non dipende da fattori ciclici, dal 1° gennaio dell'anno successivo la rivalutazione della quota di trattamento eccedente sei volte il trattamento minimo è pari al 50 per cento della variazione dei prezzi. 2. La misura si applica per non più di tre anni e cessa prima se lo scarto si chiude. 3. Negli anni in cui l'inflazione supera il 4 per cento la rivalutazione della stessa quota è pari al 75 per cento. 4. La misura non si cumula con altre riduzioni della rivalutazione sulla stessa quota: si applica la più favorevole. 5. Prima dell'applicazione l'INPS trasmette alle Camere una relazione sulla perdita cumulata di potere d'acquisto per fascia di importo, comprese le riduzioni degli anni precedenti. 6. Le minori spese concorrono al miglioramento dell'indebitamento netto.
+
+**Rischi giuridici**
+
+*Giurisprudenza costituzionale sulla perequazione.* Numeri e contenuti delle sentenze 70/2015, 250/2017, 234/2020, 19/2025 e 52/2026 sono riscontrati nel registro verificato del progetto (`costituzione/giurisprudenza_verificata.json`, con data di deposito e dispositivo). Le altre sono citate in `giuridico/conformita.csv` ma non sono nel registro: vanno ricontrollate.
+
+| Sentenza | Che cosa ha deciso | Che cosa vuol dire per il correttore |
+|---|---|---|
+| 70/2015 (dep. 30/4/2015) | Illegittimo il blocco biennale 2012-13 della perequazione per le pensioni oltre 3 volte il minimo, senza gradualità né motivazione | Mai blocco totale; soglia alta; motivazione nella legge e nella relazione INPS |
+| 250/2017 (dep. 1/12/2017) | Legittimo il DL 65/2015, che restituiva una parte della perequazione bloccata, con un bilanciamento motivato | Il bilanciamento con i conti pubblici è ammesso se esplicito |
+| 234/2020 (dep. 9/11/2020) | Legittimo il raffreddamento 2019-21; legittimo il contributo di solidarietà, ma ridotto a 3 anni; avverte che la reiterazione rende il vaglio più stretto | Durata massima 3 anni per volta; conteggio di tutti i raffreddamenti precedenti |
+| 19/2025 (dep. 14/2/2025) | Questioni sulla perequazione 2023-24 (L. 197/2022, c. 309) non fondate o inammissibili; secondo l'esame del progetto ammette usi dei risparmi anche fuori dal sistema pensionistico e chiede una disciplina più stabile | Una regola fissata prima e uguale nel tempo è coerente con la richiesta di stabilità |
+| 52/2026 (dep. 16/4/2026) | Questioni sulla stessa norma (c. 309) non fondate | Conferma il margine del legislatore sui raffreddamenti graduati |
+| 316/2010, 173/2016, 167/2025 | Citate in `giuridico/conformita.csv` (167/2025: il raffreddamento non è un tributo) | **Da verificare**: non sono nel registro verificato |
+
+*Punti delicati.*
+- **Reiterazione.** Raffreddamenti nel 2023-24, nel 2027 (art. 55 del ddl di bilancio 2027: 100% fino a 4 volte il minimo, poi a scalare; `costituzione/esami/AC3174_manovra_2027.md`) e, se scelta, PE04 nel 2030-34. Un correttore in più può far apparire la perequazione come "sempre ridotta". Per questo: tetto di 3 anni, nessun cumulo, relazione INPS sulla perdita cumulata. **Scelta politica da fare:** usare 02-C8 *al posto* di PE04 (riduzione solo se serve) oppure *dopo* PE04 (dal 2035).
+- **Automatismo.** La Corte chiede che ogni intervento sia motivato e proporzionato. Qui la motivazione sta nella legge (soglia, misura, durata, scopo) e lo scatto dipende da un fatto certificato da RGS e UPB. Il rischio residuo è che la Corte chieda una valutazione caso per caso: la ESSENZIALE lo riduce, perché il Parlamento decide prima.
+- **Art. 38, c. 2 Cost.** Adeguatezza non toccata a questi importi (250/2017, 234/2020).
+- **Art. 3 Cost.** Colpisce solo la parte alta, con tecnica a scaglioni: più favorevole della tecnica "a blocchi" già ammessa (52/2026).
+- **Art. 81 e L. 243/2012.** La protezione dell'aggancio rafforza la copertura (c. 3), ma una legge ordinaria può derogarla. Messa nella L. 243/2012 (PIENA) regge di più. Che rientri nelle materie riservate a quella legge (L. cost. 1/2012, art. 5: sostenibilità del debito) è **da verificare** con il costituzionalista.
+- **Regole UE.** Il regolamento (UE) 2024/1263 lega l'estensione del percorso a 7 anni a riforme credibili. Un meccanismo che protegge l'aggancio migliora l'analisi di sostenibilità del debito. I risparmi riducono la spesa netta.
+
+**Altri rischi e mitigazioni**
+- *Correttore che scatta in recessione:* scarto misurato sul PIL potenziale e validato dall'UPB.
+- *Scenario di riferimento manipolabile:* fissato per legge; si aggiorna solo per leggi coperte.
+- *Lavori gravosi:* restano protetti da 02-C3 art. 2 c. 3.
+- *Consenso:* il correttore è piccolo per chi lo paga e visibile per tutti; pubblicare ogni anno il confronto con lo scenario.
+
+**Cronoprogramma**
+- *Primi 100 giorni:* testo dell'art. 2-bis dentro il ddl di 02-C3; RGS e UPB concordano la misura dello scarto.
+- *Entro 12 mesi:* approvazione; primo confronto pubblico con lo scenario.
+- *Entro fine legislatura:* due confronti annuali; prima relazione INPS sulla perdita cumulata per fascia.
+
+**Indicatori**
+
+| KPI | Base (dato, anno, fonte) | Obiettivo 3 anni | Obiettivo 5 anni |
+|---|---|---|---|
+| Spesa pensionistica / PIL rispetto allo scenario RGS | 15,2%, 2025 (RGS agg. 2026) | scarto ≤ 0,2 punti | scarto ≤ 0,2 punti; picco 2041-44 ≤ 17,1% |
+| Leggi che allentano l'aggancio con copertura interna per tutta la durata | nessun obbligo, 2026 | 100% | 100% |
+| Confronto annuale pubblico RGS-UPB con lo scenario | non previsto, 2026 | pubblicato ogni anno | pubblicato ogni anno |
+
+---
+
+## 02-C9 — Politiche attive dopo il PNRR: un nucleo minimo di GOL
+
+**Tipo.** Proposta nuova. Nessuna misura del programma tratta la fine del programma GOL. È coerente con 02-C4 art. 5 (case manager per chi riceve l'ADI). Si finanzia con la copertura nuova **RA15**.
+
+**Problema in un dato.** Il programma GOL aveva **4,4 mld** del PNRR, aumentati di 1 mld con la revisione del 2023. Al 31/12/2025 il Ministero del lavoro ha rendicontato **3.076.507 beneficiari**, contro un obiettivo di 3 milioni. L'azione PNRR si è chiusa il 30/6/2026 (Ministero del lavoro e INAPP, note di monitoraggio, ricerca del 15/11/2026; cifre da riscontrare sul documento originale). Senza una fonte nuova la presa in carico si ferma. Il tasso di occupazione italiano è il **67,6%** contro il **76,1%** della media UE (`benchmark/confronto.md`).
+
+**Soluzione.**
+- **Profilazione entro 30 giorni** per chi riceve la NASpI e per le persone "attivabili" dei nuclei con Assegno di inclusione. Il d.lgs. 150/2015 prevede già profilazione e patto di servizio: il problema è l'attuazione (tempi reali **da verificare** sui dati di monitoraggio).
+- **Percorso intensivo solo per chi è più lontano dal lavoro:** orientamento, formazione breve, tirocinio.
+- **Valutazione controfattuale INAPP** pubblicata. Se dopo 3 anni non c'è effetto sull'occupazione, il percorso intensivo si rivede.
+
+**Perché funziona altrove.** Danimarca e Paesi Bassi: presa in carico rapida con obblighi chiari. La Spagna ha ridotto il lavoro a termine con le regole sui contratti, non con la spesa (rapporto di benchmark).
+
+**Varianti**
+
+| Variante | Contenuto | Costo 2027 / 2028 / 2029 / regime | Intensità | Copertura |
+|---|---|---|---|---|
+| PIENA | Profilazione in 30 giorni per NASpI e ADI; percorso intensivo per circa 400.000 persone l'anno; valutazione INAPP; livello essenziale delle prestazioni per i servizi per l'impiego | 0,10 / 0,30 / 0,45 / **0,45** (2030) | 1 | RIALLOCAZIONE 0,30 (RA15) + SPESE_FISCALI 0,15; 2027-29 con FSE+ 2021-27 |
+| ESSENZIALE | Profilazione in 30 giorni; percorso intensivo per circa 200.000 persone l'anno, priorità a disoccupati di lunga durata e ADI; valutazione INAPP | 0,05 / 0,15 / 0,20 / **0,20** (2030) | 0,5 | RIALLOCAZIONE 0,20 (RA15); 2027-29 con FSE+ 2021-27 |
+| PILOTA | Sperimentazione randomizzata in 10 province per 3 anni, valutazione INAPP-Banca d'Italia | 0,01 / 0,03 / 0,03 / **0,03** (2028) | 0,1 | COESIONE_2127 0,03 (una tantum) |
+
+**Costo: da dove viene (stima GovernAI).**
+- Ipotesi del rapporto di benchmark: 1.000 € medi per persona nel percorso intensivo, tra orientamento (300-500 €) e formazione breve (1.500-3.000 €). Va verificato sui costi standard GOL (decreto interministeriale di adozione di GOL, novembre 2021, **da verificare**).
+- PIENA: 400.000 × 1.000 € = 0,40, più 0,05 per profilazione rafforzata, sistemi e valutazione.
+- ESSENZIALE: 200.000 × 1.000 € = 0,20.
+- Il personale dei centri per l'impiego assunto con il Piano di potenziamento è già finanziato: non è contato qui (finanziamento strutturale **da verificare**).
+- Se il ddl di bilancio 2027 o il PN Giovani, donne e lavoro finanziano già una prosecuzione di GOL, il costo netto scende: **da verificare**.
+
+**Coperture.**
+- 2027-2029: FSE+ 2021-27 (PN Giovani, donne e lavoro e programmi regionali), ammissibile fino al 31/12/2029. È spesa UE, esclusa dalla spesa netta, una tantum.
+- Dal 2030: **RA15**, riduzione degli incentivi all'assunzione senza effetto aggiuntivo dimostrato (`benchmark/bozza_coperture_conti_pubblici.csv`, gettito 0,15-0,35). Per la PIENA serve in più 0,15 di SPESE_FISCALI (per esempio la maggiorazione della deduzione del costo del lavoro per le nuove assunzioni, se è strutturale nella legislazione vigente: **da verificare**).
+- **Condizione:** RA15 è di livello 2 e il suo perimetro va verificato. Se non regge, 02-C9 resta PILOTA.
+- **Non si contano** i minori pagamenti di NASpI e ADI per chi trova lavoro prima.
+
+**Chi guadagna e chi paga.**
+- *Guadagnano* chi cerca lavoro, soprattutto chi è più lontano dal lavoro e chi riceve l'ADI; le imprese che cercano personale; i conti pubblici, con meno sussidi lunghi (non contato).
+- *Pagano* le imprese che oggi usano incentivi all'assunzione senza effetto aggiuntivo, cioè che avrebbero assunto comunque. Al Sud il peso può essere maggiore: va verificato con i dati per territorio.
+
+**Articolato normativo essenziale** (variante ESSENZIALE; disegno di legge, modifica del d.lgs. 150/2015)
+
+> **Art. 1 (Nucleo minimo delle politiche attive).** 1. I servizi per l'impiego convocano entro trenta giorni dalla domanda le persone che ricevono la NASpI e le persone attivabili dei nuclei beneficiari dell'Assegno di inclusione, per la profilazione e il patto di servizio. 2. Le persone con profilo di maggiore distanza dal lavoro hanno diritto a un percorso intensivo di orientamento, formazione breve o tirocinio. 3. La profilazione e la presa in carico costituiscono livello essenziale delle prestazioni, definito con decreto del Ministro del lavoro previa intesa in Conferenza Stato-Regioni.
+>
+> **Art. 2 (Valutazione).** 1. L'INAPP valuta con metodo controfattuale gli effetti del percorso intensivo e pubblica i risultati ogni anno. 2. Dopo tre anni, se non si riscontra un effetto significativo sull'occupazione a dodici mesi, il decreto di cui all'articolo 1 rivede il percorso.
+>
+> **Art. 3 (Copertura).** 1. Agli oneri, pari a 50 milioni per il 2027, 150 milioni per il 2028 e 200 milioni per il 2029, si provvede con le risorse del Fondo sociale europeo Plus 2021-2027, previa riprogrammazione. 2. Agli oneri, pari a 200 milioni annui dal 2030, si provvede con la riduzione delle autorizzazioni di spesa per gli incentivi all'assunzione individuati come privi di effetto aggiuntivo dalla valutazione di cui alla misura RA15, per le sole assunzioni successive all'entrata in vigore.
+
+**Rischi giuridici**
+- **Art. 117 Cost.** Le politiche attive sono materia concorrente e i servizi per l'impiego sono regionali. Il livello essenziale è competenza statale (art. 117, c. 2, lett. m), ma standard e riparto richiedono l'intesa: l'esame costituzionale del progetto cita in materia la sent. 182/2026 (non nel registro verificato: **da verificare**).
+- **Art. 81 Cost.** Le coperture una tantum (FSE+) non coprono il regime: dal 2030 serve RA15. La riduzione degli incentivi vale solo per le nuove assunzioni, per rispettare l'affidamento di chi li ha già ottenuti: per questo il gettito sale piano.
+- **Art. 38 Cost. e condizionalità.** La profilazione è un diritto e una condizione per la prestazione. Le sanzioni restano quelle vigenti; nessun automatismo nuovo.
+- **Regole UE.** FSE+ (regolamento (UE) 2021/1057): spesa ammissibile entro il 2029; serve la riprogrammazione con la Commissione. Ridurre incentivi all'assunzione non pone problemi di aiuti di Stato.
+
+**Altri rischi e mitigazioni**
+- *Effetti poco misurati in Italia:* valutazione controfattuale e revisione dopo 3 anni.
+- *Differenze tra Regioni:* livello essenziale e cruscotto pubblico per Regione.
+- *Resistenza di chi usa gli incentivi:* taglio solo sulle linee senza effetto dimostrato, con preavviso.
+
+**Cronoprogramma**
+- *Primi 100 giorni:* riprogrammazione FSE+ con le Regioni; bozza del livello essenziale; avvio della valutazione degli incentivi (RA15).
+- *Entro 12 mesi:* legge; intesa in Conferenza; avvio della profilazione in 30 giorni.
+- *Entro fine legislatura:* prima valutazione INAPP; dal 2030 copertura RA15.
+
+**Indicatori**
+
+| KPI | Base (dato, anno, fonte) | Obiettivo 3 anni | Obiettivo 5 anni |
+|---|---|---|---|
+| Persone con NASpI profilate entro 30 giorni | base da acquisire (monitoraggio GOL e INAPP) | 70% | 90% |
+| Occupazione a 12 mesi di chi fa il percorso intensivo, rispetto al gruppo di confronto | non misurato, 2026 | misurato | +5 punti (se l'effetto non c'è, il percorso si rivede) |
+| Tasso di occupazione 20-64 o 15-64 anni (stessa definizione di `confronto.md`) | 67,6%, UE 76,1% | +1 punto | +2 punti (contributo non isolabile) |
