@@ -45,15 +45,19 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 07-C1 | Giustizia a regime: Ufficio per il processo e triage digitale | ESSENZIALE | 0,7 | 0,32 | 100% |
 | 07-C3 | Governance dei flussi migratori fondata sui dati | ESSENZIALE | 0,6 | 0,25 | 100% |
 | 09-C3 | Squadre tecniche della Repubblica: pool di competenze per i piccoli enti | ESSENZIALE | 0,5 | 0,22 | 100% |
+| 01-P8 | Meno scontrini: riordino delle detrazioni del 19% | ESSENZIALE | 0,7 | 0,20 | 100% |
 | 05-C7 | Quota svantaggio nel finanziamento delle scuole | ESSENZIALE | 0,6 | 0,19 | 100% |
 | 02-C7 | Housing First dopo il PNRR | PIENA | 1,0 | 0,15 | 100% |
 | 03-P2 | Elettricita' rinnovabile a prezzo rinnovabile (CfD) | PIENA | 1,0 | 0,15 | 100% |
 | 09-C9 | Squadra per la produttività pubblica con l'AI: meno lavoro ripetitivo, più servizi alle persone | PIENA | 1,0 | 0,09 | 100% |
+| 09-C1 | Stato a vetro: infrastruttura aperta per l'analisi delle politiche | PIENA | 1,0 | 0,07 | 100% |
 | 01-P12 | Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate | PIENA | 1,0 | 0,06 | 100% |
+| 06-C10 | Meno burocrazia, più cura: automazione degli uffici sanitari e riqualificazione del personale amministrativo | PIENA | 1,0 | 0,04 | 100% |
 | 09-C10 | Bandi pubblici con istruttoria assistita: domande compilate una volta, controlli in giorni invece che in mesi | PIENA | 1,0 | 0,04 | 100% |
 | 08-P1 | Legge sulla consulenza algoritmica pubblica | PIENA | 1,0 | 0,04 | 100% |
 | 09-C6 | Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità | PIENA | 1,0 | 0,03 | 100% |
 | 04-P4 | Nessuna grande opera senza prova dei numeri | PIENA | 1,0 | 0,03 | 100% |
+| 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | PIENA | 1,0 | 0,02 | 100% |
 | 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | ESSENZIALE | 0,6 | 0,01 | 100% |
 | 01-P2 | Spese fiscali a scadenza (sunset 5 anni) | PIENA | 1,0 | 0,01 | 100% |
 | 08-P2 | Patto per la buona legge | PIENA | 1,0 | 0,01 | 100% |
@@ -70,42 +74,38 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 08-P5 | Cooperazione che si misura: traiettoria APS | ZERO | 0,1 | 0,00 | 100% |
 | 01-P9 | Una sola detrazione per il lavoro, senza scalini | ZERO | 0,2 | 0,00 | 100% |
 | 01-P11 | Lo scontrino che conviene: un incentivo mirato al posto di lotterie e cashback | ZERO | 0,1 | 0,00 | 100% |
-| 07-C4 | Dal bene confiscato al bene comune | PIENA | 1,0 | 0,15 | 99% |
-| 09-C1 | Stato a vetro: infrastruttura aperta per l'analisi delle politiche | PIENA | 1,0 | 0,07 | 99% |
-| 06-C10 | Meno burocrazia, più cura: automazione degli uffici sanitari e riqualificazione del personale amministrativo | PIENA | 1,0 | 0,04 | 99% |
-| 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | PIENA | 1,0 | 0,02 | 99% |
-| 01-P16 | Tetti di spesa triennali per ministero, con riserva e regola sulle entrate inattese | PIENA | 1,0 | 0,00 | 99% |
-| 01-P8 | Meno scontrini: riordino delle detrazioni del 19% | ZERO | 0,4 | 0,00 | 99% |
-| 09-C8 | Staffetta delle competenze: il ricambio generazionale come occasione di riqualificazione | PIENA | 1,0 | 0,23 | 98% |
-| 01-P3 | IVA in tempo reale | PIENA | 1,0 | 0,15 | 97% |
+| 01-P16 | Tetti di spesa triennali per ministero, con riserva e regola sulle entrate inattese | PIENA | 1,0 | 0,00 | 98% |
+| 09-C4 | Cloud pubblico sostenibile e Patto per la manutenzione digitale | ZERO | 0,1 | 0,00 | 98% |
+| 09-C8 | Staffetta delle competenze: il ricambio generazionale come occasione di riqualificazione | PIENA | 1,0 | 0,23 | 97% |
+| 07-C4 | Dal bene confiscato al bene comune | PIENA | 1,0 | 0,15 | 97% |
 | 01-P18 | Registro mensile dei redditi Entrate-INPS per conto fiscale e prestazioni | PIENA | 1,0 | 0,04 | 97% |
 | 01-P4 | Crescere conviene: eliminare i gradini dimensionali | ZERO | 0,2 | 0,01 | 97% |
 | 01-P10 | Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti | PIENA | 1,0 | 0,10 | 96% |
-| 09-C4 | Cloud pubblico sostenibile e Patto per la manutenzione digitale | ZERO | 0,1 | 0,00 | 96% |
-| 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | PIENA | 1,0 | 0,35 | 94% |
-| 01-P13 | Un solo credito per la ricerca: stabile, piu' forte per le piccole imprese, certificato prima di spendere | ZERO | 0,2 | 0,01 | 92% |
+| 01-P3 | IVA in tempo reale | PIENA | 1,0 | 0,15 | 95% |
+| 01-P13 | Un solo credito per la ricerca: stabile, piu' forte per le piccole imprese, certificato prima di spendere | ZERO | 0,2 | 0,01 | 95% |
+| 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | PIENA | 1,0 | 0,35 | 92% |
+| 07-C2 | Pena utile: misure di comunita' contro il sovraffollamento | ESSENZIALE | 0,6 | 0,25 | 92% |
 | 02-C8 | Aggancio protetto e correttore automatico e temporaneo sulla spesa pensionistica | PIENA | 1,0 | 0,00 | 92% |
+| 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | ZERO | 0,3 | 0,00 | 89% |
 | 05-C1 | Nessuna esclusione: squadre di prossimita' contro la dispersione | PIENA | 1,0 | 0,25 | 89% |
-| 07-C2 | Pena utile: misure di comunita' contro il sovraffollamento | ESSENZIALE | 0,6 | 0,25 | 89% |
-| 05-C9 | Zaino culturale a scuola e tariffa sociale della cultura | PIENA | 1,0 | 0,20 | 86% |
-| 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | ZERO | 0,3 | 0,00 | 85% |
-| 05-C6 | AI a scuola | PIENA | 1,0 | 0,22 | 74% |
-| 09-C5 | AI nella PA con le mani sul volante | PIENA | 1,0 | 0,22 | 74% |
-| 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | ZERO | 0,2 | 0,00 | 72% |
-| 04-P9 | Consegne pulite in citta': zone a emissioni zero per le merci | PIENA | 1,0 | 0,07 | 70% |
-| 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | PIENA | 1,0 | 0,10 | 63% |
-| 09-C7 | Automazione dei processi ripetitivi con riallocazione garantita | PIENA | 1,0 | 0,20 | 59% |
-| 05-C5 | Scuole aperte come presidi di comunita' | PIENA | 1,0 | 0,40 | 57% |
-| 01-P7 | Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla | PIENA | 1,0 | 0,30 | 57% |
-| 02-C9 | Politiche attive dopo il PNRR: nucleo minimo di GOL | PILOTA | 0,1 | 0,03 | 57% |
-| 07-C6 | Scudo cyber territoriale | PILOTA | 0,2 | 0,03 | 57% |
-| 06-C8 | Squadre infermieristiche autonome di quartiere per l'ADI | PIENA | 1,0 | 0,25 | 56% |
-| 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | ESSENZIALE | 0,7 | 0,05 | 46% |
-| 03-P5 | Contratto agro-climatico | PILOTA | 0,1 | 0,05 | 45% |
-| 05-C8 | Biblioteche di comunita' | ESSENZIALE | 0,5 | 0,14 | 44% |
-| 04-P7 | Dal porto al treno: piu' merci sul ferro | PILOTA | 0,3 | 0,06 | 39% |
-| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 14% |
-| 06-C9 | Equipe di benessere scolastico in rete con la Casa della Comunita' | PILOTA | 0,1 | 0,03 | 12% |
+| 05-C9 | Zaino culturale a scuola e tariffa sociale della cultura | PIENA | 1,0 | 0,20 | 84% |
+| 09-C5 | AI nella PA con le mani sul volante | PIENA | 1,0 | 0,22 | 79% |
+| 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | ZERO | 0,2 | 0,00 | 76% |
+| 04-P9 | Consegne pulite in citta': zone a emissioni zero per le merci | PIENA | 1,0 | 0,07 | 69% |
+| 05-C6 | AI a scuola | PIENA | 1,0 | 0,22 | 68% |
+| 07-C6 | Scudo cyber territoriale | PILOTA | 0,2 | 0,03 | 63% |
+| 09-C7 | Automazione dei processi ripetitivi con riallocazione garantita | PIENA | 1,0 | 0,20 | 61% |
+| 02-C9 | Politiche attive dopo il PNRR: nucleo minimo di GOL | PILOTA | 0,1 | 0,03 | 60% |
+| 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | PIENA | 1,0 | 0,10 | 57% |
+| 05-C5 | Scuole aperte come presidi di comunita' | ESSENZIALE | 0,5 | 0,20 | 56% |
+| 01-P7 | Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla | PIENA | 1,0 | 0,30 | 50% |
+| 05-C8 | Biblioteche di comunita' | ESSENZIALE | 0,5 | 0,14 | 48% |
+| 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | ESSENZIALE | 0,7 | 0,05 | 47% |
+| 06-C8 | Squadre infermieristiche autonome di quartiere per l'ADI | PIENA | 1,0 | 0,25 | 46% |
+| 03-P5 | Contratto agro-climatico | PILOTA | 0,1 | 0,05 | 41% |
+| 04-P7 | Dal porto al treno: piu' merci sul ferro | PILOTA | 0,3 | 0,06 | 35% |
+| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 16% |
+| 06-C9 | Equipe di benessere scolastico in rete con la Casa della Comunita' | PILOTA | 0,1 | 0,03 | 15% |
 
 ## Coperture attivate
 
@@ -122,7 +122,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | SF06 | Detrazione 19% delle spese sanitarie decrescente tra 50.000 e 120.000 € di reddito, salve disabilità, patologie croniche gravi e non autosufficienza (SF-SAN1, area 06) | SPESE_FISCALI | 0,35 | Contribuenti con reddito tra 50.000 e 120.000 € (azzerata oltre) | 100% |
 | PE04 | Perequazione differenziata per 5 anni (2030-2034), prorogabile con legge motivata: rivalutazione al 50% (invece del 75%) sulla sola quota di pensione oltre 6 volte il minimo; al 75% negli anni con inflazione oltre il 4%; mai cumulata con altri raffreddamenti (proposta area 02) | RIALLOCAZIONE | 0,30 | Persone in pensione con trattamento oltre circa 3.700 €/mese lordi | 100% |
 | SAD01 | Rimborso accise gasolio autotrasporto (EN.SI.19): esclusione Euro 5 dal 2028 e riduzione graduale di un terzo del rimborso per gli Euro 6; 25% del gettito a rinnovo flotte e intermodalità (Ferrobonus/Marebonus) | SAD | 0,30 | Imprese di autotrasporto merci (veicoli da 7,5 t) e passeggeri; in parte la clientela finale tramite i prezzi del trasporto | 100% |
-| SAD12 | IVA sul gas domestico (IVA.11): dal 10% al 22% sui primi 480 m³, con bonus sociale gas rafforzato per ISEE ≤15.000 € | SAD | 0,25 | Famiglie che usano gas per cucina, acqua calda e riscaldamento | 99% |
+| SAD12 | IVA sul gas domestico (IVA.11): dal 10% al 22% sui primi 480 m³, con bonus sociale gas rafforzato per ISEE ≤15.000 € | SAD | 0,25 | Famiglie che usano gas per cucina, acqua calda e riscaldamento | 100% |
 | FN02 | Abolizione dal 2028 delle detrazioni 19% per premi assicurativi vita e infortuni (salvi i premi per non autosufficienza e per la tutela di persone con disabilità grave) e per spese veterinarie | SPESE_FISCALI | 0,25 | Persone capienti titolari di polizze vita/infortuni o proprietarie di animali, distribuite su tutti i decili dal quarto in su | 100% |
 | FN03 | Detrazione 19% degli interessi sul mutuo prima casa solo per i contratti stipulati fino al 31/12/2027; nessuna detrazione per i nuovi mutui (modello Spagna 2013, Regno Unito 2000) | SPESE_FISCALI | 0,25 | Chi acquista l'abitazione principale con mutuo dal 2028, se capiente | 100% |
 | SF10 | Iperammortamento (L. 199/2025 c. 427-436): riduzione della maggiorazione base per investimenti non qualificati, mantenuta per 4.0, immateriali e transizione (proposta area 01) | SPESE_FISCALI | 0,20 | Imprese che investono in beni strumentali ordinari | 100% |
@@ -133,7 +133,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | RA05 | Abrogazione della riduzione del payback farmaceutico per le aziende che investono (DDL 2027 art. 71; R-SAN1, area 06) | RIALLOCAZIONE | 0,16 | Industria farmaceutica | 100% |
 | AS03 | Sugar tax: raddoppio delle aliquote dal 2029, dopo il primo anno di applicazione | ACCISE_SALUTE | 0,15 | Chi consuma bevande zuccherate; produttori (spinta a riformulare) | 100% |
 | AS02 | Tabacco riscaldato e sigarette elettroniche: accisa avvicinata a quella delle sigarette tradizionali equivalenti (dal livello attuale a circa il 60-70%) | ACCISE_SALUTE | 0,15 | Chi consuma prodotti da inalazione senza combustione | 100% |
-| SAD02 | Gasolio agricolo (EN.SI.21): accisa dal 22% al 40% dell'aliquota normale in 5 anni, con credito per piccole aziende e montagna (mezzi a basse emissioni, biometano) | SAD | 0,15 | Aziende agricole, florovivaistiche, silvicole e della pesca in acque interne che usano gasolio agevolato | 98% |
+| SAD02 | Gasolio agricolo (EN.SI.21): accisa dal 22% al 40% dell'aliquota normale in 5 anni, con credito per piccole aziende e montagna (mezzi a basse emissioni, biometano) | SAD | 0,15 | Aziende agricole, florovivaistiche, silvicole e della pesca in acque interne che usano gasolio agevolato | 99% |
 | RA15 | Incentivi all'assunzione (esoneri contributivi e linee di spesa del Ministero del lavoro) senza effetto aggiuntivo dimostrato: riduzione per le sole assunzioni successive all'entrata in vigore, dopo valutazione controfattuale INAPP-INPS; esclusi gli incentivi per persone con disabilità e il collocamento mirato; al netto della quota già usata da 02-C1 (0,10-0,15); vincolata a 02-C9 | RIALLOCAZIONE | 0,15 | Imprese che assumono giovani, donne o nelle ZES e che avrebbero assunto comunque; in parte le persone assunte, se l'incentivo era traslato sui salari | 100% |
 | SAD06 | IVA sulle nuove abitazioni (IVA.01 e IVA.13): aliquote agevolate (4% e 10%) solo per edifici su suolo già urbanizzato o rigenerazione; IVA ordinaria per nuove costruzioni su suolo libero. Salvo il 4% per under 36 con ISEE ≤40.000 € | SAD | 0,15 | Chi acquista nuove abitazioni su suolo non urbanizzato, imprese di costruzione | 100% |
 | SAD05 | Auto aziendali (TR.SI.04a): fine del regime transitorio per i contratti ante 2025 dal 2028 e percentuale imponibile dal 50% al 60% per i veicoli a combustione | SAD | 0,15 | Personale dipendente con auto aziendale a uso promiscuo; imprese (costo del welfare aziendale) | 100% |
@@ -145,26 +145,26 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | SAD08 | Abolizione di quattro SAD energetici minori: deduzione forfetaria gestori carburanti (EN.SI.18), accisa ridotta gas grandi consumatori (EN.SI.20), GPL industriale (EN.SI.15), esenzione oli lubrificanti (EN.SI.03) | SAD | 0,10 | Gestori di impianti di distribuzione, grandi consumatori industriali di gas, imprese gomma/plastica | 100% |
 | SF07 | Fondi sanitari integrativi: deducibilità dei contributi (3.615,20 €) decrescente oltre 75.000 € di reddito, e stesso limite per i piani sanitari aziendali esenti (SF-SAN2, area 06) | SPESE_FISCALI | 0,08 | Persone iscritte ai fondi sanitari con reddito oltre 75.000 € | 99% |
 | PE01 | Contributo di equità temporaneo (3 anni) sulla parte di pensione oltre 100.000 € lordi annui, aliquote progressive 10-30%, solo sulla quota calcolata con il retributivo; gettito vincolato a contributi figurativi per giovani e carriere discontinue | PENSIONI | 0,08 | Persone in pensione con trattamenti oltre 100.000 € lordi annui | 97% |
-| RB02 | Bonus nuovi nati 1.000 € (360 mln/anno, ISEE ≤40.000 €) assorbito in una maggiorazione dell'Assegno unico nel primo anno di vita per ISEE ≤25.000 € | RIORDINO_BONUS | 0,08 | Famiglie con una nuova nascita e ISEE tra 25.000 e 40.000 € | 83% |
+| RB02 | Bonus nuovi nati 1.000 € (360 mln/anno, ISEE ≤40.000 €) assorbito in una maggiorazione dell'Assegno unico nel primo anno di vita per ISEE ≤25.000 € | RIORDINO_BONUS | 0,08 | Famiglie con una nuova nascita e ISEE tra 25.000 e 40.000 € | 84% |
 | SF05 | Abrogazione delle spese fiscali minori e senza valutazione (fascia 10-20 mln e parte delle misure sotto 10 mln), con clausola di scadenza per le nuove | SPESE_FISCALI | 0,08 | Chi beneficia di agevolazioni minori e frammentate | 100% |
 | RB04 | Carta del docente: quota di circa 150 € vincolata alla formazione su AI e didattica, al posto di acquisti liberi (proposta area 05) | RIORDINO_BONUS | 0,08 | Docenti di ruolo e supplenti annuali (minor libertà d'uso) | 95% |
 | AS04 | Superalcolici: accisa sull'alcol etilico +20% (birra e vino esclusi); integra AS-SAN2 dell'area 06 | ACCISE_SALUTE | 0,07 | Chi consuma superalcolici; produttori | 100% |
 | RA01 | Acquisti centralizzati: obbligo Consip/soggetti aggregatori esteso a nuove categorie merceologiche per le amministrazioni centrali, con prezzi di riferimento vincolanti e taglio corrispondente degli stanziamenti | RIALLOCAZIONE | 0,07 | Fornitori della PA (prezzi più bassi), in parte PMI locali | 100% |
-| RB01 | Carta Valore per i neodiplomati (180 mln/anno, universale): limite ISEE 35.000 € come per la vecchia Carta cultura | RIORDINO_BONUS | 0,05 | Persone neodiplomate di famiglie con ISEE oltre 35.000 € | 96% |
+| RB01 | Carta Valore per i neodiplomati (180 mln/anno, universale): limite ISEE 35.000 € come per la vecchia Carta cultura | RIORDINO_BONUS | 0,05 | Persone neodiplomate di famiglie con ISEE oltre 35.000 € | 97% |
 | SF04 | Cooperative: esclusione degli utili a riserva indivisibile ridotta dal 90% al 70% per le cooperative con ricavi oltre 50 mln €; invariata per le altre | SPESE_FISCALI | 0,05 | Grandi cooperative (consumo, servizi, agroalimentare) | 100% |
 | SF09 | Detrazioni edilizie: aliquota ridotta per le unità diverse dall'abitazione principale non locate a canone concordato (proposta area 04) | SPESE_FISCALI | 0,05 | Chi ristruttura una seconda casa di proprietà | 100% |
 | RA12 | Fondo Nuove Competenze e quota del contributo 0,30% non destinata ai fondi interprofessionali confluiscono nel Conto competenze (proposta area 05) | RIALLOCAZIONE | 0,05 | Imprese e personale che oggi usano il Fondo Nuove Competenze | 100% |
-| RP08 | Ricambio selettivo nei profili amministrativi generici degli enti del Servizio sanitario nazionale: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni invece del 100%, con riduzione per legge del finanziamento del SSN d'intesa con le Regioni e destinazione in legge di bilancio a personale infermieristico e Case della Comunità (06-C2, 06-C3). Esclusi profili tecnici, informatici e sportelli di prenotazione; clausola di salvaguardia sui tempi dei servizi. Completa RP01, che esclude la sanità (proposta 06-C10) | RIALLOCAZIONE | 0,05 | Giovani che si candidano ai concorsi amministrativi delle aziende sanitarie; uffici amministrativi che lavorano con meno persone | 82% |
+| RP08 | Ricambio selettivo nei profili amministrativi generici degli enti del Servizio sanitario nazionale: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni invece del 100%, con riduzione per legge del finanziamento del SSN d'intesa con le Regioni e destinazione in legge di bilancio a personale infermieristico e Case della Comunità (06-C2, 06-C3). Esclusi profili tecnici, informatici e sportelli di prenotazione; clausola di salvaguardia sui tempi dei servizi. Completa RP01, che esclude la sanità (proposta 06-C10) | RIALLOCAZIONE | 0,05 | Giovani che si candidano ai concorsi amministrativi delle aziende sanitarie; uffici amministrativi che lavorano con meno persone | 83% |
 | SF03 | Tonnage tax e credito d'imposta armatoriale: rimodulazione con coefficienti legati a emissioni e bandiera UE, tetto al beneficio | SPESE_FISCALI | 0,05 | Imprese armatoriali | 100% |
 | RP01 | Turnover selettivo nei profili amministrativi generici di ministeri ed enti pubblici non economici nazionali: per 4 anni (2028-2031) si sostituisce il 75-85% delle cessazioni di quei profili invece del 100%, con taglio corrispondente delle facoltà assunzionali e degli stanziamenti. Esclusi: scuola, università, ricerca e cultura (MIM, MUR, MiC), giustizia, Interno, agenzie fiscali, sanità, sicurezza e soccorso, servizi sociali e inclusione (compresi gli sportelli e le prestazioni di inclusione INPS e la DG inclusione del Ministero del lavoro). Esclusa la quota riservata ai profili tecnici da RA07 | RIALLOCAZIONE | 0,04 | Giovani che si candidano ai concorsi per profili amministrativi generici (meno posti, soprattutto al Sud); uffici di supporto che lavorano con meno persone | 79% |
-| SF08 | Detrazione 19% per lo sport di ragazze e ragazzi 5-18 anni sostituita da offerta sportiva gratuita a scuola (proposta area 05) | SPESE_FISCALI | 0,04 | Famiglie che detraggono iscrizioni a palestre e associazioni sportive | 86% |
+| SF08 | Detrazione 19% per lo sport di ragazze e ragazzi 5-18 anni sostituita da offerta sportiva gratuita a scuola (proposta area 05) | SPESE_FISCALI | 0,04 | Famiglie che detraggono iscrizioni a palestre e associazioni sportive | 88% |
 | SAD07 | IVA ordinaria su fertilizzanti di sintesi, fitosanitari (IVA.03.a, IVA.15) e prodotti petroliferi agricoli (IVA.10); restano agevolati i prodotti ammessi in agricoltura biologica | SAD | 0,04 | Aziende agricole in regime speciale IVA (art. 34) e clientela finale che non detrae l'IVA | 100% |
 | RA09 | Spesa ICT corrente delle amministrazioni centrali -4/6%: dismissione dei CED residui, licenze duplicate, accordi quadro Consip (R09-3, area 09) | RIALLOCAZIONE | 0,04 | Fornitori di hosting e licenze legacy | 100% |
-| SAD04 | Accisa sui carburanti della navigazione marittima nazionale (EN.SI.05b), esclusi collegamenti in continuità territoriale e pesca | SAD | 0,03 | Armatori di linee nazionali non OSP, crociere e trasporto turistico nazionale | 87% |
+| SAD04 | Accisa sui carburanti della navigazione marittima nazionale (EN.SI.05b), esclusi collegamenti in continuità territoriale e pesca | SAD | 0,03 | Armatori di linee nazionali non OSP, crociere e trasporto turistico nazionale | 89% |
 | PE02 | Estensione del contributo PE01 alla fascia tra 80.000 e 100.000 € con aliquota 5%, stessi 3 anni e stessa base retributiva | PENSIONI | 0,03 | Persone in pensione con trattamenti tra 80.000 e 100.000 € lordi annui | 67% |
 | RA04 | Trasferimenti correnti alle imprese: taglio del 3-5% delle linee di incentivo senza valutazione d'impatto positiva (esclusi i contratti di servizio di TPL, ferrovie e servizio postale), in attuazione del Codice degli incentivi | RIALLOCAZIONE | 0,03 | Imprese beneficiarie di incentivi correnti | 100% |
 | RP06 | Enti previdenziali e assicurativi nazionali (INPS, INAIL) e altri EPNE: riduzione del 4% della spesa per beni e servizi rispetto al 2025, con versamento al bilancio dello Stato in aggiunta ai versamenti già previsti dalla L. 160/2019. Esclusi gli sportelli, i servizi per l'inclusione e le spese per prestazioni | RIALLOCAZIONE | 0,03 | Fornitori degli enti (ICT, servizi, logistica) | 100% |
-| SAD10 | Gasolio e GPL da riscaldamento nelle zone svantaggiate (EN.SI.22a/b): agevolazione sostituita in 4 anni da un contributo per pompe di calore e biomassa efficiente, con salvaguardia per ISEE ≤15.000 € | SAD | 0,02 | Famiglie in zone montane, Sardegna e isole minori che si scaldano con gasolio o GPL | 52% |
+| SAD10 | Gasolio e GPL da riscaldamento nelle zone svantaggiate (EN.SI.22a/b): agevolazione sostituita in 4 anni da un contributo per pompe di calore e biomassa efficiente, con salvaguardia per ISEE ≤15.000 € | SAD | 0,02 | Famiglie in zone montane, Sardegna e isole minori che si scaldano con gasolio o GPL | 50% |
 | SAD09 | Contributi agli impianti di risalita (AL.SD.17): metà riconvertita in un fondo per l'adattamento del turismo montano, metà risparmiata | SAD | 0,02 | Gestori di impianti di risalita e comprensori sciistici | 100% |
 | RA02 | Locazioni passive: piano di rientro negli immobili pubblici accelerato, obiettivo -20% dei canoni entro il 2030 | RIALLOCAZIONE | 0,02 | Soggetti privati che affittano immobili alla PA | 100% |
 | RA03 | Consulenze, studi, auto di servizio e rappresentanza: tetto del 20% sotto la spesa 2025 dei capitoli dedicati | RIALLOCAZIONE | 0,02 | Consulenze esterne, società di noleggio | 100% |
@@ -185,7 +185,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 Restano fuori perché, con le risorse disponibili, altre misure danno più valore per euro, oppure perché il loro effetto netto sui valori è negativo. *Rientrano se si trovano coperture aggiuntive.*
 
 - 02-C4 Reddito di inclusione universale (scelta in 0% delle combinazioni di pesi)
-- 04-P1 Patto di continuita' post-PNRR (scelta in 9% delle combinazioni di pesi)
+- 04-P1 Patto di continuita' post-PNRR (scelta in 8% delle combinazioni di pesi)
 - 04-P2 Casa a canone giusto (scelta in 39% delle combinazioni di pesi)
 - 04-P3 Prima il treno di chi viaggia ogni giorno: fondo TPL e abbonamento unico (scelta in 0% delle combinazioni di pesi)
 - 05-C10 Rete nazionale per la ricerca applicata sul modello Fraunhofer (scelta in 12% delle combinazioni di pesi)
@@ -193,19 +193,19 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 - 06-C4 Budget di cura per la non autosufficienza (scelta in 0% delle combinazioni di pesi)
 - 06-C5 Salute mentale al 5% (scelta in 0% delle combinazioni di pesi)
 - 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea (scelta in 0% delle combinazioni di pesi)
-- 08-P6 Export resiliente (scelta in 14% delle combinazioni di pesi)
+- 08-P6 Export resiliente (scelta in 13% delle combinazioni di pesi)
 
 ## Uso dei fondi
 
 | Fondo | Spesa | Gettito/capienza disponibile |
 |---|---|---|
-| ACCISE_SALUTE | 0,85 | 0,97 |
+| ACCISE_SALUTE | 0,78 | 0,97 |
 | COESIONE_2127 | 1,99 | 2,00 |
 | PENSIONI | 0,00 | 0,11 |
-| RIALLOCAZIONE | 4,34 | 1,82 |
+| RIALLOCAZIONE | 4,32 | 1,82 |
 | RIORDINO_BONUS | 1,21 | 0,21 |
 | SAD | 0,84 | 2,53 |
-| SPESE_FISCALI | 2,78 | 4,50 |
+| SPESE_FISCALI | 2,88 | 4,50 |
 | TARIFFE | 0,32 | — |
 | TASSA_SOGGIORNO | 0,00 | 0,11 |
 

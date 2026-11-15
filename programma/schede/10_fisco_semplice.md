@@ -193,7 +193,7 @@ Le regole:
 | ESSENZIALE | stesse abolizioni; quota studio solo per ISEE ≤20.000 € | 0,20 (SPESE_FISCALI) | 0,7 |
 | ZERO | solo abolizioni, senza compensazione | 0 | 0,4 |
 
-**Il gettito delle abolizioni non è in queste righe.** È nelle coperture FN01, FN02 e FN03 (`coperture_nuove_fisco.csv`), insieme a 0,85-1,40 mld a regime. **01-P8 va attivata insieme a FN01 e FN02**: l'ottimizzatore dovrebbe legarle. La variante ZERO senza le coperture non ha senso.
+**Il gettito delle abolizioni non è in queste righe.** È nelle coperture FN01, FN02 e FN03 (`coperture_nuove_fisco.csv`), insieme a 0,85-1,40 mld a regime. **01-P8 va attivata insieme a FN01 e FN02**: l'ottimizzatore dovrebbe legarle. La variante ZERO senza le coperture non ha senso. *Nota del 15/11/2026: nel programma base e nell'intermedio la ZERO vale solo per le voci di FN02, cioè polizze vita e infortuni e spese veterinarie; FN01 (istruzione) e FN03 (mutui nuovi) non sono attive, quindi quelle detrazioni restano. Negli scenari completi FN01 si attiva solo con 01-P8 essenziale o piena (vincolo in `programma/ottimizza.py`, controllo 17 di `sistema/coerenza.py`): così nessuna famiglia perde la detrazione per istruzione senza la quota studio.*
 
 **Coerenza con la Carta e con l'art. 53.**
 - Il prelievo aggiuntivo grava su chi oggi usa le detrazioni, cioè contribuenti capienti, in prevalenza dei decili medio-alti.

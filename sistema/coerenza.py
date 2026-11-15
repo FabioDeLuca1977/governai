@@ -230,6 +230,16 @@ def controlla() -> list[str]:
                 if rel == "sistema/esporta_web.py" and "help=" in t.splitlines()[riga - 1]:
                     continue
                 errori.append(f"{rel}:{riga}: {msg}")
+
+    # 17. coperture legate a una compensazione (ottimizza.LEGAMI): in ogni scenario FN01 attiva solo con la quota studio di 01-P8
+    import csv
+    for f in sorted((RADICE / "programma").glob("selezione_*.csv")):
+        if "consiglio" in f.name:
+            continue
+        with open(f, encoding="utf-8") as fh:
+            scelte = {r["chiave"] for r in csv.DictReader(fh) if r.get("scelta") == "1"}
+        if "FN01" in scelte and not scelte & {"01-P8:PIENA", "01-P8:ESSENZIALE"}:
+            errori.append(f"{f.name}: FN01 (detrazione istruzione) attiva senza la quota studio di 01-P8")
     return errori
 
 

@@ -119,8 +119,24 @@ def costruisci(var: pd.DataFrame, menu: pd.DataFrame, cap: dict[str, float]):
             if r.fondo_id == fid:
                 a[J + i] -= r.gettito_min
         righe_A.append(a); lb.append(-np.inf); ub.append(cap.get(fid, 0.0)); nomi.append(f"fondo {fid}")
+
+    # coperture legate a una compensazione: si attivano solo se è scelta una delle varianti indicate
+    for cid, varianti in LEGAMI.items():
+        jm = menu.index[menu.misura_id == cid]
+        if len(jm) == 0:
+            continue
+        a = np.zeros(J + M)
+        a[J + int(jm[0])] = 1
+        for k in varianti:
+            if k in jidx:
+                a[jidx[k]] -= 1
+        righe_A.append(a); lb.append(-np.inf); ub.append(0.0); nomi.append(f"legame {cid}")
     return chiavi, np.array(righe_A), np.array(lb), np.array(ub), nomi
 
+
+# FN01 toglie la detrazione per istruzione: per la scheda 10_fisco_semplice e per la nota della copertura
+# "va attivata con 01-P8 (quota studio)", altrimenti pesa su famiglie a reddito medio-basso senza compensazione.
+LEGAMI = {"FN01": ["01-P8:PIENA", "01-P8:ESSENZIALE"]}
 
 RE_COMPENSAZIONE = re.compile(r"compens|salvaguard|ISEE|esclus|esent|franchigia", re.I)
 
