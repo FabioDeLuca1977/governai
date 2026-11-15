@@ -699,3 +699,6 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 .cifra-fonte{ margin:2px 0 0; font-size:12px; }
 .mappa-rete{ margin:16px auto 64px; }
 @media (max-width:599px){ .mappa-rete{ margin:24px auto 56px; } }
+.accesso{ gap:6px; max-width:200px; }
+.accesso span{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+@media (max-width:599px){ .accesso{ max-width:140px; } }

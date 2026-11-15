@@ -394,5 +394,25 @@
     ctx.icone();
   });
 
-  window.Comunita = { attiva: ATTIVA, init: (c) => { ctx = { ...ctx, ...c }; }, vista, sezione, monta };
+  // Pulsante in testata: "Entra" per chi non è dentro, il proprio nome pubblico per chi è iscritto
+  async function aggiornaAccesso() {
+    const b = document.getElementById("accesso");
+    if (!b) return;
+    const metti = (href, ic, testo, titolo) => {
+      if (b.getAttribute("href") === href && b.dataset.testo === testo) return;
+      b.setAttribute("href", href); b.dataset.testo = testo; b.title = titolo;
+      b.innerHTML = `${icona(ic)}<span>${esc(testo)}</span>`; ctx.icone();
+    };
+    if (!ATTIVA) return metti("#/comunita", "messages-square", "Comunità", "La comunità su invito");
+    if (!haSessione()) return metti("#/comunita/entra", "log-in", "Entra", "Entra nella comunità: ti mandiamo un link via email");
+    try {
+      const p = await mioProfilo();
+      if (p && p.nome_pubblico) metti("#/comunita", "user-round", p.nome_pubblico.length > 18 ? p.nome_pubblico.slice(0, 17) + "…" : p.nome_pubblico, `Sei dentro come ${p.nome_pubblico}: vai alla comunità`);
+      else metti("#/comunita/entra", "log-in", "Entra", "Entra nella comunità: ti mandiamo un link via email");
+    } catch (e) { metti("#/comunita", "messages-square", "Comunità", "La comunità su invito"); }
+  }
+  window.addEventListener("hashchange", () => { setTimeout(aggiornaAccesso, 0); });
+  window.addEventListener("storage", (e) => { if (/auth-token/.test(e.key || "")) { profilo = undefined; aggiornaAccesso(); } });
+
+  window.Comunita = { attiva: ATTIVA, init: (c) => { ctx = { ...ctx, ...c }; aggiornaAccesso(); }, vista, sezione, monta, aggiornaAccesso };
 })();
