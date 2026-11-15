@@ -463,7 +463,7 @@
   }
 
   // ---------- Programma ----------
-  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["pronto", "Pronto domani", "#/programma/pronto"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
+  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["pronto", "Pronto domani", "#/programma/pronto"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["proponi", "Proponi un programma", "#/programma/proponi"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
 
   function elenco(params) {
     const sc = scenario(params.get("scenario") || RIF_ID);
@@ -661,6 +661,130 @@
           <td class="principale"><span class="mono nota">${esc(c.misura_id)} · livello ${c.livello ?? 1}</span><br>${esc(c.descrizione)}</td><td data-etichetta="Fondo">${esc(c.fondo_id)}</td>
           <td class="num" data-etichetta="Gettito min–max">${nf(c.gettito_min)}–${nf(c.gettito_max)} mld</td><td data-etichetta="Chi paga">${esc(c.chi_paga)}</td>
           <td data-etichetta="Valori">${punti(c)}</td><td data-etichetta="Nel riferimento">${mom.has(c.misura_id) ? chip(["info", "check", "Attiva"]) : "—"}</td></tr>`).join("")}</tbody></table></div>`;
+  }
+
+  // ---------- Proponi un programma ----------
+  // Stesse regole dell'ottimizzatore (programma/ottimizza.py): un vincolo per le risorse generali, uno per ogni
+  // fondo vincolato, coperture legate, linee rosse automatiche. I conti anno per anno li fa la validazione completa.
+  const MOT = D.motore || { prelievi: {}, capienze: {}, generali: [], fuori_bilancio: [], legami: {}, linee_rosse: {}, nomi_fondi: {} };
+  const VLET = { PIENA: "P", ESSENZIALE: "E", PILOTA: "T", ZERO: "Z" }, LETV = { P: "PIENA", E: "ESSENZIALE", T: "PILOTA", Z: "ZERO" };
+  const NOME_V = { PIENA: "Piena", ESSENZIALE: "Essenziale", PILOTA: "Prova", ZERO: "Solo regole" };
+  const PP = { nome: "", m: {}, c: new Set() };
+  // codice compatto e leggibile: n=nome&m=01-P1.E,02-C2.P&c=AS01,SF06 (P piena, E essenziale, T prova, Z solo regole)
+  const ppCodice = () => (PP.nome ? "n=" + encodeURIComponent(PP.nome) + "&" : "") +
+    "m=" + Object.entries(PP.m).sort().map(([p, v]) => p + "." + VLET[v]).join(",") + "&c=" + [...PP.c].sort().join(",");
+  const ppLink = () => location.href.split("#")[0] + "#/programma/proponi?" + ppCodice();
+  function ppCarica(params) {
+    PP.m = {}; PP.c = new Set(); PP.nome = params.get("n") || "";
+    const da = params.get("da");
+    const sc = da ? D.scenari.find((s) => s.id === da) : null;
+    if (sc) { Object.entries(sc.misure).forEach(([p, x]) => { PP.m[p] = x.variante; }); (sc.coperture || []).forEach((c) => PP.c.add(c)); return; }
+    (params.get("m") || "").split(",").filter(Boolean).forEach((t) => { const [p, l] = t.split("."); if (proposta(p) && LETV[l]) PP.m[p] = LETV[l]; });
+    (params.get("c") || "").split(",").filter(Boolean).forEach((c) => { if (D.coperture.some((x) => x.misura_id === c)) PP.c.add(c); });
+  }
+  function ppConti(misure, cop) {
+    const G = new Set(MOT.generali), FB = new Set(MOT.fuori_bilancio), spesa = {}, gett = {};
+    let totale = 0, tariffe = 0;
+    Object.entries(misure).forEach(([p, v]) => Object.entries(MOT.prelievi[p + ":" + v] || {}).forEach(([f, x]) => { spesa[f] = (spesa[f] || 0) + x; totale += x; if (FB.has(f)) tariffe += x; }));
+    const cs = D.coperture.filter((c) => cop.has(c.misura_id));
+    cs.forEach((c) => { const f = String(c.fondo_id).toUpperCase().trim(); gett[f] = (gett[f] || 0) + (+c.gettito_min || 0); });
+    const somma = (o, filtro) => Object.entries(o).filter(([f]) => filtro(f)).reduce((a, [, x]) => a + x, 0);
+    const gen = { spesa: somma(spesa, (f) => G.has(f)), gettito: somma(gett, (f) => G.has(f)) };
+    const vincolati = Object.keys(spesa).filter((f) => !G.has(f) && !FB.has(f)).map((f) => ({ f, spesa: spesa[f], disp: (MOT.capienze[f] || 0) + (gett[f] || 0) }));
+    const avvisi = [];
+    if (gen.spesa > gen.gettito + 1e-6) avvisi.push(`Mancano ${nf(gen.spesa - gen.gettito)} mld di coperture sulle risorse generali: così il programma fa deficit.`);
+    vincolati.filter((x) => x.spesa > x.disp + 1e-6).forEach((x) => avvisi.push(`Il fondo «${MOT.nomi_fondi[x.f] || x.f}» non basta: servono ${nf(x.spesa)} mld, ce ne sono ${nf(x.disp)}${D.coperture.some((c) => String(c.fondo_id).toUpperCase() === x.f) ? ". Attiva le coperture di questo fondo o scegli una versione più leggera" : ""}.`));
+    Object.entries(misure).forEach(([p, v]) => { const m = MOT.linee_rosse[p + ":" + v] || MOT.linee_rosse[p]; if (m) avvisi.push(`Linea rossa: ${tit((proposta(p) || {}).titolo || p)} (${(NOME_V[v] || v).toLowerCase()}), ${m}.`); });
+    cs.forEach((c) => { const m = MOT.linee_rosse[c.misura_id]; if (m) avvisi.push(`Linea rossa: copertura ${c.misura_id}, ${m}.`); });
+    Object.entries(MOT.legami).forEach(([c, ok]) => {
+      if (cop.has(c) && !ok.some((k) => { const [p, v] = k.split(":"); return misure[p] === v; }))
+        avvisi.push(`La copertura ${c} si può usare solo insieme a ${[...new Set(ok.map((k) => tit((proposta(k.split(":")[0]) || {}).titolo || k.split(":")[0])))].join(", ")} (${ok.map((k) => (NOME_V[k.split(":")[1]] || "").toLowerCase()).join(" o ")}).`);
+    });
+    // profilo sui valori: punteggio mediano del panel (media dei tre orizzonti) × intensità della variante, più i valori delle coperture
+    const val = D.valori.map((vv, j) => {
+      let s = 0;
+      Object.entries(misure).forEach(([p, v]) => { const pr = proposta(p), va = pr && pr.varianti.find((x) => x.variante === v); if (pr && pr.punteggi && va) s += (pr.punteggi[j].reduce((a, b) => a + b, 0) / 3) * (+va.intensita || 0); });
+      cs.forEach((c) => { s += +c[vv.id] || 0; });
+      return s;
+    });
+    const regressive = cs.filter((c) => (+c.EQU || 0) < 0).reduce((a, c) => a + (+c.gettito_min || 0), 0);
+    return { totale, tariffe, gen, vincolati, avvisi, val, regressive, gettitoTot: cs.reduce((a, c) => a + (+c.gettito_min || 0), 0), n: Object.keys(misure).length, nc: cs.length };
+  }
+  const NOMI_FONDI_CORTI = { SAD: "Sussidi dannosi per l'ambiente", SPESE_FISCALI: "Agevolazioni fiscali", ACCISE_SALUTE: "Accise sulla salute", RIORDINO_BONUS: "Riordino dei bonus", RIALLOCAZIONE: "Risparmi di spesa", PENSIONI: "Pensioni", TASSA_SOGGIORNO: "Tassa di soggiorno" };
+  function proponi(params) {
+    ppCarica(params);
+    const rif = D.scenari.find((s) => s.id === "intermedio") || D.scenari[0];
+    const perArea = Object.entries(D.aree).map(([a, nome]) => [a, nome, D.proposte.filter((p) => p.area === a)]);
+    const fondi = [...new Set(D.coperture.map((c) => String(c.fondo_id).toUpperCase()))];
+    return `${schedeProgramma("proponi")}
+      <p class="risposta">Componi il tuo programma con le stesse regole del nostro: scegli le misure e la loro versione, poi le coperture con cui pagarle. La pagina controlla subito se i conti tornano senza deficit, se tocchi una linea rossa e che effetto ha sui 10 valori. Si usano solo le ${D.coperture.length} coperture verificate: una copertura nuova si propone a parte e passa dallo stesso esame.</p>
+      ${(D.proposte_validate || []).length ? `<details class="pp-gruppo pp-validati"><summary>Programmi già validati (${D.proposte_validate.length})</summary><ul class="pp-lista">${D.proposte_validate.slice().reverse().map((e) => `<li><span class="pp-nome"><strong>${esc(e.nome)}</strong> <span class="nota">${esc(dataBreve(e.data))} · ${e.misure} misure · ${nf(e.spesa)} mld · ${e.esito === "valido" ? "conti in ordine" : "da sistemare"} · regge sui valori in ${Math.round(e.robustezza * 100)} casi su 100 rispetto all'intermedio</span></span><span><a class="btn s" href="#/programma/proponi?${esc(e.codice)}">Apri</a> ${ext(repo + "/blob/main/proposte/" + encodeURIComponent(e.file), "Rapporto")}</span></li>`).join("")}</ul></details>` : ""}
+      <div class="pp" id="pp-app" data-rif="${esc(rif.id)}">
+        <div class="pp-scelte">
+          <div class="card pp-avvio">
+            <label for="pp-nome">Nome del programma</label><input id="pp-nome" type="text" maxlength="80" placeholder="Per esempio: più scuola e più treni" value="${esc(PP.nome)}">
+            <label for="pp-da">Parti da</label>
+            <select id="pp-da"><option value="">Scegli un punto di partenza</option><option value="vuoto">Un programma vuoto</option>${D.scenari.map((s) => `<option value="${esc(s.id)}">${esc(s.nome)} (${nf(s.spesa, 1)} mld)</option>`).join("")}</select>
+            <label for="pp-cerca">Cerca tra misure e coperture</label><input id="pp-cerca" type="search" placeholder="scuola, treni, pensioni, IMU…">
+          </div>
+          <h2 class="pp-titolo">${icona("list-checks")}Le misure</h2>
+          ${perArea.map(([a, nome, ps]) => `<details class="pp-gruppo"><summary>${esc(nome)} <span class="nota" data-conta-area="${a}"></span></summary><ul class="pp-lista">${ps.map((p) => `<li data-testo="${esc((p.id + " " + p.titolo).toLowerCase())}"><span class="pp-nome"><a href="${linkP(p.id)}" title="${esc(p.id)}">${esc(tit(p.titolo))}</a>${p.classe === "robusta" ? " " + chipClasse("robusta") : ""}</span>
+              <select data-pp-misura="${esc(p.id)}" aria-label="Versione di ${esc(tit(p.titolo))}"><option value="">Non inclusa</option>${p.varianti.map((v) => `<option value="${esc(v.variante)}">${NOME_V[v.variante] || esc(v.variante)} · ${nf(v.costo)} mld${MOT.linee_rosse[p.id + ":" + v.variante] ? " · linea rossa" : ""}</option>`).join("")}</select></li>`).join("")}</ul></details>`).join("")}
+          <h2 class="pp-titolo">${icona("coins")}Le coperture</h2>
+          ${fondi.map((f) => `<details class="pp-gruppo"><summary>${esc(NOMI_FONDI_CORTI[f] || MOT.nomi_fondi[f] || f)} <span class="nota" data-conta-fondo="${esc(f)}"></span></summary><ul class="pp-lista">${D.coperture.filter((c) => String(c.fondo_id).toUpperCase() === f).map((c) => `<li data-testo="${esc((c.misura_id + " " + c.descrizione + " " + (c.chi_paga || "")).toLowerCase())}"><label class="pp-cop"><input type="checkbox" data-pp-cop="${esc(c.misura_id)}"><span><span class="pp-desc">${esc(c.descrizione)}</span><span class="nota">${esc(c.misura_id)} · ${nf(c.gettito_min)}–${nf(c.gettito_max)} mld · paga: ${esc(c.chi_paga || "—")}${(+c.EQU || 0) < 0 ? " · pesa di più su chi ha meno" : ""}${MOT.linee_rosse[c.misura_id] ? " · linea rossa" : ""}</span></span></label></li>`).join("")}</ul></details>`).join("")}
+        </div>
+        <aside class="card pp-esito" aria-live="polite"><div id="pp-esito"></div></aside>
+      </div>`;
+  }
+  function ppEsito() {
+    const k = ppConti(PP.m, PP.c), rif = D.scenari.find((s) => s.id === $("#pp-app").dataset.rif);
+    const kr = ppConti(Object.fromEntries(Object.entries(rif.misure).map(([p, x]) => [p, x.variante])), new Set(rif.coperture || []));
+    const ok = !k.avvisi.length && k.n > 0, manca = k.gen.spesa > k.gen.gettito + 1e-6;
+    const max = Math.max(...k.val.map(Math.abs), ...kr.val.map(Math.abs), 1);
+    const barra = (x, cls) => `<span class="pp-b ${cls}${x < 0 ? " neg" : ""}" style="width:${(Math.abs(x) / max * 50).toFixed(1)}%"></span>`;
+    const corpo = `Nome: ${PP.nome || "Senza nome"}\n\nLink: ${ppLink()}\n\nMisure: ${k.n}, spesa a regime ${nf(k.totale)} mld. Coperture: ${k.nc}, ${nf(k.gettitoTot)} mld.\n\nPerché propongo questo programma (facoltativo):\n`;
+    $("#pp-esito").innerHTML = `
+      <h2>${ok ? icona("circle-check") + "I conti tornano" : k.n ? icona("triangle-alert") + "Da sistemare" : icona("circle-dashed") + "Il tuo programma"}</h2>
+      <dl class="pp-cifre">
+        <div><dt>Misure</dt><dd>${k.n}</dd></div><div><dt>Spesa a regime</dt><dd>${nf(k.totale)} mld</dd></div>
+        <div><dt>Coperture</dt><dd>${k.nc} · ${nf(k.gettitoTot)} mld</dd></div>
+        <div><dt>Risorse generali</dt><dd class="${manca ? "rosso" : "verde"}">${nf(Math.abs(k.gen.gettito - k.gen.spesa))} mld ${manca ? "mancanti" : "di margine"}</dd></div>
+      </dl>
+      ${k.vincolati.length ? `<p class="nota">Fondi vincolati: ${k.vincolati.map((x) => `${esc(MOT.nomi_fondi[x.f] || x.f)} ${nf(x.spesa)} su ${nf(x.disp)}`).join(" · ")}${k.tariffe ? `. Pagati con tariffe, fuori bilancio: ${nf(k.tariffe)} mld` : ""}.</p>` : ""}
+      ${k.avvisi.length ? `<ul class="pp-avvisi">${k.avvisi.map((t) => `<li>${icona("octagon-x")}<span>${esc(t)}</span></li>`).join("")}</ul>` : ""}
+      ${k.nc ? `<p class="nota">Coperture che pesano di più su chi ha meno: ${nf(k.regressive)} mld su ${nf(k.gettitoTot)} (${Math.round(k.regressive / (k.gettitoTot || 1) * 100)}%).</p>` : ""}
+      <h3>Effetto sui 10 valori</h3><p class="nota">Barra scura: il tuo programma. Barra chiara: il ${esc(rif.nome.toLowerCase())}. Punteggio indicativo dai tre valutatori del panel.</p>
+      <ul class="pp-valori">${D.valori.map((v, j) => `<li><span class="pp-v">${esc(v.nome)}</span><span class="pp-asse"><span class="pp-zero"></span>${barra(kr.val[j], "rif")}${barra(k.val[j], "tuo")}</span><span class="num">${nf(k.val[j], 1)}</span></li>`).join("")}</ul>
+      <div class="azioni"><button class="btn primario s" type="button" id="pp-copia">${icona("link-2")}Copia il link</button>
+        ${ok ? `<a class="btn s" href="${esc(repo + "/issues/new?title=" + encodeURIComponent("[Programma proposto] " + (PP.nome || "Senza nome")) + "&body=" + encodeURIComponent(corpo))}" target="_blank" rel="noopener">${icona("send")}Invia per la validazione</a>` : `<button class="btn s" type="button" disabled>${icona("send")}Invia per la validazione</button>`}</div>
+      <p class="nota">${ok ? "La validazione completa rifà i conti anno per anno dal 2027 al 2035 e controlla la robustezza con migliaia di pesi diversi tra i valori. L'esito viene pubblicato accanto agli altri programmi. Per inviare serve un account GitHub gratuito." : k.n ? "Per inviarlo, sistema prima i punti in rosso." : "Scegli almeno una misura."}</p>`;
+    icone();
+    $("#pp-copia").addEventListener("click", async () => { try { await navigator.clipboard.writeText(ppLink()); $("#pp-copia").innerHTML = icona("check") + "Link copiato"; icone(); } catch (e) { prompt("Copia il link:", ppLink()); } });
+    Object.keys(D.aree).forEach((a) => { const n = Object.keys(PP.m).filter((p) => p.startsWith(a + "-")).length; const el = $(`[data-conta-area="${a}"]`); if (el) el.textContent = n ? `· ${n} ${n === 1 ? "scelta" : "scelte"}` : ""; });
+    $$("[data-conta-fondo]").forEach((el) => { const n = D.coperture.filter((c) => String(c.fondo_id).toUpperCase() === el.dataset.contaFondo && PP.c.has(c.misura_id)).length; el.textContent = n ? `· ${n} ${n === 1 ? "attiva" : "attive"}` : ""; });
+    history.replaceState(null, "", "#/programma/proponi?" + ppCodice());
+  }
+  function montaProponi() {
+    const sincronizza = () => {
+      $$("[data-pp-misura]").forEach((s) => { s.value = PP.m[s.dataset.ppMisura] || ""; });
+      $$("[data-pp-cop]").forEach((c) => { c.checked = PP.c.has(c.dataset.ppCop); });
+      ppEsito();
+    };
+    $$("[data-pp-misura]").forEach((s) => s.addEventListener("change", () => { if (s.value) PP.m[s.dataset.ppMisura] = s.value; else delete PP.m[s.dataset.ppMisura]; ppEsito(); }));
+    $$("[data-pp-cop]").forEach((c) => c.addEventListener("change", () => { if (c.checked) PP.c.add(c.dataset.ppCop); else PP.c.delete(c.dataset.ppCop); ppEsito(); }));
+    $("#pp-nome").addEventListener("input", (e) => { PP.nome = e.target.value.trim(); ppEsito(); });
+    $("#pp-da").addEventListener("change", (e) => {
+      const v = e.target.value; if (!v) return;
+      if ((Object.keys(PP.m).length || PP.c.size) && !confirm("Sostituire le scelte fatte finora?")) { e.target.value = ""; return; }
+      const nome = $("#pp-nome").value.trim();
+      ppCarica(new URLSearchParams(v === "vuoto" ? "" : "da=" + v)); PP.nome = nome; e.target.value = ""; sincronizza();
+    });
+    $("#pp-cerca").addEventListener("input", (e) => {
+      const t = e.target.value.toLowerCase().trim();
+      $$(".pp-lista li").forEach((li) => { li.hidden = !!t && !li.dataset.testo.includes(t); });
+      $$(".pp-gruppo").forEach((d) => { const vis = [...d.querySelectorAll("li")].some((li) => !li.hidden); d.hidden = !vis; if (t && vis) d.open = true; });
+    });
+    sincronizza();
   }
 
   const ORIZZ = ["breve", "medio", "lungo"];
@@ -1376,6 +1500,7 @@
       if (b && /^\d{2}-[PC]\d+$/.test(b)) { html = schedaProposta(b); titolo = tit((proposta(b) || {}).titolo || "Proposta"); }
       else if (b === "coperture") { html = coperture(); titolo = "Come si paga"; }
       else if (b === "valori") { html = simulatore(); titolo = "I tuoi valori"; }
+      else if (b === "proponi") { html = proponi(params); titolo = "Proponi un programma"; }
       else if (b === "confronti") { html = confronti(params); titolo = "Confronti"; }
       else if (b === "sintesi") { html = sintesi(); titolo = "Le idee in sintesi"; }
       else if (b === "equita") { html = equita(); titolo = "Equità e linguaggio inclusivo"; }
@@ -1418,6 +1543,7 @@
     // comportamenti delle viste interattive
     if ($("#f-corpo")) { ["#f-cerca", "#f-tema", "#f-classe", "#f-incluse"].forEach((s) => $(s).addEventListener("input", aggiornaElenco)); aggiornaElenco(); }
     if ($("#c-corpo")) { const filtra = () => { const t = $("#c-cerca").value.toLowerCase(), f = $("#c-fondo").value, l = $("#c-livello").value; $$("#c-corpo tr").forEach((tr) => { tr.hidden = (t && !tr.dataset.testo.includes(t)) || (f && tr.dataset.fondo !== f) || (l && tr.dataset.livello !== l); }); }; ["#c-cerca", "#c-fondo", "#c-livello"].forEach((s) => $(s).addEventListener("input", filtra)); }
+    if ($("#pp-app")) montaProponi();
     if ($("#classifica")) { $$("input[type=range]", main).forEach((el) => el.addEventListener("input", aggiornaClassifica)); aggiornaClassifica(); }
     if ($("#q")) { $("#q").addEventListener("input", aggiornaRicerca); aggiornaRicerca(); $("#q").focus(); }
     if ($("#schema-scenario")) $("#schema-scenario").addEventListener("change", (e) => { location.hash = "#/programma/una-pagina" + (e.target.value === (D.schema || {}).scenario ? "" : "?scenario=" + e.target.value); });

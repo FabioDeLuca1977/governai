@@ -330,6 +330,27 @@ def costituzione() -> dict:
             if (c / "giurisprudenza_verificata.json").exists() else 0}
 
 
+def motore_web() -> dict:
+    """Dati per "Proponi un programma": il sito rifà nel browser lo stesso controllo di bilancio dell'ottimizzatore
+    (un vincolo per le risorse generali, uno per ogni fondo vincolato, coperture legate) e applica le stesse linee rosse."""
+    sys.path.insert(0, str(RADICE / "programma"))
+    import ottimizza  # noqa: E402
+    var, menu = ottimizza.carica_varianti(), ottimizza.carica_menu()
+    cap = ottimizza.capienze_base(menu)
+    chiavi, *_ = ottimizza.costruisci(var, menu, cap)
+    prel: dict[str, dict[str, float]] = {}
+    for r in var.itertuples():
+        if r.prelievo_regime:
+            d = prel.setdefault(r.chiave, {})
+            d[r.fondo_id] = round(d.get(r.fondo_id, 0.0) + float(r.prelievo_regime), 4)
+    rosse = {}
+    for motivo, chiave, _ in ottimizza.linee_rosse(chiavi, menu):
+        rosse.setdefault(chiave, motivo)
+    return {"prelievi": prel, "capienze": {k: round(float(v), 4) for k, v in cap.items()},
+            "generali": sorted(ottimizza.GENERALI), "fuori_bilancio": sorted(ottimizza.FUORI_BILANCIO),
+            "legami": ottimizza.LEGAMI, "linee_rosse": rosse, "nomi_fondi": NOMI_FONDI}
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     conf = yaml.safe_load(leggi(QUI / "config.yaml"))
@@ -432,6 +453,8 @@ def main() -> int:
         "governo": governo(),
         "europa": europa(),
         "costituzione": costituzione(),
+        "motore": motore_web(),
+        "proposte_validate": json.loads(leggi(RADICE / "proposte" / "validati.json") or "[]"),
         "numeri": {"cifre_verificate": 334, "proposte": len(proposte),
                    "varianti": int(var.drop_duplicates(["proposta_id", "variante"]).shape[0]),
                    "coperture": len(menu), "valori": len(valori_carta()),

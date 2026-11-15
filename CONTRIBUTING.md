@@ -11,6 +11,10 @@ Apri una [issue con il modulo "Suggerimento o richiesta di analisi"](../../issue
 3. **Analisi.** Il livello AI prepara una diagnosi e tre opzioni. Le opzioni hanno costi e coperture senza deficit e sono valutate da tre valutatori indipendenti sui 10 valori della [Carta](01_carta_valori.md).
 4. **Pubblicazione.** Il risultato compare in `analisi/` e nella sezione "Analisi" del sito.
 
+## Proporre un programma intero
+
+Nella pagina **Programma › Proponi un programma** del sito puoi comporre il tuo programma con le stesse regole del nostro: misure, versioni e coperture verificate, senza deficit. Se i conti tornano, il pulsante «Invia per la validazione» apre una issue con il link. La validazione completa e la pubblicazione sono descritte in [`proposte/README.md`](proposte/README.md).
+
 ## Critiche al metodo, ai dati o ai valori
 
 Le critiche sono particolarmente preziose: aiutano a capire se GovernAI è davvero neutrale e se i dati sono corretti. Puoi segnalare:

@@ -38,6 +38,7 @@ L'interfaccia web pubblicata in `docs/` contiene:
 | `comunita/` | Comunità su invito: gli iscritti discutono le proposte con altre persone e con l'AI (qui nessuno decide); regole, moderazione registrata, informativa privacy, database |
 | `analisi/` | Analisi su richiesta, avviate da una issue GitHub con l'etichetta "analisi" |
 | `sistema/` | Sistema dinamico: sentinella delle fonti ufficiali, cruscotto, allerte, programma del momento, livello AI, bollettini; `sincronizza.py` allinea la copia locale a GitHub |
+| `proposte/` | Programmi proposti da chiunque con la pagina «Proponi un programma» e validati con le stesse regole (`programma/valida_proposta.py`) |
 | `docs/` | Interfaccia web statica, pronta per GitHub Pages |
 
 ## Avvio rapido
