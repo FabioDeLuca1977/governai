@@ -1,6 +1,6 @@
 # Bollettino GovernAI — 2026-11-15
 
-*Generato automaticamente da `sistema/pipeline.py` alle 09:01. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 13:46. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
@@ -62,7 +62,7 @@ Nessuna revisione necessaria.
 - sentinella: sentinella: nessun aggiornamento; Eurostat aggiornati 0, file 0, documenti nuovi 0, serie cambiate 0, errori 0
 - apprendimento: 193 KPI, stati {'manuale': 147, 'in osservazione': 46}, aree calibrate 0
 - legislazione: archivio GU: 699 atti, 699 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
-- europa: europa: 857 atti GU L in archivio, 296 negli ultimi 30 giorni; 144 direttive con termine (23 critiche, 11 alte); 84 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 24
+- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
 - costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
 - consiglio: 95 previsioni, 0 verificate oggi, 8 verificate in totale
 - verifica sedute: 2 attive, 0 confermate, 2 da riesaminare
