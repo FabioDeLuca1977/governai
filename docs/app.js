@@ -57,7 +57,7 @@
     return `<span class="misuratore" aria-label="Variante ${nome}, intensità ${n} su 3"><span aria-hidden="true">${nome}</span><span class="pallini" aria-hidden="true">${[1, 2, 3].map((i) => `<i class="${i <= n ? "pieno" : ""}"></i>`).join("")}</span></span>`;
   };
   // Badge di verifica: solo sulle cifre che vengono da fonti esterne o da stime (design/confronto/valutazione_P3.md)
-  const BADGE = { verificato: ["favorevole", "badge-check", "Verificato"], stima: ["info", "calculator", "Stima GovernAI"], verificare: ["attenzione", "circle-help", "Da verificare"], provvisorio: ["neutro", "hourglass", "Provvisorio"] };
+  const BADGE = { verificato: ["favorevole", "badge-check", "Verificato"], stima: ["info", "calculator", "Stima GovernAI"], verificare: ["attenzione", "circle-help", "Da verificare"], provvisorio: ["neutro", "hourglass", "Provvisorio"], fonte: ["neutro", "file-text", "Fonte"] };
   const badge = (tipo, fonte, url = "") => { const [c, i, t] = BADGE[tipo]; return `<button type="button" class="badge ${c}" data-fonte="${esc(fonte)}" ${url ? `data-url="${esc(url)}"` : ""} aria-haspopup="dialog">${icona(i)}<span>${t}</span></button>`; };
   const STIMA = "Stima GovernAI: calcolata dal modello, non certificata dalla Ragioneria generale dello Stato (RGS). Fonte: registro delle coperture e ottimizzatore del programma.";
   const md = (t) => window.marked && window.DOMPurify ? DOMPurify.sanitize(marked.parse(t || "")) : `<p>${esc(t)}</p>`;
@@ -228,6 +228,12 @@
       ${(r.priorita || []).length ? `<div class="mini-codici">Diventano prioritarie: ${r.priorita.map((c) => `<a href="${linkP(c)}">${c}</a>`).join("")}</div>` : ""}
       ${(r.sospendi || []).length ? `<div class="mini-codici">Sospesa: ${r.sospendi.map((c) => `<a href="${linkP(c)}">${c}</a>`).join("")}</div>` : ""}</div>`;
   }
+  // Allerta in parole semplici, per la home: niente codici, solo misure del programma di riferimento
+  function allertaHome(r) {
+    const i = r.ind, titolo = String(r.messaggio).split(": ")[0].replace(/\.$/, "");
+    const pr = (r.priorita || []).filter((c) => rif.misure[c] && proposta(c)).map((c) => `<a href="${linkP(c)}">${esc(tit(proposta(c).titolo))}</a>`);
+    return `<li><p><strong>${esc(titolo)}</strong>${i.valore != null ? ` <span class="nota">(${esc(nomeInd(i))}: ${valoreInd(i)}${i.unita.startsWith("%") ? "%" : " " + esc(unitaInd(i))}, ${esc(periodoBreve(i.periodo))})</span>` : ""}</p>${pr.length ? `<p class="nota">Il programma dà la precedenza a: ${pr.join(" · ")}</p>` : ""}</li>`;
+  }
   function rigaScadenza(s) {
     const t = traGiorni(s.data);
     return `<li><span class="data">${dataBreve(s.data).split(" ").slice(0, 2).join(" ")}<small>${t >= 0 ? `tra ${t} giorni` : `scaduta da ${-t} giorni`}</small></span>
@@ -387,14 +393,13 @@
           <p class="etichetta sopratitolo">Un programma di governo aperto, basato su dati e valori dichiarati</p>
           <h1 id="titolo-home">Governare con i dati,<br>scegliere con i valori.</h1>
           <p class="risposta">${n.proposte} proposte valutate su ${n.valori} valori, finanziate senza deficit e controllate su Costituzione e regole europee. <span class="firma">L'AI propone e verifica. Le persone decidono.</span></p>
-          <div class="azioni"><a class="btn primario" href="#/programma/una-pagina">Il programma in una pagina ${icona("arrow-right")}</a><a class="btn" href="#/programma/sintesi">Le idee in 10 minuti</a><a class="btn terziario" href="#/metodo">Come funziona</a></div>
+          <div class="azioni"><a class="btn primario" href="#/programma/per-me">Che cosa cambia per me ${icona("arrow-right")}</a><a class="btn" href="#/programma/una-pagina">Il programma in una pagina</a><a class="btn" href="#/programma/sintesi">Le idee in 10 minuti</a><a class="btn terziario" href="#/metodo">Come funziona</a></div>
         </div>
         <div class="oggi-box" aria-label="Oggi in breve">
           <p class="etichetta">Oggi, ${dataLunga(D.generato)}</p>
           <ul>
-            <li>${icona("bell-ring")}<a href="#/dati/allerte">${ALLERTE.length ? chip(["alto", "triangle-alert", `${ALLERTE.length} allerte attive`]) : chip(["favorevole", "circle-check", "Nessuna allerta"])}</a></li>
+            <li>${icona("activity")}<a href="#t-allerte" data-ancora>${ALLERTE.length ? `${ALLERTE.length} segnali da seguire nei dati di oggi` : "Gli indicatori sono nelle soglie"}</a></li>
             ${ult ? `<li>${icona("users-round")}<span>Ultima seduta: <a href="${linkSeduta(ult.id)}">${ult.data === OGGI ? "oggi" : dataBreve(ult.data)}</a></span></li>` : ""}
-            <li>${icona("link-2")}<a href="#/controlli/integrita">${integra ? chip(["favorevole", "circle-check", `Registro integro · ${D.integrita.anelli} versioni`]) : chip(["critico", "octagon-x", "Registro da verificare"])}</a></li>
           </ul>
         </div>
       </section>
@@ -402,7 +407,7 @@
       <section class="sezione" aria-label="Il giorno in quattro numeri" style="margin-top:32px">
         <div class="griglia g2 g4-d">
           <div class="card kpi"><p class="etichetta"><a href="#/programma/una-pagina">Programma di riferimento</a></p><p class="numero">${nf(rif.spesa, 1)}<small>mld/anno</small></p><p class="nota">${rif.deficit > 0 ? `deficit ${nf(rif.deficit, 1)} mld` : "senza deficit"} · le ${D.scenari.length} versioni vanno da ${nf(Math.min(...spese), 1)} a ${nf(Math.max(...spese), 1)} mld</p>${badge("stima", STIMA)}</div>
-          <div class="card kpi"><p class="etichetta">Misure incluse</p><p class="numero">${Object.keys(rif.misure).length}<small>su ${D.proposte.length}</small></p><p class="nota">nucleo robusto finanziato: ${coperto} su ${nucleo.length}${eccezioniNucleo(rif)}</p></div>
+          <div class="card kpi"><p class="etichetta">Misure incluse</p><p class="numero">${Object.keys(rif.misure).length}<small>su ${D.proposte.length}</small></p><p class="nota">delle ${nucleo.length} misure più solide, ${coperto} sono finanziate per intero${nucleo.length > coperto ? `; le altre ${nucleo.length - coperto} partono in versione ridotta, <a href="#/programma/una-pagina">dichiarata</a>` : ""}</p></div>
           <div class="card kpi"><p class="etichetta">Cifre verificate</p><p class="numero">${n.cifre_verificate}</p><p class="nota">controllate una per una su fonte primaria</p></div>
           <div class="card kpi"><p class="etichetta">Serie di dati</p><p class="numero">${n.serie}</p><p class="nota">aggiornate ogni giorno da fonti ufficiali</p></div>
         </div>
@@ -414,8 +419,8 @@
 
       <div class="griglia g2-d sezione">
         <section aria-labelledby="t-allerte">
-          <div class="sezione-testa"><h2 id="t-allerte">Allerte attive (${ALLERTE.length})</h2><a href="#/dati/allerte">Tutte</a></div>
-          ${ALLERTE.length ? ALLERTE.map((r) => avvisoAllerta(r)).join("") : `<div class="avviso favorevole"><div class="avviso-titolo">${icona("circle-check")}Nessuna allerta attiva: gli indicatori sono nelle soglie.</div></div>`}
+          <div class="sezione-testa"><h2 id="t-allerte">Che cosa ci preoccupa nei dati di oggi</h2><a href="#/dati/allerte">Il dettaglio</a></div>
+          ${ALLERTE.length ? `<div class="card"><ul class="allerte-home">${ALLERTE.map(allertaHome).join("")}</ul><p class="nota">Ogni giorno confrontiamo i dati ufficiali con soglie fissate prima. Quando una soglia scatta, il programma cambia le priorità, senza spendere di più.</p></div>` : `<div class="avviso"><div class="avviso-titolo">${icona("circle-check")}Gli indicatori sono nelle soglie.</div></div>`}
         </section>
         <section aria-labelledby="t-seduta">
           <div class="sezione-testa"><h2 id="t-seduta">Ultima seduta del Consiglio</h2><a href="#/governo">Tutte</a></div>
@@ -716,7 +721,7 @@
     const fonte = [o.fonte, o.periodo].filter(Boolean).join(", ");
     return `<li><span class="q-ind-nome">${esc(piano(o.nome))}</span>
       <span class="q-ind-valori">${da} ${icona(freccia)} ${a} <span class="nota">in 5 anni</span></span>
-      <span class="nota">${fonte ? `Base: ${esc(fonte)} · ` : ""}<a href="${linkP(o.proposta)}">${esc(o.proposta)}</a></span></li>`;
+      <span class="nota">${fonte ? `Base: ${esc(fonte)} · ` : ""}<a href="${linkP(o.proposta)}" title="${esc(o.proposta)}">la misura</a></span></li>`;
   }
   function unaPagina(params) {
     const S = D.schema || {};
@@ -726,7 +731,7 @@
     const costo = (ids) => ids.reduce((a, id) => a + ((sc.misure[id] || {}).costo || 0), 0);
     const cop = D.coperture.filter((c) => sc.coperture.includes(c.misura_id) && c.gettito_min > 0).sort((a, b) => (b.gettito_min || 0) - (a.gettito_min || 0));
     const dose = (m) => !m ? misuratore(null) : m.variante === "ZERO" ? `<span class="chip">${icona("scroll-text")}Solo regole, costo zero</span>` : misuratore(m.variante) + `<span class="nota">${euro(m.costo)}</span>`;
-    const misura = (id) => { const p = proposta(id), m = sc.misure[id]; if (!p) return ""; return `<li class="${m ? "" : "fuori"}"><a href="${linkP(id)}">${esc(tit(p.titolo))}</a> <span class="nota mono">${esc(id)}</span><span class="q-dose">${dose(m)}</span></li>`; };
+    const misura = (id) => { const p = proposta(id), m = sc.misure[id]; if (!p) return ""; return `<li class="${m ? "" : "fuori"}"><a href="${linkP(id)}" title="${esc(id)}">${esc(tit(p.titolo))}</a><span class="q-dose">${dose(m)}</span></li>`; };
     const missione = (m) => {
       const dentro = m.proposte.filter((id) => sc.misure[id]).sort((a, b) => sc.misure[b].costo - sc.misure[a].costo);
       const fuori = m.proposte.filter((id) => !dentro.includes(id));
@@ -735,7 +740,7 @@
       return `<article class="card missione" id="${esc(m.id)}" aria-labelledby="t-${esc(m.id)}">
         <header class="missione-testa">${icona(m.icona || "circle")}<div><h2 id="t-${esc(m.id)}">${esc(m.titolo)}</h2>
           <p class="nota">${dentro.length} misure su ${m.proposte.length} · ${euro(costo(m.proposte))} l'anno ${badge("stima", STIMA)}</p></div></header>
-        <div class="quattro">
+        <details class="missione-apri"><summary>Apri la missione: perché, come si paga, che cosa misuriamo, chi ne beneficia</summary><div class="quattro">
           <section class="q-cella">${testaQuattro("perche")}<p>${esc(m.perche)}</p><div class="chips">${(m.valori || []).map((v) => `<span class="chip info">${esc(nomeValore(v))}</span>`).join("")}</div></section>
           <section class="q-cella">${testaQuattro("come")}<p>${esc(m.come)}</p>
             <p class="q-sotto">Le misure con più risorse</p>
@@ -745,7 +750,7 @@
             <p class="q-sostenibile">${icona("scale")}<span><strong>Sostenibilità.</strong> ${esc(m.sostenibilita)}</span></p></section>
           <section class="q-cella">${testaQuattro("cosa")}<ul class="q-ind">${(m.indicatori || []).map(rigaIndicatore).join("")}</ul></section>
           <section class="q-cella">${testaQuattro("chi")}<ul class="q-lista-chi">${(m.chi || []).map((g) => `<li><strong>${esc(g.gruppo)}</strong>${g.quanti ? `<span class="q-quanti">${esc(g.quanti)} ${fonteChi(g)}</span>` : ""}<span>${esc(g.cosa_cambia)}</span></li>`).join("")}</ul></section>
-        </div></article>`;
+        </div></details></article>`;
     };
     return `${schedeProgramma("una-pagina")}
       <p class="risposta">Il programma in una pagina. Per ogni missione: <strong>perché</strong> la facciamo, <strong>come</strong> e con quali soldi, <strong>cosa misuriamo</strong> per dire che ce l'abbiamo fatta, e <strong>chi ne beneficia</strong>.</p>
@@ -782,9 +787,8 @@
       <section class="sezione" aria-labelledby="t-contribuisce">
         <div class="sezione-testa"><h2 id="t-contribuisce">Chi contribuisce</h2><a href="#/programma/coperture">Tutte le coperture</a></div>
         <p class="nota" style="margin-top:-8px">Le coperture attive in questa versione, dalla più grande. Ogni euro di spesa ha una copertura certa: niente deficit, niente recupero di evasione non ancora incassato.</p>
-        <div class="tabella-box"><table class="tabella a-card"><thead><tr><th>Copertura</th><th>Chi paga o rinuncia</th><th class="num">Gettito minimo</th></tr></thead><tbody>
-          ${cop.map((c) => `<tr><td class="principale"><span class="mono nota">${esc(c.misura_id)}</span><br>${esc(c.descrizione)}</td><td data-etichetta="Chi paga">${esc(c.chi_paga)}</td><td class="num" data-etichetta="Gettito minimo"><span class="barretta" aria-hidden="true"><span style="width:${(c.gettito_min / cop[0].gettito_min * 100).toFixed(1)}%"></span></span>${nf(c.gettito_min)} mld</td></tr>`).join("")}
-        </tbody></table></div>
+        ${(() => { const tab = (v) => `<div class="tabella-box"><table class="tabella a-card"><thead><tr><th>Copertura</th><th>Chi paga o rinuncia</th><th class="num">Gettito minimo</th></tr></thead><tbody>${v.map((c) => `<tr><td class="principale"><span class="mono nota">${esc(c.misura_id)}</span><br>${esc(c.descrizione)}</td><td data-etichetta="Chi paga">${esc(c.chi_paga)}</td><td class="num" data-etichetta="Gettito minimo"><span class="barretta" aria-hidden="true"><span style="width:${(c.gettito_min / cop[0].gettito_min * 100).toFixed(1)}%"></span></span>${nf(c.gettito_min)} mld</td></tr>`).join("")}</tbody></table></div>`;
+          return tab(cop.slice(0, 5)) + (cop.length > 5 ? `<details class="leggi"><summary>Le altre ${cop.length - 5} coperture</summary>${tab(cop.slice(5))}</details>` : ""); })()}
       </section>
       <div class="azioni" style="margin-top:24px"><a class="btn primario" href="#/programma">Tutte le ${D.proposte.length} proposte ${icona("arrow-right")}</a>${azioniCondividi()}</div>`;
   }
@@ -816,6 +820,10 @@
     const dettaglio = sel ? `<section class="sezione" aria-labelledby="t-profilo"><h2 id="t-profilo">${icona(sel.icona || "user")}${esc(sel.titolo)}</h2>
         <p class="risposta">${esc(sel.in_breve || "")}</p>
         ${sel.chi ? `<p class="nota">${esc(sel.chi)}</p>` : ""}
+        ${(() => { const q = sel.in_30_secondi || {}, e = q.esempi || []; return e.length || q.quando ? `<div class="card riassunto-profilo"><h3>${icona("timer")}In 30 secondi, con qualche esempio in euro</h3>
+          <ul class="esempi-euro">${e.map((x) => `<li><span>${esc(x.testo)}</span> ${badge(x.stima ? "stima" : "fonte", x.fonte ? String(x.fonte) : STIMA)}</li>`).join("")}</ul>
+          ${q.quando ? `<p class="quando">${icona("calendar")}<span><strong>Quando:</strong> ${esc(q.quando)}</span></p>` : ""}
+          <p class="nota">Esempi semplici calcolati sui numeri del programma, non una simulazione del tuo caso.</p></div>` : ""; })()}
         <div class="griglia g2-d">
           <div class="card"><h3>${icona("circle-plus")}Che cosa ci guadagni</h3><ul class="voci-profilo">${(sel.guadagna || []).map(voceG).join("") || "<li>Nessuna misura dedicata.</li>"}</ul></div>
           <div class="card"><h3>${icona("circle-minus")}Che cosa ti può costare</h3><ul class="voci-profilo">${(sel.paga || []).map(voceP).join("") || "<li>Nessuna copertura che ti riguardi direttamente.</li>"}</ul></div>

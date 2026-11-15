@@ -705,3 +705,22 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 .sv.m i{ background:linear-gradient(135deg,var(--g-positivo) 50%,var(--g-negativo) 50%); }
 .sv.m i::after{ width:8px; height:2px; clip-path:none; }
 .legenda-valori .sv.m i::after{ width:6px; }
+/* una pagina: missioni a fisarmonica */
+.missione-apri>summary{ display:flex; align-items:center; gap:8px; min-height:44px; cursor:pointer; font-weight:600; color:var(--c-accento); list-style:none; margin-top:8px; }
+.missione-apri>summary::-webkit-details-marker{ display:none; }
+.missione-apri>summary::before{ content:"+"; display:inline-grid; place-items:center; width:22px; height:22px; border:1px solid currentColor; border-radius:50%; font-weight:700; line-height:1; }
+.missione-apri[open]>summary::before{ content:"−"; }
+.missione-apri[open]>summary{ margin-bottom:8px; }
+/* home: allerte in parole semplici */
+.allerte-home{ list-style:none; margin:0 0 8px; padding:0; }
+.allerte-home li{ padding:10px 0; border-bottom:1px solid var(--c-bordo); }
+.allerte-home li:first-child{ padding-top:0; }
+.allerte-home p{ margin:0; }
+.allerte-home p.nota{ margin-top:4px; }
+/* che cosa cambia per me: esempi in euro */
+.riassunto-profilo{ margin:16px 0; border-left:4px solid var(--g-serie); }
+.riassunto-profilo h3{ display:flex; align-items:center; gap:8px; margin-top:0; }
+.esempi-euro{ margin:8px 0; padding-left:20px; }
+.esempi-euro li{ margin:8px 0; }
+.riassunto-profilo .quando{ display:flex; gap:8px; align-items:flex-start; margin:12px 0 4px; }
+.riassunto-profilo .quando svg{ flex:none; margin-top:3px; width:18px; height:18px; color:var(--c-accento); }
