@@ -1,0 +1,118 @@
+# Analisi "oceano blu" del programma GovernAI (16 novembre 2026)
+# Metodo: Kim e Mauborgne, Blue Ocean Strategy (canvas strategico, griglia ERRC, non clienti).
+# Rapporto completo: programma/oceano_blu.md
+# Punteggi da 0 a 10: quanto l'offerta investe su quel fattore (non quanto è "buona").
+# "governo" = manovra tipica del governo; "partiti" = programmi tipici dei partiti.
+# Giudizi qualitativi di chi ha scritto l'analisi, motivati con fatti del repository.
+
+fattori:
+  - nome: "Promesse di spesa, bonus e sgravi per categorie"
+    governo: 8
+    partiti: 9
+    governai: 3
+    perche: "La manovra 2027 ha 23,5 mld di impieghi, con imposte sostitutive per rinnovi, accessorio e under 30, forfetario a 100.000 euro, bollo auto esente; i programmi elettorali promettono flat tax, no-tax area, esenzioni, abolizioni di imposte. GovernAI spende 8,50 mld l'anno nel programma intermedio, riordina bonus e spese fiscali (01-P2, 01-P8) e mette prima i servizi (nido 02-C2) poi i bonus."
+  - nome: "Ricorso al deficit"
+    governo: 7
+    partiti: 6
+    governai: 0
+    perche: "La manovra 2027 finanzia circa 13 mld in deficit con la clausola nazionale per difesa ed energia (10,3 mld di coperture su 23,5). I programmi dei partiti indicano raramente coperture complete. In GovernAI nuovo deficit zero, anche anno per anno con il calendario di avvio; le versioni della Difesa in deficit sono escluse da una linea rossa; 1,15 mld l'anno vanno alla riduzione del deficit."
+  - nome: "Condoni, rottamazioni e definizioni agevolate"
+    governo: 8
+    partiti: 5
+    governai: 0
+    perche: "Il governo ha approvato tregua fiscale, rottamazione-quater e quinquies; alcuni partiti propongono pace fiscale e saldo e stralcio, altri si oppongono. GovernAI esclude ogni condono fino a fine legislatura (01-P12, nucleo robusto; 01-P3 art. 5), in linea con la lezione 1 dei cinquant'anni di decisioni."
+  - nome: "Coperture dichiarate e verificate"
+    governo: 5
+    partiti: 2
+    governai: 9
+    perche: "La manovra dichiara coperture, ma ne conta una parte sul contrasto all'evasione e usa misure temporanee sul settore finanziario. I programmi dei partiti di solito non le dichiarano. GovernAI conta solo gettito minimo e tagli su capitoli identificati, non usa il recupero di evasione, ha 97 coperture con chi paga e verifica giuridica, e ha ricontrollato le coperture sul rendiconto dello Stato trovandone 17 sovrastimate e correggendo il programma."
+  - nome: "Rapidità degli effetti visibili"
+    governo: 8
+    partiti: 8
+    governai: 3
+    perche: "Bonus e sgravi arrivano in busta paga nell'anno; i programmi promettono effetti subito. In GovernAI il 2027 è un anno di preparazione: partono subito solo le 38 riforme a costo quasi zero, il nucleo robusto è al 2% nel 2027, al 71% nel 2028 e a pieno solo dal 2031."
+  - nome: "Valutazione degli effetti, prima e dopo"
+    governo: 3
+    partiti: 2
+    governai: 9
+    perche: "Su 120 decisioni pubbliche dal 1977, 37 hanno evidenza insufficiente e solo 14 una prova solida: lo Stato ha deciso molto e misurato poco. GovernAI valuta ogni proposta su 10 valori e 3 orizzonti con un panel di 3 valutatori, fa partire come pilota con valutazione le misure incerte (02-C5, 09-C10, 07-C1, 07-C3), fissa indicatori con base e obiettivo a 5 anni, rafforza l'UPB (01-P17). Non 10: il panel è di agenti AI e nessuna misura è ancora stata valutata a consuntivo."
+  - nome: "Trasparenza di dati e calcoli"
+    governo: 4
+    partiti: 2
+    governai: 9
+    perche: "La manovra pubblica relazione tecnica e dossier, ma non i modelli. GovernAI pubblica codice, dati e motore: 334 cifre verificate su fonte primaria, cifre del documento generate dal codice e non corrette a mano, catena di impronte crittografiche, appalti a vetro (08-P7), Stato a vetro (09-C1), registro delle lobby e titolare effettivo (08-P8, 08-P10)."
+  - nome: "Partecipazione della cittadinanza alle scelte"
+    governo: 2
+    partiti: 4
+    governai: 6
+    perche: "Nella manovra la cittadinanza non partecipa; i partiti hanno iscritti, congressi, a volte primarie. GovernAI offre la pagina Proponi un programma, con le stesse regole e validazione completa, una comunità su invito e propone un'assemblea di persone sorteggiate che fissa i pesi tra i valori (08-P1). Oggi però l'assemblea non esiste e una sola persona guida il progetto."
+  - nome: "Stabilità delle regole"
+    governo: 3
+    partiti: 3
+    governai: 8
+    perche: "Quattro leggi elettorali in circa vent'anni (l'ultima a meno di un anno dal voto), quattro rottamazioni in sei anni, scaglione IRPEF esteso solo per il 2027. GovernAI propone clausola di stabilità, spese fiscali a scadenza valutata (01-P2), tetti di spesa triennali (01-P16), regole elettorali stabili (08-P3), nessun rinnovo automatico delle misure temporanee. Non 10: le cifre del suo programma sono cambiate quasi ogni giorno nell'ultima settimana."
+  - nome: "Attenzione al lungo periodo e alle generazioni future"
+    governo: 3
+    partiti: 4
+    governai: 9
+    perche: "Debito al 137% del PIL, figli per donna 1,18, produttività ferma dal 2000. La manovra guarda al triennio; i programmi alla legislatura. In GovernAI il lungo periodo pesa almeno quanto il breve nel motore, ogni legge dichiara chi paga e quando con orizzonte a 30 anni (01-P1), prevenzione dei rischi (03-P4), regola già scritta per i fondi europei dopo il 2029."
+  - nome: "Linguaggio identitario e di appartenenza"
+    governo: 7
+    partiti: 9
+    governai: 1
+    perche: "La competizione politica parla soprattutto di appartenenza: noi contro loro. GovernAI dichiara i valori invece dell'etichetta e cerca le proposte robuste, prioritarie con quasi ogni combinazione di pesi tra i valori (30 nel nucleo robusto su 20.000 combinazioni). Il prezzo è un messaggio meno emotivo."
+  - nome: "Leader e volto riconoscibile"
+    governo: 9
+    partiti: 9
+    governai: 2
+    perche: "Governo e partiti competono molto sul leader. GovernAI non ha un volto pubblico: le regole chiedono una persona responsabile con nome che firma ogni scelta politica e il suo prezzo, ma le persone non sono ancora state individuate."
+
+errc:
+  eliminare:
+    - "Nuova spesa in deficit: linea rossa sulla responsabilità verso il futuro; versioni della Difesa in deficit escluse in automatico (07-C5); nessun uso della clausola nazionale come copertura"
+    - "Condoni, rottamazioni e scudi anonimi fino a fine legislatura (01-P12, 01-P3 art. 5)"
+    - "Il recupero di evasione usato come copertura: va a ridurre il deficit"
+    - "Nuove imposte sostitutive e aliquote per categoria o età (01-P2, 01-P9 al posto dello scaglione esteso)"
+    - "Coperture regressive senza compensazione (linea rossa dell'equità: esclusi AS05 e RB05)"
+    - "Incentivi automatici a spesa aperta, senza tetto (lezione 3: Superbonus, Conto energia)"
+    - "Proposte dominate, scartate dal motore perché ce n'è sempre una migliore su tutti i valori"
+  ridurre:
+    - "Bonus monetari frammentati, a favore dei servizi: riordino di bonus e carte (RB), nido esigibile prima dei bonus (02-C2)"
+    - "Spese fiscali senza valutazione: scadenza a 5 anni e scheda pubblica (01-P2), meno detrazioni minori (01-P8)"
+    - "Sussidi dannosi per l'ambiente, con uscita graduale e compensazioni (SAD01, SAD13, 04-P8)"
+    - "Misure temporanee e una tantum: nessun rinnovo automatico, bilancio generazionale (01-P1)"
+    - "Scalini e gradini che puniscono chi cresce o guadagna un euro in più (01-P9, 01-P4)"
+    - "Promesse di effetti immediati: calendario di avvio dichiarato, 2027 anno di preparazione"
+    - "Linguaggio identitario: i valori si dichiarano, le etichette di schieramento no"
+  aumentare:
+    - "Coperture contate al gettito minimo, verificate sul rendiconto dello Stato e sottoposte a verifica giuridica (97 coperture, 17 sovrastimate trovate e corrette)"
+    - "Valutazione: panel indipendente, piloti con valutazione controfattuale (02-C5, 09-C10, 07-C1, 07-C3), indicatori con base e obiettivo a 5 anni, UPB più forte (01-P17)"
+    - "Trasparenza e integrità: appalti a vetro (08-P7), Stato a vetro (09-C1), registro delle lobby (08-P8), dichiarazioni verificate (08-P9), titolare effettivo (08-P10), verifiche a sorteggio (08-P11)"
+    - "Stabilità delle regole: clausola di stabilità, tetti di spesa triennali (01-P16), regole elettorali stabili (08-P3)"
+    - "Orizzonte lungo: il lungo periodo pesa almeno quanto il breve; prevenzione (03-P4); regola per i fondi europei dopo il 2029"
+    - "Servizi che funzionano: chiedilo una volta sola (09-C2), dichiarazione zero (01-P7), squadre tecniche per i piccoli Comuni (09-C3), AI nella PA con supervisione umana (09-C5)"
+    - "Investimento sulle persone dove si parte svantaggiati: dispersione (05-C1), quota svantaggio (05-C7), ITS e borse (05-C4), conto di competenze (05-C2)"
+  creare:
+    - "Robustezza ai valori: un nucleo di 30 proposte prioritarie con quasi ogni combinazione di pesi (SMAA su 20.000 combinazioni), finanziato per primo"
+    - "Il prezzo dichiarato di ogni scelta politica: opzioni con il loro costo in altre misure (Difesa, dividendo climatico, coperture strutturali) ed eccezioni firmate"
+    - "Linee rosse automatiche e verifica fiscale, costituzionale ed europea prima che la proposta entri"
+    - "Proponi un programma: chiunque compone il suo programma con le stesse regole e lo valida (programma/valida_proposta.py)"
+    - "Governo ombra con opposizione leale e registro pubblico delle previsioni con la loro precisione (governo/credibilita.csv)"
+    - "Legge sulla consulenza algoritmica pubblica e assemblea di persone sorteggiate che fissa i pesi tra i valori (08-P1)"
+    - "Sistema che impara: sentinella delle fonti, bollettino quotidiano, registro di decisioni ed esiti, catena di impronte contro le manomissioni"
+
+non_clienti:
+  - fascia: "Prima fascia: chi sta per lasciare"
+    chi: "Chi vota ancora per abitudine o per il meno peggio ma non crede più alle promesse: contribuenti in regola stanchi di condoni, lavoratrici e lavoratori del ceto medio, piccole imprese sommerse dalla burocrazia, amministratrici e amministratori locali con pochi tecnici."
+    offerta: "Niente condoni (01-P12) e un fisco che fa il conto per te (01-P7); la PA che non chiede due volte lo stesso dato e rimborsa se sbaglia (09-C2); squadre tecniche per i piccoli Comuni (09-C3); bandi con istruttoria in giorni (09-C10); conti che chiunque può rifare."
+  - fascia: "Seconda fascia: chi rifiuta"
+    chi: "Chi non vota per sfiducia o rifiuta la politica come tifo (affluenza alle politiche 2022 al 63,9%, minimo storico); chi diffida delle promesse e dell'uso dei dati pubblici."
+    offerta: "Nessuna appartenenza richiesta: valori dichiarati e proposte robuste; ogni cifra con la sua fonte; ogni scelta con il suo prezzo e una persona con nome che risponde; partecipazione per sorteggio (08-P1); integrità di chi decide (08-P8, 08-P9); sicurezza senza sorveglianza di massa come linea rossa."
+  - fascia: "Terza fascia: chi non è mai stato raggiunto (giovani e generazioni future)"
+    chi: "Giovani, che pagheranno debito e pensioni ma pesano poco nel voto; chi non è ancora nato; chi studia o lavora fuori sede."
+    offerta: "Bilancio generazionale per ogni legge (01-P1); ITS e borse garantite (05-C4); conto personale di competenze (05-C2); voto per chi studia o lavora fuori sede (08-P3); nessun deficit lasciato a loro; nessuna nuova quota pensionistica."
+  - fascia: "Terza fascia: chi non è mai stato raggiunto (chi emigra e chi resta indietro)"
+    chi: "Chi emigra (141 mila italiani cancellati per l'estero nel 2024); famiglie con bambine e bambini piccoli senza nido; aree interne e Mezzogiorno (PIL pro capite al 55-57% del Centro-Nord da 30 anni); persone con disabilità; chi vive in strada; persone straniere residenti senza voto."
+    offerta: "Nido esigibile e congedo dei padri (02-C2); servizi essenziali nelle aree interne (04-P6); squadre contro la dispersione (05-C1); progetto di vita per le persone con disabilità (02-C5, oggi pilota); Housing First (02-C7); flussi migratori governati sui dati (07-C3, pilota); casa a canone giusto e treni per chi viaggia ogni giorno (04-P2, 04-P3), nel nucleo robusto ma oggi fuori dal programma intermedio."
+
+slogan: "Ogni promessa con il suo prezzo, ogni conto verificabile da chiunque."

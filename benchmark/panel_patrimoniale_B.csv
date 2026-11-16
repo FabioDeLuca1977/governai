@@ -1,0 +1,11 @@
+proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
+01-P24,RIS,-1,-1,-1,M,no,"Dichiarazione patrimoniale obbligatoria sopra 3 mln e presunzione di residenza quinquennale comprimono proprietà e libertà di stabilimento di pochi; rischio art. 3 per imprese a valore contabile e quotate a mercato"
+01-P24,FID,0,0,0,B,no,"Statistica e precompilata aumentano trasparenza, ma contenzioso sulle valutazioni e alta probabilità di abolizione (12 Paesi OCSE su 16 l'hanno tolta) riducono prevedibilità"
+01-P24,INN,-1,-1,-1,M,no,"Quotate a valore di mercato e non quotate a contabile scoraggiano quotazioni in un mercato già sottile; senza exit tax generale partono azionisti-dirigenti (Francia: -15% di fatturato)"
+01-P24,BEN,0,0,0,M,no,"Onere su circa 95.000 persone ad alta capacità di spesa; liquidità attenuata da tetto e rinvio per le quote d'impresa; nessun effetto rilevante sul benessere diffuso"
+01-P24,APC,0,0,0,A,no,Nessun effetto rilevante su istruzione e cultura
+01-P24,BPA,0,0,0,M,no,"Esclusione dei beni culturali vincolati aperti al pubblico è un piccolo incentivo, compensato dalla pressione a vendere dimore storiche non vincolate valutate a OMI"
+01-P24,FUT,0,0,-1,B,no,"Primo incasso 2029, regime 2031; gettito prociclico e erodibile nel tempo (Svizzera: base molto elastica); senza exit tax generale una copertura permanente rischia di risultare sovrastimata"
+01-P24,EQU,0,2,1,M,no,"Introduce progressività in cima dove oggi manca; ma valore contabile delle imprese, neo-residenti esclusi e fuga dei più mobili (59% della base sopra 50 mln) erodono equità orizzontale e verticale"
+01-P24,SIC,-1,-1,-1,B,no,"Crea un archivio nominativo dei patrimoni più grandi, bersaglio per attacchi e fughe di dati; la bozza non prevede DPIA, minimizzazione né parere del Garante"
+01-P24,CIT,0,1,1,B,no,"Il contributo proporzionato di chi ha di più può rafforzare la lealtà fiscale degli altri; effetto incerto, contrastato dalla crescita dell'industria dell'elusione"

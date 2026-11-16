@@ -1,6 +1,6 @@
 # Le idee di GovernAI in sintesi
 
-*8 novembre 2026, aggiornato il 13 novembre 2026. Una panoramica per chi ha dieci minuti: che cosa propone GovernAI, quanto costa, chi paga, che cosa unisce e che cosa divide. Il dettaglio è nel programma (`20_programma_governai.md`) e nelle schede di ogni proposta.*
+*8 novembre 2026, aggiornato il 16 novembre 2026. Una panoramica per chi ha dieci minuti: che cosa propone GovernAI, quanto costa, chi paga, che cosa unisce e che cosa divide. Il dettaglio è nel programma (`20_programma_governai.md`) e nelle schede di ogni proposta.*
 
 ## In una frase
 
@@ -8,28 +8,28 @@ Uno Stato che funziona e conti onesti, per investire su famiglie, giovani e terr
 
 ## I numeri
 
-- **83 proposte** in 9 aree, valutate su **10 valori** dichiarati in una Carta.
-- **23 proposte formano il nucleo robusto**: restano tra le prioritarie con quasi ogni combinazione di pesi tra i valori, cioè con sensibilità politiche diverse.
+- **92 proposte** in 9 aree, valutate su **10 valori** dichiarati in una Carta.
+- **30 proposte formano il nucleo robusto**: restano tra le prioritarie con quasi ogni combinazione di pesi tra i valori, cioè con sensibilità politiche diverse. Erano 23 fino al 15 novembre: nessun punteggio è cambiato, ma la classe dipende dalla posizione tra tutte le proposte e le nove proposte nuove del 16 novembre si collocano soprattutto in fondo, quindi sette proposte già esistenti salgono (punto 15 del documento di programma).
 - Tre versioni del programma, **tutte senza deficit**:
 
 <!-- auto:totali -->
-- **Programma base: 7,74 mld l'anno**, 67 misure su 83, con 22 su 23 del nucleo robusto almeno in versione essenziale. Usa solo coperture a basso costo sociale.
-- **Programma completo: 13,54 mld l'anno**, 74 misure, nucleo robusto 23 su 23. Aggiunge coperture strutturali più impegnative.
-- **Programma intermedio: 8,43 mld l'anno**, 70 misure, nucleo robusto 19 su 23 (sotto la versione essenziale: 09-C10 e 02-C5 e 07-C1 e 07-C3 per eccezioni dichiarate). Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo straordinario sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Dopo la verifica delle coperture della sera del 13 novembre 2026 restano il nucleo robusto, le squadre infermieristiche di quartiere (06-C8) e la compensazione dell'autotrasporto (04-P8); dopo la verifica delle ultime otto coperture, il 14 novembre, l'Ufficio per il processo (07-C1) e il governo dei flussi migratori (07-C3) passano a pilota; dal 12 novembre 2026 entrano, senza tasse in più oltre quelle già nel programma, le Case della Comunità (06-C3), 500 squadre infermieristiche di quartiere (06-C8) e la riqualificazione degli amministrativi della sanità (06-C10); dal 13 novembre il progetto di vita per le persone con disabilità (02-C5) parte come pilota sui fondi europei mentre il personale infermieristico (06-C2), il credito per la ricerca (01-P13), il pilota del reddito di inclusione (02-C4) e le merci sul treno (04-P7) escono; 0,06 mld di risorse generali restano da parte per smettere di fumare e per il dopo 2029. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
+- **Programma base: 7,60 mld l'anno**, 80 misure su 92, con 27 su 30 del nucleo robusto almeno in versione essenziale. Usa solo coperture a basso costo sociale.
+- **Programma completo: 13,72 mld l'anno**, 82 misure, nucleo robusto 30 su 30. Aggiunge coperture strutturali più impegnative.
+- **Programma intermedio: 8,50 mld l'anno**, 79 misure, nucleo robusto 21 su 30 (sotto la versione essenziale: 09-C10 e 02-C5 e 07-C1 e 07-C3 per eccezioni dichiarate). Nessun aumento di tasse su casa, eredità, affitti e IVA, nessun contributo straordinario sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale nei ministeri. Dopo la verifica delle coperture della sera del 13 novembre 2026 restano il nucleo robusto, le squadre infermieristiche di quartiere (06-C8) e la compensazione dell'autotrasporto (04-P8); dopo la verifica delle ultime otto coperture, il 14 novembre, l'Ufficio per il processo (07-C1) e il governo dei flussi migratori (07-C3) passano a pilota; dal 12 novembre 2026 entrano, senza tasse in più oltre quelle già nel programma, le Case della Comunità (06-C3), 500 squadre infermieristiche di quartiere (06-C8) e la riqualificazione degli amministrativi della sanità (06-C10); dal 13 novembre il progetto di vita per le persone con disabilità (02-C5) parte come pilota sui fondi europei mentre il personale infermieristico (06-C2), il credito per la ricerca (01-P13), il pilota del reddito di inclusione (02-C4) e le merci sul treno (04-P7) escono; 0,06 mld di risorse generali restano da parte per smettere di fumare e per il dopo 2029. Restano accise su tabacco, alcol e bevande zuccherate, il riordino di alcune agevolazioni fiscali e dei sussidi dannosi, e dal 2030 una rivalutazione ridotta sulla quota più alta delle pensioni (`programma/selezione_intermedio.md`).
 - **Programma adottato dal governo ombra** (simulazione, `governo/`): 11,63 mld l'anno, 55 misure, coperture al minimo per 11,12 mld più i fondi vincolati.
 <!-- /auto:totali -->
 
-- **Senza deficit anche anno per anno, ma più lento.** Molte coperture crescono piano, quindi un calendario di avvio fa partire subito le 28 riforme a costo quasi zero e il resto dal 2028: il nucleo robusto è a pieno dal 2035. Il 2027 è un anno di preparazione (`programma/annuale_intermedio.md`).
-- **Coperture verificate.** La sera del 13 novembre una verifica sul rendiconto dello Stato ha trovato dieci coperture sovrastimate: il programma intermedio è sceso da 9,4 a 8,6 mld e alcune misure sono uscite (punto 11 del documento di programma). Il 14 novembre sono state verificate anche le ultime otto: sette erano sovrastimate, e l'Ufficio per il processo (07-C1) e il governo dei flussi migratori (07-C3) passano a pilota; il programma intermedio è ora di 8,3 mld (punto 12).
+- **Senza deficit anche anno per anno, ma più lento.** Molte coperture crescono piano, quindi un calendario di avvio fa partire subito le 38 riforme a costo quasi zero e il resto dal 2028: il nucleo robusto è a pieno dal 2031. Il 2027 è un anno di preparazione (`programma/annuale_intermedio.md`).
+- **Coperture verificate.** La sera del 13 novembre una verifica sul rendiconto dello Stato ha trovato dieci coperture sovrastimate: il programma intermedio è sceso da 9,4 a 8,6 mld e alcune misure sono uscite (punto 11 del documento di programma). Il 14 novembre sono state verificate anche le ultime otto: sette erano sovrastimate, e l'Ufficio per il processo (07-C1) e il governo dei flussi migratori (07-C3) passano a pilota; il programma intermedio era sceso a 8,3 mld (punto 12). Con le proposte e le coperture nuove del 15 e del 16 novembre è ora di 8,5 mld (punti 13-15).
 - **Coperture contate al minimo**: nessun risparmio non certificato e nessun recupero di evasione usato per pagare nuova spesa. L'evasione recuperata va a ridurre il deficit.
 
 ## Otto direttrici
 
 Tra parentesi i codici delle proposte. *Nucleo* indica le misure del nucleo robusto.
 
-**1. Conti onesti e regole stabili.** Ogni legge importante dichiara chi paga e quando, con una valutazione a 30 anni (01-P1). Le agevolazioni fiscali ricevono una data di scadenza e vanno rinnovate solo se funzionano (01-P2). Nessun nuovo condono (01-P12, *nucleo*). Le grandi opere oltre 500 milioni passano da una valutazione indipendente (04-P4).
+**1. Conti onesti e regole stabili.** Ogni legge importante dichiara chi paga e quando, con una valutazione a 30 anni (01-P1). Le agevolazioni fiscali ricevono una data di scadenza e vanno rinnovate solo se funzionano (01-P2). Nessun nuovo condono (01-P12, *nucleo*). Le grandi opere oltre 500 milioni passano da una valutazione indipendente (04-P4, *nucleo*).
 
-**2. Un fisco più semplice e più giusto.** Chi ha solo redditi certificati riceve dallo Stato il conto fiscale già fatto e lo controlla (01-P7, *nucleo*). Una sola detrazione per il lavoro, senza scalini (01-P9), e meno detrazioni minori (01-P8). L'IVA si controlla in tempo reale incrociando fatture e pagamenti (01-P3, *nucleo*), con controlli mirati e garanzie per chi paga le tasse (01-P10).
+**2. Un fisco più semplice e più giusto.** Chi ha solo redditi certificati riceve dallo Stato il conto fiscale già fatto e lo controlla (01-P7, *nucleo*). Una sola detrazione per il lavoro, senza scalini (01-P9), e meno detrazioni minori (01-P8). L'IVA si controlla in tempo reale incrociando fatture e pagamenti (01-P3, *nucleo*), con controlli mirati e garanzie per chi paga le tasse (01-P10). Dal 16 novembre chi ha grandi patrimoni non può più pagare meno solo grazie al contenitore: sugli utili lasciati nelle holding personali passive la stessa imposta che possedendo direttamente (01-P19), polizze vita senza rischio e trust esteri trattati come investimenti (01-P21), eredità in cui l'impresa che lavora resta esente ma il patrimonio passivo no (01-P22), e una statistica ufficiale su chi paga quanto (01-P23). Le imprese operative, chi reinveste e il passaggio ai figli di un'impresa che lavora restano esclusi. Gettito prudente: 0,10-0,39 mld l'anno a regime.
 
 **3. Famiglie, giovani e lavoro.**
 - Il nido diventa un diritto esigibile, con il congedo paterno (02-C2, *nucleo*).
@@ -48,7 +48,7 @@ Tra parentesi i codici delle proposte. *Nucleo* indica le misure del nucleo robu
 - Servizi essenziali nelle aree interne, con obiettivi misurati (04-P6, *nucleo*).
 - Energia rinnovabile con contratti che riportano in bolletta gli extra-profitti (03-P2), agricoltura pagata per i risultati ambientali (03-P5).
 - Prima i livelli essenziali delle prestazioni finanziati, poi l'autonomia differenziata (04-P5).
-- Casa (04-P2) e treni per chi viaggia ogni giorno (04-P3): utili, ma oggi entrano solo in parte o restano fuori per mancanza di risorse. Le reti idriche (03-P3) sono entrate nel nucleo robusto.
+- Casa (04-P2) e treni per chi viaggia ogni giorno (04-P3), dal 16 novembre nel nucleo robusto: utili, ma oggi entrano solo in parte o restano fuori per mancanza di risorse; nel programma intermedio restano fuori per scelte precedenti. Le reti idriche (03-P3) sono entrate nel nucleo robusto.
 
 **Ricerca, innovazione e merci pulite.** L'Italia spende in ricerca nelle imprese lo 0,80% del PIL, contro l'1,50% della media UE.
 - Un solo credito d'imposta per la ricerca, stabile, più forte per le piccole imprese e certificato prima di spendere. Si finanzia chiudendo gradualmente il patent box, che secondo gli studi sposta i brevetti tra Paesi ma non crea nuove invenzioni (01-P13).
@@ -62,17 +62,18 @@ Tra parentesi i codici delle proposte. *Nucleo* indica le misure del nucleo robu
 Il panel le giudica tutte positive, ma le mette in coda: con la Carta attuale valgono meno, per euro speso, di scuola, cura e Stato che funziona. Nel programma completo entrano la logistica, quasi per intero, e le misure su gare innovative e spin-off. Il credito unico e la rete per la ricerca applicata restano fuori o solo come sperimentazione. Nel programma intermedio, per scelta politica, entrano tutte almeno in versione essenziale: costano circa 1 mld l'anno. Dal 12 novembre 2026, per far entrare le Case della Comunità (06-C3), quattro di loro scendono a sperimentazione o a sole regole; restano pieni il credito unico per la ricerca e le consegne pulite in città.
 
 **6. Uno Stato che funziona.**
-- «Chiedilo una volta sola»: la PA non chiede di nuovo dati che ha già, e se sbaglia rimborsa (09-C2).
+- «Chiedilo una volta sola»: la PA non chiede di nuovo dati che ha già, e se sbaglia rimborsa (09-C2, *nucleo*).
 - Squadre tecniche per i piccoli Comuni (09-C3), ricambio generazionale con trasmissione delle competenze (09-C8, *nucleo*).
 - AI nella PA con supervisione umana (09-C5, *nucleo*), valutazione vera del lavoro pubblico (09-C6).
-- Una squadra per la produttività pubblica con l'AI (09-C9): toglie lavoro ripetitivo dagli uffici, misura le ore liberate in un registro pubblico e sposta chi lo desidera, nello stesso comune e con formazione pagata, verso servizi sociali, sanità, controlli e uffici giudiziari. I posti non più necessari si riducono solo con i pensionamenti; nessun licenziamento. Entra nel programma intermedio per scelta politica.
+- Una squadra per la produttività pubblica con l'AI (09-C9, *nucleo*): toglie lavoro ripetitivo dagli uffici, misura le ore liberate in un registro pubblico e sposta chi lo desidera, nello stesso comune e con formazione pagata, verso servizi sociali, sanità, controlli e uffici giudiziari. I posti non più necessari si riducono solo con i pensionamenti; nessun licenziamento. Entra nel programma intermedio per scelta politica.
 - Giustizia più veloce con l'Ufficio per il processo (07-C1, *nucleo*; dal 14 novembre come pilota in 20 tribunali critici, eccezione dichiarata).
-- Appalti trasparenti con un cruscotto pubblico dei rischi (08-P7), beni confiscati restituiti alla comunità (07-C4, *nucleo*).
+- Appalti trasparenti con un cruscotto pubblico dei rischi (08-P7, *nucleo*), beni confiscati restituiti alla comunità (07-C4, *nucleo*).
+- Integrità pubblica, dal 16 novembre: registro obbligatorio delle lobby per tutti, parti sociali comprese (08-P8), dichiarazioni patrimoniali verificate e conflitti d'interessi (08-P9), titolare effettivo verificato per gare e fondi pubblici (08-P10), controlli a sorteggio sugli enti che spendono fondi pubblici (08-P11). La direttiva europea anticorruzione è recepita con un reato stretto, solo con dolo intenzionale, e tutele contro la "paura della firma" (07-C7).
 
 **7. Sicurezza, legalità e posizione internazionale.**
 - Flussi migratori governati sui dati, con una cornice compatibile con linee politiche diverse (07-C3, *nucleo*; dal 14 novembre come pilota in 3 Commissioni territoriali, eccezione dichiarata).
 - Misure di comunità per le pene brevi a basso rischio, contro il sovraffollamento (07-C2, *nucleo*).
-- Difesa cibernetica per i Comuni (07-C6).
+- Difesa cibernetica per i Comuni (07-C6, *nucleo*).
 - Difesa (07-C5): il panel giudica sfavorevole il percorso al 3,5% del PIL senza deficit, perché toglierebbe risorse a quasi tutto il resto; il programma presenta le opzioni con il loro prezzo.
 
 **8. Istituzioni aperte e uso pubblico dell'AI.** Una legge sulla consulenza algoritmica pubblica, con una sezione indipendente di valutazione d'impatto presso l'Ufficio parlamentare di bilancio e un'assemblea civica di persone sorteggiate che fissa i pesi tra i valori (08-P1). Dati e modelli delle politiche pubbliche aperti a tutti (09-C1). Regole elettorali stabili e voto per chi studia o lavora fuori sede (08-P3).

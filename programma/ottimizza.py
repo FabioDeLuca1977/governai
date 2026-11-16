@@ -139,7 +139,10 @@ def costruisci(var: pd.DataFrame, menu: pd.DataFrame, cap: dict[str, float]):
 # SAD22 libera proventi delle aste ETS, vincolati dalla direttiva a finalità climatiche: conta solo se finanzia
 # i treni per chi viaggia ogni giorno (04-P3), scelta del 15/11/2026.
 LEGAMI = {"FN01": ["01-P8:PIENA", "01-P8:ESSENZIALE"],
-          "SAD22": ["04-P3:PIENA", "04-P3:ESSENZIALE", "04-P3:PILOTA"]}
+          "SAD22": ["04-P3:PIENA", "04-P3:ESSENZIALE", "04-P3:PILOTA"],
+          # Coperture dell'equità fiscale (16/11/2026): il gettito nasce solo dalla norma della proposta collegata
+          "FN05": ["01-P19:PIENA", "01-P19:ESSENZIALE"], "FN06": ["01-P19:PIENA"],
+          "FN09": ["01-P21:PIENA", "01-P21:ESSENZIALE"], "FN10": ["01-P22:PIENA", "01-P22:ESSENZIALE"]}
 
 RE_COMPENSAZIONE = re.compile(r"compens|salvaguard|ISEE|esclus|esent|franchigia", re.I)
 

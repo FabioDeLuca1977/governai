@@ -1,0 +1,7 @@
+misura_id,RIS,FID,INN,BEN,APC,BPA,FUT,EQU,SIC,CIT,motivazione
+FN05,0,1,0,0,0,0,1,1,0,0,"Acconto del 13% sugli utili passivi trattenuti: gettito piccolo e in parte anticipato, solo grandi holding oltre 5 mln"
+FN06,0,1,-1,0,0,0,1,2,0,0,"Aliquota piena al 26%, soglia a 2 mln e holding estere: più equità ma pressione su holding di gruppi familiari e rischio di contenzioso UE"
+FN07,0,0,0,0,0,0,1,1,0,0,"Addizionale di 4 punti oltre 250.000 euro: progressiva ma su base mobile, gettito incerto"
+FN08,0,0,0,0,0,0,1,1,0,0,"Soglia a 100.000 euro allarga la platea ai patrimoni medio-alti; gettito aggiuntivo modesto e soggetto a erosione"
+FN09,0,1,0,0,0,0,1,1,0,0,"Polizze senza rischio in successione e trust opachi tassati: conta la sostanza, gettito lento perché solo su contratti nuovi"
+FN10,0,1,0,0,0,0,1,2,0,0,"Esenzione successoria limitata agli attivi operativi: corregge un beneficio oltre la sua ratio senza toccare l'impresa che continua"

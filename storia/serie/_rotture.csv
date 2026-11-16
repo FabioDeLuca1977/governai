@@ -1,0 +1,56 @@
+indicatore,serie,tipo_test,anni_rottura,medie_per_tratto,periodo_analizzato
+pil_reale_crescita,IT,media,nessuna,"1977-2025: 1,3",1977-2025
+pil_reale_crescita,IT - media FR/DE/ES,media,1988 2020,"1977-1987: 0,3; 1988-2019: -1,1; 2020-2025: 0,2",1977-2025
+pil_pro_capite_crescita,IT,media,nessuna,"1977-2025: 1,2",1977-2025
+pil_pro_capite_crescita,IT - media FR/DE/ES,media,nessuna,"1977-2025: -0,3",1977-2025
+pil_pro_capite_pps_ue27,IT,tendenza,2004 2014,"1995-2003: 122,7; 2004-2013: 107,5; 2014-2025: 96,8",1995-2025
+pil_pro_capite_pps_ue27,IT - media FR/DE/ES,tendenza,2014,"1995-2013: 3,1; 2014-2025: -8,0",1995-2025
+produttivita_oraria_crescita,IT,media,2001,"1977-2000: 1,9; 2001-2025: -0,0",1977-2025
+produttivita_oraria_crescita,IT - media FR/DE/ES,media,nessuna,"1977-2025: -0,6",1977-2025
+occupazione_15_64,IT,tendenza,2000 2010,"1977-1999: 52,5; 2000-2009: 56,9; 2010-2025: 58,3",1977-2025
+occupazione_15_64,IT - media FR/DE/ES,tendenza,1986,"1977-1985: -6,6; 1986-2025: -7,7",1977-2025
+occupazione_femminile_15_64,IT,tendenza,2001 2009 2020,"1977-2000: 35,0; 2001-2008: 44,6; 2009-2019: 47,6; 2020-2025: 51,5",1977-2025
+occupazione_femminile_15_64,IT - media FR/DE/ES,tendenza,1988,"1977-1987: -9,2; 1988-2025: -12,5",1977-2025
+disoccupazione,IT,tendenza,2001 2007 2013,"1977-2000: 9,3; 2001-2006: 8,4; 2007-2012: 8,1; 2013-2025: 9,8",1977-2025
+disoccupazione,IT - media FR/DE/ES,tendenza,1986,"1977-1985: -0,9; 1986-2025: -1,0",1977-2025
+disoccupazione_giovanile,IT,tendenza,1988 2006 2012,"1977-1987: 29,1; 1988-2005: 29,9; 2006-2011: 24,3; 2012-2025: 31,3",1977-2025
+disoccupazione_giovanile,IT - media FR/DE/ES,tendenza,2013,"1977-2012: 9,4; 2013-2025: 9,2",1977-2025
+inflazione,IT,media,1986 1997,"1977-1985: 14,9; 1986-1996: 5,3; 1997-2025: 2,0",1977-2025
+inflazione,IT - media FR/DE/ES,media,1986 1997,"1977-1985: 5,2; 1986-1996: 1,7; 1997-2025: 0,1",1977-2025
+debito_pil,IT,tendenza,1999,"1977-1998: 85,6; 1999-2025: 123,3",1977-2025
+debito_pil,IT - media FR/DE/ES,tendenza,1997,"1977-1996: 45,6; 1997-2025: 46,6",1977-2025
+deficit_pil,IT,media,1983 1996 2020,"1977-1982: -8,6; 1983-1995: -10,7; 1996-2019: -3,1; 2020-2025: -6,7",1977-2025
+deficit_pil,IT - media FR/DE/ES,media,nessuna,"1995-2025: -0,5",1995-2025
+saldo_primario_pil,IT,media,1991 2003 2020,"1977-1990: -3,3; 1991-2002: 3,3; 2003-2019: 1,4; 2020-2025: -2,9",1977-2025
+saldo_primario_pil,IT - media FR/DE/ES,media,2017,"1995-2016: 2,9; 2017-2025: 0,5",1995-2025
+interessi_pil,IT,tendenza,1997 2003,"1977-1996: 8,3; 1997-2002: 6,8; 2003-2025: 4,2",1977-2025
+interessi_pil,IT - media FR/DE/ES,tendenza,2001,"1995-2000: 5,0; 2001-2025: 2,2",1995-2025
+pressione_fiscale_ocse,IT,tendenza,1992,"1977-1991: 31,7; 1992-2024: 41,1",1977-2024
+pressione_fiscale_ocse,IT - media FR/DE/ES,tendenza,1998 2008,"1977-1997: -1,0; 1998-2007: 2,6; 2008-2024: 3,7",1977-2024
+pressione_fiscale,IT,tendenza,nessuna,"1995-2025: 41,2",1995-2025
+pressione_fiscale,IT - media FR/DE/ES,tendenza,2008,"1995-2007: 1,5; 2008-2025: 2,7",1995-2025
+spesa_pubblica_pil,IT,tendenza,1995 2009 2020,"1977-1994: 48,5; 1995-2008: 47,8; 2009-2019: 49,7; 2020-2025: 53,8",1977-2025
+spesa_pubblica_pil,IT - media FR/DE/ES,tendenza,nessuna,"1995-2025: 0,8",1995-2025
+spesa_pensioni_pil,IT,tendenza,2009,"2001-2008: 11,6; 2009-2024: 13,6",2001-2024
+spesa_pensioni_pil,IT - media FR/DE/ES,tendenza,2009,"2001-2008: 2,6; 2009-2024: 2,9",2001-2024
+investimenti_pubblici_pil,IT,tendenza,2013 2019,"1995-2012: 2,9; 2013-2018: 2,3; 2019-2025: 3,0",1995-2025
+investimenti_pubblici_pil,IT - media FR/DE/ES,tendenza,nessuna,"1995-2025: -0,6",1995-2025
+tasso_lungo,IT,media,1985 1997 2014,"1977-1984: 16,2; 1985-1996: 11,9; 1997-2013: 4,8; 2014-2025: 2,5",1977-2025
+tasso_lungo,IT - media FR/DE/ES,media,1984 1997 2011,"1978-1983: 4,5; 1984-1996: 2,8; 1997-2010: 0,3; 2011-2025: 1,3",1978-2025
+spread_bund,IT,media,1986 1996 2010,1977-1985: 803; 1986-1995: 486; 1996-2009: 63; 2010-2025: 191,1977-2025
+spread_bund,IT - media FR/DE/ES,media,1997 2011,1978-1996: 198; 1997-2010: 26; 2011-2025: 92,1978-2025
+gini_reddito_disponibile,IT,tendenza,nessuna,"2004-2025: 32,4",2004-2025
+gini_reddito_disponibile,IT - media FR/DE/ES,tendenza,nessuna,"2005-2025: 1,8",2005-2025
+gini_ocse,IT,tendenza,2005,"1984-2004: 31,5; 2005-2023: 32,5",1984-2023
+rischio_poverta,IT,tendenza,nessuna,"1995-2025: 19,3",1995-2025
+rischio_poverta,IT - media FR/DE/ES,tendenza,nessuna,"1995-2025: 3,0",1995-2025
+poverta_assoluta,IT,tendenza,2012,"2005-2011: 3,6; 2012-2025: 8,3",2005-2025
+fecondita,IT,tendenza,1987 1994 2006,"1977-1986: 1,60; 1987-1993: 1,31; 1994-2005: 1,25; 2006-2024: 1,34",1977-2024
+fecondita,IT - media FR/DE/ES,tendenza,nessuna,"1977-2024: -0,20",1977-2024
+saldo_migratorio,IT,media,1988 1996 2002,"1977-1987: -0,2; 1988-1995: 0,4; 1996-2001: 0,8; 2002-2025: 3,6",1977-2025
+saldo_migratorio,IT - media FR/DE/ES,media,2007 2015,"1977-2006: -1,6; 2007-2014: 2,4; 2015-2025: -2,9",1977-2025
+emigrazione_cittadini,IT,tendenza,nessuna,"2002-2025: 78,9",2002-2025
+emigrazione_cittadini,IT - media FR/DE/ES,tendenza,nessuna,"2006-2024: -55,0",2006-2024
+laureati_25_34,IT,tendenza,1998 2004,"1992-1997: 7,6; 1998-2003: 11,0; 2004-2025: 24,2",1992-2025
+laureati_25_34,IT - media FR/DE/ES,tendenza,2001 2007 2019,"1993-2000: -16,5; 2001-2006: -18,6; 2007-2018: -14,5; 2019-2025: -16,5",1993-2025
+divario_nord_sud,IT,tendenza,2014,"1995-2013: 55,9; 2014-2024: 55,7",1995-2024

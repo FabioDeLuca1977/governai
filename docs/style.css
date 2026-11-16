@@ -760,3 +760,30 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 .pp-esito .azioni{ display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
 .pp>*,.pp-scelte>*{ min-width:0; }
 .pp-cop>span,.pp-desc,.pp-nome,.pp-avvisi span{ overflow-wrap:anywhere; }
+
+
+/* Soluzione ragionata e strategia oceano blu */
+.quattro{ display:grid; gap:12px; }
+@media (min-width:720px){ .quattro{ grid-template-columns:1fr 1fr; } }
+.q4{ margin:0; }
+.q4-t{ display:flex; align-items:center; gap:8px; font-weight:700; margin:0 0 6px; flex-wrap:wrap; }
+.q4-t small{ font-weight:400; color:var(--c-testo-2); font-size:13px; }
+.q4-sotto{ margin:20px 0 8px; font-size:var(--t-h3); }
+.q4-sotto small{ font-weight:400; color:var(--c-testo-2); font-size:13px; }
+.errc{ display:grid; gap:8px; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); }
+.errc-c{ border:1px solid var(--c-bordo); border-radius:var(--r-l); padding:10px 12px; background:var(--c-superficie); min-width:0; overflow-wrap:anywhere; }
+.errc-c ul{ margin:0; padding-left:18px; }
+.errc-t{ display:flex; align-items:center; gap:6px; font-weight:700; margin:0 0 4px; }
+.errc-c.eliminare .errc-t{ color:var(--c-critico); } .errc-c.ridurre .errc-t{ color:var(--c-attenzione); }
+.errc-c.aumentare .errc-t{ color:var(--c-favorevole); } .errc-c.creare .errc-t{ color:var(--c-accento); }
+.errc-c.vuota{ opacity:.6; }
+.sc-scroll{ overflow-x:auto; }
+.canvas-strategico{ width:100%; min-width:620px; height:auto; }
+.sc-g{ stroke:var(--g-traccia); } .sc-a,.sc-x{ fill:var(--c-testo-2); font-size:11px; }
+.sc-l{ fill:none; stroke-width:2.5; } .sc-p{ stroke:var(--c-superficie); stroke-width:1.5; }
+.sc-l.gov{ stroke:var(--c-neutro); stroke-dasharray:5 4; } .sc-p.gov{ fill:var(--c-neutro); }
+.sc-l.par{ stroke:var(--g-negativo); stroke-dasharray:2 3; } .sc-p.par{ fill:var(--g-negativo); }
+.sc-l.gai{ stroke:var(--c-accento); stroke-width:3.5; } .sc-p.gai{ fill:var(--c-accento); }
+.sc-leg{ display:flex; flex-wrap:wrap; gap:6px 16px; font-size:14px; margin:4px 0 8px; }
+.sc-leg span::before{ content:""; display:inline-block; width:18px; height:3px; margin-right:6px; vertical-align:middle; }
+.sc-leg .gov::before{ background:var(--c-neutro); } .sc-leg .par::before{ background:var(--g-negativo); } .sc-leg .gai::before{ background:var(--c-accento); height:4px; }

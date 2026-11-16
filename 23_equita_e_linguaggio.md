@@ -1,6 +1,6 @@
 # GovernAI — Equità e linguaggio inclusivo
 
-*Capitolo del programma, scritto il 9 novembre 2026 e aggiornato il 12, il 13, il 14 e il 15 novembre 2026 dopo le scelte sulla sanità, sui bandi, sulla disabilità e sulle coperture nuove. Scenario di riferimento: intermedio (`programma/selezione_intermedio.md`), 8,4 mld l'anno (9,4 prima delle verifiche delle coperture del 13 e del 14 novembre). Tutti i numeri vengono da file del repository, con la fonte indicata. Dove un dato manca, lo scriviamo: "dato da acquisire".*
+*Capitolo del programma, scritto il 9 novembre 2026 e aggiornato il 12, il 13, il 14, il 15 e il 16 novembre 2026 dopo le scelte sulla sanità, sui bandi, sulla disabilità, sulle coperture nuove e sull'equità fiscale. Scenario di riferimento: intermedio (`programma/selezione_intermedio.md`), 8,5 mld l'anno (9,4 prima delle verifiche delle coperture del 13 e del 14 novembre). Tutti i numeri vengono da file del repository, con la fonte indicata. Dove un dato manca, lo scriviamo: "dato da acquisire".*
 
 ## In breve
 
@@ -9,7 +9,7 @@
 - Il programma intermedio interviene su quasi tutti i divari, ma spesso in **versione ridotta o sperimentale**. Lo diciamo in modo esplicito.
 - Dal 13 novembre il **progetto di vita per le persone con disabilità** (02-C5) passa dalla sola riforma del collocamento a un pilota con personale e budget nel quarto degli ambiti con meno servizi, pagato con fondi europei fino al 2029 e senza togliere risorse ad altre misure.
 - Dal 12 novembre entrano le **Case della Comunità** e le **squadre infermieristiche di quartiere**, che aiutano soprattutto chi vive lontano dai servizi e chi è anziano o fragile. Il prezzo è un gradino in meno su due misure di scuola con forte effetto sull'equità (ITS e scuole aperte): **l'equità non guadagna in assoluto, si sposta dalla scuola alla salute**.
-- Circa un terzo del gettito delle coperture (2,3 mld su 6,95) viene da prelievi **regressivi**, cioè che pesano di più su chi ha meno. Alcuni sono compensati, altri no. La scelta di non aggiungere tasse non ha cambiato questa quota; le coperture nuove del 15 novembre l'hanno abbassata un po', da più di un terzo a circa un terzo, e hanno lasciato come oggi il bonus nascita e il bonus per le lavoratrici madri.
+- Circa un terzo del gettito delle coperture (2,3 mld su 7,05) viene da prelievi **regressivi**, cioè che pesano di più su chi ha meno. Alcuni sono compensati, altri no. La scelta di non aggiungere tasse non ha cambiato questa quota; le coperture nuove del 15 novembre l'hanno abbassata un po', da più di un terzo a circa un terzo, e hanno lasciato come oggi il bonus nascita e il bonus per le lavoratrici madri. Dal 16 novembre quattro coperture nuove chiedono di più a holding personali passive, polizze e trust usati come contenitori ed eredità di patrimoni passivi: sono progressive, ma il gettito è piccolo (0,10 mld al minimo).
 - Non abbiamo ancora una **microsimulazione per decili di reddito**. Senza, nessun giudizio sull'equità complessiva è definitivo.
 - Proponiamo **cinque regole di metodo** a costo quasi zero e **undici indicatori di divario**.
 - Proponiamo regole di **linguaggio chiaro e inclusivo** per lo Stato, e le applichiamo per prime in questo testo.
@@ -206,9 +206,9 @@ Per far entrare la sanità **senza tasse in più oltre quelle già previste**, a
 
 ## 4. Chi paga: l'equità delle coperture
 
-Lo scenario intermedio attiva 70 coperture per un gettito minimo di **6,95 miliardi** l'anno a regime, dopo le verifiche del 13 e del 14 novembre e le 17 coperture nuove entrate il 15 novembre (erano 6,45 prima delle coperture nuove e 7,42 prima delle verifiche). Dal 15 novembre non ci sono più il bonus nascita solo sotto 25.000 euro di ISEE (RB02) e il bonus per le lavoratrici madri ridotto tra 32.000 e 40.000 euro (RB03): quei bonus restano come oggi. Le abbiamo classificate con il punteggio EQU del panel (colonna `EQU` in `programma/selezione_intermedio.csv`) e con la colonna `chi_paga`. Le somme sono un nostro calcolo sul file.
+Lo scenario intermedio attiva 74 coperture per un gettito minimo di **7,05 miliardi** l'anno a regime, dopo le verifiche del 13 e del 14 novembre, le 17 coperture nuove entrate il 15 novembre e le 4 sull'equità fiscale entrate il 16 novembre (erano 6,95 prima di queste ultime, 6,45 prima delle coperture del 15 novembre e 7,42 prima delle verifiche). Dal 15 novembre non ci sono più il bonus nascita solo sotto 25.000 euro di ISEE (RB02) e il bonus per le lavoratrici madri ridotto tra 32.000 e 40.000 euro (RB03): quei bonus restano come oggi. Le abbiamo classificate con il punteggio EQU del panel (colonna `EQU` in `programma/selezione_intermedio.csv`) e con la colonna `chi_paga`. Le somme sono un nostro calcolo sul file.
 
-### Coperture progressive (pesano di più su chi ha di più): circa 1,8 miliardi
+### Coperture progressive (pesano di più su chi ha di più): circa 1,9 miliardi
 
 | Codice | Chi paga | Gettito min. (mld) | EQU |
 |---|---|---|---|
@@ -224,6 +224,11 @@ Lo scenario intermedio attiva 70 coperture per un gettito minimo di **6,95 milia
 | SF21 | Chi ha risparmi medio-alti e aprirebbe un nuovo Piano individuale di risparmio dal 2028; i piani già aperti non cambiano (dal 15 novembre) | 0,08 | +1 |
 | SF20 | Chi si trasferisce in Italia dal 2028 con redditi di lavoro alti (regime impatriati meno generoso; dal 15 novembre) | 0,05 | +1 |
 | SF25, RA32, SF26, SF24 | Società agricole di capitali sopra 1 milione di ricavi, concessionari degli stabilimenti balneari, compensi sportivi di chi ha altri redditi oltre 35.000 euro, rimborsi forfetari a chi ha cariche elettive (dal 15 novembre) | 0,12 | +1 |
+| FN05, FN06 | Holding personali passive di famiglie con grandi patrimoni finanziari, sugli utili incassati dopo la legge, trattenuti e non reinvestiti; imprese operative e chi reinveste esclusi (legate a 01-P19; dal 16 novembre) | 0,06 | +1, +2 |
+| FN09 | Grandi patrimoni in polizze vita senza vero rischio o dedicate, solo per i premi nuovi; beneficiari di trust esteri poco tassati (legata a 01-P21; dal 16 novembre) | 0,02 | +1 |
+| FN10 | Eredi e donatari di holding con patrimoni passivi oltre le franchigie; chi eredita un'impresa operativa e la continua resta esente (legata a 01-P22; dal 16 novembre) | 0,02 | +2 |
+
+Le quattro coperture del 16 novembre valgono 0,10-0,39 mld a regime e arrivano piano, a pieno nel 2031-2032. Sono stime GovernAI prudenti, perché il numero delle holding passive e il valore delle polizze senza rischio non sono pubblicati (`programma/schede/11_evasione.md`).
 
 ### Coperture neutre o non classificabili: circa 2,9 miliardi
 

@@ -240,6 +240,29 @@ def controlla() -> list[str]:
             scelte = {r["chiave"] for r in csv.DictReader(fh) if r.get("scelta") == "1"}
         if "FN01" in scelte and not scelte & {"01-P8:PIENA", "01-P8:ESSENZIALE"}:
             errori.append(f"{f.name}: FN01 (detrazione istruzione) attiva senza la quota studio di 01-P8")
+
+    # 18. ogni proposta ragionata: perché, come, che cosa, chi e griglia oceano blu (programma/quattro_domande_*.yaml)
+    import yaml
+    q4 = {}
+    for f in sorted((RADICE / "programma").glob("quattro_domande_*.yaml")):
+        q4.update((yaml.safe_load(f.read_text(encoding="utf-8")) or {}).get("proposte") or {})
+    with open(RADICE / "motore" / "proposte.csv", encoding="utf-8") as fh:
+        ids = [r["proposta_id"] for r in csv.DictReader(fh)]
+    for pid in ids:
+        q = q4.get(pid)
+        if not q:
+            errori.append(f"programma/quattro_domande_*.yaml: manca {pid}")
+            continue
+        vuoti = [k for k in ("perche", "come", "cosa", "chi") if not str(q.get(k) or "").strip()]
+        ob = q.get("oceano_blu") or {}
+        vuoti += [f"oceano_blu.{k}" for k in ("eliminare", "ridurre", "aumentare", "creare") if not str(ob.get(k) or "").strip()]
+        if vuoti:
+            errori.append(f"programma/quattro_domande_*.yaml: {pid} senza {', '.join(vuoti)}")
+        for c in set(re.findall(r"\b\d{2}-[PC]\d{1,2}\b", " ".join(str(v) for v in q.values()))):
+            if c not in ids:
+                errori.append(f"programma/quattro_domande_*.yaml: {pid} cita {c}, che non esiste")
+    for pid in set(q4) - set(ids):
+        errori.append(f"programma/quattro_domande_*.yaml: {pid} non è una proposta")
     return errori
 
 

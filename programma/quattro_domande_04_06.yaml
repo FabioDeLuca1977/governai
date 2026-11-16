@@ -1,0 +1,287 @@
+# GovernAI - Perché, come, cosa, chi (WHY, HOW, WHAT, WHO) e griglia oceano blu (eliminare, ridurre, aumentare, creare)
+# Aree 04 (infrastrutture, trasporti, casa, Regioni), 05 (istruzione, ricerca, cultura), 06 (salute).
+# Fonti: programma/schede/04_infrastrutture.md, 05_istruzione.md, 06_salute.md; programma/varianti/04-06*.csv;
+# motore/proposte.csv; programma/coperture_menu.csv; programma/selezione_intermedio.md; apprendimento/obiettivi.yaml.
+# La versione descritta in "come" e il costo in "cosa" sono quelli del programma intermedio; se la proposta
+# non è nell'intermedio, si descrive la versione piena e lo si dice.
+proposte:
+  04-P1:
+    perche: "Le amministrazioni stimano 24,2 miliardi di spesa del Piano nazionale di ripresa e resilienza (PNRR) ancora da sostenere oltre il 2026, su 66 misure (Corte dei conti 2026). Molte opere locali apriranno dopo la fine del Piano senza soldi per farle funzionare. Il rischio è avere strutture nuove ma chiuse: bisogna decidere prima che i fondi europei finiscano."
+    come: "Un fondo temporaneo paga una parte dei costi di gestione delle opere PNRR dei Comuni: 80% il primo anno, poi 60, 40, 20 e infine zero, solo se l'opera è davvero usata secondo dati amministrativi. Le opere poco usate si riconvertono con i fondi europei di coesione e nessuna nuova opera locale sopra 1 milione riceve fondi statali senza un piano di gestione per dieci anni. Questa proposta non è nel programma intermedio: la versione piena si paga con tagli di spesa, meno agevolazioni fiscali e fondi di coesione."
+    cosa: "Obiettivo: almeno l'85% delle opere censite in funzione in 3 anni e il 90% in 5; il 70% dei 24,2 miliardi effettivamente speso in 3 anni e il 100% in 5. Costo della versione piena: 0,73 miliardi l'anno nel 2029, con un picco di 1,21 nel 2027 e zero dal 2031."
+    chi: "Decidono Parlamento e Governo con la legge di bilancio; attuano Ministero dell'economia, Dipartimento per le politiche di coesione, Regioni e Comuni. Ne beneficiano i Comuni, soprattutto piccoli, e chi usa i servizi delle nuove opere. Pagano chi perde agevolazioni fiscali e i capitoli di spesa tagliati; dal quinto anno i Comuni pagano da soli la gestione."
+    oceano_blu:
+      eliminare: "Il finanziamento statale di nuove opere locali sopra 1 milione senza un piano di gestione decennale."
+      ridurre: "Il sostegno statale alla gestione delle opere, che scende ogni anno fino a zero."
+      aumentare: "Il controllo sull'uso reale delle opere, misurato con dati amministrativi."
+      creare: "Un censimento pubblico delle opere PNRR con i loro costi di gestione e un fondo di continuità a scadenza."
+  04-P2:
+    perche: "Nel 2025 il 22,3% di chi è in affitto a prezzo di mercato spende oltre il 40% del reddito per la casa, contro il 18,5% della media europea (Eurostat 2025). Dal 2010 al 2024 gli affitti sono saliti del 13,9% mentre i prezzi delle case scendevano del 5,4% (Eurostat). Circa 60.000 case popolari sono vuote perché manca la manutenzione (Federcasa 2026)."
+    come: "Le Regioni firmano contratti pluriennali per sistemare a lotti le case popolari vuote e riassegnarle entro un anno dalla fine dei lavori. Nascono Agenzie sociali per l'affitto: prendono in affitto case private a canone concordato, garantiscono al proprietario canone e riconsegna, e le subaffittano a famiglie con reddito basso o medio-basso; per questi contratti l'imposta sugli affitti scende al 5%. Non è nel programma intermedio: la versione piena si paga con fondi europei di coesione, con meno detrazioni edilizie per le case non affittate a canone concordato e con il Fondo sociale per il clima."
+    cosa: "Obiettivo: chi spende oltre il 40% del reddito per l'affitto dal 22,3% a non più del 19,5% in 3 anni e del 17,5% in 5; 60.000 case popolari recuperate e 100.000 contratti delle Agenzie in 5 anni. Costo della versione piena: 0,95 miliardi l'anno a regime (2029)."
+    chi: "Decidono Parlamento e Ministero delle infrastrutture e dei trasporti; attuano Regioni, enti gestori delle case popolari e Comuni capoluogo, con l'ISTAT per i dati. Ne beneficiano famiglie in graduatoria, famiglie a reddito medio-basso in affitto e proprietari che cercano un inquilino sicuro. Pagano i proprietari di seconde case che ristrutturano senza affittare a canone concordato e le imprese edili che perdono parte delle detrazioni."
+    oceano_blu:
+      eliminare: "niente"
+      ridurre: "Le detrazioni edilizie per le case diverse dall'abitazione principale non affittate a canone concordato."
+      aumentare: "Le case popolari abitate, con fondi assegnati in base agli alloggi riassegnati e non ai lavori avviati."
+      creare: "Agenzie sociali per l'affitto con un fondo pubblico di garanzia e una rilevazione nazionale delle graduatorie e delle case vuote."
+  04-P3:
+    perche: "L'Italia ha 709 auto ogni 1.000 abitanti, prima nell'Unione europea contro una media di 584 (Eurostat 2025). Le emissioni del trasporto su strada sono 105 milioni di tonnellate di gas serra nel 2024, l'11,7% in più del 1990, mentre il totale nazionale è sceso del 30% (Eurostat 2024). Senza più treni e bus non si può chiedere alle persone di lasciare l'auto."
+    come: "Prima l'offerta, poi il prezzo: il fondo statale per il trasporto pubblico locale (5,30 miliardi nel 2026) cresce con l'inflazione e si divide in base ai posti offerti e alla puntualità, non alla spesa del passato. Si comprano treni nuovi, si aggiungono corse con priorità al Sud, poi arrivano un abbonamento unico regionale treno più bus e una tariffa ridotta per under 26 e famiglie con reddito basso. Non è nel programma intermedio; la versione piena (abbonamento unico a 39 euro al mese) è stata segnalata dal controllo giuridico come in contrasto con le competenze delle Regioni previste dalla Costituzione, e si pagherebbe soprattutto togliendo sussidi dannosi per l'ambiente, con fondi europei e tagli di spesa."
+    cosa: "Obiettivo: passeggeri dei treni regionali da 2,54 a 2,9 milioni al giorno in 3 anni e 3,2 milioni in 5; emissioni della strada sotto 102 milioni di tonnellate in 3 anni e sotto 97 in 5; auto ogni 1.000 abitanti sotto 700 in 5 anni. Costo della versione piena: 2,32 miliardi l'anno nel 2029."
+    chi: "Decidono Parlamento, Ministero delle infrastrutture e Regioni; attuano Regioni, aziende di trasporto locale e Trenitalia regionale. Ne beneficiano chi viaggia ogni giorno, giovani e famiglie con reddito basso, soprattutto al Sud. Pagano l'autotrasporto e gli altri settori che perdono sussidi sui carburanti, e i capitoli di spesa per strade a basso rendimento."
+    oceano_blu:
+      eliminare: "La divisione del fondo per il trasporto locale in base alla spesa storica."
+      ridurre: "I sussidi dannosi per l'ambiente e la spesa per opere stradali a basso rendimento."
+      aumentare: "Corse, treni nuovi e puntualità, con un fondo che segue l'inflazione."
+      creare: "Un abbonamento unico regionale treno più bus e una tariffa sociale per under 26 e famiglie con reddito basso."
+  04-P4:
+    perche: "Quasi tutta la parte infrastrutture del PNRR rientra nei 24,2 miliardi di spesa che slittano oltre il 2026 (Corte dei conti 2026). Per le opere sopra 500 milioni oggi non esiste un'analisi costi-benefici indipendente, pubblica e confrontata con alternative. Così si decidono spese enormi senza prova dei numeri."
+    come: "Nasce un Ufficio di valutazione degli investimenti presso l'Ufficio parlamentare di bilancio, organismo indipendente: esamina ogni opera sopra 500 milioni, anche quelle in istruttoria, con scenari demografici e climatici e confronto con le alternative, e pubblica dati e modelli. Ha al massimo 6 mesi; il Governo decide comunque, ma se il giudizio è negativo deve spiegare in pubblico perché va avanti. Nel programma intermedio c'è la versione piena, pagata tagliando studi e consulenze esterne del Ministero delle infrastrutture."
+    cosa: "Obiettivo: tutte le nuove opere sopra 500 milioni con una valutazione indipendente pubblica entro 3 anni; scostamento medio dei costi finali ridotto del 20% in 3 anni e di un terzo in 5; ogni scelta contraria a un giudizio negativo motivata in pubblico. Costo: circa 0,025 miliardi l'anno."
+    chi: "Decide il Parlamento con una legge ordinaria; attua l'Ufficio parlamentare di bilancio, con Ministero delle infrastrutture, Autorità nazionale anticorruzione e Corte dei conti. Ne beneficiano contribuenti e territori, che vedono confrontate le alternative. Perdono qualcosa i promotori di opere che non reggono ai numeri e le società di consulenza esterna del ministero."
+    oceano_blu:
+      eliminare: "Le grandi opere decise senza un'analisi costi-benefici pubblica e confrontata con alternative."
+      ridurre: "La spesa del Ministero delle infrastrutture per studi e consulenze esterne."
+      aumentare: "La trasparenza su costi, alternative e scostamenti delle grandi opere."
+      creare: "Un ufficio indipendente di valutazione e l'obbligo per il Governo di motivare in pubblico le scelte contrarie al giudizio."
+  04-P5:
+    perche: "Il costo di finanziare i livelli essenziali delle prestazioni, cioè i servizi minimi garantiti in tutta Italia, non ha una cifra ufficiale: le stime pubbliche vanno da 17 a 100 miliardi l'anno (verifica GovernAI 2026). Intanto le aree interne del Mezzogiorno passerebbero da 7,1 a 6,0 milioni di abitanti nel 2050 (ISTAT 2026). Dare più poteri ad alcune Regioni prima di garantire i servizi minimi a tutti rischia di allargare i divari."
+    come: "Nessuna intesa sull'autonomia nelle materie con servizi minimi prima che questi siano calcolati con i fabbisogni standard e finanziati ovunque. Le intese nelle altre materie durano 10 anni, con una valutazione ogni 5 anni e una clausola di rientro, e il voto del Parlamento diventa vincolante. Nel programma intermedio c'è la versione solo regole: nessun fondo nuovo, il calcolo lo fanno le strutture tecniche esistenti."
+    cosa: "Obiettivo: tutte le materie con servizi minimi con un costo calcolato e pubblicato entro 3 anni; tutte le intese con relazione tecnica per materia e clausola di rientro (oggi 0 su 4 schemi). Costo: zero, solo regole."
+    chi: "Decidono Parlamento e Governo modificando la legge sull'autonomia differenziata (legge 86 del 2024); attuano Ministro per gli affari regionali, Ministero dell'economia, Commissione tecnica per i fabbisogni standard e Conferenza Stato-Regioni. Ne beneficiano i cittadini dei territori con meno servizi, soprattutto al Sud. Perdono tempo le Regioni che chiedono più autonomia (Liguria, Lombardia, Piemonte, Veneto), le cui intese vanno riesaminate."
+    oceano_blu:
+      eliminare: "Le intese sull'autonomia nelle materie con servizi minimi prima che questi siano calcolati e finanziati."
+      ridurre: "La durata delle intese, limitata a 10 anni con clausola di rientro."
+      aumentare: "Il peso del Parlamento, il cui voto sulle intese diventa vincolante."
+      creare: "Una cifra ufficiale del costo dei servizi minimi, che oggi non esiste."
+  04-P6:
+    perche: "La popolazione delle aree interne scenderebbe da 13,3 milioni nel 2025 a 11,8 nel 2050; nel Mezzogiorno da 7,1 a 6,0 milioni (ISTAT 2026). Dove chiudono scuole, ambulatori e fermate, chi può se ne va. Servono servizi vicini adesso, non a spopolamento avvenuto."
+    come: "Stato, Regione e unioni di Comuni firmano contratti di area con obiettivi misurati: tempi per arrivare al pronto soccorso, alla scuola superiore e alla stazione. Aprono presidi multiservizio sul modello francese, con un'indennità per medici, infermieri e docenti che restano almeno 5 anni, trasporto a chiamata, scuole in rete e telemedicina; i Comuni sotto 3.000 abitanti gestiscono i servizi insieme. Nel programma intermedio c'è la versione essenziale (72 aree della strategia nazionale per le aree interne, 500 presidi, indennità per circa 35.000 persone), pagata con fondi europei di coesione, tagli di spesa, meno agevolazioni fiscali e meno sussidi dannosi per l'ambiente."
+    cosa: "Obiettivo: presidi multiservizio da 0 a 600 in 3 anni; tempo medio per raggiungere pronto soccorso e scuola superiore nei Comuni più lontani -15% in 3 anni e -25% in 5. Costo: 0,42 miliardi l'anno a regime (2029)."
+    chi: "Decidono Parlamento con la legge di bilancio e Conferenza Stato-Regioni; attuano Dipartimento per le politiche di coesione, Regioni, unioni di Comuni e ministeri di salute e istruzione. Ne beneficiano chi vive nelle aree interne e il personale che sceglie di lavorarci. Pagano chi perde agevolazioni fiscali e sussidi e i capitoli di spesa tagliati; i Comuni più piccoli rinunciano a gestire da soli i servizi."
+    oceano_blu:
+      eliminare: "La gestione isolata dei servizi nei Comuni sotto 3.000 abitanti."
+      ridurre: "I tempi di accesso a pronto soccorso, scuola superiore e stazione nei Comuni più lontani."
+      aumentare: "Gli incentivi per medici, infermieri e docenti che restano almeno 5 anni."
+      creare: "Presidi multiservizio e contratti di area con obiettivi di servizio misurati."
+  04-P7:
+    perche: "Nel 2024 il treno ha portato l'11,6% delle merci trasportate via terra, contro il 16,6% della media europea e il 20,3% della Germania (Eurostat 2024). Il dato peggiora: i treni merci sono calati del 3,5% nel 2025 (dati del settore ferroviario). Gli incentivi sono annuali e incerti, quindi le imprese non investono."
+    come: "Un fondo decennale riunisce gli incentivi esistenti al trasporto merci su treno, con regole stabili per 10 anni e un premio per il traffico in più. Si finanziano piccoli lavori di ultimo miglio (raccordi, binari nei porti, terminal per treni da 750 metri); le banchine elettrificate entrano in servizio e le navi che non usano la presa pagano tasse portuali più alte; si completano lo sportello unico doganale e i documenti di trasporto digitali. Non è nel programma intermedio: la versione piena si paga con una quota della riforma dei rimborsi sul gasolio dei camion e di altri sussidi dannosi per l'ambiente, con fondi di coesione e piccoli tagli di spesa."
+    cosa: "Obiettivo: quota del treno sulle merci dall'11,6% al 12,5% in 3 anni e al 14% in 5; treni merci da 49,4 a 56 milioni di chilometri l'anno in 5 anni; tutte le banchine elettrificate in esercizio in 5 anni. Costo della versione piena: 0,27 miliardi l'anno a regime (2029)."
+    chi: "Decidono Parlamento e Ministero delle infrastrutture, con il via libera europeo sugli aiuti di Stato; attuano Rete ferroviaria italiana, Autorità di sistema portuale e Autorità di regolazione dei trasporti. Ne beneficiano imprese ferroviarie, porti e chi vive lungo strade con meno camion. Pagano le imprese di autotrasporto che perdono parte del rimborso sul gasolio e le navi che non usano le prese elettriche in porto."
+    oceano_blu:
+      eliminare: "Gli incentivi annuali e incerti, sostituiti da un fondo unico decennale."
+      ridurre: "Il vantaggio delle navi che tengono i motori accesi in porto dove c'è la presa elettrica."
+      aumentare: "La stabilità delle regole e il premio per il traffico merci in più sul treno."
+      creare: "Un programma di ultimo miglio per porti e interporti e uno sportello unico doganale con documenti digitali."
+  04-P8:
+    perche: "I veicoli commerciali producono circa il 32% delle emissioni del trasporto su strada (ISPRA 2024). Nel 2025 in Italia sono stati immatricolati 80 camion pesanti a zero emissioni, lo 0,3% del totale, contro l'1,9% della media europea (ICCT 2025). Intanto lo Stato spende 228 milioni l'anno per l'autotrasporto, anche per sconti sui pedaggi ai camion più inquinanti."
+    come: "Le risorse restano al settore ma premiano chi passa a mezzi puliti: dal 2028 gli sconti sui pedaggi valgono solo per camion Euro VI e a zero emissioni. Un contributo per i camion a zero emissioni si assegna con aste in cui vince chi chiede meno euro per tonnellata di CO2 evitata, con una riserva per le piccole imprese; lo Stato mette a gara le stazioni di ricarica per camion dove il mercato non arriva. Nel programma intermedio c'è la versione essenziale (circa 600 camion l'anno, ricarica solo nel Mezzogiorno), pagata con la quota già vincolata della riforma del rimborso sul gasolio dei camion, fondi di coesione e risorse dell'autotrasporto."
+    cosa: "Obiettivo: camion pesanti a zero emissioni tra le nuove immatricolazioni dallo 0,3% al 3% in 3 anni e al 5% in 5; costo pubblico per tonnellata di CO2 evitata non oltre 200 euro in 3 anni. Costo: 0,08 miliardi l'anno a regime (2029)."
+    chi: "Decidono Parlamento e Ministeri delle infrastrutture e dell'ambiente; attuano gli stessi ministeri con Terna, distributori di energia e concessionari autostradali. Ne beneficiano le imprese che rinnovano la flotta, soprattutto piccole, e chi respira aria più pulita. Perdono qualcosa le imprese con camion Euro V e più vecchi, che non hanno più gli sconti sui pedaggi."
+    oceano_blu:
+      eliminare: "Gli sconti sui pedaggi per i camion più inquinanti, dal 2028."
+      ridurre: "La parte dei sostegni all'autotrasporto che non premia i mezzi puliti."
+      aumentare: "Il sostegno ai camion a zero emissioni e alla ricarica pesante nel Mezzogiorno."
+      creare: "Aste pubbliche che pagano i camion a zero emissioni in base alla CO2 evitata."
+  04-P9:
+    perche: "Nel 2025 solo il 4,4% dei furgoni nuovi venduti in Italia era elettrico (UNRAE 2025). Nei Paesi Bassi, dove molte città hanno zone a emissioni zero per le merci, la quota ha raggiunto il 78,4% nel primo semestre 2025 (fonte di settore). In Italia ogni Comune ha regole diverse per le consegne, e chi lavora in più città non può programmare il cambio dei mezzi."
+    come: "Una legge quadro rende a emissioni zero le consegne con furgoni e camion nei centri delle 14 città metropolitane dal 2030, con almeno 4 anni di preavviso e deroghe per i mezzi già in strada fino al 2033. Classi dei veicoli, permessi e segnaletica diventano uguali in tutta Italia; gli altri capoluoghi possono aderire. Nel programma intermedio c'è la versione solo regole: niente piccoli depositi di quartiere né contributi."
+    cosa: "Obiettivo: città metropolitane con zona a emissioni zero per le merci da 0 a 8 su 14 in 3 anni e 14 in 5; furgoni elettrici tra le nuove immatricolazioni dal 4,4% al 15% in 3 anni e al 30% in 5. Costo: zero, solo regole."
+    chi: "Decidono Parlamento (legge e Codice della strada) e Ministeri delle infrastrutture e dell'ambiente; attuano città metropolitane e Comuni. Ne beneficiano chi vive nei centri, con aria più pulita e meno rumore, e le imprese che consegnano in più città con regole uniche. Pagano le piccole imprese di consegna e i negozi che devono cambiare furgone entro il 2030-2033, senza aiuti in questa versione."
+    oceano_blu:
+      eliminare: "Le regole diverse da città a città per classi dei veicoli, permessi e segnaletica delle consegne."
+      ridurre: "Le consegne con mezzi a combustione nei centri delle città metropolitane, con deroghe fino al 2033."
+      aumentare: "Il preavviso e la prevedibilità per chi deve cambiare i mezzi."
+      creare: "Zone a emissioni zero per le merci con una regola nazionale unica."
+  05-C1:
+    perche: "L'abbandono precoce degli studi tra 18 e 24 anni è all'8,2% in Italia, ma al 13,7% nelle Isole e al 10,1% tra i ragazzi (Eurostat 2025). Arriva al 44,1% tra le persone straniere arrivate in Italia tra 16 e 24 anni (ISTAT 2026). I bandi temporanei non bastano: ogni giovane che lascia la scuola è una perdita per sé e per il Paese."
+    come: "Un indice di fragilità individua le scuole a più alto rischio; in ciascuna lavora una squadra stabile con un docente tutor, educatori e mediatori culturali. Si aggiungono tutoraggio di matematica alla primaria, un percorso ponte con i centri per l'istruzione degli adulti per chi è arrivato da poco e un sistema di allerta che segnala ma non decide. Nel programma intermedio c'è la versione piena (circa 1.500 scuole), pagata con tagli generali di spesa e con il Fondo sociale europeo fino al 2029; il taglio dei posti legato al calo degli alunni è escluso."
+    cosa: "Obiettivo: abbandono nelle Isole dal 13,7% all'11,5% in 3 anni e al 9,5% in 5; tra i ragazzi dal 10,1% all'8,8% e al 7,5%; alunni di quinta primaria almeno al livello base in matematica dal 63% al 66% e al 68%. Costo: 0,25 miliardi l'anno a regime (2029)."
+    chi: "Decidono Parlamento e Ministero dell'istruzione e del merito; attuano uffici scolastici regionali, scuole, Regioni, centri per l'istruzione degli adulti e INVALSI per la valutazione. Ne beneficiano studenti delle scuole più fragili, ragazzi e persone straniere arrivate da poco. Pagano i programmi di spesa tagliati; dopo 3 anni il rifinanziamento dipende dai risultati."
+    oceano_blu:
+      eliminare: "La dipendenza da bandi temporanei per aiutare le scuole più fragili."
+      ridurre: "niente"
+      aumentare: "Il personale stabile (tutor, educatori, mediatori) nelle scuole a più alto rischio."
+      creare: "Un indice di fragilità di istituto non pubblico, un sistema di allerta che segnala ma non decide e un percorso ponte per chi è arrivato da poco."
+  05-C2:
+    perche: "Solo il 10,8% degli adulti tra 25 e 64 anni ha fatto formazione nelle ultime 4 settimane, contro il 13,7% europeo; nelle aree rurali il 9,4% (Eurostat 2025). Il 35% degli adulti ha competenze di lettura al livello più basso (OCSE 2023). Con l'intelligenza artificiale che cambia i mestieri, chi resta indietro rischia il lavoro."
+    come: "Ogni persona ha un conto di competenze sull'app IO con una dote da spendere solo presso enti accreditati che certificano le competenze; una parte del pagamento all'ente arriva solo se il corso si completa. I centri per l'istruzione degli adulti diventano scuole serali di lettura, calcolo e uso critico dell'intelligenza artificiale. Nel programma intermedio c'è la versione essenziale: solo la dote maggiorata per chi non ha il diploma, chi oltre i 25 anni non studia né lavora e chi fa mestieri esposti all'intelligenza artificiale, pagata facendo confluire il Fondo Nuove Competenze e la parte non usata del contributo per la formazione, con tagli di spesa e il Fondo sociale europeo fino al 2029."
+    cosa: "Obiettivo: adulti in formazione dal 10,8% al 13,7% in 3 anni e al 16% in 5; nelle aree rurali dal 9,4% al 12% e al 14%. Costo: 0,45 miliardi l'anno a regime (2029)."
+    chi: "Decidono Parlamento con una legge delega e i Ministeri del lavoro e dell'istruzione; attuano INPS, PagoPA, Regioni e INAPP, l'istituto pubblico che valuta le politiche del lavoro. Ne beneficiano adulti senza diploma, persone fuori da lavoro e studio, chi fa lavori a rischio. Perdono qualcosa imprese e lavoratori che oggi usano il Fondo Nuove Competenze, e gli enti di formazione che non portano risultati."
+    oceano_blu:
+      eliminare: "Il pagamento pieno ai corsi che le persone non completano."
+      ridurre: "La frammentazione dei fondi per la formazione degli adulti, che confluiscono nel conto."
+      aumentare: "Le risorse per chi ha meno competenze, con una dote maggiorata."
+      creare: "Un conto personale di competenze sull'app IO e scuole serali per adulti su lettura, calcolo e intelligenza artificiale."
+  05-C3:
+    perche: "La ricerca finanziata dallo Stato vale lo 0,54% del prodotto interno lordo (PIL) nel 2024, contro lo 0,68% europeo; la spesa totale in ricerca è all'1,41% contro il 2,26% europeo (Eurostat 2024). Tra il 2019 e il 2024 l'Italia ha perso circa 13.000 giovani laureati l'anno verso l'estero (ISTAT 2026). Molti contratti di ricerca nati con il PNRR scadono senza un seguito."
+    come: "Un'Agenzia nazionale della ricerca indipendente gestisce i bandi con valutazione internazionale e un calendario fisso; nasce un percorso di carriera unico per chi entra nella ricerca (tenure track). Nel programma intermedio c'è la versione solo regole, con i fondi esistenti per i progetti di ricerca e nessun aumento di spesa. La versione piena prevederebbe una legge decennale fino a 3,2 miliardi in più nel 2035."
+    cosa: "Obiettivo: ricerca finanziata dallo Stato dallo 0,54% allo 0,58% del PIL in 3 anni e allo 0,61% in 5; perdita di giovani laureati verso l'estero da 13.000 a 9.000 l'anno in 3 anni. Con la sola versione regole questi obiettivi sono più difficili, perché non ferma la perdita del personale di ricerca del PNRR. Costo: zero."
+    chi: "Decidono Parlamento e Ministero dell'università e della ricerca; attuano la nuova Agenzia e l'agenzia di valutazione degli atenei (ANVUR). Ne beneficiano ricercatrici e ricercatori, con regole e tempi certi. Chi ha un contratto di ricerca PNRR in scadenza resta senza un ponte finanziato in questa versione."
+    oceano_blu:
+      eliminare: "I bandi di ricerca senza un calendario fisso."
+      ridurre: "niente"
+      aumentare: "La qualità e l'indipendenza della selezione, con valutazione internazionale."
+      creare: "Un'Agenzia nazionale della ricerca indipendente e un percorso di carriera unico per chi fa ricerca."
+  05-C4:
+    perche: "Le persone tra 25 e 34 anni con laurea o diploma terziario sono il 31,1% nel 2025, contro il 44,8% europeo e l'obiettivo europeo del 45% al 2030 (Eurostat 2025). Alla fine del PNRR una parte delle borse di studio perde la copertura e tornerebbero studenti idonei senza borsa. Gli istituti tecnologici superiori (ITS Academy) sono ancora piccoli."
+    come: "La borsa di studio diventa garantita a tutte le persone idonee, con un livello essenziale nazionale. Le iscrizioni agli ITS Academy crescono, con passerelle verso la laurea, e nascono residenze pubbliche a canone legato al reddito su immobili pubblici dismessi, con una quota al Mezzogiorno. Nel programma intermedio c'è la versione essenziale (ITS raddoppiati, residenze per 1 miliardo in 10 anni), pagata con meno agevolazioni fiscali, tagli generali di spesa e fondi di coesione per le residenze fino al 2029."
+    cosa: "Obiettivo: persone di 25-34 anni con titolo terziario dal 31,1% al 33% in 3 anni e al 35% in 5; iscritti agli ITS da circa 33.400 a 55.000 in 3 anni; nessuna persona idonea senza borsa. Costo: 0,45 miliardi l'anno a regime (2029)."
+    chi: "Decidono Parlamento e Ministero dell'università; attuano Ministero dell'istruzione, Regioni, enti per il diritto allo studio, ITS Academy e Agenzia del demanio. Ne beneficiano studenti con reddito basso, soprattutto del Sud, e chi sceglie percorsi tecnici. Pagano chi perde agevolazioni fiscali e i programmi di spesa tagliati."
+    oceano_blu:
+      eliminare: "Le persone idonee alla borsa di studio ma senza borsa."
+      ridurre: "Gli immobili pubblici inutilizzati, trasformati in residenze per studenti."
+      aumentare: "Gli iscritti agli ITS Academy, con passerelle verso la laurea."
+      creare: "Un livello essenziale nazionale per le borse di studio e residenze pubbliche a canone legato al reddito."
+  05-C5:
+    perche: "Il 30,8% delle persone dai 3 anni in su non fa né sport né attività fisica (ISTAT 2025). I giovani tra 15 e 29 anni che non studiano e non lavorano sono il 13,3%, quartultimo valore in Europa (Eurostat 2025). Le scuole chiudono il pomeriggio proprio dove mancano altri spazi."
+    come: "Una norma quadro rende normale l'apertura delle scuole dopo l'orario, con patti di comunità tra dirigente, Comune e associazioni, e risolve a livello nazionale assicurazione e responsabilità. Le attività sono gratis per gli under 18 con reddito basso e i giovani del Servizio civile le animano; le risorse passano dai bonus individuali all'offerta vicino a casa. Nel programma intermedio c'è la versione essenziale (circa 1.500 scuole fragili, le stesse di 05-C1), pagata legando al reddito la Carta Valore per i neodiplomati, con le accise su prodotti dannosi per la salute e il Fondo sport e periferie."
+    cosa: "Obiettivo: sedentarietà dal 30,8% al 29% in 3 anni e al 27,5% in 5; giovani che non studiano e non lavorano dal 13,3% al 12% in 3 anni, insieme ad altre misure; almeno 300 ore l'anno di apertura extra nei plessi aderenti. Costo: 0,20 miliardi l'anno a regime (2028)."
+    chi: "Decidono Parlamento e Ministero dell'istruzione con il ministro per lo sport e i giovani; attuano Sport e Salute, uffici scolastici, Comuni e associazioni. Ne beneficiano ragazze e ragazzi delle scuole più fragili e le famiglie con reddito basso. Perdono la Carta Valore i neodiplomati di famiglie con ISEE oltre 35.000 euro; pagano anche chi consuma i prodotti colpiti dalle accise per la salute."
+    oceano_blu:
+      eliminare: "Il nodo di assicurazione e responsabilità che oggi tiene chiuse le scuole dopo l'orario."
+      ridurre: "I bonus individuali, come la Carta Valore per i neodiplomati di famiglie con reddito alto."
+      aumentare: "Le ore di apertura delle scuole e le attività gratuite per chi ha reddito basso."
+      creare: "Patti di comunità tra scuola, Comune e associazioni, animati dai giovani del Servizio civile."
+  05-C6:
+    perche: "Nel 2025 usa l'intelligenza artificiale il 16,4% delle imprese italiane con almeno 10 addetti, il doppio del 2024 (Eurostat 2025). Intanto alla primaria cala la matematica: il 63% degli alunni di quinta raggiunge il livello base nel 2026, contro il 66% del 2025 (INVALSI 2026). Senza regole e guida, l'uso dell'intelligenza artificiale può peggiorare gli apprendimenti di base."
+    come: "L'uso critico dell'intelligenza artificiale entra nel curricolo dalla scuola media. Regola di base: l'intelligenza artificiale non decide voti, ammissioni, orientamento o sanzioni; le prove puntano su più scritti in classe e più orali, e gli strumenti devono rispettare le regole europee su intelligenza artificiale e privacy. Nel programma intermedio c'è la versione solo regole e curricolo: la formazione dei docenti resta affidata alla buona volontà delle scuole."
+    cosa: "Obiettivo: alunni di quinta primaria almeno al livello base in matematica al 66% in 3 anni e al 68% in 5, come vincolo di non danno; punteggio di matematica nell'indagine internazionale PISA non sotto 468 nel 2029. Costo: zero, solo regole."
+    chi: "Decide il Ministero dell'istruzione con un decreto, sentiti il Garante della privacy e le autorità nazionali per l'intelligenza artificiale; attuano scuole e INDIRE. Ne beneficiano studenti e famiglie, protetti da decisioni automatiche. Le scuole devono cambiare le prove; senza fondi, la formazione dei docenti resta disomogenea."
+    oceano_blu:
+      eliminare: "Le decisioni automatiche su voti, ammissioni, orientamento e sanzioni."
+      ridurre: "Le prove che si possono delegare a una macchina."
+      aumentare: "Gli scritti in classe e le prove orali."
+      creare: "L'alfabetizzazione critica all'intelligenza artificiale nel curricolo dalla scuola media."
+  05-C7:
+    perche: "Nel 2026 solo il 63% degli alunni di quinta primaria raggiunge il livello base in matematica, contro il 66% del 2025 (INVALSI 2026). L'abbandono precoce è al 13,7% nelle Isole contro l'8,2% nazionale (Eurostat 2025). L'Italia non ha una regola stabile che dia più risorse alle scuole con più alunni in difficoltà: i fondi arrivano con bandi temporanei."
+    come: "Ogni anno le scuole più svantaggiate ricevono una quota fissa per alunno, senza bando e senza domanda, in base a un indice dell'INVALSI non pubblico. Almeno il 70% va a interventi di un menu nazionale con prove di efficacia (tutoraggio in piccoli gruppi, programmi di lettura, formazione al feedback) e ogni scuola rendiconta in dati aperti; nessun taglio all'organico. Nel programma intermedio c'è la versione essenziale (250 euro per alunno nel 10% delle scuole più svantaggiate, circa 700.000 alunni), pagata con meno agevolazioni fiscali e tagli a spese del ministero diverse dal personale."
+    cosa: "Obiettivo: divario in matematica tra scuole beneficiarie e media nazionale -20% in 3 anni e -35% in 5; almeno il 70% della spesa sugli interventi del menu in 3 anni e l'80% in 5. Costo: 0,19 miliardi l'anno a regime (2029)."
+    chi: "Decidono Parlamento e Ministero dell'istruzione; attuano INVALSI, INDIRE e le scuole. Ne beneficiano gli alunni delle scuole più svantaggiate. Pagano chi perde agevolazioni fiscali e alcune voci di spesa del ministero; le scuole perdono una parte di libertà perché il 70% è vincolato al menu."
+    oceano_blu:
+      eliminare: "Bandi e domande per ottenere i fondi contro lo svantaggio scolastico."
+      ridurre: "La spesa libera senza prove di efficacia, con il 70% vincolato al menu."
+      aumentare: "Le risorse stabili per alunno nelle scuole con più svantaggio."
+      creare: "Un menu nazionale di interventi provati e una rendicontazione in dati aperti."
+  05-C8:
+    perche: "Nel 2022 le biblioteche di pubblica lettura hanno servito 4,9 milioni di persone, circa l'8% dei residenti (ISTAT 2024). La spesa pubblica per cultura e ricreazione è lo 0,9% del PIL contro l'1,2% europeo (Eurostat 2024). Nessuna regola nazionale dice quante ore deve aprire una biblioteca."
+    come: "La versione piena rende la biblioteca un servizio di base dei Comuni, con ore minime di apertura e servizi gratuiti, un fondo per abitante a chi cofinanzia, la biblioteca civica che gestisce le biblioteche delle scuole e orari estesi in autoservizio solo in aggiunta alle ore con personale. Nel programma intermedio c'è la versione pilota: 3 Regioni, 100 biblioteche con autoservizio e 200 scuole con biblioteca di rete, pagata con fondi europei di coesione fino al 2029."
+    cosa: "Obiettivo della misura: utenti delle biblioteche da 4,9 a 5,8 milioni in 3 anni e 6,5 in 5; persone che leggono almeno un libro l'anno +2 punti in 3 anni (base 57,1%, ISTAT 2024). Il pilota serve a decidere se estendere. Costo: 0,03 miliardi l'anno (2028), temporaneo."
+    chi: "Decidono Ministero della cultura e Regioni coinvolte; attuano Comuni, sistemi bibliotecari e scuole, con l'ISTAT per i dati. Ne beneficiano studenti e residenti dei territori pilota. Paga il bilancio europeo di coesione; per ora chi vive fuori dalle 3 Regioni non ha benefici."
+    oceano_blu:
+      eliminare: "niente"
+      ridurre: "niente"
+      aumentare: "Le ore di apertura, con autoservizio solo in aggiunta alle ore con personale."
+      creare: "Biblioteche scolastiche gestite in rete dalla biblioteca civica."
+  05-C9:
+    perche: "La spesa pubblica per i servizi culturali è di 7,6 miliardi nel 2024 e l'intera funzione cultura vale lo 0,9% del PIL contro l'1,2% europeo (Eurostat 2024). Parte degli aiuti ai giovani passa per carte individuali per i diciottenni: nel 2025 su 180 milioni stanziati ne sono stati impegnati 140 (Rendiconto dello Stato 2025). Chi viene da famiglie con meno mezzi partecipa meno alla vita culturale."
+    come: "Ogni alunno vive almeno due esperienze culturali professionali all'anno in orario scolastico, scelte con avviso pubblico; i luoghi della cultura statali partecipano gratis. Una tariffa sociale sull'app IO dà l'80% di sconto su biglietti e corsi a minori e giovani fino a 25 anni con ISEE fino a 15.000 euro, e si attiva da sola. Nel programma intermedio c'è la versione pilota (3 Regioni, tutti i gradi di scuola, tariffa sociale nei capoluoghi), pagata con il Fondo sociale europeo fino al 2029."
+    cosa: "Obiettivo della misura: alunni con almeno 2 esperienze culturali all'anno al 70% in 3 anni; aventi diritto che usano la tariffa sociale almeno una volta l'anno al 25% in 3 anni e al 35% in 5. Costo: 0,02 miliardi l'anno (2028), temporaneo."
+    chi: "Decidono Ministero della cultura e Ministero dell'istruzione; attuano Regioni, scuole, soggetti culturali, Comuni, INPS e PagoPA. Ne beneficiano alunni e giovani con reddito basso dei territori pilota; soggetti culturali o Comuni coprono il 40% dello sconto. Le carte individuali per i diciottenni non si toccano prima di una valutazione pubblica."
+    oceano_blu:
+      eliminare: "La domanda per lo sconto: il diritto si attiva da solo con l'ISEE."
+      ridurre: "niente"
+      aumentare: "Le esperienze culturali professionali dentro l'orario scolastico."
+      creare: "Uno zaino culturale per ogni alunno e una tariffa sociale della cultura sull'app IO."
+  05-C10:
+    perche: "Con il PNRR sono nati 5 centri nazionali, 11 ecosistemi dell'innovazione e 14 partenariati estesi, circa 4,5 miliardi in tutto, che scadono nel 2026 senza regole per dopo (Camera dei deputati e Ministero dell'università 2026). In Germania la rete Fraunhofer riceve fondi di base solo fino a un terzo del bilancio e incassa 867 milioni l'anno dalle imprese (Fraunhofer 2024). Senza una regola, i centri rischiano di chiudere o di vivere di contributi senza lavorare per le imprese."
+    come: "La versione piena crea una Rete nazionale per la ricerca applicata di 15-20 nodi scelti con valutazione internazionale: lo Stato dà un euro di finanziamento di base per ogni euro di contratti con le imprese, fino a un terzo del bilancio, e chi non trova clienti esce. Nel programma intermedio c'è la versione pilota: voucher per le piccole e medie imprese che comprano ricerca da 5 centri del PNRR, almeno 2 nel Mezzogiorno, dal 2027 al 2029, pagati con fondi europei di coesione."
+    cosa: "Obiettivo della rete: ricavi da contratti con imprese a 200 milioni in 3 anni e 350 in 5; entrate da licenze di università ed enti da 5,87 a 8 milioni in 3 anni (Netval 2025). Il pilota misura la domanda delle imprese. Costo: 0,05 miliardi l'anno (2028), temporaneo."
+    chi: "Decidono Ministero dell'università e Ministero delle imprese; attuano le fondazioni nate con il PNRR. Ne beneficiano le piccole e medie imprese che comprano ricerca e i centri che trovano clienti. Paga il bilancio europeo di coesione; i centri che non attirano imprese non ricevono sostegno."
+    oceano_blu:
+      eliminare: "niente"
+      ridurre: "niente"
+      aumentare: "La ricerca comprata dalle piccole e medie imprese, anche nel Mezzogiorno."
+      creare: "Voucher per le piccole e medie imprese che comprano ricerca dai centri nati con il PNRR."
+  06-C1:
+    perche: "Nel 2025 il 2,5% delle persone dai 16 anni in su ha rinunciato a cure necessarie per costi, distanza o attese, contro l'1,9% del 2024 e il 2,4% europeo; la sola attesa pesa per lo 0,9% (Eurostat 2025). Le famiglie pagano di tasca propria 42,4 miliardi, il 22,3% della spesa sanitaria (ISTAT 2025). I tempi massimi di attesa esistono sulla carta ma non si possono pretendere."
+    come: "La versione piena darebbe una garanzia automatica: se il centro unico di prenotazione non trova la visita nei tempi, offre un'alternativa al costo del solo ticket e la differenza la paga l'azienda sanitaria in ritardo. Nel programma intermedio c'è la versione solo regole: tutte le agende pubbliche e private accreditate nel centro unico di prenotazione, richiamo attivo dei pazienti, criteri vincolanti per le priorità, controlli su chi prescrive troppe urgenze e sospensione della libera professione in ospedale dove i ritardi durano due trimestri. Costo zero per lo Stato; gli oneri organizzativi restano alle Regioni."
+    cosa: "Obiettivo: rinuncia alle cure dal 2,5% a non oltre l'1,9% in 3 anni e l'1,5% in 5; prestazioni con priorità breve e differibile erogate nei tempi all'80% in 3 anni e almeno al 90% in 5. Con la sola versione regole il diritto non diventa esigibile. Costo: zero."
+    chi: "Decidono Parlamento, Ministero della salute e Conferenza Stato-Regioni; attuano Regioni, aziende sanitarie e l'Agenzia nazionale per i servizi sanitari regionali (Agenas). Ne beneficiano i pazienti in attesa. Perdono qualcosa i medici con attività privata in ospedale nelle aziende in ritardo e le strutture private accreditate che oggi tengono agende chiuse."
+    oceano_blu:
+      eliminare: "Le agende chiuse: tutte le prenotazioni passano dal centro unico."
+      ridurre: "L'attività privata in ospedale nelle specialità con ritardi oltre due trimestri."
+      aumentare: "I controlli sulle priorità indicate da chi prescrive."
+      creare: "Il richiamo attivo dei pazienti e criteri nazionali vincolanti per le priorità."
+  06-C2:
+    perche: "L'Italia ha 6,9 infermieri ogni 1.000 abitanti contro 9,2 della media OCSE, mentre i medici sono 5,75, sopra la media di 3,9 (Eurostat 2024; OCSE 2025). Il rapporto tra infermieri e medici è 1,2. Il problema è il mix di professioni e dove lavorano: senza infermieri le Case della Comunità restano vuote."
+    come: "Borse di 5.000 euro l'anno per chi studia infermieristica con l'impegno a lavorare 3 anni nel servizio sanitario pubblico, un'indennità fino a 3.000 euro l'anno nelle aree con carenza e l'infermiere di pratica avanzata, che può prescrivere alcuni presidi e farmaci per i malati cronici. I medici di famiglia lavorano in squadra con ore obbligatorie nelle Case della Comunità; nella versione piena possono diventare dipendenti e la loro formazione diventa una specializzazione universitaria. Non è nel programma intermedio: è uscita il 13 novembre 2026, quando la verifica delle coperture ha tolto risorse, ed è la prima da reinserire; la versione piena si pagherebbe con meno agevolazioni fiscali sanitarie per i redditi alti, accise sul tabacco, tagli alle spese non sanitarie delle aziende sanitarie e una piccola quota del fondo sanitario."
+    cosa: "Obiettivo: infermieri da 6,92 a 7,3 ogni 1.000 abitanti in 3 anni e 7,7 in 5; rapporto tra infermieri e medici da 1,2 a 1,4 in 5 anni; posti di medicina generale scoperti dimezzati in 5 anni. Costo della versione piena: 2,5 miliardi l'anno a regime (2030)."
+    chi: "Decidono Parlamento, anche con una legge delega, e Ministero della salute con il Ministero dell'università; attuano Regioni, aziende sanitarie e il contratto nazionale dei medici di famiglia. Ne beneficiano infermieri, malati cronici e territori con carenza di personale. Pagano contribuenti con redditi alti, chi fuma e i fornitori non sanitari delle aziende sanitarie; i medici di famiglia perdono parte della libertà di organizzarsi."
+    oceano_blu:
+      eliminare: "Il medico di famiglia che lavora da solo, senza squadra."
+      ridurre: "Il tempo dei medici sui casi semplici, spostando compiti regolati agli infermieri."
+      aumentare: "Il numero di infermieri e la loro permanenza dove servono."
+      creare: "L'infermiere di pratica avanzata con prescrizione limitata e borse di studio con impegno nel servizio pubblico."
+  06-C3:
+    perche: "Al 31 dicembre 2025 solo 66 Case della Comunità su 1.715 programmate erano pienamente operative (3,9%) e solo 163 Ospedali di Comunità su 594 avevano almeno un servizio (Agenas 2025). L'obiettivo del PNRR si è chiuso a giugno 2026. Senza fondi di gestione restano muri senza servizi."
+    come: "Per ogni Casa della Comunità principale (hub) azienda sanitaria, Comune e medici firmano un contratto di prossimità di tre anni con orari, servizi minimi, malati cronici seguiti e assistenza a domicilio. Un fondo nazionale vincolato paga il 60% in base alla popolazione e il 40% in base ai risultati; dopo 18 mesi lo Stato può sostituirsi alla Regione inadempiente. Nel programma intermedio c'è la versione essenziale (le 1.038 Case hub), pagata con meno agevolazioni fiscali sanitarie per i redditi alti, accise sul tabacco e tagli alle spese non sanitarie delle aziende sanitarie."
+    cosa: "Obiettivo: Case hub pienamente operative al 50% in 3 anni e all'80% in 5; Ospedali di Comunità con almeno un servizio dal 27,4% al 60% in 3 anni; assistenza a domicilio per il 10% delle persone over 65. Costo: 0,8 miliardi l'anno a regime (2029)."
+    chi: "Decidono Parlamento con la legge di bilancio e Ministeri della salute e dell'economia; attuano Regioni, aziende sanitarie, Comuni e medici, con Agenas che misura. Ne beneficiano malati cronici, anziani e famiglie, con cure vicino a casa. Pagano i contribuenti con redditi tra 50.000 e 120.000 euro (detrazione sanitaria ridotta), chi fuma e i fornitori non sanitari; le strutture ancora vuote dopo 3 anni vengono riconvertite."
+    oceano_blu:
+      eliminare: "Le Case della Comunità costruite ma senza servizi, riconvertite dopo 3 anni."
+      ridurre: "niente"
+      aumentare: "Le ore di apertura con medici e infermieri e l'assistenza a domicilio."
+      creare: "Un contratto di prossimità per ogni Casa hub, con fondi legati ai risultati e uno sportello sociale unico con il Comune."
+  06-C4:
+    perche: "La prestazione universale per gli anziani non autosufficienti resta sperimentale: 500 milioni per il 2025-2026, prorogata solo fino al 2027 con soglia ISEE di 12.000 euro (disegno di legge di bilancio 2027). Circa 243.000 persone sono in lista d'attesa per una residenza sanitaria (fonte di stampa 2026, da verificare). Le famiglie pagano da sole gran parte della cura."
+    come: "Una valutazione unica del bisogno (INPS, azienda sanitaria e Comune) in un solo punto di accesso nella Casa della Comunità, e un budget di cura graduato per bisogno, più alto se usato per lavoro di cura regolare o servizi accreditati; chi ha già l'indennità di accompagnamento non perde nulla. Nel programma intermedio c'è la versione pilota: 20 ambiti territoriali per 3 anni, con la misura di quanto lavoro di cura irregolare emerge, pagata con il Fondo sociale europeo."
+    cosa: "Obiettivo della misura: nuovi casi con valutazione unica al 50% in 3 anni e al 100% in 5; persone in lista d'attesa per una residenza sanitaria -10% in 3 anni e -25% in 5. Il pilota misura se il budget fa emergere lavoro regolare. Costo: 0,1 miliardi l'anno (2028), temporaneo."
+    chi: "Decide il Governo con un decreto legislativo dei Ministeri della salute e del lavoro; attuano INPS, aziende sanitarie e Comuni degli ambiti pilota. Ne beneficiano anziani non autosufficienti, famiglie e assistenti familiari che passano a un contratto regolare. Paga il bilancio europeo di coesione; nessuno perde l'indennità già in godimento."
+    oceano_blu:
+      eliminare: "Le valutazioni separate di INPS, azienda sanitaria e Comune."
+      ridurre: "Il lavoro di cura irregolare, con un budget più alto per chi assume in regola."
+      aumentare: "Il sostegno a chi usa servizi accreditati o lavoro regolare."
+      creare: "Un punto unico di accesso e un budget di cura graduato per bisogno."
+  06-C5:
+    perche: "La spesa per la salute mentale è il 2,7-3% del fondo sanitario nazionale (Ministero della salute 2024, da verificare), contro l'obiettivo del 5% fissato con le Regioni. Arrivarci costa 2,9-3,4 miliardi l'anno (verifica GovernAI 2026). Il disagio dei giovani cresce e i servizi non bastano."
+    come: "Una quota del fondo sanitario è vincolata alla salute mentale e cresce ogni anno, ma arriva solo se le Regioni rispettano standard di personale. Priorità ai giovani: un servizio per i 14-25 anni in ogni azienda sanitaria, lo psicologo di base nelle Case della Comunità, più posti di specializzazione in psichiatria. Non è nel programma intermedio; la versione piena (5% nel 2031) si pagherebbe con accise su tabacco e superalcolici, meno agevolazioni fiscali sanitarie per i redditi alti, tagli di spesa e l'assorbimento del bonus psicologo nel servizio pubblico."
+    cosa: "Obiettivo: quota per la salute mentale al 4,1% del fondo sanitario in 3 anni e al 5% in 5; personale dei dipartimenti di salute mentale +14.000 persone in 5 anni (base 30.101 nel 2022); accessi al pronto soccorso per crisi psichiatriche di under 25 -20% in 5 anni. Costo della versione piena: 3,4 miliardi l'anno a regime (2031)."
+    chi: "Decidono Parlamento, Ministero della salute e Conferenza Stato-Regioni; attuano Regioni e aziende sanitarie, con il Ministero dell'università per le specializzazioni. Ne beneficiano persone con disagio psichico, soprattutto giovani, e le loro famiglie. Pagano chi fuma e chi beve superalcolici e i contribuenti con redditi alti; chi usa il bonus psicologo lo vede sostituito dal servizio pubblico."
+    oceano_blu:
+      eliminare: "Il bonus psicologo, assorbito nel servizio di psicologia di base."
+      ridurre: "La contenzione meccanica, che le Regioni si impegnano a superare."
+      aumentare: "La quota del fondo sanitario per la salute mentale, verso il 5%."
+      creare: "Un servizio per i 14-25 anni in ogni azienda sanitaria e lo psicologo di base nelle Case della Comunità."
+  06-C6:
+    perche: "La prevenzione vale il 4,5% della spesa sanitaria corrente, 8,56 miliardi nel 2025 (ISTAT 2025). Gli acquisti diretti di farmaci hanno superato il tetto di 4,77 miliardi nel 2025, mentre la spesa delle farmacie chiude in avanzo di 0,51 miliardi (AIFA 2025). Tetti separati creano contenziosi e non seguono i bisogni."
+    come: "Un budget unico del farmaco sostituisce i tetti separati, con rimborsi legati agli esiti per i farmaci ad alto costo, uso delle valutazioni europee sui nuovi farmaci e più farmaci equivalenti e biosimilari. I risparmi accertati da gare e biosimilari si spostano alla prevenzione, verso il 5% della spesa entro il 2030, senza spesa in più. Nel programma intermedio c'è la versione solo regole, senza il fondo aggiuntivo di 0,3 miliardi per screening e vaccinazioni."
+    cosa: "Obiettivo: prevenzione dal 4,5% al 5,0% della spesa sanitaria in 3 anni e al 5,5% in 5; spesa farmaceutica oltre il tetto unico non più di 1 miliardo in 3 anni e 0,5 in 5, con contenzioso dimezzato. Costo: zero."
+    chi: "Decidono Parlamento e Ministero della salute; attuano l'Agenzia italiana del farmaco (AIFA), Ministero dell'economia e Regioni. Ne beneficiano i cittadini, con più screening e prevenzione. Perdono qualcosa le aziende farmaceutiche, con contratti legati ai risultati e più biosimilari, e gli altri capitoli del fondo sanitario da cui si spostano risorse."
+    oceano_blu:
+      eliminare: "I tetti separati per i farmaci delle farmacie e per gli acquisti diretti."
+      ridurre: "Il contenzioso con le aziende e la spesa per farmaci di marca dove esistono biosimilari."
+      aumentare: "La quota di spesa sanitaria per la prevenzione."
+      creare: "Un budget unico del farmaco con rimborsi legati agli esiti."
+  06-C8:
+    perche: "Nel 2023 l'assistenza domiciliare integrata ha dato in media 14 ore l'anno per caso, contro 16 nel 2021 (CERGAS Bocconi 2025). È spesso appaltata e pagata a visita: vince chi fa più visite brevi, non chi rende la persona più autonoma."
+    come: "Le aziende sanitarie possono organizzare l'assistenza a domicilio in squadre di 10-12 infermieri di famiglia, autonome su presa in carico, orari e piano di cura, in rete con il medico di famiglia e la Casa della Comunità (modello olandese Buurtzorg). Si paga a ora di cura, compreso il tempo per coordinarsi, e non più a visita; si parte a scaglioni con distretti di confronto. Nel programma intermedio c'è la versione essenziale (500 squadre nelle Regioni con meno ore per assistito), pagata con accise sul tabacco e tagli alle spese non sanitarie delle aziende sanitarie."
+    cosa: "Obiettivo: ore di assistenza domiciliare per caso da 14 a 16 in 3 anni e a 18 in 5; ricoveri evitabili degli over 75 seguiti dalle squadre -5% in 3 anni e -10% in 5 rispetto ai distretti di confronto. Costo: 0,10 miliardi l'anno a regime (2029); non è una misura di risparmio."
+    chi: "Decidono Parlamento, Ministero della salute e Conferenza Stato-Regioni per la tariffa a ora di cura; attuano Regioni, aziende sanitarie e Agenas. Ne beneficiano persone assistite a casa, famiglie e infermieri, che hanno più autonomia. Pagano chi fuma e i fornitori non sanitari; le cooperative appaltatrici pagate a visita devono cambiare modello."
+    oceano_blu:
+      eliminare: "Il pagamento a singola visita dell'assistenza a domicilio."
+      ridurre: "La burocrazia per gli infermieri, con un sistema informatico semplice collegato al fascicolo sanitario."
+      aumentare: "Le ore di cura per persona e l'autonomia delle squadre."
+      creare: "Squadre infermieristiche di quartiere pagate a ora di cura, con un coach esterno."
+  06-C9:
+    perche: "La spesa per la salute mentale è il 2,7-3% del fondo sanitario contro l'obiettivo del 5% (Ministero della salute 2024, da verificare). Nelle scuole lo psicologo è finanziato a progetto o a bando annuale e non esiste un dato nazionale su quante scuole ne hanno uno. Solo il 3,9% delle Case della Comunità era pienamente operativo a fine 2025 (Agenas 2025)."
+    come: "Ogni rete di scuole ha un'équipe di benessere collegata alla Casa della Comunità del distretto: una figura di psicologia, ore di infermiere di famiglia e il servizio sociale del Comune. Fa prevenzione, ascolto, invio rapido ai servizi e sostegno ai docenti, ma non fa diagnosi a scuola e non usa sistemi automatici di rischio (modello svedese). Nel programma intermedio c'è la versione pilota: 100 reti di scuole in 4 Regioni con valutazione a confronto, pagata con il Fondo sociale europeo fino al 2029."
+    cosa: "Obiettivo della misura: studenti di scuole medie e superiori coperti da un'équipe al 50% in 3 anni; primo colloquio entro 15 giorni dalla segnalazione in 3 anni ed entro 10 in 5. Il pilota decide se estendere. Costo: 0,03 miliardi l'anno (2028), temporaneo."
+    chi: "Decidono Ministero della salute e Ministero dell'istruzione con un accordo con Regioni e Comuni, sentito il Garante della privacy; attuano aziende sanitarie, scuole e Comuni. Ne beneficiano studenti, famiglie e docenti delle reti pilota. Paga il bilancio europeo di coesione; per i minori serve il consenso dei genitori e i dati sanitari restano solo nel fascicolo sanitario."
+    oceano_blu:
+      eliminare: "Lo psicologo a scuola finanziato solo a progetto o a bando annuale."
+      ridurre: "niente"
+      aumentare: "La rapidità dell'invio ai servizi, con primo colloquio entro 15 giorni."
+      creare: "Équipe di benessere in rete tra scuole, Casa della Comunità e Comune."
+  06-C10:
+    perche: "Nel 2023 il servizio sanitario nazionale aveva 701.170 dipendenti, di cui 277.138 infermieri (Agenas 2025); il personale amministrativo era circa 60.000 persone, il 9,7% (Ministero della salute 2022, da verificare). Molto lavoro d'ufficio è ripetitivo: prenotazioni, fatture, ticket, protocollo. Intanto le Case della Comunità mancano di personale di accoglienza."
+    come: "Un programma nazionale guidato da Agenas porta nelle aziende sanitarie strumenti già provati per automatizzare prenotazioni, fatturazione, ticket, codifica e protocollo; nessuna decisione su priorità o esenzioni è automatica. Chi lavora negli uffici può scegliere, con formazione pagata, di passare all'accoglienza nelle Case della Comunità o al percorso di operatore socio-sanitario: nessun licenziamento e nessuno spostamento senza consenso. Nel programma intermedio c'è la versione pilota (10 aziende sanitarie in 4 Regioni), pagata con fondi europei di coesione; a parte, la copertura RP08 sostituisce per 4 anni circa l'80% dei pensionamenti negli uffici generici e sposta il risparmio su infermieri e Case della Comunità."
+    cosa: "Obiettivo: 1.000 persone del ruolo amministrativo riqualificate in 3 anni e 3.000 in 5; ore di lavoro liberate pubblicate in un registro; da 0,05 a 0,13 miliardi l'anno spostati su infermieri e Case della Comunità in 5 anni. Costo della versione pilota: circa 0,015 miliardi l'anno (2028), temporaneo."
+    chi: "Decidono Parlamento, Ministero della salute e Conferenza Stato-Regioni; attuano Agenas, Dipartimento per la trasformazione digitale, Regioni e aziende sanitarie, con i sindacati per la riqualificazione. Ne beneficiano pazienti, Case della Comunità e chi vuole cambiare lavoro dentro la sanità. Perdono qualcosa i giovani che si candidano ai concorsi amministrativi delle aziende sanitarie, con meno posti, e gli uffici che lavorano con meno persone."
+    oceano_blu:
+      eliminare: "Il lavoro manuale ripetitivo su prenotazioni, fatture, ticket e protocollo."
+      ridurre: "Le sostituzioni dei pensionamenti negli uffici amministrativi generici, a circa l'80% per 4 anni."
+      aumentare: "Il personale di accoglienza e coordinamento nelle Case della Comunità."
+      creare: "Un registro pubblico delle ore liberate e percorsi di riqualificazione volontaria con formazione pagata."

@@ -7,7 +7,7 @@
 | Proposta | Esito del panel (Carta 2.0) | PIENA | ESSENZIALE | PILOTA / ZERO |
 |---|---|---|---|---|
 | 09-C1 Stato a vetro | dipende dai valori | 0,07 (int. 1) | 0,035 (0,6) | PILOTA 0,012 (0,25) |
-| 09-C2 Chiedilo una volta sola | dipende dai valori | 0,35 (1) | 0,14 (0,6) | ZERO 0 (0,3) |
+| 09-C2 Chiedilo una volta sola | **nucleo robusto** | 0,35 (1) | 0,14 (0,6) | ZERO 0 (0,3) |
 | 09-C3 Squadre tecniche della Repubblica | **nucleo robusto** | 0,55 (1) | 0,22 (0,5) | PILOTA 0,04 (0,1) |
 | 09-C4 Manutenzione digitale | in coda | 0,40 (1) | 0,12 (0,45) | ZERO 0 (0,15) |
 | 09-C5 IA nella PA | **nucleo robusto** | 0,22 (1) | 0,08 (0,55) | ZERO 0 (0,3) |

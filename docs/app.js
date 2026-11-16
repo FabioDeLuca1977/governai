@@ -463,7 +463,7 @@
   }
 
   // ---------- Programma ----------
-  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["pronto", "Pronto domani", "#/programma/pronto"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["proponi", "Proponi un programma", "#/programma/proponi"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
+  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["pronto", "Pronto domani", "#/programma/pronto"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["proponi", "Proponi un programma", "#/programma/proponi"], ["strategia", "Strategia", "#/programma/strategia"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
 
   function elenco(params) {
     const sc = scenario(params.get("scenario") || RIF_ID);
@@ -513,6 +513,23 @@
     icone();
   }
 
+  // Ogni soluzione ragionata: perché, come, che cosa, chi, e griglia oceano blu (programma/quattro_domande_*.yaml)
+  const Q4 = [["perche", "Perché", "circle-help", "Il problema e il dato"], ["come", "Come", "settings-2", "Il meccanismo e come si paga"], ["cosa", "Che cosa", "target", "Risultati e come li misuriamo"], ["chi", "Chi", "users-round", "Chi decide, chi ne beneficia, chi paga"]];
+  const ERRC = [["eliminare", "Elimina", "x"], ["ridurre", "Riduce", "arrow-down"], ["aumentare", "Aumenta", "arrow-up"], ["creare", "Crea", "sparkles"]];
+  function grigliaErrc(o, titolo) {
+    return `<div class="errc" aria-label="${esc(titolo)}">${ERRC.map(([k, t, ic]) => {
+      const v = o[k], lista = Array.isArray(v) ? v : [v];
+      const vuota = !v || (lista.length === 1 && /^niente\.?$/i.test(String(lista[0]).trim()));
+      return `<div class="errc-c ${k}${vuota ? " vuota" : ""}"><p class="errc-t">${icona(ic)}${t}</p>${vuota ? `<p class="nota">Niente</p>` : lista.length > 1 ? `<ul>${lista.map((x) => `<li>${codici(esc(x))}</li>`).join("")}</ul>` : `<p>${codici(esc(lista[0]))}</p>`}</div>`;
+    }).join("")}</div>`;
+  }
+  function sezioneQuattro(q) {
+    return `<section class="blocco" id="ragionamento" aria-labelledby="h-ragionamento">
+      <h2 id="h-ragionamento">La soluzione ragionata <small>perché, come, che cosa, chi</small></h2>
+      <div class="quattro">${Q4.map(([k, t, ic, sub]) => `<div class="card q4"><p class="q4-t">${icona(ic)}${t}<small>${sub}</small></p><p>${codici(esc(q[k] || ""))}</p></div>`).join("")}</div>
+      ${q.oceano_blu ? `<h3 class="q4-sotto">Rispetto a come fa oggi lo Stato <small>griglia della strategia oceano blu</small></h3>${grigliaErrc(q.oceano_blu, "Elimina, riduce, aumenta, crea")}` : ""}
+    </section>`;
+  }
   function schedaProposta(id) {
     const p = proposta(id);
     if (!p) return nonTrovato(`Nessuna proposta con codice «${id}».`);
@@ -532,7 +549,8 @@
     const nonZero = medie.filter((x) => Math.abs(x.m) >= 0.05).sort((a, b) => b.m - a.m), zero = medie.filter((x) => Math.abs(x.m) < 0.05);
     const giur = p.giuridico || [];
     const peggiore = giur.reduce((a, r) => (GRAVITA_GIUR[r.esito] ?? 0) > (GRAVITA_GIUR[a] ?? -1) ? r.esito : a, null);
-    const voci = [["in-breve", "In breve"], ["valori", "Effetto sui valori"], ["varianti", "Varianti"], ["controlli", "Controlli"], ["obiettivi", "Obiettivi"], ["governo", "Governo ombra"], ["testo", "Testo completo"], ["fonti", "Fonti e metodo"]];
+    const q4 = (D.quattro_domande || {})[p.id];
+    const voci = [["in-breve", "In breve"], ...(q4 ? [["ragionamento", "Perché, come, chi"]] : []), ["valori", "Effetto sui valori"], ["varianti", "Varianti"], ["controlli", "Controlli"], ["obiettivi", "Obiettivi"], ["governo", "Governo ombra"], ["testo", "Testo completo"], ["fonti", "Fonti e metodo"]];
     const esitoDec = dec ? (deroga ? ["attenzione", "git-branch", "Accolta con deroga"] : ESITO_DEC[dec.esito] || ["", "circle-dashed", dec.esito]) : null;
     const collegati = [
       ...scadenze.map((s) => `<li>${icona("landmark")}<a href="#/controlli/europa">${esc(s.atto)}</a> <span class="nota">scadenza UE ${dataBreve(s.data)}</span></li>`),
@@ -569,6 +587,8 @@
               ${mandati.length ? `<p>${mandati.map((x) => `Mandato <strong class="mono">${x.id}</strong> entro il ${dataBreve(x.scadenza)}`).join(" · ")}</p>` : ""}`
               : `<p class="nota">Non ancora all'ordine del giorno del Consiglio.</p>`}
           </section>
+
+          ${q4 ? sezioneQuattro(q4) : ""}
 
           <section class="blocco" id="valori" aria-labelledby="h-valori">
             <h2 id="h-valori">Effetto sui 10 valori <small>mediana dei tre valutatori AI, media di breve, medio e lungo periodo, da −3 a +3</small></h2>
@@ -785,6 +805,28 @@
       $$(".pp-gruppo").forEach((d) => { const vis = [...d.querySelectorAll("li")].some((li) => !li.hidden); d.hidden = !vis; if (t && vis) d.open = true; });
     });
     sincronizza();
+  }
+
+  function strategia() {
+    const O = D.oceano_blu || {}, F = O.fattori || [];
+    const W = 760, H = 320, sx = 40, dx = 130, top = 16, bot = 130, n = F.length;
+    const x = (i) => sx + (n > 1 ? i * (W - sx - dx) / (n - 1) : 0), y = (v) => top + (10 - v) * (H - top - bot) / 10;
+    const curva = (k, cls) => `<polyline class="sc-l ${cls}" points="${F.map((f, i) => `${x(i).toFixed(1)},${y(+f[k] || 0).toFixed(1)}`).join(" ")}"/>${F.map((f, i) => `<circle class="sc-p ${cls}" cx="${x(i).toFixed(1)}" cy="${y(+f[k] || 0).toFixed(1)}" r="4"><title>${esc(f.nome)}: ${f[k]}</title></circle>`).join("")}`;
+    return `${schedeProgramma("strategia")}
+      <p class="risposta">Dove compete oggi la politica e dove sceglie di stare GovernAI. Analisi con il metodo della strategia oceano blu: non battere gli altri sugli stessi fattori, ma cambiare i fattori.</p>
+      ${O.slogan ? `<p class="dato-grande">«${esc(O.slogan)}»</p>` : ""}
+      <section class="card"><h2>Il canvas strategico <small>quanto ciascuno investe su ogni fattore, da 0 a 10</small></h2>
+        <div class="sc-leg"><span class="gov">Manovra tipica del governo</span><span class="par">Programmi tipici dei partiti</span><span class="gai">GovernAI</span></div>
+        <div class="sc-scroll"><svg class="canvas-strategico" viewBox="0 0 ${W} ${H}" role="img" aria-label="Canvas strategico: ${esc(F.map((f) => `${f.nome}: governo ${f.governo}, partiti ${f.partiti}, GovernAI ${f.governai}`).join("; "))}">
+          ${[0, 5, 10].map((v) => `<line class="sc-g" x1="${sx}" x2="${W - dx}" y1="${y(v)}" y2="${y(v)}"/><text class="sc-a" x="${sx - 8}" y="${y(v) + 4}" text-anchor="end">${v}</text>`).join("")}
+          ${curva("governo", "gov")}${curva("partiti", "par")}${curva("governai", "gai")}
+          ${F.map((f, i) => `<text class="sc-x" transform="translate(${x(i).toFixed(1)},${H - bot + 14}) rotate(40)">${esc(f.nome.length > 30 ? f.nome.slice(0, 29) + "…" : f.nome)}</text>`).join("")}
+        </svg></div>
+        <details><summary>Perché questi punteggi</summary><ul class="elenco">${F.map((f) => `<li><strong>${esc(f.nome)}</strong> (governo ${f.governo}, partiti ${f.partiti}, GovernAI ${f.governai}): ${codici(esc(f.perche || ""))}</li>`).join("")}</ul></details>
+      </section>
+      ${O.errc ? `<section class="blocco"><h2>Che cosa cambia GovernAI <small>elimina, riduce, aumenta, crea</small></h2>${grigliaErrc(O.errc, "Griglia del programma")}</section>` : ""}
+      ${(O.non_clienti || []).length ? `<section class="blocco"><h2>Chi oggi la politica non raggiunge</h2><div class="griglia g3">${O.non_clienti.map((c) => `<div class="card"><p class="etichetta">${esc(c.fascia)}</p><h3>${esc(c.chi)}</h3><p>${codici(esc(c.offerta))}</p></div>`).join("")}</div></section>` : ""}
+      <p class="nota">Il rapporto completo, con rischi e punti deboli dichiarati: ${ext(repo + "/blob/main/programma/oceano_blu.md", "programma/oceano_blu.md")}. Ogni proposta ha la sua griglia nella scheda.</p>`;
   }
 
   const ORIZZ = ["breve", "medio", "lungo"];
@@ -1501,6 +1543,7 @@
       else if (b === "coperture") { html = coperture(); titolo = "Come si paga"; }
       else if (b === "valori") { html = simulatore(); titolo = "I tuoi valori"; }
       else if (b === "proponi") { html = proponi(params); titolo = "Proponi un programma"; }
+      else if (b === "strategia") { html = strategia(); titolo = "Strategia oceano blu"; }
       else if (b === "confronti") { html = confronti(params); titolo = "Confronti"; }
       else if (b === "sintesi") { html = sintesi(); titolo = "Le idee in sintesi"; }
       else if (b === "equita") { html = equita(); titolo = "Equità e linguaggio inclusivo"; }

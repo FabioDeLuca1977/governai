@@ -1,0 +1,11 @@
+proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
+01-P24,RIS,-1,-1,-1,M,no,"Perdenti concentrati: patrimoni illiquidi e imprese familiari pagano su valori non realizzati; tetto al 60% e rinvio per le quote attenuano ma non eliminano"
+01-P24,FID,-1,0,0,B,no,"Valutazioni difformi (quotati a mercato, non quotate al contabile) generano contenzioso e rischio art. 3 come Germania 1995; abolizioni estere minano la stabilità; statistica e precompilata aiutano"
+01-P24,INN,-1,-1,-1,M,no,"Tassa il patrimonio netto contabile, cioè l'autofinanziamento delle imprese; senza exit tax generale più partenze di azionisti-dirigenti (Francia: -15% attività dell'impresa)"
+01-P24,BEN,0,-1,-1,B,no,"Pochi paganti; rischio di vendite forzate nel passaggio generazionale e di effetti su occupazione delle imprese dei partenti, modesti ma non nulli"
+01-P24,APC,0,0,0,A,no,Nessun effetto su istruzione e cultura
+01-P24,BPA,0,0,0,B,no,"Esclusi i beni culturali vincolati aperti al pubblico; dimore storiche non vincolate e collezioni tassate, effetto marginale"
+01-P24,FUT,0,1,0,B,no,"Primo versamento 2029; gettito realistico 1-3,5 mld e non 2-5 senza exit tax, eroso nel tempo da elusione, partenze e rischio di abolizione"
+01-P24,EQU,1,2,1,M,no,"Progressività dove il sistema è regressivo; ma la cima più mobile (59% del gettito sopra 50 mln) può uscire senza exit tax e le valutazioni creano iniquità orizzontale"
+01-P24,SIC,-1,0,0,M,no,"Dichiarazione patrimoniale completa sopra 3 mln e incrocio di archivi: ingerenza mirata, con base di legge, da proteggere da accessi e fughe di dati"
+01-P24,CIT,0,1,0,B,no,"Rafforza la reciprocità percepita, ma l'esperienza svizzera e colombiana mostra forte risposta elusiva in cima che riduce l'adempimento spontaneo"

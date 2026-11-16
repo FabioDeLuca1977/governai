@@ -4,21 +4,21 @@
 
 | Anno | Spesa | di cui risorse generali | Gettito risorse generali | Saldo risorse generali (prudente) | Saldo (favorevole) | Coesione 2021-27 | Da rifinanziare dopo il 2029 |
 |---|---|---|---|---|---|---|---|
-| 2027 | 5,93 | 4,55 | 0,10 | **−4,45** | 0,34 | 1,23 | 0,00 |
-| 2028 | 10,91 | 8,41 | 4,89 | **−3,52** | 0,11 | 2,23 | 0,00 |
-| 2029 | 13,56 | 10,51 | 8,52 | **−1,99** | −0,55 | 2,73 | 0,00 |
-| 2030 | 11,62 | 11,30 | 9,96 | **−1,34** | −0,80 | 0,00 | 0,56 |
-| 2031 | 11,54 | 11,22 | 10,51 | **−0,72** | −0,46 | 0,00 | 0,56 |
-| 2032 | 11,54 | 11,22 | 10,76 | **−0,46** | −0,30 | 0,00 | 0,56 |
-| 2033 | 11,54 | 11,22 | 10,93 | **−0,30** | −0,15 | 0,00 | 0,56 |
-| 2034 | 11,54 | 11,22 | 11,08 | **−0,15** | 0,00 | 0,00 | 0,56 |
-| 2035 | 11,54 | 11,22 | 11,23 | **0,00** | 0,00 | 0,00 | 0,56 |
+| 2027 | 5,86 | 4,55 | 0,10 | **−4,44** | 0,37 | 1,17 | 0,00 |
+| 2028 | 10,78 | 8,41 | 4,92 | **−3,49** | 0,18 | 2,10 | 0,00 |
+| 2029 | 13,64 | 10,70 | 8,58 | **−2,11** | −0,61 | 2,63 | 0,00 |
+| 2030 | 11,80 | 11,48 | 10,09 | **−1,39** | −0,80 | 0,00 | 0,51 |
+| 2031 | 11,72 | 11,40 | 10,68 | **−0,73** | −0,46 | 0,00 | 0,51 |
+| 2032 | 11,72 | 11,40 | 10,94 | **−0,46** | −0,29 | 0,00 | 0,51 |
+| 2033 | 11,72 | 11,40 | 11,11 | **−0,29** | −0,14 | 0,00 | 0,51 |
+| 2034 | 11,72 | 11,40 | 11,26 | **−0,14** | 0,01 | 0,00 | 0,51 |
+| 2035 | 11,72 | 11,40 | 11,41 | **0,01** | 0,01 | 0,00 | 0,51 |
 
 ## In breve
 
-- **Anni scoperti sulle risorse generali: 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034.** Lo scoperto massimo è di 4,45 mld (2027); in tutto 12,93 mld negli anni scoperti (ipotesi prudente).
-- Anche con l'ipotesi favorevole restano scoperti 2029, 2030, 2031, 2032, 2033: massimo 0,80 mld, in tutto 2,26 mld.
-- Dal 2030 vanno rifinanziati 0,56 mld l'anno di spesa oggi pagata con la coesione 2021-2027.
+- **Anni scoperti sulle risorse generali: 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034.** Lo scoperto massimo è di 4,44 mld (2027); in tutto 13,05 mld negli anni scoperti (ipotesi prudente).
+- Anche con l'ipotesi favorevole restano scoperti 2029, 2030, 2031, 2032, 2033: massimo 0,80 mld, in tutto 2,30 mld.
+- Dal 2030 vanno rifinanziati 0,51 mld l'anno di spesa oggi pagata con la coesione 2021-2027.
 - Alcuni fondi vincolati non bastano in qualche anno: colonna `scoperto_vincolati` nel calcolo.
 
 ## Calendario di avvio (scelte del 13 novembre 2026)
@@ -27,14 +27,14 @@ Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno (ipote
 
 | Anno | Spesa prevista sulle risorse generali | Spesa avviata | Rinviata | di cui nucleo | Riforme a costo quasi zero | Nucleo e primo gruppo | Altre misure |
 |---|---|---|---|---|---|---|---|
-| 2027 | 4,55 | 0,10 | 4,45 | 3,17 | 100% | 1% | 0% |
-| 2028 | 8,41 | 4,85 | 3,56 | 1,18 | 100% | 79% | 0% |
-| 2029 | 10,51 | 8,48 | 2,03 | 0,00 | 100% | 100% | 21% |
-| 2030 | 11,30 | 9,90 | 1,40 | 0,00 | 100% | 100% | 47% |
-| 2031 | 11,22 | 10,45 | 0,78 | 0,00 | 100% | 100% | 70% |
-| 2032 | 11,22 | 10,70 | 0,52 | 0,00 | 100% | 100% | 80% |
-| 2033 | 11,22 | 10,87 | 0,36 | 0,00 | 100% | 100% | 86% |
-| 2034 | 11,22 | 11,02 | 0,20 | 0,00 | 100% | 100% | 92% |
-| 2035 | 11,22 | 11,17 | 0,06 | 0,00 | 100% | 100% | 98% |
+| 2027 | 4,55 | 0,10 | 4,45 | 3,70 | 100% | 0% | 0% |
+| 2028 | 8,41 | 4,88 | 3,53 | 1,91 | 100% | 70% | 0% |
+| 2029 | 10,70 | 8,54 | 2,16 | 0,38 | 100% | 96% | 0% |
+| 2030 | 11,48 | 10,03 | 1,45 | 0,00 | 100% | 100% | 21% |
+| 2031 | 11,40 | 10,62 | 0,78 | 0,00 | 100% | 100% | 56% |
+| 2032 | 11,40 | 10,88 | 0,52 | 0,00 | 100% | 100% | 70% |
+| 2033 | 11,40 | 11,05 | 0,35 | 0,00 | 100% | 100% | 80% |
+| 2034 | 11,40 | 11,20 | 0,20 | 0,00 | 100% | 100% | 89% |
+| 2035 | 11,40 | 11,35 | 0,05 | 0,00 | 100% | 100% | 97% |
 
-In tutto slittano 13,36 mld di spesa negli anni di passaggio, di cui 4,35 del nucleo robusto; sulla coesione slittano 0,96 mld di spese una tantum oltre la capienza.
+In tutto slittano 13,49 mld di spesa negli anni di passaggio, di cui 5,99 del nucleo robusto; sulla coesione slittano 0,73 mld di spese una tantum oltre la capienza.

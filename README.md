@@ -17,11 +17,12 @@ L'interfaccia web pubblicata in `docs/` contiene:
 |---|---|
 | `00_metodo.md` | Metodo comune degli agenti ministeriali |
 | `01_carta_valori.md` | Carta dei 10 valori: Rispetto e diversità, Fiducia e trasparenza, Innovazione, Benessere, Apprendimento e cultura, Bellezza patrimonio e accoglienza, Responsabilità verso il futuro, Equità, Sicurezza senza controllo assoluto, Cittadinanza responsabile |
-| `ministeri/` | 9 dossier ministeriali e 83 proposte |
+| `ministeri/` | 9 dossier ministeriali e 92 proposte |
 | `dati/` | Base dati ufficiale: script di download (Eurostat, ISTAT, MEF, …), serie, verifiche di 334 cifre su fonte primaria, storico |
+| `storia/` | Cinquant'anni di decisioni pubbliche in Italia: catalogo di 120 decisioni dal 1977 al 2026, con effetti documentati e lezioni per GovernAI (`decisioni_1977_2026.md`), e 31 serie storiche lunghe dal 1977 confrontate con Francia, Germania e Spagna (`serie_lunghe.md`) |
 | `registro/` | Registro unico delle coperture e vincolo di bilancio |
 | `motore/` | Panel di 3 valutatori indipendenti e analisi di robustezza ai valori (SMAA) |
-| `programma/` | 249 varianti, 93 misure di copertura, ottimizzatore senza deficit, schede pronte (articolato normativo, cronoprogramma, indicatori) |
+| `programma/` | 277 varianti, 97 misure di copertura, ottimizzatore senza deficit, schede pronte (articolato normativo, cronoprogramma, indicatori) |
 | `20_programma_governai.md` | Il programma completo: versioni base, completa e intermedia, tutte senza deficit, verificate giuridicamente |
 | `21_idee_in_sintesi.md` | Le idee in dieci minuti |
 | `22_programma_in_una_pagina.md` | Il programma in una pagina: perché, come, cosa misuriamo, chi ne beneficia (generato da `programma/schema.yaml`) |

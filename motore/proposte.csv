@@ -82,3 +82,12 @@ proposta_id,titolo,costo_min,costo_max,costo_opportunita
 01-P18,"Registro mensile dei redditi Entrate-INPS per conto fiscale e prestazioni",0.005,0.04,0.0
 02-C8,"Aggancio protetto e correttore automatico e temporaneo sulla spesa pensionistica",0.0,0.0,0.0
 02-C9,"Politiche attive dopo il PNRR: nucleo minimo di GOL",0.03,0.45,0.0
+01-P19,"Holding personali: sugli utili parcheggiati la stessa imposta che possedendo direttamente, con le imprese operative e chi reinveste esclusi",0.007,0.011,0.0
+01-P21,"Fine dei contenitori: polizze vita senza rischio assicurativo e trust esteri opachi tassati come investimenti",0.002,0.004,0.0
+01-P22,"Eredità: l'impresa che lavora resta esente, il patrimonio passivo no; gli eredi mantengono il costo fiscale oltre 1 mln",0.002,0.003,0.0
+01-P23,"Sapere chi paga quanto: statistica ufficiale delle aliquote effettive e unità per i grandi patrimoni con adempimento collaborativo",0.002,0.015,0.0
+08-P8,"Influenza alla luce del sole: registro obbligatorio delle lobby per tutti, parti sociali comprese, agenda pubblica e impronta legislativa",0.0005,0.004,0.0
+08-P9,"Integrità di chi decide: dichiarazioni verificate, conflitti di interessi e porte girevoli",0.0005,0.01,0.0
+08-P10,"Chi c'è dietro: titolare effettivo verificato per gare e fondi pubblici",0.0005,0.004,0.0
+08-P11,"Verifiche a sorte: audit casuali sorteggiati sugli enti che spendono fondi pubblici",0.0015,0.01,0.0
+07-C7,"Direttiva anticorruzione recepita bene, con un reato stretto e tutele contro la paura della firma, e sostegno a chi segnala",0.0005,0.006,0.0

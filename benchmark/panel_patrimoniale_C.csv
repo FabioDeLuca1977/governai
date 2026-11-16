@@ -1,0 +1,11 @@
+proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
+01-P24,RIS,0,0,0,M,no,"Nessun diritto fondamentale leso: soglia alta, tetto sul reddito, aliquote sotto il rendimento; la presunzione quinquennale di residenza inverte l'onere della prova, ma con prova contraria"
+01-P24,FID,0,1,1,B,no,"Precompilata e valutazione DF-UPB aiutano; ma contenzioso sulle valutazioni, disparità contabile/mercato (rischio art. 3, BVerfG 1995) e rischio di abrogazione come in Francia e Germania"
+01-P24,INN,-1,-1,-1,B,no,"Quotate a valore di mercato, non quotate al contabile: disincentivo alla quotazione; senza exit tax generale partenze di azionisti-dirigenti (Francia: -15% attività dell'impresa); Norvegia non mostra cali"
+01-P24,BEN,0,0,0,M,no,"Colpisce circa 95.000 persone sopra 5 mln, con tetto e rate per le imprese; nessun effetto rilevante sul benessere diffuso; gettito contato nelle coperture"
+01-P24,APC,0,0,0,A,no,Nessun effetto su istruzione e cultura
+01-P24,BPA,0,0,0,M,no,"Beni culturali vincolati aperti al pubblico esclusi; dimore storiche non vincolate e collezioni tassate, ma tetto sul reddito e vincoli all'esportazione limitano il rischio"
+01-P24,FUT,0,1,1,B,no,"Gettito realistico 1-3,5 mld invece di 2-5: rinvii fino a successione, tetto che morde sugli utili trattenuti, fuga senza exit tax che erode anche IRPEF e successioni future"
+01-P24,EQU,1,1,1,M,no,"Più progressività dove il sistema è regressivo; ma senza exit tax generale i più mobili sopra 50 mln (59% del gettito) sfuggono, e pagano soprattutto i patrimoni 5-20 mln"
+01-P24,SIC,-1,-1,-1,B,no,"Archivio centrale nominativo dei patrimoni sopra 3 mln, con arte e gioielli dichiarati per oggetto: bersaglio di fughe di dati e criminalità; nessuna sorveglianza di massa"
+01-P24,CIT,0,1,1,B,no,"Reciprocità fiscale visibile (chi ha di più contribuisce); attenuata da pianificazione elusiva e trasferimenti di residenza che premiano chi esce"

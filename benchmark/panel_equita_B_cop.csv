@@ -1,0 +1,7 @@
+misura_id,RIS,FID,INN,BEN,APC,BPA,FUT,EQU,SIC,CIT,motivazione
+FN05,0,1,0,0,0,0,1,1,0,0,"Acconto del 13% scomputabile alla distribuzione: in parte anticipo d'imposta, solo holding passive sopra 5 mln; stima senza dati DF"
+FN06,0,1,-1,0,0,0,1,2,0,0,"Pareggia il 26% del socio persona fisica e include holding estere: più equità al vertice, ma più incentivo a riorganizzazioni e mobilità"
+FN07,0,0,-1,0,0,0,1,1,-1,0,"Addizionale oltre 250.000 euro: progressività lieve; richiede comunicazione per codice fiscale di tutti i redditi finanziari e crea lock-in"
+FN08,0,0,-1,0,0,0,1,1,0,0,"Soglia a 100.000 euro allarga la base a professionisti e pensionati con grandi risparmi; base mobile e gettito incerto"
+FN09,0,1,0,0,0,0,1,1,0,0,"Polizze senza rischio e trust tassati come investimenti: gettito piccolo, graduale, stime da verificare con IVASS"
+FN10,0,1,0,0,0,0,1,2,0,0,"Esenzione successoria limitata agli attivi operativi: colpisce eredi di grandi patrimoni passivi; rate decennali evitano vendite forzate"

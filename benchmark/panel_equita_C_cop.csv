@@ -1,0 +1,7 @@
+misura_id,RIS,FID,INN,BEN,APC,BPA,FUT,EQU,SIC,CIT,motivazione
+FN05,0,1,0,0,0,0,1,2,0,0,"Acconto del 13% sugli utili parcheggiati in holding passive: gettito senza deficit dal top, in parte anticipo d'imposta"
+FN06,0,1,-1,0,0,0,1,2,0,0,"Aliquota piena e holding estere: più equità ma più incentivo a riorganizzazioni e trasferimenti; base incerta"
+FN07,0,1,-1,0,0,0,1,1,0,0,"Addizionale oltre 250.000 euro: progressività modesta, lock-in sulle plusvalenze e fuga verso titoli di Stato"
+FN08,0,0,-1,-1,0,0,1,1,0,0,"Soglia a 100.000 euro tocca anche risparmiatori benestanti che vivono di rendita; gettito piccolo su base mobile"
+FN09,0,1,0,0,0,0,1,1,0,0,"Polizze senza rischio e trust: tassazione per sostanza, gettito graduale e incerto, enforcement estero difficile"
+FN10,0,1,0,0,0,0,1,2,0,0,"Esenzione successoria limitata agli attivi operativi: equità intergenerazionale con rate decennali; rischio classificazione PMI"
