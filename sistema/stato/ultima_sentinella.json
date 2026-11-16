@@ -1,11 +1,21 @@
 {
- "data": "2026-11-15T13:44:54",
+ "data": "2026-11-16T09:00:12",
  "prima_esecuzione": false,
- "eurostat_aggiornati": [],
+ "eurostat_aggiornati": [
+  "demo_pjan",
+  "demo_pjangroup",
+  "migr_pop1ctz"
+ ],
  "file_aggiornati": [],
  "documenti_nuovi": [],
  "errori": [],
- "script": {},
- "serie_cambiate": [],
- "modalita": "nessun aggiornamento"
+ "script": {
+  "00_macro.py": "ok",
+  "05_istruzione.py": "ok",
+  "07_giustizia.py": "ok"
+ },
+ "serie_cambiate": [
+  "popolazione"
+ ],
+ "modalita": "mirato"
 }

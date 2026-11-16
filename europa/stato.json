@@ -1,25 +1,25 @@
 {
- "aggiornato": "2026-11-15",
+ "aggiornato": "2026-11-16",
  "fonti": {
-  "cellar_gu_l": "ok: 0 atti nuovi dal 2026-11-07",
+  "cellar_gu_l": "ok: 0 atti nuovi dal 2026-11-08",
   "cellar_testi": "0/0 testi di direttive",
-  "cellar_direttive": "ok: 145 direttive con termine tra 2023-11-15 e 2028-11-15",
-  "cellar_proposte": "ok: 49 proposte dal 2026-09-16",
+  "cellar_direttive": "ok: 145 direttive con termine tra 2023-11-16 e 2028-11-16",
+  "cellar_proposte": "ok: 53 proposte dal 2026-09-17",
   "cellar_semestre": "ok: 16 documenti",
   "ecfin_edp": "ok: 9 passaggi",
   "eurinfra": "ok: 84 procedure (il sito dichiara 84)",
   "dpe_aggiornamenti": "ok: 10 aggiornamenti"
  },
- "ultima_esecuzione": "2026-11-15T09:01:28",
+ "ultima_esecuzione": "2026-11-16T09:02:20",
  "archivio": {
   "atti_gu_l": 857,
   "dal": "2026-09-09",
   "direttive_monitorate": 145,
-  "proposte_ue": 68,
+  "proposte_ue": 72,
   "testi": 5
  },
  "totali": {
-  "novita_30g": 296,
+  "novita_30g": 282,
   "scadenze": 144,
   "scadenze_per_priorita": {
    "critica": 23,
@@ -34,20 +34,20 @@
  "per_area": {
   "01": {
    "nome": "Economia e imprese",
-   "novita_30g": 113,
+   "novita_30g": 109,
    "novita_30g_alta": 10,
-   "obblighi_30g": 37,
+   "obblighi_30g": 34,
    "opportunita_30g": 2,
    "vincoli_bilancio_30g": 0,
    "direttive_in_scadenza_12m": 13,
    "direttive_scadute_senza_misure": 1,
    "direttive_con_infrazione": 13,
    "infrazioni_aperte": 28,
-   "proposte_ue_30g": 3
+   "proposte_ue_30g": 6
   },
   "02": {
    "nome": "Lavoro, welfare e famiglia",
-   "novita_30g": 23,
+   "novita_30g": 22,
    "novita_30g_alta": 2,
    "obblighi_30g": 8,
    "opportunita_30g": 0,
@@ -60,48 +60,48 @@
   },
   "03": {
    "nome": "Ambiente, energia e agricoltura",
-   "novita_30g": 120,
+   "novita_30g": 114,
    "novita_30g_alta": 6,
-   "obblighi_30g": 48,
+   "obblighi_30g": 44,
    "opportunita_30g": 2,
    "vincoli_bilancio_30g": 0,
    "direttive_in_scadenza_12m": 12,
    "direttive_scadute_senza_misure": 0,
    "direttive_con_infrazione": 12,
    "infrazioni_aperte": 39,
-   "proposte_ue_30g": 4
+   "proposte_ue_30g": 5
   },
   "04": {
    "nome": "Infrastrutture e territori",
-   "novita_30g": 49,
+   "novita_30g": 46,
    "novita_30g_alta": 6,
-   "obblighi_30g": 17,
+   "obblighi_30g": 16,
    "opportunita_30g": 1,
    "vincoli_bilancio_30g": 0,
    "direttive_in_scadenza_12m": 6,
    "direttive_scadute_senza_misure": 0,
    "direttive_con_infrazione": 3,
    "infrazioni_aperte": 14,
-   "proposte_ue_30g": 1
+   "proposte_ue_30g": 2
   },
   "05": {
    "nome": "Istruzione, ricerca e cultura",
-   "novita_30g": 5,
+   "novita_30g": 4,
    "novita_30g_alta": 1,
-   "obblighi_30g": 3,
+   "obblighi_30g": 2,
    "opportunita_30g": 1,
    "vincoli_bilancio_30g": 0,
    "direttive_in_scadenza_12m": 1,
    "direttive_scadute_senza_misure": 0,
    "direttive_con_infrazione": 0,
    "infrazioni_aperte": 0,
-   "proposte_ue_30g": 1
+   "proposte_ue_30g": 2
   },
   "06": {
    "nome": "Salute",
-   "novita_30g": 62,
+   "novita_30g": 59,
    "novita_30g_alta": 1,
-   "obblighi_30g": 19,
+   "obblighi_30g": 17,
    "opportunita_30g": 0,
    "vincoli_bilancio_30g": 0,
    "direttive_in_scadenza_12m": 1,
@@ -112,7 +112,7 @@
   },
   "07": {
    "nome": "Giustizia, interno e difesa",
-   "novita_30g": 56,
+   "novita_30g": 54,
    "novita_30g_alta": 24,
    "obblighi_30g": 30,
    "opportunita_30g": 2,
@@ -121,13 +121,13 @@
    "direttive_scadute_senza_misure": 0,
    "direttive_con_infrazione": 5,
    "infrazioni_aperte": 7,
-   "proposte_ue_30g": 6
+   "proposte_ue_30g": 4
   },
   "08": {
    "nome": "Esteri, Europa e istituzioni",
-   "novita_30g": 127,
+   "novita_30g": 121,
    "novita_30g_alta": 29,
-   "obblighi_30g": 40,
+   "obblighi_30g": 39,
    "opportunita_30g": 7,
    "vincoli_bilancio_30g": 0,
    "direttive_in_scadenza_12m": 2,
@@ -138,9 +138,9 @@
   },
   "09": {
    "nome": "PA e digitale",
-   "novita_30g": 27,
+   "novita_30g": 26,
    "novita_30g_alta": 9,
-   "obblighi_30g": 12,
+   "obblighi_30g": 11,
    "opportunita_30g": 2,
    "vincoli_bilancio_30g": 0,
    "direttive_in_scadenza_12m": 5,

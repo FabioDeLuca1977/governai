@@ -1,13 +1,13 @@
-# Bollettino GovernAI — 2026-11-15
+# Bollettino GovernAI — 2026-11-16
 
-*Generato automaticamente da `sistema/pipeline.py` alle 13:46. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 09:03. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
-- Modalità di aggiornamento: **nessun aggiornamento**
-- Dataset Eurostat aggiornati: nessuno
+- Modalità di aggiornamento: **mirato**
+- Dataset Eurostat aggiornati: demo_pjan, demo_pjangroup, migr_pop1ctz
 - File ufficiali aggiornati: 0
-- Serie cambiate e archiviate in `dati/storico/`: nessuna
+- Serie cambiate e archiviate in `dati/storico/`: popolazione
 - Documenti nuovi sulle pagine osservate: 0
 
 ## 2. Cruscotto
@@ -51,7 +51,36 @@
 
 ## 4. Programma del momento
 
-Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
+Il programma di riferimento (tutte le coperture, nucleo robusto prima) costa **13,54 mld/anno**; il programma adattato al momento costa **13,54 mld/anno**. Entrambi sono finanziati senza deficit.
+
+**Differenze rispetto al riferimento** (effetto delle allerte):
+
+- 01-P5: ESSENZIALE → PIENA
+- 02-C1: ZERO → PIENA
+- 04-P1: PILOTA → esclusa
+- 04-P7: ESSENZIALE → PILOTA
+- 05-C7: PIENA → ESSENZIALE
+- 06-C9: PIENA → ESSENZIALE
+
+**Cambiamenti rispetto al bollettino precedente:**
+
+- 01-P16: esclusa → PIENA
+- 01-P17: esclusa → PIENA
+- 01-P18: esclusa → PIENA
+- 01-P6: ESSENZIALE → PIENA
+- 01-P8: ZERO → ESSENZIALE
+- 02-C8: esclusa → PIENA
+- 02-C9: esclusa → PILOTA
+- 03-P5: esclusa → PILOTA
+- 04-P1: PILOTA → esclusa
+- 04-P8: ZERO → PIENA
+- 05-C10: PILOTA → esclusa
+- 05-C5: ESSENZIALE → PIENA
+- 05-C8: ESSENZIALE → PIENA
+- 07-C2: ESSENZIALE → PIENA
+- 07-C6: PILOTA → PIENA
+
+Dettaglio: `programma/selezione_momento.md`.
 
 ## 5. Revisione AI richiesta
 
@@ -59,11 +88,15 @@ Nessuna revisione necessaria.
 
 ## Registro tecnico
 
-- sentinella: sentinella: nessun aggiornamento; Eurostat aggiornati 0, file 0, documenti nuovi 0, serie cambiate 0, errori 0
+- sentinella: sentinella: mirato; Eurostat aggiornati 3, file 0, documenti nuovi 0, serie cambiate 1, errori 0
 - apprendimento: 193 KPI, stati {'manuale': 147, 'in osservazione': 46}, aree calibrate 0
 - legislazione: archivio GU: 699 atti, 699 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
-- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
+- europa: europa: 857 atti GU L in archivio, 282 negli ultimi 30 giorni; 144 direttive con termine (23 critiche, 11 alte); 84 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 24
+- giurisprudenza: pronunce citate: 81; verificate: 81; da controllare: []
 - costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
 - consiglio: 95 previsioni, 0 verificate oggi, 8 verificate in totale
 - verifica sedute: 2 attive, 0 confermate, 2 da riesaminare
-- modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
+- controlla.py: avvisi: 0  ->  bilancio.md
+- decidi.py: -> esito.md, esito_proposte.csv
+- ottimizza.py (riferimento): spesa 13.54  coperture 11.45  proposte 74/83  -> selezione_riferimento.md
+- ottimizza.py (momento): spesa 13.54  coperture 11.45  proposte 73/83  -> selezione_momento.md

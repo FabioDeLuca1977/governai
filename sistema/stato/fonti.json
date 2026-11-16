@@ -21,9 +21,9 @@
   "prc_hicp_aind": "06.02.2026",
   "prc_hpi_a": "01.10.2026",
   "demo_gind": "27.10.2026",
-  "demo_pjan": "13.11.2026",
-  "demo_pjangroup": "13.11.2026",
-  "migr_pop1ctz": "13.11.2026",
+  "demo_pjan": "15.11.2026",
+  "demo_pjangroup": "15.11.2026",
+  "migr_pop1ctz": "15.11.2026",
   "demo_find": "13.11.2026",
   "proj_25ndbi": "11.06.2026",
   "migr_asyappctza": "03.09.2026",
@@ -605,7 +605,7 @@
   "obi_regioni_perdite_oltre_50": "bfa4b2f4715bd634e285118b1b7ddcb99b60306b241f72f6d3857e24fd71b321",
   "obi_rimpatri_su_ordini": "5cef83032c2adfc73ed6129bc057f883ccc946830df5c9b531fb58d8dd286cb9",
   "pil_mld_eur": "f4aa735745471d5f7313b6b40d82fee3033158caeb7f037d9c11022d90db13d5",
-  "popolazione": "6be399de9faac5b6989eafa380ad2a718fc6647d69df2020bedd59dd665bd019",
+  "popolazione": "eacd3665d510a3131066639ac7d941be0159baa70e0251e0e9334d4e89602fcc",
   "spesa_interessi_pil": "6887b869beeabbcdba41e548899a098202c2f7d0f3a0e7ba7fdc34ad58aaf340"
  }
 }
