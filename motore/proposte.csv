@@ -82,7 +82,7 @@ proposta_id,titolo,costo_min,costo_max,costo_opportunita
 01-P18,"Registro mensile dei redditi Entrate-INPS per conto fiscale e prestazioni",0.005,0.04,0.0
 02-C8,"Aggancio protetto e correttore automatico e temporaneo sulla spesa pensionistica",0.0,0.0,0.0
 02-C9,"Politiche attive dopo il PNRR: nucleo minimo di GOL",0.03,0.45,0.0
-01-P19,"Holding personali: sugli utili parcheggiati la stessa imposta che possedendo direttamente, con le imprese operative e chi reinveste esclusi",0.007,0.011,0.0
+01-P19,"Holding personali: sugli utili parcheggiati la stessa imposta che possedendo direttamente, con le imprese operative e chi reinveste esclusi",0.011,0.016,0.0
 01-P21,"Fine dei contenitori: polizze vita senza rischio assicurativo e trust esteri opachi tassati come investimenti",0.002,0.004,0.0
 01-P22,"Eredità: l'impresa che lavora resta esente, il patrimonio passivo no; gli eredi mantengono il costo fiscale oltre 1 mln",0.002,0.003,0.0
 01-P23,"Sapere chi paga quanto: statistica ufficiale delle aliquote effettive e unità per i grandi patrimoni con adempimento collaborativo",0.002,0.015,0.0
@@ -91,3 +91,5 @@ proposta_id,titolo,costo_min,costo_max,costo_opportunita
 08-P10,"Chi c'è dietro: titolare effettivo verificato per gare e fondi pubblici",0.0005,0.004,0.0
 08-P11,"Verifiche a sorte: audit casuali sorteggiati sugli enti che spendono fondi pubblici",0.0015,0.01,0.0
 07-C7,"Direttiva anticorruzione recepita bene, con un reato stretto e tutele contro la paura della firma, e sostegno a chi segnala",0.0005,0.006,0.0
+01-P24,"Grandi patrimoni: un'imposta minima solo sopra 50 milioni, meno le imposte sul reddito già pagate, con exit tax e valutazione uguale per tutti i beni; prima si misura",0.005,0.02,0.0
+01-P25,"Imprese di persone come le SRL: 24% sugli utili lasciati in azienda da ditte, SNC e SAS in contabilità ordinaria, IRPEF solo su ciò che si preleva; pagata dalla patrimoniale minima",0.63,0.63,0.0

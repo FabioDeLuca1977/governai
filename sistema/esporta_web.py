@@ -33,7 +33,7 @@ AREE = {"01": "Economia, Imprese, Turismo", "02": "Lavoro, Welfare, Famiglia", "
 SCENARI = [
     ("base", "Programma base", "Solo coperture a basso costo sociale", "selezione_livello1.csv"),
     ("completo", "Programma completo", "Con le coperture strutturali", "selezione_livello2.csv"),
-    ("intermedio", "Programma intermedio", "Nessun aumento di tasse su casa, eredità, affitti e IVA; più istruzione e servizi sociali; squadre infermieristiche di quartiere e compensazione dell'autotrasporto inserite per scelta politica; dopo la verifica delle coperture del 13 novembre escono il pilota del personale infermieristico, il credito per la ricerca, il pilota del reddito di inclusione e le merci sul treno; dopo quella del 14 novembre Ufficio per il processo e governo dei flussi migratori passano a pilota; restano accise su tabacco e alcol e il riordino di agevolazioni e sussidi dannosi; dal 12 novembre 2026 entrano, senza tasse in più oltre quelle già previste, Case della Comunità, squadre infermieristiche di quartiere e riqualificazione degli amministrativi della sanità; dal 13 novembre il progetto di vita per le persone con disabilità parte come pilota; 0,06 mld restano da parte per smettere di fumare e per il dopo 2029", "selezione_intermedio.csv"),
+    ("intermedio", "Programma intermedio", "Nessun aumento di aliquote su casa, eredità, affitti e IVA (sulle eredità si chiude solo l'esenzione per i patrimoni finanziari parcheggiati nelle holding); più istruzione e servizi sociali; squadre infermieristiche di quartiere e compensazione dell'autotrasporto inserite per scelta politica; dopo la verifica delle coperture del 13 novembre escono il pilota del personale infermieristico, il credito per la ricerca, il pilota del reddito di inclusione e le merci sul treno; dopo quella del 14 novembre Ufficio per il processo e governo dei flussi migratori passano a pilota; restano accise su tabacco e alcol e il riordino di agevolazioni e sussidi dannosi; dal 12 novembre 2026 entrano, senza tasse in più oltre quelle già previste, Case della Comunità, squadre infermieristiche di quartiere e riqualificazione degli amministrativi della sanità; dal 13 novembre il progetto di vita per le persone con disabilità parte come pilota; 0,06 mld restano da parte per smettere di fumare e per il dopo 2029", "selezione_intermedio.csv"),
     ("momento", "Completo adattato ai dati di oggi", "Il programma completo ricalcolato con le priorità delle allerte attive: cambia quando cambiano i dati e serve a vedere che cosa suggerirebbero, non è un impegno", "selezione_momento.csv"),
     ("dividendo", "Completo + dividendo climatico", "Restituzione compensativa di 1,2 mld del gettito dal taglio dei sussidi ambientalmente dannosi (SAD)", "selezione_dividendo.csv"),
     ("difesa", "Completo + Difesa al 2,5%", "Traiettoria graduale della spesa militare (+9,1 mld)", "selezione_difesa.csv"),
@@ -402,6 +402,24 @@ def storia() -> dict:
     return {"periodi": periodi, "decisioni": dec[campi].to_dict("records"), "serie": serie}
 
 
+def chi_paga() -> dict:
+    """Chi paga davvero: aliquote effettive per gruppo (analisi/chi_paga/calcola.py) e numeri per gruppo (MEF)."""
+    d = RADICE / "analisi" / "chi_paga"
+    if not (d / "pagina.yaml").exists():
+        return {}
+    pag = yaml.safe_load(leggi(d / "pagina.yaml")) or {}
+    r = pd.read_csv(d / "risultati.csv")
+    righe = []
+    for g in pag.get("gruppi", []):
+        t = r[(r.gruppo == g["gruppo"]) & (r.variante == g["variante"])]
+        righe.append({**g, "valori": {str(int(x.reddito_lordo)): [pulisci(x.aliquota_effettiva_imposte), pulisci(x.aliquota_effettiva_totale)]
+                                      for x in t.itertuples()}})
+    pop = pd.read_csv(d / "popolazione.csv", dtype=str).fillna("")
+    neutr = d / "neutralita.csv"
+    return {**{k: v for k, v in pag.items() if k != "gruppi"}, "gruppi": righe, "popolazione": pop.to_dict("records"),
+            "neutralita": pd.read_csv(neutr).to_dict("records") if neutr.exists() else []}
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     conf = yaml.safe_load(leggi(QUI / "config.yaml"))
@@ -507,6 +525,7 @@ def main() -> int:
         "motore": motore_web(),
         "proposte_validate": json.loads(leggi(RADICE / "proposte" / "validati.json") or "[]"),
         "storia": storia(),
+        "chi_paga": chi_paga(),
         "quattro_domande": {k: v for f in sorted((RADICE / "programma").glob("quattro_domande_*.yaml"))
                             for k, v in ((yaml.safe_load(leggi(f)) or {}).get("proposte") or {}).items()},
         "oceano_blu": yaml.safe_load(leggi(RADICE / "programma" / "oceano_blu.yaml")) if (RADICE / "programma" / "oceano_blu.yaml").exists() else {},

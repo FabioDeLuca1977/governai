@@ -1,0 +1,28 @@
+# Testi della pagina "Chi paga davvero" (16/11/2026). Numeri da analisi/chi_paga/risultati.csv (calcolatore con le regole
+# del 2026) e analisi/chi_paga/popolazione.csv (MEF-DF, dichiarazioni 2024; Relazione evasione 2026; studi citati).
+titolo: "Chi paga davvero"
+in_breve: "A parità di reddito prodotto, chi vive di lavoro paga molte più imposte di chi vive di capitale o tiene gli utili in una holding. La differenza non nasce dall'evasione ma da regole legali diverse a seconda di come si guadagna."
+perche: "Dipendenti e pensionati sono l'85,5% dei contribuenti e pagano l'84,8% dell'IRPEF (MEF, dichiarazioni 2024). Circa 26 miliardi di dividendi e quasi 28 miliardi di redditi finanziari sono tassati fuori dall'IRPEF, con aliquote fisse. Contando tutte le imposte, il sistema diventa regressivo per il 5% più ricco: il top 0,1% paga il 32,6% del proprio reddito, contro il 46,1% della media (studio accademico su dati 2015)."
+come: "Abbiamo calcolato, con le regole di legge del 2026, quante imposte paga lo stesso reddito lordo prodotto in nove situazioni diverse, tenendo separati i contributi, che danno una pensione. Il calcolatore è pubblico e si può rifare cambiando le ipotesi."
+cosa: "A 1 milione di euro: socio di SNC 47%, dipendente 44%, chi tiene gli utili della propria società in una holding 29%, rendite finanziarie 26%, affitti con cedolare 21%, titoli di Stato 12,5%. La holding vale circa 18 punti di imposta in meno rispetto alla stessa società senza holding; con l'eredità il vantaggio diventa definitivo."
+chi: "Pagano di più quelli che non possono scegliere come essere tassati: dipendenti, pensionati, soci di società di persone e partite IVA in regime ordinario che dichiarano tutto. Pagano di meno, legalmente, quelli che hanno abbastanza patrimonio da scegliere la forma: holding, rendite, cedolare. Il programma interviene sui canali legali (holding, polizze, eredità) e sull'evasione, con regole diverse. Dal 16/11/2026 la regola sulle holding vale anche per i dividendi della propria società lasciati fermi e non reinvestiti (01-P19); un'imposta minima solo sopra 50 milioni (01-P24) e la parità al 24% per le imprese di persone che lasciano gli utili in azienda (01-P25), pagata da quella imposta, sono pronte ma restano fuori dal programma intermedio."
+evasione: "Per legge partite IVA e società di persone pagano molto; ma secondo il Ministero dell'economia la parte di reddito d'impresa e di lavoro autonomo non dichiarata è in media il 59,7%, contro l'1,6-2,3% del lavoro dipendente (Relazione sull'evasione 2026). Chi è in regola paga moltissimo, e proprio per questo l'evasione di altri nello stesso gruppo è un danno anche per lui. Il programma risponde con l'IVA in tempo reale (01-P3), i controlli mirati con garanzie (01-P10) e nessun condono (01-P12)."
+oceano_blu:
+  eliminare: "La convenienza a parcheggiare gli utili in una holding solo per pagare meno, e i condoni che premiano chi non ha pagato."
+  ridurre: "Il divario di imposta tra chi vive di lavoro e chi vive di capitale, a parità di reddito."
+  aumentare: "La trasparenza: una statistica ufficiale ogni anno su quante imposte paga davvero ogni fascia e ogni gruppo (01-P23)."
+  creare: "Una regola uguale per tutte le forme d'impresa: chi lascia gli utili in azienda paga come una società, chi li preleva o li parcheggia paga come una persona."
+proposte: [01-P19, 01-P21, 01-P22, 01-P23, 01-P24, 01-P25, 01-P3, 01-P10, 01-P12]
+gruppi:
+  - {gruppo: "1 Dipendente privato", variante: "RAL", etichetta: "Dipendente", tipo: lavoro}
+  - {gruppo: "2 Pensione", variante: "pensione lorda", etichetta: "Persona in pensione", tipo: lavoro}
+  - {gruppo: "3 Forfettario 15%", variante: "professionista, gestione separata", etichetta: "Partita IVA forfettaria (professionista)", tipo: lavoro}
+  - {gruppo: "4 Partita IVA ordinaria", variante: "professionista, gestione separata", etichetta: "Professionista in regime ordinario", tipo: lavoro}
+  - {gruppo: "4 Partita IVA ordinaria", variante: "impresa individuale, INPS commercianti", etichetta: "Ditta individuale", tipo: impresa}
+  - {gruppo: "5 Socio di SNC", variante: "2 soci al 50%, INPS commercianti", etichetta: "Socio di SNC", tipo: impresa}
+  - {gruppo: "6 Socio di SRL", variante: "tutto in dividendi", etichetta: "Socio di SRL che distribuisce gli utili", tipo: impresa}
+  - {gruppo: "7 SRL tramite holding", variante: "utili lasciati nella holding", etichetta: "SRL tramite holding, utili lasciati nella holding", tipo: capitale}
+  - {gruppo: "8 Rendite finanziarie", variante: "azioni, fondi, obbligazioni 26%", etichetta: "Rendite finanziarie (26%)", tipo: capitale}
+  - {gruppo: "8 Rendite finanziarie", variante: "titoli di Stato 12,5%", etichetta: "Titoli di Stato (12,5%)", tipo: capitale}
+  - {gruppo: "9 Affitti", variante: "cedolare secca 21%", etichetta: "Affitti con cedolare (21%)", tipo: capitale}
+  - {gruppo: "9 Affitti", variante: "IRPEF ordinaria", etichetta: "Affitti con IRPEF ordinaria", tipo: capitale}

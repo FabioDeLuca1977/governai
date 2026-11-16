@@ -1,0 +1,208 @@
+# Parametri del calcolatore "Chi paga quanto" (regole in vigore nel periodo d'imposta 2026)
+# Ogni voce: valore, fonte (norma), link, eventuale ipotesi. Tutti i valori sono modificabili:
+# calcola.py legge solo questo file, nessun numero fiscale e' scritto nel codice.
+# Ultima verifica: 16/11/2026.
+
+anno: 2026
+
+livelli_reddito: [25000, 50000, 100000, 300000, 1000000]
+
+irpef:
+  scaglioni:
+    valore:            # [limite superiore dello scaglione, aliquota]; null = senza limite
+      - [28000, 0.23]
+      - [50000, 0.33]
+      - [null, 0.43]
+    fonte: "art. 11, c. 1, TUIR (DPR 917/1986) come modificato dall'art. 1, c. 3, L. 30/12/2025 n. 199 (legge di bilancio 2026): secondo scaglione dal 35% al 33%"
+    link:
+      - "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917"
+      - "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2025-12-30;199"
+      - "https://www.ecnews.it/lavoro/news-del-giorno/legge-bilancio-2026-revisione-aliquote-irpef/"
+    ipotesi: >
+      Per i redditi oltre 200.000 euro la L. 199/2025 riduce di 440 euro le detrazioni per oneri al 19%
+      (nuovo c. 5-bis art. 16-ter TUIR). I casi del calcolatore non hanno oneri detraibili, quindi la
+      riduzione non opera ("fino a concorrenza"). Parametro: sterilizzazione_oltre_200k.
+  sterilizzazione_oltre_200k:
+    soglia: 200000
+    importo: 440
+    applica_senza_oneri: false
+    fonte: "art. 16-ter, c. 5-bis, TUIR introdotto dalla L. 199/2025, art. 1, c. 4"
+    link: "https://fiscomania.com/irpef-aliquota-33-secondo-scaglione/"
+
+  detrazione_lavoro_dipendente:     # art. 13, c. 1 e 1.1, TUIR (testo dal 2024, d.lgs. 216/2023 e L. 207/2024)
+    fino_15000: 1955
+    tra_15000_28000: {base: 1910, variabile: 1190, soglia: 28000, ampiezza: 13000}
+    tra_28000_50000: {base: 1910, soglia: 50000, ampiezza: 22000}
+    maggiorazione_25000_35000: 65
+    fonte: "art. 13, c. 1 e c. 1.1, TUIR"
+    link: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917"
+
+  ulteriore_detrazione_cuneo:       # solo reddito di lavoro dipendente (art. 49), non per gli assimilati
+    da: 20000
+    pieno_fino: 32000
+    importo: 1000
+    azzera_a: 40000
+    fonte: "L. 30/12/2024 n. 207, art. 1, c. 6 (strutturale dal 2025)"
+    link: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2024-12-30;207"
+    nota: "La somma esente per redditi fino a 20.000 euro (c. 4) non riguarda i livelli del calcolatore (minimo 25.000)."
+
+  detrazione_pensione:              # art. 13, c. 3, TUIR
+    fino_8500: 1955
+    tra_8500_28000: {base: 700, variabile: 1255, soglia: 28000, ampiezza: 19500}
+    tra_28000_50000: {base: 700, soglia: 50000, ampiezza: 22000}
+    fonte: "art. 13, c. 3, TUIR"
+    link: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917"
+
+  detrazione_autonomo_impresa_minore:   # art. 13, c. 5, TUIR
+    fino_5500: 1265
+    tra_5500_28000: {base: 500, variabile: 765, soglia: 28000, ampiezza: 22500}
+    tra_28000_55000: {base: 500, soglia: 55000, ampiezza: 27000}
+    fonte: "art. 13, c. 5, TUIR (redditi di lavoro autonomo art. 53 e impresa minore art. 66)"
+    link: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917"
+    ipotesi: "Applicata al professionista e all'impresa individuale; non applicata al socio di SNC (reddito di partecipazione, art. 5 TUIR): punto incerto, effetto massimo circa 600 euro a 25.000 e nullo da 55.000."
+
+addizionali:
+  regionale:
+    valore: 0.0173
+    fonte: "art. 50 d.lgs. 446/1997 (aliquota base 1,23%, maggiorabile fino a +2,1 punti); le Regioni applicano aliquote per scaglioni"
+    link: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1997-12-15;446"
+    ipotesi: "Aliquota unica 1,73% (valore tipico delle Regioni del Centro-Nord sui redditi medio-alti). Ipotesi semplificata, modificabile."
+  comunale:
+    valore: 0.008
+    fonte: "art. 1 d.lgs. 360/1998 (aliquota massima 0,8%, applicata dalla maggior parte dei grandi Comuni)"
+    link: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1998-09-28;360"
+    ipotesi: "0,8% senza soglia di esenzione. Ipotesi, modificabile."
+  nota: "Le addizionali non si applicano a forfettario (imposta sostitutiva), cedolare secca, redditi finanziari e dividendi (ritenuta a titolo d'imposta)."
+
+inps:
+  massimale_post_1995:
+    valore: 122295
+    fonte: "art. 2, c. 18, L. 335/1995; valore 2026 da circolare INPS n. 8 del 03/02/2026"
+    link: "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.gestione-separata-le-aliquote-contributive-per-il-2026.html"
+    ipotesi: "Tutte le persone si considerano assicurate dopo il 1995 (sistema contributivo): il massimale vale per tutti. Per chi ha contributi prima del 1996 il massimale non c'e' (dipendenti) o e' 93.707 euro (artigiani e commercianti)."
+  dipendente:
+    aliquota_lavoratore: 0.0919
+    aliquota_aggiuntiva_lavoratore: 0.01
+    soglia_aggiuntiva: 56224
+    aliquota_datore_ivs: 0.2381
+    fonte: "FPLD: 33% IVS (23,81% datore, 9,19% lavoratore); +1% oltre la prima fascia di retribuzione pensionabile (art. 3-ter DL 384/1992); fascia 2026 = 56.224 euro"
+    link:
+      - "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:1992-09-19;384"
+      - "https://www.ecnews.it/lavoro/imposte-contributi-e-premi/contributi-e-premi/artigiani-commercianti-valori-contributivi-anno-2026/"
+    nota: "La quota del datore indicata e' solo IVS (pensione). Malattia, maternita', CUAF, NASpI ecc. (circa 5-8 punti a seconda del settore) non sono incluse."
+  gestione_separata:
+    professionisti: 0.2607
+    amministratori: 0.3503
+    quota_carico_amministratore: 0.3333333
+    fonte: "circolare INPS n. 8 del 03/02/2026: professionisti senza cassa 26,07% (25% IVS + 0,72% + 0,35% ISCRO); collaboratori e amministratori 35,03% (33% IVS + 0,72% + 1,31% DIS-COLL), 1/3 a carico del collaboratore e 2/3 della societa'"
+    link: "https://www.informazionefiscale.it/Aliquote-gestione-separata-INPS-2026-importo-contributi"
+  commercianti:
+    aliquota: 0.2448
+    aliquota_oltre_soglia: 0.2548
+    soglia: 56224
+    minimale_reddito: 18808
+    contributo_minimo: 4611.64
+    fonte: "circolare INPS n. 14 del 09/02/2026 (artigiani 24%, commercianti 24,48%; +1 punto oltre 56.224; minimale 18.808)"
+    link: "https://www.ecnews.it/lavoro/imposte-contributi-e-premi/contributi-e-premi/artigiani-commercianti-valori-contributivi-anno-2026/"
+  artigiani:
+    aliquota: 0.24
+    aliquota_oltre_soglia: 0.25
+    soglia: 56224
+    minimale_reddito: 18808
+    contributo_minimo: 4521.36
+    fonte: "circolare INPS n. 14 del 09/02/2026"
+    link: "https://www.ecnews.it/lavoro/imposte-contributi-e-premi/contributi-e-premi/artigiani-commercianti-valori-contributivi-anno-2026/"
+
+forfettario:
+  aliquota: 0.15
+  aliquota_avvio: 0.05
+  limite_ricavi: 85000
+  coefficiente_professionisti: 0.78
+  coefficiente_commercio: 0.40
+  fonte: "L. 190/2014, art. 1, c. 54-89 (limite 85.000 dalla L. 197/2022); allegato 4 (coefficienti: attivita' professionali 78%, commercio al dettaglio e all'ingrosso 40%); contributi deducibili dal reddito (c. 64)"
+  link:
+    - "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2014-12-23;190"
+  ipotesi: >
+    "Reddito lordo prodotto" = ricavi x coefficiente, cioe' si suppone che i costi veri siano pari alla
+    quota forfettaria (100% - coefficiente). Se i costi veri sono piu' bassi il forfettario paga ancora meno.
+    Aliquota del 15% (non quella del 5% dei primi 5 anni). Riduzione contributiva del 35% per artigiani e
+    commercianti forfettari (c. 77) non applicata.
+
+irap:
+  aliquota: 0.039
+  esenzione_persone_fisiche: true
+  deduzione_forfettaria:
+    societa_capitali: [[180759.91, 8000], [180839.91, 6000], [180919.91, 4000], [180999.91, 2000]]
+    societa_persone: [[180759.91, 10500], [180839.91, 7875], [180919.91, 5250], [180999.91, 2625]]
+  fonte: "d.lgs. 446/1997: art. 16 (3,9%), art. 11 c. 4-bis (deduzioni per basi imponibili piccole; maggiorate per societa' di persone e persone fisiche), art. 11 c. 1 lett. b (compensi per collaborazioni, compresi gli amministratori, non deducibili); L. 234/2021 art. 1 c. 8 (persone fisiche esenti dal 2022)"
+  link:
+    - "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1997-12-15;446"
+    - "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2021-12-30;234"
+  ipotesi: "Base IRAP = utile prima dei compensi agli amministratori (senza dipendenti, senza interessi). Aliquota ordinaria, senza maggiorazioni regionali."
+
+ires:
+  aliquota: 0.24
+  fonte: "art. 77 TUIR"
+  link: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917"
+  ipotesi: "IRES 'premiale' al 20% (L. 207/2024, solo 2025 e a condizioni di investimento) non applicata."
+
+dividendi:
+  ritenuta_persona_fisica: 0.26
+  quota_imponibile_holding: 0.05
+  fonte: "art. 27 DPR 600/1973 e art. 1, c. 999-1006, L. 205/2017 (26% anche sulle partecipazioni qualificate dal 2018); art. 89, c. 2, TUIR (dividendi tra societa': imponibile il 5%)"
+  link:
+    - "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1973-09-29;600"
+    - "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2017-12-27;205"
+
+pex:
+  quota_esente: 0.95
+  fonte: "art. 87 TUIR (plusvalenze su partecipazioni detenute da societa': esenti al 95%)"
+  link: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917"
+
+holding:
+  anni_prima_della_distribuzione: 10
+  tasso_sconto: 0.03
+  ipotesi: >
+    Il caso "distribuisce dopo N anni" calcola la ritenuta del 26% pagata fra N anni e la riporta a oggi
+    (valore attuale) con un tasso del 3% (ipotesi, modificabile). Costi di gestione della holding, IRES sui
+    rendimenti reinvestiti e imposta di bollo non considerati.
+  eredita:
+    fonte: "d.lgs. 346/1990 (TUS), art. 3 c. 4-ter (esenzione per trasferimento a discendenti di partecipazioni di controllo, con impegno a mantenerlo 5 anni); art. 68 c. 6 e art. 47 c. 7 TUIR (costo fiscale per l'erede = valore dichiarato in successione)"
+    link: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1990-10-31;346"
+    ipotesi: >
+      Se le quote passano agli eredi, il costo fiscale sale al valore di successione (che comprende gli
+      utili accumulati): una vendita o una liquidazione successiva non genera plusvalenza ne' dividendo
+      tassabile. La lettura per la liquidazione (art. 47 c. 7) e' quella prevalente ma non pacifica.
+
+rendite_finanziarie:
+  aliquota_ordinaria: 0.26
+  aliquota_titoli_stato: 0.125
+  bollo_su_capitale: 0.002
+  rendimento_ipotetico: 0.04
+  fonte: "DL 66/2014 art. 3 (26%); d.lgs. 239/1996 e art. 3 c. 2 DL 66/2014 (12,5% su titoli di Stato e equiparati); art. 13 c. 2-ter Tariffa DPR 642/1972 (bollo 0,2% sui prodotti finanziari)"
+  link:
+    - "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2014-04-24;66"
+    - "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1972-10-26;642"
+  ipotesi: "La variante 'con bollo' suppone un rendimento del 4% sul capitale: il bollo dello 0,2% del capitale vale allora 5 punti del reddito."
+
+affitti:
+  cedolare_ordinaria: 0.21
+  cedolare_concordato: 0.10
+  quota_imponibile_irpef: 0.95
+  fonte: "d.lgs. 23/2011 art. 3 (cedolare 21%; 10% per canone concordato nei Comuni ad alta tensione abitativa, resa stabile dalla L. 213/2023); art. 37 c. 4-bis TUIR (deduzione forfettaria 5% del canone in IRPEF)"
+  link:
+    - "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-03-14;23"
+    - "https://www.agenziaentrate.gov.it/portale/web/guest/schede/fabbricatiterreni/cedolare-secca"
+  ipotesi: "Reddito lordo = canone annuo incassato. IMU (dovuta in entrambi i casi e non deducibile) e imposta di registro (assorbita dalla cedolare) non incluse."
+
+snc:
+  numero_soci: 2
+  ipotesi: "SNC commerciale con 2 soci al 50%; il 'reddito lordo' e' la quota di utile del singolo socio. IRAP calcolata sulla societa' e attribuita per quota. Contributi INPS commercianti."
+
+srl:
+  ipotesi: >
+    "Reddito lordo prodotto" = utile della societa' prima di imposte e del compenso all'amministratore,
+    societa' senza dipendenti. Il socio non e' iscritto alla gestione commercianti (caso del socio di capitale
+    o di attivita' non commerciale). La variante "con compenso" cerca il compenso che riduce al minimo
+    imposte + contributi (passo 1.000 euro).
+  passo_ricerca_compenso: 1000

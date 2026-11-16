@@ -824,3 +824,24 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 .st-dati{ display:grid; gap:12px; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); margin:12px 0; }
 .st-dati .card{ margin:0; }
 .filtri select,.filtri input{ max-width:100%; min-width:0; }
+
+
+/* Chi paga davvero */
+.cp-barre{ list-style:none; padding:0; margin:12px 0; display:grid; gap:8px; }
+.cp-barre li{ display:grid; grid-template-columns:minmax(0,15em) 1fr auto; gap:10px; align-items:center; }
+.cp-nome{ font-size:14px; overflow-wrap:anywhere; }
+.cp-asse{ position:relative; height:18px; background:var(--g-traccia); border-radius:3px; }
+.cp-imp,.cp-tot{ position:absolute; left:0; top:0; bottom:0; border-radius:3px; }
+.cp-tot{ opacity:.3; }
+.lavoro .cp-imp,.lavoro .cp-tot{ background:var(--c-accento); }
+.impresa .cp-imp,.impresa .cp-tot{ background:var(--c-attenzione); }
+.capitale .cp-imp,.capitale .cp-tot{ background:var(--g-negativo); }
+.cp-barre .num{ font-variant-numeric:tabular-nums; white-space:nowrap; }
+.cp-barre .num small{ color:var(--c-testo-2); }
+.cp-leg{ display:flex; flex-wrap:wrap; gap:6px 16px; font-size:13px; margin:10px 0 0; }
+.cp-leg span::before{ content:""; display:inline-block; width:14px; height:10px; margin-right:6px; vertical-align:middle; border-radius:2px; }
+.cp-leg .lavoro::before{ background:var(--c-accento); } .cp-leg .impresa::before{ background:var(--c-attenzione); } .cp-leg .capitale::before{ background:var(--g-negativo); } .cp-leg .contr::before{ background:var(--c-neutro); opacity:.3; }
+@media (max-width:600px){ .cp-barre li{ grid-template-columns:1fr auto; } .cp-barre .cp-asse{ grid-column:1 / -1; grid-row:2; } .cp-nome{ grid-column:1; } }
+.tabella-scorre{ overflow-x:auto; }
+
+.cp-pd .giu{ color:var(--c-favorevole); } .cp-pd .su{ color:var(--c-critico); }

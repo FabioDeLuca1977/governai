@@ -829,16 +829,6 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 02-C9,EQU,1,1,1,M,no,"Priorità a chi è più lontano dal lavoro e ai nuclei ADI; costo RA15 più pesante sulle imprese del Sud"
 02-C9,SIC,0,0,0,A,no,"Nessun effetto su sicurezza"
 02-C9,CIT,1,1,1,M,no,"Patto di servizio rende esplicita la reciprocità tra sostegno e impegno"
-01-P19,RIS,0,0,0,M,no,"Nessun effetto su dignità o diritti; criteri oggettivi, si tocca solo una scelta di forma giuridica"
-01-P19,FID,1,1,2,M,no,"Chiude un canale di rinvio indefinito; ma definizioni complesse, contenzioso e rischio UE (C-68/15, art. 167 in deroga)"
-01-P19,INN,-1,0,0,B,no,"Holding di famiglia che accantonano per acquisizioni o rilanci pagano il 26% prima; vincolo di 3 anni e soglia 60% rigidi"
-01-P19,BEN,0,0,0,M,no,"Colpisce poche migliaia di grandi patrimoni; nessun effetto rilevante sul benessere diffuso"
-01-P19,APC,0,0,0,A,no,"Nessun effetto su istruzione e cultura"
-01-P19,BPA,0,0,0,A,no,"Nessun effetto su patrimonio e accoglienza"
-01-P19,FUT,1,1,1,B,no,"Gettito piccolo e incerto (base ignota), in parte anticipo di imposta futura; effetto modesto sui conti"
-01-P19,EQU,1,2,2,M,no,"Riduce la regressività sopra il 95° percentile; efficacia dipende da riorganizzazioni elusive e tenuta dell'exit tax"
-01-P19,SIC,0,0,0,A,no,"Solo un prospetto in dichiarazione delle società; nessuna raccolta di dati sulle persone"
-01-P19,CIT,1,1,1,M,no,"Rafforza la lealtà fiscale percepita: stesso dividendo, stessa imposta"
 01-P21,RIS,0,0,0,M,no,"Contratti in corso salvi e polizze di vera protezione invariate; nessun effetto sui diritti"
 01-P21,FID,1,2,2,M,no,"Sostanza sulla forma e riapertura del registro dei titolari effettivi; rischio contenzioso e contratti costruiti al limite del 10%"
 01-P21,INN,0,0,0,M,no,"Nicchia assicurativa; nessun effetto rilevante su produttività"
@@ -919,3 +909,33 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 07-C7,EQU,0,0,0,M,no,"Nessun effetto distributivo rilevante"
 07-C7,SIC,0,1,1,B,no,"Più deterrenza contro corruzione e traffico di influenze; premi possono gonfiare segnalazioni opportunistiche e carico ANAC"
 07-C7,CIT,1,1,1,M,no,"Tutela e assistenza legale a chi segnala premiano il coraggio civico; il premio monetario è controverso"
+01-P19,RIS,0,0,0,M,no,"Nessun effetto su dignità o diritti; riserve pregresse e soci di minoranza esclusi, nessuna retroattività"
+01-P19,FID,1,1,2,M,no,"Stessa imposta qualunque sia il contenitore, prospetto e dati pubblici; norma molto complessa con presunzioni e interpelli"
+01-P19,INN,0,0,1,B,no,"Spinge a reinvestire in società operative, PMI ed EuVECA; costi di adempimento e vincoli di liquidità per gruppi familiari"
+01-P19,BEN,0,0,0,M,no,Nessun effetto rilevante sulla vita concreta della maggioranza; gettito piccolo e tardivo
+01-P19,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+01-P19,BPA,0,0,0,A,no,Nessun effetto su patrimonio o accoglienza
+01-P19,FUT,0,1,1,M,no,"Gettito strutturale piccolo (parte A dal 2030, parte B dal 2033); riduce il rinvio indefinito dell'imposta"
+01-P19,EQU,0,1,2,M,no,"Chiude il canale principale della regressività in cima; effetto pieno solo dal 2033, eroso da emigrazione con riserve pregresse"
+01-P19,SIC,0,0,0,A,no,Prospetto dichiarativo mirato a poche migliaia di società; nessuna sorveglianza di massa
+01-P19,CIT,0,1,1,M,no,Rafforza la lealtà fiscale e la reciprocità: chi controlla la holding paga come chi possiede direttamente
+01-P24,RIS,0,0,0,M,no,"Aliquote 1-2% al netto delle imposte sul reddito, non espropriative; unità individuale e minori attribuiti per metà"
+01-P24,FID,0,1,1,B,no,"Prima statistica ufficiale dei grandi patrimoni; rischio di contenzioso sulle valutazioni e di instabilità come altrove in Europa"
+01-P24,INN,0,-1,0,B,no,"Possibili partenze di fondatori e minore liquidità; rate e rinvio per le quote d'impresa, evidenza norvegese senza calo investimenti"
+01-P24,BEN,0,0,0,M,no,Riguarda circa 2.100 persone; nessun effetto rilevante sul benessere della popolazione
+01-P24,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+01-P24,BPA,0,0,0,B,no,Esclusione dei beni culturali vincolati aperti al pubblico: incentivo marginale
+01-P24,FUT,0,1,1,B,no,"Gettito 0,3-1,5 da base piccola e mobile, già impegnato per 01-P25; exit tax limita l'erosione"
+01-P24,EQU,1,2,2,M,no,"Colpisce solo chi paga poco rispetto al patrimonio sopra 50 mln: più contributo da chi ha di più"
+01-P24,SIC,0,0,0,M,no,"Usa dati già in possesso dell'Agenzia, limitati a pochi contribuenti; nessuna sorveglianza generalizzata"
+01-P24,CIT,0,1,1,M,no,Rende credibile la reciprocità fiscale anche in cima alla distribuzione
+01-P25,RIS,0,0,0,M,no,"Regime opzionale: più libertà nella scelta della forma d'impresa, nessuno peggiora"
+01-P25,FID,0,1,1,M,no,"Regola uguale tra forme giuridiche e clausola di stabilità; precedente IRI abrogata, due conti di riserva complessi"
+01-P25,INN,0,1,1,M,no,Favorisce la patrimonializzazione e l'autofinanziamento delle piccole imprese in contabilità ordinaria
+01-P25,BEN,0,1,1,B,no,"Risparmio medio 4.000-5.000 euro per circa due imprese su tre in ordinaria; contributi e pensioni invariati"
+01-P25,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+01-P25,BPA,0,0,0,M,no,Nessun effetto specifico su patrimonio o turismo
+01-P25,FUT,-1,0,0,B,no,"Legame con 01-P24 obbligatorio ma FN12 non copre anno per anno: 1,5 mld scoperti nel 2029 e 0,6 dopo nel caso prudente"
+01-P25,EQU,0,0,0,M,no,"Parità orizzontale tra SNC e SRL, ma beneficio a redditi d'impresa medio-alti e progressività ridotta: effetti che si compensano"
+01-P25,SIC,0,0,0,A,no,Nessun effetto su sicurezza o raccolta dati
+01-P25,CIT,0,0,1,B,no,"Premia chi lascia utili in impresa; antiabuso sui prelievi mascherati tutela la reciprocità"

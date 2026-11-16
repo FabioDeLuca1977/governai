@@ -463,7 +463,7 @@
   }
 
   // ---------- Programma ----------
-  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["pronto", "Pronto domani", "#/programma/pronto"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["proponi", "Proponi un programma", "#/programma/proponi"], ["strategia", "Strategia", "#/programma/strategia"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
+  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["pronto", "Pronto domani", "#/programma/pronto"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["chi-paga", "Chi paga davvero", "#/programma/chi-paga"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["proponi", "Proponi un programma", "#/programma/proponi"], ["strategia", "Strategia", "#/programma/strategia"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
 
   function elenco(params) {
     const sc = scenario(params.get("scenario") || RIF_ID);
@@ -915,6 +915,55 @@
     agganciaGrafico();
     const d = new URLSearchParams(location.hash.split("?")[1] || "").get("d");
     if (d && $("#" + d)) { $("#" + d + " details").open = true; $("#" + d).scrollIntoView({ block: "center" }); }
+  }
+
+  // ---------- Chi paga davvero (analisi/chi_paga) ----------
+  const CP = D.chi_paga || {};
+  const LIVELLI = ["25000", "50000", "100000", "300000", "1000000"];
+  function barreChiPaga(livello) {
+    const righe = (CP.gruppi || []).map((g) => ({ g, v: (g.valori || {})[livello] })).filter((x) => x.v);
+    if (!righe.length) return vuoto("Nessun gruppo con dati a questo livello di reddito.");
+    righe.sort((a, b) => b.v[0] - a.v[0]);
+    return `<ul class="cp-barre">${righe.map(({ g, v }) => `<li class="${esc(g.tipo)}"><span class="cp-nome">${esc(g.etichetta)}</span>
+      <span class="cp-asse"><span class="cp-tot" style="width:${Math.min(v[1] || v[0], 70) / 70 * 100}%"></span><span class="cp-imp" style="width:${Math.min(v[0], 70) / 70 * 100}%"></span></span>
+      <span class="num"><strong>${nf(v[0], 1)}%</strong>${v[1] && Math.abs(v[1] - v[0]) > 0.05 ? ` <small>${nf(v[1], 1)}% con i contributi</small>` : ""}</span></li>`).join("")}</ul>`;
+  }
+  // Prima e dopo le scelte del 16/11/2026: parità per le imprese di persone (01-P25 essenziale, con la patrimoniale minima)
+  // e dividendi parcheggiati nelle holding (dentro 01-P19 piena). Utile lasciato tutto in impresa.
+  function primaDopo() {
+    const N = CP.neutralita || []; if (!N.length) return "";
+    const RIGHE = [["Socio di SNC (2 soci al 50%)", "ESSENZIALE", "Socio di SNC"], ["Ditta individuale in ordinaria", "ESSENZIALE", "Ditta individuale"], ["Socio di SRL (senza holding)", "PIENA", "Socio di SRL"], ["SRL tramite holding, utili fermi", "PIENA", "SRL tramite holding, utili fermi"], ["SRL tramite holding, utili reinvestiti", "PIENA", "SRL tramite holding, utili reinvestiti"]];
+    const LIV = [50000, 100000, 300000, 1000000];
+    const cella = (g, v, r) => { const x = N.find((y) => y.gruppo === g && y.variante_proposta === v && +y.reddito_lordo === r && +y.quota_lasciata_in_impresa === 1); if (!x) return "<td>—</td>"; const d = +x.aliquota_imposte_dopo - +x.aliquota_imposte_prima;
+      return `<td class="num" data-etichetta="${nf(r, 0)} €">${nf(+x.aliquota_imposte_prima, 1)}% ${Math.abs(d) < 0.05 ? `<span class="nota">invariata</span>` : `→ <strong class="${d < 0 ? "giu" : "su"}">${nf(+x.aliquota_imposte_dopo, 1)}%</strong>`}</td>`; };
+    return `<section class="blocco"><h2>Prima e dopo le scelte del programma <small>solo imposte, utile lasciato tutto nell'impresa</small></h2>
+      <div class="tabella-scorre"><table class="tabella cp-pd"><thead><tr><th>Forma d'impresa</th>${LIV.map((r) => `<th class="num">${nf(r, 0)} €</th>`).join("")}</tr></thead>
+      <tbody>${RIGHE.map(([g, v, et]) => `<tr><td class="principale">${esc(et)}</td>${LIV.map((r) => cella(g, v, r)).join("")}</tr>`).join("")}</tbody></table></div>
+      <p class="nota">SNC e ditta individuale: parità con le società (${codici("01-P25")}, versione essenziale, 24% fino a 100.000 € trattenuti per socio), attiva solo insieme alla patrimoniale minima (${codici("01-P24")}). Holding: dividendi della propria società fermi e non reinvestiti oltre la franchigia di 100.000 € l'anno per famiglia (${codici("01-P19")}). Chi preleva tutto non vede cambiamenti. Calcolo: ${ext(repo + "/blob/main/analisi/chi_paga/neutralita.py", "neutralita.py")}.</p></section>`;
+  }
+  function chiPaga(params) {
+    if (!CP.gruppi) return `${schedeProgramma("chi-paga")}${vuoto("Analisi non ancora disponibile.")}`;
+    const liv = LIVELLI.includes(params.get("r")) ? params.get("r") : "1000000";
+    const pop = (CP.popolazione || []).filter((x) => x.numero && x.numero !== "n.d.");
+    return `${schedeProgramma("chi-paga")}
+      <p class="risposta">${esc(CP.in_breve || "")}</p>
+      <section class="card blocco"><h2>Quante imposte paga lo stesso reddito <small>regole di legge del 2026, aliquota effettiva sul reddito lordo prodotto</small></h2>
+        <div class="segmenti" role="group" aria-label="Reddito lordo prodotto">${LIVELLI.map((l) => `<a class="btn s ${l === liv ? "primario" : ""}" href="#/programma/chi-paga?r=${l}" ${l === liv ? 'aria-current="true"' : ""}>${nf(+l, 0)} €</a>`).join("")}</div>
+        <div class="cp-leg"><span class="lavoro">Lavoro e pensione</span><span class="impresa">Impresa</span><span class="capitale">Capitale e holding</span><span class="contr">Parte più chiara: contributi, che danno una pensione</span></div>
+        ${barreChiPaga(liv)}
+        <p class="nota">Ipotesi principali: addizionali regionali e comunali medie, nessuna detrazione per spese, società senza dipendenti. Calcolatore, parametri e fonti: ${ext(repo + "/tree/main/analisi/chi_paga", "analisi/chi_paga")}. Alcuni gruppi non esistono a ogni livello: il forfettario arriva fino a 85.000 € di ricavi.</p>
+      </section>
+      <section class="blocco"><h2>La lettura ragionata</h2>
+        <div class="quattro">${Q4.map(([k, t, ic]) => `<div class="card q4"><p class="q4-t">${icona(ic)}${t}</p><p>${codici(esc(CP[k] || ""))}</p></div>`).join("")}</div>
+        ${CP.oceano_blu ? `<h3 class="q4-sotto">Che cosa vogliamo cambiare <small>griglia della strategia oceano blu</small></h3>${grigliaErrc(CP.oceano_blu, "Elimina, riduce, aumenta, crea")}` : ""}
+      </section>
+      ${CP.evasione ? `<div class="avviso attenzione"><div class="avviso-titolo">${icona("scale")}Il dato scomodo, detto con equilibrio</div><p>${codici(esc(CP.evasione))}</p></div>` : ""}
+      ${pop.length ? `<section class="blocco"><h2>Chi c'è in ogni gruppo <small>dichiarazioni 2024, Ministero dell'economia</small></h2>
+        <div class="tabella-scorre"><table class="tabella"><thead><tr><th>Gruppo</th><th class="num">Persone</th><th class="num">Reddito medio dichiarato</th><th class="num">Imposta media</th><th class="num">Quota dell'IRPEF</th></tr></thead>
+        <tbody>${pop.map((x) => `<tr><td class="principale">${esc(x.gruppo)}</td><td class="num" data-etichetta="Persone">${/^\d+$/.test(x.numero) ? nf(+x.numero, 0) : esc(x.numero)}</td><td class="num" data-etichetta="Reddito medio">${/^\d+$/.test(x.reddito_dichiarato_medio_eur) ? nf(+x.reddito_dichiarato_medio_eur, 0) + " €" : esc(x.reddito_dichiarato_medio_eur)}</td><td class="num" data-etichetta="Imposta media">${/^\d+$/.test(x.imposta_netta_media_eur) ? nf(+x.imposta_netta_media_eur, 0) + " €" : esc(x.imposta_netta_media_eur)}</td><td class="num" data-etichetta="Quota IRPEF">${/^[\d.]+$/.test(x.quota_irpef_totale_pct) ? nf(+x.quota_irpef_totale_pct, 1) + "%" : esc(x.quota_irpef_totale_pct)}</td></tr>`).join("")}</tbody></table></div>
+        <p class="nota">Medie su tutte le persone del gruppo, comprese quelle con imposta zero. Per dividendi, rendite e holding non esistono dati ufficiali per persona: per questo quei gruppi non sono in tabella. Dettagli e fonti: ${ext(repo + "/blob/main/analisi/chi_paga/popolazione.md", "popolazione.md")}.</p></section>` : ""}
+      ${primaDopo()}
+      ${(CP.proposte || []).length ? `<section class="blocco"><h2>Che cosa fa il programma</h2><ul class="elenco">${CP.proposte.filter((x) => proposta(x)).map((x) => `<li><a href="${linkP(x)}">${esc(tit(proposta(x).titolo))}</a> <span class="nota">${esc(x)}${rif.misure[x] ? " · nel programma intermedio" : ""}</span></li>`).join("")}</ul></section>` : ""}`;
   }
 
   const ORIZZ = ["breve", "medio", "lungo"];
@@ -1632,6 +1681,7 @@
       else if (b === "valori") { html = simulatore(); titolo = "I tuoi valori"; }
       else if (b === "proponi") { html = proponi(params); titolo = "Proponi un programma"; }
       else if (b === "strategia") { html = strategia(); titolo = "Strategia oceano blu"; }
+      else if (b === "chi-paga") { html = chiPaga(params); titolo = "Chi paga davvero"; }
       else if (b === "confronti") { html = confronti(params); titolo = "Confronti"; }
       else if (b === "sintesi") { html = sintesi(); titolo = "Le idee in sintesi"; }
       else if (b === "equita") { html = equita(); titolo = "Equità e linguaggio inclusivo"; }

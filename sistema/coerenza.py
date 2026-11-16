@@ -240,6 +240,11 @@ def controlla() -> list[str]:
             scelte = {r["chiave"] for r in csv.DictReader(fh) if r.get("scelta") == "1"}
         if "FN01" in scelte and not scelte & {"01-P8:PIENA", "01-P8:ESSENZIALE"}:
             errori.append(f"{f.name}: FN01 (detrazione istruzione) attiva senza la quota studio di 01-P8")
+        sys.path.insert(0, str(RADICE / "programma"))
+        import ottimizza as _ott
+        for k, req in {**_ott.LEGAMI, **getattr(_ott, "LEGAMI_VARIANTI", {})}.items():
+            if k in scelte and not scelte & set(req):
+                errori.append(f"{f.name}: {k} attiva senza {' o '.join(req)}")
 
     # 18. ogni proposta ragionata: perché, come, che cosa, chi e griglia oceano blu (programma/quattro_domande_*.yaml)
     import yaml

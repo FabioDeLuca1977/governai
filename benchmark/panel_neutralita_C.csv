@@ -1,0 +1,11 @@
+proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
+01-P25,RIS,0,0,0,M,no,"Regime (a) volontario e quinquennale, nessun diritto toccato. La presunzione di distribuzione di (b) sui soci di controllo è relativa e già nota (artt. 116 e 167 TUIR): da verificare su art. 53, non una linea rossa."
+01-P25,FID,0,1,1,M,no,"Stessa regola per tutte le forme e prospetto sulle holding aumentano prevedibilità e trasparenza. Ma la clausola di stabilità è legge ordinaria e non vincola una legge di bilancio successiva (nel 2018 l'IRI fu abrogata proprio in deroga all'art. 3 dello Statuto), e la regola (b) aggiunge contenzioso."
+01-P25,INN,0,1,1,B,no,"Patrimonializzazione delle imprese di persone e meno trasformazioni in SRL solo per il fisco. Il 24% vale anche per la liquidità ferma nella SNC (a differenza di (b), che esige reinvestimento) e le evidenze su IRI e ACE indicano effetti sugli investimenti delle piccole imprese modesti."
+01-P25,BEN,0,0,1,B,no,"Risparmio medio di 4-5 mila euro l'anno per le imprese in ordinaria che trattengono (RT 2017), ma resta nell'impresa e non nel reddito familiare; sotto 35 mila euro nessun guadagno; effetto diffuso trascurabile."
+01-P25,APC,0,0,0,A,no,"Nessun effetto su istruzione, formazione e cultura."
+01-P25,BPA,0,0,0,A,no,"Nessun effetto su patrimonio culturale, paesaggio e accoglienza."
+01-P25,FUT,0,-1,0,M,no,"Picco di cassa 2029 di 1,66-2,38 mld (verificato: 1,256 x fattori x 1,64) e 0,66-1,29 a regime, contro 0,04-0,33 di FN13+FN14 solo dal 2032: restano 0,7-1,3 mld l'anno da coprire tagliando altro. Il costo a regime dipende da un rientro del 5-10% annuo non verificato, che da solo lo riduce di un terzo."
+01-P25,EQU,0,0,0,M,no,"Migliora l'equità orizzontale tra forme (14 punti di distanza a 300 mila euro), ma circa 1 mld di beneficio va soprattutto sopra 100 mila euro, nasce una nuova asimmetria (ditta 23,3% contro SRL 27,9% per l'IRAP) e (b) si aggira lasciando gli utili nella società operativa: effetti che si compensano."
+01-P25,SIC,0,0,0,A,no,"Solo prospetti in dichiarazione e statistica aggregata; nessuna nuova raccolta di dati sulle persone."
+01-P25,CIT,0,0,1,B,no,"Stessa imposta sullo stesso utile rafforza nel tempo la lealtà fiscale percepita, ma rischia di essere letta come sconto ai redditi d'impresa alti e la complessità di (b) riduce la comprensibilità."

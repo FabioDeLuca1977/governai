@@ -1,0 +1,84 @@
+gruppo,variante,reddito_lordo,imposte,contributi,prelievo_totale,aliquota_effettiva_imposte,aliquota_effettiva_totale,contributi_a_carico_datore,note
+1 Dipendente privato,RAL,25000.0,2401.02,2297.5,4698.52,9.6,18.79,5952.5,"IRPEF 1.827 (detrazioni 3.395), addizionali 574; INPS lavoratore 2.298; INPS datore (IVS, a parte, non nel prelievo) 5.952"
+1 Dipendente privato,RAL,50000.0,12933.47,4595.0,17528.47,25.87,35.06,11905.0,"IRPEF 11.785 (detrazioni 399), addizionali 1.149; INPS lavoratore 4.595; INPS datore (IVS, a parte, non nel prelievo) 11.905"
+1 Dipendente privato,RAL,100000.0,33346.48,9627.76,42974.24,33.35,42.97,23810.0,"IRPEF 31.060 (detrazioni 0), addizionali 2.286; INPS lavoratore 9.628; INPS datore (IVS, a parte, non nel prelievo) 23.810"
+1 Dipendente privato,RAL,300000.0,123372.1,11899.62,135271.72,41.12,45.09,29118.44,"IRPEF 116.083 (detrazioni 0), addizionali 7.289; INPS lavoratore 11.900; INPS datore (IVS, a parte, non nel prelievo) 29.118"
+1 Dipendente privato,RAL,1000000.0,442082.1,11899.62,453981.72,44.21,45.4,29118.44,"IRPEF 417.083 (detrazioni 0), addizionali 24.999; INPS lavoratore 11.900; INPS datore (IVS, a parte, non nel prelievo) 29.118"
+2 Pensione,pensione lorda,25000.0,5489.42,0.0,5489.42,21.96,21.96,0.0,"IRPEF 4.857 (detrazione 893), addizionali 632"
+2 Pensione,pensione lorda,50000.0,14965.0,0.0,14965.0,29.93,29.93,0.0,"IRPEF 13.700 (detrazione 0), addizionali 1.265"
+2 Pensione,pensione lorda,100000.0,37730.0,0.0,37730.0,37.73,37.73,0.0,"IRPEF 35.200 (detrazione 0), addizionali 2.530"
+2 Pensione,pensione lorda,300000.0,128790.0,0.0,128790.0,42.93,42.93,0.0,"IRPEF 121.200 (detrazione 0), addizionali 7.590"
+2 Pensione,pensione lorda,1000000.0,447500.0,0.0,447500.0,44.75,44.75,0.0,"IRPEF 422.200 (detrazione 0), addizionali 25.300"
+3 Forfettario 15%,"professionista, gestione separata",25000.0,2772.38,6517.5,9289.88,11.09,37.16,0.0,"ricavi 32.051 (coeff. 78%); sostitutiva 15% 2.772; contributi deducibili 6.518; niente addizionali, niente IVA"
+3 Forfettario 15%,"commercio, INPS commercianti",25000.0,2832.0,6120.0,8952.0,11.33,35.81,0.0,"ricavi 62.500 (coeff. 40%); sostitutiva 15% 2.832; contributi deducibili 6.120; niente addizionali, niente IVA"
+3 Forfettario 15%,"professionista, gestione separata",50000.0,5544.75,13035.0,18579.75,11.09,37.16,0.0,"ricavi 64.103 (coeff. 78%); sostitutiva 15% 5.545; contributi deducibili 13.035; niente addizionali, niente IVA"
+4 Partita IVA ordinaria,"professionista, gestione separata",25000.0,3894.99,6517.5,10412.49,15.58,41.65,0.0,"IRPEF 3.427 (detrazione 824), addizionali 468; contributi 6.518; IRAP non dovuta (persone fisiche esenti dal 2022)"
+4 Partita IVA ordinaria,"impresa individuale, INPS commercianti",25000.0,4009.98,6120.0,10129.98,16.04,40.52,0.0,"IRPEF 3.532 (detrazione 810), addizionali 478; contributi 6.120; IRAP non dovuta (persone fisiche esenti dal 2022)"
+4 Partita IVA ordinaria,"professionista, gestione separata",50000.0,9999.68,13035.0,23034.68,20.0,46.07,0.0,"IRPEF 9.064 (detrazione 334), addizionali 935; contributi 13.035; IRAP non dovuta (persone fisiche esenti dal 2022)"
+4 Partita IVA ordinaria,"impresa individuale, INPS commercianti",50000.0,10296.87,12240.0,22536.87,20.59,45.07,0.0,"IRPEF 9.342 (detrazione 319), addizionali 955; contributi 12.240; IRAP non dovuta (persone fisiche esenti dal 2022)"
+4 Partita IVA ordinaria,"professionista, gestione separata",100000.0,25860.33,26070.0,51930.33,25.86,51.93,0.0,"IRPEF 23.990 (detrazione 0), addizionali 1.870; contributi 26.070; IRAP non dovuta (persone fisiche esenti dal 2022)"
+4 Partita IVA ordinaria,"impresa individuale, INPS commercianti",100000.0,26384.94,24917.76,51302.7,26.38,51.3,0.0,"IRPEF 24.485 (detrazione 0), addizionali 1.900; contributi 24.918; IRAP non dovuta (persone fisiche esenti dal 2022)"
+4 Partita IVA ordinaria,"professionista, gestione separata",300000.0,114273.99,31882.31,146156.29,38.09,48.72,0.0,"IRPEF 107.491 (detrazione 0), addizionali 6.783; contributi 31.882; IRAP non dovuta (persone fisiche esenti dal 2022)"
+4 Partita IVA ordinaria,"impresa individuale, INPS commercianti",300000.0,114858.49,30598.53,145457.02,38.29,48.49,0.0,"IRPEF 108.043 (detrazione 0), addizionali 6.816; contributi 30.599; IRAP non dovuta (persone fisiche esenti dal 2022)"
+4 Partita IVA ordinaria,"professionista, gestione separata",1000000.0,432983.99,31882.31,464866.29,43.3,46.49,0.0,"IRPEF 408.491 (detrazione 0), addizionali 24.493; contributi 31.882; IRAP non dovuta (persone fisiche esenti dal 2022)"
+4 Partita IVA ordinaria,"impresa individuale, INPS commercianti",1000000.0,433568.49,30598.53,464167.02,43.36,46.42,0.0,"IRPEF 409.043 (detrazione 0), addizionali 24.526; contributi 30.599; IRAP non dovuta (persone fisiche esenti dal 2022)"
+5 Socio di SNC,"2 soci al 50%, INPS commercianti",25000.0,5590.31,6120.0,11710.31,22.36,46.84,0.0,"IRPEF 4.342, addizionali 478, quota IRAP della societa' 770; contributi 6.120"
+5 Socio di SNC,"2 soci al 50%, INPS commercianti",50000.0,12361.38,12240.0,24601.38,24.72,49.2,0.0,"IRPEF 9.661, addizionali 955, quota IRAP della societa' 1.745; contributi 12.240"
+5 Socio di SNC,"2 soci al 50%, INPS commercianti",100000.0,30284.94,24917.76,55202.7,30.28,55.2,0.0,"IRPEF 24.485, addizionali 1.900, quota IRAP della societa' 3.900; contributi 24.918"
+5 Socio di SNC,"2 soci al 50%, INPS commercianti",300000.0,126558.49,30598.53,157157.02,42.19,52.39,0.0,"IRPEF 108.043, addizionali 6.816, quota IRAP della societa' 11.700; contributi 30.599"
+5 Socio di SNC,"2 soci al 50%, INPS commercianti",1000000.0,472568.49,30598.53,503167.02,47.26,50.32,0.0,"IRPEF 409.043, addizionali 24.526, quota IRAP della societa' 39.000; contributi 30.599"
+6 Socio di SRL,tutto in dividendi,25000.0,11430.62,0.0,11430.62,45.72,45.72,0.0,"IRAP 663, IRES 6.000, ritenuta 26% sul dividendo 4.768; nessun contributo"
+6 Socio di SRL,compenso amministratore + dividendi (mix che paga meno),25000.0,2988.81,5955.1,8943.91,11.96,35.78,0.0,"compenso 17.000: IRPEF 355, addizionali 380; IRAP 663, IRES 967, ritenuta 624; gestione separata 35,03% 5.955"
+6 Socio di SRL,tutto in dividendi,50000.0,23092.12,0.0,23092.12,46.18,46.18,0.0,"IRAP 1.638, IRES 12.000, ritenuta 26% sul dividendo 9.454; nessun contributo"
+6 Socio di SRL,compenso amministratore + dividendi (mix che paga meno),50000.0,14650.31,5955.1,20605.41,29.3,41.21,0.0,"compenso 17.000: IRPEF 355, addizionali 380; IRAP 1.638, IRES 6.967, ritenuta 5.310; gestione separata 35,03% 5.955"
+6 Socio di SRL,tutto in dividendi,100000.0,46415.12,0.0,46415.12,46.42,46.42,0.0,"IRAP 3.588, IRES 24.000, ritenuta 26% sul dividendo 18.827; nessun contributo"
+6 Socio di SRL,compenso amministratore + dividendi (mix che paga meno),100000.0,37973.31,5955.1,43928.41,37.97,43.93,0.0,"compenso 17.000: IRPEF 355, addizionali 380; IRAP 3.588, IRES 18.967, ritenuta 14.683; gestione separata 35,03% 5.955"
+6 Socio di SRL,tutto in dividendi,300000.0,139938.0,0.0,139938.0,46.65,46.65,0.0,"IRAP 11.700, IRES 72.000, ritenuta 26% sul dividendo 56.238; nessun contributo"
+6 Socio di SRL,compenso amministratore + dividendi (mix che paga meno),300000.0,131496.19,5955.1,137451.29,43.83,45.82,0.0,"compenso 17.000: IRPEF 355, addizionali 380; IRAP 11.700, IRES 66.967, ritenuta 52.094; gestione separata 35,03% 5.955"
+6 Socio di SRL,tutto in dividendi,1000000.0,466460.0,0.0,466460.0,46.65,46.65,0.0,"IRAP 39.000, IRES 240.000, ritenuta 26% sul dividendo 187.460; nessun contributo"
+6 Socio di SRL,compenso amministratore + dividendi (mix che paga meno),1000000.0,458018.19,5955.1,463973.29,45.8,46.4,0.0,"compenso 17.000: IRPEF 355, addizionali 380; IRAP 39.000, IRES 234.967, ritenuta 183.316; gestione separata 35,03% 5.955"
+7 SRL tramite holding,utili lasciati nella holding,25000.0,6883.04,0.0,6883.04,27.53,27.53,0.0,"IRAP 663, IRES 6.000, IRES holding su 5% del dividendo 220; restano nella holding 18.117 da reinvestire"
+7 SRL tramite holding,"distribuisce dopo 10 anni (valore di oggi, sconto 3%)",25000.0,10388.03,0.0,10388.03,41.55,41.55,0.0,"IRAP 663, IRES 6.000, IRES holding su 5% del dividendo 220; ritenuta 26% fra 10 anni 4.710, oggi vale 3.505"
+7 SRL tramite holding,quote passate agli eredi (nessuna imposta personale),25000.0,6883.04,0.0,6883.04,27.53,27.53,0.0,"IRAP 663, IRES 6.000, IRES holding su 5% del dividendo 220; costo fiscale degli eredi = valore di successione, esenzione art. 3 c. 4-ter TUS"
+7 SRL tramite holding,utili lasciati nella holding,50000.0,14074.34,0.0,14074.34,28.15,28.15,0.0,"IRAP 1.638, IRES 12.000, IRES holding su 5% del dividendo 436; restano nella holding 35.926 da reinvestire"
+7 SRL tramite holding,"distribuisce dopo 10 anni (valore di oggi, sconto 3%)",50000.0,21024.68,0.0,21024.68,42.05,42.05,0.0,"IRAP 1.638, IRES 12.000, IRES holding su 5% del dividendo 436; ritenuta 26% fra 10 anni 9.341, oggi vale 6.950"
+7 SRL tramite holding,quote passate agli eredi (nessuna imposta personale),50000.0,14074.34,0.0,14074.34,28.15,28.15,0.0,"IRAP 1.638, IRES 12.000, IRES holding su 5% del dividendo 436; costo fiscale degli eredi = valore di successione, esenzione art. 3 c. 4-ter TUS"
+7 SRL tramite holding,utili lasciati nella holding,100000.0,28456.94,0.0,28456.94,28.46,28.46,0.0,"IRAP 3.588, IRES 24.000, IRES holding su 5% del dividendo 869; restano nella holding 71.543 da reinvestire"
+7 SRL tramite holding,"distribuisce dopo 10 anni (valore di oggi, sconto 3%)",100000.0,42297.98,0.0,42297.98,42.3,42.3,0.0,"IRAP 3.588, IRES 24.000, IRES holding su 5% del dividendo 869; ritenuta 26% fra 10 anni 18.601, oggi vale 13.841"
+7 SRL tramite holding,quote passate agli eredi (nessuna imposta personale),100000.0,28456.94,0.0,28456.94,28.46,28.46,0.0,"IRAP 3.588, IRES 24.000, IRES holding su 5% del dividendo 869; costo fiscale degli eredi = valore di successione, esenzione art. 3 c. 4-ter TUS"
+7 SRL tramite holding,utili lasciati nella holding,300000.0,86295.6,0.0,86295.6,28.77,28.77,0.0,"IRAP 11.700, IRES 72.000, IRES holding su 5% del dividendo 2.596; restano nella holding 213.704 da reinvestire"
+7 SRL tramite holding,"distribuisce dopo 10 anni (valore di oggi, sconto 3%)",300000.0,127639.8,0.0,127639.8,42.55,42.55,0.0,"IRAP 11.700, IRES 72.000, IRES holding su 5% del dividendo 2.596; ritenuta 26% fra 10 anni 55.563, oggi vale 41.344"
+7 SRL tramite holding,quote passate agli eredi (nessuna imposta personale),300000.0,86295.6,0.0,86295.6,28.77,28.77,0.0,"IRAP 11.700, IRES 72.000, IRES holding su 5% del dividendo 2.596; costo fiscale degli eredi = valore di successione, esenzione art. 3 c. 4-ter TUS"
+7 SRL tramite holding,utili lasciati nella holding,1000000.0,287652.0,0.0,287652.0,28.77,28.77,0.0,"IRAP 39.000, IRES 240.000, IRES holding su 5% del dividendo 8.652; restano nella holding 712.348 da reinvestire"
+7 SRL tramite holding,"distribuisce dopo 10 anni (valore di oggi, sconto 3%)",1000000.0,425465.99,0.0,425465.99,42.55,42.55,0.0,"IRAP 39.000, IRES 240.000, IRES holding su 5% del dividendo 8.652; ritenuta 26% fra 10 anni 185.210, oggi vale 137.814"
+7 SRL tramite holding,quote passate agli eredi (nessuna imposta personale),1000000.0,287652.0,0.0,287652.0,28.77,28.77,0.0,"IRAP 39.000, IRES 240.000, IRES holding su 5% del dividendo 8.652; costo fiscale degli eredi = valore di successione, esenzione art. 3 c. 4-ter TUS"
+8 Rendite finanziarie,"azioni, fondi, obbligazioni 26%",25000.0,6500.0,0.0,6500.0,26.0,26.0,0.0,ritenuta o imposta sostitutiva 26%
+8 Rendite finanziarie,"titoli di Stato 12,5%",25000.0,3125.0,0.0,3125.0,12.5,12.5,0.0,"imposta sostitutiva 12,5%"
+8 Rendite finanziarie,"26% + bollo 0,2% sul capitale (rendimento 4%)",25000.0,7750.0,0.0,7750.0,31.0,31.0,0.0,"capitale 625.000, bollo 1.250"
+8 Rendite finanziarie,"azioni, fondi, obbligazioni 26%",50000.0,13000.0,0.0,13000.0,26.0,26.0,0.0,ritenuta o imposta sostitutiva 26%
+8 Rendite finanziarie,"titoli di Stato 12,5%",50000.0,6250.0,0.0,6250.0,12.5,12.5,0.0,"imposta sostitutiva 12,5%"
+8 Rendite finanziarie,"26% + bollo 0,2% sul capitale (rendimento 4%)",50000.0,15500.0,0.0,15500.0,31.0,31.0,0.0,"capitale 1.250.000, bollo 2.500"
+8 Rendite finanziarie,"azioni, fondi, obbligazioni 26%",100000.0,26000.0,0.0,26000.0,26.0,26.0,0.0,ritenuta o imposta sostitutiva 26%
+8 Rendite finanziarie,"titoli di Stato 12,5%",100000.0,12500.0,0.0,12500.0,12.5,12.5,0.0,"imposta sostitutiva 12,5%"
+8 Rendite finanziarie,"26% + bollo 0,2% sul capitale (rendimento 4%)",100000.0,31000.0,0.0,31000.0,31.0,31.0,0.0,"capitale 2.500.000, bollo 5.000"
+8 Rendite finanziarie,"azioni, fondi, obbligazioni 26%",300000.0,78000.0,0.0,78000.0,26.0,26.0,0.0,ritenuta o imposta sostitutiva 26%
+8 Rendite finanziarie,"titoli di Stato 12,5%",300000.0,37500.0,0.0,37500.0,12.5,12.5,0.0,"imposta sostitutiva 12,5%"
+8 Rendite finanziarie,"26% + bollo 0,2% sul capitale (rendimento 4%)",300000.0,93000.0,0.0,93000.0,31.0,31.0,0.0,"capitale 7.500.000, bollo 15.000"
+8 Rendite finanziarie,"azioni, fondi, obbligazioni 26%",1000000.0,260000.0,0.0,260000.0,26.0,26.0,0.0,ritenuta o imposta sostitutiva 26%
+8 Rendite finanziarie,"titoli di Stato 12,5%",1000000.0,125000.0,0.0,125000.0,12.5,12.5,0.0,"imposta sostitutiva 12,5%"
+8 Rendite finanziarie,"26% + bollo 0,2% sul capitale (rendimento 4%)",1000000.0,310000.0,0.0,310000.0,31.0,31.0,0.0,"capitale 25.000.000, bollo 50.000"
+9 Affitti,cedolare secca 21%,25000.0,5250.0,0.0,5250.0,21.0,21.0,0.0,IMU esclusa
+9 Affitti,cedolare secca 10% (canone concordato),25000.0,2500.0,0.0,2500.0,10.0,10.0,0.0,IMU esclusa
+9 Affitti,IRPEF ordinaria,25000.0,6063.38,0.0,6063.38,24.25,24.25,0.0,"imponibile 95% del canone; IRPEF 5.462, addizionali 601; IMU esclusa"
+9 Affitti,cedolare secca 21%,50000.0,10500.0,0.0,10500.0,21.0,21.0,0.0,IMU esclusa
+9 Affitti,cedolare secca 10% (canone concordato),50000.0,5000.0,0.0,5000.0,10.0,10.0,0.0,IMU esclusa
+9 Affitti,IRPEF ordinaria,50000.0,14076.75,0.0,14076.75,28.15,28.15,0.0,"imponibile 95% del canone; IRPEF 12.875, addizionali 1.202; IMU esclusa"
+9 Affitti,cedolare secca 21%,100000.0,21000.0,0.0,21000.0,21.0,21.0,0.0,IMU esclusa
+9 Affitti,cedolare secca 10% (canone concordato),100000.0,10000.0,0.0,10000.0,10.0,10.0,0.0,IMU esclusa
+9 Affitti,IRPEF ordinaria,100000.0,35453.5,0.0,35453.5,35.45,35.45,0.0,"imponibile 95% del canone; IRPEF 33.050, addizionali 2.404; IMU esclusa"
+9 Affitti,cedolare secca 21%,300000.0,63000.0,0.0,63000.0,21.0,21.0,0.0,IMU esclusa
+9 Affitti,cedolare secca 10% (canone concordato),300000.0,30000.0,0.0,30000.0,10.0,10.0,0.0,IMU esclusa
+9 Affitti,IRPEF ordinaria,300000.0,121960.5,0.0,121960.5,40.65,40.65,0.0,"imponibile 95% del canone; IRPEF 114.750, addizionali 7.210; IMU esclusa"
+9 Affitti,cedolare secca 21%,1000000.0,210000.0,0.0,210000.0,21.0,21.0,0.0,IMU esclusa
+9 Affitti,cedolare secca 10% (canone concordato),1000000.0,100000.0,0.0,100000.0,10.0,10.0,0.0,IMU esclusa
+9 Affitti,IRPEF ordinaria,1000000.0,424735.0,0.0,424735.0,42.47,42.47,0.0,"imponibile 95% del canone; IRPEF 400.700, addizionali 24.035; IMU esclusa"

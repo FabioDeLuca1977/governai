@@ -1,0 +1,31 @@
+proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
+01-P19,RIS,0,0,0,M,no,"Presunzioni relative, interpello, riserve pregresse salve e socio di minoranza escluso: nessun effetto rilevante sui diritti"
+01-P19,FID,1,1,2,M,no,"Stessa imposta qualunque sia il contenitore, prospetto pubblico e dati DF; complessità alta e rischio UE sulla parte B"
+01-P19,INN,0,0,0,B,no,"Spinge a reinvestire in attività operative ma aggiunge vincoli e adempimenti alle holding di gruppo; effetti netti incerti"
+01-P19,BEN,0,0,0,A,no,Colpisce poche famiglie con grandi holding; nessun effetto sulla vita concreta della popolazione
+01-P19,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+01-P19,BPA,0,0,0,A,no,Nessun effetto su patrimonio o accoglienza
+01-P19,FUT,0,1,1,M,no,"Gettito strutturale modesto dal 2030 (parte A) e dal 2033 (parte B), riserve pregresse escluse"
+01-P19,EQU,1,2,2,M,no,"Chiude il principale canale di regressività al vertice (1,2% contro 26%); base non pubblicata e riserve pregresse esenti"
+01-P19,SIC,0,0,0,A,no,Nessun effetto sulla sicurezza
+01-P19,CIT,0,1,1,M,no,"Reciprocità fiscale: chi controlla la holding paga come chi possiede direttamente, con interpello e regole chiare"
+01-P24,RIS,0,0,0,M,no,"Aliquote 1-2% al netto delle imposte sul reddito, non espropriative; presunzione di residenza solo relativa e limitata"
+01-P24,FID,0,1,1,M,no,"Precompilata e statistica dei grandi patrimoni aumentano trasparenza; valutazioni delle non quotate contestabili e precedenti di abrogazione"
+01-P24,INN,0,0,0,B,no,"Rate o rinvio per le quote d'impresa; evidenze norvegesi senza calo degli investimenti, ma rischio partenze di imprenditori"
+01-P24,BEN,0,0,0,A,no,Riguarda circa 2.100 persone; nessun effetto sul benessere diffuso
+01-P24,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+01-P24,BPA,0,0,0,M,no,Beni culturali vincolati aperti al pubblico esclusi; effetto trascurabile
+01-P24,FUT,0,0,1,B,no,"Frena la concentrazione dinastica della ricchezza nel lungo periodo; gettito valutato a parte in FN12"
+01-P24,EQU,1,2,2,M,no,"Fa contribuire chi ha patrimoni enormi e paga poco sul reddito; base piccola, mobile e gettito molto incerto"
+01-P24,SIC,0,0,0,A,no,Nessun effetto sulla sicurezza
+01-P24,CIT,0,1,1,M,no,"Lealtà fiscale chiesta in proporzione alla capacità; exit tax solo per trasferimenti futuri, conforme ai Trattati"
+01-P25,RIS,0,1,1,B,no,"Opzionale: la forma d'impresa la sceglie l'impresa e non il fisco, nessuno sta peggio"
+01-P25,FID,0,1,1,M,no,"Clausola di stabilità contro il precedente IRI abrogato; due conti di riserva e presunzioni aumentano la complessità"
+01-P25,INN,0,1,1,M,no,"Favorisce la patrimonializzazione delle imprese di persone; adesione incerta (IRI mai partita, §34a tedesco poco usato)"
+01-P25,BEN,0,1,1,B,no,"Risparmio medio di alcune migliaia di euro per circa due imprese in ordinaria su tre; contributi e pensioni invariati"
+01-P25,APC,0,0,0,A,no,Nessun effetto su istruzione o cultura
+01-P25,BPA,0,0,0,B,no,Effetto trascurabile su territori e accoglienza
+01-P25,FUT,-1,0,0,M,no,"Legame con 01-P24 obbligatorio, ma FN12 non copre il 2029 (1,26) né il caso prudente: restano coperture anno per anno da trovare"
+01-P25,EQU,0,0,0,M,no,"Parità orizzontale tra SNC e SRL compensata da meno progressività per redditi d'impresa sopra 50.000 euro; rinvio, non esenzione"
+01-P25,SIC,0,0,0,A,no,Nessun effetto sulla sicurezza
+01-P25,CIT,0,1,1,B,no,"Premia chi reinveste nell'impresa e lascia scelta autonoma, con regole di prelievo chiare"

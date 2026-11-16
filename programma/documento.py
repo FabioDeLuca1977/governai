@@ -90,7 +90,7 @@ def blocchi() -> dict[str, str]:
         f"nucleo robusto {nucleo_coperto(vc)} su {len(nucleo)}. Aggiunge coperture strutturali più impegnative.",
         *([f"- **Programma intermedio: {num(selezione('intermedio')[0].costo_regime.sum())} mld l'anno**, "
             f"{selezione('intermedio')[0].proposta_id.nunique()} misure, nucleo robusto "
-            f"{nucleo_coperto(selezione('intermedio')[0])} su {len(nucleo)}{eccezioni_testo()}. Nessun aumento di tasse su casa, eredità, affitti "
+            f"{nucleo_coperto(selezione('intermedio')[0])} su {len(nucleo)}{eccezioni_testo()}. Nessun aumento di aliquote su casa, eredità, affitti "
             "e IVA, nessun contributo straordinario sulle pensioni; più istruzione e servizi sociali, con tagli di spesa e di personale "
             "nei ministeri. Dopo la verifica delle coperture della sera del 13 novembre 2026 restano il nucleo robusto, "
             "le squadre infermieristiche di quartiere (06-C8) e la compensazione dell'autotrasporto (04-P8); dopo la verifica delle ultime otto coperture, il 14 novembre, l'Ufficio per il processo (07-C1) e il governo dei flussi migratori (07-C3) passano a pilota; "

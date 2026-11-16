@@ -345,6 +345,8 @@ La direttiva (UE) 2026/1021 (29/4/2026, pubblicata l'11/5/2026, verificata su EU
 
 **Scelta di chi guida il progetto (16/11/2026): variante PIENA**, "reato stretto più tutele". Le varianti ESSENZIALE e ZERO restano nel file solo come confronto; nell'ottimizzatore va forzata la PIENA (`--forza 07-C7:PIENA`).
 
+**Tutele aggiunte confermate (16/11/2026).** Chi guida il progetto ha confermato il 16/11/2026 le due tutele aggiunte alla PIENA: **non risponde del reato chi segue un parere scritto chiesto prima dell'atto** (tutela 4, criterio c) e **nessuna sospensione automatica dall'incarico per la sola indagine** (tutela 6, criterio d).
+
 ### Tutele contro la "paura della firma" (PIENA)
 Sono il cuore della scelta. Ognuna risponde a un timore preciso di chi firma.
 1. **Che cosa è reato.** Solo la violazione di una regola di condotta **specifica**, scritta in una legge o in un atto con forza di legge (non in circolari, linee guida o regolamenti), da cui **non resta alcun margine di discrezionalità**.

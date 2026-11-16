@@ -131,6 +131,15 @@ def costruisci(var: pd.DataFrame, menu: pd.DataFrame, cap: dict[str, float]):
             if k in jidx:
                 a[jidx[k]] -= 1
         righe_A.append(a); lb.append(-np.inf); ub.append(0.0); nomi.append(f"legame {cid}")
+    for k, richieste in LEGAMI_VARIANTI.items():
+        if k not in jidx:
+            continue
+        a = np.zeros(J + M)
+        a[jidx[k]] = 1
+        for r in richieste:
+            if r in jidx:
+                a[jidx[r]] -= 1
+        righe_A.append(a); lb.append(-np.inf); ub.append(0.0); nomi.append(f"legame {k}")
     return chiavi, np.array(righe_A), np.array(lb), np.array(ub), nomi
 
 
@@ -142,7 +151,13 @@ LEGAMI = {"FN01": ["01-P8:PIENA", "01-P8:ESSENZIALE"],
           "SAD22": ["04-P3:PIENA", "04-P3:ESSENZIALE", "04-P3:PILOTA"],
           # Coperture dell'equità fiscale (16/11/2026): il gettito nasce solo dalla norma della proposta collegata
           "FN05": ["01-P19:PIENA", "01-P19:ESSENZIALE"], "FN06": ["01-P19:PIENA"],
-          "FN09": ["01-P21:PIENA", "01-P21:ESSENZIALE"], "FN10": ["01-P22:PIENA", "01-P22:ESSENZIALE"]}
+          "FN09": ["01-P21:PIENA", "01-P21:ESSENZIALE"], "FN10": ["01-P22:PIENA", "01-P22:ESSENZIALE"],
+          # 16/11/2026: dividendi parcheggiati nelle holding (regola entrata in 01-P19) e patrimoniale minima
+          "FN13": ["01-P19:PIENA", "01-P19:ESSENZIALE"], "FN14": ["01-P19:PIENA"],
+          "FN12": ["01-P24:ESSENZIALE"]}
+# Varianti che si possono scegliere solo insieme a un'altra (scelta del 16/11/2026: la parità delle imprese di persone
+# 01-P25 si attiva solo se la paga la patrimoniale minima 01-P24)
+LEGAMI_VARIANTI = {"01-P25:ESSENZIALE": ["01-P24:ESSENZIALE"]}
 
 RE_COMPENSAZIONE = re.compile(r"compens|salvaguard|ISEE|esclus|esent|franchigia", re.I)
 
