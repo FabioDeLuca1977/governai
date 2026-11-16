@@ -1,14 +1,25 @@
 # Bollettino GovernAI — 2026-11-16
 
-*Generato automaticamente da `sistema/pipeline.py` alle 09:03. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 15:24. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
 - Modalità di aggiornamento: **mirato**
-- Dataset Eurostat aggiornati: demo_pjan, demo_pjangroup, migr_pop1ctz
-- File ufficiali aggiornati: 0
-- Serie cambiate e archiviate in `dati/storico/`: popolazione
-- Documenti nuovi sulle pagine osservate: 0
+- Dataset Eurostat aggiornati: sts_inpr_m, tour_occ_nim
+- File ufficiali aggiornati: 1
+- Serie cambiate e archiviate in `dati/storico/`: nessuna
+- Documenti nuovi sulle pagine osservate: 11
+  - Banca d'Italia - Finanza pubblica: https://www.bancaditalia.it/pubblicazioni/finanza-pubblica/2026-finanza-pubblica/statistiche_FPI_20261116.pdf
+  - ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/le-persone-senza-dimora-profili-e-percorsi-di-vita/
+  - ISTAT - Home e comunicati: https://www.istat.it/documenti/newsletter/
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=1480c7e8-668e-4b0c-b34b-8502938d5b97
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=229b9819-e792-4ff4-a376-1554dd4aed66
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=a9a8b868-a946-480b-a22e-1de759fd0b9f
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=f48bfb03-d03e-4a72-bac4-7e392c872b10
+  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/gu/2026/11/13/88/s4/html
+  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/13/26E06186/s4
+  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/13/26G00227/sg
+  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/14/26G00224/sg
 
 ## 2. Cruscotto
 
@@ -51,69 +62,35 @@
 
 ## 4. Programma del momento
 
-Il programma di riferimento (tutte le coperture, nucleo robusto prima) costa **13,54 mld/anno**; il programma adattato al momento costa **13,54 mld/anno**. Entrambi sono finanziati senza deficit.
-
-**Differenze rispetto al riferimento** (effetto delle allerte):
-
-- 01-P5: ESSENZIALE → PIENA
-- 02-C1: ZERO → PIENA
-- 04-P1: PILOTA → esclusa
-- 04-P7: ESSENZIALE → PILOTA
-- 05-C7: PIENA → ESSENZIALE
-- 06-C9: PIENA → ESSENZIALE
-
-**Cambiamenti rispetto al bollettino precedente:**
-
-- 01-P16: esclusa → PIENA
-- 01-P17: esclusa → PIENA
-- 01-P18: esclusa → PIENA
-- 01-P6: ESSENZIALE → PIENA
-- 01-P8: ZERO → ESSENZIALE
-- 02-C8: esclusa → PIENA
-- 02-C9: esclusa → PILOTA
-- 03-P5: esclusa → PILOTA
-- 04-P1: PILOTA → esclusa
-- 04-P8: ZERO → PIENA
-- 05-C10: PILOTA → esclusa
-- 05-C5: ESSENZIALE → PIENA
-- 05-C8: ESSENZIALE → PIENA
-- 07-C2: ESSENZIALE → PIENA
-- 07-C6: PILOTA → PIENA
-
-Dettaglio: `programma/selezione_momento.md`.
+Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
 
 ## 5. Revisione AI richiesta
 
-Nessuna revisione necessaria.
+**11 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
+- [documento_nuovo] Banca d'Italia - Finanza pubblica: https://www.bancaditalia.it/pubblicazioni/finanza-pubblica/2026-finanza-pubblica/statistiche_FPI_20261116.pdf → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/le-persone-senza-dimora-profili-e-percorsi-di-vita/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/documenti/newsletter/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=1480c7e8-668e-4b0c-b34b-8502938d5b97 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=229b9819-e792-4ff4-a376-1554dd4aed66 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=a9a8b868-a946-480b-a22e-1de759fd0b9f → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=f48bfb03-d03e-4a72-bac4-7e392c872b10 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/gu/2026/11/13/88/s4/html → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/13/26E06186/s4 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/13/26G00227/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/14/26G00224/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
 
 ## Registro tecnico
 
-- sentinella: sentinella: mirato; Eurostat aggiornati 3, file 0, documenti nuovi 0, serie cambiate 1, errori 0
+- sentinella: sentinella: mirato; Eurostat aggiornati 2, file 1, documenti nuovi 11, serie cambiate 0, errori 0
 - apprendimento: 193 KPI, stati {'manuale': 147, 'in osservazione': 46}, aree calibrate 0
 - legislazione: archivio GU: 699 atti, 699 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
-- europa: europa: 857 atti GU L in archivio, 282 negli ultimi 30 giorni; 144 direttive con termine (23 critiche, 11 alte); 84 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 24
+- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
 - giurisprudenza: pronunce citate: 81; verificate: 81; da controllare: []
 - costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
 - consiglio: 95 previsioni, 0 verificate oggi, 8 verificate in totale
 - verifica sedute: 2 attive, 0 confermate, 2 da riesaminare
-- controlla.py: avvisi: 0  ->  bilancio.md
-- decidi.py: -> esito.md, esito_proposte.csv
-- ottimizza.py (riferimento): spesa 13.54  coperture 11.45  proposte 74/83  -> selezione_riferimento.md
-- ottimizza.py (momento): spesa 13.54  coperture 11.45  proposte 73/83  -> selezione_momento.md
+- modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
+
 ## 6. Nota del livello AI
 
-*Revisione del lunedì, 16/11/2026, eseguita nella sessione Claude senza chiave API.*
-
-**Cosa è successo.** Nessun documento ufficiale nuovo sulle pagine osservate: capienze dei fondi e gettiti delle coperture restano invariati. Le cinque allerte della settimana scorsa sono tutte ancora attive: inflazione al 5,6% (ottobre, dato provvisorio), spread a 126 punti base (+37 in un mese), debito al 139,9% del PIL nel secondo trimestre, PIL fermo nel terzo, fiducia dei consumatori a −23,3. Il quadro resta quello di una stagflazione leggera. Il programma cambia molto per un altro motivo: il nuovo menu di 93 coperture (venti risparmi da fonti ufficiali) fa entrare 01-P16, 01-P17, 01-P18, 02-C8 e altre misure, ed esce 04-P1. Il costo resta 13,54 mld l'anno, tutto coperto. Il riesame della seduta del Consiglio sui conti (2026-11-08-1), chiesto il 12/11 per il salto dello spread, è ancora in attesa.
-
-**Opzioni sostenibili per il momento.**
-1. Dare la precedenza alle misure che proteggono i redditi reali senza consumare coperture: salario minimo contrattuale (02-C1 PIENA) ed elettricità rinnovabile a prezzo rinnovabile (03-P2).
-2. Indicizzare all'inflazione i costi in euro nominali delle misure del programma e verificare che le coperture minime reggano ancora. Se non reggono, si riduce l'intensità e non si ricorre al deficit.
-3. Con lo spread in salita, nessuna nuova spesa permanente oltre a quelle già coperte. Le misure nuove entrano in versione PILOTA o ESSENZIALE, come già fa la selezione del momento per 04-P7, 05-C7 e 06-C9.
-4. Rinviare o graduare le coperture che pesano sui consumi (IVA, accise) finché la fiducia non risale, sostituendole con coperture equivalenti dal menu: riordino delle spese fiscali e sussidi dannosi.
-5. Tenere sospesa la variante della Difesa 07-C5 (regola FUT) finché il debito trimestrale non smette di salire.
-
-**Decisioni che spettano alle persone.**
-- Se accettare l'uscita di 04-P1 dal programma del momento o forzarla con una scelta esplicita.
-- Se convocare il riesame della seduta sui conti in ordine prima delle tre domande al Consiglio in coda dall'8/11.
-- Quanto peso dare alla protezione dei redditi rispetto alla prudenza sul debito: è una scelta di valori, non tecnica.
+Livello AI non eseguito: credenziali dell'API di Claude assenti (impostare la variabile d'ambiente ANTHROPIC_API_KEY).

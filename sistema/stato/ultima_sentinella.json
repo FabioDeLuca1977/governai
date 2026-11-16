@@ -1,21 +1,142 @@
 {
- "data": "2026-11-16T09:00:12",
+ "data": "2026-11-16T15:21:56",
  "prima_esecuzione": false,
  "eurostat_aggiornati": [
-  "demo_pjan",
-  "demo_pjangroup",
-  "migr_pop1ctz"
+  "sts_inpr_m",
+  "tour_occ_nim"
  ],
- "file_aggiornati": [],
- "documenti_nuovi": [],
+ "file_aggiornati": [
+  "https://www.camera.it/temiap/2026/07/16/OCD177-9133.pdf"
+ ],
+ "documenti_nuovi": [
+  {
+   "pagina": "Banca d'Italia - Finanza pubblica",
+   "aree": [
+    "00",
+    "01"
+   ],
+   "documento": "https://www.bancaditalia.it/pubblicazioni/finanza-pubblica/2026-finanza-pubblica/statistiche_FPI_20261116.pdf"
+  },
+  {
+   "pagina": "ISTAT - Home e comunicati",
+   "aree": [
+    "02",
+    "05",
+    "06"
+   ],
+   "documento": "https://www.istat.it/comunicato-stampa/le-persone-senza-dimora-profili-e-percorsi-di-vita/"
+  },
+  {
+   "pagina": "ISTAT - Home e comunicati",
+   "aree": [
+    "02",
+    "05",
+    "06"
+   ],
+   "documento": "https://www.istat.it/documenti/newsletter/"
+  },
+  {
+   "pagina": "Corte dei conti",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=1480c7e8-668e-4b0c-b34b-8502938d5b97"
+  },
+  {
+   "pagina": "Corte dei conti",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=229b9819-e792-4ff4-a376-1554dd4aed66"
+  },
+  {
+   "pagina": "Corte dei conti",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=a9a8b868-a946-480b-a22e-1de759fd0b9f"
+  },
+  {
+   "pagina": "Corte dei conti",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=f48bfb03-d03e-4a72-bac4-7e392c872b10"
+  },
+  {
+   "pagina": "Gazzetta Ufficiale",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "documento": "http://www.gazzettaufficiale.it/eli/gu/2026/11/13/88/s4/html"
+  },
+  {
+   "pagina": "Gazzetta Ufficiale",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/13/26E06186/s4"
+  },
+  {
+   "pagina": "Gazzetta Ufficiale",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/13/26G00227/sg"
+  },
+  {
+   "pagina": "Gazzetta Ufficiale",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/14/26G00224/sg"
+  }
+ ],
  "errori": [],
  "script": {
-  "00_macro.py": "ok",
-  "05_istruzione.py": "ok",
-  "07_giustizia.py": "ok"
+  "00c_congiuntura.py": "ok",
+  "03_ambiente.py": "ok"
  },
- "serie_cambiate": [
-  "popolazione"
- ],
+ "serie_cambiate": [],
  "modalita": "mirato"
 }
