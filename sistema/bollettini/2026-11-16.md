@@ -100,3 +100,20 @@ Nessuna revisione necessaria.
 - decidi.py: -> esito.md, esito_proposte.csv
 - ottimizza.py (riferimento): spesa 13.54  coperture 11.45  proposte 74/83  -> selezione_riferimento.md
 - ottimizza.py (momento): spesa 13.54  coperture 11.45  proposte 73/83  -> selezione_momento.md
+## 6. Nota del livello AI
+
+*Revisione del lunedì, 16/11/2026, eseguita nella sessione Claude senza chiave API.*
+
+**Cosa è successo.** Nessun documento ufficiale nuovo sulle pagine osservate: capienze dei fondi e gettiti delle coperture restano invariati. Le cinque allerte della settimana scorsa sono tutte ancora attive: inflazione al 5,6% (ottobre, dato provvisorio), spread a 126 punti base (+37 in un mese), debito al 139,9% del PIL nel secondo trimestre, PIL fermo nel terzo, fiducia dei consumatori a −23,3. Il quadro resta quello di una stagflazione leggera. Il programma cambia molto per un altro motivo: il nuovo menu di 93 coperture (venti risparmi da fonti ufficiali) fa entrare 01-P16, 01-P17, 01-P18, 02-C8 e altre misure, ed esce 04-P1. Il costo resta 13,54 mld l'anno, tutto coperto. Il riesame della seduta del Consiglio sui conti (2026-11-08-1), chiesto il 12/11 per il salto dello spread, è ancora in attesa.
+
+**Opzioni sostenibili per il momento.**
+1. Dare la precedenza alle misure che proteggono i redditi reali senza consumare coperture: salario minimo contrattuale (02-C1 PIENA) ed elettricità rinnovabile a prezzo rinnovabile (03-P2).
+2. Indicizzare all'inflazione i costi in euro nominali delle misure del programma e verificare che le coperture minime reggano ancora. Se non reggono, si riduce l'intensità e non si ricorre al deficit.
+3. Con lo spread in salita, nessuna nuova spesa permanente oltre a quelle già coperte. Le misure nuove entrano in versione PILOTA o ESSENZIALE, come già fa la selezione del momento per 04-P7, 05-C7 e 06-C9.
+4. Rinviare o graduare le coperture che pesano sui consumi (IVA, accise) finché la fiducia non risale, sostituendole con coperture equivalenti dal menu: riordino delle spese fiscali e sussidi dannosi.
+5. Tenere sospesa la variante della Difesa 07-C5 (regola FUT) finché il debito trimestrale non smette di salire.
+
+**Decisioni che spettano alle persone.**
+- Se accettare l'uscita di 04-P1 dal programma del momento o forzarla con una scelta esplicita.
+- Se convocare il riesame della seduta sui conti in ordine prima delle tre domande al Consiglio in coda dall'8/11.
+- Quanto peso dare alla protezione dei redditi rispetto alla prudenza sul debito: è una scelta di valori, non tecnica.
