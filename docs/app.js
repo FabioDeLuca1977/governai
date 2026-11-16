@@ -829,6 +829,94 @@
       <p class="nota">Il rapporto completo, con rischi e punti deboli dichiarati: ${ext(repo + "/blob/main/programma/oceano_blu.md", "programma/oceano_blu.md")}. Ogni proposta ha la sua griglia nella scheda.</p>`;
   }
 
+  // ---------- 50 anni di scelte (cartella storia/) ----------
+  const ST = D.storia || { periodi: [], decisioni: [], serie: {} };
+  const PAESI = { IT: "Italia", FR: "Francia", DE: "Germania", ES: "Spagna", EA: "Area euro", UE27: "Unione europea", Nord: "Nord", Centro: "Centro", Mezzogiorno: "Mezzogiorno" };
+  const GIUDIZIO = { "efficace": ["favorevole", "circle-check", "Efficace"], "efficace in parte": ["info", "circle-dot", "Efficace in parte"], "inefficace": ["attenzione", "circle-minus", "Inefficace"], "effetti negativi": ["critico", "circle-x", "Effetti negativi"], "evidenza insufficiente": ["", "circle-dashed", "Prove insufficienti"] };
+  const SERIE_TITOLI = { pil_pro_capite_indice: "Ricchezza prodotta per abitante (1977 = 100)", pil_pro_capite_pps_ue27: "Ricchezza per abitante a parità di potere d'acquisto (UE = 100)", produttivita_oraria_crescita: "Crescita della produttività per ora lavorata (% l'anno)", debito_pil: "Debito pubblico (% del PIL)", saldo_primario_pil: "Saldo primario, al netto degli interessi (% del PIL)", pressione_fiscale_ocse: "Tasse e contributi (% del PIL)", spesa_pubblica_pil: "Spesa pubblica (% del PIL)", occupazione_15_64: "Persone occupate tra 15 e 64 anni (%)", occupazione_femminile_15_64: "Donne occupate tra 15 e 64 anni (%)", disoccupazione_giovanile: "Disoccupazione tra 15 e 24 anni (%)", spread_bund: "Differenza di rendimento con i titoli tedeschi (punti base)", inflazione: "Inflazione (% l'anno)", fecondita: "Figli per donna", emigrazione_cittadini: "Cittadine e cittadini che emigrano (persone l'anno)", laureati_25_34: "Laureate e laureati tra 25 e 34 anni (%)", poverta_assoluta: "Persone in povertà assoluta (%)", divario_nord_sud: "Ricchezza per abitante del Mezzogiorno (% del Centro-Nord)" };
+  const periodoDi = (anno) => ST.periodi.find((x) => +anno >= +x.da && +anno <= +x.a);
+  function graficoStoria(nome) {
+    const S = ST.serie[nome]; if (!S) return vuoto("Serie non disponibile.");
+    let dati = Object.entries(S.dati).filter(([k]) => ["IT", "FR", "DE", "ES", "Nord", "Centro", "Mezzogiorno"].includes(k) || (k === "IT"));
+    const tutti = dati.flatMap(([, v]) => v.map((x) => x[1])); if (!tutti.length) return vuoto("Serie non disponibile.");
+    let lo = Math.min(...tutti), hi = Math.max(...tutti); const marg = (hi - lo) * 0.08 || 1; lo -= marg; hi += marg; if (lo > 0 && lo < (hi - lo) * 0.5) lo = 0;
+    const W = 760, H = 300, sx = 46, dx = 14, top = 26, bot = 28, A0 = 1970, A1 = 2025;
+    const x = (a) => sx + (a - A0) * (W - sx - dx) / (A1 - A0), y = (v) => top + (hi - v) * (H - top - bot) / (hi - lo);
+    const passo = (hi - lo) > 80 ? 20 : (hi - lo) > 30 ? 10 : (hi - lo) > 8 ? 2 : (hi - lo) > 3 ? 1 : 0.5;
+    const tacche = []; for (let t = Math.ceil(lo / passo) * passo; t <= hi; t += passo) tacche.push(t);
+    const bande = ST.periodi.map((pp, i) => `<rect class="st-banda ${i % 2 ? "b" : "a"}" x="${x(Math.max(+pp.da, A0)).toFixed(1)}" y="${top - 18}" width="${(x(Math.min(+pp.a, A1) + 1) - x(Math.max(+pp.da, A0))).toFixed(1)}" height="${H - bot - top + 18}"/><text class="st-bt" x="${(x(Math.max(+pp.da, A0)) + 4).toFixed(1)}" y="${top - 6}">${pp.da}</text>`).join("");
+    const linee = dati.map(([k, v]) => `<polyline class="st-l ${k === "IT" || k === "Mezzogiorno" ? "it" : "alt " + k}" points="${v.filter((q) => q[0] >= A0).map(([a, val]) => `${x(a).toFixed(1)},${y(val).toFixed(1)}`).join(" ")}"><title>${esc(PAESI[k] || k)}</title></polyline>`).join("");
+    const ultimi = dati.map(([k, v]) => { const u = v[v.length - 1]; return u ? `<span class="st-leg ${k === "IT" || k === "Mezzogiorno" ? "it" : "alt " + k}">${esc(PAESI[k] || k)} <strong>${nf(u[1], Math.abs(u[1]) >= 100 ? 0 : 1)}</strong> <small>(${u[0]})</small></span>` : ""; }).join("");
+    return `<div class="st-legenda">${ultimi}</div>
+      <div class="sc-scroll"><svg class="st-grafico" data-serie="${esc(nome)}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(SERIE_TITOLI[nome] || nome)}, dal 1970 al 2025: ${esc(dati.map(([k, v]) => `${PAESI[k] || k} da ${nf((v[0] || [])[1], 1)} nel ${(v[0] || [])[0]} a ${nf((v[v.length - 1] || [])[1], 1)} nel ${(v[v.length - 1] || [])[0]}`).join("; "))}">
+        ${bande}${tacche.map((t) => `<line class="sc-g" x1="${sx}" x2="${W - dx}" y1="${y(t).toFixed(1)}" y2="${y(t).toFixed(1)}"/><text class="sc-a" x="${sx - 6}" y="${(y(t) + 4).toFixed(1)}" text-anchor="end">${nf(t, passo < 1 ? 1 : 0)}</text>`).join("")}
+        ${lo < 0 && hi > 0 ? `<line class="st-zero" x1="${sx}" x2="${W - dx}" y1="${y(0).toFixed(1)}" y2="${y(0).toFixed(1)}"/>` : ""}
+        ${[1970, 1980, 1990, 2000, 2010, 2020].map((a) => `<text class="sc-a" x="${x(a).toFixed(1)}" y="${H - 8}" text-anchor="middle">${a}</text>`).join("")}
+        ${linee}<line class="st-cursore" x1="0" x2="0" y1="${top - 18}" y2="${H - bot}" visibility="hidden"/>
+      </svg></div><p class="nota st-valori" aria-live="polite">Passa sul grafico per leggere i valori di un anno.</p>
+      <p class="nota">${esc(S.descrizione)} Fonte: ${S.url ? ext(S.url, esc(S.fonte)) : esc(S.fonte)}. Le bande colorate sono i sei periodi.</p>`;
+  }
+  function storiaVista(params) {
+    if (!ST.decisioni.length) return `${schedeDati("storia")}${vuoto("La storia non è ancora disponibile.")}`;
+    const pid = params.get("p") || "", P = ST.periodi.find((x) => x.id === pid);
+    const serie = ST.serie[params.get("s")] ? params.get("s") : "pil_pro_capite_indice";
+    const conta = (lista) => Object.keys(GIUDIZIO).map((g) => [g, lista.filter((d) => d.giudizio === g).length]);
+    const decP = P ? ST.decisioni.filter((d) => +d.anno >= +P.da && +d.anno <= +P.a) : ST.decisioni;
+    const ambiti = [...new Set(ST.decisioni.map((d) => d.ambito))].sort();
+    const q4p = (pp) => `<div class="quattro">${Q4.map(([k, t, ic]) => `<div class="card q4"><p class="q4-t">${icona(ic)}${t}</p><p>${linkDec(esc(pp[k] || ""))}</p></div>`).join("")}</div>`;
+    return `${schedeDati("storia")}
+      <p class="risposta">Dal 1977 a oggi: ${ST.decisioni.length} decisioni dei governi e i loro effetti misurati, ${Object.keys(ST.serie).length} serie di dati confrontate con Francia, Germania e Spagna. Si giudicano le decisioni, non le persone o i partiti. Le coincidenze tra una decisione e un cambio nei dati sono ipotesi, non prove.</p>
+      <nav class="st-periodi" aria-label="Periodi"><a href="#/dati/storia${serie !== "pil_pro_capite_indice" ? "?s=" + serie : ""}" class="st-p ${P ? "" : "attivo"}" ${P ? "" : 'aria-current="page"'}><span class="st-anni">1977-2026</span><span>Tutti i periodi</span></a>${ST.periodi.map((pp) => `<a href="#/dati/storia?p=${esc(pp.id)}${serie !== "pil_pro_capite_indice" ? "&s=" + serie : ""}" class="st-p ${pp.id === pid ? "attivo" : ""}" ${pp.id === pid ? 'aria-current="page"' : ""}><span class="st-anni">${pp.da}-${pp.a}</span><span>${esc(pp.titolo)}</span></a>`).join("")}</nav>
+      ${P ? `<section class="blocco"><h2>${P.da}-${P.a}: ${esc(P.titolo)}</h2><p class="testo-lettura">${esc(P.in_breve || "")}</p>
+          ${(P.dati || []).length ? `<div class="st-dati">${P.dati.map((d) => `<div class="card kpi"><p class="etichetta">${esc(d.etichetta)}</p><p class="st-num">${esc(d.valore)}</p><p class="nota">${esc(String(d.fonte || "").replace(/^([a-z0-9_]+)\s*/, (m, k) => SERIE_TITOLI[k] ? "" : m).replace(/^\((.*)\)$/, "Fonte: $1"))}</p></div>`).join("")}</div>` : ""}
+          ${q4p(P)}
+          ${P.lezione ? `<div class="avviso" style="margin-top:12px"><div class="avviso-titolo">${icona("lightbulb")}La lezione per oggi</div><p>${linkDec(esc(P.lezione))}</p></div>` : ""}
+        </section>`
+        : `<section class="blocco"><h2>I sei periodi</h2><div class="griglia g3">${ST.periodi.map((pp) => `<a class="card st-card" href="#/dati/storia?p=${esc(pp.id)}"><p class="etichetta">${pp.da}-${pp.a}</p><h3>${esc(pp.titolo)}</h3><p>${esc(pp.in_breve || "")}</p></a>`).join("")}</div></section>`}
+      <section class="card blocco"><h2>I dati in 50 anni</h2>
+        <label for="st-serie" class="vh">Indicatore</label>
+        <select id="st-serie" class="st-sel">${Object.keys(ST.serie).map((k) => `<option value="${esc(k)}" ${k === serie ? "selected" : ""}>${esc(SERIE_TITOLI[k] || k)}</option>`).join("")}</select>
+        <div id="st-grafico">${graficoStoria(serie)}</div>
+      </section>
+      <section class="blocco"><h2>Le decisioni${P ? ` del periodo ${P.da}-${P.a}` : ""} <small>${decP.length} · ${conta(decP).filter(([, n]) => n).map(([g, n]) => `${n} ${GIUDIZIO[g][2].toLowerCase()}`).join(" · ")}</small></h2>
+        <div class="filtri"><label class="vh" for="st-cerca">Cerca</label><input id="st-cerca" type="search" placeholder="Cerca: pensioni, condono, euro…">
+          <label class="vh" for="st-ambito">Ambito</label><select id="st-ambito"><option value="">Tutti gli ambiti</option>${ambiti.map((a) => `<option>${esc(a)}</option>`).join("")}</select>
+          <label class="vh" for="st-giudizio">Giudizio</label><select id="st-giudizio"><option value="">Tutti i giudizi</option>${Object.entries(GIUDIZIO).map(([g, c]) => `<option value="${esc(g)}">${esc(c[2])}</option>`).join("")}</select></div>
+        <ul class="st-dec" id="st-dec">${decP.map((d) => `<li id="${esc(d.id)}" data-testo="${esc((d.decisione + " " + d.cosa_cambia + " " + d.atto + " " + d.ambito + " " + d.anno).toLowerCase())}" data-ambito="${esc(d.ambito)}" data-giudizio="${esc(d.giudizio)}"><details>
+          <summary><span class="st-a">${esc(d.anno)}</span><span class="st-t">${esc(d.decisione)}<small>${esc(d.ambito)} · ${esc(d.atto)}</small></span>${chip(GIUDIZIO[d.giudizio] || ["", "circle-dashed", d.giudizio])}</summary>
+          <div class="corpo"><p><strong>Che cosa cambia.</strong> ${esc(d.cosa_cambia)}</p>${d.effetto_conti && d.effetto_conti !== "n.d." ? `<p><strong>Effetto sui conti.</strong> ${esc(d.effetto_conti)}</p>` : ""}
+            <p><strong>Effetti misurati.</strong> ${esc(d.effetti_misurati)}</p>
+            <p class="nota">Solidità delle prove: ${esc(d.solidita_evidenza)} · ${esc(d.governo_anno)}${d.presidente_consiglio ? ` (presidenza del Consiglio: ${esc(d.presidente_consiglio)})` : ""} · ${esc(d.id)}</p>
+            <p class="nota">${String(d.fonti || "").split(" | ").filter(Boolean).map((f, i) => { const u = (f.match(/https?:\/\/\S+/) || [])[0]; return u ? ext(u.replace(/[).,;]+$/, ""), `Fonte ${i + 1}`) : esc(f); }).join(" · ")}</p></div></details></li>`).join("")}</ul>
+      </section>
+      <p class="nota">File completi: ${ext(repo + "/blob/main/storia/decisioni_1977_2026.md", "catalogo delle decisioni")} · ${ext(repo + "/blob/main/storia/serie_lunghe.md", "serie lunghe")} · ${ext(repo + "/tree/main/storia", "dati e script")}.</p>`;
+  }
+  const linkDec = (t) => String(t).replace(/\b(D\d{3})\b/g, (m) => ST.decisioni.some((d) => d.id === m) ? `<a href="#/dati/storia?d=${m}" data-dec="${m}">${m}</a>` : m);
+  function montaStoria() {
+    const filtra = () => { const t = $("#st-cerca").value.toLowerCase().trim(), a = $("#st-ambito").value, g = $("#st-giudizio").value;
+      $$("#st-dec li").forEach((li) => { li.hidden = (t && !li.dataset.testo.includes(t)) || (a && li.dataset.ambito !== a) || (g && li.dataset.giudizio !== g); }); };
+    ["#st-cerca", "#st-ambito", "#st-giudizio"].forEach((x) => $(x).addEventListener("input", filtra));
+    const agganciaGrafico = () => {
+      const svg = $(".st-grafico"); if (!svg) return; const nome = svg.dataset.serie, S = ST.serie[nome];
+      const cur = $(".st-cursore", svg), out = $(".st-valori");
+      svg.addEventListener("mousemove", (e) => {
+        const r = svg.getBoundingClientRect(), vb = svg.viewBox.baseVal, px = (e.clientX - r.left) * vb.width / r.width;
+        const anno = Math.round(1970 + (px - 46) * (2025 - 1970) / (760 - 46 - 14)); if (anno < 1970 || anno > 2025) return;
+        const xx = 46 + (anno - 1970) * (760 - 46 - 14) / 55; cur.setAttribute("x1", xx); cur.setAttribute("x2", xx); cur.setAttribute("visibility", "visible");
+        const val = Object.entries(S.dati).map(([k, v]) => { const q = v.find((z) => z[0] === anno); return q && PAESI[k] && !["EA", "UE27"].includes(k) ? `${PAESI[k]} ${nf(q[1], Math.abs(q[1]) >= 100 ? 0 : 1)}` : ""; }).filter(Boolean);
+        const pp = periodoDi(anno); out.textContent = `${anno}${pp ? " · " + pp.titolo : ""}: ${val.join(" · ") || "nessun dato"}`;
+      });
+      svg.addEventListener("mouseleave", () => cur.setAttribute("visibility", "hidden"));
+    };
+    $("#st-serie").addEventListener("change", (e) => {
+      $("#st-grafico").innerHTML = graficoStoria(e.target.value); icone(); agganciaGrafico();
+      const q = new URLSearchParams(location.hash.split("?")[1] || ""); q.set("s", e.target.value); q.delete("d"); history.replaceState(null, "", "#/dati/storia?" + q.toString());
+    });
+    agganciaGrafico();
+    const d = new URLSearchParams(location.hash.split("?")[1] || "").get("d");
+    if (d && $("#" + d)) { $("#" + d + " details").open = true; $("#" + d).scrollIntoView({ block: "center" }); }
+  }
+
   const ORIZZ = ["breve", "medio", "lungo"];
   function simulatore() {
     return `${schedeProgramma("valori")}
@@ -1306,7 +1394,7 @@
 
   // ---------- Dati ----------
   const GRUPPI = [["Prezzi e conti pubblici", ["inflazione", "debito_trimestrale", "debito_annuo", "deficit_annuo", "interessi", "spread", "rendimento_btp"]], ["Lavoro e giovani", ["disoccupazione", "disoccupazione_giovani", "neet"]], ["Crescita", ["pil_trimestrale", "produzione_industriale", "fiducia_consumatori"]], ["Società", ["fecondita"]]];
-  const schedeDati = (k) => `<h1>Dati</h1>${schede([["indicatori", "Indicatori", "#/dati", (D.indicatori || []).length], ["allerte", "Allerte", "#/dati/allerte", ALLERTE.length], ["obiettivi", "Obiettivi e risultati", "#/dati/obiettivi", (D.obiettivi || []).length], ["diario", "Diario quotidiano", "#/dati/diario"]], k)}`;
+  const schedeDati = (k) => `<h1>Dati</h1>${schede([["indicatori", "Indicatori", "#/dati", (D.indicatori || []).length], ["allerte", "Allerte", "#/dati/allerte", ALLERTE.length], ["obiettivi", "Obiettivi e risultati", "#/dati/obiettivi", (D.obiettivi || []).length], ["diario", "Diario quotidiano", "#/dati/diario"], ["storia", "50 anni di scelte", "#/dati/storia"]], k)}`;
   function datiVista() {
     const ok = (D.indicatori || []).filter((i) => i.stato === "ok");
     const salgono = ALLERTE.map((r) => nomeInd(r.ind).split(" (")[0].toLowerCase()).filter((x, i, a) => x && a.indexOf(x) === i);
@@ -1564,6 +1652,7 @@
       if (b === "allerte") { html = allerteVista(); titolo = "Allerte"; }
       else if (b === "obiettivi") { html = obiettiviVista(params); titolo = "Obiettivi e risultati"; }
       else if (b === "diario") { html = diario(c); titolo = "Diario quotidiano"; }
+      else if (b === "storia") { html = storiaVista(params); titolo = "50 anni di scelte"; }
       else { html = datiVista(); titolo = "Dati"; }
     } else if (a === "controlli") {
       if (b === "europa") { html = europaVista(c, params); titolo = "Europa"; }
@@ -1587,6 +1676,7 @@
     if ($("#f-corpo")) { ["#f-cerca", "#f-tema", "#f-classe", "#f-incluse"].forEach((s) => $(s).addEventListener("input", aggiornaElenco)); aggiornaElenco(); }
     if ($("#c-corpo")) { const filtra = () => { const t = $("#c-cerca").value.toLowerCase(), f = $("#c-fondo").value, l = $("#c-livello").value; $$("#c-corpo tr").forEach((tr) => { tr.hidden = (t && !tr.dataset.testo.includes(t)) || (f && tr.dataset.fondo !== f) || (l && tr.dataset.livello !== l); }); }; ["#c-cerca", "#c-fondo", "#c-livello"].forEach((s) => $(s).addEventListener("input", filtra)); }
     if ($("#pp-app")) montaProponi();
+    if ($("#st-dec")) montaStoria();
     if ($("#classifica")) { $$("input[type=range]", main).forEach((el) => el.addEventListener("input", aggiornaClassifica)); aggiornaClassifica(); }
     if ($("#q")) { $("#q").addEventListener("input", aggiornaRicerca); aggiornaRicerca(); $("#q").focus(); }
     if ($("#schema-scenario")) $("#schema-scenario").addEventListener("change", (e) => { location.hash = "#/programma/una-pagina" + (e.target.value === (D.schema || {}).scenario ? "" : "?scenario=" + e.target.value); });

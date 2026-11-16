@@ -787,3 +787,40 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 .sc-leg{ display:flex; flex-wrap:wrap; gap:6px 16px; font-size:14px; margin:4px 0 8px; }
 .sc-leg span::before{ content:""; display:inline-block; width:18px; height:3px; margin-right:6px; vertical-align:middle; }
 .sc-leg .gov::before{ background:var(--c-neutro); } .sc-leg .par::before{ background:var(--g-negativo); } .sc-leg .gai::before{ background:var(--c-accento); height:4px; }
+
+
+/* 50 anni di scelte */
+.st-periodi{ display:flex; gap:8px; overflow-x:auto; padding-bottom:6px; margin:8px 0 16px; }
+.st-p{ flex:0 0 auto; display:grid; gap:2px; padding:10px 14px; border:1px solid var(--c-bordo); border-radius:var(--r-l); background:var(--c-superficie); color:var(--c-testo); text-decoration:none; max-width:220px; }
+.st-p.attivo{ border-color:var(--c-accento); box-shadow:inset 0 -3px 0 var(--c-accento); }
+.st-anni{ font-weight:700; font-variant-numeric:tabular-nums; }
+.st-p span:last-child{ font-size:14px; color:var(--c-testo-2); }
+.st-card{ color:inherit; text-decoration:none; display:block; }
+.st-card:hover{ border-color:var(--c-accento); }
+.st-num{ font-family:var(--f-serif); font-size:22px; font-weight:700; margin:4px 0; }
+.st-sel{ font:inherit; padding:8px 10px; border:1px solid var(--c-bordo-forte); border-radius:var(--r-m); background:var(--c-superficie); color:var(--c-testo); max-width:100%; margin:4px 0 8px; }
+.st-grafico{ width:100%; min-width:560px; height:auto; }
+.st-banda.a{ fill:var(--c-superficie-2); opacity:.55; } .st-banda.b{ fill:transparent; }
+.st-bt{ fill:var(--c-testo-2); font-size:11px; }
+.st-zero{ stroke:var(--g-zero); }
+.st-l{ fill:none; stroke-width:2; stroke-linejoin:round; }
+.st-l.it{ stroke:var(--c-accento); stroke-width:3.5; }
+.st-l.alt{ stroke:var(--c-neutro); opacity:.75; }
+.st-l.FR{ stroke-dasharray:6 4; } .st-l.DE{ stroke-dasharray:2 3; } .st-l.ES{ stroke-dasharray:10 3 2 3; }
+.st-l.Nord{ stroke-dasharray:6 4; } .st-l.Centro{ stroke-dasharray:2 3; }
+.st-cursore{ stroke:var(--c-testo-2); stroke-width:1; }
+.st-legenda{ display:flex; flex-wrap:wrap; gap:6px 16px; font-size:14px; margin-bottom:6px; }
+.st-leg::before{ content:""; display:inline-block; width:18px; height:3px; margin-right:6px; vertical-align:middle; background:var(--c-neutro); }
+.st-leg.it::before{ background:var(--c-accento); height:4px; }
+.st-dec{ list-style:none; padding:0; margin:12px 0; display:grid; gap:6px; }
+.st-dec details{ border:1px solid var(--c-bordo); border-radius:var(--r-l); background:var(--c-superficie); }
+.st-dec summary{ display:grid; grid-template-columns:3.2em minmax(0,1fr) auto; gap:10px; align-items:start; padding:10px 14px; cursor:pointer; }
+.st-a{ font-weight:700; font-variant-numeric:tabular-nums; }
+.st-t{ display:grid; gap:2px; min-width:0; overflow-wrap:anywhere; }
+.st-t small{ color:var(--c-testo-2); font-size:13px; }
+.st-dec .corpo{ padding:0 14px 12px; overflow-wrap:anywhere; }
+@media (max-width:600px){ .st-dec summary{ grid-template-columns:3em minmax(0,1fr); } .st-dec summary .chip{ grid-column:2; justify-self:start; } }
+
+.st-dati{ display:grid; gap:12px; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); margin:12px 0; }
+.st-dati .card{ margin:0; }
+.filtri select,.filtri input{ max-width:100%; min-width:0; }

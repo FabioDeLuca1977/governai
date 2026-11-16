@@ -1,0 +1,180 @@
+# Sei periodi della storia economica e sociale italiana, 1977-2026.
+# Fonti: storia/decisioni_1977_2026.md e .csv (decisioni D001-D120), storia/serie_lunghe.md,
+# storia/serie/*.csv, storia/serie/_decenni.csv, storia/serie/_rotture.csv.
+# Regole di lettura:
+# - "Fatto" = dato osservato nelle serie; "stima" = risultato di un modello o di una valutazione
+#   citata nel catalogo; "ipotesi" = coincidenza tra una rottura statistica e una decisione o uno shock.
+# - Le coincidenze tra anni di rottura e decisioni NON dimostrano un effetto (vedi serie_lunghe.md).
+# - Si giudicano le decisioni, non chi le ha prese: nei testi non compaiono nomi di persone o partiti.
+# - Il 2026 delle serie AMECO è una previsione della Commissione europea; la povertà assoluta ISTAT
+#   ha una serie interrotta nel 2005-2013 e un cambio di metodo nel 2014.
+# - Medie di periodo e variazioni sono calcolate dalle serie annuali in storia/serie/.
+
+periodi:
+  - id: p1
+    da: 1977
+    a: 1991
+    titolo: "Crescita forte, inflazione e debito in salita"
+    in_breve: "L'Italia cresce quanto o più dei vicini e costruisce lo Stato sociale, ma lo finanzia in larga parte a debito."
+    perche: "Fatto: dopo gli shock petroliferi l'inflazione è al 17,1% nel 1977 e i salari sono legati ai prezzi dalla scala mobile (AMECO). Lo Stato allarga i servizi, ma le entrate restano basse: pressione fiscale al 25,8% del PIL nel 1977 contro il 35-37% di Francia e Germania (OCSE). Il debito parte dal 53,5% del PIL (AMECO) e la lira è debole: lo spread sul Bund supera i 450 punti base."
+    come: "Si costruiscono servizi universali: Servizio sanitario nazionale (D006), inclusione degli alunni con disabilità (D001), chiusura dei manicomi (D004). Contro l'inflazione si sceglie il vincolo esterno: ingresso nello SME (D008), separazione tra Tesoro e banca centrale (D009), taglio della scala mobile (D011). Il controllo della spesa resta debole (D007), si ricorre al primo condono edilizio (D013) e l'intervento straordinario nel Mezzogiorno si esaurisce senza risultati misurabili (D015). A fine periodo arrivano antitrust e banche pubbliche trasformate in società per azioni (D019, D020)."
+    cosa: "Fatti: il PIL pro capite reale sale del 39,5% tra il 1977 e il 1991, più di Francia (+32,1%) e Spagna (+31,9%); la crescita media del PIL è del 2,5% l'anno, come Francia (2,6%), Germania (2,7%) e Spagna (2,5%). L'inflazione scende dal 17,1% al 6,3%, ma resta in media all'11,3% contro il 3,1% tedesco. Il deficit pubblico è in media al 10,3% del PIL contro il 2,2-2,3% di Francia e Germania; il debito sale dal 53,5% al 94,5% e gli interessi dal 3,5% all'11,3% del PIL. La produttività oraria cresce del 2,0% l'anno contro il 2,5-3,1% degli altri tre. Stima riportata nel catalogo: il debito cresce soprattutto per disavanzi primari persistenti (circa 3% del PIL l'anno), più che per la separazione tra Tesoro e banca centrale. Ipotesi: le rotture dell'inflazione nel 1986 e del deficit nel 1983 coincidono con gli accordi sulla scala mobile e il calo del petrolio."
+    chi: "Hanno guadagnato le famiglie di allora: redditi in forte crescita, sanità universale, più donne al lavoro (occupazione femminile dal 31,8% al 36,5%, ma ancora 16-20 punti sotto Francia e Germania). Hanno pagato i risparmiatori, erosi dall'inflazione, e soprattutto le generazioni successive, che ereditano un debito quasi raddoppiato in rapporto al PIL e una spesa per interessi altissima. I giovani trovano lavoro con più fatica: la disoccupazione giovanile passa dal 14,5% al 30,8%. Il Mezzogiorno riceve molti fondi straordinari ma senza effetti duraturi documentati."
+    lezione: "Un vincolo esterno aiuta a battere l'inflazione, ma il debito cresce se ogni anno si spende più di quanto si incassa al netto degli interessi (lezione 8). Le grandi scelte di sistema, come la sanità universale, durano se nascono con un finanziamento credibile (lezione 14)."
+    decisioni: [D006, D007, D008, D009, D011, D013, D015, D020]
+    dati:
+      - etichetta: "Debito pubblico"
+        valore: "da 53,5% a 94,5% del PIL (1977-1991)"
+        fonte: "debito_pil (AMECO)"
+      - etichetta: "Deficit pubblico medio"
+        valore: "10,3% del PIL l'anno; Francia e Germania circa 2,2-2,3%"
+        fonte: "deficit_pil (FMI, AMECO)"
+      - etichetta: "Inflazione"
+        valore: "da 17,1% (1977) a 6,3% (1991)"
+        fonte: "inflazione (AMECO)"
+      - etichetta: "PIL pro capite reale"
+        valore: "+39,5% in 14 anni; Francia +32,1%, Spagna +31,9%"
+        fonte: "pil_pro_capite_reale (AMECO)"
+      - etichetta: "Pressione fiscale"
+        valore: "da 25,8% a 36,6% del PIL"
+        fonte: "pressione_fiscale_ocse (OCSE)"
+
+  - id: p2
+    da: 1992
+    a: 1998
+    titolo: "Crisi della lira e risanamento per l'euro"
+    in_breve: "Dopo la crisi del 1992 i conti vengono raddrizzati con tasse, tagli e riforme strutturali fino all'ingresso nella moneta unica."
+    perche: "Fatto: nel 1992 la lira esce dallo SME; la spesa per interessi arriva al 12,2% del PIL, il deficit al 10,4% e il debito supera il 100% del PIL (FMI, AMECO). Il tasso a lungo termine è al 13,2% nel 1991 e lo spread sul Bund a 472 punti base. Il Trattato di Maastricht fissa criteri precisi per entrare nell'euro, e i mercati chiedono un cambio di passo."
+    come: "Una manovra straordinaria nel 1992 (D022), una lunga serie di riforme delle pensioni, dalla prima stretta del 1992 al passaggio al sistema contributivo del 1995 (D023, D034), la fine della scala mobile e gli accordi sui redditi e sui contratti (D026, D030). Si avviano le privatizzazioni (D028), nasce l'imposta comunale sugli immobili (D025), si introduce un contributo straordinario per entrare nell'euro (D036, D042). Nascono anche strumenti di misura e regole per gli enti locali: ISEE (D044) e patto di stabilità interno (D045)."
+    cosa: "Fatti: il saldo primario passa da circa zero (1991) a +6,1% del PIL (1997); nel periodo è in media +3,7%, mentre Francia e Germania restano in disavanzo primario. Il deficit scende dal 10,4% al 3,0% del PIL tra il 1992 e il 1997; il tasso lungo cala dal 13,2% al 4,9% e lo spread da 472 a 31 punti base. Il debito tocca il massimo del 119,1% nel 1995 e scende al 113,9% nel 1998. Il costo è una crescita bassa (1,4% l'anno contro 1,9% della Francia e 2,2% della Spagna) e una disoccupazione che sale dall'8,6% al 12,1%. La pressione fiscale sale dal 36,6% al 39,8% del PIL. Ipotesi: le rotture del saldo primario (1991), della pressione fiscale (1992) e dell'inflazione (1997) coincidono con queste scelte."
+    chi: "Hanno pagato i contribuenti (più tasse e un contributo straordinario) e i lavoratori dipendenti, che perdono l'adeguamento automatico dei salari. Le riforme delle pensioni, molto graduali, proteggono chi lavorava già da tempo e spostano il peso sulle generazioni più giovani, che avranno pensioni più basse se la carriera è discontinua. Ha guadagnato lo Stato, e quindi tutti i contribuenti futuri, grazie al calo dei tassi. La disuguaglianza dei redditi sale in pochi anni (indice di Gini OCSE da 27,9 nel 1991 a 32,7 nel 1995)."
+    lezione: "Un avanzo primario mantenuto per anni e un obiettivo esterno chiaro abbassano davvero i tassi e il costo del debito (lezione 8). Le riforme delle pensioni reggono quando sono graduali e stabili, ma vanno dichiarati prima gli effetti sui più giovani (lezione 2)."
+    decisioni: [D022, D023, D025, D026, D028, D030, D034, D036, D042, D044]
+    dati:
+      - etichetta: "Saldo primario"
+        valore: "da circa 0% (1991) a +6,1% del PIL (1997)"
+        fonte: "saldo_primario_pil (FMI, AMECO)"
+      - etichetta: "Spread sul Bund"
+        valore: "da 472 a 31 punti base (1991-1998)"
+        fonte: "spread_bund (AMECO)"
+      - etichetta: "Debito pubblico"
+        valore: "massimo 119,1% del PIL nel 1995, 113,9% nel 1998"
+        fonte: "debito_pil (AMECO)"
+      - etichetta: "Disoccupazione"
+        valore: "da 8,6% a 12,1%"
+        fonte: "disoccupazione (AMECO)"
+      - etichetta: "Crescita media del PIL"
+        valore: "1,4% l'anno; Francia 1,9%, Germania 1,5%, Spagna 2,2%"
+        fonte: "pil_reale_crescita (AMECO)"
+
+  - id: p3
+    da: 1999
+    a: 2007
+    titolo: "Euro, tassi bassi e produttività ferma"
+    in_breve: "Con l'euro gli interessi calano e il lavoro cresce, ma la produttività si ferma e l'Italia perde terreno sui vicini."
+    perche: "Fatto: con la moneta unica i tassi si allineano a quelli tedeschi (spread intorno a 30 punti base) e non si può più svalutare. La spesa per interessi, che era al 9,1% del PIL nel 1997, scende in media al 5,2% nel periodo (AMECO). Dal 2001 la Cina entra nel commercio mondiale e aumenta la concorrenza sui prodotti dove l'Italia era forte. La serie della produttività oraria ha una rottura nel 2001: prima cresceva dell'1,9% l'anno, dopo di circa zero."
+    come: "Si aprono mercati come l'elettricità e alcuni servizi (D046, D062) e si riforma l'università (D047). Si cambia il riparto dei poteri tra Stato e Regioni (D050). Il lavoro diventa più flessibile all'ingresso (D051, D055). Sul fisco tornano scudi e condoni (D052, D053, D056). Le pensioni cambiano due volte in tre anni, prima con uno scalone e poi con le quote (D058, D064). Si avviano i piani di rientro dei disavanzi sanitari (D059), si usano i fondi europei di coesione (D049) e nascono strumenti di misura solidi come le prove INVALSI (D066) e il decreto flussi con graduatoria per arrivo (D065)."
+    cosa: "Fatti: l'occupazione 15-64 anni sale dal 52,2% al 58,6% e quella femminile dal 37,3% al 46,6%; la disoccupazione scende dal 12,1% al 6,2% e quella giovanile dal 32,1% al 20,4%. Ma il PIL pro capite reale cresce solo del 10,6% tra il 1998 e il 2007, contro il 16,3% della Francia, il 16,2% della Germania e il 23,5% della Spagna; la produttività oraria cresce dello 0,5% l'anno contro l'1,5% di Francia e Germania. A parità di potere d'acquisto il PIL pro capite scende da 125 a 109 (UE27 = 100). Il debito cala poco, dal 113,9% al 103,5% del PIL, mentre la Spagna lo porta dal 62,4% al 35,7%; il saldo primario si riduce con una rottura nel 2003. I laureati 25-34 anni salgono dall'8,9% al 18,8%, ma Francia e Spagna sono oltre il 40%. Ipotesi: le rotture della produttività (2001) e del PIL pro capite relativo (2004) coincidono con l'euro, la concorrenza cinese e le riforme del lavoro, ma il test non separa queste cause."
+    chi: "Hanno guadagnato le persone entrate nel lavoro, soprattutto donne e giovani, anche se spesso con contratti temporanei: nasce un mercato del lavoro a due velocità. I contribuenti in regola hanno pagato il costo dei condoni, che premiano chi non ha versato. Lo Stato ha risparmiato molto sugli interessi, ma ha usato poco quel risparmio per ridurre il debito, lasciando il peso alle generazioni successive. Le Regioni hanno ricevuto più poteri senza un'autonomia finanziaria completa, con divari territoriali rimasti fermi (PIL pro capite del Mezzogiorno al 55-56% del Centro-Nord)."
+    lezione: "Quando i tassi scendono, il risparmio sugli interessi va usato per ridurre il debito e investire su produttività e istruzione, non per rinviare le scelte (lezione 8). Condoni e regole che cambiano spesso tolgono credibilità alle riforme successive (lezioni 1 e 5)."
+    decisioni: [D046, D049, D050, D053, D055, D058, D059, D064, D065, D066]
+    dati:
+      - etichetta: "Occupazione 15-64 anni"
+        valore: "da 52,2% a 58,6% (1998-2007)"
+        fonte: "occupazione_15_64 (OCSE)"
+      - etichetta: "Produttività oraria"
+        valore: "+0,5% l'anno; Francia e Germania +1,5%"
+        fonte: "produttivita_oraria_crescita (AMECO)"
+      - etichetta: "PIL pro capite a parità di potere d'acquisto"
+        valore: "da 125 a 109 (UE27 = 100)"
+        fonte: "pil_pro_capite_pps_ue27 (Eurostat)"
+      - etichetta: "Debito pubblico"
+        valore: "da 113,9% a 103,5% del PIL; Spagna da 62,4% a 35,7%"
+        fonte: "debito_pil (AMECO)"
+      - etichetta: "Laureati 25-34 anni"
+        valore: "da 8,9% a 18,8%; Francia 41,4% e Spagna 40,0% nel 2007"
+        fonte: "laureati_25_34 (Eurostat)"
+
+  - id: p4
+    da: 2008
+    a: 2013
+    titolo: "Doppia recessione e crisi del debito"
+    in_breve: "La crisi finanziaria e poi quella del debito sovrano costringono a correggere i conti mentre l'economia si contrae."
+    perche: "Fatto: con la crisi finanziaria globale il PIL cala del 5,3% nel 2009; nel 2011-2012 la crisi dei debiti sovrani porta lo spread sul Bund da 130 punti base (2010) a 399 (2012), in media annua (AMECO). Il debito sale dal 103,5% (2007) al 131,9% del PIL (2013), anche perché il PIL si riduce. Le regole europee e i mercati chiedono correzioni rapide."
+    come: "All'inizio si abolisce l'imposta sulla prima casa (D067) e si fanno tagli uguali per tutti i ministeri (D068); si estende la cassa integrazione a chi non ne aveva diritto (D069) e si avvia il federalismo fiscale (D070). Con la crisi del debito arrivano l'età di pensione legata alla speranza di vita (D073), una riforma delle pensioni rapida e severa (D075), il ritorno dell'imposta sulla prima casa (D076), la riforma del lavoro del 2012 (D077), il pareggio di bilancio in Costituzione e la nascita di un ufficio indipendente sui conti (D078), la prima revisione strutturata della spesa (D079) e il pagamento dei debiti arretrati della pubblica amministrazione verso le imprese (D082)."
+    cosa: "Fatti: il PIL pro capite reale cala dell'11,2% tra il 2007 e il 2013, come in Spagna (-10,3%), mentre la Francia resta ferma (-0,1%) e la Germania cresce (+4,5%). La disoccupazione raddoppia dal 6,2% al 12,4% e quella giovanile passa dal 20,4% al 40,0%. La povertà assoluta sale dal 3,1% al 7,3% delle persone, con una rottura nel 2012 (serie ISTAT interrotta, confronti da prendere con cautela). L'Italia mantiene un avanzo primario medio dell'1,2% del PIL, contro un disavanzo del 3,0% in Francia e del 6,6% in Spagna. Gli investimenti pubblici scendono dal 3,1% al 2,5% del PIL e il PIL pro capite a parità di potere d'acquisto da 109 a 100 (UE27 = 100). Gli italiani che si cancellano per l'estero passano da circa 36 mila a 82 mila l'anno. Stima del catalogo: una parte dei posti per giovani persi nel periodo, circa 36 mila su 150 mila, è attribuita alla riforma delle pensioni del 2011."
+    chi: "Hanno pagato soprattutto i giovani, con disoccupazione record ed emigrazione in crescita, e le famiglie povere, in particolare nel Mezzogiorno. Una parte di chi era vicino alla pensione è rimasta senza lavoro e senza pensione, poi tutelata con otto salvaguardie. I proprietari di casa hanno pagato di nuovo l'imposta sugli immobili. Le imprese creditrici dello Stato hanno ricevuto i pagamenti arretrati. La spesa per pensioni sale dall'11,8% al 13,8% del PIL anche perché il PIL cala, mentre l'occupazione delle persone tra 55 e 64 anni cresce."
+    lezione: "I tagli uguali per tutti contengono la spesa nel breve, ma non distinguono la spesa utile da quella inutile: servono tagli mirati con indicatori di esito (lezione 4). Le riforme delle pensioni brusche hanno costi sociali alti: meglio prepararle prima delle crisi e applicarle in modo graduale (lezione 2)."
+    decisioni: [D067, D068, D069, D073, D075, D076, D077, D078, D079, D082]
+    dati:
+      - etichetta: "PIL pro capite reale"
+        valore: "-11,2% tra 2007 e 2013; Germania +4,5%, Francia -0,1%, Spagna -10,3%"
+        fonte: "pil_pro_capite_reale (AMECO)"
+      - etichetta: "Debito pubblico"
+        valore: "da 103,5% a 131,9% del PIL"
+        fonte: "debito_pil (AMECO)"
+      - etichetta: "Disoccupazione giovanile"
+        valore: "da 20,4% a 40,0%"
+        fonte: "disoccupazione_giovanile (OCSE)"
+      - etichetta: "Povertà assoluta"
+        valore: "da 3,1% a 7,3% delle persone"
+        fonte: "poverta_assoluta (ISTAT, serie interrotta)"
+      - etichetta: "Spread sul Bund"
+        valore: "da 27 (2007) a 399 punti base (2012), media annua"
+        fonte: "spread_bund (AMECO)"
+
+  - id: p5
+    da: 2014
+    a: 2019
+    titolo: "Ripresa lenta e incentivi temporanei"
+    in_breve: "L'occupazione risale con l'aiuto di tassi bassi e sgravi, ma crescita e produttività restano le più deboli tra i quattro paesi."
+    perche: "Fatto: nel 2014 la disoccupazione giovanile è al 42,7% (OCSE) e la povertà assoluta resta intorno al 7% (ISTAT). Le banche hanno molti crediti deteriorati. Dal 2015 gli acquisti di titoli della BCE abbassano i tassi: il tasso lungo scende dal 4,3% (2013) all'1,9% (2019). Il PIL pro capite a parità di potere d'acquisto scende sotto la media UE27, con una rottura nel 2014."
+    come: "Sul lavoro si sceglie la leva fiscale e contrattuale: bonus mensile per i dipendenti a reddito medio-basso (D083), nuovo contratto a tutele crescenti con forti sgravi temporanei (D085), Garanzia giovani (D086), poi limiti ai contratti a termine (D098). Si abolisce di nuovo l'imposta sulla prima casa (D090), si estende il regime forfettario (D100) e si ripetono le rottamazioni delle cartelle (D093). Si sostengono le banche (D091, D095) e gli investimenti digitali delle imprese (D092). Contro la povertà nascono le prime misure nazionali (D094, D101); sulle pensioni torna un'uscita anticipata temporanea (D102)."
+    cosa: "Fatti: l'occupazione sale dal 55,5% al 59,1%, la disoccupazione scende dal 12,4% al 9,9% e quella giovanile dal 42,7% (2014) al 29,1%. Il PIL pro capite reale cresce del 6,1% tra il 2013 e il 2019, come la Francia (+6,2%) ma meno di Germania (+9,2%) e Spagna (+15,5%); la produttività oraria resta quasi ferma (+0,1% l'anno contro +0,7% francese e +1,0% tedesco). Il debito resta intorno al 132-134% del PIL nonostante un avanzo primario medio dell'1,6%, anche perché gli interessi costano il 3,9% del PIL contro l'1,2% tedesco. La povertà assoluta sale fino all'8,3% (2017-2018) e scende al 7,5% nel 2019. Gli italiani che si cancellano per l'estero passano da 82 mila a 122 mila l'anno. Stime del catalogo: circa il 40% dell'aumento delle assunzioni stabili del 2015 è dovuto agli sgravi, circa il 5% al nuovo contratto; alla fine degli sgravi le assunzioni stabili calano."
+    chi: "Hanno guadagnato i dipendenti a reddito medio-basso con il bonus, ma non chi aveva un reddito troppo basso per pagare l'IRPEF. Le imprese che hanno assunto hanno avuto sgravi consistenti, pagati da tutti i contribuenti. Le rottamazioni hanno favorito chi non aveva pagato rispetto a chi era in regola. L'uscita anticipata in pensione ha favorito soprattutto uomini con redditi medio-alti e dipendenti pubblici, senza un chiaro effetto di sostituzione con giovani. Le famiglie povere hanno ricevuto per la prima volta un sostegno nazionale, mentre molti giovani hanno scelto di lasciare il Paese."
+    lezione: "Gli incentivi a scadenza creano picchi di assunzioni che si spengono con la fine dell'incentivo: meglio sgravi permanenti e mirati (lezione 10). Le deroghe temporanee sulle pensioni e le rottamazioni ripetute costano senza produrre i risultati promessi (lezioni 1 e 2)."
+    decisioni: [D083, D085, D090, D091, D092, D093, D094, D101, D102]
+    dati:
+      - etichetta: "Occupazione 15-64 anni"
+        valore: "da 55,5% a 59,1% (2013-2019)"
+        fonte: "occupazione_15_64 (OCSE)"
+      - etichetta: "Disoccupazione giovanile"
+        valore: "da 42,7% (2014) a 29,1% (2019)"
+        fonte: "disoccupazione_giovanile (OCSE)"
+      - etichetta: "PIL pro capite reale"
+        valore: "+6,1%; Francia +6,2%, Germania +9,2%, Spagna +15,5%"
+        fonte: "pil_pro_capite_reale (AMECO)"
+      - etichetta: "Spesa per interessi"
+        valore: "3,9% del PIL in media; Germania 1,2%"
+        fonte: "interessi_pil (AMECO)"
+      - etichetta: "Emigrazione di cittadini italiani"
+        valore: "da 82 mila a 122 mila l'anno"
+        fonte: "emigrazione_cittadini (ISTAT)"
+
+  - id: p6
+    da: 2020
+    a: 2026
+    titolo: "Pandemia, fondi europei e nuove regole"
+    in_breve: "Dopo lo shock della pandemia la spesa pubblica sostiene la ripresa e l'occupazione tocca il record, ma deficit, povertà e produttività restano problemi aperti."
+    perche: "Fatto: nel 2020 il PIL cala dell'8,9% per la pandemia; le regole di bilancio europee vengono sospese e dal 2021 arrivano i fondi del PNRR. Nel 2022 lo shock dei prezzi dell'energia porta l'inflazione all'8,2% e la BCE alza i tassi (AMECO). Dal 2024 valgono nuove regole europee basate su un tetto alla crescita della spesa netta."
+    come: "Nell'emergenza si estendono la cassa integrazione e si bloccano i licenziamenti (D104). Si introduce un credito d'imposta del 110% sui lavori edilizi, cedibile e senza tetto di spesa (D105), poi fermato nel 2023 (D112). Si avviano il PNRR (D107), la decontribuzione per il Mezzogiorno (D106) e l'Assegno unico per i figli (D109). Si riforma due volte l'IRPEF (D110, D116), si prorogano le uscite anticipate in pensione (D111), si sostituisce il Reddito di cittadinanza con l'Assegno di inclusione (D114), si introduce il concordato preventivo (D117) e si applicano le nuove regole europee (D120)."
+    cosa: "Fatti: il deficit è in media al 6,7% del PIL nel 2020-2025, più di Francia (6,1%), Spagna (5,0%) e Germania (2,9%); scende al 3,1% nel 2025. Il debito tocca il 154,4% nel 2020, scende al 133,9% nel 2023 e risale al 137,1% nel 2025 (previsione 2026: 138,5%). Il PIL pro capite reale cresce del 7,8% tra il 2019 e il 2025, più di Spagna (+5,2%), Francia (+3,2%) e Germania (-1,3%). L'occupazione arriva al 62,5% nel 2025, record storico, ma ancora 6-15 punti sotto gli altri tre; la disoccupazione scende al 6,1% e quella giovanile al 20,6%. La produttività oraria cala in media dello 0,2% l'anno. La povertà assoluta resta tra il 9,0% e il 9,8% (2020-2025). Gli investimenti pubblici salgono dal 2,3% del PIL (2019) a una previsione del 3,8% nel 2026. Stime del catalogo: il credito edilizio è costato quasi il doppio del previsto, con oltre 100 miliardi di detrazioni maturate; l'effetto netto di questo credito e del PNRR sulla crescita potenziale è ancora incerto. Ipotesi: la rottura del deficit e della spesa pubblica nel 2020 coincide con pandemia, sospensione delle regole e bonus edilizi insieme."
+    chi: "Hanno guadagnato i lavoratori protetti dalla cassa integrazione, le famiglie con figli (con l'Assegno unico circa il 77% dei figli ci guadagna, secondo una stima UPB) e chi ha ristrutturato casa con il credito del 110%, il cui costo ricade su tutti i contribuenti e sul debito. Le famiglie povere restano molte: la povertà assoluta è oltre il 9%, intorno al 12% in media nel Mezzogiorno. I giovani trovano più lavoro, ma molti continuano a partire (141 mila cancellazioni per l'estero nel 2024). Le generazioni future ereditano più debito e una spesa per interessi intorno al 3,9% del PIL."
+    lezione: "Un incentivo automatico senza tetto di spesa sfugge di mano: ogni agevolazione deve avere un limite e un controllo mensile (lezione 3). Con molti fondi a disposizione conta l'attuazione, cioè opere finite e risultati misurati, più dei traguardi formali (lezione 6)."
+    decisioni: [D104, D105, D107, D109, D112, D114, D116, D117, D120]
+    dati:
+      - etichetta: "Deficit pubblico"
+        valore: "da 9,4% del PIL (2020) a 3,1% (2025)"
+        fonte: "deficit_pil (AMECO)"
+      - etichetta: "Debito pubblico"
+        valore: "154,4% del PIL nel 2020, 137,1% nel 2025 (138,5% previsto nel 2026)"
+        fonte: "debito_pil (AMECO)"
+      - etichetta: "PIL pro capite reale"
+        valore: "+7,8% tra 2019 e 2025; Spagna +5,2%, Francia +3,2%, Germania -1,3%"
+        fonte: "pil_pro_capite_reale (AMECO)"
+      - etichetta: "Occupazione 15-64 anni"
+        valore: "62,5% nel 2025, massimo storico"
+        fonte: "occupazione_15_64 (OCSE)"
+      - etichetta: "Povertà assoluta"
+        valore: "tra 9,0% e 9,8% delle persone (2020-2025)"
+        fonte: "poverta_assoluta (ISTAT)"

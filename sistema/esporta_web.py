@@ -351,6 +351,57 @@ def motore_web() -> dict:
             "legami": ottimizza.LEGAMI, "linee_rosse": rosse, "nomi_fondi": NOMI_FONDI}
 
 
+SERIE_STORIA = ["pil_pro_capite_pps_ue27", "produttivita_oraria_crescita", "debito_pil",
+                "saldo_primario_pil", "pressione_fiscale_ocse", "spesa_pubblica_pil", "occupazione_15_64",
+                "occupazione_femminile_15_64", "disoccupazione_giovanile", "spread_bund", "inflazione", "fecondita",
+                "emigrazione_cittadini", "laureati_25_34", "poverta_assoluta", "divario_nord_sud"]
+
+
+def storia() -> dict:
+    """50 anni di scelte: periodi ragionati, catalogo delle decisioni 1977-2026 e serie lunghe (cartella storia/)."""
+    d = RADICE / "storia"
+    if not d.exists():
+        return {}
+    dec = pd.read_csv(d / "decisioni_1977_2026.csv", dtype=str).fillna("")
+    reg = pd.read_csv(d / "serie" / "_registro.csv", dtype=str).fillna("").set_index("nome")
+    serie = {}
+    for nome in SERIE_STORIA:
+        f = d / "serie" / f"{nome}.csv"
+        if not f.exists():
+            continue
+        t = pd.read_csv(f)
+        t = t[(t.anno >= 1970) & (t.anno <= 2025)]
+        r = reg.loc[nome] if nome in reg.index else {}
+        serie[nome] = {"descrizione": r.get("descrizione", ""), "unita": r.get("unita", ""), "fonte": r.get("fonte", ""),
+                       "url": r.get("url", ""),
+                       "dati": {paese: [[int(x.anno), round(float(x.valore), 3)] for x in g.sort_values("anno").itertuples()]
+                                for paese, g in t.groupby("paese")}}
+    # Indice della ricchezza per abitante (1977 = 100) ricostruito dalla crescita annua: così c'è anche la Germania
+    # prima del 1991 (Germania Ovest), che nella serie in livelli manca
+    f = d / "serie" / "pil_pro_capite_crescita.csv"
+    if f.exists():
+        t = pd.read_csv(f)
+        ind = {}
+        for paese, g in t[t.paese.isin(["IT", "FR", "DE", "ES"])].groupby("paese"):
+            g = g.set_index("anno").valore
+            if 1977 not in g.index:
+                continue
+            v, righe = 100.0, [[1977, 100.0]]
+            for anno in range(1978, 2026):
+                if anno not in g.index:
+                    break
+                v *= 1 + float(g[anno]) / 100
+                righe.append([anno, round(v, 2)])
+            ind[paese] = righe
+        serie = {"pil_pro_capite_indice": {"descrizione": "Indice del PIL pro capite reale, 1977 = 100, ricostruito da GovernAI concatenando la crescita annua AMECO (Germania: Germania Ovest fino al 1991).",
+                                           "unita": "indice 1977 = 100", "fonte": "AMECO (Commissione europea), elaborazione GovernAI",
+                                           "url": reg.loc["pil_pro_capite_crescita", "url"] if "pil_pro_capite_crescita" in reg.index else "", "dati": ind}, **serie}
+    periodi = (yaml.safe_load(leggi(d / "periodi.yaml")) or {}).get("periodi", []) if (d / "periodi.yaml").exists() else []
+    campi = ["id", "anno", "atto", "governo_anno", "presidente_consiglio", "ambito", "decisione", "cosa_cambia",
+             "effetto_conti", "effetti_misurati", "giudizio", "solidita_evidenza", "fonti"]
+    return {"periodi": periodi, "decisioni": dec[campi].to_dict("records"), "serie": serie}
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     conf = yaml.safe_load(leggi(QUI / "config.yaml"))
@@ -455,6 +506,7 @@ def main() -> int:
         "costituzione": costituzione(),
         "motore": motore_web(),
         "proposte_validate": json.loads(leggi(RADICE / "proposte" / "validati.json") or "[]"),
+        "storia": storia(),
         "quattro_domande": {k: v for f in sorted((RADICE / "programma").glob("quattro_domande_*.yaml"))
                             for k, v in ((yaml.safe_load(leggi(f)) or {}).get("proposte") or {}).items()},
         "oceano_blu": yaml.safe_load(leggi(RADICE / "programma" / "oceano_blu.yaml")) if (RADICE / "programma" / "oceano_blu.yaml").exists() else {},
