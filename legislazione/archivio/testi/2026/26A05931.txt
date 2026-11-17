@@ -1,0 +1,361 @@
+DELIBERA 4 novembre 2026
+Modifiche ai regolamenti in materia di emittenti, mercati e intermediari. (Delibera n. 24195).
+(GU Serie Generale n. 267 del 2026-11-16; https://www.gazzettaufficiale.it/eli/id/2026/11/16/26A05931/sg)
+
+LA COMMISSIONE NAZIONALE
+PER LE SOCIETA' E LA BORSA
+
+Vista la legge 7 giugno 1974, n. 216 e successive modificazioni;
+Visto il decreto legislativo del 24 febbraio 1998, n. 58, recante
+il testo unico delle disposizioni in materia di intermediazione
+finanziaria e successive modificazioni (di seguito anche «TUF»);
+Visto il regolamento (UE) 2017/1129 del Parlamento europeo e del
+Consiglio, del 14 giugno 2017, relativo al prospetto da pubblicare
+per l'offerta pubblica o l'ammissione alla negoziazione di titoli in
+un mercato regolamentato, e che abroga la direttiva 2003/71/CE;
+Vista la direttiva 2014/65/UE del Parlamento europeo e del
+Consiglio, del 15 maggio 2014, relativa ai mercati degli strumenti
+finanziari e che modifica la direttiva 2002/92/CE e la direttiva
+2011/61/UE;
+Visto il regolamento delegato (UE) 2026/1092 della Commissione, del
+21 maggio 2026, che integra la direttiva 2014/65/UE stabilendo norme
+tecniche di regolamentazione (RTS) per l'istituzione di un codice di
+condotta dell'UE per la ricerca sponsorizzata dall'emittente;
+Visto il decreto legislativo 27 marzo 2026, n. 47, recante
+disposizioni di «Attuazione della delega di cui all'art. 19 della
+legge 5 marzo 2024, n. 21, per la riforma organica delle disposizioni
+in materia di mercati dei capitali recate dal testo unico di cui al
+decreto legislativo 24 febbraio 1998, n. 58, e delle disposizioni in
+materia di societa' di capitali contenute nel codice civile, nonche'
+per la modifica di ulteriori disposizioni vigenti al fine di
+assicurarne il miglior coordinamento»;
+Visto il decreto legislativo 29 aprile 2026, n. 86, recante
+disposizioni per il «Recepimento della direttiva (UE) 2024/2811 del
+Parlamento europeo e del Consiglio, del 23 ottobre 2024, e
+adeguamento della normativa nazionale alle disposizioni dell'art. 1
+del regolamento (UE) 2024/2809, del Parlamento europeo e del
+Consiglio, del 23 ottobre 2024, per rendere i mercati pubblici dei
+capitali nell'Unione piu' attraenti per le societa' e facilitare
+l'accesso delle piccole e medie imprese ai capitali»;
+Vista la delibera del 14 maggio 1999, n. 11971 e successive
+modifiche, con la quale e' stato adottato il regolamento concernente
+la disciplina degli emittenti in attuazione del decreto legislativo
+24 febbraio 1998, n. 58 (di seguito anche «Regolamento emittenti»);
+Vista la delibera del 28 dicembre 2017, n. 20249 e successive
+modifiche, con la quale e' stato adottato il regolamento concernente
+la disciplina in materia di mercati in attuazione del decreto
+legislativo 24 febbraio 1998, n. 58 (di seguito anche «Regolamento
+mercati»);
+Vista la delibera del 15 febbraio 2018, n. 20307 e successive
+modifiche, con la quale e' stato adottato il regolamento recante
+norme di attuazione del decreto legislativo 24 febbraio 1998, n. 58,
+in materia di intermediari (di seguito anche «Regolamento
+intermediari»);
+Vista la delibera del 5 luglio 2016, n. 19654 e successive
+modificazioni, con la quale e' stato adottato il regolamento
+concernente i procedimenti per l'adozione di atti di regolazione
+generale ai sensi dell'art. 23 della legge 28 dicembre 2005, n. 262;
+Considerato che per effetto delle modifiche apportate al TUF dal
+decreto legislativo n. 47/2026 e dal decreto legislativo n. 86/2026,
+e' necessario garantire il coordinamento delle disposizioni
+regolamentari emanate dalla Consob in taluni ambiti della disciplina
+in materia di emittenti, mercati e intermediari, tenuto conto della
+evoluzione del quadro normativo di riferimento e del mantenimento di
+adeguati presidi di tutela degli investitori;
+Considerato che e' opportuno prevedere un termine congruo entro il
+quale i soggetti interessati sono tenuti a conformarsi, ove
+necessario, alle nuove previsioni in materia di ricerca sponsorizzata
+dagli emittenti, anche in ragione del codice di condotta europeo di
+cui al regolamento delegato (UE) 2026/1092, in vigore dal 7 settembre
+2026;
+Considerate le osservazioni pervenute in risposta al documento di
+consultazione sulle proposte di modifica del regolamento emittenti,
+mercati e intermediari, pubblicato in data 18 giugno 2026, come
+rappresentate nella relazione illustrativa pubblicata sul sito web
+della Consob;
+
+Delibera:
+
+Art. 1
+
+Modifiche del regolamento di attuazione del decreto legislativo 24
+febbraio 1998, n. 58, concernente la disciplina degli emittenti,
+adottato con delibera del 14 maggio 1999, n. 11971 e successive
+modifiche
+
+1. Al regolamento emittenti sono apportate le seguenti modifiche:
+A. nella Parte I, all'art. 2,
+i) al comma 1, la lettera a-bis), e' sostituita dalla seguente:
+«a-bis) "borsa": i mercati regolamentati, ovvero i relativi comparti
+o segmenti, nei quali e' chiesta l'ammissione a quotazione ai sensi
+dell'art. 66, comma 1, del testo unico;»;
+ii) il comma 7 e' abrogato;
+B. nella Parte II,
+I. Titolo I, Capo V, Sezione I, all'art. 34-ter:
+i) all'inizio del comma 01 e' aggiunto il seguente periodo:
+«Ai sensi e alle condizioni previste dall'art. 3, paragrafo 2, del
+regolamento prospetto,» e le parole «e' compreso tra 1.000.000 di
+euro e 8.000.000 di euro», sono sostituite dalle seguenti: «sia
+inferiore a 12.000.000 di euro»;
+ii) al comma 1, lettera c), le parole «8.000.000 di euro»
+sono sostituite dalle seguenti: «12.000.000 di euro»;
+II. Titolo II,
+a) Capo I,
+1) all'art. 35, comma 1, la lettera b), e' sostituita dalla
+seguente: «b) "parti interessate": i soggetti indicati dall'art.
+101-bis, comma 4-quater, del testo unico»;
+2) all'art. 35-bis, il comma 1 e' sostituito dal seguente:
+«1. Il presente titolo si applica, salvo quanto previsto
+dal presente articolo e dagli articoli 2, comma 6, e 35-ter, alle
+offerte pubbliche di acquisto o di scambio, come definite dall'art.
+1, comma 1, lettera v), del testo unico:
+a) il cui corrispettivo totale e' superiore a 8.000.000 di
+euro;
+b) rivolte ad un numero di soggetti superiore a
+centocinquanta.».
+3) all'art. 37-bis, comma 1, la parola «contanti» e'
+sostituita dalla seguente: «denaro»;
+4) all'art. 37-ter, comma 2, la parola: «anche» e'
+soppressa;
+5) all'art. 38,
+i) ai commi 1 e 5, la parola: «anche» e' soppressa;
+ii) al comma 2, la parola: «almeno» e' soppressa;
+6) all'art. 38-bis,
+i) al comma 1, dopo le parole «alla Consob tradotto», sono
+inserite le seguenti: «in una lingua comunemente utilizzata nel mondo
+della finanza internazionale o»;
+ii) al comma 2, dopo le parole «sia redatto» sono inserite
+le seguenti: «o tradotto»;
+7) all'art. 38-ter,
+i) nella rubrica dell'articolo, la parola «extracomunitari»
+e' sostituita dalla seguente: «extra-UE»;
+ii) all'alinea del comma 1 e alla lettera a) del medesimo
+comma, la parola «extracomunitario» e' sostituita dalla seguente:
+«extra-UE»;
+iii) al comma 2, dopo le parole «documento d'offerta
+tradotto», sono inserite le seguenti: «in una lingua comunemente
+utilizzata nel mondo della finanza internazionale o» e la parola
+«extracomunitario» e' sostituita dalla seguente: «extra-UE»;
+iv) al comma 3, dopo la parola «sia», la parola «e'» e'
+soppressa e, dopo la parola «redatto» sono inserite le seguenti: «o
+tradotto»;
+v) al comma 7, le parole «l'art. 11, comma 1, lettera c),
+ultimo periodo» sono sostituite dalle seguenti: «l'art. 38-bis, comma
+7»;
+8) all'art. 41,
+i) al comma 2, lettere a) e c), le parole «i soggetti
+interessati» sono sostituite dalle seguenti: «le parti interessate»;
+ii) al comma 7, le parole: «o dell'art. 152-octies» sono
+soppresse;
+9) all'art. 42, comma 1, le parole «I soggetti interessati»
+sono sostituite dalle seguenti: «Le parti interessate»;
+b) Capo II,
+10) all'art. 44-bis, commi 1 e 2, le parole: «,1-bis,
+1-ter» sono soppresse;
+11) all'art. 44-bis.1, le parole: «,1-bis, 1-ter» sono
+soppresse;
+12) all'art. 44-ter,
+i) al comma 1, le parole: «,1-bis, 1-ter» sono soppresse;
+ii) al comma 2, lettera d), la parola «comunitaria» e'
+sostituita dalla seguente: «UE» e la parola «extracomunitario» e'
+sostituita dalla seguente: «extra-UE»;
+13) all'art. 44-quater, comma 2, lettera a), le parole
+«2408, 2409» sono sostituite dalle seguenti: «2396-ter, 2396-quater»;
+14) all'art. 45,
+i) al comma 1, le parole «in misura superiore alle soglie
+indicate dall'art. 106, commi 1, 1-bis e 1-ter», sono sostituite
+dalle seguenti: «in misura superiore alla soglia indicata dall'art.
+106, comma 1»; alla fine del medesimo comma le parole «alle soglie
+indicate dall'art. 106, commi 1, 1-bis e 1-ter, del testo unico»,
+sono sostituite dalle seguenti: «alla predetta soglia»;
+ii) al comma 1-bis, le parole «delle soglie indicate
+dall'art. 106, commi 1, 1-bis e 1-ter», sono sostituite dalle
+seguenti: «della soglia indicata dall'art. 106, comma 1»;
+15) all'art. 46, le parole «piu' del 5 per cento», sono
+sostituite dalle seguenti: «piu' del 10 per cento»;
+16) all'art. 47-ter, comma 2, lettera a), e all'art.
+47-quater, comma 3, lettera a), la parola «dodici», e' sostituita
+dalla seguente: «sei»;
+17) all'art. 49, comma 1,
+i) alla lettera d-bis), le parole «dai commi 1, 1-bis,
+1-ter e» sono sostituite dalle seguenti: «dal comma 1 e dal»;
+ii) alle lettere e) ed f), le parole: «,1-bis, 1-ter» sono
+soppresse;
+iii) alla lettera g), le parole «fusione o scissione», sono
+sostituite dalle seguenti: «fusione, scissione o aumento di capitale
+mediante conferimento di beni in natura»;
+18) all'art. 50-bis,
+i) al comma 2 e al comma 3, la parola «contanti» e'
+sostituita dalla seguente: «denaro»;
+ii) al comma 3, la parola «quotati» e' sostituita dalle
+seguenti: «ammessi alla negoziazione su un mercato regolamentato
+dell'Unione europea»;
+19) all'art. 50-ter, comma 1,
+i) alinea, la parola «contanti» e' sostituita dalla
+seguente: «denaro» e dopo le parole «comma 5,» sono inserite le
+seguenti: «secondo periodo,»;
+ii) la lettera a) e' sostituita dalla seguente: «a)
+nell'ipotesi in cui il corrispettivo sia pari a quello della
+precedente offerta ai sensi dell'art. 108, comma 3, del testo unico o
+dell'art. 50-bis, comma 2, in base alla valutazione dei titoli
+offerti in scambio indicata dall'offerente in occasione della
+precedente offerta;»;
+20) all'art. 50-quater, comma 2, la parola «contanti» e'
+sostituita dalla seguente: «denaro»;
+21) all'art. 50-quinquies,
+i) al comma 1, la parola «contanti» e' sostituita dalla
+seguente: «denaro» e le parole «108, comma 1», sono sostituite dalle
+seguenti: «108, commi 1 e 2,»;
+ii) al comma 5, la lettera c) e' sostituita dalla seguente:
+«c) le modalita' di espletamento dell'eventuale diritto di acquisto
+di cui all'art. 111, comma 1, del testo unico;»;
+C. nella Parte III, Titolo II, Sezione IV, all'art. 72, comma
+1-bis, le parole «8.000.000 di euro» sono sostituite dalle seguenti:
+«12.000.000 di euro».
+2. Nell'allegato 2 (Offerte pubbliche di acquisto e/o di scambio)
+del regolamento emittenti, all'allegato 2A (Modalita' di redazione
+del documento d'offerta) sono apportate le seguenti modifiche:
+A. nella Parte prima: Informazioni da fornire in relazione alle
+diverse tipologie di strumenti finanziari oggetto dell'offerta e di
+soggetti offerenti - Rinvio agli schemi,
+I. sezione I - Strumenti finanziari negoziati su un mercato
+regolamentato dell'Unione europea, dopo il punto 2, e' aggiunto il
+seguente:
+«2-bis. nel caso di offerta pubblica di scambio (OPSC) e
+offerta pubblica di acquisto e scambio (OPASC), il documento
+d'offerta deve contenere le informazioni sui titoli (o sui prodotti
+finanziari) offerti in scambio, indicate dall'art. 7, paragrafi da 4
+a 10 e 12, del regolamento prospetto;»;
+II. sezione II - Strumenti finanziari non negoziati su un
+mercato regolamentato dell'Unione europea, dopo il punto 2, e'
+aggiunto il seguente:
+«2-bis. nel caso di offerta pubblica di scambio (OPSC) e
+offerta pubblica di acquisto e scambio (OPASC), il documento
+d'offerta deve contenere le informazioni sui titoli (o sui prodotti
+finanziari) offerti in scambio, indicate dall'art. 7, paragrafi da 4
+a 10 e 12, del regolamento prospetto;»;
+B. nella Parte seconda: schemi di documento di offerta, schema 1,
+paragrafo E) Corrispettivo unitario per gli strumenti finanziari e
+sua giustificazione, al punto e1, la parola «dodici» e' sostituita
+dalla seguente: «sei» e le parole «art. 44-ter, comma 7», sono
+sostituite dalle seguenti: «art. 44-ter, comma 6».
+3. Nell'allegato 3 (Informazione societaria) del regolamento
+emittenti, all'allegato 3A (Contenuto delle relazioni illustrative
+dell'organo amministrativo), schema n. 2: relazione illustrativa
+dell'organo amministrativo per l'assemblea straordinaria chiamata a
+deliberare operazioni di modifica del capitale sociale e/o di
+emissione di obbligazioni, punto 6), le parole «8 milioni» sono
+sostituite dalle seguenti: «12 milioni».
+
+Art. 2
+
+Modifiche del regolamento di attuazione del decreto legislativo 24
+febbraio 1998, n. 58, concernente la disciplina dei mercati,
+adottato con delibera del 28 dicembre 2017, n. 20249 e successive
+modifiche
+
+1. Al regolamento mercati sono apportate le seguenti modifiche:
+A. nella Parte I, all'art. 1, dopo le parole «65-septies, comma
+1», sono inserite le seguenti: «66.1»;
+B. nella Parte II,
+I. Titolo I, Capo IV, dopo l'art. 18, e' aggiunto il seguente:
+«Capo IV-bis Condizioni per l'ammissione alle negoziazioni
+Art. 18-bis (Disposizioni in materia di flottante
+sufficiente per l'ammissione di azioni alla negoziazione). - 1. Il
+regolamento del mercato regolamentato prevede che al momento
+dell'ammissione alla negoziazione almeno il 10% del capitale
+sottoscritto, rappresentato dalla categoria di azioni oggetto della
+domanda di ammissione alla negoziazione, sia detenuto dal pubblico.
+2. Qualora si chieda l'ammissione alla negoziazione di azioni
+fungibili con azioni gia' ammesse alla negoziazione, il gestore del
+mercato regolamentato valuta, per soddisfare il requisito di cui al
+comma precedente, se sia stato distribuito al pubblico un numero
+sufficiente di azioni rispetto alla totalita' delle azioni emesse e
+non solo rispetto alle azioni fungibili con azioni gia' ammesse alla
+negoziazione.
+3. In deroga al comma 1, il regolamento del mercato
+regolamentato puo' prevedere, specificando le relative condizioni,
+almeno uno dei seguenti requisiti per la domanda di ammissione alla
+negoziazione di azioni:
+a) un numero di azioni sufficiente e' detenuto dal
+pubblico;
+b) le azioni sono detenute da un numero sufficiente di
+azionisti;
+c) il valore di mercato delle azioni detenute dal pubblico
+rappresenta un livello sufficiente del capitale sottoscritto nella
+categoria di azioni interessata.»;
+II. Titolo II, Capo III, all'art. 45, comma 1,
+i) alinea, dopo le parole «Le sedi di negoziazione» sono
+inserite le seguenti: «, o loro segmenti,»
+ii) dopo la lettera c), e' aggiunta la seguente: «c-bis) nel
+caso dell'istanza di registrazione di un segmento, le informazioni
+sulle misure poste in essere per determinare il rispetto di tutte le
+condizioni di cui all'art. 69, comma 2-bis, lettere a), b) e c), del
+testo unico.».
+
+Art. 3
+
+Modifiche del regolamento di attuazione del decreto legislativo 24
+febbraio 1998, n. 58, concernente la disciplina degli intermediari,
+adottato dalla Consob con delibera n. 20307 del 15 febbraio 2018 e
+successive modifiche
+
+1. Nel regolamento intermediari, Libro III, Parte II, Titolo V,
+Capo III, dopo l'art. 59, sono aggiunti i seguenti:
+«Art. 59-bis (Obblighi di conservazione). - 1. I soggetti
+abilitati conservano un registro dei costi totali imputabili alla
+ricerca loro fornita da parte di terzi, se ne sono a conoscenza. Su
+richiesta, tali informazioni sono messe a disposizione dei clienti su
+base annuale.
+Art. 59-ter (Ricerca sponsorizzata dall'emittente). - 1. I
+soggetti abilitati alla prestazione dei servizi e delle attivita' di
+investimento che producono o distribuiscono ricerca sponsorizzata
+dall'emittente ai sensi dell'art. 21-bis, comma 3, del testo unico
+mettono in atto disposizioni organizzative per assicurare che tale
+ricerca sia prodotta nel rispetto del codice di condotta dell'UE di
+cui all'art. 24, paragrafo 3-quater, della direttiva 2014/65/UE e
+relative norme tecniche di regolamentazione e risulti conforme a
+quanto previsto dai commi 1 e 3 dell'art. 21-bis del testo unico,
+nonche' dal comma 2 del presente articolo.
+2. La ricerca qualificata come «ricerca sponsorizzata
+dall'emittente» indica sulla prima pagina, in modo chiaro ed
+evidente, che e' stata preparata conformemente al codice di condotta
+dell'UE per la ricerca sponsorizzata dall'emittente. Qualsiasi altro
+materiale di ricerca pagato in tutto o in parte dall'emittente ma non
+preparato conformemente a tale codice di condotta dell'UE per la
+ricerca sponsorizzata dall'emittente e' qualificato come
+comunicazione pubblicitaria e promozionale.
+3. Qualsiasi emittente puo' trasmettere la ricerca da esso
+sponsorizzata di cui all'art. 21-bis, comma 3, del testo unico al
+pertinente organismo di raccolta quale definito ai sensi dell'art. 2,
+punto 2, del regolamento (UE) 2023/2859. Nel trasmettere tale ricerca
+all'organismo di raccolta, l'emittente garantisce che sia corredata
+di metadati che specifichino che le informazioni sono conformi al
+codice di condotta dell'UE per la ricerca sponsorizzata
+dall'emittente. Tale ricerca non e' considerata alla stregua delle
+informazioni previste dalla regolamentazione come definite dalla
+direttiva 2004/109/CE ne' come ricerca in materia di investimenti ai
+sensi della direttiva 2014/65/UE e non e' pertanto soggetta allo
+stesso livello di controllo normativo delle informazioni previste
+dalla regolamentazione o della ricerca in materia di investimenti.».
+
+Art. 4
+
+Disposizioni transitorie e finali
+
+1. La presente delibera e' pubblicata nel sito internet della
+Consob e nella Gazzetta Ufficiale della Repubblica italiana. Essa
+entra in vigore il quindicesimo giorno successivo alla data di
+pubblicazione nella Gazzetta Ufficiale.
+2. I soggetti abilitati alla prestazione dei servizi di
+investimento che producono o distribuiscono ricerca sponsorizzata
+dall'emittente si adeguano agli obblighi discendenti dall'art.
+21-bis, commi 1 e 3, del testo unico e dall'art. 59-ter del
+regolamento intermediari, come introdotto dalla presente delibera,
+entro sei mesi dalla data di entrata in vigore delle norme tecniche
+di regolamentazione previste dall'art. 24, paragrafo 3-quater, della
+direttiva 2014/65/UE.
+
+Roma, 4 novembre 2026
+
+Il Presidente: Stazi

@@ -1,25 +1,24 @@
-# Bollettino GovernAI — 2026-11-16
+# Bollettino GovernAI — 2026-11-17
 
-*Generato automaticamente da `sistema/pipeline.py` alle 15:24. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 13:54. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
 - Modalità di aggiornamento: **mirato**
-- Dataset Eurostat aggiornati: sts_inpr_m, tour_occ_nim
+- Dataset Eurostat aggiornati: namq_10_gdp, nasa_10_nf_tr
 - File ufficiali aggiornati: 1
 - Serie cambiate e archiviate in `dati/storico/`: nessuna
-- Documenti nuovi sulle pagine osservate: 11
-  - Banca d'Italia - Finanza pubblica: https://www.bancaditalia.it/pubblicazioni/finanza-pubblica/2026-finanza-pubblica/statistiche_FPI_20261116.pdf
-  - ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/le-persone-senza-dimora-profili-e-percorsi-di-vita/
-  - ISTAT - Home e comunicati: https://www.istat.it/documenti/newsletter/
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=1480c7e8-668e-4b0c-b34b-8502938d5b97
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=229b9819-e792-4ff4-a376-1554dd4aed66
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=a9a8b868-a946-480b-a22e-1de759fd0b9f
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=f48bfb03-d03e-4a72-bac4-7e392c872b10
-  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/gu/2026/11/13/88/s4/html
-  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/13/26E06186/s4
-  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/13/26G00227/sg
-  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/14/26G00224/sg
+- Documenti nuovi sulle pagine osservate: 10
+  - ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/prezzi-al-consumo-ottobre-2026/
+  - ISTAT - Home e comunicati: https://www.istat.it/documenti/concorso-o-selezione/
+  - ISTAT - Home e comunicati: https://www.istat.it/evento/ciclo-di-seminari-sul-presente-e-sul-futuro-della-statistica-ufficiale/
+  - ISTAT - Home e comunicati: https://www.istat.it/evento/progetto-insegnanti-istat-statistica-ufficiale-strumenti-per-docenti/
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=4de5a37a-ec30-45bf-95ba-37966439c8a0
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=695a7707-8f69-4c39-9428-d249ab26ab7e
+  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/16/26G00226/sg
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-16&numeroGazzetta=131
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-16&numeroGazzetta=267
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-16&numeroGazzetta=90
 
 ## 2. Cruscotto
 
@@ -66,31 +65,25 @@ Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
 
 ## 5. Revisione AI richiesta
 
-**11 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
-- [documento_nuovo] Banca d'Italia - Finanza pubblica: https://www.bancaditalia.it/pubblicazioni/finanza-pubblica/2026-finanza-pubblica/statistiche_FPI_20261116.pdf → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/le-persone-senza-dimora-profili-e-percorsi-di-vita/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/documenti/newsletter/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=1480c7e8-668e-4b0c-b34b-8502938d5b97 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=229b9819-e792-4ff4-a376-1554dd4aed66 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=a9a8b868-a946-480b-a22e-1de759fd0b9f → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=f48bfb03-d03e-4a72-bac4-7e392c872b10 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/gu/2026/11/13/88/s4/html → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/13/26E06186/s4 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/13/26G00227/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/14/26G00224/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+**10 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
+- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/prezzi-al-consumo-ottobre-2026/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/documenti/concorso-o-selezione/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/evento/ciclo-di-seminari-sul-presente-e-sul-futuro-della-statistica-ufficiale/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/evento/progetto-insegnanti-istat-statistica-ufficiale-strumenti-per-docenti/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=4de5a37a-ec30-45bf-95ba-37966439c8a0 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=695a7707-8f69-4c39-9428-d249ab26ab7e → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/16/26G00226/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-16&numeroGazzetta=131 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-16&numeroGazzetta=267 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-16&numeroGazzetta=90 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
 
 ## Registro tecnico
 
-- sentinella: sentinella: mirato; Eurostat aggiornati 2, file 1, documenti nuovi 11, serie cambiate 0, errori 0
+- sentinella: sentinella: mirato; Eurostat aggiornati 2, file 1, documenti nuovi 10, serie cambiate 0, errori 0
 - apprendimento: 193 KPI, stati {'manuale': 147, 'in osservazione': 46}, aree calibrate 0
-- legislazione: archivio GU: 699 atti, 699 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
-- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
-- giurisprudenza: pronunce citate: 81; verificate: 81; da controllare: []
-- costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
+- legislazione: archivio GU: 726 atti, 726 con testo; nuovi 27; testi scaricati 27; richieste 142; errori 0
+- europa: europa: 878 atti GU L in archivio, 303 negli ultimi 30 giorni; 144 direttive con termine (23 critiche, 11 alte); 84 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 15; ERRORI: cellar_gu_l, cellar_direttive, cellar_propo
+- costituzione: 1 atti con forza di legge esaminati; con segnali alti 0
 - consiglio: 95 previsioni, 0 verificate oggi, 8 verificate in totale
 - verifica sedute: 2 attive, 0 confermate, 2 da riesaminare
 - modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
-
-## 6. Nota del livello AI
-
-Livello AI non eseguito: credenziali dell'API di Claude assenti (impostare la variabile d'ambiente ANTHROPIC_API_KEY).

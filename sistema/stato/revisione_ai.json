@@ -1,13 +1,14 @@
 {
- "data": "2026-11-16",
+ "data": "2026-11-17",
  "compiti": [
   {
    "tipo": "documento_nuovo",
    "aree": [
-    "00",
-    "01"
+    "02",
+    "05",
+    "06"
    ],
-   "dettaglio": "Banca d'Italia - Finanza pubblica: https://www.bancaditalia.it/pubblicazioni/finanza-pubblica/2026-finanza-pubblica/statistiche_FPI_20261116.pdf",
+   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/prezzi-al-consumo-ottobre-2026/",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
@@ -17,7 +18,7 @@
     "05",
     "06"
    ],
-   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/le-persone-senza-dimora-profili-e-percorsi-di-vita/",
+   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/documenti/concorso-o-selezione/",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
@@ -27,7 +28,17 @@
     "05",
     "06"
    ],
-   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/documenti/newsletter/",
+   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/evento/ciclo-di-seminari-sul-presente-e-sul-futuro-della-statistica-ufficiale/",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  },
+  {
+   "tipo": "documento_nuovo",
+   "aree": [
+    "02",
+    "05",
+    "06"
+   ],
+   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/evento/progetto-insegnanti-istat-statistica-ufficiale-strumenti-per-docenti/",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
@@ -36,7 +47,7 @@
     "00",
     "04"
    ],
-   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=1480c7e8-668e-4b0c-b34b-8502938d5b97",
+   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=4de5a37a-ec30-45bf-95ba-37966439c8a0",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
@@ -45,25 +56,7 @@
     "00",
     "04"
    ],
-   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=229b9819-e792-4ff4-a376-1554dd4aed66",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=a9a8b868-a946-480b-a22e-1de759fd0b9f",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=f48bfb03-d03e-4a72-bac4-7e392c872b10",
+   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=695a7707-8f69-4c39-9428-d249ab26ab7e",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
@@ -80,7 +73,7 @@
     "08",
     "09"
    ],
-   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/gu/2026/11/13/88/s4/html",
+   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/16/26G00226/sg",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
@@ -97,7 +90,7 @@
     "08",
     "09"
    ],
-   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/13/26E06186/s4",
+   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-16&numeroGazzetta=131",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
@@ -114,7 +107,7 @@
     "08",
     "09"
    ],
-   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/13/26G00227/sg",
+   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-16&numeroGazzetta=267",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
@@ -131,7 +124,7 @@
     "08",
     "09"
    ],
-   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/14/26G00224/sg",
+   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-16&numeroGazzetta=90",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   }
  ]
