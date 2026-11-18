@@ -1,0 +1,260 @@
+DECRETO DEL PRESIDENTE DEL CONSIGLIO DEI MINISTRI 9 settembre 2026
+Ripartizione del Fondo per l'attuazione della Strategia nazionale di cybersicurezza e del Fondo per la gestione della cybersicurezza, su proposta dell'Agenzia per la cybersicurezza nazionale.
+(GU Serie Generale n. 268 del 2026-11-17; https://www.gazzettaufficiale.it/eli/id/2026/11/17/26A05971/sg)
+
+IL PRESIDENTE
+DEL CONSIGLIO DEI MINISTRI
+
+Vista la legge 23 agosto 1988, n. 400, recante «Disciplina
+dell'attivita' di Governo e ordinamento della Presidenza del
+Consiglio dei ministri»;
+Visto il decreto-legge 14 giugno 2021, n. 82, convertito, con
+modificazioni, dalla legge 4 agosto 2021, n. 109, recante
+«Disposizioni urgenti in materia di cybersicurezza, definizione
+dell'architettura nazionale di cybersicurezza e istituzione
+dell'Agenzia per la cybersicurezza nazionale»;
+Visto il decreto del Presidente del Consiglio dei ministri 17
+maggio 2022, con il quale e' stata adottata la «Strategia nazionale
+di cybersicurezza», comprensiva del relativo «Piano di
+implementazione», ai sensi dell'art. 2, comma 1, lettera b), del
+decreto-legge 14 giugno 2021, n. 82, convertito, con modificazioni,
+dalla legge 4 agosto 2021, n. 109;
+Vista la legge 29 dicembre 2022, n. 197, recante «Bilancio di
+previsione dello Stato per l'anno finanziario 2023 e bilancio
+pluriennale per il triennio 2023-2025», e, in particolare, l'art. 1,
+comma 899, lettere a) e b), recanti, rispettivamente, l'istituzione,
+nello stato di previsione del Ministero dell'economia e delle
+finanze, di un Fondo per l'attuazione della Strategia nazionale di
+cybersicurezza, con una dotazione di 70 milioni di euro per l'anno
+2023, 90 milioni di euro per l'anno 2024, 110 milioni di euro per
+l'anno 2025 e 150 milioni di euro annui dal 2026 al 2037, nonche' di
+un Fondo per la gestione della cybersicurezza e, nello specifico, dei
+progetti afferenti alla stessa Strategia nazionale di cybersicurezza
+con una dotazione finanziaria pari a 10 milioni di euro per l'anno
+2023, 50 milioni di euro per l'anno 2024 e 70 milioni di euro annui a
+decorrere dall'anno 2025;
+Visto il decreto del Presidente del Consiglio dei ministri 23
+ottobre 2022, con il quale al Sottosegretario di Stato alla
+Presidenza del Consiglio dei ministri, dottor Alfredo Mantovano, e'
+stata delegata la firma dei decreti, degli atti e dei provvedimenti
+di competenza del Presidente del Consiglio dei ministri, a esclusione
+di quelli che richiedono una preventiva deliberazione del Consiglio
+dei ministri e di quelli relativi alle attribuzioni di cui all'art. 5
+della legge 23 agosto 1988, n. 400;
+Visto il decreto del Presidente del Consiglio dei ministri 9 agosto
+2023, che disciplina le modalita' per la prima assegnazione dei Fondi
+di cui all'art. 1, comma 899, della legge 29 dicembre 2022, n. 197,
+alle amministrazioni che, individuate come attori responsabili
+nell'ambito del Piano di implementazione della Strategia nazionale di
+cybersicurezza adottata, unitamente al medesimo Piano, con il decreto
+del Presidente del Consiglio dei ministri del 17 maggio 2022, hanno
+presentato specifiche proposte di intervento e i relativi fabbisogni
+finanziari all'Agenzia per la cybersicurezza nazionale;
+Visto il decreto del Presidente del Consiglio dei ministri 8 luglio
+2024, che disciplina le modalita' per l'ulteriore assegnazione dei
+Fondi di cui all'art. 1, comma 899, della legge 29 dicembre 2022, n.
+197, alle amministrazioni che, individuate come attori responsabili
+nell'ambito del Piano di implementazione della Strategia nazionale di
+cybersicurezza adottata, unitamente al medesimo Piano, con il decreto
+del Presidente del Consiglio dei ministri del 17 maggio 2022, hanno
+presentato specifiche proposte di intervento e i relativi fabbisogni
+finanziari all'Agenzia per la cybersicurezza nazionale;
+Visto il decreto-legge 7 maggio 2024, n. 60, convertito, con
+modificazioni, dalla legge 4 luglio 2024, n. 95, e, in particolare,
+l'art. 35-bis, comma 2, che ha istituito nello stato di previsione
+del Ministero della difesa un fondo per il potenziamento delle
+capacita' di cybersicurezza e delle tecnologie satellitari, i cui
+oneri sono stati finanziati, quanto a 20 milioni di euro per l'anno
+2024, mediante corrispondente riduzione del Fondo per l'attuazione
+della Strategia nazionale di cybersicurezza;
+Vista la legge 30 dicembre 2024, n. 207, e, in particolare, l'art.
+1, comma 630, che, al fine di rafforzare le misure in materia di
+sicurezza informatica e intelligenza artificiale, incrementa la
+dotazione finanziaria del citato Fondo per la gestione della
+cybersicurezza di 0,2 milioni di euro per l'anno 2025 e di 1 milione
+di euro per l'anno 2026 e l'anno 2027;
+Visto, altresi', l'art. 1, comma 870, della citata legge n. 207 del
+2024 che, ai fini del concorso delle amministrazioni centrali dello
+Stato al raggiungimento degli obiettivi programmatici di finanza
+pubblica, ha disposto riduzioni delle dotazioni di competenza e di
+cassa relative alle missioni e ai programmi di spesa degli stati di
+previsione dei Ministeri per gli anni 2025 e 2026 e a decorrere
+dall'anno 2027, determinando, in tal modo, una decurtazione dello
+stanziamento del Fondo per l'attuazione della Strategia nazionale di
+cybersicurezza, di cui all'art. 1, comma 899, lettera a), della
+richiamata legge n. 197 del 2022, di 9.645.421 euro per l'anno 2025 e
+di 15.000.000 euro per ciascuno degli anni dal 2026 al 2037;
+Visto il decreto-legge 14 marzo 2025, n. 25, convertito, con
+modificazioni, dalla legge 9 maggio 2025, n. 69, e, in particolare,
+l'art. 12-quinquies, comma 2, che ha disposto la riduzione del Fondo
+per la gestione della cybersicurezza di 1 milione di euro per l'anno
+2025, 4 milioni di euro per l'anno 2026 e di 5 milioni di euro annui
+a decorrere dall'anno 2027;
+Considerato che l'Agenzia per la cybersicurezza nazionale, in
+attuazione di quanto previsto dall'art. 1, comma 900, della legge n.
+197 del 2022, ha effettuato la rilevazione dei fabbisogni finanziari
+delle amministrazioni individuate come responsabili dal Piano di
+implementazione della Strategia nazionale di cybersicurezza mediante
+l'acquisizione di specifiche schede progettuali;
+Considerato che l'Agenzia per la cybersicurezza nazionale, in
+ragione dei risultati della suddetta rilevazione dei fabbisogni delle
+amministrazioni responsabili, valutera' specifiche modalita' di
+erogazione di parte delle risorse di propria competenza ai sensi
+degli allegati A e B al presente decreto, per la realizzazione di
+interventi di potenziamento dei CERT (Computer Emergency Response
+Team) e delle infrastrutture digitali del settore sanitario delle
+regioni e delle province autonome;
+Considerato che il manuale operativo del Piano di implementazione
+e' stato elaborato dall'Agenzia per la cybersicurezza nazionale con
+il contributo dei referenti delle stesse amministrazioni responsabili
+dell'attuazione delle misure, sottoposto alla validazione del
+Comitato tecnico-scientifico dell'Agenzia e, successivamente,
+inoltrato al Presidente del Comitato parlamentare per la sicurezza
+della Repubblica (COPASIR);
+Considerato che, ai sensi dell'art. 1, comma 901, della legge n.
+197 del 2022, i fondi di cui al comma 899, lettere a) e b), della
+stessa legge, sono assegnati con uno o piu' decreti del Presidente
+del Consiglio dei ministri, su proposta dell'Agenzia per la
+cybersicurezza nazionale, d'intesa con il Ministero dell'economia e
+delle finanze;
+Considerato che, ai sensi del medesimo art. 1, comma 901, della
+legge n. 197 del 2022, e all'esito del monitoraggio effettuato
+dall'Agenzia per la cybersicurezza nazionale, le risorse
+precedentemente assegnate possono essere revocate con decreto del
+Presidente del Consiglio dei ministri, su proposta dell'Agenzia per
+la cybersicurezza nazionale, d'intesa con il Ministero dell'economia
+e delle finanze. Con tale decreto sono altresi' definite le modalita'
+di riassegnazione delle stesse risorse revocate;
+Acquisita l'intesa del Ministero dell'economia e delle finanze;
+Su proposta dell'Agenzia per la cybersicurezza nazionale;
+
+Decreta:
+
+Art. 1
+
+Oggetto e ambito di applicazione
+
+1. Il presente decreto disciplina le modalita' per l'assegnazione
+dei Fondi di cui all'art. 1, comma 899, della legge 29 dicembre 2022,
+n. 197, alle amministrazioni che, individuate come attori
+responsabili nell'ambito del Piano di implementazione della strategia
+nazionale di cybersicurezza adottata, unitamente al medesimo Piano,
+con il decreto del Presidente del Consiglio dei ministri del 17
+maggio 2022, hanno presentato specifiche proposte di intervento e i
+relativi fabbisogni finanziari all'Agenzia per la cybersicurezza
+nazionale.
+
+Art. 2
+
+Modalita' di assegnazione delle risorse
+
+1. Il Fondo per l'attuazione della Strategia nazionale di
+cybersicurezza di cui all'art. 1, comma 899, lettera a), della legge
+n. 197 del 2022, e' ripartito tra le amministrazioni individuate
+all'art. 1, secondo quanto previsto dall'allegato A, che costituisce
+parte integrante del presente decreto.
+2. Il Fondo per la gestione della cybersicurezza di cui all'art. 1,
+comma 899, lettera b), della legge n. 197 del 2022, e' ripartito tra
+le amministrazioni individuate all'art. 1, secondo quanto previsto
+dall'allegato B, che costituisce parte integrante del presente
+decreto.
+3. Il Ragioniere generale dello Stato provvede, con proprio
+decreto, ai sensi dell'art. 4-quater, comma 2, del decreto-legge 18
+aprile 2019, n. 32, convertito, con modificazioni, dalla legge 14
+giugno 2019, n. 55, alle variazioni di bilancio di riparto dei
+predetti Fondi a favore delle amministrazioni di cui agli allegati A
+e B. Tali importi sono vincolati alla realizzazione degli interventi,
+afferenti alle misure del Piano di implementazione della Strategia
+nazionale di cybersicurezza, individuati attraverso la rilevazione
+dei fabbisogni finanziari condotta dall'Agenzia per la cybersicurezza
+nazionale ai sensi dell'art. 1, comma 900, secondo periodo, della
+legge n. 197 del 2022, tenuto conto della rilevanza, della
+complessita' e della coerenza realizzativa degli stessi interventi
+rispetto alle citate misure, nonche' della loro rilevanza rispetto
+all'impatto sulla cybersicurezza nazionale.
+4. Le amministrazioni individuate ai sensi dell'art. 1 coinvolgono,
+nell'implementazione degli interventi, come previsto nel Piano di
+implementazione della Strategia nazionale di cybersicurezza, i
+soggetti interessati beneficiari delle specifiche misure.
+
+Art. 3
+
+Indirizzo, coordinamento e monitoraggio del Piano di implementazione
+della Strategia nazionale di cybersicurezza
+
+1. L'Agenzia per la cybersicurezza nazionale indirizza, coordina e
+monitora, su base periodica, l'attuazione del Piano di
+implementazione della strategia nazionale di cybersicurezza.
+2. Le amministrazioni individuate ai sensi dell'art. 1 comunicano
+all'Agenzia per la cybersicurezza nazionale, con le modalita'
+indicate nelle Linee guida di cui al comma 3, l'esito delle azioni
+condotte nell'ambito delle misure di cui sono responsabili, per
+consentire il monitoraggio degli interventi finanziati e della spesa,
+nonche' la valutazione delle eventuali criticita' riscontrate
+nell'attuazione degli stessi interventi.
+3. Le modalita' di monitoraggio periodico e di rendicontazione dei
+risultati, nonche' i casi di revoca delle risorse assegnate ai sensi
+dell'art. 1, comma 901, della legge n. 197 del 2022, sono definite
+dalla «Linee guida per il monitoraggio» elaborate dall'Agenzia per la
+cybersicurezza nazionale a seguito dell'adozione del decreto del
+Presidente del Consiglio dei ministri del 9 agosto 2023.
+4. Gli interventi effettuati, in ogni caso, al fine di garantire il
+monitoraggio della spesa, devono essere corredati, ove previsto dalla
+normativa vigente, dal Codice unico di progetto (CUP) e dal Codice
+identificativo di gara (CIG). Tali codici sono riportati nelle
+fatture elettroniche e nei mandati di pagamento relativi agli stessi
+interventi.
+
+Art. 4
+
+Disposizioni finanziarie e finali
+
+1. All'attuazione delle misure di cui al presente decreto si
+provvede:
+a) quanto a complessivi euro 165.438.137, nei limiti dello
+stanziamento di bilancio del Fondo di cui all'art. 1, comma 899,
+lettera a), della legge 29 dicembre 2022, n. 197, per gli anni 2026,
+2027 e 2028;
+b) quanto a complessivi euro 91.114.770, nei limiti dello
+stanziamento di bilancio del Fondo di cui all'art. 1, comma 899,
+lettera b), della legge 29 dicembre 2022, n. 197, per gli anni 2026,
+2027 e 2028.
+2. Il presente decreto ha efficacia dal giorno successivo a quello
+della sua pubblicazione nella Gazzetta Ufficiale della Repubblica
+italiana e sara' inviato agli organi di controllo secondo le vigenti
+disposizioni.
+Roma, 9 settembre 2026
+
+p. Il Presidente
+del Consiglio dei ministri
+Il Sottosegretario di Stato
+alla Presidenza
+del Consiglio dei ministri
+Mantovano
+
+Registrato alla Corte dei conti il 29 ottobre 2026
+Ufficio di controllo sugli atti della Presidenza del Consiglio dei
+ministri, del Ministero della giustizia e del Ministero degli affari
+esteri e della cooperazione internazionale, reg. n. 2773
+
+(Allegato A)
+
+Allegato A
+(art. 2, comma 1)
+
+Assegnazione a valere sul Fondo per l'attuazione della strategia
+nazionale di cybersicurezza ai sensi dell'art. 1, comma 899,
+lettera a), della legge 29 dicembre 2022, n. 197.
+
+Parte di provvedimento in formato grafico
+
+(Allegato B)
+
+Allegato B
+(art. 2, comma 2)
+
+Assegnazione a valere sul Fondo per la gestione della cybersicurezza
+ai sensi dell'art. 1, comma 899, lettera b), della legge 29
+dicembre 2022, n. 197.
+
+Parte di provvedimento in formato grafico
