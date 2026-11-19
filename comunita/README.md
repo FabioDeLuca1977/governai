@@ -28,7 +28,7 @@ Le registrazioni ai servizi le fa il titolare del progetto. Le chiavi segrete no
 
 1. **Crea il progetto Supabase** (piano gratuito) su supabase.com: nome `governai-comunita`, regione **Europa (Frankfurt)**, password del database robusta, da conservare e non condividere.
 2. **Crea il database**: *SQL Editor* → incolla tutto `schema.sql` → *Run*. Si può rieseguire senza perdere dati.
-3. **Accesso via email**: *Authentication → Sign In / Providers*: lascia attivo solo *Email*, con *Confirm email* attivo. Le iscrizioni aperte servono a chi arriva con un invito: senza invito l'account resta vuoto e non può fare nulla.
+3. **Accesso via email**: *Authentication → Sign In / Providers*: attiva *Email* (e, se vuoi, Google: vedi sotto), con *Confirm email* attivo. Le iscrizioni aperte servono a chi arriva con un invito: senza invito l'account resta vuoto e non può fare nulla.
 4. **Email con il codice**: *Authentication → Emails → Templates*, modelli *Magic link or OTP* e *Confirm sign up* (modificabili solo dopo aver collegato l'SMTP, passo 5). Oggetto: `Il tuo accesso alla comunità GovernAI`. Testo:
 
    ```html
@@ -49,6 +49,30 @@ Le registrazioni ai servizi le fa il titolare del progetto. Le chiavi segrete no
 
    Poi entra dal sito (*Comunità → Entra*) e crea i primi inviti dal profilo.
 9. **Completa `privacy.md`**: titolare, contatto, servizio email, regione; poi fallo rivedere da un consulente privacy prima di aprire.
+
+## Accesso con Google (facoltativo, consigliato)
+
+Aggiunge il pulsante «Entra con Google» accanto al codice via email: un clic e si entra, senza codici. **L'invito resta
+obbligatorio**: chi entra con Google senza essere iscritto e senza un link d'invito viene fermato, e il suo accesso
+viene cancellato subito, senza conservare dati. Gratis, circa 10 minuti, da fare una volta sola. La chiave segreta di
+Google si incolla solo nel pannello di Supabase, mai nel repository.
+
+1. **Progetto Google**: su [console.cloud.google.com](https://console.cloud.google.com) crea un progetto `GovernAI`.
+2. **Schermata di consenso**: *Google Auth Platform* (o *API e servizi → Schermata consenso OAuth*):
+   - *Branding*: nome app `GovernAI`, email di assistenza; in *Domini autorizzati* aggiungi `supabase.co` e `github.io`;
+   - *Pubblico*: tipo **Esterno**, poi **Pubblica l'app** (stato «In produzione»). Con i soli dati di base
+     (email, nome) Google non chiede verifiche; senza pubblicare, entrano solo gli account di prova.
+3. **Client**: *Client → Crea client* → tipo **Applicazione web**:
+   - *Origini JavaScript autorizzate*: `https://fabiodeluca1977.github.io`
+   - *URI di reindirizzamento autorizzati*: `https://qdqytvntlvovtviaaymo.supabase.co/auth/v1/callback`
+   - *Crea*, poi copia **ID client** e **Client secret**.
+4. **Supabase**: *Authentication → Sign In / Providers → Google* → attiva, incolla ID client e Client secret, *Save*.
+5. **Indirizzi di ritorno**: *Authentication → URL Configuration → Redirect URLs* → aggiungi
+   `https://fabiodeluca1977.github.io/governai/**`, così dopo l'accesso si torna alla pagina da cui si è partiti.
+6. **Accendi il pulsante**: in `docs/comunita-config.js` metti `google: true` e pubblica il sito.
+
+Chi è già iscritto con un'email e poi entra con Google **con la stessa email** ritrova il suo profilo: Supabase collega
+i due accessi da solo, perché Google garantisce che l'email è verificata.
 
 ## Aggiornamenti del database
 

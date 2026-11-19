@@ -35,6 +35,7 @@
     [/token has expired|invalid.*(otp|token)/i, "Codice non valido o scaduto: chiedine uno nuovo."],
     [/link is invalid|has expired|otp_expired/i, "Il codice o il link di accesso non è valido o è scaduto: chiedine uno nuovo."],
     [/rate limit|too many|security purposes/i, "Troppi tentativi in poco tempo: aspetta qualche minuto e riprova."],
+    [/provider is not enabled|unsupported provider/i, "L'accesso con Google non è ancora attivo: usa il codice via email."],
     [/failed to fetch|network/i, "Connessione non riuscita: controlla la rete e riprova."],
     [/nome_pubblico_check/, "Nome pubblico non valido: da 3 a 40 caratteri, con lettere, numeri, spazi, punto, trattino o apostrofo."],
     [/interventi_testo_check/, "Il testo deve avere da 2 a 4.000 caratteri."],
@@ -105,7 +106,7 @@
       <h2 class="sezione" id="privacy">Informativa sul trattamento dei dati</h2><div class="md documento card">${ctx.md((ctx.D.comunita || {}).privacy || "")}</div>`;
     if (!ATTIVA) return `<h1>Comunità</h1>${inPreparazione}`;
     if (b === "entra") return `${briciole("Entra")}<h1>Entra nella comunità</h1>
-      <p class="risposta">Scrivi l'email usata per l'iscrizione: ti mandiamo un codice di accesso. Nessuna password da ricordare.</p>
+      <p class="risposta">${CFG.google ? "Entra con il tuo account Google, oppure scrivi l'email usata per l'iscrizione e ti mandiamo un codice." : "Scrivi l'email usata per l'iscrizione: ti mandiamo un codice di accesso."} Nessuna password da ricordare.</p>
       <div data-c="entra" class="comunita-modulo"></div>`;
     if (b === "invito") return `${briciole("Iscrizione")}<h1>Hai ricevuto un invito</h1>
       <p class="risposta">Con l'iscrizione puoi discutere le proposte, prendere appunti con gli altri e segnalare errori. Qui nessuno decide: si ragiona insieme, persone e AI.</p>
@@ -173,6 +174,11 @@
       <div class="azioni"><button class="btn primario" type="submit">Mandami l'email di accesso</button></div>
       <div class="esito" aria-live="polite"></div></form>`;
   }
+  // Accesso con Google: un clic, nessun codice. Si attiva con google: true in comunita-config.js dopo aver
+  // configurato il fornitore in Supabase (guida: comunita/README.md). L'invito resta obbligatorio.
+  const GOOGLE = !!CFG.google;
+  const bottoneGoogle = (testo) => GOOGLE ? `<div class="azioni"><button class="btn primario" type="button" data-cazione="google">${icona("log-in")}${esc(testo)}</button></div>
+      <p class="nota comunita-oppure">oppure con un codice via email:</p>` : "";
   const moduloCodice = (email) => `<form class="card" data-cform="verifica" data-email="${esc(email)}">
       <p>Ti abbiamo scritto a <strong>${esc(email)}</strong>. Scrivi qui sotto il codice che trovi nell'email, oppure apri il link nell'email: tornerai qui con l'accesso già fatto. Il codice e il link valgono un'ora; se non trovi l'email, guarda nella posta indesiderata.</p>
       <label class="campo">Codice ricevuto via email<input name="codice" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6,8}" maxlength="8" required></label>
@@ -181,11 +187,22 @@
   async function montaEntra(el) {
     if (accesso) {
       el.innerHTML = `<p class="nota" role="status">${icona("loader")} Accesso in corso…</p>`;
-      try { await accesso; accesso = null; profilo = undefined; torna(); return; }
+      try {
+        await accesso; accesso = null; profilo = undefined;
+        let dest = ""; try { dest = localStorage.getItem(RITORNO) || ""; } catch (e) { /* non disponibile */ }
+        const u = await utente();
+        if (u && (u.app_metadata || {}).provider === "google" && !dest.startsWith("#/comunita/invito/") && !(await mioProfilo(true))) {
+          await rpc("cancella_account"); const c = await sdk(); await c.auth.signOut({ scope: "local" }); profilo = undefined;
+          el.innerHTML = errore("Questo account Google non risulta iscritto e non abbiamo conservato nulla. Per entrare serve un invito: se l'hai ricevuto, apri il link d'invito e scegli lì «Continua con Google».")
+            + `<div class="azioni sezione"><a class="btn" href="#/comunita/richiedi">Chiedi un invito</a></div>`;
+          return;
+        }
+        torna(); return;
+      }
       catch (e) { accesso = null; el.innerHTML = errore(messaggio(e)); el.insertAdjacentHTML("beforeend", moduloEmail(false)); return; }
     }
     if (haSessione() && await mioProfilo()) { torna(); return; }
-    el.innerHTML = `${moduloEmail(false)}<p class="nota">Non hai ancora un account? <a href="#/comunita/richiedi">Chiedi un invito</a>.</p>`;
+    el.innerHTML = `${bottoneGoogle("Entra con Google")}${moduloEmail(false)}<p class="nota">Non hai ancora un account? <a href="#/comunita/richiedi">Chiedi un invito</a>.</p>`;
   }
   async function montaInvito(el) {
     const codice = el.dataset.codice;
@@ -196,7 +213,7 @@
     const p = haSessione() ? await mioProfilo() : null;
     if (p) { el.innerHTML = `<div class="avviso info"><p>Hai già un account con il nome <strong>${esc(p.nome_pubblico)}</strong>.</p></div><div class="azioni sezione"><a class="btn primario" href="#/comunita">Vai alla comunità</a></div>`; return; }
     const u = haSessione() ? await utente() : null;
-    el.innerHTML = u ? moduloIscrizione(codice, u.email) : `<ol class="comunita-passi"><li><strong>Conferma la tua email</strong>: ti mandiamo un codice di accesso.</li><li>Scegli il <strong>nome pubblico</strong> con cui compari nelle discussioni.</li></ol>${moduloEmail(true)}`;
+    el.innerHTML = u ? moduloIscrizione(codice, u.email) : `<ol class="comunita-passi"><li><strong>Conferma chi sei</strong>${GOOGLE ? " con il tuo account Google o" : ":"} con un codice che ti mandiamo via email.</li><li>Scegli il <strong>nome pubblico</strong> con cui compari nelle discussioni.</li></ol>${bottoneGoogle("Continua con Google")}${moduloEmail(true)}`;
   }
   const moduloIscrizione = (codice, email) => `<form class="card" data-cform="iscrizione" data-codice="${esc(codice)}">
       <p class="nota">Email confermata: ${esc(email)} (non viene mostrata agli altri).</p>
@@ -368,6 +385,16 @@
     if (!a) return;
     const az = a.dataset.cazione;
     if (az === "ricorda") return ricorda();
+    if (az === "google") {
+      try {
+        if (!location.hash.startsWith("#/comunita/entra")) ricorda();
+        let rit = location.hash; if (rit.startsWith("#/comunita/entra")) { try { rit = localStorage.getItem(RITORNO) || "#/comunita"; } catch (e) { rit = "#/comunita"; } }
+        const c = await sdk();
+        const { error } = await c.auth.signInWithOAuth({ provider: "google", options: { redirectTo: location.origin + location.pathname + "?ritorno=" + encodeURIComponent(rit) } });
+        if (error) throw error;
+      } catch (err) { const out = $(".esito", a.closest("[data-c]") || document); if (out) out.innerHTML = errore(messaggio(err)); else alert(messaggio(err)); }
+      return;
+    }
     try {
       if (az === "esci") { const c = await sdk(); await c.auth.signOut(); profilo = undefined; location.hash = "#/comunita"; window.dispatchEvent(new HashChangeEvent("hashchange")); }
       else if (az === "altra-email") { const f = a.closest("form"); f.outerHTML = moduloEmail(!!a.closest('[data-c="invito"]')); }

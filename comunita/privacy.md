@@ -8,7 +8,7 @@
 
 | Dati | Perché | Base giuridica |
 |---|---|---|
-| Email | Accesso con codice; comunicazioni sull'account | Consenso esplicito (art. 6.1.a e 9.2.a GDPR) |
+| Email | Accesso con codice o con Google; comunicazioni sull'account | Consenso esplicito (art. 6.1.a e 9.2.a GDPR) |
 | Nome pubblico (anche pseudonimo) | Firmare gli interventi | Consenso esplicito |
 | Interventi, segnalazioni, inviti creati e usati | Far funzionare discussione e moderazione | Consenso esplicito |
 | Chi ti ha invitato | Responsabilità degli inviti (regole della comunità) | Consenso esplicito |
@@ -26,6 +26,7 @@ Non trattiamo altri dati: niente profilazione, niente pubblicità, niente cessio
 ## Chi altro tocca i dati
 
 - **Supabase** (database e accesso), come responsabile del trattamento, con dati conservati nell'Unione europea, regione Europa (Francoforte, Germania). Supabase Inc. ha sede negli Stati Uniti: il trasferimento è coperto dal suo accordo sul trattamento dei dati con clausole contrattuali standard.
+- **Google** (Google Ireland Ltd), solo se scegli «Entra con Google»: Google conferma la tua identità e ci passa email, nome e immagine del profilo; usiamo solo l'email per l'accesso, gli altri due dati restano nel registro degli accessi di Supabase e non sono mostrati a nessuno. Google sa che hai usato il suo account per entrare in GovernAI. Se non sei iscritto e non hai un invito, l'accesso viene cancellato subito.
 - **Brevo** (Sendinblue SAS, Francia), per inviare le email con il codice di accesso, come responsabile del trattamento, con dati trattati nell'Unione europea.
 - **GitHub Pages** (ospita il sito) e **jsDelivr** (distribuisce la libreria di accesso) vedono l'indirizzo IP di chi visita, come ogni servizio web. La libreria di accesso si scarica solo quando entri nella comunità.
 
