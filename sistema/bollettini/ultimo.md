@@ -1,21 +1,18 @@
-# Bollettino GovernAI — 2026-11-18
+# Bollettino GovernAI — 2026-11-19
 
-*Generato automaticamente da `sistema/pipeline.py` alle 15:28. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 09:05. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
-- Modalità di aggiornamento: **mirato**
-- Dataset Eurostat aggiornati: prc_hicp_minr, sts_inpr_m
+- Modalità di aggiornamento: **nessun aggiornamento**
+- Dataset Eurostat aggiornati: nessuno
 - File ufficiali aggiornati: 0
-- Serie cambiate e archiviate in `dati/storico/`: 00c_inflazione_annua, 02_hicp_it
-- Documenti nuovi sulle pagine osservate: 7
-  - Banca d'Italia - Finanza pubblica: https://www.bancaditalia.it/statistiche/raccolta-dati/indagini-famiglie/index.html
-  - ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/incidenti-stradali-stima-preliminare-gennaio-giugno-2026/
-  - ISTAT - Home e comunicati: https://www.istat.it/documenti/sistema-informativo-6/
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=2ecd5476-88dd-4859-bf47-97722fcc99f4
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=780ad59c-8fd2-4691-8dc8-5743391c2699
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=9906411e-00d0-4eed-b07e-7f3f36915212
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=aa33840e-3b92-44b3-90b5-e187a0b6b794
+- Serie cambiate e archiviate in `dati/storico/`: nessuna
+- Documenti nuovi sulle pagine osservate: 4
+  - ISTAT - Home e comunicati: https://www.istat.it/evento/sedicesima-giornata-italiana-statistica/
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-18&numeroGazzetta=132
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/corte_costituzionale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-18&numeroGazzetta=46
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-18&numeroGazzetta=269
 
 ## 2. Cruscotto
 
@@ -58,73 +55,23 @@
 
 ## 4. Programma del momento
 
-Il programma di riferimento (tutte le coperture, nucleo robusto prima) costa **14,06 mld/anno**; il programma adattato al momento costa **14,07 mld/anno**. Entrambi sono finanziati senza deficit.
-
-**Differenze rispetto al riferimento** (effetto delle allerte):
-
-- 01-P14: ESSENZIALE → esclusa
-- 02-C1: ZERO → PIENA
-- 06-C9: PIENA → ESSENZIALE
-- 07-C6: PIENA → ESSENZIALE
-- 08-P6: esclusa → PILOTA
-
-**Cambiamenti rispetto al bollettino precedente:**
-
-- 01-P14: PILOTA → esclusa
-- 01-P19: esclusa → PIENA
-- 01-P21: esclusa → PIENA
-- 01-P22: esclusa → PIENA
-- 01-P23: esclusa → PIENA
-- 01-P24: esclusa → ESSENZIALE
-- 01-P25: esclusa → ZERO
-- 01-P5: PIENA → esclusa
-- 02-C9: PILOTA → esclusa
-- 03-P5: PILOTA → ESSENZIALE
-- 04-P2: esclusa → ESSENZIALE
-- 04-P3: esclusa → ESSENZIALE
-- 04-P8: PIENA → ZERO
-- 04-P9: PIENA → ZERO
-- 05-C1: PIENA → ESSENZIALE
-- 05-C6: PIENA → ESSENZIALE
-- 07-C2: PIENA → ESSENZIALE
-- 07-C6: PIENA → ESSENZIALE
-- 07-C7: esclusa → PIENA
-- 08-P10: esclusa → PIENA
-- 08-P11: esclusa → PIENA
-- 08-P6: esclusa → PILOTA
-- 08-P8: esclusa → PIENA
-- 08-P9: esclusa → PIENA
-- 09-C2: ZERO → ESSENZIALE
-- 09-C5: PIENA → ESSENZIALE
-- 09-C7: PIENA → PILOTA
-
-Dettaglio: `programma/selezione_momento.md`.
+Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
 
 ## 5. Revisione AI richiesta
 
-**7 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
-- [documento_nuovo] Banca d'Italia - Finanza pubblica: https://www.bancaditalia.it/statistiche/raccolta-dati/indagini-famiglie/index.html → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/incidenti-stradali-stima-preliminare-gennaio-giugno-2026/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/documenti/sistema-informativo-6/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=2ecd5476-88dd-4859-bf47-97722fcc99f4 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=780ad59c-8fd2-4691-8dc8-5743391c2699 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=9906411e-00d0-4eed-b07e-7f3f36915212 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=aa33840e-3b92-44b3-90b5-e187a0b6b794 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+**4 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
+- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/evento/sedicesima-giornata-italiana-statistica/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-18&numeroGazzetta=132 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/corte_costituzionale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-18&numeroGazzetta=46 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-18&numeroGazzetta=269 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
 
 ## Registro tecnico
 
-- sentinella: sentinella: mirato; Eurostat aggiornati 2, file 0, documenti nuovi 7, serie cambiate 2, errori 0
+- sentinella: sentinella: nessun aggiornamento; Eurostat aggiornati 0, file 0, documenti nuovi 4, serie cambiate 0, errori 0
 - apprendimento: 193 KPI, stati {'manuale': 147, 'in osservazione': 46}, aree calibrate 0
-- legislazione: archivio GU: 748 atti, 748 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
-- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
+- legislazione: archivio GU: 772 atti, 772 con testo; nuovi 24; testi scaricati 24; richieste 114; errori 0
+- europa: europa: 898 atti GU L in archivio, 306 negli ultimi 30 giorni; 143 direttive con termine (23 critiche, 11 alte); 84 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 24
 - costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
 - consiglio: 95 previsioni, 0 verificate oggi, 8 verificate in totale
 - verifica sedute: 2 attive, 0 confermate, 2 da riesaminare
-- controlla.py: avvisi: 0  ->  bilancio.md
-- decidi.py: -> esito.md, esito_proposte.csv
-- ottimizza.py (riferimento): spesa 14.06  coperture 11.98  proposte 84/94  -> selezione_riferimento.md
-- ottimizza.py (momento): spesa 14.07  coperture 11.98  proposte 84/94  -> selezione_momento.md
-
-## 6. Nota del livello AI
-
-Livello AI non eseguito: credenziali dell'API di Claude assenti (impostare la variabile d'ambiente ANTHROPIC_API_KEY).
+- modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
