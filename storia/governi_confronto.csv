@@ -1,0 +1,869 @@
+unita_id,governo_periodo,governi_inclusi,tipo_unita,confrontabile,versione,anni,ambito,indicatore,unita_misura,verso,anni_effettivi,valore_italia,valore_vicini,differenza,rango,n_confrontati,base_del_rango,rango_solo_italia,n_confrontati_italia,nota
+G34,governo 1978-1979,n. 34,governo,no,base,,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,base,,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,base,,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,base,,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,base,,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,base,,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,base,,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,base,,conti,Saldo primario medio,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,base,,conti,Deficit medio,% PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,base,,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,base,,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,base,,prezzi e mercati,Inflazione media,% annua,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,base,,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,base,,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,base,,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,base,,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,base,,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,base,,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,base,,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,base,,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,base,,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,base,,conti,Saldo primario medio,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,base,,conti,Deficit medio,% PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,base,,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,base,,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,base,,prezzi e mercati,Inflazione media,% annua,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,base,,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,base,,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1979-1980,4.071,1.536,2.534,2,24,Italia meno vicini,2,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1979-1980,3.169,2.971,0.198,6,24,Italia meno vicini,2,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1978->1980,0.750,-0.771,1.521,3,24,Italia meno vicini,9,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1978->1980,1.629,0.159,1.470,3,24,Italia meno vicini,5,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1978->1980,0.425,3.747,-3.322,3,24,Italia meno vicini,15,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1978->1980,-3.246,1.782,-5.028,4,24,Italia meno vicini,5,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,conti,Saldo primario medio,% PIL,più alto è meglio,1979-1980,-3.328,-0.093,-3.235,20,24,Italia meno vicini,19,24,1979: vicini 2 su 3; 1980: vicini 2 su 3
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,conti,Deficit medio,% PIL,più basso è meglio,1979-1980,7.598,1.663,5.934,17,24,Italia meno vicini,14,24,1979: vicini 2 su 3; 1980: vicini 2 su 3
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1978->1980,2.631,1.195,1.436,19,24,Italia meno vicini,23,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1979-1980,608.500,334.833,273.667,18,24,Italia meno vicini,21,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1979-1980,17.931,10.820,7.112,24,24,Italia meno vicini,24,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1981-1982,0.259,0.380,-0.121,9,24,Italia meno vicini,19,24,
+G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1981-1982,-0.179,3.186,-3.365,24,24,Italia meno vicini,21,24,
+G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1980->1982,-0.394,-2.417,2.023,2,24,Italia meno vicini,20,24,
+G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1980->1982,1.178,-1.195,2.373,2,24,Italia meno vicini,10,24,
+G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1980->1982,2.808,6.036,-3.228,4,24,Italia meno vicini,21,24,
+G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1980->1982,6.766,6.456,0.310,11,24,Italia meno vicini,19,24,
+G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,conti,Saldo primario medio,% PIL,più alto è meglio,1981-1982,-4.609,-0.996,-3.613,22,24,Italia meno vicini,22,24,1981: vicini 2 su 3; 1982: vicini 2 su 3
+G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,conti,Deficit medio,% PIL,più basso è meglio,1981-1982,10.441,3.222,7.219,18,24,Italia meno vicini,19,24,1981: vicini 2 su 3; 1982: vicini 2 su 3
+G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1980->1982,3.196,0.517,2.679,24,24,Italia meno vicini,24,24,
+G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1981-1982,1025.000,419.000,606.000,24,24,Italia meno vicini,23,24,
+G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1981-1982,17.224,10.973,6.251,22,24,Italia meno vicini,23,24,
+G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1983,0.888,1.310,-0.422,11,24,Italia meno vicini,14,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1983,0.640,3.218,-2.578,23,24,Italia meno vicini,12,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1982->1983,-0.931,-1.028,0.097,9,24,Italia meno vicini,22,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1982->1983,-1.307,-0.490,-0.817,20,24,Italia meno vicini,24,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1982->1983,2.431,1.873,0.558,15,24,Italia meno vicini,20,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1982->1983,5.993,2.737,3.256,18,24,Italia meno vicini,18,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,conti,Saldo primario medio,% PIL,più alto è meglio,1983,-2.300,-0.138,-2.162,19,24,Italia meno vicini,17,24,1983: vicini 2 su 3
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,conti,Deficit medio,% PIL,più basso è meglio,1983,10.111,2.759,7.352,19,24,Italia meno vicini,18,24,1983: vicini 2 su 3
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1982->1983,1.884,0.799,1.085,16,24,Italia meno vicini,20,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1983,1028.000,482.000,546.000,23,24,Italia meno vicini,24,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1983,14.647,8.309,6.338,23,24,Italia meno vicini,22,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1984-1986,2.762,2.041,0.721,4,24,Italia meno vicini,6,24,
+G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1984-1986,2.330,3.010,-0.681,13,24,Italia meno vicini,6,24,
+G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1983->1986,-0.661,-0.981,0.320,7,24,Italia meno vicini,21,24,
+G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1983->1986,0.678,0.287,0.391,6,24,Italia meno vicini,15,24,
+G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1983->1986,4.035,1.555,2.480,22,24,Italia meno vicini,22,24,
+G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1983->1986,14.925,6.023,8.902,24,24,Italia meno vicini,22,24,
+G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,conti,Saldo primario medio,% PIL,più alto è meglio,1984-1986,-3.411,0.478,-3.889,23,24,Italia meno vicini,20,24,1984: vicini 2 su 3; 1985: vicini 2 su 3; 1986: vicini 2 su 3
+G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,conti,Deficit medio,% PIL,più basso è meglio,1984-1986,11.941,2.233,9.708,24,24,Italia meno vicini,24,24,1984: vicini 2 su 3; 1985: vicini 2 su 3; 1986: vicini 2 su 3
+G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1983->1986,0.190,1.262,-1.072,3,24,Italia meno vicini,10,24,
+G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1984-1986,666.333,353.556,312.778,19,24,Italia meno vicini,22,24,
+G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1984-1986,8.608,5.475,3.133,21,24,Italia meno vicini,21,24,
+G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1987,3.056,2.889,0.167,7,24,Italia meno vicini,5,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1987,1.790,1.153,0.637,4,24,Italia meno vicini,8,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1986->1987,0.003,0.575,-0.572,19,24,Italia meno vicini,15,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1986->1987,0.538,0.744,-0.206,11,24,Italia meno vicini,17,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1986->1987,1.029,-1.400,2.429,21,24,Italia meno vicini,18,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1986->1987,3.731,1.313,2.418,16,24,Italia meno vicini,16,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,conti,Saldo primario medio,% PIL,più alto è meglio,1987,-3.613,0.672,-4.285,24,24,Italia meno vicini,21,24,1987: vicini 2 su 3
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,conti,Deficit medio,% PIL,più basso è meglio,1987,11.514,1.941,9.573,22,24,Italia meno vicini,23,24,1987: vicini 2 su 3
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1986->1987,0.090,0.922,-0.832,4,24,Italia meno vicini,8,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1987,450.000,334.333,115.667,10,24,Italia meno vicini,15,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1987,4.747,2.929,1.818,16,24,Italia meno vicini,15,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G45,governo 1987-1988,n. 45,breve,no,base,,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,base,,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,base,,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,base,,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,base,,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,base,,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,base,,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,base,,conti,Saldo primario medio,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,base,,conti,Deficit medio,% PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,base,,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,base,,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,base,,prezzi e mercati,Inflazione media,% annua,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,base,,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,base,,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1988-1989,3.577,3.917,-0.340,10,24,Italia meno vicini,4,24,
+G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1988-1989,3.072,2.730,0.343,5,24,Italia meno vicini,3,24,
+G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1987->1989,0.127,1.183,-1.056,24,24,Italia meno vicini,14,24,
+G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1987->1989,0.717,1.638,-0.921,21,24,Italia meno vicini,14,24,
+G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1987->1989,-1.891,-4.179,2.288,20,24,Italia meno vicini,10,24,
+G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1987->1989,3.860,-0.900,4.760,23,24,Italia meno vicini,17,24,
+G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,conti,Saldo primario medio,% PIL,più alto è meglio,1988-1989,-2.508,0.990,-3.499,21,24,Italia meno vicini,18,24,1988: vicini 2 su 3; 1989: vicini 2 su 3
+G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,conti,Deficit medio,% PIL,più basso è meglio,1988-1989,11.238,1.579,9.658,23,24,Italia meno vicini,20,24,1988: vicini 2 su 3; 1989: vicini 2 su 3
+G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1987->1989,1.466,0.228,1.238,17,24,Italia meno vicini,17,24,
+G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1988-1989,492.500,260.667,231.833,16,24,Italia meno vicini,19,24,
+G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1988-1989,5.659,3.647,2.012,18,24,Italia meno vicini,18,24,
+G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G47,governo 1989-1991,n. 47,governo,sì,base,1990,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1990,1.897,3.079,-1.182,20,24,Italia meno vicini,8,24,
+G47,governo 1989-1991,n. 47,governo,sì,base,1990,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1990,0.960,1.840,-0.880,16,24,Italia meno vicini,9,24,
+G47,governo 1989-1991,n. 47,governo,sì,base,1990,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G47,governo 1989-1991,n. 47,governo,sì,base,1990,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1989->1990,0.566,0.543,0.023,10,24,Italia meno vicini,12,24,
+G47,governo 1989-1991,n. 47,governo,sì,base,1990,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1989->1990,0.990,0.999,-0.009,8,24,Italia meno vicini,12,24,
+G47,governo 1989-1991,n. 47,governo,sì,base,1990,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1989->1990,-2.152,-0.909,-1.243,10,24,Italia meno vicini,9,24,
+G47,governo 1989-1991,n. 47,governo,sì,base,1990,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1989->1990,1.834,1.534,0.300,10,24,Italia meno vicini,12,24,
+G47,governo 1989-1991,n. 47,governo,sì,base,1990,conti,Saldo primario medio,% PIL,più alto è meglio,1990,-1.359,0.494,-1.853,18,24,Italia meno vicini,16,24,1990: vicini 2 su 3
+G47,governo 1989-1991,n. 47,governo,sì,base,1990,conti,Deficit medio,% PIL,più basso è meglio,1990,11.444,2.200,9.244,21,24,Italia meno vicini,22,24,1990: vicini 2 su 3
+G47,governo 1989-1991,n. 47,governo,sì,base,1990,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1989->1990,0.803,-0.527,1.330,18,24,Italia meno vicini,15,24,
+G47,governo 1989-1991,n. 47,governo,sì,base,1990,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1990,481.000,238.667,242.333,17,24,Italia meno vicini,18,24,
+G47,governo 1989-1991,n. 47,governo,sì,base,1990,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1990,6.457,4.204,2.253,19,24,Italia meno vicini,20,24,
+G47,governo 1989-1991,n. 47,governo,sì,base,1990,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G47,governo 1989-1991,n. 47,governo,sì,base,1990,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G48,governo 1991-1992,n. 48,governo,sì,base,1991,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1991,1.369,2.264,-0.895,18,24,Italia meno vicini,12,24,
+G48,governo 1991-1992,n. 48,governo,sì,base,1991,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1991,-0.052,1.912,-1.964,22,24,Italia meno vicini,18,24,
+G48,governo 1991-1992,n. 48,governo,sì,base,1991,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G48,governo 1991-1992,n. 48,governo,sì,base,1991,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1990->1991,-0.004,0.918,-0.922,21,24,Italia meno vicini,16,24,
+G48,governo 1991-1992,n. 48,governo,sì,base,1991,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1990->1991,0.260,1.686,-1.426,23,24,Italia meno vicini,18,24,
+G48,governo 1991-1992,n. 48,governo,sì,base,1991,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1990->1991,-0.723,0.094,-0.817,11,24,Italia meno vicini,13,24,
+G48,governo 1991-1992,n. 48,governo,sì,base,1991,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1990->1991,3.162,-0.350,3.512,20,24,Italia meno vicini,15,24,
+G48,governo 1991-1992,n. 48,governo,sì,base,1991,conti,Saldo primario medio,% PIL,più alto è meglio,1991,-0.039,-0.286,0.247,15,24,Italia meno vicini,14,24,1991: vicini 2 su 3
+G48,governo 1991-1992,n. 48,governo,sì,base,1991,conti,Deficit medio,% PIL,più basso è meglio,1991,11.389,3.032,8.357,20,24,Italia meno vicini,21,24,1991: vicini 2 su 3
+G48,governo 1991-1992,n. 48,governo,sì,base,1991,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1990->1991,0.394,0.185,0.209,11,24,Italia meno vicini,12,24,
+G48,governo 1991-1992,n. 48,governo,sì,base,1991,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1991,472.000,117.667,354.333,21,24,Italia meno vicini,17,24,
+G48,governo 1991-1992,n. 48,governo,sì,base,1991,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1991,6.250,4.398,1.852,17,24,Italia meno vicini,19,24,
+G48,governo 1991-1992,n. 48,governo,sì,base,1991,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G48,governo 1991-1992,n. 48,governo,sì,base,1991,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G49,governo 1992-1993,n. 49,breve,no,base,1992,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1992,0.654,0.938,-0.284,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,base,1992,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1992,1.287,2.599,-1.312,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,base,1992,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,base,1992,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1991->1992,-0.275,-0.843,0.568,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,base,1992,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1991->1992,0.058,-0.172,0.230,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,base,1992,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1991->1992,1.890,1.921,-0.031,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,base,1992,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1991->1992,6.534,2.895,3.639,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,base,1992,conti,Saldo primario medio,% PIL,più alto è meglio,1992,1.857,-0.577,2.434,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; 1992: vicini 2 su 3
+G49,governo 1992-1993,n. 49,breve,no,base,1992,conti,Deficit medio,% PIL,più basso è meglio,1992,10.373,3.616,6.756,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; 1992: vicini 2 su 3
+G49,governo 1992-1993,n. 49,breve,no,base,1992,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1991->1992,2.250,0.629,1.621,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,base,1992,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1992,544.000,154.333,389.667,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,base,1992,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1992,5.271,4.449,0.822,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,base,1992,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; serie non disponibile per l'anno di partenza o di arrivo
+G49,governo 1992-1993,n. 49,breve,no,base,1992,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G50,governo 1993-1994,n. 50,governo,sì,base,1993,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1993,-0.896,-1.279,0.383,5,24,Italia meno vicini,21,24,
+G50,governo 1993-1994,n. 50,governo,sì,base,1993,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1993,1.910,1.842,0.068,7,24,Italia meno vicini,7,24,
+G50,governo 1993-1994,n. 50,governo,sì,base,1993,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G50,governo 1993-1994,n. 50,governo,sì,base,1993,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1992->1993,0.150,-1.340,1.490,4,24,Italia meno vicini,13,24,
+G50,governo 1993-1994,n. 50,governo,sì,base,1993,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1992->1993,-0.748,-0.410,-0.338,14,24,Italia meno vicini,22,24,
+G50,governo 1993-1994,n. 50,governo,sì,base,1993,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1992->1993,-3.908,4.302,-8.210,1,24,Italia meno vicini,4,24,
+G50,governo 1993-1994,n. 50,governo,sì,base,1993,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1992->1993,9.647,7.090,2.557,17,24,Italia meno vicini,21,24,
+G50,governo 1993-1994,n. 50,governo,sì,base,1993,conti,Saldo primario medio,% PIL,più alto è meglio,1993,2.629,-1.540,4.169,4,24,Italia meno vicini,5,24,1993: vicini 2 su 3
+G50,governo 1993-1994,n. 50,governo,sì,base,1993,conti,Deficit medio,% PIL,più basso è meglio,1993,10.030,4.742,5.288,16,24,Italia meno vicini,17,24,1993: vicini 2 su 3
+G50,governo 1993-1994,n. 50,governo,sì,base,1993,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1992->1993,1.581,0.066,1.515,21,24,Italia meno vicini,19,24,
+G50,governo 1993-1994,n. 50,governo,sì,base,1993,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1993,468.000,132.333,335.667,20,24,Italia meno vicini,16,24,
+G50,governo 1993-1994,n. 50,governo,sì,base,1993,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1993,4.627,3.716,0.911,14,24,Italia meno vicini,14,24,
+G50,governo 1993-1994,n. 50,governo,sì,base,1993,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G50,governo 1993-1994,n. 50,governo,sì,base,1993,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G51,governo 1994-1995,n. 51,breve,no,base,1994,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1994,2.053,2.085,-0.032,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,base,1994,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1994,4.122,2.587,1.535,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,base,1994,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,base,1994,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1993->1994,-0.942,-0.492,-0.450,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,base,1994,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1993->1994,-0.388,-0.122,-0.266,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,base,1994,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1993->1994,1.745,1.394,0.351,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,base,1994,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1993->1994,5.898,2.772,3.126,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,base,1994,conti,Saldo primario medio,% PIL,più alto è meglio,1994,2.277,-0.665,2.942,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; 1994: vicini 2 su 3
+G51,governo 1994-1995,n. 51,breve,no,base,1994,conti,Deficit medio,% PIL,più basso è meglio,1994,9.083,3.984,5.099,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; 1994: vicini 2 su 3
+G51,governo 1994-1995,n. 51,breve,no,base,1994,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1993->1994,-1.919,0.152,-2.071,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,base,1994,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1994,365.000,115.667,249.333,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,base,1994,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1994,4.052,3.022,1.030,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,base,1994,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; serie non disponibile per l'anno di partenza o di arrivo
+G51,governo 1994-1995,n. 51,breve,no,base,1994,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G52,governo 1995-1996,n. 52,governo,sì,base,1995,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1995,2.681,1.856,0.825,3,24,Italia meno vicini,7,24,
+G52,governo 1995-1996,n. 52,governo,sì,base,1995,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1995,2.760,1.613,1.147,2,24,Italia meno vicini,5,24,
+G52,governo 1995-1996,n. 52,governo,sì,base,1995,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,1995,2.538,3.908,-1.370,15,15,Italia meno vicini,12,15,
+G52,governo 1995-1996,n. 52,governo,sì,base,1995,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1994->1995,-0.387,0.516,-0.903,20,24,Italia meno vicini,19,24,
+G52,governo 1995-1996,n. 52,governo,sì,base,1995,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1994->1995,0.025,0.745,-0.720,17,24,Italia meno vicini,19,24,
+G52,governo 1995-1996,n. 52,governo,sì,base,1995,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1994->1995,1.395,-1.451,2.846,23,24,Italia meno vicini,19,24,
+G52,governo 1995-1996,n. 52,governo,sì,base,1995,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1994->1995,2.471,5.827,-3.356,6,24,Italia meno vicini,14,24,
+G52,governo 1995-1996,n. 52,governo,sì,base,1995,conti,Saldo primario medio,% PIL,più alto è meglio,1995,3.884,-3.146,7.030,1,24,Italia meno vicini,3,24,
+G52,governo 1995-1996,n. 52,governo,sì,base,1995,conti,Deficit medio,% PIL,più basso è meglio,1995,7.199,7.114,0.085,4,24,Italia meno vicini,13,24,
+G52,governo 1995-1996,n. 52,governo,sì,base,1995,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1994->1995,-0.126,-0.262,0.136,10,24,Italia meno vicini,7,24,
+G52,governo 1995-1996,n. 52,governo,sì,base,1995,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1995,536.000,170.333,365.667,22,24,Italia meno vicini,20,24,
+G52,governo 1995-1996,n. 52,governo,sì,base,1995,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1995,5.235,2.725,2.510,20,24,Italia meno vicini,17,24,
+G52,governo 1995-1996,n. 52,governo,sì,base,1995,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G52,governo 1995-1996,n. 52,governo,sì,base,1995,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1996-1998,1.655,2.260,-0.605,15,24,Italia meno vicini,11,24,
+G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1996-1998,0.707,1.178,-0.471,11,24,Italia meno vicini,10,24,
+G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,1996-1998,2.670,3.502,-0.832,14,15,Italia meno vicini,9,15,
+G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1995->1998,1.011,1.520,-0.509,16,24,Italia meno vicini,7,24,
+G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1995->1998,1.846,1.952,-0.106,10,24,Italia meno vicini,4,24,
+G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1995->1998,0.198,-1.714,1.912,19,24,Italia meno vicini,14,24,
+G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1995->1998,-5.201,3.203,-8.404,2,24,Italia meno vicini,2,24,
+G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,conti,Saldo primario medio,% PIL,più alto è meglio,1996-1998,5.136,0.303,4.833,3,24,Italia meno vicini,1,24,
+G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,conti,Deficit medio,% PIL,più basso è meglio,1996-1998,4.191,3.518,0.673,7,24,Italia meno vicini,11,24,
+G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1995->1998,1.469,0.582,0.887,14,24,Italia meno vicini,18,24,
+G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1996-1998,157.000,40.444,116.556,11,24,Italia meno vicini,9,24,
+G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1996-1998,2.668,1.722,0.946,15,24,Italia meno vicini,11,24,
+G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G54,governo 1998-1999,n. 54,governo,sì,base,1999,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1999,1.661,3.015,-1.354,22,24,Italia meno vicini,10,24,
+G54,governo 1998-1999,n. 54,governo,sì,base,1999,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1999,0.660,0.700,-0.040,8,24,Italia meno vicini,11,24,
+G54,governo 1998-1999,n. 54,governo,sì,base,1999,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,1999,2.847,3.570,-0.723,9,15,Italia meno vicini,6,15,
+G54,governo 1998-1999,n. 54,governo,sì,base,1999,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1998->1999,0.735,1.179,-0.444,15,24,Italia meno vicini,11,24,
+G54,governo 1998-1999,n. 54,governo,sì,base,1999,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1998->1999,1.013,1.443,-0.430,15,24,Italia meno vicini,11,24,
+G54,governo 1998-1999,n. 54,governo,sì,base,1999,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1998->1999,-0.963,-2.102,1.139,17,24,Italia meno vicini,12,24,
+G54,governo 1998-1999,n. 54,governo,sì,base,1999,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1998->1999,-0.828,-0.423,-0.405,9,24,Italia meno vicini,8,24,
+G54,governo 1998-1999,n. 54,governo,sì,base,1999,conti,Saldo primario medio,% PIL,più alto è meglio,1999,4.594,1.644,2.950,6,24,Italia meno vicini,2,24,
+G54,governo 1998-1999,n. 54,governo,sì,base,1999,conti,Deficit medio,% PIL,più basso è meglio,1999,1.775,1.550,0.225,5,24,Italia meno vicini,1,24,
+G54,governo 1998-1999,n. 54,governo,sì,base,1999,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1998->1999,0.874,0.547,0.327,13,24,Italia meno vicini,16,24,
+G54,governo 1998-1999,n. 54,governo,sì,base,1999,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1999,24.000,12.000,12.000,1,24,Italia meno vicini,2,24,
+G54,governo 1998-1999,n. 54,governo,sì,base,1999,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1999,1.663,1.144,0.519,12,24,Italia meno vicini,5,24,
+G54,governo 1998-1999,n. 54,governo,sì,base,1999,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G54,governo 1998-1999,n. 54,governo,sì,base,1999,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G55,governo 1999-2000,n. 55,breve,no,base,,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,base,,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,base,,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,base,,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,base,,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,base,,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,base,,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,base,,conti,Saldo primario medio,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,base,,conti,Deficit medio,% PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,base,,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,base,,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,base,,prezzi e mercati,Inflazione media,% annua,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,base,,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,base,,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G56,governo 2000-2001,n. 56,governo,sì,base,2000,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2000,3.835,3.664,0.171,6,24,Italia meno vicini,3,24,
+G56,governo 2000-2001,n. 56,governo,sì,base,2000,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2000,2.934,1.883,1.051,3,24,Italia meno vicini,4,24,
+G56,governo 2000-2001,n. 56,governo,sì,base,2000,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2000,2.780,3.526,-0.746,11,15,Italia meno vicini,7,15,
+G56,governo 2000-2001,n. 56,governo,sì,base,2000,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1999->2000,0.975,1.335,-0.360,14,24,Italia meno vicini,8,24,
+G56,governo 2000-2001,n. 56,governo,sì,base,2000,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1999->2000,1.275,1.602,-0.327,12,24,Italia meno vicini,7,24,
+G56,governo 2000-2001,n. 56,governo,sì,base,2000,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1999->2000,-1.445,-2.442,0.997,16,24,Italia meno vicini,11,24,
+G56,governo 2000-2001,n. 56,governo,sì,base,2000,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1999->2000,-4.316,-1.941,-2.375,7,24,Italia meno vicini,3,24,
+G56,governo 2000-2001,n. 56,governo,sì,base,2000,conti,Saldo primario medio,% PIL,più alto è meglio,2000,3.682,1.702,1.980,8,24,Italia meno vicini,4,24,
+G56,governo 2000-2001,n. 56,governo,sì,base,2000,conti,Deficit medio,% PIL,più basso è meglio,2000,2.420,1.396,1.024,11,24,Italia meno vicini,3,24,
+G56,governo 2000-2001,n. 56,governo,sì,base,2000,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1999->2000,-0.656,-0.292,-0.364,7,24,Italia meno vicini,3,24,
+G56,governo 2000-2001,n. 56,governo,sì,base,2000,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2000,32.000,13.333,18.667,4,24,Italia meno vicini,5,24,
+G56,governo 2000-2001,n. 56,governo,sì,base,2000,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2000,2.538,2.183,0.355,11,24,Italia meno vicini,10,24,
+G56,governo 2000-2001,n. 56,governo,sì,base,2000,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G56,governo 2000-2001,n. 56,governo,sì,base,2000,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2001-2004,0.566,1.087,-0.520,13,24,Italia meno vicini,18,24,
+G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2001-2004,0.096,1.022,-0.925,17,24,Italia meno vicini,16,24,
+G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2001-2004,2.885,3.567,-0.682,8,15,Italia meno vicini,5,15,
+G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2000->2004,3.681,1.626,2.055,1,24,Italia meno vicini,1,24,
+G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2000->2004,5.908,3.391,2.517,1,24,Italia meno vicini,1,24,
+G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2000->2004,-6.181,1.549,-7.730,2,24,Italia meno vicini,1,24,
+G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2000->2004,-4.000,0.125,-4.125,5,24,Italia meno vicini,4,24,
+G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,conti,Saldo primario medio,% PIL,più alto è meglio,2001-2004,2.059,0.448,1.611,9,24,Italia meno vicini,8,24,
+G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,conti,Deficit medio,% PIL,più basso è meglio,2001-2004,3.187,2.329,0.858,10,24,Italia meno vicini,8,24,
+G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2000->2004,-0.785,-0.621,-0.164,9,24,Italia meno vicini,2,24,
+G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2001-2004,26.000,7.917,18.083,3,24,Italia meno vicini,3,24,
+G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2001-2004,2.532,2.220,0.313,8,24,Italia meno vicini,9,24,
+G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2002-2004,37.692,,,1,11,solo Italia (nessun confronto omogeneo),1,11,dato italiano solo per 2002-2004
+G58,governo 2005-2006,n. 58,governo,sì,base,2005,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2005,0.176,1.273,-1.097,19,24,Italia meno vicini,20,24,
+G58,governo 2005-2006,n. 58,governo,sì,base,2005,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2005,0.459,1.060,-0.601,12,24,Italia meno vicini,14,24,
+G58,governo 2005-2006,n. 58,governo,sì,base,2005,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2005,3.143,3.624,-0.481,2,15,Italia meno vicini,3,15,
+G58,governo 2005-2006,n. 58,governo,sì,base,2005,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2004->2005,-0.067,0.893,-0.960,22,24,Italia meno vicini,17,24,
+G58,governo 2005-2006,n. 58,governo,sì,base,2005,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2004->2005,-0.090,1.170,-1.260,22,24,Italia meno vicini,20,24,
+G58,governo 2005-2006,n. 58,governo,sì,base,2005,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2004->2005,0.612,0.246,0.366,14,24,Italia meno vicini,17,24,
+G58,governo 2005-2006,n. 58,governo,sì,base,2005,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2004->2005,1.434,0.175,1.259,14,24,Italia meno vicini,11,24,
+G58,governo 2005-2006,n. 58,governo,sì,base,2005,conti,Saldo primario medio,% PIL,più alto è meglio,2005,0.386,0.514,-0.128,16,24,Italia meno vicini,13,24,
+G58,governo 2005-2006,n. 58,governo,sì,base,2005,conti,Deficit medio,% PIL,più basso è meglio,2005,4.099,1.882,2.217,14,24,Italia meno vicini,10,24,
+G58,governo 2005-2006,n. 58,governo,sì,base,2005,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2004->2005,-0.176,0.518,-0.694,5,24,Italia meno vicini,6,24,
+G58,governo 2005-2006,n. 58,governo,sì,base,2005,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2005,21.000,3.333,17.667,2,24,Italia meno vicini,1,24,
+G58,governo 2005-2006,n. 58,governo,sì,base,2005,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2005,1.985,2.221,-0.236,6,24,Italia meno vicini,7,24,
+G58,governo 2005-2006,n. 58,governo,sì,base,2005,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G58,governo 2005-2006,n. 58,governo,sì,base,2005,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2005,41.991,,,3,11,solo Italia (nessun confronto omogeneo),3,11,
+G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2006-2007,1.120,2.511,-1.391,23,24,Italia meno vicini,13,24,
+G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2006-2007,-0.171,1.087,-1.258,19,24,Italia meno vicini,20,24,
+G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2006-2007,3.130,3.724,-0.594,5,15,Italia meno vicini,4,15,
+G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2005->2007,1.068,2.106,-1.038,23,24,Italia meno vicini,6,24,
+G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2005->2007,1.270,2.782,-1.512,24,24,Italia meno vicini,9,24,
+G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2005->2007,-3.757,-2.188,-1.569,9,24,Italia meno vicini,5,24,
+G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2005->2007,-2.713,-4.280,1.567,15,24,Italia meno vicini,6,24,
+G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,conti,Saldo primario medio,% PIL,più alto è meglio,2006-2007,2.106,1.764,0.342,14,24,Italia meno vicini,7,24,
+G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,conti,Deficit medio,% PIL,più basso è meglio,2006-2007,2.466,0.540,1.925,13,24,Italia meno vicini,4,24,
+G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2005->2007,2.401,0.641,1.760,22,24,Italia meno vicini,22,24,
+G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2006-2007,28.000,3.833,24.167,5,24,Italia meno vicini,4,24,
+G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2006-2007,1.961,2.224,-0.263,4,24,Italia meno vicini,6,24,
+G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2005->2007,-0.200,,,3,8,solo Italia (nessun confronto omogeneo),3,8,
+G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2006-2007,41.303,,,2,11,solo Italia (nessun confronto omogeneo),2,11,
+G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2008-2011,-1.552,-0.221,-1.332,21,24,Italia meno vicini,22,24,
+G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2008-2011,0.063,0.768,-0.705,14,24,Italia meno vicini,17,24,
+G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2008-2011,3.167,3.919,-0.752,12,15,Italia meno vicini,2,15,
+G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2007->2011,-1.766,-1.555,-0.211,12,24,Italia meno vicini,24,24,
+G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2007->2011,-0.140,0.657,-0.797,19,24,Italia meno vicini,21,24,
+G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2007->2011,8.795,9.387,-0.592,12,24,Italia meno vicini,24,24,
+G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2007->2011,15.666,23.966,-8.300,3,24,Italia meno vicini,23,24,
+G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,conti,Saldo primario medio,% PIL,più alto è meglio,2008-2011,0.711,-3.206,3.917,5,24,Italia meno vicini,12,24,
+G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,conti,Deficit medio,% PIL,più basso è meglio,2008-2011,3.832,5.584,-1.753,2,24,Italia meno vicini,9,24,
+G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2007->2011,0.107,-1.371,1.478,20,24,Italia meno vicini,9,24,
+G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2008-2011,147.500,60.500,87.000,7,24,Italia meno vicini,8,24,
+G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2008-2011,2.107,1.787,0.320,9,24,Italia meno vicini,8,24,
+G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2007->2011,1.300,,,6,8,solo Italia (nessun confronto omogeneo),6,8,
+G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2008-2011,42.041,,,4,11,solo Italia (nessun confronto omogeneo),4,11,
+G61,governo 2011-2013,n. 61,governo,sì,base,2012,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2012,-3.390,-0.951,-2.439,24,24,Italia meno vicini,23,24,
+G61,governo 2011-2013,n. 61,governo,sì,base,2012,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2012,-0.689,1.011,-1.700,21,24,Italia meno vicini,23,24,
+G61,governo 2011-2013,n. 61,governo,sì,base,2012,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2012,2.625,3.387,-0.762,13,15,Italia meno vicini,11,15,
+G61,governo 2011-2013,n. 61,governo,sì,base,2012,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2011->2012,-0.158,-0.632,0.474,6,24,Italia meno vicini,18,24,
+G61,governo 2011-2013,n. 61,governo,sì,base,2012,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2011->2012,0.576,-0.270,0.846,4,24,Italia meno vicini,16,24,
+G61,governo 2011-2013,n. 61,governo,sì,base,2012,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2011->2012,6.160,2.640,3.520,24,24,Italia meno vicini,23,24,
+G61,governo 2011-2013,n. 61,governo,sì,base,2012,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2011->2012,6.771,8.125,-1.354,8,24,Italia meno vicini,20,24,
+G61,governo 2011-2013,n. 61,governo,sì,base,2012,conti,Saldo primario medio,% PIL,più alto è meglio,2012,2.133,-2.924,5.057,2,24,Italia meno vicini,6,24,
+G61,governo 2011-2013,n. 61,governo,sì,base,2012,conti,Deficit medio,% PIL,più basso è meglio,2012,2.985,5.574,-2.589,1,24,Italia meno vicini,7,24,
+G61,governo 2011-2013,n. 61,governo,sì,base,2012,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2011->2012,1.922,1.019,0.903,15,24,Italia meno vicini,21,24,
+G61,governo 2011-2013,n. 61,governo,sì,base,2012,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2012,399.000,179.667,219.333,15,24,Italia meno vicini,14,24,
+G61,governo 2011-2013,n. 61,governo,sì,base,2012,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2012,3.041,2.136,0.905,13,24,Italia meno vicini,13,24,
+G61,governo 2011-2013,n. 61,governo,sì,base,2012,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2011->2012,1.500,,,7,8,solo Italia (nessun confronto omogeneo),7,8,
+G61,governo 2011-2013,n. 61,governo,sì,base,2012,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2012,67.998,,,5,11,solo Italia (nessun confronto omogeneo),5,11,
+G62,governo 2013-2014,n. 62,breve,no,base,2013,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2013,-2.014,-0.184,-1.830,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,base,2013,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2013,0.785,1.145,-0.360,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,base,2013,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2013,2.490,3.138,-0.648,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,base,2013,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2012->2013,-1.098,-0.148,-0.950,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,base,2013,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2012->2013,-0.556,0.114,-0.670,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,base,2013,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2012->2013,4.725,0.982,3.743,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,base,2013,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2012->2013,5.953,3.631,2.322,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,base,2013,conti,Saldo primario medio,% PIL,più alto è meglio,2013,1.915,-1.533,3.448,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,base,2013,conti,Deficit medio,% PIL,più basso è meglio,2013,2.875,4.101,-1.226,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,base,2013,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2012->2013,0.240,0.641,-0.401,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,base,2013,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2013,275.000,120.667,154.333,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,base,2013,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2013,1.220,1.259,-0.039,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,base,2013,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2012->2013,1.400,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,base,2013,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2013,82.095,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2014-2016,0.817,1.644,-0.827,17,24,Italia meno vicini,16,24,
+G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2014-2016,-0.081,0.734,-0.815,15,24,Italia meno vicini,19,24,
+G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2014-2016,2.326,2.887,-0.561,4,15,Italia meno vicini,13,15,
+G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2013->2016,1.680,2.240,-0.560,18,24,Italia meno vicini,4,24,
+G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2013->2016,1.556,2.344,-0.788,18,24,Italia meno vicini,6,24,
+G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2013->2016,-2.272,-4.036,1.764,18,24,Italia meno vicini,8,24,
+G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2013->2016,2.388,-1.186,3.574,21,24,Italia meno vicini,13,24,
+G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,conti,Saldo primario medio,% PIL,più alto è meglio,2014-2016,1.617,-0.588,2.205,7,24,Italia meno vicini,10,24,
+G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,conti,Deficit medio,% PIL,più basso è meglio,2014-2016,2.561,2.775,-0.214,3,24,Italia meno vicini,6,24,
+G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2013->2016,-1.585,0.429,-2.014,1,24,Italia meno vicini,1,24,
+G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2014-2016,144.667,59.111,85.556,6,24,Italia meno vicini,7,24,
+G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2014-2016,0.062,0.199,-0.137,7,24,Italia meno vicini,2,24,
+G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,il periodo attraversa il cambio di metodo ISTAT 2013/2014: non calcolato
+G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2014-2016,101.877,,,7,11,solo Italia (nessun confronto omogeneo),7,11,
+G64,governo 2016-2018,n. 64,governo,sì,base,2017,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2017,1.795,2.324,-0.529,14,24,Italia meno vicini,9,24,
+G64,governo 2016-2018,n. 64,governo,sì,base,2017,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2017,0.508,1.541,-1.033,18,24,Italia meno vicini,13,24,
+G64,governo 2016-2018,n. 64,governo,sì,base,2017,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2017,2.173,2.769,-0.596,6,15,Italia meno vicini,15,15,
+G64,governo 2016-2018,n. 64,governo,sì,base,2017,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2016->2017,0.737,0.910,-0.173,11,24,Italia meno vicini,10,24,
+G64,governo 2016-2018,n. 64,governo,sì,base,2017,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2016->2017,0.841,0.797,0.044,7,24,Italia meno vicini,13,24,
+G64,governo 2016-2018,n. 64,governo,sì,base,2017,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2016->2017,-3.027,-2.827,-0.200,13,24,Italia meno vicini,7,24,
+G64,governo 2016-2018,n. 64,governo,sì,base,2017,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2016->2017,-0.499,-1.505,1.006,13,24,Italia meno vicini,9,24,
+G64,governo 2016-2018,n. 64,governo,sì,base,2017,conti,Saldo primario medio,% PIL,più alto è meglio,2017,1.236,0.087,1.149,11,24,Italia meno vicini,11,24,
+G64,governo 2016-2018,n. 64,governo,sì,base,2017,conti,Deficit medio,% PIL,più basso è meglio,2017,2.509,1.698,0.811,8,24,Italia meno vicini,5,24,
+G64,governo 2016-2018,n. 64,governo,sì,base,2017,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2016->2017,-0.290,0.378,-0.668,6,24,Italia meno vicini,5,24,
+G64,governo 2016-2018,n. 64,governo,sì,base,2017,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2017,179.000,57.667,121.333,12,24,Italia meno vicini,12,24,
+G64,governo 2016-2018,n. 64,governo,sì,base,2017,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2017,1.227,1.499,-0.272,3,24,Italia meno vicini,4,24,
+G64,governo 2016-2018,n. 64,governo,sì,base,2017,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2016->2017,0.500,,,4,8,solo Italia (nessun confronto omogeneo),4,8,
+G64,governo 2016-2018,n. 64,governo,sì,base,2017,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2017,114.559,,,8,11,solo Italia (nessun confronto omogeneo),8,11,
+G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2018-2019,0.857,1.304,-0.447,12,24,Italia meno vicini,15,24,
+G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2018-2019,0.117,0.308,-0.192,9,24,Italia meno vicini,15,24,
+G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2018-2019,2.224,2.954,-0.730,10,15,Italia meno vicini,14,15,
+G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2017->2019,1.154,1.506,-0.352,13,24,Italia meno vicini,5,24,
+G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2017->2019,1.271,1.606,-0.335,13,24,Italia meno vicini,8,24,
+G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2017->2019,-5.618,-3.242,-2.376,6,24,Italia meno vicini,3,24,
+G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2017->2019,0.157,-3.152,3.309,19,24,Italia meno vicini,10,24,
+G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,conti,Saldo primario medio,% PIL,più alto è meglio,2018-2019,1.659,0.430,1.229,10,24,Italia meno vicini,9,24,
+G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,conti,Deficit medio,% PIL,più basso è meglio,2018-2019,1.821,1.187,0.634,6,24,Italia meno vicini,2,24,
+G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2017->2019,0.427,0.150,0.277,12,24,Italia meno vicini,13,24,
+G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2018-2019,220.500,44.833,175.667,14,24,Italia meno vicini,13,24,
+G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2018-2019,0.874,1.419,-0.545,1,24,Italia meno vicini,3,24,
+G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2017->2019,-0.800,,,1,8,solo Italia (nessun confronto omogeneo),1,8,
+G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2018-2019,119.376,,,9,11,solo Italia (nessun confronto omogeneo),9,11,
+G66,governo 2019-2021,n. 66,governo,sì,base,2020,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2020,-8.423,-7.741,-0.682,16,24,Italia meno vicini,24,24,
+G66,governo 2019-2021,n. 66,governo,sì,base,2020,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2020,3.272,0.360,2.912,1,24,Italia meno vicini,1,24,
+G66,governo 2019-2021,n. 66,governo,sì,base,2020,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2020,2.628,3.271,-0.643,7,15,Italia meno vicini,10,15,
+G66,governo 2019-2021,n. 66,governo,sì,base,2020,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2019->2020,-1.054,-1.314,0.260,8,24,Italia meno vicini,23,24,
+G66,governo 2019-2021,n. 66,governo,sì,base,2020,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2019->2020,-1.216,-1.121,-0.095,9,24,Italia meno vicini,23,24,
+G66,governo 2019-2021,n. 66,governo,sì,base,2020,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2019->2020,0.530,2.604,-2.074,7,24,Italia meno vicini,16,24,
+G66,governo 2019-2021,n. 66,governo,sì,base,2020,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2019->2020,20.481,15.909,4.572,22,24,Italia meno vicini,24,24,
+G66,governo 2019-2021,n. 66,governo,sì,base,2020,conti,Saldo primario medio,% PIL,più alto è meglio,2020,-5.958,-6.355,0.397,13,24,Italia meno vicini,24,24,
+G66,governo 2019-2021,n. 66,governo,sì,base,2020,conti,Deficit medio,% PIL,più basso è meglio,2020,9.379,7.741,1.638,12,24,Italia meno vicini,16,24,
+G66,governo 2019-2021,n. 66,governo,sì,base,2020,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2019->2020,0.335,0.597,-0.262,8,24,Italia meno vicini,11,24,
+G66,governo 2019-2021,n. 66,governo,sì,base,2020,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2020,168.000,41.667,126.333,13,24,Italia meno vicini,11,24,
+G66,governo 2019-2021,n. 66,governo,sì,base,2020,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2020,-0.138,0.099,-0.237,5,24,Italia meno vicini,1,24,
+G66,governo 2019-2021,n. 66,governo,sì,base,2020,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2019->2020,1.600,,,8,8,solo Italia (nessun confronto omogeneo),8,8,
+G66,governo 2019-2021,n. 66,governo,sì,base,2020,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2020,120.950,,,10,11,solo Italia (nessun confronto omogeneo),10,11,
+G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2021-2022,7.264,4.337,2.927,1,24,Italia meno vicini,1,24,
+G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2021-2022,-0.332,-0.039,-0.294,10,24,Italia meno vicini,22,24,
+G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2021-2022,2.743,3.234,-0.491,3,15,Italia meno vicini,8,15,
+G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2020->2022,2.087,2.614,-0.527,17,24,Italia meno vicini,3,24,
+G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2020->2022,2.130,2.798,-0.668,16,24,Italia meno vicini,3,24,
+G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2020->2022,-5.952,-4.239,-1.713,8,24,Italia meno vicini,2,24,
+G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2020->2022,-16.024,-5.714,-10.310,1,24,Italia meno vicini,1,24,
+G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,conti,Saldo primario medio,% PIL,più alto è meglio,2021-2022,-4.737,-3.102,-1.634,17,24,Italia meno vicini,23,24,
+G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,conti,Deficit medio,% PIL,più basso è meglio,2021-2022,8.489,4.607,3.881,15,24,Italia meno vicini,15,24,
+G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2020->2022,-0.639,0.463,-1.102,2,24,Italia meno vicini,4,24,
+G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2021-2022,160.000,45.000,115.000,9,24,Italia meno vicini,10,24,
+G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2021-2022,5.038,4.715,0.323,10,24,Italia meno vicini,16,24,
+G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2020->2022,0.600,,,5,8,solo Italia (nessun confronto omogeneo),5,8,
+G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2021-2022,96.864,,,6,11,solo Italia (nessun confronto omogeneo),6,11,
+G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2023-2025,0.786,0.662,0.124,8,24,Italia meno vicini,17,24,
+G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2023-2025,-1.357,0.240,-1.597,20,24,Italia meno vicini,24,24,
+G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2023-2025,3.529,3.423,0.106,1,15,Italia meno vicini,1,15,
+G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2022->2025,2.384,1.424,0.960,5,24,Italia meno vicini,2,24,
+G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2022->2025,2.670,1.885,0.785,5,24,Italia meno vicini,2,24,
+G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2022->2025,-3.138,-0.418,-2.720,5,24,Italia meno vicini,6,24,
+G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2022->2025,-1.252,-1.793,0.541,12,24,Italia meno vicini,7,24,
+G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,conti,Saldo primario medio,% PIL,più alto è meglio,2023-2025,-0.728,-1.843,1.115,12,24,Italia meno vicini,15,24,
+G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,conti,Deficit medio,% PIL,più basso è meglio,2023-2025,4.519,3.665,0.854,9,24,Italia meno vicini,12,24,
+G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2022->2024,0.741,-1.034,1.775,23,24,Italia meno vicini,14,24,serie ferma al 2024
+G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2023-2025,141.333,49.667,91.667,8,24,Italia meno vicini,6,24,
+G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2023-2025,2.712,3.019,-0.307,2,24,Italia meno vicini,12,24,
+G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2022->2025,-0.400,,,2,8,solo Italia (nessun confronto omogeneo),2,8,
+G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2023-2025,121.372,,,11,11,solo Italia (nessun confronto omogeneo),11,11,
+G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,conti,Saldo primario medio,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,conti,Deficit medio,% PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,prezzi e mercati,Inflazione media,% annua,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,conti,Saldo primario medio,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,conti,Deficit medio,% PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,prezzi e mercati,Inflazione media,% annua,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1980-1981,1.661,0.472,1.189,3,24,Italia meno vicini,11,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1980-1981,0.936,2.661,-1.725,21,24,Italia meno vicini,9,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1979->1981,0.603,-1.992,2.595,1,24,Italia meno vicini,10,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1979->1981,1.177,-0.899,2.076,1,24,Italia meno vicini,10,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1979->1981,0.203,5.861,-5.658,2,24,Italia meno vicini,16,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1979->1981,0.199,3.759,-3.560,6,24,Italia meno vicini,11,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,conti,Saldo primario medio,% PIL,più alto è meglio,1980-1981,-4.159,-0.582,-3.577,23,24,Italia meno vicini,23,24,1980: vicini 2 su 3; 1981: vicini 2 su 3
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,conti,Deficit medio,% PIL,più basso è meglio,1980-1981,8.919,2.478,6.441,17,24,Italia meno vicini,16,24,1980: vicini 2 su 3; 1981: vicini 2 su 3
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1979->1981,4.544,0.909,3.635,24,24,Italia meno vicini,24,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1980-1981,800.500,392.500,408.000,23,24,Italia meno vicini,23,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1980-1981,19.517,11.462,8.054,24,24,Italia meno vicini,24,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1982-1983,0.485,1.015,-0.530,14,24,Italia meno vicini,19,24,
+G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1982-1983,-0.009,3.415,-3.424,24,24,Italia meno vicini,17,24,
+G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1981->1983,-1.415,-2.116,0.701,4,24,Italia meno vicini,23,24,
+G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1981->1983,-0.399,-0.983,0.584,4,24,Italia meno vicini,22,24,
+G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1981->1983,4.711,4.523,0.188,15,24,Italia meno vicini,22,24,
+G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1981->1983,10.497,6.441,4.056,22,24,Italia meno vicini,21,24,
+G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,conti,Saldo primario medio,% PIL,più alto è meglio,1982-1983,-2.870,-0.511,-2.359,19,24,Italia meno vicini,19,24,1982: vicini 2 su 3; 1983: vicini 2 su 3
+G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,conti,Deficit medio,% PIL,più basso è meglio,1982-1983,10.061,2.987,7.074,19,24,Italia meno vicini,18,24,1982: vicini 2 su 3; 1983: vicini 2 su 3
+G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1981->1983,3.963,1.061,2.902,23,24,Italia meno vicini,23,24,
+G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1982-1983,1076.500,469.333,607.167,24,24,Italia meno vicini,24,24,
+G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1982-1983,15.564,9.427,6.137,23,24,Italia meno vicini,23,24,
+G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1984,2.990,1.908,1.082,4,24,Italia meno vicini,5,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1984,3.592,3.975,-0.383,10,24,Italia meno vicini,2,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1983->1984,-0.579,-1.124,0.545,6,24,Italia meno vicini,20,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1983->1984,-0.057,-0.445,0.388,6,24,Italia meno vicini,19,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1983->1984,2.391,2.506,-0.115,13,24,Italia meno vicini,20,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1983->1984,5.271,3.035,2.236,12,24,Italia meno vicini,17,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,conti,Saldo primario medio,% PIL,più alto è meglio,1984,-3.098,0.273,-3.371,22,24,Italia meno vicini,20,24,1984: vicini 2 su 3
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,conti,Deficit medio,% PIL,più basso è meglio,1984,11.482,2.401,9.080,22,24,Italia meno vicini,23,24,1984: vicini 2 su 3
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1983->1984,-0.824,0.495,-1.319,3,24,Italia meno vicini,4,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1984,765.000,437.000,328.000,20,24,Italia meno vicini,22,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1984,10.794,7.120,3.674,22,24,Italia meno vicini,22,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1985-1987,2.784,2.368,0.416,5,24,Italia meno vicini,6,24,
+G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1985-1987,1.729,2.070,-0.341,8,24,Italia meno vicini,7,24,
+G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1984->1987,-0.079,0.717,-0.796,19,24,Italia meno vicini,17,24,
+G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1984->1987,1.273,1.477,-0.204,11,24,Italia meno vicini,8,24,
+G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1984->1987,2.673,-2.351,5.024,24,24,Italia meno vicini,21,24,
+G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1984->1987,13.385,4.301,9.084,24,24,Italia meno vicini,22,24,
+G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,conti,Saldo primario medio,% PIL,più alto è meglio,1985-1987,-3.583,0.611,-4.194,24,24,Italia meno vicini,21,24,1985: vicini 2 su 3; 1986: vicini 2 su 3; 1987: vicini 2 su 3
+G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,conti,Deficit medio,% PIL,più basso è meglio,1985-1987,11.952,2.079,9.873,23,24,Italia meno vicini,24,24,1985: vicini 2 su 3; 1986: vicini 2 su 3; 1987: vicini 2 su 3
+G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1984->1987,1.104,1.689,-0.585,7,24,Italia meno vicini,16,24,
+G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1985-1987,561.333,319.333,242.000,17,24,Italia meno vicini,21,24,
+G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1985-1987,6.592,4.078,2.514,21,24,Italia meno vicini,20,24,
+G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1988,3.979,4.057,-0.078,9,24,Italia meno vicini,2,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1988,2.725,2.514,0.211,4,24,Italia meno vicini,4,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1987->1988,0.121,0.480,-0.359,15,24,Italia meno vicini,15,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1987->1988,0.398,0.744,-0.346,16,24,Italia meno vicini,16,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1987->1988,-1.059,-1.432,0.373,17,24,Italia meno vicini,12,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1987->1988,1.552,-1.099,2.651,17,24,Italia meno vicini,13,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,conti,Saldo primario medio,% PIL,più alto è meglio,1988,-2.752,0.250,-3.002,21,24,Italia meno vicini,18,24,1988: vicini 2 su 3
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,conti,Deficit medio,% PIL,più basso è meglio,1988,11.046,2.302,8.744,21,24,Italia meno vicini,20,24,1988: vicini 2 su 3
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1987->1988,0.538,-0.351,0.889,16,24,Italia meno vicini,12,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1988,441.000,261.667,179.333,15,24,Italia meno vicini,17,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1988,5.058,2.937,2.121,20,24,Italia meno vicini,16,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,conti,Saldo primario medio,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,conti,Deficit medio,% PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,prezzi e mercati,Inflazione media,% annua,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1989-1990,2.536,3.428,-0.892,18,24,Italia meno vicini,7,24,
+G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1989-1990,2.190,2.393,-0.203,6,24,Italia meno vicini,5,24,
+G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1988->1990,0.572,1.246,-0.674,18,24,Italia meno vicini,11,24,
+G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1988->1990,1.309,1.893,-0.584,20,24,Italia meno vicini,6,24,
+G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1988->1990,-2.984,-3.656,0.672,18,24,Italia meno vicini,3,24,
+G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1988->1990,4.142,1.733,2.409,16,24,Italia meno vicini,16,24,
+G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,conti,Saldo primario medio,% PIL,più alto è meglio,1989-1990,-1.812,1.112,-2.924,20,24,Italia meno vicini,16,24,1989: vicini 2 su 3; 1990: vicini 2 su 3
+G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,conti,Deficit medio,% PIL,più basso è meglio,1989-1990,11.437,1.529,9.908,24,24,Italia meno vicini,22,24,1989: vicini 2 su 3; 1990: vicini 2 su 3
+G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1988->1990,1.731,0.052,1.679,21,24,Italia meno vicini,20,24,
+G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1989-1990,512.500,249.167,263.333,19,24,Italia meno vicini,19,24,
+G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1989-1990,6.358,4.280,2.078,19,24,Italia meno vicini,19,24,
+G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1991,1.369,2.264,-0.895,19,24,Italia meno vicini,14,24,
+G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1991,-0.052,1.912,-1.964,23,24,Italia meno vicini,18,24,
+G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1990->1991,-0.004,0.918,-0.922,21,24,Italia meno vicini,16,24,
+G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1990->1991,0.260,1.686,-1.426,24,24,Italia meno vicini,17,24,
+G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1990->1991,-0.723,0.094,-0.817,9,24,Italia meno vicini,13,24,
+G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1990->1991,3.162,-0.350,3.512,20,24,Italia meno vicini,14,24,
+G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,conti,Saldo primario medio,% PIL,più alto è meglio,1991,-0.039,-0.286,0.247,15,24,Italia meno vicini,15,24,1991: vicini 2 su 3
+G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,conti,Deficit medio,% PIL,più basso è meglio,1991,11.389,3.032,8.357,20,24,Italia meno vicini,21,24,1991: vicini 2 su 3
+G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1990->1991,0.394,0.185,0.209,11,24,Italia meno vicini,11,24,
+G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1991,472.000,117.667,354.333,21,24,Italia meno vicini,18,24,
+G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1991,6.250,4.398,1.852,18,24,Italia meno vicini,18,24,
+G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1992,0.654,0.938,-0.284,12,24,Italia meno vicini,18,24,
+G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1992,1.287,2.599,-1.312,19,24,Italia meno vicini,8,24,
+G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1991->1992,-0.275,-0.843,0.568,5,24,Italia meno vicini,18,24,
+G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1991->1992,0.058,-0.172,0.230,7,24,Italia meno vicini,18,24,
+G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1991->1992,1.890,1.921,-0.031,14,24,Italia meno vicini,19,24,
+G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1991->1992,6.534,2.895,3.639,21,24,Italia meno vicini,20,24,
+G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,conti,Saldo primario medio,% PIL,più alto è meglio,1992,1.857,-0.577,2.434,6,24,Italia meno vicini,8,24,1992: vicini 2 su 3
+G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,conti,Deficit medio,% PIL,più basso è meglio,1992,10.373,3.616,6.756,18,24,Italia meno vicini,19,24,1992: vicini 2 su 3
+G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1991->1992,2.250,0.629,1.621,19,24,Italia meno vicini,22,24,
+G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1992,544.000,154.333,389.667,22,24,Italia meno vicini,20,24,
+G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1992,5.271,4.449,0.822,14,24,Italia meno vicini,17,24,
+G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1993,-0.896,-1.279,0.383,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1993,1.910,1.842,0.068,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1992->1993,0.150,-1.340,1.490,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1992->1993,-0.748,-0.410,-0.338,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1992->1993,-3.908,4.302,-8.210,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1992->1993,9.647,7.090,2.557,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,conti,Saldo primario medio,% PIL,più alto è meglio,1993,2.629,-1.540,4.169,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; 1993: vicini 2 su 3
+G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,conti,Deficit medio,% PIL,più basso è meglio,1993,10.030,4.742,5.288,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; 1993: vicini 2 su 3
+G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1992->1993,1.581,0.066,1.515,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1993,468.000,132.333,335.667,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1993,4.627,3.716,0.911,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; serie non disponibile per l'anno di partenza o di arrivo
+G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1994,2.053,2.085,-0.032,7,24,Italia meno vicini,8,24,
+G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1994,4.122,2.587,1.535,1,24,Italia meno vicini,1,24,
+G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,
+G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1993->1994,-0.942,-0.492,-0.450,17,24,Italia meno vicini,21,24,
+G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1993->1994,-0.388,-0.122,-0.266,14,24,Italia meno vicini,21,24,
+G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1993->1994,1.745,1.394,0.351,16,24,Italia meno vicini,18,24,
+G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1993->1994,5.898,2.772,3.126,19,24,Italia meno vicini,18,24,
+G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,conti,Saldo primario medio,% PIL,più alto è meglio,1994,2.277,-0.665,2.942,5,24,Italia meno vicini,6,24,1994: vicini 2 su 3
+G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,conti,Deficit medio,% PIL,più basso è meglio,1994,9.083,3.984,5.099,16,24,Italia meno vicini,17,24,1994: vicini 2 su 3
+G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1993->1994,-1.919,0.152,-2.071,1,24,Italia meno vicini,1,24,
+G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1994,365.000,115.667,249.333,18,24,Italia meno vicini,16,24,
+G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1994,4.052,3.022,1.030,15,24,Italia meno vicini,15,24,
+G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1995,2.681,1.856,0.825,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1995,2.760,1.613,1.147,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,1995,2.538,3.908,-1.370,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1994->1995,-0.387,0.516,-0.903,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1994->1995,0.025,0.745,-0.720,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1994->1995,1.395,-1.451,2.846,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1994->1995,2.471,5.827,-3.356,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,conti,Saldo primario medio,% PIL,più alto è meglio,1995,3.884,-3.146,7.030,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,conti,Deficit medio,% PIL,più basso è meglio,1995,7.199,7.114,0.085,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1994->1995,-0.126,-0.262,0.136,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1995,536.000,170.333,365.667,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1995,5.235,2.725,2.510,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; serie non disponibile per l'anno di partenza o di arrivo
+G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1996,1.317,1.357,-0.040,8,24,Italia meno vicini,15,24,
+G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1996,0.241,1.276,-1.035,17,24,Italia meno vicini,13,24,
+G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,1996,2.630,3.633,-1.003,15,15,Italia meno vicini,11,15,
+G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1995->1996,0.275,0.263,0.012,11,24,Italia meno vicini,13,24,
+G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1995->1996,0.631,0.587,0.044,10,24,Italia meno vicini,14,24,
+G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1995->1996,0.305,0.649,-0.344,12,24,Italia meno vicini,17,24,
+G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1995->1996,-0.192,3.157,-3.349,7,24,Italia meno vicini,9,24,
+G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,conti,Saldo primario medio,% PIL,più alto è meglio,1996,4.422,-0.431,4.853,1,24,Italia meno vicini,2,24,
+G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,conti,Deficit medio,% PIL,più basso è meglio,1996,6.608,4.467,2.141,12,24,Italia meno vicini,13,24,
+G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1995->1996,1.715,0.085,1.630,20,24,Italia meno vicini,19,24,
+G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1996,318.000,87.000,231.000,16,24,Italia meno vicini,15,24,
+G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1996,4.007,2.331,1.676,17,24,Italia meno vicini,14,24,
+G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,1997-1999,1.769,2.812,-1.043,20,24,Italia meno vicini,10,24,
+G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,1997-1999,0.847,0.986,-0.140,5,24,Italia meno vicini,10,24,
+G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,1997-1999,2.742,3.481,-0.738,11,15,Italia meno vicini,10,15,
+G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1996->1999,1.471,2.436,-0.965,23,24,Italia meno vicini,4,24,
+G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1996->1999,2.228,2.808,-0.580,19,24,Italia meno vicini,3,24,
+G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1996->1999,-1.070,-4.465,3.395,21,24,Italia meno vicini,11,24,
+G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1996->1999,-5.837,-0.377,-5.460,3,24,Italia meno vicini,3,24,
+G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,conti,Saldo primario medio,% PIL,più alto è meglio,1997-1999,5.193,0.995,4.198,3,24,Italia meno vicini,1,24,
+G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,conti,Deficit medio,% PIL,più basso è meglio,1997-1999,2.580,2.546,0.034,4,24,Italia meno vicini,5,24,
+G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1996->1999,0.628,1.044,-0.416,8,24,Italia meno vicini,13,24,
+G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,1997-1999,59.000,15.444,43.556,6,24,Italia meno vicini,6,24,
+G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,prezzi e mercati,Inflazione media,% annua,più basso è meglio,1997-1999,1.887,1.327,0.560,13,24,Italia meno vicini,7,24,
+G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2000,3.835,3.664,0.171,6,24,Italia meno vicini,3,24,
+G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2000,2.934,1.883,1.051,3,24,Italia meno vicini,3,24,
+G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2000,2.780,3.526,-0.746,12,15,Italia meno vicini,9,15,
+G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,1999->2000,0.975,1.335,-0.360,16,24,Italia meno vicini,7,24,
+G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,1999->2000,1.275,1.602,-0.327,15,24,Italia meno vicini,7,24,
+G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1999->2000,-1.445,-2.442,0.997,19,24,Italia meno vicini,10,24,
+G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1999->2000,-4.316,-1.941,-2.375,8,24,Italia meno vicini,4,24,
+G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,conti,Saldo primario medio,% PIL,più alto è meglio,2000,3.682,1.702,1.980,9,24,Italia meno vicini,3,24,
+G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,conti,Deficit medio,% PIL,più basso è meglio,2000,2.420,1.396,1.024,8,24,Italia meno vicini,3,24,
+G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),1999->2000,-0.656,-0.292,-0.364,10,24,Italia meno vicini,5,24,
+G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2000,32.000,13.333,18.667,2,24,Italia meno vicini,3,24,
+G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2000,2.538,2.183,0.355,10,24,Italia meno vicini,11,24,
+G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,conti,Saldo primario medio,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,conti,Deficit medio,% PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,prezzi e mercati,Inflazione media,% annua,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2001,1.939,2.037,-0.098,10,24,Italia meno vicini,9,24,
+G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2001,0.622,1.384,-0.762,13,24,Italia meno vicini,12,24,
+G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2001,2.956,3.505,-0.549,4,15,Italia meno vicini,5,15,
+G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2000->2001,1.039,0.741,0.298,8,24,Italia meno vicini,6,24,
+G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2000->2001,1.549,0.993,0.556,5,24,Italia meno vicini,5,24,
+G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2000->2001,-2.644,-1.812,-0.832,8,24,Italia meno vicini,5,24,
+G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2000->2001,-0.230,-1.788,1.558,10,24,Italia meno vicini,8,24,
+G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,conti,Saldo primario medio,% PIL,più alto è meglio,2001,2.862,1.347,1.515,11,24,Italia meno vicini,5,24,
+G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,conti,Deficit medio,% PIL,più basso è meglio,2001,3.181,1.666,1.515,11,24,Italia meno vicini,7,24,
+G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2000->2001,-0.098,-0.548,0.450,12,24,Italia meno vicini,9,24,
+G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2001,39.000,15.333,23.667,3,24,Italia meno vicini,4,24,
+G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2001,2.785,2.403,0.382,11,24,Italia meno vicini,13,24,
+G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,,,,,,,,,,
+G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2002-2005,0.125,0.895,-0.770,17,24,Italia meno vicini,20,24,
+G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2002-2005,0.056,0.941,-0.885,14,24,Italia meno vicini,14,24,
+G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2002-2005,2.932,3.597,-0.665,9,15,Italia meno vicini,6,15,
+G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2001->2005,2.575,1.778,0.797,3,24,Italia meno vicini,2,24,
+G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2001->2005,4.269,3.568,0.701,3,24,Italia meno vicini,1,24,
+G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2001->2005,-2.925,3.608,-6.533,1,24,Italia meno vicini,4,24,
+G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2001->2005,-2.336,2.088,-4.424,5,24,Italia meno vicini,5,24,
+G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,conti,Saldo primario medio,% PIL,più alto è meglio,2002-2005,1.440,0.239,1.200,12,24,Italia meno vicini,10,24,
+G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,conti,Deficit medio,% PIL,più basso è meglio,2002-2005,3.417,2.383,1.033,9,24,Italia meno vicini,9,24,
+G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2001->2005,-0.863,0.445,-1.308,4,24,Italia meno vicini,3,24,
+G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2002-2005,21.500,4.917,16.583,1,24,Italia meno vicini,1,24,
+G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2002-2005,2.333,2.174,0.158,9,24,Italia meno vicini,10,24,
+G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2002-2005,38.767,,,2,11,solo Italia (nessun confronto omogeneo),2,11,
+G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2006,1.393,2.834,-1.441,21,24,Italia meno vicini,13,24,
+G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2006,-0.251,1.614,-1.865,22,24,Italia meno vicini,20,24,
+G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2006,3.131,3.685,-0.554,5,15,Italia meno vicini,3,15,
+G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2005->2006,0.846,1.032,-0.186,12,24,Italia meno vicini,8,24,
+G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2005->2006,0.979,1.365,-0.386,17,24,Italia meno vicini,11,24,
+G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2005->2006,-2.355,-0.778,-1.577,7,24,Italia meno vicini,8,24,
+G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2005->2006,0.081,-2.295,2.376,15,24,Italia meno vicini,10,24,
+G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,conti,Saldo primario medio,% PIL,più alto è meglio,2006,0.810,1.536,-0.726,16,24,Italia meno vicini,12,24,
+G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,conti,Deficit medio,% PIL,più basso è meglio,2006,3.605,0.764,2.841,13,24,Italia meno vicini,10,24,
+G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2005->2006,1.033,0.551,0.482,13,24,Italia meno vicini,15,24,
+G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2006,29.000,2.000,27.000,4,24,Italia meno vicini,2,24,
+G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2006,2.091,2.256,-0.165,6,24,Italia meno vicini,9,24,
+G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2005->2006,-0.400,,,1,10,solo Italia (nessun confronto omogeneo),1,10,
+G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2006,46.308,,,3,11,solo Italia (nessun confronto omogeneo),3,11,
+G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2007-2008,-0.469,1.118,-1.587,23,24,Italia meno vicini,21,24,
+G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2007-2008,-0.366,0.195,-0.560,11,24,Italia meno vicini,21,24,
+G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2007-2008,3.131,3.792,-0.661,8,15,Italia meno vicini,2,15,
+G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2006->2008,0.295,1.199,-0.904,20,24,Italia meno vicini,12,24,
+G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2006->2008,0.882,2.074,-1.192,23,24,Italia meno vicini,12,24,
+G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2006->2008,-0.559,0.127,-0.686,10,24,Italia meno vicini,14,24,
+G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2006->2008,-0.455,1.260,-1.715,9,24,Italia meno vicini,7,24,
+G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,conti,Saldo primario medio,% PIL,più alto è meglio,2007-2008,2.863,0.795,2.068,8,24,Italia meno vicini,4,24,
+G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,conti,Deficit medio,% PIL,più basso è meglio,2007-2008,1.955,1.546,0.409,6,24,Italia meno vicini,1,24,
+G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2006->2008,1.233,-1.252,2.485,22,24,Italia meno vicini,18,24,
+G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2007-2008,48.500,13.500,35.000,5,24,Italia meno vicini,5,24,
+G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2007-2008,2.589,2.681,-0.092,7,24,Italia meno vicini,12,24,
+G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2006->2008,0.700,,,5,10,solo Italia (nessun confronto omogeneo),5,10,
+G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2007-2008,37.918,,,1,11,solo Italia (nessun confronto omogeneo),1,11,
+G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2009-2012,-1.954,-0.470,-1.483,22,24,Italia meno vicini,22,24,
+G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2009-2012,0.051,1.064,-1.013,16,24,Italia meno vicini,16,24,
+G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2009-2012,3.040,3.811,-0.771,13,15,Italia meno vicini,4,15,
+G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2008->2012,-1.997,-2.312,0.315,7,24,Italia meno vicini,24,24,
+G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2008->2012,-0.155,-0.270,0.115,9,24,Italia meno vicini,20,24,
+G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2008->2012,14.112,10.491,3.621,22,24,Italia meno vicini,24,24,
+G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2008->2012,20.098,28.846,-8.748,1,24,Italia meno vicini,23,24,
+G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,conti,Saldo primario medio,% PIL,più alto è meglio,2009-2012,0.663,-3.836,4.500,2,24,Italia meno vicini,13,24,
+G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,conti,Deficit medio,% PIL,più basso è meglio,2009-2012,3.932,6.284,-2.352,1,24,Italia meno vicini,11,24,
+G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2008->2012,2.164,0.990,1.174,18,24,Italia meno vicini,21,24,
+G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2009-2012,229.750,100.083,129.667,10,24,Italia meno vicini,13,24,
+G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2009-2012,2.031,1.528,0.502,12,24,Italia meno vicini,8,24,
+G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2008->2012,2.300,,,10,10,solo Italia (nessun confronto omogeneo),10,10,
+G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2009-2012,49.156,,,4,11,solo Italia (nessun confronto omogeneo),4,11,
+G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2013,-2.014,-0.184,-1.830,24,24,Italia meno vicini,23,24,
+G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2013,0.785,1.145,-0.360,9,24,Italia meno vicini,11,24,
+G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2013,2.490,3.138,-0.648,7,15,Italia meno vicini,12,15,
+G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2012->2013,-1.098,-0.148,-0.950,22,24,Italia meno vicini,22,24,
+G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2012->2013,-0.556,0.114,-0.670,21,24,Italia meno vicini,23,24,
+G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2012->2013,4.725,0.982,3.743,23,24,Italia meno vicini,23,24,
+G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2012->2013,5.953,3.631,2.322,14,24,Italia meno vicini,19,24,
+G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,conti,Saldo primario medio,% PIL,più alto è meglio,2013,1.915,-1.533,3.448,4,24,Italia meno vicini,7,24,
+G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,conti,Deficit medio,% PIL,più basso è meglio,2013,2.875,4.101,-1.226,2,24,Italia meno vicini,6,24,
+G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2012->2013,0.240,0.641,-0.401,9,24,Italia meno vicini,10,24,
+G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2013,275.000,120.667,154.333,13,24,Italia meno vicini,14,24,
+G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2013,1.220,1.259,-0.039,8,24,Italia meno vicini,4,24,
+G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2012->2013,1.400,,,8,10,solo Italia (nessun confronto omogeneo),8,10,
+G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2013,82.095,,,5,11,solo Italia (nessun confronto omogeneo),5,11,
+G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2014,-0.016,1.400,-1.416,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2014,0.105,0.825,-0.720,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2014,2.300,2.912,-0.612,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2013->2014,0.154,0.549,-0.395,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2013->2014,0.301,0.656,-0.355,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2013->2014,2.641,-1.004,3.645,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2013->2014,2.944,1.040,1.904,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,conti,Saldo primario medio,% PIL,più alto è meglio,2014,1.732,-0.852,2.584,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,conti,Deficit medio,% PIL,più basso è meglio,2014,2.818,3.293,-0.475,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2013->2014,-0.491,0.246,-0.737,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2014,173.000,69.000,104.000,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2014,0.241,0.421,-0.180,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; il periodo attraversa il cambio di metodo ISTAT 2013/2014: non calcolato
+G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2014,88.859,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2015-2017,1.421,1.952,-0.531,15,24,Italia meno vicini,12,24,
+G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2015-2017,0.053,0.972,-0.919,15,24,Italia meno vicini,15,24,
+G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2015-2017,2.284,2.839,-0.556,6,15,Italia meno vicini,14,15,
+G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2014->2017,2.263,2.601,-0.338,14,24,Italia meno vicini,3,24,
+G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2014->2017,2.096,2.485,-0.389,18,24,Italia meno vicini,4,24,
+G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2014->2017,-7.940,-5.858,-2.082,6,24,Italia meno vicini,1,24,
+G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2014->2017,-1.055,-3.731,2.676,18,24,Italia meno vicini,6,24,
+G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,conti,Saldo primario medio,% PIL,più alto è meglio,2015-2017,1.451,-0.275,1.726,10,24,Italia meno vicini,9,24,
+G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,conti,Deficit medio,% PIL,più basso è meglio,2015-2017,2.458,2.243,0.214,5,24,Italia meno vicini,4,24,
+G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2014->2017,-1.384,0.561,-1.945,2,24,Italia meno vicini,2,24,
+G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2015-2017,146.667,55.333,91.333,9,24,Italia meno vicini,9,24,
+G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2015-2017,0.391,0.558,-0.167,5,24,Italia meno vicini,2,24,
+G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2014->2017,1.400,,,8,10,solo Italia (nessun confronto omogeneo),8,10,
+G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2015-2017,110.443,,,8,11,solo Italia (nessun confronto omogeneo),8,11,
+G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2018,1.037,1.373,-0.336,13,24,Italia meno vicini,16,24,
+G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2018,-0.160,0.136,-0.296,7,24,Italia meno vicini,19,24,
+G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2018,2.128,2.899,-0.771,14,15,Italia meno vicini,15,15,
+G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2017->2018,0.626,0.879,-0.253,13,24,Italia meno vicini,9,24,
+G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2017->2018,0.650,0.857,-0.207,12,24,Italia meno vicini,13,24,
+G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2017->2018,-2.533,-2.099,-0.434,11,24,Italia meno vicini,7,24,
+G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2017->2018,0.457,-1.626,2.083,11,24,Italia meno vicini,12,24,
+G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,conti,Saldo primario medio,% PIL,più alto è meglio,2018,1.429,0.716,0.713,14,24,Italia meno vicini,11,24,
+G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,conti,Deficit medio,% PIL,più basso è meglio,2018,2.192,0.996,1.196,10,24,Italia meno vicini,2,24,
+G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2017->2018,-0.205,0.401,-0.606,6,24,Italia meno vicini,8,24,
+G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2018,221.000,46.667,174.333,14,24,Italia meno vicini,12,24,
+G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2018,1.137,1.753,-0.616,3,24,Italia meno vicini,3,24,
+G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2017->2018,0.000,,,4,10,solo Italia (nessun confronto omogeneo),4,10,
+G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2018,116.732,,,9,11,solo Italia (nessun confronto omogeneo),9,11,
+G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2019-2020,-3.873,-3.252,-0.620,16,24,Italia meno vicini,24,24,
+G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2019-2020,1.833,0.420,1.413,2,24,Italia meno vicini,6,24,
+G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2019-2020,2.474,3.140,-0.666,10,15,Italia meno vicini,13,15,
+G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2018->2020,-0.526,-0.687,0.161,10,24,Italia meno vicini,19,24,
+G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2018->2020,-0.595,-0.372,-0.223,13,24,Italia meno vicini,24,24,
+G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2018->2020,-2.555,1.461,-4.016,3,24,Italia meno vicini,6,24,
+G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2018->2020,20.181,14.383,5.798,23,24,Italia meno vicini,24,24,
+G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,conti,Saldo primario medio,% PIL,più alto è meglio,2019-2020,-2.035,-3.106,1.071,13,24,Italia meno vicini,17,24,
+G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,conti,Deficit medio,% PIL,più basso è meglio,2019-2020,5.414,4.559,0.855,7,24,Italia meno vicini,12,24,
+G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2018->2020,0.967,0.346,0.621,14,24,Italia meno vicini,14,24,
+G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2019-2020,194.000,42.333,151.667,12,24,Italia meno vicini,11,24,
+G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2019-2020,0.236,0.592,-0.355,4,24,Italia meno vicini,1,24,
+G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2018->2020,0.800,,,7,10,solo Italia (nessun confronto omogeneo),7,10,
+G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2019-2020,121.485,,,10,11,solo Italia (nessun confronto omogeneo),10,11,
+G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2021,9.494,5.716,3.778,1,24,Italia meno vicini,1,24,
+G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2021,-1.188,-0.091,-1.097,18,24,Italia meno vicini,24,24,
+G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2021,2.844,3.221,-0.377,2,15,Italia meno vicini,8,15,
+G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2020->2021,0.169,1.372,-1.203,24,24,Italia meno vicini,14,24,
+G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2020->2021,0.438,1.583,-1.145,22,24,Italia meno vicini,15,24,
+G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2020->2021,0.022,-1.614,1.636,20,24,Italia meno vicini,15,24,
+G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2020->2021,-8.561,-1.935,-6.626,2,24,Italia meno vicini,2,24,
+G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,conti,Saldo primario medio,% PIL,più alto è meglio,2021,-5.456,-4.102,-1.354,17,24,Italia meno vicini,24,24,
+G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,conti,Deficit medio,% PIL,più basso è meglio,2021,8.876,5.468,3.408,14,24,Italia meno vicini,15,24,
+G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2020->2021,-0.508,0.549,-1.057,5,24,Italia meno vicini,7,24,
+G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2021,118.000,36.667,81.333,8,24,Italia meno vicini,7,24,
+G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2021,1.874,2.601,-0.727,2,24,Italia meno vicini,6,24,
+G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2020->2021,-0.100,,,3,10,solo Italia (nessun confronto omogeneo),3,10,
+G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2021,94.219,,,6,11,solo Italia (nessun confronto omogeneo),6,11,
+G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2022-2023,3.003,1.590,1.413,2,24,Italia meno vicini,4,24,
+G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2022-2023,-0.804,-0.227,-0.578,12,24,Italia meno vicini,22,24,
+G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2022-2023,2.898,3.305,-0.408,3,15,Italia meno vicini,7,15,
+G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2021->2023,3.255,1.822,1.433,2,24,Italia meno vicini,1,24,
+G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2021->2023,3.113,1.992,1.121,2,24,Italia meno vicini,2,24,
+G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2021->2023,-6.951,-3.028,-3.923,4,24,Italia meno vicini,2,24,
+G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2021->2023,-11.881,-6.462,-5.419,4,24,Italia meno vicini,1,24,
+G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,conti,Saldo primario medio,% PIL,più alto è meglio,2022-2023,-3.761,-2.062,-1.699,18,24,Italia meno vicini,22,24,
+G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,conti,Deficit medio,% PIL,più basso è meglio,2022-2023,7.618,3.739,3.878,15,24,Italia meno vicini,14,24,
+G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2021->2023,-0.618,-1.320,0.702,15,24,Italia meno vicini,6,24,
+G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2022-2023,193.500,53.500,140.000,11,24,Italia meno vicini,10,24,
+G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2022-2023,6.912,5.807,1.104,16,24,Italia meno vicini,21,24,
+G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2021->2023,0.700,,,5,10,solo Italia (nessun confronto omogeneo),5,10,
+G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2022-2023,106.784,,,7,11,solo Italia (nessun confronto omogeneo),7,11,
+G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,crescita,Crescita media annua del PIL pro capite reale,% annua,più alto è meglio,2024-2025,0.693,0.881,-0.188,11,24,Italia meno vicini,17,24,
+G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,crescita,Crescita media annua della produttività oraria,% annua,più alto è meglio,2024-2025,-0.970,0.593,-1.563,20,24,Italia meno vicini,23,24,
+G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,crescita,Investimenti pubblici medi,% PIL,più alto è meglio,2024-2025,3.716,3.453,0.263,1,15,Italia meno vicini,1,15,
+G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,lavoro,Variazione del tasso di occupazione 15-64,punti,più alto è meglio,2023->2025,1.047,0.845,0.202,9,24,Italia meno vicini,5,24,
+G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,lavoro,Variazione del tasso di occupazione femminile 15-64,punti,più alto è meglio,2023->2025,1.249,1.108,0.141,8,24,Italia meno vicini,9,24,
+G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2023->2025,-2.161,-0.016,-2.145,5,24,Italia meno vicini,9,24,
+G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2023->2025,3.166,0.890,2.276,13,24,Italia meno vicini,15,24,
+G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,conti,Saldo primario medio,% PIL,più alto è meglio,2024-2025,0.659,-1.754,2.414,7,24,Italia meno vicini,14,24,
+G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,conti,Deficit medio,% PIL,più basso è meglio,2024-2025,3.212,3.632,-0.420,3,24,Italia meno vicini,8,24,
+G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,conti,Variazione della pressione fiscale,punti di PIL,descrittivo (rango 1 = calo maggiore),2023->2024,1.228,0.200,1.028,17,24,Italia meno vicini,17,24,serie ferma al 2024
+G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,prezzi e mercati,Spread medio con la Germania,punti base,più basso è meglio,2024-2025,119.500,47.667,71.833,7,24,Italia meno vicini,8,24,
+G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,prezzi e mercati,Inflazione media,% annua,più basso è meglio,2024-2025,1.257,2.136,-0.879,1,24,Italia meno vicini,5,24,
+G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,società,Variazione della povertà assoluta (persone),punti,più basso è meglio,2023->2025,-0.400,,,1,10,solo Italia (nessun confronto omogeneo),1,10,
+G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,società,Emigrazione media annua di cittadini italiani,migliaia,più basso è meglio,2024-2025,125.030,,,11,11,solo Italia (nessun confronto omogeneo),11,11,

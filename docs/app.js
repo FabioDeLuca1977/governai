@@ -966,6 +966,48 @@
       ${(CP.proposte || []).length ? `<section class="blocco"><h2>Che cosa fa il programma</h2><ul class="elenco">${CP.proposte.filter((x) => proposta(x)).map((x) => `<li><a href="${linkP(x)}">${esc(tit(proposta(x).titolo))}</a> <span class="nota">${esc(x)}${rif.misure[x] ? " · nel programma intermedio" : ""}</span></li>`).join("")}</ul></section>` : ""}`;
   }
 
+  // ---------- Governi a confronto (storia/governi_confronto.csv) ----------
+  const GV = D.governi || { righe: [] };
+  const AMBITI_GV = [["conti", "Conti pubblici"], ["crescita", "Crescita"], ["lavoro", "Lavoro"], ["prezzi e mercati", "Prezzi e mercati"], ["società", "Società"]];
+  const conVerso = (r) => r.rango != null && r.n && !String(r.verso).startsWith("descrittivo");
+  const pos = (r) => r.n > 1 ? (r.n - r.rango) / (r.n - 1) * 100 : 100;
+  function mediana(a) { const b = a.slice().sort((x, y) => x - y); const m = Math.floor(b.length / 2); return b.length ? (b.length % 2 ? b[m] : (b[m - 1] + b[m]) / 2) : null; }
+  function governiVista(params) {
+    if (!GV.righe.length) return `${schedeDati("governi")}${vuoto("Confronto non ancora disponibile.")}`;
+    const ver = params.get("v") === "spostata" ? "spostata" : "base";
+    const R = GV.righe.filter((r) => r.v === (ver === "spostata" ? "ritardo_1_anno" : "base"));
+    const unita = [...new Map(R.map((r) => [r.u, r.g])).entries()];
+    const sel = unita.find(([u]) => u === params.get("g")) ? params.get("g") : unita[unita.length - 1][0];
+    const nomeSel = (unita.find(([u]) => u === sel) || [])[1] || "";
+    const sintesi = (u) => Object.fromEntries(AMBITI_GV.map(([a]) => [a, mediana(R.filter((r) => r.u === u && r.amb === a && conVerso(r)).map(pos))]));
+    const tutte = unita.map(([u, g]) => [u, g, sintesi(u), (R.find((r) => r.u === u) || {}).anni]);
+    const classe = (x) => x == null ? "nd" : x >= 66.7 ? "alto" : x >= 33.3 ? "medio" : "basso";
+    const righeSel = R.filter((r) => r.u === sel);
+    const fmt = (x, um) => x == null ? "—" : `${nf(x, Math.abs(x) >= 100 ? 0 : 1)}${um && um.startsWith("%") ? "%" : um === "punti" ? " punti" : ""}`;
+    const qv = ver === "spostata" ? "&v=spostata" : "";
+    return `${schedeDati("governi")}
+      <p class="risposta">${esc(GV.in_breve || "")}</p>
+      <div class="segmenti" role="group" aria-label="Versione"><a class="btn s ${ver === "base" ? "primario" : ""}" href="#/dati/governi?g=${esc(sel)}">Anni del mandato</a><a class="btn s ${ver === "spostata" ? "primario" : ""}" href="#/dati/governi?g=${esc(sel)}&v=spostata">Anni spostati di uno (effetti in ritardo)</a></div>
+      <section class="card blocco"><h2>Tutti i governi, ambito per ambito <small>posizione rispetto ai vicini, da 0 (ultimo) a 100 (primo)</small></h2>
+        <div class="tabella-scorre"><table class="tabella gv-mappa"><thead><tr><th>Governo</th><th>Anni contati</th>${AMBITI_GV.map(([, t]) => `<th class="num">${esc(t)}</th>`).join("")}</tr></thead>
+        <tbody>${tutte.map(([u, g, sx, anni]) => `<tr class="${u === sel ? "gv-sel" : ""}"><td class="principale"><a href="#/dati/governi?g=${esc(u)}${qv}">${esc(g)}</a></td><td data-etichetta="Anni">${esc(anni || "")}</td>${AMBITI_GV.map(([a, t]) => `<td class="num gv-c ${classe(sx[a])}" data-etichetta="${esc(t)}">${sx[a] == null ? "—" : Math.round(sx[a])}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
+        <p class="nota">Verde: primo terzo; giallo: terzo centrale; arancio: ultimo terzo. Ogni cella è la mediana delle posizioni degli indicatori dell'ambito; la pressione fiscale non entra, perché salire o scendere non è in sé meglio o peggio. Per la società il confronto usa solo il dato italiano.</p>
+      </section>
+      <section class="blocco"><h2>${esc(nomeSel)}, indicatore per indicatore</h2>
+        <label class="vh" for="gv-sel">Scegli il governo</label><select id="gv-sel" class="st-sel">${unita.map(([u, g]) => `<option value="${esc(u)}" ${u === sel ? "selected" : ""}>${esc(g)}</option>`).join("")}</select>
+        <ul class="gv-ind">${righeSel.map((r) => `<li><span class="gv-nome">${esc(r.ind)}<small>${esc(r.amb)}</small></span>
+          <span class="gv-scala" aria-hidden="true">${r.rango != null && r.n ? `<span class="gv-punto ${conVerso(r) ? classe(pos(r)) : "nd"}" style="left:${(r.n > 1 ? (r.rango - 1) / (r.n - 1) : 0) * 100}%"></span>` : ""}</span>
+          <span class="gv-val">${r.rango != null ? `<strong>${r.rango}° su ${r.n}</strong>` : "—"}<small>Italia ${fmt(r.it, r.um)}${r.vic != null ? ` · vicini ${fmt(r.vic, r.um)}` : ""}${String(r.verso).startsWith("descrittivo") ? " · 1° = calo maggiore" : ""}</small></span></li>`).join("")}</ul>
+        <p class="nota">La scala va dal 1° posto (a sinistra) all'ultimo (a destra). Il posto è calcolato sulla differenza con la media di Francia, Germania e Spagna; per povertà ed emigrazione sul solo dato italiano.</p>
+      </section>
+      <section class="blocco"><h2>La lettura ragionata</h2>
+        <div class="quattro">${Q4.map(([k, t, ic]) => `<div class="card q4"><p class="q4-t">${icona(ic)}${t}</p><p>${codici(esc(GV[k] || ""))}</p></div>`).join("")}</div>
+        ${GV.oceano_blu ? `<h3 class="q4-sotto">Perché questo confronto è diverso <small>griglia della strategia oceano blu</small></h3>${grigliaErrc(GV.oceano_blu, "Elimina, riduce, aumenta, crea")}` : ""}
+      </section>
+      ${(GV.limiti || []).length ? `<div class="avviso"><div class="avviso-titolo">${icona("info")}Limiti da tenere presenti</div><ul>${GV.limiti.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}
+      <p class="nota">Metodo, punto di partenza di ogni governo, shock esterni e decisioni del catalogo: ${ext(repo + "/blob/main/storia/governi_confronto.md", "rapporto completo")} · ${ext(repo + "/blob/main/storia/governi_metodo.md", "metodo")} · ${ext(repo + "/blob/main/storia/script/governi.py", "script")}.</p>`;
+  }
+
   const ORIZZ = ["breve", "medio", "lungo"];
   function simulatore() {
     return `${schedeProgramma("valori")}
@@ -1443,7 +1485,7 @@
 
   // ---------- Dati ----------
   const GRUPPI = [["Prezzi e conti pubblici", ["inflazione", "debito_trimestrale", "debito_annuo", "deficit_annuo", "interessi", "spread", "rendimento_btp"]], ["Lavoro e giovani", ["disoccupazione", "disoccupazione_giovani", "neet"]], ["Crescita", ["pil_trimestrale", "produzione_industriale", "fiducia_consumatori"]], ["Società", ["fecondita"]]];
-  const schedeDati = (k) => `<h1>Dati</h1>${schede([["indicatori", "Indicatori", "#/dati", (D.indicatori || []).length], ["allerte", "Allerte", "#/dati/allerte", ALLERTE.length], ["obiettivi", "Obiettivi e risultati", "#/dati/obiettivi", (D.obiettivi || []).length], ["diario", "Diario quotidiano", "#/dati/diario"], ["storia", "50 anni di scelte", "#/dati/storia"]], k)}`;
+  const schedeDati = (k) => `<h1>Dati</h1>${schede([["indicatori", "Indicatori", "#/dati", (D.indicatori || []).length], ["allerte", "Allerte", "#/dati/allerte", ALLERTE.length], ["obiettivi", "Obiettivi e risultati", "#/dati/obiettivi", (D.obiettivi || []).length], ["diario", "Diario quotidiano", "#/dati/diario"], ["storia", "50 anni di scelte", "#/dati/storia"], ["governi", "Governi a confronto", "#/dati/governi"]], k)}`;
   function datiVista() {
     const ok = (D.indicatori || []).filter((i) => i.stato === "ok");
     const salgono = ALLERTE.map((r) => nomeInd(r.ind).split(" (")[0].toLowerCase()).filter((x, i, a) => x && a.indexOf(x) === i);
@@ -1703,6 +1745,7 @@
       else if (b === "obiettivi") { html = obiettiviVista(params); titolo = "Obiettivi e risultati"; }
       else if (b === "diario") { html = diario(c); titolo = "Diario quotidiano"; }
       else if (b === "storia") { html = storiaVista(params); titolo = "50 anni di scelte"; }
+      else if (b === "governi") { html = governiVista(params); titolo = "Governi a confronto"; }
       else { html = datiVista(); titolo = "Dati"; }
     } else if (a === "controlli") {
       if (b === "europa") { html = europaVista(c, params); titolo = "Europa"; }
@@ -1727,6 +1770,7 @@
     if ($("#c-corpo")) { const filtra = () => { const t = $("#c-cerca").value.toLowerCase(), f = $("#c-fondo").value, l = $("#c-livello").value; $$("#c-corpo tr").forEach((tr) => { tr.hidden = (t && !tr.dataset.testo.includes(t)) || (f && tr.dataset.fondo !== f) || (l && tr.dataset.livello !== l); }); }; ["#c-cerca", "#c-fondo", "#c-livello"].forEach((s) => $(s).addEventListener("input", filtra)); }
     if ($("#pp-app")) montaProponi();
     if ($("#st-dec")) montaStoria();
+    if ($("#gv-sel")) $("#gv-sel").addEventListener("change", (e) => { const q = new URLSearchParams(location.hash.split("?")[1] || ""); q.set("g", e.target.value); location.hash = "#/dati/governi?" + q.toString(); });
     if ($("#classifica")) { $$("input[type=range]", main).forEach((el) => el.addEventListener("input", aggiornaClassifica)); aggiornaClassifica(); }
     if ($("#q")) { $("#q").addEventListener("input", aggiornaRicerca); aggiornaRicerca(); $("#q").focus(); }
     if ($("#schema-scenario")) $("#schema-scenario").addEventListener("change", (e) => { location.hash = "#/programma/una-pagina" + (e.target.value === (D.schema || {}).scenario ? "" : "?scenario=" + e.target.value); });

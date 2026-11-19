@@ -420,6 +420,24 @@ def chi_paga() -> dict:
             "neutralita": pd.read_csv(neutr).to_dict("records") if neutr.exists() else []}
 
 
+def governi() -> dict:
+    """Governi a confronto (storia/script/governi.py): indicatori per mandato, Italia rispetto a Francia, Germania e
+    Spagna. Nella pagina i governi sono indicati per date: i nomi restano solo in storia/governi.csv come dato storico."""
+    d = RADICE / "storia"
+    if not (d / "governi_confronto.csv").exists():
+        return {}
+    c = pd.read_csv(d / "governi_confronto.csv")
+    c = c[c.confrontabile.astype(str).str.lower().isin(["si", "sì", "true", "1"])]
+    righe = []
+    for r in c.itertuples():
+        righe.append({"u": r.unita_id, "g": r.governo_periodo, "v": r.versione, "anni": str(r.anni) if pd.notna(r.anni) else "",
+                      "amb": r.ambito, "ind": r.indicatore, "um": r.unita_misura, "verso": r.verso,
+                      "it": pulisci(r.valore_italia), "vic": pulisci(r.valore_vicini), "diff": pulisci(r.differenza),
+                      "rango": pulisci(r.rango), "n": pulisci(r.n_confrontati), "base": r.base_del_rango if pd.notna(r.base_del_rango) else ""})
+    pag = yaml.safe_load(leggi(d / "governi_pagina.yaml")) if (d / "governi_pagina.yaml").exists() else {}
+    return {**(pag or {}), "righe": righe}
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     conf = yaml.safe_load(leggi(QUI / "config.yaml"))
@@ -526,6 +544,7 @@ def main() -> int:
         "proposte_validate": json.loads(leggi(RADICE / "proposte" / "validati.json") or "[]"),
         "storia": storia(),
         "chi_paga": chi_paga(),
+        "governi": governi(),
         "quattro_domande": {k: v for f in sorted((RADICE / "programma").glob("quattro_domande_*.yaml"))
                             for k, v in ((yaml.safe_load(leggi(f)) or {}).get("proposte") or {}).items()},
         "oceano_blu": yaml.safe_load(leggi(RADICE / "programma" / "oceano_blu.yaml")) if (RADICE / "programma" / "oceano_blu.yaml").exists() else {},

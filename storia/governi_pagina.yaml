@@ -1,0 +1,18 @@
+# Testi della pagina "Governi a confronto" (19/11/2026). Numeri da storia/governi_confronto.csv e .md
+# (script storia/script/governi.py). I governi sono indicati per date, senza nomi di persone o di partiti.
+in_breve: "Ogni governo dal 1979 con almeno un anno di mandato, confrontato sugli stessi indicatori. La misura principale è quanto l'Italia ha fatto meglio o peggio di Francia, Germania e Spagna negli stessi anni: così gli shock che colpiscono tutti non vengono attribuiti al governo di turno. Nessun voto unico: una posizione per ambito."
+perche: "Un dato da solo non dice se un governo ha fatto bene: un deficit al 3% può essere un successo dopo una crisi o un passo indietro dopo anni di avanzi. Per giudicare serve un confronto con gli altri governi e con i Paesi vicini, sapendo da dove ciascuno è partito."
+come: "Ogni anno solare va al governo in carica per la maggior parte dell'anno; i governi sotto i 12 mesi sono uniti al periodo vicino o esclusi, dichiarandolo. Per 14 indicatori calcoliamo il valore italiano, quello medio di Francia, Germania e Spagna e la differenza; poi il posto di ogni governo. C'è anche una versione con gli anni spostati di uno, perché le misure agiscono in ritardo. Per il governo in carica contano solo gli anni 2023-2025: il 2026 è ancora una previsione."
+cosa: "Il governo 2022-oggi, rispetto ai vicini, è nel primo terzo per lavoro (5° su 24 per occupazione, occupazione femminile e disoccupazione giovanile) e per prezzi e mercati (inflazione 2° su 24, spread 8°); nel terzo centrale per i conti (debito 12°, saldo primario 12°, deficit 9° su 24); per la crescita è 8° sul PIL per abitante ma 20° su 24 per produttività, e primo per investimenti pubblici grazie al PNRR, deciso prima. La pressione fiscale sale di 1,8 punti più dei vicini: è il secondo aumento più alto dal 1979 (non è di per sé un risultato migliore o peggiore). L'emigrazione di italiani è la più alta tra gli 11 governi per cui c'è il dato."
+chi: "Il governo in carica ha ereditato il secondo debito più alto (138,4% del PIL), un deficit dell'8,1% gonfiato dai crediti edilizi decisi prima, uno spread a 202 punti e un'inflazione all'8,2%. Plausibilmente legati alle sue scelte: il rientro del deficit, aiutato dallo stop alla cessione dei crediti, l'aumento della pressione fiscale e in parte la discesa dello spread. Non (o non solo) suoi: l'inflazione (energia e BCE), l'occupazione (in salita dal 2021, anche per il calo demografico), gli investimenti (PNRR), la produttività (ferma dal 2001)."
+limiti:
+  - "Il mandato è in corso: tre anni di dati, con il 2025 ancora provvisorio."
+  - "Molti governi hanno solo uno o due anni: i loro posti sono instabili."
+  - "Il confronto con i vicini toglie gli shock comuni, non quelli che colpiscono l'Italia più degli altri. Nessun numero qui dimostra una causa."
+  - "Prima del 1991 la Germania è la sola Germania Ovest; la Spagna non ha deficit e saldo primario prima del 1995; gli investimenti pubblici partono dal 1995; la povertà assoluta dal 2005, con un cambio di metodo nel 2014."
+  - "Le decisioni del catalogo per governo sono contate solo come informazione: la selezione è nostra e non è un voto."
+oceano_blu:
+  eliminare: "Il giudizio per slogan: nessun voto unico e nessun nome, solo indicatori uguali per tutti."
+  ridurre: "L'effetto degli shock esterni sul giudizio, confrontando sempre con i Paesi vicini."
+  aumentare: "La memoria: 24 governi dal 1979 sugli stessi numeri, con il punto di partenza di ciascuno."
+  creare: "Un confronto che chiunque può rifare: dati, script e metodo sono pubblici."

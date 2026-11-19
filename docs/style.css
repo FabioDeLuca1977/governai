@@ -845,3 +845,20 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 .tabella-scorre{ overflow-x:auto; }
 
 .cp-pd .giu{ color:var(--c-favorevole); } .cp-pd .su{ color:var(--c-critico); }
+
+
+/* Governi a confronto */
+.gv-mappa .gv-c{ font-weight:700; text-align:center; }
+.gv-c.alto{ background:var(--c-favorevole-tenue); color:var(--c-favorevole); }
+.gv-c.medio{ background:var(--c-attenzione-tenue); color:var(--c-attenzione); }
+.gv-c.basso{ background:var(--c-alto-tenue); color:var(--c-alto); }
+.gv-c.nd{ color:var(--c-testo-2); }
+.gv-sel td{ box-shadow:inset 0 2px 0 var(--c-accento), inset 0 -2px 0 var(--c-accento); }
+.gv-ind{ list-style:none; padding:0; margin:12px 0; display:grid; gap:10px; }
+.gv-ind li{ display:grid; grid-template-columns:minmax(0,16em) 1fr minmax(0,14em); gap:12px; align-items:center; }
+.gv-nome{ display:grid; font-size:14px; overflow-wrap:anywhere; } .gv-nome small{ color:var(--c-testo-2); font-size:12px; }
+.gv-scala{ position:relative; height:10px; border-radius:5px; background:linear-gradient(90deg,var(--c-favorevole-tenue),var(--c-attenzione-tenue),var(--c-alto-tenue)); }
+.gv-punto{ position:absolute; top:50%; width:16px; height:16px; margin:-8px 0 0 -8px; border-radius:50%; border:2px solid var(--c-superficie); background:var(--c-neutro); }
+.gv-punto.alto{ background:var(--c-favorevole); } .gv-punto.medio{ background:var(--c-attenzione); } .gv-punto.basso{ background:var(--c-alto); }
+.gv-val{ display:grid; font-variant-numeric:tabular-nums; } .gv-val small{ color:var(--c-testo-2); font-size:12px; }
+@media (max-width:700px){ .gv-ind li{ grid-template-columns:1fr; gap:4px; } .gv-scala{ margin:4px 8px; } }
