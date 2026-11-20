@@ -7,6 +7,7 @@ Uso:  python esporta_web.py
 """
 from __future__ import annotations
 
+import csv
 import json
 import re
 import subprocess
@@ -441,6 +442,22 @@ def governi() -> dict:
     # vista per legislatura (storia/script/legislature.py): stesse righe, testi propri
     if isinstance(pag.get("legislature"), dict):
         pag["legislature"] = {**pag["legislature"], "righe": righe(d / "legislature_confronto.csv")}
+    # pagina "Verifica un confronto": definizioni degli indicatori e serie annuali (Italia e vicini)
+    if isinstance(pag.get("verifica"), dict):
+        sys.path.insert(0, str(d / "script"))
+        import governi as G  # storia/script/governi.py: stesse serie e stesse regole del confronto
+        ind, serie = [], {}
+        for i in G.INDICATORI:
+            S = G.leggi_serie(i["file"])
+            segno = i.get("segno", 1)
+            paesi = ["IT"] + (G.VICINI if i["vicini"] else [])
+            serie[i["file"]] = {p_: [[a, round(segno * v, 3)] for a, v in sorted(S.get(p_, {}).items()) if a >= 1970] for p_ in paesi}
+            if i.get("germania_zero"):
+                serie[i["file"]]["DE"] = [[a, 0.0] for a, _ in serie[i["file"]]["IT"]]
+            with open(d / "serie" / f"{i['file']}.csv", encoding="utf-8") as f:
+                fonti = sorted({r["fonte"].strip() for r in csv.DictReader(f) if r["paese"] in paesi and "previsione" not in r["fonte"].lower()})
+            ind.append({k: i[k] for k in ("id", "nome", "file", "tipo", "verso", "ambito", "unita", "vicini")} | {"fonte": "; ".join(fonti)})
+        pag["verifica"] = {**pag["verifica"], "ind": ind, "serie": serie, "primo": G.PRIMO_ANNO, "ultimo": G.ULTIMO_ANNO}
     return {**pag, "righe": righe(d / "governi_confronto.csv")}
 
 

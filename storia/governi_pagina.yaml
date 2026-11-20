@@ -30,3 +30,19 @@ legislature:
     - "Gli anni della XVIII comprendono la caduta e il rimbalzo della pandemia; quelli della XVI la crisi finanziaria e quella dei debiti sovrani."
     - "Il confronto con i vicini toglie gli shock comuni, non quelli che colpiscono l'Italia più degli altri. Nessun numero qui dimostra una causa."
     - "Per la società i dati partono dal 2002 per l'emigrazione e dal 2005 per la povertà assoluta, che cambia metodo nel 2014: il confronto vale dalla XIV legislatura in poi e su pochi casi."
+# Pagina "Verifica un confronto" (20/11/2026): stessi dati di Governi a confronto, letti con cinque domande.
+verifica:
+  in_breve: "Hai sentito dire che un governo o una legislatura ha fatto meglio o peggio di un altro? Scegli chi e su quale indicatore: la pagina ti mostra lo stesso dato letto in cinque modi diversi e ti dice se le letture vanno nella stessa direzione o si contraddicono."
+  perche: "Nei dibattiti sui governi quasi nessuno inventa i numeri: si scelgono, senza dirlo, il modo di leggerli. Numero assoluto o confronto con gli altri Paesi, quali anni contare, livello o variazione, quale indicatore citare. Con scelte diverse lo stesso dato vero sostiene conclusioni opposte, e chi ascolta non ha modo di capire chi ha ragione."
+  come: "Per ogni governo dal 1979 e ogni legislatura dalla VIII, e per ciascuno dei 14 indicatori, la pagina mette fianco a fianco le letture possibili: il solo dato italiano e il confronto con la media di Francia, Germania e Spagna; gli anni del mandato e quelli spostati di uno; il livello raggiunto e la variazione; gli altri indicatori dello stesso periodo; la fonte ufficiale. Se le letture finiscono in terzi opposti della classifica, la pagina lo segnala."
+  cosa: "Un controllo in tre passi: scegli chi confrontare e su che cosa, leggi le cinque risposte, copia la frase che dice il dato in modo completo. Un esempio: nella XVI legislatura (2008-2013) il debito è salito di 22,4 punti di PIL, ma nei Paesi vicini di 32,1. Detto in assoluto è uno dei risultati peggiori; detto rispetto ai vicini è il secondo migliore. Entrambe le frasi sono vere: la pagina le mostra insieme."
+  chi: "È pensata per chi ascolta un dibattito, legge un articolo o vuole controllare un post prima di condividerlo. Non dà ragione a nessuno: gli stessi dati, le stesse regole e gli stessi limiti valgono per tutti i governi e tutte le legislature, indicati per date e senza nomi di persone o di partiti."
+  oceano_blu:
+    eliminare: "La disputa su chi ha i numeri giusti: i numeri sono gli stessi per tutti, cambia solo come si leggono."
+    ridurre: "Il peso della lettura più comoda: nessun dato compare senza le letture alternative."
+    aumentare: "La trasparenza delle scelte: anni, confronto e fonte sono sempre scritti accanto al numero."
+    creare: "Una frase pronta da usare che dice il dato in modo completo, da copiare e condividere."
+  limiti:
+    - "Valgono gli stessi limiti del confronto tra governi: molti governi hanno solo uno o due anni di dati e il confronto con i vicini non toglie gli shock che colpiscono solo l'Italia."
+    - "La pagina controlla i numeri, non le cause: dire che un risultato è merito o colpa di un governo richiede un'analisi in più."
+    - "Gli indicatori sono 14: un'affermazione su un dato che qui non c'è non si può verificare con questa pagina."

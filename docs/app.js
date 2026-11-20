@@ -994,6 +994,7 @@
       <p class="risposta">${esc(T.in_breve || "")}</p>
       ${LG ? `<div class="segmenti" role="group" aria-label="Unità di confronto"><a class="btn s ${leg ? "" : "primario"}" href="#/dati/governi${ver === "spostata" ? "?v=spostata" : ""}">Per governo</a><a class="btn s ${leg ? "primario" : ""}" href="#/dati/governi?per=legislatura${ver === "spostata" ? "&v=spostata" : ""}">Per legislatura</a></div>` : ""}
       <div class="segmenti" role="group" aria-label="Versione"><a class="btn s ${ver === "base" ? "primario" : ""}" href="#/dati/governi?g=${esc(sel)}${qp}">Anni ${leg ? "della legislatura" : "del mandato"}</a><a class="btn s ${ver === "spostata" ? "primario" : ""}" href="#/dati/governi?g=${esc(sel)}&v=spostata${qp}">Anni spostati di uno (effetti in ritardo)</a></div>
+      <p class="nota">Hai sentito un confronto e non sai se è giusto? ${`<a href="#/dati/verifica?g=${esc(sel)}${qp}">Verificalo indicatore per indicatore</a>`}.</p>
       <section class="card blocco"><h2>${nome[2]}, ambito per ambito <small>posizione rispetto ai vicini, da 0 (${nome[3]}) a 100 (${nome[4]})</small></h2>
         <div class="tabella-scorre"><table class="tabella gv-mappa"><thead><tr><th>${nome[1]}</th><th>Anni contati</th>${AMBITI_GV.map(([, t]) => `<th class="num">${esc(t)}</th>`).join("")}</tr></thead>
         <tbody>${tutte.map(([u, g, sx, anni]) => `<tr class="${u === sel ? "gv-sel" : ""}"><td class="principale"><a href="#/dati/governi?g=${esc(u)}${qv}">${esc(g)}</a></td><td data-etichetta="Anni">${esc(anni || "")}</td>${AMBITI_GV.map(([a, t]) => `<td class="num gv-c ${classe(sx[a])}" data-etichetta="${esc(t)}">${sx[a] == null ? "—" : Math.round(sx[a])}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
@@ -1012,6 +1013,95 @@
       </section>
       ${(T.limiti || []).length ? `<div class="avviso"><div class="avviso-titolo">${icona("info")}Limiti da tenere presenti</div><ul>${T.limiti.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}
       <p class="nota">${leg ? `Tabelle complete e limiti: ${ext(repo + "/blob/main/storia/legislature_confronto.md", "rapporto per legislatura")} · ${ext(repo + "/blob/main/storia/governi_metodo.md", "metodo")} · ${ext(repo + "/blob/main/storia/script/legislature.py", "script")}.` : `Metodo, punto di partenza di ogni governo, shock esterni e decisioni del catalogo: ${ext(repo + "/blob/main/storia/governi_confronto.md", "rapporto completo")} · ${ext(repo + "/blob/main/storia/governi_metodo.md", "metodo")} · ${ext(repo + "/blob/main/storia/script/governi.py", "script")}.`}</p>`;
+  }
+
+  // ---------- Verifica un confronto (stessi dati di Governi a confronto) ----------
+  function verificaVista(params) {
+    const VF = GV.verifica || {};
+    if (!GV.righe.length || !VF.ind) return `${schedeDati("verifica")}${vuoto("Verifica non ancora disponibile.")}`;
+    const leg = params.get("per") === "legislatura" && GV.legislature && (GV.legislature.righe || []).length;
+    const tutte = leg ? GV.legislature.righe : GV.righe;
+    const base = tutte.filter((r) => r.v === "base"), rit = tutte.filter((r) => r.v === "ritardo_1_anno");
+    const unita = [...new Map(base.map((r) => [r.u, r.g])).entries()];
+    const u = unita.some(([x]) => x === params.get("g")) ? params.get("g") : unita[unita.length - 1][0];
+    const I = VF.ind.find((x) => x.id === params.get("i")) || VF.ind.find((x) => x.id === "debito") || VF.ind[0];
+    const rb = base.find((r) => r.u === u && r.ind === I.nome) || {}, rr = rit.find((r) => r.u === u && r.ind === I.nome) || {};
+    const nomeU = (unita.find(([x]) => x === u) || [])[1] || "";
+    const parola = leg ? "legislature" : "governi";
+    const descr = I.verso === 0;
+    const fmt = (x, um = I.unita) => x == null ? "n.d." : `${nf(x, Math.abs(x) >= 100 ? 0 : 1)}${um === "% del PIL" ? "% del PIL" : um.startsWith("%") ? "%" : um.startsWith("punti di PIL") ? " punti di PIL" : um === "punti" ? " punti" : um === "punti base" ? " punti base" : um === "migliaia" ? " mila" : ""}`;
+    const maiu = (t) => t.charAt(0).toUpperCase() + t.slice(1);
+    // il livello si misura in % (debito, occupazione...), la variazione in punti
+    const fmtLiv = (x) => fmt(x, I.tipo === "variazione" && (I.unita === "punti" || I.unita.startsWith("punti di PIL")) ? (I.unita === "punti" ? "%" : "% del PIL") : I.unita);
+    const segnato = (x) => x == null ? "n.d." : (x > 0 ? "+" : "") + fmt(x);
+    const posiz = (k, n) => n > 1 ? (n - k) / (n - 1) * 100 : 100;
+    const terzo = (x) => x == null ? "" : x >= 66.7 ? "nel primo terzo" : x >= 33.3 ? "nel terzo centrale" : "nell'ultimo terzo";
+    const classe = (x) => x == null ? "nd" : x >= 66.7 ? "alto" : x >= 33.3 ? "medio" : "basso";
+    // 1. assoluto: posto del solo dato italiano tra tutte le unità
+    const conIt = base.filter((r) => r.ind === I.nome && r.it != null);
+    const rkIt = rb.it == null || descr ? null : [1 + conIt.filter((r) => I.verso > 0 ? r.it > rb.it + 1e-9 : r.it < rb.it - 1e-9).length, conIt.length];
+    const pAbs = rkIt ? posiz(...rkIt) : null;
+    const pRel = !descr && I.vicini && rb.rango ? posiz(rb.rango, rb.n) : null;
+    const pRit = !descr && rr.rango ? posiz(rr.rango, rr.n) : null;
+    // 3. livello: valori dell'anno di partenza e dell'ultimo anno
+    const S = (VF.serie || {})[I.file] || {};
+    const val = (p, a) => { const x = (S[p] || []).find((q) => q[0] === a); return x ? x[1] : null; };
+    const [a0, a1x] = String(rb.anni || "").split("-").map(Number); const a1 = a1x || a0;
+    const vic = (a) => { const v = ["FR", "DE", "ES"].map((p) => val(p, a)).filter((x) => x != null); return I.vicini && v.length >= 2 ? v.reduce((x, y) => x + y, 0) / v.length : null; };
+    const storiaIt = (S.IT || []).filter((q) => q[0] >= VF.primo && q[0] <= VF.ultimo);
+    const fineIt = val("IT", a1);
+    const rkLiv = fineIt == null ? null : 1 + storiaIt.filter((q) => q[1] > fineIt + 1e-9).length;
+    const livTxt = rkLiv == null ? "" : rkLiv === 1 ? `il valore più alto dal ${VF.primo}` : rkLiv === storiaIt.length ? `il valore più basso dal ${VF.primo}` : `il ${rkLiv}° valore più alto su ${storiaIt.length} anni dal ${VF.primo}`;
+    // 4. gli altri indicatori della stessa unità
+    const altri = base.filter((r) => r.u === u && r.ind !== I.nome && r.rango && r.n && !String(r.verso).startsWith("descrittivo"))
+      .map((r) => [r, posiz(r.rango, r.n)]).sort((x, y) => y[1] - x[1]);
+    const lista = (xs) => xs.map(([r]) => `<li><a href="#/dati/verifica?g=${esc(u)}&i=${esc((VF.ind.find((q) => q.nome === r.ind) || {}).id || "")}${leg ? "&per=legislatura" : ""}">${esc(r.ind)}</a>: ${r.rango}° su ${r.n}</li>`).join("");
+    // verdetto: le tre letture vanno nella stessa direzione?
+    const letture = [["in assoluto", pAbs], ["rispetto ai vicini", pRel], ["con gli anni spostati", pRit]].filter(([, x]) => x != null);
+    const xs = letture.map(([, x]) => x);
+    const opposte = xs.length > 1 && Math.max(...xs) - Math.min(...xs) >= 50;
+    const concordi = xs.length > 1 && new Set(xs.map(classe)).size === 1;
+    const verdetto = descr ? `<div class="avviso info"><p><strong>Indicatore descrittivo.</strong> Per ${esc(I.nome.toLowerCase())} salire o scendere non è in sé meglio o peggio: chi lo presenta come un successo o un fallimento sta aggiungendo un giudizio, non un dato.</p></div>`
+      : opposte ? `<div class="avviso attenzione" role="status"><p><strong>Attenzione: questi numeri si prestano a letture opposte.</strong> ${maiu(letture.map(([t, x]) => `${t} ${terzo(x)}`).join("; "))}. Chi cita solo una lettura può dire una cosa vera e dare un'idea sbagliata.</p></div>`
+      : concordi ? `<div class="avviso favorevole" role="status"><p><strong>Le letture vanno nella stessa direzione:</strong> ${letture.map(([t]) => t).join(", ")}, sempre ${terzo(xs[0])}. Qui è difficile che due persone oneste arrivino a conclusioni opposte.</p></div>`
+      : `<div class="avviso info" role="status"><p><strong>Letture in parte diverse:</strong> ${letture.map(([t, x]) => `${t} ${terzo(x)}`).join("; ")}. Conta dire quale lettura si usa.</p></div>`;
+    const frase = `${nomeU}, ${I.nome.toLowerCase()} (anni ${rb.anni || "n.d."}): Italia ${fmt(rb.it)}${rb.vic != null ? `, media di Francia, Germania e Spagna ${fmt(rb.vic)}` : ""}.${rkIt ? ` In assoluto è ${rkIt[0]}° su ${rkIt[1]} ${parola}` : ""}${pRel != null ? `; rispetto ai vicini ${rb.rango}° su ${rb.n}` : ""}${pRit != null ? `; con gli anni spostati di uno ${rr.rango}° su ${rr.n}` : ""}${rkIt || pRel != null ? "." : ""} Fonte: ${I.fonte}.`;
+    const opz = (xs, cur) => xs.map(([v, t]) => `<option value="${esc(v)}" ${v === cur ? "selected" : ""}>${esc(t)}</option>`).join("");
+    const carta = (n, t, corpo) => `<div class="card vf-carta"><p class="vf-n">${n}</p><h3>${t}</h3>${corpo}</div>`;
+    return `${schedeDati("verifica")}
+      <p class="risposta">${esc(VF.in_breve || "")}</p>
+      <div class="card vf-scelte">
+        <label class="campo">Che cosa confronti<select id="vf-per">${opz([["governo", "Governi"], ["legislatura", "Legislature"]], leg ? "legislatura" : "governo")}</select></label>
+        <label class="campo">${leg ? "Legislatura" : "Governo"}<select id="vf-g">${opz(unita, u)}</select></label>
+        <label class="campo">Indicatore<select id="vf-i">${opz(VF.ind.map((x) => [x.id, x.nome]), I.id)}</select></label>
+      </div>
+      ${verdetto}
+      <div class="vf-carte">
+        ${carta(1, "Assoluto o confrontato?", `<p><strong>Solo Italia:</strong> ${fmt(rb.it)} ${I.tipo === "media" ? "di media negli anni contati" : `di variazione dal ${a0 - 1} al ${a1}`}${rkIt ? `, ${rkIt[0]}° su ${rkIt[1]} ${parola}` : ""}.</p>
+          <p><strong>Rispetto ai vicini:</strong> ${I.vicini ? `media di Francia, Germania e Spagna ${fmt(rb.vic)}, differenza ${segnato(rb.diff)}${rb.rango ? `, ${rb.rango}° su ${rb.n}${descr ? " (1° = calo maggiore, non un giudizio)" : ""}` : ""}.` : "per questo indicatore non esiste un confronto omogeneo con gli altri Paesi."}</p>`)}
+        ${carta(2, "Quali anni?", `<p><strong>Anni ${leg ? "della legislatura" : "del mandato"} (${esc(rb.anni || "n.d.")}):</strong> ${rb.rango ? `${rb.rango}° su ${rb.n}` : fmt(rb.it)}.</p>
+          <p><strong>Spostati di uno (${esc(rr.anni || "n.d.")}):</strong> ${rr.rango ? `${rr.rango}° su ${rr.n}` : fmt(rr.it)}. Le misure agiscono spesso in ritardo: se le due righe sono molto diverse, chi cita una sola versione sceglie anche il risultato.</p>`)}
+        ${carta(3, "Livello o variazione?", fineIt == null ? `<p>Serie annuale non disponibile per questi anni.</p>` : `<p><strong>Livello italiano:</strong> ${fmtLiv(val("IT", a0 - 1))} nel ${a0 - 1}, ${fmtLiv(fineIt)} nel ${a1}${vic(a1) != null ? ` (vicini ${fmtLiv(vic(a1))})` : ""}.</p>
+          <p>Nel ${a1} era ${livTxt}. «Record» parla del livello, «è migliorato» della variazione: possono essere veri o falsi in modo indipendente.</p>`)}
+        ${carta(4, "Che cosa resta fuori?", altri.length ? `<p>Gli altri indicatori dello stesso ${leg ? "periodo" : "governo"}, rispetto ai vicini:</p><p class="vf-sotto">Migliori</p><ul>${lista(altri.slice(0, 2))}</ul><p class="vf-sotto">Peggiori</p><ul>${lista(altri.slice(-2).reverse())}</ul>` : "<p>Nessun altro indicatore disponibile.</p>")}
+        ${carta(5, "Qual è la fonte?", `<p>${esc(I.fonte)}.</p><p>${ext(repo + "/blob/main/storia/serie/" + I.file + ".csv", "Serie annuale completa")} · ${ext(repo + "/blob/main/storia/governi_metodo.md", "metodo")}</p>`)}
+      </div>
+      <section class="blocco"><h2>Come dirlo correttamente</h2>
+        <p class="card vf-frase" id="vf-frase">${esc(maiu(frase))}</p>
+        <div class="azioni"><button class="btn s" type="button" id="vf-copia">${icona("copy")}Copia la frase</button><a class="btn s" href="#/dati/governi?g=${esc(u)}${leg ? "&per=legislatura" : ""}">Tutti gli indicatori di questo ${leg ? "periodo" : "governo"}</a></div>
+      </section>
+      <section class="blocco"><h2>La lettura ragionata</h2>
+        <div class="quattro">${Q4.map(([k, t, ic]) => `<div class="card q4"><p class="q4-t">${icona(ic)}${t}</p><p>${esc(VF[k] || "")}</p></div>`).join("")}</div>
+        ${VF.oceano_blu ? `<h3 class="q4-sotto">Perché questa verifica è diversa <small>griglia della strategia oceano blu</small></h3>${grigliaErrc(VF.oceano_blu, "Elimina, riduce, aumenta, crea")}` : ""}
+      </section>
+      ${(VF.limiti || []).length ? `<div class="avviso"><div class="avviso-titolo">${icona("info")}Limiti da tenere presenti</div><ul>${VF.limiti.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}`;
+  }
+  function montaVerifica() {
+    const vai = (k, v) => { const q = new URLSearchParams(location.hash.split("?")[1] || ""); q.set(k, v); if (k === "per") q.delete("g"); location.hash = "#/dati/verifica?" + q.toString(); };
+    $("#vf-per").addEventListener("change", (e) => vai("per", e.target.value));
+    $("#vf-g").addEventListener("change", (e) => vai("g", e.target.value));
+    $("#vf-i").addEventListener("change", (e) => vai("i", e.target.value));
+    $("#vf-copia").addEventListener("click", async (e) => { try { await navigator.clipboard.writeText($("#vf-frase").textContent); e.currentTarget.lastChild.textContent = "Frase copiata"; } catch (err) { /* appunti non disponibili */ } });
   }
 
   const ORIZZ = ["breve", "medio", "lungo"];
@@ -1491,7 +1581,7 @@
 
   // ---------- Dati ----------
   const GRUPPI = [["Prezzi e conti pubblici", ["inflazione", "debito_trimestrale", "debito_annuo", "deficit_annuo", "interessi", "spread", "rendimento_btp"]], ["Lavoro e giovani", ["disoccupazione", "disoccupazione_giovani", "neet"]], ["Crescita", ["pil_trimestrale", "produzione_industriale", "fiducia_consumatori"]], ["Società", ["fecondita"]]];
-  const schedeDati = (k) => `<h1>Dati</h1>${schede([["indicatori", "Indicatori", "#/dati", (D.indicatori || []).length], ["allerte", "Allerte", "#/dati/allerte", ALLERTE.length], ["obiettivi", "Obiettivi e risultati", "#/dati/obiettivi", (D.obiettivi || []).length], ["diario", "Diario quotidiano", "#/dati/diario"], ["storia", "50 anni di scelte", "#/dati/storia"], ["governi", "Governi a confronto", "#/dati/governi"]], k)}`;
+  const schedeDati = (k) => `<h1>Dati</h1>${schede([["indicatori", "Indicatori", "#/dati", (D.indicatori || []).length], ["allerte", "Allerte", "#/dati/allerte", ALLERTE.length], ["obiettivi", "Obiettivi e risultati", "#/dati/obiettivi", (D.obiettivi || []).length], ["diario", "Diario quotidiano", "#/dati/diario"], ["storia", "50 anni di scelte", "#/dati/storia"], ["governi", "Governi a confronto", "#/dati/governi"], ["verifica", "Verifica un confronto", "#/dati/verifica"]], k)}`;
   function datiVista() {
     const ok = (D.indicatori || []).filter((i) => i.stato === "ok");
     const salgono = ALLERTE.map((r) => nomeInd(r.ind).split(" (")[0].toLowerCase()).filter((x, i, a) => x && a.indexOf(x) === i);
@@ -1752,6 +1842,7 @@
       else if (b === "diario") { html = diario(c); titolo = "Diario quotidiano"; }
       else if (b === "storia") { html = storiaVista(params); titolo = "50 anni di scelte"; }
       else if (b === "governi") { html = governiVista(params); titolo = "Governi a confronto"; }
+      else if (b === "verifica") { html = verificaVista(params); titolo = "Verifica un confronto"; }
       else { html = datiVista(); titolo = "Dati"; }
     } else if (a === "controlli") {
       if (b === "europa") { html = europaVista(c, params); titolo = "Europa"; }
@@ -1776,6 +1867,7 @@
     if ($("#c-corpo")) { const filtra = () => { const t = $("#c-cerca").value.toLowerCase(), f = $("#c-fondo").value, l = $("#c-livello").value; $$("#c-corpo tr").forEach((tr) => { tr.hidden = (t && !tr.dataset.testo.includes(t)) || (f && tr.dataset.fondo !== f) || (l && tr.dataset.livello !== l); }); }; ["#c-cerca", "#c-fondo", "#c-livello"].forEach((s) => $(s).addEventListener("input", filtra)); }
     if ($("#pp-app")) montaProponi();
     if ($("#st-dec")) montaStoria();
+    if ($("#vf-per")) montaVerifica();
     if ($("#gv-sel")) $("#gv-sel").addEventListener("change", (e) => { const q = new URLSearchParams(location.hash.split("?")[1] || ""); q.set("g", e.target.value); location.hash = "#/dati/governi?" + q.toString(); });
     if ($("#classifica")) { $$("input[type=range]", main).forEach((el) => el.addEventListener("input", aggiornaClassifica)); aggiornaClassifica(); }
     if ($("#q")) { $("#q").addEventListener("input", aggiornaRicerca); aggiornaRicerca(); $("#q").focus(); }
