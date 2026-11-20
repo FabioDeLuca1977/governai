@@ -968,7 +968,7 @@
 
   // ---------- Governi a confronto (storia/governi_confronto.csv) ----------
   const GV = D.governi || { righe: [] };
-  const AMBITI_GV = [["conti", "Conti pubblici"], ["crescita", "Crescita"], ["lavoro", "Lavoro"], ["prezzi e mercati", "Prezzi e mercati"], ["società", "Società"]];
+  const AMBITI_GV = [["conti", "Conti pubblici"], ["crescita", "Crescita"], ["lavoro", "Lavoro"], ["qualità del lavoro", "Qualità del lavoro"], ["prezzi e mercati", "Prezzi e mercati"], ["società", "Società"]];
   const conVerso = (r) => r.rango != null && r.n && !String(r.verso).startsWith("descrittivo");
   const pos = (r) => r.n > 1 ? (r.n - r.rango) / (r.n - 1) * 100 : 100;
   function mediana(a) { const b = a.slice().sort((x, y) => x - y); const m = Math.floor(b.length / 2); return b.length ? (b.length % 2 ? b[m] : (b[m - 1] + b[m]) / 2) : null; }
@@ -1013,6 +1013,15 @@
         <div class="quattro">${Q4.map(([k, t, ic]) => `<div class="card q4"><p class="q4-t">${icona(ic)}${t}</p><p>${codici(esc(T[k] || ""))}</p></div>`).join("")}</div>
         ${GV.oceano_blu ? `<h3 class="q4-sotto">Perché questo confronto è diverso <small>griglia della strategia oceano blu</small></h3>${grigliaErrc(GV.oceano_blu, "Elimina, riduce, aumenta, crea")}` : ""}
       </section>
+
+      ${(GV.verifica || {}).ind ? `<section class="blocco" id="dati-usati"><h2>I dati usati <small>${GV.verifica.ind.length} indicatori, gli stessi per tutti</small></h2>
+        <p class="nota">Ogni indicatore è una serie ufficiale scaricata con uno script ripetibile. «Media» vuol dire media degli anni contati; «variazione» vuol dire differenza tra l'anno prima dell'inizio e l'ultimo anno contato. Il confronto è sempre con la media di Francia, Germania e Spagna, tranne dove è indicato.</p>
+        <div class="tabella-scorre"><table class="tabella gv-dati"><thead><tr><th>Indicatore</th><th>Che cosa misura</th><th>Come si conta</th><th>Fonte e anni</th></tr></thead>
+        <tbody>${GV.verifica.ind.map((x) => `<tr><td class="principale" data-etichetta="Indicatore"><a href="#/dati/verifica?i=${esc(x.id)}${leg ? "&per=legislatura" : ""}">${esc(x.nome)}</a><small>${esc(x.ambito)}</small></td>
+          <td data-etichetta="Che cosa misura">${esc(x.descr || "")}</td>
+          <td data-etichetta="Come si conta">${x.tipo === "media" ? "media" : "variazione"}; ${x.verso === 1 ? "più alto è meglio" : x.verso === -1 ? "più basso è meglio" : "solo descrittivo"}${x.vicini ? "" : "; solo dato italiano"}</td>
+          <td data-etichetta="Fonte e anni">${x.url && x.url.startsWith("http") ? ext(x.url.split(" ; ")[0], x.fonte) : esc(x.fonte)}<small>${esc(x.anni_dati || "")}</small><small>${ext(repo + "/blob/main/storia/serie/" + x.file + ".csv", "serie scaricata")}</small></td></tr>`).join("")}</tbody></table></div>
+      </section>` : ""}
       ${(T.limiti || []).length ? `<div class="avviso"><div class="avviso-titolo">${icona("info")}Limiti da tenere presenti</div><ul>${T.limiti.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}
       <p class="nota">${leg ? `Tabelle complete e limiti: ${ext(repo + "/blob/main/storia/legislature_confronto.md", "rapporto per legislatura")} · ${ext(repo + "/blob/main/storia/governi_metodo.md", "metodo")} · ${ext(repo + "/blob/main/storia/script/legislature.py", "script")}.` : `Metodo, punto di partenza di ogni governo, shock esterni e decisioni del catalogo: ${ext(repo + "/blob/main/storia/governi_confronto.md", "rapporto completo")} · ${ext(repo + "/blob/main/storia/governi_metodo.md", "metodo")} · ${ext(repo + "/blob/main/storia/script/governi.py", "script")}.`}</p>`;
   }
@@ -1086,7 +1095,7 @@
         ${carta(3, "Livello o variazione?", fineIt == null ? `<p>Serie annuale non disponibile per questi anni.</p>` : `<p><strong>Livello italiano:</strong> ${fmtLiv(val("IT", a0 - 1))} nel ${a0 - 1}, ${fmtLiv(fineIt)} nel ${a1}${vic(a1) != null ? ` (vicini ${fmtLiv(vic(a1))})` : ""}.</p>
           <p>Nel ${a1} era ${livTxt}. «Record» parla del livello, «è migliorato» della variazione: possono essere veri o falsi in modo indipendente.</p>`)}
         ${carta(4, "Che cosa resta fuori?", altri.length ? `<p>Gli altri indicatori dello stesso ${leg ? "periodo" : "governo"}, rispetto ai vicini:</p><p class="vf-sotto">Migliori</p><ul>${lista(altri.slice(0, 2))}</ul><p class="vf-sotto">Peggiori</p><ul>${lista(altri.slice(-2).reverse())}</ul>` : "<p>Nessun altro indicatore disponibile.</p>")}
-        ${carta(5, "Qual è la fonte?", `<p>${esc(I.fonte)}.</p><p>${ext(repo + "/blob/main/storia/serie/" + I.file + ".csv", "Serie annuale completa")} · ${ext(repo + "/blob/main/storia/governi_metodo.md", "metodo")}</p>`)}
+        ${carta(5, "Qual è la fonte?", `<p>${esc(I.fonte)}${I.anni_dati ? ` (${esc(I.anni_dati)})` : ""}.</p>${I.descr ? `<p><strong>Che cosa misura:</strong> ${esc(I.descr)}.</p>` : ""}<p>${ext(repo + "/blob/main/storia/serie/" + I.file + ".csv", "Serie annuale completa")} · ${ext(repo + "/blob/main/storia/governi_metodo.md", "metodo")}</p>`)}
       </div>
       <section class="blocco"><h2>Come dirlo correttamente</h2>
         <p class="card vf-frase" id="vf-frase">${esc(maiu(frase))}</p>

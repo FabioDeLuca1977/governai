@@ -45,6 +45,10 @@ INDICATORI = [
          tipo="variazione", verso=+1, ambito="lavoro", unita="punti", vicini=True),
     dict(id="disocc_giovanile", nome="Variazione della disoccupazione giovanile 15-24", file="disoccupazione_giovanile",
          tipo="variazione", verso=-1, ambito="lavoro", unita="punti", vicini=True),
+    dict(id="tempo_determinato", nome="Variazione della quota di dipendenti a tempo determinato", file="dipendenti_tempo_determinato",
+         tipo="variazione", verso=-1, ambito="qualità del lavoro", unita="punti", vicini=True),
+    dict(id="part_time_involontario", nome="Variazione del part-time involontario", file="part_time_involontario",
+         tipo="variazione", verso=-1, ambito="qualità del lavoro", unita="punti", vicini=True),
     dict(id="debito", nome="Variazione del debito pubblico", file="debito_pil",
          tipo="variazione", verso=-1, ambito="conti", unita="punti di PIL", vicini=True),
     dict(id="saldo_primario", nome="Saldo primario medio", file="saldo_primario_pil",
@@ -62,7 +66,7 @@ INDICATORI = [
     dict(id="emigrazione", nome="Emigrazione media annua di cittadini italiani", file="emigrazione_cittadini",
          tipo="media", verso=-1, ambito="società", unita="migliaia", vicini=False),
 ]
-AMBITI = ["conti", "crescita", "lavoro", "prezzi e mercati", "società"]
+AMBITI = ["conti", "crescita", "lavoro", "qualità del lavoro", "prezzi e mercati", "società"]
 
 # Shock esterni (anni) usati come contesto, non come correzione dei numeri.
 SHOCK = [

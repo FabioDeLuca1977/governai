@@ -44,6 +44,8 @@ Questo documento descrive come `storia/script/governi.py` confronta il governo i
 | lavoro | Variazione del tasso di occupazione 15-64 | `occupazione_15_64` (OCSE) | fine meno anno prima | più alto è meglio |
 | lavoro | Variazione dell'occupazione femminile 15-64 | `occupazione_femminile_15_64` (OCSE) | fine meno anno prima | più alto è meglio |
 | lavoro | Variazione della disoccupazione giovanile 15-24 | `disoccupazione_giovanile` (OCSE) | fine meno anno prima | più basso è meglio |
+| qualità del lavoro | Variazione della quota di dipendenti a tempo determinato | `dipendenti_tempo_determinato` (Eurostat lfsa_etgar, dal 1983; Spagna dal 1987) | fine meno anno prima | più basso è meglio |
+| qualità del lavoro | Variazione del part-time involontario | `part_time_involontario` (Eurostat lfsa_eppgai, % degli occupati part-time; Francia dal 1992) | fine meno anno prima | più basso è meglio |
 | prezzi e mercati | Spread medio con la Germania | `spread_bund` (AMECO) | media degli anni | più basso è meglio |
 | prezzi e mercati | Inflazione media | `inflazione` (AMECO) | media degli anni | più basso è meglio |
 | società | Variazione della povertà assoluta (persone) | `poverta_assoluta` (ISTAT, dal 2005) | fine meno anno prima | più basso è meglio |
@@ -55,6 +57,7 @@ Scelte:
 - **Pressione fiscale.** Si usa la serie OCSE perché copre tutti i governi dal 1979 in modo omogeneo; il rapporto riporta come controllo la serie AMECO per il governo in carica (che arriva al 2025). Non si dà un verso: un aumento o un calo non è in sé un risultato migliore o peggiore. Il rango ordina dal calo maggiore all'aumento maggiore rispetto ai vicini ed è escluso dalla sintesi per ambito.
 - **Investimenti pubblici** sono nell'ambito crescita perché misurano l'accumulazione di capitale pubblico, non la disciplina dei conti.
 - **Povertà assoluta.** La serie ISTAT cambia metodo nel 2014: una variazione che attraversa il passaggio 2013/2014 non è calcolata (governo 2014-2016).
+- **Qualità del lavoro (aggiunta il 20/11/2026).** Il tasso di occupazione conta le persone, non il tipo di contratto. Per questo si confrontano anche la quota di dipendenti a tempo determinato e il part-time involontario (chi lavora a tempo parziale ma vorrebbe il tempo pieno). Un calo è considerato un miglioramento. È un ambito a parte, così il dato sulla quantità del lavoro e quello sulla qualità restano visibili separatamente. Nel 2021 l'indagine europea sulle forze di lavoro ha cambiato regolamento: piccola rottura di serie, non corretta. Salari reali e ore lavorate non sono ancora tra gli indicatori.
 - **Emigrazione.** I dati italiani (ISTAT, cancellazioni anagrafiche) e quelli degli altri paesi (Eurostat) hanno definizioni diverse e la base dati non contiene la popolazione per rapportarli: non si fa il confronto con i vicini. La serie cresce quasi ogni anno dal 2008, quindi il rango riflette in buona parte la tendenza.
 
 ## 4. Misura principale: rispetto ai vicini

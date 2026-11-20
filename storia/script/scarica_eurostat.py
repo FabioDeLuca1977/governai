@@ -46,6 +46,15 @@ def main():
     serie("laureati_25_34", "edat_lfse_03",
           {"sex": "T", "age": "Y25-34", "isced11": "ED5-8", "unit": "PC"},
           "Quota di persone 25-34 anni con istruzione terziaria (ISCED 5-8)", "% popolazione 25-34")
+    # Qualita' del lavoro (indagine sulle forze di lavoro; nel 2021 nuovo regolamento europeo: piccola rottura di serie)
+    serie("dipendenti_tempo_determinato", "lfsa_etgar",
+          {"unit": "PC_SAL", "reason": "TOTAL", "sex": "T", "age": "Y15-64"},
+          "Dipendenti con contratto a tempo determinato, % dei dipendenti 15-64 anni (indagine sulle forze di lavoro)",
+          "% dipendenti 15-64", geo=["IT", "FR", "DE", "ES"])
+    serie("part_time_involontario", "lfsa_eppgai",
+          {"unit": "PC", "sex": "T", "age": "Y15-64"},
+          "Part-time involontario: occupati a tempo parziale che vorrebbero un lavoro a tempo pieno, % degli occupati part-time 15-64",
+          "% occupati part-time 15-64", geo=["IT", "FR", "DE", "ES"])
     serie("spesa_pensioni_pil", "gov_10a_exp",
           {"unit": "PC_GDP", "sector": "S13", "cofog99": "GF1002", "na_item": "TE"},
           "Spesa pubblica per vecchiaia (COFOG 10.2, prevalentemente pensioni), % del PIL", "% PIL")

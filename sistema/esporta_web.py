@@ -447,6 +447,7 @@ def governi() -> dict:
         sys.path.insert(0, str(d / "script"))
         import governi as G  # storia/script/governi.py: stesse serie e stesse regole del confronto
         ind, serie = [], {}
+        reg = pd.read_csv(d / "serie" / "_registro.csv").set_index("nome")
         for i in G.INDICATORI:
             S = G.leggi_serie(i["file"])
             segno = i.get("segno", 1)
@@ -456,7 +457,10 @@ def governi() -> dict:
                 serie[i["file"]]["DE"] = [[a, 0.0] for a, _ in serie[i["file"]]["IT"]]
             with open(d / "serie" / f"{i['file']}.csv", encoding="utf-8") as f:
                 fonti = sorted({r["fonte"].strip() for r in csv.DictReader(f) if r["paese"] in paesi and "previsione" not in r["fonte"].lower()})
-            ind.append({k: i[k] for k in ("id", "nome", "file", "tipo", "verso", "ambito", "unita", "vicini")} | {"fonte": "; ".join(fonti)})
+            r = reg.loc[i["file"]] if i["file"] in reg.index else {}
+            ind.append({k: i[k] for k in ("id", "nome", "file", "tipo", "verso", "ambito", "unita", "vicini")}
+                       | {"fonte": "; ".join(fonti), "descr": str(r.get("descrizione", "")), "url": str(r.get("url", "")),
+                          "anni_dati": str(r.get("anni_disponibili", ""))})
         pag["verifica"] = {**pag["verifica"], "ind": ind, "serie": serie, "primo": G.PRIMO_ANNO, "ultimo": G.ULTIMO_ANNO}
     return {**pag, "righe": righe(d / "governi_confronto.csv")}
 

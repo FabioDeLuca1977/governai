@@ -883,3 +883,8 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 .gv-emerge li{ counter-increment:em; min-width:0; overflow-wrap:anywhere; }
 .gv-emerge li strong::before{ content:counter(em) ". "; color:var(--c-accento); }
 .gv-emerge li p{ margin:6px 0 0; }
+
+
+/* Governi a confronto: i dati usati */
+.gv-dati td small{ display:block; color:var(--c-testo-2); font-size:12px; margin-top:2px; }
+.gv-dati td{ overflow-wrap:anywhere; }
