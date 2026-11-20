@@ -1,9 +1,10 @@
 # Semestre europeo e regole di bilancio: l'Italia
 
-*Aggiornato al 19/11/2026. Fonti: CELLAR (atti e documenti UE), DG ECFIN della Commissione (cronologia della procedura per disavanzo eccessivo). Le frasi tra virgolette sono citazioni testuali degli atti. Generato da `europa/scarica_ue.py`: non modificare a mano.*
+*Aggiornato al 20/11/2026. Fonti: CELLAR (atti e documenti UE), DG ECFIN della Commissione (cronologia della procedura per disavanzo eccessivo). Le frasi tra virgolette sono citazioni testuali degli atti. Generato da `europa/scarica_ue.py`: non modificare a mano.*
 
 ## Novità degli ultimi 90 giorni
 
+- **09/11/2026** — [Raccomandazione del Consiglio, del 9 novembre 2026, che consente all’Italia di deviare rispetto ai tassi massimi di crescita della spesa netta stabiliti dal Consiglio a norma del regolamento (UE) 2024/1263 (Attivazione della clausola di salvaguardia nazionale)](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026H06151) (CELEX 32026H06151)
 - **08/10/2026** — [Raccomandazione di RACCOMANDAZIONE DEL CONSIGLIO che consente all'Italia di deviare rispetto ai tassi massimi di crescita della spesa netta stabiliti dal Consiglio a norma del regolamento (UE) 2024/1263 (Attivazione della clausola di salvaguardia nazionale)](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:52026DC0553) (CELEX 52026DC0553) — *documento della Commissione: produce effetti solo quando il Consiglio adotta l'atto*
 
 ## Procedura per disavanzo eccessivo
@@ -62,6 +63,7 @@ Scadenze ricorrenti fissate dai regolamenti (verificare sempre il testo vigente 
 
 | Data | Documento | CELEX |
 |---|---|---|
+| 09/11/2026 | [Raccomandazione del Consiglio, del 9 novembre 2026, che consente all’Italia di deviare rispetto ai tassi massimi di crescita della spesa netta stabiliti dal Consiglio a norma del r](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026H06151) | 32026H06151 |
 | 08/10/2026 | [Raccomandazione di RACCOMANDAZIONE DEL CONSIGLIO che consente all'Italia di deviare rispetto ai tassi massimi di crescita della spesa netta stabiliti dal Consiglio a norma del rego](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:52026DC0553) | 52026DC0553 |
 | 10/07/2026 | [Raccomandazione del Consiglio, del 10 luglio 2026, sulle politiche economiche, sociali, occupazionali, strutturali e di bilancio dell'Italia](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32026H03925) | 32026H03925 |
 | 03/06/2026 | [DOCUMENTO DI LAVORO DEI SERVIZI DELLA COMMISSIONE Relazione per paese 2026 - Italia che accompagna il documento Raccomandazione di RACCOMANDAZIONE DEL CONSIGLIO sulle politiche eco](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:52026SC0212) | 52026SC0212 |

@@ -1,61 +1,24 @@
 {
- "data": "2026-11-19T15:31:44",
+ "data": "2026-11-20T09:00:08",
  "prima_esecuzione": false,
  "eurostat_aggiornati": [
-  "sts_inpr_m"
+  "demo_pjan",
+  "demo_pjangroup",
+  "migr_pop1ctz",
+  "une_rt_m"
  ],
- "file_aggiornati": [],
+ "file_aggiornati": [
+  "https://www.agid.gov.it/sites/agid/files/2025-10/2025.10.08_CS_Rinnovo_convenzioni_Spid.pdf",
+  "https://www.camera.it/temiap/2026/07/16/OCD177-9133.pdf"
+ ],
  "documenti_nuovi": [
   {
-   "pagina": "UPB - Ufficio parlamentare di bilancio",
-   "aree": [
-    "00",
-    "01",
-    "02",
-    "06"
-   ],
-   "documento": "https://www.upbilancio.it/it/audizione-su-ulteriori-forme-e-condizioni-particolari-di-autonomia-alle-regioni-liguria-lombardia-piemonte-e-veneto/"
-  },
-  {
-   "pagina": "ISTAT - Home e comunicati",
-   "aree": [
-    "02",
-    "05",
-    "06"
-   ],
-   "documento": "https://www.istat.it/documenti/infografiche/"
-  },
-  {
    "pagina": "Corte dei conti",
    "aree": [
     "00",
     "04"
    ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=0dd38d52-61b8-4af0-a38f-f65956401d33"
-  },
-  {
-   "pagina": "Corte dei conti",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=4327760e-7062-42fd-b562-c8ea0d4180ce"
-  },
-  {
-   "pagina": "Corte dei conti",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=8544dd6a-fda8-4c12-b47b-f3414f8af08d"
-  },
-  {
-   "pagina": "Corte dei conti",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=cc9ee43e-1c08-4c32-95a8-80ab117f9cd9"
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=c339a042-a6af-46b0-a3bc-b2d0185e0c40"
   },
   {
    "pagina": "Gazzetta Ufficiale",
@@ -71,7 +34,7 @@
     "08",
     "09"
    ],
-   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/18/T-260195/s1"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-19&numeroGazzetta=134"
   },
   {
    "pagina": "Gazzetta Ufficiale",
@@ -87,7 +50,7 @@
     "08",
     "09"
    ],
-   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/18/T-260196/s1"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-19&numeroGazzetta=270"
   },
   {
    "pagina": "Gazzetta Ufficiale",
@@ -103,28 +66,17 @@
     "08",
     "09"
    ],
-   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/18/T-260202/s1"
-  },
-  {
-   "pagina": "Gazzetta Ufficiale",
-   "aree": [
-    "00",
-    "01",
-    "02",
-    "03",
-    "04",
-    "05",
-    "06",
-    "07",
-    "08",
-    "09"
-   ],
-   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/18/T-260203/s1"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-19&numeroGazzetta=91"
   }
  ],
  "errori": [],
  "script": {
-  "00c_congiuntura.py": "ok"
+  "00_macro.py": "ok",
+  "00c_congiuntura.py": "ok",
+  "03_ambiente.py": "ok",
+  "05_istruzione.py": "ok",
+  "07_giustizia.py": "ok",
+  "09_pa_digitale.py": "ok"
  },
  "serie_cambiate": [],
  "modalita": "mirato"
