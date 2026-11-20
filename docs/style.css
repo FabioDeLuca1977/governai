@@ -876,3 +876,10 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 .vf-sotto{ font-size:13px; color:var(--c-testo-2); text-transform:uppercase; letter-spacing:.04em; margin-top:10px !important; }
 .vf-frase{ font-size:15px; line-height:1.55; overflow-wrap:anywhere; }
 @media (max-width:700px){ .vf-scelte{ grid-template-columns:1fr; } }
+
+
+/* Governi a confronto: che cosa emerge */
+.gv-emerge{ list-style:none; counter-reset:em; padding:0; margin:12px 0; display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,19em),1fr)); gap:12px; }
+.gv-emerge li{ counter-increment:em; min-width:0; overflow-wrap:anywhere; }
+.gv-emerge li strong::before{ content:counter(em) ". "; color:var(--c-accento); }
+.gv-emerge li p{ margin:6px 0 0; }

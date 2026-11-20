@@ -16,6 +16,20 @@ oceano_blu:
   ridurre: "L'effetto degli shock esterni sul giudizio, confrontando sempre con i Paesi vicini."
   aumentare: "La memoria: 24 governi dal 1979 sugli stessi numeri, con il punto di partenza di ciascuno."
   creare: "Un confronto che chiunque può rifare: dati, script e metodo sono pubblici."
+# "Che cosa emerge" (20/11/2026): sintesi della tabella per ambito, versione con gli anni del mandato.
+emerge:
+  - titolo: "Il governo migliore in tutto non esiste"
+    testo: "Nessuno dei 24 governi è nel primo terzo in tutti gli ambiti: ognuno è forte su qualcosa e debole su altro. Chi dice che un governo è stato il migliore sta scegliendo quali ambiti contano di più."
+  - titolo: "Conta più l'epoca del governo"
+    testo: "I governi degli anni '80 sono tutti deboli sui conti, tra 0 e 30, e sui prezzi: è lì che si è formata gran parte del debito. Dal 1995 al 2013 sette governi su nove sono tra 65 e 96 sui conti. Dal 2001 al 2019 la crescita è debole per tutti, tra 13 e 52; dal 2020 i valori salgono, anche per il rimbalzo dopo la pandemia e i fondi europei. Molto dipende da fattori che durano più di un governo."
+  - titolo: "Conti e crescita spesso tirano in direzioni opposte"
+    testo: "Chi ha risanato di più è spesso cresciuto meno: il governo 2011-2013 è primo sui conti (96) e quasi ultimo sulla crescita (13), quello 2008-2011 è a 91 e 21. Mettere in ordine i conti in piena crisi ha avuto un costo in crescita: è una scelta con un prezzo, non in sé un merito o una colpa."
+  - titolo: "Molti posti valgono poco"
+    testo: "Diversi governi hanno un solo anno di dati, per esempio quelli del 1990, 1991, 1993, 1995, 2000 e 2012: il loro posto può cambiare molto con un anno in più o in meno. La versione con gli anni spostati di uno lo mostra."
+  - titolo: "Il governo in carica"
+    testo: "Il governo 2022-oggi, rispetto ai vicini, va bene su lavoro e prezzi (83), è a metà sui conti (52) e discreto sulla crescita (70), ma è 20° su 24 per produttività e ha l'emigrazione più alta tra gli 11 governi con il dato. Parte dei risultati viene da scelte precedenti, come il PNRR, o esterne, come la Banca centrale europea."
+  - titolo: "Il filo rosso di 45 anni"
+    testo: "L'Italia non ha un problema di singoli governi, ma due problemi che li attraversano tutti: un debito accumulato soprattutto negli anni '80 e una crescita più lenta dei vicini da circa 25 anni, legata alla produttività. Ogni governo si giudica meglio su quanto ha inciso su questi due problemi che sulla classifica."
 # Vista per legislatura (20/11/2026). Numeri da storia/legislature_confronto.csv e .md (script storia/script/legislature.py).
 legislature:
   in_breve: "Le 12 legislature dal 1979, dalla VIII alla XIX, confrontate sugli stessi 14 indicatori e con lo stesso metodo dei governi: conta quanto l'Italia ha fatto meglio o peggio di Francia, Germania e Spagna negli stessi anni. Nessun voto unico: una posizione per ambito."

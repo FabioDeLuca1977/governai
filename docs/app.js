@@ -1000,6 +1000,8 @@
         <tbody>${tutte.map(([u, g, sx, anni]) => `<tr class="${u === sel ? "gv-sel" : ""}"><td class="principale"><a href="#/dati/governi?g=${esc(u)}${qv}">${esc(g)}</a></td><td data-etichetta="Anni">${esc(anni || "")}</td>${AMBITI_GV.map(([a, t]) => `<td class="num gv-c ${classe(sx[a])}" data-etichetta="${esc(t)}">${sx[a] == null ? "—" : Math.round(sx[a])}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
         <p class="nota">Verde: primo terzo; giallo: terzo centrale; arancio: ultimo terzo. Ogni cella è la mediana delle posizioni degli indicatori dell'ambito; la pressione fiscale non entra, perché salire o scendere non è in sé meglio o peggio. Per la società il confronto usa solo il dato italiano.</p>
       </section>
+      ${((leg ? LG.emerge : GV.emerge) || []).length ? `<section class="blocco"><h2>Che cosa emerge <small>${leg ? "tra le legislature" : "tra i governi"}, anni ${leg ? "della legislatura" : "del mandato"}</small></h2>
+        <ol class="gv-emerge">${(leg ? LG.emerge : GV.emerge).map((x) => `<li class="card"><strong>${esc(x.titolo)}</strong><p>${esc(x.testo)}</p></li>`).join("")}</ol></section>` : ""}
       <section class="blocco"><h2>${esc(nomeSel)}, indicatore per indicatore</h2>
         <label class="vh" for="gv-sel">Scegli ${leg ? "la legislatura" : "il governo"}</label><select id="gv-sel" class="st-sel">${unita.map(([u, g]) => `<option value="${esc(u)}" ${u === sel ? "selected" : ""}>${esc(g)}</option>`).join("")}</select>
         <ul class="gv-ind">${righeSel.map((r) => `<li><span class="gv-nome">${esc(r.ind)}<small>${esc(r.amb)}</small></span>
