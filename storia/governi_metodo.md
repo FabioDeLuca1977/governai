@@ -96,3 +96,12 @@ Ogni decisione del catalogo è assegnata al governo dello stesso presidente del 
 6. Dati non omogenei tra paesi e nel tempo (Germania Ovest, Spagna prima del 1995, cambio di metodo della povertà, rischio di cambio nello spread prima del 1999).
 7. Indicatori limitati: non coprono qualità dei servizi, giustizia, ambiente, istruzione, sicurezza.
 8. Il verso "più basso è meglio" per deficit, debito, inflazione ed emigrazione è una convenzione, non sempre valida (un deficit alto in recessione può essere appropriato).
+
+## Vista per legislatura (20/11/2026)
+
+Lo stesso confronto si può leggere per legislatura (`storia/script/legislature.py`, risultati in
+`storia/legislature_confronto.csv` e `.md`). Cambia solo l'unità: una legislatura comprende i governi che
+`storia/governi.csv` le attribuisce, compresi quelli rimasti in carica per gli affari correnti dopo le elezioni;
+ogni anno solare va alla legislatura con più giorni di governo. La VII legislatura, iniziata prima del 1979, resta
+fuori perché ne entrerebbe solo la parte finale. Indicatori, confronto con i vicini, posti e versione con gli anni
+spostati di uno sono identici. Lo script va rilanciato a mano dopo `governi.py`.

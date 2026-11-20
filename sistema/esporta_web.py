@@ -426,16 +426,22 @@ def governi() -> dict:
     d = RADICE / "storia"
     if not (d / "governi_confronto.csv").exists():
         return {}
-    c = pd.read_csv(d / "governi_confronto.csv")
-    c = c[c.confrontabile.astype(str).str.lower().isin(["si", "sì", "true", "1"])]
-    righe = []
-    for r in c.itertuples():
-        righe.append({"u": r.unita_id, "g": r.governo_periodo, "v": r.versione, "anni": str(r.anni) if pd.notna(r.anni) else "",
-                      "amb": r.ambito, "ind": r.indicatore, "um": r.unita_misura, "verso": r.verso,
-                      "it": pulisci(r.valore_italia), "vic": pulisci(r.valore_vicini), "diff": pulisci(r.differenza),
-                      "rango": pulisci(r.rango), "n": pulisci(r.n_confrontati), "base": r.base_del_rango if pd.notna(r.base_del_rango) else ""})
+    def righe(f: Path) -> list:
+        if not f.exists():
+            return []
+        c = pd.read_csv(f)
+        c = c[c.confrontabile.astype(str).str.lower().isin(["si", "sì", "true", "1"])]
+        return [{"u": r.unita_id, "g": r.governo_periodo, "v": r.versione, "anni": str(r.anni) if pd.notna(r.anni) else "",
+                 "amb": r.ambito, "ind": r.indicatore, "um": r.unita_misura, "verso": r.verso,
+                 "it": pulisci(r.valore_italia), "vic": pulisci(r.valore_vicini), "diff": pulisci(r.differenza),
+                 "rango": pulisci(r.rango), "n": pulisci(r.n_confrontati), "base": r.base_del_rango if pd.notna(r.base_del_rango) else ""}
+                for r in c.itertuples()]
     pag = yaml.safe_load(leggi(d / "governi_pagina.yaml")) if (d / "governi_pagina.yaml").exists() else {}
-    return {**(pag or {}), "righe": righe}
+    pag = pag or {}
+    # vista per legislatura (storia/script/legislature.py): stesse righe, testi propri
+    if isinstance(pag.get("legislature"), dict):
+        pag["legislature"] = {**pag["legislature"], "righe": righe(d / "legislature_confronto.csv")}
+    return {**pag, "righe": righe(d / "governi_confronto.csv")}
 
 
 def main() -> int:

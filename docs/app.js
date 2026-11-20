@@ -975,7 +975,10 @@
   function governiVista(params) {
     if (!GV.righe.length) return `${schedeDati("governi")}${vuoto("Confronto non ancora disponibile.")}`;
     const ver = params.get("v") === "spostata" ? "spostata" : "base";
-    const R = GV.righe.filter((r) => r.v === (ver === "spostata" ? "ritardo_1_anno" : "base"));
+    const LG = GV.legislature && (GV.legislature.righe || []).length ? GV.legislature : null;
+    const leg = !!LG && params.get("per") === "legislatura";
+    const T = leg ? { ...GV, ...LG } : GV;   // testi della vista: per legislatura prendono quelli propri
+    const R = (leg ? LG.righe : GV.righe).filter((r) => r.v === (ver === "spostata" ? "ritardo_1_anno" : "base"));
     const unita = [...new Map(R.map((r) => [r.u, r.g])).entries()];
     const sel = unita.find(([u]) => u === params.get("g")) ? params.get("g") : unita[unita.length - 1][0];
     const nomeSel = (unita.find(([u]) => u === sel) || [])[1] || "";
@@ -984,28 +987,31 @@
     const classe = (x) => x == null ? "nd" : x >= 66.7 ? "alto" : x >= 33.3 ? "medio" : "basso";
     const righeSel = R.filter((r) => r.u === sel);
     const fmt = (x, um) => x == null ? "—" : `${nf(x, Math.abs(x) >= 100 ? 0 : 1)}${um && um.startsWith("%") ? "%" : um === "punti" ? " punti" : ""}`;
-    const qv = ver === "spostata" ? "&v=spostata" : "";
+    const qp = leg ? "&per=legislatura" : "";
+    const qv = (ver === "spostata" ? "&v=spostata" : "") + qp;
+    const nome = leg ? ["legislatura", "Legislatura", "Tutte le legislature", "ultima", "prima"] : ["governo", "Governo", "Tutti i governi", "ultimo", "primo"];
     return `${schedeDati("governi")}
-      <p class="risposta">${esc(GV.in_breve || "")}</p>
-      <div class="segmenti" role="group" aria-label="Versione"><a class="btn s ${ver === "base" ? "primario" : ""}" href="#/dati/governi?g=${esc(sel)}">Anni del mandato</a><a class="btn s ${ver === "spostata" ? "primario" : ""}" href="#/dati/governi?g=${esc(sel)}&v=spostata">Anni spostati di uno (effetti in ritardo)</a></div>
-      <section class="card blocco"><h2>Tutti i governi, ambito per ambito <small>posizione rispetto ai vicini, da 0 (ultimo) a 100 (primo)</small></h2>
-        <div class="tabella-scorre"><table class="tabella gv-mappa"><thead><tr><th>Governo</th><th>Anni contati</th>${AMBITI_GV.map(([, t]) => `<th class="num">${esc(t)}</th>`).join("")}</tr></thead>
+      <p class="risposta">${esc(T.in_breve || "")}</p>
+      ${LG ? `<div class="segmenti" role="group" aria-label="Unità di confronto"><a class="btn s ${leg ? "" : "primario"}" href="#/dati/governi${ver === "spostata" ? "?v=spostata" : ""}">Per governo</a><a class="btn s ${leg ? "primario" : ""}" href="#/dati/governi?per=legislatura${ver === "spostata" ? "&v=spostata" : ""}">Per legislatura</a></div>` : ""}
+      <div class="segmenti" role="group" aria-label="Versione"><a class="btn s ${ver === "base" ? "primario" : ""}" href="#/dati/governi?g=${esc(sel)}${qp}">Anni ${leg ? "della legislatura" : "del mandato"}</a><a class="btn s ${ver === "spostata" ? "primario" : ""}" href="#/dati/governi?g=${esc(sel)}&v=spostata${qp}">Anni spostati di uno (effetti in ritardo)</a></div>
+      <section class="card blocco"><h2>${nome[2]}, ambito per ambito <small>posizione rispetto ai vicini, da 0 (${nome[3]}) a 100 (${nome[4]})</small></h2>
+        <div class="tabella-scorre"><table class="tabella gv-mappa"><thead><tr><th>${nome[1]}</th><th>Anni contati</th>${AMBITI_GV.map(([, t]) => `<th class="num">${esc(t)}</th>`).join("")}</tr></thead>
         <tbody>${tutte.map(([u, g, sx, anni]) => `<tr class="${u === sel ? "gv-sel" : ""}"><td class="principale"><a href="#/dati/governi?g=${esc(u)}${qv}">${esc(g)}</a></td><td data-etichetta="Anni">${esc(anni || "")}</td>${AMBITI_GV.map(([a, t]) => `<td class="num gv-c ${classe(sx[a])}" data-etichetta="${esc(t)}">${sx[a] == null ? "—" : Math.round(sx[a])}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
         <p class="nota">Verde: primo terzo; giallo: terzo centrale; arancio: ultimo terzo. Ogni cella è la mediana delle posizioni degli indicatori dell'ambito; la pressione fiscale non entra, perché salire o scendere non è in sé meglio o peggio. Per la società il confronto usa solo il dato italiano.</p>
       </section>
       <section class="blocco"><h2>${esc(nomeSel)}, indicatore per indicatore</h2>
-        <label class="vh" for="gv-sel">Scegli il governo</label><select id="gv-sel" class="st-sel">${unita.map(([u, g]) => `<option value="${esc(u)}" ${u === sel ? "selected" : ""}>${esc(g)}</option>`).join("")}</select>
+        <label class="vh" for="gv-sel">Scegli ${leg ? "la legislatura" : "il governo"}</label><select id="gv-sel" class="st-sel">${unita.map(([u, g]) => `<option value="${esc(u)}" ${u === sel ? "selected" : ""}>${esc(g)}</option>`).join("")}</select>
         <ul class="gv-ind">${righeSel.map((r) => `<li><span class="gv-nome">${esc(r.ind)}<small>${esc(r.amb)}</small></span>
           <span class="gv-scala" aria-hidden="true">${r.rango != null && r.n ? `<span class="gv-punto ${conVerso(r) ? classe(pos(r)) : "nd"}" style="left:${(r.n > 1 ? (r.rango - 1) / (r.n - 1) : 0) * 100}%"></span>` : ""}</span>
           <span class="gv-val">${r.rango != null ? `<strong>${r.rango}° su ${r.n}</strong>` : "—"}<small>Italia ${fmt(r.it, r.um)}${r.vic != null ? ` · vicini ${fmt(r.vic, r.um)}` : ""}${String(r.verso).startsWith("descrittivo") ? " · 1° = calo maggiore" : ""}</small></span></li>`).join("")}</ul>
         <p class="nota">La scala va dal 1° posto (a sinistra) all'ultimo (a destra). Il posto è calcolato sulla differenza con la media di Francia, Germania e Spagna; per povertà ed emigrazione sul solo dato italiano.</p>
       </section>
       <section class="blocco"><h2>La lettura ragionata</h2>
-        <div class="quattro">${Q4.map(([k, t, ic]) => `<div class="card q4"><p class="q4-t">${icona(ic)}${t}</p><p>${codici(esc(GV[k] || ""))}</p></div>`).join("")}</div>
+        <div class="quattro">${Q4.map(([k, t, ic]) => `<div class="card q4"><p class="q4-t">${icona(ic)}${t}</p><p>${codici(esc(T[k] || ""))}</p></div>`).join("")}</div>
         ${GV.oceano_blu ? `<h3 class="q4-sotto">Perché questo confronto è diverso <small>griglia della strategia oceano blu</small></h3>${grigliaErrc(GV.oceano_blu, "Elimina, riduce, aumenta, crea")}` : ""}
       </section>
-      ${(GV.limiti || []).length ? `<div class="avviso"><div class="avviso-titolo">${icona("info")}Limiti da tenere presenti</div><ul>${GV.limiti.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}
-      <p class="nota">Metodo, punto di partenza di ogni governo, shock esterni e decisioni del catalogo: ${ext(repo + "/blob/main/storia/governi_confronto.md", "rapporto completo")} · ${ext(repo + "/blob/main/storia/governi_metodo.md", "metodo")} · ${ext(repo + "/blob/main/storia/script/governi.py", "script")}.</p>`;
+      ${(T.limiti || []).length ? `<div class="avviso"><div class="avviso-titolo">${icona("info")}Limiti da tenere presenti</div><ul>${T.limiti.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}
+      <p class="nota">${leg ? `Tabelle complete e limiti: ${ext(repo + "/blob/main/storia/legislature_confronto.md", "rapporto per legislatura")} · ${ext(repo + "/blob/main/storia/governi_metodo.md", "metodo")} · ${ext(repo + "/blob/main/storia/script/legislature.py", "script")}.` : `Metodo, punto di partenza di ogni governo, shock esterni e decisioni del catalogo: ${ext(repo + "/blob/main/storia/governi_confronto.md", "rapporto completo")} · ${ext(repo + "/blob/main/storia/governi_metodo.md", "metodo")} · ${ext(repo + "/blob/main/storia/script/governi.py", "script")}.`}</p>`;
   }
 
   const ORIZZ = ["breve", "medio", "lungo"];

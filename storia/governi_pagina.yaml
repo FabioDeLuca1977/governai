@@ -16,3 +16,17 @@ oceano_blu:
   ridurre: "L'effetto degli shock esterni sul giudizio, confrontando sempre con i Paesi vicini."
   aumentare: "La memoria: 24 governi dal 1979 sugli stessi numeri, con il punto di partenza di ciascuno."
   creare: "Un confronto che chiunque può rifare: dati, script e metodo sono pubblici."
+# Vista per legislatura (20/11/2026). Numeri da storia/legislature_confronto.csv e .md (script storia/script/legislature.py).
+legislature:
+  in_breve: "Le 12 legislature dal 1979, dalla VIII alla XIX, confrontate sugli stessi 14 indicatori e con lo stesso metodo dei governi: conta quanto l'Italia ha fatto meglio o peggio di Francia, Germania e Spagna negli stessi anni. Nessun voto unico: una posizione per ambito."
+  perche: "I governi cambiano spesso, a volte dopo pochi mesi; la legislatura dura di più e comprende il Parlamento che li sostiene. Guardare per legislatura riduce il peso dei governi brevi e mostra com'è andato il Paese in periodi più lunghi e confrontabili."
+  come: "Ogni anno solare va alla legislatura con più giorni di governo in quell'anno. I governi rimasti in carica per gli affari correnti dopo le elezioni contano nella legislatura precedente. La VII legislatura, iniziata prima del 1979, resta fuori. Per la XIX contano gli anni 2023-2025. C'è anche la versione con gli anni spostati di uno."
+  cosa: "Sui conti le migliori rispetto ai vicini sono la XVI (2008-2013) e la XIII (1996-2001), che ha ridotto il debito di 10,3 punti mentre i vicini lo aumentavano di 0,8; le peggiori la IX e la X (1983-1992), con il debito salito di 11,3 e 8,6 punti più dei vicini. Sulla crescita guidano XVIII, IX e XII, in fondo XV e XVI. Sul lavoro guidano VIII, XI e XIV, in fondo X e XVII. Su prezzi e mercati guidano XV, XIX e XIV, ultima la VIII, con un'inflazione media del 17,5% contro il 10,4% dei vicini. Nessuna legislatura è nel primo terzo in tutti gli ambiti."
+  chi: "Una legislatura è il Parlamento eletto più i governi che ha sostenuto, da uno a sei. È l'unità giusta per chiedersi com'è andato il Paese in quegli anni, non per giudicare un singolo governo: per questo c'è la vista per governo, con il punto di partenza di ciascuno. Molti risultati dipendono anche da Banca centrale europea, Unione europea e shock esterni."
+  limiti:
+    - "Una legislatura somma governi anche molto diversi tra loro: il dato descrive il periodo, non giudica un governo."
+    - "La XIX legislatura è in corso: tre anni di dati, con il 2025 ancora provvisorio."
+    - "Con 12 legislature i posti sono pochi: una differenza di un posto conta poco."
+    - "Gli anni della XVIII comprendono la caduta e il rimbalzo della pandemia; quelli della XVI la crisi finanziaria e quella dei debiti sovrani."
+    - "Il confronto con i vicini toglie gli shock comuni, non quelli che colpiscono l'Italia più degli altri. Nessun numero qui dimostra una causa."
+    - "Per la società i dati partono dal 2002 per l'emigrazione e dal 2005 per la povertà assoluta, che cambia metodo nel 2014: il confronto vale dalla XIV legislatura in poi e su pochi casi."
