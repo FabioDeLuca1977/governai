@@ -1000,6 +1000,7 @@
         <tbody>${tutte.map(([u, g, sx, anni]) => `<tr class="${u === sel ? "gv-sel" : ""}"><td class="principale"><a href="#/dati/governi?g=${esc(u)}${qv}">${esc(g)}</a></td><td data-etichetta="Anni">${esc(anni || "")}</td>${AMBITI_GV.map(([a, t]) => `<td class="num gv-c ${classe(sx[a])}" data-etichetta="${esc(t)}">${sx[a] == null ? "—" : Math.round(sx[a])}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
         <p class="nota">Verde: primo terzo; giallo: terzo centrale; arancio: ultimo terzo. Ogni cella è la mediana delle posizioni degli indicatori dell'ambito; la pressione fiscale non entra, perché salire o scendere non è in sé meglio o peggio. Per la società il confronto usa solo il dato italiano.</p>
       </section>
+      ${sezionePV(leg)}
       ${((leg ? LG.emerge : GV.emerge) || []).length ? `<section class="blocco"><h2>Che cosa emerge <small>${leg ? "tra le legislature" : "tra i governi"}, anni ${leg ? "della legislatura" : "del mandato"}</small></h2>
         <ol class="gv-emerge">${(leg ? LG.emerge : GV.emerge).map((x) => `<li class="card"><strong>${esc(x.titolo)}</strong><p>${esc(x.testo)}</p></li>`).join("")}</ol></section>` : ""}
       <section class="blocco"><h2>${esc(nomeSel)}, indicatore per indicatore</h2>
@@ -1107,6 +1108,76 @@
       </section>
       ${(VF.limiti || []).length ? `<div class="avviso"><div class="avviso-titolo">${icona("info")}Limiti da tenere presenti</div><ul>${VF.limiti.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}`;
   }
+  // ---------- Punteggio da più punti di vista (storia/script/punti_di_vista.py) ----------
+  const PV_PESI = ["non conta", "peso normale", "conta il doppio", "conta il triplo"];
+  function sezionePV(leg) {
+    const P = GV.punti_di_vista;
+    const tipo = leg ? "legislatura" : "governo";
+    if (!P || !P.righe || !(P.righe[tipo] || []).length) return "";
+    const rr = P.righe[tipo], n = rr[0].n_unita;
+    const qp = leg ? "&per=legislatura" : "";
+    const pc = (x) => `${nf(x, x > 0 && x < 1 ? 1 : 0)}%`;
+    const posto = (x) => `${nf(x, Number.isInteger(x) ? 0 : 1)}°`;
+    return `<section class="card blocco" id="punti-di-vista"><h2>Punteggio da più punti di vista <small>${n} ${leg ? "legislature" : "governi"}, 4.014 combinazioni di pesi</small></h2>
+      <p>${esc(P.in_breve || "")}</p>
+      <p class="risposta">${esc((leg ? P.cosa_legislature : P.cosa) || "")}</p>
+      <div class="tabella-scorre"><table class="tabella pv-tab a-card"><thead><tr><th>${leg ? "Legislatura" : "Governo"}</th><th class="num">Punteggio equo</th><th>Quanto cambia con i pesi</th><th class="num">Nel primo terzo</th><th class="num">Con pesi uguali</th><th>Nei 14 punti di vista dichiarati</th></tr></thead>
+      <tbody>${rr.map((r) => `<tr><td class="principale"><span class="pv-posto">${r.posto_equo}°</span> <a href="#/dati/governi?g=${esc(r.id)}${qp}">${esc(r.etichetta)}</a><small>anni ${esc(r.anni)}${r.ambiti_mancanti ? ` · senza dati: ${esc(r.ambiti_mancanti)}` : ""}</small></td>
+        <td class="num" data-etichetta="Punteggio equo"><span><strong>${Math.round(r.punteggio_equo)}</strong></span></td>
+        <td data-etichetta="Quanto cambia con i pesi"><span class="pv-v"><span class="pv-int" role="img" aria-label="da ${Math.round(r.p10)} a ${Math.round(r.p90)}"><span class="pv-fascia" style="left:${r.p10}%;width:${Math.max(r.p90 - r.p10, 1)}%"></span><span class="pv-med" style="left:${r.punteggio_equo}%"></span></span><small>da ${Math.round(r.p10)} a ${Math.round(r.p90)}</small></span></td>
+        <td class="num" data-etichetta="Nel primo terzo"><span>${pc(r.primo_terzo)}<small>ultimo terzo ${pc(r.ultimo_terzo)}</small></span></td>
+        <td class="num" data-etichetta="Con pesi uguali"><span>${posto(r.posto_pesi_uguali)}</span></td>
+        <td data-etichetta="Nei 14 punti di vista"><span class="pv-v">${r.posto_migliore === r.posto_peggiore ? `sempre ${posto(r.posto_migliore)}` : `dal ${posto(r.posto_migliore)} al ${posto(r.posto_peggiore)}`}<small>peggiore: ${esc(r.punto_peggiore)}</small></span></td></tr>`).join("")}</tbody></table></div>
+      <p class="nota">Punteggio equo: posizione mediana da 0 (ultimo) a 100 (primo) su tutte le combinazioni di pesi tra gli ambiti, con gli anni ${leg ? "della legislatura" : "del mandato"} e con quelli spostati di uno. La barra va dal 10° al 90° percentile: più è corta, più il giudizio non dipende dai pesi.</p>
+      <h3 class="q4-sotto">Il tuo punto di vista <small>scegli quanto conta ogni ambito</small></h3>
+      <div class="simulatore pv-sim" data-pv-tipo="${tipo}">
+        <div class="card">
+          <div class="segmenti" role="group" aria-label="Pesi predefiniti"><button type="button" data-pv-preset="">Pesi uguali</button>${AMBITI_GV.map(([a, t]) => `<button type="button" data-pv-preset="${esc(a)}">Prima ${esc(t.toLowerCase())}</button>`).join("")}</div>
+          ${AMBITI_GV.map(([a, t], j) => `<div class="cursore"><label for="pv-w${j}">${esc(t)} <output id="pv-o${j}" for="pv-w${j}"></output></label><input type="range" id="pv-w${j}" data-pv-amb="${esc(a)}" min="0" max="3" step="1" value="1"></div>`).join("")}
+          <label class="pv-check"><input type="checkbox" id="pv-ritardo"> Anni spostati di uno (effetti in ritardo)</label>
+          <p class="nota">Con i tuoi pesi il punteggio è la media pesata delle posizioni per ambito della tabella sopra; un ambito senza dati resta fuori.</p>
+        </div>
+        <div class="card"><h4 class="pv-h">Ordine con i tuoi pesi</h4><p class="nota">Le frecce indicano lo spostamento rispetto ai pesi uguali.</p><ol class="classifica" id="pv-lista" aria-live="polite"></ol></div>
+      </div>
+      <details class="pv-metodo"><summary>Come si calcola e limiti</summary>
+        <p><strong>Perché.</strong> ${esc(P.perche || "")}</p><p><strong>Come.</strong> ${esc(P.come || "")}</p><p><strong>Chi sceglie.</strong> ${esc(P.chi || "")}</p>
+        ${P.oceano_blu ? grigliaErrc(P.oceano_blu, "Elimina, riduce, aumenta, crea") : ""}
+        <ul>${(P.limiti || []).map((x) => `<li>${esc(x)}</li>`).join("")}</ul>
+        <p>${ext(repo + "/blob/main/storia/punti_di_vista.md", "Tabella completa")} · ${ext(repo + "/blob/main/storia/script/punti_di_vista.py", "script del calcolo")}</p>
+      </details>
+    </section>`;
+  }
+
+  function montaPV() {
+    const box = $(".pv-sim"), P = GV.punti_di_vista, tipo = box.dataset.pvTipo;
+    const A = P.ambiti[tipo] || {}, nomi = Object.fromEntries(P.righe[tipo].map((r) => [r.id, r]));
+    const qp = tipo === "legislatura" ? "&per=legislatura" : "";
+    const cursori = $$("[data-pv-amb]", box);
+    const calcola = (pesi, ver) => Object.keys(nomi).map((id) => {
+      const s = (A[id] || {})[ver] || {};
+      let num = 0, den = 0;
+      AMBITI_GV.forEach(([a]) => { if (s[a] != null && pesi[a] > 0) { num += pesi[a] * s[a]; den += pesi[a]; } });
+      return { id, v: den ? num / den : null };
+    }).filter((x) => x.v != null).sort((a, b) => b.v - a.v);
+    const aggiorna = () => {
+      const pesi = {};
+      cursori.forEach((c, j) => { pesi[c.dataset.pvAmb] = +c.value; $("#pv-o" + j).textContent = PV_PESI[+c.value]; });
+      const ver = $("#pv-ritardo").checked ? "ritardo_1_anno" : "base";
+      const base = calcola(Object.fromEntries(AMBITI_GV.map(([a]) => [a, 1])), ver).map((x) => x.id);
+      const lista = calcola(pesi, ver);
+      $("#pv-lista").innerHTML = lista.length ? lista.map((x, i) => {
+        const salto = base.indexOf(x.id) - i;
+        return `<li><span class="pos">${i + 1}</span><span><a href="#/dati/governi?g=${esc(x.id)}${qp}">${esc(nomi[x.id].etichetta)}</a></span>
+          <span class="salto ${salto > 0 ? "su" : salto < 0 ? "giu" : ""}" aria-label="${salto > 0 ? `sale di ${salto}` : salto < 0 ? `scende di ${-salto}` : "stessa posizione"}">${salto > 0 ? "▲ " + salto : salto < 0 ? "▼ " + -salto : "="}</span>
+          <div class="barra" aria-hidden="true"><span style="width:${Math.max(0, x.v)}%"></span></div></li>`;
+      }).join("") : `<li>Dai un peso ad almeno un ambito.</li>`;
+    };
+    cursori.forEach((c) => c.addEventListener("input", aggiorna));
+    $("#pv-ritardo").addEventListener("change", aggiorna);
+    $$("[data-pv-preset]", box).forEach((b) => b.addEventListener("click", () => { cursori.forEach((c) => { c.value = !b.dataset.pvPreset ? 1 : c.dataset.pvAmb === b.dataset.pvPreset ? 2 : 1; }); aggiorna(); }));
+    aggiorna();
+  }
+
   function montaVerifica() {
     const vai = (k, v) => { const q = new URLSearchParams(location.hash.split("?")[1] || ""); q.set(k, v); if (k === "per") q.delete("g"); location.hash = "#/dati/verifica?" + q.toString(); };
     $("#vf-per").addEventListener("change", (e) => vai("per", e.target.value));
@@ -1879,6 +1950,7 @@
     if ($("#pp-app")) montaProponi();
     if ($("#st-dec")) montaStoria();
     if ($("#vf-per")) montaVerifica();
+    if ($("#pv-lista")) montaPV();
     if ($("#gv-sel")) $("#gv-sel").addEventListener("change", (e) => { const q = new URLSearchParams(location.hash.split("?")[1] || ""); q.set("g", e.target.value); location.hash = "#/dati/governi?" + q.toString(); });
     if ($("#classifica")) { $$("input[type=range]", main).forEach((el) => el.addEventListener("input", aggiornaClassifica)); aggiornaClassifica(); }
     if ($("#q")) { $("#q").addEventListener("input", aggiornaRicerca); aggiornaRicerca(); $("#q").focus(); }

@@ -16,6 +16,7 @@ Questo documento descrive come `storia/script/governi.py` confronta il governo i
 | `storia/script/governi.py` | Calcoli e rapporto |
 | `storia/governi_confronto.csv` | Risultati per governo, indicatore e versione (base e con ritardo di un anno) |
 | `storia/governi_confronto.md` | Rapporto |
+| `storia/script/punti_di_vista.py`, `storia/punti_di_vista.csv`, `storia/punti_di_vista_ambiti.csv`, `storia/punti_di_vista.md` | Punteggio da più punti di vista (21/11/2026) |
 
 **Fonti dell'elenco dei governi.** Per i governi dal 2001: Presidenza del Consiglio, *I Governi nelle Legislature* (https://www.governo.it/it/i-governi-dal-1943-ad-oggi/i-governi-nelle-legislature/192), date di giuramento. Per i governi 1978-2001 la pagina della Presidenza non riporta le date: si usano i dati aperti della Camera dei deputati (https://dati.camera.it, classe `ocd:governo`), che registrano la data di inizio e di fine del governo; può differire di un giorno dal giuramento, il che non cambia l'assegnazione degli anni. Numero d'ordine: il secondo governo De Gasperi (13 luglio 1946), primo della Repubblica, è il n. 1; il governo in carica è il n. 68, in linea con i 68 governi della Repubblica indicati dalla Presidenza del Consiglio. Nel rapporto i governi sono indicati solo con le date.
 
@@ -46,6 +47,8 @@ Questo documento descrive come `storia/script/governi.py` confronta il governo i
 | lavoro | Variazione della disoccupazione giovanile 15-24 | `disoccupazione_giovanile` (OCSE) | fine meno anno prima | più basso è meglio |
 | qualità del lavoro | Variazione della quota di dipendenti a tempo determinato | `dipendenti_tempo_determinato` (Eurostat lfsa_etgar, dal 1983; Spagna dal 1987) | fine meno anno prima | più basso è meglio |
 | qualità del lavoro | Variazione del part-time involontario | `part_time_involontario` (Eurostat lfsa_eppgai, % degli occupati part-time; Francia dal 1992) | fine meno anno prima | più basso è meglio |
+| qualità del lavoro | Crescita media annua del salario reale per dipendente | `salario_reale_crescita` (AMECO RWCDC: redditi da lavoro dipendente per dipendente, deflatore dei consumi privati) | media dei tassi annui | più alto è meglio |
+| qualità del lavoro | Variazione delle ore lavorate per occupato | `ore_per_occupato` (AMECO NLHA; Germania Ovest prima del 1991) | fine meno anno prima, ore annue | nessun verso: solo ordinamento |
 | prezzi e mercati | Spread medio con la Germania | `spread_bund` (AMECO) | media degli anni | più basso è meglio |
 | prezzi e mercati | Inflazione media | `inflazione` (AMECO) | media degli anni | più basso è meglio |
 | società | Variazione della povertà assoluta (persone) | `poverta_assoluta` (ISTAT, dal 2005) | fine meno anno prima | più basso è meglio |
@@ -57,7 +60,7 @@ Scelte:
 - **Pressione fiscale.** Si usa la serie OCSE perché copre tutti i governi dal 1979 in modo omogeneo; il rapporto riporta come controllo la serie AMECO per il governo in carica (che arriva al 2025). Non si dà un verso: un aumento o un calo non è in sé un risultato migliore o peggiore. Il rango ordina dal calo maggiore all'aumento maggiore rispetto ai vicini ed è escluso dalla sintesi per ambito.
 - **Investimenti pubblici** sono nell'ambito crescita perché misurano l'accumulazione di capitale pubblico, non la disciplina dei conti.
 - **Povertà assoluta.** La serie ISTAT cambia metodo nel 2014: una variazione che attraversa il passaggio 2013/2014 non è calcolata (governo 2014-2016).
-- **Qualità del lavoro (aggiunta il 20/11/2026).** Il tasso di occupazione conta le persone, non il tipo di contratto. Per questo si confrontano anche la quota di dipendenti a tempo determinato e il part-time involontario (chi lavora a tempo parziale ma vorrebbe il tempo pieno). Un calo è considerato un miglioramento. È un ambito a parte, così il dato sulla quantità del lavoro e quello sulla qualità restano visibili separatamente. Nel 2021 l'indagine europea sulle forze di lavoro ha cambiato regolamento: piccola rottura di serie, non corretta. Salari reali e ore lavorate non sono ancora tra gli indicatori.
+- **Qualità del lavoro (aggiunta il 20/11/2026).** Il tasso di occupazione conta le persone, non il tipo di contratto. Per questo si confrontano anche la quota di dipendenti a tempo determinato e il part-time involontario (chi lavora a tempo parziale ma vorrebbe il tempo pieno). Un calo è considerato un miglioramento. È un ambito a parte, così il dato sulla quantità del lavoro e quello sulla qualità restano visibili separatamente. Nel 2021 l'indagine europea sulle forze di lavoro ha cambiato regolamento: piccola rottura di serie, non corretta. Dal 21/11/2026 l'ambito comprende anche il salario reale per dipendente (redditi da lavoro dipendente divisi per i dipendenti, deflazionati con i prezzi dei consumi privati: misura il potere d'acquisto medio, compresi i contributi a carico del datore di lavoro) e le ore lavorate per occupato. Le ore non hanno un verso e sono escluse dalla sintesi, come la pressione fiscale: meno ore può voler dire più tempo libero o sottoccupazione. Per i governi prima del 1987 la sintesi dell'ambito si basa sul solo salario.
 - **Emigrazione.** I dati italiani (ISTAT, cancellazioni anagrafiche) e quelli degli altri paesi (Eurostat) hanno definizioni diverse e la base dati non contiene la popolazione per rapportarli: non si fa il confronto con i vicini. La serie cresce quasi ogni anno dal 2008, quindi il rango riflette in buona parte la tendenza.
 
 ## 4. Misura principale: rispetto ai vicini
@@ -71,7 +74,7 @@ Per ogni indicatore con un confronto omogeneo: **differenza = valore Italia meno
 ## 5. Ranghi e sintesi per ambito
 
 - **Rango.** Per ogni indicatore si ordinano tutte le unità confrontabili con un valore disponibile: 1° = risultato migliore rispetto ai vicini (per povertà ed emigrazione: sul dato italiano). Il numero di unità cambia da indicatore a indicatore (per esempio 24 per la crescita, 15 per gli investimenti pubblici). Il CSV riporta anche il rango sul solo dato italiano, per mostrare l'effetto della correzione.
-- **Nessun punteggio unico.** Non si sommano gli ambiti: il peso di conti, crescita, lavoro, prezzi e società è una scelta politica.
+- **Nessun punteggio con pesi scelti da noi.** Il peso di conti, crescita, lavoro, qualità del lavoro, prezzi e società è una scelta politica. Il punteggio complessivo si calcola quindi da molti punti di vista (sezione «Punteggio da più punti di vista»).
 - **Sintesi per ambito.** Per ogni indicatore con un verso, la posizione si trasforma in una scala 0-100 (100 = primo, 0 = ultimo: 100 × (N − rango) / (N − 1)); la sintesi dell'ambito è la mediana di queste posizioni. Fasce: primo terzo (≥ 66,7), terzo centrale, ultimo terzo (< 33,3).
 - **Controllo per pochi anni.** Il rapporto mostra anche il rango del governo in carica tra le sole unità con almeno due anni assegnati, perché un'unità con un solo anno ha valori più estremi per semplice variabilità.
 
@@ -108,3 +111,21 @@ Lo stesso confronto si può leggere per legislatura (`storia/script/legislature.
 ogni anno solare va alla legislatura con più giorni di governo. La VII legislatura, iniziata prima del 1979, resta
 fuori perché ne entrerebbe solo la parte finale. Indicatori, confronto con i vicini, posti e versione con gli anni
 spostati di uno sono identici. Lo script va rilanciato a mano dopo `governi.py`.
+
+## Punteggio da più punti di vista (21/11/2026)
+
+**Perché.** Un punteggio unico richiede di decidere quanto pesa ogni ambito. Chi sceglie i pesi sceglie anche il vincitore. Un giudizio equo è quello che resta valido cambiando punto di vista.
+
+**Come** (`python storia/script/punti_di_vista.py`, dopo `governi.py` e `legislature.py`):
+
+1. Base: la posizione 0-100 di ogni unità in ogni ambito (mediana degli indicatori con un verso, sezione 5). Un ambito senza dati resta fuori e i pesi degli altri si riproporzionano.
+2. 14 punti di vista dichiarati: pesi uguali e, uno per volta, ciascun ambito con peso doppio; ognuno con gli anni del mandato e con gli anni spostati di uno.
+3. 4.000 punti di vista casuali: 2.000 combinazioni di pesi estratte in modo uniforme tra tutte quelle possibili (Dirichlet con parametri pari a 1, seme 20261121) per ciascuna delle due versioni degli anni. È l'analisi di sensibilità raccomandata dal manuale OCSE-JRC sugli indicatori compositi (*Handbook on Constructing Composite Indicators*, 2008).
+4. Per ogni punto di vista: media pesata delle posizioni per ambito, posto tra le unità (a pari merito, posto medio), posizione 0-100.
+5. **Punteggio equo** = mediana delle posizioni sui 4.000 punti di vista casuali; intervallo = 10° e 90° percentile; quota dei punti di vista nel primo e nell'ultimo terzo; posto migliore e peggiore nei 14 dichiarati.
+
+**Che cosa.** Il punteggio dice quanto un governo o una legislatura sta in alto rispetto agli altri, con quasi tutti i pesi o solo con alcuni. Non dice se un risultato è stato causato dal governo.
+
+**Chi.** Lo script non sceglie i pesi. Nella pagina il lettore può fissare i propri (da «non conta» a «conta il triplo») e vedere subito l'ordine che ne risulta.
+
+**Limiti.** Le posizioni sono relative agli altri governi, non assolute. Gli ambiti hanno un numero diverso di indicatori. Prima del 2001 manca la società e prima del 1987 la qualità del lavoro si basa sul solo salario. Le combinazioni casuali danno in media lo stesso peso a ogni ambito.

@@ -2,7 +2,7 @@
 
 *Rapporto generato da `storia/script/governi.py` con le serie di `storia/serie/`. Metodo: `storia/governi_metodo.md`. Dati osservati fino al 2025; il 2026 è una previsione ed è escluso. I governi sono indicati con le date; numeri d'ordine e altre informazioni sono in `storia/governi.csv`.*
 
-**Come leggere.** La misura principale è la **differenza rispetto ai vicini**: il risultato dell'Italia meno la media di Francia, Germania e Spagna negli stessi anni. Così si toglie una parte degli shock comuni (crisi dell'euro, pandemia, energia, politica della BCE). Il **rango** dice in che posizione è un governo tra quelli confrontabili (1° = risultato migliore rispetto ai vicini). Non c'è un voto unico: la sintesi è per ambito. Nessun numero di questo rapporto prova che un risultato sia stato causato da un governo.
+**Come leggere.** La misura principale è la **differenza rispetto ai vicini**: il risultato dell'Italia meno la media di Francia, Germania e Spagna negli stessi anni. Così si toglie una parte degli shock comuni (crisi dell'euro, pandemia, energia, politica della BCE). Il **rango** dice in che posizione è un governo tra quelli confrontabili (1° = risultato migliore rispetto ai vicini). Non c'è un voto con pesi scelti da noi: la sintesi è per ambito e il punteggio complessivo da più punti di vista è in storia/punti_di_vista.md. Nessun numero di questo rapporto prova che un risultato sia stato causato da un governo.
 
 ## In breve
 
@@ -13,13 +13,13 @@ Il governo 2022-oggi ha dati osservati per **2023-2025** (3 anni solari: il 2022
 | conti | 52 (11° su 24) | terzo centrale | Variazione del debito pubblico: 12° su 24; Saldo primario medio: 12° su 24; Deficit medio: 9° su 24; Variazione della pressione fiscale: 23° su 24, solo ordinamento |
 | crescita | 70 (8° su 24) | primo terzo | Crescita media annua del PIL pro capite reale: 8° su 24; Crescita media annua della produttività oraria: 20° su 24; Investimenti pubblici medi: 1° su 15 |
 | lavoro | 83 (5° su 24) | primo terzo | Variazione del tasso di occupazione 15-64: 5° su 24; Variazione del tasso di occupazione femminile 15-64: 5° su 24; Variazione della disoccupazione giovanile 15-24: 5° su 24 |
-| qualità del lavoro | 84 (2° su 20) | primo terzo | Variazione della quota di dipendenti a tempo determinato: 6° su 20; Variazione del part-time involontario: 2° su 19 |
+| qualità del lavoro | 74 (8° su 24) | primo terzo | Variazione della quota di dipendenti a tempo determinato: 6° su 20; Variazione del part-time involontario: 2° su 19; Crescita media annua del salario reale per dipendente: 15° su 24; Variazione delle ore lavorate per occupato: 21° su 24, solo ordinamento |
 | prezzi e mercati | 83 (3° su 24) | primo terzo | Spread medio con la Germania: 8° su 24; Inflazione media: 2° su 24 |
 | società | 43 (8° su 11) | terzo centrale | Variazione della povertà assoluta (persone): 2° su 8, solo dato italiano; Emigrazione media annua di cittadini italiani: 11° su 11, solo dato italiano |
 
 La posizione mediana è la mediana delle posizioni (0 = ultimo, 100 = primo) degli indicatori dell'ambito con un verso chiaro; la pressione fiscale è esclusa perché salire o scendere non è in sé un risultato migliore o peggiore. Tra parentesi, il posto del governo in carica se si ordinano tutti i governi per questa mediana. Per l'ambito società i ranghi usano il solo dato italiano.
 
-**Sensibilità.** Nell'ambito crescita il primo posto per investimenti pubblici dipende in larga parte dal PNRR, deciso e finanziato prima del mandato; senza questo indicatore la posizione mediana in crescita scende a 43 (terzo centrale). Con gli anni spostati di uno (sezione 5) le posizioni mediane diventano: conti 74; crescita 57; lavoro 70; qualità del lavoro 85; prezzi e mercati 87; società 50. I ranghi tra i soli governi con almeno due anni sono nella sezione 3.
+**Sensibilità.** Nell'ambito crescita il primo posto per investimenti pubblici dipende in larga parte dal PNRR, deciso e finanziato prima del mandato; senza questo indicatore la posizione mediana in crescita scende a 43 (terzo centrale). Con gli anni spostati di uno (sezione 5) le posizioni mediane diventano: conti 74; crescita 57; lavoro 70; qualità del lavoro 84; prezzi e mercati 87; società 50. I ranghi tra i soli governi con almeno due anni sono nella sezione 3.
 
 ## 1. Governi confrontati
 
@@ -156,28 +156,32 @@ In ogni cella: **differenza Italia meno vicini** (rango). Per povertà assoluta 
 
 ### Qualità del lavoro
 
-| Governo o periodo | Anni | Variazione della quota di dipendenti a tempo determinato (punti) | Variazione del part-time involontario (punti) |
-|---|---|---|---|
-| periodo di governo 1986-1987 | 1987 | +0,20 (11) | n.d. |
-| governo 1988-1989 | 1988-1989 | -2,93 (1) | +1,35 (12) |
-| governo 1989-1991 | 1990 | -2,63 (2) | +1,75 (15) |
-| governo 1991-1992 | 1991 | -0,40 (8) | -0,40 (9) |
-| governo 1993-1994 | 1993 | -0,70 (5) | -1,03 (7) |
-| governo 1995-1996 | 1995 | -0,83 (4) | -2,17 (5) |
-| governo 1996-1998 | 1996-1998 | +0,83 (12) | +2,03 (16) |
-| governo 1998-1999 | 1999 | +1,03 (13) | +0,43 (10) |
-| governo 2000-2001 | 2000 | +0,03 (10) | +0,97 (11) |
-| governo 2001-2005 | 2001-2004 | +2,83 (20) | -3,00 (3) |
-| governo 2005-2006 | 2005 | -1,10 (3) | -2,20 (4) |
-| governo 2006-2008 | 2006-2007 | +1,40 (16) | -1,57 (6) |
-| governo 2008-2011 | 2008-2011 | +1,87 (18) | +8,57 (19) |
-| governo 2011-2013 | 2012 | +1,10 (15) | +2,50 (17) |
-| governo 2014-2016 | 2014-2016 | -0,50 (7) | +1,63 (13) |
-| governo 2016-2018 | 2017 | +1,03 (13) | -1,03 (7) |
-| governo 2018-2019 | 2018-2019 | +2,17 (19) | +7,80 (18) |
-| governo 2019-2021 | 2020 | -0,00 (9) | +1,73 (14) |
-| governo 2021-2022 | 2021-2022 | +1,77 (17) | -3,33 (1) |
-| **governo 2022-oggi** | 2023-2025 | -0,63 (6) | -3,23 (2) |
+| Governo o periodo | Anni | Variazione della quota di dipendenti a tempo determinato (punti) | Variazione del part-time involontario (punti) | Crescita media annua del salario reale per dipendente (% annua) | Variazione delle ore lavorate per occupato (ore annue) |
+|---|---|---|---|---|---|
+| periodo di governo 1979-1981 | 1979-1980 | n.d. | n.d. | +1,38 (1) | +27,86 (20) |
+| governo 1981-1982 | 1981-1982 | n.d. | n.d. | +1,23 (2) | +77,62 (23) |
+| periodo di governo 1982-1983 | 1983 | n.d. | n.d. | -0,24 (11) | +20,38 (17) |
+| governo 1983-1986 | 1984-1986 | n.d. | n.d. | -0,19 (10) | +48,56 (22) |
+| periodo di governo 1986-1987 | 1987 | +0,20 (11) | n.d. | +0,95 (4) | +25,08 (19) |
+| governo 1988-1989 | 1988-1989 | -2,93 (1) | +1,35 (12) | +1,01 (3) | +4,43 (11) |
+| governo 1989-1991 | 1990 | -2,63 (2) | +1,75 (15) | +0,62 (6) | -2,33 (7) |
+| governo 1991-1992 | 1991 | -0,40 (8) | -0,40 (9) | -2,10 (20) | +0,72 (8) |
+| governo 1993-1994 | 1993 | -0,70 (5) | -1,03 (7) | -2,39 (21) | +14,15 (16) |
+| governo 1995-1996 | 1995 | -0,83 (4) | -2,17 (5) | -2,47 (22) | +10,84 (15) |
+| governo 1996-1998 | 1996-1998 | +0,83 (12) | +2,03 (16) | +0,03 (8) | +25,01 (18) |
+| governo 1998-1999 | 1999 | +1,03 (13) | +0,43 (10) | -0,42 (12) | +1,13 (9) |
+| governo 2000-2001 | 2000 | +0,03 (10) | +0,97 (11) | -0,97 (17) | -2,89 (6) |
+| governo 2001-2005 | 2001-2004 | +2,83 (20) | -3,00 (3) | -0,16 (9) | -22,54 (4) |
+| governo 2005-2006 | 2005 | -1,10 (3) | -2,20 (4) | +0,56 (7) | +5,14 (13) |
+| governo 2006-2008 | 2006-2007 | +1,40 (16) | -1,57 (6) | -0,50 (14) | +4,48 (12) |
+| governo 2008-2011 | 2008-2011 | +1,87 (18) | +8,57 (19) | -1,21 (18) | -45,65 (2) |
+| governo 2011-2013 | 2012 | +1,10 (15) | +2,50 (17) | -3,52 (24) | -26,29 (3) |
+| governo 2014-2016 | 2014-2016 | -0,50 (7) | +1,63 (13) | -0,88 (16) | +3,52 (10) |
+| governo 2016-2018 | 2017 | +1,03 (13) | -1,03 (7) | -1,33 (19) | +8,90 (14) |
+| governo 2018-2019 | 2018-2019 | +2,17 (19) | +7,80 (18) | -0,44 (13) | -5,41 (5) |
+| governo 2019-2021 | 2020 | -0,00 (9) | +1,73 (14) | -2,95 (23) | -70,71 (1) |
+| governo 2021-2022 | 2021-2022 | +1,77 (17) | -3,33 (1) | +0,84 (5) | +101,24 (24) |
+| **governo 2022-oggi** | 2023-2025 | -0,63 (6) | -3,23 (2) | -0,53 (15) | +35,18 (21) |
 
 ### Prezzi e mercati
 
@@ -238,6 +242,8 @@ Verso: crescita, produttività, investimenti pubblici, occupazione e saldo prima
 | Variazione della disoccupazione giovanile 15-24 (punti, 2022->2025) | -3,14 | -0,42 | -2,72 | 5° su 24 | 4° su 12 | 6° su 24 |
 | Variazione della quota di dipendenti a tempo determinato (punti, 2022->2025) | -3,30 | -2,67 | -0,63 | 6° su 20 | 2° su 9 | 1° su 21 |
 | Variazione del part-time involontario (punti, 2022->2025) | -6,90 | -3,67 | -3,23 | 2° su 19 | 2° su 9 | 2° su 21 |
+| Crescita media annua del salario reale per dipendente (% annua, 2023-2025) | 0,28 | 0,81 | -0,53 | 15° su 24 | 10° su 12 | 14° su 24 |
+| Variazione delle ore lavorate per occupato (ore annue, 2022->2025) | 24,47 | -10,71 | +35,18 | 21° su 24 | 9° su 12 | 23° su 24 |
 | Variazione del debito pubblico (punti di PIL, 2022->2025) | -1,25 | -1,79 | +0,54 | 12° su 24 | 7° su 12 | 7° su 24 |
 | Saldo primario medio (% PIL, 2023-2025) | -0,73 | -1,84 | +1,11 | 12° su 24 | 6° su 12 | 15° su 24 |
 | Deficit medio (% PIL, 2023-2025) | 4,52 | 3,67 | +0,85 | 9° su 24 | 5° su 12 | 12° su 24 |
@@ -311,6 +317,8 @@ Le misure agiscono con ritardo. Qui a ogni governo si assegnano gli anni spostat
 | Variazione della disoccupazione giovanile 15-24 | -2,72 | 5° su 24 | -2,15 | 5° su 24 |
 | Variazione della quota di dipendenti a tempo determinato | -0,63 | 6° su 20 | -1,60 | 4° su 21 |
 | Variazione del part-time involontario | -3,23 | 2° su 19 | -1,57 | 4° su 20 |
+| Crescita media annua del salario reale per dipendente | -0,53 | 15° su 24 | -0,19 | 11° su 24 |
+| Variazione delle ore lavorate per occupato | +35,18 | 21° su 24 | +14,68 | 19° su 24 |
 | Variazione del debito pubblico | +0,54 | 12° su 24 | +2,28 | 13° su 24 |
 | Saldo primario medio | +1,11 | 12° su 24 | +2,41 | 7° su 24 |
 | Deficit medio | +0,85 | 9° su 24 | -0,42 | 3° su 24 |
@@ -325,40 +333,40 @@ Le misure agiscono con ritardo. Qui a ogni governo si assegnano gli anni spostat
 | conti | 52 (terzo centrale) | 74 (primo terzo) |
 | crescita | 70 (primo terzo) | 57 (terzo centrale) |
 | lavoro | 83 (primo terzo) | 70 (primo terzo) |
-| qualità del lavoro | 84 (primo terzo) | 85 (primo terzo) |
+| qualità del lavoro | 74 (primo terzo) | 84 (primo terzo) |
 | prezzi e mercati | 83 (primo terzo) | 87 (primo terzo) |
 | società | 43 (terzo centrale) | 50 (terzo centrale) |
 
 ## 6. Sintesi per ambito di tutti i governi
 
-Posizione mediana 0-100 (100 = primo in tutti gli indicatori dell'ambito). Gli ambiti non si sommano: un governo può andare bene sui conti e male sulla crescita, e il peso da dare a ciascun ambito è una scelta politica.
+Posizione mediana 0-100 (100 = primo in tutti gli indicatori dell'ambito). Un governo può andare bene sui conti e male sulla crescita, e il peso da dare a ciascun ambito è una scelta politica: per questo il punteggio complessivo si calcola con tutte le combinazioni di pesi (storia/punti_di_vista.md).
 
 | Governo o periodo | Anni | conti | crescita | lavoro | qualità del lavoro | prezzi e mercati | società |
 |---|---|---|---|---|---|---|---|
-| periodo di governo 1979-1981 | 1979-1980 | 30 | 87 | 91 | n.d. | 13 | n.d. |
-| governo 1981-1982 | 1981-1982 | 26 | 33 | 96 | n.d. | 4 | n.d. |
-| periodo di governo 1982-1983 | 1983 | 22 | 30 | 39 | n.d. | 4 | n.d. |
-| governo 1983-1986 | 1984-1986 | 0 | 67 | 74 | n.d. | 17 | n.d. |
-| periodo di governo 1986-1987 | 1987 | 9 | 80 | 22 | 47 | 48 | n.d. |
-| governo 1988-1989 | 1988-1989 | 4 | 72 | 13 | 69 | 30 | n.d. |
-| governo 1989-1991 | 1990 | 26 | 26 | 61 | 58 | 26 | n.d. |
-| governo 1991-1992 | 1991 | 17 | 17 | 13 | 59 | 22 | n.d. |
-| governo 1993-1994 | 1993 | 35 | 78 | 87 | 73 | 30 | n.d. |
-| governo 1995-1996 | 1995 | 87 | 91 | 17 | 81 | 13 | n.d. |
-| governo 1996-1998 | 1996-1998 | 91 | 39 | 35 | 29 | 48 | n.d. |
-| governo 1998-1999 | 1999 | 78 | 43 | 39 | 43 | 76 | n.d. |
-| governo 2000-2001 | 2000 | 70 | 78 | 43 | 49 | 72 | n.d. |
-| governo 2001-2005 | 2001-2004 | 65 | 48 | 100 | 44 | 80 | 100 |
-| governo 2005-2006 | 2005 | 43 | 52 | 9 | 86 | 87 | 80 |
-| governo 2006-2008 | 2006-2007 | 43 | 22 | 4 | 47 | 85 | 81 |
-| governo 2008-2011 | 2008-2011 | 91 | 21 | 52 | 5 | 70 | 49 |
-| governo 2011-2013 | 2012 | 96 | 13 | 78 | 19 | 43 | 37 |
-| governo 2014-2016 | 2014-2016 | 74 | 39 | 26 | 51 | 76 | 40 |
-| governo 2016-2018 | 2017 | 57 | 43 | 57 | 52 | 72 | 44 |
-| governo 2018-2019 | 2018-2019 | 61 | 52 | 48 | 5 | 72 | 60 |
-| governo 2019-2021 | 2020 | 48 | 57 | 70 | 43 | 65 | 5 |
-| governo 2021-2022 | 2021-2022 | 39 | 86 | 35 | 58 | 63 | 46 |
-| **governo 2022-oggi** | 2023-2025 | 52 | 70 | 83 | 84 | 83 | 43 |
+| periodo di governo 1979-1981 | 1979-1980 | 30 | 87 | 91 | 100 | 13 | n.d. |
+| governo 1981-1982 | 1981-1982 | 26 | 33 | 96 | 96 | 4 | n.d. |
+| periodo di governo 1982-1983 | 1983 | 22 | 30 | 39 | 57 | 4 | n.d. |
+| governo 1983-1986 | 1984-1986 | 0 | 67 | 74 | 61 | 17 | n.d. |
+| periodo di governo 1986-1987 | 1987 | 9 | 80 | 22 | 67 | 48 | n.d. |
+| governo 1988-1989 | 1988-1989 | 4 | 72 | 13 | 91 | 30 | n.d. |
+| governo 1989-1991 | 1990 | 26 | 26 | 61 | 78 | 26 | n.d. |
+| governo 1991-1992 | 1991 | 17 | 17 | 13 | 56 | 22 | n.d. |
+| governo 1993-1994 | 1993 | 35 | 78 | 87 | 67 | 30 | n.d. |
+| governo 1995-1996 | 1995 | 87 | 91 | 17 | 78 | 13 | n.d. |
+| governo 1996-1998 | 1996-1998 | 91 | 39 | 35 | 42 | 48 | n.d. |
+| governo 1998-1999 | 1999 | 78 | 43 | 39 | 50 | 76 | n.d. |
+| governo 2000-2001 | 2000 | 70 | 78 | 43 | 44 | 72 | n.d. |
+| governo 2001-2005 | 2001-2004 | 65 | 48 | 100 | 65 | 80 | 100 |
+| governo 2005-2006 | 2005 | 43 | 52 | 9 | 83 | 87 | 80 |
+| governo 2006-2008 | 2006-2007 | 43 | 22 | 4 | 43 | 85 | 81 |
+| governo 2008-2011 | 2008-2011 | 91 | 21 | 52 | 11 | 70 | 49 |
+| governo 2011-2013 | 2012 | 96 | 13 | 78 | 11 | 43 | 37 |
+| governo 2014-2016 | 2014-2016 | 74 | 39 | 26 | 35 | 76 | 40 |
+| governo 2016-2018 | 2017 | 57 | 43 | 57 | 37 | 72 | 44 |
+| governo 2018-2019 | 2018-2019 | 61 | 52 | 48 | 6 | 72 | 60 |
+| governo 2019-2021 | 2020 | 48 | 57 | 70 | 28 | 65 | 5 |
+| governo 2021-2022 | 2021-2022 | 39 | 86 | 35 | 83 | 63 | 46 |
+| **governo 2022-oggi** | 2023-2025 | 52 | 70 | 83 | 74 | 83 | 43 |
 
 Attenzione: i governi con un solo anno assegnato hanno posizioni più estreme (in alto o in basso) anche per semplice variabilità; i governi lunghi tendono verso il centro. L'ambito società ha dati solo dal 2002-2005.
 

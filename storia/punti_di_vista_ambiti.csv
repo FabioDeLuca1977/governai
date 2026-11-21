@@ -1,0 +1,433 @@
+tipo,id,versione,ambito,posizione
+governo,G36+G37+G38,base,conti,30.4
+governo,G36+G37+G38,base,crescita,87.0
+governo,G36+G37+G38,base,lavoro,91.3
+governo,G36+G37+G38,base,qualità del lavoro,100.0
+governo,G36+G37+G38,base,prezzi e mercati,13.0
+governo,G36+G37+G38,base,società,
+governo,G39,base,conti,26.1
+governo,G39,base,crescita,32.6
+governo,G39,base,lavoro,95.7
+governo,G39,base,qualità del lavoro,95.7
+governo,G39,base,prezzi e mercati,4.3
+governo,G39,base,società,
+governo,G40+G41,base,conti,21.7
+governo,G40+G41,base,crescita,30.4
+governo,G40+G41,base,lavoro,39.1
+governo,G40+G41,base,qualità del lavoro,56.5
+governo,G40+G41,base,prezzi e mercati,4.3
+governo,G40+G41,base,società,
+governo,G42,base,conti,0.0
+governo,G42,base,crescita,67.4
+governo,G42,base,lavoro,73.9
+governo,G42,base,qualità del lavoro,60.9
+governo,G42,base,prezzi e mercati,17.4
+governo,G42,base,società,
+governo,G43+G44,base,conti,8.7
+governo,G43+G44,base,crescita,80.4
+governo,G43+G44,base,lavoro,21.7
+governo,G43+G44,base,qualità del lavoro,67.2
+governo,G43+G44,base,prezzi e mercati,47.8
+governo,G43+G44,base,società,
+governo,G46,base,conti,4.3
+governo,G46,base,crescita,71.7
+governo,G46,base,lavoro,13.0
+governo,G46,base,qualità del lavoro,91.3
+governo,G46,base,prezzi e mercati,30.4
+governo,G46,base,società,
+governo,G47,base,conti,26.1
+governo,G47,base,crescita,26.1
+governo,G47,base,lavoro,60.9
+governo,G47,base,qualità del lavoro,78.3
+governo,G47,base,prezzi e mercati,26.1
+governo,G47,base,società,
+governo,G48,base,conti,17.4
+governo,G48,base,crescita,17.4
+governo,G48,base,lavoro,13.0
+governo,G48,base,qualità del lavoro,55.6
+governo,G48,base,prezzi e mercati,21.7
+governo,G48,base,società,
+governo,G50,base,conti,34.8
+governo,G50,base,crescita,78.3
+governo,G50,base,lavoro,87.0
+governo,G50,base,qualità del lavoro,66.7
+governo,G50,base,prezzi e mercati,30.4
+governo,G50,base,società,
+governo,G52,base,conti,87.0
+governo,G52,base,crescita,91.3
+governo,G52,base,lavoro,17.4
+governo,G52,base,qualità del lavoro,77.8
+governo,G52,base,prezzi e mercati,13.0
+governo,G52,base,società,
+governo,G53,base,conti,91.3
+governo,G53,base,crescita,39.1
+governo,G53,base,lavoro,34.8
+governo,G53,base,qualità del lavoro,42.1
+governo,G53,base,prezzi e mercati,47.8
+governo,G53,base,società,
+governo,G54,base,conti,78.3
+governo,G54,base,crescita,42.9
+governo,G54,base,lavoro,39.1
+governo,G54,base,qualità del lavoro,50.0
+governo,G54,base,prezzi e mercati,76.1
+governo,G54,base,società,
+governo,G56,base,conti,69.6
+governo,G56,base,crescita,78.3
+governo,G56,base,lavoro,43.5
+governo,G56,base,qualità del lavoro,44.4
+governo,G56,base,prezzi e mercati,71.7
+governo,G56,base,società,
+governo,G57,base,conti,65.2
+governo,G57,base,crescita,47.8
+governo,G57,base,lavoro,100.0
+governo,G57,base,qualità del lavoro,65.2
+governo,G57,base,prezzi e mercati,80.4
+governo,G57,base,società,100.0
+governo,G58,base,conti,43.5
+governo,G58,base,crescita,52.2
+governo,G58,base,lavoro,8.7
+governo,G58,base,qualità del lavoro,83.3
+governo,G58,base,prezzi e mercati,87.0
+governo,G58,base,società,80.0
+governo,G59,base,conti,43.5
+governo,G59,base,crescita,21.7
+governo,G59,base,lavoro,4.3
+governo,G59,base,qualità del lavoro,43.5
+governo,G59,base,prezzi e mercati,84.8
+governo,G59,base,società,80.7
+governo,G60,base,conti,91.3
+governo,G60,base,crescita,21.4
+governo,G60,base,lavoro,52.2
+governo,G60,base,qualità del lavoro,10.5
+governo,G60,base,prezzi e mercati,69.6
+governo,G60,base,società,49.3
+governo,G61,base,conti,95.7
+governo,G61,base,crescita,13.0
+governo,G61,base,lavoro,78.3
+governo,G61,base,qualità del lavoro,11.1
+governo,G61,base,prezzi e mercati,43.5
+governo,G61,base,società,37.1
+governo,G63,base,conti,73.9
+governo,G63,base,crescita,39.1
+governo,G63,base,lavoro,26.1
+governo,G63,base,qualità del lavoro,34.8
+governo,G63,base,prezzi e mercati,76.1
+governo,G63,base,società,40.0
+governo,G64,base,conti,56.5
+governo,G64,base,crescita,43.5
+governo,G64,base,lavoro,56.5
+governo,G64,base,qualità del lavoro,36.8
+governo,G64,base,prezzi e mercati,71.7
+governo,G64,base,società,43.6
+governo,G65,base,conti,60.9
+governo,G65,base,crescita,52.2
+governo,G65,base,lavoro,47.8
+governo,G65,base,qualità del lavoro,5.6
+governo,G65,base,prezzi e mercati,71.7
+governo,G65,base,società,60.0
+governo,G66,base,conti,47.8
+governo,G66,base,crescita,57.1
+governo,G66,base,lavoro,69.6
+governo,G66,base,qualità del lavoro,27.8
+governo,G66,base,prezzi e mercati,65.2
+governo,G66,base,società,5.0
+governo,G67,base,conti,39.1
+governo,G67,base,crescita,85.7
+governo,G67,base,lavoro,34.8
+governo,G67,base,qualità del lavoro,82.6
+governo,G67,base,prezzi e mercati,63.0
+governo,G67,base,società,46.4
+governo,G68,base,conti,52.2
+governo,G68,base,crescita,69.6
+governo,G68,base,lavoro,82.6
+governo,G68,base,qualità del lavoro,73.7
+governo,G68,base,prezzi e mercati,82.6
+governo,G68,base,società,42.9
+governo,G36+G37+G38,ritardo_1_anno,conti,30.4
+governo,G36+G37+G38,ritardo_1_anno,crescita,52.2
+governo,G36+G37+G38,ritardo_1_anno,lavoro,100.0
+governo,G36+G37+G38,ritardo_1_anno,qualità del lavoro,95.7
+governo,G36+G37+G38,ritardo_1_anno,prezzi e mercati,2.2
+governo,G36+G37+G38,ritardo_1_anno,società,
+governo,G39,ritardo_1_anno,conti,21.7
+governo,G39,ritardo_1_anno,crescita,21.7
+governo,G39,ritardo_1_anno,lavoro,87.0
+governo,G39,ritardo_1_anno,qualità del lavoro,47.8
+governo,G39,ritardo_1_anno,prezzi e mercati,2.2
+governo,G39,ritardo_1_anno,società,
+governo,G40+G41,ritardo_1_anno,conti,8.7
+governo,G40+G41,ritardo_1_anno,crescita,73.9
+governo,G40+G41,ritardo_1_anno,lavoro,78.3
+governo,G40+G41,ritardo_1_anno,qualità del lavoro,73.9
+governo,G40+G41,ritardo_1_anno,prezzi e mercati,13.0
+governo,G40+G41,ritardo_1_anno,società,
+governo,G42,ritardo_1_anno,conti,0.0
+governo,G42,ritardo_1_anno,crescita,76.1
+governo,G42,ritardo_1_anno,lavoro,21.7
+governo,G42,ritardo_1_anno,qualità del lavoro,82.3
+governo,G42,ritardo_1_anno,prezzi e mercati,21.7
+governo,G42,ritardo_1_anno,società,
+governo,G43+G44,ritardo_1_anno,conti,13.0
+governo,G43+G44,ritardo_1_anno,crescita,76.1
+governo,G43+G44,ritardo_1_anno,lavoro,34.8
+governo,G43+G44,ritardo_1_anno,qualità del lavoro,78.3
+governo,G43+G44,ritardo_1_anno,prezzi e mercati,28.3
+governo,G43+G44,ritardo_1_anno,società,
+governo,G46,ritardo_1_anno,conti,17.4
+governo,G46,ritardo_1_anno,crescita,52.2
+governo,G46,ritardo_1_anno,lavoro,26.1
+governo,G46,ritardo_1_anno,qualità del lavoro,87.0
+governo,G46,ritardo_1_anno,prezzi e mercati,21.7
+governo,G46,ritardo_1_anno,società,
+governo,G47,ritardo_1_anno,conti,17.4
+governo,G47,ritardo_1_anno,crescita,13.0
+governo,G47,ritardo_1_anno,lavoro,13.0
+governo,G47,ritardo_1_anno,qualità del lavoro,68.4
+governo,G47,ritardo_1_anno,prezzi e mercati,19.6
+governo,G47,ritardo_1_anno,società,
+governo,G48,ritardo_1_anno,conti,26.1
+governo,G48,ritardo_1_anno,crescita,37.0
+governo,G48,ritardo_1_anno,lavoro,73.9
+governo,G48,ritardo_1_anno,qualità del lavoro,30.0
+governo,G48,ritardo_1_anno,prezzi e mercati,26.1
+governo,G48,ritardo_1_anno,società,
+governo,G50,ritardo_1_anno,conti,34.8
+governo,G50,ritardo_1_anno,crescita,87.0
+governo,G50,ritardo_1_anno,lavoro,34.8
+governo,G50,ritardo_1_anno,qualità del lavoro,45.0
+governo,G50,ritardo_1_anno,prezzi e mercati,32.6
+governo,G50,ritardo_1_anno,società,
+governo,G52,ritardo_1_anno,conti,73.9
+governo,G52,ritardo_1_anno,crescita,30.4
+governo,G52,ritardo_1_anno,lavoro,56.5
+governo,G52,ritardo_1_anno,qualità del lavoro,63.2
+governo,G52,ritardo_1_anno,prezzi e mercati,32.6
+governo,G52,ritardo_1_anno,società,
+governo,G53,ritardo_1_anno,conti,91.3
+governo,G53,ritardo_1_anno,crescita,28.6
+governo,G53,ritardo_1_anno,lavoro,13.0
+governo,G53,ritardo_1_anno,qualità del lavoro,20.0
+governo,G53,ritardo_1_anno,prezzi e mercati,63.0
+governo,G53,ritardo_1_anno,società,
+governo,G54,ritardo_1_anno,conti,69.6
+governo,G54,ritardo_1_anno,crescita,78.3
+governo,G54,ritardo_1_anno,lavoro,34.8
+governo,G54,ritardo_1_anno,qualità del lavoro,47.4
+governo,G54,ritardo_1_anno,prezzi e mercati,78.3
+governo,G54,ritardo_1_anno,società,
+governo,G56,ritardo_1_anno,conti,56.5
+governo,G56,ritardo_1_anno,crescita,60.9
+governo,G56,ritardo_1_anno,lavoro,69.6
+governo,G56,ritardo_1_anno,qualità del lavoro,70.0
+governo,G56,ritardo_1_anno,prezzi e mercati,73.9
+governo,G56,ritardo_1_anno,società,
+governo,G57,ritardo_1_anno,conti,65.2
+governo,G57,ritardo_1_anno,crescita,42.9
+governo,G57,ritardo_1_anno,lavoro,91.3
+governo,G57,ritardo_1_anno,qualità del lavoro,65.2
+governo,G57,ritardo_1_anno,prezzi e mercati,82.6
+governo,G57,ritardo_1_anno,società,90.0
+governo,G58,ritardo_1_anno,conti,39.1
+governo,G58,ritardo_1_anno,crescita,13.0
+governo,G58,ritardo_1_anno,lavoro,52.2
+governo,G58,ritardo_1_anno,qualità del lavoro,35.0
+governo,G58,ritardo_1_anno,prezzi e mercati,82.6
+governo,G58,ritardo_1_anno,società,90.0
+governo,G59,ritardo_1_anno,conti,69.6
+governo,G59,ritardo_1_anno,crescita,50.0
+governo,G59,ritardo_1_anno,lavoro,17.4
+governo,G59,ritardo_1_anno,qualità del lavoro,39.1
+governo,G59,ritardo_1_anno,prezzi e mercati,78.3
+governo,G59,ritardo_1_anno,società,77.8
+governo,G60,ritardo_1_anno,conti,100.0
+governo,G60,ritardo_1_anno,crescita,14.3
+governo,G60,ritardo_1_anno,lavoro,65.2
+governo,G60,ritardo_1_anno,qualità del lavoro,0.0
+governo,G60,ritardo_1_anno,prezzi e mercati,56.5
+governo,G60,ritardo_1_anno,società,35.0
+governo,G61,ritardo_1_anno,conti,87.0
+governo,G61,ritardo_1_anno,crescita,57.1
+governo,G61,ritardo_1_anno,lavoro,8.7
+governo,G61,ritardo_1_anno,qualità del lavoro,52.2
+governo,G61,ritardo_1_anno,prezzi e mercati,58.7
+governo,G61,ritardo_1_anno,società,41.1
+governo,G63,ritardo_1_anno,conti,60.9
+governo,G63,ritardo_1_anno,crescita,39.1
+governo,G63,ritardo_1_anno,lavoro,43.5
+governo,G63,ritardo_1_anno,qualità del lavoro,50.0
+governo,G63,ritardo_1_anno,prezzi e mercati,73.9
+governo,G63,ritardo_1_anno,società,26.1
+governo,G64,ritardo_1_anno,conti,56.5
+governo,G64,ritardo_1_anno,crescita,47.8
+governo,G64,ritardo_1_anno,lavoro,52.2
+governo,G64,ritardo_1_anno,qualità del lavoro,5.3
+governo,G64,ritardo_1_anno,prezzi e mercati,67.4
+governo,G64,ritardo_1_anno,società,43.3
+governo,G65,ritardo_1_anno,conti,47.8
+governo,G65,ritardo_1_anno,crescita,35.7
+governo,G65,ritardo_1_anno,lavoro,60.9
+governo,G65,ritardo_1_anno,qualità del lavoro,10.5
+governo,G65,ritardo_1_anno,prezzi e mercati,69.6
+governo,G65,ritardo_1_anno,società,21.7
+governo,G66,ritardo_1_anno,conti,43.5
+governo,G66,ritardo_1_anno,crescita,92.9
+governo,G66,ritardo_1_anno,lavoro,8.7
+governo,G66,ritardo_1_anno,qualità del lavoro,73.7
+governo,G66,ritardo_1_anno,prezzi e mercati,82.6
+governo,G66,ritardo_1_anno,società,63.9
+governo,G67,ritardo_1_anno,conti,39.1
+governo,G67,ritardo_1_anno,crescita,85.7
+governo,G67,ritardo_1_anno,lavoro,95.7
+governo,G67,ritardo_1_anno,qualità del lavoro,17.4
+governo,G67,ritardo_1_anno,prezzi e mercati,45.7
+governo,G67,ritardo_1_anno,società,47.8
+governo,G68,ritardo_1_anno,conti,73.9
+governo,G68,ritardo_1_anno,crescita,56.5
+governo,G68,ritardo_1_anno,lavoro,69.6
+governo,G68,ritardo_1_anno,qualità del lavoro,84.2
+governo,G68,ritardo_1_anno,prezzi e mercati,87.0
+governo,G68,ritardo_1_anno,società,50.0
+legislatura,LVIII,base,conti,18.2
+legislatura,LVIII,base,crescita,36.4
+legislatura,LVIII,base,lavoro,100.0
+legislatura,LVIII,base,qualità del lavoro,100.0
+legislatura,LVIII,base,prezzi e mercati,0.0
+legislatura,LVIII,base,società,
+legislatura,LIX,base,conti,0.0
+legislatura,LIX,base,crescita,81.8
+legislatura,LIX,base,lavoro,54.5
+legislatura,LIX,base,qualità del lavoro,81.8
+legislatura,LIX,base,prezzi e mercati,22.7
+legislatura,LIX,base,società,
+legislatura,LX,base,conti,9.1
+legislatura,LX,base,crescita,45.5
+legislatura,LX,base,lavoro,0.0
+legislatura,LX,base,qualità del lavoro,90.9
+legislatura,LX,base,prezzi e mercati,22.7
+legislatura,LX,base,società,
+legislatura,LXI,base,conti,27.3
+legislatura,LXI,base,crescita,54.5
+legislatura,LXI,base,lavoro,90.9
+legislatura,LXI,base,qualità del lavoro,55.6
+legislatura,LXI,base,prezzi e mercati,22.7
+legislatura,LXI,base,società,
+legislatura,LXII,base,conti,63.6
+legislatura,LXII,base,crescita,81.8
+legislatura,LXII,base,lavoro,27.3
+legislatura,LXII,base,qualità del lavoro,77.8
+legislatura,LXII,base,prezzi e mercati,22.7
+legislatura,LXII,base,società,
+legislatura,LXIII,base,conti,81.8
+legislatura,LXIII,base,crescita,45.5
+legislatura,LXIII,base,lavoro,27.3
+legislatura,LXIII,base,qualità del lavoro,22.2
+legislatura,LXIII,base,prezzi e mercati,63.6
+legislatura,LXIII,base,società,
+legislatura,LXIV,base,conti,63.6
+legislatura,LXIV,base,crescita,36.4
+legislatura,LXIV,base,lavoro,90.9
+legislatura,LXIV,base,qualità del lavoro,72.7
+legislatura,LXIV,base,prezzi e mercati,81.8
+legislatura,LXIV,base,società,100.0
+legislatura,LXV,base,conti,36.4
+legislatura,LXV,base,crescita,18.2
+legislatura,LXV,base,lavoro,36.4
+legislatura,LXV,base,qualità del lavoro,45.5
+legislatura,LXV,base,prezzi e mercati,90.9
+legislatura,LXV,base,società,73.3
+legislatura,LXVI,base,conti,90.9
+legislatura,LXVI,base,crescita,27.3
+legislatura,LXVI,base,lavoro,63.6
+legislatura,LXVI,base,qualità del lavoro,11.1
+legislatura,LXVI,base,prezzi e mercati,54.5
+legislatura,LXVI,base,società,30.0
+legislatura,LXVII,base,conti,63.6
+legislatura,LXVII,base,crescita,45.5
+legislatura,LXVII,base,lavoro,9.1
+legislatura,LXVII,base,qualità del lavoro,33.3
+legislatura,LXVII,base,prezzi e mercati,72.7
+legislatura,LXVII,base,società,40.0
+legislatura,LXVIII,base,conti,45.5
+legislatura,LXVIII,base,crescita,90.9
+legislatura,LXVIII,base,lavoro,45.5
+legislatura,LXVIII,base,qualità del lavoro,11.1
+legislatura,LXVIII,base,prezzi e mercati,59.1
+legislatura,LXVIII,base,società,26.7
+legislatura,LXIX,base,conti,45.5
+legislatura,LXIX,base,crescita,63.6
+legislatura,LXIX,base,lavoro,72.7
+legislatura,LXIX,base,qualità del lavoro,88.9
+legislatura,LXIX,base,prezzi e mercati,86.4
+legislatura,LXIX,base,società,50.0
+legislatura,LVIII,ritardo_1_anno,conti,18.2
+legislatura,LVIII,ritardo_1_anno,crescita,31.8
+legislatura,LVIII,ritardo_1_anno,lavoro,100.0
+legislatura,LVIII,ritardo_1_anno,qualità del lavoro,100.0
+legislatura,LVIII,ritardo_1_anno,prezzi e mercati,0.0
+legislatura,LVIII,ritardo_1_anno,società,
+legislatura,LIX,ritardo_1_anno,conti,0.0
+legislatura,LIX,ritardo_1_anno,crescita,72.7
+legislatura,LIX,ritardo_1_anno,lavoro,9.1
+legislatura,LIX,ritardo_1_anno,qualità del lavoro,90.5
+legislatura,LIX,ritardo_1_anno,prezzi e mercati,22.7
+legislatura,LIX,ritardo_1_anno,società,
+legislatura,LX,ritardo_1_anno,conti,9.1
+legislatura,LX,ritardo_1_anno,crescita,27.3
+legislatura,LX,ritardo_1_anno,lavoro,9.1
+legislatura,LX,ritardo_1_anno,qualità del lavoro,33.3
+legislatura,LX,ritardo_1_anno,prezzi e mercati,18.2
+legislatura,LX,ritardo_1_anno,società,
+legislatura,LXI,ritardo_1_anno,conti,36.4
+legislatura,LXI,ritardo_1_anno,crescita,86.4
+legislatura,LXI,ritardo_1_anno,lavoro,90.9
+legislatura,LXI,ritardo_1_anno,qualità del lavoro,55.6
+legislatura,LXI,ritardo_1_anno,prezzi e mercati,31.8
+legislatura,LXI,ritardo_1_anno,società,
+legislatura,LXII,ritardo_1_anno,conti,100.0
+legislatura,LXII,ritardo_1_anno,crescita,81.8
+legislatura,LXII,ritardo_1_anno,lavoro,27.3
+legislatura,LXII,ritardo_1_anno,qualità del lavoro,70.0
+legislatura,LXII,ritardo_1_anno,prezzi e mercati,18.2
+legislatura,LXII,ritardo_1_anno,società,
+legislatura,LXIII,ritardo_1_anno,conti,72.7
+legislatura,LXIII,ritardo_1_anno,crescita,45.5
+legislatura,LXIII,ritardo_1_anno,lavoro,18.2
+legislatura,LXIII,ritardo_1_anno,qualità del lavoro,40.0
+legislatura,LXIII,ritardo_1_anno,prezzi e mercati,68.2
+legislatura,LXIII,ritardo_1_anno,società,
+legislatura,LXIV,ritardo_1_anno,conti,45.5
+legislatura,LXIV,ritardo_1_anno,crescita,18.2
+legislatura,LXIV,ritardo_1_anno,lavoro,90.9
+legislatura,LXIV,ritardo_1_anno,qualità del lavoro,72.7
+legislatura,LXIV,ritardo_1_anno,prezzi e mercati,86.4
+legislatura,LXIV,ritardo_1_anno,società,80.0
+legislatura,LXV,ritardo_1_anno,conti,54.5
+legislatura,LXV,ritardo_1_anno,crescita,42.9
+legislatura,LXV,ritardo_1_anno,lavoro,36.4
+legislatura,LXV,ritardo_1_anno,qualità del lavoro,44.4
+legislatura,LXV,ritardo_1_anno,prezzi e mercati,81.8
+legislatura,LXV,ritardo_1_anno,società,83.3
+legislatura,LXVI,ritardo_1_anno,conti,90.9
+legislatura,LXVI,ritardo_1_anno,crescita,14.3
+legislatura,LXVI,ritardo_1_anno,lavoro,45.5
+legislatura,LXVI,ritardo_1_anno,qualità del lavoro,9.1
+legislatura,LXVI,ritardo_1_anno,prezzi e mercati,50.0
+legislatura,LXVI,ritardo_1_anno,società,30.0
+legislatura,LXVII,ritardo_1_anno,conti,45.5
+legislatura,LXVII,ritardo_1_anno,crescita,45.5
+legislatura,LXVII,ritardo_1_anno,lavoro,27.3
+legislatura,LXVII,ritardo_1_anno,qualità del lavoro,11.1
+legislatura,LXVII,ritardo_1_anno,prezzi e mercati,77.3
+legislatura,LXVII,ritardo_1_anno,società,40.0
+legislatura,LXVIII,ritardo_1_anno,conti,36.4
+legislatura,LXVIII,ritardo_1_anno,crescita,90.9
+legislatura,LXVIII,ritardo_1_anno,lavoro,72.7
+legislatura,LXVIII,ritardo_1_anno,qualità del lavoro,45.5
+legislatura,LXVIII,ritardo_1_anno,prezzi e mercati,59.1
+legislatura,LXVIII,ritardo_1_anno,società,26.7
+legislatura,LXIX,ritardo_1_anno,conti,63.6
+legislatura,LXIX,ritardo_1_anno,crescita,54.5
+legislatura,LXIX,ritardo_1_anno,lavoro,63.6
+legislatura,LXIX,ritardo_1_anno,qualità del lavoro,80.0
+legislatura,LXIX,ritardo_1_anno,prezzi e mercati,86.4
+legislatura,LXIX,ritardo_1_anno,società,50.0

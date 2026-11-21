@@ -7,6 +7,8 @@ G34,governo 1978-1979,n. 34,governo,no,base,,lavoro,Variazione del tasso di occu
 G34,governo 1978-1979,n. 34,governo,no,base,,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G34,governo 1978-1979,n. 34,governo,no,base,,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G34,governo 1978-1979,n. 34,governo,no,base,,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,base,,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,base,,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G34,governo 1978-1979,n. 34,governo,no,base,,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G34,governo 1978-1979,n. 34,governo,no,base,,conti,Saldo primario medio,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G34,governo 1978-1979,n. 34,governo,no,base,,conti,Deficit medio,% PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
@@ -23,6 +25,8 @@ G35,governo 1979 (mar-ago),n. 35,breve,no,base,,lavoro,Variazione del tasso di o
 G35,governo 1979 (mar-ago),n. 35,breve,no,base,,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G35,governo 1979 (mar-ago),n. 35,breve,no,base,,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G35,governo 1979 (mar-ago),n. 35,breve,no,base,,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,base,,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,base,,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G35,governo 1979 (mar-ago),n. 35,breve,no,base,,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G35,governo 1979 (mar-ago),n. 35,breve,no,base,,conti,Saldo primario medio,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G35,governo 1979 (mar-ago),n. 35,breve,no,base,,conti,Deficit medio,% PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
@@ -39,6 +43,8 @@ G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,
 G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1978->1980,0.425,3.747,-3.322,3,24,Italia meno vicini,15,24,
 G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
 G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1979-1980,2.352,0.972,1.380,1,24,Italia meno vicini,3,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1978->1980,-5.429,-33.290,27.861,20,24,Italia meno vicini,10,24,
 G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1978->1980,-3.246,1.782,-5.028,4,24,Italia meno vicini,5,24,
 G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,conti,Saldo primario medio,% PIL,più alto è meglio,1979-1980,-3.328,-0.093,-3.235,20,24,Italia meno vicini,19,24,1979: vicini 2 su 3; 1980: vicini 2 su 3
 G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,base,1979-1980,conti,Deficit medio,% PIL,più basso è meglio,1979-1980,7.598,1.663,5.934,17,24,Italia meno vicini,14,24,1979: vicini 2 su 3; 1980: vicini 2 su 3
@@ -55,6 +61,8 @@ G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,lavoro,Variazione del tas
 G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1980->1982,2.808,6.036,-3.228,4,24,Italia meno vicini,21,24,
 G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
 G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1981-1982,1.212,-0.021,1.233,2,24,Italia meno vicini,5,24,
+G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1980->1982,17.458,-60.158,77.616,23,24,Italia meno vicini,21,24,
 G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1980->1982,6.766,6.456,0.310,11,24,Italia meno vicini,19,24,
 G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,conti,Saldo primario medio,% PIL,più alto è meglio,1981-1982,-4.609,-0.996,-3.613,22,24,Italia meno vicini,22,24,1981: vicini 2 su 3; 1982: vicini 2 su 3
 G39,governo 1981-1982,n. 39,governo,sì,base,1981-1982,conti,Deficit medio,% PIL,più basso è meglio,1981-1982,10.441,3.222,7.219,18,24,Italia meno vicini,19,24,1981: vicini 2 su 3; 1982: vicini 2 su 3
@@ -71,6 +79,8 @@ G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,lavoro
 G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1982->1983,2.431,1.873,0.558,15,24,Italia meno vicini,20,24,
 G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
 G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1983,0.294,0.532,-0.238,11,24,Italia meno vicini,12,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1982->1983,-0.718,-21.094,20.376,17,24,Italia meno vicini,15,24,
 G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1982->1983,5.993,2.737,3.256,18,24,Italia meno vicini,18,24,
 G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,conti,Saldo primario medio,% PIL,più alto è meglio,1983,-2.300,-0.138,-2.162,19,24,Italia meno vicini,17,24,1983: vicini 2 su 3
 G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,base,1983,conti,Deficit medio,% PIL,più basso è meglio,1983,10.111,2.759,7.352,19,24,Italia meno vicini,18,24,1983: vicini 2 su 3
@@ -87,6 +97,8 @@ G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,lavoro,Variazione del tas
 G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1983->1986,4.035,1.555,2.480,22,24,Italia meno vicini,22,24,
 G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1983->1986,-2.100,,,,,,2,21,
 G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1983->1986,8.900,,,,,,20,21,
+G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1984-1986,0.623,0.816,-0.193,10,24,Italia meno vicini,7,24,
+G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1983->1986,-5.360,-53.923,48.563,22,24,Italia meno vicini,11,24,
 G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1983->1986,14.925,6.023,8.902,24,24,Italia meno vicini,22,24,
 G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,conti,Saldo primario medio,% PIL,più alto è meglio,1984-1986,-3.411,0.478,-3.889,23,24,Italia meno vicini,20,24,1984: vicini 2 su 3; 1985: vicini 2 su 3; 1986: vicini 2 su 3
 G42,governo 1983-1986,n. 42,governo,sì,base,1984-1986,conti,Deficit medio,% PIL,più basso è meglio,1984-1986,11.941,2.233,9.708,24,24,Italia meno vicini,24,24,1984: vicini 2 su 3; 1985: vicini 2 su 3; 1986: vicini 2 su 3
@@ -103,6 +115,8 @@ G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,lavoro
 G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1986->1987,1.029,-1.400,2.429,21,24,Italia meno vicini,18,24,
 G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1986->1987,0.800,0.600,0.200,11,20,Italia meno vicini,12,21,vicini 2 su 3
 G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1986->1987,0.100,,,,,,12,21,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1987,2.495,1.540,0.955,4,24,Italia meno vicini,2,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1986->1987,18.882,-6.196,25.078,19,24,Italia meno vicini,22,24,
 G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1986->1987,3.731,1.313,2.418,16,24,Italia meno vicini,16,24,
 G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,conti,Saldo primario medio,% PIL,più alto è meglio,1987,-3.613,0.672,-4.285,24,24,Italia meno vicini,21,24,1987: vicini 2 su 3
 G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,base,1987,conti,Deficit medio,% PIL,più basso è meglio,1987,11.514,1.941,9.573,22,24,Italia meno vicini,23,24,1987: vicini 2 su 3
@@ -119,6 +133,8 @@ G45,governo 1987-1988,n. 45,breve,no,base,,lavoro,Variazione del tasso di occupa
 G45,governo 1987-1988,n. 45,breve,no,base,,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G45,governo 1987-1988,n. 45,breve,no,base,,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G45,governo 1987-1988,n. 45,breve,no,base,,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,base,,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,base,,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G45,governo 1987-1988,n. 45,breve,no,base,,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G45,governo 1987-1988,n. 45,breve,no,base,,conti,Saldo primario medio,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G45,governo 1987-1988,n. 45,breve,no,base,,conti,Deficit medio,% PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
@@ -135,6 +151,8 @@ G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,lavoro,Variazione del tas
 G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1987->1989,-1.891,-4.179,2.288,20,24,Italia meno vicini,10,24,
 G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1987->1989,1.000,3.933,-2.933,1,20,Italia meno vicini,14,21,
 G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1987->1989,-2.400,-3.750,1.350,12,19,Italia meno vicini,3,21,vicini 2 su 3
+G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1988-1989,1.756,0.747,1.009,3,24,Italia meno vicini,4,24,
+G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1987->1989,-12.043,-16.472,4.429,11,24,Italia meno vicini,6,24,
 G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1987->1989,3.860,-0.900,4.760,23,24,Italia meno vicini,17,24,
 G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,conti,Saldo primario medio,% PIL,più alto è meglio,1988-1989,-2.508,0.990,-3.499,21,24,Italia meno vicini,18,24,1988: vicini 2 su 3; 1989: vicini 2 su 3
 G46,governo 1988-1989,n. 46,governo,sì,base,1988-1989,conti,Deficit medio,% PIL,più basso è meglio,1988-1989,11.238,1.579,9.658,23,24,Italia meno vicini,20,24,1988: vicini 2 su 3; 1989: vicini 2 su 3
@@ -151,6 +169,8 @@ G47,governo 1989-1991,n. 47,governo,sì,base,1990,lavoro,Variazione del tasso di
 G47,governo 1989-1991,n. 47,governo,sì,base,1990,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1989->1990,-2.152,-0.909,-1.243,10,24,Italia meno vicini,9,24,
 G47,governo 1989-1991,n. 47,governo,sì,base,1990,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1989->1990,-1.100,1.533,-2.633,2,20,Italia meno vicini,4,21,
 G47,governo 1989-1991,n. 47,governo,sì,base,1990,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1989->1990,0.900,-0.850,1.750,15,19,Italia meno vicini,14,21,vicini 2 su 3
+G47,governo 1989-1991,n. 47,governo,sì,base,1990,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1990,3.031,2.415,0.616,6,24,Italia meno vicini,1,24,
+G47,governo 1989-1991,n. 47,governo,sì,base,1990,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1989->1990,-10.575,-8.249,-2.326,7,24,Italia meno vicini,7,24,
 G47,governo 1989-1991,n. 47,governo,sì,base,1990,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1989->1990,1.834,1.534,0.300,10,24,Italia meno vicini,12,24,
 G47,governo 1989-1991,n. 47,governo,sì,base,1990,conti,Saldo primario medio,% PIL,più alto è meglio,1990,-1.359,0.494,-1.853,18,24,Italia meno vicini,16,24,1990: vicini 2 su 3
 G47,governo 1989-1991,n. 47,governo,sì,base,1990,conti,Deficit medio,% PIL,più basso è meglio,1990,11.444,2.200,9.244,21,24,Italia meno vicini,22,24,1990: vicini 2 su 3
@@ -167,6 +187,8 @@ G48,governo 1991-1992,n. 48,governo,sì,base,1991,lavoro,Variazione del tasso di
 G48,governo 1991-1992,n. 48,governo,sì,base,1991,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1990->1991,-0.723,0.094,-0.817,11,24,Italia meno vicini,13,24,
 G48,governo 1991-1992,n. 48,governo,sì,base,1991,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1990->1991,0.100,0.500,-0.400,8,20,Italia meno vicini,6,21,
 G48,governo 1991-1992,n. 48,governo,sì,base,1991,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1990->1991,-1.800,-1.400,-0.400,9,19,Italia meno vicini,4,21,vicini 2 su 3
+G48,governo 1991-1992,n. 48,governo,sì,base,1991,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1991,0.284,2.388,-2.104,20,24,Italia meno vicini,13,24,
+G48,governo 1991-1992,n. 48,governo,sì,base,1991,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1990->1991,-6.861,-7.579,0.718,8,24,Italia meno vicini,9,24,
 G48,governo 1991-1992,n. 48,governo,sì,base,1991,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1990->1991,3.162,-0.350,3.512,20,24,Italia meno vicini,15,24,
 G48,governo 1991-1992,n. 48,governo,sì,base,1991,conti,Saldo primario medio,% PIL,più alto è meglio,1991,-0.039,-0.286,0.247,15,24,Italia meno vicini,14,24,1991: vicini 2 su 3
 G48,governo 1991-1992,n. 48,governo,sì,base,1991,conti,Deficit medio,% PIL,più basso è meglio,1991,11.389,3.032,8.357,20,24,Italia meno vicini,21,24,1991: vicini 2 su 3
@@ -183,6 +205,8 @@ G49,governo 1992-1993,n. 49,breve,no,base,1992,lavoro,Variazione del tasso di oc
 G49,governo 1992-1993,n. 49,breve,no,base,1992,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1991->1992,1.890,1.921,-0.031,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G49,governo 1992-1993,n. 49,breve,no,base,1992,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1991->1992,1.800,0.733,1.067,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G49,governo 1992-1993,n. 49,breve,no,base,1992,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1991->1992,-1.800,-3.250,1.450,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; vicini 2 su 3
+G49,governo 1992-1993,n. 49,breve,no,base,1992,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1992,-0.005,3.705,-3.710,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,base,1992,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1991->1992,3.104,-0.080,3.184,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G49,governo 1992-1993,n. 49,breve,no,base,1992,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1991->1992,6.534,2.895,3.639,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G49,governo 1992-1993,n. 49,breve,no,base,1992,conti,Saldo primario medio,% PIL,più alto è meglio,1992,1.857,-0.577,2.434,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; 1992: vicini 2 su 3
 G49,governo 1992-1993,n. 49,breve,no,base,1992,conti,Deficit medio,% PIL,più basso è meglio,1992,10.373,3.616,6.756,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; 1992: vicini 2 su 3
@@ -199,6 +223,8 @@ G50,governo 1993-1994,n. 50,governo,sì,base,1993,lavoro,Variazione del tasso di
 G50,governo 1993-1994,n. 50,governo,sì,base,1993,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1992->1993,-3.908,4.302,-8.210,1,24,Italia meno vicini,4,24,
 G50,governo 1993-1994,n. 50,governo,sì,base,1993,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1992->1993,-1.100,-0.400,-0.700,5,20,Italia meno vicini,4,21,
 G50,governo 1993-1994,n. 50,governo,sì,base,1993,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1992->1993,-0.200,0.833,-1.033,7,19,Italia meno vicini,11,21,
+G50,governo 1993-1994,n. 50,governo,sì,base,1993,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1993,-1.439,0.955,-2.394,21,24,Italia meno vicini,21,24,
+G50,governo 1993-1994,n. 50,governo,sì,base,1993,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1992->1993,-0.135,-14.289,14.154,16,24,Italia meno vicini,16,24,
 G50,governo 1993-1994,n. 50,governo,sì,base,1993,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1992->1993,9.647,7.090,2.557,17,24,Italia meno vicini,21,24,
 G50,governo 1993-1994,n. 50,governo,sì,base,1993,conti,Saldo primario medio,% PIL,più alto è meglio,1993,2.629,-1.540,4.169,4,24,Italia meno vicini,5,24,1993: vicini 2 su 3
 G50,governo 1993-1994,n. 50,governo,sì,base,1993,conti,Deficit medio,% PIL,più basso è meglio,1993,10.030,4.742,5.288,16,24,Italia meno vicini,17,24,1993: vicini 2 su 3
@@ -215,6 +241,8 @@ G51,governo 1994-1995,n. 51,breve,no,base,1994,lavoro,Variazione del tasso di oc
 G51,governo 1994-1995,n. 51,breve,no,base,1994,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1993->1994,1.745,1.394,0.351,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G51,governo 1994-1995,n. 51,breve,no,base,1994,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1993->1994,1.100,0.533,0.567,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G51,governo 1994-1995,n. 51,breve,no,base,1994,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1993->1994,3.100,2.700,0.400,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,base,1994,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1994,-1.104,-0.132,-0.972,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,base,1994,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1993->1994,-6.002,-2.672,-3.330,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G51,governo 1994-1995,n. 51,breve,no,base,1994,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1993->1994,5.898,2.772,3.126,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G51,governo 1994-1995,n. 51,breve,no,base,1994,conti,Saldo primario medio,% PIL,più alto è meglio,1994,2.277,-0.665,2.942,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; 1994: vicini 2 su 3
 G51,governo 1994-1995,n. 51,breve,no,base,1994,conti,Deficit medio,% PIL,più basso è meglio,1994,9.083,3.984,5.099,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; 1994: vicini 2 su 3
@@ -231,6 +259,8 @@ G52,governo 1995-1996,n. 52,governo,sì,base,1995,lavoro,Variazione del tasso di
 G52,governo 1995-1996,n. 52,governo,sì,base,1995,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1994->1995,1.395,-1.451,2.846,23,24,Italia meno vicini,19,24,
 G52,governo 1995-1996,n. 52,governo,sì,base,1995,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1994->1995,0.100,0.933,-0.833,4,20,Italia meno vicini,6,21,
 G52,governo 1995-1996,n. 52,governo,sì,base,1995,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1994->1995,-0.900,1.267,-2.167,5,19,Italia meno vicini,7,21,
+G52,governo 1995-1996,n. 52,governo,sì,base,1995,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1995,-1.803,0.665,-2.468,22,24,Italia meno vicini,22,24,
+G52,governo 1995-1996,n. 52,governo,sì,base,1995,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1994->1995,2.301,-8.539,10.840,15,24,Italia meno vicini,17,24,
 G52,governo 1995-1996,n. 52,governo,sì,base,1995,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1994->1995,2.471,5.827,-3.356,6,24,Italia meno vicini,14,24,
 G52,governo 1995-1996,n. 52,governo,sì,base,1995,conti,Saldo primario medio,% PIL,più alto è meglio,1995,3.884,-3.146,7.030,1,24,Italia meno vicini,3,24,
 G52,governo 1995-1996,n. 52,governo,sì,base,1995,conti,Deficit medio,% PIL,più basso è meglio,1995,7.199,7.114,0.085,4,24,Italia meno vicini,13,24,
@@ -247,6 +277,8 @@ G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,lavoro,Variazione del tas
 G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1995->1998,0.198,-1.714,1.912,19,24,Italia meno vicini,14,24,
 G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1995->1998,1.300,0.467,0.833,12,20,Italia meno vicini,16,21,
 G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1995->1998,1.300,-0.733,2.033,16,19,Italia meno vicini,15,21,
+G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1996-1998,0.537,0.503,0.034,8,24,Italia meno vicini,8,24,
+G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1995->1998,17.170,-7.836,25.006,18,24,Italia meno vicini,20,24,
 G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1995->1998,-5.201,3.203,-8.404,2,24,Italia meno vicini,2,24,
 G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,conti,Saldo primario medio,% PIL,più alto è meglio,1996-1998,5.136,0.303,4.833,3,24,Italia meno vicini,1,24,
 G53,governo 1996-1998,n. 53,governo,sì,base,1996-1998,conti,Deficit medio,% PIL,più basso è meglio,1996-1998,4.191,3.518,0.673,7,24,Italia meno vicini,11,24,
@@ -263,6 +295,8 @@ G54,governo 1998-1999,n. 54,governo,sì,base,1999,lavoro,Variazione del tasso di
 G54,governo 1998-1999,n. 54,governo,sì,base,1999,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1998->1999,-0.963,-2.102,1.139,17,24,Italia meno vicini,12,24,
 G54,governo 1998-1999,n. 54,governo,sì,base,1999,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1998->1999,1.300,0.267,1.033,13,20,Italia meno vicini,16,21,
 G54,governo 1998-1999,n. 54,governo,sì,base,1999,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1998->1999,-0.400,-0.833,0.433,10,19,Italia meno vicini,9,21,
+G54,governo 1998-1999,n. 54,governo,sì,base,1999,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1999,0.414,0.829,-0.415,12,24,Italia meno vicini,9,24,
+G54,governo 1998-1999,n. 54,governo,sì,base,1999,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1998->1999,-2.552,-3.681,1.129,9,24,Italia meno vicini,13,24,
 G54,governo 1998-1999,n. 54,governo,sì,base,1999,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1998->1999,-0.828,-0.423,-0.405,9,24,Italia meno vicini,8,24,
 G54,governo 1998-1999,n. 54,governo,sì,base,1999,conti,Saldo primario medio,% PIL,più alto è meglio,1999,4.594,1.644,2.950,6,24,Italia meno vicini,2,24,
 G54,governo 1998-1999,n. 54,governo,sì,base,1999,conti,Deficit medio,% PIL,più basso è meglio,1999,1.775,1.550,0.225,5,24,Italia meno vicini,1,24,
@@ -279,6 +313,8 @@ G55,governo 1999-2000,n. 55,breve,no,base,,lavoro,Variazione del tasso di occupa
 G55,governo 1999-2000,n. 55,breve,no,base,,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G55,governo 1999-2000,n. 55,breve,no,base,,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G55,governo 1999-2000,n. 55,breve,no,base,,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,base,,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,base,,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G55,governo 1999-2000,n. 55,breve,no,base,,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G55,governo 1999-2000,n. 55,breve,no,base,,conti,Saldo primario medio,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G55,governo 1999-2000,n. 55,breve,no,base,,conti,Deficit medio,% PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
@@ -295,6 +331,8 @@ G56,governo 2000-2001,n. 56,governo,sì,base,2000,lavoro,Variazione del tasso di
 G56,governo 2000-2001,n. 56,governo,sì,base,2000,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1999->2000,-1.445,-2.442,0.997,16,24,Italia meno vicini,11,24,
 G56,governo 2000-2001,n. 56,governo,sì,base,2000,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1999->2000,0.300,0.267,0.033,10,20,Italia meno vicini,9,21,
 G56,governo 2000-2001,n. 56,governo,sì,base,2000,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1999->2000,-0.400,-1.367,0.967,11,19,Italia meno vicini,9,21,
+G56,governo 2000-2001,n. 56,governo,sì,base,2000,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2000,-0.909,0.061,-0.970,17,24,Italia meno vicini,20,24,
+G56,governo 2000-2001,n. 56,governo,sì,base,2000,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1999->2000,-19.415,-16.523,-2.892,6,24,Italia meno vicini,5,24,
 G56,governo 2000-2001,n. 56,governo,sì,base,2000,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1999->2000,-4.316,-1.941,-2.375,7,24,Italia meno vicini,3,24,
 G56,governo 2000-2001,n. 56,governo,sì,base,2000,conti,Saldo primario medio,% PIL,più alto è meglio,2000,3.682,1.702,1.980,8,24,Italia meno vicini,4,24,
 G56,governo 2000-2001,n. 56,governo,sì,base,2000,conti,Deficit medio,% PIL,più basso è meglio,2000,2.420,1.396,1.024,11,24,Italia meno vicini,3,24,
@@ -311,6 +349,8 @@ G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,lavoro,Variazione del tas
 G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2000->2004,-6.181,1.549,-7.730,2,24,Italia meno vicini,1,24,
 G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2000->2004,1.800,-1.033,2.833,20,20,Italia meno vicini,20,21,
 G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2000->2004,-1.600,1.400,-3.000,3,19,Italia meno vicini,6,21,
+G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2001-2004,0.095,0.257,-0.162,9,24,Italia meno vicini,16,24,
+G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2000->2004,-44.138,-21.602,-22.536,4,24,Italia meno vicini,3,24,
 G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2000->2004,-4.000,0.125,-4.125,5,24,Italia meno vicini,4,24,
 G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,conti,Saldo primario medio,% PIL,più alto è meglio,2001-2004,2.059,0.448,1.611,9,24,Italia meno vicini,8,24,
 G57,governo 2001-2005,n. 57,governo,sì,base,2001-2004,conti,Deficit medio,% PIL,più basso è meglio,2001-2004,3.187,2.329,0.858,10,24,Italia meno vicini,8,24,
@@ -327,6 +367,8 @@ G58,governo 2005-2006,n. 58,governo,sì,base,2005,lavoro,Variazione del tasso di
 G58,governo 2005-2006,n. 58,governo,sì,base,2005,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2004->2005,0.612,0.246,0.366,14,24,Italia meno vicini,17,24,
 G58,governo 2005-2006,n. 58,governo,sì,base,2005,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2004->2005,0.300,1.400,-1.100,3,20,Italia meno vicini,9,21,
 G58,governo 2005-2006,n. 58,governo,sì,base,2005,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2004->2005,3.300,5.500,-2.200,4,19,Italia meno vicini,18,21,
+G58,governo 2005-2006,n. 58,governo,sì,base,2005,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2005,0.401,-0.160,0.561,7,24,Italia meno vicini,10,24,
+G58,governo 2005-2006,n. 58,governo,sì,base,2005,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2004->2005,-3.702,-8.838,5.136,13,24,Italia meno vicini,12,24,
 G58,governo 2005-2006,n. 58,governo,sì,base,2005,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2004->2005,1.434,0.175,1.259,14,24,Italia meno vicini,11,24,
 G58,governo 2005-2006,n. 58,governo,sì,base,2005,conti,Saldo primario medio,% PIL,più alto è meglio,2005,0.386,0.514,-0.128,16,24,Italia meno vicini,13,24,
 G58,governo 2005-2006,n. 58,governo,sì,base,2005,conti,Deficit medio,% PIL,più basso è meglio,2005,4.099,1.882,2.217,14,24,Italia meno vicini,10,24,
@@ -343,6 +385,8 @@ G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,lavoro,Variazione del tas
 G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2005->2007,-3.757,-2.188,-1.569,9,24,Italia meno vicini,5,24,
 G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2005->2007,1.000,-0.400,1.400,16,20,Italia meno vicini,14,21,
 G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2005->2007,-0.500,1.067,-1.567,6,19,Italia meno vicini,8,21,
+G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2006-2007,-0.297,0.202,-0.499,14,24,Italia meno vicini,18,24,
+G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2005->2007,6.353,1.875,4.478,12,24,Italia meno vicini,19,24,
 G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2005->2007,-2.713,-4.280,1.567,15,24,Italia meno vicini,6,24,
 G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,conti,Saldo primario medio,% PIL,più alto è meglio,2006-2007,2.106,1.764,0.342,14,24,Italia meno vicini,7,24,
 G59,governo 2006-2008,n. 59,governo,sì,base,2006-2007,conti,Deficit medio,% PIL,più basso è meglio,2006-2007,2.466,0.540,1.925,13,24,Italia meno vicini,4,24,
@@ -359,6 +403,8 @@ G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,lavoro,Variazione del tas
 G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2007->2011,8.795,9.387,-0.592,12,24,Italia meno vicini,24,24,
 G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2007->2011,0.100,-1.767,1.867,18,20,Italia meno vicini,6,21,
 G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2007->2011,14.900,6.333,8.567,19,19,Italia meno vicini,21,21,
+G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2008-2011,-0.113,1.097,-1.209,18,24,Italia meno vicini,17,24,
+G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2007->2011,-47.182,-1.532,-45.650,2,24,Italia meno vicini,2,24,
 G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2007->2011,15.666,23.966,-8.300,3,24,Italia meno vicini,23,24,
 G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,conti,Saldo primario medio,% PIL,più alto è meglio,2008-2011,0.711,-3.206,3.917,5,24,Italia meno vicini,12,24,
 G60,governo 2008-2011,n. 60,governo,sì,base,2008-2011,conti,Deficit medio,% PIL,più basso è meglio,2008-2011,3.832,5.584,-1.753,2,24,Italia meno vicini,9,24,
@@ -375,6 +421,8 @@ G61,governo 2011-2013,n. 61,governo,sì,base,2012,lavoro,Variazione del tasso di
 G61,governo 2011-2013,n. 61,governo,sì,base,2012,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2011->2012,6.160,2.640,3.520,24,24,Italia meno vicini,23,24,
 G61,governo 2011-2013,n. 61,governo,sì,base,2012,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2011->2012,0.500,-0.600,1.100,15,20,Italia meno vicini,11,21,
 G61,governo 2011-2013,n. 61,governo,sì,base,2012,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2011->2012,4.300,1.800,2.500,17,19,Italia meno vicini,19,21,
+G61,governo 2011-2013,n. 61,governo,sì,base,2012,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2012,-3.886,-0.367,-3.519,24,24,Italia meno vicini,23,24,
+G61,governo 2011-2013,n. 61,governo,sì,base,2012,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2011->2012,-38.405,-12.119,-26.286,3,24,Italia meno vicini,4,24,
 G61,governo 2011-2013,n. 61,governo,sì,base,2012,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2011->2012,6.771,8.125,-1.354,8,24,Italia meno vicini,20,24,
 G61,governo 2011-2013,n. 61,governo,sì,base,2012,conti,Saldo primario medio,% PIL,più alto è meglio,2012,2.133,-2.924,5.057,2,24,Italia meno vicini,6,24,
 G61,governo 2011-2013,n. 61,governo,sì,base,2012,conti,Deficit medio,% PIL,più basso è meglio,2012,2.985,5.574,-2.589,1,24,Italia meno vicini,7,24,
@@ -391,6 +439,8 @@ G62,governo 2013-2014,n. 62,breve,no,base,2013,lavoro,Variazione del tasso di oc
 G62,governo 2013-2014,n. 62,breve,no,base,2013,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2012->2013,4.725,0.982,3.743,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G62,governo 2013-2014,n. 62,breve,no,base,2013,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2012->2013,-0.600,-0.367,-0.233,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G62,governo 2013-2014,n. 62,breve,no,base,2013,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2012->2013,4.300,2.167,2.133,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,base,2013,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2013,-0.288,0.245,-0.533,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,base,2013,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2012->2013,-13.149,-12.160,-0.989,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G62,governo 2013-2014,n. 62,breve,no,base,2013,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2012->2013,5.953,3.631,2.322,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G62,governo 2013-2014,n. 62,breve,no,base,2013,conti,Saldo primario medio,% PIL,più alto è meglio,2013,1.915,-1.533,3.448,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G62,governo 2013-2014,n. 62,breve,no,base,2013,conti,Deficit medio,% PIL,più basso è meglio,2013,2.875,4.101,-1.226,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
@@ -407,6 +457,8 @@ G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,lavoro,Variazione del tas
 G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2013->2016,-2.272,-4.036,1.764,18,24,Italia meno vicini,8,24,
 G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2013->2016,0.800,1.300,-0.500,7,20,Italia meno vicini,12,21,
 G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2013->2016,1.500,-0.133,1.633,13,19,Italia meno vicini,16,21,
+G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2014-2016,0.227,1.105,-0.878,16,24,Italia meno vicini,15,24,
+G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2013->2016,4.661,1.140,3.521,10,24,Italia meno vicini,18,24,
 G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2013->2016,2.388,-1.186,3.574,21,24,Italia meno vicini,13,24,
 G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,conti,Saldo primario medio,% PIL,più alto è meglio,2014-2016,1.617,-0.588,2.205,7,24,Italia meno vicini,10,24,
 G63,governo 2014-2016,n. 63,governo,sì,base,2014-2016,conti,Deficit medio,% PIL,più basso è meglio,2014-2016,2.561,2.775,-0.214,3,24,Italia meno vicini,6,24,
@@ -423,6 +475,8 @@ G64,governo 2016-2018,n. 64,governo,sì,base,2017,lavoro,Variazione del tasso di
 G64,governo 2016-2018,n. 64,governo,sì,base,2017,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2016->2017,-3.027,-2.827,-0.200,13,24,Italia meno vicini,7,24,
 G64,governo 2016-2018,n. 64,governo,sì,base,2017,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2016->2017,1.500,0.467,1.033,13,20,Italia meno vicini,18,21,
 G64,governo 2016-2018,n. 64,governo,sì,base,2017,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2016->2017,-1.800,-0.767,-1.033,7,19,Italia meno vicini,4,21,
+G64,governo 2016-2018,n. 64,governo,sì,base,2017,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2017,-0.833,0.497,-1.330,19,24,Italia meno vicini,19,24,
+G64,governo 2016-2018,n. 64,governo,sì,base,2017,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2016->2017,-1.443,-10.338,8.895,14,24,Italia meno vicini,14,24,
 G64,governo 2016-2018,n. 64,governo,sì,base,2017,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2016->2017,-0.499,-1.505,1.006,13,24,Italia meno vicini,9,24,
 G64,governo 2016-2018,n. 64,governo,sì,base,2017,conti,Saldo primario medio,% PIL,più alto è meglio,2017,1.236,0.087,1.149,11,24,Italia meno vicini,11,24,
 G64,governo 2016-2018,n. 64,governo,sì,base,2017,conti,Deficit medio,% PIL,più basso è meglio,2017,2.509,1.698,0.811,8,24,Italia meno vicini,5,24,
@@ -439,6 +493,8 @@ G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,lavoro,Variazione del tas
 G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2017->2019,-5.618,-3.242,-2.376,6,24,Italia meno vicini,3,24,
 G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2017->2019,1.500,-0.667,2.167,19,20,Italia meno vicini,18,21,
 G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2017->2019,3.100,-4.700,7.800,18,19,Italia meno vicini,17,21,
+G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2018-2019,0.339,0.779,-0.440,13,24,Italia meno vicini,11,24,
+G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2017->2019,-10.204,-4.796,-5.408,5,24,Italia meno vicini,8,24,
 G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2017->2019,0.157,-3.152,3.309,19,24,Italia meno vicini,10,24,
 G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,conti,Saldo primario medio,% PIL,più alto è meglio,2018-2019,1.659,0.430,1.229,10,24,Italia meno vicini,9,24,
 G65,governo 2018-2019,n. 65,governo,sì,base,2018-2019,conti,Deficit medio,% PIL,più basso è meglio,2018-2019,1.821,1.187,0.634,6,24,Italia meno vicini,2,24,
@@ -455,6 +511,8 @@ G66,governo 2019-2021,n. 66,governo,sì,base,2020,lavoro,Variazione del tasso di
 G66,governo 2019-2021,n. 66,governo,sì,base,2020,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2019->2020,0.530,2.604,-2.074,7,24,Italia meno vicini,16,24,
 G66,governo 2019-2021,n. 66,governo,sì,base,2020,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2019->2020,-1.900,-1.900,-0.000,9,20,Italia meno vicini,3,21,
 G66,governo 2019-2021,n. 66,governo,sì,base,2020,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2019->2020,0.500,-1.233,1.733,14,19,Italia meno vicini,13,21,
+G66,governo 2019-2021,n. 66,governo,sì,base,2020,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2020,-4.274,-1.327,-2.947,23,24,Italia meno vicini,24,24,
+G66,governo 2019-2021,n. 66,governo,sì,base,2020,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2019->2020,-166.564,-95.853,-70.711,1,24,Italia meno vicini,1,24,
 G66,governo 2019-2021,n. 66,governo,sì,base,2020,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2019->2020,20.481,15.909,4.572,22,24,Italia meno vicini,24,24,
 G66,governo 2019-2021,n. 66,governo,sì,base,2020,conti,Saldo primario medio,% PIL,più alto è meglio,2020,-5.958,-6.355,0.397,13,24,Italia meno vicini,24,24,
 G66,governo 2019-2021,n. 66,governo,sì,base,2020,conti,Deficit medio,% PIL,più basso è meglio,2020,9.379,7.741,1.638,12,24,Italia meno vicini,16,24,
@@ -471,6 +529,8 @@ G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,lavoro,Variazione del tas
 G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2020->2022,-5.952,-4.239,-1.713,8,24,Italia meno vicini,2,24,
 G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2020->2022,1.800,0.033,1.767,17,20,Italia meno vicini,20,21,
 G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2020->2022,-8.200,-4.867,-3.333,1,19,Italia meno vicini,1,21,
+G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2021-2022,1.183,0.347,0.836,5,24,Italia meno vicini,6,24,
+G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2020->2022,177.325,76.088,101.237,24,24,Italia meno vicini,24,24,
 G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2020->2022,-16.024,-5.714,-10.310,1,24,Italia meno vicini,1,24,
 G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,conti,Saldo primario medio,% PIL,più alto è meglio,2021-2022,-4.737,-3.102,-1.634,17,24,Italia meno vicini,23,24,
 G67,governo 2021-2022,n. 67,governo,sì,base,2021-2022,conti,Deficit medio,% PIL,più basso è meglio,2021-2022,8.489,4.607,3.881,15,24,Italia meno vicini,15,24,
@@ -487,6 +547,8 @@ G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,lavoro,Variazione del tas
 G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2022->2025,-3.138,-0.418,-2.720,5,24,Italia meno vicini,6,24,
 G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2022->2025,-3.300,-2.667,-0.633,6,20,Italia meno vicini,1,21,
 G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2022->2025,-6.900,-3.667,-3.233,2,19,Italia meno vicini,2,21,
+G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2023-2025,0.281,0.809,-0.528,15,24,Italia meno vicini,14,24,
+G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2022->2025,24.472,-10.712,35.184,21,24,Italia meno vicini,23,24,
 G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2022->2025,-1.252,-1.793,0.541,12,24,Italia meno vicini,7,24,
 G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,conti,Saldo primario medio,% PIL,più alto è meglio,2023-2025,-0.728,-1.843,1.115,12,24,Italia meno vicini,15,24,
 G68,governo 2022-oggi,n. 68,governo,sì,base,2023-2025,conti,Deficit medio,% PIL,più basso è meglio,2023-2025,4.519,3.665,0.854,9,24,Italia meno vicini,12,24,
@@ -503,6 +565,8 @@ G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,lavoro,Variazione del tas
 G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,conti,Saldo primario medio,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G34,governo 1978-1979,n. 34,governo,no,ritardo_1_anno,,conti,Deficit medio,% PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
@@ -519,6 +583,8 @@ G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,lavoro,Variazione del 
 G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,conti,Saldo primario medio,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G35,governo 1979 (mar-ago),n. 35,breve,no,ritardo_1_anno,,conti,Deficit medio,% PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
@@ -535,6 +601,8 @@ G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritar
 G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1979->1981,0.203,5.861,-5.658,2,24,Italia meno vicini,16,24,
 G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
 G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1980-1981,2.172,0.305,1.868,2,24,Italia meno vicini,4,24,
+G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1979->1981,7.221,-38.931,46.152,21,24,Italia meno vicini,19,24,
 G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1979->1981,0.199,3.759,-3.560,6,24,Italia meno vicini,11,24,
 G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,conti,Saldo primario medio,% PIL,più alto è meglio,1980-1981,-4.159,-0.582,-3.577,23,24,Italia meno vicini,23,24,1980: vicini 2 su 3; 1981: vicini 2 su 3
 G36+G37+G38,periodo di governo 1979-1981,"n. 36, n. 37, n. 38",periodo,sì,ritardo_1_anno,1980-1981,conti,Deficit medio,% PIL,più basso è meglio,1980-1981,8.919,2.478,6.441,17,24,Italia meno vicini,16,24,1980: vicini 2 su 3; 1981: vicini 2 su 3
@@ -551,6 +619,8 @@ G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,lavoro,Variazio
 G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1981->1983,4.711,4.523,0.188,15,24,Italia meno vicini,22,24,
 G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
 G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,,,,,,,,,,serie non disponibile per l'anno di partenza o di arrivo
+G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1982-1983,-0.296,0.310,-0.607,13,24,Italia meno vicini,18,24,
+G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1981->1983,10.542,-55.815,66.357,23,24,Italia meno vicini,21,24,
 G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1981->1983,10.497,6.441,4.056,22,24,Italia meno vicini,21,24,
 G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,conti,Saldo primario medio,% PIL,più alto è meglio,1982-1983,-2.870,-0.511,-2.359,19,24,Italia meno vicini,19,24,1982: vicini 2 su 3; 1983: vicini 2 su 3
 G39,governo 1981-1982,n. 39,governo,sì,ritardo_1_anno,1982-1983,conti,Deficit medio,% PIL,più basso è meglio,1982-1983,10.061,2.987,7.074,19,24,Italia meno vicini,18,24,1982: vicini 2 su 3; 1983: vicini 2 su 3
@@ -567,6 +637,8 @@ G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1
 G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1983->1984,2.391,2.506,-0.115,13,24,Italia meno vicini,20,24,
 G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1983->1984,-1.600,,,,,,3,22,
 G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1983->1984,4.700,,,,,,21,22,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1984,0.330,-0.014,0.344,7,24,Italia meno vicini,9,24,
+G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1983->1984,-10.234,-21.231,10.997,15,24,Italia meno vicini,7,24,
 G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1983->1984,5.271,3.035,2.236,12,24,Italia meno vicini,17,24,
 G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,conti,Saldo primario medio,% PIL,più alto è meglio,1984,-3.098,0.273,-3.371,22,24,Italia meno vicini,20,24,1984: vicini 2 su 3
 G40+G41,periodo di governo 1982-1983,"n. 40, n. 41",periodo,sì,ritardo_1_anno,1984,conti,Deficit medio,% PIL,più basso è meglio,1984,11.482,2.401,9.080,22,24,Italia meno vicini,23,24,1984: vicini 2 su 3
@@ -583,6 +655,8 @@ G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,lavoro,Variazio
 G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1984->1987,2.673,-2.351,5.024,24,24,Italia meno vicini,21,24,
 G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1984->1987,0.300,2.700,-2.400,2,21,Italia meno vicini,11,22,vicini 2 su 3
 G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1984->1987,4.300,,,,,,19,22,
+G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1985-1987,1.344,1.334,0.010,8,24,Italia meno vicini,7,24,
+G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1984->1987,23.756,-38.888,62.644,22,24,Italia meno vicini,22,24,
 G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1984->1987,13.385,4.301,9.084,24,24,Italia meno vicini,22,24,
 G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,conti,Saldo primario medio,% PIL,più alto è meglio,1985-1987,-3.583,0.611,-4.194,24,24,Italia meno vicini,21,24,1985: vicini 2 su 3; 1986: vicini 2 su 3; 1987: vicini 2 su 3
 G42,governo 1983-1986,n. 42,governo,sì,ritardo_1_anno,1985-1987,conti,Deficit medio,% PIL,più basso è meglio,1985-1987,11.952,2.079,9.873,23,24,Italia meno vicini,24,24,1985: vicini 2 su 3; 1986: vicini 2 su 3; 1987: vicini 2 su 3
@@ -599,6 +673,8 @@ G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1
 G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1987->1988,-1.059,-1.432,0.373,17,24,Italia meno vicini,12,24,
 G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1987->1988,0.400,2.400,-2.000,3,21,Italia meno vicini,13,22,
 G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1987->1988,0.200,-1.450,1.650,15,20,Italia meno vicini,12,22,vicini 2 su 3
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1988,1.986,1.617,0.369,6,24,Italia meno vicini,5,24,
+G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1987->1988,3.619,0.069,3.550,14,24,Italia meno vicini,15,24,
 G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1987->1988,1.552,-1.099,2.651,17,24,Italia meno vicini,13,24,
 G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,conti,Saldo primario medio,% PIL,più alto è meglio,1988,-2.752,0.250,-3.002,21,24,Italia meno vicini,18,24,1988: vicini 2 su 3
 G43+G44,periodo di governo 1986-1987,"n. 43, n. 44",periodo,sì,ritardo_1_anno,1988,conti,Deficit medio,% PIL,più basso è meglio,1988,11.046,2.302,8.744,21,24,Italia meno vicini,20,24,1988: vicini 2 su 3
@@ -615,6 +691,8 @@ G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,lavoro,Variazione del tasso
 G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,conti,Saldo primario medio,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G45,governo 1987-1988,n. 45,breve,no,ritardo_1_anno,,conti,Deficit medio,% PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
@@ -631,6 +709,8 @@ G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,lavoro,Variazio
 G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1988->1990,-2.984,-3.656,0.672,18,24,Italia meno vicini,3,24,
 G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1988->1990,-0.500,3.067,-3.567,1,21,Italia meno vicini,5,22,
 G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1988->1990,-1.700,-3.150,1.450,13,20,Italia meno vicini,8,22,vicini 2 su 3
+G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1989-1990,2.279,1.146,1.132,4,24,Italia meno vicini,3,24,
+G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1988->1990,-26.237,-24.790,-1.447,9,24,Italia meno vicini,4,24,
 G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1988->1990,4.142,1.733,2.409,16,24,Italia meno vicini,16,24,
 G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,conti,Saldo primario medio,% PIL,più alto è meglio,1989-1990,-1.812,1.112,-2.924,20,24,Italia meno vicini,16,24,1989: vicini 2 su 3; 1990: vicini 2 su 3
 G46,governo 1988-1989,n. 46,governo,sì,ritardo_1_anno,1989-1990,conti,Deficit medio,% PIL,più basso è meglio,1989-1990,11.437,1.529,9.908,24,24,Italia meno vicini,22,24,1989: vicini 2 su 3; 1990: vicini 2 su 3
@@ -647,6 +727,8 @@ G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,lavoro,Variazione de
 G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1990->1991,-0.723,0.094,-0.817,9,24,Italia meno vicini,13,24,
 G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1990->1991,0.100,0.500,-0.400,5,21,Italia meno vicini,8,22,
 G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1990->1991,-1.800,-1.400,-0.400,7,20,Italia meno vicini,6,22,vicini 2 su 3
+G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1991,0.284,2.388,-2.104,23,24,Italia meno vicini,11,24,
+G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1990->1991,-6.861,-7.579,0.718,11,24,Italia meno vicini,9,24,
 G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1990->1991,3.162,-0.350,3.512,20,24,Italia meno vicini,14,24,
 G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,conti,Saldo primario medio,% PIL,più alto è meglio,1991,-0.039,-0.286,0.247,15,24,Italia meno vicini,15,24,1991: vicini 2 su 3
 G47,governo 1989-1991,n. 47,governo,sì,ritardo_1_anno,1991,conti,Deficit medio,% PIL,più basso è meglio,1991,11.389,3.032,8.357,20,24,Italia meno vicini,21,24,1991: vicini 2 su 3
@@ -663,6 +745,8 @@ G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,lavoro,Variazione de
 G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1991->1992,1.890,1.921,-0.031,14,24,Italia meno vicini,19,24,
 G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1991->1992,1.800,0.733,1.067,15,21,Italia meno vicini,19,22,
 G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1991->1992,-1.800,-3.250,1.450,13,20,Italia meno vicini,6,22,vicini 2 su 3
+G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1992,-0.005,3.705,-3.710,24,24,Italia meno vicini,13,24,
+G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1991->1992,3.104,-0.080,3.184,13,24,Italia meno vicini,14,24,
 G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1991->1992,6.534,2.895,3.639,21,24,Italia meno vicini,20,24,
 G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,conti,Saldo primario medio,% PIL,più alto è meglio,1992,1.857,-0.577,2.434,6,24,Italia meno vicini,8,24,1992: vicini 2 su 3
 G48,governo 1991-1992,n. 48,governo,sì,ritardo_1_anno,1992,conti,Deficit medio,% PIL,più basso è meglio,1992,10.373,3.616,6.756,18,24,Italia meno vicini,19,24,1992: vicini 2 su 3
@@ -679,6 +763,8 @@ G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,lavoro,Variazione del t
 G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1992->1993,-3.908,4.302,-8.210,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1992->1993,-1.100,-0.400,-0.700,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1992->1993,-0.200,0.833,-1.033,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1993,-1.439,0.955,-2.394,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1992->1993,-0.135,-14.289,14.154,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1992->1993,9.647,7.090,2.557,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,conti,Saldo primario medio,% PIL,più alto è meglio,1993,2.629,-1.540,4.169,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; 1993: vicini 2 su 3
 G49,governo 1992-1993,n. 49,breve,no,ritardo_1_anno,1993,conti,Deficit medio,% PIL,più basso è meglio,1993,10.030,4.742,5.288,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati; 1993: vicini 2 su 3
@@ -695,6 +781,8 @@ G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,lavoro,Variazione de
 G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1993->1994,1.745,1.394,0.351,16,24,Italia meno vicini,18,24,
 G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1993->1994,1.100,0.533,0.567,12,21,Italia meno vicini,16,22,
 G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1993->1994,3.100,2.700,0.400,9,20,Italia meno vicini,17,22,
+G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1994,-1.104,-0.132,-0.972,18,24,Italia meno vicini,22,24,
+G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1993->1994,-6.002,-2.672,-3.330,6,24,Italia meno vicini,10,24,
 G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1993->1994,5.898,2.772,3.126,19,24,Italia meno vicini,18,24,
 G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,conti,Saldo primario medio,% PIL,più alto è meglio,1994,2.277,-0.665,2.942,5,24,Italia meno vicini,6,24,1994: vicini 2 su 3
 G50,governo 1993-1994,n. 50,governo,sì,ritardo_1_anno,1994,conti,Deficit medio,% PIL,più basso è meglio,1994,9.083,3.984,5.099,16,24,Italia meno vicini,17,24,1994: vicini 2 su 3
@@ -711,6 +799,8 @@ G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,lavoro,Variazione del t
 G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1994->1995,1.395,-1.451,2.846,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1994->1995,0.100,0.933,-0.833,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1994->1995,-0.900,1.267,-2.167,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1995,-1.803,0.665,-2.468,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1994->1995,2.301,-8.539,10.840,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1994->1995,2.471,5.827,-3.356,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,conti,Saldo primario medio,% PIL,più alto è meglio,1995,3.884,-3.146,7.030,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G51,governo 1994-1995,n. 51,breve,no,ritardo_1_anno,1995,conti,Deficit medio,% PIL,più basso è meglio,1995,7.199,7.114,0.085,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
@@ -727,6 +817,8 @@ G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,lavoro,Variazione de
 G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1995->1996,0.305,0.649,-0.344,12,24,Italia meno vicini,17,24,
 G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1995->1996,0.200,-0.067,0.267,10,21,Italia meno vicini,9,22,
 G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1995->1996,1.200,1.400,-0.200,8,20,Italia meno vicini,14,22,
+G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1996,2.292,0.575,1.717,3,24,Italia meno vicini,2,24,
+G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1995->1996,8.939,-4.292,13.231,18,24,Italia meno vicini,20,24,
 G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1995->1996,-0.192,3.157,-3.349,7,24,Italia meno vicini,9,24,
 G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,conti,Saldo primario medio,% PIL,più alto è meglio,1996,4.422,-0.431,4.853,1,24,Italia meno vicini,2,24,
 G52,governo 1995-1996,n. 52,governo,sì,ritardo_1_anno,1996,conti,Deficit medio,% PIL,più basso è meglio,1996,6.608,4.467,2.141,12,24,Italia meno vicini,13,24,
@@ -743,6 +835,8 @@ G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,lavoro,Variazio
 G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1996->1999,-1.070,-4.465,3.395,21,24,Italia meno vicini,11,24,
 G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1996->1999,2.400,0.800,1.600,17,21,Italia meno vicini,21,22,
 G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1996->1999,-0.300,-2.967,2.667,17,20,Italia meno vicini,11,22,
+G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,1997-1999,-0.089,0.588,-0.677,14,24,Italia meno vicini,15,24,
+G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1996->1999,5.679,-7.226,12.905,17,24,Italia meno vicini,17,24,
 G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1996->1999,-5.837,-0.377,-5.460,3,24,Italia meno vicini,3,24,
 G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,conti,Saldo primario medio,% PIL,più alto è meglio,1997-1999,5.193,0.995,4.198,3,24,Italia meno vicini,1,24,
 G53,governo 1996-1998,n. 53,governo,sì,ritardo_1_anno,1997-1999,conti,Deficit medio,% PIL,più basso è meglio,1997-1999,2.580,2.546,0.034,4,24,Italia meno vicini,5,24,
@@ -759,6 +853,8 @@ G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,lavoro,Variazione de
 G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,1999->2000,-1.445,-2.442,0.997,19,24,Italia meno vicini,10,24,
 G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,1999->2000,0.300,0.267,0.033,9,21,Italia meno vicini,11,22,
 G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,1999->2000,-0.400,-1.367,0.967,11,20,Italia meno vicini,9,22,
+G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2000,-0.909,0.061,-0.970,17,24,Italia meno vicini,20,24,
+G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),1999->2000,-19.415,-16.523,-2.892,7,24,Italia meno vicini,5,24,
 G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,1999->2000,-4.316,-1.941,-2.375,8,24,Italia meno vicini,4,24,
 G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,conti,Saldo primario medio,% PIL,più alto è meglio,2000,3.682,1.702,1.980,9,24,Italia meno vicini,3,24,
 G54,governo 1998-1999,n. 54,governo,sì,ritardo_1_anno,2000,conti,Deficit medio,% PIL,più basso è meglio,2000,2.420,1.396,1.024,8,24,Italia meno vicini,3,24,
@@ -775,6 +871,8 @@ G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,lavoro,Variazione del tasso
 G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,conti,Saldo primario medio,% PIL,più alto è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G55,governo 1999-2000,n. 55,breve,no,ritardo_1_anno,,conti,Deficit medio,% PIL,più basso è meglio,,,,,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
@@ -791,6 +889,8 @@ G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,lavoro,Variazione de
 G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2000->2001,-2.644,-1.812,-0.832,8,24,Italia meno vicini,5,24,
 G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2000->2001,-0.500,-0.400,-0.100,7,21,Italia meno vicini,5,22,
 G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2000->2001,-0.400,-1.033,0.633,10,20,Italia meno vicini,9,22,
+G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2001,0.508,-0.018,0.526,5,24,Italia meno vicini,8,24,
+G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2000->2001,-9.535,-5.545,-3.990,5,24,Italia meno vicini,8,24,
 G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2000->2001,-0.230,-1.788,1.558,10,24,Italia meno vicini,8,24,
 G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,conti,Saldo primario medio,% PIL,più alto è meglio,2001,2.862,1.347,1.515,11,24,Italia meno vicini,5,24,
 G56,governo 2000-2001,n. 56,governo,sì,ritardo_1_anno,2001,conti,Deficit medio,% PIL,più basso è meglio,2001,3.181,1.666,1.515,11,24,Italia meno vicini,7,24,
@@ -807,6 +907,8 @@ G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,lavoro,Variazio
 G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2001->2005,-2.925,3.608,-6.533,1,24,Italia meno vicini,4,24,
 G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2001->2005,2.600,0.767,1.833,18,21,Italia meno vicini,22,22,
 G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2001->2005,2.100,7.933,-5.833,1,20,Italia meno vicini,15,22,
+G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2002-2005,0.068,0.221,-0.153,9,24,Italia meno vicini,12,24,
+G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2001->2005,-38.305,-24.896,-13.409,3,24,Italia meno vicini,3,24,
 G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2001->2005,-2.336,2.088,-4.424,5,24,Italia meno vicini,5,24,
 G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,conti,Saldo primario medio,% PIL,più alto è meglio,2002-2005,1.440,0.239,1.200,12,24,Italia meno vicini,10,24,
 G57,governo 2001-2005,n. 57,governo,sì,ritardo_1_anno,2002-2005,conti,Deficit medio,% PIL,più basso è meglio,2002-2005,3.417,2.383,1.033,9,24,Italia meno vicini,9,24,
@@ -823,6 +925,8 @@ G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,lavoro,Variazione de
 G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2005->2006,-2.355,-0.778,-1.577,7,24,Italia meno vicini,8,24,
 G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2005->2006,0.900,0.133,0.767,14,21,Italia meno vicini,15,22,
 G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2005->2006,-2.000,1.167,-3.167,3,20,Italia meno vicini,5,22,
+G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2006,-0.529,0.322,-0.851,16,24,Italia meno vicini,19,24,
+G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2005->2006,1.245,-1.870,3.115,12,24,Italia meno vicini,13,24,
 G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2005->2006,0.081,-2.295,2.376,15,24,Italia meno vicini,10,24,
 G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,conti,Saldo primario medio,% PIL,più alto è meglio,2006,0.810,1.536,-0.726,16,24,Italia meno vicini,12,24,
 G58,governo 2005-2006,n. 58,governo,sì,ritardo_1_anno,2006,conti,Deficit medio,% PIL,più basso è meglio,2006,3.605,0.764,2.841,13,24,Italia meno vicini,10,24,
@@ -839,6 +943,8 @@ G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,lavoro,Variazio
 G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2006->2008,-0.559,0.127,-0.686,10,24,Italia meno vicini,14,24,
 G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2006->2008,0.200,-1.100,1.300,16,21,Italia meno vicini,9,22,
 G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2006->2008,3.500,2.067,1.433,12,20,Italia meno vicini,18,22,
+G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2007-2008,-0.211,0.572,-0.784,15,24,Italia meno vicini,16,24,
+G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2006->2008,-5.729,7.016,-12.745,4,24,Italia meno vicini,11,24,
 G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2006->2008,-0.455,1.260,-1.715,9,24,Italia meno vicini,7,24,
 G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,conti,Saldo primario medio,% PIL,più alto è meglio,2007-2008,2.863,0.795,2.068,8,24,Italia meno vicini,4,24,
 G59,governo 2006-2008,n. 59,governo,sì,ritardo_1_anno,2007-2008,conti,Deficit medio,% PIL,più basso è meglio,2007-2008,1.955,1.546,0.409,6,24,Italia meno vicini,1,24,
@@ -855,6 +961,8 @@ G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,lavoro,Variazio
 G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2008->2012,14.112,10.491,3.621,22,24,Italia meno vicini,24,24,
 G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2008->2012,0.500,-1.800,2.300,21,21,Italia meno vicini,14,22,
 G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2008->2012,17.200,5.967,11.233,20,20,Italia meno vicini,22,22,
+G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2009-2012,-0.995,0.739,-1.734,21,24,Italia meno vicini,21,24,
+G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2008->2012,-74.750,-16.922,-57.828,2,24,Italia meno vicini,2,24,
 G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2008->2012,20.098,28.846,-8.748,1,24,Italia meno vicini,23,24,
 G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,conti,Saldo primario medio,% PIL,più alto è meglio,2009-2012,0.663,-3.836,4.500,2,24,Italia meno vicini,13,24,
 G60,governo 2008-2011,n. 60,governo,sì,ritardo_1_anno,2009-2012,conti,Deficit medio,% PIL,più basso è meglio,2009-2012,3.932,6.284,-2.352,1,24,Italia meno vicini,11,24,
@@ -871,6 +979,8 @@ G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,lavoro,Variazione de
 G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2012->2013,4.725,0.982,3.743,23,24,Italia meno vicini,23,24,
 G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2012->2013,-0.600,-0.367,-0.233,6,21,Italia meno vicini,4,22,
 G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2012->2013,4.300,2.167,2.133,16,20,Italia meno vicini,19,22,
+G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2013,-0.288,0.245,-0.533,12,24,Italia meno vicini,17,24,
+G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2012->2013,-13.149,-12.160,-0.989,10,24,Italia meno vicini,6,24,
 G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2012->2013,5.953,3.631,2.322,14,24,Italia meno vicini,19,24,
 G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,conti,Saldo primario medio,% PIL,più alto è meglio,2013,1.915,-1.533,3.448,4,24,Italia meno vicini,7,24,
 G61,governo 2011-2013,n. 61,governo,sì,ritardo_1_anno,2013,conti,Deficit medio,% PIL,più basso è meglio,2013,2.875,4.101,-1.226,2,24,Italia meno vicini,6,24,
@@ -887,6 +997,8 @@ G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,lavoro,Variazione del t
 G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2013->2014,2.641,-1.004,3.645,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2013->2014,0.400,0.267,0.133,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2013->2014,2.600,0.867,1.733,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2014,0.005,1.044,-1.039,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
+G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2013->2014,-1.898,-1.435,-0.463,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2013->2014,2.944,1.040,1.904,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,conti,Saldo primario medio,% PIL,più alto è meglio,2014,1.732,-0.852,2.584,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
 G62,governo 2013-2014,n. 62,breve,no,ritardo_1_anno,2014,conti,Deficit medio,% PIL,più basso è meglio,2014,2.818,3.293,-0.475,,,,,,non confrontabile: governo sotto i 12 mesi o senza anni assegnati
@@ -903,6 +1015,8 @@ G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,lavoro,Variazio
 G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2014->2017,-7.940,-5.858,-2.082,6,24,Italia meno vicini,1,24,
 G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2014->2017,1.900,1.500,0.400,11,21,Italia meno vicini,20,22,
 G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2014->2017,-2.900,-1.767,-1.133,5,20,Italia meno vicini,4,22,
+G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2015-2017,-0.053,0.922,-0.975,19,24,Italia meno vicini,14,24,
+G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2014->2017,5.116,-7.763,12.879,16,24,Italia meno vicini,16,24,
 G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2014->2017,-1.055,-3.731,2.676,18,24,Italia meno vicini,6,24,
 G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,conti,Saldo primario medio,% PIL,più alto è meglio,2015-2017,1.451,-0.275,1.726,10,24,Italia meno vicini,9,24,
 G63,governo 2014-2016,n. 63,governo,sì,ritardo_1_anno,2015-2017,conti,Deficit medio,% PIL,più basso è meglio,2015-2017,2.458,2.243,0.214,5,24,Italia meno vicini,4,24,
@@ -919,6 +1033,8 @@ G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,lavoro,Variazione de
 G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2017->2018,-2.533,-2.099,-0.434,11,24,Italia meno vicini,7,24,
 G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2017->2018,1.600,-0.633,2.233,20,21,Italia meno vicini,18,22,
 G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2017->2018,3.000,-2.633,5.633,19,20,Italia meno vicini,16,22,
+G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2018,0.286,0.451,-0.165,10,24,Italia meno vicini,10,24,
+G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2017->2018,-0.459,1.610,-2.069,8,24,Italia meno vicini,12,24,
 G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2017->2018,0.457,-1.626,2.083,11,24,Italia meno vicini,12,24,
 G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,conti,Saldo primario medio,% PIL,più alto è meglio,2018,1.429,0.716,0.713,14,24,Italia meno vicini,11,24,
 G64,governo 2016-2018,n. 64,governo,sì,ritardo_1_anno,2018,conti,Deficit medio,% PIL,più basso è meglio,2018,2.192,0.996,1.196,10,24,Italia meno vicini,2,24,
@@ -935,6 +1051,8 @@ G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,lavoro,Variazio
 G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2018->2020,-2.555,1.461,-4.016,3,24,Italia meno vicini,6,24,
 G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2018->2020,-2.000,-1.933,-0.067,8,21,Italia meno vicini,2,22,
 G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2018->2020,0.600,-3.300,3.900,18,20,Italia meno vicini,13,22,
+G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2019-2020,-1.942,-0.110,-1.831,22,24,Italia meno vicini,23,24,
+G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2018->2020,-176.309,-102.259,-74.050,1,24,Italia meno vicini,1,24,
 G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2018->2020,20.181,14.383,5.798,23,24,Italia meno vicini,24,24,
 G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,conti,Saldo primario medio,% PIL,più alto è meglio,2019-2020,-2.035,-3.106,1.071,13,24,Italia meno vicini,17,24,
 G65,governo 2018-2019,n. 65,governo,sì,ritardo_1_anno,2019-2020,conti,Deficit medio,% PIL,più basso è meglio,2019-2020,5.414,4.559,0.855,7,24,Italia meno vicini,12,24,
@@ -951,6 +1069,8 @@ G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,lavoro,Variazione de
 G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2020->2021,0.022,-1.614,1.636,20,24,Italia meno vicini,15,24,
 G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2020->2021,1.500,0.800,0.700,13,21,Italia meno vicini,17,22,
 G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2020->2021,-3.300,-2.833,-0.467,6,20,Italia meno vicini,3,22,
+G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2021,5.230,2.008,3.222,1,24,Italia meno vicini,1,24,
+G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2020->2021,139.099,58.738,80.361,24,24,Italia meno vicini,24,24,
 G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2020->2021,-8.561,-1.935,-6.626,2,24,Italia meno vicini,2,24,
 G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,conti,Saldo primario medio,% PIL,più alto è meglio,2021,-5.456,-4.102,-1.354,17,24,Italia meno vicini,24,24,
 G66,governo 2019-2021,n. 66,governo,sì,ritardo_1_anno,2021,conti,Deficit medio,% PIL,più basso è meglio,2021,8.876,5.468,3.408,14,24,Italia meno vicini,15,24,
@@ -967,6 +1087,8 @@ G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,lavoro,Variazio
 G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2021->2023,-6.951,-3.028,-3.923,4,24,Italia meno vicini,2,24,
 G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2021->2023,-0.500,-2.533,2.033,19,21,Italia meno vicini,5,22,
 G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2021->2023,-8.000,-3.467,-4.533,2,20,Italia meno vicini,1,22,
+G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2022-2023,-2.551,-1.171,-1.380,20,24,Italia meno vicini,24,24,
+G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2021->2023,55.744,14.361,41.383,20,24,Italia meno vicini,23,24,
 G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2021->2023,-11.881,-6.462,-5.419,4,24,Italia meno vicini,1,24,
 G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,conti,Saldo primario medio,% PIL,più alto è meglio,2022-2023,-3.761,-2.062,-1.699,18,24,Italia meno vicini,22,24,
 G67,governo 2021-2022,n. 67,governo,sì,ritardo_1_anno,2022-2023,conti,Deficit medio,% PIL,più basso è meglio,2022-2023,7.618,3.739,3.878,15,24,Italia meno vicini,14,24,
@@ -983,6 +1105,8 @@ G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,lavoro,Variazio
 G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,lavoro,Variazione della disoccupazione giovanile 15-24,punti,più basso è meglio,2023->2025,-2.161,-0.016,-2.145,5,24,Italia meno vicini,9,24,
 G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,qualità del lavoro,Variazione della quota di dipendenti a tempo determinato,punti,più basso è meglio,2023->2025,-2.500,-0.900,-1.600,4,21,Italia meno vicini,1,22,
 G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,qualità del lavoro,Variazione del part-time involontario,punti,più basso è meglio,2023->2025,-3.800,-2.233,-1.567,4,20,Italia meno vicini,2,22,
+G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,qualità del lavoro,Crescita media annua del salario reale per dipendente,% annua,più alto è meglio,2024-2025,1.540,1.727,-0.187,11,24,Italia meno vicini,6,24,
+G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,qualità del lavoro,Variazione delle ore lavorate per occupato,ore annue,descrittivo (rango 1 = calo maggiore),2023->2025,6.954,-7.722,14.676,19,24,Italia meno vicini,18,24,
 G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,conti,Variazione del debito pubblico,punti di PIL,più basso è meglio,2023->2025,3.166,0.890,2.276,13,24,Italia meno vicini,15,24,
 G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,conti,Saldo primario medio,% PIL,più alto è meglio,2024-2025,0.659,-1.754,2.414,7,24,Italia meno vicini,14,24,
 G68,governo 2022-oggi,n. 68,governo,sì,ritardo_1_anno,2024-2025,conti,Deficit medio,% PIL,più basso è meglio,2024-2025,3.212,3.632,-0.420,3,24,Italia meno vicini,8,24,

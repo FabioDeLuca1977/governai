@@ -10,35 +10,35 @@ Mediana delle posizioni degli indicatori dell'ambito, da 0 (ultima) a 100 (prima
 
 | Legislatura | Governi | Anni | Conti | Crescita | Lavoro | Qualità del lavoro | Prezzi e mercati | Società |
 |---|---|---|---|---|---|---|---|---|
-| VIII legislatura (1979-1983) | 6 | 1980-1983 | 18 | 36 | 100 | — | 0 | — |
-| IX legislatura (1983-1987) | 3 | 1984-1987 | 0 | 82 | 55 | — | 23 | — |
-| X legislatura (1987-1992) | 4 | 1988-1991 | 9 | 45 | 0 | 72 | 23 | — |
+| VIII legislatura (1979-1983) | 6 | 1980-1983 | 18 | 36 | 100 | 100 | 0 | — |
+| IX legislatura (1983-1987) | 3 | 1984-1987 | 0 | 82 | 55 | 82 | 23 | — |
+| X legislatura (1987-1992) | 4 | 1988-1991 | 9 | 45 | 0 | 91 | 23 | — |
 | XI legislatura (1992-1994) | 2 | 1992-1993 | 27 | 55 | 91 | 56 | 23 | — |
 | XII legislatura (1994-1996) | 2 | 1994-1995 | 64 | 82 | 27 | 78 | 23 | — |
 | XIII legislatura (1996-2001) | 4 | 1996-2000 | 82 | 45 | 27 | 22 | 64 | — |
-| XIV legislatura (2001-2006) | 2 | 2001-2005 | 64 | 36 | 91 | 67 | 82 | 100 |
-| XV legislatura (2006-2008) | 1 | 2006-2007 | 36 | 18 | 36 | 56 | 91 | 73 |
-| XVI legislatura (2008-2013) | 2 | 2008-2012 | 91 | 27 | 64 | 6 | 55 | 30 |
-| XVII legislatura (2013-2018) | 3 | 2013-2017 | 64 | 45 | 9 | 50 | 73 | 40 |
-| XVIII legislatura (2018-2022) | 3 | 2018-2022 | 45 | 91 | 45 | 6 | 59 | 27 |
+| XIV legislatura (2001-2006) | 2 | 2001-2005 | 64 | 36 | 91 | 73 | 82 | 100 |
+| XV legislatura (2006-2008) | 1 | 2006-2007 | 36 | 18 | 36 | 45 | 91 | 73 |
+| XVI legislatura (2008-2013) | 2 | 2008-2012 | 91 | 27 | 64 | 11 | 55 | 30 |
+| XVII legislatura (2013-2018) | 3 | 2013-2017 | 64 | 45 | 9 | 33 | 73 | 40 |
+| XVIII legislatura (2018-2022) | 3 | 2018-2022 | 45 | 91 | 45 | 11 | 59 | 27 |
 | XIX legislatura (2022-oggi) | 1 | 2023-2025 | 45 | 64 | 73 | 89 | 86 | 50 |
 
 ### Anni spostati di uno (effetti in ritardo)
 
 | Legislatura | Governi | Anni | Conti | Crescita | Lavoro | Qualità del lavoro | Prezzi e mercati | Società |
 |---|---|---|---|---|---|---|---|---|
-| VIII legislatura (1979-1983) | 6 | 1981-1984 | 18 | 32 | 100 | — | 0 | — |
+| VIII legislatura (1979-1983) | 6 | 1981-1984 | 18 | 32 | 100 | 100 | 0 | — |
 | IX legislatura (1983-1987) | 3 | 1985-1988 | 0 | 73 | 9 | 90 | 23 | — |
-| X legislatura (1987-1992) | 4 | 1989-1992 | 9 | 27 | 9 | 67 | 18 | — |
-| XI legislatura (1992-1994) | 2 | 1993-1994 | 36 | 86 | 91 | 58 | 32 | — |
-| XII legislatura (1994-1996) | 2 | 1995-1996 | 100 | 82 | 27 | 79 | 18 | — |
-| XIII legislatura (1996-2001) | 4 | 1997-2001 | 73 | 45 | 18 | 31 | 68 | — |
-| XIV legislatura (2001-2006) | 2 | 2002-2006 | 45 | 18 | 91 | 60 | 86 | 80 |
-| XV legislatura (2006-2008) | 1 | 2007-2008 | 55 | 43 | 36 | 47 | 82 | 83 |
-| XVI legislatura (2008-2013) | 2 | 2009-2013 | 91 | 14 | 45 | 15 | 50 | 30 |
-| XVII legislatura (2013-2018) | 3 | 2014-2018 | 45 | 45 | 27 | 6 | 77 | 40 |
-| XVIII legislatura (2018-2022) | 3 | 2019-2023 | 36 | 91 | 73 | 38 | 59 | 27 |
-| XIX legislatura (2022-oggi) | 1 | 2024-2025 | 64 | 55 | 64 | 79 | 86 | 50 |
+| X legislatura (1987-1992) | 4 | 1989-1992 | 9 | 27 | 9 | 33 | 18 | — |
+| XI legislatura (1992-1994) | 2 | 1993-1994 | 36 | 86 | 91 | 56 | 32 | — |
+| XII legislatura (1994-1996) | 2 | 1995-1996 | 100 | 82 | 27 | 70 | 18 | — |
+| XIII legislatura (1996-2001) | 4 | 1997-2001 | 73 | 45 | 18 | 40 | 68 | — |
+| XIV legislatura (2001-2006) | 2 | 2002-2006 | 45 | 18 | 91 | 73 | 86 | 80 |
+| XV legislatura (2006-2008) | 1 | 2007-2008 | 55 | 43 | 36 | 44 | 82 | 83 |
+| XVI legislatura (2008-2013) | 2 | 2009-2013 | 91 | 14 | 45 | 9 | 50 | 30 |
+| XVII legislatura (2013-2018) | 3 | 2014-2018 | 45 | 45 | 27 | 11 | 77 | 40 |
+| XVIII legislatura (2018-2022) | 3 | 2019-2023 | 36 | 91 | 73 | 45 | 59 | 27 |
+| XIX legislatura (2022-oggi) | 1 | 2024-2025 | 64 | 55 | 64 | 80 | 86 | 50 |
 
 ## Indicatore per indicatore (anni della legislatura)
 
@@ -179,6 +179,40 @@ Posto calcolato sulla differenza con i vicini; per povertà ed emigrazione sul s
 | XVII legislatura (2013-2018) | 2012->2017 | 4,0 | 1,3 | +2,7 | 7° su 10 |
 | XVIII legislatura (2018-2022) | 2017->2022 | -4,6 | -10,8 | +6,2 | 9° su 10 |
 | XIX legislatura (2022-oggi) | 2022->2025 | -6,9 | -3,7 | -3,2 | 2° su 10 |
+
+### Crescita media annua del salario reale per dipendente (% annua)
+
+| Legislatura | Anni | Italia | Vicini | Differenza | Posto |
+|---|---|---|---|---|---|
+| VIII legislatura (1979-1983) | 1980-1983 | 0,9 | 0,3 | +0,6 | 1° su 12 |
+| IX legislatura (1983-1987) | 1984-1987 | 1,1 | 1,0 | +0,1 | 3° su 12 |
+| X legislatura (1987-1992) | 1988-1991 | 1,7 | 1,6 | +0,1 | 2° su 12 |
+| XI legislatura (1992-1994) | 1992-1993 | -0,7 | 2,3 | -3,1 | 12° su 12 |
+| XII legislatura (1994-1996) | 1994-1995 | -1,5 | 0,3 | -1,7 | 11° su 12 |
+| XIII legislatura (1996-2001) | 1996-2000 | 0,2 | 0,5 | -0,3 | 5° su 12 |
+| XIV legislatura (2001-2006) | 2001-2005 | 0,2 | 0,2 | -0,0 | 4° su 12 |
+| XV legislatura (2006-2008) | 2006-2007 | -0,3 | 0,2 | -0,5 | 7° su 12 |
+| XVI legislatura (2008-2013) | 2008-2012 | -0,9 | 0,8 | -1,7 | 10° su 12 |
+| XVII legislatura (2013-2018) | 2013-2017 | -0,1 | 0,8 | -0,9 | 9° su 12 |
+| XVIII legislatura (2018-2022) | 2018-2022 | -0,2 | 0,2 | -0,4 | 6° su 12 |
+| XIX legislatura (2022-oggi) | 2023-2025 | 0,3 | 0,8 | -0,5 | 8° su 12 |
+
+### Variazione delle ore lavorate per occupato (ore annue)
+
+| Legislatura | Anni | Italia | Vicini | Differenza | Posto |
+|---|---|---|---|---|---|
+| VIII legislatura (1979-1983) | 1979->1983 | 17,8 | -94,7 | +112,5 | 12° su 12 |
+| IX legislatura (1983-1987) | 1983->1987 | 13,5 | -60,1 | +73,6 | 11° su 12 |
+| X legislatura (1987-1992) | 1987->1991 | -29,5 | -32,3 | +2,8 | 3° su 12 |
+| XI legislatura (1992-1994) | 1991->1993 | 3,0 | -14,4 | +17,3 | 7° su 12 |
+| XII legislatura (1994-1996) | 1993->1995 | -3,7 | -11,2 | +7,5 | 5° su 12 |
+| XIII legislatura (1996-2001) | 1995->2000 | -4,8 | -28,0 | +23,2 | 8° su 12 |
+| XIV legislatura (2001-2006) | 2000->2005 | -47,8 | -30,4 | -17,4 | 2° su 12 |
+| XV legislatura (2006-2008) | 2005->2007 | 6,4 | 1,9 | +4,5 | 4° su 12 |
+| XVI legislatura (2008-2013) | 2007->2012 | -85,6 | -13,7 | -71,9 | 1° su 12 |
+| XVII legislatura (2013-2018) | 2012->2017 | -9,9 | -21,4 | +11,4 | 6° su 12 |
+| XVIII legislatura (2018-2022) | 2017->2022 | 0,6 | -24,6 | +25,1 | 9° su 12 |
+| XIX legislatura (2022-oggi) | 2022->2025 | 24,5 | -10,7 | +35,2 | 10° su 12 |
 
 ### Variazione del debito pubblico (punti di PIL)
 

@@ -49,6 +49,10 @@ INDICATORI = [
          tipo="variazione", verso=-1, ambito="qualità del lavoro", unita="punti", vicini=True),
     dict(id="part_time_involontario", nome="Variazione del part-time involontario", file="part_time_involontario",
          tipo="variazione", verso=-1, ambito="qualità del lavoro", unita="punti", vicini=True),
+    dict(id="salario_reale", nome="Crescita media annua del salario reale per dipendente", file="salario_reale_crescita",
+         tipo="media", verso=+1, ambito="qualità del lavoro", unita="% annua", vicini=True),
+    dict(id="ore_occupato", nome="Variazione delle ore lavorate per occupato", file="ore_per_occupato",
+         tipo="variazione", verso=0, ambito="qualità del lavoro", unita="ore annue", vicini=True),
     dict(id="debito", nome="Variazione del debito pubblico", file="debito_pil",
          tipo="variazione", verso=-1, ambito="conti", unita="punti di PIL", vicini=True),
     dict(id="saldo_primario", nome="Saldo primario medio", file="saldo_primario_pil",
@@ -423,8 +427,8 @@ def scrivi_rapporto(R: dict) -> None:
     w("**Come leggere.** La misura principale è la **differenza rispetto ai vicini**: il risultato dell'Italia "
       "meno la media di Francia, Germania e Spagna negli stessi anni. Così si toglie una parte degli shock "
       "comuni (crisi dell'euro, pandemia, energia, politica della BCE). Il **rango** dice in che posizione è "
-      "un governo tra quelli confrontabili (1° = risultato migliore rispetto ai vicini). Non c'è un voto unico: "
-      "la sintesi è per ambito. Nessun numero di questo rapporto prova che un risultato sia stato causato da un governo.")
+      "un governo tra quelli confrontabili (1° = risultato migliore rispetto ai vicini). Non c'è un voto con pesi "
+      "scelti da noi: la sintesi è per ambito e il punteggio complessivo da più punti di vista è in storia/punti_di_vista.md. Nessun numero di questo rapporto prova che un risultato sia stato causato da un governo.")
     w("")
 
     # ---------------- In breve
@@ -617,8 +621,9 @@ def scrivi_rapporto(R: dict) -> None:
     # ---------------- Sintesi per ambito
     w("## 6. Sintesi per ambito di tutti i governi")
     w("")
-    w("Posizione mediana 0-100 (100 = primo in tutti gli indicatori dell'ambito). Gli ambiti non si sommano: un governo "
-      "può andare bene sui conti e male sulla crescita, e il peso da dare a ciascun ambito è una scelta politica.")
+    w("Posizione mediana 0-100 (100 = primo in tutti gli indicatori dell'ambito). Un governo può andare bene sui "
+      "conti e male sulla crescita, e il peso da dare a ciascun ambito è una scelta politica: per questo il punteggio "
+      "complessivo si calcola con tutte le combinazioni di pesi (storia/punti_di_vista.md).")
     w("")
     w("| Governo o periodo | Anni | " + " | ".join(AMBITI) + " |")
     w("|---|---|" + "---|" * len(AMBITI))

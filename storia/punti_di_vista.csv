@@ -1,0 +1,37 @@
+tipo,id,etichetta,anni,n_unita,punteggio_equo,p10,p90,posto_equo,primo_terzo,ultimo_terzo,pesi_uguali,posto_pesi_uguali,posto_migliore,punto_migliore,posto_peggiore,punto_peggiore,ambiti_mancanti
+governo,G36+G37+G38,periodo di governo 1979-1981,1979-1980,24,78.3,30.4,100.0,4,59.8,14.1,64.3,3.0,2.0,3 punti di vista su 14,13.0,"prima prezzi e mercati, anni spostati di uno",società
+governo,G39,governo 1981-1982,1981-1982,24,26.1,4.3,82.6,19,20.7,59.3,50.9,12.0,6.0,"prima il lavoro, anni del mandato",23.0,4 punti di vista su 14,società
+governo,G40+G41,periodo di governo 1982-1983,1983,24,17.4,4.3,78.3,22,16.4,64.5,30.4,23.0,7.0,2 punti di vista su 14,23.0,7 punti di vista su 14,società
+governo,G42,governo 1983-1986,1984-1986,24,26.1,4.3,69.6,20,10.8,57.4,43.9,20.0,14.5,"prima la crescita, anni del mandato",23.0,2 punti di vista su 14,società
+governo,G43+G44,periodo di governo 1986-1987,1987,24,34.8,13.0,69.6,17,13.8,45.4,45.2,19.0,10.0,2 punti di vista su 14,20.0,2 punti di vista su 14,società
+governo,G46,governo 1988-1989,1988-1989,24,21.7,8.7,65.2,21,8.9,61.3,42.2,22.0,11.0,"prima la qualità del lavoro, anni del mandato",22.0,3 punti di vista su 14,società
+governo,G47,governo 1989-1991,1990,24,13.0,0.0,47.8,23,3.4,79.5,43.5,21.0,14.0,"prima la qualità del lavoro, anni del mandato",24.0,7 punti di vista su 14,società
+governo,G48,governo 1991-1992,1991,24,8.7,0.0,34.8,24,1.1,88.9,25.0,24.0,18.0,"prima il lavoro, anni spostati di uno",24.0,7 punti di vista su 14,società
+governo,G50,governo 1993-1994,1993,24,56.5,26.1,87.0,9,34.2,18.6,59.4,5.0,4.0,"prima il lavoro, anni del mandato",17.0,2 punti di vista su 14,società
+governo,G52,governo 1995-1996,1995,24,60.9,26.1,91.3,8,38.2,17.8,57.3,8.0,4.0,"prima i conti, anni del mandato",15.0,"prima prezzi e mercati, anni del mandato",società
+governo,G53,governo 1996-1998,1996-1998,24,34.8,8.7,73.9,18,16.1,43.2,51.0,11.0,7.0,"prima i conti, anni del mandato",22.0,"prima il lavoro, anni spostati di uno",società
+governo,G54,governo 1998-1999,1999,24,78.3,47.8,91.3,5,64.2,0.1,57.3,9.0,4.0,4 punti di vista su 14,10.0,"prima la qualità del lavoro, anni del mandato",società
+governo,G56,governo 2000-2001,2000,24,82.6,65.2,91.3,3,86.3,0.1,61.5,4.0,3.0,8 punti di vista su 14,8.0,"prima la qualità del lavoro, anni del mandato",società
+governo,G57,governo 2001-2005,2001-2004,24,100.0,82.6,100.0,1,97.1,0.0,76.4,1.0,1.0,13 punti di vista su 14,2.0,"prima la qualità del lavoro, anni spostati di uno",
+governo,G58,governo 2005-2006,2005,24,65.2,26.1,91.3,7,46.8,15.9,59.1,6.0,4.0,3 punti di vista su 14,15.0,"prima la crescita, anni spostati di uno",
+governo,G59,governo 2006-2008,2006-2007,24,52.2,13.0,82.6,11,32.6,29.3,46.4,17.0,6.0,3 punti di vista su 14,21.0,"prima il lavoro, anni del mandato",
+governo,G60,governo 2008-2011,2008-2011,24,43.5,8.7,78.3,13,19.3,42.6,49.0,14.0,9.0,"prima i conti, anni spostati di uno",20.0,"prima la qualità del lavoro, anni spostati di uno",
+governo,G61,governo 2011-2013,2012,24,43.5,8.7,78.3,14,22.2,34.8,46.4,16.0,7.0,"prima i conti, anni spostati di uno",22.0,"prima la qualità del lavoro, anni del mandato",
+governo,G63,governo 2014-2016,2014-2016,24,43.5,21.7,69.6,15,10.4,30.0,48.3,15.0,9.0,"prima prezzi e mercati, anni spostati di uno",19.0,"prima il lavoro, anni del mandato",
+governo,G64,governo 2016-2018,2017,24,47.8,21.7,65.2,12,5.3,20.6,51.4,10.0,9.0,2 punti di vista su 14,18.0,"prima la qualità del lavoro, anni spostati di uno",
+governo,G65,governo 2018-2019,2018-2019,24,39.1,8.7,65.2,16,8.1,43.1,49.7,13.0,10.0,"prima prezzi e mercati, anni del mandato",23.0,"prima la qualità del lavoro, anni spostati di uno",
+governo,G66,governo 2019-2021,2020,24,56.5,17.0,95.7,10,38.6,27.6,45.4,18.0,3.0,"prima la crescita, anni spostati di uno",22.0,"prima la società, anni del mandato",
+governo,G67,governo 2021-2022,2021-2022,24,69.6,39.1,91.3,6,51.3,5.8,58.6,7.0,5.0,2 punti di vista su 14,12.0,"prima la qualità del lavoro, anni spostati di uno",
+governo,G68,governo 2022-oggi,2023-2025,24,91.3,73.9,100.0,2,94.1,0.0,67.2,2.0,1.0,"prima la qualità del lavoro, anni spostati di uno",3.0,3 punti di vista su 14,
+legislatura,LVIII,VIII legislatura (1979-1983),1980-1983,12,45.5,9.1,90.9,6,33.1,40.7,50.9,4.0,3.0,2 punti di vista su 14,11.0,"prima prezzi e mercati, anni del mandato",società
+legislatura,LIX,IX legislatura (1983-1987),1984-1987,12,27.3,9.1,72.7,9,15.6,51.0,48.2,7.0,4.0,"prima la crescita, anni del mandato",11.0,5 punti di vista su 14,società
+legislatura,LX,X legislatura (1987-1992),1988-1991,12,0.0,0.0,36.4,12,0.6,89.3,33.6,12.0,9.0,"prima la qualità del lavoro, anni del mandato",12.0,13 punti di vista su 14,società
+legislatura,LXI,XI legislatura (1992-1994),1992-1993,12,54.5,27.3,90.9,4,38.7,17.6,50.2,5.0,2.0,"prima la crescita, anni spostati di uno",9.0,"prima prezzi e mercati, anni del mandato",società
+legislatura,LXII,XII legislatura (1994-1996),1994-1995,12,63.6,27.3,100.0,3,46.7,12.1,54.6,3.0,1.0,"prima i conti, anni spostati di uno",7.0,"prima il lavoro, anni spostati di uno",società
+legislatura,LXIII,XIII legislatura (1996-2001),1996-2000,12,45.5,18.2,72.7,7,20.3,35.6,48.1,8.0,4.0,2 punti di vista su 14,10.0,"prima il lavoro, anni del mandato",società
+legislatura,LXIV,XIV legislatura (2001-2006),2001-2005,12,90.9,63.6,100.0,1,84.9,1.4,74.2,1.0,1.0,9 punti di vista su 14,5.0,"prima la crescita, anni spostati di uno",
+legislatura,LXV,XV legislatura (2006-2008),2006-2007,12,54.5,27.3,81.8,5,33.5,13.0,50.1,6.0,3.0,3 punti di vista su 14,9.0,"prima la crescita, anni del mandato",
+legislatura,LXVI,XVI legislatura (2008-2013),2008-2012,12,27.3,0.0,63.6,10,9.4,53.4,46.2,10.0,5.0,"prima i conti, anni del mandato",12.0,"prima la qualità del lavoro, anni del mandato",
+legislatura,LXVII,XVII legislatura (2013-2018),2013-2017,12,27.3,9.1,54.5,11,2.7,62.3,44.0,11.0,7.0,2 punti di vista su 14,11.0,3 punti di vista su 14,
+legislatura,LXVIII,XVIII legislatura (2018-2022),2018-2022,12,45.5,18.2,81.8,8,21.6,23.4,46.4,9.0,4.0,2 punti di vista su 14,11.0,"prima la qualità del lavoro, anni del mandato",
+legislatura,LXIX,XIX legislatura (2022-oggi),2023-2025,12,90.9,72.7,100.0,2,92.7,0.0,67.8,2.0,1.0,4 punti di vista su 14,2.0,10 punti di vista su 14,

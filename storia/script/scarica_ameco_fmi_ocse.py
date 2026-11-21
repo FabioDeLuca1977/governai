@@ -157,6 +157,17 @@ def main():
           "Crescita annua della produttivita' del lavoro: PIL reale per ora lavorata (calcolata da OVGD/NLHT)",
           "% annua", FA, AMECO_PAG)
 
+    # 3b. Salario reale per dipendente (deflatore dei consumi privati) e ore per occupato
+    sr = etichetta_fonte(variazione(ameco("3.1.0.0.RWCDC")), FA)
+    salva("salario_reale_crescita", sr,
+          "Crescita annua del salario reale per dipendente: redditi da lavoro dipendente per dipendente, deflatore dei consumi privati (AMECO RWCDC)",
+          "% annua", FA, AMECO_PAG)
+    ore = etichetta_fonte(ameco("1.0.0.0.NLHA"), FA)
+    ore = con_germania_ovest(ore, ameco("1.0.0.0.NLHA", {"D_W": "DE"}), FA, 1991)
+    salva("ore_per_occupato", ore,
+          "Ore lavorate medie annue per occupato, tutta l'economia (AMECO NLHA; Germania Ovest prima del 1991)",
+          "ore annue", FA, AMECO_PAG)
+
     # 4. Disoccupazione
     u = etichetta_fonte(ameco("1.0.0.0.ZUTN"), FA)
     u = con_germania_ovest(u, ameco("1.0.0.0.ZUTN", {"D_W": "DE"}), FA, 1991)

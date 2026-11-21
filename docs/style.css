@@ -888,3 +888,20 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 /* Governi a confronto: i dati usati */
 .gv-dati td small{ display:block; color:var(--c-testo-2); font-size:12px; margin-top:2px; }
 .gv-dati td{ overflow-wrap:anywhere; }
+
+
+/* Governi a confronto: punteggio da più punti di vista */
+.pv-tab td small{ display:block; color:var(--c-testo-2); font-size:12px; margin-top:2px; }
+.pv-tab td{ overflow-wrap:anywhere; }
+.pv-int{ position:relative; display:block; height:10px; min-width:120px; background:var(--g-traccia); border-radius:5px; margin-top:4px; }
+.pv-fascia{ position:absolute; top:0; bottom:0; background:var(--c-accento); opacity:.35; border-radius:5px; }
+.pv-med{ position:absolute; top:-3px; width:4px; height:16px; margin-left:-2px; background:var(--c-accento); border-radius:2px; }
+.pv-sim{ margin-top:12px; }
+.pv-check{ display:flex; gap:8px; align-items:center; margin:12px 0 4px; font-weight:600; }
+.pv-h{ font-size:18px; margin:0 0 4px; }
+.pv-metodo{ margin-top:16px; }
+.pv-metodo summary{ cursor:pointer; font-weight:600; }
+.pv-metodo li{ margin:4px 0; }
+.pv-posto{ display:inline-block; min-width:2.2em; font-weight:700; color:var(--c-testo-2); }
+.pv-tab .pv-v{ min-width:0; }
+@media (max-width:699px){ .pv-tab.a-card td{ text-align:right; } .pv-tab.a-card td.principale{ text-align:left; } .pv-tab .pv-v{ flex:1 1 60%; max-width:65%; } }

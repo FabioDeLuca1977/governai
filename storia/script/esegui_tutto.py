@@ -11,6 +11,9 @@ import shutil
 import sys
 
 import analisi
+import governi
+import legislature
+import punti_di_vista
 import scarica_ameco_fmi_ocse
 import scarica_eurostat
 import scarica_istat_gini
@@ -29,3 +32,11 @@ for nome, mod in [("AMECO, FMI, OCSE (finanza pubblica e macro)", scarica_ameco_
                   ("Analisi", analisi)]:
     print(f"== {nome}")
     mod.main()
+
+# confronto tra governi e legislature, poi il punteggio da piu' punti di vista
+print("== Governi, legislature e punti di vista")
+R = governi.esegui()
+governi.scrivi_csv(R)
+governi.scrivi_rapporto(R)
+legislature.main()
+punti_di_vista.main()

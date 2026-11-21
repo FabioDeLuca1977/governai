@@ -462,6 +462,20 @@ def governi() -> dict:
                        | {"fonte": "; ".join(fonti), "descr": str(r.get("descrizione", "")), "url": str(r.get("url", "")),
                           "anni_dati": str(r.get("anni_disponibili", ""))})
         pag["verifica"] = {**pag["verifica"], "ind": ind, "serie": serie, "primo": G.PRIMO_ANNO, "ultimo": G.ULTIMO_ANNO}
+    # punteggio da più punti di vista (storia/script/punti_di_vista.py)
+    if isinstance(pag.get("punti_di_vista"), dict) and (d / "punti_di_vista.csv").exists():
+        pv = pd.read_csv(d / "punti_di_vista.csv", keep_default_na=False)
+        am = pd.read_csv(d / "punti_di_vista_ambiti.csv", keep_default_na=False)
+        num = ("punteggio_equo", "p10", "p90", "posto_equo", "primo_terzo", "ultimo_terzo", "pesi_uguali",
+               "posto_pesi_uguali", "posto_migliore", "posto_peggiore", "n_unita")
+        ambiti = {}
+        for r in am.itertuples():
+            ambiti.setdefault(r.tipo, {}).setdefault(r.id, {}).setdefault(r.versione, {})[r.ambito] = (
+                None if r.posizione == "" else float(r.posizione))
+        pag["punti_di_vista"] = {**pag["punti_di_vista"], "ambiti": ambiti,
+                                 "righe": {t: [{k: (float(v) if k in num else str(v)) for k, v in r.items() if k != "tipo"}
+                                               for r in pv[pv.tipo == t].sort_values("posto_equo").to_dict("records")]
+                                           for t in ("governo", "legislatura")}}
     return {**pag, "righe": righe(d / "governi_confronto.csv")}
 
 
