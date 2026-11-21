@@ -507,6 +507,17 @@ c) all'articolo 22, dopo il comma 1, è inserito il seguente: «1-bis. Ogni tre 
 
 **Quanto può valere (stima GovernAI, non è una copertura).** Se in un anno non si sostituisce, dopo automazione certificata, tra il 5% e il 15% delle circa 120.000 uscite stimate (INPS, vedi 09-C8), cioè tra 6.000 e 18.000 posti, al costo medio di circa 60.000 € l'anno con gli oneri, il risparmio lordo è tra **0,36 e 1,08 mld l'anno**, e si somma anno dopo anno finché dura l'onda dei pensionamenti. Tolti i costi delle macchine e la quota del 20%, in cinque anni il fondo per le tasse potrebbe arrivare tra circa 1 e 3 mld l'anno. Quanto si potrà davvero dipende da quanto lavoro le macchine fanno meglio: lo dirà la certificazione, non questa stima.
 
+**Quanto si risparmierebbe in tasse (stima indicativa, a regime dopo circa dieci anni).** Il fondo si alimenta solo con risparmi certificati: questi numeri non sono una copertura.
+
+| Scenario | Posti non sostituiti in tutto | Risparmio lordo | Taglio delle tasse l'anno (80% del netto) | Per contribuente IRPEF | Rispetto all'IRPEF netta |
+|---|---|---|---|---|---|
+| Prudente | 50.000 | 3,0 mld | **1,8 mld** | circa 40 € | 0,9% |
+| Centrale | 130.000 | 7,8 mld | **4,7 mld** | circa 110 € | 2,4% |
+| Alto | 218.000 | 13,1 mld | **7,8 mld** | circa 180 € | 4,0% |
+
+*Ipotesi.* Lo scenario centrale usa la stima di 130.000 posti della pubblica amministrazione «probabilmente riallocati» con l'AI (Implement Consulting Group per Google, 2025), quello alto i 218.000 «a rischio sostituzione» (FPA, 2024), quello prudente circa un terzo del centrale; i posti si liberano solo con le uscite per pensione. Costo di un posto circa 60.000 € l'anno con gli oneri; le macchine costano il 25% di quanto si risparmia sul personale; del netto l'80% va alle tasse e il 20% è il premio per chi resta (da 0,45 a 2 mld). Per persona: diviso per i 42,8 milioni di contribuenti IRPEF e confrontato con 197,4 mld di IRPEF netta (MEF, anno d'imposta 2024); il taglio andrebbe soprattutto ai lavoratori, quindi per ciascuno di loro sarebbe più alto. Nel programma intermedio 09-C7 è in versione essenziale (amministrazioni centrali, INPS, Agenzie fiscali), che secondo la scheda vale circa metà dell'effetto pieno. Il primo taglio arriva al più presto dal 2030. Le esperienze reali (Regno Unito, Danimarca) sono state finora più basse delle stime.
+
+
 | Variante | Contenuto | Costo 2027/28/29 → regime | Intensità | Coperture |
 |---|---|---|---|---|
 | PIENA | Tutte le amministrazioni, centrali e territoriali, compresa la parte amministrativa di scuole e sanità, dopo l'intesa in Conferenza unificata; spesa consolidata con le partecipate; certificazione RGS; fondo per le tasse sul lavoro; riduzione dei tributi locali come scelta premiata; schede pubbliche per ente | 0,005 / 0,015 / 0,015 → **0,015** (2028) | 1,0 | RIALLOCAZIONE 0,015 (RA13) |
