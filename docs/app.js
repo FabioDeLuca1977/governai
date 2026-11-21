@@ -846,6 +846,10 @@
       ${P.elusione ? `<section class="blocco"><h2>Contro chi ama aggirare le regole</h2><p>${esc(P.elusione.intro || "")}</p>
         <div class="tabella-scorre"><table class="tabella a-card"><thead><tr><th>Il trucco</th><th>La regola che lo chiude</th></tr></thead>
         <tbody>${(P.elusione.righe || []).map((r) => `<tr><td class="principale">${esc(r.trucco)}</td><td data-etichetta="Regola">${esc(r.regola)}</td></tr>`).join("")}</tbody></table></div></section>` : ""}
+      ${P.tasse ? `<section class="blocco"><h2>Quanto si risparmierebbe in tasse <small>stima indicativa, a regime</small></h2><p>${esc(P.tasse.intro || "")}</p>
+        <div class="tabella-scorre"><table class="tabella a-card"><thead><tr><th>Scenario</th><th class="num">Posti non sostituiti</th><th class="num">Risparmio lordo</th><th class="num">Taglio delle tasse l'anno</th><th class="num">Per contribuente IRPEF</th><th class="num">Rispetto all'IRPEF</th></tr></thead>
+        <tbody>${(P.tasse.righe || []).map((r) => `<tr><td class="principale">${esc(r.scenario)}</td><td class="num" data-etichetta="Posti non sostituiti">${esc(r.posti)}</td><td class="num" data-etichetta="Risparmio lordo">${esc(r.lordo)}</td><td class="num" data-etichetta="Taglio delle tasse"><strong>${esc(r.tasse)}</strong></td><td class="num" data-etichetta="Per contribuente">${esc(r.persona)}</td><td class="num" data-etichetta="Rispetto all'IRPEF">${esc(r.irpef)}</td></tr>`).join("")}</tbody></table></div>
+        <details class="pv-metodo"><summary>Le ipotesi del calcolo</summary><ul>${(P.tasse.ipotesi || []).map((x) => `<li>${esc(x)}</li>`).join("")}</ul></details></section>` : ""}
       ${P.stime ? `<section class="blocco"><h2>Quanti posti ripetitivi si possono risparmiare</h2><p>${esc(P.stime.intro || "")}</p>
         <div class="tabella-scorre"><table class="tabella a-card"><thead><tr><th>Chi lo dice</th><th>Che cosa dice</th></tr></thead>
         <tbody>${(P.stime.righe || []).map((r) => `<tr><td class="principale">${esc(r.chi)}</td><td data-etichetta="Stima">${esc(r.cosa)}</td></tr>`).join("")}</tbody></table></div>

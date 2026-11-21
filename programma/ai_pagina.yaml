@@ -68,6 +68,33 @@ stime:
     - chi: "Robot nelle fabbriche"
       cosa: "L'Italia ha 237 robot ogni 10.000 addetti della manifattura, la Germania 449 (IFR 2025). In Germania i posti persi in fabbrica sono stati compensati da nuovi posti nei servizi."
   fonti: "OCSE, Employment Outlook 2019 (scheda Italia); Banca d'Italia, Questioni di economia e finanza n. 878, 2024; OIL, Working Paper 140, 2025; Implement Consulting Group 2025 e FPA 2024 (stime private sulla PA); governo britannico, prova di Microsoft 365 Copilot, 2025; Copenhagen Business School, 2025; IFR, World Robotics 2025; Dauth e coautori, JEEA 2021."
+tasse:
+  intro: "Quanto si risparmierebbe in tasse? Solo il dividendo dell'automazione (09-C11) riduce le tasse; l'AI nelle piccole imprese (01-P26) costa 0,08 mld l'anno e punta sulla produttività. La stima è indicativa e non è usata come copertura: conta solo ciò che la Ragioneria certificherà."
+  righe:
+    - scenario: "Prudente"
+      posti: "50.000"
+      lordo: "3,0 mld"
+      tasse: "1,8 mld"
+      persona: "circa 40 €"
+      irpef: "0,9%"
+    - scenario: "Centrale"
+      posti: "130.000"
+      lordo: "7,8 mld"
+      tasse: "4,7 mld"
+      persona: "circa 110 €"
+      irpef: "2,4%"
+    - scenario: "Alto"
+      posti: "218.000"
+      lordo: "13,1 mld"
+      tasse: "7,8 mld"
+      persona: "circa 180 €"
+      irpef: "4,0%"
+  ipotesi:
+    - "Posti non sostituiti in tutto, quando la misura è a regime dopo circa dieci anni: lo scenario centrale usa la stima di 130.000 posti della pubblica amministrazione «probabilmente riallocati» con l'AI (Implement Consulting Group per Google, 2025), quello alto i 218.000 «a rischio sostituzione» (FPA, 2024), quello prudente circa un terzo del centrale. I posti si liberano solo con le uscite per pensione, fino a circa 120.000 l'anno."
+    - "Costo di un posto circa 60.000 euro l'anno con gli oneri; le macchine costano il 25% di quanto si risparmia sul personale; del risparmio netto l'80% va alle tasse e il 20% è il premio per chi resta (da 0,45 a 2 mld)."
+    - "Per persona: diviso per i 42,8 milioni di contribuenti IRPEF (MEF, anno d'imposta 2024) e confrontato con 197,4 mld di IRPEF netta. Il taglio andrebbe soprattutto ai lavoratori, con la detrazione per il lavoro o il trattamento integrativo, quindi per ciascuno di loro sarebbe più alto."
+    - "Nel programma intermedio l'automazione (09-C7) è in versione essenziale, nelle amministrazioni centrali, all'INPS e nelle Agenzie fiscali: secondo la scheda vale circa metà dell'effetto pieno. Regioni e Comuni contano solo se automatizzano e aderiscono."
+    - "Il primo taglio arriva al più presto dal 2030: prime uscite non sostituite nel 2028, certificazione nel 2029, sgravio con la legge di bilancio successiva. Le esperienze reali finora sono state più basse delle stime."
 proposte: [09-C11, 01-P26, 09-C7, 09-C8, 09-C9, 09-C10, 09-C5, 09-C2, 09-C1, 06-C10, 07-C1, 08-P1, 05-C2, 05-C6, 05-C10, 01-P9]
 limiti:
   - "Quanto lavoro le macchine fanno davvero meglio nella pubblica amministrazione italiana non è ancora misurato: per questo nulla si conta prima della certificazione e la stima del risparmio non è una copertura."
