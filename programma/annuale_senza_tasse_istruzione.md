@@ -26,7 +26,7 @@ Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno (ipote
 
 | Anno | Spesa prevista sulle risorse generali | Spesa avviata | Rinviata | di cui nucleo | Riforme a costo quasi zero | Nucleo e primo gruppo | Altre misure |
 |---|---|---|---|---|---|---|---|
-| 2027 | 1,10 | 0,03 | 1,07 | 0,99 | 37% | 0% | 0% |
+| 2027 | 1,10 | 0,03 | 1,07 | 0,99 | 38% | 0% | 0% |
 | 2028 | 1,88 | 1,01 | 0,87 | 0,79 | 100% | 51% | 0% |
 | 2029 | 2,31 | 1,53 | 0,78 | 0,70 | 100% | 66% | 0% |
 | 2030 | 2,38 | 2,32 | 0,06 | 0,00 | 100% | 100% | 26% |

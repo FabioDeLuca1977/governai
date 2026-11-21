@@ -157,7 +157,10 @@ LEGAMI = {"FN01": ["01-P8:PIENA", "01-P8:ESSENZIALE"],
           "FN12": ["01-P24:ESSENZIALE"]}
 # Varianti che si possono scegliere solo insieme a un'altra (scelta del 16/11/2026: la parità delle imprese di persone
 # 01-P25 si attiva solo se la paga la patrimoniale minima 01-P24)
-LEGAMI_VARIANTI = {"01-P25:ESSENZIALE": ["01-P24:ESSENZIALE"]}
+# 21/11/2026: il dividendo dell'automazione 09-C11 certifica solo ciò che 09-C7 ha automatizzato
+_C7 = ["09-C7:PIENA", "09-C7:ESSENZIALE", "09-C7:PILOTA"]
+LEGAMI_VARIANTI = {"01-P25:ESSENZIALE": ["01-P24:ESSENZIALE"],
+                   "09-C11:PIENA": _C7, "09-C11:ESSENZIALE": _C7, "09-C11:PILOTA": _C7}
 
 RE_COMPENSAZIONE = re.compile(r"compens|salvaguard|ISEE|esclus|esent|franchigia", re.I)
 

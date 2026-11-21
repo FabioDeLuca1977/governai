@@ -939,3 +939,13 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 01-P25,EQU,0,0,0,M,no,"Parità orizzontale tra SNC e SRL, ma beneficio a redditi d'impresa medio-alti e progressività ridotta: effetti che si compensano"
 01-P25,SIC,0,0,0,A,no,Nessun effetto su sicurezza o raccolta dati
 01-P25,CIT,0,0,1,B,no,"Premia chi lascia utili in impresa; antiabuso sui prelievi mascherati tutela la reciprocità"
+09-C11,RIS,0,0,-1,M,no,"Niente eccedenze né disponibilità, graduatorie salve, autonomia locale rispettata con intesa; nel tempo meno concorsi amministrativi per chi cerca lavoro pubblico"
+09-C11,FID,1,1,2,M,no,"Certificazione con contraddittorio, trasmessa a Camere e UPB, solo su riduzioni effettive e senza doppi conteggi; resta dubbia la capacità RGS su migliaia di enti"
+09-C11,INN,0,1,1,M,no,"Il premio del 20% incentiva i dirigenti ad automatizzare davvero; effetto aggiuntivo limitato perché dipende interamente da 09-C7"
+09-C11,BEN,0,1,1,M,no,"Più detrazione o trattamento integrativo dall'anno dopo, importi modesti e solo proposti in bilancio; rischio di carichi maggiori su chi resta"
+09-C11,APC,0,0,0,M,no,"Nessun effetto diretto su competenze; meno assunzioni amministrative compensate dalla quota tecnica riservata di 09-C3"
+09-C11,BPA,0,0,0,A,no,"Nessun effetto rilevante su patrimonio, paesaggio e accoglienza"
+09-C11,FUT,0,1,1,M,no,"Solo riduzioni di spesa permanenti e certificate; se il risparmio cala la legge di bilancio ridetermina lo sgravio, quindi nessun conto scaricato"
+09-C11,EQU,0,0,-1,M,no,"Il trattamento integrativo raggiunge i redditi bassi; esclusi pensionati e disoccupati, enti ricchi tagliano più tributi, meno impiego pubblico al Sud"
+09-C11,SIC,0,0,0,A,no,"Nessun effetto su sicurezza; dati pubblicati solo in forma aggregata, senza riferimenti ai singoli dipendenti"
+09-C11,CIT,0,1,1,B,no,"Rende visibili ai contribuenti il dividendo e la pressione fiscale; confronto sindacale e adesione degli enti, nessuna partecipazione diretta dei cittadini"

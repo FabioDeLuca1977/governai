@@ -939,3 +939,13 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 01-P25,EQU,0,0,0,M,no,"Parità orizzontale tra SNC e SRL compensata da meno progressività per redditi d'impresa sopra 50.000 euro; rinvio, non esenzione"
 01-P25,SIC,0,0,0,A,no,Nessun effetto sulla sicurezza
 01-P25,CIT,0,1,1,B,no,"Premia chi reinveste nell'impresa e lascia scelta autonoma, con regole di prelievo chiare"
+09-C11,RIS,0,0,-1,M,no,"Niente eccedenze né disponibilità, graduatorie salve, intesa e tributi locali facoltativi; nel lungo periodo meno ingressi per chi cerca lavoro pubblico"
+09-C11,FID,1,2,2,M,no,"Certificazione RGS con contraddittorio, Camere e UPB, fondo vincolato e tetto alla riduzione effettiva; il Governo deve solo proporre il taglio"
+09-C11,INN,0,1,1,M,no,"Lega l'automazione a un risparmio misurato per servizio; effetto indiretto, dipende interamente dalla riuscita di 09-C7"
+09-C11,BEN,0,1,1,B,no,"Detrazione o trattamento integrativo per il lavoro e premio di un anno a chi resta, importi modesti; rischio di carichi nelle segreterie scolastiche"
+09-C11,APC,0,0,0,M,no,"Nessuna misura formativa propria; possibile riduzione del personale amministrativo scolastico, limitata dal vincolo di non peggiorare i tempi"
+09-C11,BPA,0,0,0,A,no,"Nessun effetto su patrimonio, paesaggio o accoglienza"
+09-C11,FUT,0,1,1,M,no,"Riduzioni di spesa effettive e permanenti, nessuna copertura ex ante e taglio rideterminato se i risparmi mancano; nulla va al debito"
+09-C11,EQU,0,0,-1,M,no,"Trattamento integrativo raggiunge i redditi bassi e vale ovunque; tributi locali calano negli enti più capaci e al Sud meno posti pubblici"
+09-C11,SIC,0,0,0,M,no,"Forze di polizia, militari, polizia locale e vigili del fuoco operativi esclusi; nessun effetto rilevante sulla sicurezza"
+09-C11,CIT,0,0,1,M,no,"Dividendo fiscale visibile, confronto sindacale e scelta locale tra meno tributi e servizi; nessun coinvolgimento diretto della cittadinanza"

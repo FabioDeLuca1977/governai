@@ -27,14 +27,14 @@ Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno (ipote
 
 | Anno | Spesa prevista sulle risorse generali | Spesa avviata | Rinviata | di cui nucleo | Riforme a costo quasi zero | Nucleo e primo gruppo | Altre misure |
 |---|---|---|---|---|---|---|---|
-| 2027 | 2,51 | 0,10 | 2,41 | 2,40 | 100% | 1% | 0% |
-| 2028 | 4,34 | 3,00 | 1,34 | 1,31 | 100% | 68% | 0% |
-| 2029 | 5,31 | 4,58 | 0,73 | 0,70 | 100% | 86% | 0% |
-| 2030 | 5,34 | 4,86 | 0,48 | 0,45 | 100% | 91% | 0% |
-| 2031 | 5,34 | 5,02 | 0,32 | 0,29 | 100% | 94% | 0% |
-| 2032 | 5,34 | 5,11 | 0,23 | 0,20 | 100% | 96% | 0% |
-| 2033 | 5,34 | 5,18 | 0,16 | 0,13 | 100% | 97% | 0% |
-| 2034 | 5,34 | 5,23 | 0,11 | 0,08 | 100% | 98% | 0% |
-| 2035 | 5,34 | 5,28 | 0,06 | 0,03 | 100% | 99% | 0% |
+| 2027 | 2,51 | 0,10 | 2,41 | 2,41 | 100% | 1% | 100% |
+| 2028 | 4,34 | 3,00 | 1,34 | 1,34 | 100% | 68% | 100% |
+| 2029 | 5,31 | 4,58 | 0,73 | 0,73 | 100% | 86% | 100% |
+| 2030 | 5,34 | 4,86 | 0,48 | 0,48 | 100% | 91% | 100% |
+| 2031 | 5,34 | 5,02 | 0,32 | 0,32 | 100% | 94% | 100% |
+| 2032 | 5,34 | 5,11 | 0,23 | 0,23 | 100% | 96% | 100% |
+| 2033 | 5,34 | 5,18 | 0,16 | 0,16 | 100% | 97% | 100% |
+| 2034 | 5,34 | 5,23 | 0,11 | 0,11 | 100% | 98% | 100% |
+| 2035 | 5,34 | 5,28 | 0,06 | 0,06 | 100% | 99% | 100% |
 
-In tutto slittano 5,84 mld di spesa negli anni di passaggio, di cui 5,59 del nucleo robusto; sulla coesione slittano 0,22 mld di spese una tantum oltre la capienza.
+In tutto slittano 5,84 mld di spesa negli anni di passaggio, di cui 5,84 del nucleo robusto; sulla coesione slittano 0,22 mld di spese una tantum oltre la capienza.

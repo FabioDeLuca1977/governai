@@ -905,3 +905,11 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 .pv-posto{ display:inline-block; min-width:2.2em; font-weight:700; color:var(--c-testo-2); }
 .pv-tab .pv-v{ min-width:0; }
 @media (max-width:699px){ .pv-tab.a-card td{ text-align:right; } .pv-tab.a-card td.principale{ text-align:left; } .pv-tab .pv-v{ flex:1 1 60%; max-width:65%; } }
+
+
+/* L'AI come chiave per l'Italia */
+.ai-dati .card{ min-width:0; overflow-wrap:anywhere; }
+.ai-num{ font:700 30px/1.1 var(--f-serif); color:var(--c-accento); margin:0 0 6px; }
+.ai-prop{ list-style:none; padding:0; margin:8px 0; display:grid; gap:6px; }
+.ai-prop a{ text-decoration:none; }
+.ai-prop .mono{ display:inline-block; min-width:5.2em; color:var(--c-testo-2); }

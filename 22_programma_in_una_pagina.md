@@ -6,7 +6,7 @@
 |---|---|---|---|
 | Un Paese dove chi nasce, studia, lavora e invecchia trova servizi che funzionano, e dove le scelte di oggi non pesano sui conti delle generazioni future. | Ogni misura pagata senza deficit: tagli di spesa nei ministeri, meno sussidi dannosi (tra cui il gasolio agevolato per autotrasporto e agricoltura) e agevolazioni inefficaci, accise su tabacco, alcol e bevande zuccherate, forfettario più alto tra 50.000 e 85.000 euro di ricavi e rivalutazione ridotta delle pensioni più alte dal 2030. Le misure incerte partono come sperimentazioni. | Con indicatori pubblici, aggiornati ogni anno, con base e obiettivo a 5 anni: nidi, abbandono scolastico, persone laureate, ricerca, produttività, cure, acqua, giustizia. | Famiglie con bambine e bambini piccoli, studentesse e studenti delle scuole più fragili, giovani, imprese che innovano, chi vive in territori a rischio, chi paga le tasse e chi usa giustizia e servizi pubblici. |
 
-**I conti:** 8,51 mld l'anno di spesa nuova, 79 misure su 94, coperture per 7,10 mld al minimo più i fondi vincolati. Nuovo deficit: zero.
+**I conti:** 8,52 mld l'anno di spesa nuova, 80 misure su 95, coperture per 7,10 mld al minimo più i fondi vincolati. Nuovo deficit: zero.
 
 ## Ce l'avremo fatta se…
 
@@ -198,7 +198,7 @@
 
 ## Uno Stato che funziona, istituzioni aperte
 
-*20 misure su 22 · 1,01 mld l'anno*
+*21 misure su 23 · 1,03 mld l'anno*
 
 **Perché.** Uno Stato rapido, giusto e trasparente fa risparmiare tempo alle persone e alle imprese e rafforza la fiducia. L'AI aiuta, ma decidono le persone. *Valori: Fiducia e trasparenza, Sicurezza senza controllo assoluto, Cittadinanza responsabile.*
 
@@ -215,6 +215,7 @@
 - 09-C6 Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità (piena, 0,03 mld)
 - 09-C7 Automazione dei processi ripetitivi con riallocazione garantita (pilota, 0,02 mld)
 - 08-P1 Legge sulla consulenza algoritmica pubblica (essenziale, 0,01 mld)
+- 09-C11 Dividendo dell'automazione: meno posti nelle attività ripetitive, meno tasse, regole contro l'elusione (piena, 0,01 mld)
 - 09-C9 Squadra per la produttività pubblica con l'AI: meno lavoro ripetitivo, più servizi alle persone (pilota, 0,01 mld)
 - 09-C10 Bandi pubblici con istruttoria assistita: domande compilate una volta, controlli in giorni invece che in mesi (pilota, 0,01 mld)
 - 08-P2 Patto per la buona legge (piena, 0,01 mld)

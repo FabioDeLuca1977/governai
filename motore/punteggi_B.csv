@@ -939,3 +939,13 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 01-P25,EQU,0,0,0,M,no,"Parità orizzontale tra SNC e SRL, ma il vantaggio va a redditi d'impresa medio-alti, non ai dipendenti"
 01-P25,SIC,0,0,0,A,no,Nessun effetto su sicurezza e controllo
 01-P25,CIT,0,1,1,B,no,"La forma d'impresa la sceglie l'impresa, non il fisco; presunzioni sui prelievi mascherati chiedono responsabilità"
+09-C11,RIS,0,0,-1,M,no,"Niente eccedenze né disponibilità, concorsi e risarcimento salvi, intesa con gli enti; nel lungo meno posti amministrativi per chi cerca lavoro"
+09-C11,FID,1,2,2,M,no,"Certificazione RGS con contraddittorio, trasmessa alle Camere; fondo vincolato e riduzione effettiva; parere UPB ora facoltativo, controfattuale ancora complesso"
+09-C11,INN,0,1,1,M,no,"Premia l'automazione efficace al netto delle macchine; premio del 20% per un solo anno e non consolidabile, incentivo debole per gli enti"
+09-C11,BEN,0,1,1,B,no,"Detrazione o trattamento integrativo e premio a chi resta, importi incerti; la legge di bilancio deve solo proporli; rischio di uffici sguarniti"
+09-C11,APC,0,0,0,M,no,Nessun effetto rilevante su istruzione e formazione; la riqualificazione resta in 09-C8 e 09-C7
+09-C11,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
+09-C11,FUT,0,1,1,B,no,"Solo riduzioni permanenti e certificate finanziano il taglio, senza deficit; il risparmio va in tasse e non in debito, durata incerta"
+09-C11,EQU,0,0,-1,B,no,"Trattamento integrativo raggiunge redditi bassi; ma enti in dissesto o piano di rientro, spesso al Sud, non riducono tributi e perdono posti"
+09-C11,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza; i rischi informatici dell'automazione sono già in 09-C7 e 09-C5
+09-C11,CIT,0,1,1,M,no,"Dividendo visibile ai contribuenti, reciprocità fiscale; tributi locali lasciati alla scelta dei consigli e confronto sindacale; nessuna partecipazione diretta"

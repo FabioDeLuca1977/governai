@@ -463,7 +463,7 @@
   }
 
   // ---------- Programma ----------
-  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["pronto", "Pronto domani", "#/programma/pronto"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["chi-paga", "Chi paga davvero", "#/programma/chi-paga"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["proponi", "Proponi un programma", "#/programma/proponi"], ["strategia", "Strategia", "#/programma/strategia"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
+  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["pronto", "Pronto domani", "#/programma/pronto"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["chi-paga", "Chi paga davvero", "#/programma/chi-paga"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["proponi", "Proponi un programma", "#/programma/proponi"], ["strategia", "Strategia", "#/programma/strategia"], ["ai", "AI e Stato", "#/programma/ai"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
 
   function elenco(params) {
     const sc = scenario(params.get("scenario") || RIF_ID);
@@ -827,6 +827,29 @@
       ${O.errc ? `<section class="blocco"><h2>Che cosa cambia GovernAI <small>elimina, riduce, aumenta, crea</small></h2>${grigliaErrc(O.errc, "Griglia del programma")}</section>` : ""}
       ${(O.non_clienti || []).length ? `<section class="blocco"><h2>Chi oggi la politica non raggiunge</h2><div class="griglia g3">${O.non_clienti.map((c) => `<div class="card"><p class="etichetta">${esc(c.fascia)}</p><h3>${esc(c.chi)}</h3><p>${codici(esc(c.offerta))}</p></div>`).join("")}</div></section>` : ""}
       <p class="nota">Il rapporto completo, con rischi e punti deboli dichiarati: ${ext(repo + "/blob/main/programma/oceano_blu.md", "programma/oceano_blu.md")}. Ogni proposta ha la sua griglia nella scheda.</p>`;
+  }
+
+  // ---------- L'AI come chiave per l'Italia (programma/ai_pagina.yaml) ----------
+  function aiPagina() {
+    const P = D.ai || {};
+    if (!P.in_breve) return `${schedeProgramma("ai")}${vuoto("Pagina non ancora disponibile.")}`;
+    const prop = (P.proposte || []).map((id) => proposta(id)).filter(Boolean);
+    return `${schedeProgramma("ai")}
+      <p class="risposta">${esc(P.in_breve)}</p>
+      <section class="blocco"><h2>Da dove partiamo <small>dati ufficiali, fonte in ogni riquadro</small></h2>
+        <div class="griglia g3 ai-dati">${(P.dati || []).map((x) => `<div class="card"><p class="ai-num">${esc(x.numero)}</p><p>${esc(x.testo)}</p><p class="nota">${esc(x.fonte)}</p></div>`).join("")}</div></section>
+      <section class="card blocco"><h2>Le macchine e le persone</h2><p>${esc(P.tesi || "")}</p></section>
+      <section class="blocco"><h2>La lettura ragionata</h2>
+        <div class="quattro">${Q4.map(([k, t, ic]) => `<div class="card q4"><p class="q4-t">${icona(ic)}${t}</p><p>${codici(esc(P[k] || ""))}</p></div>`).join("")}</div>
+        ${P.oceano_blu ? `<h3 class="q4-sotto">Che cosa cambia <small>griglia della strategia oceano blu</small></h3>${grigliaErrc(P.oceano_blu, "Elimina, riduce, aumenta, crea")}` : ""}
+      </section>
+      ${P.elusione ? `<section class="blocco"><h2>Contro chi ama aggirare le regole</h2><p>${esc(P.elusione.intro || "")}</p>
+        <div class="tabella-scorre"><table class="tabella a-card"><thead><tr><th>Il trucco</th><th>La regola che lo chiude</th></tr></thead>
+        <tbody>${(P.elusione.righe || []).map((r) => `<tr><td class="principale">${esc(r.trucco)}</td><td data-etichetta="Regola">${esc(r.regola)}</td></tr>`).join("")}</tbody></table></div></section>` : ""}
+      ${prop.length ? `<section class="blocco"><h2>Le proposte <small>${prop.length} nel programma</small></h2>
+        <ul class="ai-prop">${prop.map((p) => `<li><a href="${linkP(p.id)}"><span class="mono">${esc(p.id)}</span> ${esc(tit(p.titolo))}</a></li>`).join("")}</ul></section>` : ""}
+      ${(P.limiti || []).length ? `<div class="avviso"><div class="avviso-titolo">${icona("info")}Limiti da tenere presenti</div><ul>${P.limiti.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}
+      <p class="nota">Testi e fonti: ${ext(repo + "/blob/main/programma/ai_pagina.yaml", "programma/ai_pagina.yaml")}. La proposta 09-C11, con l'articolato e il controllo giuridico, è nella sua scheda.</p>`;
   }
 
   // ---------- 50 anni di scelte (cartella storia/) ----------
@@ -1901,6 +1924,7 @@
       else if (b === "valori") { html = simulatore(); titolo = "I tuoi valori"; }
       else if (b === "proponi") { html = proponi(params); titolo = "Proponi un programma"; }
       else if (b === "strategia") { html = strategia(); titolo = "Strategia oceano blu"; }
+      else if (b === "ai") { html = aiPagina(); titolo = "L'AI come chiave per l'Italia"; }
       else if (b === "chi-paga") { html = chiPaga(params); titolo = "Chi paga davvero"; }
       else if (b === "confronti") { html = confronti(params); titolo = "Confronti"; }
       else if (b === "sintesi") { html = sintesi(); titolo = "Le idee in sintesi"; }
