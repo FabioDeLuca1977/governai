@@ -949,3 +949,13 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 09-C11,EQU,0,0,-1,B,no,"Trattamento integrativo raggiunge redditi bassi; ma enti in dissesto o piano di rientro, spesso al Sud, non riducono tributi e perdono posti"
 09-C11,SIC,0,0,0,M,no,Nessun effetto rilevante sulla sicurezza; i rischi informatici dell'automazione sono già in 09-C7 e 09-C5
 09-C11,CIT,0,1,1,M,no,"Dividendo visibile ai contribuenti, reciprocità fiscale; tributi locali lasciati alla scelta dei consigli e confronto sindacale; nessuna partecipazione diretta"
+01-P26,RIS,0,0,0,M,no,"Informazione a tutti i lavoratori e divieto di usare i dati per controllarli; avvio a sorte temporaneo con misure vigenti accessibili"
+01-P26,FID,1,1,1,M,no,"Catalogo sempre aperto con requisiti predeterminati, registro con base di legge e valutazione Istat pubblica; revisione solo proposta, non automatica"
+01-P26,INN,1,2,2,M,no,"Check-up indipendente, soluzioni di settore e affiancamento hanno prove positive; catalogo aperto amplia l'offerta; 8.000 imprese l'anno restano poche"
+01-P26,BEN,0,1,1,B,no,"Produttività e salari possono salire nelle imprese servite, effetto indiretto e da misurare; mansioni che cambiano per chi lavora"
+01-P26,APC,1,1,1,M,no,"Formazione di titolari e dipendenti che usano la soluzione, con contributo del 70%; evidenze dicono che senza formazione l'effetto si annulla"
+01-P26,BPA,0,0,0,A,no,"Turismo e ristorazione tra i settori del catalogo, ma effetto marginale su patrimonio e accoglienza"
+01-P26,FUT,0,0,1,B,no,"Copertura su revisione della spesa RA13, FESR solo sostitutivo e risparmi ai saldi; possibile crescita della produttività nel lungo, non misurata"
+01-P26,EQU,0,1,1,B,no,"Riserva del 40% a Mezzogiorno e aree interne, check-up aperto a microimprese e professionisti; resta il rischio che aderiscano le più attrezzate"
+01-P26,SIC,0,0,0,M,no,"Dati in UE, esclusione delle pratiche vietate dall'AI Act e divieto di controllo dei lavoratori; effetto netto sulla sicurezza trascurabile"
+01-P26,CIT,0,0,0,M,no,"Passa da Camere, associazioni e convenzioni regionali, con informazione ai lavoratori; nessun effetto rilevante su partecipazione civica"

@@ -6,7 +6,7 @@
 |---|---|---|---|
 | Un Paese dove chi nasce, studia, lavora e invecchia trova servizi che funzionano, e dove le scelte di oggi non pesano sui conti delle generazioni future. | Ogni misura pagata senza deficit: tagli di spesa nei ministeri, meno sussidi dannosi (tra cui il gasolio agevolato per autotrasporto e agricoltura) e agevolazioni inefficaci, accise su tabacco, alcol e bevande zuccherate, forfettario più alto tra 50.000 e 85.000 euro di ricavi e rivalutazione ridotta delle pensioni più alte dal 2030. Le misure incerte partono come sperimentazioni. | Con indicatori pubblici, aggiornati ogni anno, con base e obiettivo a 5 anni: nidi, abbandono scolastico, persone laureate, ricerca, produttività, cure, acqua, giustizia. | Famiglie con bambine e bambini piccoli, studentesse e studenti delle scuole più fragili, giovani, imprese che innovano, chi vive in territori a rischio, chi paga le tasse e chi usa giustizia e servizi pubblici. |
 
-**I conti:** 8,52 mld l'anno di spesa nuova, 80 misure su 95, coperture per 7,10 mld al minimo più i fondi vincolati. Nuovo deficit: zero.
+**I conti:** 8,60 mld l'anno di spesa nuova, 81 misure su 96, coperture per 7,10 mld al minimo più i fondi vincolati. Nuovo deficit: zero.
 
 ## Ce l'avremo fatta se…
 
@@ -93,13 +93,14 @@
 
 ## Lavoro, ricerca e imprese che crescono
 
-*7 misure su 10 · 0,23 mld l'anno*
+*8 misure su 11 · 0,31 mld l'anno*
 
 **Perché.** Produttività e salari sono fermi da anni. Più ricerca e innovazione nelle imprese, soprattutto piccole, servono a creare lavoro migliore e pagato meglio. *Valori: Innovazione, Responsabilità verso il futuro, Apprendimento e cultura.*
 
 **Come.** Un solo credito d'imposta per la ricerca, stabile e più forte per le piccole imprese; la pubblica amministrazione (PA) compra innovazione; un fondo per le imprese tecnologiche; centri di ricerca al servizio delle imprese.
 
 - 01-P5 Energia a prezzo stabile per le PMI (PPA rinnovabili) (essenziale, 0,15 mld)
+- 01-P26 AI nelle piccole imprese: una sola porta, soluzioni per settore, pagamento a risultato (piena, 0,08 mld)
 - 05-C10 Rete nazionale per la ricerca applicata sul modello Fraunhofer (pilota, 0,05 mld)
 - 01-P14 Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi (pilota, 0,03 mld)
 - 01-P6 Turismo che ripaga i territori: tassa di soggiorno intelligente (solo regole, costo zero)

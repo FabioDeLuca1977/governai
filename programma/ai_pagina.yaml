@@ -3,7 +3,7 @@
 # (dataset indicati in ogni riga) e serie di storia/serie/ (AMECO). Scelta politica di chi guida il progetto:
 # trasformazione digitale della PA con meno posti nelle attività ripetitive e meno tasse (09-C11).
 titolo: "L'AI come chiave per l'Italia"
-in_breve: "L'Italia cresce poco perché produce poco per ora lavorata, e i salari reali sono fermi da trent'anni. L'intelligenza artificiale è la prima tecnologia che rende accessibili a tutti, anche a un piccolo Comune o a un artigiano, competenze che prima avevano solo i grandi. GovernAI parte dallo Stato: le macchine fanno il lavoro ripetitivo, le persone il giudizio e la relazione, i posti che non servono più non si rimpiazzano quando qualcuno va in pensione e il risparmio, certificato, torna a chi paga le tasse."
+in_breve: "L'Italia cresce poco perché produce poco per ora lavorata, e i salari reali sono fermi da trent'anni. L'intelligenza artificiale è la prima tecnologia che rende accessibili a tutti, anche a un piccolo Comune o a un artigiano, competenze che prima avevano solo i grandi. GovernAI lavora su due fronti. Nello Stato le macchine fanno il lavoro ripetitivo, le persone il giudizio e la relazione, i posti che non servono più non si rimpiazzano quando qualcuno va in pensione e il risparmio, certificato, torna a chi paga le tasse (09-C11). Nelle piccole imprese un check-up gratuito e soluzioni per settore, pagate a risultato, portano l'AI dove oggi manca (01-P26)."
 tesi: "Le macchine fanno meglio ciò che è ripetitivo, ad alto volume e basato su regole: ricopiare dati, controllare documenti standard, rispondere alle domande frequenti, fare i conti. Le persone fanno meglio ciò che chiede giudizio, relazione e responsabilità: decidere un caso difficile, ascoltare chi è in difficoltà, rispondere di una scelta. Il guadagno più grande viene dal lavoro fatto insieme (Daugherty e Wilson, Human + Machine, 2018). Per questo la regola è doppia: più macchine dove sono migliori, e decide sempre una persona."
 dati:
   - numero: "16,4%"
@@ -25,7 +25,7 @@ dati:
     testo: "il salario reale per dipendente tra il 1991 e il 2025, mentre in Francia è salito del 30% e in Germania del 26%. Senza produttività i salari non crescono."
     fonte: "AMECO (Commissione europea), storia/serie/salario_reale_crescita.csv"
 perche: "Dal 2001 la produttività oraria italiana cresce meno di quella dei vicini, e con lei i salari. Nello stesso tempo una persona su tre nella pubblica amministrazione è vicina alla pensione: è l'occasione per ripensare il lavoro invece di rimpiazzare ogni uscita con lo stesso profilo. L'AI costa poco e si può usare ovunque: se lo Stato la adotta bene, ne beneficiano cittadini, imprese e contribuenti; se la adotta male, aggiunge solo un altro sistema al vecchio."
-come: "Prima si mappano e si automatizzano i processi ripetitivi (09-C7), con una squadra che entra negli uffici (09-C9) e strumenti pubblici e aperti (09-C5, 09-C10). Poi, per ogni pensionamento in un'attività automatizzata e certificata, il posto non si rimpiazza (09-C8, 09-C11). Il risparmio si misura su tutta la spesa dell'ente, partecipate e appalti compresi, lo certifica un ente terzo, e va per l'80% a ridurre le tasse sul lavoro e per il 20% a chi resta. Nessun licenziamento, e decide sempre una persona."
+come: "Prima si mappano e si automatizzano i processi ripetitivi (09-C7), con una squadra che entra negli uffici (09-C9) e strumenti pubblici e aperti (09-C5, 09-C10). Poi, per ogni pensionamento in un'attività automatizzata e certificata, il posto non si rimpiazza (09-C8, 09-C11). Il risparmio si misura su tutta la spesa dell'ente, partecipate e appalti compresi, lo certifica un ente terzo, e va per l'80% a ridurre le tasse sul lavoro e per il 20% a chi resta. Nessun licenziamento, e decide sempre una persona. Per le imprese: una sola porta nella Camera di commercio, un check-up gratuito fatto da chi non vende, il 50% del costo di una soluzione di settore con affiancamento e formazione, il fornitore pagato per l'ultimo 30% solo se dopo sei mesi la soluzione è in uso, il 40% delle risorse al Mezzogiorno e alle aree interne (01-P26)."
 cosa: "Si misurano ogni anno: il risparmio netto certificato destinato alle tasse; la spesa per funzione e il costo per servizio; i tempi delle pratiche e il tempo chiesto al cittadino, che non devono peggiorare; la quota di imprese e di persone che usano l'AI; la produttività oraria e il salario reale. Tutto pubblico, ente per ente."
 chi: "Ne beneficiano chi paga le tasse sul lavoro, soprattutto con redditi medi e bassi; chi usa i servizi pubblici, con pratiche più rapide; chi lavora nella pubblica amministrazione, che lascia i compiti ripetitivi e riceve una parte del risparmio. Ci perdono le imprese che vendono lavoro d'ufficio esternalizzato e chi sperava in un posto pubblico in un'attività ormai automatizzata. Decidono il Parlamento e il Governo; attuano la Funzione pubblica, il Dipartimento per la trasformazione digitale e tutte le amministrazioni; certifica la Ragioneria generale dello Stato con il parere dell'Ufficio parlamentare di bilancio."
 oceano_blu:
@@ -52,9 +52,25 @@ elusione:
       regola: "Data di chiusura registrata del canale vecchio, con assistenza per chi non può usare il digitale"
     - trucco: "Trattenere il risparmio o annullare il taglio delle tasse con un'altra imposta"
       regola: "Certificazione di un ente terzo, fondo vincolato e pressione fiscale totale pubblicata; l'ente che alza i suoi tributi perde la sua quota"
-proposte: [09-C11, 09-C7, 09-C8, 09-C9, 09-C10, 09-C5, 09-C2, 09-C1, 06-C10, 07-C1, 08-P1, 05-C2, 05-C6, 05-C10, 01-P9]
+stime:
+  intro: "Quanti posti ripetitivi si possono risparmiare? Le stime serie dicono tre cose: le macchine sostituiscono soprattutto compiti, non interi posti; i posti davvero sostituibili sono una minoranza; i risultati reali finora sono più bassi delle stime."
+  righe:
+    - chi: "OCSE, 2019"
+      cosa: "In Italia il 15,2% dei posti è ad alto rischio di automazione (media OCSE 14,0%) e un altro 35,5% cambierà in modo significativo."
+    - chi: "Banca d'Italia, 2024"
+      cosa: "Circa 15 milioni di occupati su 22 sono esposti all'AI; di questi circa 9 milioni ne sarebbero aiutati e circa 6 milioni potrebbero vedere sostituiti compiti chiave."
+    - chi: "OIL, 2025"
+      cosa: "Nei Paesi ad alto reddito il 34% dei posti è esposto all'AI generativa, ma solo una piccola parte nella fascia più alta: il 9,6% dei posti delle donne e il 3,5% di quelli degli uomini. Le più esposte sono le mansioni d'ufficio."
+    - chi: "Pubblica amministrazione italiana"
+      cosa: "Le stime disponibili, fatte da società private con metodi diversi, vanno dal 7% al 12% degli addetti in mansioni davvero sostituibili. Non esiste ancora una stima di una fonte pubblica: per questo 09-C11 conta solo i risparmi certificati."
+    - chi: "Esperienze reali"
+      cosa: "Nel Regno Unito l'assistente AI ha fatto risparmiare 19-26 minuti al giorno a dipendente pubblico; in Danimarca, dei primi 7 grandi progetti AI pubblici, nel 2023 era in uso solo uno."
+    - chi: "Robot nelle fabbriche"
+      cosa: "L'Italia ha 237 robot ogni 10.000 addetti della manifattura, la Germania 449 (IFR 2025). In Germania i posti persi in fabbrica sono stati compensati da nuovi posti nei servizi."
+  fonti: "OCSE, Employment Outlook 2019 (scheda Italia); Banca d'Italia, Questioni di economia e finanza n. 878, 2024; OIL, Working Paper 140, 2025; Implement Consulting Group 2025 e FPA 2024 (stime private sulla PA); governo britannico, prova di Microsoft 365 Copilot, 2025; Copenhagen Business School, 2025; IFR, World Robotics 2025; Dauth e coautori, JEEA 2021."
+proposte: [09-C11, 01-P26, 09-C7, 09-C8, 09-C9, 09-C10, 09-C5, 09-C2, 09-C1, 06-C10, 07-C1, 08-P1, 05-C2, 05-C6, 05-C10, 01-P9]
 limiti:
   - "Quanto lavoro le macchine fanno davvero meglio nella pubblica amministrazione italiana non è ancora misurato: per questo nulla si conta prima della certificazione e la stima del risparmio non è una copertura."
   - "I dati Eurostat sull'AI nelle imprese non coprono le imprese con meno di 10 addetti, che in Italia sono la grande maggioranza."
   - "Meno posti nelle attività ripetitive vuol dire anche meno concorsi per quei profili: chi cerca lavoro nella pubblica amministrazione deve puntare su competenze diverse."
-  - "L'AI nelle piccole imprese private è la seconda metà della strategia e non ha ancora una proposta dedicata."
+  - "Per l'AI nelle piccole imprese (01-P26) i risultati reali si sapranno solo con la valutazione: le esperienze estere vanno dal successo (Singapore, Germania) al fallimento (voucher nel Regno Unito)."

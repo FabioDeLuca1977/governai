@@ -846,6 +846,10 @@
       ${P.elusione ? `<section class="blocco"><h2>Contro chi ama aggirare le regole</h2><p>${esc(P.elusione.intro || "")}</p>
         <div class="tabella-scorre"><table class="tabella a-card"><thead><tr><th>Il trucco</th><th>La regola che lo chiude</th></tr></thead>
         <tbody>${(P.elusione.righe || []).map((r) => `<tr><td class="principale">${esc(r.trucco)}</td><td data-etichetta="Regola">${esc(r.regola)}</td></tr>`).join("")}</tbody></table></div></section>` : ""}
+      ${P.stime ? `<section class="blocco"><h2>Quanti posti ripetitivi si possono risparmiare</h2><p>${esc(P.stime.intro || "")}</p>
+        <div class="tabella-scorre"><table class="tabella a-card"><thead><tr><th>Chi lo dice</th><th>Che cosa dice</th></tr></thead>
+        <tbody>${(P.stime.righe || []).map((r) => `<tr><td class="principale">${esc(r.chi)}</td><td data-etichetta="Stima">${esc(r.cosa)}</td></tr>`).join("")}</tbody></table></div>
+        <p class="nota">Fonti: ${esc(P.stime.fonti || "")}</p></section>` : ""}
       ${prop.length ? `<section class="blocco"><h2>Le proposte <small>${prop.length} nel programma</small></h2>
         <ul class="ai-prop">${prop.map((p) => `<li><a href="${linkP(p.id)}"><span class="mono">${esc(p.id)}</span> ${esc(tit(p.titolo))}</a></li>`).join("")}</ul></section>` : ""}
       ${(P.limiti || []).length ? `<div class="avviso"><div class="avviso-titolo">${icona("info")}Limiti da tenere presenti</div><ul>${P.limiti.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}

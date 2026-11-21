@@ -110,7 +110,7 @@ missioni:
     valori: [INN, FUT, APC]
     come: "Un solo credito d'imposta per la ricerca, stabile e più forte per le piccole imprese; la pubblica amministrazione (PA) compra innovazione; un fondo per le imprese tecnologiche; centri di ricerca al servizio delle imprese."
     sostenibilita: "Inserite per scelta politica: il panel le mette in coda. Si pagano chiudendo il patent box (sconto sui brevetti) e tagliando incentivi inefficaci. Salario minimo: solo regole. La misura sui gradini dimensionali delle imprese (01-P4) resta fuori."
-    proposte: [01-P4, 01-P5, 01-P6, 01-P13, 01-P14, 01-P15, 02-C1, 05-C3, 05-C10, 08-P6]
+    proposte: [01-P4, 01-P5, 01-P6, 01-P13, 01-P14, 01-P15, 01-P26, 02-C1, 05-C3, 05-C10, 08-P6]
     indicatori: [01-P13-a, 01-P4-c, 01-P15-a, 02-C1-b]
     chi:
       - gruppo: "Imprese che fanno ricerca, soprattutto quelle sotto i 50 addetti"

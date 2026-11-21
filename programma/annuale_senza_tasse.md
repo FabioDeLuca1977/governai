@@ -4,9 +4,9 @@
 
 | Anno | Spesa | di cui risorse generali | Gettito risorse generali | Saldo risorse generali (prudente) | Saldo (favorevole) | Coesione 2021-27 | Da rifinanziare dopo il 2029 |
 |---|---|---|---|---|---|---|---|
-| 2027 | 2,22 | 1,05 | 0,03 | **−1,03** | −0,01 | 1,09 | 0,00 |
-| 2028 | 3,99 | 1,94 | 1,05 | **−0,89** | −0,37 | 1,89 | 0,00 |
-| 2029 | 4,66 | 2,35 | 1,57 | **−0,78** | 0,03 | 2,12 | 0,00 |
+| 2027 | 2,23 | 1,05 | 0,03 | **−1,03** | −0,01 | 1,09 | 0,00 |
+| 2028 | 4,00 | 1,94 | 1,05 | **−0,89** | −0,37 | 1,90 | 0,00 |
+| 2029 | 4,67 | 2,35 | 1,57 | **−0,78** | 0,03 | 2,13 | 0,00 |
 | 2030 | 2,57 | 2,38 | 2,38 | **0,00** | 0,00 | 0,00 | 0,08 |
 | 2031 | 2,57 | 2,38 | 2,38 | **0,00** | 0,00 | 0,00 | 0,08 |
 | 2032 | 2,57 | 2,38 | 2,38 | **0,00** | 0,00 | 0,00 | 0,08 |
@@ -37,4 +37,4 @@ Ogni anno la spesa sulle risorse generali non supera il gettito dell'anno (ipote
 | 2034 | 2,38 | 2,32 | 0,06 | 0,06 | 100% | 97% | 100% |
 | 2035 | 2,38 | 2,32 | 0,06 | 0,06 | 100% | 97% | 100% |
 
-In tutto slittano 3,13 mld di spesa negli anni di passaggio, di cui 3,09 del nucleo robusto; sulla coesione slittano 0,12 mld di spese una tantum oltre la capienza.
+In tutto slittano 3,13 mld di spesa negli anni di passaggio, di cui 3,09 del nucleo robusto; sulla coesione slittano 0,13 mld di spese una tantum oltre la capienza.
