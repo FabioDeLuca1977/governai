@@ -203,7 +203,7 @@
 
 **Perché.** Uno Stato rapido, giusto e trasparente fa risparmiare tempo alle persone e alle imprese e rafforza la fiducia. L'AI aiuta, ma decidono le persone. *Valori: Fiducia e trasparenza, Sicurezza senza controllo assoluto, Cittadinanza responsabile.*
 
-**Come.** Tribunali più veloci, pene alternative per i reati minori, personale tecnico per i piccoli Comuni, AI nella PA con supervisione umana, una squadra che toglie lavoro ripetitivo dagli uffici e sposta chi lo desidera verso servizi alle persone, appalti e dati aperti, leggi valutate prima del voto.
+**Come.** Tribunali più veloci, pene alternative per i reati minori, personale tecnico per i piccoli Comuni, AI nella PA con supervisione umana, una squadra che toglie lavoro ripetitivo dagli uffici e sposta chi lo desidera verso servizi alle persone, appalti e dati aperti, leggi valutate prima del voto. Dove le macchine fanno meglio i posti non si rimpiazzano al pensionamento e il risparmio certificato torna in tasse più basse sul lavoro.
 
 - 07-C2 Pena utile: misure di comunità contro il sovraffollamento (essenziale, 0,25 mld)
 - 09-C3 Squadre tecniche della Repubblica: pool di competenze per i piccoli enti (essenziale, 0,22 mld)
@@ -240,6 +240,7 @@
 
 **Chi ne beneficia.**
 
+- **Chi paga le tasse sul lavoro** (42,8 milioni di contribuenti IRPEF): Dove le macchine fanno meglio, chi va in pensione non viene sostituito e l'80% del risparmio certificato va a ridurre le tasse sul lavoro. A regime, dopo circa dieci anni, tra 1,8 e 7,8 mld l'anno (4,7 nello scenario centrale), cioè tra 40 e 180 euro l'anno per contribuente; con l'automazione in versione essenziale circa la metà. Primo taglio al più presto dal 2030; stima indicativa, non usata come copertura.
 - **Persone e imprese con una causa civile** (da stimare): Pilota: 1.500 addetti stabili in 20 tribunali critici, con un confronto con tribunali simili. L'obiettivo di 1.400 giorni per una causa civile vale solo se il pilota funziona e si estende.
 - **Persone detenute e chi lavora nelle carceri** (66.063 persone detenute per 51.295 posti): Pene alternative per chi ha meno di 2 anni da scontare, 1.000 funzionarie e funzionari in più, braccialetti elettronici.
 - **Piccoli Comuni** (5.522 Comuni sotto i 5.000 abitanti (aiuto mirato a Mezzogiorno e aree interne)): 3.000 tra tecniche e tecnici condivisi per gare, progetti e informatica, e affiancamento di chi va in pensione.
