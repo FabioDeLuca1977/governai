@@ -1,30 +1,30 @@
 {
- "aggiornato": "2026-11-20",
+ "aggiornato": "2026-11-21",
  "fonti": {
-  "cellar_gu_l": "ok: 0 atti nuovi dal 2026-11-12",
+  "cellar_gu_l": "ok: 0 atti nuovi dal 2026-11-13",
   "cellar_testi": "0/0 testi di direttive",
-  "cellar_direttive": "ok: 145 direttive con termine tra 2023-11-20 e 2028-11-20",
-  "cellar_proposte": "ok: 52 proposte dal 2026-09-21",
+  "cellar_direttive": "ok: 145 direttive con termine tra 2023-11-21 e 2028-11-21",
+  "cellar_proposte": "ok: 51 proposte dal 2026-09-22",
   "cellar_semestre": "ok: 17 documenti",
   "ecfin_edp": "ok: 9 passaggi",
   "eurinfra": "ok: 85 procedure (il sito dichiara 85)",
   "dpe_aggiornamenti": "ok: 10 aggiornamenti"
  },
- "ultima_esecuzione": "2026-11-20T09:05:00",
+ "ultima_esecuzione": "2026-11-21T09:08:28",
  "archivio": {
-  "atti_gu_l": 950,
+  "atti_gu_l": 971,
   "dal": "2026-09-09",
   "direttive_monitorate": 145,
   "proposte_ue": 77,
   "testi": 5
  },
  "totali": {
-  "novita_30g": 346,
+  "novita_30g": 354,
   "scadenze": 144,
   "scadenze_per_priorita": {
    "critica": 23,
-   "alta": 11,
-   "media": 93,
+   "alta": 10,
+   "media": 94,
    "bassa": 17
   },
   "infrazioni_aperte": 85,
@@ -34,9 +34,9 @@
  "per_area": {
   "01": {
    "nome": "Economia e imprese",
-   "novita_30g": 124,
+   "novita_30g": 120,
    "novita_30g_alta": 9,
-   "obblighi_30g": 36,
+   "obblighi_30g": 35,
    "opportunita_30g": 3,
    "vincoli_bilancio_30g": 0,
    "direttive_in_scadenza_12m": 13,
@@ -60,9 +60,9 @@
   },
   "03": {
    "nome": "Ambiente, energia e agricoltura",
-   "novita_30g": 147,
+   "novita_30g": 162,
    "novita_30g_alta": 5,
-   "obblighi_30g": 43,
+   "obblighi_30g": 54,
    "opportunita_30g": 3,
    "vincoli_bilancio_30g": 0,
    "direttive_in_scadenza_12m": 12,
@@ -73,9 +73,9 @@
   },
   "04": {
    "nome": "Infrastrutture e territori",
-   "novita_30g": 58,
+   "novita_30g": 60,
    "novita_30g_alta": 7,
-   "obblighi_30g": 18,
+   "obblighi_30g": 22,
    "opportunita_30g": 2,
    "vincoli_bilancio_30g": 0,
    "direttive_in_scadenza_12m": 6,
@@ -99,9 +99,9 @@
   },
   "06": {
    "nome": "Salute",
-   "novita_30g": 73,
+   "novita_30g": 75,
    "novita_30g_alta": 1,
-   "obblighi_30g": 16,
+   "obblighi_30g": 18,
    "opportunita_30g": 0,
    "vincoli_bilancio_30g": 0,
    "direttive_in_scadenza_12m": 1,
@@ -112,9 +112,9 @@
   },
   "07": {
    "nome": "Giustizia, interno e difesa",
-   "novita_30g": 63,
-   "novita_30g_alta": 23,
-   "obblighi_30g": 30,
+   "novita_30g": 60,
+   "novita_30g_alta": 21,
+   "obblighi_30g": 28,
    "opportunita_30g": 3,
    "vincoli_bilancio_30g": 0,
    "direttive_in_scadenza_12m": 6,
@@ -125,9 +125,9 @@
   },
   "08": {
    "nome": "Esteri, Europa e istituzioni",
-   "novita_30g": 180,
+   "novita_30g": 184,
    "novita_30g_alta": 28,
-   "obblighi_30g": 44,
+   "obblighi_30g": 45,
    "opportunita_30g": 7,
    "vincoli_bilancio_30g": 0,
    "direttive_in_scadenza_12m": 2,
