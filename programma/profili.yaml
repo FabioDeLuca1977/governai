@@ -6,7 +6,7 @@
 # 20_programma_governai.md, 22_programma_in_una_pagina.md, 23_equita_e_linguaggio.md. Stime GovernAI non certificate.
 # Calendario di avvio (annuale_intermedio.md): il "primo gruppo" (nucleo robusto, sperimentazioni, 04-P8, 06-C8) parte nel 2027
 # al 2% della spesa prevista (il 2027 è un anno di preparazione), 71% nel 2028, 92% nel 2029, 95% nel 2030, 100% dal 2031; le riforme a costo
-# quasi zero partono subito; tre misure (01-P10, 09-C1, 09-C6) partono solo nel 2031 (14%) e sono a pieno dal 2032. Le misure pagate solo con fondi europei 2021-2027 partono nel 2027 e durano fino al 2029.
+# quasi zero partono subito; tre misure (01-P10, 09-C1, 09-C6) partono solo nel 2032 (85%) e sono a pieno dal 2033. Le misure pagate solo con fondi europei 2021-2027 partono nel 2027 e durano fino al 2029.
 profili:
 - id: famiglia-figli-piccoli
   titolo: Famiglia con una bambina o un bambino sotto i 3 anni
@@ -431,7 +431,7 @@ profili:
   - La versione essenziale della detrazione unica, che riduceva il salto di imposta tra 32.000 e 44.000 euro, non è nello scenario. In ogni caso non avrebbe cambiato nulla sotto i 32.000 euro.
   - Il salario minimo con una soglia oraria e più ispettori del lavoro (versioni piena ed essenziale di 02-C1) non è nello scenario.
   - Il congedo retribuito di 40 ore l'anno per formarsi, per chi lavora senza diploma, è solo nella versione piena di 05-C2, che non è nello scenario. Una parte della dote è pagata con fondi europei che finiscono nel 2029.
-  - 'Calendario di avvio: congedo, dote e dichiarazione già fatta sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 71% della spesa prevista, il 92% nel 2029, tutta dal 2031. Le regole per il lavoro pubblico (09-C6) partono solo nel 2031 e sono a pieno nel 2032.'
+  - 'Calendario di avvio: congedo, dote e dichiarazione già fatta sono nel primo gruppo. Il 2027 è un anno di preparazione: nel 2028 parte il 71% della spesa prevista, il 92% nel 2029, tutta dal 2031. Le regole per il lavoro pubblico (09-C6) partono solo nel 2032 e sono a pieno nel 2033.'
   - Restano fuori dal programma la casa a canone giusto (04-P2) e i treni per chi viaggia ogni giorno (04-P3).
   - 'Le nuove misure fiscali del 16 novembre (01-P19, 01-P21, 01-P22) riguardano holding con milioni di euro di patrimonio passivo, polizze e trust usati come contenitori ed eredità sopra le franchigie (oggi 1 milione di euro per coniuge e per ogni figlia o figlio): per chi vive di stipendio, di solito non cambia nulla.'
 - id: pensione-bassa
