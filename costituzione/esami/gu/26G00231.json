@@ -1,0 +1,58 @@
+{
+ "origine": "legislazione/archivio/testi/2026/26G00231.txt",
+ "data_riferimento": "2026-12-06",
+ "articoli": 19,
+ "alto": [
+  "126"
+ ],
+ "medio": [
+  "127"
+ ],
+ "rilievi": [
+  {
+   "art": "126",
+   "rubrica": "Decadenza",
+   "parametro": "giustizia",
+   "segnale": "giudizi_in_corso",
+   "livello": "alto",
+   "comma": "",
+   "nota": "incidenza su giudizi pendenti (art. 24, 111, 117 c.1 / art. 6 CEDU)"
+  },
+  {
+   "art": "127",
+   "rubrica": "Responsabilita' secondo altre disposizioni di legge",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "delega: oggetto, principi e criteri, termine"
+  },
+  {
+   "art": "127",
+   "rubrica": "Responsabilita' secondo altre disposizioni di legge",
+   "parametro": "procedimento_deleghe",
+   "segnale": "dpcm_regolamento_delegificazione",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "delegificazione: norme generali regolatrici e abrogazione indicata dalla legge"
+  },
+  {
+   "art": "127",
+   "rubrica": "Responsabilita' secondo altre disposizioni di legge",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "127",
+   "rubrica": "Responsabilita' secondo altre disposizioni di legge",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "1",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  }
+ ]
+}

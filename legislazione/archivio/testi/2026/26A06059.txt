@@ -1,0 +1,415 @@
+DECRETO 5 novembre 2026
+Prescrizioni per il trasporto su strada di materiali radioattivi (Classe 7 ADR).
+(GU Serie Generale n. 272 del 2026-11-21; https://www.gazzettaufficiale.it/eli/id/2026/11/21/26A06059/sg)
+
+IL DIRETTORE GENERALE
+per la motorizzazione
+
+Vista la direttiva 2011/70/Euratom, che istituisce un quadro
+comunitario per la gestione responsabile e sicura del combustibile
+nucleare esaurito e dei rifiuti radioattivi;
+Vista la direttiva 2014/87/Euratom che modifica la direttiva
+2009/71/Euratom;
+Vista la direttiva 2013/59/Euratom che stabilisce norme
+fondamentali di sicurezza relative alla protezione contro i pericoli
+derivanti dall'esposizione alle radiazioni ionizzanti, e che abroga
+le direttive 89/618/Euratom, 90/641/Euratom, 96/29/Euratom,
+97/43/Euratom e 2003/122/Euratom;
+Vista la direttiva 2008/68/CE del Parlamento europeo e del
+Consiglio, del 24 settembre 2008, relativa al trasporto interno di
+merci pericolose;
+Vista la direttiva delegata 2025/149/UE del 24 gennaio 2025 della
+Commissione, che modifica gli allegati della direttiva 2008/68/CE del
+Parlamento europeo e del Consiglio relativa al trasporto interno di
+merci pericolose al fine di tener conto del progresso scientifico e
+delle innovazioni tecnologiche;
+Vista la direttiva 2022/1999 del 19 ottobre 2022 del Parlamento
+europeo e del Consiglio relativa a procedure uniformi in materia di
+controllo dei trasporti su strada di merci pericolose;
+Visto il nuovo codice della strada emanato con decreto legislativo
+30 aprile 1992, n. 285 e, in particolare, il comma 2 dell'art. 168
+che regolamenta in ambito nazionale il trasporto di merci pericolose
+su strada;
+Vista la legge 14 ottobre 1957, n. 1203, concernente la ratifica e
+l'esecuzione del Trattato istitutivo della Comunita' europea
+dell'energia atomica ed atti allegati, firmato a Roma il 25 marzo
+1957;
+Vista la legge 31 dicembre 1962, n. 1860, e successive modifiche e
+integrazioni, recante «Impiego pacifico dell'energia nucleare»;
+Visto il decreto del Presidente della Repubblica 30 dicembre 1965,
+n. 1704, recante «Modifiche ed integrazioni alla legge 31 dicembre
+1962, n. 1860, sull'impiego pacifico dell'energia nucleare»;
+Vista la legge 24 aprile 1975, n. 131, che autorizza la ratifica e
+l'esecuzione del Trattato contro la proliferazione delle armi
+nucleari, firmato a Londra, Mosca e Washington il 1° luglio 1968;
+Vista la legge 7 agosto 1982, n. 704, di ratifica ed esecuzione
+della Convenzione sulla protezione fisica dei materiali nucleari,
+aperta alla firma a Vienna ed a New York il 3 marzo 1980;
+Vista la legge 23 luglio 2009, n. 99, e successive modifiche e
+integrazioni, recante «Disposizioni per lo sviluppo e
+l'internazionalizzazione delle imprese, nonche' in materia di
+energia»;
+Vista la legge 28 aprile 2015, n. 58, concernente «Ratifica ed
+esecuzione degli emendamenti alla Convenzione sulla protezione fisica
+dei materiali nucleari del 3 marzo 1980, adottati a Vienna l'8 luglio
+2005, e norme di adeguamento dell'ordinamento interno»;
+Vista la legge 28 luglio 2016, n. 153, sulle «Norme per il
+contrasto al terrorismo, nonche' ratifica ed esecuzione: a) della
+Convenzione del Consiglio d'Europa per la prevenzione del terrorismo,
+fatta a Varsavia il 16 maggio 2005; b) della Convenzione
+internazionale per la soppressione di atti di terrorismo nucleare,
+fatta a New York il 14 settembre 2005; c) del protocollo di
+emendamento alla Convenzione europea per la repressione del
+terrorismo, fatto a Strasburgo il 15 maggio 2003; d) della
+Convenzione del Consiglio d'Europa sul riciclaggio, la ricerca, il
+sequestro e la confisca dei proventi di reato e sul finanziamento del
+terrorismo, fatta a Varsavia il 16 maggio 2005; e) del protocollo
+addizionale alla Convenzione del Consiglio d'Europa per la
+prevenzione del terrorismo, fatto a Riga il 22 ottobre 2015»;
+Visto il decreto-legge 11 novembre 2022, n. 173, disposizioni
+urgenti in materia di riordino delle attribuzioni dei Ministeri;
+Visto il decreto legislativo 27 gennaio 2010, n. 35, di recepimento
+della direttiva 2008/68/CE, relativa al trasporto di merci
+pericolose;
+Visto il decreto legislativo 19 ottobre 2011, n. 185, recante
+«Attuazione della direttiva 2009/71/Euratom, che istituisce un quadro
+comunitario per la sicurezza degli impianti nucleari»;
+Visto il decreto legislativo 4 marzo 2014, n. 45, e successive
+modifiche e integrazioni, recante «Attuazione della direttiva
+2011/70/Euratom, che istituisce un quadro comunitario per la gestione
+responsabile e sicura del combustibile nucleare esaurito e dei
+rifiuti radioattivi»;
+Visto in particolare l'art. 6 del suddetto decreto legislativo 4
+marzo 2014, n. 45, che stabilisce che l'autorita' di regolamentazione
+competente in materia di sicurezza nucleare e di radioprotezione e'
+l'Ispettorato nazionale per la sicurezza nucleare e la
+radioprotezione (ISIN);
+Visto il decreto legislativo 31 luglio 2020, n. 101, e successive
+modifiche e integrazioni, recante «Attuazione della direttiva
+2013/59/Euratom, che stabilisce norme fondamentali di sicurezza
+relative alla protezione contro i pericoli derivanti dall'esposizione
+alle radiazioni ionizzanti, e che abroga le direttive 89/618/Euratom,
+90/641/Euratom, 96/29/Euratom, 97/43/Euratom e 2003/122/Euratom e
+riordino della normativa di settore in attuazione dell'art. 20, comma
+1, lettera a), della legge 4 ottobre 2019, n. 117.», che abroga e
+sostituisce, in particolare, il decreto legislativo 17 marzo 1995, n.
+230;
+Visto il decreto legislativo 25 novembre 2022, n. 203, concernente
+l'aggiornamento del decreto legislativo 31 luglio 2020, n. 101;
+Visto in particolare l'art. 43 del decreto legislativo 31 luglio
+2020, n. 101, nel quale viene disciplinata l'attivita' di trasporto
+di materiali radioattivi;
+Visto il decreto legislativo 15 settembre 2017, n. 137, recante
+«Attuazione della direttiva 2014/87/Euratom che modifica la direttiva
+2009/71/Euratom che istituisce un quadro comunitario per la sicurezza
+nucleare degli impianti nucleari»;
+Vista la nota del 16 giugno 2008 del Ministero dello sviluppo
+economico, con la quale sono state emanate le linee di indirizzo
+sulle procedure amministrative relative all'autorizzazione al
+trasporto di materie radioattive e fissili speciali con modalita'
+stradale, ferroviaria, marittima, aerea e vie navigabili interne,
+modificate con determina dirigenziale del 12 ottobre 2011 (di seguito
+«Linee di indirizzo»);
+Visto il decreto interministeriale 7 agosto 2015, recante
+«Classificazione dei rifiuti radioattivi, ai sensi dell'art. 5 del
+decreto legislativo 4 marzo 2014, n. 45»;
+Visto il decreto interministeriale 8 settembre 2017, recante
+«Requisiti di protezione fisica passiva e modalita' di redazione dei
+piani di protezione fisica»;
+Visto il decreto del Ministro delle infrastrutture e dei trasporti
+del 13 febbraio 2025 (Gazzetta Ufficiale - Serie generale - n. 65 del
+19 marzo 2025), di recepimento della direttiva 2025/149/UE della
+Commissione;
+Visto il decreto del Ministero delle infrastrutture e dei trasporti
+del 7 agosto 2023, n. 194, concernente la regolamentazione dei casi
+di esenzione dall'obbligo di nomina del consulente ADR in conformita'
+a quanto previsto dal paragrafo 1.8.3.2 dell'ADR;
+Visto il decreto del Ministero delle infrastrutture e dei trasporti
+del 19 giugno 2017, relativo alla normativa tecnica ed amministrativa
+relativa agli autoveicoli e rimorchi per uso speciale laboratorio
+mobile o con apparecchiature mobili di rilevamento;
+Visto il documento INFCIRC/225 del giugno 1999 dell'Agenzia
+internazionale per l'energia atomica (AIEA) di Vienna, concernente le
+direttive applicabili ai trasferimenti di materiali e tecnologie
+nucleari;
+Vista la guida tecnica n. SSG-86 «Radiation Protection Programmes
+for the Transport of Radioactive Material» dell'AIEA;
+Vista la circolare n. 162 del 16 dicembre 1996 del Ministero dei
+trasporti e della navigazione (prot. 1772/4967/1), riguardante le
+prescrizioni di sicurezza relative al trasporto nazionale su strada
+di materie radioattive (classe 7) adottata in attuazione dell'art. 5
+della legge 31 dicembre 1962, n. 1860/1962, come modificato dall'art
+2 del decreto del Presidente della Repubblica 30 dicembre 1965, n.
+1704, e successivamente abrogato dal decreto legislativo 31 luglio
+2020, n. 101;
+Tenuto conto che la gran parte delle prescrizioni contenute nella
+suddetta circolare risultano obsolete e necessitano di un
+aggiornamento tecnico;
+Considerato che conformemente al capitolo 1.9 dell'accordo ADR ogni
+autorita' competente delle parti contraenti puo' introdurre
+«particolari condizioni di trasporto per talune merci pericolose» al
+fine di tutelare la sicurezza del trasporto stesso;
+Ritenuto necessario fornire disposizioni tecniche affinche' le
+prescrizioni di sicurezza contenute, ai sensi comma 2 dell'art. 43
+del decreto legislativo n. 101/2020, nelle emanande autorizzazioni al
+trasporto stradale di materiali radioattivi, siano conformi ai
+dettami della sezione 1.7.1.2 dell'ADR, per la sicurezza e protezione
+della popolazione, dei beni e dell'ambiente dagli effetti dannosi
+delle radiazioni ionizzanti durante il trasporto di tali materiali;
+Acquisito il parere favorevole dell'Ispettorato nazionale per la
+sicurezza nucleare e la radioprotezione (ISIN) pervenuto con nota
+prot. n. 27165 dell'11 settembre 2026 e recepite le osservazioni ivi
+formulate;
+Acquisito il parere favorevole del Ministero dell'ambiente e della
+sicurezza energetica (MASE), Direzione generale domanda ed efficienza
+energetica, pervenuto con nota prot. n. 32685 del 27 ottobre 2026 e
+recepite le osservazioni ivi formulate;
+
+Decreta:
+
+Art. 1
+
+Oggetto e finalita'
+
+1. Il presente decreto ha lo scopo di definire le prescrizioni
+necessarie a conformare i requisiti tecnici di sicurezza nella
+circolazione stradale di materiali radioattivi con le applicabili
+disposizioni internazionali, al fine di semplificare gli iter
+autorizzativi per i vettori coinvolti pur garantendo l'adeguato
+livello di sicurezza per le persone e per l'ambiente.
+
+Art. 2
+
+Definizioni
+
+1. Ai fini del presente decreto, si ritengono interamente
+applicabili le definizioni riportate:
+1.1. nell'accordo relativo al trasporto internazionale delle
+merci pericolose su strada, di seguito ADR;
+1.2. all'art. 2 del decreto legislativo n. 35 del 27 gennaio
+2010;
+1.3. all'art. 7 del decreto legislativo n. 101 del 31 luglio
+2020;
+1.4. veicolo laboratorio mobile contenente sorgenti radioattive
+appartenenti alla classe 7 ADR: un veicolo appositamente attrezzato
+per la somministrazione di sostanze radioattive o per l'impiego di
+apparati radiogeni (anche per la diagnostica e terapia) o con
+apparecchiature mobili di rilevamento (come richiamati dall'art. 203,
+comma 1, lettera hh, del regolamento di attuazione del codice della
+strada), progettato e approvato secondo le prescrizioni contenute nel
+presente decreto e rispondente ai dettami del decreto del Ministero
+delle infrastrutture e dei trasporti del 19 giugno 2017, destinato al
+trasporto di materie pericolose o attrezzature appartenenti alla
+classe 7 dell'accordo ADR al fine di consentirne l'impiego in uno o
+piu' siti non determinabili preventivamente.
+2. Per autorita' competenti si intendono, nell'ambito dei
+rispettivi contesti:
+2.1. Ministero dell'ambiente e della sicurezza energetica (MASE),
+Direzione generale domanda ed efficienza energetica: per quanto
+concerne le autorizzazioni al trasporto di materiali radioattivi;
+2.2. Ministero delle infrastrutture e dei trasporti (MIT),
+Direzione generale per la motorizzazione: per quanto concerne le
+autorizzazioni al trasporto su strada e per la sicurezza tecnica dei
+veicoli;
+2.3. Ministero dell'interno: Dipartimento dei Vigili del fuoco,
+del soccorso pubblico e della difesa civile: per quanto attiene il
+soccorso pubblico e la difesa civile;
+2.4. l'Ispettorato nazionale per la sicurezza nucleare e la
+radioprotezione, ISIN: per cio' che concerne le funzioni di
+vigilanza, controllo e approvazione dei modelli di collo e dei
+materiali.
+
+Art. 3
+
+Campo di applicazione
+
+1. Le prescrizioni del presente decreto si applicano al trasporto
+su strada di materiali radioattivi, ai sensi dell'art. 43 del decreto
+legislativo n. 101/2020 e ai veicoli di cui all'art. 8 del presente
+decreto.
+
+Art. 4
+
+Titoli autorizzativi
+
+1. Sono soggetti ad autorizzazione i trasporti di materiali
+radioattivi ricadenti nei requisiti previsti alla sezione III
+dell'allegato I del decreto legislativo n. 101 del 31 luglio 2020.
+2. Sono esclusi dalla richiesta di autorizzazione i trasporti di
+materiali radioattivi:
+2.1. ricadenti in uno dei casi di esclusione previsti dall'ADR
+(sez. 1.7.1.4);
+2.2. per i quali non si verifichino congiuntamente, per singola
+consegna, le condizioni stabilite dal decreto legislativo n.
+101/2020, allegato I - sezione II, par. 12.1, conformemente alle
+prescrizioni dell'art. 43 del suddetto decreto.
+3. Sono soggetti alle prescrizioni del successivo art. 8 i
+trasporti di strumenti o apparecchiature mobili di rilevamento in
+veicoli attrezzati a laboratori mobili come definiti all'art. 2,
+comma 1, punto 4, del presente disposto. Ferme restando, ove
+applicabili, le disposizioni di cui agli articoli 43 e 50 del decreto
+legislativo n. 101 del 2020, le attrezzature contenenti materiale
+radioattivo come parte integrante di veicoli, ovvero i veicoli
+classificabili come «laboratorio mobile» aventi a bordo sorgenti
+radioattive sono soggetti a riconoscimento di idoneita' da parte del
+Ministero delle infrastrutture e dei trasporti, sentito l'ISIN per le
+eventuali prescrizioni in materia di sicurezza nucleare e
+radioprotezione. I veicoli con a bordo sorgenti radioattive che
+soddisfano i requisiti del paragrafo 2.2.7.2.4.1.3 dell'ADR e
+classificabili come UN 2911 materiale radioattivo, collo esente,
+strumenti o articoli sono esclusi dalla procedura di riconoscimento.
+4. Fatti salvi i casi di esclusione dalla applicazione dell'ADR,
+l'impresa che effettua il trasporto di materiale radioattivo e'
+sempre soggetta all'obbligo di nomina di un consulente per la
+sicurezza del trasporto di tale materiale, ai sensi dell'art. 11 del
+decreto legislativo 27 gennaio 2010, n. 35, come indicato nel decreto
+ministeriale del 7 agosto 2023, n. 194.
+
+Art. 5
+
+Monitoraggio
+
+1. Al fine di garantire il dovuto monitoraggio, il Ministero delle
+infrastrutture e dei trasporti e l'ISIN assicurano, nell'ambito delle
+rispettive competenze e secondo modalita' definite d'intesa tra le
+amministrazioni interessate, lo scambio delle informazioni necessarie
+per le rispettive finalita' istituzionali, relative ai vettori
+autorizzati e ai trasporti effettuati ai sensi dell'art. 43 del
+decreto legislativo 31 luglio 2020, n. 101, anche mediante l'accesso,
+ove previsto e secondo le modalita' consentite, ai dati pertinenti
+contenuti nei registri spedizione e trasporto del sistema
+tracciabilita' rifiuti materiali e sorgenti (STRIMS), istituito
+dall'ISIN ai sensi dell'art. 241 del medesimo decreto legislativo.
+2. Ai fini dell'assolvimento degli obblighi di cui al commi 5 e 6
+dell'art. 43 del decreto legislativo 101 del 2020, i vettori e i
+soggetti che organizzano spedizioni di materiali radioattivi
+assolvono alle prescrizioni dell'allegato X del succitato decreto
+legislativo per quanto concerne gli obblighi di registrazione e di
+trasmissione delle informazioni.
+
+Art. 6
+
+Prescrizioni veicolari
+
+1. I veicoli utilizzabili per il trasporto di materiali radioattivi
+sono esclusivamente quelli di seguito indicati cosi' come definiti
+dal comma 1 dell'art. 54 del codice della strada e dal suo
+regolamento di esecuzione e di attuazione e dal comma 2 del medesimo
+articolo e in ossequio alla normativa ADR:
+autocarri;
+trattori stradali;
+autoveicoli per uso speciale, come definiti al punto 1.4 art. 2;
+autotreni;
+autoarticolati;
+autoveicoli per trasporto specifico UN 3321 e 3322, trasportabili
+in cisterne;
+tutti i casi previsti dall'ADR.
+2. In ogni caso i veicoli in questione devono soddisfare, oltre ai
+requisiti stabiliti dal d.d. 19 giugno 2017 del Ministero delle
+infrastrutture e dei trasporti, i seguenti requisiti:
+la cabina di guida risulta separata dal vano di carico con una
+parete rigida e continua;
+il vano di carico e' costituito da carrozzeria chiusa o di tipo
+equivalente (es. cassone con centinatura di sufficiente robustezza e
+telone ignifugo) sufficientemente areata;
+non e' consentito l'uso di carrozzerie ribaltabili e/o
+scarrabili.
+3. Nel caso di veicoli eccezionali o in condizioni di
+eccezionalita' il rilascio delle autorizzazioni sara' subordinato
+alle ulteriori condizioni di particolari e giustificate esigenze di
+trasporto come previste dall'art. 368, comma 3, del regolamento di
+esecuzione e di attuazione del nuovo codice della strada.
+4. L'ISIN puo' indicare alla Direzione generale per la
+motorizzazione altre prescrizioni in materia di sicurezza nucleare e
+radioprotezione, alle quali i suddetti veicoli sono tenuti ad
+attenersi.
+
+Art. 7
+
+Condizioni di sicurezza
+
+1. I trasporti di materiali radioattivi, in aggiunta alle
+disposizioni gia' contenute nell'ADR e nel decreto legislativo n.
+101/2020, sono soggetti alle seguenti prescrizioni:
+1.1. modalita' di effettuazione delle soste e detenzione dei
+presidi di radioprotezione:
+a) le fermate per esigenze di servizio dei vettori trasportanti
+materiali radioattivi, per quanto possibile, non devono essere
+effettuate vicino a luoghi affollati;
+b) durante le fermate per motivi tecnici, o di servizio, i
+veicoli caricati con colli contenenti materiale radioattivo devono
+essere tenuti costantemente sotto il controllo del personale addetto
+al trasporto; tale controllo puo' essere assicurato anche tramite
+l'ausilio di appropriati sistemi di sicurezza remotizzati in modo da
+rendere non necessaria la presenza a bordo del veicolo degli addetti
+di cui sopra ai fini della limitazione delle dosi individuali;
+c) nel caso di trasporto di colli appartenenti alle categorie
+Gialla-II o Gialla-III, di spedizioni in condizioni di uso esclusivo,
+ovvero di trasporti alla rinfusa, qualora il veicolo sia obbligato a
+sostare, si deve provvedere ad apporre dispositivi atti ad impedire
+l'avvicinamento al veicolo di persone non addette al trasporto;
+d) evitare la sosta in prossimita' di altri veicoli
+trasportanti merci pericolose.
+1.2. oltre a quanto prescritto dalla sezione 7.5.7. all'ADR, si
+applicano le seguenti condizioni di circolazione e trasporto:
+a) deve essere mantenuta tra le varie unita' di trasporto una
+distanza di sicurezza tale che sia garantito in ogni caso l'arresto
+tempestivo e siano evitate collisioni e comunque non inferiore a 50
+m;
+b) i colli devono essere sempre stivati in modo sicuro e con
+mezzi di fissaggio e/o ritenzione atti ad impedirne il movimento
+durante il trasporto.
+
+Art. 8
+
+Laboratori mobili
+
+1. Sono laboratori mobili i veicoli allestiti con sorgenti di
+radiazioni di tipo mobile atti a consentirne l'impiego in uno o piu'
+siti non determinabili preventivamente, come definiti all'art. 2,
+comma 1, punto 4, del presente disposto.
+2. Sono sorgenti di radiazione mobile le apparecchiature, gli
+strumenti o i dispositivi presenti stabilmente nel veicolo, siano
+essi fissati o meno al veicolo stesso.
+3. L'impiego di sorgenti radioattive a bordo di laboratori mobili,
+qualora in termini di attivita' le stesse sorgenti superino le soglie
+definite al comma 1 dell'art. 50 del decreto legislativo n. 101 del
+2020, e' soggetto all'ottenimento di un nulla osta preventivo da
+redigersi nelle modalita' indicate agli art. 51 e 52 del decreto
+legislativo n. 101 del 2020.
+4. I veicoli, di cui al comma 1, allestiti con sorgenti ricadenti
+inoltre nell'ambito di applicazione dell'art. 43 del decreto
+legislativo n. 101 del 2020, sono soggetti anche alla procedura di
+autorizzazione indicata all'art. 4 del presente decreto.
+5. I veicoli classificati quali laboratorio mobile sono soggetti ad
+approvazione presso un ufficio della Motorizzazione civile. La
+tariffa da corrispondere e' la N116 per collaudo in unico esemplare.
+Sul DU deve essere riportata la seguente annotazione: «Veicolo
+laboratorio mobile per il trasporto di sorgenti radioattive
+appartenenti alla classe 7 ADR».
+
+Art. 9
+
+Gestione delle emergenze
+
+1. Ai fini della prevenzione e della gestione degli incidenti e
+delle emergenze durante il trasporto, si applicano le disposizioni
+dell'art. 186 del decreto legislativo n. 101 del 2020.
+2. I vettori autorizzati sono tenuti ad effettuare le comunicazioni
+previste dall'art. 186, comma 6 e comma 7, anche al Dipartimento per
+i trasporti e la navigazione del Ministero delle infrastrutture e dei
+trasporti e all'ISIN.
+
+Art. 10
+
+Disposizioni finali
+
+1. La Circolare n. 162 del 16 dicembre 1996 del Ministero dei
+trasporti e della navigazione e' abrogata.
+2. I provvedimenti autorizzativi, le approvazioni, i certificati
+nonche' tutti gli atti gia' emanati ai sensi della previgente
+disciplina e ancora in corso di validita', conservano a tutti gli
+effetti la loro efficacia.
+Roma, 5 novembre 2026
+
+Il direttore generale: Servedio
