@@ -1,4 +1,17 @@
 {
  "data": "2026-11-22",
- "compiti": []
+ "compiti": [
+  {
+   "tipo": "documento_nuovo",
+   "aree": [
+    "00",
+    "01",
+    "03",
+    "08",
+    "09"
+   ],
+   "dettaglio": "EUR-Lex - Gazzetta ufficiale UE: https://eur-lex.europa.eu/statistics/statistics.html",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  }
+ ]
 }

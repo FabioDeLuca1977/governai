@@ -1,6 +1,6 @@
 # Bollettino GovernAI — 2026-11-22
 
-*Generato automaticamente da `sistema/pipeline.py` alle 13:18. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 14:25. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
@@ -8,7 +8,8 @@
 - Dataset Eurostat aggiornati: nessuno
 - File ufficiali aggiornati: 1
 - Serie cambiate e archiviate in `dati/storico/`: nessuna
-- Documenti nuovi sulle pagine osservate: 0
+- Documenti nuovi sulle pagine osservate: 1
+  - EUR-Lex - Gazzetta ufficiale UE: https://eur-lex.europa.eu/statistics/statistics.html
 
 ## 2. Cruscotto
 
@@ -55,15 +56,20 @@ Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
 
 ## 5. Revisione AI richiesta
 
-Nessuna revisione necessaria.
+**1 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
+- [documento_nuovo] EUR-Lex - Gazzetta ufficiale UE: https://eur-lex.europa.eu/statistics/statistics.html → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
 
 ## Registro tecnico
 
-- sentinella: sentinella: mirato; Eurostat aggiornati 0, file 1, documenti nuovi 0, serie cambiate 0, errori 0
+- sentinella: sentinella: mirato; Eurostat aggiornati 0, file 1, documenti nuovi 1, serie cambiate 0, errori 0
 - apprendimento: 193 KPI, stati {'manuale': 147, 'in osservazione': 46}, aree calibrate 0
 - legislazione: archivio GU: 832 atti, 832 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
-- europa: europa: 971 atti GU L in archivio, 339 negli ultimi 30 giorni; 144 direttive con termine (23 critiche, 10 alte); 85 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 24
+- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
 - costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
 - consiglio: 95 previsioni, 0 verificate oggi, 8 verificate in totale
 - verifica sedute: 2 attive, 0 confermate, 2 da riesaminare
 - modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
+
+## 6. Nota del livello AI
+
+Livello AI non eseguito: credenziali dell'API di Claude assenti (impostare la variabile d'ambiente ANTHROPIC_API_KEY).
