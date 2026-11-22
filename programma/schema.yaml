@@ -218,8 +218,8 @@ missioni:
     chi:
       - gruppo: "Chi paga le tasse sul lavoro"
         quanti: "42,8 milioni di contribuenti IRPEF"
-        fonte: "MEF, dichiarazioni anno d'imposta 2024; stima GovernAI nella scheda 09-C11"
-        cosa_cambia: "Dove le macchine fanno meglio, chi va in pensione non viene sostituito e l'80% del risparmio certificato va a ridurre le tasse sul lavoro. A regime, dopo circa dieci anni, tra 1,8 e 7,8 mld l'anno (4,7 nello scenario centrale), cioè tra 40 e 180 euro l'anno per contribuente; con l'automazione in versione essenziale circa la metà. Primo taglio al più presto dal 2030; stima indicativa, non usata come copertura."
+        fonte: "MEF, dichiarazioni anno d'imposta 2024; stime GovernAI nelle schede 09-C11 e 09-C12"
+        cosa_cambia: "Dove le macchine fanno meglio, chi va in pensione non viene sostituito e l'80% del risparmio certificato va a ridurre le tasse sul lavoro. A regime, dopo circa dieci anni, tra 1,8 e 7,8 mld l'anno (4,7 nello scenario centrale), cioè tra 40 e 180 euro l'anno per contribuente; con l'automazione in versione essenziale circa la metà. Il riesame delle funzioni (09-C12) aggiunge, dopo i suoi tre anni, tra 0,23 e 0,9 mld l'anno di tasse in meno (0,45 se 20.000 persone coprono posti che si sarebbero assunti), cioè tra 5 e 20 euro per contribuente: il suo valore è soprattutto far arrivare prima il risparmio. Primo taglio al più presto dal 2030; stime indicative, non usate come copertura."
         proposte: [09-C11, 09-C12, 09-C7]
       - gruppo: "Persone e imprese con una causa civile"
         quanti: "da stimare"
