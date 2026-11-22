@@ -25,7 +25,7 @@ Priorità al nucleo robusto (Carta, regola 7): **attiva**.
 | di cui su risorse generali | 11,78 |
 | Gettito minimo delle coperture attivate (risorse generali) | 11,78 |
 | Gettito minimo delle coperture attivate (totale) | 12,00 |
-| Proposte nel programma | 76 su 96 |
+| Proposte nel programma | 76 su 97 |
 
 La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i valori la stessa scelta rientra nel programma ottimo. Sopra l'80% la scelta non dipende dalla sensibilità politica.
 
@@ -42,7 +42,6 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 01-P8 | Meno scontrini: riordino delle detrazioni del 19% | ESSENZIALE | 0,7 | 0,20 | 100% |
 | 05-C7 | Quota svantaggio nel finanziamento delle scuole | ESSENZIALE | 0,6 | 0,19 | 100% |
 | 07-C6 | Scudo cyber territoriale | ESSENZIALE | 0,6 | 0,18 | 100% |
-| 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | ESSENZIALE | 0,6 | 0,15 | 100% |
 | 02-C5 | Progetto di vita esigibile e lavoro per le persone con disabilita' | PILOTA | 0,3 | 0,15 | 100% |
 | 06-C3 | Case della Comunita' vive | PILOTA | 0,1 | 0,15 | 100% |
 | 01-P7 | Dichiarazione zero: lo Stato fa il conto, chi dichiara controlla | ESSENZIALE | 0,6 | 0,15 | 100% |
@@ -75,40 +74,41 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 02-C6 | Bilancio generazionale e strategia demografica | ZERO | 0,3 | 0,00 | 100% |
 | 03-P1 | Dividendo climatico: riforma SAD restituita alla cittadinanza | ZERO | 0,2 | 0,00 | 100% |
 | 04-P5 | LEP prima: autonomia differenziata reversibile | ZERO | 0,5 | 0,00 | 100% |
-| 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | ZERO | 0,2 | 0,00 | 100% |
 | 05-C6 | AI a scuola | ZERO | 0,2 | 0,00 | 100% |
 | 06-C1 | Tempo garantito o rimborso | ZERO | 0,2 | 0,00 | 100% |
-| 06-C6 | Dividendo della prevenzione e budget unico del farmaco | ZERO | 0,7 | 0,00 | 100% |
-| 08-P4 | Beni pubblici europei: capacita' fiscale UE | PIENA | 1,0 | 0,00 | 100% |
 | 08-P5 | Cooperazione che si misura: traiettoria APS | ZERO | 0,1 | 0,00 | 100% |
 | 09-C4 | Cloud pubblico sostenibile e Patto per la manutenzione digitale | ZERO | 0,1 | 0,00 | 100% |
-| 01-P9 | Una sola detrazione per il lavoro, senza scalini | ZERO | 0,2 | 0,00 | 100% |
 | 01-P11 | Lo scontrino che conviene: un incentivo mirato al posto di lotterie e cashback | ZERO | 0,1 | 0,00 | 100% |
-| 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | ZERO | 0,2 | 0,00 | 100% |
-| 05-C3 | Carriere della ricerca | ZERO | 0,1 | 0,00 | 100% |
-| 01-P12 | Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate | ESSENZIALE | 0,6 | 0,04 | 100% |
 | 01-P25 | Imprese di persone come le SRL: 24% sugli utili lasciati in azienda da ditte, SNC e SAS in contabilità ordinaria, IRPEF solo su ciò che si preleva; pagata dalla patrimoniale minima | ZERO | 0,1 | 0,00 | 100% |
+| 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | ESSENZIALE | 0,6 | 0,15 | 100% |
+| 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | ZERO | 0,2 | 0,00 | 100% |
+| 06-C6 | Dividendo della prevenzione e budget unico del farmaco | ZERO | 0,7 | 0,00 | 100% |
+| 08-P4 | Beni pubblici europei: capacita' fiscale UE | PIENA | 1,0 | 0,00 | 100% |
+| 01-P9 | Una sola detrazione per il lavoro, senza scalini | ZERO | 0,2 | 0,00 | 100% |
+| 05-C3 | Carriere della ricerca | ZERO | 0,1 | 0,00 | 99% |
+| 01-P12 | Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate | ESSENZIALE | 0,6 | 0,04 | 99% |
 | 09-C10 | Bandi pubblici con istruttoria assistita: domande compilate una volta, controlli in giorni invece che in mesi | ESSENZIALE | 0,5 | 0,02 | 99% |
-| 04-P4 | Nessuna grande opera senza prova dei numeri | ESSENZIALE | 0,7 | 0,01 | 99% |
-| 01-P21 | Fine dei contenitori: polizze vita senza rischio assicurativo e trust esteri opachi tassati come investimenti | PIENA | 1,0 | 0,00 | 99% |
-| 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | ZERO | 0,3 | 0,00 | 99% |
+| 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | ZERO | 0,2 | 0,00 | 99% |
 | 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | ZERO | 0,3 | 0,00 | 99% |
+| 04-P4 | Nessuna grande opera senza prova dei numeri | ESSENZIALE | 0,7 | 0,01 | 99% |
+| 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | ZERO | 0,3 | 0,00 | 99% |
 | 09-C6 | Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità | ZERO | 0,3 | 0,00 | 99% |
-| 04-P9 | Consegne pulite in citta': zone a emissioni zero per le merci | ZERO | 0,5 | 0,00 | 98% |
+| 01-P21 | Fine dei contenitori: polizze vita senza rischio assicurativo e trust esteri opachi tassati come investimenti | PIENA | 1,0 | 0,00 | 98% |
 | 08-P8 | Influenza alla luce del sole: registro obbligatorio delle lobby per tutti, parti sociali comprese, agenda pubblica e impronta legislativa | PIENA | 1,0 | 0,00 | 98% |
-| 08-P10 | Chi c'è dietro: titolare effettivo verificato per gare e fondi pubblici | PIENA | 1,0 | 0,00 | 96% |
-| 02-C8 | Aggancio protetto e correttore automatico e temporaneo sulla spesa pensionistica | PIENA | 1,0 | 0,00 | 96% |
-| 08-P7 | Appalti a vetro: cruscotto pubblico dei rischi e dati aperti completi | PIENA | 1,0 | 0,01 | 93% |
-| 01-P22 | Eredità: l'impresa che lavora resta esente, il patrimonio passivo no; gli eredi mantengono il costo fiscale oltre 1 mln | PIENA | 1,0 | 0,00 | 93% |
-| 01-P16 | Tetti di spesa triennali per ministero, con riserva e regola sulle entrate inattese | PIENA | 1,0 | 0,00 | 90% |
-| 08-P9 | Integrità di chi decide: dichiarazioni verificate, conflitti di interessi e porte girevoli | ZERO | 0,2 | 0,00 | 85% |
-| 01-P2 | Spese fiscali a scadenza (sunset 5 anni) | ZERO | 0,3 | 0,00 | 80% |
-| 01-P17 | UPB più forte: revisioni della spesa indipendenti, rispetta o spiega, analisi volontaria dei programmi elettorali | PIENA | 1,0 | 0,01 | 80% |
-| 08-P11 | Verifiche a sorte: audit casuali sorteggiati sugli enti che spendono fondi pubblici | PIENA | 1,0 | 0,01 | 72% |
-| 07-C2 | Pena utile: misure di comunita' contro il sovraffollamento | ESSENZIALE | 0,6 | 0,25 | 68% |
-| 08-P2 | Patto per la buona legge | ESSENZIALE | 0,5 | 0,00 | 62% |
-| 07-C7 | Direttiva anticorruzione recepita bene, con un reato stretto e tutele contro la paura della firma, e sostegno a chi segnala | ESSENZIALE | 0,6 | 0,00 | 60% |
+| 04-P9 | Consegne pulite in citta': zone a emissioni zero per le merci | ZERO | 0,5 | 0,00 | 98% |
+| 02-C8 | Aggancio protetto e correttore automatico e temporaneo sulla spesa pensionistica | PIENA | 1,0 | 0,00 | 95% |
+| 08-P7 | Appalti a vetro: cruscotto pubblico dei rischi e dati aperti completi | PIENA | 1,0 | 0,01 | 94% |
+| 08-P10 | Chi c'è dietro: titolare effettivo verificato per gare e fondi pubblici | PIENA | 1,0 | 0,00 | 94% |
+| 01-P22 | Eredità: l'impresa che lavora resta esente, il patrimonio passivo no; gli eredi mantengono il costo fiscale oltre 1 mln | PIENA | 1,0 | 0,00 | 94% |
+| 01-P16 | Tetti di spesa triennali per ministero, con riserva e regola sulle entrate inattese | PIENA | 1,0 | 0,00 | 89% |
+| 08-P9 | Integrità di chi decide: dichiarazioni verificate, conflitti di interessi e porte girevoli | ZERO | 0,2 | 0,00 | 84% |
+| 01-P2 | Spese fiscali a scadenza (sunset 5 anni) | ZERO | 0,3 | 0,00 | 82% |
+| 01-P17 | UPB più forte: revisioni della spesa indipendenti, rispetta o spiega, analisi volontaria dei programmi elettorali | PIENA | 1,0 | 0,01 | 79% |
+| 08-P11 | Verifiche a sorte: audit casuali sorteggiati sugli enti che spendono fondi pubblici | PIENA | 1,0 | 0,01 | 73% |
+| 07-C2 | Pena utile: misure di comunita' contro il sovraffollamento | ESSENZIALE | 0,6 | 0,25 | 65% |
 | 01-P23 | Sapere chi paga quanto: statistica ufficiale delle aliquote effettive e unità per i grandi patrimoni con adempimento collaborativo | PILOTA | 0,2 | 0,00 | 60% |
+| 08-P2 | Patto per la buona legge | ESSENZIALE | 0,5 | 0,00 | 57% |
+| 07-C7 | Direttiva anticorruzione recepita bene, con un reato stretto e tutele contro la paura della firma, e sostegno a chi segnala | ESSENZIALE | 0,6 | 0,00 | 57% |
 
 ## Coperture attivate
 
@@ -152,7 +152,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | SF23 | Libera professione intramuraria dei medici del SSN (art. 52 c. 1 lett. a-bis TUIR): i compensi contano nel reddito al 100% invece che al 75%, come gli altri redditi di lavoro | SPESE_FISCALI | 0,10 | Medici e dirigenti sanitari del SSN che svolgono attività intramoenia, con redditi in prevalenza alti | 100% |
 | RA07 | Riserva di una quota delle facoltà assunzionali da turnover ai profili tecnici (ICT, appalti, progettazione) al posto dei profili amministrativi generici (R09-1, area 09) | RIALLOCAZIONE | 0,10 | Chi si candida a profili generici; uffici che non sostituiscono il personale | 100% |
 | SF05 | Abrogazione delle spese fiscali minori e senza valutazione (fascia 10-20 mln e parte delle misure sotto 10 mln), con clausola di scadenza per le nuove | SPESE_FISCALI | 0,08 | Chi beneficia di agevolazioni minori e frammentate | 100% |
-| PE01 | Contributo di equità temporaneo (3 anni) sulla parte di pensione oltre 100.000 € lordi annui, aliquote progressive 10-30%, solo sulla quota calcolata con il retributivo; gettito vincolato a contributi figurativi per giovani e carriere discontinue | PENSIONI | 0,08 | Persone in pensione con trattamenti oltre 100.000 € lordi annui | 98% |
+| PE01 | Contributo di equità temporaneo (3 anni) sulla parte di pensione oltre 100.000 € lordi annui, aliquote progressive 10-30%, solo sulla quota calcolata con il retributivo; gettito vincolato a contributi figurativi per giovani e carriere discontinue | PENSIONI | 0,08 | Persone in pensione con trattamenti oltre 100.000 € lordi annui | 96% |
 | SF07 | Fondi sanitari integrativi: deducibilità dei contributi (3.615,20 €) decrescente oltre 75.000 € di reddito, e stesso limite per i piani sanitari aziendali esenti (SF-SAN2, area 06) | SPESE_FISCALI | 0,08 | Persone iscritte ai fondi sanitari con reddito oltre 75.000 € | 100% |
 | SF21 | Piani individuali di risparmio (PIR ordinari L. 232/2016 e PIR-PMI alternativi art. 136 DL 34/2020): nessuna nuova sottoscrizione agevolata dal 2028; i piani già aperti mantengono l'esenzione alle regole attuali; il sostegno alle PMI passa a strumenti diretti (fondo di fondi CDP, area 01) | SPESE_FISCALI | 0,08 | Persone con risparmio finanziario medio-alto che aprirebbero nuovi PIR dal 2028; chi ha già un piano non perde nulla | 100% |
 | RB04 | Carta del docente: quota di circa 150 € vincolata alla formazione su AI e didattica, al posto di acquisti liberi (proposta area 05) | RIORDINO_BONUS | 0,08 | Docenti di ruolo e supplenti annuali (minor libertà d'uso) | 100% |
@@ -175,7 +175,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | RA32 | Concessioni demaniali marittime turistico-ricreative: adozione del decreto sui canoni previsto dal DL 131/2024 (scaduto il 31/3/2025), con canoni legati al valore dell'area e alla redditività, applicati alle concessioni assegnate con le gare entro il 2027; riscossione coattiva dei canoni richiesti e non versati | RIALLOCAZIONE | 0,03 | Concessionari degli stabilimenti balneari; in parte la clientela, tramite i prezzi | 100% |
 | RA21 | Fondo di garanzia PMI: niente garanzia pubblica sui prestiti ordinari alle imprese nella fascia di rischio più bassa (fascia 1), salvo start-up, microimprese e investimenti per la transizione; commissione d'accesso per le medie imprese; minori rifinanziamenti dal bilancio | RIALLOCAZIONE | 0,03 | PMI solide (fascia 1) che oggi ottengono la garanzia pur avendo già accesso al credito; banche (meno capitale liberato dalla garanzia) | 100% |
 | RA31 | Liquidità delle amministrazioni pubbliche sui conti correnti postali: dal rinnovo della convenzione MEF-Poste, gli enti già soggetti a tesoreria unica vi tengono la liquidità che non serve agli incassi correnti, e il tasso riconosciuto a Poste sulle giacenze che restano viene ridotto. Lo Stato smette di pagare interessi su denaro pubblico | RIALLOCAZIONE | 0,03 | Poste Italiane (minori ricavi da interessi) e in parte gli azionisti pubblici (minori dividendi) | 100% |
-| PE02 | Estensione del contributo PE01 alla fascia tra 80.000 e 100.000 € con aliquota 5%, stessi 3 anni e stessa base retributiva | PENSIONI | 0,03 | Persone in pensione con trattamenti tra 80.000 e 100.000 € lordi annui | 71% |
+| PE02 | Estensione del contributo PE01 alla fascia tra 80.000 e 100.000 € con aliquota 5%, stessi 3 anni e stessa base retributiva | PENSIONI | 0,03 | Persone in pensione con trattamenti tra 80.000 e 100.000 € lordi annui | 68% |
 | RA04 | Trasferimenti correnti alle imprese: taglio del 3-5% delle linee di incentivo senza valutazione d'impatto positiva (esclusi i contratti di servizio di TPL, ferrovie e servizio postale), in attuazione del Codice degli incentivi | RIALLOCAZIONE | 0,03 | Imprese beneficiarie di incentivi correnti | 100% |
 | FN05 | Holding personali passive (01-P19, ESSENZIALE o PIENA): imposta del 13% sulla quota esclusa (95%) di dividendi e plusvalenze PEX incassati dal periodo d'imposta successivo alla legge, trattenuta e non reinvestita, come acconto scomputato alla distribuzione, per attivo passivo oltre 5 mln e franchigia 250.000 euro; esclusi i dividendi delle partecipate operative di almeno il 10%, quelli della direttiva madre-figlia e la riserva per acquisizioni e crisi; prestiti e beni ai soci presunti distribuzione; niente rivalutazione in successione per liquidazione e recesso dopo successioni future | SPESE_FISCALI | 0,03 | Holding personali passive di famiglie con grandi patrimoni finanziari che, dopo la legge, incassano proventi passivi e non li reinvestono in imprese operative | 100% |
 | FN13 | Dividendi della propria società operativa fermi nella holding personale (01-P19 parte B, ESSENZIALE o PIENA): i dividendi da partecipazioni di almeno il 10% in società operative incassati dal 2029 da una holding residente controllata da non più di 5 persone o famiglie, non distribuiti e non reinvestiti in attività vere entro 3 anni (o entro 5 nella riserva per acquisizioni e crisi), si considerano distribuiti al socio che con il suo gruppo familiare controlla la holding e pagano il 26%; la holding versa come sostituto con rivalsa obbligatoria; credito alla distribuzione vera; base estesa a rimborsi di riserve di capitale, recesso, liquidazione, plusvalenze PEX in famiglia e prestiti dalla società operativa; franchigia 500.000 euro l'anno per gruppo familiare; società semplici escluse | SPESE_FISCALI | 0,03 | Soci che con la famiglia controllano holding personali e trattengono oltre 500.000 euro l'anno di dividendi delle proprie società operative senza reinvestirli | 100% |
@@ -198,17 +198,17 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | SAD20 | IMU sugli immobili nuovi invenduti delle imprese costruttrici (AL.SI.03): esenzione solo per i primi 3 anni dalla fine dei lavori, poi aliquota ordinaria; esenzione piena confermata per recupero, rigenerazione e aree dismesse e per gli immobili dati in affitto | SAD | 0,01 | Imprese di costruzione con abitazioni nuove invendute da oltre 3 anni, soprattutto su suolo libero | 100% |
 | RP02 | Dirigenza: riduzione dell'8-12% dei posti di funzione dirigenziale di seconda fascia nei ministeri e negli enti pubblici non economici nazionali, accorpando gli uffici piccoli; i posti si sopprimono solo quando si liberano. Limite più basso agli incarichi dirigenziali a esterni (art. 19 c. 6 d.lgs. 165/2001). Esclusi MiC, MIM, MUR e le strutture sanitarie, sociali e di soccorso | RIALLOCAZIONE | 0,01 | Personale funzionario che aspira a incarichi dirigenziali; incarichi dirigenziali esterni non rinnovati | 100% |
 | RA52 | Compenso statale a CAF e professionisti per l'assistenza fiscale (art. 38 d.lgs. 241/1997, cap. 3845: 216,9 mln nel 2025) dimezzato dal 2029 per i 730 precompilati trasmessi senza nessuna modifica ai dati dell'Agenzia delle entrate; invariato per le dichiarazioni modificate o integrate; resta gratuito il canale assistito dell'Agenzia | RIALLOCAZIONE | 0,01 | CAF e professionisti abilitati (compenso più basso per le pratiche senza lavoro aggiuntivo); rischio che una parte del minor compenso sia chiesta ai contribuenti | 100% |
-| TS02 | Contributo di accesso per visitatori giornalieri nelle città d'arte sature (modello Venezia), facoltativo per i comuni | TASSA_SOGGIORNO | 0,01 | Chi visita in giornata le città aderenti | 66% |
+| TS02 | Contributo di accesso per visitatori giornalieri nelle città d'arte sature (modello Venezia), facoltativo per i comuni | TASSA_SOGGIORNO | 0,01 | Chi visita in giornata le città aderenti | 68% |
 | RA08 | Assistenza tecnica e studi d'impatto esterni sostituiti dai pool tecnici e dall'infrastruttura pubblica, oltre RA03 (R09-2, area 09) | RIALLOCAZIONE | 0,01 | Società di consulenza e assistenza tecnica | 100% |
 | RP03 | Uffici di diretta collaborazione dei ministri, strutture di missione e strutture commissariali: tetto di spesa del 20% sotto il 2025 per indennità di diretta collaborazione, consulenze e collaborazioni esterne, personale comandato e funzionamento; organici massimi fissati e pubblicati. Non tocca le consulenze già in RA03 | RIALLOCAZIONE | 0,01 | Consulenze e collaborazioni esterne dei vertici politici; personale che perde l'indennità di diretta collaborazione | 100% |
 | RA22 | Compensi ai gestori degli incentivi (Invitalia, Mediocredito Centrale e altri): tetto dal 2% all'1,5% delle risorse e all'1% per le misure automatiche sopra 500 mln, con una parte del compenso legata al rispetto dei tempi; la dotazione delle misure si riduce dello stesso importo | RIALLOCAZIONE | 0,01 | Società pubbliche che gestiscono gli incentivi (Invitalia, Mediocredito Centrale); in piccola parte le imprese beneficiarie, per la riduzione della dotazione | 100% |
 | SAD21 | Pacchetto di SAD energetici residui non ancora usati: accisa ridotta sui carburanti dei taxi (EN.SI.12) sostituita in 3 anni da un contributo per taxi elettrici; franchigia sulle royalties di gas e petrolio (EN.SI.26); canone per l'estrazione di sale (AL.SI.46); agevolazioni minori EN.SI.09, EN.SI.10, EN.SI.11, EN.SI.16, EN.SI.23 | SAD | 0,01 | Titolari di licenza taxi con veicoli a combustione; titolari di concessioni di idrocarburi e di sale; pochi impianti industriali | 100% |
 | RP05 | Sedi degli uffici civili dello Stato: standard di spazio per addetto con lavoro agile e postazioni condivise, sedi uniche territoriali (più uffici statali nello stesso immobile) e rilascio degli immobili in eccesso; taglio dei capitoli di utenze, pulizia, vigilanza e manutenzione ordinaria. Non tocca i canoni (già in RA02) né le sedi di scuole, università, musei, biblioteche, archivi, servizi sociali e sanitari | RIALLOCAZIONE | 0,01 | Fornitori di pulizia, vigilanza e manutenzione; personale che perde la postazione fissa | 100% |
-| RP07 | Società e organismi partecipati: attuazione obbligatoria del Testo unico (d.lgs. 175/2016), con commissario ad acta, per le società senza dipendenti o con più amministratori che dipendenti, con fatturato sotto 1 mln o in perdita 4 anni su 5; amministratore unico e tetti ai compensi. Una quota dei risparmi certificati degli enti territoriali va alla finanza pubblica con intesa in Conferenza unificata. Esclusi i servizi pubblici locali essenziali e gli organismi dei servizi sociali | RIALLOCAZIONE | 0,01 | Componenti dei consigli di amministrazione e degli organi delle società chiuse o fuse; enti territoriali che cedono una quota dei risparmi | 99% |
+| RP07 | Società e organismi partecipati: attuazione obbligatoria del Testo unico (d.lgs. 175/2016), con commissario ad acta, per le società senza dipendenti o con più amministratori che dipendenti, con fatturato sotto 1 mln o in perdita 4 anni su 5; amministratore unico e tetti ai compensi. Una quota dei risparmi certificati degli enti territoriali va alla finanza pubblica con intesa in Conferenza unificata. Esclusi i servizi pubblici locali essenziali e gli organismi dei servizi sociali | RIALLOCAZIONE | 0,01 | Componenti dei consigli di amministrazione e degli organi delle società chiuse o fuse; enti territoriali che cedono una quota dei risparmi | 97% |
 | RP04 | Accorpamento degli enti pubblici nazionali minori con funzioni sovrapposte e servizi comuni obbligatori (stipendi su NoiPA, contabilità, acquisti, gestione del personale) per gli enti sotto i 200 dipendenti; organi collegiali sostituiti da amministratore unico e revisore unico. Esclusi enti di ricerca, culturali, sanitari, socio-assistenziali e di soccorso | RIALLOCAZIONE | 0,00 | Componenti di consigli di amministrazione e collegi; personale di back-office che cambia sede o mansione (senza licenziamenti) | 100% |
-| PE03 | Chiusura definitiva delle 'quote' e di Opzione donna: nessun rinnovo, uscita anticipata solo con calcolo contributivo | PENSIONI | 0,00 | Persone vicine alla pensione che avrebbero usato le quote | 76% |
+| PE03 | Chiusura definitiva delle 'quote' e di Opzione donna: nessun rinnovo, uscita anticipata solo con calcolo contributivo | PENSIONI | 0,00 | Persone vicine alla pensione che avrebbero usato le quote | 75% |
 | FN04 | Imposta sostitutiva sui premi di produttività: limite di reddito per beneficiarne ridotto da 80.000 a 50.000 euro dal 2028 | SPESE_FISCALI | 0,00 | Personale dipendente privato con reddito tra 50.000 e 80.000 euro che ricevono premi di risultato | 100% |
-| RA11 | Scuola: adeguamento dell'organico dei posti comuni al calo della popolazione scolastica solo tramite turnover, oltre i tagli già nel tendenziale (proposta area 05) | RIALLOCAZIONE | 0,00 | Aspiranti docenti (meno posti), scuole | 78% |
+| RA11 | Scuola: adeguamento dell'organico dei posti comuni al calo della popolazione scolastica solo tramite turnover, oltre i tagli già nel tendenziale (proposta area 05) | RIALLOCAZIONE | 0,00 | Aspiranti docenti (meno posti), scuole | 74% |
 
 ## Proposte non incluse
 
@@ -216,12 +216,12 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 
 - 01-P10 Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti (scelta in 0% delle combinazioni di pesi)
 - 01-P13 Un solo credito per la ricerca: stabile, piu' forte per le piccole imprese, certificato prima di spendere (scelta in 0% delle combinazioni di pesi)
-- 01-P18 Registro mensile dei redditi Entrate-INPS per conto fiscale e prestazioni (scelta in 20% delle combinazioni di pesi)
+- 01-P18 Registro mensile dei redditi Entrate-INPS per conto fiscale e prestazioni (scelta in 22% delle combinazioni di pesi)
 - 01-P4 Crescere conviene: eliminare i gradini dimensionali (scelta in 0% delle combinazioni di pesi)
 - 02-C2 Nido esigibile + congedo paterno (scelta in 0% delle combinazioni di pesi)
 - 02-C4 Reddito di inclusione universale (scelta in 0% delle combinazioni di pesi)
 - 03-P4 Prevenire costa meno: fondo prevenzione e assicurazione catastrofale (scelta in 0% delle combinazioni di pesi)
-- 03-P5 Contratto agro-climatico (scelta in 12% delle combinazioni di pesi)
+- 03-P5 Contratto agro-climatico (scelta in 13% delle combinazioni di pesi)
 - 04-P1 Patto di continuita' post-PNRR (scelta in 0% delle combinazioni di pesi)
 - 04-P3 Prima il treno di chi viaggia ogni giorno: fondo TPL e abbonamento unico (scelta in 0% delle combinazioni di pesi)
 - 04-P7 Dal porto al treno: piu' merci sul ferro (scelta in 0% delle combinazioni di pesi)
@@ -229,11 +229,12 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 - 06-C2 Patto per il personale infermieristico e la medicina generale (scelta in 0% delle combinazioni di pesi)
 - 06-C5 Salute mentale al 5% (scelta in 0% delle combinazioni di pesi)
 - 07-C1 Giustizia a regime: Ufficio per il processo e triage digitale (scelta in 0% delle combinazioni di pesi)
-- 07-C3 Governance dei flussi migratori fondata sui dati (scelta in 19% delle combinazioni di pesi)
+- 07-C3 Governance dei flussi migratori fondata sui dati (scelta in 21% delle combinazioni di pesi)
 - 08-P1 Legge sulla consulenza algoritmica pubblica (scelta in 1% delle combinazioni di pesi)
 - 08-P6 Export resiliente (scelta in 0% delle combinazioni di pesi)
 - 09-C1 Stato a vetro: infrastruttura aperta per l'analisi delle politiche (scelta in 1% delle combinazioni di pesi)
 - 09-C11 Dividendo dell'automazione: meno posti nelle attività ripetitive, meno tasse, regole contro l'elusione (scelta in 1% delle combinazioni di pesi)
+- 09-C12 Riesame delle funzioni con l'AI: chiudere quello che una macchina fa bene, spostare le persone dove servono (scelta in 1% delle combinazioni di pesi)
 
 ## Uso dei fondi
 

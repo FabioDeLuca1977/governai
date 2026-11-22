@@ -22,7 +22,7 @@ Priorità al nucleo robusto (Carta, regola 7): **attiva**.
 | di cui su risorse generali | 2,38 |
 | Gettito minimo delle coperture attivate (risorse generali) | 2,38 |
 | Gettito minimo delle coperture attivate (totale) | 2,38 |
-| Proposte nel programma | 76 su 96 |
+| Proposte nel programma | 77 su 97 |
 
 La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i valori la stessa scelta rientra nel programma ottimo. Sopra l'80% la scelta non dipende dalla sensibilità politica.
 
@@ -31,6 +31,7 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | Proposta | Titolo | Variante | Intensità | Costo | Robustezza |
 |---|---|---|---|---|---|
 | 04-P2 | Casa a canone giusto | ESSENZIALE | 0,6 | 0,48 | 100% |
+| 04-P6 | Restare e' possibile: servizi essenziali aree interne | ESSENZIALE | 0,6 | 0,42 | 100% |
 | 05-C5 | Scuole aperte come presidi di comunita' | ESSENZIALE | 0,5 | 0,20 | 100% |
 | 05-C7 | Quota svantaggio nel finanziamento delle scuole | ESSENZIALE | 0,6 | 0,19 | 100% |
 | 07-C6 | Scudo cyber territoriale | ESSENZIALE | 0,6 | 0,18 | 100% |
@@ -48,64 +49,64 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | 01-P26 | AI nelle piccole imprese: una sola porta, soluzioni per settore, pagamento a risultato | PILOTA | 0,1 | 0,01 | 100% |
 | 08-P11 | Verifiche a sorte: audit casuali sorteggiati sugli enti che spendono fondi pubblici | PIENA | 1,0 | 0,01 | 100% |
 | 08-P7 | Appalti a vetro: cruscotto pubblico dei rischi e dati aperti completi | PIENA | 1,0 | 0,01 | 100% |
-| 01-P17 | UPB più forte: revisioni della spesa indipendenti, rispetta o spiega, analisi volontaria dei programmi elettorali | PIENA | 1,0 | 0,01 | 100% |
 | 01-P21 | Fine dei contenitori: polizze vita senza rischio assicurativo e trust esteri opachi tassati come investimenti | PIENA | 1,0 | 0,00 | 100% |
 | 08-P8 | Influenza alla luce del sole: registro obbligatorio delle lobby per tutti, parti sociali comprese, agenda pubblica e impronta legislativa | PIENA | 1,0 | 0,00 | 100% |
-| 08-P10 | Chi c'è dietro: titolare effettivo verificato per gare e fondi pubblici | PIENA | 1,0 | 0,00 | 100% |
 | 01-P6 | Turismo che ripaga i territori: tassa di soggiorno intelligente | ZERO | 0,4 | 0,00 | 100% |
 | 02-C1 | Salario minimo contrattuale garantito | ZERO | 0,3 | 0,00 | 100% |
 | 02-C3 | Patto previdenziale tra generazioni | ZERO | 0,5 | 0,00 | 100% |
 | 02-C6 | Bilancio generazionale e strategia demografica | ZERO | 0,3 | 0,00 | 100% |
 | 03-P1 | Dividendo climatico: riforma SAD restituita alla cittadinanza | ZERO | 0,2 | 0,00 | 100% |
 | 04-P5 | LEP prima: autonomia differenziata reversibile | ZERO | 0,5 | 0,00 | 100% |
-| 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | ZERO | 0,2 | 0,00 | 100% |
 | 05-C6 | AI a scuola | ZERO | 0,2 | 0,00 | 100% |
 | 06-C1 | Tempo garantito o rimborso | ZERO | 0,2 | 0,00 | 100% |
-| 06-C6 | Dividendo della prevenzione e budget unico del farmaco | ZERO | 0,7 | 0,00 | 100% |
-| 08-P4 | Beni pubblici europei: capacita' fiscale UE | PIENA | 1,0 | 0,00 | 100% |
 | 08-P5 | Cooperazione che si misura: traiettoria APS | ZERO | 0,1 | 0,00 | 100% |
 | 09-C4 | Cloud pubblico sostenibile e Patto per la manutenzione digitale | ZERO | 0,1 | 0,00 | 100% |
-| 01-P9 | Una sola detrazione per il lavoro, senza scalini | ZERO | 0,2 | 0,00 | 100% |
 | 01-P11 | Lo scontrino che conviene: un incentivo mirato al posto di lotterie e cashback | ZERO | 0,1 | 0,00 | 100% |
-| 04-P6 | Restare e' possibile: servizi essenziali aree interne | ESSENZIALE | 0,6 | 0,42 | 100% |
-| 09-C5 | AI nella PA con le mani sul volante | ESSENZIALE | 0,6 | 0,08 | 100% |
-| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 100% |
-| 06-C9 | Equipe di benessere scolastico in rete con la Casa della Comunita' | PILOTA | 0,1 | 0,03 | 100% |
-| 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | ZERO | 0,2 | 0,00 | 100% |
-| 05-C3 | Carriere della ricerca | ZERO | 0,1 | 0,00 | 100% |
 | 01-P25 | Imprese di persone come le SRL: 24% sugli utili lasciati in azienda da ditte, SNC e SAS in contabilità ordinaria, IRPEF solo su ciò che si preleva; pagata dalla patrimoniale minima | ZERO | 0,1 | 0,00 | 100% |
-| 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | ESSENZIALE | 0,6 | 0,15 | 99% |
+| 09-C5 | AI nella PA con le mani sul volante | ESSENZIALE | 0,6 | 0,08 | 100% |
+| 02-C9 | Politiche attive dopo il PNRR: nucleo minimo di GOL | PILOTA | 0,1 | 0,03 | 100% |
+| 06-C9 | Equipe di benessere scolastico in rete con la Casa della Comunita' | PILOTA | 0,1 | 0,03 | 100% |
+| 01-P17 | UPB più forte: revisioni della spesa indipendenti, rispetta o spiega, analisi volontaria dei programmi elettorali | PIENA | 1,0 | 0,01 | 100% |
+| 08-P10 | Chi c'è dietro: titolare effettivo verificato per gare e fondi pubblici | PIENA | 1,0 | 0,00 | 100% |
+| 01-P16 | Tetti di spesa triennali per ministero, con riserva e regola sulle entrate inattese | PIENA | 1,0 | 0,00 | 100% |
+| 04-P8 | Camion a zero emissioni: patto per la transizione dell'autotrasporto | ZERO | 0,2 | 0,00 | 100% |
+| 06-C6 | Dividendo della prevenzione e budget unico del farmaco | ZERO | 0,7 | 0,00 | 100% |
+| 08-P4 | Beni pubblici europei: capacita' fiscale UE | PIENA | 1,0 | 0,00 | 100% |
+| 01-P5 | Energia a prezzo stabile per le PMI (PPA rinnovabili) | ESSENZIALE | 0,6 | 0,15 | 100% |
+| 01-P9 | Una sola detrazione per il lavoro, senza scalini | ZERO | 0,2 | 0,00 | 100% |
+| 01-P14 | Sfide Italia: la pubblica amministrazione compra innovazione in tre fasi | PILOTA | 0,1 | 0,03 | 99% |
+| 05-C3 | Carriere della ricerca | ZERO | 0,1 | 0,00 | 99% |
+| 01-P15 | Dalla scoperta all'impresa: prove di fattibilita', regole per gli spin-off, fondo di fondi deep tech | ZERO | 0,2 | 0,00 | 99% |
+| 05-C2 | Conto personale di competenze | PILOTA | 0,1 | 0,05 | 99% |
 | 05-C10 | Rete nazionale per la ricerca applicata sul modello Fraunhofer | PILOTA | 0,1 | 0,05 | 99% |
-| 02-C9 | Politiche attive dopo il PNRR: nucleo minimo di GOL | PILOTA | 0,1 | 0,03 | 99% |
-| 01-P16 | Tetti di spesa triennali per ministero, con riserva e regola sulle entrate inattese | PIENA | 1,0 | 0,00 | 99% |
-| 01-P23 | Sapere chi paga quanto: statistica ufficiale delle aliquote effettive e unità per i grandi patrimoni con adempimento collaborativo | PIENA | 1,0 | 0,01 | 99% |
-| 01-P8 | Meno scontrini: riordino delle detrazioni del 19% | ZERO | 0,4 | 0,00 | 99% |
-| 05-C2 | Conto personale di competenze | PILOTA | 0,1 | 0,05 | 98% |
-| 01-P18 | Registro mensile dei redditi Entrate-INPS per conto fiscale e prestazioni | PIENA | 1,0 | 0,04 | 97% |
-| 09-C9 | Squadra per la produttività pubblica con l'AI: meno lavoro ripetitivo, più servizi alle persone | ESSENZIALE | 0,5 | 0,04 | 97% |
+| 09-C9 | Squadra per la produttività pubblica con l'AI: meno lavoro ripetitivo, più servizi alle persone | ESSENZIALE | 0,5 | 0,04 | 98% |
+| 06-C4 | Budget di cura per la non autosufficienza | PILOTA | 0,1 | 0,10 | 98% |
+| 03-P3 | Ogni goccia conta: reti idriche e riuso | ESSENZIALE | 0,6 | 0,60 | 98% |
+| 06-C3 | Case della Comunita' vive | PILOTA | 0,1 | 0,15 | 98% |
+| 01-P23 | Sapere chi paga quanto: statistica ufficiale delle aliquote effettive e unità per i grandi patrimoni con adempimento collaborativo | PIENA | 1,0 | 0,01 | 98% |
+| 09-C7 | Automazione dei processi ripetitivi con riallocazione garantita | PILOTA | 0,1 | 0,02 | 98% |
+| 01-P18 | Registro mensile dei redditi Entrate-INPS per conto fiscale e prestazioni | PIENA | 1,0 | 0,04 | 98% |
 | 04-P9 | Consegne pulite in citta': zone a emissioni zero per le merci | ZERO | 0,5 | 0,00 | 97% |
-| 06-C3 | Case della Comunita' vive | PILOTA | 0,1 | 0,15 | 97% |
+| 01-P8 | Meno scontrini: riordino delle detrazioni del 19% | ZERO | 0,4 | 0,00 | 96% |
 | 09-C3 | Squadre tecniche della Repubblica: pool di competenze per i piccoli enti | ESSENZIALE | 0,5 | 0,22 | 96% |
-| 02-C8 | Aggancio protetto e correttore automatico e temporaneo sulla spesa pensionistica | PIENA | 1,0 | 0,00 | 96% |
-| 06-C4 | Budget di cura per la non autosufficienza | PILOTA | 0,1 | 0,10 | 96% |
-| 03-P3 | Ogni goccia conta: reti idriche e riuso | ESSENZIALE | 0,6 | 0,60 | 96% |
-| 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | ESSENZIALE | 0,6 | 0,14 | 95% |
-| 01-P22 | Eredità: l'impresa che lavora resta esente, il patrimonio passivo no; gli eredi mantengono il costo fiscale oltre 1 mln | PIENA | 1,0 | 0,00 | 95% |
-| 09-C7 | Automazione dei processi ripetitivi con riallocazione garantita | PILOTA | 0,1 | 0,02 | 94% |
-| 06-C10 | Meno burocrazia, più cura: automazione degli uffici sanitari e riqualificazione del personale amministrativo | PILOTA | 0,1 | 0,01 | 93% |
-| 08-P2 | Patto per la buona legge | PIENA | 1,0 | 0,01 | 93% |
-| 02-C5 | Progetto di vita esigibile e lavoro per le persone con disabilita' | PILOTA | 0,3 | 0,15 | 92% |
-| 01-P19 | Holding personali: sugli utili parcheggiati la stessa imposta che possedendo direttamente, con le imprese operative e chi reinveste esclusi | PIENA | 1,0 | 0,02 | 91% |
-| 09-C10 | Bandi pubblici con istruttoria assistita: domande compilate una volta, controlli in giorni invece che in mesi | PIENA | 1,0 | 0,04 | 90% |
-| 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | ZERO | 0,3 | 0,00 | 89% |
-| 07-C7 | Direttiva anticorruzione recepita bene, con un reato stretto e tutele contro la paura della firma, e sostegno a chi segnala | PIENA | 1,0 | 0,01 | 87% |
-| 01-P12 | Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate | PIENA | 1,0 | 0,06 | 84% |
-| 08-P9 | Integrità di chi decide: dichiarazioni verificate, conflitti di interessi e porte girevoli | PIENA | 1,0 | 0,01 | 80% |
-| 08-P1 | Legge sulla consulenza algoritmica pubblica | ESSENZIALE | 0,6 | 0,01 | 80% |
-| 09-C11 | Dividendo dell'automazione: meno posti nelle attività ripetitive, meno tasse, regole contro l'elusione | PIENA | 1,0 | 0,01 | 79% |
+| 09-C2 | Chiedilo una volta sola: once-only con rimborso automatico | ESSENZIALE | 0,6 | 0,14 | 96% |
+| 02-C8 | Aggancio protetto e correttore automatico e temporaneo sulla spesa pensionistica | PIENA | 1,0 | 0,00 | 95% |
+| 06-C10 | Meno burocrazia, più cura: automazione degli uffici sanitari e riqualificazione del personale amministrativo | PILOTA | 0,1 | 0,01 | 95% |
+| 02-C5 | Progetto di vita esigibile e lavoro per le persone con disabilita' | PILOTA | 0,3 | 0,15 | 95% |
+| 01-P22 | Eredità: l'impresa che lavora resta esente, il patrimonio passivo no; gli eredi mantengono il costo fiscale oltre 1 mln | PIENA | 1,0 | 0,00 | 94% |
+| 08-P2 | Patto per la buona legge | PIENA | 1,0 | 0,01 | 94% |
+| 08-P3 | Regole del gioco stabili (legge elettorale, voto fuorisede) | ZERO | 0,3 | 0,00 | 90% |
+| 01-P19 | Holding personali: sugli utili parcheggiati la stessa imposta che possedendo direttamente, con le imprese operative e chi reinveste esclusi | PIENA | 1,0 | 0,02 | 89% |
+| 09-C12 | Riesame delle funzioni con l'AI: chiudere quello che una macchina fa bene, spostare le persone dove servono | PIENA | 1,0 | 0,02 | 88% |
+| 08-P1 | Legge sulla consulenza algoritmica pubblica | ESSENZIALE | 0,6 | 0,01 | 86% |
+| 09-C10 | Bandi pubblici con istruttoria assistita: domande compilate una volta, controlli in giorni invece che in mesi | PIENA | 1,0 | 0,04 | 84% |
+| 07-C7 | Direttiva anticorruzione recepita bene, con un reato stretto e tutele contro la paura della firma, e sostegno a chi segnala | PIENA | 1,0 | 0,01 | 84% |
+| 08-P9 | Integrità di chi decide: dichiarazioni verificate, conflitti di interessi e porte girevoli | PIENA | 1,0 | 0,01 | 79% |
 | 04-P4 | Nessuna grande opera senza prova dei numeri | PIENA | 1,0 | 0,03 | 72% |
-| 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | PIENA | 1,0 | 0,02 | 40% |
-| 09-C6 | Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità | ESSENZIALE | 0,6 | 0,01 | 34% |
+| 09-C11 | Dividendo dell'automazione: meno posti nelle attività ripetitive, meno tasse, regole contro l'elusione | PIENA | 1,0 | 0,01 | 71% |
+| 01-P12 | Pagare è semplice, condonare no: semplificazione, riscossione efficace, sanzioni proporzionate | PIENA | 1,0 | 0,06 | 68% |
+| 01-P1 | Bilancio generazionale: ogni legge dichiara chi paga e quando | ZERO | 0,3 | 0,00 | 54% |
+| 09-C6 | Lavoro pubblico misurato e giusto: organizzazione, valutazione vera e responsabilità | ESSENZIALE | 0,6 | 0,01 | 43% |
 
 ## Coperture attivate
 
@@ -131,24 +132,24 @@ La colonna **Robustezza** indica in quale quota delle combinazioni di pesi tra i
 | RA32 | Concessioni demaniali marittime turistico-ricreative: adozione del decreto sui canoni previsto dal DL 131/2024 (scaduto il 31/3/2025), con canoni legati al valore dell'area e alla redditività, applicati alle concessioni assegnate con le gare entro il 2027; riscossione coattiva dei canoni richiesti e non versati | RIALLOCAZIONE | 0,03 | Concessionari degli stabilimenti balneari; in parte la clientela, tramite i prezzi | 100% |
 | RA21 | Fondo di garanzia PMI: niente garanzia pubblica sui prestiti ordinari alle imprese nella fascia di rischio più bassa (fascia 1), salvo start-up, microimprese e investimenti per la transizione; commissione d'accesso per le medie imprese; minori rifinanziamenti dal bilancio | RIALLOCAZIONE | 0,03 | PMI solide (fascia 1) che oggi ottengono la garanzia pur avendo già accesso al credito; banche (meno capitale liberato dalla garanzia) | 100% |
 | RA51 | TV e radio locali: contributi statali (Fondo per il pluralismo e l'innovazione dell'informazione, quota MIMIT per l'emittenza locale, cap. 3125: 129,6 mln nel 2025) ridotti del 25-35% dal 2028; il resto va solo alle emittenti che producono informazione locale con giornalisti assunti; nessun contributo a chi trasmette soprattutto televendite | RIALLOCAZIONE | 0,03 | Emittenti radiotelevisive locali commerciali, soprattutto quelle con poca informazione propria; in parte i loro dipendenti | 100% |
-| RA50 | Ippica: sovvenzioni statali al settore (MASAF cap. 2295 interventi per lo sviluppo del settore ippico, 99,5 mln; cap. 2297 sovvenzioni alle società di corse, 37,1 mln; rendiconto 2025) ridotte del 25-40% in 3 anni dal 2028; restano vigilanza, antidoping e benessere dei cavalli (cap. 2298); il settore si finanzia di più con le scommesse ippiche, come in Francia (PMU) e Regno Unito (prelievo sui bookmaker) | RIALLOCAZIONE | 0,03 | Società di corse e ippodromi, proprietari e allevatori di cavalli da corsa (premi più bassi); in parte i lavoratori degli ippodromi | 98% |
+| RA50 | Ippica: sovvenzioni statali al settore (MASAF cap. 2295 interventi per lo sviluppo del settore ippico, 99,5 mln; cap. 2297 sovvenzioni alle società di corse, 37,1 mln; rendiconto 2025) ridotte del 25-40% in 3 anni dal 2028; restano vigilanza, antidoping e benessere dei cavalli (cap. 2298); il settore si finanzia di più con le scommesse ippiche, come in Francia (PMU) e Regno Unito (prelievo sui bookmaker) | RIALLOCAZIONE | 0,03 | Società di corse e ippodromi, proprietari e allevatori di cavalli da corsa (premi più bassi); in parte i lavoratori degli ippodromi | 97% |
 | RA02 | Locazioni passive: piano di rientro negli immobili pubblici accelerato, obiettivo -20% dei canoni entro il 2030 | RIALLOCAZIONE | 0,02 | Soggetti privati che affittano immobili alla PA | 100% |
 | RA03 | Consulenze, studi, auto di servizio e rappresentanza: tetto del 20% sotto la spesa 2025 dei capitoli dedicati | RIALLOCAZIONE | 0,02 | Consulenze esterne, società di noleggio | 100% |
 | RA33 | Veicoli sequestrati e fermati in via amministrativa: custode-acquirente obbligatorio in tutte le province, con gare Interno-Demanio; vendita o rottamazione d'ufficio quando la custodia supera il valore del veicolo; censimento digitale dell'art. 215-bis del Codice della strada; taglio progressivo del cap. 2952 dell'Interno | RIALLOCAZIONE | 0,01 | Depositerie private (meno giorni di custodia pagati); proprietari che non ritirano i veicoli | 100% |
 | RA10 | Contributo unificato maggiorato per i litiganti seriali (oltre 500 cause l'anno) (proposta area 07) | RIALLOCAZIONE | 0,01 | Grandi litiganti: banche, assicurazioni, società di recupero crediti, utilities | 100% |
 | RA08 | Assistenza tecnica e studi d'impatto esterni sostituiti dai pool tecnici e dall'infrastruttura pubblica, oltre RA03 (R09-2, area 09) | RIALLOCAZIONE | 0,01 | Società di consulenza e assistenza tecnica | 100% |
 | RA22 | Compensi ai gestori degli incentivi (Invitalia, Mediocredito Centrale e altri): tetto dal 2% all'1,5% delle risorse e all'1% per le misure automatiche sopra 500 mln, con una parte del compenso legata al rispetto dei tempi; la dotazione delle misure si riduce dello stesso importo | RIALLOCAZIONE | 0,01 | Società pubbliche che gestiscono gli incentivi (Invitalia, Mediocredito Centrale); in piccola parte le imprese beneficiarie, per la riduzione della dotazione | 100% |
-| RA52 | Compenso statale a CAF e professionisti per l'assistenza fiscale (art. 38 d.lgs. 241/1997, cap. 3845: 216,9 mln nel 2025) dimezzato dal 2029 per i 730 precompilati trasmessi senza nessuna modifica ai dati dell'Agenzia delle entrate; invariato per le dichiarazioni modificate o integrate; resta gratuito il canale assistito dell'Agenzia | RIALLOCAZIONE | 0,01 | CAF e professionisti abilitati (compenso più basso per le pratiche senza lavoro aggiuntivo); rischio che una parte del minor compenso sia chiesta ai contribuenti | 93% |
-| RA11 | Scuola: adeguamento dell'organico dei posti comuni al calo della popolazione scolastica solo tramite turnover, oltre i tagli già nel tendenziale (proposta area 05) | RIALLOCAZIONE | 0,00 | Aspiranti docenti (meno posti), scuole | 78% |
+| RA52 | Compenso statale a CAF e professionisti per l'assistenza fiscale (art. 38 d.lgs. 241/1997, cap. 3845: 216,9 mln nel 2025) dimezzato dal 2029 per i 730 precompilati trasmessi senza nessuna modifica ai dati dell'Agenzia delle entrate; invariato per le dichiarazioni modificate o integrate; resta gratuito il canale assistito dell'Agenzia | RIALLOCAZIONE | 0,01 | CAF e professionisti abilitati (compenso più basso per le pratiche senza lavoro aggiuntivo); rischio che una parte del minor compenso sia chiesta ai contribuenti | 92% |
+| RA11 | Scuola: adeguamento dell'organico dei posti comuni al calo della popolazione scolastica solo tramite turnover, oltre i tagli già nel tendenziale (proposta area 05) | RIALLOCAZIONE | 0,00 | Aspiranti docenti (meno posti), scuole | 74% |
 
 ## Proposte non incluse
 
 Restano fuori perché, con le risorse disponibili, altre misure danno più valore per euro, oppure perché il loro effetto netto sui valori è negativo. *Rientrano se si trovano coperture aggiuntive.*
 
 - 01-P10 Controlli mirati con garanzie: usare meglio i dati che il fisco ha già, senza sorvegliare tutti (scelta in 0% delle combinazioni di pesi)
-- 01-P13 Un solo credito per la ricerca: stabile, piu' forte per le piccole imprese, certificato prima di spendere (scelta in 1% delle combinazioni di pesi)
-- 01-P24 Grandi patrimoni: un'imposta minima solo sopra 50 milioni, meno le imposte sul reddito già pagate, con exit tax e valutazione uguale per tutti i beni; prima si misura (scelta in 8% delle combinazioni di pesi)
-- 01-P4 Crescere conviene: eliminare i gradini dimensionali (scelta in 11% delle combinazioni di pesi)
+- 01-P13 Un solo credito per la ricerca: stabile, piu' forte per le piccole imprese, certificato prima di spendere (scelta in 0% delle combinazioni di pesi)
+- 01-P24 Grandi patrimoni: un'imposta minima solo sopra 50 milioni, meno le imposte sul reddito già pagate, con exit tax e valutazione uguale per tutti i beni; prima si misura (scelta in 6% delle combinazioni di pesi)
+- 01-P4 Crescere conviene: eliminare i gradini dimensionali (scelta in 7% delle combinazioni di pesi)
 - 02-C2 Nido esigibile + congedo paterno (scelta in 0% delle combinazioni di pesi)
 - 02-C4 Reddito di inclusione universale (scelta in 0% delle combinazioni di pesi)
 - 03-P4 Prevenire costa meno: fondo prevenzione e assicurazione catastrofale (scelta in 0% delle combinazioni di pesi)
@@ -162,9 +163,9 @@ Restano fuori perché, con le risorse disponibili, altre misure danno più valor
 - 07-C1 Giustizia a regime: Ufficio per il processo e triage digitale (scelta in 0% delle combinazioni di pesi)
 - 07-C2 Pena utile: misure di comunita' contro il sovraffollamento (scelta in 4% delle combinazioni di pesi)
 - 07-C3 Governance dei flussi migratori fondata sui dati (scelta in 0% delle combinazioni di pesi)
-- 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea (scelta in 29% delle combinazioni di pesi)
+- 07-C5 Difesa: percorso NATO 3,5% vincolato a efficienza europea (scelta in 26% delle combinazioni di pesi)
 - 08-P6 Export resiliente (scelta in 0% delle combinazioni di pesi)
-- 09-C1 Stato a vetro: infrastruttura aperta per l'analisi delle politiche (scelta in 50% delle combinazioni di pesi)
+- 09-C1 Stato a vetro: infrastruttura aperta per l'analisi delle politiche (scelta in 37% delle combinazioni di pesi)
 
 ## Uso dei fondi
 

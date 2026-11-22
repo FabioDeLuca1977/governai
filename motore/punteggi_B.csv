@@ -959,3 +959,13 @@ proposta_id,valore,breve,medio,lungo,confidenza,linea_rossa,motivazione
 01-P26,EQU,0,1,1,B,no,"Riserva del 40% a Mezzogiorno e aree interne, check-up aperto a microimprese e professionisti; resta il rischio che aderiscano le più attrezzate"
 01-P26,SIC,0,0,0,M,no,"Dati in UE, esclusione delle pratiche vietate dall'AI Act e divieto di controllo dei lavoratori; effetto netto sulla sicurezza trascurabile"
 01-P26,CIT,0,0,0,M,no,"Passa da Camere, associazioni e convenzioni regionali, con informazione ai lavoratori; nessun effetto rilevante su partecipazione civica"
+09-C12,RIS,0,0,-1,M,no,"Offerta adeguata definita per legge, assegno personale, rifiuto sempre giustificato con 104 e salute, criteri non legati all'età; restano cessazione possibile e meno concorsi"
+09-C12,FID,1,2,2,M,no,"Metodo e decisioni pubblici, collegato annuale e tagli in bilancio, certificazione RGS senza doppi conteggi, Corte dei conti; costi per chi rifiuta dichiarati apertamente"
+09-C12,INN,1,2,2,M,no,"Riesame funzionale con AI di supporto e servizi condivisi chiude funzioni intere, non minuti sparsi; tre anni per tutte le amministrazioni è un calendario ambizioso"
+09-C12,BEN,0,1,1,B,no,"Più personale nei servizi carenti e meno tasse sul lavoro; transizioni e mobilità possono peggiorare servizi e benessere di chi viene spostato"
+09-C12,APC,1,1,1,M,no,"Riqualificazione retribuita in orario per circa 20.000 persone verso sportelli, controlli e servizi sociali; esito dipende dalla compatibilità dei profili"
+09-C12,BPA,0,0,0,A,no,Nessun effetto rilevante su patrimonio e accoglienza
+09-C12,FUT,0,1,1,B,no,"Quarto del risparmio ai saldi, assunzioni evitate contate solo se tagliate, eccedenze recuperate; dopo cinque anni il tetto scade e la spesa può ricrescere"
+09-C12,EQU,0,0,0,B,no,"Chiusure non possono ridurre i LEP, quota ai servizi carenti e tasse sul lavoro; meno concorsi pesano su giovani dove la PA è il datore principale"
+09-C12,SIC,0,0,0,M,no,"AI solo di supporto con decisione umana e obblighi AI Act; chiusure di funzioni di controllo mitigate dalla misura di tempi ed errori"
+09-C12,CIT,0,1,1,B,no,"Diritto alla riqualificazione e dovere di accettare offerte adeguate: reciprocità; consultazione sindacale ma nessun coinvolgimento diretto della cittadinanza"
