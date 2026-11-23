@@ -479,6 +479,55 @@ def governi() -> dict:
     return {**pag, "righe": righe(d / "governi_confronto.csv")}
 
 
+
+def _data_iso(v: str) -> str:
+    """Data in formato AAAA-MM-GG da '2026-11-18T11:00:00+0100', '18.11.2026' o 'Thu, 17 Sep 2026 14:11:22 GMT'."""
+    v = (v or "").strip()
+    if not v:
+        return ""
+    m = re.match(r"(\d{4}-\d{2}-\d{2})", v)
+    if m:
+        return m.group(1)
+    m = re.match(r"(\d{2})\.(\d{2})\.(\d{4})", v)
+    if m:
+        return f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
+    try:
+        from email.utils import parsedate_to_datetime
+        return parsedate_to_datetime(v).date().isoformat()
+    except (TypeError, ValueError):
+        return ""
+
+
+def catalogo_fonti() -> dict:
+    """Stato delle fonti: ogni serie registrata dagli script (dati/serie/_registro_*.csv), con la data dell'ultimo
+    aggiornamento alla fonte (registro, indice Eurostat o intestazione Last-Modified dei file controllati dalla
+    sentinella) e la data dell'ultimo scaricamento; più l'esito dell'ultimo controllo della sentinella."""
+    stato = json.loads(leggi(QUI / "stato" / "fonti.json") or "{}")
+    sent = json.loads(leggi(QUI / "stato" / "ultima_sentinella.json") or "{}")
+    euro, firme = stato.get("eurostat", {}), stato.get("file", {})
+    serie = []
+    for f in sorted((RADICE / "dati" / "serie").glob("_registro_*.csv")):
+        area = f.stem.removeprefix("_registro_")
+        for x in pd.read_csv(f, dtype=str).fillna("").to_dict("records"):
+            urls = [u for u in re.split(r"\s*;\s*|\s+", x.get("url", "")) if u.startswith("http")]
+            agg = _data_iso(x.get("aggiornato_fonte", ""))
+            if not agg:
+                codici = [m.group(1) for u in urls for m in [re.search(r"/data/([A-Za-z0-9_]+)", u)] if m and "eurostat" in u]
+                agg = max((_data_iso(euro.get(c, "")) for c in codici), default="")
+            if not agg:
+                agg = max((_data_iso((firme.get(u, "") + "||").split("|")[1]) for u in urls), default="")
+            file = f"dati/serie/{x['nome']}.csv"
+            serie.append({"nome": x["nome"], "area": area, "fonte": x.get("fonte", ""), "url": urls[0] if urls else "",
+                          "nota": x.get("nota", ""), "scaricato": _data_iso(x.get("scaricato", "")), "aggiornato": agg,
+                          "file": file if (RADICE / file).exists() else ""})
+    return {"serie": serie,
+            "controllo": {"data": sent.get("data", ""), "modalita": sent.get("modalita", ""),
+                          "errori": sent.get("errori", []), "ultimo_completo": stato.get("ultimo_completo", ""),
+                          "eurostat": len(euro), "file": len(firme), "pagine": len(stato.get("pagine", {})),
+                          "aggiornati": len(sent.get("eurostat_aggiornati", [])) + len(sent.get("file_aggiornati", [])),
+                          "documenti_nuovi": len(sent.get("documenti_nuovi", []))}}
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     conf = yaml.safe_load(leggi(QUI / "config.yaml"))
@@ -489,7 +538,8 @@ def main() -> int:
     S, _, valutatori, ids = decidi.carica_panel()
     mediana = np.median(S, axis=0)  # p, v, h
     pos = {p: i for i, p in enumerate(ids)}
-    var = pd.concat([pd.read_csv(f) for f in sorted((RADICE / "programma" / "varianti").glob("*.csv"))])
+    var = pd.concat([pd.read_csv(f).assign(_file=f"programma/varianti/{f.name}")
+                     for f in sorted((RADICE / "programma" / "varianti").glob("*.csv"))])
     var["variante"] = var.variante.str.upper().str.strip()
     sk = schede()
     conf_f = RADICE / "giuridico" / "conformita.csv"
@@ -508,6 +558,7 @@ def main() -> int:
             "varianti": [{"variante": x.variante, "intensita": pulisci(x.intensita), "costo": pulisci(x.costo_regime),
                           "descrizione": x.descrizione, "strumento": getattr(x, "strumento", "")} for x in vv.itertuples()],
             "scheda": sk.get(r.proposta_id, ""),
+            "file_varianti": vv["_file"].iloc[0] if len(vv) else "",
             "giuridico": giur[((giur.tipo == "proposta") & (giur.id == r.proposta_id))
                               | ((giur.tipo == "variante") & giur.id.str.startswith(r.proposta_id + ":"))]
                          .reindex(columns=campi_g).to_dict("records"),
@@ -534,12 +585,11 @@ def main() -> int:
 
     # Cruscotto con serie per i grafici
     ind = json.loads(leggi(QUI / "stato" / "indicatori.json") or "[]")
-    registro = {}
-    for f in sorted((RADICE / "dati" / "serie").glob("_registro_*.csv")):
-        for x in pd.read_csv(f, dtype=str).fillna("").itertuples():
-            registro[x.nome] = {"fonte": x.fonte, "url": x.url}
+    cat_fonti = catalogo_fonti()
+    registro = {x["nome"]: x for x in cat_fonti["serie"]}
     for i, cfg in zip(ind, conf.get("indicatori", [])):
-        i["fonte"] = registro.get(cfg.get("serie") or "00c_rendimenti_decennali", {})
+        r = registro.get(cfg.get("serie") or "00c_rendimenti_decennali", {})
+        i["fonte"] = {k: r.get(k, "") for k in ("fonte", "url", "aggiornato", "scaricato", "file")}
         d = pipeline.serie_indicatore(cfg)
         if d is not None and not d.empty:
             d = d.tail(36)
@@ -561,6 +611,7 @@ def main() -> int:
         "coperture": [{**c, "giuridico": giur[(giur.tipo == "copertura") & (giur.id == c["misura_id"])]
                        .reindex(columns=campi_g).to_dict("records")} for c in records(menu[col])],
         "indicatori": ind,
+        "fonti": cat_fonti,
         "regole": regole,
         "allerte_attive": sorted(attive),
         "bollettini": [{"data": f.stem, "testo": leggi(f)} for f in boll],

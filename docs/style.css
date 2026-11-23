@@ -913,3 +913,9 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 .ai-prop{ list-style:none; padding:0; margin:8px 0; display:grid; gap:6px; }
 .ai-prop a{ text-decoration:none; }
 .ai-prop .mono{ display:inline-block; min-width:5.2em; color:var(--c-testo-2); }
+
+/* «Scarica i dati» in fondo alle pagine */
+.scarica-dati{ display:flex; gap:8px; align-items:flex-start; margin-top:32px; padding-top:16px; border-top:1px solid var(--c-bordo); font-size:14px; color:var(--c-testo-2); }
+.scarica-dati svg{ flex:none; width:18px; height:18px; margin-top:2px; }
+.scarica-dati a{ overflow-wrap:anywhere; }
+.fo-tab td small{ display:block; color:var(--c-testo-2); font-size:12px; margin-top:2px; }

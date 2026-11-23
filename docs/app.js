@@ -90,6 +90,34 @@
   const schede = (voci, attiva) => `<nav class="schede" aria-label="Sezioni">${voci.map(([k, t, href, conta]) => `<a href="${href}" ${k === attiva ? 'aria-current="page"' : ""}>${esc(t)}${conta != null ? ` <span class="conta">${conta}</span>` : ""}</a>`).join("")}</nav>`;
   const vuoto = (testo) => `<p class="vuoto">${esc(testo)}</p>`;
   const repo = D.repo || "https://github.com/FabioDeLuca1977/governai";
+  const RAW = repo.replace("https://github.com/", "https://raw.githubusercontent.com/") + "/main/";
+  const SCENARI_FILE = new Set(["intermedio", "momento", "dividendo", "difesa", "riferimento", "livello1", "livello2", "senza_tasse", "senza_tasse_istruzione"]);
+  // «Scarica i dati»: i file del repository da cui viene la pagina, scaricabili così come sono
+  const linkFile = (f) => `<a href="${esc(RAW + f)}" download>${esc(f.split("/").pop())}</a>`;
+  const scaricaDati = (files) => { const l = [...new Set(files.filter(Boolean))]; return l.length ? `<p class="scarica-dati">${icona("download")}<span><strong>Scarica i dati:</strong> ${l.map(linkFile).join(" · ")}. <a href="${esc(repo)}/tree/main" target="_blank" rel="noopener">Tutto il repository</a>.</span></p>` : ""; };
+  function fileDiPagina(a, b, params) {
+    if (a === "programma") {
+      const p = b && /^\d{2}-[PC]\d+$/.test(b) ? proposta(b) : null;
+      if (p) return [p.file_varianti, "motore/proposte.csv", "motore/esito_proposte.csv", "motore/punteggi_A.csv", "motore/punteggi_B.csv", "motore/punteggi_C.csv", "giuridico/conformita.csv"];
+      if (b === "coperture") return ["programma/coperture_menu.csv", "giuridico/conformita.csv"];
+      if (b === "ai") return ["programma/ai_pagina.yaml", "dati/serie/09_personale_funzioni_centrali.csv"];
+      const sc = params.get("scenario") || RIF_ID;
+      if (b === "una-pagina") return ["programma/schema.yaml", SCENARI_FILE.has(sc) ? `programma/selezione_${sc}.csv` : ""];
+      if (!b) return ["motore/proposte.csv", "motore/esito_proposte.csv", SCENARI_FILE.has(sc) ? `programma/selezione_${sc}.csv` : ""];
+      return [];
+    }
+    if (a === "dati") {
+      if (!b) return ["sistema/stato/indicatori.json", "sistema/config.yaml"];
+      if (b === "allerte") return ["sistema/config.yaml", "sistema/stato/allerte.json"];
+      if (b === "obiettivi") return ["apprendimento/obiettivi.yaml", "apprendimento/esiti.csv"];
+      if (b === "storia") return ["storia/decisioni_1977_2026.csv", "storia/periodi.yaml"];
+      if (b === "governi" || b === "verifica") return ["storia/governi_confronto.csv", "storia/legislature_confronto.csv", "storia/punti_di_vista.csv", "storia/punti_di_vista_ambiti.csv"];
+      if (b === "fonti") return ["sistema/stato/fonti.json", "sistema/stato/ultima_sentinella.json"];
+      return [];
+    }
+    if (a === "controlli" && b === "integrita") return ["integrita/catena.jsonl"];
+    return [];
+  }
   // Comunità su invito (comunita.js): il programma resta pubblico, la discussione è per le persone iscritte
   const C = window.Comunita;
   if (C) C.init({ md, D, icone: () => icone() });
@@ -210,12 +238,14 @@
     const u = pts[pts.length - 1];
     return `<svg class="sparkline" viewBox="0 0 200 44" preserveAspectRatio="none" role="img" aria-label="Andamento da ${esc(periodoBreve(s.t[0]))} a ${esc(periodoBreve(s.t[n - 1]))}: minimo ${nf(min, 1)}, massimo ${nf(max, 1)}"><path d="${dd}" vector-effect="non-scaling-stroke"/><circle cx="${u[0]}" cy="${u[1]}" r="2.5"/></svg>`;
   }
+  // date accanto alla fonte: quando la fonte ha pubblicato il dato e quando lo abbiamo scaricato
+  const datiFonte = (f) => !f ? "" : [f.aggiornato ? `aggiornata il ${dataBreve(f.aggiornato)}` : "", f.scaricato ? `scaricata il ${dataBreve(f.scaricato)}` : ""].filter(Boolean).map((x) => " · " + x).join("");
   function cardIndicatore(i) {
     return `<article class="card indicatore">
       <div class="sinistra"><h3>${esc(nomeInd(i))}</h3><p class="nota" style="margin:0">${esc(periodoBreve(i.periodo))} · ${esc(unitaInd(i))}</p></div>
       <div class="destra"><div class="riga"><span class="numero">${valoreInd(i)}${i.unita.startsWith("%") ? "%" : ""}</span>${badgeInd(i)}</div>${trend(i)}</div>
       ${sparkline(i)}
-      <p class="fonte">Fonte: ${i.fonte && i.fonte.url ? ext(i.fonte.url, esc(i.fonte.fonte)) : esc((i.fonte || {}).fonte || "—")}</p>
+      <p class="fonte">Fonte: ${i.fonte && i.fonte.url ? ext(i.fonte.url, esc(i.fonte.fonte)) : esc((i.fonte || {}).fonte || "—")}${datiFonte(i.fonte)}${i.fonte && i.fonte.file ? ` · <a href="${esc(RAW + i.fonte.file)}" download>Scarica i dati</a>` : ""}</p>
     </article>`;
   }
   function avvisoAllerta(r, conAzione = false) {
@@ -1698,7 +1728,7 @@
 
   // ---------- Dati ----------
   const GRUPPI = [["Prezzi e conti pubblici", ["inflazione", "debito_trimestrale", "debito_annuo", "deficit_annuo", "interessi", "spread", "rendimento_btp"]], ["Lavoro e giovani", ["disoccupazione", "disoccupazione_giovani", "neet"]], ["Crescita", ["pil_trimestrale", "produzione_industriale", "fiducia_consumatori"]], ["Società", ["fecondita"]]];
-  const schedeDati = (k) => `<h1>Dati</h1>${schede([["indicatori", "Indicatori", "#/dati", (D.indicatori || []).length], ["allerte", "Allerte", "#/dati/allerte", ALLERTE.length], ["obiettivi", "Obiettivi e risultati", "#/dati/obiettivi", (D.obiettivi || []).length], ["diario", "Diario quotidiano", "#/dati/diario"], ["storia", "50 anni di scelte", "#/dati/storia"], ["governi", "Governi a confronto", "#/dati/governi"], ["verifica", "Verifica un confronto", "#/dati/verifica"]], k)}`;
+  const schedeDati = (k) => `<h1>Dati</h1>${schede([["indicatori", "Indicatori", "#/dati", (D.indicatori || []).length], ["allerte", "Allerte", "#/dati/allerte", ALLERTE.length], ["obiettivi", "Obiettivi e risultati", "#/dati/obiettivi", (D.obiettivi || []).length], ["diario", "Diario quotidiano", "#/dati/diario"], ["storia", "50 anni di scelte", "#/dati/storia"], ["governi", "Governi a confronto", "#/dati/governi"], ["verifica", "Verifica un confronto", "#/dati/verifica"], ["fonti", "Stato delle fonti", "#/dati/fonti", ((D.fonti || {}).serie || []).length]], k)}`;
   function datiVista() {
     const ok = (D.indicatori || []).filter((i) => i.stato === "ok");
     const salgono = ALLERTE.map((r) => nomeInd(r.ind).split(" (")[0].toLowerCase()).filter((x, i, a) => x && a.indexOf(x) === i);
@@ -1707,6 +1737,26 @@
       ${ALLERTE.length ? `<div class="griglia g2-d">${ALLERTE.slice(0, 2).map((r) => avvisoAllerta(r, true)).join("")}</div><p><a href="#/dati/allerte">Tutte le allerte ${icona("arrow-right")}</a></p>` : ""}
       ${GRUPPI.map(([nome, ids]) => { const l = ids.map((id) => ok.find((i) => i.id === id)).filter(Boolean); return l.length ? `<section class="sezione"><div class="sezione-testa"><h2>${esc(nome)}</h2></div><div class="indicatori">${l.map(cardIndicatore).join("")}</div></section>` : ""; }).join("")}
       <p class="nota sezione">HICP: indice armonizzato dei prezzi al consumo. PIL: prodotto interno lordo. NEET: giovani che non lavorano, non studiano e non seguono una formazione. Spread IT-DE: differenza di rendimento tra titoli decennali italiani e tedeschi.</p>`;
+  }
+  function fontiVista(params) {
+    const F = D.fonti || { serie: [], controllo: {} }, K = F.controllo || {};
+    const area = params.get("area") || "";
+    const lista = F.serie.filter((x) => !area || x.area.startsWith(area)).sort((x, y) => (y.aggiornato || "").localeCompare(x.aggiornato || "") || x.nome.localeCompare(y.nome));
+    const conData = F.serie.filter((x) => x.aggiornato).length;
+    const aree = [...new Set(F.serie.map((x) => x.area.slice(0, 2)))].sort();
+    const nomeArea = (a) => (D.aree || {})[a] || ({ "00": "Quadro generale", bm: "Confronti internazionali", ob: "Obiettivi" })[a] || a;
+    const modo = { mirato: "Controllo mirato: rilanciati solo gli script delle fonti cambiate", completo: "Controllo completo: rilanciati tutti gli script" }[K.modalita] || "Nessuna fonte cambiata";
+    return `${schedeDati("fonti")}
+      <p class="risposta">${F.serie.length} serie ufficiali alla base del programma. Per ognuna: chi la pubblica, quando la fonte l'ha aggiornata e quando l'abbiamo scaricata. Ogni giorno una sentinella controlla se le fonti hanno pubblicato dati nuovi e rilancia gli script che li scaricano.</p>
+      <div class="griglia g3">
+        <div class="card"><p class="etichetta">Ultimo controllo</p><h3>${K.data ? dataBreve(K.data) : "—"}</h3><p>${esc(modo)}${K.ultimo_completo ? `; ultimo controllo completo il ${dataBreve(K.ultimo_completo)}` : ""}.</p></div>
+        <div class="card"><p class="etichetta">Che cosa controlla</p><h3>${(K.eurostat || 0) + (K.file || 0) + (K.pagine || 0)} fonti</h3><p>${K.eurostat || 0} tabelle Eurostat, ${K.file || 0} file di ministeri ed enti, ${K.pagine || 0} pagine istituzionali dove escono documenti nuovi.</p></div>
+        <div class="card"><p class="etichetta">Esito</p><h3>${(K.errori || []).length ? `${K.errori.length} problemi` : "Nessun errore"}</h3><p>Nell'ultimo controllo: ${K.aggiornati === 1 ? "1 fonte aggiornata" : `${K.aggiornati || 0} fonti aggiornate`}, ${K.documenti_nuovi === 1 ? "1 documento nuovo" : `${K.documenti_nuovi || 0} documenti nuovi`}.${(K.errori || []).length ? " " + esc(K.errori.join("; ")) : ""}</p></div>
+      </div>
+      <form class="filtri-barra" onsubmit="return false"><label class="campo">Tema<select id="fo-area"><option value="">Tutti i temi</option>${aree.map((a) => `<option value="${a}" ${a === area ? "selected" : ""}>${esc(nomeArea(a))}</option>`).join("")}</select></label></form>
+      <div class="tabella-scorre"><table class="tabella a-card fo-tab"><thead><tr><th>Serie</th><th>Fonte</th><th>Aggiornata dalla fonte</th><th>Scaricata da noi</th><th>Dati</th></tr></thead>
+      <tbody>${lista.map((x) => `<tr><td class="principale">${esc(String(x.nota || x.nome).replace(/^./, (c) => c.toUpperCase()))}<small class="mono">${esc(x.nome)}</small></td><td data-etichetta="Fonte">${x.url ? ext(x.url, esc(x.fonte)) : esc(x.fonte)}</td><td data-etichetta="Aggiornata dalla fonte">${x.aggiornato ? dataBreve(x.aggiornato) : "non indicato"}</td><td data-etichetta="Scaricata da noi">${x.scaricato ? dataBreve(x.scaricato) : "—"}</td><td data-etichetta="Dati">${x.file ? `<a href="${esc(RAW + x.file)}" download>CSV</a>` : "—"}</td></tr>`).join("")}</tbody></table></div>
+      <p class="nota">${conData} serie su ${F.serie.length} hanno la data di aggiornamento della fonte; per le altre (documenti PDF, cifre trascritte da relazioni) conta la data del documento citato nella scheda. Un dato vecchio non è un errore: molte statistiche escono una volta l'anno. Registri: <code>dati/serie/_registro_*.csv</code>; sentinella: <code>sistema/sentinella.py</code>.</p>`;
   }
   function allerteVista() {
     return `${schedeDati("allerte")}
@@ -1961,6 +2011,7 @@
       else if (b === "storia") { html = storiaVista(params); titolo = "50 anni di scelte"; }
       else if (b === "governi") { html = governiVista(params); titolo = "Governi a confronto"; }
       else if (b === "verifica") { html = verificaVista(params); titolo = "Verifica un confronto"; }
+      else if (b === "fonti") { html = fontiVista(params); titolo = "Stato delle fonti"; }
       else { html = datiVista(); titolo = "Dati"; }
     } else if (a === "controlli") {
       if (b === "europa") { html = europaVista(c, params); titolo = "Europa"; }
@@ -1976,6 +2027,7 @@
     else if (a === "cerca") { html = cerca(params); titolo = "Cerca"; }
     else { html = nonTrovato("L'indirizzo non corrisponde a nessuna pagina."); titolo = "Pagina non trovata"; }
     const voce = !a ? "oggi" : a;
+    html += scaricaDati(fileDiPagina(a, b, params));
     main.innerHTML = html;
     if (C) C.monta(main);
     document.title = `${titolo} · GovernAI`;
@@ -1991,6 +2043,7 @@
     if ($("#classifica")) { $$("input[type=range]", main).forEach((el) => el.addEventListener("input", aggiornaClassifica)); aggiornaClassifica(); }
     if ($("#q")) { $("#q").addEventListener("input", aggiornaRicerca); aggiornaRicerca(); $("#q").focus(); }
     if ($("#schema-scenario")) $("#schema-scenario").addEventListener("change", (e) => { location.hash = "#/programma/una-pagina" + (e.target.value === (D.schema || {}).scenario ? "" : "?scenario=" + e.target.value); });
+    if ($("#fo-area")) $("#fo-area").addEventListener("change", (e) => { location.hash = "#/dati/fonti" + (e.target.value ? "?area=" + e.target.value : ""); });
     if ($("#o-tema")) $("#o-tema").addEventListener("change", (e) => { location.hash = "#/dati/obiettivi" + (e.target.value ? "?tema=" + e.target.value : ""); });
     if ($("#i-tema")) $("#i-tema").addEventListener("change", (e) => { location.hash = "#/controlli/europa/infrazioni" + (e.target.value ? "?tema=" + e.target.value : ""); });
     icone();

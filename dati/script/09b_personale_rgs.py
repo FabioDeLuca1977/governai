@@ -23,7 +23,10 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+import pandas as pd
 import requests
+
+from fonti import salva
 
 API = "https://bdap-opendata.rgs.mef.gov.it/SpodCkanApi/api/3/action/package_search?q=PCA_OCC_DIP_ENTE_001&rows=100"
 ANNI = (2010, 2024)
@@ -42,20 +45,21 @@ def num(v: str) -> float:
         return 0.0
 
 
-def scarica(anno: int) -> str:
+def scarica(anno: int) -> tuple[str, str]:
     pacchetti = requests.get(API, timeout=60).json()["result"]["results"]
     meta = next(p for p in pacchetti if p["name"] == f"spd_pca_occ_dip_ente_01_{anno}")
     url = next(r["url"] for r in meta["resources"] if r.get("format", "").lower() == "csv" and "datastore/dump" in r["url"])
     url = url.replace("http://", "https://")
     r = requests.get(url, timeout=600)
     r.raise_for_status()
-    return r.content.decode("utf-8-sig", errors="replace")
+    return r.content.decode("utf-8-sig", errors="replace"), url
 
 
 def main() -> int:
-    righe = []
+    righe, urls = [], []
     for anno in ANNI:
-        testo = scarica(anno)
+        testo, url = scarica(anno)
+        urls.append(url)
         per_tipo, per_ente, totale = defaultdict(float), defaultdict(float), 0.0
         for x in csv.DictReader(io.StringIO(testo), delimiter=";"):
             n = sum(num(x.get(c)) for c in CAMPI)
@@ -71,11 +75,9 @@ def main() -> int:
         for (t, e), v in sorted(per_ente.items(), key=lambda z: -z[1]):
             righe.append(dict(anno=anno, livello="ente", gruppo=t, ente=e, personale=round(v)))
         print(anno, "totale PA", round(totale), "funzioni centrali", round(sum(per_tipo.values())))
-    USCITA.parent.mkdir(parents=True, exist_ok=True)
-    with open(USCITA, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["anno", "livello", "gruppo", "ente", "personale"])
-        w.writeheader()
-        w.writerows(righe)
+    salva(pd.DataFrame(righe), USCITA.stem, "RGS Conto annuale, OpenBDAP spd_pca_occ_dip_ente_01 (2010, 2024)",
+          " ".join(urls), "persone a tempo pieno e part time al 31/12; Funzioni centrali di Ministeri, Agenzie, enti previdenziali, aziende autonome",
+          area="09b")
     print("scritto", USCITA)
     return 0
 
