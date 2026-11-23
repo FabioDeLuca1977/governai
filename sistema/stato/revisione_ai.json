@@ -8,7 +8,7 @@
     "05",
     "06"
    ],
-   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/flussi-turistici-iii-trimestre-2026/",
+   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/documenti/newsletter/",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
@@ -17,75 +17,34 @@
     "00",
     "04"
    ],
-   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=091b2790-acf0-43e0-a4fd-cc03c52bf4aa",
+   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=10f10469-6ac9-48f4-96fc-d0f67ba2b33f",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
    "tipo": "documento_nuovo",
    "aree": [
     "00",
-    "01",
-    "02",
-    "03",
-    "04",
-    "05",
-    "06",
-    "07",
-    "08",
-    "09"
+    "04"
    ],
-   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/gu/2026/11/20/90/s4/html",
+   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=3c6981d7-0f88-4818-8a35-af6e92347c6b",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
    "tipo": "documento_nuovo",
    "aree": [
     "00",
-    "01",
-    "02",
-    "03",
-    "04",
-    "05",
-    "06",
-    "07",
-    "08",
-    "09"
+    "04"
    ],
-   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/20/26E06298/s4",
+   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=9a47e686-25b0-457d-89d1-a560d886ab35",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
    "tipo": "documento_nuovo",
    "aree": [
     "00",
-    "01",
-    "02",
-    "03",
-    "04",
-    "05",
-    "06",
-    "07",
-    "08",
-    "09"
+    "04"
    ],
-   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/20/26G00232/sg",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "00",
-    "01",
-    "02",
-    "03",
-    "04",
-    "05",
-    "06",
-    "07",
-    "08",
-    "09"
-   ],
-   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/21/26G00231/sg",
+   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=ff698196-63ca-40ba-8f39-7822588eadd5",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   }
  ]

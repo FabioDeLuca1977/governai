@@ -1,20 +1,19 @@
 # Bollettino GovernAI — 2026-11-23
 
-*Generato automaticamente da `sistema/pipeline.py` alle 10:40. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 17:52. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
 - Modalità di aggiornamento: **mirato**
 - Dataset Eurostat aggiornati: nessuno
-- File ufficiali aggiornati: 1
-- Serie cambiate e archiviate in `dati/storico/`: 09_personale_funzioni_centrali
-- Documenti nuovi sulle pagine osservate: 6
-  - ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/flussi-turistici-iii-trimestre-2026/
-  - Corte dei conti: https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=091b2790-acf0-43e0-a4fd-cc03c52bf4aa
-  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/gu/2026/11/20/90/s4/html
-  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/20/26E06298/s4
-  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/20/26G00232/sg
-  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/21/26G00231/sg
+- File ufficiali aggiornati: 2
+- Serie cambiate e archiviate in `dati/storico/`: nessuna
+- Documenti nuovi sulle pagine osservate: 5
+  - ISTAT - Home e comunicati: https://www.istat.it/documenti/newsletter/
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=10f10469-6ac9-48f4-96fc-d0f67ba2b33f
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=3c6981d7-0f88-4818-8a35-af6e92347c6b
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=9a47e686-25b0-457d-89d1-a560d886ab35
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=ff698196-63ca-40ba-8f39-7822588eadd5
 
 ## 2. Cruscotto
 
@@ -57,50 +56,29 @@
 
 ## 4. Programma del momento
 
-Il programma di riferimento (tutte le coperture, nucleo robusto prima) costa **14,06 mld/anno**; il programma adattato al momento costa **14,07 mld/anno**. Entrambi sono finanziati senza deficit.
-
-**Differenze rispetto al riferimento** (effetto delle allerte):
-
-- 01-P6: PIENA → ESSENZIALE
-- 02-C1: ZERO → PIENA
-- 05-C8: PIENA → ESSENZIALE
-- 06-C9: ESSENZIALE → PIENA
-- 07-C6: PIENA → ESSENZIALE
-
-**Cambiamenti rispetto al bollettino precedente:**
-
-- 01-P14: esclusa → ESSENZIALE
-- 01-P26: esclusa → PIENA
-- 01-P6: PIENA → ESSENZIALE
-- 05-C8: PIENA → ESSENZIALE
-- 06-C9: ESSENZIALE → PIENA
-- 08-P6: PILOTA → esclusa
-- 09-C11: esclusa → PIENA
-- 09-C12: esclusa → PIENA
-
-Dettaglio: `programma/selezione_momento.md`.
+Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
 
 ## 5. Revisione AI richiesta
 
-**6 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
-- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/flussi-turistici-iii-trimestre-2026/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=091b2790-acf0-43e0-a4fd-cc03c52bf4aa → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/gu/2026/11/20/90/s4/html → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/20/26E06298/s4 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/20/26G00232/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/21/26G00231/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+**5 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
+- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/documenti/newsletter/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=10f10469-6ac9-48f4-96fc-d0f67ba2b33f → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=3c6981d7-0f88-4818-8a35-af6e92347c6b → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=9a47e686-25b0-457d-89d1-a560d886ab35 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=ff698196-63ca-40ba-8f39-7822588eadd5 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
 
 ## Registro tecnico
 
-- sentinella: sentinella: mirato; Eurostat aggiornati 0, file 1, documenti nuovi 6, serie cambiate 1, errori 0
+- sentinella: sentinella: mirato; Eurostat aggiornati 0, file 2, documenti nuovi 5, serie cambiate 0, errori 0
 - apprendimento: 193 KPI, stati {'manuale': 147, 'in osservazione': 46}, aree calibrate 0
 - legislazione: archivio GU: 832 atti, 832 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
-- europa: europa: 984 atti GU L in archivio, 333 negli ultimi 30 giorni; 145 direttive con termine (23 critiche, 10 alte); 85 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 24
+- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
 - giurisprudenza: pronunce citate: 81; verificate: 81; da controllare: []
 - costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
 - consiglio: 95 previsioni, 0 verificate oggi, 8 verificate in totale
 - verifica sedute: 2 attive, 0 confermate, 2 da riesaminare
-- controlla.py: avvisi: 0  ->  bilancio.md
-- decidi.py: -> esito.md, esito_proposte.csv
-- ottimizza.py (riferimento): spesa 14.06  coperture 11.98  proposte 87/97  -> selezione_riferimento.md
-- ottimizza.py (momento): spesa 14.07  coperture 11.98  proposte 87/97  -> selezione_momento.md
+- modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
+
+## 6. Nota del livello AI
+
+Livello AI non eseguito: credenziali dell'API di Claude assenti (impostare la variabile d'ambiente ANTHROPIC_API_KEY).
