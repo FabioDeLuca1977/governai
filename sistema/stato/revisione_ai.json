@@ -1,16 +1,91 @@
 {
- "data": "2026-11-22",
+ "data": "2026-11-23",
  "compiti": [
+  {
+   "tipo": "documento_nuovo",
+   "aree": [
+    "02",
+    "05",
+    "06"
+   ],
+   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/flussi-turistici-iii-trimestre-2026/",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  },
+  {
+   "tipo": "documento_nuovo",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=091b2790-acf0-43e0-a4fd-cc03c52bf4aa",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  },
   {
    "tipo": "documento_nuovo",
    "aree": [
     "00",
     "01",
+    "02",
     "03",
+    "04",
+    "05",
+    "06",
+    "07",
     "08",
     "09"
    ],
-   "dettaglio": "EUR-Lex - Gazzetta ufficiale UE: https://eur-lex.europa.eu/statistics/statistics.html",
+   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/gu/2026/11/20/90/s4/html",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  },
+  {
+   "tipo": "documento_nuovo",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/20/26E06298/s4",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  },
+  {
+   "tipo": "documento_nuovo",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/20/26G00232/sg",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  },
+  {
+   "tipo": "documento_nuovo",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/21/26G00231/sg",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   }
  ]

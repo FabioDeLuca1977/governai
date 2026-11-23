@@ -1,15 +1,20 @@
-# Bollettino GovernAI — 2026-11-22
+# Bollettino GovernAI — 2026-11-23
 
-*Generato automaticamente da `sistema/pipeline.py` alle 14:25. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 10:40. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
 - Modalità di aggiornamento: **mirato**
 - Dataset Eurostat aggiornati: nessuno
 - File ufficiali aggiornati: 1
-- Serie cambiate e archiviate in `dati/storico/`: nessuna
-- Documenti nuovi sulle pagine osservate: 1
-  - EUR-Lex - Gazzetta ufficiale UE: https://eur-lex.europa.eu/statistics/statistics.html
+- Serie cambiate e archiviate in `dati/storico/`: 09_personale_funzioni_centrali
+- Documenti nuovi sulle pagine osservate: 6
+  - ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/flussi-turistici-iii-trimestre-2026/
+  - Corte dei conti: https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=091b2790-acf0-43e0-a4fd-cc03c52bf4aa
+  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/gu/2026/11/20/90/s4/html
+  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/20/26E06298/s4
+  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/20/26G00232/sg
+  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/21/26G00231/sg
 
 ## 2. Cruscotto
 
@@ -52,45 +57,50 @@
 
 ## 4. Programma del momento
 
-Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
+Il programma di riferimento (tutte le coperture, nucleo robusto prima) costa **14,06 mld/anno**; il programma adattato al momento costa **14,07 mld/anno**. Entrambi sono finanziati senza deficit.
+
+**Differenze rispetto al riferimento** (effetto delle allerte):
+
+- 01-P6: PIENA → ESSENZIALE
+- 02-C1: ZERO → PIENA
+- 05-C8: PIENA → ESSENZIALE
+- 06-C9: ESSENZIALE → PIENA
+- 07-C6: PIENA → ESSENZIALE
+
+**Cambiamenti rispetto al bollettino precedente:**
+
+- 01-P14: esclusa → ESSENZIALE
+- 01-P26: esclusa → PIENA
+- 01-P6: PIENA → ESSENZIALE
+- 05-C8: PIENA → ESSENZIALE
+- 06-C9: ESSENZIALE → PIENA
+- 08-P6: PILOTA → esclusa
+- 09-C11: esclusa → PIENA
+- 09-C12: esclusa → PIENA
+
+Dettaglio: `programma/selezione_momento.md`.
 
 ## 5. Revisione AI richiesta
 
-**1 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
-- [documento_nuovo] EUR-Lex - Gazzetta ufficiale UE: https://eur-lex.europa.eu/statistics/statistics.html → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+**6 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
+- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/flussi-turistici-iii-trimestre-2026/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=091b2790-acf0-43e0-a4fd-cc03c52bf4aa → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/gu/2026/11/20/90/s4/html → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/20/26E06298/s4 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/20/26G00232/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/21/26G00231/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
 
 ## Registro tecnico
 
-- sentinella: sentinella: mirato; Eurostat aggiornati 0, file 1, documenti nuovi 1, serie cambiate 0, errori 0
+- sentinella: sentinella: mirato; Eurostat aggiornati 0, file 1, documenti nuovi 6, serie cambiate 1, errori 0
 - apprendimento: 193 KPI, stati {'manuale': 147, 'in osservazione': 46}, aree calibrate 0
 - legislazione: archivio GU: 832 atti, 832 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
-- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
+- europa: europa: 984 atti GU L in archivio, 333 negli ultimi 30 giorni; 145 direttive con termine (23 critiche, 10 alte); 85 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 24
+- giurisprudenza: pronunce citate: 81; verificate: 81; da controllare: []
 - costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
 - consiglio: 95 previsioni, 0 verificate oggi, 8 verificate in totale
 - verifica sedute: 2 attive, 0 confermate, 2 da riesaminare
-- modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
-
-## 6. Nota del livello AI
-
-*Revisione del lunedì 23/11/2026, sui dati del bollettino del 22/11.*
-
-**Cosa è successo**
-
-- Nessun dato macro nuovo. L'unico "documento nuovo" segnalato è la pagina delle statistiche di EUR-Lex: non è un atto e non cambia fondi, gettiti o conformità. Nessuna modifica a `registro/fondi.csv` né a `programma/coperture_menu.csv`.
-- Le cinque allerte (inflazione al 5,6%, spread a 126 pb, debito al 139,9% del PIL, fiducia a -23,3, PIL fermo nel terzo trimestre) durano da oltre due settimane: è uno stato di stagflazione leggera, non un evento.
-- Unione europea: la direttiva (UE) 2024/869 sui valori limite per piombo e diisocianati ha il termine scaduto dal 9/4/2026, una messa in mora aperta (2026_0247) e nessuna misura italiana notificata. Nel programma non c'è una proposta che la copra.
-- Il modulo `europa` della pipeline è andato in errore (testo mancante di 32026H03925): gli atti UE di ieri potrebbero non essere stati esaminati.
-
-**Opzioni sostenibili per il momento** (senza deficit)
-
-1. Dare la precedenza alle misure a costo zero o regolatorie che proteggono i redditi reali (02-C1 e 03-P2 nelle varianti senza spesa), finché l'inflazione resta sopra il 3%.
-2. Mantenere il blocco di nuova spesa permanente finché lo spread non rientra, e finanziare le varianti a sostegno dei redditi solo con coperture già nel menu.
-3. Rinviare le coperture che pesano sui consumi (IVA, accise) finché la fiducia resta in netto calo, preferendo quelle su spesa e agevolazioni.
-4. Destinare i risparmi certificati del riesame delle funzioni (09-C12) e del dividendo dell'automazione (09-C11) prima alla riduzione del debito, poi alle tasse sul lavoro, finché l'allerta sul debito è attiva.
-5. Recepire la direttiva 2024/869 con un decreto legislativo: è un obbligo di tutela della salute dei lavoratori a costo contenuto per lo Stato (stima da verificare) e chiude una procedura d'infrazione.
-
-**Decisioni che spettano alle persone**
-
-- Se trattare le allerte persistenti come uno stato, con regole di programma stabili, invece che come eventi settimanali.
-- Quando dedicare una sessione al Consiglio dei ministri: quattro domande aspettano dall'8/11, compreso il riesame della seduta sui conti.
-- Quale ordine dare, tra debito e tasse sul lavoro, ai risparmi dell'automazione mentre il debito sale.
+- controlla.py: avvisi: 0  ->  bilancio.md
+- decidi.py: -> esito.md, esito_proposte.csv
+- ottimizza.py (riferimento): spesa 14.06  coperture 11.98  proposte 87/97  -> selezione_riferimento.md
+- ottimizza.py (momento): spesa 14.07  coperture 11.98  proposte 87/97  -> selezione_momento.md
