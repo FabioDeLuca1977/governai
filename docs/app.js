@@ -849,7 +849,11 @@
       ${P.tasse ? `<section class="blocco"><h2>Quanto si risparmierebbe in tasse <small>stima indicativa, a regime</small></h2><p>${esc(P.tasse.intro || "")}</p>
         <div class="tabella-scorre"><table class="tabella a-card"><thead><tr><th>Scenario</th><th class="num">Posti non sostituiti</th><th class="num">Risparmio lordo</th><th class="num">Taglio delle tasse l'anno</th><th class="num">Per contribuente IRPEF</th><th class="num">Rispetto all'IRPEF</th></tr></thead>
         <tbody>${(P.tasse.righe || []).map((r) => `<tr><td class="principale">${esc(r.scenario)}</td><td class="num" data-etichetta="Posti non sostituiti">${esc(r.posti)}</td><td class="num" data-etichetta="Risparmio lordo">${esc(r.lordo)}</td><td class="num" data-etichetta="Taglio delle tasse"><strong>${esc(r.tasse)}</strong></td><td class="num" data-etichetta="Per contribuente">${esc(r.persona)}</td><td class="num" data-etichetta="Rispetto all'IRPEF">${esc(r.irpef)}</td></tr>`).join("")}</tbody></table></div>
-        <details class="pv-metodo"><summary>Le ipotesi del calcolo</summary><ul>${(P.tasse.ipotesi || []).map((x) => `<li>${esc(x)}</li>`).join("")}</ul></details></section>` : ""}
+        <details class="pv-metodo"><summary>Le ipotesi del calcolo</summary><ul>${(P.tasse.ipotesi || []).map((x) => `<li>${esc(x)}</li>`).join("")}</ul></details>
+        ${P.tasse.riesame ? `<h3>In più, il riesame delle funzioni (09-C12) <small>dopo i suoi tre anni</small></h3><p>${esc(P.tasse.riesame.intro || "")}</p>
+        <div class="tabella-scorre"><table class="tabella a-card"><thead><tr><th>Scenario</th><th class="num">Persone ricollocate</th><th class="num">Risparmio netto</th><th class="num">Alle tasse (50%)</th><th class="num">Ai servizi (25%)</th><th class="num">Al debito (25%)</th><th class="num">Per contribuente IRPEF</th></tr></thead>
+        <tbody>${(P.tasse.riesame.righe || []).map((r) => `<tr><td class="principale">${esc(r.scenario)}</td><td class="num" data-etichetta="Persone ricollocate">${esc(r.persone)}</td><td class="num" data-etichetta="Risparmio netto">${esc(r.netto)}</td><td class="num" data-etichetta="Alle tasse"><strong>${esc(r.tasse)}</strong></td><td class="num" data-etichetta="Ai servizi">${esc(r.servizi)}</td><td class="num" data-etichetta="Al debito">${esc(r.debito)}</td><td class="num" data-etichetta="Per contribuente">${esc(r.persona)}</td></tr>`).join("")}</tbody></table></div>
+        <details class="pv-metodo"><summary>Le ipotesi del calcolo del riesame</summary><ul>${(P.tasse.riesame.ipotesi || []).map((x) => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}</section>` : ""}
       ${P.stime ? `<section class="blocco"><h2>Quanti posti ripetitivi si possono risparmiare</h2><p>${esc(P.stime.intro || "")}</p>
         <div class="tabella-scorre"><table class="tabella a-card"><thead><tr><th>Chi lo dice</th><th>Che cosa dice</th></tr></thead>
         <tbody>${(P.stime.righe || []).map((r) => `<tr><td class="principale">${esc(r.chi)}</td><td data-etichetta="Stima">${esc(r.cosa)}</td></tr>`).join("")}</tbody></table></div>
@@ -857,7 +861,7 @@
       ${prop.length ? `<section class="blocco"><h2>Le proposte <small>${prop.length} nel programma</small></h2>
         <ul class="ai-prop">${prop.map((p) => `<li><a href="${linkP(p.id)}"><span class="mono">${esc(p.id)}</span> ${esc(tit(p.titolo))}</a></li>`).join("")}</ul></section>` : ""}
       ${(P.limiti || []).length ? `<div class="avviso"><div class="avviso-titolo">${icona("info")}Limiti da tenere presenti</div><ul>${P.limiti.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}
-      <p class="nota">Testi e fonti: ${ext(repo + "/blob/main/programma/ai_pagina.yaml", "programma/ai_pagina.yaml")}. La proposta 09-C11, con l'articolato e il controllo giuridico, è nella sua scheda.</p>`;
+      <p class="nota">Testi e fonti: ${ext(repo + "/blob/main/programma/ai_pagina.yaml", "programma/ai_pagina.yaml")}. Le proposte 09-C11 e 09-C12, con l'articolato e il controllo giuridico, sono nelle loro schede.</p>`;
   }
 
   // ---------- 50 anni di scelte (cartella storia/) ----------

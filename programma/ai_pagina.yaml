@@ -69,7 +69,7 @@ stime:
       cosa: "L'Italia ha 237 robot ogni 10.000 addetti della manifattura, la Germania 449 (IFR 2025). In Germania i posti persi in fabbrica sono stati compensati da nuovi posti nei servizi."
   fonti: "OCSE, Employment Outlook 2019 (scheda Italia); Banca d'Italia, Questioni di economia e finanza n. 878, 2024; OIL, Working Paper 140, 2025; Implement Consulting Group 2025 e FPA 2024 (stime private sulla PA); governo britannico, prova di Microsoft 365 Copilot, 2025; Copenhagen Business School, 2025; IFR, World Robotics 2025; Dauth e coautori, JEEA 2021."
 tasse:
-  intro: "Quanto si risparmierebbe in tasse? Solo il dividendo dell'automazione (09-C11) riduce le tasse; l'AI nelle piccole imprese (01-P26) costa 0,08 mld l'anno e punta sulla produttività. La stima è indicativa e non è usata come copertura: conta solo ciò che la Ragioneria certificherà."
+  intro: "Quanto si risparmierebbe in tasse? Le tasse le riducono il dividendo dell'automazione (09-C11), con l'80% del risparmio dei posti non sostituiti al pensionamento, e il riesame delle funzioni (09-C12), con il 50% del risparmio delle persone ricollocate; l'AI nelle piccole imprese (01-P26) costa 0,08 mld l'anno e punta sulla produttività. Le stime sono indicative e non sono usate come copertura: conta solo ciò che la Ragioneria certificherà."
   righe:
     - scenario: "Prudente"
       posti: "50.000"
@@ -95,6 +95,35 @@ tasse:
     - "Per persona: diviso per i 42,8 milioni di contribuenti IRPEF (MEF, anno d'imposta 2024) e confrontato con 197,4 mld di IRPEF netta. Il taglio andrebbe soprattutto ai lavoratori, con la detrazione per il lavoro o il trattamento integrativo, quindi per ciascuno di loro sarebbe più alto."
     - "Nel programma intermedio l'automazione (09-C7) è in versione essenziale, nelle amministrazioni centrali, all'INPS e nelle Agenzie fiscali: secondo la scheda vale circa metà dell'effetto pieno. Regioni e Comuni contano solo se automatizzano e aderiscono."
     - "Il primo taglio arriva al più presto dal 2030: prime uscite non sostituite nel 2028, certificazione nel 2029, sgravio con la legge di bilancio successiva. Le esperienze reali finora sono state più basse delle stime."
+  riesame:
+    intro: "Il riesame non libera molti posti in più di quelli che le macchine possono liberare: li libera prima, perché le persone delle funzioni chiuse coprono subito i posti vuoti invece di aspettare la pensione. Il risparmio netto va per metà alle tasse sul lavoro, per un quarto ai servizi che mancano e per un quarto alla riduzione del debito."
+    righe:
+      - scenario: "Prudente"
+        persone: "10.000"
+        netto: "0,45 mld"
+        tasse: "0,23 mld"
+        servizi: "0,11 mld"
+        debito: "0,11 mld"
+        persona: "circa 5 €"
+      - scenario: "Centrale"
+        persone: "20.000"
+        netto: "0,9 mld"
+        tasse: "0,45 mld"
+        servizi: "0,22 mld"
+        debito: "0,22 mld"
+        persona: "circa 10 €"
+      - scenario: "Alto"
+        persone: "40.000"
+        netto: "1,8 mld"
+        tasse: "0,9 mld"
+        servizi: "0,45 mld"
+        debito: "0,45 mld"
+        persona: "circa 20 €"
+    ipotesi:
+      - "Lo scenario centrale riprende la scala delle Province 2015-2017, circa 20.000 persone ricollocate in due anni, pari al 10% dei circa 200.000 dipendenti amministrativi di ministeri, Agenzie ed enti previdenziali nel 2024 (erano 269.000 nel 2010: -26%, Conto annuale RGS); quello prudente la metà; quello alto, 40.000 persone, è il 20%, vicino al calo del personale federale del Canada (-19% in cinque anni), ma senza le uscite incentivate che lì hanno fatto gran parte del lavoro."
+      - "Conta solo chi copre un posto vuoto che altrimenti si sarebbe coperto con una nuova assunzione, e solo se le facoltà di assumere e gli stanziamenti sono tagliati davvero; i posti già certificati dal dividendo dell'automazione (09-C11) non si contano di nuovo."
+      - "Costo di un posto circa 60.000 euro l'anno con gli oneri; macchine, formazione e assegni personali costano circa il 25% del risparmio. Per persona: la quota per le tasse divisa per i 42,8 milioni di contribuenti IRPEF (MEF, anno d'imposta 2024)."
+      - "Il risparmio pieno arriva dopo i tre anni del riesame, dal 2030-2031, e resta, ma non cresce anno dopo anno come quello del dividendo dell'automazione. Le esperienze reali (Regno Unito, Danimarca, Province) sono state finora più basse delle stime."
 proposte: [09-C11, 09-C12, 01-P26, 09-C7, 09-C8, 09-C9, 09-C10, 09-C5, 09-C2, 09-C1, 06-C10, 07-C1, 08-P1, 05-C2, 05-C6, 05-C10, 01-P9]
 limiti:
   - "Quanto lavoro le macchine fanno davvero meglio nella pubblica amministrazione italiana non è ancora misurato: per questo nulla si conta prima della certificazione e la stima del risparmio non è una copertura."
