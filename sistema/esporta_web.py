@@ -528,6 +528,18 @@ def catalogo_fonti() -> dict:
                           "documenti_nuovi": len(sent.get("documenti_nuovi", []))}}
 
 
+
+def busta_paga() -> dict:
+    """Calcolatore della busta paga: regole 2026 verificate (analisi/chi_paga/parametri.yaml) e misure del programma
+    (programma/busta_paga.yaml). Il calcolo è in docs/busta.js, con i casi di prova in sistema/prova_busta.js."""
+    f, g = RADICE / "analisi" / "chi_paga" / "parametri.yaml", RADICE / "programma" / "busta_paga.yaml"
+    if not (f.exists() and g.exists()):
+        return {}
+    par, bp = yaml.safe_load(leggi(f)) or {}, yaml.safe_load(leggi(g)) or {}
+    return {"regole": {k: par[k] for k in ("irpef", "addizionali", "inps")}, "regole_2026": bp.get("regole_2026", {}),
+            "programma": bp.get("programma", {}), "anno": bp.get("anno")}
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     conf = yaml.safe_load(leggi(QUI / "config.yaml"))
@@ -641,6 +653,7 @@ def main() -> int:
                             for k, v in ((yaml.safe_load(leggi(f)) or {}).get("proposte") or {}).items()},
         "oceano_blu": yaml.safe_load(leggi(RADICE / "programma" / "oceano_blu.yaml")) if (RADICE / "programma" / "oceano_blu.yaml").exists() else {},
         "ai": yaml.safe_load(leggi(RADICE / "programma" / "ai_pagina.yaml")) if (RADICE / "programma" / "ai_pagina.yaml").exists() else {},
+        "busta": busta_paga(),
         "numeri": {"cifre_verificate": 334, "proposte": len(proposte),
                    "varianti": int(var.drop_duplicates(["proposta_id", "variante"]).shape[0]),
                    "coperture": len(menu), "valori": len(valori_carta()),

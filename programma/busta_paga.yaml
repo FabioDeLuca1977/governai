@@ -1,0 +1,80 @@
+# Calcolatore "La tua busta paga con GovernAI" (pagina #/programma/busta-paga).
+# Regole IRPEF, addizionali e contributi 2026: si usano quelle già verificate in analisi/chi_paga/parametri.yaml
+# (esportate insieme a questo file). Qui ci sono solo le regole in più per una lavoratrice o un lavoratore dipendente
+# e gli effetti delle misure del programma intermedio. Ogni numero ha la fonte. Stime GovernAI non certificate.
+# Creato il 23/11/2026.
+
+anno: 2026
+
+regole_2026:
+  somma_esente:
+    # L. 207/2024, art. 1, c. 4: somma che non concorre al reddito per chi ha reddito complessivo fino a 20.000 euro,
+    # in percentuale del reddito di lavoro dipendente
+    fino_a_reddito: 20000
+    fasce: [[8500, 0.071], [15000, 0.053], [20000, 0.048]]
+    fonte: "L. 30/12/2024 n. 207, art. 1, c. 4"
+    link: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2024-12-30;207"
+  trattamento_integrativo:
+    # DL 3/2020, art. 1, come modificato dalla L. 234/2021: 1.200 euro l'anno se il reddito complessivo non supera
+    # 15.000 euro e l'imposta lorda supera la detrazione per lavoro dipendente diminuita di 75 euro.
+    importo: 1200
+    fino_a_reddito: 15000
+    riduzione_capienza: 75
+    fonte: "DL 5/2/2020 n. 3, art. 1, c. 1 (come modificato dalla L. 234/2021)"
+    link: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2020-02-05;3"
+    ipotesi: "Tra 15.000 e 28.000 euro il trattamento spetta solo se alcune detrazioni (familiari, mutui, rate di spese edilizie) superano l'imposta: il calcolatore non le considera, quindi lo pone a zero."
+  oneri_19:
+    aliquota: 0.19
+    franchigia_sanitarie: 129.11
+    limite_premi_vita_infortuni: 530
+    limite_veterinarie: 550
+    franchigia_veterinarie: 129.11
+    limite_sport_per_figlio: 210
+    # art. 15, c. 3-bis, TUIR: oltre 120.000 euro le detrazioni al 19% calano fino a zero a 240.000; le spese sanitarie sono escluse
+    riduzione_da: 120000
+    riduzione_a: 240000
+    fonte: "art. 15 TUIR, c. 1 lett. c (sanitarie), f (premi vita e infortuni), c-bis (veterinarie), i-quinquies (sport 5-18 anni) e c. 3-bis"
+    link: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1986-12-22;917"
+    ipotesi: "Non si applica il tetto agli oneri per i redditi oltre 75.000 euro (L. 207/2024): con importi normali non scatta e non riguarda le spese sanitarie."
+  fondo_pensione:
+    limite_deduzione: 5164.57
+    fonte: "art. 8, c. 4, d.lgs. 252/2005"
+    link: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-12-05;252"
+
+programma:
+  scenario: intermedio
+  dipendenti: 23072978
+  dipendenti_fonte: "MEF-DF, Statistiche dichiarazioni IRPEF a.i. 2024, contribuenti con reddito prevalente da lavoro dipendente (analisi/chi_paga/popolazione.csv)"
+  # Taglio delle tasse sul lavoro a regime: 09-C11 (con 09-C7 essenziale, circa metà dell'effetto pieno) + 09-C12.
+  # Mld l'anno: 09-C11 da programma/ai_pagina.yaml (1,8 / 4,7 / 7,8 con 09-C7 pieno) per 0,5; 09-C12 0,23 / 0,45 / 0,9.
+  dividendo:
+    - {scenario: Prudente, mld_09C11: 0.9, mld_09C12: 0.23}
+    - {scenario: Centrale, mld_09C11: 2.35, mld_09C12: 0.45}
+    - {scenario: Alto, mld_09C11: 3.9, mld_09C12: 0.9}
+  dividendo_ipotesi: >
+    Il taglio va alla detrazione per il lavoro o al trattamento integrativo (09-C11, art. 5): qui si ipotizza lo stesso
+    importo in euro per ogni lavoratrice e lavoratore dipendente, anche con imposta bassa. Le leggi di bilancio potranno
+    scegliere una distribuzione diversa. Arriva al più presto dal 2030 e cresce fino a regime in circa dieci anni.
+  misure:
+    - id: SF06
+      titolo: "Spese sanitarie: detrazione che cala tra 50.000 e 120.000 euro di reddito"
+      da: 50000
+      a: 120000
+      dal: 2028
+      nota: "Restano piene le spese per disabilità, malattie croniche gravi e non autosufficienza."
+    - id: FN02
+      titolo: "Niente più detrazione per premi di assicurazioni vita e infortuni e per spese veterinarie"
+      dal: 2028
+      nota: "Restano le polizze per la non autosufficienza e per la tutela di persone con disabilità grave."
+    - id: SF08
+      titolo: "Detrazione per lo sport di figlie e figli 5-18 anni sostituita da sport gratuito a scuola"
+      dal: 2028
+    - id: SF22
+      titolo: "Fondo pensione: oltre 50.000 euro di reddito il risparmio d'imposta sui contributi non supera il 33%"
+      soglia: 50000
+      aliquota_max: 0.33
+      dal: 2029
+  non_calcolate:
+    - "Premi di produttività: per chi ha un reddito tra 50.000 e 80.000 euro l'imposta agevolata non spetterebbe più dal 2028 (FN04)."
+    - "Auto aziendale a uso anche privato: dal 2028 la parte tassata sale dal 50% al 60% per le auto a combustione (SAD05)."
+    - "Servizi che non passano dalla busta paga: nido, scuola, sanità, trasporti. Sono nella pagina «Che cosa cambia per me»."

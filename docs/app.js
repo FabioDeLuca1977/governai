@@ -101,6 +101,7 @@
       if (p) return [p.file_varianti, "motore/proposte.csv", "motore/esito_proposte.csv", "motore/punteggi_A.csv", "motore/punteggi_B.csv", "motore/punteggi_C.csv", "giuridico/conformita.csv"];
       if (b === "coperture") return ["programma/coperture_menu.csv", "giuridico/conformita.csv"];
       if (b === "ai") return ["programma/ai_pagina.yaml", "dati/serie/09_personale_funzioni_centrali.csv"];
+      if (b === "busta-paga") return ["programma/busta_paga.yaml", "analisi/chi_paga/parametri.yaml", "docs/busta.js"];
       const sc = params.get("scenario") || RIF_ID;
       if (b === "una-pagina") return ["programma/schema.yaml", SCENARI_FILE.has(sc) ? `programma/selezione_${sc}.csv` : ""];
       if (!b) return ["motore/proposte.csv", "motore/esito_proposte.csv", SCENARI_FILE.has(sc) ? `programma/selezione_${sc}.csv` : ""];
@@ -493,7 +494,7 @@
   }
 
   // ---------- Programma ----------
-  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["pronto", "Pronto domani", "#/programma/pronto"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["chi-paga", "Chi paga davvero", "#/programma/chi-paga"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["proponi", "Proponi un programma", "#/programma/proponi"], ["strategia", "Strategia", "#/programma/strategia"], ["ai", "AI e Stato", "#/programma/ai"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
+  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["busta-paga", "La tua busta paga", "#/programma/busta-paga"], ["pronto", "Pronto domani", "#/programma/pronto"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["chi-paga", "Chi paga davvero", "#/programma/chi-paga"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["proponi", "Proponi un programma", "#/programma/proponi"], ["strategia", "Strategia", "#/programma/strategia"], ["ai", "AI e Stato", "#/programma/ai"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
 
   function elenco(params) {
     const sc = scenario(params.get("scenario") || RIF_ID);
@@ -1382,6 +1383,74 @@
   }
 
   // Che cosa cambia per me: profili tipo (programma/profili.yaml), con stato e tempi presi dal programma di riferimento
+  // ---------- La tua busta paga con GovernAI (calcolo in docs/busta.js, regole in programma/busta_paga.yaml) ----------
+  const eur0 = (n) => `${n < -0.5 ? "−" : ""}${String(Math.abs(Math.round(n))).replace(/\B(?=(\d{3})+(?!\d))/g, ".")} €`;
+  const segno = (n) => Math.round(n) === 0 ? "0 €" : (n > 0 ? "+" : "−") + eur0(Math.abs(n));
+  function bustaPaga(params) {
+    const Q = D.busta || {};
+    if (!Q.programma || !window.BUSTA) return `${schedeProgramma("busta-paga")}${vuoto("Il calcolatore non è ancora disponibile.")}`;
+    const G = Q.programma, ral = params.get("ral") || "30000";
+    const campo = (id, etich, aiuto, val = "") => `<label class="campo">${etich}<input type="number" inputmode="decimal" min="0" step="1" id="${id}" value="${esc(val)}" placeholder="0">${aiuto ? `<small>${aiuto}</small>` : ""}</label>`;
+    return `${schedeProgramma("busta-paga")}
+      <p class="risposta">Quanto cambierebbe il tuo stipendio netto con il programma, a regime? Inserisci la retribuzione annua lorda (RAL). Il calcolo usa le regole IRPEF del 2026 e le misure del programma ${esc(G.scenario || "intermedio")} che toccano la busta paga. È una stima: non sostituisce il cedolino né un CAF.</p>
+      <form class="busta-form" onsubmit="return false">
+        <div class="busta-campi">
+          ${campo("bp-ral", "Retribuzione annua lorda (RAL)", "Lavoro dipendente, tempo indeterminato, tutto l'anno.", ral)}
+          <label class="campo">Quanto vale il taglio delle tasse<select id="bp-scen">${(G.dividendo || []).map((d) => `<option ${d.scenario === "Centrale" ? "selected" : ""}>${esc(d.scenario)}</option>`).join("")}</select><small>Dipende da quanto lavoro ripetitivo si automatizza davvero.</small></label>
+        </div>
+        <details class="richiudibile"><summary>${icona("receipt")}Le tue spese detraibili e il fondo pensione (facoltativo)<span class="freccia">${icona("chevron-down")}</span></summary><div class="corpo busta-campi">
+          ${campo("bp-san", "Spese sanitarie l'anno", "Visite, farmaci, esami.")}
+          <label class="campo campo-spunta"><input type="checkbox" id="bp-cron"> Spese per disabilità, malattia cronica grave o non autosufficienza</label>
+          ${campo("bp-premi", "Premi di assicurazioni vita e infortuni", "Fino a 530 € detraibili.")}
+          ${campo("bp-vet", "Spese veterinarie", "Fino a 550 € detraibili.")}
+          ${campo("bp-sport", "Spese per lo sport di figlie e figli 5-18 anni", "Fino a 210 € per ciascuno.")}
+          ${campo("bp-figli", "Quante figlie e figli fanno sport", "")}
+          ${campo("bp-fondo", "Contributi al fondo pensione", "Quelli che versi tu e il datore, fino a 5.164 €.")}
+        </div></details>
+      </form>
+      <div id="bp-esito" aria-live="polite"></div>
+      <section class="sezione"><h2>Come leggere il risultato</h2>
+        <ul class="elenco-punti">
+          <li><strong>Taglio delle tasse sul lavoro:</strong> ${esc(G.dividendo_ipotesi || "")} <a href="#/programma/ai">Le stime nella pagina AI e Stato</a>.</li>
+          <li><strong>Dal quando:</strong> le detrazioni cambiano dal ${Math.min(...(G.misure || []).map((m) => m.dal))}; il taglio delle tasse arriva al più presto dal 2030. «Con GovernAI» indica il risultato quando tutto è a regime, con le regole del 2026 per il resto.</li>
+          <li><strong>Che cosa non è nel calcolo:</strong></li>
+        </ul>
+        <ul class="elenco-punti">${(G.non_calcolate || []).map((x) => `<li>${esc(x)}</li>`).join("")}</ul>
+        <p class="nota">Ipotesi: addizionali regionale e comunale al ${nf(Q.regole.addizionali.regionale.valore * 100, 2)}% e ${nf(Q.regole.addizionali.comunale.valore * 100, 1)}% (valori tipici: nella tua Regione e nel tuo Comune possono essere diversi); nessun familiare a carico, mutuo o altro reddito; contributi INPS del lavoratore al ${nf(Q.regole.inps.dipendente.aliquota_lavoratore * 100, 2)}%. Le regole sono verificate norma per norma in <code>analisi/chi_paga/parametri.yaml</code> e <code>programma/busta_paga.yaml</code>; il calcolo, in <code>docs/busta.js</code>, dà gli stessi numeri del calcolatore <a href="#/programma/chi-paga">Chi paga davvero</a>.</p>
+      </section>`;
+  }
+  function aggiornaBusta() {
+    const Q = D.busta, v = (id) => +(($(id) || {}).value || 0);
+    const x = { ral: v("#bp-ral"), sanitarie: v("#bp-san"), cronica: $("#bp-cron").checked, premi: v("#bp-premi"), veterinarie: v("#bp-vet"), sport: v("#bp-sport"), figli: v("#bp-figli"), fondo: v("#bp-fondo") };
+    const sc = $("#bp-scen").value;
+    const o = BUSTA.calcola(Q, x, false), g = BUSTA.calcola(Q, x, true, sc);
+    const M = Object.fromEntries((Q.programma.misure || []).map((m) => [m.id, m]));
+    if (!x.ral) { $("#bp-esito").innerHTML = `<p class="nota">Inserisci la retribuzione annua lorda.</p>`; return; }
+    const riga = (t, a, b, fmt = eur0, cls = "") => `<tr class="${cls}"><td class="principale">${t}</td><td class="num" data-etichetta="Oggi">${fmt(a)}</td><td class="num" data-etichetta="Con GovernAI">${fmt(b)}</td><td class="num" data-etichetta="Differenza">${segno(b - a)}</td></tr>`;
+    const dNetto = g.netto - o.netto;
+    const voci = [
+      ["Taglio delle tasse sul lavoro (09-C11 e 09-C12)", g.dividendo, "dal 2030, a regime in circa dieci anni"],
+      [M.SF06 ? M.SF06.titolo : "Spese sanitarie", g.oneri.sanitarie - o.oneri.sanitarie, M.SF06 ? `dal ${M.SF06.dal}. ${M.SF06.nota || ""}` : ""],
+      [M.FN02 ? M.FN02.titolo : "Premi e veterinarie", g.oneri.premi + g.oneri.veterinarie - o.oneri.premi - o.oneri.veterinarie, M.FN02 ? `dal ${M.FN02.dal}. ${M.FN02.nota || ""}` : ""],
+      [M.SF08 ? M.SF08.titolo : "Sport", g.oneri.sport - o.oneri.sport, M.SF08 ? `dal ${M.SF08.dal}` : ""],
+      [M.SF22 ? M.SF22.titolo : "Fondo pensione", -g.tettoFondo, M.SF22 ? `dal ${M.SF22.dal}` : ""],
+    ].filter(([, d], i) => i === 0 || Math.abs(d) >= 0.5);
+    $("#bp-esito").innerHTML = `<div class="card busta-risultato"><p class="etichetta">Netto in più o in meno ogni anno, a regime</p>
+        <p class="busta-cifra ${dNetto >= 0 ? "su" : "giu"}">${segno(dNetto)}</p>
+        <p>${segno(dNetto / 12)} al mese su 12 mensilità · scenario ${esc(sc.toLowerCase())} del taglio delle tasse</p></div>
+      <div class="tabella-scorre"><table class="tabella a-card busta-tab"><thead><tr><th>Ogni anno</th><th class="num">Oggi (regole 2026)</th><th class="num">Con GovernAI, a regime</th><th class="num">Differenza</th></tr></thead><tbody>
+        ${riga("Retribuzione annua lorda", o.ral, g.ral)}
+        ${riga("Contributi INPS a tuo carico", -o.inps, -g.inps)}
+        ${riga("IRPEF", -o.irpef, -g.irpef)}
+        ${riga("Addizionali regionale e comunale", -o.addizionali, -g.addizionali)}
+        ${o.se || o.ti ? riga("Somma esente e trattamento integrativo", o.se + o.ti, g.se + g.ti) : ""}
+        ${riga("Taglio delle tasse sul lavoro", o.dividendo, g.dividendo)}
+        ${riga("<strong>Netto l'anno</strong>", o.netto, g.netto, eur0, "totale")}
+        ${riga("Netto al mese (12 mensilità)", o.netto / 12, g.netto / 12)}
+      </tbody></table></div>
+      <h3>Che cosa cambia per te</h3>
+      <ul class="elenco-punti">${voci.map(([t, d, q]) => `<li><strong>${segno(d)}</strong> · ${esc(t)}${q ? ` <span class="nota">(${esc(q)})</span>` : ""}</li>`).join("")}</ul>`;
+  }
   function perMe(params) {
     const P = D.profili || [];
     if (!P.length) return `${schedeProgramma("per-me")}${vuoto("I profili non sono ancora disponibili.")}`;
@@ -1993,6 +2062,7 @@
       else if (b === "equita") { html = equita(); titolo = "Equità e linguaggio inclusivo"; }
       else if (b === "una-pagina") { html = unaPagina(params); titolo = "Il programma in una pagina"; }
       else if (b === "per-me") { html = perMe(params); titolo = "Che cosa cambia per me"; }
+      else if (b === "busta-paga") { html = bustaPaga(params); titolo = "La tua busta paga con GovernAI"; }
       else if (b === "pronto") { html = prontoDomani(params); titolo = "Pronto domani"; }
       else { html = elenco(params); titolo = "Programma"; }
     } else if (a === "osservatorio") {
@@ -2043,6 +2113,7 @@
     if ($("#classifica")) { $$("input[type=range]", main).forEach((el) => el.addEventListener("input", aggiornaClassifica)); aggiornaClassifica(); }
     if ($("#q")) { $("#q").addEventListener("input", aggiornaRicerca); aggiornaRicerca(); $("#q").focus(); }
     if ($("#schema-scenario")) $("#schema-scenario").addEventListener("change", (e) => { location.hash = "#/programma/una-pagina" + (e.target.value === (D.schema || {}).scenario ? "" : "?scenario=" + e.target.value); });
+    if ($("#bp-esito")) { $$(".busta-form input, .busta-form select", main).forEach((el) => el.addEventListener("input", aggiornaBusta)); aggiornaBusta(); }
     if ($("#fo-area")) $("#fo-area").addEventListener("change", (e) => { location.hash = "#/dati/fonti" + (e.target.value ? "?area=" + e.target.value : ""); });
     if ($("#o-tema")) $("#o-tema").addEventListener("change", (e) => { location.hash = "#/dati/obiettivi" + (e.target.value ? "?tema=" + e.target.value : ""); });
     if ($("#i-tema")) $("#i-tema").addEventListener("change", (e) => { location.hash = "#/controlli/europa/infrazioni" + (e.target.value ? "?tema=" + e.target.value : ""); });
