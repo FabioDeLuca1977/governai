@@ -21,3 +21,10 @@
 - **Settimana senza documenti nuovi, programma molto cambiato.** Quindici misure hanno cambiato variante rispetto al bollettino precedente. La causa sono le coperture nuove, non i dati macro. Conviene che il bollettino distingua le due cause, per non attribuire al momento economico gli effetti del menu.
 - **Le allerte persistono da almeno una settimana** (inflazione, spread, debito, fiducia). Un'allerta che dura più settimane andrebbe trattata come uno stato e non come un evento. Il riesame della seduta sui conti, aperto il 12/11, è il luogo giusto per farlo.
 - **Coda del Consiglio ferma dall'8/11.** L'attività quotidiana non tiene le sedute: le quattro domande in `governo/richieste/` aspettano una sessione dedicata.
+
+### 2026-11-23
+
+- **Falsi documenti nuovi.** La sentinella ha segnalato come "documento nuovo" la pagina delle statistiche di EUR-Lex, che cambia a ogni pubblicazione ma non è un atto. Conviene escludere dalle pagine osservate quelle di sola statistica, come già suggerito per le pronunce della Corte dei conti sui singoli enti.
+- **Gli obblighi UE senza proposta.** La direttiva 2024/869 (piombo e diisocianati) ha il termine scaduto, la messa in mora e zero misure italiane, ma nessuna proposta del programma la collega. Le scadenze critiche senza proposta andrebbero mostrate a parte nel bollettino: sono le più facili da trasformare in misure a basso costo.
+- **Errore del modulo europa.** Un testo mancante blocca l'esame degli atti UE del giorno. Un file assente dovrebbe saltare il singolo atto, non fermare il modulo.
+- **Coda del Consiglio ancora ferma.** Terza settimana con le stesse quattro domande in attesa: l'attività quotidiana non basta a smaltirla.

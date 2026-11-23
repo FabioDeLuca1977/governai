@@ -72,4 +72,25 @@ Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
 
 ## 6. Nota del livello AI
 
-Livello AI non eseguito: credenziali dell'API di Claude assenti (impostare la variabile d'ambiente ANTHROPIC_API_KEY).
+*Revisione del lunedì 23/11/2026, sui dati del bollettino del 22/11.*
+
+**Cosa è successo**
+
+- Nessun dato macro nuovo. L'unico "documento nuovo" segnalato è la pagina delle statistiche di EUR-Lex: non è un atto e non cambia fondi, gettiti o conformità. Nessuna modifica a `registro/fondi.csv` né a `programma/coperture_menu.csv`.
+- Le cinque allerte (inflazione al 5,6%, spread a 126 pb, debito al 139,9% del PIL, fiducia a -23,3, PIL fermo nel terzo trimestre) durano da oltre due settimane: è uno stato di stagflazione leggera, non un evento.
+- Unione europea: la direttiva (UE) 2024/869 sui valori limite per piombo e diisocianati ha il termine scaduto dal 9/4/2026, una messa in mora aperta (2026_0247) e nessuna misura italiana notificata. Nel programma non c'è una proposta che la copra.
+- Il modulo `europa` della pipeline è andato in errore (testo mancante di 32026H03925): gli atti UE di ieri potrebbero non essere stati esaminati.
+
+**Opzioni sostenibili per il momento** (senza deficit)
+
+1. Dare la precedenza alle misure a costo zero o regolatorie che proteggono i redditi reali (02-C1 e 03-P2 nelle varianti senza spesa), finché l'inflazione resta sopra il 3%.
+2. Mantenere il blocco di nuova spesa permanente finché lo spread non rientra, e finanziare le varianti a sostegno dei redditi solo con coperture già nel menu.
+3. Rinviare le coperture che pesano sui consumi (IVA, accise) finché la fiducia resta in netto calo, preferendo quelle su spesa e agevolazioni.
+4. Destinare i risparmi certificati del riesame delle funzioni (09-C12) e del dividendo dell'automazione (09-C11) prima alla riduzione del debito, poi alle tasse sul lavoro, finché l'allerta sul debito è attiva.
+5. Recepire la direttiva 2024/869 con un decreto legislativo: è un obbligo di tutela della salute dei lavoratori a costo contenuto per lo Stato (stima da verificare) e chiude una procedura d'infrazione.
+
+**Decisioni che spettano alle persone**
+
+- Se trattare le allerte persistenti come uno stato, con regole di programma stabili, invece che come eventi settimanali.
+- Quando dedicare una sessione al Consiglio dei ministri: quattro domande aspettano dall'8/11, compreso il riesame della seduta sui conti.
+- Quale ordine dare, tra debito e tasse sul lavoro, ai risparmi dell'automazione mentre il debito sale.
