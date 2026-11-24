@@ -1,0 +1,20 @@
+{
+ "origine": "legislazione/archivio/testi/2026/26G00233.txt",
+ "data_riferimento": "2026-12-08",
+ "articoli": 3,
+ "alto": [],
+ "medio": [
+  "1"
+ ],
+ "rilievi": [
+  {
+   "art": "1",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega",
+   "livello": "medio",
+   "comma": "",
+   "nota": "delega: oggetto, principi e criteri, termine"
+  }
+ ]
+}

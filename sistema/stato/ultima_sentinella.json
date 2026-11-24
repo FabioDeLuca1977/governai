@@ -1,5 +1,5 @@
 {
- "data": "2026-11-23T17:47:49",
+ "data": "2026-11-24T09:00:19",
  "prima_esecuzione": false,
  "eurostat_aggiornati": [],
  "file_aggiornati": [
@@ -8,45 +8,52 @@
  ],
  "documenti_nuovi": [
   {
-   "pagina": "ISTAT - Home e comunicati",
+   "pagina": "Gazzetta Ufficiale",
    "aree": [
+    "00",
+    "01",
     "02",
+    "03",
+    "04",
     "05",
-    "06"
+    "06",
+    "07",
+    "08",
+    "09"
    ],
-   "documento": "https://www.istat.it/documenti/newsletter/"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=134"
   },
   {
-   "pagina": "Corte dei conti",
+   "pagina": "Gazzetta Ufficiale",
    "aree": [
     "00",
-    "04"
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
    ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=10f10469-6ac9-48f4-96fc-d0f67ba2b33f"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=273"
   },
   {
-   "pagina": "Corte dei conti",
+   "pagina": "Gazzetta Ufficiale",
    "aree": [
     "00",
-    "04"
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
    ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=3c6981d7-0f88-4818-8a35-af6e92347c6b"
-  },
-  {
-   "pagina": "Corte dei conti",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=9a47e686-25b0-457d-89d1-a560d886ab35"
-  },
-  {
-   "pagina": "Corte dei conti",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=ff698196-63ca-40ba-8f39-7822588eadd5"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=92"
   }
  ],
  "errori": [],
