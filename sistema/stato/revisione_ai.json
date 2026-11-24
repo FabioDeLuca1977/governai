@@ -7,15 +7,36 @@
     "00",
     "01",
     "02",
-    "03",
-    "04",
-    "05",
-    "06",
-    "07",
-    "08",
-    "09"
+    "06"
    ],
-   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=134",
+   "dettaglio": "UPB - Ufficio parlamentare di bilancio: https://www.upbilancio.it/it/audizione-sulle-misure-per-la-trasparenza-dei-programmi-elettorali-dei-partiti/",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  },
+  {
+   "tipo": "documento_nuovo",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=2e86fc49-772c-437a-94f9-fa273c2e6861",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  },
+  {
+   "tipo": "documento_nuovo",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=870daa97-d1d4-4e30-a53a-763408ee8468",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  },
+  {
+   "tipo": "documento_nuovo",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=af9c468c-d00c-4641-b2c7-43a2e101df41",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
@@ -32,7 +53,7 @@
     "08",
     "09"
    ],
-   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=273",
+   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/23/26G00228/sg",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
@@ -49,7 +70,19 @@
     "08",
     "09"
    ],
-   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=92",
+   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/23/26G00233/sg",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  },
+  {
+   "tipo": "documento_nuovo",
+   "aree": [
+    "00",
+    "01",
+    "03",
+    "08",
+    "09"
+   ],
+   "dettaglio": "EUR-Lex - Gazzetta ufficiale UE: https://eur-lex.europa.eu/statistics/statistics.html",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   }
  ]

@@ -39,7 +39,7 @@
   "edat_lfse_20": "30.10.2026",
   "edat_lfse_14": "30.10.2026",
   "lfsi_emp_a": "06.11.2026",
-  "une_rt_m": "20.11.2026",
+  "une_rt_m": "24.11.2026",
   "lfsa_egan": "30.10.2026",
   "ilc_iw01": "20.10.2026",
   "ilc_lvho07c": "29.10.2026",
@@ -74,7 +74,7 @@
   "https://documenti.camera.it/leg19/pdl/pdf/leg.19.pdl.camera.3174.19PDL0221140.pdf": "\"771498e1c6cdd1:0\"|Wed, 04 Nov 2026 05:22:58 GMT|10172816",
   "https://gme.mercatoelettrico.org/Portals/0/Documents/Newsletter/20260116Newsletter.pdf": "\"69d48810cbabdc1:0\"|Wed, 04 Mar 2026 11:35:55 GMT|3477869",
   "https://opencoesione.gov.it/media/opendata/Dotazioni_2021-2027_SIE.xlsx": "\"6ae46054-4474\"|Fri, 30 Oct 2026 09:16:04 GMT|17524",
-  "https://www.agid.gov.it/sites/agid/files/2025-10/2025.10.08_CS_Rinnovo_convenzioni_Spid.pdf": "W/\"2fe91-640ceada8e680\"|Fri, 10 Oct 2025 14:24:41 GMT|",
+  "https://www.agid.gov.it/sites/agid/files/2025-10/2025.10.08_CS_Rinnovo_convenzioni_Spid.pdf": "\"2fe91-640ceada8e680\"|Fri, 10 Oct 2025 14:24:41 GMT|196241",
   "https://www.aifa.gov.it/documents/20142/3073807/Monitoraggio_Spesa_gennaio-dicembre-2025_consuntivo.pdf": "|Wed, 28 Oct 2026 16:07:16 GMT|1902299",
   "https://www.camera.it/temiap/2026/07/16/OCD177-9133.pdf": "\"119ab2-5846fd-656b6f1fa1900\"|Thu, 16 Jul 2026 09:20:04 GMT|",
   "https://www.giustizia.it/cmsresources/cms/documents/pnrr_relazione_su_attuazione_interventi_ago2026.pdf": "|Mon, 14 Sep 2026 14:21:02 GMT|600073",
@@ -176,10 +176,10 @@
    "https://www.upbilancio.it/it/attivita/pubblicazioni/note-di-lavoro-e-strumenti/",
    "https://www.upbilancio.it/it/attivita/pubblicazioni/note-sulla-congiuntura/",
    "https://www.upbilancio.it/it/attivita/pubblicazioni/rapporto-annuale/",
-   "https://www.upbilancio.it/it/audizione-dellupb-su-pil-investimenti-e-incentivi-alle-imprese/",
    "https://www.upbilancio.it/it/audizione-nellambito-dellesame-del-ddl-di-bilancio-per-il-2027/",
    "https://www.upbilancio.it/it/audizione-nellambito-dellesame-del-dpfp-2026/",
    "https://www.upbilancio.it/it/audizione-su-ulteriori-forme-e-condizioni-particolari-di-autonomia-alle-regioni-liguria-lombardia-piemonte-e-veneto/",
+   "https://www.upbilancio.it/it/audizione-sulle-misure-per-la-trasparenza-dei-programmi-elettorali-dei-partiti/",
    "https://www.upbilancio.it/it/categorie/comunicati-stampa/",
    "https://www.upbilancio.it/it/nota-sulla-congiuntura-di-ottobre-2026/"
   ],
@@ -360,9 +360,9 @@
   ],
   "https://www.corteconti.it/": [
    "https://www.corteconti.it/HOME/Documenti",
-   "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=10f10469-6ac9-48f4-96fc-d0f67ba2b33f",
-   "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=3c6981d7-0f88-4818-8a35-af6e92347c6b",
-   "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=9a47e686-25b0-457d-89d1-a560d886ab35",
+   "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=2e86fc49-772c-437a-94f9-fa273c2e6861",
+   "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=870daa97-d1d4-4e30-a53a-763408ee8468",
+   "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=af9c468c-d00c-4641-b2c7-43a2e101df41",
    "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=ff698196-63ca-40ba-8f39-7822588eadd5",
    "https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa",
    "https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=091b2790-acf0-43e0-a4fd-cc03c52bf4aa",
@@ -466,8 +466,6 @@
   "https://www.gazzettaufficiale.it/": [
    "http://www.gazzettaufficiale.it/eli/gu/2026/11/13/88/s4/html",
    "http://www.gazzettaufficiale.it/eli/gu/2026/11/20/90/s4/html",
-   "http://www.gazzettaufficiale.it/eli/id/2026/11/10/26G00219/sg",
-   "http://www.gazzettaufficiale.it/eli/id/2026/11/11/26G00225/sg",
    "http://www.gazzettaufficiale.it/eli/id/2026/11/12/26G00221/sg",
    "http://www.gazzettaufficiale.it/eli/id/2026/11/13/26E06186/s4",
    "http://www.gazzettaufficiale.it/eli/id/2026/11/13/26G00227/sg",
@@ -480,6 +478,8 @@
    "http://www.gazzettaufficiale.it/eli/id/2026/11/20/26E06298/s4",
    "http://www.gazzettaufficiale.it/eli/id/2026/11/20/26G00232/sg",
    "http://www.gazzettaufficiale.it/eli/id/2026/11/21/26G00231/sg",
+   "http://www.gazzettaufficiale.it/eli/id/2026/11/23/26G00228/sg",
+   "http://www.gazzettaufficiale.it/eli/id/2026/11/23/26G00233/sg",
    "https://www.gazzettaufficiale.it/30giorni/serie_generale",
    "https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-20&numeroGazzetta=90",
    "https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=134",
@@ -489,7 +489,9 @@
    "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=273",
    "https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=92"
   ],
-  "https://eur-lex.europa.eu/oj/direct-access.html": []
+  "https://eur-lex.europa.eu/oj/direct-access.html": [
+   "https://eur-lex.europa.eu/statistics/statistics.html"
+  ]
  },
  "ultimo_completo": "2026-11-21",
  "serie": {

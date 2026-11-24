@@ -1,17 +1,21 @@
 # Bollettino GovernAI — 2026-11-24
 
-*Generato automaticamente da `sistema/pipeline.py` alle 09:08. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 17:23. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
 - Modalità di aggiornamento: **mirato**
-- Dataset Eurostat aggiornati: nessuno
-- File ufficiali aggiornati: 2
+- Dataset Eurostat aggiornati: une_rt_m
+- File ufficiali aggiornati: 1
 - Serie cambiate e archiviate in `dati/storico/`: nessuna
-- Documenti nuovi sulle pagine osservate: 3
-  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=134
-  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=273
-  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=92
+- Documenti nuovi sulle pagine osservate: 7
+  - UPB - Ufficio parlamentare di bilancio: https://www.upbilancio.it/it/audizione-sulle-misure-per-la-trasparenza-dei-programmi-elettorali-dei-partiti/
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=2e86fc49-772c-437a-94f9-fa273c2e6861
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=870daa97-d1d4-4e30-a53a-763408ee8468
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=af9c468c-d00c-4641-b2c7-43a2e101df41
+  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/23/26G00228/sg
+  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/23/26G00233/sg
+  - EUR-Lex - Gazzetta ufficiale UE: https://eur-lex.europa.eu/statistics/statistics.html
 
 ## 2. Cruscotto
 
@@ -58,18 +62,26 @@ Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
 
 ## 5. Revisione AI richiesta
 
-**3 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
-- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=134 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=273 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=92 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+**7 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
+- [documento_nuovo] UPB - Ufficio parlamentare di bilancio: https://www.upbilancio.it/it/audizione-sulle-misure-per-la-trasparenza-dei-programmi-elettorali-dei-partiti/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=2e86fc49-772c-437a-94f9-fa273c2e6861 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=870daa97-d1d4-4e30-a53a-763408ee8468 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=af9c468c-d00c-4641-b2c7-43a2e101df41 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/23/26G00228/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/23/26G00233/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] EUR-Lex - Gazzetta ufficiale UE: https://eur-lex.europa.eu/statistics/statistics.html → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
 
 ## Registro tecnico
 
-- sentinella: sentinella: mirato; Eurostat aggiornati 0, file 2, documenti nuovi 3, serie cambiate 0, errori 0
+- sentinella: sentinella: mirato; Eurostat aggiornati 1, file 1, documenti nuovi 7, serie cambiate 0, errori 0
 - apprendimento: 193 KPI, stati {'manuale': 147, 'in osservazione': 46}, aree calibrate 0
-- legislazione: archivio GU: 860 atti, 860 con testo; nuovi 28; testi scaricati 28; richieste 135; errori 0
-- europa: europa: 1001 atti GU L in archivio, 350 negli ultimi 30 giorni; 145 direttive con termine (24 critiche, 9 alte); 85 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 24
-- costituzione: 2 atti con forza di legge esaminati; con segnali alti 0
+- legislazione: archivio GU: 860 atti, 860 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
+- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
+- costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
 - consiglio: 95 previsioni, 0 verificate oggi, 8 verificate in totale
 - verifica sedute: 2 attive, 0 confermate, 2 da riesaminare
 - modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
+
+## 6. Nota del livello AI
+
+Livello AI non eseguito: credenziali dell'API di Claude assenti (impostare la variabile d'ambiente ANTHROPIC_API_KEY).

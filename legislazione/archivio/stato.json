@@ -41,13 +41,13 @@
   "2026-11-21#272",
   "2026-11-23#273"
  ],
- "ultima_esecuzione": "2026-11-24T09:04:08",
+ "ultima_esecuzione": "2026-11-24T17:21:47",
  "ultima": {
-  "fascicoli_nuovi": 1,
-  "atti_nuovi": 28,
+  "fascicoli_nuovi": 0,
+  "atti_nuovi": 0,
   "da_normattiva": 0,
-  "testi_scaricati": 28,
-  "richieste": 135,
+  "testi_scaricati": 0,
+  "richieste": 2,
   "errori": []
  },
  "totale_atti": 860,
