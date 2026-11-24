@@ -27,7 +27,7 @@ Non trattiamo altri dati: niente profilazione, niente pubblicità, niente cessio
 
 - **Supabase** (database e accesso), come responsabile del trattamento, con dati conservati nell'Unione europea, regione Europa (Francoforte, Germania). Supabase Inc. ha sede negli Stati Uniti: il trasferimento è coperto dal suo accordo sul trattamento dei dati con clausole contrattuali standard.
 - **Google** (Google Ireland Ltd), solo se scegli «Entra con Google»: Google conferma la tua identità e ci passa email, nome e immagine del profilo; usiamo solo l'email per l'accesso, gli altri due dati restano nel registro degli accessi di Supabase e non sono mostrati a nessuno. Google sa che hai usato il suo account per entrare in GovernAI. Se non sei iscritto e non hai un invito, l'accesso viene cancellato subito.
-- **Brevo** (Sendinblue SAS, Francia), per inviare le email con il codice di accesso, come responsabile del trattamento, con dati trattati nell'Unione europea.
+- **Brevo** (Sendinblue SAS, Francia), per inviare le email con il codice di accesso e l'avviso a chi modera che è arrivata una richiesta di invito (l'avviso non contiene i dati di chi chiede), come responsabile del trattamento, con dati trattati nell'Unione europea.
 - **GitHub Pages** (ospita il sito) e **jsDelivr** (distribuisce la libreria di accesso) vedono l'indirizzo IP di chi visita, come ogni servizio web. La libreria di accesso si scarica solo quando entri nella comunità.
 
 ## Cosa resta nel tuo browser

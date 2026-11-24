@@ -81,6 +81,26 @@ Quando il sito aggiunge un nuovo tipo di discussione serve un piccolo aggiorname
 | Data | File | Che cosa fa |
 |---|---|---|
 | 14/11/2026 | `migrazioni/2026-11-14_atti_del_governo.sql` | Permette la discussione sotto ogni atto della pagina *Governo di oggi* |
+| 24/11/2026 | `migrazioni/2026-11-24_avviso_richieste.sql` | Manda un'email a chi modera quando arriva una richiesta di invito (prima salva i segreti: vedi sotto) |
+
+## Avviso delle richieste di invito
+
+Senza avviso le richieste restano in attesa finché qualcuno non apre la pagina *Moderazione*. Con l'avviso, a ogni nuova
+richiesta parte un'email a chi modera (al massimo una ogni 15 minuti), inviata da Brevo. L'email **non contiene** nome,
+email o motivazione di chi chiede: dice quante richieste aspettano e porta alla pagina *Moderazione*.
+
+1. **Chiave API di Brevo**: in Brevo, *SMTP & API → API Keys → Generate a new API key* (nome: `governai-avvisi`).
+   È diversa dalla chiave SMTP. È segreta: non va nel sito né nel repository.
+2. **Tre segreti nel Vault di Supabase**: *Project Settings → Vault* (oppure *Integrations → Vault*) → *Add new secret*:
+   - `brevo_api_key`: la chiave del passo 1;
+   - `avviso_destinatario`: l'indirizzo che deve ricevere l'avviso;
+   - `avviso_mittente`: un mittente già verificato in Brevo (lo stesso usato per i codici di accesso).
+3. **Esegui** `migrazioni/2026-11-24_avviso_richieste.sql` nell'*SQL Editor*. Attiva l'estensione `pg_net` se non lo è.
+4. **Prova**: manda una richiesta di invito dal sito con un tuo secondo indirizzo; l'avviso arriva in pochi secondi.
+   Se non arriva: *SQL Editor* → `select status_code, content from net._http_response order by created desc limit 5;`
+   (401 = chiave sbagliata; 400 = mittente non verificato). Poi rifiuta la richiesta di prova dalla pagina *Moderazione*.
+
+Per spegnere l'avviso basta cancellare il segreto `brevo_api_key` dal Vault.
 
 ## Nominare altri moderatori
 

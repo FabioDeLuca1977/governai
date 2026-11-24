@@ -438,3 +438,55 @@ grant execute on function public.sospendi(text, text, boolean)          to authe
 grant execute on function public.riattiva(text, text)                   to authenticated;
 grant execute on function public.registro(int)                          to authenticated;
 -- crea_fondatore e imposta_moderatore restano eseguibili solo dall'editor SQL (ruolo postgres).
+
+-- ---------------------------------------------------------------- avviso delle richieste di invito
+-- Email a chi modera quando arriva una richiesta, senza i dati di chi chiede. Attivo solo con i tre segreti nel Vault
+-- (README, "Avviso delle richieste di invito"). Uguale a migrazioni/2026-11-24_avviso_richieste.sql.
+create extension if not exists pg_net;
+
+-- quando è partito l'ultimo avviso (una sola riga; nessun dato personale)
+create table if not exists public.avvisi_richieste (
+  id          int primary key default 1 check (id = 1),
+  inviato_at  timestamptz not null
+);
+alter table public.avvisi_richieste enable row level security;
+
+create or replace function public._avvisa_richiesta() returns trigger
+language plpgsql security definer set search_path = public, pg_temp as $$
+declare
+  chiave text; a text; da text; n int;
+begin
+  select decrypted_secret into chiave from vault.decrypted_secrets where name = 'brevo_api_key';
+  select decrypted_secret into a      from vault.decrypted_secrets where name = 'avviso_destinatario';
+  select decrypted_secret into da     from vault.decrypted_secrets where name = 'avviso_mittente';
+  if chiave is null or a is null or da is null then
+    return new;
+  end if;
+  -- un avviso ogni 15 minuti al massimo
+  if exists (select 1 from avvisi_richieste where inviato_at > now() - interval '15 minutes') then
+    return new;
+  end if;
+  insert into avvisi_richieste (id, inviato_at) values (1, now())
+    on conflict (id) do update set inviato_at = excluded.inviato_at;
+  select count(*) into n from richieste_invito where esito = 'in_attesa';
+  perform net.http_post(
+    url := 'https://api.brevo.com/v3/smtp/email',
+    headers := jsonb_build_object('api-key', chiave, 'content-type', 'application/json', 'accept', 'application/json'),
+    body := jsonb_build_object(
+      'sender', jsonb_build_object('name', 'GovernAI comunità', 'email', da),
+      'to', jsonb_build_array(jsonb_build_object('email', a)),
+      'subject', 'GovernAI: nuova richiesta di invito (' || n || ' in attesa)',
+      'textContent', 'È arrivata una nuova richiesta di invito alla comunità GovernAI. Richieste in attesa: ' || n || '.'
+        || E'\n\nPer leggerle e decidere: https://fabiodeluca1977.github.io/governai/#/comunita/moderazione'
+        || E'\n\nQuesta email non contiene i dati di chi chiede: si leggono solo dopo l''accesso.'));
+  return new;
+exception when others then
+  -- l'avviso non deve mai impedire di salvare la richiesta
+  return new;
+end $$;
+
+revoke all on function public._avvisa_richiesta() from public, anon, authenticated;
+
+drop trigger if exists avvisa_richiesta on public.richieste_invito;
+create trigger avvisa_richiesta after insert on public.richieste_invito
+  for each row execute function public._avvisa_richiesta();
