@@ -1,0 +1,149 @@
+{
+ "origine": "legislazione/archivio/testi/2026/26G00230.txt",
+ "data_riferimento": "2026-12-09",
+ "articoli": 6,
+ "alto": [
+  "2",
+  "3",
+  "4",
+  "6"
+ ],
+ "medio": [],
+ "rilievi": [
+  {
+   "art": "2",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "riparto_senza_intesa",
+   "livello": "alto",
+   "comma": "10",
+   "nota": "atto statale in materia regionale senza intesa per il riparto di risorse"
+  },
+  {
+   "art": "2",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "parere_conferenza",
+   "livello": "medio",
+   "comma": "10",
+   "nota": "solo parere: per fondi vincolati o LEP la Corte chiede l'intesa (sent. 251/2016, 182/2026)"
+  },
+  {
+   "art": "3",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "fondo_regionale_ridotto",
+   "livello": "alto",
+   "comma": "17",
+   "nota": "fondo o risorse in materia regionale soppressi o ridotti: corrispondenza funzioni-risorse"
+  },
+  {
+   "art": "3",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "alto",
+   "comma": "17",
+   "nota": "decorrenza 2022-07-01 anteriore alla data di riferimento 2026-12-09"
+  },
+  {
+   "art": "3",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "parere_conferenza",
+   "livello": "medio",
+   "comma": "6",
+   "nota": "solo parere: per fondi vincolati o LEP la Corte chiede l'intesa (sent. 251/2016, 182/2026)"
+  },
+  {
+   "art": "3",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "fondo_soppresso_ridotto",
+   "livello": "medio",
+   "comma": "17",
+   "nota": "definanziamento: corrispondenza funzioni-risorse (art. 119, quarto comma)"
+  },
+  {
+   "art": "3",
+   "rubrica": "",
+   "parametro": "diritti_sociali",
+   "segnale": "prestazione_ridotta",
+   "livello": "medio",
+   "comma": "17",
+   "nota": "riduzione di prestazioni sociali"
+  },
+  {
+   "art": "3",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "norma_ordinamentale_bilancio",
+   "livello": "basso",
+   "comma": "17",
+   "nota": "norma organizzatoria: estranea alla legge di bilancio se senza effetti finanziari"
+  },
+  {
+   "art": "4",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "riparto_senza_intesa",
+   "livello": "alto",
+   "comma": "6",
+   "nota": "atto statale in materia regionale senza intesa per il riparto di risorse"
+  },
+  {
+   "art": "4",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega",
+   "livello": "medio",
+   "comma": "",
+   "nota": "delega: oggetto, principi e criteri, termine"
+  },
+  {
+   "art": "4",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "6",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "5",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_amministrativa",
+   "livello": "basso",
+   "comma": "12",
+   "nota": "sanzione: proporzionalita' e legalita'"
+  },
+  {
+   "art": "6",
+   "rubrica": "",
+   "parametro": "affidamento_retroattivita",
+   "segnale": "decorrenza_passata",
+   "livello": "alto",
+   "comma": "7",
+   "nota": "decorrenza 1996-01-01 anteriore alla data di riferimento 2026-12-09"
+  },
+  {
+   "art": "6",
+   "rubrica": "",
+   "parametro": "procedimento_deleghe",
+   "segnale": "delega",
+   "livello": "medio",
+   "comma": "",
+   "nota": "delega: oggetto, principi e criteri, termine"
+  },
+  {
+   "art": "6",
+   "rubrica": "",
+   "parametro": "regioni",
+   "segnale": "statale_senza_intesa",
+   "livello": "medio",
+   "comma": "7",
+   "nota": "atto statale in materia regionale senza intesa"
+  }
+ ]
+}

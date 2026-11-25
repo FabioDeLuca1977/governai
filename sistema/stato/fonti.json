@@ -1,15 +1,15 @@
 {
  "eurostat": {
   "ei_bsco_m": "29.10.2026",
-  "namq_10_gdp": "20.11.2026",
-  "nama_10_gdp": "11.11.2026",
+  "namq_10_gdp": "24.11.2026",
+  "nama_10_gdp": "24.11.2026",
   "edat_lfse_16": "30.10.2026",
   "edat_lfse_22": "30.10.2026",
   "tour_occ_nin2": "20.10.2026",
   "trng_lfs_14": "30.10.2026",
   "isoc_ciegi_ac": "17.04.2026",
   "isoc_sk_dskl_i21": "17.04.2026",
-  "nama_10_lp_ulc": "11.11.2026",
+  "nama_10_lp_ulc": "24.11.2026",
   "nasa_10_nf_tr": "16.11.2026",
   "gov_10a_main": "21.10.2026",
   "gov_10a_exp": "21.10.2026",
@@ -288,10 +288,10 @@
    "https://www.istat.it/comunicati-e-analisi/statistiche-sperimentali/nuovi-indicatori/",
    "https://www.istat.it/comunicati-e-analisi/statistiche-sperimentali/sperimentazioni-su-big-data/",
    "https://www.istat.it/comunicato-stampa/catene-globali-del-valore-delle-medie-e-grandi-imprese-anni-2021-2023/",
-   "https://www.istat.it/comunicato-stampa/commercio-al-dettaglio-settembre-2026/",
    "https://www.istat.it/comunicato-stampa/commercio-con-lestero-e-prezzi-allimport-settembre-2026/",
    "https://www.istat.it/comunicato-stampa/flussi-turistici-iii-trimestre-2026/",
    "https://www.istat.it/comunicato-stampa/incidenti-stradali-stima-preliminare-gennaio-giugno-2026/",
+   "https://www.istat.it/comunicato-stampa/la-violenza-contro-le-donne-dentro-e-fuori-la-famiglia-2025/",
    "https://www.istat.it/comunicato-stampa/le-persone-senza-dimora-profili-e-percorsi-di-vita/",
    "https://www.istat.it/comunicato-stampa/nota-sullandamento-e-prospettive-delleconomia-italiana-anni-2026-2027-aggiornamento-novembre/",
    "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-ottobre-2026/",
@@ -464,9 +464,7 @@
    "https://www.nato.int/en/about-us/official-texts-and-resources/NATO-archives/publicly-disclosed-nato-documents"
   ],
   "https://www.gazzettaufficiale.it/": [
-   "http://www.gazzettaufficiale.it/eli/gu/2026/11/13/88/s4/html",
    "http://www.gazzettaufficiale.it/eli/gu/2026/11/20/90/s4/html",
-   "http://www.gazzettaufficiale.it/eli/id/2026/11/12/26G00221/sg",
    "http://www.gazzettaufficiale.it/eli/id/2026/11/13/26E06186/s4",
    "http://www.gazzettaufficiale.it/eli/id/2026/11/13/26G00227/sg",
    "http://www.gazzettaufficiale.it/eli/id/2026/11/14/26G00224/sg",
@@ -480,18 +478,18 @@
    "http://www.gazzettaufficiale.it/eli/id/2026/11/21/26G00231/sg",
    "http://www.gazzettaufficiale.it/eli/id/2026/11/23/26G00228/sg",
    "http://www.gazzettaufficiale.it/eli/id/2026/11/23/26G00233/sg",
+   "http://www.gazzettaufficiale.it/eli/id/2026/11/24/26G00230/sg",
+   "http://www.gazzettaufficiale.it/eli/id/2026/11/24/26G00235/sg",
    "https://www.gazzettaufficiale.it/30giorni/serie_generale",
-   "https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-20&numeroGazzetta=90",
+   "https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-24&numeroGazzetta=91",
    "https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=134",
    "https://www.gazzettaufficiale.it/gazzetta/corte_costituzionale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-18&numeroGazzetta=46",
-   "https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-21&numeroGazzetta=135",
+   "https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-24&numeroGazzetta=136",
    "https://www.gazzettaufficiale.it/gazzetta/regioni/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-21&numeroGazzetta=45",
-   "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=273",
+   "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-24&numeroGazzetta=274",
    "https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-23&numeroGazzetta=92"
   ],
-  "https://eur-lex.europa.eu/oj/direct-access.html": [
-   "https://eur-lex.europa.eu/statistics/statistics.html"
-  ]
+  "https://eur-lex.europa.eu/oj/direct-access.html": []
  },
  "ultimo_completo": "2026-11-21",
  "serie": {
@@ -595,7 +593,7 @@
   "09_personale_funzioni_centrali": "1251c02b7b9bf004991332269f3916ac29cbcf473e6127a8471002f07e63db46",
   "09_redditi_lavoro_dipendente_pa": "92b12be5a96b524b8d6b9b44face2763d19515129485cfafe314125337c76bc6",
   "09_specialisti_ict_occupati": "f776d13c9c87c08197e939e46223272c51cd61bd38e7e070045a9f6939d5abd3",
-  "bm_01_produttivita_ora": "6ae8c99875a9b6f615e241ea9e49a2892b4a945b86f577fd5874782f95e4ad4f",
+  "bm_01_produttivita_ora": "f65a6127ebcc8632a27eca70176f0f0d5dd5d2e6dfbc7c83b0adb16c4c648e67",
   "bm_02_occupazione_20_64": "86cccce2fda37c045edda6d307af14e183ec0cedad5800685ad1c055c200e864",
   "bm_03_rinnovabili_quota": "353db4c760623b2eadd4822ddf7d0689763c4c4aca161225e883f19d83b889bb",
   "bm_04_sovraccarico_abitativo": "bc8c5804d93adebf3491e1ce198b3cb769384701e37735c9b0d293acdab422cf",
