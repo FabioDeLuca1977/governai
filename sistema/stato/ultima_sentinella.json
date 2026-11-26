@@ -1,8 +1,12 @@
 {
- "data": "2026-11-25T16:59:37",
+ "data": "2026-11-26T16:40:39",
  "prima_esecuzione": false,
- "eurostat_aggiornati": [],
+ "eurostat_aggiornati": [
+  "migr_pop1ctz",
+  "namq_10_gdp"
+ ],
  "file_aggiornati": [
+  "https://www.agid.gov.it/sites/agid/files/2025-10/2025.10.08_CS_Rinnovo_convenzioni_Spid.pdf",
   "https://www.camera.it/temiap/2026/07/16/OCD177-9133.pdf"
  ],
  "documenti_nuovi": [
@@ -13,7 +17,7 @@
     "05",
     "06"
    ],
-   "documento": "https://www.istat.it/documenti/notizia/"
+   "documento": "https://www.istat.it/documenti/tavole-di-dati/"
   },
   {
    "pagina": "Corte dei conti",
@@ -21,7 +25,7 @@
     "00",
     "04"
    ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=098b0f89-ca27-4906-ad96-0156120471b0"
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=3a05514a-515b-4056-8e46-eb60585b6d9e"
   },
   {
    "pagina": "Corte dei conti",
@@ -29,7 +33,7 @@
     "00",
     "04"
    ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=42a94d83-5f87-4dd4-b09a-929c57dbe489"
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=9b74704f-cb23-4205-8c33-f50a70bb3347"
   },
   {
    "pagina": "Corte dei conti",
@@ -37,7 +41,7 @@
     "00",
     "04"
    ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=793a2451-2dcf-4884-a2c2-0d4a08db7f10"
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=9f7fe85f-389e-423a-b115-f9886d7adc72"
   },
   {
    "pagina": "Corte dei conti",
@@ -45,12 +49,79 @@
     "00",
     "04"
    ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=a29b17b2-e62a-462e-a7f5-7b554e698e6b"
+   "documento": "https://www.corteconti.it/HOME/StampaMedia/ComunicatiStampa/DettaglioComunicati?Id=acb08e66-8c70-4fd2-98d2-77148719b38a"
+  },
+  {
+   "pagina": "Gazzetta Ufficiale",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/25/26G00237/sg"
+  },
+  {
+   "pagina": "Gazzetta Ufficiale",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-25&numeroGazzetta=135"
+  },
+  {
+   "pagina": "Gazzetta Ufficiale",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/corte_costituzionale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-25&numeroGazzetta=47"
+  },
+  {
+   "pagina": "Gazzetta Ufficiale",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-25&numeroGazzetta=275"
   }
  ],
  "errori": [],
  "script": {
-  "03_ambiente.py": "ok"
+  "00c_congiuntura.py": "ok",
+  "03_ambiente.py": "ok",
+  "07_giustizia.py": "ok",
+  "09_pa_digitale.py": "ok"
  },
  "serie_cambiate": [],
  "modalita": "mirato"

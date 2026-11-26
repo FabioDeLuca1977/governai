@@ -1,0 +1,81 @@
+{
+ "origine": "legislazione/archivio/testi/2026/26G00237.txt",
+ "data_riferimento": "2026-11-26",
+ "articoli": 95,
+ "alto": [
+  "89",
+  "93"
+ ],
+ "medio": [
+  "28",
+  "52",
+  "65",
+  "69",
+  "88"
+ ],
+ "rilievi": [
+  {
+   "art": "28",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "52",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "accesso_giustizia",
+   "livello": "medio",
+   "comma": "5",
+   "nota": "oneri di accesso alla giustizia"
+  },
+  {
+   "art": "65",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "8",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "69",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "3",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "88",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "sanzione_penale",
+   "livello": "medio",
+   "comma": "1",
+   "nota": "norma penale: legalita', irretroattivita', proporzionalita'"
+  },
+  {
+   "art": "89",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "giudizi_in_corso",
+   "livello": "alto",
+   "comma": "1",
+   "nota": "incidenza su giudizi pendenti (art. 24, 111, 117 c.1 / art. 6 CEDU)"
+  },
+  {
+   "art": "93",
+   "rubrica": "",
+   "parametro": "giustizia",
+   "segnale": "giudizi_in_corso",
+   "livello": "alto",
+   "comma": "1",
+   "nota": "incidenza su giudizi pendenti (art. 24, 111, 117 c.1 / art. 6 CEDU)"
+  }
+ ]
+}

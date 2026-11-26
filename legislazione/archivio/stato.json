@@ -40,17 +40,18 @@
   "2026-11-20#271",
   "2026-11-21#272",
   "2026-11-23#273",
-  "2026-11-24#274"
+  "2026-11-24#274",
+  "2026-11-25#275"
  ],
- "ultima_esecuzione": "2026-11-25T17:01:16",
+ "ultima_esecuzione": "2026-11-26T16:45:20",
  "ultima": {
-  "fascicoli_nuovi": 0,
-  "atti_nuovi": 0,
+  "fascicoli_nuovi": 1,
+  "atti_nuovi": 20,
   "da_normattiva": 0,
-  "testi_scaricati": 0,
-  "richieste": 2,
+  "testi_scaricati": 20,
+  "richieste": 163,
   "errori": []
  },
- "totale_atti": 887,
- "atti_con_testo": 887
+ "totale_atti": 907,
+ "atti_con_testo": 907
 }
