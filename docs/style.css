@@ -931,3 +931,15 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 .busta-cifra.giu{ color:var(--c-critico, #b42318); }
 .busta-tab tr.totale td{ font-weight:700; }
 .elenco-punti{ margin:8px 0; padding-left:20px; } .elenco-punti li{ margin:6px 0; }
+
+/* Il bilancio in breve (schede delle proposte) */
+.bilancio h2{ margin-top:0; }
+.bilancio dl{ margin:0; display:grid; gap:12px; }
+.bilancio dl > div{ display:grid; grid-template-columns:minmax(150px, 220px) 1fr; gap:4px 16px; padding-bottom:12px; border-bottom:1px solid var(--c-bordo); }
+.bilancio dl > div:last-child{ border-bottom:0; padding-bottom:0; }
+.bilancio dt{ font-weight:700; display:flex; gap:8px; align-items:flex-start; }
+.bilancio dt svg{ flex:none; width:18px; height:18px; margin-top:3px; color:var(--c-accento); }
+.bilancio dd{ margin:0; }
+.bilancio .num{ font-variant-numeric:tabular-nums; font-weight:600; }
+@media (max-width:640px){ .bilancio dl > div{ grid-template-columns:1fr; } }
+.sez-etichetta{ margin-bottom:0; }

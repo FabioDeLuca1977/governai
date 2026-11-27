@@ -43,6 +43,10 @@
     richiede_notifica: ["attenzione", "circle-alert", "Richiede notifica"],
     incompatibile: ["critico", "octagon-x", "Incompatibile"],
   };
+  // le stesse classi dette in parole semplici (testata e bilancio delle schede)
+  const CLASSE_SEMPLICE = { "robusta": "Utile con quasi ogni peso dei valori", "dipendente dai valori": "Utile secondo i valori che contano di più", "in coda": "Utile solo con alcuni pesi dei valori", "sfavorevole": "Più costi che benefici" };
+  const GIUR_SEMPLICE = { compatibile: "In regola con Costituzione e UE", condizionato: "Si può fare, con condizioni giuridiche", richiede_notifica: "Va comunicata prima alla Commissione UE", incompatibile: "Una versione non è ammessa" };
+  const solidita = (r) => r >= 0.995 ? "resta nel programma in tutte le simulazioni" : r >= 0.9 ? "resta nel programma in quasi tutte le simulazioni" : `resta nel programma in ${Math.round(r * 100)} simulazioni su 100`;
   const GRAVITA_GIUR = { compatibile: 0, condizionato: 1, richiede_notifica: 1, incompatibile: 3 };
   const AMBITO = { FIS: "Fiscale", COS: "Costituzionale", UE: "Europeo" };
   const ESITO_DEC = { adottata: ["favorevole", "check", "Accolta"], respinta: ["alto", "x", "Respinta"], rinviata: ["", "calendar-clock", "Rinviata"] };
@@ -87,7 +91,8 @@
   const OGGI = String(D.generato).slice(0, 10);
   const traGiorni = (iso) => Math.round((new Date(iso + "T12:00") - new Date(OGGI + "T12:00")) / 864e5);
   const bannerSim = (tipo = "") => `<div class="banner-sim ${tipo}" role="note">${icona("flask-conical")}<span><strong>Governo ombra · simulazione:</strong> tutti i ruoli, capo di governo compreso, sono agenti AI. Nessuna decisione è in vigore e nessuna persona l'ha presa.</span></div>`;
-  const schede = (voci, attiva) => `<nav class="schede" aria-label="Sezioni">${voci.map(([k, t, href, conta]) => `<a href="${href}" ${k === attiva ? 'aria-current="page"' : ""}>${esc(t)}${conta != null ? ` <span class="conta">${conta}</span>` : ""}</a>`).join("")}</nav>`;
+  // testata delle sezioni: il titolo è il nome della pagina aperta, la sezione resta sopra come etichetta
+  const schede = (voci, attiva, sez, nota = "") => `${sez ? `<p class="etichetta sez-etichetta">${esc(sez)}</p><h1>${esc((voci.find((v) => v[0] === attiva) || [])[1] || sez)}</h1>${nota}` : ""}<nav class="schede" aria-label="Sezioni">${voci.map(([k, t, href, conta]) => `<a href="${href}" ${k === attiva ? 'aria-current="page"' : ""}>${esc(t)}${conta != null ? ` <span class="conta">${conta}</span>` : ""}</a>`).join("")}</nav>`;
   const vuoto = (testo) => `<p class="vuoto">${esc(testo)}</p>`;
   const repo = D.repo || "https://github.com/FabioDeLuca1977/governai";
   const RAW = repo.replace("https://github.com/", "https://raw.githubusercontent.com/") + "/main/";
@@ -494,7 +499,7 @@
   }
 
   // ---------- Programma ----------
-  const schedeProgramma = (k) => `<h1>Programma</h1>${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["busta-paga", "La tua busta paga", "#/programma/busta-paga"], ["pronto", "Pronto domani", "#/programma/pronto"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["chi-paga", "Chi paga davvero", "#/programma/chi-paga"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["proponi", "Proponi un programma", "#/programma/proponi"], ["strategia", "Strategia", "#/programma/strategia"], ["ai", "AI e Stato", "#/programma/ai"], ["confronti", "Confronti", "#/programma/confronti"]], k)}`;
+  const schedeProgramma = (k) => `${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["busta-paga", "La tua busta paga", "#/programma/busta-paga"], ["pronto", "Pronto domani", "#/programma/pronto"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["chi-paga", "Chi paga davvero", "#/programma/chi-paga"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["proponi", "Proponi un programma", "#/programma/proponi"], ["strategia", "Strategia", "#/programma/strategia"], ["ai", "AI e Stato", "#/programma/ai"], ["confronti", "Confronti", "#/programma/confronti"]], k, "Programma")}`;
 
   function elenco(params) {
     const sc = scenario(params.get("scenario") || RIF_ID);
@@ -561,6 +566,37 @@
       ${q.oceano_blu ? `<h3 class="q4-sotto">Rispetto a come fa oggi lo Stato <small>griglia della strategia oceano blu</small></h3>${grigliaErrc(q.oceano_blu, "Elimina, riduce, aumenta, crea")}` : ""}
     </section>`;
   }
+  // ---------- «Il bilancio in breve»: che cosa cambia, che cosa si ottiene, chi ci guadagna e chi paga, costo, valori, solidità
+  const frasi = (t) => String(t || "").replace(/\s+/g, " ").trim().split(/(?<=[.;])\s+(?=[A-ZÀÈÉÌÒÙ«])/);
+  const corto = (t, max = 260) => { let o = ""; for (const f of String(t || "").replace(/\s+/g, " ").trim().split(/(?<=[.;])\s+/)) { if (o && (o + " " + f).length > max) break; o = o ? o + " " + f : f; } if (o.length > max + 60) o = o.slice(0, o.lastIndexOf(" ", max)) + "…"; return o.replace(/;$/, ".").replace(/^./, (c) => c.toUpperCase()); };
+  function bilancio(p, m, q4, medie, peggiore, S) {
+    const soluzione = (S.match(/\*\*Soluzione\.?\*\*\.?\s*([^\n]+)/) || [])[1];
+    const cosaQ = q4 && q4.cosa ? q4.cosa.split(/\s*Obiettiv[oi](?: della misura)?:/)[0] : "";
+    const frase = (S.match(/\*In una frase:\s*([^*\n]+)\*/) || [])[1];
+    const titoloLungo = ((S.match(/^## [^—]+— (.+)$/m) || [])[1]) || tit(p.titolo);
+    const sol = soluzione && piano(soluzione).replace(/^[-–]\s*/, "");
+    // ordine: la frase riassuntiva della scheda, poi la soluzione (se non ripete il titolo), poi la lettura ragionata
+    const cambia = frase ? corto(piano(frase)) : sol && sol.trim() !== titoloLungo.trim() ? corto(sol) : cosaQ ? corto(cosaQ) : corto(((p.varianti || []).find((v) => m && v.variante === m.variante) || (p.varianti || [])[0] || {}).descrizione || titoloLungo, 220);
+    const ob = q4 && q4.cosa ? (q4.cosa.match(/Obiettiv[oi](?: della misura)?:\s*([^;.]+(?:\.\d[^;.]*)*)/) || [])[1] : "";
+    const chi = q4 ? frasi(q4.chi) : [];
+    // «chi» è scritto sempre nello stesso ordine: chi decide, chi ne beneficia, poi chi paga o ci perde
+    const ultimoB = chi.reduce((a, f, i) => /benefic/i.test(f) ? i : a, -1);
+    const guadagna = chi.filter((f) => /benefic/i.test(f)).map((f) => f.replace(/^Ne benefic\w*\s*/i, "").replace(/^./, (c) => c.toUpperCase()));
+    const paga = ultimoB >= 0 ? chi.slice(ultimoB + 1) : chi.filter((f) => /\b(pag\w*|perd\w*)\b/i.test(f));
+    const pos = medie.filter((x) => x.m >= 0.25).sort((a, b) => b.m - a.m).slice(0, 3), neg = medie.filter((x) => x.m <= -0.25).sort((a, b) => a.m - b.m).slice(0, 2);
+    const v = (x) => `${esc(x.nome)} <span class="num">${x.m > 0 ? "+" : "−"}${nf(Math.abs(x.m), 1)}</span>`;
+    const costo = m ? (m.costo > 0 ? `<strong>${euro(m.costo)} l'anno</strong> nella versione ${esc(String(m.variante).toLowerCase())}, pagati con le <a href="#/programma/coperture">coperture del programma</a>, senza deficit` : `<strong>Costo zero o quasi</strong>: sono regole, non spesa`) : `Non è nel programma di riferimento; la versione piena costerebbe ${euro(p.costo_pieno)} l'anno`;
+    const solid = [CLASSE_SEMPLICE[p.classe] ? `${CLASSE_SEMPLICE[p.classe]}${p.classe === "dipendente dai valori" && p.trainanti ? ` (soprattutto ${esc(p.trainanti)})` : ""}` : "", peggiore ? GIUR_SEMPLICE[peggiore] : "", m && !m.imposta ? solidita(m.robustezza) : m && m.imposta ? "inserita per scelta politica" : ""].filter(Boolean).join(" · ");
+    return [
+      ["sparkles", "Che cosa cambia", esc(cambia)],
+      ...(ob ? [["target", "Che cosa si vuole ottenere", esc(corto(ob, 220).replace(/^./, (c) => c.toUpperCase()))]] : []),
+      ...(guadagna.length ? [["thumbs-up", "Chi ci guadagna", esc(corto(guadagna.join(" "), 240))]] : []),
+      ...(paga.length ? [["wallet", "Chi paga o ci perde", esc(corto(paga.join(" "), 240))]] : []),
+      ["coins", "Quanto costa", costo],
+      ["scale", "Valori", pos.length || neg.length ? `${pos.length ? `Aiuta soprattutto ${pos.map(v).join(", ")}` : "Nessun valore migliora in modo netto"}${neg.length ? `; pesa su ${neg.map(v).join(", ")}` : "; non pesa in modo netto su nessun valore"}` : "Effetti piccoli su tutti i valori"],
+      ["shield-check", "Quanto è solida", esc(solid)],
+    ];
+  }
   function schedaProposta(id) {
     const p = proposta(id);
     if (!p) return nonTrovato(`Nessuna proposta con codice «${id}».`);
@@ -581,7 +617,8 @@
     const giur = p.giuridico || [];
     const peggiore = giur.reduce((a, r) => (GRAVITA_GIUR[r.esito] ?? 0) > (GRAVITA_GIUR[a] ?? -1) ? r.esito : a, null);
     const q4 = (D.quattro_domande || {})[p.id];
-    const voci = [["in-breve", "In breve"], ...(q4 ? [["ragionamento", "Perché, come, chi"]] : []), ["valori", "Effetto sui valori"], ["varianti", "Varianti"], ["controlli", "Controlli"], ["obiettivi", "Obiettivi"], ["governo", "Governo ombra"], ["testo", "Testo completo"], ["fonti", "Fonti e metodo"]];
+    const B = bilancio(p, m, q4, medie, peggiore, S);
+    const voci = [["bilancio", "Il bilancio in breve"], ["in-breve", "In breve"], ...(q4 ? [["ragionamento", "Perché, come, chi"]] : []), ["valori", "Effetto sui valori"], ["varianti", "Varianti"], ["controlli", "Controlli"], ["obiettivi", "Obiettivi"], ["governo", "Governo ombra"], ["testo", "Testo completo"], ["fonti", "Fonti e metodo"]];
     const esitoDec = dec ? (deroga ? ["attenzione", "git-branch", "Accolta con deroga"] : ESITO_DEC[dec.esito] || ["", "circle-dashed", dec.esito]) : null;
     const collegati = [
       ...scadenze.map((s) => `<li>${icona("landmark")}<a href="#/controlli/europa">${esc(s.atto)}</a> <span class="nota">scadenza UE ${dataBreve(s.data)}</span></li>`),
@@ -597,13 +634,19 @@
           <header class="intestazione">
             <p class="etichetta">${esc(D.aree[p.area])} · ${esc(p.id)}</p>
             <h1>${esc(tit(p.titolo))}</h1>
-            <div class="chips">${chipClasse(p.classe)}${p.linea_rossa ? chip(["critico", "octagon-x", "Linea rossa in alcune versioni"]) : ""}${peggiore ? chip(ESITO_GIUR[peggiore]) : ""}</div>
-            <div class="stato">Nel programma di riferimento: ${misuratore(m && m.variante)}${m ? `<span>· ${euro(m.costo)} l'anno · ${m.imposta ? "inserita per scelta politica" : `robustezza ${Math.round(m.robustezza * 100)}%`}</span>` : `<span>· non inclusa</span>`}</div>
+            <div class="chips">${chip([...CLASSE[p.classe] || ["", "circle-dot", p.classe]].map((x, i) => i === 2 ? CLASSE_SEMPLICE[p.classe] || x : x))}${p.linea_rossa ? chip(["critico", "octagon-x", "Una versione è esclusa"]) : ""}${peggiore ? chip([...ESITO_GIUR[peggiore]].map((x, i) => i === 2 ? GIUR_SEMPLICE[peggiore] || x : x)) : ""}</div>
+            <div class="stato">Nel programma di riferimento: ${misuratore(m && m.variante)}${m ? `<span>· ${euro(m.costo)} l'anno · ${m.imposta ? "inserita per scelta politica" : solidita(m.robustezza)}</span>` : `<span>· non inclusa</span>`}</div>
             ${indiceMobile(voci)}
           </header>
           ${p.linea_rossa ? `<div class="avviso critico" role="alert"><div class="avviso-titolo">${icona("octagon-x")}Linea rossa in alcune versioni</div><p>Almeno una versione di questa proposta supera una linea rossa della Carta dei valori ed è esclusa in automatico. Le altre versioni restano possibili: vedi le varianti e il programma.</p></div>` : ""}
 
-          <section class="card in-breve blocco" id="in-breve" aria-labelledby="h-breve" style="margin-top:0">
+          <section class="card bilancio blocco" id="bilancio" aria-labelledby="h-bilancio" style="margin-top:0">
+            <h2 id="h-bilancio">Il bilancio in breve</h2>
+            <dl>${B.map(([ic, t, v]) => `<div><dt>${icona(ic)}${t}</dt><dd>${v}</dd></div>`).join("")}</dl>
+            <p class="nota">Riassunto delle sezioni qui sotto: obiettivi e «chi» dalla lettura ragionata, effetti sui valori dai tre valutatori, costo dal programma di riferimento ${badge("stima", STIMA)}.</p>
+          </section>
+
+          <section class="card in-breve blocco" id="in-breve" aria-labelledby="h-breve">
             <h2 id="h-breve" class="vh">In breve</h2>
             <h3>Il problema in un dato</h3>
             ${grande ? `<p class="dato-grande">${esc(grande)}</p>` : ""}
@@ -1659,7 +1702,7 @@
   const nomeRuolo = (a) => { const e = (D.governo.esperti || {}); return a === "capo" ? "Capo di governo" : a === "opposizione" ? "Opposizione leale" : a.startsWith("esperto_") ? (e[a.slice(8)] || a.slice(8)) : a.startsWith("ministro_") ? "Ministro · " + (D.aree[a.slice(9)] || a.slice(9)) : a; };
   const linkConsiglio = () => `${repo}/issues/new?template=consiglio.yml`;
   const linkRiesame = (seduta, titolo) => `${repo}/new/main/governo/richieste?filename=${encodeURIComponent(OGGI + "-riesame-" + seduta + ".md")}&value=${encodeURIComponent(`# Riesame: ${titolo}\n\nRiesame della seduta: ${seduta}\n\nMotivi del riesame:\n- verifica dello stato dell'arte richiesta da un membro del progetto\n`)}`;
-  const schedeGoverno = (k) => `${bannerSim("fisso")}<h1>Governo</h1>${schede([["sedute", "Sedute", "#/governo", VERBALI.length], ["decisioni", "Esiti ancora validi", "#/governo/decisioni"], ["mandati", "Mandati", "#/governo/mandati", (D.governo.mandati || []).filter((m) => m.stato === "aperto").length], ["credibilita", "Credibilità", "#/governo/credibilita"], ["regolamento", "Chi siede e regole", "#/governo/regolamento"]], k)}`;
+  const schedeGoverno = (k) => `${bannerSim("fisso")}${schede([["sedute", "Sedute", "#/governo", VERBALI.length], ["decisioni", "Esiti ancora validi", "#/governo/decisioni"], ["mandati", "Mandati", "#/governo/mandati", (D.governo.mandati || []).filter((m) => m.stato === "aperto").length], ["credibilita", "Credibilità", "#/governo/credibilita"], ["regolamento", "Chi siede e regole", "#/governo/regolamento"]], k, "Governo")}`;
 
   function governo() {
     const decisioni = VERBALI.reduce((a, v) => a + v.dec.length, 0);
@@ -1797,7 +1840,7 @@
 
   // ---------- Dati ----------
   const GRUPPI = [["Prezzi e conti pubblici", ["inflazione", "debito_trimestrale", "debito_annuo", "deficit_annuo", "interessi", "spread", "rendimento_btp"]], ["Lavoro e giovani", ["disoccupazione", "disoccupazione_giovani", "neet"]], ["Crescita", ["pil_trimestrale", "produzione_industriale", "fiducia_consumatori"]], ["Società", ["fecondita"]]];
-  const schedeDati = (k) => `<h1>Dati</h1>${schede([["indicatori", "Indicatori", "#/dati", (D.indicatori || []).length], ["allerte", "Allerte", "#/dati/allerte", ALLERTE.length], ["obiettivi", "Obiettivi e risultati", "#/dati/obiettivi", (D.obiettivi || []).length], ["diario", "Diario quotidiano", "#/dati/diario"], ["storia", "50 anni di scelte", "#/dati/storia"], ["governi", "Governi a confronto", "#/dati/governi"], ["verifica", "Verifica un confronto", "#/dati/verifica"], ["fonti", "Stato delle fonti", "#/dati/fonti", ((D.fonti || {}).serie || []).length]], k)}`;
+  const schedeDati = (k) => `${schede([["indicatori", "Indicatori", "#/dati", (D.indicatori || []).length], ["allerte", "Allerte", "#/dati/allerte", ALLERTE.length], ["obiettivi", "Obiettivi e risultati", "#/dati/obiettivi", (D.obiettivi || []).length], ["diario", "Diario quotidiano", "#/dati/diario"], ["storia", "50 anni di scelte", "#/dati/storia"], ["governi", "Governi a confronto", "#/dati/governi"], ["verifica", "Verifica un confronto", "#/dati/verifica"], ["fonti", "Stato delle fonti", "#/dati/fonti", ((D.fonti || {}).serie || []).length]], k, "Dati")}`;
   function datiVista() {
     const ok = (D.indicatori || []).filter((i) => i.stato === "ok");
     const salgono = ALLERTE.map((r) => nomeInd(r.ind).split(" (")[0].toLowerCase()).filter((x, i, a) => x && a.indexOf(x) === i);
@@ -1856,7 +1899,7 @@
   }
 
   // ---------- Controlli ----------
-  const schedeControlli = (k) => `<h1>Controlli</h1><p class="nota" style="margin:0">Prima i vincoli, poi i valori: Costituzione, diritto europeo e integrità non si pesano, si rispettano.</p>${schede([["costituzione", "Costituzione", "#/controlli/costituzione"], ["europa", "Europa", "#/controlli/europa"], ["integrita", "Integrità", "#/controlli/integrita"]], k)}`;
+  const schedeControlli = (k) => `${schede([["costituzione", "Costituzione", "#/controlli/costituzione"], ["europa", "Europa", "#/controlli/europa"], ["integrita", "Integrità", "#/controlli/integrita"]], k, "Controlli", `<p class="nota" style="margin:0">Prima i vincoli, poi i valori: Costituzione, diritto europeo e integrità non si pesano, si rispettano.</p>`)}`;
   const AVVERTENZA_COST = `<div class="avviso info"><div class="avviso-titolo">${icona("info")}Controllo preventivo automatico con revisione umana.</div><p>Non è un giudizio: sulla legittimità delle leggi decide solo la Corte costituzionale.</p></div>`;
   function barraRischio(s) {
     const nessuno = s.articoli - s.alto - s.medio;
@@ -1951,7 +1994,7 @@
 
   // ---------- Metodo ----------
   const DOCUMENTI = { programma: "Programma", garanzie: "Garanzie e responsabilità", metodo: "Metodo degli agenti", sistema: "Sistema dinamico", giuridico: "Quadro giuridico e UE", trasparenza: "Rischio negli appalti", legislazione: "Legislazione e redazione" };
-  const schedeMetodo = (k) => `<h1>Metodo</h1>${schede([["come", "Come funziona", "#/metodo"], ["carta", "Carta dei valori", "#/metodo/carta"], ["documenti", "Documenti", "#/metodo/documenti"], ["glossario", "Glossario", "#/metodo/glossario"]], k)}`;
+  const schedeMetodo = (k) => `${schede([["come", "Come funziona", "#/metodo"], ["carta", "Carta dei valori", "#/metodo/carta"], ["documenti", "Documenti", "#/metodo/documenti"], ["glossario", "Glossario", "#/metodo/glossario"]], k, "Metodo")}`;
   function metodo() {
     const n = D.numeri || {};
     const passi = [
