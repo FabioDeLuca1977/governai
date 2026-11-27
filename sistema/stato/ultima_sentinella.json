@@ -1,24 +1,62 @@
 {
- "data": "2026-11-27T09:00:14",
+ "data": "2026-11-27T16:26:12",
  "prima_esecuzione": false,
  "eurostat_aggiornati": [],
- "file_aggiornati": [],
+ "file_aggiornati": [
+  "https://bdap-opendata.rgs.mef.gov.it/SpodCkanApi/api/3/datastore/dump/a7625ae5-79f7-41c5-b7ca-2e45dc40ea21.csv",
+  "https://www.agid.gov.it/sites/agid/files/2025-10/2025.10.08_CS_Rinnovo_convenzioni_Spid.pdf",
+  "https://www.camera.it/temiap/2026/07/16/OCD177-9133.pdf"
+ ],
  "documenti_nuovi": [
   {
-   "pagina": "Gazzetta Ufficiale",
+   "pagina": "ISTAT - Home e comunicati",
+   "aree": [
+    "02",
+    "05",
+    "06"
+   ],
+   "documento": "https://www.istat.it/comunicato-stampa/commercio-estero-extra-ue-ottobre-2026/"
+  },
+  {
+   "pagina": "ISTAT - Home e comunicati",
+   "aree": [
+    "02",
+    "05",
+    "06"
+   ],
+   "documento": "https://www.istat.it/comunicato-stampa/fatturato-dellindustria-e-dei-servizi-settembre-2026/"
+  },
+  {
+   "pagina": "Corte dei conti",
    "aree": [
     "00",
-    "01",
-    "02",
-    "03",
-    "04",
-    "05",
-    "06",
-    "07",
-    "08",
-    "09"
+    "04"
    ],
-   "documento": "https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-26&numeroGazzetta=137"
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=02181dae-c7b9-4dc1-b0f4-64d5f1ef5d63"
+  },
+  {
+   "pagina": "Corte dei conti",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=9116a9b0-2449-43e3-aae4-b5323246e9b1"
+  },
+  {
+   "pagina": "Corte dei conti",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=c1b846d0-1a00-4f97-9b5a-0de2db5ba599"
+  },
+  {
+   "pagina": "Corte dei conti",
+   "aree": [
+    "00",
+    "04"
+   ],
+   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=e82e689c-96b6-4b0e-bdc1-9cbc3439d32e"
   },
   {
    "pagina": "Gazzetta Ufficiale",
@@ -34,27 +72,15 @@
     "08",
     "09"
    ],
-   "documento": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-26&numeroGazzetta=276"
-  },
-  {
-   "pagina": "Gazzetta Ufficiale",
-   "aree": [
-    "00",
-    "01",
-    "02",
-    "03",
-    "04",
-    "05",
-    "06",
-    "07",
-    "08",
-    "09"
-   ],
-   "documento": "https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-26&numeroGazzetta=93"
+   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/26/26G00229/sg"
   }
  ],
  "errori": [],
- "script": {},
+ "script": {
+  "00b_bilancio.py": "ok",
+  "03_ambiente.py": "ERRORE: requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "09_pa_digitale.py": "ERRORE: requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+ },
  "serie_cambiate": [],
- "modalita": "nessun aggiornamento"
+ "modalita": "mirato"
 }

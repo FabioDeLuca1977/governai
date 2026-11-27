@@ -1,17 +1,22 @@
 # Bollettino GovernAI — 2026-11-27
 
-*Generato automaticamente da `sistema/pipeline.py` alle 09:04. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 16:28. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
-- Modalità di aggiornamento: **nessun aggiornamento**
+- Modalità di aggiornamento: **mirato**
 - Dataset Eurostat aggiornati: nessuno
-- File ufficiali aggiornati: 0
+- File ufficiali aggiornati: 3
 - Serie cambiate e archiviate in `dati/storico/`: nessuna
-- Documenti nuovi sulle pagine osservate: 3
-  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-26&numeroGazzetta=137
-  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-26&numeroGazzetta=276
-  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-26&numeroGazzetta=93
+- Documenti nuovi sulle pagine osservate: 7
+  - ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/commercio-estero-extra-ue-ottobre-2026/
+  - ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/fatturato-dellindustria-e-dei-servizi-settembre-2026/
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=02181dae-c7b9-4dc1-b0f4-64d5f1ef5d63
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=9116a9b0-2449-43e3-aae4-b5323246e9b1
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=c1b846d0-1a00-4f97-9b5a-0de2db5ba599
+  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=e82e689c-96b6-4b0e-bdc1-9cbc3439d32e
+  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/26/26G00229/sg
+- Problemi: 03_ambiente.py ERRORE: requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0); 09_pa_digitale.py ERRORE: requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 
 ## 2. Cruscotto
 
@@ -58,18 +63,26 @@ Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
 
 ## 5. Revisione AI richiesta
 
-**3 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
-- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/parte_seconda/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-26&numeroGazzetta=137 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-26&numeroGazzetta=276 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/unione_europea/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-26&numeroGazzetta=93 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+**7 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
+- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/commercio-estero-extra-ue-ottobre-2026/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/fatturato-dellindustria-e-dei-servizi-settembre-2026/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=02181dae-c7b9-4dc1-b0f4-64d5f1ef5d63 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=9116a9b0-2449-43e3-aae4-b5323246e9b1 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=c1b846d0-1a00-4f97-9b5a-0de2db5ba599 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=e82e689c-96b6-4b0e-bdc1-9cbc3439d32e → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/26/26G00229/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
 
 ## Registro tecnico
 
-- sentinella: sentinella: nessun aggiornamento; Eurostat aggiornati 0, file 0, documenti nuovi 3, serie cambiate 0, errori 0
+- sentinella: sentinella: mirato; Eurostat aggiornati 0, file 3, documenti nuovi 7, serie cambiate 0, errori 0
 - apprendimento: 193 KPI, stati {'manuale': 147, 'in osservazione': 46}, aree calibrate 0
-- legislazione: archivio GU: 930 atti, 930 con testo; nuovi 23; testi scaricati 23; richieste 95; errori 0
-- europa: europa: 1033 atti GU L in archivio, 357 negli ultimi 30 giorni; 146 direttive con termine (24 critiche, 9 alte); 85 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 25
+- legislazione: archivio GU: 930 atti, 930 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
+- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
 - costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
 - consiglio: 95 previsioni, 0 verificate oggi, 8 verificate in totale
 - verifica sedute: 2 attive, 0 confermate, 2 da riesaminare
 - modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
+
+## 6. Nota del livello AI
+
+Livello AI non eseguito: credenziali dell'API di Claude assenti (impostare la variabile d'ambiente ANTHROPIC_API_KEY).
