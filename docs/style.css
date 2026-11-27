@@ -953,3 +953,18 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 /* documenti a capitoli */
 details.capitolo{ margin-top:8px; }
 details.capitolo .corpo{ padding-top:8px; }
+
+/* versioni a confronto */
+.var-tab tr.scelta td{ background:var(--c-accento-tenue); }
+.var-tab td small{ display:block; color:var(--c-testo-2); font-size:13px; margin-top:4px; }
+/* I tuoi valori in tre passi */
+.passi-valori{ border:0; padding:0; margin:0 0 16px; }
+.passi-valori legend, p.passi-valori{ font-weight:600; display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.passo{ display:inline-grid; place-items:center; width:26px; height:26px; border-radius:50%; background:var(--c-accento); color:var(--c-su-accento); font-size:14px; flex:none; }
+.scelte-valori{ display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+.scelta-valore{ min-height:40px; padding:0 14px; border:1px solid var(--c-bordo-forte); border-radius:999px; background:var(--c-superficie); color:var(--c-testo); font:inherit; font-size:15px; cursor:pointer; }
+.scelta-valore[aria-pressed="true"]{ background:var(--c-accento); border-color:var(--c-accento); color:var(--c-su-accento); font-weight:600; }
+.scelta-valore:disabled{ opacity:.4; cursor:not-allowed; }
+/* parole del glossario */
+.termine{ font:inherit; color:inherit; background:none; border:0; padding:0; border-bottom:1px dotted currentColor; cursor:help; text-align:inherit; }
+.termine:hover,.termine[aria-expanded="true"]{ color:var(--c-accento); }

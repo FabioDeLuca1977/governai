@@ -611,6 +611,24 @@
       ["shield-check", "Quanto è solida", esc(solid)],
     ];
   }
+  // ---------- le versioni di una proposta affiancate
+  function tabellaVarianti(p, m, medie) {
+    const vs = (p.varianti || []).slice().sort((a, b) => (b.intensita || 0) - (a.intensita || 0));
+    const piena = vs[0] || {};
+    const top = medie.filter((x) => x.m >= 0.25).sort((a, b) => b.m - a.m).slice(0, 2), giu = medie.filter((x) => x.m <= -0.25).sort((a, b) => a.m - b.m).slice(0, 1);
+    const pct = (a, b) => b > 0 ? Math.round(a / b * 100) : null;
+    return `<div class="tabella-scorre"><table class="tabella a-card var-tab"><thead><tr><th>Versione</th><th class="num">Costo l'anno</th><th>Che cosa si ottiene</th><th>Che cosa fa</th></tr></thead><tbody>
+      ${vs.map((v) => {
+        const k = piena.intensita ? (v.intensita || 0) / piena.intensita : 1;
+        const pe = pct(v.intensita || 0, piena.intensita || 0), pc = pct(v.costo || 0, piena.costo || 0);
+        const valori = [...top.map((x) => `${esc(x.nome)} +${nf(x.m * (v.intensita || 0), 1)}`), ...giu.map((x) => `${esc(x.nome)} −${nf(Math.abs(x.m) * (v.intensita || 0), 1)}`)].join(", ");
+        const rapporto = v === piena ? "Tutto l'effetto previsto" : `${pe}% dell'effetto${pc != null && piena.costo > 0 ? ` con il ${pc}% del costo` : ""}`;
+        return `<tr class="${m && m.variante === v.variante ? "scelta" : ""}"><td class="principale">${misuratore(v.variante)}${m && m.variante === v.variante ? ` ${chip(["info", "check", "Nel programma"])}` : ""}</td>
+          <td class="num" data-etichetta="Costo l'anno">${v.costo > 0 ? euro(v.costo) : "costo zero"}</td>
+          <td data-etichetta="Che cosa si ottiene"><strong>${rapporto}</strong>${valori && k > 0 ? `<small>${valori}</small>` : ""}</td>
+          <td data-etichetta="Che cosa fa">${breveEResto(v.descrizione, 160)}${v.strumento ? `<small>Strumento: ${esc(v.strumento)}</small>` : ""}</td></tr>`;
+      }).join("")}</tbody></table></div>`;
+  }
   function schedaProposta(id) {
     const p = proposta(id);
     if (!p) return nonTrovato(`Nessuna proposta con codice «${id}».`);
@@ -690,10 +708,9 @@
           </section>
 
           <section class="blocco" id="varianti" aria-labelledby="h-varianti">
-            <h2 id="h-varianti">Varianti <small>la dose della misura, non un giudizio · costi: stime GovernAI</small></h2>
-            <div class="varianti">${p.varianti.map((v) => `<div class="variante ${m && m.variante === v.variante ? "scelta" : ""}">
-              <div class="chips">${misuratore(v.variante)} ${m && m.variante === v.variante ? chip(["info", "check", "Nel programma"]) : ""}</div>
-              <p class="costo">${nf(v.costo)} mld/anno</p><p>${esc(v.descrizione)}</p><p class="nota">Strumento: ${esc(v.strumento || "—")}</p></div>`).join("")}</div>
+            <h2 id="h-varianti">Le versioni a confronto <small>quanto si fa, quanto costa, che cosa si ottiene · costi: stime GovernAI</small></h2>
+            <p class="nota">Ogni versione dà una parte dell'effetto della versione piena: i valutatori giudicano la proposta, il motore moltiplica il giudizio per la «dose» della versione.</p>
+            ${tabellaVarianti(p, m, medie)}
           </section>
 
           <section class="blocco" id="controlli" aria-labelledby="h-controlli">
@@ -1337,7 +1354,13 @@
       <p class="risposta">Il programma non sceglie un unico peso tra i valori: qui puoi provare il tuo. La classifica si ricalcola con i punteggi dei tre valutatori AI. Le proposte del nucleo robusto restano in alto con <em>qualunque</em> combinazione.</p>
       <div class="simulatore">
         <div class="card">
-          <h2 style="font-size:20px">I tuoi pesi</h2>
+          <h2 style="font-size:20px">In tre passi</h2>
+          <fieldset class="passi-valori"><legend><span class="passo">1</span>Quali valori contano di più per te? Scegline fino a tre.</legend>
+            <div class="scelte-valori" data-passo="su">${D.valori.map((v) => `<button type="button" class="scelta-valore" data-valore="${v.id}" aria-pressed="false">${esc(v.nome)}</button>`).join("")}</div></fieldset>
+          <fieldset class="passi-valori"><legend><span class="passo">2</span>Ce n'è uno che per te conta meno? Facoltativo.</legend>
+            <div class="scelte-valori" data-passo="giu">${D.valori.map((v) => `<button type="button" class="scelta-valore" data-valore="${v.id}" aria-pressed="false">${esc(v.nome)}</button>`).join("")}</div></fieldset>
+          <p class="passi-valori"><span class="passo">3</span><span id="passi-esito">Guarda come cambia la classifica.</span> <button type="button" class="btn terziario s" data-azione-valori="azzera">Ricomincia</button></p>
+          <details class="richiudibile"><summary>Regola tu i pesi, uno per uno<span class="freccia">${icona("chevron-down")}</span></summary><div class="corpo">
           <div class="segmenti" role="group" aria-label="Pesi predefiniti">
             <button type="button" data-preset="uguali">Pesi uguali</button>${["FUT", "EQU", "BEN", "INN", "SIC"].map((id) => `<button type="button" data-preset="${id}">Più ${esc((D.valori.find((v) => v.id === id) || {}).nome || id).split(" ")[0].toLowerCase()}</button>`).join("")}
           </div>
@@ -1345,9 +1368,20 @@
           <h3 style="margin-top:16px;font-size:16px">Orizzonti di tempo</h3>
           ${ORIZZ.map((o) => `<div class="cursore"><label for="h-${o}">${o[0].toUpperCase() + o.slice(1)} periodo <output id="hv-${o}" for="h-${o}"></output></label><input type="range" id="h-${o}" data-orizzonte="${o}" min="0" max="100" value="${o === "lungo" ? 40 : 30}"></div>`).join("")}
           <p class="nota">Regola della Carta: il lungo periodo pesa almeno quanto il breve. Il cursore si adegua da solo.</p>
+        </div></details>
         </div>
         <div class="card"><h2 style="font-size:20px">Classifica</h2><p class="nota">Effetto pesato sui valori; le frecce indicano lo spostamento rispetto ai pesi uguali.</p><ol class="classifica" id="classifica" aria-live="polite"></ol></div>
       </div>`;
+  }
+  // tre passi: i valori scelti pesano 90, quello che conta meno 10, gli altri 40 (sulla stessa scala dei cursori)
+  function applicaPassiValori() {
+    const su = $$('[data-passo="su"] .scelta-valore[aria-pressed=true]').map((x) => x.dataset.valore);
+    const giu = $$('[data-passo="giu"] .scelta-valore[aria-pressed=true]').map((x) => x.dataset.valore);
+    $$('[data-passo="giu"] .scelta-valore').forEach((x) => { x.disabled = su.includes(x.dataset.valore); });
+    D.valori.forEach((v) => { $("#w-" + v.id).value = !su.length && !giu.length ? 50 : su.includes(v.id) ? 90 : giu.includes(v.id) && !su.includes(v.id) ? 10 : 40; });
+    const nome = (id) => (D.valori.find((v) => v.id === id) || {}).nome || id;
+    $("#passi-esito").textContent = su.length || giu.length ? `Classifica ricalcolata: conta di più ${su.map(nome).join(", ") || "—"}${giu.length ? `, conta meno ${nome(giu[0])}` : ""}. Le frecce mostrano chi sale e chi scende.` : "Guarda come cambia la classifica.";
+    aggiornaClassifica();
   }
   function aggiornaClassifica() {
     const w = {}, h = {};
@@ -2070,8 +2104,30 @@
       <div class="segmenti" role="group" aria-label="Documento">${Object.entries(DOCUMENTI).map(([id, t]) => `<a class="btn s ${id === k ? "primario" : ""}" href="#/metodo/documenti/${id}" ${id === k ? 'aria-current="page"' : ""}>${esc(t)}</a>`).join("")}</div>
       <div class="md documento sezione">${md(D.documenti[k] || "*Documento non ancora disponibile.*")}</div>`;
   }
+  const GLOSSARIO = [["A.C.", "Atto della Camera: numero con cui la Camera dei deputati identifica un progetto di legge."], ["Accisa", "Imposta su alcuni prodotti, come carburanti, energia, alcolici e tabacchi, calcolata sulla quantità venduta."], ["AI", "Intelligenza artificiale."], ["APE sociale", "Anticipo pensionistico: un assegno pagato dallo Stato a chi, in alcune condizioni difficili, lascia il lavoro prima dell'età della pensione."], ["ARERA", "Autorità di regolazione per energia reti e ambiente: fissa regole e tariffe per luce, gas, acqua e rifiuti."], ["Brier (punteggio di)", "Misura la qualità delle previsioni: 0 è perfetta, 0,25 come tirare a caso, 1 sempre sbagliata."], ["Catena di integrità", "Registro di impronte crittografiche: ogni anello contiene l'impronta del precedente, così una modifica nascosta si vede."], ["CELEX", "Codice che identifica un atto nella banca dati del diritto europeo EUR-Lex."], ["Clausola nazionale", "Regola europea che permette a uno Stato di spendere di più per la difesa senza violare il percorso di spesa concordato con l'UE."], ["Copertura", "Il modo in cui si paga una misura: un'entrata nuova o un taglio di spesa, indicato prima di spendere."], ["Decreto-legge (DL)", "Atto con forza di legge che il Governo adotta in casi di urgenza. Vale subito, ma perde effetto se il Parlamento non lo converte in legge entro 60 giorni."], ["Decreto legislativo (d.lgs.)", "Atto del Governo con forza di legge, adottato su delega del Parlamento ed entro i limiti fissati dalla legge di delega."], ["Deroga", "Decisione del capo di governo che si discosta dall'esito del motore, sempre dichiarata e motivata."], ["Detrazione", "Somma che si toglie dall'imposta da pagare, per esempio una parte delle spese sanitarie."], ["Disegno di legge (DDL)", "Proposta di legge presentata alle Camere, per esempio dal Governo. Diventa legge solo se Camera e Senato la approvano."], ["DPB", "Documento programmatico di bilancio: il testo che ogni autunno il Governo manda alla Commissione europea con i conti dell'anno successivo."], ["DPFP", "Documento programmatico di finanza pubblica: il documento con cui il Governo presenta il quadro dei conti pubblici e gli obiettivi dei prossimi anni."], ["Governo ombra", "Simulazione di un Consiglio dei ministri fatto di agenti AI con ruoli distinti. Le decisioni non sono in vigore."], ["HICP", "Indice armonizzato dei prezzi al consumo, misura europea dell'inflazione."], ["INPS", "Istituto nazionale della previdenza sociale: paga le pensioni e molte prestazioni sociali."], ["IRAP", "Imposta regionale sulle attività produttive: la pagano le imprese sul valore della produzione."], ["IRES", "Imposta sul reddito delle società."], ["IRPEF", "Imposta sul reddito delle persone fisiche: la principale imposta su stipendi, pensioni e altri redditi delle persone."], ["ISEE", "Indicatore della situazione economica equivalente: misura reddito e patrimonio della famiglia e decide l'accesso a molti aiuti."], ["ISTAT", "Istituto nazionale di statistica."], ["IVA", "Imposta sul valore aggiunto: si paga su beni e servizi acquistati."], ["LEP", "Livelli essenziali delle prestazioni: i servizi minimi che lo Stato deve garantire allo stesso modo in tutto il Paese."], ["Linea rossa", "Limite della Carta che nessuna proposta può superare: se lo supera, è esclusa automaticamente."], ["Mandato", "Compito con scadenza affidato a un ministro dal Consiglio."], ["MEF", "Ministero dell'economia e delle finanze."], ["NEET", "Giovani che non lavorano, non studiano e non seguono una formazione."], ["Nucleo robusto", "Proposte che restano nella prima metà della classifica con quasi ogni combinazione di pesi tra i valori."], ["Opposizione leale", "Ruolo che cerca il punto debole di ogni decisione, con prove; il capo di governo deve rispondere per iscritto."], ["Payback", "Restituzione che le imprese di farmaci e dispositivi medici versano alle Regioni quando la spesa pubblica supera il tetto fissato."], ["PIL", "Prodotto interno lordo."], ["PNRR", "Piano nazionale di ripresa e resilienza: il piano di investimenti e riforme finanziato dall'Unione europea dopo la pandemia."], ["Relazione tecnica", "Documento che accompagna una legge e ne stima costi ed effetti sui conti pubblici; la verifica la Ragioneria generale dello Stato."], ["RGS", "Ragioneria generale dello Stato."], ["Spread", "Differenza di rendimento tra titoli di Stato italiani e tedeschi a 10 anni, in punti base."], ["Stima GovernAI", "Cifra calcolata dal modello, non certificata dalla Ragioneria."], ["TFUE", "Trattato sul funzionamento dell'Unione europea: contiene, tra l'altro, le regole sugli aiuti di Stato (artt. 107-108)."], ["TPL", "Trasporto pubblico locale: autobus, tram, metropolitane e treni regionali."], ["UE", "Unione europea."], ["UPB", "Ufficio parlamentare di bilancio."], ["Variante", "La dose di una misura: Piena, Essenziale, Pilota o Zero."], ["ZES", "Zona economica speciale: area con agevolazioni per chi investe. Oggi c'è una ZES unica per il Mezzogiorno."]];
+  GLOSSARIO.push(["A regime", "Quando una misura è partita del tutto, dopo gli anni di avvio: il costo o l'effetto «a regime» è quello di ogni anno da lì in poi."], ["Scenario", "Una delle versioni complete del programma (base, intermedio, completo…): ognuna sceglie quali misure fare e con quali coperture, sempre senza deficit."], ["Versione piena, essenziale, pilota", "La «dose» di una misura: piena è tutta, essenziale è la parte più importante, pilota è una prova in pochi luoghi, solo regole costa quasi zero."], ["Fondi di coesione", "Fondi europei per ridurre i divari tra territori, già assegnati all'Italia per il 2021-2027 e spendibili fino al 2029."], ["Spese fiscali", "Sconti sulle tasse (detrazioni, deduzioni, esenzioni, aliquote ridotte): lo Stato rinuncia a un'entrata invece di fare una spesa."], ["Sussidi dannosi per l'ambiente", "Agevolazioni che rendono più conveniente inquinare, per esempio sconti sul gasolio; il Ministero dell'ambiente le elenca ogni anno."]);
+  GLOSSARIO.sort((a, b) => a[0].localeCompare(b[0], "it"));
+  // parole cercate nelle pagine: la voce del glossario e le forme con cui compare nel testo
+  const TERMINI = [["Accisa", "accis[ae]"], ["Copertura", "coperture"], ["Detrazione", "detrazion[ei]"], ["Linea rossa", "line[ae] ross[ae]"], ["Nucleo robusto", "nucleo robusto"], ["Variante", "variant[ei]"], ["Spread", "spread"], ["PIL", "PIL"], ["PNRR", "PNRR"], ["ISEE", "ISEE"], ["LEP", "LEP"], ["NEET", "NEET"], ["HICP", "HICP"], ["IRES", "IRES"], ["IRAP", "IRAP"], ["UPB", "UPB"], ["RGS", "RGS"], ["DPB", "DPB"], ["DPFP", "DPFP"], ["ZES", "ZES"], ["TPL", "TPL"], ["Payback", "payback"], ["Clausola nazionale", "clausola nazionale"], ["Relazione tecnica", "relazion[ei] tecnich?[ae]"], ["Governo ombra", "governo ombra"], ["A regime", "a regime"], ["Scenario", "scenari[o]?"], ["Fondi di coesione", "fondi (?:europei )?(?:di|della) coesione"], ["Spese fiscali", "spese fiscali"], ["Sussidi dannosi per l'ambiente", "sussidi dannosi"]];
+  const RE_TERMINI = new RegExp("(^|[^\\p{L}\\d])(" + TERMINI.map(([, r]) => r).join("|") + ")(?![\\p{L}\\d])", "iu");
+  const definizione = (parola) => { const t = TERMINI.find(([, r]) => new RegExp("^(?:" + r + ")$", "iu").test(parola)); const g = t && GLOSSARIO.find((x) => x[0] === t[0]); return g ? g : null; };
+  function segnaTermini(radice) {
+    const visti = new Set();
+    const salta = "a,button,h1,h2,h3,h4,summary,label,code,.mono,nav,select,option,textarea,input,.chip,.badge,.etichetta,dt,th,svg,script,style,.termine,.popover,[data-c]";
+    const w = document.createTreeWalker(radice, NodeFilter.SHOW_TEXT, { acceptNode: (n) => n.nodeValue.trim().length > 2 && !n.parentElement.closest(salta) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT });
+    const nodi = []; while (w.nextNode()) nodi.push(w.currentNode);
+    for (const n of nodi) {
+      const m = n.nodeValue.match(RE_TERMINI); if (!m) continue;
+      const g = definizione(m[2]); if (!g || visti.has(g[0])) continue;
+      visti.add(g[0]);
+      const inizio = m.index + m[1].length, dopo = n.splitText(inizio); dopo.splitText(m[2].length);
+      const b = document.createElement("button"); b.type = "button"; b.className = "termine"; b.dataset.def = g[1]; b.dataset.termine = g[0]; b.setAttribute("aria-haspopup", "dialog");
+      b.textContent = dopo.nodeValue; dopo.replaceWith(b);
+      if (visti.size >= 12) break;
+    }
+  }
   function glossario() {
-    const voci = [["A.C.", "Atto della Camera: numero con cui la Camera dei deputati identifica un progetto di legge."], ["Accisa", "Imposta su alcuni prodotti, come carburanti, energia, alcolici e tabacchi, calcolata sulla quantità venduta."], ["AI", "Intelligenza artificiale."], ["APE sociale", "Anticipo pensionistico: un assegno pagato dallo Stato a chi, in alcune condizioni difficili, lascia il lavoro prima dell'età della pensione."], ["ARERA", "Autorità di regolazione per energia reti e ambiente: fissa regole e tariffe per luce, gas, acqua e rifiuti."], ["Brier (punteggio di)", "Misura la qualità delle previsioni: 0 è perfetta, 0,25 come tirare a caso, 1 sempre sbagliata."], ["Catena di integrità", "Registro di impronte crittografiche: ogni anello contiene l'impronta del precedente, così una modifica nascosta si vede."], ["CELEX", "Codice che identifica un atto nella banca dati del diritto europeo EUR-Lex."], ["Clausola nazionale", "Regola europea che permette a uno Stato di spendere di più per la difesa senza violare il percorso di spesa concordato con l'UE."], ["Copertura", "Il modo in cui si paga una misura: un'entrata nuova o un taglio di spesa, indicato prima di spendere."], ["Decreto-legge (DL)", "Atto con forza di legge che il Governo adotta in casi di urgenza. Vale subito, ma perde effetto se il Parlamento non lo converte in legge entro 60 giorni."], ["Decreto legislativo (d.lgs.)", "Atto del Governo con forza di legge, adottato su delega del Parlamento ed entro i limiti fissati dalla legge di delega."], ["Deroga", "Decisione del capo di governo che si discosta dall'esito del motore, sempre dichiarata e motivata."], ["Detrazione", "Somma che si toglie dall'imposta da pagare, per esempio una parte delle spese sanitarie."], ["Disegno di legge (DDL)", "Proposta di legge presentata alle Camere, per esempio dal Governo. Diventa legge solo se Camera e Senato la approvano."], ["DPB", "Documento programmatico di bilancio: il testo che ogni autunno il Governo manda alla Commissione europea con i conti dell'anno successivo."], ["DPFP", "Documento programmatico di finanza pubblica: il documento con cui il Governo presenta il quadro dei conti pubblici e gli obiettivi dei prossimi anni."], ["Governo ombra", "Simulazione di un Consiglio dei ministri fatto di agenti AI con ruoli distinti. Le decisioni non sono in vigore."], ["HICP", "Indice armonizzato dei prezzi al consumo, misura europea dell'inflazione."], ["INPS", "Istituto nazionale della previdenza sociale: paga le pensioni e molte prestazioni sociali."], ["IRAP", "Imposta regionale sulle attività produttive: la pagano le imprese sul valore della produzione."], ["IRES", "Imposta sul reddito delle società."], ["IRPEF", "Imposta sul reddito delle persone fisiche: la principale imposta su stipendi, pensioni e altri redditi delle persone."], ["ISEE", "Indicatore della situazione economica equivalente: misura reddito e patrimonio della famiglia e decide l'accesso a molti aiuti."], ["ISTAT", "Istituto nazionale di statistica."], ["IVA", "Imposta sul valore aggiunto: si paga su beni e servizi acquistati."], ["LEP", "Livelli essenziali delle prestazioni: i servizi minimi che lo Stato deve garantire allo stesso modo in tutto il Paese."], ["Linea rossa", "Limite della Carta che nessuna proposta può superare: se lo supera, è esclusa automaticamente."], ["Mandato", "Compito con scadenza affidato a un ministro dal Consiglio."], ["MEF", "Ministero dell'economia e delle finanze."], ["NEET", "Giovani che non lavorano, non studiano e non seguono una formazione."], ["Nucleo robusto", "Proposte che restano nella prima metà della classifica con quasi ogni combinazione di pesi tra i valori."], ["Opposizione leale", "Ruolo che cerca il punto debole di ogni decisione, con prove; il capo di governo deve rispondere per iscritto."], ["Payback", "Restituzione che le imprese di farmaci e dispositivi medici versano alle Regioni quando la spesa pubblica supera il tetto fissato."], ["PIL", "Prodotto interno lordo."], ["PNRR", "Piano nazionale di ripresa e resilienza: il piano di investimenti e riforme finanziato dall'Unione europea dopo la pandemia."], ["Relazione tecnica", "Documento che accompagna una legge e ne stima costi ed effetti sui conti pubblici; la verifica la Ragioneria generale dello Stato."], ["RGS", "Ragioneria generale dello Stato."], ["Spread", "Differenza di rendimento tra titoli di Stato italiani e tedeschi a 10 anni, in punti base."], ["Stima GovernAI", "Cifra calcolata dal modello, non certificata dalla Ragioneria."], ["TFUE", "Trattato sul funzionamento dell'Unione europea: contiene, tra l'altro, le regole sugli aiuti di Stato (artt. 107-108)."], ["TPL", "Trasporto pubblico locale: autobus, tram, metropolitane e treni regionali."], ["UE", "Unione europea."], ["UPB", "Ufficio parlamentare di bilancio."], ["Variante", "La dose di una misura: Piena, Essenziale, Pilota o Zero."], ["ZES", "Zona economica speciale: area con agevolazioni per chi investe. Oggi c'è una ZES unica per il Mezzogiorno."]];
+    const voci = GLOSSARIO;
     return `${schedeMetodo("glossario")}<div class="obiezione card"><dl>${voci.map(([t, d]) => `<dt>${esc(t)}</dt><dd>${esc(d)}</dd>`).join("")}</dl></div>`;
   }
 
@@ -2188,6 +2244,7 @@
     const voce = !a ? "oggi" : a;
     html += scaricaDati(fileDiPagina(a, b, params));
     main.innerHTML = html;
+    if (["programma", "dati", "osservatorio", "governo", "controlli"].includes(a)) segnaTermini(main);
     if (C) C.monta(main);
     document.title = `${titolo} · GovernAI`;
     $$("[data-voce]").forEach((x) => { if (x.dataset.voce === voce) x.setAttribute("aria-current", "page"); else x.removeAttribute("aria-current"); });
@@ -2233,6 +2290,16 @@
   let pop = null;
   const chiudiPop = () => { if (pop) { pop._da.setAttribute("aria-expanded", "false"); pop.remove(); pop = null; } };
   document.addEventListener("click", (e) => {
+    const td = e.target.closest("[data-def]");
+    if (td) {
+      e.preventDefault(); const gia = pop && pop._da === td; chiudiPop(); if (gia) return;
+      pop = document.createElement("div"); pop._da = td; pop.className = "popover"; pop.setAttribute("role", "dialog"); pop.setAttribute("aria-label", "Che cosa vuol dire");
+      pop.innerHTML = `<strong>${esc(td.dataset.termine)}</strong>${esc(td.dataset.def)}<br><a href="#/metodo/glossario">Tutto il glossario</a>`;
+      document.body.appendChild(pop);
+      const r = td.getBoundingClientRect(), w = Math.min(320, innerWidth - 32);
+      pop.style.width = w + "px"; pop.style.left = Math.max(16, Math.min(r.left + scrollX, innerWidth - w - 16)) + "px"; pop.style.top = (r.bottom + scrollY + 6) + "px";
+      td.setAttribute("aria-expanded", "true"); return;
+    }
     const b = e.target.closest("[data-fonte]");
     if (b) {
       e.preventDefault(); const gia = pop && pop._da === b; chiudiPop(); if (gia) return;
@@ -2256,6 +2323,16 @@
     }
     const s = e.target.closest("[data-scenario]");
     if (s) { const pr = new URLSearchParams(location.hash.split("?")[1] || ""); pr.set("scenario", s.dataset.scenario); if (s.dataset.scenario === RIF_ID) pr.delete("scenario"); location.hash = "#/programma" + (pr.toString() ? "?" + pr : ""); }
+    const sv = e.target.closest(".scelta-valore");
+    if (sv) {
+      const gruppo = sv.closest("[data-passo]"), su = gruppo.dataset.passo === "su";
+      const premuti = $$(".scelta-valore[aria-pressed=true]", gruppo);
+      if (sv.getAttribute("aria-pressed") === "true") sv.setAttribute("aria-pressed", "false");
+      else if (su && premuti.length >= 3) { $("#passi-esito").textContent = "Al massimo tre: togline uno prima di sceglierne un altro."; return; }
+      else { if (!su) premuti.forEach((x) => x.setAttribute("aria-pressed", "false")); sv.setAttribute("aria-pressed", "true"); }
+      applicaPassiValori(); return;
+    }
+    if (e.target.closest("[data-azione-valori=azzera]")) { $$(".scelta-valore").forEach((x) => x.setAttribute("aria-pressed", "false")); applicaPassiValori(); return; }
     const p = e.target.closest("[data-preset]");
     if (p) { D.valori.forEach((v) => { $("#w-" + v.id).value = p.dataset.preset === "uguali" ? 50 : v.id === p.dataset.preset ? 100 : 35; }); aggiornaClassifica(); }
     const a = e.target.closest("[data-azione]");
