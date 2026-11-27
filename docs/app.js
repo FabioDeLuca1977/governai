@@ -581,22 +581,24 @@
     </section>`;
   }
   // ---------- «Il bilancio in breve»: che cosa cambia, che cosa si ottiene, chi ci guadagna e chi paga, costo, valori, solidità
-  const frasi = (t) => String(t || "").replace(/\s+/g, " ").trim().split(/(?<=[.;])\s+(?=[A-ZÀÈÉÌÒÙ«])/);
+  const frasi = (t) => String(t || "").replace(/\s+/g, " ").trim().split(/(?<=\.)\s+(?=[A-ZÀÈÉÌÒÙ«])/);
   const corto = (t, max = 260) => { let o = ""; for (const f of String(t || "").replace(/\s+/g, " ").trim().split(/(?<=[.;])\s+/)) { if (o && (o + " " + f).length > max) break; o = o ? o + " " + f : f; } if (o.length > max + 60) o = o.slice(0, o.lastIndexOf(" ", max)) + "…"; return o.replace(/;$/, ".").replace(/^./, (c) => c.toUpperCase()); };
   function bilancio(p, m, q4, medie, peggiore, S) {
     const soluzione = (S.match(/\*\*Soluzione\.?\*\*\.?\s*([^\n]+)/) || [])[1];
-    const cosaQ = q4 && q4.cosa ? q4.cosa.split(/\s*Obiettiv[oi](?: della misura)?:/)[0] : "";
+    const M = ((D.bilancio_breve || {}).schede || {})[p.id] || {};   // testi scritti a mano (programma/bilancio_breve.yaml)
+    const RE_OB = /Obiettiv[oi][^:.;]{0,50}:\s*/;
+    const cosaQ = q4 && q4.cosa ? q4.cosa.split(RE_OB)[0] : "";
     const frase = (S.match(/\*In una frase:\s*([^*\n]+)\*/) || [])[1];
     const titoloLungo = ((S.match(/^## [^—]+— (.+)$/m) || [])[1]) || tit(p.titolo);
     const sol = soluzione && piano(soluzione).replace(/^[-–]\s*/, "");
     // ordine: la frase riassuntiva della scheda, poi la soluzione (se non ripete il titolo), poi la lettura ragionata
-    const cambia = frase ? corto(piano(frase)) : sol && sol.trim() !== titoloLungo.trim() ? corto(sol) : cosaQ ? corto(cosaQ) : corto(((p.varianti || []).find((v) => m && v.variante === m.variante) || (p.varianti || [])[0] || {}).descrizione || titoloLungo, 220);
-    const ob = q4 && q4.cosa ? (q4.cosa.match(/Obiettiv[oi](?: della misura)?:\s*([^;.]+(?:\.\d[^;.]*)*)/) || [])[1] : "";
+    const cambia = M.cambia ? M.cambia : frase ? corto(piano(frase)) : sol && sol.trim() !== titoloLungo.trim() ? corto(sol) : cosaQ ? corto(cosaQ) : corto(((p.varianti || []).find((v) => m && v.variante === m.variante) || (p.varianti || [])[0] || {}).descrizione || titoloLungo, 220);
+    const ob = M.obiettivo || (q4 && q4.cosa ? (q4.cosa.match(new RegExp(RE_OB.source + "([^;.]+(?:\\.\\d[^;.]*)*)")) || [])[1] : "");
+    // «chi»: una frase su chi decide e attua, una su chi ne beneficia, le altre su chi paga o ci perde
     const chi = q4 ? frasi(q4.chi) : [];
-    // «chi» è scritto sempre nello stesso ordine: chi decide, chi ne beneficia, poi chi paga o ci perde
-    const ultimoB = chi.reduce((a, f, i) => /benefic/i.test(f) ? i : a, -1);
-    const guadagna = chi.filter((f) => /benefic/i.test(f)).map((f) => f.replace(/^Ne benefic\w*\s*/i, "").replace(/^./, (c) => c.toUpperCase()));
-    const paga = ultimoB >= 0 ? chi.slice(ultimoB + 1) : chi.filter((f) => /\b(pag\w*|perd\w*)\b/i.test(f));
+    const eBeneficio = (f) => /^(Ne )?benefic/i.test(f), eAttore = (f) => /^(Decid|Attua|Propon|Controll|Certific|Valut|Approv)/i.test(f);
+    const guadagna = M.guadagna ? [M.guadagna] : chi.filter(eBeneficio).map((f) => f.replace(/^Ne benefic\w*\s*/i, "").replace(/^./, (c) => c.toUpperCase()));
+    const paga = M.paga ? [M.paga] : chi.filter((f) => !eBeneficio(f) && !eAttore(f));
     const pos = medie.filter((x) => x.m >= 0.25).sort((a, b) => b.m - a.m).slice(0, 3), neg = medie.filter((x) => x.m <= -0.25).sort((a, b) => a.m - b.m).slice(0, 2);
     const v = (x) => `${esc(x.nome)} <span class="num">${x.m > 0 ? "+" : "−"}${nf(Math.abs(x.m), 1)}</span>`;
     const costo = m ? (m.costo > 0 ? `<strong>${euro(m.costo)} l'anno</strong> nella versione ${esc(String(m.variante).toLowerCase())}, pagati con le <a href="#/programma/coperture">coperture del programma</a>, senza deficit` : `<strong>Costo zero o quasi</strong>: sono regole, non spesa`) : `Non è nel programma di riferimento; la versione piena costerebbe ${euro(p.costo_pieno)} l'anno`;

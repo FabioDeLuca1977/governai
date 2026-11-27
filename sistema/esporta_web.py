@@ -654,6 +654,7 @@ def main() -> int:
         "oceano_blu": yaml.safe_load(leggi(RADICE / "programma" / "oceano_blu.yaml")) if (RADICE / "programma" / "oceano_blu.yaml").exists() else {},
         "ai": yaml.safe_load(leggi(RADICE / "programma" / "ai_pagina.yaml")) if (RADICE / "programma" / "ai_pagina.yaml").exists() else {},
         "busta": busta_paga(),
+        "bilancio_breve": yaml.safe_load(leggi(RADICE / "programma" / "bilancio_breve.yaml")) if (RADICE / "programma" / "bilancio_breve.yaml").exists() else {},
         "numeri": {"cifre_verificate": 334, "proposte": len(proposte),
                    "varianti": int(var.drop_duplicates(["proposta_id", "variante"]).shape[0]),
                    "coperture": len(menu), "valori": len(valori_carta()),

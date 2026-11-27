@@ -1,0 +1,35 @@
+# Testi scritti a mano per il riquadro «Il bilancio in breve» delle schede (docs/app.js, funzione bilancio).
+# Il riquadro di solito riassume da solo la scheda e la lettura ragionata (programma/quattro_domande_*.yaml).
+# Qui solo le schede dove il riassunto automatico era poco chiaro: sigle tecniche, frase di impostazione
+# invece che di contenuto, obiettivo o «chi paga» scritti in una forma che il riassunto non riconosce.
+# Ogni testo riprende la scheda e la lettura ragionata, senza aggiungere contenuti. Scritto il 27/11/2026.
+# Campi: cambia (che cosa cambia), obiettivo (che cosa si vuole ottenere), guadagna (chi ci guadagna), paga (chi paga o ci perde).
+
+schede:
+  06-C1:
+    cambia: "Nel programma c'è la versione solo regole: tutte le agende pubbliche e private accreditate in un unico centro di prenotazione, richiamo dei pazienti per non perdere le visite, priorità vincolanti e controlli su chi prescrive troppe urgenze. La garanzia «visita nei tempi o rimborso» resta nella versione piena."
+  06-C2:
+    cambia: "Borse di 5.000 euro l'anno a chi studia infermieristica e si impegna a lavorare 3 anni nel servizio pubblico, un'indennità dove mancano infermieri e medici di famiglia che lavorano in squadra nelle Case della Comunità. Non è nel programma intermedio."
+  06-C3:
+    cambia: "Per ognuna delle 1.038 Case della Comunità principali, azienda sanitaria, Comune e medici firmano un contratto di tre anni con orari, servizi minimi e assistenza a domicilio; un fondo nazionale paga in parte in base ai risultati."
+  06-C4:
+    cambia: "Un solo punto di accesso nella Casa della Comunità valuta il bisogno di chi non è autosufficiente e assegna un budget di cura, più alto se usato per lavoro di cura regolare. Nel programma è una prova in 20 territori per 3 anni; chi ha l'indennità di accompagnamento non perde nulla."
+  06-C6:
+    cambia: "Un solo budget per i farmaci al posto dei tetti separati, rimborsi legati ai risultati per i farmaci più costosi e più farmaci equivalenti; i risparmi accertati vanno alla prevenzione, senza spesa in più."
+  07-C3:
+    cambia: "Un Osservatorio indipendente stima ogni anno di quanti lavoratori stranieri c'è bisogno, per settore e territorio, e il decreto flussi deve spiegare se se ne discosta. Nel programma c'è anche una prova: decisione sull'asilo entro 6 mesi in 3 commissioni su circa 40."
+  08-P1:
+    cambia: "Un gruppo di circa 30 persone nell'Ufficio parlamentare di bilancio valuta con l'AI l'effetto sui valori delle leggi più costose; i pesi tra i valori li sceglie un'assemblea di 100 persone sorteggiate. Il parere non obbliga nessuno."
+  08-P2:
+    cambia: "Il Governo ottiene un voto a data certa, entro 60-90 giorni, sui suoi disegni di legge; in cambio non si possono più aggiungere ai decreti emendamenti fuori tema. Le leggi che costano più di 100 milioni l'anno dicono come saranno valutate."
+  08-P7:
+    cambia: "L'Autorità anticorruzione pubblica ogni tre mesi un cruscotto aperto dei rischi negli appalti, ente per ente, e ogni ente ha un indicatore pubblico di quanto sono completi i suoi dati. Si valutano enti e procedure, mai persone."
+  08-P10:
+    cambia: "Chi partecipa a gare da 40.000 euro o chiede contributi da 100.000 dichiara una volta sola chi controlla davvero l'impresa, e la dichiarazione è verificata in automatico con i registri italiani ed europei."
+  08-P11:
+    cambia: "Ogni anno un sorteggio pubblico sceglie 300 enti che spendono fondi europei o statali; squadre della Ragioneria e dell'Autorità anticorruzione controllano spese e gare sul posto e pubblicano un rapporto entro 90 giorni."
+  05-C9:
+    guadagna: "Alunni e giovani con reddito basso dei territori pilota."
+    paga: "Soggetti culturali o Comuni coprono il 40% dello sconto; le carte individuali per i diciottenni non si toccano prima di una valutazione pubblica."
+  01-P11:
+    obiettivo: "Non spendere per incentivi che non funzionano: la valutazione è pubblica e, nella versione completa, ogni euro speso deve far emergere più di un euro di tasse, altrimenti l'incentivo decade."
