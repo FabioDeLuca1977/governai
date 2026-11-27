@@ -515,14 +515,24 @@
       ${g[1].length > 1 ? `<nav class="sottoschede" aria-label="${esc(g[0])}">${g[1].map(voce).join("")}</nav>` : ""}`;
   };
 
+  // apertura di «In una pagina» e «Tutte le proposte»: prima che cosa contiene il programma, poi (a richiesta)
+  // le altre versioni e la cronologia delle scelte
+  function aperturaProgramma(sc, selettore, extraCronologia = "") {
+    const rif = sc.id === RIF_ID;
+    const min = D.scenari.reduce((a, x) => x.spesa < a.spesa ? x : a, D.scenari[0]), max = D.scenari.reduce((a, x) => x.spesa > a.spesa ? x : a, D.scenari[0]);
+    return `<p class="risposta">${rif ? "Il programma che proponiamo" : `Stai guardando il <strong>${esc(sc.nome.toLowerCase())}</strong>`}: <strong>${Object.keys(sc.misure).length} misure su ${D.proposte.length}</strong>, per <strong>${nf(sc.spesa, 1)} mld l'anno</strong> ${sc.deficit > 0 ? `con ${nf(sc.deficit, 1)} mld di deficit` : "senza deficit"} ${badge("stima", STIMA)}. Si paga con coperture nuove, fondi europei già stanziati e tariffe: <a href="#/programma/coperture">come si paga</a>.</p>
+      <details class="richiudibile versioni" ${rif ? "" : "open"}><summary>${icona("layers")}${rif ? "Altre versioni del programma" : "Cambia versione del programma"}<span class="freccia">${icona("chevron-down")}</span></summary><div class="corpo">
+        <p class="nota">Lo stesso programma esiste in ${D.scenari.length} versioni, dalla più piccola (${esc(min.nome.toLowerCase())}, ${nf(min.spesa, 1)} mld l'anno) alla più ampia (${esc(max.nome.toLowerCase())}, ${nf(max.spesa, 1)} mld). Tutte senza deficit: cambiano quante misure si fanno e con quali coperture. Quella di riferimento è il ${esc(scenario(RIF_ID).nome.toLowerCase())}.</p>
+        ${selettore}</div></details>
+      <details class="richiudibile"><summary>${icona("history")}Come ci siamo arrivati: le scelte fatte su questa versione<span class="freccia">${icona("chevron-down")}</span></summary><div class="corpo"><p>${esc(sc.descrizione)}.</p>${extraCronologia}</div></details>`;
+  }
   function elenco(params) {
     const sc = scenario(params.get("scenario") || RIF_ID);
     const nucleo = D.proposte.filter((p) => p.classe === "robusta");
     const coperto = nucleo.filter((p) => sc.misure[p.id] && ["PIENA", "ESSENZIALE"].includes(sc.misure[p.id].variante)).length;
     return `${schedeProgramma("proposte")}
-      <p class="risposta">Nel <strong>${esc(sc.nome.toLowerCase())}</strong> entrano ${Object.keys(sc.misure).length} misure su ${D.proposte.length}, per ${nf(sc.spesa, 1)} mld l'anno ${sc.deficit > 0 ? `con ${nf(sc.deficit, 1)} mld di deficit` : "senza deficit"} ${badge("stima", STIMA)}: ${fontiSoldi(sc)}. Il nucleo robusto è finanziato almeno in versione essenziale per ${coperto} su ${nucleo.length}${eccezioniNucleo(sc)}.</p>
-      <div class="segmenti" role="group" aria-label="Scenario">${D.scenari.map((x) => `<button type="button" data-scenario="${x.id}" aria-pressed="${x.id === sc.id}" title="${esc(x.descrizione)}">${esc(x.nome)}</button>`).join("")}</div>
-      <p class="nota" style="margin-top:8px">${esc(sc.descrizione)}.</p>
+      ${aperturaProgramma(sc, `<div class="segmenti" role="group" aria-label="Versione del programma">${D.scenari.map((x) => `<button type="button" data-scenario="${x.id}" aria-pressed="${x.id === sc.id}" title="${esc(x.descrizione)}">${esc(x.nome)}</button>`).join("")}</div>`,
+        `<p class="nota">Le ${nucleo.length} proposte più solide (nucleo robusto) sono finanziate almeno in versione essenziale per ${coperto} su ${nucleo.length}${eccezioniNucleo(sc)}.</p><p class="nota">Da dove vengono i soldi: ${fontiSoldi(sc)}.</p>`)}
       <form class="filtri-barra" role="search" onsubmit="return false">
         <label class="campo largo">Cerca<input type="search" id="f-cerca" value="${esc(params.get("q") || "")}" placeholder="Parola o codice, es. asili, 01-P3"></label>
         <label class="campo">Tema<select id="f-tema"><option value="">Tutti i temi</option>${Object.entries(D.aree).map(([k, v]) => `<option value="${k}" ${k === params.get("tema") ? "selected" : ""}>${esc(v)}</option>`).join("")}</select></label>
@@ -1457,9 +1467,8 @@
         </div></details></article>`;
     };
     return `${schedeProgramma("una-pagina")}
-      <p class="risposta">Il programma in una pagina. Per ogni missione: <strong>perché</strong> la facciamo, <strong>come</strong> e con quali soldi, <strong>cosa misuriamo</strong> per dire che ce l'abbiamo fatta, e <strong>chi ne beneficia</strong>.</p>
-      <div class="filtri-barra"><label class="campo">Versione del programma<select id="schema-scenario">${D.scenari.map((x) => `<option value="${x.id}" ${x.id === sc.id ? "selected" : ""}>${esc(x.nome)}${x.id === RIF_ID ? " (riferimento)" : ""}</option>`).join("")}</select></label></div>
-      <p class="nota" style="margin-top:8px">${esc(sc.descrizione)}.</p>
+      ${aperturaProgramma(sc, `<div class="filtri-barra"><label class="campo">Versione del programma<select id="schema-scenario">${D.scenari.map((x) => `<option value="${x.id}" ${x.id === sc.id ? "selected" : ""}>${esc(x.nome)}${x.id === RIF_ID ? " (riferimento)" : ""}</option>`).join("")}</select></label></div>`)}
+      <p class="nota">Qui sotto, per ogni missione: <strong>perché</strong> la facciamo, <strong>come</strong> e con quali soldi, <strong>che cosa misuriamo</strong> per dire che ce l'abbiamo fatta e <strong>chi ne beneficia</strong>.</p>
 
       <section class="tela" aria-label="Il programma in quattro domande">
         ${QUATTRO.map(([k, ic, t, sotto]) => `<div class="tela-cella q-${k}"><p class="q-etichetta">${icona(ic)}${t}</p><p class="nota">${sotto}</p><p class="tela-testo">${esc(P[k] || "")}</p></div>`).join("")}
@@ -1690,7 +1699,7 @@
       const voci = [["in-30", "In 30 secondi"], ["fatti", "I fatti"], ["chi", "Chi guadagna, chi paga"], ...(sel.rischi_giuridici ? [["rischi", "Rischi giuridici"]] : []), ["giudizio", "Il giudizio sui valori"], ["governai", "GovernAI sullo stesso tema"], ...((sel.cosa_cambieremmo || []).length ? [["cambieremmo", "Che cosa cambieremmo"]] : []), ...((sel.fonti || []).length ? [["fonti", "Fonti"]] : []), ["discussione", "Discussione"]];
       const ordine = ["+", "-", "="];
       const giudizio = [...val].sort((a, b) => ordine.indexOf(a.segno) - ordine.indexOf(b.segno));
-      return `<nav class="briciole" aria-label="Briciole di pane"><a href="#/osservatorio">Osservatorio</a><span aria-hidden="true">›</span><a href="#/osservatorio?tipo=${encodeURIComponent(sel.tipo || "")}">${esc(sel.tipo || "")}</a></nav>
+      return `<nav class="briciole" aria-label="Briciole di pane"><a href="#/osservatorio">Governo di oggi</a><span aria-hidden="true">›</span><a href="#/osservatorio?tipo=${encodeURIComponent(sel.tipo || "")}">${esc(sel.tipo || "")}</a></nav>
       <div class="con-indice">
         <article>
           <header class="intestazione">
@@ -1784,7 +1793,7 @@
   const nomeRuolo = (a) => { const e = (D.governo.esperti || {}); return a === "capo" ? "Capo di governo" : a === "opposizione" ? "Opposizione leale" : a.startsWith("esperto_") ? (e[a.slice(8)] || a.slice(8)) : a.startsWith("ministro_") ? "Ministro · " + (D.aree[a.slice(9)] || a.slice(9)) : a; };
   const linkConsiglio = () => `${repo}/issues/new?template=consiglio.yml`;
   const linkRiesame = (seduta, titolo) => `${repo}/new/main/governo/richieste?filename=${encodeURIComponent(OGGI + "-riesame-" + seduta + ".md")}&value=${encodeURIComponent(`# Riesame: ${titolo}\n\nRiesame della seduta: ${seduta}\n\nMotivi del riesame:\n- verifica dello stato dell'arte richiesta da un membro del progetto\n`)}`;
-  const schedeGoverno = (k) => `${bannerSim("fisso")}${schede([["sedute", "Sedute", "#/governo", VERBALI.length], ["decisioni", "Esiti ancora validi", "#/governo/decisioni"], ["mandati", "Mandati", "#/governo/mandati", (D.governo.mandati || []).filter((m) => m.stato === "aperto").length], ["credibilita", "Credibilità", "#/governo/credibilita"], ["regolamento", "Chi siede e regole", "#/governo/regolamento"]], k, "Governo")}`;
+  const schedeGoverno = (k) => `${bannerSim("fisso")}${schede([["sedute", "Sedute", "#/governo", VERBALI.length], ["decisioni", "Esiti ancora validi", "#/governo/decisioni"], ["mandati", "Mandati", "#/governo/mandati", (D.governo.mandati || []).filter((m) => m.stato === "aperto").length], ["credibilita", "Credibilità", "#/governo/credibilita"], ["regolamento", "Chi siede e regole", "#/governo/regolamento"]], k, "Governo ombra")}`;
 
   function governo() {
     const decisioni = VERBALI.reduce((a, v) => a + v.dec.length, 0);
@@ -2220,7 +2229,7 @@
       else if (b === "mandati") { html = mandatiVista(); titolo = "Mandati"; }
       else if (b === "credibilita") { html = credibilita(); titolo = "Credibilità"; }
       else if (b === "regolamento") { html = regolamento(); titolo = "Regolamento del Consiglio"; }
-      else { html = governo(); titolo = "Governo"; }
+      else { html = governo(); titolo = "Governo ombra"; }
     } else if (a === "dati") {
       if (b === "allerte") { html = allerteVista(); titolo = "Allerte"; }
       else if (b === "obiettivi") { html = obiettiviVista(params); titolo = "Obiettivi e risultati"; }
