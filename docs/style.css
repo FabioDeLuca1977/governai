@@ -943,3 +943,13 @@ a.card.profilo.attivo{ border-color:var(--c-accento); background:var(--c-accento
 .bilancio .num{ font-variant-numeric:tabular-nums; font-weight:600; }
 @media (max-width:640px){ .bilancio dl > div{ grid-template-columns:1fr; } }
 .sez-etichetta{ margin-bottom:0; }
+
+/* Programma: pagine del gruppo aperto */
+.sottoschede{ display:flex; flex-wrap:wrap; gap:8px; margin:-8px 0 24px; }
+.sottoschede a{ display:inline-flex; align-items:center; gap:6px; min-height:40px; padding:0 14px; border:1px solid var(--c-bordo-forte); border-radius:999px; color:var(--c-testo); text-decoration:none; font-size:15px; }
+.sottoschede a:hover{ border-color:var(--c-accento); }
+.sottoschede a[aria-current="page"]{ background:var(--c-accento); border-color:var(--c-accento); color:var(--c-su-accento, #fff); font-weight:600; }
+.sottoschede a .conta{ opacity:.8; }
+/* documenti a capitoli */
+details.capitolo{ margin-top:8px; }
+details.capitolo .corpo{ padding-top:8px; }

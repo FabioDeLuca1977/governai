@@ -499,7 +499,21 @@
   }
 
   // ---------- Programma ----------
-  const schedeProgramma = (k) => `${schede([["una-pagina", "In una pagina", "#/programma/una-pagina"], ["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["busta-paga", "La tua busta paga", "#/programma/busta-paga"], ["pronto", "Pronto domani", "#/programma/pronto"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["equita", "Equità", "#/programma/equita"], ["chi-paga", "Chi paga davvero", "#/programma/chi-paga"], ["proposte", "Proposte", "#/programma", D.proposte.length], ["coperture", "Come si paga", "#/programma/coperture"], ["valori", "I tuoi valori", "#/programma/valori"], ["proponi", "Proponi un programma", "#/programma/proponi"], ["strategia", "Strategia", "#/programma/strategia"], ["ai", "AI e Stato", "#/programma/ai"], ["confronti", "Confronti", "#/programma/confronti"]], k, "Programma")}`;
+  // Programma: quattro gruppi al posto di 14 schede; sotto, le pagine del gruppo aperto
+  const GRUPPI_PROG = [
+    ["Per te", [["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["busta-paga", "La tua busta paga", "#/programma/busta-paga"], ["valori", "I tuoi valori", "#/programma/valori"]]],
+    ["Il programma", [["una-pagina", "In una pagina", "#/programma/una-pagina"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["proposte", "Tutte le proposte", "#/programma", () => D.proposte.length], ["pronto", "Pronto domani", "#/programma/pronto"]]],
+    ["I conti", [["coperture", "Come si paga", "#/programma/coperture"], ["chi-paga", "Chi paga davvero", "#/programma/chi-paga"]]],
+    ["Approfondimenti", [["ai", "AI e Stato", "#/programma/ai"], ["equita", "Equità", "#/programma/equita"], ["strategia", "Strategia", "#/programma/strategia"], ["confronti", "Confronti", "#/programma/confronti"], ["proponi", "Proponi un programma", "#/programma/proponi"]]],
+  ];
+  const schedeProgramma = (k) => {
+    const g = GRUPPI_PROG.find((x) => x[1].some((v) => v[0] === k)) || GRUPPI_PROG[1];
+    const v = g[1].find((x) => x[0] === k) || g[1][0];
+    const voce = (x) => `<a href="${x[2]}" ${x[0] === k ? 'aria-current="page"' : ""}>${esc(x[1])}${x[3] ? ` <span class="conta">${x[3]()}</span>` : ""}</a>`;
+    return `<p class="etichetta sez-etichetta">Programma · ${esc(g[0])}</p><h1>${esc(v[1])}</h1>
+      <nav class="schede" aria-label="Sezioni del programma">${GRUPPI_PROG.map((x) => `<a href="${x[1][0][2]}" ${x === g ? 'aria-current="page"' : ""}>${esc(x[0])}</a>`).join("")}</nav>
+      ${g[1].length > 1 ? `<nav class="sottoschede" aria-label="${esc(g[0])}">${g[1].map(voce).join("")}</nav>` : ""}`;
+  };
 
   function elenco(params) {
     const sc = scenario(params.get("scenario") || RIF_ID);
@@ -734,6 +748,25 @@
         <td data-etichetta="Stato">${chip(STATO[o.stato] || ["", "circle-dashed", o.stato])}</td></tr>`).join("")}</tbody></table></div>`;
   }
 
+  // «Come si paga» in breve: quanto vale, da dove arriva, chi paga di più
+  function riassuntoCoperture(attive) {
+    const att = D.coperture.filter((c) => attive.has(c.misura_id));
+    const tot = att.reduce((a, c) => a + (c.gettito_min || 0), 0);
+    const perFondo = {};
+    att.forEach((c) => { perFondo[c.fondo_id] = (perFondo[c.fondo_id] || 0) + (c.gettito_min || 0); });
+    const nomi = (MOT && MOT.nomi_fondi) || {};
+    const fondi = Object.entries(perFondo).sort((a, b) => b[1] - a[1]).slice(0, 4);
+    const grandi = att.slice().sort((a, b) => (b.gettito_min || 0) - (a.gettito_min || 0)).slice(0, 5);
+    const nomeC = (c) => { let t = String(c.descrizione || "").split(/:\s/)[0].replace(/\s*\([^)]*\)/g, "").trim(); return t.length > 110 ? t.slice(0, t.lastIndexOf(" ", 107)) + "…" : t; };
+    return `<section class="card blocco riassunto-coperture" aria-labelledby="h-rc"><h2 id="h-rc">In breve</h2>
+      <ul class="elenco-punti">
+        <li>Le ${att.length} coperture attive valgono almeno <strong>${nf(tot, 1)} mld l'anno</strong> ${badge("stima", STIMA)}, ognuna contata una sola volta. Le altre ${D.coperture.length - att.length} restano pronte per i programmi più ampi.</li>
+        <li><strong>Da dove arrivano:</strong> ${fondi.map(([f, v]) => `${esc(NOMI_FONDI_CORTI[f] || nomi[f] || f)} ${nf(v, 1)} mld`).join(" · ")}.</li>
+        <li><strong>Le cinque più grandi:</strong></li>
+      </ul>
+      <ol class="elenco-punti">${grandi.map((c) => `<li>${esc(nomeC(c))} <span class="nota">(${nf(c.gettito_min, 2)}–${nf(c.gettito_max, 2)} mld · paga: ${esc(String(c.chi_paga || "").split(/[;(]/)[0].trim())})</span></li>`).join("")}</ol>
+      <p class="nota">Chi paga di più e chi di meno, per reddito: <a href="#/programma/equita">Equità, capitolo «Chi paga»</a> · confronto tra lavoro, capitale e rendite: <a href="#/programma/chi-paga">Chi paga davvero</a>.</p></section>`;
+  }
   function coperture() {
     const base = new Set(scenario("base").coperture), comp = new Set(scenario("completo").coperture), mom = new Set(rif.coperture);
     const fondi = [...new Set(D.coperture.map((c) => c.fondo_id))].sort();
@@ -742,9 +775,12 @@
     const punti = (c) => `<span class="punti" role="img" aria-label="${D.valori.map((v) => v.nome + " " + (c[v.id] > 0 ? "+" : "") + c[v.id]).join(", ")}">${D.valori.map((v) => `<span class="${c[v.id] > 0 ? "p" : c[v.id] < 0 ? "n" : ""}" aria-hidden="true">${c[v.id] > 0 ? "+" : c[v.id] < 0 ? "−" : ""}</span>`).join("")}</span>`;
     return `${schedeProgramma("coperture")}
       <p class="risposta">Il programma si finanzia con ${D.coperture.length} coperture concrete: un registro unico impedisce di contare due volte gli stessi soldi. Nel programma di riferimento ne sono attive ${mom.size}.</p>
+      ${riassuntoCoperture(mom)}
+      <h2 class="sezione">I sei programmi a confronto</h2>
       <div class="griglia g2 g4-d">${D.scenari.map((s) => `<div class="card kpi"><p class="etichetta">${esc(s.nome)}</p><p class="numero">${nf(s.spesa, 1)}<small>mld/anno</small></p><p class="nota">${s.id === RIF_ID ? "<strong>riferimento</strong> · " : ""}${s.coperture.length} coperture · deficit ${s.deficit > 0 ? nf(s.deficit, 1) + " mld" : "zero"}</p></div>`).join("")}</div>
       <div class="card" style="margin-top:16px">${barreSoldi(D.scenari)}<details class="leggi"><summary>Il dettaglio in parole</summary><ul>${D.scenari.map((x) => `<li class="nota"><strong>${esc(x.nome)}:</strong> ${fontiSoldi(x)}</li>`).join("")}</ul></details></div>
       <p style="margin-top:12px">${badge("stima", STIMA)} <span class="nota">Gettito minimo delle coperture: programma base ${nf(tot(base))} mld, completo ${nf(tot(comp))} mld.</span></p>
+      <details class="richiudibile sezione" id="c-tutte"><summary>${icona("table")}Tutte le ${D.coperture.length} coperture, con ricerca e filtri<span class="freccia">${icona("chevron-down")}</span></summary><div class="corpo">
       <form class="filtri-barra" role="search" onsubmit="return false">
         <label class="campo largo">Cerca<input type="search" id="c-cerca" placeholder="es. gasolio, IVA, tabacco"></label>
         <label class="campo">Fondo<select id="c-fondo"><option value="">Tutti i fondi</option>${fondi.map((f) => `<option>${esc(f)}</option>`).join("")}</select></label>
@@ -754,7 +790,7 @@
         <tbody id="c-corpo">${D.coperture.map((c) => `<tr data-testo="${esc((c.misura_id + " " + c.descrizione + " " + c.chi_paga).toLowerCase())}" data-fondo="${esc(c.fondo_id)}" data-livello="${c.livello ?? 1}">
           <td class="principale"><span class="mono nota">${esc(c.misura_id)} · livello ${c.livello ?? 1}</span><br>${esc(c.descrizione)}</td><td data-etichetta="Fondo">${esc(c.fondo_id)}</td>
           <td class="num" data-etichetta="Gettito min–max">${nf(c.gettito_min)}–${nf(c.gettito_max)} mld</td><td data-etichetta="Chi paga">${esc(c.chi_paga)}</td>
-          <td data-etichetta="Valori">${punti(c)}</td><td data-etichetta="Nel riferimento">${mom.has(c.misura_id) ? chip(["info", "check", "Attiva"]) : "—"}</td></tr>`).join("")}</tbody></table></div>`;
+          <td data-etichetta="Valori">${punti(c)}</td><td data-etichetta="Nel riferimento">${mom.has(c.misura_id) ? chip(["info", "check", "Attiva"]) : "—"}</td></tr>`).join("")}</tbody></table></div></div></details>`;
   }
 
   // ---------- Proponi un programma ----------
@@ -1679,9 +1715,19 @@
       <p class="nota" style="margin-top:16px"><a href="#/osservatorio/metodo">Il metodo</a> · ${A.length} atti commentati · ultimo aggiornamento ${esc(dataBreve(A.flatMap((x) => (x.revisioni || []).map((r) => r.data)).sort().pop() || ""))}</p>`;
   }
 
+  // documenti lunghi: si legge subito il riassunto, i capitoli si aprono uno alla volta
+  function documentoACapitoli(testo, aperto) {
+    const parti = String(testo).replace(/^# .*\n/, "").split(/^(?=## )/m);
+    const testa = parti[0].startsWith("## ") ? "" : parti.shift();
+    const cap = parti.map((x) => { const t = x.match(/^## (.+)\n/)[1]; return [t, x.replace(/^## .+\n/, "")]; });
+    const primo = cap.find((c) => c[0].trim() === aperto);
+    return `<div class="md documento">${testa ? md(testa) : ""}${primo ? md("## " + primo[0] + "\n" + primo[1]) : ""}</div>
+      <p class="nota">${cap.length - (primo ? 1 : 0)} capitoli: aprili uno alla volta.</p>
+      ${cap.filter((c) => c !== primo).map((c) => `<details class="richiudibile capitolo"><summary>${esc(c[0])}<span class="freccia">${icona("chevron-down")}</span></summary><div class="corpo md documento">${md(c[1])}</div></details>`).join("")}`;
+  }
   function equita() {
     return `${schedeProgramma("equita")}
-      <div class="md documento">${md((D.documenti.equita || "*Capitolo non ancora disponibile.*").replace(/^# .*\n/, ""))}</div>
+      ${documentoACapitoli(D.documenti.equita || "*Capitolo non ancora disponibile.*", "In breve")}
       <div class="azioni" style="margin-top:24px"><a class="btn primario" href="#/programma/una-pagina">Il programma in una pagina ${icona("arrow-right")}</a>${azioniCondividi()}</div>`;
   }
 
