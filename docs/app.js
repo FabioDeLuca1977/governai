@@ -417,10 +417,6 @@
     const spese = D.scenari.map((s) => s.spesa);
     const integra = D.integrita && !D.integrita.errori.length;
     const ult = VERBALI[0];
-    const mandato = (D.governo.mandati || []).filter((m) => m.stato === "aperto" && m.scadenza >= OGGI).sort((a, b) => a.scadenza.localeCompare(b.scadenza))[0];
-    const scad = FUTURE.filter((s) => ["critica", "alta"].includes(s.pr)).slice(0, 4).map((s) => ({ ...s }));
-    if (mandato) scad.push({ data: mandato.scadenza, pr: "media", breve: `Mandato ${mandato.id} al ministro: ${D.aree[mandato.area] || mandato.area}`, atto: piano(mandato.compito).slice(0, 120) + "…", stato: "mandato aperto del governo ombra", proposte: (mandato.compito.match(/\b\d{2}-[PC]\d{1,2}\b/g) || []).slice(0, 3), celex: "", url: "" });
-    scad.sort((a, b) => a.data.localeCompare(b.data));
     const perArea = Object.keys(D.aree).map((k) => [k, D.aree[k], D.proposte.filter((p) => p.area === k).length]);
     const solide = [...nucleo].sort((a, b) => b.p_prima_meta - a.p_prima_meta).slice(0, 6);
     return `
@@ -429,13 +425,14 @@
           <p class="etichetta sopratitolo">Un programma di governo aperto, basato su dati e valori dichiarati</p>
           <h1 id="titolo-home">Governare con i dati,<br>scegliere con i valori.</h1>
           <p class="risposta">${n.proposte} proposte valutate su ${n.valori} valori, finanziate senza deficit e controllate su Costituzione e regole europee. <span class="firma">L'AI propone e verifica. Le persone decidono.</span></p>
-          <div class="azioni"><a class="btn primario" href="#/programma/per-me">Che cosa cambia per me ${icona("arrow-right")}</a><a class="btn" href="#/programma/una-pagina">Il programma in una pagina</a><a class="btn" href="#/programma/sintesi">Le idee in 10 minuti</a><a class="btn terziario" href="#/metodo">Come funziona</a></div>
+          <div class="azioni porte"><a class="btn primario" href="#/programma/per-me">Che cosa cambia per me ${icona("arrow-right")}</a><a class="btn" href="#/programma/una-pagina">Il programma in una pagina</a><a class="btn" href="#/osservatorio">Il governo di oggi</a></div>
+          <p class="nota porte-nota"><a href="#/metodo">Come funziona GovernAI</a> · <a href="#/programma/sintesi">Le idee in 10 minuti</a></p>
         </div>
         <div class="oggi-box" aria-label="Oggi in breve">
           <p class="etichetta">Oggi, ${dataLunga(D.generato)}</p>
           <ul>
             <li>${icona("activity")}<a href="#t-allerte" data-ancora>${ALLERTE.length ? `${ALLERTE.length} segnali da seguire nei dati di oggi` : "Gli indicatori sono nelle soglie"}</a></li>
-            ${ult ? `<li>${icona("users-round")}<span>Ultima seduta: <a href="${linkSeduta(ult.id)}">${ult.data === OGGI ? "oggi" : dataBreve(ult.data)}</a></span></li>` : ""}
+            ${ult ? `<li>${icona("users-round")}<span>Ultima seduta del governo ombra: <a href="${linkSeduta(ult.id)}">${ult.data === OGGI ? "oggi" : dataBreve(ult.data)}</a></span></li>` : ""}
           </ul>
         </div>
       </section>
@@ -449,39 +446,18 @@
         </div>
       </section>
 
-      ${osservatorioHome()}
-
-      ${mappaMinisteri(perArea)}
-
-      <div class="griglia g2-d sezione">
-        <section aria-labelledby="t-allerte">
-          <div class="sezione-testa"><h2 id="t-allerte">Che cosa ci preoccupa nei dati di oggi</h2><a href="#/dati/allerte">Il dettaglio</a></div>
-          ${ALLERTE.length ? `<div class="card"><ul class="allerte-home">${ALLERTE.map(allertaHome).join("")}</ul><p class="nota">Ogni giorno confrontiamo i dati ufficiali con soglie fissate prima. Quando una soglia scatta, il programma cambia le priorità, senza spendere di più.</p></div>` : `<div class="avviso"><div class="avviso-titolo">${icona("circle-check")}Gli indicatori sono nelle soglie.</div></div>`}
-        </section>
-        <section aria-labelledby="t-seduta">
-          <div class="sezione-testa"><h2 id="t-seduta">Ultima seduta del Consiglio</h2><a href="#/governo">Tutte</a></div>
-          ${ult ? `<div class="card seduta-card">
-            ${bannerSim("piccolo")}
-            <p class="etichetta">${dataBreve(ult.data)} · ${esc(ult.tipo)}</p>
-            <h3>${esc(ult.titolo)}</h3>
-            ${contatore(ult.dec)}
-            <p class="nota">${ult.dec.length} proposte esaminate · ${ult.deroghe.length} deroghe dichiarate · ${ult.obiezioni.length} obiezioni dell'opposizione leale${ult.previsioni ? ` · ${ult.previsioni} previsioni registrate` : ""} · ${ult.mandati.length} mandati</p>
-            <a class="btn" href="${linkSeduta(ult.id)}">Leggi il verbale ${icona("arrow-right")}</a>
-          </div>` : vuoto("Il Consiglio non si è ancora riunito.")}
-        </section>
-      </div>
-
-      <section class="sezione" aria-labelledby="t-scadenze">
-        <div class="sezione-testa"><h2 id="t-scadenze">Prossime scadenze</h2><a href="#/controlli/europa">Tutte</a></div>
-        <div class="card" style="padding-top:4px;padding-bottom:4px"><ul class="scadenze">${scad.map(rigaScadenza).join("")}</ul></div>
-      </section>
-
-
       <section class="sezione" aria-labelledby="t-solide">
-        <div class="sezione-testa"><h2 id="t-solide">Il nucleo robusto: le più solide</h2><a href="#/programma?classe=robusta">Tutte e ${nucleo.length}</a></div>
+        <div class="sezione-testa"><h2 id="t-solide">Le proposte più solide</h2><a href="#/programma?classe=robusta">Tutte e ${nucleo.length}</a></div>
         <p class="nota" style="margin-top:-8px">Restano nella prima metà della classifica con quasi ogni combinazione di pesi tra i valori.</p>
         <div class="proposte-lista">${solide.map((p) => cardProposta(p, `prima metà nel ${Math.round(p.p_prima_meta * 100)}% dei casi`)).join("")}</div>
       </section>
+
+      <section class="sezione" aria-labelledby="t-allerte">
+          <div class="sezione-testa"><h2 id="t-allerte">Che cosa ci preoccupa nei dati di oggi</h2><a href="#/dati/allerte">Il dettaglio</a></div>
+          ${ALLERTE.length ? `<div class="card"><ul class="allerte-home">${ALLERTE.map(allertaHome).join("")}</ul><p class="nota">Ogni giorno confrontiamo i dati ufficiali con soglie fissate prima. Quando una soglia scatta, il programma cambia le priorità, senza spendere di più.</p></div>` : `<div class="avviso"><div class="avviso-titolo">${icona("circle-check")}Gli indicatori sono nelle soglie.</div></div>`}
+        </section>
+
+      ${osservatorioHome()}
 
       <section class="sezione" aria-labelledby="t-fiducia">
         <div class="sezione-testa"><h2 id="t-fiducia">Fiducia verificabile</h2><a href="#/metodo">Metodo</a></div>
@@ -492,17 +468,14 @@
         </div>
       </section>
 
-      <section class="sezione partecipa-box" aria-labelledby="t-partecipa">
-        <div><h2 id="t-partecipa">Vuoi ragionarci insieme?</h2><p>Il programma è aperto a tutti. Nella comunità, su invito, si discutono le proposte con altre persone e con l'AI: qui nessuno decide, si prendono appunti e si migliorano le idee.</p></div>
-        <div class="azioni"><a class="btn primario" href="#/comunita">${icona("messages-square")}Entra nella comunità</a><a class="btn" href="#/partecipa">Altri modi di partecipare</a></div>
-      </section>`;
+      <p class="partecipa-riga">${icona("messages-square")}<span><strong>Vuoi ragionarci insieme?</strong> Nella comunità, su invito, si discutono le proposte con altre persone e con l'AI. <a href="#/comunita">Entra nella comunità</a> · <a href="#/partecipa">Altri modi di partecipare</a></span></p>`;
   }
 
   // ---------- Programma ----------
   // Programma: quattro gruppi al posto di 14 schede; sotto, le pagine del gruppo aperto
   const GRUPPI_PROG = [
     ["Per te", [["per-me", "Che cosa cambia per me", "#/programma/per-me"], ["busta-paga", "La tua busta paga", "#/programma/busta-paga"], ["valori", "I tuoi valori", "#/programma/valori"]]],
-    ["Il programma", [["una-pagina", "In una pagina", "#/programma/una-pagina"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["proposte", "Tutte le proposte", "#/programma", () => D.proposte.length], ["pronto", "Pronto domani", "#/programma/pronto"]]],
+    ["Il programma", [["una-pagina", "In una pagina", "#/programma/una-pagina"], ["sintesi", "In sintesi", "#/programma/sintesi"], ["proposte", "Tutte le proposte", "#/programma", () => D.proposte.length], ["mappa", "La mappa dei ministeri", "#/programma/mappa"], ["pronto", "Pronto domani", "#/programma/pronto"]]],
     ["I conti", [["coperture", "Come si paga", "#/programma/coperture"], ["chi-paga", "Chi paga davvero", "#/programma/chi-paga"]]],
     ["Approfondimenti", [["ai", "AI e Stato", "#/programma/ai"], ["equita", "Equità", "#/programma/equita"], ["strategia", "Strategia", "#/programma/strategia"], ["confronti", "Confronti", "#/programma/confronti"], ["proponi", "Proponi un programma", "#/programma/proponi"]]],
   ];
@@ -2234,6 +2207,7 @@
       else if (b === "sintesi") { html = sintesi(); titolo = "Le idee in sintesi"; }
       else if (b === "equita") { html = equita(); titolo = "Equità e linguaggio inclusivo"; }
       else if (b === "una-pagina") { html = unaPagina(params); titolo = "Il programma in una pagina"; }
+      else if (b === "mappa") { html = `${schedeProgramma("mappa")}${mappaMinisteri(Object.keys(D.aree).map((k) => [k, D.aree[k], D.proposte.filter((p) => p.area === k).length]))}`; titolo = "La mappa dei ministeri"; }
       else if (b === "per-me") { html = perMe(params); titolo = "Che cosa cambia per me"; }
       else if (b === "busta-paga") { html = bustaPaga(params); titolo = "La tua busta paga con GovernAI"; }
       else if (b === "pronto") { html = prontoDomani(params); titolo = "Pronto domani"; }

@@ -972,3 +972,8 @@ details.capitolo .corpo{ padding-top:8px; }
 /* codici delle proposte: piccoli e grigi, il titolo viene prima */
 .codice{ font-family:var(--f-mono); font-size:max(12px,.78em); color:var(--c-testo-2); text-decoration:none; white-space:nowrap; }
 a.codice:hover{ color:var(--c-accento); text-decoration:underline; }
+
+/* home: tre porte e la comunità in una riga */
+.porte-nota{ margin-top:12px; }
+.partecipa-riga{ display:flex; gap:10px; align-items:flex-start; margin-top:40px; padding:16px; border:1px solid var(--c-bordo); border-radius:var(--r-m); background:var(--c-superficie); }
+.partecipa-riga svg{ flex:none; width:22px; height:22px; color:var(--c-accento); margin-top:2px; }
