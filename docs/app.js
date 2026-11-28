@@ -559,7 +559,7 @@
       const m = sc.misure[p.id];
       const g = (p.giuridico || []).filter((r) => r.tipo === "proposta" || (m && r.id === `${p.id}:${m.variante}`));
       const peggiore = g.reduce((a, r) => (GRAVITA_GIUR[r.esito] ?? 0) > (GRAVITA_GIUR[a] ?? -1) ? r.esito : a, null);
-      html += `<tr class="${m ? "" : "esclusa"}"><td class="principale"><a class="riga" href="${linkP(p.id)}">${esc(tit(p.titolo))}</a> <span class="nota mono">${esc(p.id)}</span>${p.linea_rossa ? " " + chip(["critico", "octagon-x", "Linea rossa in alcune versioni"]) : ""}</td>
+      html += `<tr class="${m ? "" : "esclusa"}"><td class="principale"><a class="riga" href="${linkP(p.id)}">${esc(tit(p.titolo))}</a> <span class="codice">${esc(p.id)}</span>${p.linea_rossa ? " " + chip(["critico", "octagon-x", "Linea rossa in alcune versioni"]) : ""}</td>
         <td data-etichetta="Classe">${chipClasse(p.classe)}</td><td data-etichetta="Variante">${misuratore(m && m.variante)}</td>
         <td class="num" data-etichetta="Costo l'anno">${m ? euro(m.costo) : "—"}</td>
         <td data-etichetta="Robustezza">${!m ? "—" : m.imposta ? `<span class="nota">scelta politica</span>` : `<span class="robustezza" aria-hidden="true"><span style="width:${Math.round(m.robustezza * 100)}%"></span></span>${Math.round(m.robustezza * 100)}%`}</td>
@@ -770,10 +770,12 @@
       </div>`;
   }
 
+  // stato degli obiettivi in parole semplici (apprendimento/valuta.py: «in osservazione» = seguito sui dati ufficiali
+  // finché la misura non è in vigore; «manuale» = nessuna serie ufficiale, si misura a mano)
+  const STATO = { raggiunto: ["favorevole", "circle-check", "Raggiunto"], "in linea": ["info", "trending-up", "In linea"], "in ritardo": ["attenzione", "circle-alert", "In ritardo"], peggiorato: ["alto", "trending-down", "Peggiorato"], "in osservazione": ["", "eye", "Seguito sui dati ufficiali"], manuale: ["", "pencil-ruler", "Senza dato ufficiale: si misura a mano"] };
   function tabellaObiettivi(lista, conProposta) {
-    const STATO = { raggiunto: ["favorevole", "circle-check", "Raggiunto"], "in linea": ["info", "trending-up", "In linea"], "in ritardo": ["attenzione", "circle-alert", "In ritardo"], peggiorato: ["alto", "trending-down", "Peggiorato"], "in osservazione": ["", "eye", "In osservazione"], manuale: ["", "pencil-ruler", "Si misura a mano"] };
     return `<div class="tabella-box"><table class="tabella a-card"><thead><tr>${conProposta ? "<th>Proposta</th>" : ""}<th>Obiettivo</th><th class="num">Base</th><th class="num">Ultimo</th><th class="num">Traguardo</th><th>Stato</th></tr></thead><tbody>
-      ${lista.map((o) => `<tr>${conProposta ? `<td class="principale"><a href="${linkP(o.proposta)}" class="mono">${esc(o.proposta)}</a></td>` : ""}<td ${conProposta ? 'data-etichetta="Obiettivo"' : 'class="principale"'}>${esc(o.nome)} <span class="nota">${esc(o.unita || "")}</span></td><td class="num" data-etichetta="Base">${nf(o.base, 1)}${o.periodo_base ? ` <span class="nota">(${esc(o.periodo_base)})</span>` : ""}</td><td class="num" data-etichetta="Ultimo">${nf(o.ultimo, 1)}${o.periodo ? ` <span class="nota">(${esc(periodoBreve(o.periodo))})</span>` : ""}</td><td class="num" data-etichetta="Traguardo">${nf(o.obiettivo, 1)}</td>
+      ${lista.map((o) => `<tr>${conProposta ? `<td class="principale"><a href="${linkP(o.proposta)}">${esc(tit((proposta(o.proposta) || {}).titolo || o.proposta).split(":")[0])}</a> <span class="codice">${esc(o.proposta)}</span></td>` : ""}<td ${conProposta ? 'data-etichetta="Obiettivo"' : 'class="principale"'}>${esc(o.nome)} <span class="nota">${esc(o.unita || "")}</span></td><td class="num" data-etichetta="Base">${nf(o.base, 1)}${o.periodo_base ? ` <span class="nota">(${esc(o.periodo_base)})</span>` : ""}</td><td class="num" data-etichetta="Ultimo">${nf(o.ultimo, 1)}${o.periodo ? ` <span class="nota">(${esc(periodoBreve(o.periodo))})</span>` : ""}</td><td class="num" data-etichetta="Traguardo">${nf(o.obiettivo, 1)}</td>
         <td data-etichetta="Stato">${chip(STATO[o.stato] || ["", "circle-dashed", o.stato])}</td></tr>`).join("")}</tbody></table></div>`;
   }
 
@@ -998,7 +1000,7 @@
         <tbody>${(P.stime.righe || []).map((r) => `<tr><td class="principale">${esc(r.chi)}</td><td data-etichetta="Stima">${esc(r.cosa)}</td></tr>`).join("")}</tbody></table></div>
         <p class="nota">Fonti: ${esc(P.stime.fonti || "")}</p></section>` : ""}
       ${prop.length ? `<section class="blocco"><h2>Le proposte <small>${prop.length} nel programma</small></h2>
-        <ul class="ai-prop">${prop.map((p) => `<li><a href="${linkP(p.id)}"><span class="mono">${esc(p.id)}</span> ${esc(tit(p.titolo))}</a></li>`).join("")}</ul></section>` : ""}
+        <ul class="ai-prop">${prop.map((p) => `<li><a href="${linkP(p.id)}">${esc(tit(p.titolo))}</a> <span class="codice">${esc(p.id)}</span></li>`).join("")}</ul></section>` : ""}
       ${(P.limiti || []).length ? `<div class="avviso"><div class="avviso-titolo">${icona("info")}Limiti da tenere presenti</div><ul>${P.limiti.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div>` : ""}
       <p class="nota">Testi e fonti: ${ext(repo + "/blob/main/programma/ai_pagina.yaml", "programma/ai_pagina.yaml")}. Le proposte 09-C11 e 09-C12, con l'articolato e il controllo giuridico, sono nelle loro schede.</p>`;
   }
@@ -1410,7 +1412,7 @@
     const max = Math.max(...lista.map((x) => Math.abs(x.u)), 0.01);
     $("#classifica").innerHTML = lista.map((x, i) => {
       const salto = base.indexOf(x.p.id) - i;
-      return `<li><span class="pos">${i + 1}</span><span><a href="${linkP(x.p.id)}">${esc(tit(x.p.titolo))}</a> <span class="nota mono">${esc(x.p.id)}</span> ${x.p.classe === "robusta" ? chipClasse("robusta") : ""}</span>
+      return `<li><span class="pos">${i + 1}</span><span><a href="${linkP(x.p.id)}">${esc(tit(x.p.titolo))}</a> <span class="codice">${esc(x.p.id)}</span> ${x.p.classe === "robusta" ? chipClasse("robusta") : ""}</span>
         <span class="salto ${salto > 0 ? "su" : salto < 0 ? "giu" : ""}" aria-label="${salto > 0 ? `sale di ${salto}` : salto < 0 ? `scende di ${-salto}` : "stessa posizione"}">${salto > 0 ? "▲ " + salto : salto < 0 ? "▼ " + -salto : "="}</span>
         <div class="barra" aria-hidden="true"><span style="width:${Math.max(0, x.u) / max * 100}%"></span></div></li>`;
     }).join("");
@@ -1884,7 +1886,7 @@
             <div class="filtri" role="group" aria-label="Filtra le decisioni">${filtri.map(([k, t], i) => `<button type="button" data-filtro="${k}" aria-pressed="${i === 0}">${esc(t)}</button>`).join("")}</div>
             <p class="vh" aria-live="polite" id="esito-filtro"></p>
             <ul class="decisioni">${v.dec.map((d, i) => { const p = proposta(d.id); return `<li class="card decisione" data-esito="${esc(d.esito)}" ${i >= 6 ? "data-oltre hidden" : ""}>
-              <h3 class="titolo-card"><a href="${linkP(d.id)}">${esc(tit(p ? p.titolo : d.titolo))}</a> <span class="nota mono">${esc(d.id)}</span></h3>
+              <h3 class="titolo-card"><a href="${linkP(d.id)}">${esc(tit(p ? p.titolo : d.titolo))}</a> <span class="codice">${esc(d.id)}</span></h3>
               <div class="testa">${misuratore(DOSE[d.variante] != null ? d.variante : null)}${chip(ESITO_DEC[d.esito] || ["", "circle-dashed", d.esito])}${v.deroghe.some((x) => x.id === d.id) ? chip(["attenzione", "git-branch", "Con deroga"]) : ""}<span class="nota">Regola: ${esc(d.regola)}</span></div>
               <details><summary>Motivazione</summary><p class="motivo">${codici(esc(piano(d.motivo)))}</p></details></li>`; }).join("")}</ul>
             ${v.dec.length > 6 ? `<p class="altre"><button class="btn" type="button" data-azione="altre">Mostra tutte le ${v.dec.length} decisioni</button></p>` : ""}
@@ -1974,8 +1976,8 @@
     const conta = O.reduce((a, x) => (a[x.stato] = (a[x.stato] || 0) + 1, a), {});
     const lista = O.filter((o) => !tema || o.proposta.startsWith(tema));
     return `${schedeDati("obiettivi")}
-      <p class="risposta">Ogni misura ha obiettivi misurabili, con valore di partenza e traguardo. Il sistema li segue sulle serie ufficiali e impara dagli scostamenti.</p>
-      <div class="chips">${Object.entries(conta).map(([k, v]) => chip(["", "circle-dot", `${k}: ${v}`])).join("")}</div>
+      <p class="risposta">Ogni misura ha obiettivi misurabili, con un valore di partenza e un traguardo. Il programma non è in vigore: per ora seguiamo come va il Paese su questi numeri, così quando una misura partirà si vedrà subito se funziona.</p>
+      <div class="chips">${Object.entries(conta).map(([k, v]) => chip([...(STATO[k] || ["", "circle-dot", k])].map((x, i) => i === 2 ? `${x}: ${v}` : x))).join("")}</div>
       <form class="filtri-barra" onsubmit="return false"><label class="campo">Tema<select id="o-tema"><option value="">Tutti i temi</option>${Object.entries(D.aree).map(([k, v]) => `<option value="${k}" ${k === tema ? "selected" : ""}>${esc(v)}</option>`).join("")}</select></label></form>
       ${tabellaObiettivi(lista, true)}
       ${D.lezioni ? `<details class="richiudibile sezione" data-md-testo="${esc(D.lezioni)}"><summary>${icona("lightbulb")}Lezioni apprese<span class="freccia">${icona("chevron-down")}</span></summary><div class="corpo md"></div></details>` : ""}`;
@@ -2122,6 +2124,21 @@
   const TERMINI = [["Accisa", "accis[ae]"], ["Copertura", "coperture"], ["Detrazione", "detrazion[ei]"], ["Linea rossa", "line[ae] ross[ae]"], ["Nucleo robusto", "nucleo robusto"], ["Variante", "variant[ei]"], ["Spread", "spread"], ["PIL", "PIL"], ["PNRR", "PNRR"], ["ISEE", "ISEE"], ["LEP", "LEP"], ["NEET", "NEET"], ["HICP", "HICP"], ["IRES", "IRES"], ["IRAP", "IRAP"], ["UPB", "UPB"], ["RGS", "RGS"], ["DPB", "DPB"], ["DPFP", "DPFP"], ["ZES", "ZES"], ["TPL", "TPL"], ["Payback", "payback"], ["Clausola nazionale", "clausola nazionale"], ["Relazione tecnica", "relazion[ei] tecnich?[ae]"], ["Governo ombra", "governo ombra"], ["A regime", "a regime"], ["Scenario", "scenari[o]?"], ["Fondi di coesione", "fondi (?:europei )?(?:di|della) coesione"], ["Spese fiscali", "spese fiscali"], ["Sussidi dannosi per l'ambiente", "sussidi dannosi"]];
   const RE_TERMINI = new RegExp("(^|[^\\p{L}\\d])(" + TERMINI.map(([, r]) => r).join("|") + ")(?![\\p{L}\\d])", "iu");
   const definizione = (parola) => { const t = TERMINI.find(([, r]) => new RegExp("^(?:" + r + ")$", "iu").test(parola)); const g = t && GLOSSARIO.find((x) => x[0] === t[0]); return g ? g : null; };
+  function segnaCodici(radice) {
+    const salta = "a,button,h1,h2,h3,h4,summary,label,code,.mono,.codice,nav,select,option,textarea,input,.chip,.etichetta,script,style,[data-c]";
+    const w = document.createTreeWalker(radice, NodeFilter.SHOW_TEXT, { acceptNode: (n) => /\b\d{2}-[PC]\d{1,2}\b/.test(n.nodeValue) && !n.parentElement.closest(salta) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT });
+    const nodi = []; while (w.nextNode()) nodi.push(w.currentNode);
+    for (const n of nodi) {
+      const parti = n.nodeValue.split(/\b(\d{2}-[PC]\d{1,2})\b/);
+      if (parti.length < 2) continue;
+      const f = document.createDocumentFragment();
+      parti.forEach((t, i) => {
+        if (i % 2 && proposta(t)) { const a = document.createElement("a"); a.className = "codice"; a.href = linkP(t); a.textContent = t; a.title = tit(proposta(t).titolo); f.appendChild(a); }
+        else if (t) f.appendChild(document.createTextNode(t));
+      });
+      n.replaceWith(f);
+    }
+  }
   function segnaTermini(radice) {
     const visti = new Set();
     const salta = "a,button,h1,h2,h3,h4,summary,label,code,.mono,nav,select,option,textarea,input,.chip,.badge,.etichetta,dt,th,svg,script,style,.termine,.popover,[data-c]";
@@ -2255,7 +2272,7 @@
     const voce = !a ? "oggi" : a;
     html += scaricaDati(fileDiPagina(a, b, params));
     main.innerHTML = html;
-    if (["programma", "dati", "osservatorio", "governo", "controlli"].includes(a)) segnaTermini(main);
+    if (["programma", "dati", "osservatorio", "governo", "controlli"].includes(a)) { segnaCodici(main); segnaTermini(main); }
     if (C) C.monta(main);
     document.title = `${titolo} · GovernAI`;
     $$("[data-voce]").forEach((x) => { if (x.dataset.voce === voce) x.setAttribute("aria-current", "page"); else x.removeAttribute("aria-current"); });

@@ -968,3 +968,7 @@ details.capitolo .corpo{ padding-top:8px; }
 /* parole del glossario */
 .termine{ font:inherit; color:inherit; background:none; border:0; padding:0; border-bottom:1px dotted currentColor; cursor:help; text-align:inherit; }
 .termine:hover,.termine[aria-expanded="true"]{ color:var(--c-accento); }
+
+/* codici delle proposte: piccoli e grigi, il titolo viene prima */
+.codice{ font-family:var(--f-mono); font-size:max(12px,.78em); color:var(--c-testo-2); text-decoration:none; white-space:nowrap; }
+a.codice:hover{ color:var(--c-accento); text-decoration:underline; }
