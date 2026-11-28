@@ -1,62 +1,84 @@
 {
- "data": "2026-11-27T16:26:12",
+ "data": "2026-11-28T09:00:17",
  "prima_esecuzione": false,
- "eurostat_aggiornati": [],
+ "eurostat_aggiornati": [
+  "demo_find",
+  "demo_gind",
+  "demo_pjan",
+  "demo_pjangroup",
+  "edat_lfse_03",
+  "edat_lfse_14",
+  "edat_lfse_16",
+  "edat_lfse_20",
+  "edat_lfse_22",
+  "ei_bsco_m",
+  "env_ac_cur",
+  "env_air_gge",
+  "gba_nabsfin07",
+  "gov_10a_exp",
+  "gov_10a_main",
+  "gov_10a_taxag",
+  "gov_10dd_edpt1",
+  "gov_10q_ggdebt",
+  "hlth_rs_prs2",
+  "hlth_sha11_hc",
+  "hlth_sha11_hf",
+  "hlth_silc_08",
+  "ilc_iw01",
+  "ilc_lvho07c",
+  "irt_lt_mcby_m",
+  "isoc_ciegi_ac",
+  "isoc_eb_ai",
+  "isoc_sk_dskl_i21",
+  "isoc_sks_itspt",
+  "lfsa_egan",
+  "lfsi_emp_a",
+  "migr_asyappctza",
+  "migr_eiord",
+  "migr_eirtn",
+  "migr_pop1ctz",
+  "nama_10_gdp",
+  "nama_10_lp_ulc",
+  "namq_10_gdp",
+  "nasa_10_nf_tr",
+  "nrg_ind_ren",
+  "prc_hicp_aind",
+  "prc_hicp_minr",
+  "prc_hpi_a",
+  "proj_25ndbi",
+  "rd_e_gerdfund",
+  "rd_e_gerdtot",
+  "road_eqs_carhab",
+  "road_eqs_carpda",
+  "sbs_sc_ovw",
+  "sts_inpr_m",
+  "tepsr_sp200",
+  "tour_occ_nim",
+  "tour_occ_nin2",
+  "tour_occ_ninat",
+  "trng_lfs_14",
+  "trng_lfse_01",
+  "une_rt_m"
+ ],
  "file_aggiornati": [
-  "https://bdap-opendata.rgs.mef.gov.it/SpodCkanApi/api/3/datastore/dump/a7625ae5-79f7-41c5-b7ca-2e45dc40ea21.csv",
-  "https://www.agid.gov.it/sites/agid/files/2025-10/2025.10.08_CS_Rinnovo_convenzioni_Spid.pdf",
   "https://www.camera.it/temiap/2026/07/16/OCD177-9133.pdf"
  ],
  "documenti_nuovi": [
   {
-   "pagina": "ISTAT - Home e comunicati",
+   "pagina": "Gazzetta Ufficiale",
    "aree": [
+    "00",
+    "01",
     "02",
+    "03",
+    "04",
     "05",
-    "06"
+    "06",
+    "07",
+    "08",
+    "09"
    ],
-   "documento": "https://www.istat.it/comunicato-stampa/commercio-estero-extra-ue-ottobre-2026/"
-  },
-  {
-   "pagina": "ISTAT - Home e comunicati",
-   "aree": [
-    "02",
-    "05",
-    "06"
-   ],
-   "documento": "https://www.istat.it/comunicato-stampa/fatturato-dellindustria-e-dei-servizi-settembre-2026/"
-  },
-  {
-   "pagina": "Corte dei conti",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=02181dae-c7b9-4dc1-b0f4-64d5f1ef5d63"
-  },
-  {
-   "pagina": "Corte dei conti",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=9116a9b0-2449-43e3-aae4-b5323246e9b1"
-  },
-  {
-   "pagina": "Corte dei conti",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=c1b846d0-1a00-4f97-9b5a-0de2db5ba599"
-  },
-  {
-   "pagina": "Corte dei conti",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "documento": "https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=e82e689c-96b6-4b0e-bdc1-9cbc3439d32e"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-27&numeroGazzetta=92"
   },
   {
    "pagina": "Gazzetta Ufficiale",
@@ -72,15 +94,45 @@
     "08",
     "09"
    ],
-   "documento": "http://www.gazzettaufficiale.it/eli/id/2026/11/26/26G00229/sg"
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-27&numeroGazzetta=136"
+  },
+  {
+   "pagina": "Gazzetta Ufficiale",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "documento": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-27&numeroGazzetta=277"
   }
  ],
  "errori": [],
  "script": {
+  "00_macro.py": "ok",
   "00b_bilancio.py": "ok",
-  "03_ambiente.py": "ERRORE: requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-  "09_pa_digitale.py": "ERRORE: requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+  "00c_congiuntura.py": "ok",
+  "01_economia.py": "ok",
+  "02_lavoro.py": "ok",
+  "03_ambiente.py": "ok",
+  "04_infrastrutture.py": "ok",
+  "05_istruzione.py": "ok",
+  "06_salute.py": "ok",
+  "07_giustizia.py": "ok",
+  "08_esteri.py": "ok",
+  "09_pa_digitale.py": "ok",
+  "09b_personale_rgs.py": "ERRORE: requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='bdap-opendata.rgs.mef.gov.it', port=443): Read timed out. (read timeout=60)",
+  "bm_benchmark.py": "ok"
  },
- "serie_cambiate": [],
- "modalita": "mirato"
+ "serie_cambiate": [
+  "00c_fiducia_consumatori",
+  "bm_01_produttivita_ora"
+ ],
+ "modalita": "completo"
 }

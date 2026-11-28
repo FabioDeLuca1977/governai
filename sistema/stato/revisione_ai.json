@@ -1,60 +1,21 @@
 {
- "data": "2026-11-27",
+ "data": "2026-11-28",
  "compiti": [
   {
    "tipo": "documento_nuovo",
    "aree": [
+    "00",
+    "01",
     "02",
+    "03",
+    "04",
     "05",
-    "06"
+    "06",
+    "07",
+    "08",
+    "09"
    ],
-   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/commercio-estero-extra-ue-ottobre-2026/",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "02",
-    "05",
-    "06"
-   ],
-   "dettaglio": "ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/fatturato-dellindustria-e-dei-servizi-settembre-2026/",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=02181dae-c7b9-4dc1-b0f4-64d5f1ef5d63",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=9116a9b0-2449-43e3-aae4-b5323246e9b1",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=c1b846d0-1a00-4f97-9b5a-0de2db5ba599",
-   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
-  },
-  {
-   "tipo": "documento_nuovo",
-   "aree": [
-    "00",
-    "04"
-   ],
-   "dettaglio": "Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=e82e689c-96b6-4b0e-bdc1-9cbc3439d32e",
+   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-27&numeroGazzetta=92",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
   },
   {
@@ -71,8 +32,31 @@
     "08",
     "09"
    ],
-   "dettaglio": "Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/26/26G00229/sg",
+   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-27&numeroGazzetta=136",
    "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  },
+  {
+   "tipo": "documento_nuovo",
+   "aree": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "dettaglio": "Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-27&numeroGazzetta=277",
+   "cosa_fare": "Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu."
+  },
+  {
+   "tipo": "variazione_rilevante",
+   "aree": [],
+   "dettaglio": "Fiducia dei consumatori (saldo): -23.3 (2026-10) → -24.9 (2026-11)",
+   "cosa_fare": "Valutare se cambiano diagnosi, costi o priorità delle proposte collegate."
   }
  ]
 }

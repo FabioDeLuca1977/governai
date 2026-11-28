@@ -1,22 +1,18 @@
-# Bollettino GovernAI — 2026-11-27
+# Bollettino GovernAI — 2026-11-28
 
-*Generato automaticamente da `sistema/pipeline.py` alle 16:28. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
+*Generato automaticamente da `sistema/pipeline.py` alle 09:11. Fonti: Eurostat, ISTAT, MEF/RGS, Banca d'Italia e documenti ufficiali osservati.*
 
 ## 1. Cosa è cambiato nelle fonti
 
-- Modalità di aggiornamento: **mirato**
-- Dataset Eurostat aggiornati: nessuno
-- File ufficiali aggiornati: 3
-- Serie cambiate e archiviate in `dati/storico/`: nessuna
-- Documenti nuovi sulle pagine osservate: 7
-  - ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/commercio-estero-extra-ue-ottobre-2026/
-  - ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/fatturato-dellindustria-e-dei-servizi-settembre-2026/
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=02181dae-c7b9-4dc1-b0f4-64d5f1ef5d63
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=9116a9b0-2449-43e3-aae4-b5323246e9b1
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=c1b846d0-1a00-4f97-9b5a-0de2db5ba599
-  - Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=e82e689c-96b6-4b0e-bdc1-9cbc3439d32e
-  - Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/26/26G00229/sg
-- Problemi: 03_ambiente.py ERRORE: requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0); 09_pa_digitale.py ERRORE: requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+- Modalità di aggiornamento: **completo**
+- Dataset Eurostat aggiornati: demo_find, demo_gind, demo_pjan, demo_pjangroup, edat_lfse_03, edat_lfse_14, edat_lfse_16, edat_lfse_20, edat_lfse_22, ei_bsco_m, env_ac_cur, env_air_gge, gba_nabsfin07, gov_10a_exp, gov_10a_main, gov_10a_taxag, gov_10dd_edpt1, gov_10q_ggdebt, hlth_rs_prs2, hlth_sha11_hc, hlth_sha11_hf, hlth_silc_08, ilc_iw01, ilc_lvho07c, irt_lt_mcby_m, isoc_ciegi_ac, isoc_eb_ai, isoc_sk_dskl_i21, isoc_sks_itspt, lfsa_egan, lfsi_emp_a, migr_asyappctza, migr_eiord, migr_eirtn, migr_pop1ctz, nama_10_gdp, nama_10_lp_ulc, namq_10_gdp, nasa_10_nf_tr, nrg_ind_ren, prc_hicp_aind, prc_hicp_minr, prc_hpi_a, proj_25ndbi, rd_e_gerdfund, rd_e_gerdtot, road_eqs_carhab, road_eqs_carpda, sbs_sc_ovw, sts_inpr_m, tepsr_sp200, tour_occ_nim, tour_occ_nin2, tour_occ_ninat, trng_lfs_14, trng_lfse_01, une_rt_m
+- File ufficiali aggiornati: 1
+- Serie cambiate e archiviate in `dati/storico/`: 00c_fiducia_consumatori, bm_01_produttivita_ora
+- Documenti nuovi sulle pagine osservate: 3
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-27&numeroGazzetta=92
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-27&numeroGazzetta=136
+  - Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-27&numeroGazzetta=277
+- Problemi: 09b_personale_rgs.py ERRORE: requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='bdap-opendata.rgs.mef.gov.it', port=443): Read timed out. (read timeout=60)
 
 ## 2. Cruscotto
 
@@ -30,7 +26,7 @@
 | 🔴 | PIL reale (% sul trimestre prec.) | 2026-Q3 | 0,00 % | -0,20 | -0,20 |
 | 🔴 | Debito pubblico (% PIL, trimestrale) | 2026-Q2 *(provv.)* | 139,90 % PIL | +1,30 | +2,30 |
 | 🟢 | Produzione industriale (2021=100) | 2026-09 | 94,10 indice | +1,10 | -0,10 |
-| 🔴 | Fiducia dei consumatori (saldo) | 2026-10 | -23,30 saldo | -0,10 | -7,80 |
+| 🔴 | Fiducia dei consumatori (saldo) | 2026-11 | -24,90 saldo | -1,70 | -8,30 |
 | 🔴 | Debito pubblico (% PIL, annuo) | 2025 | 136,70 % PIL | +2,40 | — |
 | 🟢 | Saldo di bilancio (% PIL) | 2025 | -3,10 % PIL | +0,30 | — |
 | 🟢 | Spesa per interessi (% PIL) | 2025 | 3,80 % PIL | -0,10 | — |
@@ -53,36 +49,46 @@
 - **debito_in_salita**: Debito/PIL in aumento di oltre 1 punto in un trimestre. (valore 139,90 % PIL, 2026-Q2)
   - Azione: Applicare la regola FUT: nessuna variante finanziata a debito; rivedere la traiettoria della Difesa.
   - Priorità: —; sospese: 07-C5
-- **fiducia_in_calo**: Fiducia dei consumatori in netto calo sull'anno. (valore -23,30 saldo, 2026-10)
+- **fiducia_in_calo**: Fiducia dei consumatori in netto calo sull'anno. (valore -24,90 saldo, 2026-11)
   - Azione: Segnale di rischio per i consumi; valutare la tempistica delle coperture che pesano sui consumatori (IVA, accise).
   - Priorità: —; sospese: —
 
 ## 4. Programma del momento
 
-Non ricalcolato: nessun dato nuovo e nessuna nuova allerta.
+Il programma di riferimento (tutte le coperture, nucleo robusto prima) costa **14,06 mld/anno**; il programma adattato al momento costa **14,07 mld/anno**. Entrambi sono finanziati senza deficit.
+
+**Differenze rispetto al riferimento** (effetto delle allerte):
+
+- 01-P6: PIENA → ESSENZIALE
+- 02-C1: ZERO → PIENA
+- 05-C8: PIENA → ESSENZIALE
+- 06-C9: ESSENZIALE → PIENA
+- 07-C6: PIENA → ESSENZIALE
+
+**Cambiamenti rispetto al bollettino precedente:**
+
+- nessuno
+
+Dettaglio: `programma/selezione_momento.md`.
 
 ## 5. Revisione AI richiesta
 
-**7 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
-- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/commercio-estero-extra-ue-ottobre-2026/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] ISTAT - Home e comunicati: https://www.istat.it/comunicato-stampa/fatturato-dellindustria-e-dei-servizi-settembre-2026/ → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=02181dae-c7b9-4dc1-b0f4-64d5f1ef5d63 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=9116a9b0-2449-43e3-aae4-b5323246e9b1 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=c1b846d0-1a00-4f97-9b5a-0de2db5ba599 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Corte dei conti: https://www.corteconti.it/HOME/Documenti/DettaglioDocumenti?Id=e82e689c-96b6-4b0e-bdc1-9cbc3439d32e → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
-- [documento_nuovo] Gazzetta Ufficiale: http://www.gazzettaufficiale.it/eli/id/2026/11/26/26G00229/sg → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+**4 compiti** per il livello AI (`sistema/stato/revisione_ai.json`):
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/concorsi/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-27&numeroGazzetta=92 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/contratti/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-27&numeroGazzetta=136 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [documento_nuovo] Gazzetta Ufficiale: https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-11-27&numeroGazzetta=277 → Leggere il documento; se cambia dati, stime o coperture usate dai dossier, aggiornare verifiche, registro/fondi.csv, programma/varianti o coperture_menu.
+- [variazione_rilevante] Fiducia dei consumatori (saldo): -23.3 (2026-10) → -24.9 (2026-11) → Valutare se cambiano diagnosi, costi o priorità delle proposte collegate.
 
 ## Registro tecnico
 
-- sentinella: sentinella: mirato; Eurostat aggiornati 0, file 3, documenti nuovi 7, serie cambiate 0, errori 0
+- sentinella: sentinella: completo; Eurostat aggiornati 57, file 1, documenti nuovi 3, serie cambiate 2, errori 0
 - apprendimento: 193 KPI, stati {'manuale': 147, 'in osservazione': 46}, aree calibrate 0
-- legislazione: archivio GU: 930 atti, 930 con testo; nuovi 0; testi scaricati 0; richieste 2; errori 0
-- ERRORE europa: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/governai/governai/europa/archivio/testi/2026/32026H03925.txt'
-- costituzione: 0 atti con forza di legge esaminati; con segnali alti 0
-- consiglio: 95 previsioni, 0 verificate oggi, 8 verificate in totale
+- legislazione: archivio GU: 951 atti, 951 con testo; nuovi 21; testi scaricati 21; richieste 135; errori 0
+- europa: europa: 1033 atti GU L in archivio, 343 negli ultimi 30 giorni; 147 direttive con termine (24 critiche, 9 alte); 85 infrazioni aperte; semestre: procedura per disavanzo eccessivo sospesa (raccomandazione del Consiglio del 10/07/2026); richieste 24
+- costituzione: 2 atti con forza di legge esaminati; con segnali alti 0
+- consiglio: 95 previsioni, 2 verificate oggi, 10 verificate in totale
 - verifica sedute: 2 attive, 0 confermate, 2 da riesaminare
-- modelli non ricalcolati: nessun dato nuovo e nessuna nuova allerta
-
-## 6. Nota del livello AI
-
-Livello AI non eseguito: credenziali dell'API di Claude assenti (impostare la variabile d'ambiente ANTHROPIC_API_KEY).
+- controlla.py: avvisi: 0  ->  bilancio.md
+- decidi.py: -> esito.md, esito_proposte.csv
+- ottimizza.py (riferimento): spesa 14.06  coperture 11.98  proposte 87/97  -> selezione_riferimento.md
+- ottimizza.py (momento): spesa 14.07  coperture 11.98  proposte 87/97  -> selezione_momento.md

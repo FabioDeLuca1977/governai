@@ -19,7 +19,7 @@ P0017,2026-11-08,ministro_05,inflazione,>,4.5,2026-12,0.7,,,,
 P0018,2026-11-08,ministro_05,neet,<,13.3,2026,0.65,,,,
 P0019,2026-11-08,ministro_06,inflazione,>,5.0,2026-11,0.72,,,,
 P0020,2026-11-08,ministro_06,pil_trimestrale,<,0.3,2026-Q4,0.8,,,,
-P0021,2026-11-08,ministro_06,fiducia_consumatori,<,-20.0,2026-11,0.8,,,,
+P0021,2026-11-08,ministro_06,fiducia_consumatori,<,-20.0,2026-11,0.8,,1,-24.9,0.04
 P0022,2026-11-08,ministro_07,inflazione,>,4.5,2026-11,0.85,,,,
 P0023,2026-11-08,ministro_07,spread,>,80.0,2026-10,0.75,,1,126.4,0.0625
 P0024,2026-11-08,ministro_07,disoccupazione,>,6.0,2026-10,0.8,,,,
@@ -48,7 +48,7 @@ P0046,2026-11-08-1-conti-in-ordine,ministro_03,pil_trimestrale,<,0.3,2026-Q4,0.7
 P0047,2026-11-08-1-conti-in-ordine,ministro_03,produzione_industriale,<,95.0,2026-12,0.8,,,,
 P0048,2026-11-08-1-conti-in-ordine,ministro_04,inflazione,>,4.5,2026-12,0.7,,,,
 P0049,2026-11-08-1-conti-in-ordine,ministro_04,debito_trimestrale,>,138.5,2026-Q3,0.75,,,,
-P0050,2026-11-08-1-conti-in-ordine,ministro_04,fiducia_consumatori,<,-20.0,2026-11,0.8,,,,
+P0050,2026-11-08-1-conti-in-ordine,ministro_04,fiducia_consumatori,<,-20.0,2026-11,0.8,,1,-24.9,0.04
 P0051,2026-11-08-1-conti-in-ordine,ministro_05,fecondita,<,1.17,2025,0.9,,,,
 P0052,2026-11-08-1-conti-in-ordine,ministro_05,neet,<,13.5,2026,0.7,,,,
 P0053,2026-11-08-1-conti-in-ordine,ministro_05,disoccupazione_giovani,>,18.0,2026-12,0.8,,,,
